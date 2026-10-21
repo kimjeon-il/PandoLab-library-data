@@ -37,7 +37,7 @@ Windows 앱 전용 자료 편집, 외부 원본 저장, 비공개 GitHub 동기�
 
 이웃 경계 버전의 유효 기간이 다르면 저장을 거부한다. 자동 기간 분할은 구현하지 않았으며 자료 편집에서 버전 기간을 먼저 맞춰야 한다.
 
-원격 rollout에는 `kimjeon-il/Pando-library-data`의 초기 커밋, 기존 gh 인증, `PANDO_LIBRARY_READ_TOKEN`, 공개 `library-data` 배포 브랜치 및 main에 통합된 workflow가 필요하다. 이번 작업에서 원격 생성·푸시·main 병합·배포는 하지 않았다.
+원격 rollout에는 `kimjeon-il/PandoLab-library-data`의 초기 커밋, 기존 gh 인증, `PANDO_LIBRARY_READ_TOKEN`, 공개 `library-data` 배포 브랜치 및 main에 통합된 workflow가 필요하다. 이번 작업에서 원격 생성·푸시·main 병합·배포는 하지 않았다.
 
 ## 보존
 

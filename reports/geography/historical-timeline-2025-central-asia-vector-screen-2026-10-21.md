@@ -14,7 +14,7 @@
 
 ## 후보 메타데이터 후속 검토
 
-최신 [벡터 자료 운영 규칙](../../docs/historical-vector-source-workflow.md)에 따라 위 공개 목록·API 본문을 읽었다. 원본 보고서 커밋은 `e5b31d700fb6a9e2e2b0ab67356b3883011f22c3`이다. 형상 데이터 파일 자체는 다운로드하지 않았으므로 아래 상태는 모두 **source-indexed / 역사 적합성 provisional**이다.
+최신 [벡터 자료 운영 규칙](https://github.com/kimjeon-il/Pando/blob/75499e014542747def35653a73b753e208ed0d31/docs/historical-vector-source-workflow.md)에 따라 위 공개 목록·API 본문을 읽었다. 원본 보고서 커밋은 `e5b31d700fb6a9e2e2b0ab67356b3883011f22c3`이다. 형상 데이터 파일 자체는 다운로드하지 않았으므로 아래 상태는 모두 **source-indexed / 역사 적합성 provisional**이다.
 
 | 후보·공간 범위 | 판본·시간 의미 | 권리·검증 한계 | 후속 판단 |
 | --- | --- | --- | --- |

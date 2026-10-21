@@ -5,7 +5,7 @@
 > 보고서 ID: `DEV-080` · 상태: `investigating` · 지도 반영: `not-applicable` · 색인일: 2026-10-16
 > 원문 최종 수정: 2026-10-16
 > 조사 기준: `work/ui`, 2026-10-16
-> 원본·출처: [앱 실행법](../../../apps/web-shell/README.md), [세계 데이터 manifest](../../../assets/data/world/current.json)
+> 원본·출처: [앱 실행법](https://github.com/kimjeon-il/Pando/blob/75499e014542747def35653a73b753e208ed0d31/apps/web-shell/README.md), [세계 데이터 manifest](../../../assets/data/world/current.json)
 2-3A: 전체 세계지도 앱은 `apps/web-shell/startup.js`에서 웹의 `assets/js/bootstrap.js`를 호출한다.
 기존 웹 `data-loader-worker.js`가 빠른 미리보기 → 원본 국가 packet → 정본 메시를 로딩한다.
 `assets/js/app.js`는 Tauri가 미리 주입한 platform 기능만 선택적으로 넘기고, 웹에서는 기존 기본값 `{}`를 사용한다.
