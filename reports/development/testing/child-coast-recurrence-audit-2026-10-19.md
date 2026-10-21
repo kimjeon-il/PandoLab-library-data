@@ -10,7 +10,7 @@
 - 수정 커밋 `740e6669`부터 현재 HEAD까지 `boundary-topology.js`, `country-shared-boundary-packet.js`, `country-shared-boundary-worker.js`, `canvas-scene-composition-core.js`, `gpu-map-renderer.js`, `child-coast-boundary.spec.mjs`의 diff를 확인했다. 결과는 비어 있다.
 - 공개 사이트에서 앞의 경계 관련 4개 파일을 다시 GET하고 HTTP 200, 현재 Git blob과 SHA-256 일치를 확인했다. 작업 디렉터리의 CRLF 변환과 구별하기 위해 비교 기준을 Git blob으로 삼았다.
 - 별도로 띄운 Edge의 새 컨텍스트에서 WebGL을 비활성화하고 실제 Canvas Worker를 사용했다. 공개 응답은 수정하지 않고 Worker 메시지를 관찰했다. 내장 지도, 1280×800 CSS px, 색채 지형, 홍콩 중심 지구본 배율 16에서 상세 DEM 준비 후 경계 패킷을 기록했다.
-- 원시 계측 스크립트와 PNG는 `D:\dev\release-evidence\diagnose-coast-recurrence.mjs`, `coast-audit-initial.png`, `coast-audit-restored.png`에 있다. 요약과 파일 hash는 [기계 판독 근거](child-coast-recurrence-audit-2026-10-19.evidence.json)에 보존한다.
+- 원시 계측 스크립트와 PNG는 `D:\dev\release-evidence\diagnose-coast-recurrence.mjs`, `coast-audit-initial.png`, `coast-audit-restored.png`에 있다. 요약과 파일 hash는 [기계 판독 근거](../../../archive/blobs/227b9294ad72c1e5269e192dd1455d5c539dadcbac14cd075a708e0fb76dab5f.gz)에 보존한다.
 
 ## 대상과 기준
 ## 근거와 방법

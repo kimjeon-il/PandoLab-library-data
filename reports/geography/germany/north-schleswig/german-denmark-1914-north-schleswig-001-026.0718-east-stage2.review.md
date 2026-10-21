@@ -8,7 +8,7 @@
 - **종료 좌표**: (8.833333333333332, 55.27205685739951) — 0719 Spandet 도엽과의 접점.
 - **역사 기준일**: 1914-07-31.
 - **사료**: [Messtischblatt 34 Hvidding](https://www.deutschefotothek.de/documents/obj/71051522), 목록상 1878년 측량 / 1880년 발행, SLUB 원본 WMS ID 10006008.
-- **검증 규칙**: [역사적 국경·해안선 복원 공통 정책](../../../../docs/historical-border-reconstruction-policy.md). 2560 CSS px 화면, 평면 최대 확대 64, 정밀화 종료 목표 0.5 CSS px. 역사적 귀속·연대·하천·위상 문제는 화면 크기와 관계없이 필수 검증.
+- **검증 규칙**: [역사적 국경·해안선 복원 공통 정책](https://github.com/kimjeon-il/Pando/blob/75499e014542747def35653a73b753e208ed0d31/docs/historical-border-reconstruction-policy.md). 2560 CSS px 화면, 평면 최대 확대 64, 정밀화 종료 목표 0.5 CSS px. 역사적 귀속·연대·하천·위상 문제는 화면 크기와 관계없이 필수 검증.
 - **작업 브랜치**: 웹·앱 work/gis. main 미변경.
 기존 후보선을 1880년 Hvidding 원본 지도에 중첩하여 전체 이미지 1장·상세 이미지 2장을 작성했다. 0719 Spandet 원본을 같은 지리 범위에서 중첩한 접합부 이미지도 1장 작성했다.
 - **서쪽 상세 화면**: 국경 표식 약 **8~10번** 및 **8번 부근의 뚜렷한 북동 방향 꺾임**을 현행 교구 기반 후보선이 대체로 따른다.

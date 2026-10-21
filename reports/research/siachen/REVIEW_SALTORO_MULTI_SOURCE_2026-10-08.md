@@ -7,10 +7,10 @@
 - 상태: **다중 고도모델·2025/2026 광학영상·지명좌표 교차검증 완료, 정밀 AGPL 선형 확정 불가**
 - 연구 브랜치: \`research/siachen-rgi7-outline\`. 본 문서와 새로운 분석 결과만 추가. **기존 RGI 빙하 폴리곤 / 분쟁지역 / 인도·파키스탄 분할 / AGPL / 웹 메인 데이터 변경 없음.**
 서로 다른 제작 계열의 공개 고도모델을 개별 지리공간 래스터로 다운로드, 30m UTM 43N에서 같은 AGPL 단면을 대조했다.
-원본 다운로드 URL과 검사 결과: [다중 DEM 검증 JSON](siachen_multidem_ridge_comparison.json), [COP30 확장 탐색 JSON](siachen_saltoro_ridge_terrain_diagnostics.json).
+원본 다운로드 URL과 검사 결과: [다중 DEM 검증 JSON](../../../archive/blobs/80598cefc3da0b601c62534438f90bdf6cc77d39eb9ab665555045be3d3d1135.gz), [COP30 확장 탐색 JSON](../../../archive/blobs/305fc45845e3b761c21e9963fc2b947e750a54988d11c7b828b94fa49758b5ce.gz).
 Sentinel-2 L2A 10m RGB 및 Scene Classification Layer (SCL), **2025-09-23**(\`S2B_43SFV_20250923_0_L2A\`)과 **2026-08-29**(\`S2B_43SFV_20260829_0_L2A\`), 자료 ID를 고정한 뒤 같은 AGPL과 DEM 표본점을 겹쳤다.
 **중요**: 90km 영상의 AGPL 부근에는 구름/그림자 마스크로 가려진 영역도 포함된다. 영상만으로 그 자리가 주능선인지, 고정된 얼음 지형인지, 실제 군사선인지 식별할 수 없다. 또한 영상의 계절적 눈과 RGI 2002년 얼음 외곽선은 엄연히 다른 자료다.
-원본 촬영 ID·밴드 URL·품질: [km90 영상 비교 JSON](siachen_s2_km90_corridor.json).
+원본 촬영 ID·밴드 URL·품질: [km90 영상 비교 JSON](../../../archive/blobs/3a3f0c646aa1e45c8cfeb0332c73fce51551b853c8a609c8da3c9a2b8f3b271e.gz).
 이전 161개 단면(±900m) 검증에서는 90.538, 90.788, 91.038km 지점의 최고점이 항상 약 +890m였다. 이 값은 **검색범위 끝점**의 영향을 받았고 진짜 능선의 확정 위치가 아니다. 검색범위를 ±1800m까지 넓힌 분석에서는 다음이 확인된다.
 데이터셋별 평활화와 격자 차이 때문에 고도 차이를 일정한 한 수치로 합산하지 않았다.
 
