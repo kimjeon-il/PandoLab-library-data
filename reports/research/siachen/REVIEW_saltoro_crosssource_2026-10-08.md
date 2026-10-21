@@ -6,7 +6,7 @@
 조사 브랜치: research/siachen-rgi7-outline  
 결론: **광학영상·독립 고도자료 교차검증 완료 / 공식 AGPL 선형 보정은 보류 / 원래 국경·빙하 폴리곤 변경 없음**
 해당 고도자료의 원본 URL, 파일 크기, SHA-256, 유효 셀 비율은
-[siachen_multidem_ridge_comparison.json](siachen_multidem_ridge_comparison.json)에 기록했다.
+[siachen_multidem_ridge_comparison.json](../../../archive/blobs/80598cefc3da0b601c62534438f90bdf6cc77d39eb9ab665555045be3d3d1135.gz)에 기록했다.
 해당 GitHub 브랜치의 결과물은 **공개 지형지도 분석용**이며 현장 작전 위치 추정이나 주권 판정에 사용해서는 안 된다.
 이전에는 ±900m만 탐색해 +890m의 국소 최고점이 나타났다. +890m는 창의 끝이므로
 그 자체가 주능선이나 지형 경계의 위치를 뜻하지 않는다.

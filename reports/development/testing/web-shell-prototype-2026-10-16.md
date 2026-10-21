@@ -5,7 +5,7 @@
 > 보고서 ID: `DEV-078` · 상태: `investigating` · 지도 반영: `not-applicable` · 색인일: 2026-10-16
 > 원문 최종 수정: 2026-10-16
 > 조사 기준: 통합 저장소 `work/ui` / `c8063caa219d3dc8e25be637b398f50db4689c21` + 미커밋 구현
-> 원본·출처: [구현 기록](../../../docs/superpowers/plans/2026-10-16-web-shell-prototype.md), [실행 방법](../../../apps/web-shell/README.md)
+> 원본·출처: [구현 기록](https://github.com/kimjeon-il/Pando/blob/401bac86bf63e10177af34bb3014bd39a5dcbd33/docs/superpowers/plans/2026-10-16-web-shell-prototype.md), [실행 방법](https://github.com/kimjeon-il/Pando/blob/401bac86bf63e10177af34bb3014bd39a5dcbd33/apps/web-shell/README.md)
 Tauri 2가 현재 웹 UI·WebGL 렌더러·Core Worker·WASM을 실행하는 시험용 앱이다. 기존 Qt 앱을 교체하지 않으며, 기본 세계·DEM·수계·지명 자료를 받지 않는다. 가상 국가 2개와 하위 객체 1개, 입력 좌표 15개를 실제 문서 모델에 전달한다. 앱의 일반 파일 가져오기도 객체 20개·좌표 100개·1 MiB 이하로 제한한다.
 웹 실행 자료는 `apps/web-shell/stage.mjs`가 같은 저장소의 웹 소스에서 생성한다. 전체 세계 자료를 제외한 UI·폰트·현재 코덱 등을 포함한 실행 자료는 891개 파일, 55,742,324바이트다. 포터블·설치 프로그램·main 반영·푸시·배포는 이번 범위에 포함하지 않는다.
 - fixture SHA-256: `f1b518fc094ea1de67182351d5b3680885ab76265271154cfe9af8963b76d323`.
