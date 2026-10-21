@@ -10,7 +10,7 @@
 **Checked:** 2026-10-09 on Web `Pando` branch `work/gis`.  
 **Source:** Canonical source: `assets/data/territorial-entities/source/countries/nld.json` (repository root relative).  
 **Canonical geometry:** `assets/data/territorial-entities/source/countries/nld.json`, entity `state:NLD`, version `state:NLD:natural-earth-5.1.1`.  
-**Machine-readable source and regression:** [canonical-phase0-probes.json](../../../tools/historical-library/sources/netherlands/canonical-phase0-probes.json), `tests/unit/historical-netherlands-coast-phase0.test.mjs`.
+**Machine-readable source and regression:** [canonical-phase0-probes.json](../../../archive/blobs/25193bedda919378d66f61cf42e1603bc116c562773487d93fc22596a2eac9e8.gz), `tests/unit/historical-netherlands-coast-phase0.test.mjs`.
 
 ## 1. What was actually checked
 ## 2. Baseline point results

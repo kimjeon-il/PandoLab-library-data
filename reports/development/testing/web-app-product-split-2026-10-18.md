@@ -5,7 +5,7 @@
 > 보고서 ID: `UI-PRODUCT-SPLIT-20261018` · 상태: `focused-verified / native-device-unverified` · 지도 반영: `not-applicable` · 색인일: 2026-10-18  
 > 원문 최종 수정: 2026-10-18  
 > 조사 기준: 웹·앱 동일 `work/ui` HEAD `904a5cf6e797af3e055e2dcccbb16eb2ca0d93e0` + 미커밋 작업 사본  
-> 원본·출처: 사용자가 승인한 구현 계획 및 추가 UI 지시, [실행 기록](../../../docs/superpowers/plans/2026-10-18-viewer-editor-split.md)
+> 원본·출처: 사용자가 승인한 구현 계획 및 추가 UI 지시, [실행 기록](https://github.com/kimjeon-il/Pando/blob/836cc4e570446ac3e3c8bc3034aa788886145221/docs/superpowers/plans/2026-10-18-viewer-editor-split.md)
 기존 상설 `D:\dev\worktrees\ui`를 사용했다. 착수 전부터 있던 프로젝트 설정·타임라인·편집·C++ 변경은 보존했다. 자동 stash/reset, 분야 간 변경 이동, main 통합, 커밋·푸시·배포는 하지 않았다. 원래 작업 사본이 dirty였으므로 HEAD만으로 아래 결과를 재현할 수 없다.
 웹과 Windows·Android 앱은 같은 C++/WASM 문서와 지도 렌더러·현재 GeoPackage 형식을 쓴다. 웹 시작점은 고정된 `viewer`, 앱 시작점은 고정된 `editor` 정책이다. URL/DOM/화면 크기/Tauri 검출로 편집 권한을 바꾸지 않는다.
 사용자 추가 지시를 반영하여 웹은 기존 상단 파일·보기 메뉴, 하단 검색 도구, 정보창, 공통 UI 토큰과 스타일을 사용한다. 제목은 **판도연구소**이며 화면에 “뷰어” 또는 “읽기 전용” 배지를 두지 않는다. 보기 메뉴는 현재 편집기의 일반(상위·하위 객체), 지방, 지명, 강, 호수, 기타 객체, 분포 구성을 따른다. 별도 폐기 분류를 되살리지 않았다.

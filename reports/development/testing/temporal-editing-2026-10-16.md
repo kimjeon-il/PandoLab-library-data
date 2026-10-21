@@ -5,7 +5,7 @@
 > 보고서 ID: `DEV-077` · 상태: `implemented` · 지도 반영: `not-applicable` · 색인일: 2026-10-16  
 > 원문 최종 수정: 2026-10-16  
 > 조사 기준: 최종 코드 `b0db96fc` (`work/objects`), 아래 실행별 SHA 구분  
-> 원본·출처: [실행 계약](../../../docs/superpowers/plans/2026-10-16-temporal-editing-execution.md)
+> 원본·출처: [실행 계약](https://github.com/kimjeon-il/Pando/blob/836cc4e570446ac3e3c8bc3034aa788886145221/docs/superpowers/plans/2026-10-16-temporal-editing-execution.md)
 선택한 자료의 기준일과 편집 지도의 적용 월을 분리한다. 1991년 자료를 2012년 지도에 넣으면 생성 시점은 2012년이며 자료 기준일은 출처로 보존한다. 이름·국기·색상은 각 속성의 다음 명시적 변경까지 적용한다. 저장본의 `editorState.lastViewedMonth`는 재개 위치이며 문서 Undo/dirty 상태의 소유자가 아니다.
 앱의 향후 방향은 앱에 포함한 Web UI·WebGL·Worker·WASM의 공유다. 이번 변경은 공통 계산과 현재 Qt 어댑터에 한정하며 앱 실행 틀 전환의 검증 결과로 해석하지 않는다.
 전체 테스트를 실행하지 않았다. 변경된 타임라인·지명·라이브러리 계약과 해당 사용자 흐름만 확인한다.

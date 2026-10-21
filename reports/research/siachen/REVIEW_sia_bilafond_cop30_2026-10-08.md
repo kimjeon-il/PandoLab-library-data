@@ -11,8 +11,8 @@
   - 사용 원본: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E076_00_DEM/Copernicus_DSM_COG_10_N35_00_E076_00_DEM.tif
   - 다운로드 입력 SHA-256: \`362c08afd374afb88ac380a34b3ac3536e750f2d339d259075f01e659073473f\` (40,237,865 byte).
   - 주요 측량원: TanDEM-X 2011~2015, 일부 과거 자료로 공백 보간. 관측 연도·고도 기준계가 다른 출처와 완전히 일치하지 않으므로 현재의 현장 측량으로 간주하지 않는다.
-- **OSM AGPL 근사선:** OpenStreetMap relation 13559521, 2026-10-04 스냅샷을 바탕으로 공개 재구성한 190점 LineString. [출처](https://www.openstreetmap.org/relation/13559521) / [자료 파일](siachen_agpl_osm_candidate.geojson). ODbL 1.0.
-- **빙하 비교자료:** RGI 7.0 \`RGI2000-v7.0-G-14-20040\` (2002-07-10 촬영·관측일), [자료 파일](siachen_glacier_rgi7.geojson).
+- **OSM AGPL 근사선:** OpenStreetMap relation 13559521, 2026-10-04 스냅샷을 바탕으로 공개 재구성한 190점 LineString. [출처](https://www.openstreetmap.org/relation/13559521) / [자료 파일](../../../archive/blobs/233836d1312448a557613ac29a80835a94dd073e8038251f71a8d0392aa6bcd8.gz). ODbL 1.0.
+- **빙하 비교자료:** RGI 7.0 \`RGI2000-v7.0-G-14-20040\` (2002-07-10 촬영·관측일), [자료 파일](../../../archive/blobs/3c394adc4640fbf1beb46071323920e6b3933266e2f422142dba99e89f39b723.gz).
 
 ## 1. 입력 자료
 ## 2. 방법과 검증
