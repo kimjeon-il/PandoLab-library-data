@@ -1,7 +1,11 @@
 # PandoLab library data
 
-Storage only: no tests, validators or generators run in this repository.
+Storage only. No tests, validation jobs or generators run in this repository. Application tools live in [Pando](https://github.com/kimjeon-il/Pando).
 
-Current terrain: terrain/v0.13.3/. LOD0-5 are resolution levels of one dataset. Older tint/manifests are removed; original bytes remain in Git history. Tile pixels are unchanged.
+- [Reports and research index](reports/README.md)
+- [Compressed original evidence](archive/README.md)
+- Editable library: library.json and objects/.
+- Runtime baseline: assets/data/. Branches preserve paired app datasets.
+- Current terrain: terrain/v0.13.3/, LOD0-5 of one dataset. Older tint/manifests remain in Git history. Pixels are unchanged.
 
-Application and publication tools: https://github.com/kimjeon-il/Pando
+Only terrain is published from gh-pages. Main holds the full storage corpus and is not a Pages source.
