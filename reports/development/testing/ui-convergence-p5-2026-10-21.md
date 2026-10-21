@@ -3,7 +3,7 @@
 > 보고서 ID: `UI-CONVERGENCE-P5-20261021` · 상태: `implemented / isolated-unit-verified / browser-native-unverified` · 지도 반영: `not-applicable` · 색인일: 2026-10-21  
 > 원문 최종 수정: 2026-10-21  
 > 수정 기준: `work/ui`의 `6fc982bfe1b3f13c0ce9988af0a73d1358f0be2b` (P4 `979028ba690c4ed1d22dfeed88959106a02527d5` 포함)  
-> 근거: [P0 구조 조사](ui-convergence-p0-audit-2026-10-20.md), [P4 Surface 정리](ui-convergence-p4-2026-10-21.md), [UI 공통 구조](../../../docs/architecture/ui-architecture.md)
+> 근거: [P0 구조 조사](ui-convergence-p0-audit-2026-10-20.md), [P4 Surface 정리](ui-convergence-p4-2026-10-21.md), [UI 공통 구조](https://github.com/kimjeon-il/Pando/blob/7edbf231501cad51346dc5d2d626ba8acb31379b/docs/architecture/ui-architecture.md)
 
 > 후속 검증: [UI-SYNC-CLEANUP-20261021](ui-sync-test-cleanup-2026-10-21.md)에서 실제 탭 전환 회귀를 수정하고 Node 단위 검사·모바일 브라우저 검사를 실행했다. 아래 결과는 원래 P5 작성 당시의 기록이다.
 

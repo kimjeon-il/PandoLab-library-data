@@ -18,7 +18,7 @@
 | `work/ui`, `work/objects`, `work/places`와 각 원격 브랜치 | 고유 커밋 없음 | 이미 main에 포함 |
 | `origin/feature/reference-image-p1-layout-20261018` | 고유 커밋 없음 | 이미 main에 포함, 기존 브랜치 보존 |
 
-변경은 [역사 복원 정책](../../../docs/historical-border-reconstruction-policy.md) 6행 추가와 [벡터 자료 조사 운영 규칙](../../../docs/historical-vector-source-workflow.md) 62행뿐이다. 새 운영 규칙의 보고서 경로는 `work/gis`라는 디렉터리를 새로 만들지 않도록 브랜치의 저장소 루트 `reports/geography/`로 명확히 했다(`da9c9dcc`). 기존 정책의 나머지 본문은 그대로 유지했다. 충돌은 없었다.
+변경은 [역사 복원 정책](https://github.com/kimjeon-il/Pando/blob/7edbf231501cad51346dc5d2d626ba8acb31379b/docs/historical-border-reconstruction-policy.md) 6행 추가와 [벡터 자료 조사 운영 규칙](https://github.com/kimjeon-il/Pando/blob/7edbf231501cad51346dc5d2d626ba8acb31379b/docs/historical-vector-source-workflow.md) 62행뿐이다. 새 운영 규칙의 보고서 경로는 `work/gis`라는 디렉터리를 새로 만들지 않도록 브랜치의 저장소 루트 `reports/geography/`로 명확히 했다(`da9c9dcc`). 기존 정책의 나머지 본문은 그대로 유지했다. 충돌은 없었다.
 
 정책 통합 SHA에서 main과 work/gis를 atomic push했다. 원격 main·work/gis가 해당 SHA와 같고, fetch된 모든 원격 브랜치의 `main..branch` 커밋 수가 0임을 확인했다. 이 기록·색인만 추가하는 후속 커밋도 같은 두 브랜치에 반영한다.
 

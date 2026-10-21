@@ -9,7 +9,7 @@
 - 시작(0718 Hvidding 접합): **(8.833333333333332, 55.27205685739951)**.
 - 끝(0619 Hügum 접합): **(8.926995045276211, 55.3)**.
 - 브랜치: 웹·앱 **work/gis**; main은 수정하지 않음.
-- 적용 정책: [역사적 국경 복원 공통 규칙](../../../../docs/historical-border-reconstruction-policy.md), 2560 CSS px·flatZoom64·0.5px. 국경 시점·영토 귀속·수계·접합 오류는 픽셀 크기와 무관하게 검증한다.
+- 적용 정책: [역사적 국경 복원 공통 규칙](https://github.com/kimjeon-il/Pando/blob/7edbf231501cad51346dc5d2d626ba8acb31379b/docs/historical-border-reconstruction-policy.md), 2560 CSS px·flatZoom64·0.5px. 국경 시점·영토 귀속·수계·접합 오류는 픽셀 크기와 무관하게 검증한다.
 [0719 Spandet 원본](https://www.deutschefotothek.de/documents/obj/71051523), WMS ID **10006007**, 레이어 **df_dk_0010001_0719**에 현재 교구 기반 후보선을 중첩해 **전체 1장, 서쪽·중앙·동쪽 상세 각 1장, 양측 접합부 각 1장**을 직접 확인했다.
 육안상 **수 km급 큰 국경선 진행 오류는 보이지 않음**. 다만 독립적인 역사 경계 벡터가 없으므로 역사적 화면 최대 편차 0.5 CSS px '통과' 판정을 내리지 않는다. 시각적으로 차이가 작은 굴곡의 강제 재측량은 생략한다.
 1865년 [국경획정위원회 의정서 Artikel I §2–3](https://da.wikisource.org/wiki/Freden_i_Wien_(1864)_Gr%C3%A6nsereguleringskommissionen)는 1번에서 22번까지 남쪽 교구 경계, 22번에서 **Gjelsbro의 26번 표식**까지 Seem의 동쪽 교구 경계를 따르며, **26번 이후**는 Gels Å를 따라 Flads Å 합류점까지 국경이 이어진다고 규정한다.

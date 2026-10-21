@@ -3,7 +3,7 @@
 > 보고서 ID: DEV-QT-RETIRE-20261018 · 상태: verified-focused-runtime · 지도 반영: not-applicable
 > 원문 최종 수정: 2026-10-18
 > 조사 기준: 통합 Web/App 커밋 `43d13b10ef0276ada9dd91430d59b3266ae7e286` + work/ui 미커밋 변경
-> 원본·출처: [파일·해시·검사 기록](qt-app-retirement-2026-10-18.json)
+> 원본·출처: [파일·해시·검사 기록](../../../archive/blobs/38a641f870ede0398ebcb030acc7c8952125093a35423b961b4e02f48e7338aa.gz)
 
 ## 제거 범위
 
