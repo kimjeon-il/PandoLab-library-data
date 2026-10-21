@@ -5,7 +5,7 @@
 > 보고서 ID: `UI-SYNC-CLEANUP-20261021` · 상태: `local-focused-verified / unpublished / native-unverified` · 지도 반영: `not-applicable` · 색인일: 2026-10-21  
 > 원문 최종 수정: 2026-10-21  
 > 수정 기준: Web/App 공통 `work/ui` 커밋 `7f1cad96333a2f81bc68e8ef22a3fdefba8fc18d` + 미커밋 변경  
-> 근거: [브랜치 정책](../../../docs/branch-policy.md), [P5 원래 구현 기록](ui-convergence-p5-2026-10-21.md), 아래 로컬 백업·검사 로그
+> 근거: [브랜치 정책](https://github.com/kimjeon-il/Pando/blob/7edbf231501cad51346dc5d2d626ba8acb31379b/docs/branch-policy.md), [P5 원래 구현 기록](ui-convergence-p5-2026-10-21.md), 아래 로컬 백업·검사 로그
 기존 로컬 HEAD `d8d424d70584a7336e2a85351c1a3d684377e3f0`에서 원격 `work/ui`의 `7f1cad96`까지 fast-forward했다. 현재 `main`의 `6fc982bf`가 포함되며, 그 위의 원격 P5 UI 변경도 보존한다. 이번 수정·정리는 main 병합, push, 배포를 수행하지 않았다.
 사용자가 승인한 임시 보존본은 `D:/dev/release-evidence/PandoLab/ui-main-sync/d8d424d7-20261021/`에 있다. 원래 존재했던 972개 파일의 127,085,081바이트를 복사하고 SHA-256을 대조했으며, 원래 테스트 삭제 상태는 `tracked.patch`와 유지한 stash `2f30668c77588b5f1fb823de3f5de81a527f2837`에 남아 있다. stash를 pop/drop하지 않았다.
 - 원래 수정된 자동 생성 permission 6개는 백업과 동일한 바이트로 복원했다.

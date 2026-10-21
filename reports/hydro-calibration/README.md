@@ -13,7 +13,7 @@
 - pack 789개, 공간 인덱스 타일 809개, 최대 pack 약 1.64MiB
 - Natural Earth 기본 수계 잔여 중복: 강 0.68%, 호수 0.19%
 - 한반도 범위: Natural Earth 강 8개 + Hydro 강 18개, Natural Earth 호수 1개 + Hydro 호수 5개
-선택된 원본 좌표는 줄이지 않았습니다. 같은 ID의 Natural Earth 강 조각과 같은 표시 단계의 Hydro reach만 MultiLineString/연결 수계 단위로 묶었습니다. 실행 자산의 상세 수치는 [`performance-v0.12.1.json`](./performance-v0.12.1.json)에 기록합니다.
+선택된 원본 좌표는 줄이지 않았습니다. 같은 ID의 Natural Earth 강 조각과 같은 표시 단계의 Hydro reach만 MultiLineString/연결 수계 단위로 묶었습니다. 실행 자산의 상세 수치는 [`performance-v0.12.1.json`](../../archive/blobs/1c2cc03b65dea1a4e18ffa9bc90627ef15dfc857bcc0be13d0098559207b62a5.gz)에 기록합니다.
 **보류 · 현재 제약으로는 전 세계 교체에 사용할 수 없습니다.**
 - 통과: `riverFinalWithin15Percent`
 - 미통과: `intermediateScreenWithin25Percent`
