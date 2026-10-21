@@ -2,7 +2,7 @@
 
 최신 개발 통합 기록: [미병합 커밋 main 통합 — 2026-10-21](development/testing/all-branches-main-integration-2026-10-21.md) (`DEV-MAIN-20261021`, `integrated / focused-verification`).
 
-`PandoLab-library-data` 저장소의 이 폴더가 웹·앱 사람이 읽는 조사·검증 보고서의 정본입니다. 웹 데이터는 루트 `assets/`, 앱 소스는 `apps/web-shell/`, 공통 계산은 `shared/`에 둡니다. 보고서만으로 지도 반영이나 검증 통과를 뜻하지 않습니다.
+통합 `Pando` 저장소의 이 폴더가 웹·앱 사람이 읽는 조사·검증 보고서의 정본입니다. 웹 데이터는 루트 `assets/`, 앱 소스는 `apps/web-shell/`, 공통 계산은 `shared/`에 둡니다. 보고서만으로 지도 반영이나 검증 통과를 뜻하지 않습니다.
 
 | 표기 | 뜻 |
 | --- | --- |
@@ -166,10 +166,10 @@
 | --- | --- |
 | 시아첸 지리 조사 | [연구 개요](research/siachen/README.md), [산등성이 원자료 검토](research/siachen/REVIEW_SALTORO_MULTI_SOURCE_2026-10-08.md) |
 | 독일제국 1914년 북슐레스비히 | [사료 검토](geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.review.md) |
-| 네덜란드 간척·해안 | [현행 국가·수역 표현 조사](../archive/blobs/598ab757275f41d168bb702764231aa3400c8074dd916bcc5b82d7b99532ba6e.gz), [기존 검증 기록](geography/netherlands/phase0-canonical-audit.md) |
+| 네덜란드 간척·해안 | [현행 국가·수역 표현 조사](geography/netherlands/phase0-current-representation-inventory.json), [기존 검증 기록](geography/netherlands/phase0-canonical-audit.md) |
 | 세르비아 역사 경계 | [세르비아 1914년 QA](geography/serbia/serbia-1914-qa.md) |
-| 국가 색상 연구 | [근거 정리](research/country-default-colors.md), [연구 색상표](../archive/blobs/1f257ab47a8db25b0ba55d51352864c745b4875147f15993cb768994705a121f.gz) |
-| 지명 조사 원문 | [감사 결과](places/place-data-audit.md), [검토 요약](places/place-candidate-review.md), [ID별 근거 JSON](../archive/blobs/ad1e684befef270490524beb2571132b521eba57a3da04bd7e92db2aadd97c9a.gz), [출처 매니페스트](../archive/blobs/381031aa56f31bc3015917a99284fc2d96db60a019361c0d9733d13236ca9311.gz) |
+| 국가 색상 연구 | [근거 정리](research/country-default-colors.md), [연구 색상표](research/country-default-colors.json) |
+| 지명 조사 원문 | [감사 결과](places/place-data-audit.md), [검토 요약](places/place-candidate-review.md), [ID별 근거 JSON](places/candidate-review-summary.json), [출처 매니페스트](places/source-manifest.json) |
 | 역사 수계 조사 | [r152~r194 조사 데이터](hydro-names/reconstruction-2026-10-09/) |
 
 ## 기존 원본·생성 자료
@@ -177,8 +177,8 @@
 - [수계 보정](hydro-calibration/README.md), [연결성](hydro-connectivity/README.md), [v0.12.3](hydro-v0.12.3/README.md), [v0.12.4](hydro-v0.12.4/README.md), [v0.13.0](hydro-v0.13.0/README.md)의 보고서·도판은 증거 묶음의 상대 경로를 유지합니다.
 - [수계 지명 현황](hydro-names/current-web-2026-10-08/README.md)과 [수계 지명 재구성 배치](hydro-names/reconstruction-2026-10-09/)는 원본 출처·검토 자료와 함께 관리합니다.
 - [영토 객체 통합 검증](territorial-integration/final-gate.md)은 검사 결과와 함께 기존 위치에 둡니다.
-- [지명 검토 JSON](../archive/blobs/ad1e684befef270490524beb2571132b521eba57a3da04bd7e92db2aadd97c9a.gz), [도시 좌표 교정](../archive/blobs/e372c7335027c15f0199f2b11c09be3709a69b49f527e96932b3e63f1032778e.gz), [생성된 도시 후보 감사](places/place-data-audit.md), [생성된 검토 요약](places/place-candidate-review.md), [ID별 근거](../archive/blobs/ad1e684befef270490524beb2571132b521eba57a3da04bd7e92db2aadd97c9a.gz)는 `reports/places/` 정본이며, 생성기와 검증기도 이 경로를 사용합니다.
-- [네덜란드 사건·출처 목록](../archive/blobs/7c62f71335f43d986848a762e052df1d6904ba05b61753b6fcdac2fb60c9c84c.gz), [독일 해안선 사건·출처 목록](../archive/blobs/8cf1bc2fc19ddb2558cc379316da2cf58a9da6fd008412bfa68f494e30b5b3a9.gz), 역사 도판·probe JSON은 기존 위치의 원본 증거입니다.
+- [지명 검토 JSON](places/candidate-review-summary.json), [도시 좌표 교정](places/coordinate-corrections.json), [생성된 도시 후보 감사](places/place-data-audit.md), [생성된 검토 요약](places/place-candidate-review.md), [ID별 근거](places/candidate-review-summary.json)는 `reports/places/` 정본이며, 생성기와 검증기도 이 경로를 사용합니다.
+- [네덜란드 사건·출처 목록](../tools/historical-library/sources/netherlands/change-events.json), [독일 해안선 사건·출처 목록](../tools/historical-library/sources/german-coastline/change-events.json), 역사 도판·probe JSON은 기존 위치의 원본 증거입니다.
 - 앱의 [참조 이미지 검증 실행 증거](https://github.com/kimjeon-il/PandoEditor/tree/f535673993f45957b82d125ff766ed1e18233170/docs/evidence/reference-image-web-parity)는 앱 저장소에 남깁니다.
 
 ## 세부 조사·검증 원자료
@@ -187,11 +187,6 @@
 
 ## 새 보고서 작성
 
+최신 자료 이전: [라이브러리 외부 분리 및 압축 보관](development/library-migration-2026-10-21.md) (`DEV-LIBRARY-MIGRATION-20261021`, `published / web-live-verified / native-unverified`, 2026-10-21).
+
 [보고서 양식](TEMPLATE.md)에 ID, 조사 상태, 지도 반영 상태, 출처 커밋과 날짜, 실제 실행·미실행 검증을 분리해 기록합니다. 해당 분야의 `work/*` 브랜치에서 작성하고, 검증된 최종본을 승인된 통합 절차에 따라 `main`에 반영합니다. 지도·앱 코드 변경은 별도 변경으로 검증합니다. [이관 목록](MIGRATION.md)에서 과거 경로를 찾을 수 있습니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../archive/blobs/1424db2b967f75789ad9be5b57d24374d6bbc570014d82c4f80ab935de075bde.gz) · 원본 SHA-256 `1424db2b967f75789ad9be5b57d24374d6bbc570014d82c4f80ab935de075bde`.
-
-
-최신 자료 이전: [라이브러리 외부 분리 및 압축 보관](development/library-migration-2026-10-21.md).
