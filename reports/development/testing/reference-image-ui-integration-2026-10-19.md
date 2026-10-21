@@ -8,7 +8,7 @@
 >
 > 원격 통합 커밋: `9813535db9138bc00e55777049503cb79dd380bd`. 이후 원격 CI에서 확인한 이전 함수명 기반 검사 한 개를 입력 포트 동작 검사로 보완했다.
 >
-> 원본·출처: [Draft PR #134](https://github.com/kimjeon-il/Pando/pull/134), [실행 결과·입력 및 공유 자산 해시](reference-image-ui-integration-2026-10-19.evidence.json), [이전 P5 기록](reference-image-ui-p5-2026-10-18.md)
+> 원본·출처: [Draft PR #134](https://github.com/kimjeon-il/Pando/pull/134), [실행 결과·입력 및 공유 자산 해시](../../../archive/blobs/541026253f13f4185be95a570ce84845f28a88e7863c10446ce490561decd08e.gz), [이전 P5 기록](reference-image-ui-p5-2026-10-18.md)
 최신 UI와 충돌하지 않도록 기존 `feature/reference-image-p1-layout-20261018`에 `work/ui`를 반영했다. 실제 텍스트 충돌을 해소하고, 새 편집기 문서 경로와 휴대폰 가로 레이아웃을 적용했다. 독립 검토에서 확인한 Space 지도 이동 안내 갱신 누락도 수정했다.
 이번 추가 생산 수정은 `map-input-presentation.js`, `app-global-input-bindings.js`, `assets/css/layout/reference-images.css` 세 파일이다. 브라우저 spec 세 개를 canonical 편집기 진입으로 전환했고, 가로 화면 두 사례와 공통 편집 안내 한 사례를 추가했다. 기존 P1–P5의 보정 계산, 저장 형식과 원본 Blob, Undo/Redo 계약은 관련 조작 검사로 확인했다.
 검증은 Linux의 Node 24.19.0, pnpm 11.25.0, Playwright 1.62.1, Chromium 151.0.7922.34에서 실행했다. 저장소 CI는 Node 22 / pnpm 11.19.0이다. 단위 수는 파일별 직접 실행의 실제 case 요약으로 집계했으며, UI 계약 명령에 포함된 파일 단위 reporter 수를 추가 case로 세지 않았다.
