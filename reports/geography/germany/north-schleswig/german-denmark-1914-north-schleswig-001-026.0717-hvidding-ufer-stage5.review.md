@@ -8,7 +8,7 @@
 - 임시 국경 시작점: **(8.6622877°E, 55.2763431°N)** — 2014년 원위치 복원으로 소개된 1번 표석의 **현대 OSM 좌표**(ID **13124642635**). 1865/1914 해안 정확 좌표의 독립 측량 근거는 아님.
 - 0718 도엽 접점: **(8.6666666667°E, 55.276881205°N)**.
 - 표식 위상: 0717 구간 15개 정점의 단일 연속선으로 유지. 원본 1,343개 좌표를 변경하지 않음.
-- 적용 기준: [GIS 역사적 국경 공통 규칙](../../../../docs/historical-border-reconstruction-policy.md), 웹 최대 확대 flatZoom64, 콘텐츠 너비 2560 CSSpx, 실측 가능한 독립 사료가 있을 때 0.5 CSSpx 이하 목표. 해안·조약·연대 오류는 화면상 미세해도 검증.
+- 적용 기준: [GIS 역사적 국경 공통 규칙](https://github.com/kimjeon-il/Pando/blob/d6530fcbb9261c902c21f6ba8c17d3d9d6cea849/docs/historical-border-reconstruction-policy.md), 웹 최대 확대 flatZoom64, 콘텐츠 너비 2560 CSSpx, 실측 가능한 독립 사료가 있을 때 0.5 CSSpx 이하 목표. 해안·조약·연대 오류는 화면상 미세해도 검증.
 - 작업 브랜치: 웹·앱 **work/gis**. main 병합 금지.
 [1865년 국경획정위원회 의정서 Article I §§1–2](https://da.wikisource.org/wiki/Freden_i_Wien_(1864)_Gr%C3%A6nsereguleringskommissionen):
 - **§1 해상 국경:** 북해에서 **Mandø–Rømø 두 섬 간격의 중점**에서 **Ribe 대성당 탑 방향**으로 연결하는 선을 기초로 하며, 해안 가까이에서 이 선을 벗어나 **1번 국경표석**으로 연결된다.
