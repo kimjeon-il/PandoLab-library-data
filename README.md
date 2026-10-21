@@ -1,8 +1,7 @@
-# PandoLab terrain DEM v0.13.0
+# PandoLab library data
 
-Immutable public ETOPO 2022 30 arc-second Ice Surface elevation tiles and Natural Earth Cross-blended Hypso tint for the [PandoLab world map](https://github.com/kimjeon-il/world-map).
+Storage only: no tests, validators or generators run in this repository.
 
-The latest manifest and tint are under `terrain/v0.13.3/`. They reuse the unchanged LOD 0–5 elevation and hillshade tiles under `terrain/v0.13.0/`. The v0.13.3 tint is resampled from the original source at 4096x2048, four times the pixel count of v0.13.2, and uses canonical country land masks and nearby valid land colors to prevent white coastal background from washing out small islands. Source hashes, generation statistics and representative island samples are included with the release. This repository contains derived display data only; it does not store the original GeoTIFF or the build dependencies. The generator and verifier live in the application repository at `tools/build-terrain-dem.py` and `tools/verify-terrain-dem.py`.
+Current terrain: terrain/v0.13.3/. LOD0-5 are resolution levels of one dataset. Older tint/manifests are removed; original bytes remain in Git history. Tile pixels are unchanged.
 
-Sources: [NOAA ETOPO 2022](https://www.ncei.noaa.gov/products/etopo-global-relief-model) and [Natural Earth Cross-blended Hypso](https://www.naturalearthdata.com/downloads/10m-raster-data/10m-cross-blend-hypso/). See the linked providers for source terms and attribution. Published version directories are immutable; corrections require a new version directory and URL.
-
+Application and publication tools: https://github.com/kimjeon-il/Pando
