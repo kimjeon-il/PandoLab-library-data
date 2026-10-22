@@ -6,7 +6,7 @@
   "algorithmSourceSha256": "3e1d8d1ac0c30ae52d9c1bc0b7f82429545bf485e6a69bd0047e2f6d8222481b",
   "maxEdgeDegrees": 0.499,
   "inputHashes": {
-    "assets/data/builtin-world/generated/v1/index.json": "7423feb41cb50254f4e9acdad91c2a466166156527282c65a57b30b065987d8c",
+    "assets/data/builtin-world/generated/v1/index.json": "1b1404694b9be88cc382fbafa2ffc1dcfb3f8667b9bdd4401d7b9b9916c038aa",
     "assets/data/builtin-world/generated/v1/countries/AFG-sha256-bad003df9964a247d6d7f07a6ffc4db97de577891585953f9cfc3e64bcedec75.json.gz": "bad003df9964a247d6d7f07a6ffc4db97de577891585953f9cfc3e64bcedec75",
     "assets/data/builtin-world/generated/v1/countries/AGO-sha256-87fd091b35bf89881982a0fdd55483aeec7ca9504fb0c65c28e66b5a4f22cff0.json.gz": "87fd091b35bf89881982a0fdd55483aeec7ca9504fb0c65c28e66b5a4f22cff0",
     "assets/data/builtin-world/generated/v1/countries/ALB-sha256-b2140e6d32c8ff61a2ee7907c36fbcd8a0cc6a978f842d936561a9f576bb5390.json.gz": "b2140e6d32c8ff61a2ee7907c36fbcd8a0cc6a978f842d936561a9f576bb5390",
@@ -226,7 +226,7 @@
     "assets/data/builtin-world/generated/v1/countries/SPI-sha256-77314f31c7be0edc15b80e1ab3250a1c5e42f5e943bed6ad5172cd29d9ba4fe8.json.gz": "77314f31c7be0edc15b80e1ab3250a1c5e42f5e943bed6ad5172cd29d9ba4fe8",
     "assets/data/builtin-world/generated/v1/countries/SRB-sha256-c6d0b6146c419176c02b16b00bde4b2e3b61f6abdc7c6cfde3b96478d00831a2.json.gz": "c6d0b6146c419176c02b16b00bde4b2e3b61f6abdc7c6cfde3b96478d00831a2",
     "assets/data/builtin-world/generated/v1/countries/state-czechoslovakia-sha256-898e9e9f25563d0d7d4c35fa5f5e6d57ef70943d5ace0ab5e9c12467c977a338.json.gz": "898e9e9f25563d0d7d4c35fa5f5e6d57ef70943d5ace0ab5e9c12467c977a338",
-    "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-8fc017f03707632c34be6818b0568ce5cdae363709409dc59895f974737417d5.json.gz": "8fc017f03707632c34be6818b0568ce5cdae363709409dc59895f974737417d5",
+    "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-872deca4ea110eea0d6f2500920dd5e630cdc0ee5aaefadcb2eb516f490d1ab6.json.gz": "872deca4ea110eea0d6f2500920dd5e630cdc0ee5aaefadcb2eb516f490d1ab6",
     "assets/data/builtin-world/generated/v1/countries/state-east-prussia-sha256-6278e57e7cbd0ec99170f37b23a270e7f35ed127774db1d84abf70afb7c5dac5.json.gz": "6278e57e7cbd0ec99170f37b23a270e7f35ed127774db1d84abf70afb7c5dac5",
     "assets/data/builtin-world/generated/v1/countries/state-nagorno-karabakh-sha256-559480a0801f48b646674d8affebd356bbcce542a8eec84642277facd183b5f9.json.gz": "559480a0801f48b646674d8affebd356bbcce542a8eec84642277facd183b5f9",
     "assets/data/builtin-world/generated/v1/countries/state-north-schleswig-sha256-1ad8da73968599e0fc42edbbf7c33ebf20b31e3a950af2e2d0b36a7bd9141117.json.gz": "1ad8da73968599e0fc42edbbf7c33ebf20b31e3a950af2e2d0b36a7bd9141117",
@@ -377,7 +377,7 @@
     "assets/data/territorial-entities/generated/v2/state-GEO.json.gz": "3da751c7a21770fec7ebede5c660a6fe7444fbb19fa758d2d9659f97062c0ee5",
     "assets/data/territorial-entities/generated/v2/state-soviet-union-georgian-ssr.json.gz": "96b78f8360b0bdd7471770ee0c0d9a6d6d0ea839d6f10089e22c3344b00d71ea",
     "assets/data/territorial-entities/generated/v2/state-DEU.json.gz": "da21a02ba7fcb5142c6968d1ddd2b8c8aae6e74266ac9f19f6813c3578add4ba",
-    "assets/data/territorial-entities/generated/v2/state-deutsche-demokratische-republik.json.gz": "22caffbf6e0732643a800768665cdcaf946c423c88b7651a57256e33b33e58f3",
+    "assets/data/territorial-entities/generated/v2/state-deutsche-demokratische-republik.json.gz": "1e8edf6af0b47414c35f481af558f194aebdc5f7dfbe5ab4eb1af84fa4b30e51",
     "assets/data/territorial-entities/generated/v2/state-east-prussia.json.gz": "8955dd648b7b3e20e6613744c1bb46c4b60e354adaf04a044d057f537c71af31",
     "assets/data/territorial-entities/generated/v2/state-west-prussia.json.gz": "a0bf95f93f4782b830a4a53f83d58c54d386b9fce7aa0257b6f33531870492f3",
     "assets/data/territorial-entities/generated/v2/state-GGY.json.gz": "7afe03f6bfecaf108d4de2e7d4db3b8486f36bd36a41a985a15e151228331d59",
@@ -1354,6 +1354,13 @@
       "compressedBytes": 1073,
       "decodedBytes": 1688
     },
+    "5639ef7de58cb616bcdbb6ee2e4deaa652a42d75c0d9295c7013ed0f50077380": {
+      "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7b9c30cbbb27f3881baf4627ab64e7b0bc8c6b2eed16950124f1723fb66225f5.bin.gz",
+      "sha256": "7b9c30cbbb27f3881baf4627ab64e7b0bc8c6b2eed16950124f1723fb66225f5",
+      "encoding": "gzip",
+      "compressedBytes": 219028,
+      "decodedBytes": 394188
+    },
     "56fdf89f0f5d8fb55ea24276c69d5c4592e7549c03ea837a3fe66a4388843960": {
       "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1f3367d434417416646392c158a134286ea9b5904b68aaea00b4e07028a5d7a1.bin.gz",
       "sha256": "1f3367d434417416646392c158a134286ea9b5904b68aaea00b4e07028a5d7a1",
@@ -1493,6 +1500,13 @@
       "encoding": "gzip",
       "compressedBytes": 1195,
       "decodedBytes": 1928
+    },
+    "6236c3bc5b1a9c00721e1b64bf9888867e8ca4922c9bdf445e7a20f7d1715d0b": {
+      "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0218784b807a243bfb1d5ab0c20eb077b198f80cb70ddc7c385b0e8c32c2e72e.bin.gz",
+      "sha256": "0218784b807a243bfb1d5ab0c20eb077b198f80cb70ddc7c385b0e8c32c2e72e",
+      "encoding": "gzip",
+      "compressedBytes": 209956,
+      "decodedBytes": 374492
     },
     "625af63fd9f35e665522fe996a163d3f6c1d24be80d91a8ba5c522b6a0bfc49b": {
       "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2976e3aae330e1d84f164f8ef49de129682d58b95863c3fb0e6942db50ff45bd.bin.gz",
@@ -1949,13 +1963,6 @@
       "compressedBytes": 46210,
       "decodedBytes": 80512
     },
-    "95ce5688288f16503ac38d15963eb0e847a86d00a4ac577911521fc3094d9cb2": {
-      "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8cecd3eb98160f8d7c5c480d3999c1a8dc01c94685e1a2795978843ae934b7f2.bin.gz",
-      "sha256": "8cecd3eb98160f8d7c5c480d3999c1a8dc01c94685e1a2795978843ae934b7f2",
-      "encoding": "gzip",
-      "compressedBytes": 217718,
-      "decodedBytes": 392028
-    },
     "961cbdedf877f7fb4910212a42dec7f221a8b6e629dfbb21d2c148aa514856b9": {
       "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-37bdb8ab1f32442af450b3b56122cc8640e10a63d6fe62c8d49cae5021d3b584.bin.gz",
       "sha256": "37bdb8ab1f32442af450b3b56122cc8640e10a63d6fe62c8d49cae5021d3b584",
@@ -2375,13 +2382,6 @@
       "encoding": "gzip",
       "compressedBytes": 392616,
       "decodedBytes": 740168
-    },
-    "ceb9371efc566ea35400005ce34dd1b9c774e4070a34006b7757cececfb7c507": {
-      "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-69eac1f49ce857a7c2c6f1181d284733fb9c0655313509e0e787f6fa17836ef6.bin.gz",
-      "sha256": "69eac1f49ce857a7c2c6f1181d284733fb9c0655313509e0e787f6fa17836ef6",
-      "encoding": "gzip",
-      "compressedBytes": 208775,
-      "decodedBytes": 372332
     },
     "cf7a698a50c45584b66d30855afbc858eff52c28dd90563da815bfdb850b1c3e": {
       "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7a99662c0a635164e95914bf152bf69de717af9e6ed97fccf4ff68f034ed3de0.bin.gz",

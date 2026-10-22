@@ -18,6 +18,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-DDR-STAGE2-20261023` | [동독 남은 육상 구간 추가 적용](geography/east-germany-remaining-stage2-2026-10-23.md) | 2026-10-23 | `local-applied / provisional` | `work/gis only` |
 | `GEO-DDR-REMAINING-APPLIED-20261023` | [동독 남은 구간 실제 적용](geography/east-germany-remaining-applied-2026-10-23.md) | 2026-10-23 | `local-applied / provisional` | `work-gis-only` |
 | `GEO-DDR-REMAINING-20261022` | [동독 남은 내독경계 조사](geography/east-germany-remaining-research-2026-10-22.md) | 2026-10-22 | `research-only / provisional` | `not-applied` |
 | `GEO-DDR-VG25-FOLLOWUP-20261022` | [동독 VG25 미완료 육상 구간 추가 조사·적용](geography/east-germany-vg25-followup-2026-10-22.md) | 2026-10-22 | `local-applied / provisional` | `work/gis only` |
