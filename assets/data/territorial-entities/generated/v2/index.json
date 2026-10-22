@@ -14903,9 +14903,9 @@
           "datePrecision": "reference-date",
           "certainty": "medium",
           "sourceId": "natural-earth-admin1-v5.1.1+bkg-vg250+berlin-wall-1989+adopted-dos-lsib-11.4+bkg-vg25-capture-2026-10-22",
-          "notes": "1989-04-25 reference-date approximation. Adopted DEU LSIB Polish/Czech arcs reused; pinned VG25 used only in documentarily corroborated Schaalsee, selected Bavaria/Saxony, northern Eichsfeld, Ecker and Geismar/Spahl intervals. Coast, West Berlin, Elbe, transferred and remaining uncorroborated sectors preserved. No independent historical-vector 0.5px accuracy claim.",
+          "notes": "1989-04-25 reference-date approximation. Adopted DEU LSIB Polish/Czech arcs reused; pinned VG25 used only in documentarily corroborated Schaalsee, selected Bavaria/Saxony, northern Eichsfeld, Ecker, Geismar/Spahl and Hornburg/Grosses Bruch intervals. Coast, West Berlin, Elbe, transferred and remaining uncorroborated sectors preserved. No independent historical-vector 0.5px accuracy claim.",
           "boundarySupplement": {
-            "appliedAt": "2026-10-22",
+            "appliedAt": "2026-10-23",
             "referenceDate": "1989-04-25",
             "status": "provisional",
             "historicalScreenAccuracy": "not-measured-no-independent-period-vector",
@@ -15017,13 +15017,25 @@
                 "basis": "Official Geismar land-reorganisation plan, maps PDF pp.1-3 (1:5000, dated 2015-12-09) and text PDF p.30/printed p.10 identify the former border strip along its western edge adjoining Hessen. The western state boundary is distinguished from the internal Kolonnenweg. Restricted Geismar/Spahl/Roedgen interval, south of Point Alpha; corroborated by the federal Green Belt explanation of the former strip between land boundary and Kolonnenweg. Visual/documentary continuity only, not a digitized 1989 positional test.",
                 "evidence": "https://landentwicklung-online.thueringen.de/dokumente/k41/k41_320350.pdf",
                 "corroboration": "https://www.bfn.de/gruenes-band"
+              },
+              {
+                "id": "vg25-wolfenbuettel-hornburg",
+                "bounds": [
+                  10.55,
+                  51.98,
+                  10.91,
+                  52.09
+                ],
+                "basis": "LGLN NaVKV 2/3 2010, PDF p.33/printed p.32 fig.4 reproduces the 1985 DDR map of the Wolfenbuettel/Hornburg boundary. PDF pp.40-42 describe the post-1941 territorial allocation, joint 1974-1976 survey and 1986 inspection of section 21. The adopted window is restricted to the Hornburg/Grosses Bruch line visible in this period map, including the former west-side bend; it does not extend to all Harz or Altmark. NLWKN independently describes Grosses Bruch on the current Niedersachsen/Sachsen-Anhalt boundary. Reuse pinned VG25 only between actual intersections. Documentary continuity and visual period-map review; no independent historical-vector 0.5px pass.",
+                "evidence": "https://www.lgln.niedersachsen.de/download/80437/NaVKV_2010_2_3.pdf",
+                "corroboration": "https://www.nlwkn.niedersachsen.de/natura2000/schutzgebiete_zur_umsetzung_von_natura_2000/landschaftsschutzgebiet-grosses-bruch-197972.html"
               }
             ],
             "held": [
               "Elbe undetermined boundary and estuary",
               "Amt Neuhaus, Neu Bleckede, Neu Wendischthun, Stiepelse and Bohldamm transferred areas",
-              "Northern SH/MV land sectors around Schaalsee; Altmark/Ohre and remaining Harz sectors without segment-specific corroboration",
-              "Hessian/Thuringian Werra, southern Eichsfeld/Wendebach and Rhon/Geisa outside the admitted windows",
+              "Northern SH/MV land sectors around Schaalsee; Altmark/Ohre/Droemling and Harz outside the admitted Ecker and Hornburg/Grosses Bruch windows",
+              "Hessian/Thuringian Werra and southern Eichsfeld/Wendebach (documented mobile river boundary with later surveys), and Rhon/Point Alpha outside the admitted Geismar window",
               "Bavarian west/Rhon and Czech-tripoint transition gaps outside conservative crossing-to-crossing windows; west window yielded no admissible intersecting arc",
               "West Berlin and coast (out of scope)",
               "Polish/Czech exterior outside the currently adopted LSIB crossing-to-crossing arcs"
@@ -15113,6 +15125,13 @@
                   "capturedAt": "2026-10-22T14:00:40.625Z"
                 }
               ]
+            },
+            "remainingFollowup": {
+              "date": "2026-10-23",
+              "report": "reports/geography/east-germany-remaining-applied-2026-10-23.md",
+              "researchReport": "reports/geography/east-germany-remaining-research-2026-10-22.md",
+              "baselineSource": "beforeRemainingSupplement",
+              "evidenceStatus": "documentary continuity and period-map visual review; no independent historical vector, no 0.5px positional pass"
             }
           }
         }
@@ -15142,9 +15161,9 @@
       "file": "state-deutsche-demokratische-republik.json.gz",
       "validFrom": "1949-10-07",
       "validTo": "1990-10-02",
-      "compressedBytes": 114901,
-      "decodedBytes": 785195,
-      "sha256": "17160de0f4877a26f83e31047ed8403e770168d5658005db6d0585cc8b784ba9",
+      "compressedBytes": 116627,
+      "decodedBytes": 794471,
+      "sha256": "22caffbf6e0732643a800768665cdcaf946c423c88b7651a57256e33b33e58f3",
       "bbox": [
         9.877671,
         50.17132330000004,
