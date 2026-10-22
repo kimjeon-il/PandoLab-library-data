@@ -14902,8 +14902,73 @@
           "validTo": "1989-04-25",
           "datePrecision": "reference-date",
           "certainty": "medium",
-          "sourceId": "natural-earth-admin1-v5.1.1+bkg-vg250+berlin-wall-1989",
-          "notes": "1989-04-25 기준 근사 경계입니다. Berlin 장벽선은 같은 날 항공사진을 1:5,000 지도에 수작업 전사한 자료로 지적 경계 정밀도가 아닙니다."
+          "sourceId": "natural-earth-admin1-v5.1.1+bkg-vg250+berlin-wall-1989+adopted-dos-lsib-11.4+bkg-vg25-capture-2026-10-22",
+          "notes": "1989-04-25 reference-date approximation. Adopted DEU LSIB-derived Polish/Czech arcs reused; selected historically corroborated inter-German sections use the pinned VG25 capture. Coast, West Berlin, Elbe and transferred/uncorroborated sectors retain their previous geometry. No independent historical-vector 0.5px accuracy claim.",
+          "boundarySupplement": {
+            "appliedAt": "2026-10-22",
+            "referenceDate": "1989-04-25",
+            "status": "provisional",
+            "historicalScreenAccuracy": "not-measured-no-independent-period-vector",
+            "sources": {
+              "adoptedGermanLsib": {
+                "path": "tools/historical-library/sources/east-germany/adopted-german-lsib-exterior.geojson",
+                "crs": "EPSG:4326",
+                "sha256": "8B4322C51D8BD3A11190B06C715E0F88D03B79B07A8E6F258D042360D0B9FD60",
+                "license": "Natural Earth public domain; US Department of State LSIB public domain",
+                "url": "https://geodata.state.gov/"
+              },
+              "vg25EasternLands": {
+                "path": "tools/historical-library/sources/east-germany/bkg-vg25-eastern-lands-25832.geojson",
+                "crs": "EPSG:25832",
+                "sha256": "F19CC29909E93A40CF047576D5E5215B9319969FBF373A5E23B52DE5C3F0D573",
+                "license": "CC BY 4.0",
+                "url": "https://sgx.geodatenzentrum.de/wfs_vg25"
+              }
+            },
+            "sections": [
+              {
+                "id": "lsib-poland-adopted-central",
+                "bounds": [
+                  14,
+                  51.8,
+                  15.1,
+                  53.3
+                ],
+                "basis": "Reuse only the currently adopted DEU/POL LSIB-derived arcs; estuary and remaining Neisse are held."
+              },
+              {
+                "id": "lsib-czech-saxony",
+                "bounds": [
+                  12,
+                  50.05,
+                  14.9,
+                  51.12
+                ],
+                "basis": "Current adopted German linework, Saxony exterior only; Bavaria is outside the DDR ring."
+              },
+              {
+                "id": "vg25-schaalsee-lake",
+                "bounds": [
+                  10.903,
+                  53.54,
+                  10.958,
+                  53.659
+                ],
+                "basis": "Lake-crossing arcs between existing geometric intersections only. Former inter-German boundary equals current SH/MV boundary within Schaalsee per the reserve authority; surrounding land is excluded. Official SH lake catchment map (1:50000) reviewed for the lake passage; no independent historical vector accuracy claim. The old NE path detours south to 53.548463; the window includes this obsolete detour, while the replacement lake arc stays north of 53.5716795 between actual shared intersections.",
+                "evidence": "https://www.schaalsee.de/flipbook/naturschutzprojekte/12/",
+                "overview": "https://umweltanwendungen.schleswig-holstein.de/Seen/seen/schaalsee_seedorfer_tief/schaalsee_nord-west_einz.gif"
+              }
+            ],
+            "held": [
+              "Elbe undetermined boundary and estuary",
+              "Amt Neuhaus, Neu Bleckede, Neu Wendischthun, Stiepelse and Bohldamm transferred areas",
+              "Remaining uncorroborated inter-German intervals, including Werra/Harz and northern sectors",
+              "West Berlin and coast (out of scope)",
+              "Polish/Czech exterior outside the currently adopted LSIB crossing-to-crossing arcs",
+              "Geisa/Point Alpha, Heldburgerland/Rodachtal and surrounding Schaalsee land sectors: detailed historical equivalence not corroborated; detailed Thuringian source access blocked"
+            ],
+            "presentationToleranceDegrees": 0.0002
+          }
         }
       ],
       "instantiation": {
@@ -14924,19 +14989,19 @@
         "representativeGeometryVersionId": "state:deutsche-demokratische-republik:1989-04-25-r1"
       },
       "sourceInfo": {
-        "title": "Natural Earth Admin 1 v5.1.1, BKG VG250, Berlin Open Data Wall 1989",
-        "license": "Natural Earth public domain; BKG dl-de/by-2-0; Berlin dl-de/zero-2-0",
+        "title": "Natural Earth, BKG VG250/VG25, Berlin Wall 1989 and adopted German LSIB 11.4 arcs",
+        "license": "Natural Earth and US LSIB public domain; BKG VG250 dl-de/by-2-0; BKG VG25 CC BY 4.0; Berlin dl-de/zero-2-0",
         "sourceId": ""
       },
       "file": "state-deutsche-demokratische-republik.json.gz",
       "validFrom": "1949-10-07",
       "validTo": "1990-10-02",
-      "compressedBytes": 45865,
-      "decodedBytes": 376434,
-      "sha256": "7d7115695c22ea8d4862c5d8e431fd39fff474148a866c34f4f4928896106277",
+      "compressedBytes": 74109,
+      "decodedBytes": 564495,
+      "sha256": "907762c7fa6f06515d71262cd89905945e9ec2b620ea7892b991bcd9630e3b6d",
       "bbox": [
         9.877671,
-        50.160815,
+        50.17132330000004,
         15.022059,
         54.688422
       ],
