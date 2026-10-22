@@ -18,6 +18,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-DDR-VG25-FOLLOWUP-20261022` | [동독 VG25 미완료 육상 구간 추가 조사·적용](geography/east-germany-vg25-followup-2026-10-22.md) | 2026-10-22 | `local-applied / provisional` | `work/gis only` |
 | `GEO-DDR-LSIB-VG25-20261022` | [동독 LSIB/VG25 보충·전후 비교](geography/east-germany-boundaries-2026-10-22.md) | 2026-10-22 | `local-applied / provisional` | `work/gis only` |
 | `GEO-HIST-REUSE-20261022` | [체코슬로바키아·소련·유고·동독의 현대 경계 자료 재사용](geography/historical-border-modern-source-reuse-2026-10-22.md) | 2026-10-22 | `source-indexed / provisional` | `not-applied` |
 | `GEO-MCO-20261022` | [모나코–프랑스 국경과 모나코 해안](geography/monaco-boundary-coast-2026-10-22.md) | 2026-10-22 | `implemented / focused-review` | `work-gis-only` |
