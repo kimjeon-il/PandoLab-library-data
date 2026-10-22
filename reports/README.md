@@ -190,3 +190,12 @@
 최신 자료 이전: [라이브러리 외부 분리 및 압축 보관](development/library-migration-2026-10-21.md) (`DEV-LIBRARY-MIGRATION-20261021`, `published / web-live-verified / native-unverified`, 2026-10-21).
 
 [보고서 양식](TEMPLATE.md)에 ID, 조사 상태, 지도 반영 상태, 출처 커밋과 날짜, 실제 실행·미실행 검증을 분리해 기록합니다. 해당 분야의 `work/*` 브랜치에서 작성하고, 검증된 최종본을 승인된 통합 절차에 따라 `main`에 반영합니다. 지도·앱 코드 변경은 별도 변경으로 검증합니다. [이관 목록](MIGRATION.md)에서 과거 경로를 찾을 수 있습니다.
+
+## 브랜치 통합 원문 보존 — 2026-10-22
+
+- [국가 존속기간 보정](development/testing/country-lifetime-2026-10-21.md)
+- [objects 원문 색인](development/testing/branch-originals/objects/README.md)
+- [GIS 원문 색인](development/testing/branch-originals/gis/README.md)
+- [지명 원문 색인](development/testing/branch-originals/places/README.md)
+
+동일 경로의 서로 다른 브랜치 보고서는 위 원문별 경로로 함께 보존합니다. 기존 main 원문은 그대로 둡니다.
