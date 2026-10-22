@@ -3,6 +3,7 @@
 > 압축 열람본: 도입부 발췌. 전체 출처·결론·미확인 내용은 연결한 원문을 따른다.
 
 
+> 내독 육상 보류 목록은 [후속 조사·적용](east-germany-vg25-followup-2026-10-22.md)으로 일부 갱신됨. 국제국경·기존 검증 기록은 이 판본을 따른다.
 
 > ID: GEO-DDR-LSIB-VG25-20261022 · 상태: local-applied / provisional · main·원격·배포: 미반영
 > 작업: work/gis, 기반 2bb8bc58967b. 자료 기준 pin 36818f327b5d7a423dbf51db79106197786b69f6에서 생성. 최종 자료 revision은 앱 config/library-data.json에 기록.
@@ -30,6 +31,6 @@ VG25 창은 [10.903,53.54,10.958,53.659]. 옛 NE 우회부를 포함하도록 �
 - [체코 LSIB 비교](east-germany-boundaries-2026-10-22/comparison-czech.png)
 - [샤알제 VG25 확대 비교](east-germany-boundaries-2026-10-22/comparison-schaalsee.png)
 
-국제국경 비교는 평면지도 2560 CSS px·flatZoom=64와 같은 455.11px/°. 샤알제는 변화 확인용 3300px/° 확대도이며 제품 상한보다 확대했다. **독립적인 당시 벡터와 비교하지 않았으므로 역사적 0.5px 통과를 주장하지 않는다.**
+국제국경 비교는 평면지도 2560 CSS px·flatZoom=64와 같은
 
-[무손실 압축 원문](../../archive/blobs/72d8e3caf83cf80a2f045d787b95165b53da1df4ffd81b9713739b7bb6585cb6.gz)
+[무손실 압축 원문](../../archive/blobs/42bdc6874d22326cd70d40feb6113181d4d7d462163ac4650dc2e0170cbe78f6.gz)
