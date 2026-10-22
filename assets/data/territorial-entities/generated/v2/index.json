@@ -4849,8 +4849,109 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "AUT",
+                  "LIE"
+                ],
+                "sourceLineIds": [
+                  "c133c4d6-bf4f-489d-b51e-abf2be55d369"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "old_length_degrees": 0.2769896219349324,
+                    "source_length_degrees": 0.39798372443765334,
+                    "master_vertices": 2464,
+                    "derived_vertices": 92,
+                    "anchors": [
+                      [
+                        9.530734900000027,
+                        47.270574200000055
+                      ],
+                      [
+                        9.607062800000051,
+                        47.060771500000044
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "AUT",
+                  "CHE"
+                ],
+                "sourceLineIds": [
+                  "9c65ab62-9636-466f-b0ad-9014674ba623"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.22060541237935935,
+                    "source_length_degrees": 0.2583235559119953,
+                    "master_vertices": 188,
+                    "derived_vertices": 32,
+                    "anchors": [
+                      [
+                        9.530734900000027,
+                        47.270574200000055
+                      ],
+                      [
+                        9.6457521023652,
+                        47.43077559487466
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "AUT",
+                  "CHE"
+                ],
+                "sourceLineIds": [
+                  "9c65ab62-9636-466f-b0ad-9014674ba623"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.03663720573088033,
+                    "source_length_degrees": 0.013263062978925046,
+                    "master_vertices": 71,
+                    "derived_vertices": 4,
+                    "anchors": [
+                      [
+                        9.607062800000051,
+                        47.060771500000044
+                      ],
+                      [
+                        9.617003273197453,
+                        47.05388152264693
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
               }
-            ]
+            ],
+            "reviewedTripointRepair": {
+              "target": [
+                "AUT",
+                "LIE"
+              ],
+              "junctionCountry": "CHE",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false
+            }
           }
         }
       ],
@@ -4871,11 +4972,11 @@
       "file": "state-AUT.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 79044,
-      "decodedBytes": 610932,
-      "sha256": "02a1b983f450bacfa42bab3eea4fdd08e66a1366310c558bdc975218addbe2fc",
+      "compressedBytes": 80653,
+      "decodedBytes": 624026,
+      "sha256": "72f04f1eef8fd6febe96a33fdaa8bdf243806a659920a7ead78c127deba7f5d5",
       "bbox": [
-        9.521155,
+        9.530734900000027,
         46.37245690000003,
         17.148338,
         49.020525700000064
@@ -8440,8 +8541,141 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "AUT",
+                  "CHE"
+                ],
+                "sourceLineIds": [
+                  "9c65ab62-9636-466f-b0ad-9014674ba623"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.22060541237935935,
+                    "source_length_degrees": 0.2583235559119953,
+                    "master_vertices": 188,
+                    "derived_vertices": 32,
+                    "anchors": [
+                      [
+                        9.530734900000027,
+                        47.270574200000055
+                      ],
+                      [
+                        9.6457521023652,
+                        47.43077559487466
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "CHE",
+                  "LIE"
+                ],
+                "sourceLineIds": [
+                  "477295aa-98b9-42e6-b4cc-8ca979b81340"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.12212771625023137,
+                    "source_length_degrees": 0.1316127161202959,
+                    "master_vertices": 297,
+                    "derived_vertices": 12,
+                    "anchors": [
+                      [
+                        9.530734900000027,
+                        47.270574200000055
+                      ],
+                      [
+                        9.49686092774352,
+                        47.15418744800902
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "AUT",
+                  "CHE"
+                ],
+                "sourceLineIds": [
+                  "9c65ab62-9636-466f-b0ad-9014674ba623"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.03663720573088033,
+                    "source_length_degrees": 0.013263062978925046,
+                    "master_vertices": 71,
+                    "derived_vertices": 4,
+                    "anchors": [
+                      [
+                        9.607062800000051,
+                        47.060771500000044
+                      ],
+                      [
+                        9.617003273197453,
+                        47.05388152264693
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "CHE",
+                  "LIE"
+                ],
+                "sourceLineIds": [
+                  "477295aa-98b9-42e6-b4cc-8ca979b81340"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.031951177231268994,
+                    "source_length_degrees": 0.06480258771392293,
+                    "master_vertices": 197,
+                    "derived_vertices": 19,
+                    "anchors": [
+                      [
+                        9.607062800000051,
+                        47.060771500000044
+                      ],
+                      [
+                        9.55328140000006,
+                        47.05697920000006
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
               }
-            ]
+            ],
+            "reviewedTripointRepair": {
+              "target": [
+                "AUT",
+                "LIE"
+              ],
+              "junctionCountry": "CHE",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false
+            }
           }
         }
       ],
@@ -8462,9 +8696,9 @@
       "file": "state-CHE.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 59424,
-      "decodedBytes": 449955,
-      "sha256": "4384b3f58b83c362421922221edbedf644b01f8beffaa023029d2e7d9f48109e",
+      "compressedBytes": 60388,
+      "decodedBytes": 458653,
+      "sha256": "70ce1b69b1245ed7997e2ab1bbe2a7215bf63aa7c495377ebe7c698bed0835f1",
       "bbox": [
         5.955897800000059,
         45.81796950000006,
@@ -20431,8 +20665,109 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "AUT",
+                  "LIE"
+                ],
+                "sourceLineIds": [
+                  "c133c4d6-bf4f-489d-b51e-abf2be55d369"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "old_length_degrees": 0.2769896219349324,
+                    "source_length_degrees": 0.39798372443765334,
+                    "master_vertices": 2464,
+                    "derived_vertices": 92,
+                    "anchors": [
+                      [
+                        9.530734900000027,
+                        47.270574200000055
+                      ],
+                      [
+                        9.607062800000051,
+                        47.060771500000044
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "CHE",
+                  "LIE"
+                ],
+                "sourceLineIds": [
+                  "477295aa-98b9-42e6-b4cc-8ca979b81340"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.12212771625023137,
+                    "source_length_degrees": 0.1316127161202959,
+                    "master_vertices": 297,
+                    "derived_vertices": 12,
+                    "anchors": [
+                      [
+                        9.530734900000027,
+                        47.270574200000055
+                      ],
+                      [
+                        9.49686092774352,
+                        47.15418744800902
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "CHE",
+                  "LIE"
+                ],
+                "sourceLineIds": [
+                  "477295aa-98b9-42e6-b4cc-8ca979b81340"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.031951177231268994,
+                    "source_length_degrees": 0.06480258771392293,
+                    "master_vertices": 197,
+                    "derived_vertices": 19,
+                    "anchors": [
+                      [
+                        9.607062800000051,
+                        47.060771500000044
+                      ],
+                      [
+                        9.55328140000006,
+                        47.05697920000006
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
               }
-            ]
+            ],
+            "reviewedTripointRepair": {
+              "target": [
+                "AUT",
+                "LIE"
+              ],
+              "junctionCountry": "CHE",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false
+            }
           }
         }
       ],
@@ -20453,14 +20788,14 @@
       "file": "state-LIE.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 1991,
-      "decodedBytes": 8438,
-      "sha256": "44834ad4f77a6156fa74d8d63c26dba41998fad7ed74fae860df1aeb292e03f8",
+      "compressedBytes": 3710,
+      "decodedBytes": 21206,
+      "sha256": "b1ee2fa2ebee90a7762c315ea28b94956b83c8438630121c6ca48f529a000698",
       "bbox": [
         9.471683100000064,
-        47.049090000000035,
-        9.615723,
-        47.262801
+        47.04842810000008,
+        9.635692300000073,
+        47.270574200000055
       ],
       "geometryVersionCount": 1
     },
