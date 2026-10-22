@@ -13477,13 +13477,13 @@
           "validTo": null,
           "datePrecision": "current",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+ign-bdtopo-v3-monaco-coast",
           "modernBoundarySupplement": {
-            "sourceId": "dos-lsib-11.4",
+            "sourceId": "dos-lsib-11.4+ign-bdtopo-v3-monaco-coast",
             "published": "2025-02-24",
             "effectiveDateEstablished": false,
             "status": "provisional-modern-source-supplement",
-            "coastline": "unchanged",
+            "coastline": "reviewed-ign-replacement",
             "sourceFile": "tools/historical-library/sources/lsib-11.4/boundaries.geojson.gz",
             "simplificationToleranceDegrees": 0.0004,
             "simplificationMaximumPx": 0.18204444444444445,
@@ -13793,6 +13793,104 @@
                     "status": "supplemented-with-reviewed-tripoints"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "FRA",
+                  "MCO"
+                ],
+                "sourceLineIds": [
+                  "1e220d96-aa9e-43f8-834a-d580059f60b7"
+                ],
+                "status": "supplemented-with-reviewed-coast",
+                "segments": [
+                  {
+                    "anchors": [
+                      [
+                        7.41851414,
+                        43.72475049
+                      ],
+                      [
+                        7.43906284,
+                        43.74928362
+                      ]
+                    ],
+                    "master_vertices": 260,
+                    "derived_vertices": 260,
+                    "simplification_bound_px": 0,
+                    "target": "FRA/MCO",
+                    "status": "supplemented-with-reviewed-coast"
+                  }
+                ],
+                "sourceId": "dos-lsib-11.4"
+              },
+              {
+                "countries": [
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "TRONLAIS0000002478911965"
+                ],
+                "status": "supplemented-with-reviewed-coast",
+                "segments": [
+                  {
+                    "kind": "coastline",
+                    "referenceRole": "west",
+                    "anchors": [
+                      [
+                        7.41851414,
+                        43.72475049
+                      ],
+                      [
+                        7.407500968129213,
+                        43.720986946748155
+                      ]
+                    ],
+                    "master_vertices": 3464,
+                    "derived_vertices": 822,
+                    "simplification_bound_px": 0,
+                    "target": "FRA/MCO",
+                    "status": "supplemented-with-reviewed-coast"
+                  }
+                ],
+                "kind": "coastline",
+                "referenceRole": "west",
+                "sourceId": "ign-bdtopo-v3-monaco-coast",
+                "referenceManifest": "tools/historical-library/sources/monaco-reviewed-2026-10-22/coast-reference.json"
+              },
+              {
+                "countries": [
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "TRONLAIS0000002478912821"
+                ],
+                "status": "supplemented-with-reviewed-coast",
+                "segments": [
+                  {
+                    "kind": "coastline",
+                    "referenceRole": "east",
+                    "anchors": [
+                      [
+                        7.43906284,
+                        43.74928362
+                      ],
+                      [
+                        7.457628188085217,
+                        43.75908999380241
+                      ]
+                    ],
+                    "master_vertices": 1571,
+                    "derived_vertices": 1402,
+                    "simplification_bound_px": 0,
+                    "target": "FRA/MCO",
+                    "status": "supplemented-with-reviewed-coast"
+                  }
+                ],
+                "kind": "coastline",
+                "referenceRole": "east",
+                "sourceId": "ign-bdtopo-v3-monaco-coast",
+                "referenceManifest": "tools/historical-library/sources/monaco-reviewed-2026-10-22/coast-reference.json"
               }
             ],
             "reviewedTripointRepair": {
@@ -13809,6 +13907,32 @@
                 "target": "AND/FRA",
                 "historicalAccuracyVerified": false,
                 "effectiveDateEstablished": false
+              },
+              {
+                "target": "FRA/MCO",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              }
+            ],
+            "coastlineReview": {
+              "referenceManifest": "tools/historical-library/sources/monaco-reviewed-2026-10-22/coast-reference.json",
+              "sourceId": "ign-bdtopo-v3-monaco-coast",
+              "effectiveDateEstablished": false,
+              "historicalAccuracyVerified": false
+            },
+            "additionalSources": [
+              {
+                "sourceId": "ign-bdtopo-v3-monaco-coast",
+                "title": "IGN BD TOPO v3 - Monaco high-water coastline",
+                "published": null,
+                "url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetFeature&typenames=BDTOPO_V3%3Alimite_terre_mer&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=43.715%2C7.40%2C43.755%2C7.445%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&count=100",
+                "license": "Licence Ouverte / Open Licence 2.0",
+                "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+                "attribution": "IGN - BD TOPO v3, queried 2026-10-22; high-water coastline; modified endpoint joins; Licence Ouverte 2.0",
+                "sourceFile": "tools/historical-library/sources/monaco-reviewed-2026-10-22/ign-coast.geojson",
+                "retrieved": "2026-10-22",
+                "lastModified": "2024-09-23",
+                "confirmed": "2021-11-01"
               }
             ]
           }
@@ -13824,16 +13948,16 @@
         "representativeGeometryVersionId": "state:FRA:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Existing coastlines and attribution with eligible LSIB 11.4 land boundary sections",
+        "title": "Reviewed land boundaries and IGN high-water coastline with existing attribution",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+ign-bdtopo-v3-monaco-coast"
       },
       "file": "state-FRA.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 128539,
-      "decodedBytes": 1089115,
-      "sha256": "0dc072b4608a9103f5233ddcb0400a656514867e5a81b0ddeaec8b99924e6a6f",
+      "compressedBytes": 150165,
+      "decodedBytes": 1318038,
+      "sha256": "cdb4f5ef7e992cf6b54cf48e7ac4615fbfdcbfeba91cd9c42bd54accbc6b0ddd",
       "bbox": [
         -61.797841,
         -21.370782,
@@ -22221,7 +22345,116 @@
           "validTo": null,
           "datePrecision": "current",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+ign-bdtopo-v3-monaco-coast",
+          "modernBoundarySupplement": {
+            "sourceId": "dos-lsib-11.4+ign-bdtopo-v3-monaco-coast",
+            "published": "2025-02-24",
+            "effectiveDateEstablished": false,
+            "status": "provisional-modern-source-supplement",
+            "coastline": "reviewed-ign-replacement",
+            "sourceFile": "tools/historical-library/sources/lsib-11.4/boundaries.geojson.gz",
+            "simplificationToleranceDegrees": 0,
+            "simplificationMaximumPx": 0,
+            "screenBaseline": {
+              "widthCssPx": 2560,
+              "flatZoom": 64
+            },
+            "historicalAccuracyVerified": false,
+            "boundaries": [
+              {
+                "countries": [
+                  "FRA",
+                  "MCO"
+                ],
+                "sourceLineIds": [
+                  "1e220d96-aa9e-43f8-834a-d580059f60b7"
+                ],
+                "status": "supplemented-with-reviewed-coast",
+                "segments": [
+                  {
+                    "anchors": [
+                      [
+                        7.41851414,
+                        43.72475049
+                      ],
+                      [
+                        7.43906284,
+                        43.74928362
+                      ]
+                    ],
+                    "master_vertices": 260,
+                    "derived_vertices": 260,
+                    "simplification_bound_px": 0,
+                    "target": "FRA/MCO",
+                    "status": "supplemented-with-reviewed-coast"
+                  }
+                ],
+                "sourceId": "dos-lsib-11.4"
+              },
+              {
+                "countries": [
+                  "MCO"
+                ],
+                "sourceLineIds": [
+                  "TRONLAIS0000002478911964"
+                ],
+                "status": "supplemented-with-reviewed-coast",
+                "segments": [
+                  {
+                    "kind": "coastline",
+                    "referenceRole": "monaco",
+                    "anchors": [
+                      [
+                        7.43906284,
+                        43.74928362
+                      ],
+                      [
+                        7.41851414,
+                        43.72475049
+                      ]
+                    ],
+                    "master_vertices": 1795,
+                    "derived_vertices": 1795,
+                    "simplification_bound_px": 0,
+                    "target": "FRA/MCO",
+                    "status": "supplemented-with-reviewed-coast"
+                  }
+                ],
+                "kind": "coastline",
+                "referenceRole": "monaco",
+                "sourceId": "ign-bdtopo-v3-monaco-coast",
+                "referenceManifest": "tools/historical-library/sources/monaco-reviewed-2026-10-22/coast-reference.json"
+              }
+            ],
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "FRA/MCO",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              }
+            ],
+            "coastlineReview": {
+              "referenceManifest": "tools/historical-library/sources/monaco-reviewed-2026-10-22/coast-reference.json",
+              "sourceId": "ign-bdtopo-v3-monaco-coast",
+              "effectiveDateEstablished": false,
+              "historicalAccuracyVerified": false
+            },
+            "additionalSources": [
+              {
+                "sourceId": "ign-bdtopo-v3-monaco-coast",
+                "title": "IGN BD TOPO v3 - Monaco high-water coastline",
+                "published": null,
+                "url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetFeature&typenames=BDTOPO_V3%3Alimite_terre_mer&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=43.715%2C7.40%2C43.755%2C7.445%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&count=100",
+                "license": "Licence Ouverte / Open Licence 2.0",
+                "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+                "attribution": "IGN - BD TOPO v3, queried 2026-10-22; high-water coastline; modified endpoint joins; Licence Ouverte 2.0",
+                "sourceFile": "tools/historical-library/sources/monaco-reviewed-2026-10-22/ign-coast.geojson",
+                "retrieved": "2026-10-22",
+                "lastModified": "2024-09-23",
+                "confirmed": "2021-11-01"
+              }
+            ]
+          }
         }
       ],
       "instantiation": {
@@ -22234,21 +22467,21 @@
         "representativeGeometryVersionId": "state:MCO:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 Admin 0 Countries",
+        "title": "Reviewed land boundaries and IGN high-water coastline with existing attribution",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1"
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+ign-bdtopo-v3-monaco-coast"
       },
       "file": "state-MCO.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 743,
-      "decodedBytes": 2161,
-      "sha256": "d6df83fdef49bae32cc79cefeb5d5273ce3c9425b6d245985e81c0424da9962c",
+      "compressedBytes": 20122,
+      "decodedBytes": 175867,
+      "sha256": "5cafa9139d2a81d702f0c3b6c689047de9623a58e03faa0421c0546578cadcea",
       "bbox": [
-        7.36575,
-        43.717969,
-        7.437454,
-        43.763506
+        7.409077600000046,
+        43.72475049,
+        7.43983862,
+        43.75190930000008
       ],
       "geometryVersionCount": 1
     },

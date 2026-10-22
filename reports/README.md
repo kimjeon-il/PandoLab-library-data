@@ -18,6 +18,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-MCO-20261022` | [모나코–프랑스 국경과 모나코 해안](geography/monaco-boundary-coast-2026-10-22.md) | 2026-10-22 | `implemented / focused-review` | `work-gis-only` |
 | `GEO-MICRO-20261022` | [안도라–프랑스·산마리노·바티칸·레소토](geography/microstate-borders-2026-10-22.md) | 2026-10-22 | `implemented / focused-review` | `work-gis-only` |
 | `GEO-AUT-LIE-20261022` | [오스트리아–리히텐슈타인 국경과 스위스 삼중접점](geography/austria-liechtenstein-boundary-2026-10-22.md) | 2026-10-22 | `implemented / screen-delta-checked` | `work-gis-only` |
 | `GEO-LOAD-20261021` | [국가별 내장 지도 로딩·현재 월 자동 선택·기존 단일 파일 보관](geography/country-loading-current-month-2026-10-21.md) | 2026-10-21 | `implemented / focused-verification` | `work-gis-only` |
