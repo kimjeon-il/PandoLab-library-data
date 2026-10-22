@@ -3738,6 +3738,117 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "AND",
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "add6849a-6852-4527-9a09-20d7be4246d2"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "old_length_degrees": 0.5076428016920772,
+                    "source_length_degrees": 0.6408884002157571,
+                    "master_vertices": 2848,
+                    "derived_vertices": 185,
+                    "anchors": [
+                      [
+                        1.441960100000074,
+                        42.60374880000006
+                      ],
+                      [
+                        1.7256607000000486,
+                        42.50467130000004
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "AND",
+                  "ESP"
+                ],
+                "sourceLineIds": [
+                  "ac0b3674-2b69-45a3-8ecf-e242a1f18dd9"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.16335924073042665,
+                    "source_length_degrees": 0.22948438286136053,
+                    "master_vertices": 742,
+                    "derived_vertices": 54,
+                    "anchors": [
+                      [
+                        1.441960100000074,
+                        42.60374880000006
+                      ],
+                      [
+                        1.4295685816718486,
+                        42.493431316701106
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "AND",
+                  "ESP"
+                ],
+                "sourceLineIds": [
+                  "ac0b3674-2b69-45a3-8ecf-e242a1f18dd9"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.018133097547947095,
+                    "source_length_degrees": 0.03925141656962042,
+                    "master_vertices": 82,
+                    "derived_vertices": 5,
+                    "anchors": [
+                      [
+                        1.7256607000000486,
+                        42.50467130000004
+                      ],
+                      [
+                        1.6923309908565816,
+                        42.49422211190178
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              }
+            ],
+            "reviewedTripointRepair": {
+              "target": [
+                "AND",
+                "FRA"
+              ],
+              "junctionCountry": "ESP",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false
+            },
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "AND/FRA",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
               }
             ]
           }
@@ -3760,14 +3871,14 @@
       "file": "state-AND.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 2828,
-      "decodedBytes": 14077,
-      "sha256": "31f402aa030324fb724a135c142a4d5b1a6d7ae41e93ccd3445118a0dd67d56e",
+      "compressedBytes": 6185,
+      "decodedBytes": 38072,
+      "sha256": "45f6e7026ea19acdd0bf4cc0479919f360b484ef1bbe53906b542d2338304042",
       "bbox": [
-        1.406456,
+        1.4135877000000505,
         42.42874750000004,
-        1.765091,
-        42.649362
+        1.7866939000000457,
+        42.65588750000006
       ],
       "geometryVersionCount": 1
     },
@@ -12579,6 +12690,150 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "AND",
+                  "ESP"
+                ],
+                "sourceLineIds": [
+                  "ac0b3674-2b69-45a3-8ecf-e242a1f18dd9"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.16335924073042665,
+                    "source_length_degrees": 0.22948438286136053,
+                    "master_vertices": 742,
+                    "derived_vertices": 54,
+                    "anchors": [
+                      [
+                        1.441960100000074,
+                        42.60374880000006
+                      ],
+                      [
+                        1.4295685816718486,
+                        42.493431316701106
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "ESP",
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "e49950a6-b504-403c-a85d-c4d0ecf07a2e"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.3235279569908032,
+                    "source_length_degrees": 0.4165480438495237,
+                    "master_vertices": 1633,
+                    "derived_vertices": 127,
+                    "anchors": [
+                      [
+                        1.441960100000074,
+                        42.60374880000006
+                      ],
+                      [
+                        1.1750071905880524,
+                        42.70866003527843
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "AND",
+                  "ESP"
+                ],
+                "sourceLineIds": [
+                  "ac0b3674-2b69-45a3-8ecf-e242a1f18dd9"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.018133097547947095,
+                    "source_length_degrees": 0.03925141656962042,
+                    "master_vertices": 82,
+                    "derived_vertices": 5,
+                    "anchors": [
+                      [
+                        1.7256607000000486,
+                        42.50467130000004
+                      ],
+                      [
+                        1.6923309908565816,
+                        42.49422211190178
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "ESP",
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "e49950a6-b504-403c-a85d-c4d0ecf07a2e"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.3743258355144928,
+                    "source_length_degrees": 0.4213707975849756,
+                    "master_vertices": 1169,
+                    "derived_vertices": 92,
+                    "anchors": [
+                      [
+                        1.7256607000000486,
+                        42.50467130000004
+                      ],
+                      [
+                        2.016057900000021,
+                        42.34709850000007
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              }
+            ],
+            "reviewedTripointRepair": {
+              "target": [
+                "AND",
+                "FRA"
+              ],
+              "junctionCountry": "ESP",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false
+            },
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "AND/FRA",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
               }
             ]
           }
@@ -12601,9 +12856,9 @@
       "file": "state-ESP.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 48635,
-      "decodedBytes": 414142,
-      "sha256": "192ea2b0c858fcfaeef9d1188b6dc98c0574ac358c5f424d62218b175218e502",
+      "compressedBytes": 52220,
+      "decodedBytes": 443143,
+      "sha256": "04979f53d31ce0645b66ca2b8e792ad57b31d25559a4e078aafb9ee00e92a3f9",
       "bbox": [
         -18.167226,
         27.642239,
@@ -13443,6 +13698,117 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "AND",
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "add6849a-6852-4527-9a09-20d7be4246d2"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "old_length_degrees": 0.5076428016920772,
+                    "source_length_degrees": 0.6408884002157571,
+                    "master_vertices": 2848,
+                    "derived_vertices": 185,
+                    "anchors": [
+                      [
+                        1.441960100000074,
+                        42.60374880000006
+                      ],
+                      [
+                        1.7256607000000486,
+                        42.50467130000004
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "ESP",
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "e49950a6-b504-403c-a85d-c4d0ecf07a2e"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 0,
+                    "old_length_degrees": 0.3235279569908032,
+                    "source_length_degrees": 0.4165480438495237,
+                    "master_vertices": 1633,
+                    "derived_vertices": 127,
+                    "anchors": [
+                      [
+                        1.441960100000074,
+                        42.60374880000006
+                      ],
+                      [
+                        1.1750071905880524,
+                        42.70866003527843
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "ESP",
+                  "FRA"
+                ],
+                "sourceLineIds": [
+                  "e49950a6-b504-403c-a85d-c4d0ecf07a2e"
+                ],
+                "status": "supplemented-with-reviewed-tripoints",
+                "segments": [
+                  {
+                    "junction": 1,
+                    "old_length_degrees": 0.3743258355144928,
+                    "source_length_degrees": 0.4213707975849756,
+                    "master_vertices": 1169,
+                    "derived_vertices": 92,
+                    "anchors": [
+                      [
+                        1.7256607000000486,
+                        42.50467130000004
+                      ],
+                      [
+                        2.016057900000021,
+                        42.34709850000007
+                      ]
+                    ],
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "AND/FRA",
+                    "status": "supplemented-with-reviewed-tripoints"
+                  }
+                ]
+              }
+            ],
+            "reviewedTripointRepair": {
+              "target": [
+                "AND",
+                "FRA"
+              ],
+              "junctionCountry": "ESP",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false
+            },
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "AND/FRA",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
               }
             ]
           }
@@ -13465,9 +13831,9 @@
       "file": "state-FRA.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 123231,
-      "decodedBytes": 1048331,
-      "sha256": "28c2bc955f720f002f1c6351d7d201ed4ac63a088fee10494f5342d564d95f53",
+      "compressedBytes": 128539,
+      "decodedBytes": 1089115,
+      "sha256": "0dc072b4608a9103f5233ddcb0400a656514867e5a81b0ddeaec8b99924e6a6f",
       "bbox": [
         -61.797841,
         -21.370782,
@@ -18105,10 +18471,10 @@
           "validTo": null,
           "datePrecision": "current",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+igm-dbsn-2025-06-27",
           "modernBoundarySupplement": {
-            "sourceId": "dos-lsib-11.4",
-            "published": "2025-02-24",
+            "sourceId": "dos-lsib-11.4+igm-dbsn-2025-06-27",
+            "published": "2025-06-27",
             "effectiveDateEstablished": false,
             "status": "provisional-modern-source-supplement",
             "coastline": "unchanged",
@@ -18244,6 +18610,78 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "ITA",
+                  "VAT"
+                ],
+                "sourceLineIds": [
+                  "7179dfba-df21-4752-ab98-5e59ca1aad5f"
+                ],
+                "status": "supplemented-with-reviewed-enclave",
+                "segments": [
+                  {
+                    "closedRing": true,
+                    "enclave": "VAT",
+                    "old_length_degrees": 0.004431930765121762,
+                    "source_length_degrees": 0.038205996389408255,
+                    "master_vertices": 140,
+                    "derived_vertices": 140,
+                    "simplification_bound_px": 0,
+                    "target": "ITA/VAT",
+                    "status": "supplemented-with-reviewed-enclave"
+                  }
+                ]
+              },
+              {
+                "countries": [
+                  "ITA",
+                  "SMR"
+                ],
+                "sourceLineIds": [
+                  "8E2B52E4-278F-472C-ABA3-27DD22DE7441"
+                ],
+                "status": "supplemented-with-reviewed-enclave",
+                "segments": [
+                  {
+                    "closedRing": true,
+                    "enclave": "SMR",
+                    "old_length_degrees": 0.31029214572341274,
+                    "source_length_degrees": 0.4408550539435186,
+                    "master_vertices": 2233,
+                    "derived_vertices": 2233,
+                    "simplification_bound_px": 0,
+                    "target": "ITA/SMR",
+                    "status": "supplemented-with-reviewed-enclave"
+                  }
+                ],
+                "sourceId": "igm-dbsn-2025-06-27",
+                "referenceManifest": "tools/historical-library/sources/reviewed-boundaries-2026-10-22/smr-igm-reference.json"
+              }
+            ],
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "ITA/VAT",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              },
+              {
+                "target": "ITA/SMR",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              }
+            ],
+            "additionalSources": [
+              {
+                "sourceId": "igm-dbsn-2025-06-27",
+                "title": "Istituto Geografico Militare - DBSN San Marino boundary (META_IST=20)",
+                "published": "2025-06-27",
+                "url": "https://igmi.esercito.difesa.it/servizi/database-di-sintesi-nazionale/",
+                "license": "ODbL-1.0",
+                "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+                "attribution": "Contains information from Istituto Geografico Militare (IGM), DBSN, available under ODbL v1.0.",
+                "sourceFile": "tools/historical-library/sources/reviewed-boundaries-2026-10-22/igm-smr-neighboring-communes.geojson"
               }
             ]
           }
@@ -18259,16 +18697,16 @@
         "representativeGeometryVersionId": "state:ITA:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Existing coastlines and attribution with eligible LSIB 11.4 land boundary sections",
+        "title": "Existing coastlines and attribution with reviewed land boundary sections",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+igm-dbsn-2025-06-27"
       },
       "file": "state-ITA.json.gz",
       "validFrom": "1861-03-17",
       "validTo": null,
-      "compressedBytes": 91220,
-      "decodedBytes": 784658,
-      "sha256": "f829017a793beca0b3301790d96a95a7dc704f02dd934fca5bdf712ba0ff86c1",
+      "compressedBytes": 129365,
+      "decodedBytes": 1030394,
+      "sha256": "9a28ba426f28d13a177487fc7d92ac7bc59ffa6e179d0eac96ffb9797d7949a6",
       "bbox": [
         6.626832200000024,
         35.489244,
@@ -20872,7 +21310,54 @@
           "validTo": null,
           "datePrecision": "current",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4",
+          "modernBoundarySupplement": {
+            "sourceId": "dos-lsib-11.4",
+            "published": "2025-02-24",
+            "effectiveDateEstablished": false,
+            "status": "provisional-modern-source-supplement",
+            "coastline": "unchanged",
+            "sourceFile": "tools/historical-library/sources/lsib-11.4/boundaries.geojson.gz",
+            "simplificationToleranceDegrees": 0.0004,
+            "simplificationMaximumPx": 0.18204444444444445,
+            "screenBaseline": {
+              "widthCssPx": 2560,
+              "flatZoom": 64
+            },
+            "historicalAccuracyVerified": false,
+            "boundaries": [
+              {
+                "countries": [
+                  "LSO",
+                  "ZAF"
+                ],
+                "sourceLineIds": [
+                  "a0e490ab-1201-476a-b05c-e87f3a96039e"
+                ],
+                "status": "supplemented-with-reviewed-enclave",
+                "segments": [
+                  {
+                    "closedRing": true,
+                    "enclave": "LSO",
+                    "old_length_degrees": 7.610840390263381,
+                    "source_length_degrees": 10.712898065089565,
+                    "master_vertices": 20639,
+                    "derived_vertices": 2867,
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "LSO/ZAF",
+                    "status": "supplemented-with-reviewed-enclave"
+                  }
+                ]
+              }
+            ],
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "LSO/ZAF",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              }
+            ]
+          }
         }
       ],
       "instantiation": {
@@ -20885,21 +21370,21 @@
         "representativeGeometryVersionId": "state:LSO:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 Admin 0 Countries",
+        "title": "Existing coastlines and attribution with eligible LSIB 11.4 land boundary sections",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1"
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
       },
       "file": "state-LSO.json.gz",
       "validFrom": "1966-10-04",
       "validTo": null,
-      "compressedBytes": 3643,
-      "decodedBytes": 26783,
-      "sha256": "330740fa5ba1b3ac44081ec7a8a60656781eeb4bff0840e70927d4530fdbf8f8",
+      "compressedBytes": 34621,
+      "decodedBytes": 278953,
+      "sha256": "e7c0075924af7940906ceaef9ef1f4459f9340c860da6c6f6d3447019703fbb8",
       "bbox": [
-        27.002155,
-        -30.658799,
-        29.435908,
-        -28.570761
+        27.011249000000078,
+        -30.67760599999997,
+        29.456192000000044,
+        -28.570505999999966
       ],
       "geometryVersionCount": 1
     },
@@ -29166,7 +29651,68 @@
           "validTo": null,
           "datePrecision": "current",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1+igm-dbsn-2025-06-27",
+          "modernBoundarySupplement": {
+            "sourceId": "igm-dbsn-2025-06-27",
+            "published": "2025-06-27",
+            "effectiveDateEstablished": false,
+            "status": "provisional-modern-source-supplement",
+            "coastline": "unchanged",
+            "sourceFile": "tools/historical-library/sources/reviewed-boundaries-2026-10-22/igm-smr-neighboring-communes.geojson",
+            "simplificationToleranceDegrees": 0,
+            "simplificationMaximumPx": 0,
+            "screenBaseline": {
+              "widthCssPx": 2560,
+              "flatZoom": 64
+            },
+            "historicalAccuracyVerified": false,
+            "boundaries": [
+              {
+                "countries": [
+                  "ITA",
+                  "SMR"
+                ],
+                "sourceLineIds": [
+                  "8E2B52E4-278F-472C-ABA3-27DD22DE7441"
+                ],
+                "status": "supplemented-with-reviewed-enclave",
+                "segments": [
+                  {
+                    "closedRing": true,
+                    "enclave": "SMR",
+                    "old_length_degrees": 0.31029214572341274,
+                    "source_length_degrees": 0.4408550539435186,
+                    "master_vertices": 2233,
+                    "derived_vertices": 2233,
+                    "simplification_bound_px": 0,
+                    "target": "ITA/SMR",
+                    "status": "supplemented-with-reviewed-enclave"
+                  }
+                ],
+                "sourceId": "igm-dbsn-2025-06-27",
+                "referenceManifest": "tools/historical-library/sources/reviewed-boundaries-2026-10-22/smr-igm-reference.json"
+              }
+            ],
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "ITA/SMR",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              }
+            ],
+            "additionalSources": [
+              {
+                "sourceId": "igm-dbsn-2025-06-27",
+                "title": "Istituto Geografico Militare - DBSN San Marino boundary (META_IST=20)",
+                "published": "2025-06-27",
+                "url": "https://igmi.esercito.difesa.it/servizi/database-di-sintesi-nazionale/",
+                "license": "ODbL-1.0",
+                "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+                "attribution": "Contains information from Istituto Geografico Militare (IGM), DBSN, available under ODbL v1.0.",
+                "sourceFile": "tools/historical-library/sources/reviewed-boundaries-2026-10-22/igm-smr-neighboring-communes.geojson"
+              }
+            ]
+          }
         }
       ],
       "instantiation": {
@@ -29179,21 +29725,21 @@
         "representativeGeometryVersionId": "state:SMR:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 Admin 0 Countries",
+        "title": "Existing coastlines and attribution with reviewed land boundary sections",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1"
+        "sourceId": "natural-earth-5.1.1+igm-dbsn-2025-06-27"
       },
       "file": "state-SMR.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 793,
-      "decodedBytes": 2688,
-      "sha256": "fbe3237d798645c5b67fd6fd3ec05fc062fce435c75531cb4652cd07e38224b8",
+      "compressedBytes": 38141,
+      "decodedBytes": 216621,
+      "sha256": "61c940abd868a5e04d4b105f4b8aa7ded87d160bec3255d45bad1e54d8bbf1ab",
       "bbox": [
-        12.385629,
-        43.892056,
-        12.492392,
-        43.982567
+        12.403307060155932,
+        43.89365091008423,
+        12.517097525850415,
+        43.99206835000269
       ],
       "geometryVersionCount": 1
     },
@@ -35835,7 +36381,54 @@
           "validTo": null,
           "datePrecision": "current",
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4",
+          "modernBoundarySupplement": {
+            "sourceId": "dos-lsib-11.4",
+            "published": "2025-02-24",
+            "effectiveDateEstablished": false,
+            "status": "provisional-modern-source-supplement",
+            "coastline": "unchanged",
+            "sourceFile": "tools/historical-library/sources/lsib-11.4/boundaries.geojson.gz",
+            "simplificationToleranceDegrees": 0,
+            "simplificationMaximumPx": 0,
+            "screenBaseline": {
+              "widthCssPx": 2560,
+              "flatZoom": 64
+            },
+            "historicalAccuracyVerified": false,
+            "boundaries": [
+              {
+                "countries": [
+                  "ITA",
+                  "VAT"
+                ],
+                "sourceLineIds": [
+                  "7179dfba-df21-4752-ab98-5e59ca1aad5f"
+                ],
+                "status": "supplemented-with-reviewed-enclave",
+                "segments": [
+                  {
+                    "closedRing": true,
+                    "enclave": "VAT",
+                    "old_length_degrees": 0.004431930765121762,
+                    "source_length_degrees": 0.038205996389408255,
+                    "master_vertices": 140,
+                    "derived_vertices": 140,
+                    "simplification_bound_px": 0,
+                    "target": "ITA/VAT",
+                    "status": "supplemented-with-reviewed-enclave"
+                  }
+                ]
+              }
+            ],
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "ITA/VAT",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
+              }
+            ]
+          }
         }
       ],
       "instantiation": {
@@ -35848,21 +36441,21 @@
         "representativeGeometryVersionId": "state:VAT:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 Admin 0 Countries",
+        "title": "Existing coastlines and attribution with eligible LSIB 11.4 land boundary sections",
         "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1"
+        "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
       },
       "file": "state-VAT.json.gz",
       "validFrom": "1929-06-07",
       "validTo": null,
-      "compressedBytes": 701,
-      "decodedBytes": 1807,
-      "sha256": "c54243ca8cf28ade7deffd736e271d483522c36f1d5ed0e65974e99ad927b642",
+      "compressedBytes": 2843,
+      "decodedBytes": 16215,
+      "sha256": "59e2e6b8f6b786b31ab47b7a14c108864e7845797bea70fe22c6255b30b22f65",
       "bbox": [
-        12.452714,
-        41.902752,
-        12.454035,
-        41.903915
+        12.44573980000007,
+        41.90019270000005,
+        12.458373600000073,
+        41.90743310000005
       ],
       "geometryVersionCount": 1
     },
@@ -36950,6 +37543,36 @@
                     "status": "supplemented-between-intersections"
                   }
                 ]
+              },
+              {
+                "countries": [
+                  "LSO",
+                  "ZAF"
+                ],
+                "sourceLineIds": [
+                  "a0e490ab-1201-476a-b05c-e87f3a96039e"
+                ],
+                "status": "supplemented-with-reviewed-enclave",
+                "segments": [
+                  {
+                    "closedRing": true,
+                    "enclave": "LSO",
+                    "old_length_degrees": 7.610840390263381,
+                    "source_length_degrees": 10.712898065089565,
+                    "master_vertices": 20639,
+                    "derived_vertices": 2867,
+                    "simplification_bound_px": 0.18204444444444445,
+                    "target": "LSO/ZAF",
+                    "status": "supplemented-with-reviewed-enclave"
+                  }
+                ]
+              }
+            ],
+            "reviewedBoundaryRepairs": [
+              {
+                "target": "LSO/ZAF",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false
               }
             ]
           }
@@ -36972,9 +37595,9 @@
       "file": "state-ZAF.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 67349,
-      "decodedBytes": 592620,
-      "sha256": "41ed924ea7ef079d1a05a6ceb64a99cb6851d64b7bfe71749fc77110ddb753e8",
+      "compressedBytes": 96945,
+      "decodedBytes": 864441,
+      "sha256": "e9887276457bc7e914c466f422405f3f4558ffa5e5bccf8209acbd1c2631b39a",
       "bbox": [
         16.469981,
         -46.965753,
