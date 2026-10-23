@@ -1,5 +1,7 @@
 # 판도편집기 조사·검증 보고서
 
+전체 브랜치 통합 검증: [UI·GIS main 통합 — 2026-10-23](development/testing/all-branches-main-integration-2026-10-23.md) (DEV-MAIN-20261023, focused-verification).
+
 최신 개발 통합 기록: [미병합 커밋 main 통합 — 2026-10-21](development/testing/all-branches-main-integration-2026-10-21.md) (`DEV-MAIN-20261021`, `integrated / focused-verification`).
 
 통합 `Pando` 저장소의 이 폴더가 웹·앱 사람이 읽는 조사·검증 보고서의 정본입니다. 웹 데이터는 루트 `assets/`, 앱 소스는 `apps/web-shell/`, 공통 계산은 `shared/`에 둡니다. 보고서만으로 지도 반영이나 검증 통과를 뜻하지 않습니다.
