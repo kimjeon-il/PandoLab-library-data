@@ -1,0 +1,15 @@
+{
+  "comparedFiles": 9,
+  "changed": [],
+  "hashes": {
+    "assets/data/territorial-entities/generated/current-world.geojson": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
+    "assets/data/world/objects/countries-preview-sha256-a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb.geojson.gz": "a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb",
+    "assets/data/world/objects/world-mesh-preview-sha256-3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e.bin.gz": "3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e",
+    "assets/data/world/objects/countries-canonical-sha256-78680d3a00fdbb066d645ef623eb751fb4ef8d7307815fc1bf8ffd5fe5d745b3.pcg.gz": "78680d3a00fdbb066d645ef623eb751fb4ef8d7307815fc1bf8ffd5fe5d745b3",
+    "assets/data/world/objects/world-mesh-sha256-e2d54d91c33470c8907f1c09ba58c81ebacd333d4d3afb129280403d74eec0a6.bin.gz": "e2d54d91c33470c8907f1c09ba58c81ebacd333d4d3afb129280403d74eec0a6",
+    "assets/data/world/objects/country-label-anchors-sha256-791e244478cce05b76fa79bc6f7933250a8dd78def1d46aa7ec6ccea2c312902.json": "791e244478cce05b76fa79bc6f7933250a8dd78def1d46aa7ec6ccea2c312902",
+    "assets/data/countries-preview-shared-v0.36.1.json.gz": "fad9e0987deb65fb68c474f3bcbd83bc62ee9c6f8c0912fa77863168afa2dace",
+    "assets/data/countries-canonical-shared-v0.36.1.json.gz": "5956f9445821a6c6088564ef4d27c50b8f1e4bff99dfda9fd6e6757c078487d1",
+    "assets/data/world/current.json": "43a00051536bfb76ceec423a21fee02eee3a628ac1777608ff9ef660be2b020c"
+  }
+}
