@@ -1,5 +1,8 @@
 # 판도편집기 조사·검증 보고서
 
+계산 최적화 기록: [전수 정적 조사·동일 결과 검증·용량 증가·미해결 CI — 2026-10-23](development/testing/exact-calculation-2026-10-23/README.md) (`DEV-EXACT-CALC-20261023`, `deployed / focused-verification / CI-incomplete`).
+
+
 전체 브랜치 통합 검증: [UI·GIS main 통합 — 2026-10-23](development/testing/all-branches-main-integration-2026-10-23.md) (DEV-MAIN-20261023, focused-verification).
 
 최신 개발 통합 기록: [미병합 커밋 main 통합 — 2026-10-21](development/testing/all-branches-main-integration-2026-10-21.md) (`DEV-MAIN-20261021`, `integrated / focused-verification`).
