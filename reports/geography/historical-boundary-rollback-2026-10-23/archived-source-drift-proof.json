@@ -1,0 +1,1415 @@
+{
+  "status": "passed",
+  "checkedEntityCount": 281,
+  "semanticDrift": 0,
+  "geometryDrift": 0,
+  "sourceRevision": "8218bca44e34872fc3ad86cf1bb4c6849f7b21c6",
+  "localStoreCommit": "187bfba64c776cea32061fded0855402658e3c1a",
+  "entities": [
+    {
+      "entity": "state:ABW",
+      "path": "assets/data/territorial-entities/source/countries/state-ABW.json",
+      "sha256": "9767ac96bd21314d928f1b9be3cbde6a264e33d2111a79520c9aa92f8deb84f6"
+    },
+    {
+      "entity": "state:AFG",
+      "path": "assets/data/territorial-entities/source/countries/state-AFG.json",
+      "sha256": "d3be5f81c2a59feec95595ce6aa4e307435568f03ab101efa6807070f4c9d665"
+    },
+    {
+      "entity": "state:AGO",
+      "path": "assets/data/territorial-entities/source/countries/state-AGO.json",
+      "sha256": "dbd528ba5a7f7e51ce85058c53c05f3191e7d32724cbe13e1932108dd2ff5f75"
+    },
+    {
+      "entity": "state:AIA",
+      "path": "assets/data/territorial-entities/source/countries/state-AIA.json",
+      "sha256": "ce534175b1ba80f69c042ff0ef486f315b98512677fd8cda524eb8a13426c430"
+    },
+    {
+      "entity": "state:ALB",
+      "path": "assets/data/territorial-entities/source/countries/state-ALB.json",
+      "sha256": "0688b189719b8fa61864c6200be950df4122fd9d281acdbb44794f116028872d"
+    },
+    {
+      "entity": "state:ALD",
+      "path": "assets/data/territorial-entities/source/countries/state-ALD.json",
+      "sha256": "7794a66a3980d67ed3f7ab0bd33240ce78a9d665c09e94a24bcd287cedb9c184"
+    },
+    {
+      "entity": "state:AND",
+      "path": "assets/data/territorial-entities/source/countries/state-AND.json",
+      "sha256": "6165eaff584beee6d84d292c33f2eb575cece5b7a0ae5d01c9aa352e4cd1dad3"
+    },
+    {
+      "entity": "state:ARE",
+      "path": "assets/data/territorial-entities/source/countries/state-ARE.json",
+      "sha256": "c0ba5edd2316bc9c0701b477e6b0974dec0784095b2c96a5cd5f82cac70510f5"
+    },
+    {
+      "entity": "state:ARG",
+      "path": "assets/data/territorial-entities/source/countries/state-ARG.json",
+      "sha256": "0b450765c4dc2980b5bc92b8c002012a4d21f04982e75534af0501cd3712a859"
+    },
+    {
+      "entity": "state:ARM",
+      "path": "assets/data/territorial-entities/source/countries/state-ARM.json",
+      "sha256": "e72df8c538127808cac84803e9e7f33cdb3d3d5fa040a5c882d2b4703a7ac260"
+    },
+    {
+      "entity": "state:ASM",
+      "path": "assets/data/territorial-entities/source/countries/state-ASM.json",
+      "sha256": "156f88027f52aca0365566e94d422a91f72df90edf1e9c8cf8c73eb11594346d"
+    },
+    {
+      "entity": "state:ATA",
+      "path": "assets/data/territorial-entities/source/countries/state-ATA.json",
+      "sha256": "5ef17cb36cfd7370cdc19ebabc8bac1c36cbaf9c8ac7e9efc396f24dd34a7c62"
+    },
+    {
+      "entity": "state:ATC",
+      "path": "assets/data/territorial-entities/source/countries/state-ATC.json",
+      "sha256": "b32f65df5e670941d7b69707a75768416cd4485ef3d1af5d6ccb4905303f1d4b"
+    },
+    {
+      "entity": "state:ATF",
+      "path": "assets/data/territorial-entities/source/countries/state-ATF.json",
+      "sha256": "8b63742f8e3be9be7103f78acadd341e530655b5c7e9db357bfe39b7f1656cb4"
+    },
+    {
+      "entity": "state:ATG",
+      "path": "assets/data/territorial-entities/source/countries/state-ATG.json",
+      "sha256": "1c42f06fbd45ff74af66595261292273895f95aa33efdb3aa8286a1989180682"
+    },
+    {
+      "entity": "state:AUS",
+      "path": "assets/data/territorial-entities/source/countries/state-AUS.json",
+      "sha256": "72fa7d2dbcd2eae1b4c10b357acd601e42c11bd0c9f0117fde52d6643813e962"
+    },
+    {
+      "entity": "state:AUT",
+      "path": "assets/data/territorial-entities/source/countries/state-AUT.json",
+      "sha256": "2d8e27e2c1477c40595ccbfaf9e84b6f7102ab28622d0b8f567279afd9e6b5c4"
+    },
+    {
+      "entity": "state:AZE",
+      "path": "assets/data/territorial-entities/source/countries/state-AZE.json",
+      "sha256": "3f2b6efe3c5575681fd46ebb13b55e3d72b939fe49891c93746d550ef871f672"
+    },
+    {
+      "entity": "state:BDI",
+      "path": "assets/data/territorial-entities/source/countries/state-BDI.json",
+      "sha256": "f837100a9a0fb43f035a2b165730098ccf82548eb764581ef9f001e1835b2a6d"
+    },
+    {
+      "entity": "state:BEL",
+      "path": "assets/data/territorial-entities/source/countries/state-BEL.json",
+      "sha256": "e19cfde100f561b6ad115357f8de1b087790c58a96255c024db1ef2a46482bd6"
+    },
+    {
+      "entity": "state:BEN",
+      "path": "assets/data/territorial-entities/source/countries/state-BEN.json",
+      "sha256": "bfeb663850834538ed8045349bc76977d8b02b5f40e0937efedc390e89576eb1"
+    },
+    {
+      "entity": "state:BFA",
+      "path": "assets/data/territorial-entities/source/countries/state-BFA.json",
+      "sha256": "6775dc35e1db8ec890dcd3c4b10595692ad45aa0449a376e71c8edf0cb23243e"
+    },
+    {
+      "entity": "state:BGD",
+      "path": "assets/data/territorial-entities/source/countries/state-BGD.json",
+      "sha256": "116acf247bbb4eb524fe0a5c9bca73c80fabf28a3481fc45b5b7db5455f0281b"
+    },
+    {
+      "entity": "state:BGR",
+      "path": "assets/data/territorial-entities/source/countries/state-BGR.json",
+      "sha256": "2fc6ec392a9d46bd9f11d65b568efa3f48fb66f0c0d96840074e7b145cceb6bd"
+    },
+    {
+      "entity": "state:BHR",
+      "path": "assets/data/territorial-entities/source/countries/state-BHR.json",
+      "sha256": "ba363bf90a2e1fc49ca66680d4f36d745b71d3ecc54ecd31da99279f6364aedd"
+    },
+    {
+      "entity": "state:BHS",
+      "path": "assets/data/territorial-entities/source/countries/state-BHS.json",
+      "sha256": "0ffc8dbc3dce4b861c6fa2f45ce8b93740bedf0cd93957ba885b552b072732ec"
+    },
+    {
+      "entity": "state:BIH",
+      "path": "assets/data/territorial-entities/source/countries/state-BIH.json",
+      "sha256": "445752137b3a2e78e120540fd5efe4f6b4a4570305d27feb2e8703bc2bdf2fe4"
+    },
+    {
+      "entity": "state:BJN",
+      "path": "assets/data/territorial-entities/source/countries/state-BJN.json",
+      "sha256": "ec6bf76fd42fa2e804c9ac6a6256152a55313c56be23181c0b6aed135610520d"
+    },
+    {
+      "entity": "state:BLM",
+      "path": "assets/data/territorial-entities/source/countries/state-BLM.json",
+      "sha256": "61f6117a160f7adc3703520ac778f69ed7ccd6e7a9104244bbf18f6cb3b29364"
+    },
+    {
+      "entity": "state:BLR",
+      "path": "assets/data/territorial-entities/source/countries/state-BLR.json",
+      "sha256": "12dedbed299b0983af738af98cf3b56ca51edba043fe6d8131a47a7f99c7d57e"
+    },
+    {
+      "entity": "state:BLZ",
+      "path": "assets/data/territorial-entities/source/countries/state-BLZ.json",
+      "sha256": "b8efb766ffc9630774ad8981f2e399d2f437da206ded047a3a2346225579f846"
+    },
+    {
+      "entity": "state:BMU",
+      "path": "assets/data/territorial-entities/source/countries/state-BMU.json",
+      "sha256": "0c9c44e012e7f1402dd621da3bc53ca2e7493f8feb728067c74370b65b833445"
+    },
+    {
+      "entity": "state:BOL",
+      "path": "assets/data/territorial-entities/source/countries/state-BOL.json",
+      "sha256": "e07d56e700ebf5cc5ba69f7cbf736fc3b501f56bffeb5d9d29bc107d265b2a79"
+    },
+    {
+      "entity": "state:BRA",
+      "path": "assets/data/territorial-entities/source/countries/state-BRA.json",
+      "sha256": "174fdd5a0536ce5f9bf927d337f6b3b9cf4e62efa9169acd4719aaa89a934015"
+    },
+    {
+      "entity": "state:BRB",
+      "path": "assets/data/territorial-entities/source/countries/state-BRB.json",
+      "sha256": "b158584b3e72c5c59ed13f56f466b06c864a4fdb64b8ba6e51249492ca2b3cd9"
+    },
+    {
+      "entity": "state:BRI",
+      "path": "assets/data/territorial-entities/source/countries/state-BRI.json",
+      "sha256": "b16ac21a9fbfc4929cf8c4f6cdee60ae9ab78f252a19aa9209820b7d71141483"
+    },
+    {
+      "entity": "state:BRN",
+      "path": "assets/data/territorial-entities/source/countries/state-BRN.json",
+      "sha256": "d3fbd5fdc797276294204bb6a963ce174c54488afac9a49321064026ec6568b3"
+    },
+    {
+      "entity": "state:BRT",
+      "path": "assets/data/territorial-entities/source/countries/state-BRT.json",
+      "sha256": "fe48ab9a10de5c58d43eb0f579c84a12c9568427d4d73f8b64d0254f13d51e8b"
+    },
+    {
+      "entity": "state:BTN",
+      "path": "assets/data/territorial-entities/source/countries/state-BTN.json",
+      "sha256": "12537f89d05c61bb2c9a7d216cbd4ddad7ff2ac2a496ed428f7e84eb46b16205"
+    },
+    {
+      "entity": "state:BWA",
+      "path": "assets/data/territorial-entities/source/countries/state-BWA.json",
+      "sha256": "2848e305ce89dc132e90559bb5620657cd85b182a46e9779927a998896880435"
+    },
+    {
+      "entity": "state:CAF",
+      "path": "assets/data/territorial-entities/source/countries/state-CAF.json",
+      "sha256": "4b059581c5858b429c4d05f7c392a5876ba4d667a79546c695ec2ba0b8bcffde"
+    },
+    {
+      "entity": "state:CAN",
+      "path": "assets/data/territorial-entities/source/countries/state-CAN.json",
+      "sha256": "2c8e43aaa38bdd8cbd98d48a62b595719ea0966e9f1608ee0e44d531bbea15d4"
+    },
+    {
+      "entity": "state:CHE",
+      "path": "assets/data/territorial-entities/source/countries/state-CHE.json",
+      "sha256": "1a7a682b36bf00838beb60169eeeda3575ad45a767797ee757ad696e9b17802b"
+    },
+    {
+      "entity": "state:CHL",
+      "path": "assets/data/territorial-entities/source/countries/state-CHL.json",
+      "sha256": "c7cb4fd5362d21fd214c07017f4c69ca92a04e50652586ee89a3ed8373864c6a"
+    },
+    {
+      "entity": "state:CHN",
+      "path": "assets/data/territorial-entities/source/countries/state-CHN.json",
+      "sha256": "a625620ae9c17409d793913012e415b7e2b435ba0a9d53aea0263b4fff484b02"
+    },
+    {
+      "entity": "state:CIV",
+      "path": "assets/data/territorial-entities/source/countries/state-CIV.json",
+      "sha256": "eaa95ade3f7d2d5a80dbb8869e41103e139359c34e61b33b212b25e6f701235a"
+    },
+    {
+      "entity": "state:CLP",
+      "path": "assets/data/territorial-entities/source/countries/state-CLP.json",
+      "sha256": "ba1c587f59d77a7ced7e2a9f5722c4b5b6a90afa4594584b328cd3565967510b"
+    },
+    {
+      "entity": "state:CMR",
+      "path": "assets/data/territorial-entities/source/countries/state-CMR.json",
+      "sha256": "ac520f721ec555e9b9bbcaaba3f8a59fef837fae8beaebd3fcd278d4a257b11e"
+    },
+    {
+      "entity": "state:CNM",
+      "path": "assets/data/territorial-entities/source/countries/state-CNM.json",
+      "sha256": "8cd81a56685382d2318a166675cbdb71e8a17d73e9e41678e799e7ebf88ef316"
+    },
+    {
+      "entity": "state:COD",
+      "path": "assets/data/territorial-entities/source/countries/state-COD.json",
+      "sha256": "74b81deb6780c5e3ecfcf6c6e5b059a01fe5e358ced685b7357722361dc1a985"
+    },
+    {
+      "entity": "state:COG",
+      "path": "assets/data/territorial-entities/source/countries/state-COG.json",
+      "sha256": "9bd48a48d77dfb6e04237a4bf3b419a210db466d9a1831e63fbe728f6089b7a9"
+    },
+    {
+      "entity": "state:COK",
+      "path": "assets/data/territorial-entities/source/countries/state-COK.json",
+      "sha256": "b1c36265cf70738eef5c7a12595da0195a11010dd5dfb47c29f0e9533bc74e06"
+    },
+    {
+      "entity": "state:COL",
+      "path": "assets/data/territorial-entities/source/countries/state-COL.json",
+      "sha256": "4afa3b3e682bc453a74d63c435307b1ebd5e7d870657fff818ecce3b78aec189"
+    },
+    {
+      "entity": "state:COM",
+      "path": "assets/data/territorial-entities/source/countries/state-COM.json",
+      "sha256": "2ea6360d8fdaace96ec1b8b0d3c96ba29c2b69ca4d54d6309b88dc2c09a3ce72"
+    },
+    {
+      "entity": "state:CPV",
+      "path": "assets/data/territorial-entities/source/countries/state-CPV.json",
+      "sha256": "da02dcb69efd3aaa4030c1d31a43bd1e8d9075ac0d9eaa73c9617053fd043552"
+    },
+    {
+      "entity": "state:CRI",
+      "path": "assets/data/territorial-entities/source/countries/state-CRI.json",
+      "sha256": "1fba9610259108961e035af9e4defff05c3229afa8aab10d8804ef0ee9af08a0"
+    },
+    {
+      "entity": "state:CSI",
+      "path": "assets/data/territorial-entities/source/countries/state-CSI.json",
+      "sha256": "2d31a70dadef3d8cc76b772127dfe4ea7856f996e4951843ae527424822af6f6"
+    },
+    {
+      "entity": "state:CUB",
+      "path": "assets/data/territorial-entities/source/countries/state-CUB.json",
+      "sha256": "c7465892d6d8ddcba0804c1952aa200f66f6cc26ac2f279bfcc09c216d38c5dc"
+    },
+    {
+      "entity": "state:CUW",
+      "path": "assets/data/territorial-entities/source/countries/state-CUW.json",
+      "sha256": "546611b9e387c51ea31d70c7bf2669633419c1169cbf3fd8f580690d2715740f"
+    },
+    {
+      "entity": "state:CYM",
+      "path": "assets/data/territorial-entities/source/countries/state-CYM.json",
+      "sha256": "b69a155c19c44c99410b46fdd24c3872f9e0358f0788f0e2d5bbe599e4b8a65d"
+    },
+    {
+      "entity": "state:CYN",
+      "path": "assets/data/territorial-entities/source/countries/state-CYN.json",
+      "sha256": "78fba5b5c56787c18529b561a6d8357feb625051bd9edd4592a9ede184e36b4d"
+    },
+    {
+      "entity": "state:CYP",
+      "path": "assets/data/territorial-entities/source/countries/state-CYP.json",
+      "sha256": "45af464be3769f809d33c97ddac954bafba0ec2e860b4bb6086535a9a0d2f8d9"
+    },
+    {
+      "entity": "state:CZE",
+      "path": "assets/data/territorial-entities/source/countries/state-CZE.json",
+      "sha256": "f8437edfb2b1cfad01ceb431df561e8f3e6bfaba1f277319a8858967911e8968"
+    },
+    {
+      "entity": "state:DEU",
+      "path": "assets/data/territorial-entities/source/countries/state-DEU.json",
+      "sha256": "9e6c86f4b99ed367824520a9e01980301ac7af7b25b214604ec2bda0806b8253"
+    },
+    {
+      "entity": "state:DJI",
+      "path": "assets/data/territorial-entities/source/countries/state-DJI.json",
+      "sha256": "de22c4e408334054509fa7eabda572cc5e02a381b8a2da1de36614dde46ceaea"
+    },
+    {
+      "entity": "state:DMA",
+      "path": "assets/data/territorial-entities/source/countries/state-DMA.json",
+      "sha256": "901a94e4a9b60ddafbaf015116cd7493d01d8996b7bd8310a50bea50caa4be36"
+    },
+    {
+      "entity": "state:DNK",
+      "path": "assets/data/territorial-entities/source/countries/state-DNK.json",
+      "sha256": "2edf9b99837ef2bc4569290e50619e05355a31de9d8558790f28ed88866d1406"
+    },
+    {
+      "entity": "state:DOM",
+      "path": "assets/data/territorial-entities/source/countries/state-DOM.json",
+      "sha256": "306b542f3982152340ae4c5cacd558eb708ce44938cfdeeee96051a1c7b1ab83"
+    },
+    {
+      "entity": "state:DZA",
+      "path": "assets/data/territorial-entities/source/countries/state-DZA.json",
+      "sha256": "72e7005e5e0b8a317176633fefffa3e753e19c4967d960b28943c03625514cc9"
+    },
+    {
+      "entity": "state:ECU",
+      "path": "assets/data/territorial-entities/source/countries/state-ECU.json",
+      "sha256": "e82daed0a229fece50002ee404cde9619d1666e27618b38989a1e2e965a59249"
+    },
+    {
+      "entity": "state:EGY",
+      "path": "assets/data/territorial-entities/source/countries/state-EGY.json",
+      "sha256": "163e44f165a5baee5bd3ec05e43be4b8892ba7044eefad8762430dd78404f88b"
+    },
+    {
+      "entity": "state:ERI",
+      "path": "assets/data/territorial-entities/source/countries/state-ERI.json",
+      "sha256": "9564b6010b23b1c4021e7927abae451070d9fad9064c2226e72733067a8179d9"
+    },
+    {
+      "entity": "state:ESB",
+      "path": "assets/data/territorial-entities/source/countries/state-ESB.json",
+      "sha256": "b2059088bbb2384b04f5529cbaf91a957a06d26ad9b852e70efdfb54d44c7490"
+    },
+    {
+      "entity": "state:ESP",
+      "path": "assets/data/territorial-entities/source/countries/state-ESP.json",
+      "sha256": "bc61555cc3ca82876ea45b7dfb965f2c91f1ed41500c08104fa773def4ded4d2"
+    },
+    {
+      "entity": "state:EST",
+      "path": "assets/data/territorial-entities/source/countries/state-EST.json",
+      "sha256": "9ed9b187c6b03de74154940097cf22da9147f109f8b6c9c9618bef0e4246eb95"
+    },
+    {
+      "entity": "state:ETH",
+      "path": "assets/data/territorial-entities/source/countries/state-ETH.json",
+      "sha256": "7ab2b76751c1ed16cd447397402733dc50bf1feb843f8dce782740bf1122cf27"
+    },
+    {
+      "entity": "state:FIN",
+      "path": "assets/data/territorial-entities/source/countries/state-FIN.json",
+      "sha256": "6f0e5533d289d9f55bb8df4ad19c52c54113b6d0d540e83929914623d1a31423"
+    },
+    {
+      "entity": "state:FJI",
+      "path": "assets/data/territorial-entities/source/countries/state-FJI.json",
+      "sha256": "fe939d37c2c33a253276aa196e740e1dc73eef3ec384ef976e693d9818475fb1"
+    },
+    {
+      "entity": "state:FLK",
+      "path": "assets/data/territorial-entities/source/countries/state-FLK.json",
+      "sha256": "36302b413efdf6c41a7a79035a24144a98c5891f63e6dbda4f0a658278d03613"
+    },
+    {
+      "entity": "state:FRA",
+      "path": "assets/data/territorial-entities/source/countries/state-FRA.json",
+      "sha256": "98ed0e8f0b13906d504dfb9eab83ebe426bcf70054f425e5d29210129046652c"
+    },
+    {
+      "entity": "state:FRO",
+      "path": "assets/data/territorial-entities/source/countries/state-FRO.json",
+      "sha256": "2b91e988b29517cdfbdf916b4964846e92f4bfb83fc069f39aaa557fe277f608"
+    },
+    {
+      "entity": "state:FSM",
+      "path": "assets/data/territorial-entities/source/countries/state-FSM.json",
+      "sha256": "dafee9c3ef5de9dcdfe377e17b5c6fbc4ef9cfafed25bf9ac8d0e129b64ac8a4"
+    },
+    {
+      "entity": "state:GAB",
+      "path": "assets/data/territorial-entities/source/countries/state-GAB.json",
+      "sha256": "381964a164f4566cf759e60916af1237e1e386b45cb4bf572f0fd62d0671aaf9"
+    },
+    {
+      "entity": "state:GBR",
+      "path": "assets/data/territorial-entities/source/countries/state-GBR.json",
+      "sha256": "68dfe10e4b7576799f929bc4e6957249948a0336d1b25d36a09e27426e1ec9f7"
+    },
+    {
+      "entity": "state:GEO",
+      "path": "assets/data/territorial-entities/source/countries/state-GEO.json",
+      "sha256": "24f56322cc88260ddc3cdabb13211d747b2eee02b3e5148f72ff35df86ebe16f"
+    },
+    {
+      "entity": "state:GGY",
+      "path": "assets/data/territorial-entities/source/countries/state-GGY.json",
+      "sha256": "5113954c30748437be96a12c9919ad8220001ebface2935855565c710f3eca01"
+    },
+    {
+      "entity": "state:GHA",
+      "path": "assets/data/territorial-entities/source/countries/state-GHA.json",
+      "sha256": "f801f2e00e509a529398883697fb376f10a3e3463faaf568b1c8b963f4958076"
+    },
+    {
+      "entity": "state:GIB",
+      "path": "assets/data/territorial-entities/source/countries/state-GIB.json",
+      "sha256": "49d9fdf7084c1cc2747b7770c3f6d0e8a229ccd994ae2227768c4e118ef075d6"
+    },
+    {
+      "entity": "state:GIN",
+      "path": "assets/data/territorial-entities/source/countries/state-GIN.json",
+      "sha256": "42a67420c19d44efa7a5e5ab1ee0a73f1ac5c68b951b6a0167aed3f9f79ab4aa"
+    },
+    {
+      "entity": "state:GMB",
+      "path": "assets/data/territorial-entities/source/countries/state-GMB.json",
+      "sha256": "4e470ddf7b44ed828ac6389225c66b0979a697d61ef8ecafea6d0d13732081b5"
+    },
+    {
+      "entity": "state:GNB",
+      "path": "assets/data/territorial-entities/source/countries/state-GNB.json",
+      "sha256": "dea058e18929db556ddf3374f4f007a359e57eb73fcb89b370629eee2a18d30c"
+    },
+    {
+      "entity": "state:GNQ",
+      "path": "assets/data/territorial-entities/source/countries/state-GNQ.json",
+      "sha256": "7b89981cac52eb67480200db7f26ed37435de116de32b01618ea5a346e71f33a"
+    },
+    {
+      "entity": "state:GRC",
+      "path": "assets/data/territorial-entities/source/countries/state-GRC.json",
+      "sha256": "69bb31861f1fc973cf9e89e58cbd85d4f83ceb56e60714220e7171a6110b68d2"
+    },
+    {
+      "entity": "state:GRD",
+      "path": "assets/data/territorial-entities/source/countries/state-GRD.json",
+      "sha256": "55bba4d01ac7e1f00fa80642a15364e57f154e14e2f63d6b975ae4ee1bd23bac"
+    },
+    {
+      "entity": "state:GRL",
+      "path": "assets/data/territorial-entities/source/countries/state-GRL.json",
+      "sha256": "50da91f7922750b22a0ad4a68714fd8f7e354135008e7e6caaac9e6aa2dee783"
+    },
+    {
+      "entity": "state:GTM",
+      "path": "assets/data/territorial-entities/source/countries/state-GTM.json",
+      "sha256": "9a3568c9acdb2c46b1ec76c717623f9635af4792ab76c41e6e582f52fe2e2d22"
+    },
+    {
+      "entity": "state:GUM",
+      "path": "assets/data/territorial-entities/source/countries/state-GUM.json",
+      "sha256": "323d26b46a12d7167686a8935abdb8f1bb2e862b779256c1fa251001ea722965"
+    },
+    {
+      "entity": "state:GUY",
+      "path": "assets/data/territorial-entities/source/countries/state-GUY.json",
+      "sha256": "3afad83c9b8cc2341976e0d26c2323825cbad7b176cecf5582b6b9cab5ded50f"
+    },
+    {
+      "entity": "state:HKG",
+      "path": "assets/data/territorial-entities/source/countries/state-HKG.json",
+      "sha256": "063e9e6144dcc2671015b4f55a084490871e98628afa99a4e611dddffd3b921a"
+    },
+    {
+      "entity": "state:HMD",
+      "path": "assets/data/territorial-entities/source/countries/state-HMD.json",
+      "sha256": "d582baccb3ad2276e995a644f1befe5f51829b9fce70d5bc66da8f7246f9bace"
+    },
+    {
+      "entity": "state:HND",
+      "path": "assets/data/territorial-entities/source/countries/state-HND.json",
+      "sha256": "f2f8de98543d2a02d9b3b3b40d363cd9b9cf9596155b7b592888df5359630d1e"
+    },
+    {
+      "entity": "state:HRV",
+      "path": "assets/data/territorial-entities/source/countries/state-HRV.json",
+      "sha256": "28591d9be36998ae83c98fc2f995abb523c74078cefca15807f86a876e2afe78"
+    },
+    {
+      "entity": "state:HTI",
+      "path": "assets/data/territorial-entities/source/countries/state-HTI.json",
+      "sha256": "e678a2eeaea3615f7d45eb1b69a13ee8601afe1ad110283ddb4a39c0b1195d1a"
+    },
+    {
+      "entity": "state:HUN",
+      "path": "assets/data/territorial-entities/source/countries/state-HUN.json",
+      "sha256": "3a6ac842cde95cac4ad40a8ee0843351979394d0f1dc1c886e2e510e3610ad76"
+    },
+    {
+      "entity": "state:IDN",
+      "path": "assets/data/territorial-entities/source/countries/state-IDN.json",
+      "sha256": "0eb1ec69a357f986f195f2b501eea25ff6d970b99d9acdba0eb36db54faa4cb6"
+    },
+    {
+      "entity": "state:IMN",
+      "path": "assets/data/territorial-entities/source/countries/state-IMN.json",
+      "sha256": "9218aca96f4eafb0362cf2c682878c35b3db1a5b20a404e37395987ba679846d"
+    },
+    {
+      "entity": "state:IND",
+      "path": "assets/data/territorial-entities/source/countries/state-IND.json",
+      "sha256": "024e9ee82a13c2bfd8e4d96cf58a0482c0b288866fad5b4e5ede7b3f03e1b3d9"
+    },
+    {
+      "entity": "state:IOA",
+      "path": "assets/data/territorial-entities/source/countries/state-IOA.json",
+      "sha256": "0d1f00f5591885f76e06b5305dc0cbca195830937c0f354d4f9a88a80718b82e"
+    },
+    {
+      "entity": "state:IOT",
+      "path": "assets/data/territorial-entities/source/countries/state-IOT.json",
+      "sha256": "87b5bc347d0856f11872251ed4b934d5af6ea60b34b4f9504f8760b741eb0a9e"
+    },
+    {
+      "entity": "state:IRL",
+      "path": "assets/data/territorial-entities/source/countries/state-IRL.json",
+      "sha256": "b8f995197527790d0df73aa46d0d06439f688bddcfb35edfb6a844f8b7a86537"
+    },
+    {
+      "entity": "state:IRN",
+      "path": "assets/data/territorial-entities/source/countries/state-IRN.json",
+      "sha256": "49c4fb01719df87def71697460953e84afbbd7d7e5e13f446549ab93bfba9f00"
+    },
+    {
+      "entity": "state:IRQ",
+      "path": "assets/data/territorial-entities/source/countries/state-IRQ.json",
+      "sha256": "b8524d116ed3bbf78b87bc80d271d745ef5625ce183ab35471b84c8f0cddd805"
+    },
+    {
+      "entity": "state:ISL",
+      "path": "assets/data/territorial-entities/source/countries/state-ISL.json",
+      "sha256": "8eaeb04a0fed60f857126b5f3afdfc948227dc3ecc6ed13b424146958e499679"
+    },
+    {
+      "entity": "state:ISR",
+      "path": "assets/data/territorial-entities/source/countries/state-ISR.json",
+      "sha256": "0f63c510e3bda38cb93e1392e75045495be2c4ae83f751a6949caa44fef4e8b6"
+    },
+    {
+      "entity": "state:ITA",
+      "path": "assets/data/territorial-entities/source/countries/state-ITA.json",
+      "sha256": "9bd0d652f87a3085d5ba76bf44c3360725ea2e7b7b8e2f83249ebe52c35aa6c3"
+    },
+    {
+      "entity": "state:JAM",
+      "path": "assets/data/territorial-entities/source/countries/state-JAM.json",
+      "sha256": "1760207c2029e309282606e17ce4fa131c3b91d011212591cff614be339fbbdb"
+    },
+    {
+      "entity": "state:JEY",
+      "path": "assets/data/territorial-entities/source/countries/state-JEY.json",
+      "sha256": "437846ab2e5d914ca720c35fc4a192a33308598fd5145ec2db9a108d23f7084a"
+    },
+    {
+      "entity": "state:JOR",
+      "path": "assets/data/territorial-entities/source/countries/state-JOR.json",
+      "sha256": "bc5e6587576f642f7d0816e8f3416d138be5ab623adcdc592537af6f30777eb6"
+    },
+    {
+      "entity": "state:JPN",
+      "path": "assets/data/territorial-entities/source/countries/state-JPN.json",
+      "sha256": "3e36086e5dac630ad23c5a87f961d7a40f0b1d17261344eb1c1edc7d1985619b"
+    },
+    {
+      "entity": "state:KAB",
+      "path": "assets/data/territorial-entities/source/countries/state-KAB.json",
+      "sha256": "d935f970a8e440cb88594930778c5546ee7881ee9893ce2eff82ca364bd7428b"
+    },
+    {
+      "entity": "state:KAS",
+      "path": "assets/data/territorial-entities/source/countries/state-KAS.json",
+      "sha256": "06c23eea5c157428187e6142371ba90032c05a51590fd9b48be027ed218f4b92"
+    },
+    {
+      "entity": "state:KAZ",
+      "path": "assets/data/territorial-entities/source/countries/state-KAZ.json",
+      "sha256": "0958bfe9f2094fc5b682627129be62a27c1b4063f695c745aeefe6e20ebd7c39"
+    },
+    {
+      "entity": "state:KEN",
+      "path": "assets/data/territorial-entities/source/countries/state-KEN.json",
+      "sha256": "99b1bdc793ca6df7c31d37a4ca1c5d6d67c691cc16a18b16cc84b12a74d8eeb6"
+    },
+    {
+      "entity": "state:KGZ",
+      "path": "assets/data/territorial-entities/source/countries/state-KGZ.json",
+      "sha256": "2d37b42fa1140b464baa0ddf2829bbd769c0c6c29b31fa9821e83b4897468862"
+    },
+    {
+      "entity": "state:KHM",
+      "path": "assets/data/territorial-entities/source/countries/state-KHM.json",
+      "sha256": "363e04458ca819f1725812abc1aa84afa1915a9e26508f359d7cc1fdd57fe76d"
+    },
+    {
+      "entity": "state:KIR",
+      "path": "assets/data/territorial-entities/source/countries/state-KIR.json",
+      "sha256": "a61efdccea9b3e1a920949cedd90a132c6c9bcb2d27a996b8ba172c018d6a1b5"
+    },
+    {
+      "entity": "state:KNA",
+      "path": "assets/data/territorial-entities/source/countries/state-KNA.json",
+      "sha256": "cf7870626c05ab6f894641e9484d5c10e0a1aefbcfd8a01ad3ce589bbdefc082"
+    },
+    {
+      "entity": "state:KOR",
+      "path": "assets/data/territorial-entities/source/countries/state-KOR.json",
+      "sha256": "036094bf9eea6224d3ab9927880b9c2d4194735b439f052ae073badbd502b358"
+    },
+    {
+      "entity": "state:KOS",
+      "path": "assets/data/territorial-entities/source/countries/state-KOS.json",
+      "sha256": "92e432b55f60c3591b3a5551521a1fada4b110cf43a335e646decd0a967eccd3"
+    },
+    {
+      "entity": "state:KWT",
+      "path": "assets/data/territorial-entities/source/countries/state-KWT.json",
+      "sha256": "78a99311c413d736745cbb15dc753fea9ea7f53b22a90f3b6875229efcf6d93f"
+    },
+    {
+      "entity": "state:LAO",
+      "path": "assets/data/territorial-entities/source/countries/state-LAO.json",
+      "sha256": "b171db32c03944761d008cc15c9b92d33fff421d8da9e72b71bdef181417af67"
+    },
+    {
+      "entity": "state:LBN",
+      "path": "assets/data/territorial-entities/source/countries/state-LBN.json",
+      "sha256": "a12863a7928278a3a2cae7719970581f8d2b8678b5e77465cea9573a3bc79272"
+    },
+    {
+      "entity": "state:LBR",
+      "path": "assets/data/territorial-entities/source/countries/state-LBR.json",
+      "sha256": "1e9cde35f79cd921327faa849fb1191371cac51d7a4478872291c063d6f93a42"
+    },
+    {
+      "entity": "state:LBY",
+      "path": "assets/data/territorial-entities/source/countries/state-LBY.json",
+      "sha256": "17a81c3b01f8ca19da08bb8b74b040c88b3f8dd521c75d30445220a30e3dea7e"
+    },
+    {
+      "entity": "state:LCA",
+      "path": "assets/data/territorial-entities/source/countries/state-LCA.json",
+      "sha256": "c4c6162eb6be898ec832689b47f3df4202ac5c2806f296671b722f643736e8b0"
+    },
+    {
+      "entity": "state:LIE",
+      "path": "assets/data/territorial-entities/source/countries/state-LIE.json",
+      "sha256": "7ff9f8b0ac8712082648c8487482aa031dee443538742aae652581acb4672882"
+    },
+    {
+      "entity": "state:LKA",
+      "path": "assets/data/territorial-entities/source/countries/state-LKA.json",
+      "sha256": "c7a58d33b50a83fe790f70373a8136a475d588a2a4d4992a5e80a76ac1a7619c"
+    },
+    {
+      "entity": "state:LSO",
+      "path": "assets/data/territorial-entities/source/countries/state-LSO.json",
+      "sha256": "bf84a9a909af804723ae429beea4b4cf98be6fe5da85ab56ca6fe288017c6160"
+    },
+    {
+      "entity": "state:LTU",
+      "path": "assets/data/territorial-entities/source/countries/state-LTU.json",
+      "sha256": "54397931839785a5a0f81cb62e015d599de9a6688c7c226acaa74bc73c27fa1b"
+    },
+    {
+      "entity": "state:LUX",
+      "path": "assets/data/territorial-entities/source/countries/state-LUX.json",
+      "sha256": "3cd8b49d3a940b6321d95e7ca53ffa8322cb1815bbb0a024ccb7e5bffe0e69b0"
+    },
+    {
+      "entity": "state:LVA",
+      "path": "assets/data/territorial-entities/source/countries/state-LVA.json",
+      "sha256": "06cd2d66385e38b037fd6f8b3ef91399063f59cb32d1bdcecc0d485709a2a535"
+    },
+    {
+      "entity": "state:MAC",
+      "path": "assets/data/territorial-entities/source/countries/state-MAC.json",
+      "sha256": "f680a2e4539ac956276e3207d7338bd9a0508f945038fc1ef75c98e217b7815b"
+    },
+    {
+      "entity": "state:MAF",
+      "path": "assets/data/territorial-entities/source/countries/state-MAF.json",
+      "sha256": "f55c979f169e3f748fbb38539a05e6cc09da35c4def024ba50ceb8023d93a814"
+    },
+    {
+      "entity": "state:MAR",
+      "path": "assets/data/territorial-entities/source/countries/state-MAR.json",
+      "sha256": "04bd5efc8a17bce499299f2217652d19c152112ae41a02f3f7797448e74b1c41"
+    },
+    {
+      "entity": "state:MCO",
+      "path": "assets/data/territorial-entities/source/countries/state-MCO.json",
+      "sha256": "4035d6304db9a6ec4886904d40b17559fcc4aa9ad92942392587c1267adc91c6"
+    },
+    {
+      "entity": "state:MDA",
+      "path": "assets/data/territorial-entities/source/countries/state-MDA.json",
+      "sha256": "10e1f7fde1bd99aaa8eb57597309861daf7c0768692e105f31c596999ec668d2"
+    },
+    {
+      "entity": "state:MDG",
+      "path": "assets/data/territorial-entities/source/countries/state-MDG.json",
+      "sha256": "e8b95ac9af5d869942a798f593c71bb6f256eaa251b5a7329f00d2787fa61a60"
+    },
+    {
+      "entity": "state:MDV",
+      "path": "assets/data/territorial-entities/source/countries/state-MDV.json",
+      "sha256": "9b96f605c3b7b9acfd604260560413fb875d37c174f2214763346b846fa7a7e9"
+    },
+    {
+      "entity": "state:MEX",
+      "path": "assets/data/territorial-entities/source/countries/state-MEX.json",
+      "sha256": "c021c50285ee94822d9464a610d66a6a963ea81a0f01ebd9ebd963499a4d2d83"
+    },
+    {
+      "entity": "state:MHL",
+      "path": "assets/data/territorial-entities/source/countries/state-MHL.json",
+      "sha256": "1b0659e49e63c0574e96fdf2aef29d154fdc0ce883472aa18bee3d6424ad13d3"
+    },
+    {
+      "entity": "state:MKD",
+      "path": "assets/data/territorial-entities/source/countries/state-MKD.json",
+      "sha256": "466134ae0638aa0e050a3a7010e5fc19f647e3be8094f830852114db28e73fa1"
+    },
+    {
+      "entity": "state:MLI",
+      "path": "assets/data/territorial-entities/source/countries/state-MLI.json",
+      "sha256": "fae3ab1b4e718143560c0f04c7afb02153ed5091901ec50b873b98249a7aa4d7"
+    },
+    {
+      "entity": "state:MLT",
+      "path": "assets/data/territorial-entities/source/countries/state-MLT.json",
+      "sha256": "f01ef033ce47c1be75d42bf35f39be70992c2bc720d4ba40885f0464fceaa869"
+    },
+    {
+      "entity": "state:MMR",
+      "path": "assets/data/territorial-entities/source/countries/state-MMR.json",
+      "sha256": "9eb8446fe3c34fef2afc512aca423f55879c321169c97be25c7f5790c6183a35"
+    },
+    {
+      "entity": "state:MNE",
+      "path": "assets/data/territorial-entities/source/countries/state-MNE.json",
+      "sha256": "4cfa9e380f22a023df23145fc677963ba73d06b713e0857e175586aaacb18c2f"
+    },
+    {
+      "entity": "state:MNG",
+      "path": "assets/data/territorial-entities/source/countries/state-MNG.json",
+      "sha256": "dd5571e84abe39ba37fbcb0fd04ddb3a59e0baa057ec3a6fd1e07e963f015060"
+    },
+    {
+      "entity": "state:MNP",
+      "path": "assets/data/territorial-entities/source/countries/state-MNP.json",
+      "sha256": "1ba632ba26011b9da2f801fba1aabb4fd056cb7416e3f094b12b13d95212e9a4"
+    },
+    {
+      "entity": "state:MOZ",
+      "path": "assets/data/territorial-entities/source/countries/state-MOZ.json",
+      "sha256": "b1aba3b6aa1b9a99a3cf658a129d3f33ccc3247530150d6ba9c7aa23023914d9"
+    },
+    {
+      "entity": "state:MRT",
+      "path": "assets/data/territorial-entities/source/countries/state-MRT.json",
+      "sha256": "f016c00e2b7e5bef364da89b9f5e41849022cfc99fc7c84603f23773959c41f0"
+    },
+    {
+      "entity": "state:MSR",
+      "path": "assets/data/territorial-entities/source/countries/state-MSR.json",
+      "sha256": "9320151f1b6842df5ac022f69816b877ac494370336d82e33627c6266fbbf670"
+    },
+    {
+      "entity": "state:MUS",
+      "path": "assets/data/territorial-entities/source/countries/state-MUS.json",
+      "sha256": "04dcd52c372a5b16de081990a0dc673d2a4ff1a1c2dd475c59bf71b71d700bb2"
+    },
+    {
+      "entity": "state:MWI",
+      "path": "assets/data/territorial-entities/source/countries/state-MWI.json",
+      "sha256": "ae2f9c1f20058b7833a388c93d1fbe8ebcf015c58264e3b8ac016ab7c7064b9b"
+    },
+    {
+      "entity": "state:MYS",
+      "path": "assets/data/territorial-entities/source/countries/state-MYS.json",
+      "sha256": "84a53d7c87e623bcc32cc2397985019fd61ad20c8b5c0be24c64a9da5bb2ec4a"
+    },
+    {
+      "entity": "state:NAM",
+      "path": "assets/data/territorial-entities/source/countries/state-NAM.json",
+      "sha256": "55374a2469183666c0237cd2571bf28cdc188e7474c44fefe396beb641db184f"
+    },
+    {
+      "entity": "state:NCL",
+      "path": "assets/data/territorial-entities/source/countries/state-NCL.json",
+      "sha256": "837064e8130a706b379f16a93d3fdb981123b28a3d895b372a9b927652df224a"
+    },
+    {
+      "entity": "state:NER",
+      "path": "assets/data/territorial-entities/source/countries/state-NER.json",
+      "sha256": "139520fe2877d7bbccea49a42b73d5f722b8692db65dd64f8a542c810cad91da"
+    },
+    {
+      "entity": "state:NFK",
+      "path": "assets/data/territorial-entities/source/countries/state-NFK.json",
+      "sha256": "00e6448d2b32a167a028fe0dbf7b67102a6ac31d12efb7cad91600b8d64dc8d1"
+    },
+    {
+      "entity": "state:NGA",
+      "path": "assets/data/territorial-entities/source/countries/state-NGA.json",
+      "sha256": "63677ab15da5bf06db7b0c3ed75b90e28bc45021dd136541a98d649297743e0c"
+    },
+    {
+      "entity": "state:NIC",
+      "path": "assets/data/territorial-entities/source/countries/state-NIC.json",
+      "sha256": "4cb0a99b3f9de745545c7ee198e73918c004fcda601feb30e47924a4502328e1"
+    },
+    {
+      "entity": "state:NIU",
+      "path": "assets/data/territorial-entities/source/countries/state-NIU.json",
+      "sha256": "83ab2ff11e13e7b37c937f6fca7766594fa6cda0d0f5cea59de0aa460d219001"
+    },
+    {
+      "entity": "state:NLD",
+      "path": "assets/data/territorial-entities/source/countries/state-NLD.json",
+      "sha256": "7115726270ddeb9c732bb7a06bcf2132aa507adb9679072a9382dfe72baf7774"
+    },
+    {
+      "entity": "state:NOR",
+      "path": "assets/data/territorial-entities/source/countries/state-NOR.json",
+      "sha256": "d478cc15642ec6a83f64426e0e221c42f3881ce60717763a38bcf62040d10b07"
+    },
+    {
+      "entity": "state:NPL",
+      "path": "assets/data/territorial-entities/source/countries/state-NPL.json",
+      "sha256": "77036305deaa2d0e9c4c066b99f3f9fff8262204232d55811fbbfe1c2b27ac5f"
+    },
+    {
+      "entity": "state:NRU",
+      "path": "assets/data/territorial-entities/source/countries/state-NRU.json",
+      "sha256": "c5f1f935778e864a3b52cc6813e7333328d9f387c1e6cc76cb43265ace94527c"
+    },
+    {
+      "entity": "state:NZL",
+      "path": "assets/data/territorial-entities/source/countries/state-NZL.json",
+      "sha256": "5d297fe527670b4f5022549c4c88be0d5d3bd101ecc1f7d60c4c75276c8c5efa"
+    },
+    {
+      "entity": "state:OMN",
+      "path": "assets/data/territorial-entities/source/countries/state-OMN.json",
+      "sha256": "76fb40f7318e4be3f75f746f936df9fc19f41be677cd7ac81400b9fc2864c14a"
+    },
+    {
+      "entity": "state:PAK",
+      "path": "assets/data/territorial-entities/source/countries/state-PAK.json",
+      "sha256": "fed0c46ed2f7225379a4b0a155fe6e7c39edc86981df3062c28afaad5f66b822"
+    },
+    {
+      "entity": "state:PAN",
+      "path": "assets/data/territorial-entities/source/countries/state-PAN.json",
+      "sha256": "38215c93c10e03cb0d8aed2258061eb482c4d0a4db2500df52e184555ecfcb7c"
+    },
+    {
+      "entity": "state:PCN",
+      "path": "assets/data/territorial-entities/source/countries/state-PCN.json",
+      "sha256": "035321a5eac1599ebfbd8aa2c6a9b6053c444df403ae1aaddaffa4fad5c52388"
+    },
+    {
+      "entity": "state:PER",
+      "path": "assets/data/territorial-entities/source/countries/state-PER.json",
+      "sha256": "55410b1dfeef13be9f05bb88d8a77774173e64919c423fdb8571ee54b1190599"
+    },
+    {
+      "entity": "state:PGA",
+      "path": "assets/data/territorial-entities/source/countries/state-PGA.json",
+      "sha256": "1e50e1a472db9cbc0688bbf4e4877fd5a2e5865bf20f4294b2033cae9539b979"
+    },
+    {
+      "entity": "state:PHL",
+      "path": "assets/data/territorial-entities/source/countries/state-PHL.json",
+      "sha256": "754f094dbae6592cec2a2e01e29fcaf64a85be138d5f99f2399ca3d24d71e9db"
+    },
+    {
+      "entity": "state:PLW",
+      "path": "assets/data/territorial-entities/source/countries/state-PLW.json",
+      "sha256": "368cbe4c727eb95ce9f434f19c0897ee6bb68ac7b829e5b9d870d4951f857901"
+    },
+    {
+      "entity": "state:PNG",
+      "path": "assets/data/territorial-entities/source/countries/state-PNG.json",
+      "sha256": "ba7e31dafb4c404c4b5ff01da45d24c836b390051abdce40ab202bdadb95cd2f"
+    },
+    {
+      "entity": "state:POL",
+      "path": "assets/data/territorial-entities/source/countries/state-POL.json",
+      "sha256": "b0a907538203d3f46b4060429014a846694cfd40d71b273d6a1607ac01dd5c48"
+    },
+    {
+      "entity": "state:PRI",
+      "path": "assets/data/territorial-entities/source/countries/state-PRI.json",
+      "sha256": "e131e5c455b4ccf6323fbe00a3c2b032a349be5e94f67085b5665cd47d4e1088"
+    },
+    {
+      "entity": "state:PRK",
+      "path": "assets/data/territorial-entities/source/countries/state-PRK.json",
+      "sha256": "71e0464af119a9eda4a136dd2898c534bc5ba4c5ec98600043c69cc06d6978d9"
+    },
+    {
+      "entity": "state:PRT",
+      "path": "assets/data/territorial-entities/source/countries/state-PRT.json",
+      "sha256": "a3b850cf44cfc7cc79ba5b0e0fb738863cab10faa737cade2e47fe2ef2820a24"
+    },
+    {
+      "entity": "state:PRY",
+      "path": "assets/data/territorial-entities/source/countries/state-PRY.json",
+      "sha256": "5be8e3fe15c2574db58addae62e16fd3f5fbed09f705b8f149ca74c818052630"
+    },
+    {
+      "entity": "state:PSX",
+      "path": "assets/data/territorial-entities/source/countries/state-PSX.json",
+      "sha256": "97412fe136badbabfacb9d04a860acbb3e77667834bcc2072922daef3fd96ef4"
+    },
+    {
+      "entity": "state:PYF",
+      "path": "assets/data/territorial-entities/source/countries/state-PYF.json",
+      "sha256": "0a31092f2e86cec33c0bfb527f33ca1f9868390b3b0df638b02f0ba315beb5d2"
+    },
+    {
+      "entity": "state:QAT",
+      "path": "assets/data/territorial-entities/source/countries/state-QAT.json",
+      "sha256": "79024cdbbc421420c85741375918982926ae367bbb556ff1b221b8c385691ecc"
+    },
+    {
+      "entity": "state:ROU",
+      "path": "assets/data/territorial-entities/source/countries/state-ROU.json",
+      "sha256": "b256e6c74cedd778b347568dfe1cd047dbe0c8e55197ab74f768368bfb304b0e"
+    },
+    {
+      "entity": "state:RUS",
+      "path": "assets/data/territorial-entities/source/countries/state-RUS.json",
+      "sha256": "8023c30f0cf9ef4faf3a09ecccb9b459322f843ba0775874d3debdaa76f74cde"
+    },
+    {
+      "entity": "state:RWA",
+      "path": "assets/data/territorial-entities/source/countries/state-RWA.json",
+      "sha256": "c3cbbcba79cb294cd82a2ba1af293275b495e910a1651a628c19d5ea0bb20317"
+    },
+    {
+      "entity": "state:SAH",
+      "path": "assets/data/territorial-entities/source/countries/state-SAH.json",
+      "sha256": "16ab6e99e98044eab8d4b0594cf8281135157b333ba4d765c547f2d83d277791"
+    },
+    {
+      "entity": "state:SAU",
+      "path": "assets/data/territorial-entities/source/countries/state-SAU.json",
+      "sha256": "f6732e4382851b1ba6596945c436f10d4d82eebb66c7ccfc22bc505a6ec86c45"
+    },
+    {
+      "entity": "state:SCR",
+      "path": "assets/data/territorial-entities/source/countries/state-SCR.json",
+      "sha256": "5d2822a4c1005ba21da4918e868464f6647b84378bea2d173ad110d0f24a46b6"
+    },
+    {
+      "entity": "state:SDN",
+      "path": "assets/data/territorial-entities/source/countries/state-SDN.json",
+      "sha256": "2feda35b6e5569b33d5808b7b1fa8c3bd227fa19c65685fd012cb2ceec6e035e"
+    },
+    {
+      "entity": "state:SDS",
+      "path": "assets/data/territorial-entities/source/countries/state-SDS.json",
+      "sha256": "c97dc55a4500868e7355929cdad3505df25b29ec52490a4740322df486c8a68b"
+    },
+    {
+      "entity": "state:SEN",
+      "path": "assets/data/territorial-entities/source/countries/state-SEN.json",
+      "sha256": "b9439d9888aefda11270e6d4468f473904a3929620595bc7d8b237d57ae4768b"
+    },
+    {
+      "entity": "state:SER",
+      "path": "assets/data/territorial-entities/source/countries/state-SER.json",
+      "sha256": "e2ef520dee66a0ab8180079f5c265a87c9dd44db391712611782e5c0908bdc2e"
+    },
+    {
+      "entity": "state:SGP",
+      "path": "assets/data/territorial-entities/source/countries/state-SGP.json",
+      "sha256": "759500d24013fe3c79edb9a960ff79c27078fc9e7d3607acbac35f2fab8d7505"
+    },
+    {
+      "entity": "state:SGS",
+      "path": "assets/data/territorial-entities/source/countries/state-SGS.json",
+      "sha256": "e2ce7121f21dbfd4dbb572f2864374b687acf1cdaa80c33a4deb31bfbfd261f5"
+    },
+    {
+      "entity": "state:SHN",
+      "path": "assets/data/territorial-entities/source/countries/state-SHN.json",
+      "sha256": "c749a64ab584ded71dc799642314c11db87400a365cccc7b555e61bffa3d3b25"
+    },
+    {
+      "entity": "state:SLB",
+      "path": "assets/data/territorial-entities/source/countries/state-SLB.json",
+      "sha256": "12b6443750e0944a08fe05fbc41e3f06bd73dc4d46572bdda5828d846dd892e3"
+    },
+    {
+      "entity": "state:SLE",
+      "path": "assets/data/territorial-entities/source/countries/state-SLE.json",
+      "sha256": "3229d8df348f1992d1b2d8b8c15e9f27442b930745caa06dae8470a934d0d3f0"
+    },
+    {
+      "entity": "state:SLV",
+      "path": "assets/data/territorial-entities/source/countries/state-SLV.json",
+      "sha256": "8f73c9a2287af8f383abc5c9a96cbf3499ddf5b8b321455393c83efe7961795f"
+    },
+    {
+      "entity": "state:SMR",
+      "path": "assets/data/territorial-entities/source/countries/state-SMR.json",
+      "sha256": "7dc739f4569645ade9ce08aa08c943b2e42d51b8cee6c2eb38417b94fbe63ab7"
+    },
+    {
+      "entity": "state:SOL",
+      "path": "assets/data/territorial-entities/source/countries/state-SOL.json",
+      "sha256": "9525c0f57a35da47f95c98d3558acbfd113b62f83755d563ad86fc1a125411e5"
+    },
+    {
+      "entity": "state:SOM",
+      "path": "assets/data/territorial-entities/source/countries/state-SOM.json",
+      "sha256": "12732103f33af80636884fbd939725e38f5129dcd87c6bd2b1c1da59a795710e"
+    },
+    {
+      "entity": "state:SPI",
+      "path": "assets/data/territorial-entities/source/countries/state-SPI.json",
+      "sha256": "1c1296fb16c84fd23db6702126f3d71b6dbe8b08cb8a45237403935feb4fbcd2"
+    },
+    {
+      "entity": "state:SPM",
+      "path": "assets/data/territorial-entities/source/countries/state-SPM.json",
+      "sha256": "6feee0f90a7efaffc96a43e78f295406b5ed7ee6f23f7adcb5445a4c17bdd944"
+    },
+    {
+      "entity": "state:SRB",
+      "path": "assets/data/territorial-entities/source/countries/state-SRB.json",
+      "sha256": "7394e639481a5d5015c0b9041cddf57529862427dcad0ef0fabbf8a73509efba"
+    },
+    {
+      "entity": "state:STP",
+      "path": "assets/data/territorial-entities/source/countries/state-STP.json",
+      "sha256": "8d2e37115ba0b998677134daab34081b1166f1fc0757682774b0aec4e146e40c"
+    },
+    {
+      "entity": "state:SUR",
+      "path": "assets/data/territorial-entities/source/countries/state-SUR.json",
+      "sha256": "28b198f2b5075a2a071298c4e00b67b150161ce5fe10810c1b6d974c9691189a"
+    },
+    {
+      "entity": "state:SVK",
+      "path": "assets/data/territorial-entities/source/countries/state-SVK.json",
+      "sha256": "ac066ef2fb5a2b76f9294ab50e3551210c483ec8485a3fbe0a284c7f32b01fab"
+    },
+    {
+      "entity": "state:SVN",
+      "path": "assets/data/territorial-entities/source/countries/state-SVN.json",
+      "sha256": "2e143e2604dbaba991d77c0c8caace9ddb1cd1129b4c19fa37d193e08040a08e"
+    },
+    {
+      "entity": "state:SWE",
+      "path": "assets/data/territorial-entities/source/countries/state-SWE.json",
+      "sha256": "0b745f951c441f9d86a98148a57ce053284592ba1e80d73689fe9b521befe627"
+    },
+    {
+      "entity": "state:SWZ",
+      "path": "assets/data/territorial-entities/source/countries/state-SWZ.json",
+      "sha256": "79428dc71ee4ab3742249a7cfa36d0d7ecac025b1b3df907fb669663bc22bfec"
+    },
+    {
+      "entity": "state:SXM",
+      "path": "assets/data/territorial-entities/source/countries/state-SXM.json",
+      "sha256": "c6c5ce812676e42b793e7c03cf8da6565b8e13b2acd94c7ba4846ff3c34c1cc0"
+    },
+    {
+      "entity": "state:SYC",
+      "path": "assets/data/territorial-entities/source/countries/state-SYC.json",
+      "sha256": "0d88b8861538e8dbabfebb74594afd17e20190810a653583ef4b91375073d4a5"
+    },
+    {
+      "entity": "state:SYR",
+      "path": "assets/data/territorial-entities/source/countries/state-SYR.json",
+      "sha256": "7af2e2480099c370a666a6ec31931385e08ac5dc0beb0b47cfd72f72838aeda1"
+    },
+    {
+      "entity": "state:TCA",
+      "path": "assets/data/territorial-entities/source/countries/state-TCA.json",
+      "sha256": "adbe6037a00cfe5242cf76e5624a5db0d965e25e18173f4c4fc6fdcf30fda374"
+    },
+    {
+      "entity": "state:TCD",
+      "path": "assets/data/territorial-entities/source/countries/state-TCD.json",
+      "sha256": "57ba085429e47ea3d26b965afb63907d0e34e7adfa8711c24b33fb737befef2c"
+    },
+    {
+      "entity": "state:TGO",
+      "path": "assets/data/territorial-entities/source/countries/state-TGO.json",
+      "sha256": "b15928a0f7871003c404a1150be682c5321c9087a7044cb3a6cfcb52d60eeda2"
+    },
+    {
+      "entity": "state:THA",
+      "path": "assets/data/territorial-entities/source/countries/state-THA.json",
+      "sha256": "d23789959a8a20ddc5853fe5cc85e693ecae91fe3ff574cf90fafcff4b6279f9"
+    },
+    {
+      "entity": "state:TJK",
+      "path": "assets/data/territorial-entities/source/countries/state-TJK.json",
+      "sha256": "0fe37eafad9f07d5e53cbddd0302aa6704760a9809d6769dd884e702ff34d3d8"
+    },
+    {
+      "entity": "state:TKM",
+      "path": "assets/data/territorial-entities/source/countries/state-TKM.json",
+      "sha256": "cf415cd476b26cbce79e29259e6ba527cf95aab54241ee5c70242160f4cf5826"
+    },
+    {
+      "entity": "state:TLS",
+      "path": "assets/data/territorial-entities/source/countries/state-TLS.json",
+      "sha256": "84c32bdc0b1a29149d99e24c4e521090436ef770afeb1031919eaafb4fae687e"
+    },
+    {
+      "entity": "state:TON",
+      "path": "assets/data/territorial-entities/source/countries/state-TON.json",
+      "sha256": "94458ad2b0c2f813de4be8b057fde1841f77290d48292ea8cd8992097ceba299"
+    },
+    {
+      "entity": "state:TTO",
+      "path": "assets/data/territorial-entities/source/countries/state-TTO.json",
+      "sha256": "97cc2062b640f457273878efe7dc4d721264be71e0676705c78391ac2e5ec680"
+    },
+    {
+      "entity": "state:TUN",
+      "path": "assets/data/territorial-entities/source/countries/state-TUN.json",
+      "sha256": "b3f7c6324aadbd3a0ed98ff7256bfdeaa767b8d81ef82f9d516831fcb1f01d4a"
+    },
+    {
+      "entity": "state:TUR",
+      "path": "assets/data/territorial-entities/source/countries/state-TUR.json",
+      "sha256": "fe874285607aca0e50ffcc99a2ffbd648a623f08fb900595a00fb85ad9de758e"
+    },
+    {
+      "entity": "state:TUV",
+      "path": "assets/data/territorial-entities/source/countries/state-TUV.json",
+      "sha256": "ea91ee4c97142ac23c3b8d25de39146bf3ef5749a86cb0abae95568dbb233e90"
+    },
+    {
+      "entity": "state:TWN",
+      "path": "assets/data/territorial-entities/source/countries/state-TWN.json",
+      "sha256": "0a8a50319f69415a74834fc6e0fa92b51756862fcb192c4c0d182a12bb8b87a6"
+    },
+    {
+      "entity": "state:TZA",
+      "path": "assets/data/territorial-entities/source/countries/state-TZA.json",
+      "sha256": "9ebb3491066bfd4bfe7d43e2fecfe99973ec0e18f1acf2621f5bded8e959023d"
+    },
+    {
+      "entity": "state:UGA",
+      "path": "assets/data/territorial-entities/source/countries/state-UGA.json",
+      "sha256": "36778c0ef231c0632630d6975057c3db2f43075a87282e193769bccc8e79ba5c"
+    },
+    {
+      "entity": "state:UKR",
+      "path": "assets/data/territorial-entities/source/countries/state-UKR.json",
+      "sha256": "f67f56e553a0bed0fb53c719091b54fb5880f51372f97d2b7f328201df1f053b"
+    },
+    {
+      "entity": "state:UMI",
+      "path": "assets/data/territorial-entities/source/countries/state-UMI.json",
+      "sha256": "95a20ba6d23cc6b51438c8e90fbb52d8727a37e54cc6afac82adaca99a47eb72"
+    },
+    {
+      "entity": "state:URY",
+      "path": "assets/data/territorial-entities/source/countries/state-URY.json",
+      "sha256": "70d8eecd40f9a0369d9753d5a677e2282d886f9b580c375f843e3fbcd04e5f6a"
+    },
+    {
+      "entity": "state:USA",
+      "path": "assets/data/territorial-entities/source/countries/state-USA.json",
+      "sha256": "ffd6ae3c4ae1a0482b249abb4e8fc5fbaaa8fc53ccf4434ffaed5fc95d9f3796"
+    },
+    {
+      "entity": "state:USG",
+      "path": "assets/data/territorial-entities/source/countries/state-USG.json",
+      "sha256": "c735b5944cc0155f135fe15e1dad1c6217b19287d748bec32e5ef243ee5f88c5"
+    },
+    {
+      "entity": "state:UZB",
+      "path": "assets/data/territorial-entities/source/countries/state-UZB.json",
+      "sha256": "4c52f4d266a54df6e22bb58bbf6e3aa18f0bbcfda98372b260f4951857b919e8"
+    },
+    {
+      "entity": "state:VAT",
+      "path": "assets/data/territorial-entities/source/countries/state-VAT.json",
+      "sha256": "c0e374343920066a23880b2fc0422edc5e138fef6cb5314fd0b3e45895bb06d4"
+    },
+    {
+      "entity": "state:VCT",
+      "path": "assets/data/territorial-entities/source/countries/state-VCT.json",
+      "sha256": "adc03723b7b5f383e199ce5b9ae57d0014293bf797775f95e4a13f1034d1367d"
+    },
+    {
+      "entity": "state:VEN",
+      "path": "assets/data/territorial-entities/source/countries/state-VEN.json",
+      "sha256": "57d9e9fe49f23d2cd9fb8aed70fc981228036455b705f8a552aef03a33230465"
+    },
+    {
+      "entity": "state:VGB",
+      "path": "assets/data/territorial-entities/source/countries/state-VGB.json",
+      "sha256": "a2e7bb43ea13c095d17c0291567c171ef0324b0ee13bbdd21e76eadc96a9ea4b"
+    },
+    {
+      "entity": "state:VIR",
+      "path": "assets/data/territorial-entities/source/countries/state-VIR.json",
+      "sha256": "41582d599ea467a7a93b7dcd21ef24f3077b786a3180f0566a4602be2c692bfb"
+    },
+    {
+      "entity": "state:VNM",
+      "path": "assets/data/territorial-entities/source/countries/state-VNM.json",
+      "sha256": "897d2cec7417d0fdb346ff2cd63ae575d2062450d69f8564c116f6972201edfb"
+    },
+    {
+      "entity": "state:VUT",
+      "path": "assets/data/territorial-entities/source/countries/state-VUT.json",
+      "sha256": "3328eb3e4f608c401a708576d17061677e31099e253c16d29b1771923564f4b9"
+    },
+    {
+      "entity": "state:WLF",
+      "path": "assets/data/territorial-entities/source/countries/state-WLF.json",
+      "sha256": "386f1c54f738d0babc3ebe7fe892106e820c450e157acb4332dd59abfd561da3"
+    },
+    {
+      "entity": "state:WSB",
+      "path": "assets/data/territorial-entities/source/countries/state-WSB.json",
+      "sha256": "6384de9d687425fe37875c151892bb00a54a4b4380f8bf6c5079a34379f6e0cc"
+    },
+    {
+      "entity": "state:WSM",
+      "path": "assets/data/territorial-entities/source/countries/state-WSM.json",
+      "sha256": "bbef5e4e8a2677b1c2232e6ed06f0c6e2c3cd756b5987bd6b718c8f25a7fde05"
+    },
+    {
+      "entity": "state:YEM",
+      "path": "assets/data/territorial-entities/source/countries/state-YEM.json",
+      "sha256": "ead1e096e3d0c42ce888e961afcc2210da0f9c9b9e4ae62e0ba1f1fdf1408f65"
+    },
+    {
+      "entity": "state:ZAF",
+      "path": "assets/data/territorial-entities/source/countries/state-ZAF.json",
+      "sha256": "a4bb88b5fe08d6e274bef552946e71e58e5ec66e606ade4beacdbea86bf702a5"
+    },
+    {
+      "entity": "state:ZMB",
+      "path": "assets/data/territorial-entities/source/countries/state-ZMB.json",
+      "sha256": "0e9828572b03b3ef0b7a69cdf3123630247ff5674469b94bdf075b6cf72fd776"
+    },
+    {
+      "entity": "state:ZWE",
+      "path": "assets/data/territorial-entities/source/countries/state-ZWE.json",
+      "sha256": "02be5736ddeea720764f99a76ea3ed0c5c6a6b1fa395b783e5d8d886cb4c098d"
+    },
+    {
+      "entity": "state:czechoslovakia",
+      "path": "assets/data/territorial-entities/source/countries/state-czechoslovakia.json",
+      "sha256": "32dfd3a6abdf23a3af6fb1ec45d30011ccdc4e7fefec5df24a9c2656184c076c"
+    },
+    {
+      "entity": "state:deutsche-demokratische-republik",
+      "path": "assets/data/territorial-entities/source/countries/state-deutsche-demokratische-republik.json",
+      "sha256": "ac1e1a3fbfae317e0d0f6d9b5c6a7d240638c42ccfee74df54679cdb2669c272"
+    },
+    {
+      "entity": "state:east-prussia",
+      "path": "assets/data/territorial-entities/source/countries/state-east-prussia.json",
+      "sha256": "8320413fa53018b0515a2ef3573443a99cb2c97462e632f42357d6ba00ca7eed"
+    },
+    {
+      "entity": "state:nagorno-karabakh",
+      "path": "assets/data/territorial-entities/source/countries/state-nagorno-karabakh.json",
+      "sha256": "1f87543aa4feb61e1c6aeec570d6a69166968f45e3931a5cde0232b82cd9bf6f"
+    },
+    {
+      "entity": "state:north-schleswig",
+      "path": "assets/data/territorial-entities/source/countries/state-north-schleswig.json",
+      "sha256": "56acc709c454abae32eff8b5552e535b5927f7d0e318afa352eb50b815960f7b"
+    },
+    {
+      "entity": "state:soviet-union-armenian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-armenian-ssr.json",
+      "sha256": "41531ede99402d3299e5f4f0e81a010bd6cd7ef3a82a73071dcebd220c769b8a"
+    },
+    {
+      "entity": "state:soviet-union-azerbaijan-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-azerbaijan-ssr.json",
+      "sha256": "6d12594706fd0edc289b8e8aa3f39b87a5c076b5e35e36b189f863147280af54"
+    },
+    {
+      "entity": "state:soviet-union-byelorussian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-byelorussian-ssr.json",
+      "sha256": "4a4d06226f665d018ca437771656c77e544b95dae42599e233e54769888bd245"
+    },
+    {
+      "entity": "state:soviet-union-estonian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-estonian-ssr.json",
+      "sha256": "591865c95e6286e25895fca43c6217dcf10a84c48ddc5e8bb4a593efdf371fbb"
+    },
+    {
+      "entity": "state:soviet-union-georgian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-georgian-ssr.json",
+      "sha256": "670dc72fe454d5563f5cfe2963e06a6d7da930766c9e15a08860c01c806ddad3"
+    },
+    {
+      "entity": "state:soviet-union-kazakh-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-kazakh-ssr.json",
+      "sha256": "1d92e5421c8485a7cbfbdbdc2d01d6c54dd98ab3995bdc0fbfb529e96fbb35fc"
+    },
+    {
+      "entity": "state:soviet-union-kirghiz-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-kirghiz-ssr.json",
+      "sha256": "3be09dc1072eb2aa1f81df2aeea389c615e98dfe739d10c31f37853f2c2b630d"
+    },
+    {
+      "entity": "state:soviet-union-latvian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-latvian-ssr.json",
+      "sha256": "8b84afb46596452a79a31d0abbfd1a3d444d7fd654e81ee7a5424e9a1c94a587"
+    },
+    {
+      "entity": "state:soviet-union-lithuanian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-lithuanian-ssr.json",
+      "sha256": "557289105cb07b36c4d794536a74ecb5d8f96c1214cadccfdc460188953c2d8a"
+    },
+    {
+      "entity": "state:soviet-union-moldavian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-moldavian-ssr.json",
+      "sha256": "b652dbe8fe84c1d99740471fe38f9084ae937d5f19ea7cfda049a764c13dac46"
+    },
+    {
+      "entity": "state:soviet-union-russian-sfsr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+      "sha256": "e9210bbe286a37e7382cf404d4357b377ab1b025bca3d907fcd79f21a6216bf9"
+    },
+    {
+      "entity": "state:soviet-union-tajik-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-tajik-ssr.json",
+      "sha256": "a3f8a1c342b6a6d81de6308d531022df678bdfebdf7fdc9692394e32d318f8d7"
+    },
+    {
+      "entity": "state:soviet-union-turkmen-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-turkmen-ssr.json",
+      "sha256": "171d16e5acafa4e5a5c6b6132c291e8082fd077c86a065ce5ae1eb70c8e8b54b"
+    },
+    {
+      "entity": "state:soviet-union-ukrainian-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-ukrainian-ssr.json",
+      "sha256": "3b3483911f3c550d0c17d8591c26c38609ff48564fe214f7195f03af2de5b322"
+    },
+    {
+      "entity": "state:soviet-union-uzbek-ssr",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-uzbek-ssr.json",
+      "sha256": "25c1e9eafd40983eb03f43bdc926296d205f9a2243e34c137cb7c665aaa86605"
+    },
+    {
+      "entity": "state:soviet-union",
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+      "sha256": "065da5c1ba70542e557579395f5cc27b8a5aa6711fcc22b175189d802fa1c023"
+    },
+    {
+      "entity": "state:west-prussia",
+      "path": "assets/data/territorial-entities/source/countries/state-west-prussia.json",
+      "sha256": "f76c7ce5c37878c7e6639250220f23a92e41c603570959e960fcf1ae20f89f8a"
+    },
+    {
+      "entity": "state:yugoslavia",
+      "path": "assets/data/territorial-entities/source/countries/state-yugoslavia.json",
+      "sha256": "dd351bfc95f6890df643258ffa695a468e00716d144c192f81e8fe0e40259a8d"
+    }
+  ]
+}

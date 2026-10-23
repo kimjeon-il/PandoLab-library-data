@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "baseDataCommit": "1373ef67d0a5ca8baf34edf493daa18fef37b9c7",
+  "oldDdrDataCommit": "36818f327b5d7a423dbf51db79106197786b69f6",
+  "oldDdrObject": "3e52e30668bbc6db2908b178e34fad4a96c17c204e715fed02e260340a30d1b1",
+  "currentDdrObject": "84bc6a67283697b38238d699fcfe88fcdf4eca203728e7c3d43bdb4696887461",
+  "baseLibrarySha256": "c1c68ce7bf3716a4581314346fc33a11e76072c767cdc186ba1f705ee3774dd9",
+  "candidateLibrarySha256": "c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b",
+  "indexHashPreserved": "a3c24e61dfff9b25c66cbf5c55be4d3015a954f5fe9df11f4df9dcd628b5f906",
+  "entityCount": 281,
+  "objectCount": 282,
+  "changedEntities": [
+    "state:deutsche-demokratische-republik"
+  ],
+  "preservedNonGeometryIdentity": true,
+  "changedTopLevelFields": [
+    "geometryVersions",
+    "sourceInfo"
+  ],
+  "changedVersionFields": [
+    "boundarySupplement",
+    "sourceId",
+    "geometry",
+    "notes"
+  ],
+  "oldGeometry": {
+    "valid": true,
+    "validity": "Valid Geometry",
+    "coordinates": 4108,
+    "polygons": 6,
+    "holes": 1,
+    "areaKm2": 108571.23047876617
+  },
+  "currentGeometry": {
+    "valid": true,
+    "coordinates": 8708,
+    "polygons": 6,
+    "holes": 1,
+    "areaKm2": 108425.10397890846
+  },
+  "auditOriginalAppCommit": "5213223aa10b8f145203a0643a4ff18b0c2c0d2d",
+  "historicalComparison": [
+    {
+      "entityId": "state:czechoslovakia",
+      "currentObject": "87e1acabc7a3a630fd928cdb2e0a42ea4866f122dfc153d01de384cd201bad6f",
+      "originalAppPath": "assets/data/territorial-entities/source/state-czechoslovakia.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:deutsche-demokratische-republik",
+      "currentObject": "84bc6a67283697b38238d699fcfe88fcdf4eca203728e7c3d43bdb4696887461",
+      "originalAppPath": "assets/data/territorial-entities/source/state-deutsche-demokratische-republik.json",
+      "sameShape": false,
+      "sameCoordinates": false
+    },
+    {
+      "entityId": "state:east-prussia",
+      "currentObject": "54496fc96d9d086a08f8becbedc3a6926906d79f811ded36b312d18ab312f90b",
+      "originalAppPath": "assets/data/territorial-entities/source/state-east-prussia.json",
+      "sameShape": true,
+      "sameCoordinates": false
+    },
+    {
+      "entityId": "state:nagorno-karabakh",
+      "currentObject": "c0c5755b6bd8d5d43ed528201ef1ece23510d511226860c33fffcd2cce553084",
+      "originalAppPath": "assets/data/territorial-entities/source/state-nagorno-karabakh.json",
+      "sameShape": true,
+      "sameCoordinates": false
+    },
+    {
+      "entityId": "state:north-schleswig",
+      "currentObject": "51f52bc81c90f6791132acac5342e65db8cc67f3c06e1ca63f140ddd9d743c4e",
+      "originalAppPath": "assets/data/territorial-entities/source/state-north-schleswig.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-armenian-ssr",
+      "currentObject": "1af0b28f1d73c74b099c6f6e4aae12c1e86ce98cc3fb2a7eadd4122276474ee5",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-armenian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-azerbaijan-ssr",
+      "currentObject": "3b2b4bce4e679187d8c403037cdec18f3e9fd2ca20690c0d4ecc3272bd867ef8",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-azerbaijan-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "currentObject": "666fbdd24b7b7e04cda2b3e52e1e9093f8d1fda48adb2abf4cdf754cf895c36b",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-byelorussian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-estonian-ssr",
+      "currentObject": "cf0ccbf56946696f0d6ac0e9c54fea6c7db096a41319e82830823db8ac18a3a1",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-estonian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-georgian-ssr",
+      "currentObject": "7f69932bd443b3b22f27b7bdb64685b737c307f8d41369f507485c20e2b73a54",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-georgian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-kazakh-ssr",
+      "currentObject": "30a02c30264b99f2cb8047a0878e9cd587362368a25873c3676a7be7bb54a3da",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-kazakh-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-kirghiz-ssr",
+      "currentObject": "2c8855de63d202701d23c9c24dca626a26cb74db1b6921ed77c0964a73acce03",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-kirghiz-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-latvian-ssr",
+      "currentObject": "f96fad2f4dcaeef2c5fe30794650bb39d37a41175303d24a9b003791f5b5fdb3",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-latvian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-lithuanian-ssr",
+      "currentObject": "01d0d176906538778ce433237b3a74106f02b914de42e2587d7988c827284f63",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-lithuanian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-moldavian-ssr",
+      "currentObject": "11f41b1c1d689fce7928eb956f8ea8b8a52fc33e8f99705f8cabdb9a67383bd9",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-moldavian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "currentObject": "a40f9b418677d23be3a20b83c6627b414b2047a2bfdff242bdac3a6fb3f85da4",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-russian-sfsr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-tajik-ssr",
+      "currentObject": "28e7783f8d37ec9235feade347f938daf09fbf075d2222716b0e74f245d28f32",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-tajik-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-turkmen-ssr",
+      "currentObject": "6a4f559f2a3d8e4bdf730ae378fc5d07d28b34ef0f95f4f3f790834d587a5c0a",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-turkmen-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "currentObject": "f8eec6ea04d29a388e9d05ca1fe7384edbab453519a96ea0f2e43cf80bbc7c17",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-ukrainian-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union-uzbek-ssr",
+      "currentObject": "f219ec2a12834de717899bbca63d694d71e11c9e8ab86b886bd9a26347362dba",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union-uzbek-ssr.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:soviet-union",
+      "currentObject": "56833e583a221bd8be4cc444de131c637e36a6504055c24f8ca7f644108abfeb",
+      "originalAppPath": "assets/data/territorial-entities/source/state-soviet-union.json",
+      "sameShape": true,
+      "sameCoordinates": false
+    },
+    {
+      "entityId": "state:west-prussia",
+      "currentObject": "d62fe7ac65a88d3b965cf6272517b357e4cfcf672ad6ef5a7a70fd34cd11f760",
+      "originalAppPath": "assets/data/territorial-entities/source/state-west-prussia.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "currentObject": "3f29f1b26d074890a834ea15b2cbc8dfe7d1c2ed33d5819e1c104b0cf48a75af",
+      "originalAppPath": "assets/data/territorial-entities/source/state-yugoslavia.json",
+      "sameShape": true,
+      "sameCoordinates": true
+    }
+  ]
+}
