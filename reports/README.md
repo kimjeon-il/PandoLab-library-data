@@ -23,6 +23,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-TIME-009` | [2025년 아프리카 가봉–적도기니 ICJ 법적 권원 판결·벡터 선별](geography/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md) | 2026-10-24 | `investigating / source-indexed / provisional` | `not-applied` |
 | `GEO-LIFE-012` | [아프리카 3개국 국가 존속기간 — 카메룬·말리·탄자니아](geography/country-lifetime-africa-cmr-mli-tza-2026-10-24.md) | 2026-10-24 | `investigating / phase-1` | `not-applied` |
 | `GEO-LIFE-011` | [아시아 3개국 국가 존속기간 — 파키스탄·말레이시아·네팔](geography/country-lifetime-asia-south-southeast-2026-10-23.md) | 2026-10-23 (2026-10-24 복구) | `investigating / phase-1` | `not-applied` |
 | `GEO-LIFE-010` | [유럽 발트 3국 국가 존속기간 — 2차 교차검증](geography/country-lifetime-europe-baltic-2026-10-22.md) | 2026-10-22 (2026-10-24 복구) | `investigating / phase-2` | `not-applied` |
