@@ -1,5 +1,18 @@
 # 내부 계산 전수 정적 조사 및 결과 동일 최적화 — 2026-10-23
 
+## 저장공간·개발 실행기 후속 완료 — 2026-10-24
+
+계산 결과를 바꾸지 않고 생성·보관·개발 실행 과정을 정리했다. 최종 코드는 70a110cf이며 Pages 39985352211 배포가 성공했다. 원격 상설 브랜치 다섯 개에 반영했고 UI의 비공개 학습 커밋 두 개와 d401 자료 핀은 보존했다. D 여유는 6.67→18.20GiB(순증 11.53GiB), 추적 파일은 약 20MiB 감소했다. 반복 자료 준비의 보고서 증가량은 0바이트다. 보호 자료를 지워 20GiB 목표를 맞추지 않았다.
+
+Windows/Android 실제 지도·편집·Undo/Redo·저장/재열기·OCR·프런트/WASM 재로딩, Android 네이티브 증분 재시작, 서버 없는 오프라인 실행을 확인했다. Windows 오프라인은 보존한 기존 패키지(5de478ba)를 검증했으며 최신 Windows 패키지를 새로 빌드한 것은 아니다. Android APK의 삭제된 바이너리 빈 영역을 없애 443→309MiB로 줄였고 내부 964개 파일의 해시와 서명이 같은지 확인한 뒤 실제 실행했다. 개발 명령은 앱 폴더의 dev:windows / dev:android이며 full-world, 127.0.0.1:4175를 사용한다.
+
+실제 공개 사이트의 254개 객체와 canonical WebGL2 지도를 확인했고 page/console 오류가 없었다. HTML·metadata·WASM 등 다섯 자산의 해시가 커밋과 일치했다. 실제 수계 HTTP 206 응답은 Content-Range bytes 0-7/11974120, Content-Length 8, 본문 8바이트이며 고정 자료와 같았다. 초기 추가 점검에서 공개 viewer에 편집기 전용 #app 상태를 잘못 적용해 대기 시간이 초과됐지만, canonical viewer 상태/API로 바로잡아 확인했다.
+
+전체 CI 통과는 아니다. 기존 Application Architecture 검사기의 apps/assets 경로 해석 실패가 남아 있으며 검사를 삭제·약화하지 않았다. 읽기 전용 Git 임시 pack 402MiB의 강제 삭제는 자동 정책 거부로 보존했다. 상세 완료 보고는 storage-progress.md, 실제 여유·할당·패키지 크기는 storage-size-final.json, 반복 준비는 storage-repeat-final.json, 네이티브 증거는 windows-/android- 원문, 배포·206·해시는 storage-release.json, 브랜치는 storage-branches-final.json, CI는 storage-ci-final.json에 있다.
+
+아래는 앞선 계산 최적화 작업 당시의 원문과 판정이며 후속 검증과 구분한다.
+
+
 > 보고서 ID: DEV-EXACT-CALC-20261023 · 상태: deployed / focused-verification / CI-incomplete · 지도 반영: not-applicable (계산 변경)  
 > 원문 최종 수정: 2026-10-23  
 > 비교 기준: Web/App 3b5939a9c83d887ccab24ce8309c6b9f62e1cc9f / 자료 fa2de64ac125e768e9ce54137a07591be8d5f506  
@@ -74,4 +87,4 @@ ci-contract-provenance.json 및 ci-*-failure.log에 근거를 보존한다. 사�
 
 ## 원문·재현
 
-정적 조사 방법 inventory.mjs, 조사 목록 inventory-final.json, 채택/보류 판단 triage.md, 전후 원문 로그, 10쌍 성능 JSON, 독립 review.md를 같은 보고서 logical prefix에 보존한다. originals.json에 원문 SHA-256과 크기를 기록했다. 저장 helper가 JSON/log 등 원문을 archive/index.json과 무손실 압축 blob으로 보관한다. 재현 도구는 앱 저장소 tools/exact-calculation-performance.mjs이며 자료 저장소에서 검사를 실행하지 않는다. 데이터 핀은 보고서 저장만을 이유로 바꾸지 않는다.
+정적 조사 방법 inventory.mjs, 조사 목록 inventory-final.json, 채택/보류 판단 triage.md, 전후 원문 로그, 10쌍 성능 JSON, 독립 review.md를 같은 보고서 logical prefix에 보존한다. originals.json에 원문 SHA-256과 크기를 기록했다. 저장 helper가 JSON/log 등 원문을 archive/index.json과 무손실 압축 blob으로 보관한다. 재현 도구는 이 보고서 원문의 exact-calculation-performance.mjs로 보관했으며 (저장공간 정리로 앱 저장소의 일회성 도구는 제거) 자료 저장소에서 검사를 실행하지 않는다. 데이터 핀은 보고서 저장만을 이유로 바꾸지 않는다.
