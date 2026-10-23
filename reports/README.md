@@ -18,6 +18,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-DDR-ALL-FOLLOWUP-20261023` | [동독 남은 경계 전체 후속 — 벡터 및 승인 지도 일부 적용](geography/east-germany-remaining-all-2026-10-23.md) | 2026-10-23 | `local-applied / provisional / map-review-approved` | `9 vector windows + approved map3; remainder held; Elbe local-only` |
 | `GEO-DDR-NORTHERN-APPLIED-20261023` | [동독 라체부르크·메호어호 경계 적용](geography/east-germany-ratzeburg-mechow-applied-2026-10-23.md) | 2026-10-23 | `local-applied / provisional` | `work/gis only` |
 | `GEO-DDR-MAP-PREVIEW-20261023` | [동독 남은 구간 벡터 탐색·첫 지도 정합본](geography/east-germany-remaining-map-preview-2026-10-23.md) | 2026-10-23 | `historical-record / map-review-approved` | `see northern follow-up` |
 | `GEO-DDR-STAGE2-20261023` | [동독 남은 육상 구간 추가 적용](geography/east-germany-remaining-stage2-2026-10-23.md) | 2026-10-23 | `local-applied / provisional` | `work/gis only` |

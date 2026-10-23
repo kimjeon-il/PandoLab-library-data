@@ -29,4 +29,4 @@
 
 도엽 N32082DA Lüdersdorf는 **내용 
 
-[무손실 압축 원문](../../archive/blobs/b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88.gz)
+[무손실 압축 원문](../../archive/blobs/a401b180c0e46d2787e584f9f27116588b65de39d19168c87c39e88a7af731af.gz)
