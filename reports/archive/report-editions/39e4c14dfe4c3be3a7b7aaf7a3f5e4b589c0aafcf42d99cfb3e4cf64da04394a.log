@@ -1,0 +1,10 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:14568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\browser\reference-image-boundary-review.spec.mjs:5:1 › boundary review edits a real Core graph through the Worker and Live-Wire, then applies one import
+[2/2] tests\browser\reference-image-layout-package.spec.mjs:5:1 › framed inset becomes an independent shared-source image and survives actual GeoPackage reopen
+  2 passed (38.2s)

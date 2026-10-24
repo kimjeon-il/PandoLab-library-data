@@ -1,0 +1,6 @@
+{
+  "ussrOverlapAlandSquareDegrees": 0.0,
+  "alandOutsideModernFinlandSquareDegrees": 0.15238902180200078,
+  "error": "GEOMETRY_OUTSIDE_PARENT: Child d34b00a1-9b13-8000-8000-000000414c44 is outside parent FIN during the edited interval.",
+  "scope": "Merging into the existing modern world rejected; empty-project source import independently checked. No FIN/ALD source edits."
+}

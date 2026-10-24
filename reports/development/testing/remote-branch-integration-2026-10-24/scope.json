@@ -1,0 +1,29 @@
+{
+  "remoteMain": "15046c820c393e9822b9e148d972291d101822f1",
+  "mergedRemoteGis": "f9e653a9833b1134f1b2d600f46e72b211f6e787",
+  "mergedRemoteUi": "010fb6b08642007fb2582cfd552be4927675acac",
+  "gisUniqueCommits": 16,
+  "uiUniqueCommits": 2,
+  "protectedLocalUi": "9b1c2162730e8c859e9eb890a8b73abf8f9c6709",
+  "dataPin": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "buildId": "0.36.0-build-merge-f9e653a9-010fb6b0",
+  "integratedCommit": "b2fbb0cfb47648dc797ae954e313d77ab5026d3d",
+  "browser": {
+    "test": "task windows omit target focus while the object editor retains its focus action",
+    "passed": 1
+  },
+  "reportStorage": "Evidence retained once in the existing external original report owner. No data-repository checkout update or extra archive copy was performed for this code-only integration.",
+  "unmergedRemoteCommits": {
+    "ui": 0,
+    "objects": 0,
+    "gis": 0,
+    "places": 0
+  },
+  "localWorkingTreesPreserved": true,
+  "finalFreeBytes": 17217929216,
+  "fullCiStatus": {
+    "pages": "success",
+    "applicationArchitecture": "pre-existing missing apps/assets dependency resolver failure",
+    "sharedCpp": "in progress at final snapshot; no full CI claim"
+  }
+}

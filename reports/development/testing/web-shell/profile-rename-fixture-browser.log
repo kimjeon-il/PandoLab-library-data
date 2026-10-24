@@ -1,0 +1,33 @@
+Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'sha256-Q/E+kb4wsnjErtRxRt03Nd3OLirpA3DMroMpKgn//vE=' 'sha256-IrOU5QKufEz5dybXdWMOj7heCOOJiDAwDXVyCtw/qBY=' 'wasm-unsafe-eval' 'unsafe-eval' blob:'. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.
+Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'sha256-Q/E+kb4wsnjErtRxRt03Nd3OLirpA3DMroMpKgn//vE=' 'sha256-IrOU5QKufEz5dybXdWMOj7heCOOJiDAwDXVyCtw/qBY=' 'wasm-unsafe-eval' 'unsafe-eval' blob:'. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.
+Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'sha256-Q/E+kb4wsnjErtRxRt03Nd3OLirpA3DMroMpKgn//vE=' 'sha256-IrOU5QKufEz5dybXdWMOj7heCOOJiDAwDXVyCtw/qBY=' 'wasm-unsafe-eval' 'unsafe-eval' blob:'. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.
+Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'sha256-Q/E+kb4wsnjErtRxRt03Nd3OLirpA3DMroMpKgn//vE=' 'sha256-IrOU5QKufEz5dybXdWMOj7heCOOJiDAwDXVyCtw/qBY=' 'wasm-unsafe-eval' 'unsafe-eval' blob:'. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.
+Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'sha256-Q/E+kb4wsnjErtRxRt03Nd3OLirpA3DMroMpKgn//vE=' 'sha256-IrOU5QKufEz5dybXdWMOj7heCOOJiDAwDXVyCtw/qBY=' 'wasm-unsafe-eval' 'unsafe-eval' blob:'. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.
+Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'sha256-Q/E+kb4wsnjErtRxRt03Nd3OLirpA3DMroMpKgn//vE=' 'sha256-IrOU5QKufEz5dybXdWMOj7heCOOJiDAwDXVyCtw/qBY=' 'wasm-unsafe-eval' 'unsafe-eval' blob:'. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked.
+{
+  "ready": true,
+  "renderer": "webgl2",
+  "indices": 2304,
+  "triangles": 768,
+  "entities": [
+    "shell-country-a",
+    "shell-country-b",
+    "shell-child-a"
+  ],
+  "blocked": [],
+  "errors": []
+}
+{
+  "browserChecks": {
+    "webgl": "PASS",
+    "worker": "PASS",
+    "wasm": "PASS",
+    "autosave": "PASS",
+    "nativeFile": "FAIL",
+    "filePickerSave": "NOT_RUN",
+    "filePickerOpen": "NOT_RUN",
+    "network": "NOT_RUN"
+  },
+  "expectedNativeUnavailable": true
+}
+Browser-only real-frontend preflight passed; this does not certify native WebView or Android.

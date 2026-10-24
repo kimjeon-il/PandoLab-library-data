@@ -1,0 +1,19 @@
+[WebServer] (node:19404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:6672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\button-consistency.spec.mjs:25:3 › shared button sizing and icon slots remain aligned at 1440px (1.3s)
+  ok 2 tests\browser\button-consistency.spec.mjs:25:3 › shared button sizing and icon slots remain aligned at 844px (788ms)
+  ok 3 tests\browser\button-consistency.spec.mjs:25:3 › shared button sizing and icon slots remain aligned at 390px (870ms)
+  ok 4 tests\browser\button-consistency.spec.mjs:25:3 › shared button sizing and icon slots remain aligned at 320px (778ms)
+  ok 5 tests\browser\editor-status-timeline.spec.mjs:6:1 › editor status bar omits date navigation while editing context remains usable (26.5s)
+(node:7896) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7896) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 6 tests\browser\timeline-controls.spec.mjs:7:1 › floating date controls preserve navigation and document state across desktop and narrow mobile (41.8s)
+
+  6 passed (1.3m)

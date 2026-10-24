@@ -1,0 +1,17 @@
+changes	Select current application checks	﻿2026-10-23T02:58:53.9908347Z ##[group]Run node scripts/run-application-checks.mjs --list --github-output
+changes	Select current application checks	2026-10-23T02:58:53.9908949Z ^[[36;1mnode scripts/run-application-checks.mjs --list --github-output^[[0m
+changes	Select current application checks	2026-10-23T02:58:53.9972210Z shell: /usr/bin/bash -e {0}
+changes	Select current application checks	2026-10-23T02:58:53.9972469Z env:
+changes	Select current application checks	2026-10-23T02:58:53.9972718Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+changes	Select current application checks	2026-10-23T02:58:53.9973084Z   BASE_SHA: baf1cbb77b2b589fd17a301a56275aa993d6153c
+changes	Select current application checks	2026-10-23T02:58:53.9973581Z   HEAD_SHA: 5de478ba676cb2286de3029578e46a222765b83f
+changes	Select current application checks	2026-10-23T02:58:53.9973873Z   BROWSER_SCOPE: default
+changes	Select current application checks	2026-10-23T02:58:53.9974102Z ##[endgroup]
+changes	Select current application checks	2026-10-23T02:58:54.1586863Z Error: Unregistered test: tests/browser/builtin-country-loading.spec.mjs
+changes	Select current application checks	2026-10-23T02:58:54.1588293Z     at loadRepository (file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:71:23)
+changes	Select current application checks	2026-10-23T02:58:54.1589610Z     at main (file:///home/runner/work/Pando/Pando/scripts/run-application-checks.mjs:88:22)
+changes	Select current application checks	2026-10-23T02:58:54.1591074Z     at file:///home/runner/work/Pando/Pando/scripts/run-application-checks.mjs:111:9
+changes	Select current application checks	2026-10-23T02:58:54.1592117Z     at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+changes	Select current application checks	2026-10-23T02:58:54.1592962Z     at async node:internal/modules/esm/loader:647:26
+changes	Select current application checks	2026-10-23T02:58:54.1593930Z     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+changes	Select current application checks	2026-10-23T02:58:54.1663319Z ##[error]Process completed with exit code 1.

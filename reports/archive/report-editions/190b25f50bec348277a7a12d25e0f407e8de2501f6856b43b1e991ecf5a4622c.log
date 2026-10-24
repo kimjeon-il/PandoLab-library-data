@@ -1,0 +1,81 @@
+✖ full-world stage selects manifest-pinned Web resources and keeps the canonical bootstrap intact (933.3311ms)
+✔ full-world stage refuses tampered pinned immutable data (205.8285ms)
+✖ full-world stage rejects a corrupted builtin country transport before packaging (426.269ms)
+✖ full-world manifest closure includes active historical and prepared geometry only (8.5182ms)
+✔ full-world manifest closure rejects traversal, remote paths and altered hash paths (2.4145ms)
+✖ full-world packaging requires the current pinned country transport (0.565ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 2
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3986.4511
+
+✖ failing tests:
+
+test at apps\web-shell\tests\stage-world.test.mjs:101:1
+✖ full-world stage selects manifest-pinned Web resources and keeps the canonical bootstrap intact (933.3311ms)
+  Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pandolab-full-world-stage-GM8rRR\apps\web-shell\dist\assets\data\builtin-world\generated\v1\transport\countries-sha256-446dbca2a9768018cc095c91b9919c0b2abac356f18ac9ff888e8c3cc6960c72.bin'
+      at async open (node:internal/fs/promises:1345:25)
+      at async readFile (node:internal/fs/promises:1996:14)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage-world.test.mjs:121:16)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-full-world-stage-GM8rRR\\apps\\web-shell\\dist\\assets\\data\\builtin-world\\generated\\v1\\transport\\countries-sha256-446dbca2a9768018cc095c91b9919c0b2abac356f18ac9ff888e8c3cc6960c72.bin'
+  }
+
+test at apps\web-shell\tests\stage-world.test.mjs:130:1
+✖ full-world stage rejects a corrupted builtin country transport before packaging (426.269ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage-world.test.mjs:133:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /Pinned world resource mismatch/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at apps\web-shell\tests\world-data-plan.test.mjs:54:1
+✖ full-world manifest closure includes active historical and prepared geometry only (8.5182ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(paths.includes('assets/data/builtin-world/generated/v1/transport/countries-sha256-'+SHA+'.bin'))
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/world-data-plan.test.mjs:67:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at apps\web-shell\tests\world-data-plan.test.mjs:87:1
+✖ full-world packaging requires the current pinned country transport (0.565ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/world-data-plan.test.mjs:95:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /country transport/,
+    operator: 'throws',
+    diff: 'simple'
+  }

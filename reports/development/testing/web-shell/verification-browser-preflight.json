@@ -1,0 +1,2151 @@
+{
+  "browserOnly": true,
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "source": "actual frontend under shell CSP",
+  "bootstrap": {
+    "ready": true,
+    "metrics": {
+      "mapReadiness": {
+        "status": "boundaries",
+        "label": "정밀 경계 준비 중",
+        "retry": false
+      },
+      "screenScale": 162.97466172610083,
+      "scaleBand": "low",
+      "previewAdmission": "startup-only-unverified",
+      "renderer": "webgl2",
+      "mapHost": "legacy",
+      "assetRevision": "0.36.0-build-merge-f9e653a9-010fb6b0",
+      "dataRevision": "data-f90bdb599ba09323f05688344496b238",
+      "dataCacheName": "pandolab-world-content-v1",
+      "projectGeneration": 0,
+      "terrainRepresentation": null,
+      "terrainDatasetVersion": "0.13.3-p1",
+      "terrainSource": "raster",
+      "terrainFallbackReason": null,
+      "terrainDetailedShade": false,
+      "projectRenderBlocked": false,
+      "activeWebGlContextCount": 1,
+      "renderSceneRevision": 0,
+      "sceneCacheValid": true,
+      "sceneCache": {
+        "valid": true,
+        "dirty": false,
+        "activeViewSignature": "1:flat:512,347:162.97466172610083::0,20:1024:720",
+        "stagingViewSignature": "",
+        "activeProjectGeneration": 0,
+        "stagingProjectGeneration": 0,
+        "state": "valid",
+        "disabled": false,
+        "width": 1024,
+        "height": 720,
+        "generation": 15,
+        "hitCount": 1,
+        "missCount": 6,
+        "compositeCount": 1,
+        "compositeMs": 0,
+        "recreateCount": 1,
+        "failureCount": 0,
+        "lastFailureReason": "",
+        "lastInvalidationReason": "country-palette"
+      },
+      "sceneCacheFullDrawCount": 1,
+      "sceneCacheInteractionDrawCount": 6,
+      "sceneCacheReprojectCount": 0,
+      "selectionOnlyBaseDrawCount": 1,
+      "sceneCacheFallbackFrame": false,
+      "canonicalFrameFallbackCount": 5,
+      "firstCanonicalFrameMs": null,
+      "polygonOverlay": {
+        "resourceCount": 0,
+        "uploadBytes": 0,
+        "buildCount": 0,
+        "buildMs": 0,
+        "drawCount": 0,
+        "drawCallCount": 0,
+        "drawMs": 0,
+        "cacheHits": 0,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "activeBufferBytes": 0,
+        "resourceBudget": {
+          "byteBudget": 124822487,
+          "activeBytes": 0,
+          "entryCount": 0,
+          "activeKeyCount": 0,
+          "protectedKeyCount": 0,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "stroke": {
+        "resourceCount": 2,
+        "uploadBytes": 7584,
+        "buildCount": 2,
+        "buildMs": 0,
+        "drawCount": 1,
+        "drawCallCount": 11,
+        "drawMs": 12.600000001490116,
+        "cacheHits": 6,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 3.5999999940395355,
+        "selfTestFailureReason": "",
+        "analyticAa": true,
+        "aaRadiusPx": 1,
+        "connectedTopology": true,
+        "topologyJoinCount": 0,
+        "topologyCapCount": 0,
+        "topologyClosedChainCount": 0,
+        "topologyInvalidSegmentCount": 0,
+        "activeBufferBytes": 7584,
+        "resourceBudget": {
+          "byteBudget": 76504104,
+          "activeBytes": 7584,
+          "entryCount": 2,
+          "activeKeyCount": 0,
+          "protectedKeyCount": 0,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "selection": {
+        "packetRevision": 0,
+        "countryBoundaryRevision": "canonical:0:0:0:0:::4",
+        "viewDrawCount": 6,
+        "viewOnlyBufferRebuildCount": 0,
+        "drawMs": 0.10000000149011612,
+        "lastDrawMs": 0,
+        "renderFailureCount": 3,
+        "contextLost": false,
+        "contextLossCount": 0,
+        "contextRestoreCount": 0,
+        "bufferBuildCount": 0,
+        "bufferBuildMs": 0,
+        "bufferUploadBytes": 0,
+        "geometryCacheHits": 0,
+        "geometryCacheMisses": 0,
+        "countryBatchCount": 0,
+        "genericBatchCount": 0,
+        "strokeDrawCallCount": 0,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 3.5999999940395355,
+        "selfTestFailureReason": "",
+        "renderSucceeded": true,
+        "channels": {
+          "candidate": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "hover": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "secondary": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "primary": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          }
+        },
+        "segmentCount": 0,
+        "activeBufferBytes": 0,
+        "stagingBufferBytes": 0,
+        "drawCoverage": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "lastSelectionRenderResult": {
+        "succeeded": true,
+        "contextLost": false,
+        "selfTestPassed": true,
+        "gpuHealth": "healthy",
+        "channels": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "effectivePixelRatio": 1,
+      "devicePixelRatio": 1,
+      "meshQuality": "canonical",
+      "activeMeshQuality": "canonical",
+      "canonicalMeshReady": false,
+      "availableMeshQualities": [
+        "canonical"
+      ],
+      "meshVariantBytes": {
+        "canonical": 13556
+      },
+      "meshRestorePending": false,
+      "qualityPhase": "canonical-loading",
+      "previewAllowed": false,
+      "previewActivationCount": 0,
+      "desiredCountryMeshQuality": "preview",
+      "countryFocusPending": false,
+      "previewActivationAfterCanonical": 0,
+      "canonicalPromotionCount": 0,
+      "canonicalPromotionError": "",
+      "canonicalReadyFrameId": 0,
+      "meshSwitchCount": 1,
+      "renderQualityChangeCount": 1,
+      "renderQuality": {
+        "tier": "high",
+        "phase": "settle",
+        "revision": 1,
+        "countryMeshQuality": "canonical",
+        "dprCap": 3,
+        "terrainResolutionScale": 1,
+        "terrainCacheBudgetBytes": 134217728,
+        "hydroCacheBudgetBytes": 100663296,
+        "overlayGpuBudgetBytes": 201326592,
+        "uploadBudgetBytes": 8388608,
+        "activeEditLod": "high",
+        "selectedLod": "high",
+        "backgroundLod": "high",
+        "renderPacketCacheBudgetBytes": 201326592,
+        "interactionUploadBudgetBytes": 786432,
+        "settleUploadBudgetBytes": 8388608,
+        "targetFrameMs": 20,
+        "p95FrameMs": 0,
+        "p99FrameMs": 0,
+        "longFrameCount": 0,
+        "reason": "device-hints"
+      },
+      "countries": 2,
+      "renderVertices": 434,
+      "triangleCount": 768,
+      "lineSegmentCount": 96,
+      "countryBoundaryMode": "outline",
+      "countrySharedBoundarySegmentCount": 40,
+      "countrySharedBoundaryReady": true,
+      "countrySharedBoundaryReplacementPending": false,
+      "countryInternalBoundarySegmentCount": 24,
+      "countryInternalBoundaryVisibleOwnerIds": [
+        "territorial:entity:shell-child-a"
+      ],
+      "countrySharedBoundaryWorkerActive": true,
+      "countrySharedBoundaryRequestId": 5,
+      "countrySharedBoundaryLastMessage": "prepared:4:canonical:0:0",
+      "p95CpuSubmitMs": 4.1,
+      "p99CpuSubmitMs": 4.1,
+      "pickCount": 0,
+      "pickReadPixelsMs": 0,
+      "pickLastReadPixelsMs": 0,
+      "pickSceneRenderCount": 0,
+      "countryEmphasisRevision": 1,
+      "interactionFillCoverage": {
+        "succeeded": true,
+        "renderedKeys": [],
+        "missingKeys": []
+      },
+      "interactionFillItems": [],
+      "countryEmphasis": {
+        "primaryId": "",
+        "primaryIds": [],
+        "priorities": {},
+        "hoverId": "",
+        "selectedIds": [],
+        "boundaryEnabled": false,
+        "primaryBoundaryColor": "#316fd3",
+        "secondaryBoundaryColor": "#316fd3"
+      },
+      "interactionStyle": {
+        "theme": "light",
+        "antiAlias": true,
+        "hover": {
+          "color": "#316fd3",
+          "width": 1.5,
+          "alpha": 0.85,
+          "fillAlpha": 0.027999999999999997
+        },
+        "selection": {
+          "color": "#316fd3",
+          "outlineVisible": true,
+          "fillStrength": 0.35,
+          "primary": {
+            "innerWidth": 2.5,
+            "innerAlpha": 1,
+            "fillAlpha": 0.08399999999999999
+          },
+          "secondary": {
+            "innerWidth": 1.5,
+            "innerAlpha": 0.72,
+            "fillAlpha": 0.049
+          }
+        },
+        "drawOrder": [
+          "candidate",
+          "hover",
+          "secondary-inner",
+          "primary-inner"
+        ]
+      },
+      "boundaryOwner": "interaction-overlay",
+      "visualPassOrder": [
+        "substrate",
+        "terrain",
+        "country-fill",
+        "territorial-fill",
+        "lake",
+        "lake-boundary",
+        "river",
+        "border-river",
+        "country-boundary",
+        "independent-overlay",
+        "candidate",
+        "hover",
+        "secondary",
+        "primary",
+        "edit-preview",
+        "validation",
+        "edit-handles",
+        "draft",
+        "snap",
+        "territorial-labels",
+        "labels"
+      ],
+      "emphasizedCountryCount": 0,
+      "viewportCss": [
+        1024,
+        720
+      ],
+      "canvasBackingPixels": [
+        1024,
+        720
+      ],
+      "layoutMismatchCssPx": 0,
+      "requestedRevision": 2,
+      "displayedRevision": 2,
+      "committedGeometryRevision": 0,
+      "displayedGeometryRevision": 0,
+      "pendingCountryCount": 0,
+      "pendingOldMeshVisibleCount": 0,
+      "countryPatchPresentation": null,
+      "geometryRenderTaskToken": 1,
+      "patchWorkerJobs": {
+        "submitted": 0,
+        "started": 0,
+        "completed": 0,
+        "failed": 0,
+        "cancelled": 0,
+        "coalesced": 0,
+        "staleDiscarded": 0,
+        "maxQueueDepth": 0,
+        "lastLatencyMs": 0,
+        "queueDepth": 0,
+        "runningCount": 0,
+        "activeKeys": [],
+        "queuedKeys": [],
+        "latencyP95Ms": 0,
+        "latencyP99Ms": 0
+      },
+      "patchWorkerOutputBytes": 0,
+      "lastMeshPreparation": {
+        "featureCount": 2,
+        "builtCount": 2,
+        "reusedCount": 0,
+        "hashMs": 0.29999999701976776,
+        "triangulationMs": 31.899999998509884,
+        "assemblyMs": 1.3999999985098839,
+        "slowestFeature": {
+          "id": "shell-country-a",
+          "ms": 28.700000002980232
+        },
+        "cacheBytes": 15932,
+        "strokeMs": 1,
+        "spatialMs": 7.899999998509884,
+        "totalMs": 73.79999999701977
+      },
+      "lastGeometryCommitTimings": null,
+      "canvasWorkerBusy": false,
+      "canvasStyleRevision": 0,
+      "canvasDisplayedStyleRevision": 0,
+      "canvasWorkerHasPendingFrame": false,
+      "webglContextLost": false,
+      "webGlVersion": 2,
+      "forcedRenderer": null,
+      "fallbackReason": "",
+      "hydroFeaturesLoaded": 0,
+      "hydroDescriptorPackCount": 0,
+      "hydroDescriptorLogicalCount": 0,
+      "hydroDescriptorFidCount": 0,
+      "interactionActive": false,
+      "paletteDirty": {
+        "base": false,
+        "emphasis": false
+      },
+      "paletteRebuildCount": 2,
+      "paletteUploadCount": 4,
+      "paletteUploadBytes": 48,
+      "uniformCacheHits": 23,
+      "uniformCacheMisses": 93,
+      "attributeCacheHits": 1,
+      "attributeCacheMisses": 34,
+      "frameContextBuildCount": 0,
+      "visualFrameConsumeCount": 6,
+      "hydroViewRequestCount": 0,
+      "hydroTileWindowCacheHitCount": 0,
+      "hydroTileWindowRecomputeCount": 0,
+      "hydroUploadBytes": 0,
+      "terrainIncompleteFrameCount": 0,
+      "canvasWorkerMessageCount": 0,
+      "canvasWorkerMessageBytes": 0,
+      "canvasWorkerViewMessageCount": 0,
+      "canvasWorkerStaleFrameCount": 0,
+      "canvasWorkerStateMessageCount": 0,
+      "canvasWorkerMessagesByType": {},
+      "baseSceneDrawCount": 1,
+      "interactionFrameCount": 6,
+      "selectionOnlyFrameCount": 1,
+      "selectionOnlyGeometryUploadBytes": 0,
+      "countryInteractionIndexCount": 0,
+      "countryInteractionRangeCount": 0,
+      "countryInteractionFullIndexCount": 2304,
+      "countryBaseIndexCount": 2304,
+      "countryBaseFullIndexCount": 2304,
+      "countryBaseRangeCount": 1,
+      "countryBoundaryIndexCount": 192,
+      "countryBoundaryFullIndexCount": 192,
+      "countryVisibleCount": 2,
+      "countryCullingFallbackCount": 5,
+      "countryStateCompositeCount": 0,
+      "countryStateCompositeMs": 0,
+      "countryPatchUploadBytes": 0,
+      "lastCountryPatchUploadBytes": 0,
+      "countryPatchSceneHoldCount": 0,
+      "paletteChangedCountryCount": 2,
+      "paletteUploadRangeCount": 0,
+      "paletteFullRebuildCount": 1,
+      "paletteSkippedUnchangedCount": 2,
+      "overlayUploadBytes": 0,
+      "lastOverlayUploadBytes": 0,
+      "overlayDeferredItemCount": 0,
+      "uploadBudgetOverrunCount": 0,
+      "shaderInitializationMs": 183.50000000745058,
+      "hydroTileWindowSignature": "",
+      "hydroPacksLoaded": 0,
+      "hydroFeaturePendingCount": 0,
+      "hydroLogicalQueryPendingCount": 0,
+      "hydroPacksActive": 0,
+      "hydroEditRevision": 0,
+      "hydroEditBatchCount": 0,
+      "hydroCacheBytes": 0
+    },
+    "network": {
+      "requests": [
+        {
+          "url": "http://127.0.0.1:65197/shell/stage-profile.json",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/shell/fixture-countries.json",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/data/physical-land/v1/geometry.json.gz",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/shell/fixture-world.json",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/shell/transport/countries-sha256-49acedc28896c307802fd120f6fcfbbfb038666d82d8aca8dd84a91e0ebc49be.bin",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a7eb0ab1e83a55ee227b4a085efc50ad/assets/js/workers/map-edit-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        }
+      ],
+      "blocked": [],
+      "workers": [
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "module",
+          "name": ""
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-country-shared-boundary"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-overlay-mesh"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a7eb0ab1e83a55ee227b4a085efc50ad/assets/js/workers/map-edit-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-map-edit"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-overlay-mesh"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-gpu-mesh"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-label-anchors"
+        },
+        {
+          "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-overlay-mesh"
+        }
+      ]
+    },
+    "entities": [
+      "shell-country-a",
+      "shell-country-b",
+      "shell-child-a"
+    ]
+  },
+  "commands": {
+    "report": {
+      "schema": "pandolab-web-shell-diagnostics",
+      "version": 1,
+      "phase": "write",
+      "at": "2026-10-24T07:18:32.477Z",
+      "ok": false,
+      "checks": {
+        "webgl": {
+          "status": "PASS",
+          "evidence": {
+            "renderer": "webgl2",
+            "contexts": 1,
+            "triangleCount": 768,
+            "countryBaseIndexCount": 2304,
+            "sceneCacheFullDrawCount": 3
+          }
+        },
+        "worker": {
+          "status": "PASS",
+          "evidence": {
+            "transport": "production core-session-worker.js",
+            "epoch": 4,
+            "workers": [
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "module",
+                "name": ""
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-country-shared-boundary"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-overlay-mesh"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/a7eb0ab1e83a55ee227b4a085efc50ad/assets/js/workers/map-edit-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-map-edit"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-overlay-mesh"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-gpu-mesh"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-label-anchors"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-overlay-mesh"
+              },
+              {
+                "url": "http://127.0.0.1:65197/assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/workers/gis-gpkg-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+                "type": "classic",
+                "name": "pandolab-gpkg"
+              }
+            ]
+          }
+        },
+        "wasm": {
+          "status": "PASS",
+          "evidence": {
+            "initialEpoch": 4,
+            "acknowledgedEpoch": 7,
+            "command": "territorial.metadata",
+            "undo": true,
+            "redo": true,
+            "wasm": "verified production Core loader in the persistent Core Worker"
+          }
+        },
+        "autosave": {
+          "status": "PASS",
+          "evidence": {
+            "database": "pandoeditor-web-shell-prototype-v1",
+            "store": "projects",
+            "key": "active-project",
+            "format": "pandolab-autosave-full",
+            "acceptedName": "시험 국가 A · 저장 검증"
+          }
+        },
+        "nativeFile": {
+          "status": "FAIL",
+          "evidence": {
+            "name": "Error",
+            "code": "",
+            "message": "Native shell bridge is unavailable; browser execution cannot pass native checks."
+          }
+        },
+        "filePickerSave": {
+          "status": "NOT_RUN"
+        },
+        "filePickerOpen": {
+          "status": "NOT_RUN"
+        },
+        "network": {
+          "status": "NOT_RUN"
+        }
+      },
+      "coreState": {
+        "epoch": 7,
+        "stateRevision": 1,
+        "revision": 4,
+        "checkpoint": 1,
+        "undoCommandId": "territorial.field",
+        "redoCommandId": "",
+        "dirty": true,
+        "canUndo": true,
+        "canRedo": false,
+        "timelineCursor": "2026-10",
+        "presentationRevision": 5,
+        "presentationCheckpoint": 0,
+        "dirtyTerritorialIds": [
+          "shell-country-a"
+        ],
+        "documentDirty": true,
+        "presentationDirty": false,
+        "timelineEditsEnabled": false,
+        "storageBaselineId": 1
+      },
+      "renderer": {
+        "mapReadiness": {
+          "status": "ready",
+          "label": "현재 화면 준비 완료 · 상세 표시",
+          "retry": false
+        },
+        "screenScale": 770.0552766558266,
+        "scaleBand": "high",
+        "previewAdmission": "startup-only-unverified",
+        "renderer": "webgl2",
+        "mapHost": "legacy",
+        "assetRevision": "0.36.0-build-merge-f9e653a9-010fb6b0",
+        "dataRevision": "data-f90bdb599ba09323f05688344496b238",
+        "dataCacheName": "pandolab-world-content-v1",
+        "projectGeneration": 0,
+        "terrainRepresentation": null,
+        "terrainDatasetVersion": "0.13.3-p1",
+        "terrainSource": "raster",
+        "terrainFallbackReason": null,
+        "terrainDetailedShade": false,
+        "projectRenderBlocked": false,
+        "activeWebGlContextCount": 1,
+        "renderSceneRevision": 0,
+        "sceneCacheValid": true,
+        "sceneCache": {
+          "valid": true,
+          "dirty": false,
+          "activeViewSignature": "1:flat:512,347:770.0552766558266::0,8:1024:720",
+          "stagingViewSignature": "1:flat:512,347:770.0552766558266::0,8:1024:720",
+          "activeProjectGeneration": 0,
+          "stagingProjectGeneration": 0,
+          "state": "valid",
+          "disabled": false,
+          "width": 1024,
+          "height": 720,
+          "generation": 24,
+          "hitCount": 13,
+          "missCount": 12,
+          "compositeCount": 13,
+          "compositeMs": 0.5000000074505806,
+          "recreateCount": 2,
+          "failureCount": 0,
+          "lastFailureReason": "",
+          "lastInvalidationReason": "builtin-subunit-presentation"
+        },
+        "sceneCacheFullDrawCount": 7,
+        "sceneCacheInteractionDrawCount": 18,
+        "sceneCacheReprojectCount": 0,
+        "selectionOnlyBaseDrawCount": 1,
+        "sceneCacheFallbackFrame": false,
+        "canonicalFrameFallbackCount": 5,
+        "firstCanonicalFrameMs": 1265.5999999940395,
+        "polygonOverlay": {
+          "resourceCount": 0,
+          "uploadBytes": 0,
+          "buildCount": 0,
+          "buildMs": 0,
+          "drawCount": 0,
+          "drawCallCount": 0,
+          "drawMs": 0,
+          "cacheHits": 0,
+          "cacheMisses": 0,
+          "failureCount": 0,
+          "lastFailureStage": "",
+          "contextLost": false,
+          "activeBufferBytes": 0,
+          "resourceBudget": {
+            "byteBudget": 124822487,
+            "activeBytes": 0,
+            "entryCount": 0,
+            "activeKeyCount": 0,
+            "protectedKeyCount": 2,
+            "evictionCount": 0,
+            "evictedBytes": 0,
+            "blockedEvictionCount": 0,
+            "overBudgetBytes": 0
+          }
+        },
+        "stroke": {
+          "resourceCount": 4,
+          "uploadBytes": 15168,
+          "buildCount": 4,
+          "buildMs": 0,
+          "drawCount": 7,
+          "drawCallCount": 65,
+          "drawMs": 24.299999989569187,
+          "cacheHits": 27,
+          "cacheMisses": 0,
+          "failureCount": 0,
+          "lastFailureStage": "",
+          "contextLost": false,
+          "gpuHealth": "healthy",
+          "selfTestPassed": true,
+          "selfTestCount": 1,
+          "selfTestMs": 3.5999999940395355,
+          "selfTestFailureReason": "",
+          "analyticAa": true,
+          "aaRadiusPx": 1,
+          "connectedTopology": true,
+          "topologyJoinCount": 0,
+          "topologyCapCount": 0,
+          "topologyClosedChainCount": 0,
+          "topologyInvalidSegmentCount": 0,
+          "activeBufferBytes": 15168,
+          "resourceBudget": {
+            "byteBudget": 76504104,
+            "activeBytes": 15168,
+            "entryCount": 4,
+            "activeKeyCount": 3,
+            "protectedKeyCount": 2,
+            "evictionCount": 0,
+            "evictedBytes": 0,
+            "blockedEvictionCount": 0,
+            "overBudgetBytes": 0
+          }
+        },
+        "selection": {
+          "packetRevision": 0,
+          "countryBoundaryRevision": "canonical:0:0:192:0:::8",
+          "viewDrawCount": 18,
+          "viewOnlyBufferRebuildCount": 0,
+          "drawMs": 0.3999999985098839,
+          "lastDrawMs": 0,
+          "renderFailureCount": 3,
+          "contextLost": false,
+          "contextLossCount": 0,
+          "contextRestoreCount": 0,
+          "bufferBuildCount": 0,
+          "bufferBuildMs": 0,
+          "bufferUploadBytes": 0,
+          "geometryCacheHits": 0,
+          "geometryCacheMisses": 0,
+          "countryBatchCount": 0,
+          "genericBatchCount": 0,
+          "strokeDrawCallCount": 0,
+          "gpuHealth": "healthy",
+          "selfTestPassed": true,
+          "selfTestCount": 1,
+          "selfTestMs": 3.5999999940395355,
+          "selfTestFailureReason": "",
+          "renderSucceeded": true,
+          "channels": {
+            "candidate": {
+              "rebuildCount": 1,
+              "rebuildMs": 0,
+              "uploadBytes": 0,
+              "activeBytes": 0,
+              "buildFailed": false,
+              "drawSucceeded": true
+            },
+            "hover": {
+              "rebuildCount": 1,
+              "rebuildMs": 0,
+              "uploadBytes": 0,
+              "activeBytes": 0,
+              "buildFailed": false,
+              "drawSucceeded": true
+            },
+            "secondary": {
+              "rebuildCount": 1,
+              "rebuildMs": 0,
+              "uploadBytes": 0,
+              "activeBytes": 0,
+              "buildFailed": false,
+              "drawSucceeded": true
+            },
+            "primary": {
+              "rebuildCount": 1,
+              "rebuildMs": 0,
+              "uploadBytes": 0,
+              "activeBytes": 0,
+              "buildFailed": false,
+              "drawSucceeded": true
+            }
+          },
+          "segmentCount": 0,
+          "activeBufferBytes": 0,
+          "stagingBufferBytes": 0,
+          "drawCoverage": {
+            "candidate": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            },
+            "hover": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            },
+            "secondary": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            },
+            "primary": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            }
+          }
+        },
+        "lastSelectionRenderResult": {
+          "succeeded": true,
+          "contextLost": false,
+          "selfTestPassed": true,
+          "gpuHealth": "healthy",
+          "channels": {
+            "candidate": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            },
+            "hover": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            },
+            "secondary": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            },
+            "primary": {
+              "buildSucceeded": true,
+              "drawSucceeded": true,
+              "renderedKeys": [],
+              "missingKeys": []
+            }
+          }
+        },
+        "effectivePixelRatio": 1,
+        "devicePixelRatio": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "canonicalMeshReady": true,
+        "availableMeshQualities": [
+          "canonical"
+        ],
+        "meshVariantBytes": {
+          "canonical": 13556
+        },
+        "meshRestorePending": false,
+        "qualityPhase": "canonical-ready",
+        "previewAllowed": false,
+        "previewActivationCount": 0,
+        "desiredCountryMeshQuality": "canonical",
+        "countryFocusPending": false,
+        "previewActivationAfterCanonical": 0,
+        "canonicalPromotionCount": 1,
+        "canonicalPromotionError": "",
+        "canonicalReadyFrameId": 2,
+        "meshSwitchCount": 1,
+        "renderQualityChangeCount": 1,
+        "renderQuality": {
+          "tier": "high",
+          "phase": "settle",
+          "revision": 1,
+          "countryMeshQuality": "canonical",
+          "dprCap": 3,
+          "terrainResolutionScale": 1,
+          "terrainCacheBudgetBytes": 134217728,
+          "hydroCacheBudgetBytes": 100663296,
+          "overlayGpuBudgetBytes": 201326592,
+          "uploadBudgetBytes": 8388608,
+          "activeEditLod": "high",
+          "selectedLod": "high",
+          "backgroundLod": "high",
+          "renderPacketCacheBudgetBytes": 201326592,
+          "interactionUploadBudgetBytes": 786432,
+          "settleUploadBudgetBytes": 8388608,
+          "targetFrameMs": 20,
+          "p95FrameMs": 0,
+          "p99FrameMs": 0,
+          "longFrameCount": 0,
+          "reason": "device-hints"
+        },
+        "countries": 2,
+        "renderVertices": 434,
+        "triangleCount": 768,
+        "lineSegmentCount": 96,
+        "countryBoundaryMode": "outline",
+        "countrySharedBoundarySegmentCount": 40,
+        "countrySharedBoundaryReady": true,
+        "countrySharedBoundaryReplacementPending": false,
+        "countryInternalBoundarySegmentCount": 24,
+        "countryInternalBoundaryVisibleOwnerIds": [
+          "territorial:entity:shell-child-a"
+        ],
+        "countrySharedBoundaryWorkerActive": true,
+        "countrySharedBoundaryRequestId": 5,
+        "countrySharedBoundaryLastMessage": "prepared:5:canonical:0:0",
+        "p95CpuSubmitMs": 14,
+        "p99CpuSubmitMs": 14,
+        "pickCount": 0,
+        "pickReadPixelsMs": 0,
+        "pickLastReadPixelsMs": 0,
+        "pickSceneRenderCount": 0,
+        "countryEmphasisRevision": 1,
+        "interactionFillCoverage": {
+          "succeeded": true,
+          "renderedKeys": [],
+          "missingKeys": []
+        },
+        "interactionFillItems": [],
+        "countryEmphasis": {
+          "primaryId": "",
+          "primaryIds": [],
+          "priorities": {},
+          "hoverId": "",
+          "selectedIds": [],
+          "boundaryEnabled": false,
+          "primaryBoundaryColor": "#316fd3",
+          "secondaryBoundaryColor": "#316fd3"
+        },
+        "interactionStyle": {
+          "theme": "light",
+          "antiAlias": true,
+          "hover": {
+            "color": "#316fd3",
+            "width": 1.5,
+            "alpha": 0.85,
+            "fillAlpha": 0.027999999999999997
+          },
+          "selection": {
+            "color": "#316fd3",
+            "outlineVisible": true,
+            "fillStrength": 0.35,
+            "primary": {
+              "innerWidth": 2.5,
+              "innerAlpha": 1,
+              "fillAlpha": 0.08399999999999999
+            },
+            "secondary": {
+              "innerWidth": 1.5,
+              "innerAlpha": 0.72,
+              "fillAlpha": 0.049
+            }
+          },
+          "drawOrder": [
+            "candidate",
+            "hover",
+            "secondary-inner",
+            "primary-inner"
+          ]
+        },
+        "boundaryOwner": "interaction-overlay",
+        "visualPassOrder": [
+          "substrate",
+          "terrain",
+          "country-fill",
+          "territorial-fill",
+          "lake",
+          "lake-boundary",
+          "river",
+          "border-river",
+          "country-boundary",
+          "independent-overlay",
+          "candidate",
+          "hover",
+          "secondary",
+          "primary",
+          "edit-preview",
+          "validation",
+          "edit-handles",
+          "draft",
+          "snap",
+          "territorial-labels",
+          "labels"
+        ],
+        "emphasizedCountryCount": 0,
+        "viewportCss": [
+          1024,
+          720
+        ],
+        "canvasBackingPixels": [
+          1024,
+          720
+        ],
+        "layoutMismatchCssPx": 0,
+        "requestedRevision": 3,
+        "displayedRevision": 3,
+        "committedGeometryRevision": 0,
+        "displayedGeometryRevision": 0,
+        "pendingCountryCount": 0,
+        "pendingOldMeshVisibleCount": 0,
+        "countryPatchPresentation": null,
+        "geometryRenderTaskToken": 1,
+        "patchWorkerJobs": {
+          "submitted": 0,
+          "started": 0,
+          "completed": 0,
+          "failed": 0,
+          "cancelled": 0,
+          "coalesced": 0,
+          "staleDiscarded": 0,
+          "maxQueueDepth": 0,
+          "lastLatencyMs": 0,
+          "queueDepth": 0,
+          "runningCount": 0,
+          "activeKeys": [],
+          "queuedKeys": [],
+          "latencyP95Ms": 0,
+          "latencyP99Ms": 0
+        },
+        "patchWorkerOutputBytes": 0,
+        "lastMeshPreparation": {
+          "featureCount": 2,
+          "builtCount": 2,
+          "reusedCount": 0,
+          "hashMs": 0.29999999701976776,
+          "triangulationMs": 31.899999998509884,
+          "assemblyMs": 1.3999999985098839,
+          "slowestFeature": {
+            "id": "shell-country-a",
+            "ms": 28.700000002980232
+          },
+          "cacheBytes": 15932,
+          "strokeMs": 1,
+          "spatialMs": 7.899999998509884,
+          "totalMs": 73.79999999701977
+        },
+        "lastGeometryCommitTimings": null,
+        "canvasWorkerBusy": false,
+        "canvasStyleRevision": 0,
+        "canvasDisplayedStyleRevision": 0,
+        "canvasWorkerHasPendingFrame": false,
+        "webglContextLost": false,
+        "webGlVersion": 2,
+        "forcedRenderer": null,
+        "fallbackReason": "",
+        "hydroFeaturesLoaded": 0,
+        "hydroDescriptorPackCount": 0,
+        "hydroDescriptorLogicalCount": 0,
+        "hydroDescriptorFidCount": 0,
+        "interactionActive": false,
+        "paletteDirty": {
+          "base": false,
+          "emphasis": false
+        },
+        "paletteRebuildCount": 6,
+        "paletteUploadCount": 12,
+        "paletteUploadBytes": 144,
+        "uniformCacheHits": 161,
+        "uniformCacheMisses": 93,
+        "attributeCacheHits": 7,
+        "attributeCacheMisses": 34,
+        "frameContextBuildCount": 0,
+        "visualFrameConsumeCount": 18,
+        "hydroViewRequestCount": 0,
+        "hydroTileWindowCacheHitCount": 0,
+        "hydroTileWindowRecomputeCount": 0,
+        "hydroUploadBytes": 0,
+        "terrainIncompleteFrameCount": 0,
+        "canvasWorkerMessageCount": 0,
+        "canvasWorkerMessageBytes": 0,
+        "canvasWorkerViewMessageCount": 0,
+        "canvasWorkerStaleFrameCount": 0,
+        "canvasWorkerStateMessageCount": 0,
+        "canvasWorkerMessagesByType": {},
+        "baseSceneDrawCount": 7,
+        "interactionFrameCount": 18,
+        "selectionOnlyFrameCount": 5,
+        "selectionOnlyGeometryUploadBytes": 0,
+        "countryInteractionIndexCount": 0,
+        "countryInteractionRangeCount": 0,
+        "countryInteractionFullIndexCount": 2304,
+        "countryBaseIndexCount": 2304,
+        "countryBaseFullIndexCount": 2304,
+        "countryBaseRangeCount": 1,
+        "countryBoundaryIndexCount": 192,
+        "countryBoundaryFullIndexCount": 192,
+        "countryVisibleCount": 2,
+        "countryCullingFallbackCount": 5,
+        "countryStateCompositeCount": 0,
+        "countryStateCompositeMs": 0,
+        "countryPatchUploadBytes": 0,
+        "lastCountryPatchUploadBytes": 0,
+        "countryPatchSceneHoldCount": 0,
+        "paletteChangedCountryCount": 6,
+        "paletteUploadRangeCount": 0,
+        "paletteFullRebuildCount": 3,
+        "paletteSkippedUnchangedCount": 6,
+        "overlayUploadBytes": 0,
+        "lastOverlayUploadBytes": 0,
+        "overlayDeferredItemCount": 0,
+        "uploadBudgetOverrunCount": 0,
+        "shaderInitializationMs": 183.50000000745058,
+        "hydroTileWindowSignature": "",
+        "hydroPacksLoaded": 0,
+        "hydroFeaturePendingCount": 0,
+        "hydroLogicalQueryPendingCount": 0,
+        "hydroPacksActive": 0,
+        "hydroEditRevision": 1,
+        "hydroEditBatchCount": 0,
+        "hydroCacheBytes": 0
+      },
+      "network": {
+        "requests": [
+          {
+            "url": "http://127.0.0.1:65197/shell/stage-profile.json",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/shell/fixture-countries.json",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/data/physical-land/v1/geometry.json.gz",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/shell/fixture-world.json",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/shell/transport/countries-sha256-49acedc28896c307802fd120f6fcfbbfb038666d82d8aca8dd84a91e0ebc49be.bin",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a7eb0ab1e83a55ee227b4a085efc50ad/assets/js/workers/map-edit-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.manifest.json",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+            "context": "worker"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/workers/gis-gpkg-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "context": "window"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/js/vendor/sql/sql-wasm.wasm",
+            "context": "worker"
+          }
+        ],
+        "blocked": [],
+        "workers": [
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "module",
+            "name": ""
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-country-shared-boundary"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-overlay-mesh"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a7eb0ab1e83a55ee227b4a085efc50ad/assets/js/workers/map-edit-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-map-edit"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-overlay-mesh"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-gpu-mesh"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-label-anchors"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-overlay-mesh"
+          },
+          {
+            "url": "http://127.0.0.1:65197/assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/workers/gis-gpkg-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+            "type": "classic",
+            "name": "pandolab-gpkg"
+          }
+        ]
+      },
+      "comparison": {
+        "omittedSnapshotFields": [
+          "savedAt"
+        ],
+        "reason": "Core export timestamp; all document content and geometry are compared."
+      },
+      "error": {
+        "name": "Error",
+        "code": "",
+        "message": "Native shell bridge is unavailable; browser execution cannot pass native checks."
+      }
+    },
+    "checks": {
+      "webgl": {
+        "status": "PASS",
+        "evidence": {
+          "renderer": "webgl2",
+          "contexts": 1,
+          "triangleCount": 768,
+          "countryBaseIndexCount": 2304,
+          "sceneCacheFullDrawCount": 3
+        }
+      },
+      "worker": {
+        "status": "PASS",
+        "evidence": {
+          "transport": "production core-session-worker.js",
+          "epoch": 4,
+          "workers": [
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "module",
+              "name": ""
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-country-shared-boundary"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-overlay-mesh"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/a7eb0ab1e83a55ee227b4a085efc50ad/assets/js/workers/map-edit-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-map-edit"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-overlay-mesh"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-gpu-mesh"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-label-anchors"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-overlay-mesh"
+            },
+            {
+              "url": "http://127.0.0.1:65197/assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/workers/gis-gpkg-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+              "type": "classic",
+              "name": "pandolab-gpkg"
+            }
+          ]
+        }
+      },
+      "wasm": {
+        "status": "PASS",
+        "evidence": {
+          "initialEpoch": 4,
+          "acknowledgedEpoch": 7,
+          "command": "territorial.metadata",
+          "undo": true,
+          "redo": true,
+          "wasm": "verified production Core loader in the persistent Core Worker"
+        }
+      },
+      "autosave": {
+        "status": "PASS",
+        "evidence": {
+          "database": "pandoeditor-web-shell-prototype-v1",
+          "store": "projects",
+          "key": "active-project",
+          "format": "pandolab-autosave-full",
+          "acceptedName": "시험 국가 A · 저장 검증"
+        }
+      },
+      "nativeFile": {
+        "status": "FAIL",
+        "evidence": {
+          "name": "Error",
+          "code": "",
+          "message": "Native shell bridge is unavailable; browser execution cannot pass native checks."
+        }
+      },
+      "filePickerSave": {
+        "status": "NOT_RUN"
+      },
+      "filePickerOpen": {
+        "status": "NOT_RUN"
+      },
+      "network": {
+        "status": "NOT_RUN"
+      }
+    },
+    "renderer": {
+      "mapReadiness": {
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 상세 표시",
+        "retry": false
+      },
+      "screenScale": 770.0552766558266,
+      "scaleBand": "high",
+      "previewAdmission": "startup-only-unverified",
+      "renderer": "webgl2",
+      "mapHost": "legacy",
+      "assetRevision": "0.36.0-build-merge-f9e653a9-010fb6b0",
+      "dataRevision": "data-f90bdb599ba09323f05688344496b238",
+      "dataCacheName": "pandolab-world-content-v1",
+      "projectGeneration": 0,
+      "terrainRepresentation": null,
+      "terrainDatasetVersion": "0.13.3-p1",
+      "terrainSource": "raster",
+      "terrainFallbackReason": null,
+      "terrainDetailedShade": false,
+      "projectRenderBlocked": false,
+      "activeWebGlContextCount": 1,
+      "renderSceneRevision": 0,
+      "sceneCacheValid": true,
+      "sceneCache": {
+        "valid": true,
+        "dirty": false,
+        "activeViewSignature": "1:flat:512,347:770.0552766558266::0,8:1024:720",
+        "stagingViewSignature": "1:flat:512,347:770.0552766558266::0,8:1024:720",
+        "activeProjectGeneration": 0,
+        "stagingProjectGeneration": 0,
+        "state": "valid",
+        "disabled": false,
+        "width": 1024,
+        "height": 720,
+        "generation": 24,
+        "hitCount": 13,
+        "missCount": 12,
+        "compositeCount": 13,
+        "compositeMs": 0.5000000074505806,
+        "recreateCount": 2,
+        "failureCount": 0,
+        "lastFailureReason": "",
+        "lastInvalidationReason": "builtin-subunit-presentation"
+      },
+      "sceneCacheFullDrawCount": 7,
+      "sceneCacheInteractionDrawCount": 18,
+      "sceneCacheReprojectCount": 0,
+      "selectionOnlyBaseDrawCount": 1,
+      "sceneCacheFallbackFrame": false,
+      "canonicalFrameFallbackCount": 5,
+      "firstCanonicalFrameMs": 1265.5999999940395,
+      "polygonOverlay": {
+        "resourceCount": 0,
+        "uploadBytes": 0,
+        "buildCount": 0,
+        "buildMs": 0,
+        "drawCount": 0,
+        "drawCallCount": 0,
+        "drawMs": 0,
+        "cacheHits": 0,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "activeBufferBytes": 0,
+        "resourceBudget": {
+          "byteBudget": 124822487,
+          "activeBytes": 0,
+          "entryCount": 0,
+          "activeKeyCount": 0,
+          "protectedKeyCount": 2,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "stroke": {
+        "resourceCount": 4,
+        "uploadBytes": 15168,
+        "buildCount": 4,
+        "buildMs": 0,
+        "drawCount": 7,
+        "drawCallCount": 65,
+        "drawMs": 24.299999989569187,
+        "cacheHits": 27,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 3.5999999940395355,
+        "selfTestFailureReason": "",
+        "analyticAa": true,
+        "aaRadiusPx": 1,
+        "connectedTopology": true,
+        "topologyJoinCount": 0,
+        "topologyCapCount": 0,
+        "topologyClosedChainCount": 0,
+        "topologyInvalidSegmentCount": 0,
+        "activeBufferBytes": 15168,
+        "resourceBudget": {
+          "byteBudget": 76504104,
+          "activeBytes": 15168,
+          "entryCount": 4,
+          "activeKeyCount": 3,
+          "protectedKeyCount": 2,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "selection": {
+        "packetRevision": 0,
+        "countryBoundaryRevision": "canonical:0:0:192:0:::8",
+        "viewDrawCount": 18,
+        "viewOnlyBufferRebuildCount": 0,
+        "drawMs": 0.3999999985098839,
+        "lastDrawMs": 0,
+        "renderFailureCount": 3,
+        "contextLost": false,
+        "contextLossCount": 0,
+        "contextRestoreCount": 0,
+        "bufferBuildCount": 0,
+        "bufferBuildMs": 0,
+        "bufferUploadBytes": 0,
+        "geometryCacheHits": 0,
+        "geometryCacheMisses": 0,
+        "countryBatchCount": 0,
+        "genericBatchCount": 0,
+        "strokeDrawCallCount": 0,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 3.5999999940395355,
+        "selfTestFailureReason": "",
+        "renderSucceeded": true,
+        "channels": {
+          "candidate": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "hover": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "secondary": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "primary": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          }
+        },
+        "segmentCount": 0,
+        "activeBufferBytes": 0,
+        "stagingBufferBytes": 0,
+        "drawCoverage": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "lastSelectionRenderResult": {
+        "succeeded": true,
+        "contextLost": false,
+        "selfTestPassed": true,
+        "gpuHealth": "healthy",
+        "channels": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "effectivePixelRatio": 1,
+      "devicePixelRatio": 1,
+      "meshQuality": "canonical",
+      "activeMeshQuality": "canonical",
+      "canonicalMeshReady": true,
+      "availableMeshQualities": [
+        "canonical"
+      ],
+      "meshVariantBytes": {
+        "canonical": 13556
+      },
+      "meshRestorePending": false,
+      "qualityPhase": "canonical-ready",
+      "previewAllowed": false,
+      "previewActivationCount": 0,
+      "desiredCountryMeshQuality": "canonical",
+      "countryFocusPending": false,
+      "previewActivationAfterCanonical": 0,
+      "canonicalPromotionCount": 1,
+      "canonicalPromotionError": "",
+      "canonicalReadyFrameId": 2,
+      "meshSwitchCount": 1,
+      "renderQualityChangeCount": 1,
+      "renderQuality": {
+        "tier": "high",
+        "phase": "settle",
+        "revision": 1,
+        "countryMeshQuality": "canonical",
+        "dprCap": 3,
+        "terrainResolutionScale": 1,
+        "terrainCacheBudgetBytes": 134217728,
+        "hydroCacheBudgetBytes": 100663296,
+        "overlayGpuBudgetBytes": 201326592,
+        "uploadBudgetBytes": 8388608,
+        "activeEditLod": "high",
+        "selectedLod": "high",
+        "backgroundLod": "high",
+        "renderPacketCacheBudgetBytes": 201326592,
+        "interactionUploadBudgetBytes": 786432,
+        "settleUploadBudgetBytes": 8388608,
+        "targetFrameMs": 20,
+        "p95FrameMs": 0,
+        "p99FrameMs": 0,
+        "longFrameCount": 0,
+        "reason": "device-hints"
+      },
+      "countries": 2,
+      "renderVertices": 434,
+      "triangleCount": 768,
+      "lineSegmentCount": 96,
+      "countryBoundaryMode": "outline",
+      "countrySharedBoundarySegmentCount": 40,
+      "countrySharedBoundaryReady": true,
+      "countrySharedBoundaryReplacementPending": false,
+      "countryInternalBoundarySegmentCount": 24,
+      "countryInternalBoundaryVisibleOwnerIds": [
+        "territorial:entity:shell-child-a"
+      ],
+      "countrySharedBoundaryWorkerActive": true,
+      "countrySharedBoundaryRequestId": 5,
+      "countrySharedBoundaryLastMessage": "prepared:5:canonical:0:0",
+      "p95CpuSubmitMs": 14,
+      "p99CpuSubmitMs": 14,
+      "pickCount": 0,
+      "pickReadPixelsMs": 0,
+      "pickLastReadPixelsMs": 0,
+      "pickSceneRenderCount": 0,
+      "countryEmphasisRevision": 1,
+      "interactionFillCoverage": {
+        "succeeded": true,
+        "renderedKeys": [],
+        "missingKeys": []
+      },
+      "interactionFillItems": [],
+      "countryEmphasis": {
+        "primaryId": "",
+        "primaryIds": [],
+        "priorities": {},
+        "hoverId": "",
+        "selectedIds": [],
+        "boundaryEnabled": false,
+        "primaryBoundaryColor": "#316fd3",
+        "secondaryBoundaryColor": "#316fd3"
+      },
+      "interactionStyle": {
+        "theme": "light",
+        "antiAlias": true,
+        "hover": {
+          "color": "#316fd3",
+          "width": 1.5,
+          "alpha": 0.85,
+          "fillAlpha": 0.027999999999999997
+        },
+        "selection": {
+          "color": "#316fd3",
+          "outlineVisible": true,
+          "fillStrength": 0.35,
+          "primary": {
+            "innerWidth": 2.5,
+            "innerAlpha": 1,
+            "fillAlpha": 0.08399999999999999
+          },
+          "secondary": {
+            "innerWidth": 1.5,
+            "innerAlpha": 0.72,
+            "fillAlpha": 0.049
+          }
+        },
+        "drawOrder": [
+          "candidate",
+          "hover",
+          "secondary-inner",
+          "primary-inner"
+        ]
+      },
+      "boundaryOwner": "interaction-overlay",
+      "visualPassOrder": [
+        "substrate",
+        "terrain",
+        "country-fill",
+        "territorial-fill",
+        "lake",
+        "lake-boundary",
+        "river",
+        "border-river",
+        "country-boundary",
+        "independent-overlay",
+        "candidate",
+        "hover",
+        "secondary",
+        "primary",
+        "edit-preview",
+        "validation",
+        "edit-handles",
+        "draft",
+        "snap",
+        "territorial-labels",
+        "labels"
+      ],
+      "emphasizedCountryCount": 0,
+      "viewportCss": [
+        1024,
+        720
+      ],
+      "canvasBackingPixels": [
+        1024,
+        720
+      ],
+      "layoutMismatchCssPx": 0,
+      "requestedRevision": 3,
+      "displayedRevision": 3,
+      "committedGeometryRevision": 0,
+      "displayedGeometryRevision": 0,
+      "pendingCountryCount": 0,
+      "pendingOldMeshVisibleCount": 0,
+      "countryPatchPresentation": null,
+      "geometryRenderTaskToken": 1,
+      "patchWorkerJobs": {
+        "submitted": 0,
+        "started": 0,
+        "completed": 0,
+        "failed": 0,
+        "cancelled": 0,
+        "coalesced": 0,
+        "staleDiscarded": 0,
+        "maxQueueDepth": 0,
+        "lastLatencyMs": 0,
+        "queueDepth": 0,
+        "runningCount": 0,
+        "activeKeys": [],
+        "queuedKeys": [],
+        "latencyP95Ms": 0,
+        "latencyP99Ms": 0
+      },
+      "patchWorkerOutputBytes": 0,
+      "lastMeshPreparation": {
+        "featureCount": 2,
+        "builtCount": 2,
+        "reusedCount": 0,
+        "hashMs": 0.29999999701976776,
+        "triangulationMs": 31.899999998509884,
+        "assemblyMs": 1.3999999985098839,
+        "slowestFeature": {
+          "id": "shell-country-a",
+          "ms": 28.700000002980232
+        },
+        "cacheBytes": 15932,
+        "strokeMs": 1,
+        "spatialMs": 7.899999998509884,
+        "totalMs": 73.79999999701977
+      },
+      "lastGeometryCommitTimings": null,
+      "canvasWorkerBusy": false,
+      "canvasStyleRevision": 0,
+      "canvasDisplayedStyleRevision": 0,
+      "canvasWorkerHasPendingFrame": false,
+      "webglContextLost": false,
+      "webGlVersion": 2,
+      "forcedRenderer": null,
+      "fallbackReason": "",
+      "hydroFeaturesLoaded": 0,
+      "hydroDescriptorPackCount": 0,
+      "hydroDescriptorLogicalCount": 0,
+      "hydroDescriptorFidCount": 0,
+      "interactionActive": false,
+      "paletteDirty": {
+        "base": false,
+        "emphasis": false
+      },
+      "paletteRebuildCount": 6,
+      "paletteUploadCount": 12,
+      "paletteUploadBytes": 144,
+      "uniformCacheHits": 161,
+      "uniformCacheMisses": 93,
+      "attributeCacheHits": 7,
+      "attributeCacheMisses": 34,
+      "frameContextBuildCount": 0,
+      "visualFrameConsumeCount": 18,
+      "hydroViewRequestCount": 0,
+      "hydroTileWindowCacheHitCount": 0,
+      "hydroTileWindowRecomputeCount": 0,
+      "hydroUploadBytes": 0,
+      "terrainIncompleteFrameCount": 0,
+      "canvasWorkerMessageCount": 0,
+      "canvasWorkerMessageBytes": 0,
+      "canvasWorkerViewMessageCount": 0,
+      "canvasWorkerStaleFrameCount": 0,
+      "canvasWorkerStateMessageCount": 0,
+      "canvasWorkerMessagesByType": {},
+      "baseSceneDrawCount": 7,
+      "interactionFrameCount": 18,
+      "selectionOnlyFrameCount": 5,
+      "selectionOnlyGeometryUploadBytes": 0,
+      "countryInteractionIndexCount": 0,
+      "countryInteractionRangeCount": 0,
+      "countryInteractionFullIndexCount": 2304,
+      "countryBaseIndexCount": 2304,
+      "countryBaseFullIndexCount": 2304,
+      "countryBaseRangeCount": 1,
+      "countryBoundaryIndexCount": 192,
+      "countryBoundaryFullIndexCount": 192,
+      "countryVisibleCount": 2,
+      "countryCullingFallbackCount": 5,
+      "countryStateCompositeCount": 0,
+      "countryStateCompositeMs": 0,
+      "countryPatchUploadBytes": 0,
+      "lastCountryPatchUploadBytes": 0,
+      "countryPatchSceneHoldCount": 0,
+      "paletteChangedCountryCount": 6,
+      "paletteUploadRangeCount": 0,
+      "paletteFullRebuildCount": 3,
+      "paletteSkippedUnchangedCount": 6,
+      "overlayUploadBytes": 0,
+      "lastOverlayUploadBytes": 0,
+      "overlayDeferredItemCount": 0,
+      "uploadBudgetOverrunCount": 0,
+      "shaderInitializationMs": 183.50000000745058,
+      "hydroTileWindowSignature": "",
+      "hydroPacksLoaded": 0,
+      "hydroFeaturePendingCount": 0,
+      "hydroLogicalQueryPendingCount": 0,
+      "hydroPacksActive": 0,
+      "hydroEditRevision": 1,
+      "hydroEditBatchCount": 0,
+      "hydroCacheBytes": 0
+    },
+    "core": {
+      "epoch": 7,
+      "stateRevision": 1,
+      "revision": 4,
+      "checkpoint": 1,
+      "undoCommandId": "territorial.field",
+      "redoCommandId": "",
+      "dirty": true,
+      "canUndo": true,
+      "canRedo": false,
+      "timelineCursor": "2026-10",
+      "presentationRevision": 5,
+      "presentationCheckpoint": 0,
+      "dirtyTerritorialIds": [
+        "shell-country-a"
+      ],
+      "documentDirty": true,
+      "presentationDirty": false,
+      "timelineEditsEnabled": false,
+      "storageBaselineId": 1
+    }
+  },
+  "errors": []
+}

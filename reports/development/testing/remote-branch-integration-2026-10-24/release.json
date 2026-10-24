@@ -1,0 +1,74 @@
+{
+  "revision": "b2fbb0cfb47648dc797ae954e313d77ab5026d3d",
+  "buildId": "0.36.0-build-merge-f9e653a9-010fb6b0",
+  "url": "https://kimjeon-il.github.io/Pando/",
+  "workflow": "https://github.com/kimjeon-il/Pando/actions/runs/40068814959",
+  "assets": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "5269331fe9c2fde528834f8203461c21fa7cf93b9cac83e99b3e6cce91c47ed2",
+      "bytes": 62902
+    },
+    {
+      "file": "assets/js/build-meta.js",
+      "status": 200,
+      "sha256": "527dfa505cb17ecdd35f6908d6cdb8422497bb77fa5bff20e221cc26891890a9",
+      "bytes": 62342
+    },
+    {
+      "file": "assets/js/modules/physical-resources.js",
+      "status": 200,
+      "sha256": "d94fe016440bb43a4b86e9afaf17afa4a77358fbd1bf304e168157a1fa1d59a2",
+      "bytes": 16541
+    },
+    {
+      "file": "assets/js/modules/viewer-composition.js",
+      "status": 200,
+      "sha256": "683bc75a47d61023f7bd47c3ef2b580190b0f1246508e0a4496dbf5d798bc16d",
+      "bytes": 15419
+    },
+    {
+      "file": "assets/css/ui-viewer.bundle.css",
+      "status": 200,
+      "sha256": "0e5643d06fd6cb0e10d01212f8f393a55ba94bb4d1dc76dd657f1e43af5d92ba",
+      "bytes": 243306
+    }
+  ],
+  "workers": [
+    {
+      "file": "assets/worker-runtime/3aea9819242143f56839af000e63ae99/assets/js/vendor/earcut.min.js",
+      "status": 200,
+      "sha256": "1444195270d4358ef8dd1a448074f555d7ac3c83c850f5648b611ea1d2090ff3"
+    },
+    {
+      "file": "assets/worker-runtime/3aea9819242143f56839af000e63ae99/assets/js/vendor/fflate/fflate.min.js",
+      "status": 200,
+      "sha256": "86d12f1b80ed5c9476ea213fbbfddee5fa6366caf6b2c1ea1c8d1f3fdec9fafc"
+    },
+    {
+      "file": "assets/worker-runtime/3aea9819242143f56839af000e63ae99/assets/js/workers/geographic-boundary-core.js",
+      "status": 200,
+      "sha256": "b9017382fcc828924608c8a32ddbf2831800475a725b432cad9e6445d33bc8ea"
+    },
+    {
+      "file": "assets/worker-runtime/3aea9819242143f56839af000e63ae99/assets/js/workers/hydro-shard-store.js",
+      "status": 200,
+      "sha256": "e890b435eab59d6e3eb28585a2a3d49eb5decd4690fadddce3754b930eb36f6e"
+    },
+    {
+      "file": "assets/worker-runtime/3aea9819242143f56839af000e63ae99/assets/js/workers/hydro-tile-worker.js",
+      "status": 200,
+      "sha256": "857440d4a669b85177df48191c23d11ec5292050bdda0b927382f3ce8cb89872"
+    }
+  ],
+  "range": {
+    "status": 206,
+    "contentRange": "bytes 0-7/12006475",
+    "contentLength": "8",
+    "bodyLength": 8,
+    "equalsPinned": true
+  },
+  "verifiedAt": "2026-10-24T06:10:52.320Z",
+  "checkScope": "Public viewer assets only. The native editor task-stage module is intentionally excluded from the public Pages closure and is covered by unit/staging/browser editor checks."
+}

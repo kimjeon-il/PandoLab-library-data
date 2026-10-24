@@ -1,0 +1,23 @@
+{
+  "referenceDate": "1989-04-25",
+  "before": {
+    "path": "tools/historical-library/sources/east-germany/ddr-before-lsib-vg25.geojson",
+    "crs": "EPSG:4326",
+    "sha256": "268C293BB601482ADD8C187479181B6294DC7C52F1A299E920F36AE538A96A43",
+    "license": "Natural Earth public domain; BKG dl-de/by-2-0; Berlin dl-de/zero-2-0"
+  },
+  "beforeSha256": "268c293bb601482add8c187479181b6294dc7c52f1a299e920f36ae538a96a43",
+  "afterSource": "assets/data/territorial-entities/source/countries/state-deutsche-demokratische-republik.json",
+  "afterSourceSha256": "62cd1fa19af2b4bb132b78f004cf51f89d6b03598a305779ccb997508f958893",
+  "dataRevision": "990dd4be446d65a30014abb71e010e5f5dfddcad",
+  "mapProjection": "EPSG:3035",
+  "nominalPrintScale": 10000000,
+  "dpi": 300,
+  "pixelsPerProjectedMeter": 0.0011811023622047246,
+  "imagePixels": [
+    620,
+    861
+  ],
+  "generalization": "none; same scale display comparison only, original geometry unchanged",
+  "licensingNote": "Current Elbe-derived subarcs remain provisional local research; external reuse terms unresolved."
+}

@@ -1,0 +1,27 @@
+{
+  "qgisVersion": "3.44.15-Solothurn",
+  "checks": [
+    {
+      "id": "gsi-japan-national-japanese",
+      "width": 1805,
+      "height": 2560,
+      "sourceAndMaskExtentEqual": true,
+      "positivePixels": 368,
+      "knownPixels": 10714,
+      "pixelGridOnly": true,
+      "overlay": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\ui\\reference-analysis\\models\\macro-v5\\gsi-japan-national-japanese-qgis-overlay.png"
+    },
+    {
+      "id": "nrcan-africa-national-reference",
+      "width": 1979,
+      "height": 2560,
+      "sourceAndMaskExtentEqual": true,
+      "positivePixels": 48407,
+      "knownPixels": 487693,
+      "pixelGridOnly": true,
+      "overlay": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\ui\\reference-analysis\\models\\macro-v5\\nrcan-africa-national-reference-qgis-overlay.png"
+    }
+  ],
+  "historicalAccuracy": "not-evaluated",
+  "independentEvaluation": false
+}

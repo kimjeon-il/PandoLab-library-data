@@ -1,0 +1,96 @@
+{
+  "id": "nrcan-africa-national-reference",
+  "familyId": "atlas-canada-continental-reference",
+  "editionId": "nrcan-africa-copyright-2024",
+  "duplicateGroup": "nrcan-africa-copyright-2024",
+  "language": "eng",
+  "script": "Latin",
+  "mapKind": "color",
+  "published": null,
+  "copyrightYear": "2024",
+  "format": "pdf",
+  "materialKind": "published-macro-pdf",
+  "rightsReviewed": true,
+  "geographicScope": "continent",
+  "scopeEvidence": "Complete Africa continental reference map, Robinson (world) projection; official Atlas of Canada raster-in-PDF, printed Crown copyright2024. Country-fill seams only, not modern external borders.",
+  "url": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_continental/colour/Africa.pdf",
+  "metadataUrl": "https://natural-resources.canada.ca/maps-tools-publications/maps/atlas-canada/reference-maps",
+  "rightsUrl": "https://open.canada.ca/en/open-government-licence-canada",
+  "license": "Contains information licensed under the Open Government Licence - Canada. Source: Natural Resources Canada, Atlas of Canada. Retain Crown copyright2024 and all source notices.",
+  "sha256": "0359870e117f266ab76fd6fa362a66540fbdd9e41c3717a7643118ace2979408",
+  "expectedBytes": 1197131,
+  "maximumBytes": 4194304,
+  "supervision": {
+    "strategy": "country-fill-adjacency",
+    "radiusPixels": 4,
+    "countryFillColors": [
+      [
+        0.7411764705882353,
+        0.615686274509804,
+        0.7607843137254902
+      ],
+      [
+        0.9137254901960784,
+        0.5529411764705883,
+        0.7058823529411765
+      ],
+      [
+        0.6901960784313725,
+        0.615686274509804,
+        0.4588235294117647
+      ],
+      [
+        0.8509803921568627,
+        0.7647058823529411,
+        0.4666666666666667
+      ],
+      [
+        0.5215686274509804,
+        0.7411764705882353,
+        0.5882352941176471
+      ],
+      [
+        0.9098039215686274,
+        0.592156862745098,
+        0.4745098039215686
+      ],
+      [
+        0.8,
+        0.6039215686274509,
+        0.4745098039215686
+      ],
+      [
+        0.8431372549019608,
+        0.49411764705882355,
+        0.5176470588235295
+      ]
+    ]
+  },
+  "excludedRegionsNormalized": [
+    [
+      0,
+      0,
+      1,
+      0.06
+    ],
+    [
+      0,
+      0.75,
+      1,
+      1
+    ],
+    [
+      0.14,
+      0.12,
+      0.26,
+      0.24
+    ],
+    [
+      0.55,
+      0.3,
+      0.65,
+      0.36
+    ]
+  ],
+  "uncertainty": "Raster source has no embedded glyph boxes. Only narrow seams between distinct printed country fills are positives; sea/coast, same-colour boundaries and gray external lands stay unknown. Disputed hatched areas and footer/locator maps excluded. Source-derived weak, not independent truth; copyright year is not publication date."
+}

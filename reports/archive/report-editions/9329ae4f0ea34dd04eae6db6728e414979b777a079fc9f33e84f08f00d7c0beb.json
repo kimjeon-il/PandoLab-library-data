@@ -1,0 +1,12 @@
+{
+  "product": "viewer",
+  "buildId": "0.36.0-build-0f1adc5c9827",
+  "renderer": "webgl2",
+  "point": {"x": 931.8311157226562, "y": 478.7963409423828},
+  "hover": {"buildSucceeded":true,"drawSucceeded":true,"renderedKeys":["territorial:entity:PRK"],"missingKeys":[]},
+  "primary": {"buildSucceeded":true,"drawSucceeded":true,"renderedKeys":["territorial:entity:PRK"],"missingKeys":[]},
+  "gpuHealth":"healthy",
+  "svgOutlineCount":0,
+  "consoleObservation":"One HTTP 404 console message was observed. Its URL was not captured in this run; do not claim zero console errors.",
+  "evidenceMethod":"Recorded from the completed viewer workflow output; screenshots viewer-hover.png and viewer-selected.png. The diagnostic harness rejected the unrelated HTTP observation after both rendering assertions had succeeded."
+}

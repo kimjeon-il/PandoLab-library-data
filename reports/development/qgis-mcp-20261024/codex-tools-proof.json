@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24",
+  "qgisVersion": "3.44.15-Solothurn",
+  "managedPid": 14816,
+  "directCodexTools": {
+    "system/get_qgis_info": "passed",
+    "layer/list": "passed; empty project before verification",
+    "layer/add_vector": "passed; actual Pando production export; 2 features; EPSG:4326",
+    "features/get": "passed; both names, new internal IDs and original source IDs retained",
+    "layer/remove": "passed; removed only the temporary verification layer"
+  },
+  "cleanup": {
+    "nativeDownloadCache": "user deleted and absence verified",
+    "installerAndHelpLogs": "user deleted and absence verified",
+    "temporaryFilesBytes": 30679,
+    "temporaryDeletion": "blocked by automatic execution review; not bypassed"
+  },
+  "historicalAccuracy": "not-evaluated",
+  "mapApplication": "not-applied"
+}

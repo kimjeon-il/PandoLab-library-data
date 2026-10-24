@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "trainingReady": false,
+  "sheets": [
+    {
+      "id": "loc-tehran-1889-preview",
+      "familyId": "tehran-najm-al-mulk",
+      "editionId": null,
+      "duplicateGroup": "loc-tehran-1889-preview",
+      "split": null,
+      "image": "sources/loc-tehran-1889-preview.jpg",
+      "sha256": "35c31b490ee4aab6c775540f18e59660d5b354deefdf9ec8568952bea80d875d",
+      "annotations": "labels/loc-tehran-1889-preview.json",
+      "mapKind": null,
+      "language": "fas",
+      "script": "Arabic",
+      "source": {
+        "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7624:g7624t:ct001792/full/2048,/0/default.jpg",
+        "metadataUrl": "https://www.loc.gov/item/2009582796/",
+        "license": "LOC free to use and reuse advisory; retain item-level rights statement",
+        "surveyed": null,
+        "published": "1889",
+        "revised": null,
+        "materialKind": "official-downsample",
+        "uncertainty": null
+      }
+    },
+    {
+      "id": "zenodo-urdu-punjab-undated",
+      "familyId": "survey-india-manuscript-punjab",
+      "editionId": null,
+      "duplicateGroup": "zenodo-urdu-punjab-undated",
+      "split": null,
+      "image": "sources/zenodo-urdu-punjab-undated.jpg",
+      "sha256": "cfdf4de3992c84ae3d45dc84e187c536298908b0712e74ce326d3ea775c57fc3",
+      "annotations": "labels/zenodo-urdu-punjab-undated.json",
+      "mapKind": null,
+      "language": "urd",
+      "script": "Arabic",
+      "source": {
+        "url": "https://zenodo.org/api/records/3596387/files/F04-26%20nd%20Map%20of%20District%20xx%20in%20Punjab%20in%20Urdu.jpg/content",
+        "metadataUrl": "https://zenodo.org/records/3596387",
+        "license": "CC-BY-4.0 (depositor collection metadata)",
+        "surveyed": null,
+        "published": null,
+        "revised": null,
+        "materialKind": "depositor-original",
+        "uncertainty": "Depositor filename is undated and does not identify the district. Ferozepur/1870 attribution in a Commons mirror is secondary and unconfirmed."
+      }
+    }
+  ]
+}

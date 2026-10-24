@@ -1,0 +1,38 @@
+{
+  "commit": "287eeeadee3d50a3b992607db71ee264126f6684",
+  "buildId": "0.36.0-build-release-151b5eec",
+  "dataRevision": "data-9dd69366163f7b030c6e32399ce95da3",
+  "dataPin": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 61418,
+      "sha256": "89696256770556343ac8fd12551a0f495c4f19235634559ed12b829282721b21"
+    },
+    {
+      "path": "assets/js/build-meta.js",
+      "bytes": 62328,
+      "sha256": "2e5b0135636fc60e92d304eea4d5055a9eed18ff4053362c531c018b5fab9492"
+    },
+    {
+      "path": "assets/js/modules/app-map-settings.js",
+      "bytes": 42413,
+      "sha256": "de1bf079dd31146633b0cd937d1fffbf7b7126e15ea34febeb91621d82380f69"
+    },
+    {
+      "path": "assets/js/modules/viewer-composition.js",
+      "bytes": 15463,
+      "sha256": "fdd2507e46f8797202c83abe28b511619b6b2bed9c1417560681b30e33259ec4"
+    },
+    {
+      "path": "assets/worker-runtime/ba131f56846837b2ff6ba4f565d2dcbe/assets/js/workers/data-loader-worker.js",
+      "bytes": 16867,
+      "sha256": "de512868bb28095a507707c6429fdf64b58de106bffa2a995069f2a3c222558e"
+    },
+    {
+      "path": "assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js",
+      "bytes": 6956,
+      "sha256": "ba27eef13f0fbd285dcf1b1a20c53478a2296d240696caea97c804decf3830a3"
+    }
+  ]
+}

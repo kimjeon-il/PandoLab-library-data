@@ -1,0 +1,118 @@
+{
+  "commit": "8dd3b3b233bc553e25410e7518300a17c3bb5f41",
+  "base": "https://kimjeon-il.github.io/Pando/",
+  "hashes": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 60058,
+      "sha256": "7ec7ea0c9b783f0ab47fb57899254edc8161a0b72610fd30151b82d47f3be727"
+    },
+    {
+      "path": "assets/js/build-meta.js",
+      "status": 200,
+      "bytes": 58011,
+      "sha256": "894d5f111c94cd1a989c6fef2ac6975b36661e79e00602caef36aee2c3abf4df"
+    },
+    {
+      "path": "assets/css/ui-viewer.bundle.css",
+      "status": 200,
+      "bytes": 242597,
+      "sha256": "49ef97161c05760520a36a81cf9473b0ab0dd2a9e7f367bfac820c8fa9845a5e"
+    },
+    {
+      "path": "assets/css/app.css",
+      "status": 200,
+      "bytes": 632,
+      "sha256": "411c6ae8450ba564750a6352c16ee9710c24005cc3a846bc6a8f546edb6dfc89"
+    },
+    {
+      "path": "assets/css/viewer.css",
+      "status": 200,
+      "bytes": 4405,
+      "sha256": "94a64141959fa6ca001323d3edb21d3c9cb2b4e7e46d4489d74565a3c94170bb"
+    },
+    {
+      "path": "assets/js/modules/timeline-controls.js",
+      "status": 200,
+      "bytes": 6648,
+      "sha256": "839b8536e7407ef5e96d907f9c4219158a9e3fa931f062dd4a20e8797b04ff06"
+    }
+  ],
+  "channel": {
+    "status": 200,
+    "schema": "pandolab-data-channel",
+    "mode": "baseline"
+  },
+  "fontStatus": 200,
+  "metrics": [
+    {
+      "width": 1440,
+      "buttons": [
+        {
+          "id": "timelinePreviousYear",
+          "width": 36,
+          "height": 36,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "id": "timelinePreviousMonth",
+          "width": 36,
+          "height": 36,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "id": "timelineNextMonth",
+          "width": 36,
+          "height": 36,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "id": "timelineNextYear",
+          "width": 36,
+          "height": 36,
+          "dx": 0,
+          "dy": 0
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "buttons": [
+        {
+          "id": "timelinePreviousYear",
+          "width": 40,
+          "height": 40,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "id": "timelinePreviousMonth",
+          "width": 40,
+          "height": 40,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "id": "timelineNextMonth",
+          "width": 40,
+          "height": 40,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "id": "timelineNextYear",
+          "width": 40,
+          "height": 40,
+          "dx": 0,
+          "dy": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

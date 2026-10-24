@@ -1,0 +1,1232 @@
+generate	Commit verified phases locally, then publish one guarded result	﻿2026-10-23T02:58:20.1435569Z ##[group]Run set -euo pipefail
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1436096Z ^[[36;1mset -euo pipefail^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1436624Z ^[[36;1mgit config user.name 'github-actions[bot]'^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1437425Z ^[[36;1mgit config user.email '41898282+github-actions[bot]@users.noreply.github.com'^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1438269Z ^[[36;1mnode scripts/p2-publish-artifacts.mjs^[[0m
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1525467Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1526058Z env:
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1526379Z   EMCC_CORES: 1
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1526708Z   BINARYEN_CORES: 1
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1527057Z   PANDO_P2_SCOPE: auto
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1527419Z   PANDO_P2_WASM: false
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1527898Z   PANDO_P2_BASE_SHA: baf1cbb77b2b589fd17a301a56275aa993d6153c
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1528551Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:20.1529075Z ##[endgroup]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:26.7563837Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:26.7565484Z Cloning into '/home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/.library-data/repository'...
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:26.7679382Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:27.0288692Z warning: core.fsyncObjectFiles is deprecated; use core.fsync instead
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:51.2725515Z Built 281 territorial chunks and 1 reference snapshots
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:54.4654287Z Checked 281 territorial chunks and 1 reference snapshots
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:58:57.6356559Z Derived world view: 258 explicitly selected country versions
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T02:59:00.8157757Z Derived world view: 258 explicitly selected country versions
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:00:04.2961599Z Builtin world: 277 country files retained; packed transport, 27409962 bytes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:04.8728257Z Builtin world: 277 country files retained; packed transport, 27409962 bytes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2731469Z {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2732256Z   "output": "assets/data/world-mesh-v0.36.1.bin.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2733460Z   "sourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2734949Z   "meshSha256": "65b3ca008227a39d7dd064711a88e4d1be4a710e186b51d5c092c937b3775630",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2735915Z   "countries": 258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2736332Z   "sourceCoordinates": 1115410,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2736753Z   "vertices": 1636840,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2737131Z   "triangles": 2153859,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2737532Z   "lineSegments": 1110440,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2737915Z   "polarPolygons": 1,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2738433Z   "removedDegenerateTriangles": 621,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2739049Z   "maxEdgeDegrees": 0.4989975291022107,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2739490Z   "algorithmRevision": 5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2740340Z   "rawBytes": 51107564,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2740734Z   "compressedBytes": 23128706,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2741071Z   "buildMilliseconds": 15412
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.2741377Z }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:01:21.6628640Z P2 validated actual world-mesh artifacts
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2492891Z {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2493750Z   "mode": "build",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2494795Z   "version": "0.36.1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2495524Z   "source": "territorial-entities/generated/current-world.geojson",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2496637Z   "sourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2497500Z   "defaultClassification": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2497968Z     "countries": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2498735Z       "IDN": "ecm9:1gvvs6f",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2499186Z       "MYS": "6os0:5q3d6w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2500030Z       "CHL": "l6lp:7s9har",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2500512Z       "BOL": "8nrv:10bdblx",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2500962Z       "PER": "5qb8:5jc2hp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2501401Z       "ARG": "gh32:93vld5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2501845Z       "CYP": "53d:jt5nyt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2502282Z       "IND": "3m0s:xargw5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2502729Z       "CHN": "vzc4:1wdt2sp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2503187Z       "ISR": "7x3:2foanb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2503579Z       "PSX": "3yj:1sm15x0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2504275Z       "LBN": "597:1qgfi0c",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2504616Z       "ETH": "2gnt:1j9atpt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2504977Z       "SDS": "ipp:vyfsiw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2505304Z       "SOM": "azl:8cjx4s",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2505626Z       "KEN": "1u7u:1vyk2r6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2505951Z       "MWI": "5a2i:12ddjk0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2506310Z       "TZA": "5zg5:1vl3jzb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2506694Z       "SYR": "14q1:90ofy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2507066Z       "SOL": "5b0:1n19fsj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2507437Z       "FRA": "99rl:1dhuec0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2507778Z       "SUR": "ceq:iobdxv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2508103Z       "GUY": "1xtn:c5cxxz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2508431Z       "KOR": "570d:xbh7wq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2508760Z       "PRK": "65zv:1p2oirh",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2509102Z       "MAR": "hvi:uhnvsl",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2509422Z       "SAH": "51m:1r9en7d",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2510495Z       "CRI": "1653:1lpfql4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2510854Z       "NIC": "2b4k:1afqgvg",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2511448Z       "COG": "8e02:1n9zuqt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2511785Z       "COD": "bo1r:qnhkyv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2512109Z       "BTN": "5iy:8vaqa2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2512667Z       "UKR": "4m1h:gu3zh9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2513001Z       "BLR": "6i9k:1i8xem5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2513541Z       "NAM": "3w99:11t8i6o",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2513883Z       "ZAF": "6uck:17a0t8z",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2514223Z       "OMN": "lrn:174jqi9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2514764Z       "UZB": "3p5o:aid77i",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2515099Z       "KAZ": "erkg:l5q6ju",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2515430Z       "TJK": "662n:55jbuc",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2515968Z       "LTU": "346n:5j7txc",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2516302Z       "BRA": "kxpd:1ghlj93",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2516638Z       "URY": "aqc:rfnle7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2517196Z       "MNG": "7wan:1qz5ujb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2517538Z       "RUS": "139xx:w0vqma",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2517877Z       "CZE": "55pr:1hq28y1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2518212Z       "DEU": "6oec:k3g5pk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2518749Z       "EST": "x7m:16i6m2f",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2519084Z       "LVA": "2bf4:11app0u",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2519721Z       "NOR": "8pef:1d8n54h",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2520076Z       "SWE": "2hwq:1sfl4s7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2520416Z       "FIN": "2u5l:1vnmuwq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2520993Z       "VNM": "c2su:kf14cy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2521340Z       "KHM": "5mdc:14wpa61",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2521673Z       "LUX": "gjl:1545e2i",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2522000Z       "ARE": "hta:1vgfzdz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2522332Z       "BEL": "3097:1ytowd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2522668Z       "GEO": "1qga:j59718",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2523077Z       "MKD": "177a:ry8j8q",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2523439Z       "ALB": "14f3:1rll1w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2523764Z       "AZE": "1x61:1gi0kxj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2524098Z       "KOS": "4ky:1lu2kn2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2524711Z       "TUR": "6db1:m4gxu6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2525067Z       "ESP": "2whg:1u6hiue",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2525409Z       "LAO": "9yxz:1mxlcfv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2525874Z       "KGZ": "5xy0:1tb5sbg",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2526215Z       "ARM": "10a7:pjk0hd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2526544Z       "DNK": "12dy:1paj5yw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2526884Z       "LBY": "jic:nrq7ii",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2527209Z       "TUN": "17z3:18k8aby",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2527539Z       "ROU": "4881:1qkm16s",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2528111Z       "HUN": "3vxf:5qrx8y",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2528443Z       "SVK": "37ta:73eoaj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2529024Z       "POL": "542k:u7r7hz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2529359Z       "IRL": "2j08:o7flp8",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2530030Z       "GBR": "4pzk:f4p2ea",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2530365Z       "GRC": "51tu:glubjk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2530693Z       "ZMB": "6pjv:kvobnz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2531022Z       "SLE": "27w2:1kyy5v1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2531381Z       "GIN": "8mze:xp6qgf",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2531953Z       "LBR": "2a10:oac9xf",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2532307Z       "CAF": "7pmc:19ew8hv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2532950Z       "SDN": "2fe5:19br02q",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2533328Z       "DJI": "dsl:1wbsq1p",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2533690Z       "ERI": "2emj:95tc1d",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2534245Z       "AUT": "5ccn:12c458m",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2534630Z       "IRQ": "44av:198xnxd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2535013Z       "ITA": "7mfv:1torxrx",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2535400Z       "CHE": "3vqy:q68hjd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2535783Z       "IRN": "8wau:1jc2hm0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2536148Z       "NLD": "1oln:1wv680w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2536522Z       "LIE": "4qp:apys68",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2536903Z       "CIV": "4yew:poyzr9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2537276Z       "SRB": "2h4t:7ddbos",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2537650Z       "MLI": "789e:6ugzpm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2538007Z       "SEN": "2wg6:k6euek",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2538367Z       "NGA": "66z3:4644zq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2538725Z       "BEN": "33de:nxjyba",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2539102Z       "AGO": "7n1s:11vfa8a",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2542075Z       "HRV": "39nh:4mly5w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2542557Z       "SVN": "1jty:joac66",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2542942Z       "QAT": "432:qdvz6t",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2543315Z       "SAU": "186h:1f694mr",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2543689Z       "BWA": "54a3:gwgvhk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2544096Z       "ZWE": "36jd:vpm7jj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2544502Z       "PAK": "2139:1ul5g1p",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2544927Z       "BGR": "3a4f:19a2age",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2545605Z       "THA": "aa9b:1e7ivy1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2545971Z       "SMR": "1va1:khmiwu",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2546321Z       "HTI": "zhi:1siqwu2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2546674Z       "DOM": "y7i:kgcc1w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2547019Z       "TCD": "4j7j:1xh6d5x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2547367Z       "KWT": "47q:ocptcm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2547726Z       "SLV": "1ccy:lmeqya",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2548073Z       "GTM": "125e:1vrvln5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2548408Z       "TLS": "ev3:vp5jzm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2548737Z       "BRN": "15fh:1ipn74w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2549067Z       "MCO": "160t:1ec0uct",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2549432Z       "DZA": "28rc:183tczg",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2550061Z       "MOZ": "6as1:11ryi4r",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2550431Z       "SWZ": "3qb:a82mox",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2550792Z       "BDI": "2urz:1iquqw4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2551212Z       "RWA": "196p:r9ziki",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2551614Z       "MMR": "bqyc:1w0ybpm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2552012Z       "BGD": "1cdp:1ozu081",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2552411Z       "AND": "a1s:t3z5cd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2552781Z       "AFG": "45ho:103ix48",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2553134Z       "MNE": "z98:1ezd7bw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2553495Z       "BIH": "2rda:l3u4xw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2553869Z       "UGA": "22ku:1760l6x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2554251Z       "CUB": "1bkl:h580x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2554680Z       "HND": "2z1w:iup0o8",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2555048Z       "ECU": "4d35:jrqcxw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2555473Z       "COL": "ac15:1flqw4g",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2555855Z       "PRY": "2m41:1px4tg9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2556250Z       "PRT": "lgd:ceuh5r",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2556627Z       "MDA": "1vi3:1nzl0jv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2557057Z       "TKM": "3onl:10jf0do",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2557447Z       "JOR": "66b:8n8b0b",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2557825Z       "NPL": "h5r:610rqm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2558203Z       "LSO": "2h4y:1d1jzy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2558589Z       "CMR": "87fr:1fxo3od",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2558978Z       "GAB": "7n8r:1nbb5pt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2559867Z       "NER": "2805:1ftnyeb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2560289Z       "BFA": "4d7b:7evoyy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2560693Z       "TGO": "stz:1m4pzu8",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2561085Z       "GHA": "trp:p9d4ig",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2561469Z       "GNB": "13sp:1kwlet1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2561902Z       "USA": "llsu:bzum9d",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2562275Z       "CAN": "xph2:neu9w6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2562639Z       "MEX": "7o5l:1s1m356",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2563027Z       "BLZ": "8q0:6vrt0t",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2563410Z       "PAN": "2bib:1vehw0q",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2563812Z       "VEN": "acrn:1g0ookn",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2564409Z       "PNG": "2kgq:s9pief",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2564783Z       "EGY": "x04:56bg17",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2565155Z       "YEM": "m8f:f48vcs",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2565515Z       "MRT": "226d:1o6mcdz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2565940Z       "GNQ": "554:h9601r",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2566329Z       "GMB": "dn0:2g35s0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2566711Z       "VAT": "49d:xu9skt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2567093Z       "CYN": "3f4:dw510w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2567475Z       "CNM": "3rq:13k46f2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2567861Z       "KAS": "o3:1cuv6ct",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2568273Z       "SPI": "rh:8t2itn",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2568710Z       "BRT": "8x:1gbasa5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2569093Z       "ATA": "c0up:13y1s5o",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2569737Z       "AUS": "6ysk:1ehugv7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2570201Z       "FJI": "rck:m96vd0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2570594Z       "NZL": "2bdy:a8xmyp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2570987Z       "MDG": "t0p:1mt0xz5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2571383Z       "PHL": "3kms:49k9sz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2571767Z       "LKA": "e08:ttm3mu",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2572195Z       "BHS": "sra:14aq1ue",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2572568Z       "TWN": "9wn:6znt5x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2572924Z       "JPN": "3emo:or4737",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2573281Z       "ISL": "1itn:8z2meq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2573641Z       "SYC": "5nf:11te37u",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2574034Z       "KIR": "cjf:156us3f",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2574436Z       "MHL": "3oc:s1onzt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2574808Z       "TTO": "3h2:1orak1t",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2575159Z       "GRD": "15t:k66j5h",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2575537Z       "VCT": "1i4:3rdgi6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2575909Z       "BRB": "n4:ytq0er",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2576278Z       "LCA": "wl:bbgegq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2576692Z       "DMA": "1cf:1rulodo",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2577107Z       "ATG": "23r:ksf6dk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2577487Z       "KNA": "si:1oy0pjr",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2577864Z       "JAM": "4hr:q25plv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2578237Z       "MUS": "213:eun820",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2578573Z       "COM": "29o:1fzjuhm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2578894Z       "STP": "1i2:1qqmdvn",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2579227Z       "CPV": "7ny:1lqalm4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2579766Z       "MLT": "ys:185807",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2580101Z       "SGP": "pa:1a0zdvo",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2580423Z       "COK": "2k8:8uozo1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2580737Z       "TON": "440:12d6il4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2581057Z       "WSM": "2k7:n4rxze",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2581394Z       "SLB": "12si:2xizfr",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2581749Z       "TUV": "19z:y0xsgh",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2582075Z       "MDV": "nxk:1pqtnmc",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2582393Z       "NRU": "6q:frwjtt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2582701Z       "FSM": "4dg:4og1wf",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2583011Z       "VUT": "ipl:940ijv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2583328Z       "NIU": "pw:1leiliq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2583643Z       "PLW": "2u5:eublvq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2584036Z       "BHR": "2ie:1gf5v3t"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2584384Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2584655Z     "changed": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2584968Z       "CHN": "vzc4:1wdt2sp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2585317Z       "BRA": "kxpd:1ghlj93",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2585674Z       "COL": "ac15:1flqw4g"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2585995Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2586271Z     "removedIds": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2586579Z       "ESB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2586855Z       "MAF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2587126Z       "SXM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2587619Z       "USG",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2587894Z       "BRI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2588178Z       "GIB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2588523Z       "HKG",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2588805Z       "KAB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2589099Z       "WSB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2589436Z       "GRL",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2589920Z       "NCL",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2590198Z       "CUW",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2590463Z       "ABW",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2590726Z       "TCA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2590991Z       "SPM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2591265Z       "PCN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2591535Z       "PYF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2591808Z       "ATF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2592260Z       "UMI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2592549Z       "MSR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2592894Z       "VIR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2593166Z       "BLM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2593450Z       "PRI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2593725Z       "AIA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2593985Z       "VGB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2594248Z       "CYM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2594515Z       "BMU",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2594787Z       "HMD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2595053Z       "SHN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2595317Z       "JEY",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2595589Z       "GGY",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2595852Z       "IMN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2596117Z       "ALD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2596381Z       "FRO",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2596648Z       "IOA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2596911Z       "IOT",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2597177Z       "NFK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2597451Z       "WLF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2597717Z       "SGS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2597985Z       "FLK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2598254Z       "ASM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2598524Z       "GUM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2598797Z       "MNP",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2599069Z       "CSI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2599343Z       "PGA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2599849Z       "CLP",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2600138Z       "MAC",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2600430Z       "ATC",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2600697Z       "SER",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2600969Z       "BJN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2601244Z       "SCR"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2601510Z     ],
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2601792Z     "units": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2602164Z       "d34b00a1-9b13-8000-8000-000000455342": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2602593Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2603016Z         "geometry": "1to:dtaxkq"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2603413Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2603801Z       "d34b00a1-9b13-8000-8000-0000004d4146": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2604278Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2604714Z         "geometry": "ez:4e3ip5"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2605105Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2605497Z       "d34b00a1-9b13-8000-8000-00000053584d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2605929Z         "parentId": "NLD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2606311Z         "geometry": "6m:zxl87w"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2606653Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2607010Z       "d34b00a1-9b13-8000-8000-000000555347": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2607455Z         "parentId": "CUB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2607853Z         "geometry": "t6:tuei7d"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2608299Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2608721Z       "d34b00a1-9b13-8000-8000-000000474942": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2609255Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2609893Z         "geometry": "54:8a6t4p"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2610325Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2610792Z       "d34b00a1-9b13-8000-8000-000000484b47": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2611322Z         "parentId": "CHN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2611795Z         "geometry": "71x:nu9wjz"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2612222Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2612646Z       "d34b00a1-9b13-8000-8000-0000004b4142": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2613148Z         "parentId": "KAZ",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2613646Z         "geometry": "146:1yodeuq"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2614085Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2614519Z       "d34b00a1-9b13-8000-8000-000000575342": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2615019Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2615484Z         "geometry": "tf:14sey7x"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2615882Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2616261Z       "d34b00a1-9b13-8000-8000-00000047524c": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2616772Z         "parentId": "DNK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2617505Z         "geometry": "9u8q:14d2d8m"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2617958Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2618384Z       "d34b00a1-9b13-8000-8000-0000004e434c": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2634562Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2635093Z         "geometry": "i69:myz3t8"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2635508Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2635928Z       "d34b00a1-9b13-8000-8000-000000435557": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2636404Z         "parentId": "NLD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2636884Z         "geometry": "sw:wkccri"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2637294Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2637688Z       "d34b00a1-9b13-8000-8000-000000414257": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2638482Z         "parentId": "NLD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2639012Z         "geometry": "hj:4982hh"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2639460Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2640173Z       "d34b00a1-9b13-8000-8000-000000544341": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2640694Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2641186Z         "geometry": "3tb:xa8nr8"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2641662Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2642123Z       "d34b00a1-9b13-8000-8000-00000053504d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2642639Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2643151Z         "geometry": "1ha:l52t9y"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2643581Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2644009Z       "d34b00a1-9b13-8000-8000-00000050434e": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2644515Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2644985Z         "geometry": "rk:8cftwk"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2645410Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2645829Z       "d34b00a1-9b13-8000-8000-000000505946": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2646360Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2646835Z         "geometry": "k4w:1pm12ag"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2647287Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2647727Z       "d34b00a1-9b13-8000-8000-000000415446": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2648280Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2648755Z         "geometry": "9g5:ja9o6q"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2649189Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2649807Z       "d34b00a1-9b13-8000-8000-000000554d49": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2650330Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2650807Z         "geometry": "28o:g9lpvg"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2651277Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2651710Z       "d34b00a1-9b13-8000-8000-0000004d5352": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2652223Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2652687Z         "geometry": "fj:1q831em"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2653128Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2653584Z       "d34b00a1-9b13-8000-8000-000000564952": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2654084Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2654552Z         "geometry": "1ab:1loid8z"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2654994Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2655423Z       "d34b00a1-9b13-8000-8000-000000424c4d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2655964Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2656452Z         "geometry": "7z:1tencom"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2656883Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2657303Z       "d34b00a1-9b13-8000-8000-000000505249": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2657804Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2658273Z         "geometry": "5d4:16b6s5w"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2658749Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2659170Z       "d34b00a1-9b13-8000-8000-000000414941": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2659894Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2660374Z         "geometry": "168:mn9yf5"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2660818Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2661246Z       "d34b00a1-9b13-8000-8000-000000564742": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2661780Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2662246Z         "geometry": "1oo:xyd3cq"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2662684Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2663106Z       "d34b00a1-9b13-8000-8000-00000043594d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2663639Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2664117Z         "geometry": "1gp:18kd5f2"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2664550Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2664967Z       "d34b00a1-9b13-8000-8000-000000424d55": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2665480Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2665951Z         "geometry": "1j2:1mwrjht"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2666421Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2666840Z       "d34b00a1-9b13-8000-8000-000000484d44": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2667597Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2668065Z         "geometry": "z2:1k678tm"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2668504Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2668920Z       "d34b00a1-9b13-8000-8000-00000053484e": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2669419Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2670107Z         "geometry": "1im:1qt13zt"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2670393Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2670663Z       "d34b00a1-9b13-8000-8000-0000004a4559": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2670977Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2671254Z         "geometry": "t9:170cerj"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2671726Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2671984Z       "d34b00a1-9b13-8000-8000-000000474759": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2672310Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2672590Z         "geometry": "11b:cthno7"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2672852Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2673103Z       "d34b00a1-9b13-8000-8000-000000494d4e": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2673393Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2673670Z         "geometry": "195:1hef7zr"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2673940Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2674188Z       "d34b00a1-9b13-8000-8000-000000414c44": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2674485Z         "parentId": "FIN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2674752Z         "geometry": "80j:yvxoi6"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2675001Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2675242Z       "d34b00a1-9b13-8000-8000-00000046524f": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2675551Z         "parentId": "DNK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2675822Z         "geometry": "87v:10lf77w"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2676080Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2676319Z       "d34b00a1-9b13-8000-8000-000000494f41": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2676611Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2676879Z         "geometry": "10h:ea0yfg"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2677131Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2677391Z       "d34b00a1-9b13-8000-8000-000000494f54": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2677686Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2677952Z         "geometry": "1rx:9aqu74"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2678209Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2678454Z       "d34b00a1-9b13-8000-8000-0000004e464b": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2678761Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2679027Z         "geometry": "i8:1pv5tjp"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2679283Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2679842Z       "d34b00a1-9b13-8000-8000-000000574c46": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2680204Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2680484Z         "geometry": "rf:5ityn8"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2680735Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2680978Z       "d34b00a1-9b13-8000-8000-000000534753": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2681249Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2681516Z         "geometry": "atr:mg9yli"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2681750Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2681972Z       "d34b00a1-9b13-8000-8000-000000464c4b": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2682281Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2682549Z         "geometry": "omv:17z8a65"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2682809Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2683052Z       "d34b00a1-9b13-8000-8000-00000041534d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2683350Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2683617Z         "geometry": "17n:1anmtv3"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2683868Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2684105Z       "d34b00a1-9b13-8000-8000-00000047554d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2684396Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2684640Z         "geometry": "w0:1ketn2u"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2684887Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2685138Z       "d34b00a1-9b13-8000-8000-0000004d4e50": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2685436Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2685706Z         "geometry": "3a6:cucx7e"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2685957Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2686206Z       "d34b00a1-9b13-8000-8000-000000435349": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2686500Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2686772Z         "geometry": "3n:liguu4"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2687021Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2687268Z       "d34b00a1-9b13-8000-8000-000000504741": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2687554Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2687819Z         "geometry": "1un:wo6dad"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2688272Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2688533Z       "d34b00a1-9b13-8000-8000-000000434c50": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2688853Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2689127Z         "geometry": "5m:1m2ents"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2689379Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2689985Z       "d34b00a1-9b13-8000-8000-0000004d4143": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2690324Z         "parentId": "CHN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2690605Z         "geometry": "1nj:13mg2tv"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2690860Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2691108Z       "d34b00a1-9b13-8000-8000-000000415443": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2691553Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2691831Z         "geometry": "4c:1k66bxt"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2692086Z       }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2692300Z     }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2692503Z   },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2692819Z   "previewDerivation": "canonical-topology-simplified",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2693240Z   "previewSourceScale": "derived",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2693777Z   "previewSourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2694542Z   "canonicalSourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2695082Z   "simplificationQuantile": 0.1,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2695373Z   "countries": 258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2695616Z   "coordinateCount": 106945,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2695905Z   "globalAreaError": 0.00019951,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2696184Z   "meshAlgorithmRevision": 5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2696463Z   "meshVertices": 126539,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2696756Z   "countriesCompressedBytes": 1004978,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2697089Z   "meshCompressedBytes": 1747723,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2697418Z   "combinedCompressedBytes": 2752701,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2697941Z   "countriesSha256": "cf44028c2a03459174c80c4afeb837164d8234cc279a1e3ccb25cf5cbe272ab3",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2698602Z   "meshSha256": "7586773506b3413accec98ec8b1b0b9e152eb689ad574aec46b7f324246272d7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2699050Z   "assets": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2699297Z     "previewCountries": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2699893Z       "url": "countries-preview-v0.36.1.geojson.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2700247Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2700552Z       "compressedBytes": 1004978,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2700853Z       "decodedBytes": 2780014,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2701290Z       "sha256": "cf44028c2a03459174c80c4afeb837164d8234cc279a1e3ccb25cf5cbe272ab3"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2701723Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2701934Z     "previewMesh": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2702233Z       "url": "world-mesh-preview-v0.36.1.bin.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2702561Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2702843Z       "compressedBytes": 1747723,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2703136Z       "decodedBytes": 3796812,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2703593Z       "sha256": "7586773506b3413accec98ec8b1b0b9e152eb689ad574aec46b7f324246272d7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2704007Z       "header": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2704236Z         1129137969,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2704466Z         2,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2704681Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2704894Z         126539,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2705100Z         424977,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2705309Z         205544,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2705514Z         106945,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2705716Z         5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2705902Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2706109Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2706314Z         1032,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2706522Z         258
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2706724Z       ]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2706907Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2707123Z     "labelAnchors": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2707437Z       "url": "country-label-anchors-v0.10.1.json",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2707794Z       "encoding": "identity",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2708089Z       "compressedBytes": 13826,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2708363Z       "decodedBytes": 13826,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2708812Z       "sha256": "caeee3f0d05265cc564f68ef092b25ea8c5c4d6f1c36e2beb35a239551751512"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2709226Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2709723Z     "canonicalCountryPacket": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2710312Z       "url": "countries-canonical-v0.36.1.pcg.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2710657Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2710941Z       "compressedBytes": 12813397,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2711238Z       "decodedBytes": 17897496,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2711695Z       "sha256": "3b8fecf48425e92a5c96d9e71e4f090c3f3d721352a359e40e46aa7a09e93faa",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2712131Z       "header": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2712349Z         826753872,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2712551Z         1,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2712760Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2712966Z         4274,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2713168Z         4291,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2713506Z         1115410,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2713722Z         13227,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2713934Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2714122Z         259,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2714322Z         4275,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2714524Z         4292,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2714720Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2714918Z         80,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2715105Z         13307,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2715325Z         13568,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2715531Z         14604,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2715732Z         31704,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2715920Z         48872,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2716125Z         50936,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2716331Z         17897496
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2716537Z       ]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2716740Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2716932Z     "canonicalMesh": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2717215Z       "url": "world-mesh-v0.36.1.bin.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2717533Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2717814Z       "compressedBytes": 23128706,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2718108Z       "decodedBytes": 51107564,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2718562Z       "sha256": "65b3ca008227a39d7dd064711a88e4d1be4a710e186b51d5c092c937b3775630",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2718972Z       "header": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2719196Z         1129137969,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2719411Z         2,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2719950Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2720192Z         1636840,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2720423Z         6461577,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2720643Z         2220880,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2720853Z         1115410,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2721046Z         5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2721247Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2721451Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2721657Z         1032,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2721860Z         258
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2722043Z       ]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2722238Z     }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2722436Z   },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2722647Z   "milliseconds": 310880
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:06:33.2722893Z }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7277853Z {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7282554Z   "mode": "check",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7283033Z   "version": "0.36.1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7283733Z   "source": "territorial-entities/generated/current-world.geojson",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7284630Z   "sourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7285274Z   "defaultClassification": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7285622Z     "countries": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7285919Z       "IDN": "ecm9:1gvvs6f",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7286250Z       "MYS": "6os0:5q3d6w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7286587Z       "CHL": "l6lp:7s9har",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7286907Z       "BOL": "8nrv:10bdblx",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7287236Z       "PER": "5qb8:5jc2hp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7287556Z       "ARG": "gh32:93vld5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7287887Z       "CYP": "53d:jt5nyt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7288206Z       "IND": "3m0s:xargw5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7289326Z       "CHN": "vzc4:1wdt2sp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7293336Z       "ISR": "7x3:2foanb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7293798Z       "PSX": "3yj:1sm15x0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7294187Z       "LBN": "597:1qgfi0c",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7294563Z       "ETH": "2gnt:1j9atpt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7294849Z       "SDS": "ipp:vyfsiw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7295098Z       "SOM": "azl:8cjx4s",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7295334Z       "KEN": "1u7u:1vyk2r6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7295564Z       "MWI": "5a2i:12ddjk0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7295789Z       "TZA": "5zg5:1vl3jzb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7296014Z       "SYR": "14q1:90ofy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7296234Z       "SOL": "5b0:1n19fsj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7296957Z       "FRA": "99rl:1dhuec0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7297199Z       "SUR": "ceq:iobdxv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7297423Z       "GUY": "1xtn:c5cxxz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7297654Z       "KOR": "570d:xbh7wq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7297993Z       "PRK": "65zv:1p2oirh",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7298410Z       "MAR": "hvi:uhnvsl",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7298807Z       "SAH": "51m:1r9en7d",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7299198Z       "CRI": "1653:1lpfql4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7299827Z       "NIC": "2b4k:1afqgvg",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7300227Z       "COG": "8e02:1n9zuqt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7300620Z       "COD": "bo1r:qnhkyv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7301287Z       "BTN": "5iy:8vaqa2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7301672Z       "UKR": "4m1h:gu3zh9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7302064Z       "BLR": "6i9k:1i8xem5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7302454Z       "NAM": "3w99:11t8i6o",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7302763Z       "ZAF": "6uck:17a0t8z",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7302996Z       "OMN": "lrn:174jqi9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7303223Z       "UZB": "3p5o:aid77i",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7303458Z       "KAZ": "erkg:l5q6ju",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7303683Z       "TJK": "662n:55jbuc",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7303901Z       "LTU": "346n:5j7txc",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7304176Z       "BRA": "kxpd:1ghlj93",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7304414Z       "URY": "aqc:rfnle7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7304642Z       "MNG": "7wan:1qz5ujb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7304868Z       "RUS": "139xx:w0vqma",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7305097Z       "CZE": "55pr:1hq28y1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7305324Z       "DEU": "6oec:k3g5pk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7305546Z       "EST": "x7m:16i6m2f",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7305768Z       "LVA": "2bf4:11app0u",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7305999Z       "NOR": "8pef:1d8n54h",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7306223Z       "SWE": "2hwq:1sfl4s7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7306452Z       "FIN": "2u5l:1vnmuwq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7306681Z       "VNM": "c2su:kf14cy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7306902Z       "KHM": "5mdc:14wpa61",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7307138Z       "LUX": "gjl:1545e2i",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7307372Z       "ARE": "hta:1vgfzdz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7307593Z       "BEL": "3097:1ytowd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7307817Z       "GEO": "1qga:j59718",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7308038Z       "MKD": "177a:ry8j8q",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7308254Z       "ALB": "14f3:1rll1w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7308472Z       "AZE": "1x61:1gi0kxj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7308700Z       "KOS": "4ky:1lu2kn2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7308920Z       "TUR": "6db1:m4gxu6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7309144Z       "ESP": "2whg:1u6hiue",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7309375Z       "LAO": "9yxz:1mxlcfv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7309929Z       "KGZ": "5xy0:1tb5sbg",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7310348Z       "ARM": "10a7:pjk0hd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7310738Z       "DNK": "12dy:1paj5yw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7311127Z       "LBY": "jic:nrq7ii",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7311488Z       "TUN": "17z3:18k8aby",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7311843Z       "ROU": "4881:1qkm16s",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7312201Z       "HUN": "3vxf:5qrx8y",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7312542Z       "SVK": "37ta:73eoaj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7312888Z       "POL": "542k:u7r7hz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7313242Z       "IRL": "2j08:o7flp8",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7313584Z       "GBR": "4pzk:f4p2ea",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7313940Z       "GRC": "51tu:glubjk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7314284Z       "ZMB": "6pjv:kvobnz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7314632Z       "SLE": "27w2:1kyy5v1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7314990Z       "GIN": "8mze:xp6qgf",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7315344Z       "LBR": "2a10:oac9xf",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7315696Z       "CAF": "7pmc:19ew8hv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7316068Z       "SDN": "2fe5:19br02q",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7316431Z       "DJI": "dsl:1wbsq1p",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7316791Z       "ERI": "2emj:95tc1d",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7317152Z       "AUT": "5ccn:12c458m",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7317533Z       "IRQ": "44av:198xnxd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7317899Z       "ITA": "7mfv:1torxrx",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7318253Z       "CHE": "3vqy:q68hjd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7318623Z       "IRN": "8wau:1jc2hm0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7318987Z       "NLD": "1oln:1wv680w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7320042Z       "LIE": "4qp:apys68",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7320431Z       "CIV": "4yew:poyzr9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7320790Z       "SRB": "2h4t:7ddbos",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7321154Z       "MLI": "789e:6ugzpm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7321513Z       "SEN": "2wg6:k6euek",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7321862Z       "NGA": "66z3:4644zq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7322218Z       "BEN": "33de:nxjyba",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7322581Z       "AGO": "7n1s:11vfa8a",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7322954Z       "HRV": "39nh:4mly5w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7323322Z       "SVN": "1jty:joac66",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7323678Z       "QAT": "432:qdvz6t",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7324251Z       "SAU": "186h:1f694mr",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7324616Z       "BWA": "54a3:gwgvhk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7324982Z       "ZWE": "36jd:vpm7jj",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7325342Z       "PAK": "2139:1ul5g1p",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7325709Z       "BGR": "3a4f:19a2age",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7326077Z       "THA": "aa9b:1e7ivy1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7326443Z       "SMR": "1va1:khmiwu",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7326840Z       "HTI": "zhi:1siqwu2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7327208Z       "DOM": "y7i:kgcc1w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7327564Z       "TCD": "4j7j:1xh6d5x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7327929Z       "KWT": "47q:ocptcm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7328285Z       "SLV": "1ccy:lmeqya",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7328663Z       "GTM": "125e:1vrvln5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7329038Z       "TLS": "ev3:vp5jzm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7329387Z       "BRN": "15fh:1ipn74w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7330079Z       "MCO": "160t:1ec0uct",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7330454Z       "DZA": "28rc:183tczg",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7330812Z       "MOZ": "6as1:11ryi4r",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7331191Z       "SWZ": "3qb:a82mox",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7331541Z       "BDI": "2urz:1iquqw4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7331897Z       "RWA": "196p:r9ziki",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7332260Z       "MMR": "bqyc:1w0ybpm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7332643Z       "BGD": "1cdp:1ozu081",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7333015Z       "AND": "a1s:t3z5cd",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7333384Z       "AFG": "45ho:103ix48",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7333760Z       "MNE": "z98:1ezd7bw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7334129Z       "BIH": "2rda:l3u4xw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7334492Z       "UGA": "22ku:1760l6x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7334853Z       "CUB": "1bkl:h580x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7335219Z       "HND": "2z1w:iup0o8",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7335580Z       "ECU": "4d35:jrqcxw",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7335938Z       "COL": "ac15:1flqw4g",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7336310Z       "PRY": "2m41:1px4tg9",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7336686Z       "PRT": "lgd:ceuh5r",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7337056Z       "MDA": "1vi3:1nzl0jv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7337426Z       "TKM": "3onl:10jf0do",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7337788Z       "JOR": "66b:8n8b0b",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7338146Z       "NPL": "h5r:610rqm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7338498Z       "LSO": "2h4y:1d1jzy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7338858Z       "CMR": "87fr:1fxo3od",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7339226Z       "GAB": "7n8r:1nbb5pt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7339874Z       "NER": "2805:1ftnyeb",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7340247Z       "BFA": "4d7b:7evoyy",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7340610Z       "TGO": "stz:1m4pzu8",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7340964Z       "GHA": "trp:p9d4ig",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7341323Z       "GNB": "13sp:1kwlet1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7341694Z       "USA": "llsu:bzum9d",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7342066Z       "CAN": "xph2:neu9w6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7342420Z       "MEX": "7o5l:1s1m356",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7342787Z       "BLZ": "8q0:6vrt0t",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7343158Z       "PAN": "2bib:1vehw0q",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7343529Z       "VEN": "acrn:1g0ookn",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7343904Z       "PNG": "2kgq:s9pief",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7344288Z       "EGY": "x04:56bg17",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7344654Z       "YEM": "m8f:f48vcs",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7345008Z       "MRT": "226d:1o6mcdz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7345378Z       "GNQ": "554:h9601r",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7345733Z       "GMB": "dn0:2g35s0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7346091Z       "VAT": "49d:xu9skt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7346451Z       "CYN": "3f4:dw510w",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7346810Z       "CNM": "3rq:13k46f2",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7347411Z       "KAS": "o3:1cuv6ct",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7347774Z       "SPI": "rh:8t2itn",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7348128Z       "BRT": "8x:1gbasa5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7348483Z       "ATA": "c0up:13y1s5o",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7348862Z       "AUS": "6ysk:1ehugv7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7349241Z       "FJI": "rck:m96vd0",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7350003Z       "NZL": "2bdy:a8xmyp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7350391Z       "MDG": "t0p:1mt0xz5",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7350758Z       "PHL": "3kms:49k9sz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7351130Z       "LKA": "e08:ttm3mu",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7351490Z       "BHS": "sra:14aq1ue",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7352072Z       "TWN": "9wn:6znt5x",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7352432Z       "JPN": "3emo:or4737",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7352805Z       "ISL": "1itn:8z2meq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7353158Z       "SYC": "5nf:11te37u",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7353513Z       "KIR": "cjf:156us3f",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7353888Z       "MHL": "3oc:s1onzt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7354266Z       "TTO": "3h2:1orak1t",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7354655Z       "GRD": "15t:k66j5h",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7355017Z       "VCT": "1i4:3rdgi6",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7355400Z       "BRB": "n4:ytq0er",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7355765Z       "LCA": "wl:bbgegq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7356136Z       "DMA": "1cf:1rulodo",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7356506Z       "ATG": "23r:ksf6dk",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7356868Z       "KNA": "si:1oy0pjr",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7357230Z       "JAM": "4hr:q25plv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7357589Z       "MUS": "213:eun820",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7357942Z       "COM": "29o:1fzjuhm",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7358315Z       "STP": "1i2:1qqmdvn",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7358685Z       "CPV": "7ny:1lqalm4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7359043Z       "MLT": "ys:185807",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7359401Z       "SGP": "pa:1a0zdvo",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7360053Z       "COK": "2k8:8uozo1",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7360411Z       "TON": "440:12d6il4",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7360770Z       "WSM": "2k7:n4rxze",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7361139Z       "SLB": "12si:2xizfr",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7361519Z       "TUV": "19z:y0xsgh",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7361883Z       "MDV": "nxk:1pqtnmc",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7362254Z       "NRU": "6q:frwjtt",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7362622Z       "FSM": "4dg:4og1wf",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7362982Z       "VUT": "ipl:940ijv",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7363357Z       "NIU": "pw:1leiliq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7363724Z       "PLW": "2u5:eublvq",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7364093Z       "BHR": "2ie:1gf5v3t"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7364446Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7364744Z     "changed": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7365081Z       "CHN": "vzc4:1wdt2sp",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7365466Z       "BRA": "kxpd:1ghlj93",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7365847Z       "COL": "ac15:1flqw4g"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7366196Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7366493Z     "removedIds": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7366808Z       "ESB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7367103Z       "MAF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7367401Z       "SXM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7367691Z       "USG",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7367977Z       "BRI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7368268Z       "GIB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7368566Z       "HKG",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7368860Z       "KAB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7369151Z       "WSB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7369444Z       "GRL",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7369965Z       "NCL",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7370252Z       "CUW",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7370542Z       "ABW",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7370837Z       "TCA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7371128Z       "SPM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7371428Z       "PCN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7371737Z       "PYF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7372037Z       "ATF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7372328Z       "UMI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7372621Z       "MSR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7372918Z       "VIR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7373220Z       "BLM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7373526Z       "PRI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7373821Z       "AIA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7374114Z       "VGB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7374409Z       "CYM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7374698Z       "BMU",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7374997Z       "HMD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7375295Z       "SHN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7375595Z       "JEY",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7376158Z       "GGY",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7376449Z       "IMN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7376738Z       "ALD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7377018Z       "FRO",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7377304Z       "IOA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7377585Z       "IOT",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7377874Z       "NFK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7378162Z       "WLF",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7378453Z       "SGS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7378731Z       "FLK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7379012Z       "ASM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7379300Z       "GUM",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7379833Z       "MNP",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7380132Z       "CSI",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7380427Z       "PGA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7380905Z       "CLP",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7381199Z       "MAC",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7381489Z       "ATC",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7381784Z       "SER",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7382073Z       "BJN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7382369Z       "SCR"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7382657Z     ],
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7382940Z     "units": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7383344Z       "d34b00a1-9b13-8000-8000-000000455342": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7383817Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7384239Z         "geometry": "1to:dtaxkq"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7384769Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7385255Z       "d34b00a1-9b13-8000-8000-0000004d4146": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7385828Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7386674Z         "geometry": "ez:4e3ip5"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7387189Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7387745Z       "d34b00a1-9b13-8000-8000-00000053584d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7388361Z         "parentId": "NLD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7388892Z         "geometry": "6m:zxl87w"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7389977Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7405507Z       "d34b00a1-9b13-8000-8000-000000555347": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7406109Z         "parentId": "CUB",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7406555Z         "geometry": "t6:tuei7d"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7406931Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7407319Z       "d34b00a1-9b13-8000-8000-000000474942": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7407793Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7408195Z         "geometry": "54:8a6t4p"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7408587Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7408955Z       "d34b00a1-9b13-8000-8000-000000484b47": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7409409Z         "parentId": "CHN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7410133Z         "geometry": "71x:nu9wjz"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7410527Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7410903Z       "d34b00a1-9b13-8000-8000-0000004b4142": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7411375Z         "parentId": "KAZ",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7411788Z         "geometry": "146:1yodeuq"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7412166Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7412541Z       "d34b00a1-9b13-8000-8000-000000575342": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7413024Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7413445Z         "geometry": "tf:14sey7x"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7413825Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7414202Z       "d34b00a1-9b13-8000-8000-00000047524c": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7414653Z         "parentId": "DNK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7415068Z         "geometry": "9u8q:14d2d8m"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7415460Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7415845Z       "d34b00a1-9b13-8000-8000-0000004e434c": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7416289Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7416690Z         "geometry": "i69:myz3t8"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7417063Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7417420Z       "d34b00a1-9b13-8000-8000-000000435557": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7417869Z         "parentId": "NLD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7418278Z         "geometry": "sw:wkccri"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7418655Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7419024Z       "d34b00a1-9b13-8000-8000-000000414257": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7419462Z         "parentId": "NLD",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7420168Z         "geometry": "hj:4982hh"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7420570Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7420936Z       "d34b00a1-9b13-8000-8000-000000544341": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7421387Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7421793Z         "geometry": "3tb:xa8nr8"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7422175Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7422549Z       "d34b00a1-9b13-8000-8000-00000053504d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7423026Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7423854Z         "geometry": "1ha:l52t9y"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7424234Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7424602Z       "d34b00a1-9b13-8000-8000-00000050434e": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7425049Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7425459Z         "geometry": "rk:8cftwk"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7425816Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7426156Z       "d34b00a1-9b13-8000-8000-000000505946": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7426597Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7427003Z         "geometry": "k4w:1pm12ag"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7427378Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7427741Z       "d34b00a1-9b13-8000-8000-000000415446": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7428379Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7428767Z         "geometry": "9g5:ja9o6q"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7429132Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7430661Z       "d34b00a1-9b13-8000-8000-000000554d49": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7431180Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7431592Z         "geometry": "28o:g9lpvg"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7431985Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7432351Z       "d34b00a1-9b13-8000-8000-0000004d5352": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7432801Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7433214Z         "geometry": "fj:1q831em"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7433591Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7433952Z       "d34b00a1-9b13-8000-8000-000000564952": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7434405Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7434814Z         "geometry": "1ab:1loid8z"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7435202Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7435566Z       "d34b00a1-9b13-8000-8000-000000424c4d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7436016Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7436437Z         "geometry": "7z:1tencom"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7436834Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7437188Z       "d34b00a1-9b13-8000-8000-000000505249": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7437620Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7438019Z         "geometry": "5d4:16b6s5w"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7438395Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7438767Z       "d34b00a1-9b13-8000-8000-000000414941": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7439234Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7439935Z         "geometry": "168:mn9yf5"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7440314Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7440675Z       "d34b00a1-9b13-8000-8000-000000564742": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7441110Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7441508Z         "geometry": "1oo:xyd3cq"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7441893Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7442267Z       "d34b00a1-9b13-8000-8000-00000043594d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7442714Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7443134Z         "geometry": "1gp:18kd5f2"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7443528Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7443904Z       "d34b00a1-9b13-8000-8000-000000424d55": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7444351Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7444757Z         "geometry": "1j2:1mwrjht"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7445147Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7445514Z       "d34b00a1-9b13-8000-8000-000000484d44": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7445959Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7446386Z         "geometry": "z2:1k678tm"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7446767Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7447124Z       "d34b00a1-9b13-8000-8000-00000053484e": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7447573Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7447979Z         "geometry": "1im:1qt13zt"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7448362Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7448720Z       "d34b00a1-9b13-8000-8000-0000004a4559": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7449172Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7449844Z         "geometry": "t9:170cerj"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7450248Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7450624Z       "d34b00a1-9b13-8000-8000-000000474759": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7451085Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7451495Z         "geometry": "11b:cthno7"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7451875Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7452232Z       "d34b00a1-9b13-8000-8000-000000494d4e": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7452673Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7453080Z         "geometry": "195:1hef7zr"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7453459Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7454164Z       "d34b00a1-9b13-8000-8000-000000414c44": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7454642Z         "parentId": "FIN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7455041Z         "geometry": "80j:yvxoi6"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7455417Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7455786Z       "d34b00a1-9b13-8000-8000-00000046524f": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7456239Z         "parentId": "DNK",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7456650Z         "geometry": "87v:10lf77w"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7457033Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7457403Z       "d34b00a1-9b13-8000-8000-000000494f41": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7457849Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7458246Z         "geometry": "10h:ea0yfg"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7458825Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7459185Z       "d34b00a1-9b13-8000-8000-000000494f54": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7459848Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7460247Z         "geometry": "1rx:9aqu74"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7460615Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7460975Z       "d34b00a1-9b13-8000-8000-0000004e464b": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7461431Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7461836Z         "geometry": "i8:1pv5tjp"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7462210Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7462572Z       "d34b00a1-9b13-8000-8000-000000574c46": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7463017Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7463418Z         "geometry": "rf:5ityn8"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7463789Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7464156Z       "d34b00a1-9b13-8000-8000-000000534753": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7464604Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7465010Z         "geometry": "atr:mg9yli"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7465379Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7465738Z       "d34b00a1-9b13-8000-8000-000000464c4b": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7466189Z         "parentId": "GBR",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7466591Z         "geometry": "omv:17z8a65"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7466975Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7467342Z       "d34b00a1-9b13-8000-8000-00000041534d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7467783Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7468185Z         "geometry": "17n:1anmtv3"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7468573Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7468938Z       "d34b00a1-9b13-8000-8000-00000047554d": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7469373Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7470047Z         "geometry": "w0:1ketn2u"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7470419Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7470778Z       "d34b00a1-9b13-8000-8000-0000004d4e50": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7471210Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7471609Z         "geometry": "3a6:cucx7e"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7471986Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7472344Z       "d34b00a1-9b13-8000-8000-000000435349": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7472792Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7473212Z         "geometry": "3n:liguu4"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7473574Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7473927Z       "d34b00a1-9b13-8000-8000-000000504741": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7474360Z         "parentId": "USA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7474759Z         "geometry": "1un:wo6dad"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7475126Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7475486Z       "d34b00a1-9b13-8000-8000-000000434c50": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7475923Z         "parentId": "FRA",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7476319Z         "geometry": "5m:1m2ents"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7476692Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7477047Z       "d34b00a1-9b13-8000-8000-0000004d4143": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7477490Z         "parentId": "CHN",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7477901Z         "geometry": "1nj:13mg2tv"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7478276Z       },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7478639Z       "d34b00a1-9b13-8000-8000-000000415443": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7479074Z         "parentId": "AUS",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7479476Z         "geometry": "4c:1k66bxt"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7480087Z       }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7480361Z     }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7480621Z   },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7481073Z   "previewDerivation": "canonical-topology-simplified",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7481665Z   "previewSourceScale": "derived",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7482475Z   "previewSourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7483610Z   "canonicalSourceSha256": "f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7484735Z   "simplificationQuantile": 0.1,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7485142Z   "countries": 258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7485481Z   "coordinateCount": 106945,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7485898Z   "globalAreaError": 0.00019951,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7486314Z   "meshAlgorithmRevision": 5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7486705Z   "meshVertices": 126539,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7487139Z   "countriesCompressedBytes": 1004978,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7487626Z   "meshCompressedBytes": 1747723,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7488095Z   "combinedCompressedBytes": 2752701,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7489074Z   "countriesSha256": "cf44028c2a03459174c80c4afeb837164d8234cc279a1e3ccb25cf5cbe272ab3",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7490343Z   "meshSha256": "7586773506b3413accec98ec8b1b0b9e152eb689ad574aec46b7f324246272d7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7491030Z   "assets": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7491361Z     "previewCountries": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7491862Z       "url": "countries-preview-v0.36.1.geojson.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7492378Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7492787Z       "compressedBytes": 1004978,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7493218Z       "decodedBytes": 2780014,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7493911Z       "sha256": "cf44028c2a03459174c80c4afeb837164d8234cc279a1e3ccb25cf5cbe272ab3"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7494569Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7494877Z     "previewMesh": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7495337Z       "url": "world-mesh-preview-v0.36.1.bin.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7495831Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7496244Z       "compressedBytes": 1747723,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7496699Z       "decodedBytes": 3796812,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7497398Z       "sha256": "7586773506b3413accec98ec8b1b0b9e152eb689ad574aec46b7f324246272d7",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7498064Z       "header": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7498379Z         1129137969,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7498691Z         2,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7498979Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7499285Z         126539,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7499806Z         424977,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7500112Z         205544,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7500401Z         106945,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7500684Z         5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7500967Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7501257Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7501546Z         1032,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7501835Z         258
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7502118Z       ]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7502396Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7502694Z     "labelAnchors": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7503151Z       "url": "country-label-anchors-v0.10.1.json",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7503647Z       "encoding": "identity",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7504080Z       "compressedBytes": 13826,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7504588Z       "decodedBytes": 13826,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7505326Z       "sha256": "caeee3f0d05265cc564f68ef092b25ea8c5c4d6f1c36e2beb35a239551751512"
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7505971Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7506328Z     "canonicalCountryPacket": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7506842Z       "url": "countries-canonical-v0.36.1.pcg.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7507337Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7507764Z       "compressedBytes": 12813397,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7508206Z       "decodedBytes": 17897496,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7508898Z       "sha256": "3b8fecf48425e92a5c96d9e71e4f090c3f3d721352a359e40e46aa7a09e93faa",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7509786Z       "header": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7510112Z         826753872,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7510421Z         1,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7510712Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7511004Z         4274,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7511303Z         4291,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7511603Z         1115410,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7511909Z         13227,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7512207Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7512504Z         259,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7512798Z         4275,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7513099Z         4292,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7513391Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7513688Z         80,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7513979Z         13307,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7514271Z         13568,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7514571Z         14604,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7514866Z         31704,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7515527Z         48872,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7515814Z         50936,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7516111Z         17897496
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7516413Z       ]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7516688Z     },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7516984Z     "canonicalMesh": {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7517408Z       "url": "world-mesh-v0.36.1.bin.gz",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7517846Z       "encoding": "gzip",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7518258Z       "compressedBytes": 23128706,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7518687Z       "decodedBytes": 51107564,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7519369Z       "sha256": "65b3ca008227a39d7dd064711a88e4d1be4a710e186b51d5c092c937b3775630",
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7520487Z       "header": [
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7520815Z         1129137969,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7521142Z         2,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7521443Z         258,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7521744Z         1636840,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7522048Z         6461577,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7522353Z         2220880,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7522663Z         1115410,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7522960Z         5,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7523263Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7523568Z         516,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7523857Z         1032,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7524151Z         258
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7524437Z       ]
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7524714Z     }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7524984Z   },
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7525283Z   "milliseconds": 312694
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:46.7525633Z }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:47.7255429Z {"mode":"build","worldDataVersion":"f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe","assets":5,"programVersionDependency":false}
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:48.6512214Z {"mode":"check","worldDataVersion":"f2cd115ef31fb66c58f81a00f7eaa4bdbbea3914f779c9e50659cb541362cabe","assets":5,"programVersionDependency":false}
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:11:51.0291467Z preview: 254 countries, 13465 segments, 229617 bytes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:12:19.2778173Z canonical: 254 countries, 350088 segments, 5306176 bytes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:12:21.8065279Z preview: 254 countries, 13465 segments, 229617 bytes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:12:50.5795204Z canonical: 254 countries, 350088 segments, 5306176 bytes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:11.1717536Z Prepared 25/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:12.8501457Z Prepared 50/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:15.1335055Z Prepared 75/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:24.2880656Z Prepared 100/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:27.2713123Z Prepared 125/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:29.3343476Z Prepared 150/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:31.1863020Z Prepared 175/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:33.6258937Z Prepared 200/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:35.4725420Z Prepared 225/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:36.8744263Z Prepared 250/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:38.3846728Z Prepared 275/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:40.6511812Z Prepared 300/324 fixed polygon meshes
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:41.5405655Z Prepared 324 fixed polygon meshes (82594200 compressed bytes; 0 unchanged meshes reused).
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1408760Z file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/assets/js/modules/polygon-mesh-codec.js:25
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1410575Z   const fail = detail => { throw Object.assign(new Error(`Invalid prepared polygon mesh: ${detail}`), { code: 'PL-MESH-ASSET' }); };
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1411310Z                                                ^
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1411576Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1415188Z Error: Invalid prepared polygon mesh: boundary edge
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1416714Z     at fail (file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/assets/js/modules/polygon-mesh-codec.js:25:48)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1418311Z     at decodePolygonMesh (file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/assets/js/modules/polygon-mesh-codec.js:53:36)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1420309Z     at file:///home/runner/work/Pando/Pando/build-native/p2/publication-web/checkout/scripts/p2-validate-artifacts.mjs:35:5 {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1421561Z   code: 'PL-MESH-ASSET'
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1422009Z }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1422622Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1422812Z Node.js v24.21.0
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1506172Z node:internal/errors:986
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1507628Z   const err = new Error(message);
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1508419Z               ^
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1508648Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1509427Z Error: Command failed: /opt/hostedtoolcache/node/24.21.0/x64/bin/node scripts/p2-validate-artifacts.mjs prepared-mesh
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1513903Z     at genericNodeError (node:internal/errors:986:15)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1514570Z     at wrappedFn (node:internal/errors:540:14)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1515221Z     at checkExecSyncError (node:child_process:942:11)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1516143Z     at execFileSync (node:child_process:978:15)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1516753Z     at runCommand (file:///home/runner/work/Pando/Pando/scripts/lib/p2-artifact-graph.mjs:254:3)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1517580Z     at stageArtifacts (file:///home/runner/work/Pando/Pando/scripts/lib/p2-artifact-graph.mjs:238:48)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1518506Z     at async publishGeneratedArtifacts (file:///home/runner/work/Pando/Pando/scripts/p2-publish-artifacts.mjs:63:9)
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1519357Z     at async file:///home/runner/work/Pando/Pando/scripts/p2-publish-artifacts.mjs:88:16 {
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1520127Z   status: 1,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1520347Z   signal: null,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1520588Z   output: [ null, null, null ],
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1520838Z   pid: 3199,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1521053Z   stdout: null,
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1521252Z   stderr: null
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1521446Z }
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1521550Z 
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1521641Z Node.js v24.21.0
+generate	Commit verified phases locally, then publish one guarded result	2026-10-23T03:13:42.1612368Z ##[error]Process completed with exit code 1.

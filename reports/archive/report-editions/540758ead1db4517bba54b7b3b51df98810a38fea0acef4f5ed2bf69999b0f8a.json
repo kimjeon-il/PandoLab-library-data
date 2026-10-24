@@ -1,0 +1,9 @@
+{
+  "source": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\pandolab-web-shell.exe",
+  "destination": "D:\\dev\\PandoLab\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\pandolab-web-shell.exe",
+  "exeSha256": "BDCB769398D94DABDF968C2F41FB6D00B725D691F66945B397E761DA387D7252",
+  "updatedAt": "2026-10-22T11:51:55.3269168Z",
+  "bytes": 437728142,
+  "loaderSha256": "86545B66CDB0603BC26B626FB9AD610CB6E71F28D468F5EA66DF23B03DDA96D5",
+  "commit": "937abb6957db96bc9bebd3bf8725168fc734056c"
+}

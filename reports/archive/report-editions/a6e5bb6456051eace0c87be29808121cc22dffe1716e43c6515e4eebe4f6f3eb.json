@@ -1,0 +1,62 @@
+{
+  "runtime": {
+    "url": "http://tauri.localhost/",
+    "assetRevision": "0.36.0-build-86bcd7bf8433",
+    "dataRevision": "data-b5495cd43ea09bbda19c9a3e689e6918",
+    "resourceProfile": "full-world",
+    "native": true,
+    "layout": "compact"
+  },
+  "metrics": [
+    {
+      "id": "undoBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "redoBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "notificationCloseBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "createMenuBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "referenceImageBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "objectSearchBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "id": "resetViewBtn",
+      "width": 36,
+      "height": 36,
+      "dx": 0,
+      "dy": 0
+    }
+  ],
+  "injectedTransportForDiagnosis": true
+}

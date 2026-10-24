@@ -1,0 +1,43 @@
+[WebServer] (node:18240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:16220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\distribution.spec.mjs:65:1 › distribution controls stay inside the single view submenu on desktop and mobile (28.2s)
+
+
+  1) tests\browser\distribution.spec.mjs:65:1 › distribution controls stay inside the single view submenu on desktop and mobile 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  locator('#mobileMenuBtn')
+    Expected: focused
+    Received: inactive
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeFocused" with timeout 8000ms
+      - waiting for locator('#mobileMenuBtn')
+        18 × locator resolved to <button type="button" id="mobileMenuBtn" aria-label="메뉴 열기" data-tooltip="메뉴 열기" aria-haspopup="menu" aria-expanded="false" aria-controls="mobileGlobalMenu" class="ui-button icon-btn mobile-menu-trigger">…</button>
+           - unexpected value "inactive"
+
+
+      145 |   });
+      146 |   await expect(group).toBeHidden();
+    > 147 |   await expect(page.locator('#mobileMenuBtn')).toBeFocused();
+          |                                                ^
+      148 |   expect(errors).toEqual([]);
+      149 | });
+      150 |
+        at D:\dev\worktrees\ui\tests\browser\distribution.spec.mjs:147:48
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\PandoLab-library-data\reports\.edits\ui\development\testing\web-shell\view-menu-results\distribution-distribution--27462-bmenu-on-desktop-and-mobile\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\PandoLab-library-data\reports\.edits\ui\development\testing\web-shell\view-menu-results\distribution-distribution--27462-bmenu-on-desktop-and-mobile\error-context.md
+
+  1 failed
+    tests\browser\distribution.spec.mjs:65:1 › distribution controls stay inside the single view submenu on desktop and mobile 

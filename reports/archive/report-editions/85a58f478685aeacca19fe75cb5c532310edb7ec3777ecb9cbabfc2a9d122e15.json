@@ -1,0 +1,108 @@
+{
+  "checks": {
+    "blockedRequests": "PASS",
+    "builtinWorld": "PASS",
+    "canonicalGeometry": "PASS",
+    "canonicalMesh": "PASS",
+    "dataLoaderWorker": "PASS",
+    "modelEntityCount": "PASS",
+    "packageProfile": "PASS",
+    "preview": "PASS",
+    "renderer": "PASS",
+    "sharedCore": "PASS",
+    "sourceCountryCount": "PASS",
+    "sovereignRootCount": "PASS"
+  },
+  "embeddedBuild": {
+    "commit": "8dd3b3b233bc553e25410e7518300a17c3bb5f41",
+    "coreSourceSha256": "e3358a716040d593d44d4b127c2c0dac5147aa27b1c0e797a69cf758373b50f4",
+    "files": [
+      {
+        "bytes": 51379,
+        "path": "assets/wasm/pandoeditor-core.js",
+        "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "bytes": 2998689,
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "sha256": "1456b64420176f87dcf4e89ea3d694ae4d911e9e805e74db506fc2f46bb63031"
+      },
+      {
+        "bytes": 23233,
+        "path": "assets/wasm/pandoeditor-core.manifest.json",
+        "sha256": "6dfa4f6c850c2d4d54191790f211ae6f9828f3ef78fbabdb2a944b0d4915a06b"
+      }
+    ],
+    "fixture": null,
+    "schema": "pandolab-web-shell-stage",
+    "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "observed": {
+    "activeWebGlContextCount": 1,
+    "blockedRequests": 0,
+    "canonicalGeometryReceivedMs": 11074.5,
+    "canonicalMeshReceivedMs": 48331.60000000149,
+    "countryBaseIndexCount": 108978,
+    "countryCount": 254,
+    "dataRevision": "data-b5495cd43ea09bbda19c9a3e689e6918",
+    "expectedModelCount": 254,
+    "expectedRootCount": 207,
+    "expectedSourceCount": 258,
+    "previewReceivedMs": 387.29999999701977,
+    "readyMs": 50727.60000000149,
+    "renderer": "webgl2",
+    "sourceCountryCount": 258,
+    "sovereignRootCount": 207,
+    "triangleCount": 2153859,
+    "workers": [
+      {
+        "name": "pandolab-data-loader",
+        "type": "module"
+      },
+      {
+        "name": "",
+        "type": "module"
+      },
+      {
+        "name": "pandolab-country-shared-boundary",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-label-anchors",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "",
+        "type": "module"
+      }
+    ]
+  },
+  "ok": true,
+  "phase": "canonical-ready",
+  "schema": "pandolab-web-shell-world-probe",
+  "version": 1
+}

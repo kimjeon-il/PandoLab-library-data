@@ -1,0 +1,282 @@
+✖ stages the real frontend and exact WASM pair without any world data (55.9523ms)
+✖ stages the runtime reference style catalog and every lazily loaded stylesheet (57.294ms)
+✔ rejects a modified WASM asset instead of blessing a new hash (24.9137ms)
+✖ requires the explicit editor base and never falls back to the viewer HTML (31.8793ms)
+✔ will not clear an output directory it does not own (20.7503ms)
+✖ request instrumentation preserves a classic Worker strict directive (37.0431ms)
+✖ project data follows its C++-compatible schema and UUID identity policy (4.386ms)
+✔ runtime no longer embeds legacy territorial/thematic feature aliases (28501.8265ms)
+✔ external GIS columns never reintroduce internal project aliases (0.2886ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 4
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 29712.788
+
+✖ failing tests:
+
+test at apps\web-shell\tests\stage.test.mjs:32:1
+✖ stages the real frontend and exact WASM pair without any world data (55.9523ms)
+  Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pandolab-shell-stage-U0euJ4\assets\vendor\reference-analysis\manifest.json'
+      at async open (node:internal/fs/promises:1345:25)
+      at async readFile (node:internal/fs/promises:1996:14)
+      at async stageOwnedPrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:99:38)
+      at async stagePrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:32:16)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage.test.mjs:34:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-shell-stage-U0euJ4\\assets\\vendor\\reference-analysis\\manifest.json'
+  }
+
+test at apps\web-shell\tests\stage.test.mjs:49:1
+✖ stages the runtime reference style catalog and every lazily loaded stylesheet (57.294ms)
+  Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pandolab-shell-stage-DPDWbr\assets\vendor\reference-analysis\manifest.json'
+      at async open (node:internal/fs/promises:1345:25)
+      at async readFile (node:internal/fs/promises:1996:14)
+      at async stageOwnedPrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:99:38)
+      at async stagePrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:32:16)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage.test.mjs:55:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-shell-stage-DPDWbr\\assets\\vendor\\reference-analysis\\manifest.json'
+  }
+
+test at apps\web-shell\tests\stage.test.mjs:69:1
+✖ requires the explicit editor base and never falls back to the viewer HTML (31.8793ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /explicit product base/. Input:
+  
+  "Error: ENOENT: no such file or directory, open 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-shell-stage-L3aKwM\\assets\\vendor\\reference-analysis\\manifest.json'"
+  
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage.test.mjs:72:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pandolab-shell-stage-L3aKwM\assets\vendor\reference-analysis\manifest.json'
+        at async open (node:internal/fs/promises:1345:25)
+        at async readFile (node:internal/fs/promises:1996:14)
+        at async stageOwnedPrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:99:38)
+        at async stagePrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:32:16)
+        at async waitForActual (node:assert:646:5)
+        at async strict.rejects (node:assert:769:25)
+        at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage.test.mjs:72:3)
+        at async Test.run (node:internal/test_runner/test:1409:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:974:7),
+    expected: /explicit product base/,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at apps\web-shell\tests\stage.test.mjs:82:1
+✖ request instrumentation preserves a classic Worker strict directive (37.0431ms)
+  Error: ENOENT: no such file or directory, open 'C:\Users\taeeu\AppData\Local\Temp\pandolab-shell-stage-lnno5t\assets\vendor\reference-analysis\manifest.json'
+      at async open (node:internal/fs/promises:1345:25)
+      at async readFile (node:internal/fs/promises:1996:14)
+      at async stageOwnedPrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:99:38)
+      at async stagePrototype (file:///D:/dev/worktrees/ui/apps/web-shell/stage.mjs:32:16)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/apps/web-shell/tests/stage.test.mjs:85:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-shell-stage-lnno5t\\assets\\vendor\\reference-analysis\\manifest.json'
+  }
+
+test at tests\unit\versioning-source-schema.test.mjs:15:1
+✖ project data follows its C++-compatible schema and UUID identity policy (4.386ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /commandOwner\.inspectImport\(JSON\.stringify\(project\)/. Input:
+  
+  "import {normalizeProjectSetup} from './project-setup.js';\r\n" +
+    "import { getRuntimePerformanceMetrics,PERFORMANCE_METRIC_NAMES } from './runtime-performance-metrics.js';\r\n" +
+    "import { createCoreDocumentReadModel } from './core-document-read-model.js';\r\n" +
+    '\r\n' +
+    "const metricNow=() => typeof performance==='undefined' ? Date.now():performance.now();\r\n" +
+    'const cloneValue = value => {\r\n' +
+    '  if (value === undefined || value === null) return value;\r\n' +
+    "  if (typeof structuredClone === 'function') {\r\n" +
+    '    try { return structuredClone(value); } catch (_) { /* fall through */ }\r\n' +
+    '  }\r\n' +
+    "  if (typeof value !== 'object') return value;\r\n" +
+    '  if (Array.isArray(value)) return value.map(cloneValue);\r\n' +
+    '  return Object.fromEntries(Object.entries(value).map(([key, entry]) => [key, cloneValue(entry)]));\r\n' +
+    '};\r\n' +
+    "const presentationCommands=new Set(['presentation.apply','distribution.render-mode','distribution.boundary-visible']);\r\n" +
+    '\r\n' +
+    '/**\r\n' +
+    ' * Owns the canonical project boundary without exposing the mutable object\r\n' +
+    ' * returned by the host application.\r\n' +
+    ' */\r\n' +
+    'export function createProjectDomain({\r\n' +
+    '  productMode,\r\n' +
+    '  replaceSnapshot = () => false,\r\n' +
+    '  viewingPresentation = null,\r\n' +
+    '  persistence = null,\r\n' +
+    '  saveState = null,\r\n' +
+    '  createProjectFile = null,\r\n' +
+    '  prepareNewProject = async () => null,\r\n' +
+    '  restoreReplacement = null,\r\n' +
+    '  invalidateProject = () => {},\r\n' +
+    '  invalidateCommand = () => {},\r\n' +
+    '  invalidateHistory = () => {},\r\n' +
+    '  reportDiagnostic = () => {},\r\n' +
+    '  onProjectChanged = () => {},\r\n' +
+    '  onProjectReset = () => {},\r\n' +
+    '  onReplacementState = () => {},\r\n' +
+    '  onReplacementCommitted = () => {},\r\n' +
+    '  captureEditorSession=()=>null,\r\n' +
+    '  restoreEditorSession=()=>{},\r\n' +
+    '  onReplacementError = () => {},\r\n' +
+    '  appVersion,\r\n' +
+    '  commandOwner = null,\r\n' +
+    '  documentModel = null,\r\n' +
+    '  publishCommand = null,\r\n' +
+    '  readBuiltinSelectionCatalogs,\r\n' +
+    '  readPresentationCatalog = null,\r\n' +
+    '  referenceImages = null,\r\n' +
+    '} = {}) {\r\n' +
+    "  if(!['viewer','editor'].includes(productMode))throw new TypeError('Project domain requires explicit product mode.');\r\n" +
+    '  let generation = 0;\r\n' +
+    '  let openRequest=0,opening=false,openQueue=Promise.resolve();\r\n' +
+    '  let disposed = false;\r\n' +
+    '  let replacing = false;\r\n' +
+    '  let saving = false;\r\n' +
+    '  let commandQueue = Promise.resolve();\r\n' +
+    '  const preparedIntents=new Map();\r\n' +
+    '  function splitPackage(project) {\r\n' +
+    '    const { packageAssets, ...core } = project;\r\n' +
+    "    if (packageAssets && (packageAssets.schemaVersion !== 1 || Object.keys(packageAssets).some(key => !['schemaVersion', 'referenceImages', 'referenceImagesDirty'].includes(key))\r\n" +
+    "      || (packageAssets.referenceImagesDirty !== undefined && typeof packageAssets.referenceImagesDirty !== 'boolean'))) throw new TypeError('Unsupported project package assets.');\r\n" +
+    "    if (packageAssets?.referenceImages && !referenceImages && productMode === 'editor') throw new TypeError('Reference image project assets require their collection owner.');\r\n" +
+    '    return { packageAssets, core };\r\n' +
+    '  }\r\n' +
+    '\r\n' +
+    '  const snapshot = () => {\r\n' +
+    "    if (typeof documentModel?.snapshot!=='function') throw new TypeError('The accepted C++ document read model is required.');\r\n" +
+    '    return documentModel.snapshot();\r\n' +
+    '  };\r\n' +
+    '  const exportReceipt = async format => {\r\n' +
+    '    const expectedGeneration = generation;\r\n' +
+    '    const predecessor = commandQueue;\r\n' +
+    '    // A confirmed Core candidate can still be inside a reversible platform\r\n' +
+    '    // adoption. Read only after earlier application transactions settle; this\r\n' +
+    '    // read does not become a new queue owner that blocks future replacement.\r\n' +
+    '    await predecessor;\r\n' +
+    '    assertActive();\r\n' +
+    '    if (generation!==expectedGeneration || replacing)\r\n' +
+    "      throw Object.assign(new Error('Project export crossed a project replacement.'),{ code: 'PL-PERSISTENCE-STALE' });\r\n" +
+    "    if (typeof commandOwner?.exportSnapshot!=='function' || typeof appVersion!=='string')\r\n" +
+    "      throw new TypeError('Project export requires its C++ codec and current application version.');\r\n" +
+    '    const output=await commandOwner.exportSnapshot({ format,version: appVersion,savedAt: new Date().toISOString() });\r\n' +
+    '    assertActive();\r\n' +
+    '    if (generation!==expectedGeneration || replacing)\r\n' +
+    "      throw Object.assign(new Error('Project export crossed a project replacement.'),{ code: 'PL-PERSISTENCE-STALE' });\r\n" +
+    "    if(format==='pandolab-project-state' && !Object.hasOwn(output,'spatialState'))\r\n" +
+    "      throw new TypeError('The C++ file export spatial projection is required.');\r\n" +
+    '    const project = JSON.parse(output.storageJson);\r\n' +
+    '    const assetRevision = referenceImages ? referenceImages.state().revision : null;\r\n' +
+    '    if (referenceImages) project.packageAssets = { schemaVersion: 1, referenceImages: await referenceImages.exportPackage() };\r\n' +
+    "    if (referenceImages && format === 'pandolab-autosave-full') project.packageAssets.referenceImagesDirty = referenceImages.state().dirty;\r\n" +
+    "    if (generation!==expectedGeneration || replacing) throw Object.assign(new Error('Project assets crossed a project replacement.'), { code: 'PL-PERSISTENCE-STALE' });\r\n" +
+    "    return Object.freeze({ project,...(format==='pandolab-project-state' ? { spatialState: output.spatialState } : {}),checkpoint: Object.freeze({ projectGeneration: expectedGeneration,\r\n" +
+    '      epoch: output.state.epoch,content: output.state.checkpoint,presentation: output.state.presentationCheckpoint,assetRevision }) });\r\n' +
+    '  };\r\n' +
+    "  const buildFileSnapshot = () => exportReceipt('pandolab-project-state');\r\n" +
+    '  // Country selections are date-specific sources, not a globally reproducible\r\n' +
+    '  // baseline. Persist a self-contained document across calendar/data updates.\r\n' +
+    "  const buildAutosave = () => exportReceipt('pandolab-autosave-full');\r\n" +
+    '  const emitChanged = (reason, detail = null) => {\r\n' +
+    "    const event = Object.freeze({ generation, reason: String(reason || 'project-changed'), detail: cloneValue(detail) });\r\n" +
+    '    onProjectChanged(event);\r\n' +
+    '    return event;\r\n' +
+    '  };\r\n' +
+    '  const bumpGeneration = async (reason, detail = null) => {\r\n' +
+    '    generation += 1;\r\n' +
+    "    const event = { generation, reason: String(reason || 'project-reset') };\r\n" +
+    "    if (detail && typeof detail === 'object') Object.assign(event, detail);\r\n" +
+    '    await onProjectReset(Object.freeze(event));\r\n' +
+    '    return generation;\r\n' +
+    '  };\r\n' +
+    '  const assertActive = () => {\r\n' +
+    "    if (disposed) throw Object.assign(new Error('Project domain is disposed.'),\r\n" +
+    "      { code: 'PL-CORE-CANCELLED', name: 'AbortError', cancelled: true });\r\n" +
+    '  };\r\n' +
+    '\r\n' +
+    '  const executeCommand = (envelope,{ applyAccepted } = {}) => {\r\n' +
+    "    if(replacing)return Promise.reject(Object.assign(new Error('A project replacement is already requested.'),{ code: 'PL-CORE-STALE' }));\r\n" +
+    "    if(applyAccepted!==undefined && typeof applyAccepted!=='function')return Promise.reject(new TypeError('An accepted platform effect must be a function.'));\r\n" +
+    "    if(viewingPresentation && envelope.commandId==='presentation.apply' && ['visibility','objectVisibility','distributionLayerVisibility','terrainMode','distributionRenderMode','distributionActiveLayer','distributionBoundaryVisible'].includes(envelope.payload.action)) {\r\n" +
+    '      const result=viewingPresentation(envelope.payload);persistence.queueView();return Promise.resolve(result);\r\n' +
+    '    }\r\n' +
+    '    const expectedGeneration = generation;\r\n' +
+    '    const operation=commandQueue.then(async () => {\r\n' +
+    '      assertActive();\r\n' +
+    '      if (generation!==expectedGeneration)\r\n' +
+    "        throw Object.assign(new Error('The command belongs to another project generation.'),{ code: 'PL-CORE-STALE' });\r\n" +
+    "      if (typeof commandOwner?.execute!=='function' || typeof documentModel?.snapshot!=='function'\r\n" +
+    "        || typeof publishCommand!=='function')\r\n" +
+    "        throw new TypeError('Project commands require the ordered C++ document owner and accepted read-model publisher.');\r\n" +
+    '      const before=documentModel.snapshot(),beforeTerritorial=documentModel.territorialViews();\r\n' +
+    '      const startedAt=metricNow();\r\n' +
+    '      let capsule,result,failure,finishedAt;\r\n' +
+    '      try {\r\n' +
+    '        if(applyAccepted)capsule=await commandOwner.captureReplacement();\r\n' +
+    '        const outcome=await commandOwner.execute(envelope);\r\n' +
+    '        await publishCommand(outcome,{ expectedGeneration });\r\n' +
+    '        const after=documentModel.snapshot();\r\n' +
+    '        result=Object.freeze({ ...outcome,before,after,beforeTerritorial,afterTerritorial: documentModel.territorialViews() });\r\n' +
+    '        if(outcome.ok && outcome.changed) {\r\n' +
+    '          if(applyAccepted)await applyAccepted(result);\r\n' +
+    '          if(generation===expectedGeneration) {\r\n' +
+    '            if(applyAccepted && !presentationCommands.has(envelope.commandId))invalidateCommand(envelope.commandId,outcome);\r\n' +
+    '            notify(envelope.commandId,outcome,\r\n' +
+    '              applyAccepted || presentationCommands.has(envelope.commandId) ? null:reason => invalidateCommand(reason,outcome),\r\n' +
+    "              presentationCommands.has(envelope.commandId) ? 'presentation':'document');\r\n" +
+    '          }\r\n' +
+    '        }\r\n' +
+    '      } catch(error) {\r\n' +
+    '        failure=error;\r\n' +
+    '        if(capsule!==undefined) {\r\n' +
+    "          try { const restored=await commandOwner.rollbackReplacement(capsule);await publishCommand(restored,{ expectedGeneration,reason: 'command-rollback' }); }\r\n" +
+    '          catch(restoreError) { error.restoreError=restoreError; }\r\n' +
+    '        }\r\n' +
+    '      } finally {\r\n' +
+    '        finishedAt=metricNow();\r\n' +
+    '        if(capsule!==undefined)try { await commandOwner.releaseReplacement(capsule); }\r\n' +
+    '        catch(error) { if(failure)failure.cleanupError=error;else failure=error; }\r\n' +
+    '      }\r\n' +
+    '      // Telemetry observes the settled operation and cannot change its result.\r\n' +
+    '      try { getRuntimePerformanceMetrics()?.record(PERFORMANCE_METRIC_NAMES.COMMAND,Math.max(0,finishedAt-startedAt),{\r\n' +
+    "        commandId: envelope.commandId,kind: presentationCommands.has(envelope.commandId) ? 'view':'document',\r\n" +
+    "        outcome: failure || !result?.ok ? 'failed':result.changed ? 'success':'unchanged',\r\n" +
+    "        errorCode: String(failure?.code || result?.error?.code || ''),\r\n" +
+    '      }); } catch(_) { /* A collector cannot roll back an accepted command. */ }\r\n' +
+    '      if(failure)throw failure;\r\n' +
+    '      return result;\r\n' +
+    '    });\r\n' +
+    '    commandQueue=operation.catch(() => {});\r\n' +
+    '    return operation;\r\n' +
+    '  };\r\n' +
+    '  const readm'... 26033 more characters
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/versioning-source-schema.test.mjs:18:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "import {normalizeProjectSetup} from './project-setup.js';\r\nimport { getRuntimePerformanceMetrics,PERFORMANCE_METRIC_NAMES } from './runtime-performance-metrics.js';\r\nimport { createCoreDocumentReadModel } from './core-document-read-model.js';\r\n\r\nconst metricNow=() => typeof performance==='undefined' ? Date.now():performance.now();\r\nconst cloneValue = value => {\r\n  if (value === undefined || value === null) return value;\r\n  if (typeof structuredClone === 'function') {\r\n    try { return structuredClone(value); } catch (_) { /* fall through */ }\r\n  }\r\n  if (typeof value !== 'object') return value;\r\n  if (Array.isArray(value)) return value.map(cloneValue);\r\n  return Object.fromEntries(Object.entries(value).map(([key, entry]) => [key, cloneValue(entry)]));\r\n};\r\nconst presentationCommands=new Set(['presentation.apply','distribution.render-mode','distribution.boundary-visible']);\r\n\r\n/**\r\n * Owns the canonical project boundary without exposing the mutable object\r\n * returned by the host application.\r\n */\r\nexport function createProjectDomain({\r\n  productMode,\r\n  replaceSnapshot = () => false,\r\n  viewingPresentation = null,\r\n  persistence = null,\r\n  saveState = null,\r\n  createProjectFile = null,\r\n  prepareNewProject = async () => null,\r\n  restoreReplacement = null,\r\n  invalidateProject = () => {},\r\n  invalidateCommand = () => {},\r\n  invalidateHistory = () => {},\r\n  reportDiagnostic = () => {},\r\n  onProjectChanged = () => {},\r\n  onProjectReset = () => {},\r\n  onReplacementState = () => {},\r\n  onReplacementCommitted = () => {},\r\n  captureEditorSession=()=>null,\r\n  restoreEditorSession=()=>{},\r\n  onReplacementError = () => {},\r\n  appVersion,\r\n  commandOwner = null,\r\n  documentModel = null,\r\n  publishCommand = null,\r\n  readBuiltinSelectionCatalogs,\r\n  readPresentationCatalog = null,\r\n  referenceImages = null,\r\n} = {}) {\r\n  if(!['viewer','editor'].includes(productMode))throw new TypeError('Project domain requires explicit product mode.');\r\n  let generation = 0;\r\n  let openRequest=0,opening=false,openQueue=Promise.resolve();\r\n  let disposed = false;\r\n  let replacing = false;\r\n  let saving = false;\r\n  let commandQueue = Promise.resolve();\r\n  const preparedIntents=new Map();\r\n  function splitPackage(project) {\r\n    const { packageAssets, ...core } = project;\r\n    if (packageAssets && (packageAssets.schemaVersion !== 1 || Object.keys(packageAssets).some(key => !['schemaVersion', 'referenceImages', 'referenceImagesDirty'].includes(key))\r\n      || (packageAssets.referenceImagesDirty !== undefined && typeof packageAssets.referenceImagesDirty !== 'boolean'))) throw new TypeError('Unsupported project package assets.');\r\n    if (packageAssets?.referenceImages && !referenceImages && productMode === 'editor') throw new TypeError('Reference image project assets require their collection owner.');\r\n    return { packageAssets, core };\r\n  }\r\n\r\n  const snapshot = () => {\r\n    if (typeof documentModel?.snapshot!=='function') throw new TypeError('The accepted C++ document read model is required.');\r\n    return documentModel.snapshot();\r\n  };\r\n  const exportReceipt = async format => {\r\n    const expectedGeneration = generation;\r\n    const predecessor = commandQueue;\r\n    // A confirmed Core candidate can still be inside a reversible platform\r\n    // adoption. Read only after earlier application transactions settle; this\r\n    // read does not become a new queue owner that blocks future replacement.\r\n    await predecessor;\r\n    assertActive();\r\n    if (generation!==expectedGeneration || replacing)\r\n      throw Object.assign(new Error('Project export crossed a project replacement.'),{ code: 'PL-PERSISTENCE-STALE' });\r\n    if (typeof commandOwner?.exportSnapshot!=='function' || typeof appVersion!=='string')\r\n      throw new TypeError('Project export requires its C++ codec and current application version.');\r\n    const output=await commandOwner.exportSnapshot({ format,version: appVersion,savedAt: new Date().toISOString() });\r\n    assertActive();\r\n    if (generation!==expectedGeneration || replacing)\r\n      throw Object.assign(new Error('Project export crossed a project replacement.'),{ code: 'PL-PERSISTENCE-STALE' });\r\n    if(format==='pandolab-project-state' && !Object.hasOwn(output,'spatialState'))\r\n      throw new TypeError('The C++ file export spatial projection is required.');\r\n    const project = JSON.parse(output.storageJson);\r\n    const assetRevision = referenceImages ? referenceImages.state().revision : null;\r\n    if (referenceImages) project.packageAssets = { schemaVersion: 1, referenceImages: await referenceImages.exportPackage() };\r\n    if (referenceImages && format === 'pandolab-autosave-full') project.packageAssets.referenceImagesDirty = referenceImages.state().dirty;\r\n    if (generation!==expectedGeneration || replacing) throw Object.assign(new Error('Project assets crossed a project replacement.'), { code: 'PL-PERSISTENCE-STALE' });\r\n    return Object.freeze({ project,...(format==='pandolab-project-state' ? { spatialState: output.spatialState } : {}),checkpoint: Object.freeze({ projectGeneration: expectedGeneration,\r\n      epoch: output.state.epoch,content: output.state.checkpoint,presentation: output.state.presentationCheckpoint,assetRevision }) });\r\n  };\r\n  const buildFileSnapshot = () => exportReceipt('pandolab-project-state');\r\n  // Country selections are date-specific sources, not a globally reproducible\r\n  // baseline. Persist a self-contained document across calendar/data updates.\r\n  const buildAutosave = () => exportReceipt('pandolab-autosave-full');\r\n  const emitChanged = (reason, detail = null) => {\r\n    const event = Object.freeze({ generation, reason: String(reason || 'project-changed'), detail: cloneValue(detail) });\r\n    onProjectChanged(event);\r\n    return event;\r\n  };\r\n  const bumpGeneration = async (reason, detail = null) => {\r\n    generation += 1;\r\n    const event = { generation, reason: String(reason || 'project-reset') };\r\n    if (detail && typeof detail === 'object') Object.assign(event, detail);\r\n    await onProjectReset(Object.freeze(event));\r\n    return generation;\r\n  };\r\n  const assertActive = () => {\r\n    if (disposed) throw Object.assign(new Error('Project domain is disposed.'),\r\n      { code: 'PL-CORE-CANCELLED', name: 'AbortError', cancelled: true });\r\n  };\r\n\r\n  const executeCommand = (envelope,{ applyAccepted } = {}) => {\r\n    if(replacing)return Promise.reject(Object.assign(new Error('A project replacement is already requested.'),{ code: 'PL-CORE-STALE' }));\r\n    if(applyAccepted!==undefined && typeof applyAccepted!=='function')return Promise.reject(new TypeError('An accepted platform effect must be a function.'));\r\n    if(viewingPresentation && envelope.commandId==='presentation.apply' && ['visibility','objectVisibility','distributionLayerVisibility','terrainMode','distributionRenderMode','distributionActiveLayer','distributionBoundaryVisible'].includes(envelope.payload.action)) {\r\n      const result=viewingPresentation(envelope.payload);persistence.queueView();return Promise.resolve(result);\r\n    }\r\n    const expectedGeneration = generation;\r\n    const operation=commandQueue.then(async () => {\r\n      assertActive();\r\n      if (generation!==expectedGeneration)\r\n        throw Object.assign(new Error('The command belongs to another project generation.'),{ code: 'PL-CORE-STALE' });\r\n      if (typeof commandOwner?.execute!=='function' || typeof documentModel?.snapshot!=='function'\r\n        || typeof publishCommand!=='function')\r\n        throw new TypeError('Project commands require the ordered C++ document owner and accepted read-model publisher.');\r\n      const before=documentModel.snapshot(),beforeTerritorial=documentModel.territorialViews();\r\n      const startedAt=metricNow();\r\n      let capsule,result,failure,finishedAt;\r\n      try {\r\n        if(applyAccepted)capsule=await commandOwner.captureReplacement();\r\n        const outcome=await commandOwner.execute(envelope);\r\n        await publishCommand(outcome,{ expectedGeneration });\r\n        const after=documentModel.snapshot();\r\n        result=Object.freeze({ ...outcome,before,after,beforeTerritorial,afterTerritorial: documentModel.territorialViews() });\r\n        if(outcome.ok && outcome.changed) {\r\n          if(applyAccepted)await applyAccepted(result);\r\n          if(generation===expectedGeneration) {\r\n            if(applyAccepted && !presentationCommands.has(envelope.commandId))invalidateCommand(envelope.commandId,outcome);\r\n            notify(envelope.commandId,outcome,\r\n              applyAccepted || presentationCommands.has(envelope.commandId) ? null:reason => invalidateCommand(reason,outcome),\r\n              presentationCommands.has(envelope.commandId) ? 'presentation':'document');\r\n          }\r\n        }\r\n      } catch(error) {\r\n        failure=error;\r\n        if(capsule!==undefined) {\r\n          try { const restored=await commandOwner.rollbackReplacement(capsule);await publishCommand(restored,{ expectedGeneration,reason: 'command-rollback' }); }\r\n          catch(restoreError) { error.restoreError=restoreError; }\r\n        }\r\n      } finally {\r\n        finishedAt=metricNow();\r\n        if(capsule!==undefined)try { await commandOwner.releaseReplacement(capsule); }\r\n        catch(error) { if(failure)failure.cleanupError=error;else failure=error; }\r\n      }\r\n      // Telemetry observes the settled operation and cannot change its result.\r\n      try { getRuntimePerformanceMetrics()?.record(PERFORMANCE_METRIC_NAMES.COMMAND,Math.max(0,finishedAt-startedAt),{\r\n        commandId: envelope.commandId,kind: presentationCommands.has(envelope.commandId) ? 'view':'document',\r\n        outcome: failure || !result?.ok ? 'failed':result.changed ? 'success':'unchanged',\r\n        errorCode: String(failure?.code || result?.error?.code || ''),\r\n      }); } catch(_) { /* A collector cannot roll back an accepted command. */ }\r\n      if(failure)throw failure;\r\n      return result;\r\n    });\r\n    commandQueue=operation.catch(() => {});\r\n    return operation;\r\n  };\r\n  const readm"... 26033 more characters,
+    expected: /commandOwner\.inspectImport\(JSON\.stringify\(project\)/,
+    operator: 'match',
+    diff: 'simple'
+  }

@@ -1,0 +1,108 @@
+{
+  "androidDeviceEvaluation": "not-run",
+  "blockedRequests": 0,
+  "elapsedMs": 6372.4000000059605,
+  "embeddedBuild": {
+    "commit": "5de478ba676cb2286de3029578e46a222765b83f",
+    "coreSourceSha256": "c0c9347887746747d3bb868bdc78860ec20b8efdb807aed8da5adebaa16bc3be",
+    "files": [
+      {
+        "bytes": 51379,
+        "path": "assets/wasm/pandoeditor-core.js",
+        "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "bytes": 3064342,
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "sha256": "e72501c94cdc445ab149e49d7a067a62eba71ac104c8e2202f2f057cabeccc95"
+      },
+      {
+        "bytes": 23553,
+        "path": "assets/wasm/pandoeditor-core.manifest.json",
+        "sha256": "1c7edffb9d95e52c74325f09143df728c098de4672980c81fe4f8d5225381405"
+      }
+    ],
+    "fixture": null,
+    "schema": "pandolab-web-shell-stage",
+    "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "imageRecords": 2,
+  "modelStatus": "PL-REF-MODEL-MISSING",
+  "ocrDetections": 61,
+  "offlinePlaceMatches": 1,
+  "ok": true,
+  "qualityEvaluation": "not-run",
+  "releaseReady": false,
+  "schema": "pandolab-reference-runtime-probe",
+  "sharedSourceCount": 1,
+  "sourceSha256": "23ab23c7a8d16782038ca237dbff9f5e7b7a2123286af9c03a37dd0e7bcbf844",
+  "sourceSize": [
+    852,
+    675
+  ],
+  "version": 1,
+  "world": {
+    "checks": {
+      "blockedRequests": "PASS",
+      "builtinWorld": "PASS",
+      "canonicalGeometry": "PASS",
+      "canonicalMesh": "PASS",
+      "dataLoaderWorker": "PASS",
+      "modelEntityCount": "PASS",
+      "packageProfile": "PASS",
+      "preview": "PASS",
+      "renderer": "PASS",
+      "sharedCore": "PASS",
+      "sourceCountryCount": "PASS",
+      "sovereignRootCount": "PASS"
+    },
+    "observed": {
+      "activeWebGlContextCount": 1,
+      "blockedRequests": 0,
+      "canonicalGeometryReceivedMs": 3783,
+      "canonicalMeshReceivedMs": 25497.40000000596,
+      "countryBaseIndexCount": 6461577,
+      "countryCount": 254,
+      "dataRevision": "data-94eafdbb58c052b7ec04668586e18007",
+      "expectedModelCount": 254,
+      "expectedRootCount": 207,
+      "expectedSourceCount": 258,
+      "previewReceivedMs": 362.70000000298023,
+      "readyMs": null,
+      "renderer": "webgl2",
+      "sourceCountryCount": 258,
+      "sovereignRootCount": 207,
+      "triangleCount": 2153859,
+      "workers": [
+        {
+          "name": "pandolab-data-loader",
+          "type": "module"
+        },
+        {
+          "name": "",
+          "type": "module"
+        },
+        {
+          "name": "pandolab-country-shared-boundary",
+          "type": "classic"
+        },
+        {
+          "name": "pandolab-overlay-mesh",
+          "type": "classic"
+        },
+        {
+          "name": "pandolab-overlay-mesh",
+          "type": "classic"
+        },
+        {
+          "name": "pandolab-label-anchors",
+          "type": "classic"
+        }
+      ]
+    },
+    "ok": true,
+    "phase": "canonical-ready",
+    "schema": "pandolab-web-shell-world-probe",
+    "version": 1
+  }
+}

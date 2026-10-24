@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "5de478ba676cb2286de3029578e46a222765b83f",
+  "removed": [
+    {
+      "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-release\\shared-core-ci\\wasm\\wasm\\pandoeditor-core.js",
+      "bytes": 51379
+    },
+    {
+      "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-release\\shared-core-ci\\wasm\\wasm\\pandoeditor-core.wasm",
+      "bytes": 3064342
+    },
+    {
+      "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-release\\live-pages-smoke.mjs",
+      "bytes": 4797
+    },
+    {
+      "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-release\\corpus-ocr-smoke.mjs",
+      "bytes": 3227
+    }
+  ],
+  "removedFileBytes": 3123745.0,
+  "driveFreeBefore": 30291574784,
+  "driveFreeAfter": 30294708224,
+  "scope": "completed task harnesses and hash-identical downloaded CI duplicates; no recursive deletion"
+}

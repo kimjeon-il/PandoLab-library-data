@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "origin": "macro-vector-supervision",
+  "reviewed": false,
+  "supervisionQuality": "source-derived-weak",
+  "width": 1979,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international"
+  ],
+  "sourcePdf": "sources/nrcan-africa-national-reference.pdf",
+  "sourceSha256": "0359870e117f266ab76fd6fa362a66540fbdd9e41c3717a7643118ace2979408",
+  "sourceMetadata": "sources/nrcan-africa-national-reference.source.json",
+  "sourceMetadataSha256": "c3c3d8b5ece422ef6e53f7232ba7842804f7e273b9cd2f6bbdbe3ba7af6d3078",
+  "producer": {
+    "script": "tools/reference-analysis/macro.py",
+    "sha256": "516ca4406f1a2581c9821a12073e6dcb819841a56347c44bf40d33fc15f32cd9",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "positivePixels": {
+    "international": 48407,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/nrcan-africa-national-reference.mask.png",
+    "sha256": "4248f9c1f393c77b9bc91c529ec94e19007720d58a4da8b618caf4f26dde4a50"
+  },
+  "validRaster": {
+    "path": "derived/nrcan-africa-national-reference.valid.png",
+    "sha256": "d50e772321021194b9659c12edb753dc3c90b38df9652d69db28115159184db9"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "readiness": "error",
+  "events": [
+    {
+      "type": "error",
+      "text": "[PL-GEOMETRY-APPLY-001] Error: 국가 자료 묶음 저장 크기가 올바르지 않습니다.\n    at validateStoredAsset (http://tauri.localhost/assets/js/modules/stored-asset-loader.js?v=0.36.0-build-86bcd7bf8433:106:77)\n    at loadRepresentation (http://tauri.localhost/assets/js/modules/stored-asset-loader.js?v=0.36.0-build-86bcd7bf8433:160:13)",
+      "location": {
+        "url": "http://tauri.localhost/assets/js/modules/app-progressive-startup.js?v=0.36.0-build-86bcd7bf8433",
+        "line": 403,
+        "column": 14,
+        "lineNumber": 403,
+        "columnNumber": 14
+      }
+    }
+  ]
+}

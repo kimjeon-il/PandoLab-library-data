@@ -1,0 +1,25 @@
+{
+  "units": {
+    "ui": 36,
+    "hydroAndAppStaging": 17,
+    "failed": 0
+  },
+  "syntax": {
+    "eslint": "passed",
+    "pythonAst": [
+      "batch01",
+      "batch02",
+      "batch03"
+    ],
+    "yaml": [
+      "batch01",
+      "batch02",
+      "batch03"
+    ]
+  },
+  "generated": {
+    "metadata": "passed",
+    "css": "passed",
+    "diffCheck": "passed"
+  }
+}

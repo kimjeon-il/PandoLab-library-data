@@ -1,0 +1,26 @@
+file:///D:/dev/PandoLab/tools/library-data.mjs:458
+  catch (error) { throw Error('Library storage is already running in another worktree; retry after it finishes.', { cause: error }); }
+                        ^
+
+Error: Library storage is already running in another worktree; retry after it finishes.
+    at withCheckoutLock (file:///D:/dev/PandoLab/tools/library-data.mjs:458:25)
+    at withLibraryLock (file:///D:/dev/PandoLab/tools/library-data.mjs:449:81)
+    ... 4 lines matching cause stack trace ...
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  [cause]: Error: EEXIST: file already exists, open 'D:\dev\PandoLab-library-data\.git\pando-library.lock'
+      at openSync (node:fs:621:18)
+      at withCheckoutLock (file:///D:/dev/PandoLab/tools/library-data.mjs:457:18)
+      at withLibraryLock (file:///D:/dev/PandoLab/tools/library-data.mjs:449:81)
+      at prepareLibraryData (file:///D:/dev/PandoLab/tools/library-data.mjs:441:10)
+      at file:///D:/dev/PandoLab/scripts/generate-build-metadata.mjs:21:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+      at async node:internal/modules/esm/loader:647:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+    errno: -4075,
+    code: 'EEXIST',
+    syscall: 'open',
+    path: 'D:\\dev\\PandoLab-library-data\\.git\\pando-library.lock'
+  }
+}
+
+Node.js v24.21.0

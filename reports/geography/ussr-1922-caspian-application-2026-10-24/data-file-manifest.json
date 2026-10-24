@@ -1,0 +1,3181 @@
+{
+  "publishedChanges": [
+    {
+      "path": "assets/data/territorial-entities/generated/v2/index.json",
+      "bytes": 696254,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-byelorussian-ssr.json.gz",
+      "bytes": 21010,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-russian-sfsr.json.gz",
+      "bytes": 653819,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-transcaucasian-sfsr.json.gz",
+      "bytes": 8432,
+      "new": true
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union-ukrainian-ssr.json.gz",
+      "bytes": 56881,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/generated/v2/state-soviet-union.json.gz",
+      "bytes": 1047740,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-byelorussian-ssr.json",
+      "bytes": 127123,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json",
+      "bytes": 6397061,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-transcaucasian-sfsr.json",
+      "bytes": 60287,
+      "new": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union-ukrainian-ssr.json",
+      "bytes": 456572,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/source/countries/state-soviet-union.json",
+      "bytes": 10397875,
+      "new": false
+    },
+    {
+      "path": "assets/data/territorial-entities/source/lineages/transcaucasian-sfsr.json",
+      "bytes": 313,
+      "new": true
+    },
+    {
+      "path": "assets/data/territorial-entities/source/snapshots/ussr-1922-12-30.json",
+      "bytes": 325,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/coverage-report.json",
+      "bytes": 47888,
+      "new": false
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 162644,
+      "new": false
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-29e65c22056516238c78798c9fbe805980bf64c57f9676e28c0b4f5a83937058.json.gz",
+      "bytes": 2498,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KAZ-sha256-0431a8c8deffa224e6d9d44485cee7fff81bf2d03253da162197958df41f591f.json.gz",
+      "bytes": 37558,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-318c848e28f3c1406a3754dad697a44e9c142b42ae18966b66f07609fc339472.json.gz",
+      "bytes": 19993,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-0b814736d235356f04a496601f3786c5d267eb963a3d51fe3c407342719ff1b8.json.gz",
+      "bytes": 597228,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-c0d57d06165a41a1ad3fdb64f0075d1e97ee39a7a23adf4956ef6a7a21f1f1cf.json.gz",
+      "bytes": 1281307,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-d81fa42842608213662f205992d21b6160792b9e761111fd3f6a70aa313ef276.json.gz",
+      "bytes": 7696,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-1b44896628fe01920c0ea10eb14341c5209dd6b36a07f66019d3bcb307d5befe.json.gz",
+      "bytes": 52313,
+      "new": true
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-ea9134fc1e779b6c2609087cea8250cf82aa22b43935156d3cd1dea21b09da05.bin",
+      "bytes": 7452608,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/manifest.json",
+      "bytes": 227650,
+      "new": false
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3553927f7874ac649b41491b33f3868e9240b63a7d09cd14e28cb5fd404be057.bin.gz",
+      "bytes": 2290727,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5a2da5e7f9e9defa488c1d78d09972bdd8c4199201682114804c03643ab11a90.bin.gz",
+      "bytes": 252697,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6d0562ab8c931c915e1d36eddb2ba0bc1e6cbba2cc0977b4f9267ad3544feb56.bin.gz",
+      "bytes": 50471,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9fe3d0bd7da870c8a8a33cb2e45ec10b9f143bd31db77c381803b5ebd5253f5b.bin.gz",
+      "bytes": 19381429,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ab33e59144fd02a9ae5a4053e87a5a6c5f26cbb3a07a1e65dbd5677ace3fa482.bin.gz",
+      "bytes": 1898380,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d753d1b20d061777ae36edf8c0ca163a4d47b0b7b43e6c0d5727e2cb628ec1e2.bin.gz",
+      "bytes": 2246628,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dce764da31a0838fab0642a367c4130792a91779f997c13be37451d2dd2916b8.bin.gz",
+      "bytes": 32563,
+      "new": true
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f8b8d4fe91b55452db26518c253fe09293907fe43918dc9b3916def09e789c04.bin.gz",
+      "bytes": 6616,
+      "new": true
+    },
+    {
+      "path": "assets/data/physical-land/v1/caspian-1922-land.json.gz",
+      "bytes": 4423308,
+      "new": true
+    },
+    {
+      "path": "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+      "bytes": 101744,
+      "new": true
+    },
+    {
+      "path": "assets/data/physical-land/v1/manifest.json",
+      "bytes": 1454,
+      "new": false
+    },
+    {
+      "path": "assets/data/hydro/lakes_base.geojson",
+      "bytes": 17195451,
+      "new": false
+    },
+    {
+      "path": "assets/data/hydro/hydronym-ko-overrides.json",
+      "bytes": 11951,
+      "new": false
+    },
+    {
+      "path": "assets/data/hydro/v0.13.2/hydro.bin",
+      "bytes": 12006473,
+      "new": false
+    },
+    {
+      "path": "assets/data/hydro/v0.13.2/manifest.json",
+      "bytes": 55983,
+      "new": false
+    },
+    {
+      "path": "tools/historical-library/sources/ussr-1922-approved/caspian-display-boundary-network.geojson",
+      "bytes": 1533812,
+      "new": true
+    },
+    {
+      "path": "tools/historical-library/sources/ussr-1922-approved/caspian-shoreline-completed-candidate-20261024.zip",
+      "bytes": 13323018,
+      "new": true
+    },
+    {
+      "path": "tools/historical-library/sources/ussr-1922-approved/ussr-1922-v2-reviewed-master-20261023.zip",
+      "bytes": 1300139,
+      "new": true
+    }
+  ],
+  "obsoleteEntriesOmitted": [
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AFG-sha256-bad003df9964a247d6d7f07a6ffc4db97de577891585953f9cfc3e64bcedec75.json.gz",
+      "bytes": 53937
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AGO-sha256-87fd091b35bf89881982a0fdd55483aeec7ca9504fb0c65c28e66b5a4f22cff0.json.gz",
+      "bytes": 100459
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ALB-sha256-b2140e6d32c8ff61a2ee7907c36fbcd8a0cc6a978f842d936561a9f576bb5390.json.gz",
+      "bytes": 17543
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AND-sha256-256c71d9b98e0c91baf6f733e18b75bd7b72c5ae7eaad2a9da932a28d0e9cde4.json.gz",
+      "bytes": 2586
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AND-sha256-64bc5204d0731f4d1a864df6b7024aac5383edda12a5326e2afd62517e49a0a5.json.gz",
+      "bytes": 5537
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ARE-sha256-4a58aec53510acebb5d3edd9c452e2017b100554280834cdc642ba179bc88ee8.json.gz",
+      "bytes": 9191
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ARG-sha256-a655d136e69466eef0e46e653950164985210b90a9286961a1254d0ca81f9ee3.json.gz",
+      "bytes": 210734
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ARM-sha256-a33539e1622aad05de6341633c36255d20587a21d440d618e31f5cdaa46ae991.json.gz",
+      "bytes": 15599
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AUT-sha256-6e17d86eeeb035da2e66f8f9e0789a08ca4bf18a3d89e5be228bc72a5f433024.json.gz",
+      "bytes": 73668
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AUT-sha256-b95467ec561fb6b041f9a65255c5e420c623f7575f14dbf0675206b2524e5a7e.json.gz",
+      "bytes": 75039
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/AZE-sha256-6ee20ead63db7e1ba0f7a6a51a4bd9b33cd8d53bd9d24031016f0bde114c81f2.json.gz",
+      "bytes": 37625
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BDI-sha256-dea31086a8a4b7be5d046110914796922b311edfddf45870ea7bedc62282ddaa.json.gz",
+      "bytes": 39341
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BEL-sha256-5500bfe7dde44c7f751cd09c4a51a20a75fe3271deeb5bfd1fd5b2da3cac3f68.json.gz",
+      "bytes": 44266
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BEN-sha256-58966eee05e4d2eeeef7541b17dc8da9807081fb59f958540160ed89c7ad479a.json.gz",
+      "bytes": 48037
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BFA-sha256-23b6a32edcb60cff9811f5e886c24519d845fbab15facbc870f970a2313c5de5.json.gz",
+      "bytes": 65206
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BGD-sha256-5173262c61698a4fd56988a2afc6b4bb62bce2c55d91c19610bf8e42590ae988.json.gz",
+      "bytes": 23652
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BGR-sha256-8c9e316f76c461084e839416692f36bf5a90e11e868813778df5be778048a59f.json.gz",
+      "bytes": 46503
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BIH-sha256-9a481d6ec49b477c82f413d49ded0a36929f7386ebb3d257cb66c65e090287f8.json.gz",
+      "bytes": 39315
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BLR-sha256-d876ea577c5b1d11e69db54fb6fcc6774aa6115af4a8f16aea06472757ba81bb.json.gz",
+      "bytes": 89456
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BOL-sha256-f98c944957a01e2bf3ac49d97680663b6abe7a763345d4df7f67fa911452d21c.json.gz",
+      "bytes": 135466
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BRA-sha256-42a8b70363446828e0413b6ed1ed08453525f1a856d87a217ac287b4c685781f.json.gz",
+      "bytes": 315651
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BRN-sha256-d9637ec60d2a18ec972c49832761781663bf0e0335ce4fd61c333e2d5855ad8e.json.gz",
+      "bytes": 17503
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/BWA-sha256-1cae063f725ce05f1878f539caeb8e3cd7881b7161cc9ecf97884b2115fc09f2.json.gz",
+      "bytes": 65000
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CAF-sha256-8f249572b26a13b5fe06236de40bc94a5295f510c081ab303f2341309d19ff9e.json.gz",
+      "bytes": 102488
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CAN-sha256-2a60d45108e41d8fd64a5cca5037e723e394cb9a83775201a5a1c5833b48816c.json.gz",
+      "bytes": 542669
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CHE-sha256-18f1012ee8189cb99d646e180c5890d7fb5176fb7d496b02f12144009f4535eb.json.gz",
+      "bytes": 56134
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CHE-sha256-8468456ba7cf07984532b05cf9090863fa655d670a38ba6e8c44ebcdc5202958.json.gz",
+      "bytes": 55166
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CHL-sha256-5ec2f7cd89cb1b7fc134814bb3e1f20dcfa46b054ed6970e5eb6e2f82a450357.json.gz",
+      "bytes": 280296
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CHN-sha256-4f292f629e8439225db8ff244e83c9f21468ac3f706498252ba74d360571be3a.json.gz",
+      "bytes": 423630
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CIV-sha256-5a8403448831d4885cbf085d42bd768e995d77338c0e3e12987ad94fb8908bcd.json.gz",
+      "bytes": 70684
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CMR-sha256-42eef62d13110dc072695ff603f1cbb5389b153a93dbd2c0beed73fbfa9dee2b.json.gz",
+      "bytes": 114566
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/COD-sha256-ab5aea7edc2b8acbc787d477cc1ebc88ef38df33ee61371443261fc6e122dff0.json.gz",
+      "bytes": 156645
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/COG-sha256-65c4857e7d1ebb2104d8830567543a8d385b3aa0df176737dfc7e0967d832a66.json.gz",
+      "bytes": 113923
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/COL-sha256-e719099e64447295ccae7b8b3f4af877fc48bbc64f0287f76fa0fbcb0f5cd1d2.json.gz",
+      "bytes": 152246
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CRI-sha256-4fe84fcf6d54fd94c185864621942c650072385bf4b78031bcfb9a97bf92911b.json.gz",
+      "bytes": 18395
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/CZE-sha256-585b18a8c223605d8aaadde71b539dac0a32cf78cedfb444f52cbec5b869bf79.json.gz",
+      "bytes": 68540
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/DEU-sha256-766bc1470a05692f498ca3e27718ac90726a386ff964b87fe93f8f08743fa4d7.json.gz",
+      "bytes": 96369
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/DJI-sha256-2688d8f42a1108beed78c09c2b7baefb439037fc90c81b0c14bf630e42d4d622.json.gz",
+      "bytes": 6556
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/DNK-sha256-f1482258aa5c4ccc256b90528256241b729a420de8757c7ce2003056f1373cb2.json.gz",
+      "bytes": 19007
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/DOM-sha256-14509e9ade685037e1dcec5387dc51aa9f0c702d46e872508f091da919f0233f.json.gz",
+      "bytes": 13905
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/DZA-sha256-ee12e21a6915368f6622b48a056c79a50fc7c768f43b1a67c59392ab1e7460b6.json.gz",
+      "bytes": 34378
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ECU-sha256-2efba2abe39d05fe8eb4cf23927f1513cce9528d1bab28f78e0e12e40a06d4da.json.gz",
+      "bytes": 62603
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/EGY-sha256-77664c4f1a55cb9a1646432fdfb8045ac0e1e427707020cd9ebaf4ec5af5b7aa.json.gz",
+      "bytes": 16312
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ERI-sha256-cfa38b38f131ebe3a75049ff96799988b8cc12be1c6f991a56407f22c537ff8a.json.gz",
+      "bytes": 33503
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ESP-sha256-73913a1ed4d6ac5267000205832afe6f9fe27f1952ceade3d7ee35042c04f9af.json.gz",
+      "bytes": 44777
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ESP-sha256-b86afd1d2aba03ce249bd28c3e2bf2d6a9f02468831f6bf374292fc9807b6db8.json.gz",
+      "bytes": 48062
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/EST-sha256-30cabee4e8d8ac680fb33463731db5b8ba0cd1a285efd2b8d6712b02e9b7df54.json.gz",
+      "bytes": 15753
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ETH-sha256-df8e2220236a71ad0058cea20c431d5c04aa3598f97286b1dc2c7c088b506d5e.json.gz",
+      "bytes": 35155
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/FIN-sha256-30cfeb81759df52d0d1bd740c0ed130e1ece7355a736688eade6abe428bdfc22.json.gz",
+      "bytes": 44905
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/FRA-sha256-347c810b23ef90b6faaaa87b9a90dee7dfbff429babe4026c1216ccf2f196781.json.gz",
+      "bytes": 118421
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/FRA-sha256-56c3f58a82287eb2d05b7f11b1779bc34043091e97bde020257012a01f4060ea.json.gz",
+      "bytes": 138396
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/FRA-sha256-ad64833d43c3418b010479dab33d340e61727500a3dac49f2b5fa05ef34fdc1b.json.gz",
+      "bytes": 113817
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GAB-sha256-30bea5b9f252f7a6e0714059309c2d40a253a54999aa2a97d13a7e19f8da8e8e.json.gz",
+      "bytes": 102419
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GBR-sha256-5d4eac77b93033c2abf27c119f6a425e39fdc876ad625dfefbec99a689bea32e.json.gz",
+      "bytes": 74064
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GEO-sha256-a54bfac28c7f8f0c09e424fcf016aa0205012c994175183589e79a12780614cd.json.gz",
+      "bytes": 29256
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GHA-sha256-bded6d0f36e491f015fe2c8e5d3e0237fc88735b168cec18a89675a283f874e7.json.gz",
+      "bytes": 14490
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GIN-sha256-ac607ac8f59125b4b79445b279878251f13f05b8580d48339f3077e84bdf289f.json.gz",
+      "bytes": 119041
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GMB-sha256-e6a99e02dfbca335909d5e366b170d7a4e3ea10cd1545e06f30b5e9515b456a8.json.gz",
+      "bytes": 7573
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GNB-sha256-d64a22c78163eff5e9abc5f91a9e96cd77eedc6eb73adfcbc588efcbb4dd613f.json.gz",
+      "bytes": 17300
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GNQ-sha256-4f36a56aed5bbfc0b670b45fbf84aa7196e29a04dd292ffe4b3d0fe72185727c.json.gz",
+      "bytes": 3873
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GRC-sha256-effc9e9f57a44bfcdc4aebe9884b747858aa48607766ad42a48a76d40ef44b42.json.gz",
+      "bytes": 77665
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GTM-sha256-ba975e572e5a823d8ccc8e5848c47979345e80d7933a62285f6dea850a894810.json.gz",
+      "bytes": 14903
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/GUY-sha256-2fa014682c7bef5dbbca975764498ea72f254db0d878e15e3055300b3aba90f4.json.gz",
+      "bytes": 27897
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/HND-sha256-d3d65151ee4b28f76042676ae69802c883c17043abe15ea032613ca147b0a9af.json.gz",
+      "bytes": 41428
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/HRV-sha256-82b8ac6673d6800e8a855a6afc4e5fda9ef5f641dd1678ec27aa2dd4464dd217.json.gz",
+      "bytes": 48941
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/HTI-sha256-f8b881ae92c1dbbd949ab52cd618b96bce95d3174b8d9ed828324d092a32b80d.json.gz",
+      "bytes": 14350
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/HUN-sha256-cd6e4f43ab8a0f2c10673393119502f7024cff415117646e79451d9f190811b8.json.gz",
+      "bytes": 51663
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/IDN-sha256-1911f09f52c7a6b3f2227109089cb209c86c72cb53c2cc3595a069327b618344.json.gz",
+      "bytes": 664382
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/IDN-sha256-6f77abaf548602087ae75a3cf8e4277be07958ed2c181ba01b2fb06e10611c95.json.gz",
+      "bytes": 664389
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/IND-sha256-2da8a733d4cba49e6b222382cb873d69c5e4d9fd6ce16610289bf5b9721a60b5.json.gz",
+      "bytes": 64094
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/IRL-sha256-78585202854b4bf2a27d0738c171316095792cb359c0f1b3f18b0ce0f4541eca.json.gz",
+      "bytes": 38356
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/IRN-sha256-cc0e0372ea428953b738416a9e33bb70729f62f44d537d79292626a685619d17.json.gz",
+      "bytes": 114352
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/IRQ-sha256-59053a3dd25e7a3ed7cba96d835aa8ff0fa604f4812e84658d7cc1f7e519f001.json.gz",
+      "bytes": 52152
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ITA-sha256-2f3fbc62d83b250a796ea3d1b7f0dab37ef1c2c86fe21769e807df7a12b7d16f.json.gz",
+      "bytes": 119536
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ITA-sha256-3a4d7f49c8a0d78f799148d01328cd8bc4e1b9888383a5f16442c9f765e695e9.json.gz",
+      "bytes": 83868
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/JOR-sha256-73029030a51820b44f0672a5a3eb39a9751e6a9ab3268ed1215ec124247f3314.json.gz",
+      "bytes": 4173
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KAZ-sha256-55de075310a1cd78f48b0ccc84134812a39dcd61100ebb4166a339a1d492b95f.json.gz",
+      "bytes": 36918
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KAZ-sha256-ab632361a9f07070a640dbae7cc4bd0a2014575e02c224dea6877a86133e68dc.json.gz",
+      "bytes": 190969
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KEN-sha256-b4f0f9e5fb28399b64b13430b53a3c92c23be36a4e8ba1232fdaa35adad0745b.json.gz",
+      "bytes": 30853
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KGZ-sha256-abd92956bbcf9779c8c4a9f53cb9c411d4baa4cbda52fab1dafafd389962a89c.json.gz",
+      "bytes": 76528
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KHM-sha256-6d59124d95490400555ed64a9b8d54f4d9cd0493add7de88decc87abfe3e0b6d.json.gz",
+      "bytes": 75373
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/KOR-sha256-8bd5395a9ec710141995c4bb0141143c5113819a3383318707086ba5af2eae1d.json.gz",
+      "bytes": 94287
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LAO-sha256-5ce1c89cb69899c347388b3d32b95abd0a7713fc3a26250da5b541673e7ef2e8.json.gz",
+      "bytes": 126254
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LBR-sha256-473a4f0fd846ce223414875f3f9e6a414af934057f237bdfc811bb549bc447bd.json.gz",
+      "bytes": 34554
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LBY-sha256-3c06dd06979602c20022fded2854367c396b4009d340a241a26e3c1511c4b684.json.gz",
+      "bytes": 10703
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LIE-sha256-17ae839c93779735dca7ccc923bd0efa7a51f25efbd9a72b87aa12851434cd6a.json.gz",
+      "bytes": 1846
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LIE-sha256-19e6598ad3a3e2804a8e7d160a9c958dcb5f464e25342a8bb89b7f61e7d6935c.json.gz",
+      "bytes": 3379
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LSO-sha256-ad7caad76784670eebd0a61fbb4c7d5393bfc4829e1523a5a6e033956ca874fb.json.gz",
+      "bytes": 31827
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LTU-sha256-305ace6610137944eba30908fb58d66839d5fe0b71730b41519b057e592796c3.json.gz",
+      "bytes": 44058
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LUX-sha256-c2c31726e53783c09d35c22152bad3ff1aaf075ab30dae05fd650228196e019e.json.gz",
+      "bytes": 7999
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/LVA-sha256-3f67a6beefa616031ae16f63cf45df338f765e549e29ed24e4ba994b4b1c35da.json.gz",
+      "bytes": 33704
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MAR-sha256-41f644e9c39fbd787eb45b3fe5ffaf72771812b409d63cb061c31de83477e366.json.gz",
+      "bytes": 10111
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MCO-sha256-266fc00d217e39d3698214f1bb2885819c2a2e5e487c82ef937e53e202a3594b.json.gz",
+      "bytes": 18335
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MCO-sha256-cc7c12e28f220b7f4ac7a966bdb7d0a464393e3062911771f9e78e2411f6d215.json.gz",
+      "bytes": 777
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MDA-sha256-05c1e7721375e74fcd5594a83ac7f5e1964b57fd0fafac70fe567ef51eda30e7.json.gz",
+      "bytes": 27737
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MEX-sha256-fdf732a2281509f7dbb0faf9bbd9f0e9bef6a21690316d4540cc5ecbde02f226.json.gz",
+      "bytes": 109647
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MKD-sha256-21e634d5eceb018d5b82a10901016fe48f844dc068ea9fa5a2f4e6e61dc893c5.json.gz",
+      "bytes": 18259
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MLI-sha256-af47a29c8630b1f77e1bc6e72bc95f77324b98179e9078cc7fa617a01129af82.json.gz",
+      "bytes": 101401
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MMR-sha256-1725c41a2d8a738f6b0e7887fc31d79c28b393bf83f5049f0a6692ac9ec56e46.json.gz",
+      "bytes": 156074
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MNE-sha256-82dfdea14d4dd0f3b6c93c4068ae6bb09377ef090bde6933614a7a1928a625e3.json.gz",
+      "bytes": 15737
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MNG-sha256-1a65dd7a32277844857b39e27426c4333fd0b4b5e2259c39c82c1092a659f958.json.gz",
+      "bytes": 98786
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MOZ-sha256-553a09fbdd14fc753e3815ed04d04143c2969957934a32aa4cf81013f713f135.json.gz",
+      "bytes": 86229
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MRT-sha256-1785504d92019bda763a7af039b3eff96f4f331664fa623f6d656d57e6126fe4.json.gz",
+      "bytes": 30078
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MWI-sha256-bc13cb7cbd6051c12529b4e900f65820d1ee05d3a19636c0f2898cb45893fa62.json.gz",
+      "bytes": 71954
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/MYS-sha256-70bbc3d6b521864110a0c078782236e8468fe504f47d9c1cca2b8318ae342ccb.json.gz",
+      "bytes": 97316
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/NAM-sha256-2bd218b253af30a3e54f7aa27f449a5280b353c05d85ef1f8cd3cabda6f3b4a7.json.gz",
+      "bytes": 50860
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/NER-sha256-4da8ce21c8f338f45a6af9a67610ac417bd6645b7c12dd2709a00741c4049833.json.gz",
+      "bytes": 33412
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/NGA-sha256-463dcd2ca309c3c350b718277fa09d0cc6a12a309ba1c86abd1ae055b4bc2533.json.gz",
+      "bytes": 90211
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/NIC-sha256-375569c7597776a8cd4f98a15a26177c4ef8a026804d7b61e7e25840a21a850d.json.gz",
+      "bytes": 32773
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/NLD-sha256-0e6f729547a6c48de0a870603e64a2d9dc182b3e130770c6bdda23c98716e8d6.json.gz",
+      "bytes": 26635
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/NOR-sha256-35a146a2daab35d5971663abf78cc8c64aacd85a217d3d7c68662f75e750ea8d.json.gz",
+      "bytes": 142510
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/OMN-sha256-73f0d711e0e180da7886e22db784036071e39c017d24c89d8b792b3e1f387cf0.json.gz",
+      "bytes": 11209
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/PAK-sha256-261e8c58e9039a22b0ca9529f4b92ce220d7f487f567373a1f96cadbaed5455f.json.gz",
+      "bytes": 31792
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/PAN-sha256-14138215be762dab14a748d42dac5b0bc01cc9abef599e31132b45d85672f545.json.gz",
+      "bytes": 40808
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/PER-sha256-aa6171884d6a88971080d109d72ded93093c654819385e3c2af58f46331b21e1.json.gz",
+      "bytes": 80233
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/PNG-sha256-232c6310cc69681b79336b510e9e40e457929b25c7864d05b7fe3d265a75440a.json.gz",
+      "bytes": 41864
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/POL-sha256-b019608ac3e0173b7f7885b48f3205ff504dd6d8c57a6cc2262d1ac202d22bf7.json.gz",
+      "bytes": 67931
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/PRK-sha256-a49e3a1a5832a235f0df896b0168a43be0b97f204b61705e9deef63367dbd3d6.json.gz",
+      "bytes": 104332
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/PRY-sha256-a06d9319c7bd745419eca379d822585e0861b7102cabfb8decebd28b947c6bc7.json.gz",
+      "bytes": 42131
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ROU-sha256-85d7529e7d93c96353e31ddb60fe4b16c5cc8f63701aa2b0ca543a395dd88527.json.gz",
+      "bytes": 60259
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/RUS-sha256-8895a40d7196e7ff4c28ee9394a741d3f6257e5b89af00cf9ff0414dfaf3e22c.json.gz",
+      "bytes": 570560
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/RWA-sha256-5ed6d579ee1c59f7a30c6f90755236a0949c73ad0142c1c6c9ba6e010a0e78c6.json.gz",
+      "bytes": 19711
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SAU-sha256-8186cffd43974bf942dbbc1da63fb50450c249a94be64b2a60686813946c3673.json.gz",
+      "bytes": 22153
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SDN-sha256-686c8ddd5ea542b1b1f0d65caa55e030e64f0d2195c6888cf4402b1ab039e17e.json.gz",
+      "bytes": 60732
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SDN-sha256-c6a0b287d89872927c16fb65dfc370ecd750338caa360a16fba38231036a0bd4.json.gz",
+      "bytes": 60740
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SDS-sha256-86dbfa716a20627014365a299b8ff8be34680cef9b28501326918f330aebd5d4.json.gz",
+      "bytes": 10915
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SEN-sha256-130a828a82be446dcb025757ea646d75eee75787afc522adbddb483afe8b2c34.json.gz",
+      "bytes": 43960
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SLE-sha256-a8234a3d84c754c798b4c4e1805d323c3a5b85c2779e262264d2705e473e679f.json.gz",
+      "bytes": 31544
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SLV-sha256-20a247faf94dbf6bb27bb58f464a90715881beb6839796e8f834e93f62fecaba.json.gz",
+      "bytes": 18445
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SMR-sha256-ba6ea344b82a2ade8c9d4f29a9b5f97ce1dfc64c55cfe4455cc8390fd235c2bf.json.gz",
+      "bytes": 35934
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SRB-sha256-c6d0b6146c419176c02b16b00bde4b2e3b61f6abdc7c6cfde3b96478d00831a2.json.gz",
+      "bytes": 36669
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SVK-sha256-7f13923c23182933acdac4c079496eed3b9e1b0cb0b8e82e9ee40d07365a40ea.json.gz",
+      "bytes": 39375
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SVN-sha256-36ace40e231f0b1d8148cd7a57c1ff4869e5233165b083eb091c7d6a18a105a8.json.gz",
+      "bytes": 23554
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SWE-sha256-137701c7d74e4993faf1b5614365011f4c7652097362516c3fccfab0b98a4402.json.gz",
+      "bytes": 42030
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SWZ-sha256-6266762546f7c7ece6e619b6f68746bb36c0116339f2e182b863a4fb43867d9a.json.gz",
+      "bytes": 2784
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/SYR-sha256-03357acd86c007b12af0ee4cc84caa91ad3ee13046ccce57bb40030bf4fdab1b.json.gz",
+      "bytes": 17771
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TCD-sha256-0e07545c0cd27d8985e741fd59691f1a62c1abbdddb2e85b7aac191295b82f59.json.gz",
+      "bytes": 63353
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TGO-sha256-5080809787185d381ab49c27e6137825bf94523a60891384f2669e2ba66c0cb6.json.gz",
+      "bytes": 15322
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/THA-sha256-cc49b7eb761de757ee9d4700ac8c49c7798a681c3cbcc113c82674bcdbf07023.json.gz",
+      "bytes": 130545
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TJK-sha256-df6af81582c70e22efb700a9cb02310063f75015e61e588801bffe1f95d284c5.json.gz",
+      "bytes": 79335
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TKM-sha256-ad5a0f167f72948ef4481cdc21adaca3edc7c4bca30a18b6dc0d193b31affba7.json.gz",
+      "bytes": 49047
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TLS-sha256-1051a2106a9e97dc596d36600dca9ec208d1bd05893717dc8055d3e639f45164.json.gz",
+      "bytes": 8702
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TLS-sha256-6f84351713bfc8164e4c98cc98bcdccb3ef5e629d6cbd43e7d157ba59eb4ebd6.json.gz",
+      "bytes": 8707
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TUN-sha256-49f04f84e13c586ffe237ad6e9b75a81ec0244407c1af946fe6e732b9eb7c4e1.json.gz",
+      "bytes": 18705
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TUR-sha256-45a257a29c3444a285ef86ab7ee36a2fbf160eebb909e54026c1665211ea70bc.json.gz",
+      "bytes": 90977
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/TZA-sha256-c966816f7a399e16559402eca1c63e8f0510887292f3ecb5c24b3661610ded85.json.gz",
+      "bytes": 83044
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/UGA-sha256-5ca101b8c49873d91d9d5583b2da79122eb5dca080795a8deab4cce63dac0ab1.json.gz",
+      "bytes": 36142
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/UKR-sha256-14aec091be0af231ce24903dac48a34da46c69b4c081747d7a0ed421b5b458a1.json.gz",
+      "bytes": 119805
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/UKR-sha256-de34a3c61087bdd0091878f4fee9b2d5ee0702bf63f2037fa4ca9edd21d734fb.json.gz",
+      "bytes": 119813
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/USA-sha256-d4af175239dced41345ddf2abb25f27b3c7f236c8696e1e3d6b0ee02d22aa75f.json.gz",
+      "bytes": 328318
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/UZB-sha256-cd414a413a5ec8a52ad55006b1dadb18badac77b445ccd8190eb3eb271226667.json.gz",
+      "bytes": 52410
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/VAT-sha256-0fb9ead283837ebb324cc80b3beee3434769569d3ccd368aa97e1d9fe5ce0cef.json.gz",
+      "bytes": 2601
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/VEN-sha256-f1168a3d098ea3dc1826e1d7395e4d9977b2c56fb833e18278c0113886046a2e.json.gz",
+      "bytes": 147993
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/VNM-sha256-b8a86c2accaf8842d6c286af6238d0c13ee635d77ba0ad2cd554a570cd6c27af.json.gz",
+      "bytes": 162820
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/YEM-sha256-4b496b2d150f206da8d06a5af3df5028cbd3dcf7d2d200a3f1c1ee5b1e6e5317.json.gz",
+      "bytes": 10991
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ZAF-sha256-883777a21b73a5ecfb87665740f542997eeda8a254219d192e175c9f5fe1f697.json.gz",
+      "bytes": 61999
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ZAF-sha256-bc0590b324d077a8e2c15dd917d046f5599ba02eceb8cd4695cfbff6d0cb7191.json.gz",
+      "bytes": 89353
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ZMB-sha256-cc5b68fa65e0d14fd5fa8e771e5643f75bd2ddccadb32d83dc0dfcde753571f5.json.gz",
+      "bytes": 90868
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/ZWE-sha256-02d85238fc025cfa2abc68a08f1bb221b3b3c91579346ef3ad8e1c36638d1280.json.gz",
+      "bytes": 42505
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000414c44-sha256-afa9abb1a2b9ac3ef590b777368864bc893ea88559ce081151372d995b036d24.json.gz",
+      "bytes": 4390
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-3cdcd8743a63f0a449f12d144c9bc91d330fb34a02dd52695248b85224873ce9.json.gz",
+      "bytes": 2049
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-a74569e2b5f39d2301f191579d6781de635a159e3e79c97e3af999875d9bd5d2.json.gz",
+      "bytes": 1327
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-afc6141c990562eef11724926ebba5270968bd76deb15614d669a78d7970eb3a.json.gz",
+      "bytes": 1324
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-czechoslovakia-sha256-3de571de8e214c12c5b2209e4555f2df5f4adf23c481bae64675f75181d243a0.json.gz",
+      "bytes": 12633
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-czechoslovakia-sha256-898e9e9f25563d0d7d4c35fa5f5e6d57ef70943d5ace0ab5e9c12467c977a338.json.gz",
+      "bytes": 21126
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-czechoslovakia-sha256-e2e88bde0303a43c0773d6232280693a3db063edd97be0007a19a0fb7120a3dc.json.gz",
+      "bytes": 19529
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-136acf8f416eb55c639f4e3cee9c6e4da48d43a2c158145c1fbd30407498209a.json.gz",
+      "bytes": 65189
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-203b2d0fbe20b9a98470eb1265e5d3fa09bfe645b7e1a37824a678bd700f5cae.json.gz",
+      "bytes": 125646
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-2eb6be2c61cd02f58137b961ba19d448da7c8231171df363a65c937d4fb9e79a.json.gz",
+      "bytes": 125626
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-36892f956dbed4d7f4ee312b0514bc0e8d49bb873b7b237eee6419ebdbf90636.json.gz",
+      "bytes": 123457
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-37b8723eb0b04d3f662e41815e42a40bb1abeb811845f2d64b356acd6eb6375b.json.gz",
+      "bytes": 108076
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-741efcd65298bac02de0e4988b52fe92bc2e9b0638a19da00196fd222f49f73a.json.gz",
+      "bytes": 56338
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-872deca4ea110eea0d6f2500920dd5e630cdc0ee5aaefadcb2eb516f490d1ab6.json.gz",
+      "bytes": 105604
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-8f53eaf6fac8459fd43dca9824bc11caa1deca77adcf2269a73b7dea7ae7ddaa.json.gz",
+      "bytes": 102625
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-8fc017f03707632c34be6818b0568ce5cdae363709409dc59895f974737417d5.json.gz",
+      "bytes": 104403
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-90c2684f709d19bcff81f505bc18743e14d675b9ac7cbac168cbad195fae9b90.json.gz",
+      "bytes": 80538
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-b073943aeb5f84a89bb0de3263ac34048ea46cfd37d3177c09a4674fa56bb5a2.json.gz",
+      "bytes": 102617
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-ebb9e41c2be05b5e18527f3b66bf127c95a78204892786867cb09035567776c9.json.gz",
+      "bytes": 43456
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-armenian-ssr-sha256-9ca369e7973752fca6ea4b1619ad667ba7a92437081542a6cfeb1f9fbd3c4a56.json.gz",
+      "bytes": 7834
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-azerbaijan-ssr-sha256-b243a0074d5a02541068fd7eae242bfaef0bc9e7a4b702261d848c3205da23f2.json.gz",
+      "bytes": 15497
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-1e7c7aae23f469a0f9028d0d2a8a2996d721f89e575ab8c0c4ee1cf371f55eb6.json.gz",
+      "bytes": 15502
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-42772dbb0038c8992ddf31fd11d383fae029cf9ec35a78d4f37c9370cfe8e6b9.json.gz",
+      "bytes": 15499
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-493045f882244e6431d6c95a61bd43f9eee833dcc72a48aa4a68c7aee67691d6.json.gz",
+      "bytes": 19985
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-estonian-ssr-sha256-be49dead1cc1bbb3c4ea16548c77db1de850af0133f4f54e6344c645bd2e277f.json.gz",
+      "bytes": 12115
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-georgian-ssr-sha256-73d2190673b434b5b10eb9f8dcd31a9e094e88229b08fab9d40892b285e2d047.json.gz",
+      "bytes": 9010
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-kazakh-ssr-sha256-f63d104fed670cb7ad55266b8810bd0a741e22ac816092a58691e6484a09d142.json.gz",
+      "bytes": 39341
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-kirghiz-ssr-sha256-5694723caeddcc86e051580e8d23a2aebe3ce348a4a00e807fc2e3cdf7830dde.json.gz",
+      "bytes": 14727
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-latvian-ssr-sha256-29c43a8a1fd0daf363f1b8b7c998b21c98e8969d37cc2458246822f74670c45c.json.gz",
+      "bytes": 8109
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-lithuanian-ssr-sha256-5e5d159de6ce11541bac2575c8d9b2a5fce6aa15639ca0240aec925800ca41bf.json.gz",
+      "bytes": 9113
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-moldavian-ssr-sha256-dabe0c09e89e3fed32374880af4ecae719961f2db54f8309339fb98333657866.json.gz",
+      "bytes": 10272
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-4700738582bcff75aba09bdea091d310416b64f5bdfa6ae7aed17e42535cb830.json.gz",
+      "bytes": 303769
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-90cacb1640bee5db2db61d610f2682a5972d26d9466c80548319cc93c93f552f.json.gz",
+      "bytes": 597217
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-ba6ceb7e06a05ef6e2d5489536366f37130186ee2c791677b8c2301fbb86a1b7.json.gz",
+      "bytes": 303766
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-20672bedd2a315f15044166337976adb400d93ae8855f3f7079ca285d795a4f1.json.gz",
+      "bytes": 982139
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-26b21085003c4ccb12a070b2ed8f129aa96c61c525e48cffafca91c47ecd92a6.json.gz",
+      "bytes": 1281285
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-d74b191411e227513927f8ca5f06a9a63f231b3f64ec605352710c8130c3fb38.json.gz",
+      "bytes": 982138
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-tajik-ssr-sha256-e7f675d7985639bb46a4a28fb8413118c8c04dd15b90575deedb989a84fe396b.json.gz",
+      "bytes": 15127
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-800114ec7effbf88f26d7bc3f8f29782923769043f0adac7a6da5070320432ce.json.gz",
+      "bytes": 7691
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-turkmen-ssr-sha256-9e594fb5cced4596fe6f2dd30d6a79a48113cdc66db298639ed65d1dde1ef022.json.gz",
+      "bytes": 18776
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-4188c05ca60569d836f4047ce5ffc6ea6c09584c2b43969d13d42c578541dbc5.json.gz",
+      "bytes": 33229
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-5fc5e82da472b40719247ee6c167e75e8e5cbe885fca5d65ead8a80e178aa612.json.gz",
+      "bytes": 52300
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-69c562bd9516038fb08d3bb7bfae791ea62ef4b03351b34bd42bf78d784ca5f2.json.gz",
+      "bytes": 33226
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-uzbek-ssr-sha256-41d6c02d2d3e7fe34fc6406075565d4be0e7359f2fb89da8c63ee942133270b9.json.gz",
+      "bytes": 19095
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/countries/state-yugoslavia-sha256-7ae31c0120002f5885677497076efb0ab90c72c989d4ce165609dc4782cab326.json.gz",
+      "bytes": 28790
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-082b2035f681e504a07c8d9f35087c9d11090dbd61056391f0bdefe33c65afdf.bin",
+      "bytes": 13673249
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-0d406a19256eb2372b93619c972278254f87fdb942f2681e5581310ddc1f6284.bin",
+      "bytes": 13688630
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-0ecbb644706df00b71c1a7668ab68c1b7db4a5b8284bdadf0050e6ed27e62fd5.bin",
+      "bytes": 13600139
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-2924c6c205e8716dd0e7eed603264d6060cd064783444f0ff21507d888fe1b4c.bin",
+      "bytes": 13419376
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-36ad60219c299437aa7eb4efda6ae6ca524f0cad18c4e27d62a1614e335d414c.bin",
+      "bytes": 13690799
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-46f4b88b34e7a178220d6f84e50bdd698566e4f7db26d15bf7f8e166b66b7726.bin",
+      "bytes": 13667790
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-54e7708bd795b80bc91cf4f4ae224139ff5d0fa535549c4472350c218a0b3e67.bin",
+      "bytes": 6918281
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-6b06a5470b3b1a947b40d213651399c605ef18d15354aa56c3c08de4653ad490.bin",
+      "bytes": 13644114
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-785943648ba2fab1af2bf8798d5376c7646cba7127f0253e20414c3e31d9430d.bin",
+      "bytes": 13619914
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-7b1128f100117ba7f13e1291a4e056ac1415b86477aea76c8ad686a6c783df7d.bin",
+      "bytes": 13423251
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-876bfeeacd6524dcae46f03f0980e6c471eb4af19e43d0429fdc6654e3752334.bin",
+      "bytes": 13667798
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-8bea2f0008b131f0880332ca23458df2f4a6966126443a8f2fcb51bd43d81e93.bin",
+      "bytes": 13669576
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-8d91b2c5de5966fdb91e7a6f6d5f4f7bfdffa6b280a41ac451279ec3701e3fbf.bin",
+      "bytes": 7452549
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-9e535e30b12ab61615df6e648d5d3110eee0abd06866c339aa1a984e55153ac9.bin",
+      "bytes": 13670777
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-c4e97c5d67f700ea8f6314aae59d5be402a048d4adb05a0ee1184f23c4a0952c.bin",
+      "bytes": 13630362
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-cc0ea9a80960bcabea8fc1da34d124ce2f419c1a200585bf023239d09cbbfee6.bin",
+      "bytes": 6827621
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-de9fff41d0312fea27927ecdd16692b2aab4cfbf6d97972e9ffed57fa0af3690.bin",
+      "bytes": 13690819
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-e55aad3c3fb59b5c288d5994c736588d20499290ffcd2732e1553a22d8993c4f.bin",
+      "bytes": 13562606
+    },
+    {
+      "path": "assets/data/builtin-world/generated/v1/transport/countries-sha256-f19703f37f675dc6bf686d3f583b548d275a8e3f76b8fd8b4e4a781efe55b2cd.bin",
+      "bytes": 13419379
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-004ae3688b11aa8574ee9982ce5d78d173b5f4cd65243d933aa915c88eee1a7c.bin.gz",
+      "bytes": 26002
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0085762491ab3e85151d90d3c1d6e7201267ed917743413009d7b4b58f748033.bin.gz",
+      "bytes": 142585
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-00c1c37a6749fe0208bc11dafdeba63de1298d310d1e5e572f0221468fc6b09c.bin.gz",
+      "bytes": 5173
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-00d1fceab3c91ad0e495a040328f75e7d9b6a8434d85396107948e05ec0e477d.bin.gz",
+      "bytes": 30744
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0152079c83d7e3ff09d7209b66e18054c122e232c38d73b05f5902a365558646.bin.gz",
+      "bytes": 178615
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0168fb9ca290add8509cccdb7d7c6ec7a5b4659e62e481e1febaaa227b5be964.bin.gz",
+      "bytes": 207022
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-01cf86a9b34b828b12d3c0cf206c02b77c7169fd01e1089bfea5551dde69281a.bin.gz",
+      "bytes": 480404
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0218784b807a243bfb1d5ab0c20eb077b198f80cb70ddc7c385b0e8c32c2e72e.bin.gz",
+      "bytes": 209956
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-02bf94c1b36c7b8b0286cb2b3f67a1783e39d46fab614613c7bcb70228c6fe57.bin.gz",
+      "bytes": 114440
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-03341a7bb6c66a1218e3068111fb1db53354cccf02bc976cffca402173878b7e.bin.gz",
+      "bytes": 2050
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-03f080ebad27a5fe3452d509edce244ccc46528c54ad2d17c3887e37d05d8923.bin.gz",
+      "bytes": 31512
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-03fcee5b37892f29da2a8f0855f1935fda98d3a508eb27fa04cd7b7ec1982808.bin.gz",
+      "bytes": 23774
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-046867aca5ae0e55e696bc9c02a75b778b9f0170d711943c42ee60de65d2d27b.bin.gz",
+      "bytes": 125479
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0492fde6ef763a05f05ae898bf5f3b3bf7198ab9d6020d7c7c3abb84b437eb4a.bin.gz",
+      "bytes": 118495
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0558dfc4650a312fadd30a417e994898701c34c1cc0b2531d93a0a6354e0871b.bin.gz",
+      "bytes": 22763
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0561a9ffd297514f558a4944e449d6b5b180614255290a16793cfcfa33278cda.bin.gz",
+      "bytes": 59240
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-05763ff3a5c1af8a3bf50c5aabd145dd68766e3b83f1854f6cab65618d5a296a.bin.gz",
+      "bytes": 125450
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0576eec72886b7ebde67fc6870ee170e6681b5648f3c618155203d9b3626bb8e.bin.gz",
+      "bytes": 1629672
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0582a86acfd631edd43cdcc7250ae2fddcbc3b69361e977747f2626176dbaa63.bin.gz",
+      "bytes": 160922
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-05ef4b2372b44862b60df690c521e59f1f2e222e32ccb1f75cee4f5016bcf9e8.bin.gz",
+      "bytes": 6734
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0660f83d6ed5ea43d01439802fae82cf36ec7e1fc250a8ec61d9f910ce760ffc.bin.gz",
+      "bytes": 513129
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-07da14157adff0f7bb3a7846518223c7d50d7a60c66932d5664211f57320abb2.bin.gz",
+      "bytes": 154
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-081f90d288ff4bd3e2beaf8075278ef41bb3670b0abc1f2e6b1119d7bfd27313.bin.gz",
+      "bytes": 3739
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-08e8427255319b065dedcc37d5f3ac3ef5a0996edfa1ecd9a6edb8e2c34917b9.bin.gz",
+      "bytes": 17317
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-090eecd76c9f4f9563a4e517ab30ccf4686aa054b857b34a43849c99ac8608ba.bin.gz",
+      "bytes": 42286
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0a5284977461fdde0a4a0aac09c58a33b6c22818ae2989ea662d9a9a9f6cbdad.bin.gz",
+      "bytes": 212144
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0b0bdf07f6e76902035d5c09ab8307479ef3183c28d270c48dc0c89dbe706f1b.bin.gz",
+      "bytes": 39959
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0bd29b85bbb396f7a440130305aaf15b3422cc523987a840aaa00a8003f9580b.bin.gz",
+      "bytes": 222975
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0c07503d67801eecaf55c8d0bb90d7271a8a1a8e04729d49d16ad0e4cb9459a9.bin.gz",
+      "bytes": 26449
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0c7cc7df945ef8f3dea16ef6c3a625e273bc71014598ccb5fdd2e78bf558b8b6.bin.gz",
+      "bytes": 60495
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0c98971072b81282e3a1ed518526f6b5e9c9cb5e5eceaf4ad1cc11790c6eae37.bin.gz",
+      "bytes": 1359
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0d44b9a4990bb7729ffca70690a60694e6aff621062fdd784715878d752d2818.bin.gz",
+      "bytes": 1176678
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0dd2f6a862e9d6c1327c03f3e2236ba2c8cbad20eef9264e9ee613154db99793.bin.gz",
+      "bytes": 27283
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0e4e95c73172fd6760027143fe60fb1d20312a9e57a790809b4c922c3c274264.bin.gz",
+      "bytes": 1831
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0f413ca7811ee51a3a2bd717376441894ba1bcbbe92e97d5c5ade2dc964249c4.bin.gz",
+      "bytes": 26567
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-105118b9e2552dc70dcbdc98941cef80de43b9d6cde88db3c778264413ba6c3a.bin.gz",
+      "bytes": 178838
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-108ff6d1eeecd1bafa8500515fed8c9ec8a00b6564151c76b808062496786722.bin.gz",
+      "bytes": 205026
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1186b93627edb4bd6e491c535082e768ca37d0dd92fcc46aac76d9cf2d2eb29c.bin.gz",
+      "bytes": 51193
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-11d6ad5915278e9e08e3c9cb6d186fa608d5f6a3ee4071441448aa4dbf782764.bin.gz",
+      "bytes": 72739
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-123a7e3dde8be92f729c5b66f4e96a0ce08327ffb48edb83d87825e4163d533d.bin.gz",
+      "bytes": 1316
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1258d0970263415c8331f24c7c6d3fe74f432bf8fc2be63f89cbf2685000e9d9.bin.gz",
+      "bytes": 209293
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-12d84470e552321014b203a8726c67f7d063dd68d27b2d338db3ea9a9ea5e2a8.bin.gz",
+      "bytes": 42553
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1358ffabb1a39c47b2fec4109a208af59ee65a76271b6c25c4c45c563bdd03d3.bin.gz",
+      "bytes": 2481999
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1444670415762c872f03939b1fb3b41bad8446c235a08e63ba378eb8e359fae7.bin.gz",
+      "bytes": 44400
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1454ab1d3902e30cf60b4cc71d9691e0e4d2141a7d3c456225194137d3d3296d.bin.gz",
+      "bytes": 2263
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-14e61b26b02c04a84b7adeea4aae5ea4b329cdc0fd83dd444c4862e6417a984a.bin.gz",
+      "bytes": 69718
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-15021e17cdca9dfe370553568844f24a81aa31d1b4c7c704f0ac2b30f34cd987.bin.gz",
+      "bytes": 77493
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-155d4372cfc2d581ffcde33bcd05c5001199828234de4e499615ae5a3236799c.bin.gz",
+      "bytes": 757
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-15e36db2c8e5f863e330c924ac2b17b47769934f7e1f5c7f2f2902bcbfd89650.bin.gz",
+      "bytes": 21865
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1602f7f313ac25b783ca15501258576b0860e0a15e795433bd2afcef9157aa87.bin.gz",
+      "bytes": 130772
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-16eb7bccf49599f15c65f1db68adf0a7e075843819c1fbc5dd7a1327ef531184.bin.gz",
+      "bytes": 133985
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-17c0da60d005391207f5958799d7ca1cc44a10dffd450cd6dec5414d6344a1a1.bin.gz",
+      "bytes": 15883
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-17ca5f03ad31d195784fc1c499367a100b2b1eb23e20b1cfc6bd81bcef212ece.bin.gz",
+      "bytes": 35981
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-186cd9f7d22a89c165b99e197fb2e4c95b329725371d06630e45d8f4b7df75ae.bin.gz",
+      "bytes": 55047
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-186d8324e51fb791c340c49f2c5a3145222b20f91698956befdd0a67a5ec8650.bin.gz",
+      "bytes": 1433
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-188ca29e68479f18e76f757e822ae463661f534c97bf5718015a529351417a8c.bin.gz",
+      "bytes": 366951
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1891536ff37eba215a6b661f796c67d95c0d093e11c39fa4abf840e14204baf3.bin.gz",
+      "bytes": 1044
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1937e51a5e507c20e782d865b2744e82bb8cfb200047edc9c1f093579cd2e7b2.bin.gz",
+      "bytes": 1477
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-197974d6cf5c4427306a84c33d6c28e54d172c10bf244735d6d44ddb98054dfd.bin.gz",
+      "bytes": 20328
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-19813f6dfb7d60eb813fe5d7fee7bbb9985d7c803c8cbee4eccbf7127c044158.bin.gz",
+      "bytes": 246678
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-19e7f26ef48d03487cf7dba92bc382a1e66258de5bf8c7fd1da1f5a73c276526.bin.gz",
+      "bytes": 2247
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1a17976ab4a59073681dee8a0f1fac412d9337a2e62843596fe285c49148540d.bin.gz",
+      "bytes": 92448
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1baf92aece573a18649ae4c7a519e5d8542633b890bb20df8f38a2c44594a1b8.bin.gz",
+      "bytes": 13853
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1bbd343985500295e35750ae4f5e9628475c6300dda614d1ec432eb802198e71.bin.gz",
+      "bytes": 141954
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1d1a6267a737a8646c74aebf3a35a0731060170b8efaf6d288530052f8965895.bin.gz",
+      "bytes": 197175
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1e4fa90304d4130f66104c0309fa64913c290cb02d67ee0d9da62fda41ec9cb4.bin.gz",
+      "bytes": 254145
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1e95b779469d8f06ea36e467fc22f4b68dc0c30b571df7c4526e66a4a5c9e7ef.bin.gz",
+      "bytes": 93731
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1f07e66f86df3728cc901665ec09f24dcfbac248c53e99949debcf042a727917.bin.gz",
+      "bytes": 2487698
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1f3367d434417416646392c158a134286ea9b5904b68aaea00b4e07028a5d7a1.bin.gz",
+      "bytes": 126859
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1fe3b782cd9c99beb02a455e934ac11e32a2fd2c8891cf8e5950c2e1ad2be90a.bin.gz",
+      "bytes": 93441
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-201700193c289f1a6e3416482e757cfa5495d0b0860c77a1fe9d817a8d05e77c.bin.gz",
+      "bytes": 126796
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-20bb5c617f50d6c4dc51d2ecb191dc4fe4396580dcac416d5cc69722162fb04c.bin.gz",
+      "bytes": 178308
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-212edf369a5d1e7291a9fec2c41a8725a8180d78ac6c0bca32de6e73572d79b8.bin.gz",
+      "bytes": 93442
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-213ad2f4988aab0fe7bd46d6f4c1a785f6657d45cd174b87f2ea75fc045182cc.bin.gz",
+      "bytes": 111129
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-22a1e44fe0625afd602cbeb3c9a0062a0c826eaf6338fae990e5a2f07d75ceb8.bin.gz",
+      "bytes": 399
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2377fa3b71ce157a2cd158ddee0f4139af0876818ed02d9253ddde354ad340ef.bin.gz",
+      "bytes": 17158
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-23a5f9b5c8ba39a68d75cff2e11b5d2700326fe829cad9987aec3b0e9e0fefe4.bin.gz",
+      "bytes": 11079
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-241ebb4818945e96289f6026322aba64c36cf600558f254f3676aa7e110b33af.bin.gz",
+      "bytes": 99568
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2425d01dd21261b1565c1b386a78f9096780d24183fcab30427e15694aeb14b7.bin.gz",
+      "bytes": 28284
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-247a6fafb0a50e1603631ee0458c7e19ed448d4caae730f6cbb2ddaf2b5541b4.bin.gz",
+      "bytes": 169713
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-25599ae4684127d4154427cfcf2b9dc058a0272df4f105037e674a6e4e2a1283.bin.gz",
+      "bytes": 2439905
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-25e1a45a578143a6344beaaf5b35323c810f288142a5742fbf8c8faf111649ab.bin.gz",
+      "bytes": 90387
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-26eb707f931e4fc214a5d7a416a36231a20aaef0e3f82510af26002ab7d64c78.bin.gz",
+      "bytes": 2147
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-27f60f7646c2f3b221c2185fa98ac0efe299ec72de80756ebd178e41fbdff3e1.bin.gz",
+      "bytes": 67420
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2892a39e69dfcaa9836ecd71fe6668dc8a465c3e067f8106306fd387cc590fcf.bin.gz",
+      "bytes": 41137
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-28f3c29929abdc41f4503c652ffa55ab2a4739495070c6760c3f6a6751ff277e.bin.gz",
+      "bytes": 157494
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2976e3aae330e1d84f164f8ef49de129682d58b95863c3fb0e6942db50ff45bd.bin.gz",
+      "bytes": 84670
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-29ad796f7f540cc18eb847026745fc6f8bd684b1d0fbd79cd1f8ed165feedf78.bin.gz",
+      "bytes": 30028
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-29da12329e488bc1e23b188e95677f498c8cc4843af356450b74d376e0a66b84.bin.gz",
+      "bytes": 176114
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-29f1a77382e80a777383840a8c2e840a02820b1e53d0707f83588d5b259ff8d1.bin.gz",
+      "bytes": 123165
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-29fc27573d0a87ff321623245da894d218cdf6f149054ecf3d7d280300b6e3c2.bin.gz",
+      "bytes": 111011
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2bd2319029ff4bebbf96122a91cdec45119ed9454957be16f92d6ab82a2bf52e.bin.gz",
+      "bytes": 399
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2c7a75b5916ec8ace943374e1141fb38e3d254f88b57826b5d5353cc0b31af04.bin.gz",
+      "bytes": 80033
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2ce087cd8dc918b355ba2ca1080b4762e680a94299a0236c72d760af7050939e.bin.gz",
+      "bytes": 56853
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2d57b13ff803a14c7a16489c2ae1852657750fea3f08790f7819c5a9fff8059e.bin.gz",
+      "bytes": 198632
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2ecaae6f38132ff59492e9abfea5905448fe3397f22a42320a7d2d59542ce9c2.bin.gz",
+      "bytes": 2501
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2f061718f1bb0c71c6c78501b8d4fbd4c558a2866f2616cf551a2b5b80b8d36a.bin.gz",
+      "bytes": 46541
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2f1ff73b254f4c7fdddd694a878934efcc9f3050fc3138002efa53f4be292e26.bin.gz",
+      "bytes": 91409
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2f286e6e368b13dd51f814a0a0458cb3e80e39524ad3d70e7898c51cb81c46af.bin.gz",
+      "bytes": 314712
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2f3f31138692f28819c18ec957f2a75d217593abef241cfff4e8e8598d535487.bin.gz",
+      "bytes": 437295
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2f7ee9d6c75f1a9353a6bfe45c17d9e9611da0cf5b204e71991f8675aa175d0b.bin.gz",
+      "bytes": 15799
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2fc9b7921281c7a96437164c84d6838aff358beb5b2c895d4007e4f6325acaea.bin.gz",
+      "bytes": 18047
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2ff1bd92ddd36b73707a0c89b52fd9033a48bf78288003a0559a1d214a5a4326.bin.gz",
+      "bytes": 53980
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-302d519ad5a153c610e3def2c9114a234d6cae1cacbd1493e740d1ab7117e707.bin.gz",
+      "bytes": 70652
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-311e28aca8a9eb1d2ec960af256d8f0b0498aac66fea157025f81121adc012f3.bin.gz",
+      "bytes": 244567
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3150ee417db45463563bf3772055a1229a808d2c3b9f1f5c7d755e7425a2a64e.bin.gz",
+      "bytes": 1509
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-321a4be67c9791e73d824bc89bada475a46fb958bf8c42d261be98ba1b002793.bin.gz",
+      "bytes": 500401
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-321aa7d9287ecd49ffebcc1a8eadaf4a8f0720c64164b955f2026efc75d1ddb0.bin.gz",
+      "bytes": 59740
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-330adc7e502787227dcf25ff3f4c93b36bec8c7c7c991cd9efe8a9ecb1b23b0a.bin.gz",
+      "bytes": 32612
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-340692a32375e8fca2c3cc25c6400885eca12bae7f4694c8db70ab70261a0c7b.bin.gz",
+      "bytes": 22824
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-340d03cc9a6b5283e97054bd700140c6a71d61be00b3e491f8a4419052cced6d.bin.gz",
+      "bytes": 244769
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-346c2532d06ed2c344c911491305fb2577735cab0307a9dc9a2d5e2db3c12e0d.bin.gz",
+      "bytes": 46210
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-34cf056c8bd9a5e68b8148d6f4c1b2cefe414078722b19c6020ee912da893bcb.bin.gz",
+      "bytes": 917
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-34d59da73be4680154e2e087000728ec38caa509cf2bd44e4aa59a81a5813b75.bin.gz",
+      "bytes": 107799
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-358b933bee557eab8ca875ce1a56146db0cd91a1514cc1534b92780165450b56.bin.gz",
+      "bytes": 131384
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-358fd12a522c1d8a979f82e84f76daa22a46dbe147338a291c0203e04c0d2222.bin.gz",
+      "bytes": 191461
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-35f9e42fbecc919e2ce34d2b2a16a2e8ec26428a762dad155aa21c7a0dda3316.bin.gz",
+      "bytes": 4612
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-36b1df2e7b35b97c653d6bad3644396ed6ed6851cb85b72dcd19548706f4470e.bin.gz",
+      "bytes": 690
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-372f58894da51e79cec8bc3e5787c439460b3ebfe0b17fdade2fc261bd9bbd51.bin.gz",
+      "bytes": 68069
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-37ee841f63ca0719164c28c9bcc9281b0c4cd221af971fbee4a3520854b38770.bin.gz",
+      "bytes": 11455
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-38496ff1e662e16c28077ba37167f801b933fc34e20095da1da9e398ce7a183f.bin.gz",
+      "bytes": 677763
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-387ffede686bf4096ee47f3b90b7b50b479bd9215747f43601a93a428f77033f.bin.gz",
+      "bytes": 8957
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-38c51fb195147c03f30dc1bf0fb68f4bcc9e98f88cbb1b7a2f56b410a87c4c5f.bin.gz",
+      "bytes": 91286
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-39ae673cd25174516994ec03ccd80adbb9fe94bb41be373c2bf83d1130354a95.bin.gz",
+      "bytes": 44809
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3a8a097d601cb72911d20cc63e6fb1c72aa50f7b60876419719b53c8f43985e4.bin.gz",
+      "bytes": 63153
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3ad3ac9608fe4ad640d338175dc01b8a9e8758fbf2bda43f41471c52980e3bec.bin.gz",
+      "bytes": 430522
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3b4172f612a9226cdf5389c31e05b40a215838b911390d0cf96262e4e7a72f2b.bin.gz",
+      "bytes": 38977
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3bb9c688c55d36550dfcd5404e099484a6c82ca00821d7ab2b53d572b3872253.bin.gz",
+      "bytes": 11532
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3bfe597f578b038c91743c17d4bc84ad0e4c340593257ce57f01f225b76d6d51.bin.gz",
+      "bytes": 86935
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3c450348331c03d4fa1fffc1a7002cd9294fba195569b5106c42a79d1dab4b3c.bin.gz",
+      "bytes": 36367
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3c65cdb752203076f361463c1f9acddbdcf1cd56862c39fb1e44187ab14f961f.bin.gz",
+      "bytes": 107961
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3cc19d199390b640e6cc50e8bf858abbd15cb6be1fdea7b70ece5f0663b1271d.bin.gz",
+      "bytes": 99133
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3cccb0dc83ba965aaab06c71e15e0865e5a46b43ee15acc7d368df6c8e3ba65c.bin.gz",
+      "bytes": 244792
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3efde56069b09e38bf43121e5dbda31e121fd59693b07e630068049e4218ce73.bin.gz",
+      "bytes": 140130
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-3fd0b44fbdaf9a878a2cd4619ef4270bce6365baf693869ef6232cfc5f15663d.bin.gz",
+      "bytes": 3881
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-408716b53d554965f33b75fc118910ac6c7aa07d81b36090eff5fec462a657ae.bin.gz",
+      "bytes": 177133
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-41016d634d8594fce4923d06a857ba0194d498b3f4479bd6f0c47976b2014507.bin.gz",
+      "bytes": 179
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4151bd65e180df86c4b1d9d82f2187d5a0e77b4d4c6d7513b8d614570f66f1bd.bin.gz",
+      "bytes": 45987
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4170b5d4b013f30a9f6e01fb4dcf13052226a8df3c8c6119b873c81b1a2408dc.bin.gz",
+      "bytes": 46074
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-423980aaca5136105832d06f17fdf3641ec308c859664dd36277cd8bd64be7ec.bin.gz",
+      "bytes": 89814
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-423f62a31b87ca408a66da50d9598ab684cc4f3c831bfc080a061750112d514f.bin.gz",
+      "bytes": 138893
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-42933ef156fef91f3b693d48c1f4bdb7f17a967a427a5b1932696384520b61c9.bin.gz",
+      "bytes": 2672247
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-43193144eccd38e22780b4b4ad1fb1f832aeb496685ca06a572e4b7d935aceee.bin.gz",
+      "bytes": 90457
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-43ce3dff80dd3b9e443a9208a2787ebad1b78e022ab20ef02903f61e37f34a21.bin.gz",
+      "bytes": 145362
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-443c8836d81aae263dc72e20529a3edbfd00f3f5347b41d5702ffb8c098f0f95.bin.gz",
+      "bytes": 1541
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-44af0d2fc699b3864865dc5b80b355ebb0ffcd20ae35da1bfe4414c4e5086fe7.bin.gz",
+      "bytes": 360071
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-456c116b0cda9a412f1b924efbc321abdf1414318b97c81875d16f0b90facbad.bin.gz",
+      "bytes": 282314
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-45a35e5cb1412e7ddc591f756cc7f5556d0d9a767b340cb80415a9157dd3c469.bin.gz",
+      "bytes": 375
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-45d51ffe3dc1ecd76d7ae91fc03fd9f158aa7f87aa6f7c290cd753858772945b.bin.gz",
+      "bytes": 10991
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4631563cfebac8765ec9f841ae5e1277ba55b571f6e2beef857790674a964d21.bin.gz",
+      "bytes": 649989
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4663d23c9fb6d173b558ac07006f168a8668d5ca0e04a5c0db799230cbfc901d.bin.gz",
+      "bytes": 1056
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-478225d837e8c16e6c02d7048d17fc90034e91f152a90d00e1a48a9798b655e6.bin.gz",
+      "bytes": 98583
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-47bdc53ba8c421cb9bcd3671c929f40c5ab3f9d49e2e2c3ad222914a12c6bad9.bin.gz",
+      "bytes": 1311
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-483636b99bbe833b40f19bf7716826be3bc07c8a4f72d278a9e6f89832d003e8.bin.gz",
+      "bytes": 59211
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-485dd5e1a0e2294dd5a867d9993405f90df60d3703078584a7e6485a32786fc2.bin.gz",
+      "bytes": 48016
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-487328112d5022be73b53fddf08344406bc20f76cf97f3d9293be0d70e224190.bin.gz",
+      "bytes": 152938
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-493d3768ebe42f397f6d2f50d3d5446787e824aef9d863e95f7f7035a588330e.bin.gz",
+      "bytes": 1756
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4a6f3a68dad988875bb430934d48d7a752775a3e33714c69dd3a6c31675038d3.bin.gz",
+      "bytes": 25431
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4d69974cccd72801b8126aa20edef5e1bb06336749fafc97b3f1d2942cd7fccf.bin.gz",
+      "bytes": 1073
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4ddc1c4487ff8bc495ad06c031811e44949618eaa61c7a6d68fa6d1772c8898f.bin.gz",
+      "bytes": 55372
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4e337bc50b547cca160570276b3045e5b24677175a92db97993330ffcd1d2541.bin.gz",
+      "bytes": 1176802
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4f46978c72a0d74d30db391274917e4d0df15aef8789ad44c2caf8c2a01d62f1.bin.gz",
+      "bytes": 374316
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4f653077658e156d150381e16f2f9739b5fae05ea1e1ab56c75a408a005954cb.bin.gz",
+      "bytes": 46400
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-500864fcd076a7d5042746fd7e0cc39e70f1e364731514019999b4ed828b1c19.bin.gz",
+      "bytes": 1006
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5204fc5cf8cda6e53054d67588b627d97d75bf19d00b569639c63300987a4ec9.bin.gz",
+      "bytes": 30602
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-52cbd82e98dea92d601e12432b4a2ccff976f2c492e4018fe2d2425537bb7f27.bin.gz",
+      "bytes": 116860
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-52d44cb7e27f39dd469e3594b933eda9fe67444a6a4dba8310a6a69c654f20e6.bin.gz",
+      "bytes": 2367
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-52e6c4ec9007800318088d8addbe4b3cabec23d2c197bba05ea6785fc827f191.bin.gz",
+      "bytes": 215948
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-53625522bb3a18cfd9d7afd7f422fa11ae28ecba9aff04217f8b40735906897a.bin.gz",
+      "bytes": 7936
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-53d9a3ef4ddc104f3e63e12bc42baa5b9de169c54c626bdc1100ef66a5e47330.bin.gz",
+      "bytes": 24130
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-53e1ad94532d842af22711b951a3bc4160f3e8e1c9bfb2dc61d350241367ab3e.bin.gz",
+      "bytes": 194586
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-544b2dbaef26b80dd4ff32d25ae13ccae6a71233ff13b281f25721c82123eebc.bin.gz",
+      "bytes": 123195
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-54b217573a0d6b7dd13df4c58153316d2a08edb1864a8c9928912335433b2a91.bin.gz",
+      "bytes": 56290
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-54b9e7a471ddd11d9e3937394ef128b6d53fe617385e2cf7c607b3fb7ab86012.bin.gz",
+      "bytes": 16258
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-55957a6e8b184908ae874fde8179f914e93c2f5b25e90879d70df3e4ce13b83d.bin.gz",
+      "bytes": 222068
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-567bfa79db3061d1a82d5be5c958c721b7c1c8663002af77db7977628bff1ed0.bin.gz",
+      "bytes": 175771
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-57bf562cacb0c8e12da601d3366a6b492492c3add590df6b59d918e9a139f0bf.bin.gz",
+      "bytes": 375715
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-58aa6508a4222099462d03663ff954bb50b756af63078e390a47cdd58c7c835e.bin.gz",
+      "bytes": 775056
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-58c60bcbf0f46cd6046cd74c274d7d3d7e114c95772e356bec59aac41f0bc133.bin.gz",
+      "bytes": 111228
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-594f8c7c4d03bbc76271ce4920a35ae07caef58d49b754a7f8d0327bb828ae64.bin.gz",
+      "bytes": 9322
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-59a55a02982831e62e6ff32d14d42f0f06d7eda36c021a60792abe9adbb65b3c.bin.gz",
+      "bytes": 61778
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5b148ea828302e12fa45f0367dc163eb22737ddbb39e8657359ce13acbcc6d0f.bin.gz",
+      "bytes": 313229
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5b2d984cdcc6bc1d50a8ebd52cb4a35d40672d87dcf3fc3d5f0ef66b2839259b.bin.gz",
+      "bytes": 213873
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5b5cccb62c7c9e03525e6700776a3bd31bfb62f836ac45f9114acb455ce7e540.bin.gz",
+      "bytes": 8330
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5c6680f2ea9434c6c193f96272136f48c03938fdd90ab18f39102edcd73b747f.bin.gz",
+      "bytes": 94645
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5cee1c691e2f507a545f189dcecd9d16e89aed5833baa841da43e2e379671e2a.bin.gz",
+      "bytes": 15795
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5d485df8ca47fdee17672980bf0e28eb478a07c82cf062120c063f1ad8232bb9.bin.gz",
+      "bytes": 263991
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5dc566a95385112f09f6635341a0222d2f19fd1157037bbddf757e2343e4165e.bin.gz",
+      "bytes": 3013
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5e84997885e37992de0f80ddebc7f7bf4ba2a22ca79d7525dcab2bda8bfb6586.bin.gz",
+      "bytes": 377372
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5ec26b000e2cd3bfea1891465cc8928a59da16ff28873395604b8b7f646bf319.bin.gz",
+      "bytes": 5656
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6001c2cc7c3b60e195617c662e8a8194145fd13656000d8bf890a6f4c7857ce7.bin.gz",
+      "bytes": 19777
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-605f0b407ccbcf321c0366af829be0420596ec7f11f0ea866e7b727360ce1c38.bin.gz",
+      "bytes": 65521
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-609673a169ef1542c4a2cf2c942486333b6a5073722104f9f1a2927509af21ab.bin.gz",
+      "bytes": 59336
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-60d9d40f9a4a03c15d3e303adf9d93d03edb62ef633711f56df5ac143b850b5a.bin.gz",
+      "bytes": 294320
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-61ccd5e52750d231828a182895eda61e4468416335374f5788726b7e94c92aa8.bin.gz",
+      "bytes": 188785
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-61f62965d6791ca33628becf6f66020592f1c66ac4c3969241ab6dd515732b12.bin.gz",
+      "bytes": 68953
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-620ba419844b1b198c114f45f353aa7f380f8097356a58f66471aa1c94c0056c.bin.gz",
+      "bytes": 10069
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-62313fdcf6b6bc727cab616f9c36835a2f79acac2d6a6ac9f527c11314efc843.bin.gz",
+      "bytes": 177738
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-630c0830553cfb67a71294f31e8d141c5cffe31232d48c877b189f36db0f8ded.bin.gz",
+      "bytes": 491230
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-63719baed4163ee76d8714a537b14989814b5fce239a178f94678678e7de659f.bin.gz",
+      "bytes": 45683
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-63a37d179ba62633a38996eee7eb1ea03bcaef6f7988b7c1212b262396109e9e.bin.gz",
+      "bytes": 392433
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-63c04447336890b99d6b76a228bf49b2fdd646ba151f66d7392544e6f770396f.bin.gz",
+      "bytes": 79633
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-63e7a60b2bd07c10e0101e863df8735c61b20c4cd9589cfffa41475c3f7ea404.bin.gz",
+      "bytes": 1547
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-647db75df0e7fe94b66e0a2bfd52e1f157b10fd30a666ad9157d224f85f0e286.bin.gz",
+      "bytes": 26567
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-649b51e9dc018c5338a858547ef0993f595682e64749bd3c7dd3ac7aa7f9a25a.bin.gz",
+      "bytes": 44472
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-64c369a004311f3ce8769e60294b652d183f76b97e5c2f0b50f8e6574c189591.bin.gz",
+      "bytes": 150475
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-650fe4c30c8c8cd99dcc626fa5e5372ad80d94b270610c67331bcdb5ab5dfc88.bin.gz",
+      "bytes": 190295
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6525f32e1c01709251ac7fcba19a53f33596acf144bba4bfc59043016cb1b738.bin.gz",
+      "bytes": 158575
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-66980f07f37c5a8d3c9cf24bbaee0e99a286c00fbd746aee1a03d7c4abb77816.bin.gz",
+      "bytes": 59463
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6703d3e14a924d6a42a06e6bf5ac00a96267604ad02dc64c0e54ffdbdbfe6ef6.bin.gz",
+      "bytes": 1336993
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6713867b3e4b2f2fa1cf6f17915acd9953a518dc58a74d6ac446ea4914f7e060.bin.gz",
+      "bytes": 92757
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-679257366428b85f8da5043c2a2b4334da962449badef24e69e7dd5f7aa5db3a.bin.gz",
+      "bytes": 358383
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-69485747b04f2e97b26ab5e53108ed4ec240fca237f2c2a57151db806e4ecca2.bin.gz",
+      "bytes": 179106
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-696d1c50d87b2567c0146436520c6a7cc32017f0c06172bf846cd0e1dd74aa2e.bin.gz",
+      "bytes": 177592
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-69726cb4b250c67fd960c397c62f28c112070da70f73800ec2b1b90a9a992014.bin.gz",
+      "bytes": 719
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-69eac1f49ce857a7c2c6f1181d284733fb9c0655313509e0e787f6fa17836ef6.bin.gz",
+      "bytes": 208775
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6a07d0c4f04e532260ad33b167e0ae9a4d31e68306414bcddd2e255411c2c968.bin.gz",
+      "bytes": 66585
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6a1a83566f0375ff8a16d71b31e6da9f9c6af7ccdb00fc1e8c5ce0d43f50067a.bin.gz",
+      "bytes": 96986
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6aa8fed2988c9560db62e46ed94e9294e87e251206789ac46ae6acc50ed5a77f.bin.gz",
+      "bytes": 1509
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6aa990a77211d44b636e205c493e95a6760614b5cf00214d739db7c905fd5cee.bin.gz",
+      "bytes": 1219
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6acb7dddbeb31f7827b92b5ff5540d3d1e40b393002854615f9459d4002be2b8.bin.gz",
+      "bytes": 208166
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6ad75fd3fa8600caa2cfd06ca2b672108bb446f980a89f5e53769bf35a1e0525.bin.gz",
+      "bytes": 51533
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6bd1bc09ef242e0eb504c8ab17aa14ec74947f3be6f380343b6def45727464de.bin.gz",
+      "bytes": 3198
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6c50ce69555193551bcc02b4e3005a612203039c2413defe8f67ab6622d83a52.bin.gz",
+      "bytes": 263203
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6c620d1eaec21d5ef27a9c93f474d997f3fd7ce1f0dad39d8daac3e59ed19ed6.bin.gz",
+      "bytes": 43390
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6ccd345f060c9dded74263742750a586f9a3b2cc76c604d2b2085e25ecaf8d3e.bin.gz",
+      "bytes": 53636
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6d9c8f15de5094e6a3830e0e25afafd652ca88a1cec371f6e8b6fa3648a98a98.bin.gz",
+      "bytes": 42906
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6e450be1c7bc928e463a4f6a1274deb4592650d1bae89f8fc21ecce421f1c7b7.bin.gz",
+      "bytes": 2093
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7023857caec9abbf8ce5d18754bf7031de250fa2beb3eaf4195aaeb060b1fee3.bin.gz",
+      "bytes": 98999
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7036f0f80437dc06d955fd56d1f9529874733b5a367e2b16975717967cb3c8b6.bin.gz",
+      "bytes": 361768
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-70cadc399100978b8ac5ea823d5d46bdc955ac03cfd2ae8c5d871c9c4d0a0b13.bin.gz",
+      "bytes": 1514
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7207a2e5fa88f69a98900f24247fb33f51c7be31399e01a43ed3dab5da6a6b2a.bin.gz",
+      "bytes": 102124
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-72d4b05fd3474548a5bdbb191364f3b0a222ff57b13e7126a5dc93df63dd8c49.bin.gz",
+      "bytes": 10806
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-72f0c8cfdf9d411443e529ecf065b4e6f58ac680429eadd816c7d9cc61a052ce.bin.gz",
+      "bytes": 26552
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-73a040497a3c91d9e07e10a554c0d80238261e61438272805f735a288cf7b2b9.bin.gz",
+      "bytes": 137263
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-73ed562abc9f8cb908298599448e5ccb44a795bc0e9a48f6a60951eb4d62a96c.bin.gz",
+      "bytes": 371415
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-73f6d91ac88c7d484c6d9d67ce1ad47d6a6e653d9d3b4886789a8e77ef76429f.bin.gz",
+      "bytes": 774951
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7460aee4232f41cc30cc64ae749c767c73ae329caefa10422be1aae6bffc1146.bin.gz",
+      "bytes": 1215
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-749761c3bcd03e64ead7ad3a915a66dcbf1dfe7f2e6e6304c57162f840ec4b08.bin.gz",
+      "bytes": 2815
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7552ba67ead1e87a2c193f666dbb6396227461d89720d5337c53ff9f6ddca8a3.bin.gz",
+      "bytes": 61937
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-755d02c2be801ac59836ca7081e1b66ce107cd674d31442750bd1e146cb1b185.bin.gz",
+      "bytes": 1603
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7643a61fd7accbe9df1d1fc3d51a22422fa1550697610d6d859f17ad39c35e67.bin.gz",
+      "bytes": 288116
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-764f955a24ebcf17a4e0d2d1b272ccacf72000003616b76584f5f159ed96fa6b.bin.gz",
+      "bytes": 117275
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-76a38be19ac4497038f98c5f2aabd12210921abf1b3042b5d699940e3cb37be7.bin.gz",
+      "bytes": 73115
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-76b9c8716c7b27b18f691373ec30828ca9a2caf6060902d9e3bd5357702d401f.bin.gz",
+      "bytes": 127055
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-76ca55c5b301dc80d433db5fb3a11fe55f37601e19aa13f4cc4320734db8d4e5.bin.gz",
+      "bytes": 11493
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-77016995302cb77ce7fa8bfa911602a8464832fa97eab2db1f45308562557e84.bin.gz",
+      "bytes": 226696
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7763cb320682da8df85b535933cc51237325ff2d1513fb24d5392f8136166a56.bin.gz",
+      "bytes": 10363
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-779850959f41ddd4b7e4a8907626d2913eff248ca506f925d1fc559de4a17ede.bin.gz",
+      "bytes": 69266
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-77e7efd8c10688994a8fe3aa949fca85e4304ca5d8f117bf5029861823772420.bin.gz",
+      "bytes": 8408
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-77fb941edfb762c6fa2bc81242ee491eb0f91be1a8cbf3e6b16475e2426e2abe.bin.gz",
+      "bytes": 94793
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-78bd41c126c46866b96961c84de164fb8af8ce580ca8bdec079478d5e0c57b51.bin.gz",
+      "bytes": 100542
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-793825d5e3d7591c6dd4ece311e58a8563387fe072d87e75a55ba12be1655862.bin.gz",
+      "bytes": 88436
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-794212b61f06a538284f734600f961b17a1b9074ae7cf60fb31976d7b2a80a64.bin.gz",
+      "bytes": 18378
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-79a7c23d21a779e526fc9f7dc17d4b7a7772820825e7b783301c4307ca12578e.bin.gz",
+      "bytes": 482282
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-79c524e53f112110c1f781e7eba77073d16373eb16adf9012419ce8c8a778d75.bin.gz",
+      "bytes": 1314
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7a0cf6fb4c95d261e486d1d15448735350362a7ec6b10918b70a0979201865c6.bin.gz",
+      "bytes": 52068
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7a64650c78d35ed578b4b238f57690ec436b5ffa5627503f4084265f4f8e02b9.bin.gz",
+      "bytes": 11874
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7ab546e2736656d0820383e1175b7281705f3a66378bd82972b35c4f4f6fa7ee.bin.gz",
+      "bytes": 5112
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7af436401e6759763fba3179b94c76ad096776a182f7194a19c3502a048f9400.bin.gz",
+      "bytes": 142585
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7b31bece8828c09385d138bf2d08ccad169e06b10c73e0fdc3d25ffd84c6f81d.bin.gz",
+      "bytes": 293911
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7b5433abeccda2555755e628c71d5e1dd9c72593e11b088902f1d2144eeec3fa.bin.gz",
+      "bytes": 1853928
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7b9c30cbbb27f3881baf4627ab64e7b0bc8c6b2eed16950124f1723fb66225f5.bin.gz",
+      "bytes": 219028
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7bc71681f005e22a7043f2852e545240b1bbf2a94f5e490d1b4fc5a1ed985e4d.bin.gz",
+      "bytes": 3178
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7c175e667bb70888caff66a43057b743771444e95f84f2ad99080a46f7aa8d8a.bin.gz",
+      "bytes": 17745
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7c9346cf55649996525f86fbefa3aac7e386016a1b5f09de35fddc3b45203d85.bin.gz",
+      "bytes": 182090
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7c98513595e4bae2aa3cb44bf851d5e71f85710e205d8b4d2baf031b71a69e1f.bin.gz",
+      "bytes": 153992
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7d0b23ab6951726d1c244157fb8066b5ea1d076673df6151066403fe8bf4088a.bin.gz",
+      "bytes": 16007
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7e1ab1826d01695659b0561d73207071fbf8770ba318d5da96a84ce1c5648a51.bin.gz",
+      "bytes": 81089
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7e223ba6b2bc6f2d7dc0c723652b3f26615a814e358ebd3ba9873e9aa8ae1ed0.bin.gz",
+      "bytes": 41454
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7e7a20ceba7d05d4b03e75149a8e8d34091f8051882491e5e5d2b620a67c0d69.bin.gz",
+      "bytes": 431
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7f482115afb15a4ea24ffb71272b77b6e363c315fd6ebf9f7519ca9a8cb0ea75.bin.gz",
+      "bytes": 3286
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8012e1b7e536191537b014c4e1c134be66c64b60689cd983068d8bb2dfde6e90.bin.gz",
+      "bytes": 83114
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-807ff8a481e1e5f4558f9df8560b8ca2c188a5e2af85b9030445cde560bec994.bin.gz",
+      "bytes": 305805
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-80b60793c501489e83646771d8b4e21c3d64909a109f2dc7b567618c24e66f2c.bin.gz",
+      "bytes": 614596
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-80e916689dce2c0b3e7f407b821b31c844266e50ea32b22bfb5c95808526690a.bin.gz",
+      "bytes": 535547
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-80ff6cf24a415689d7ca9f13559ad56bf5d7db072f5b15414360d962240ebf96.bin.gz",
+      "bytes": 1318
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-81d16a86ecbbdeb08457aa81b739e178af3b34714ca95f375b9c8c5eb4d111e9.bin.gz",
+      "bytes": 28340
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-825a91dc720939f7f6a2af96199b241b717f22cfed3f72c8453350685eaf2097.bin.gz",
+      "bytes": 8537
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-85de90bfb46993ed01446d10fb73dfc84c50dc97259fed2e807d4f8d61bd5797.bin.gz",
+      "bytes": 38834
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8624a30e54179bf47080fc1da8affb10ad48d3a7bb051021d07cd05a344ac325.bin.gz",
+      "bytes": 40481
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-87541c5897dc9ff7e4b7187134c61de6fa51015f373de5a8b8584cac3b74d4c0.bin.gz",
+      "bytes": 8372
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-87bdd78725c2042539798c91422c41a9721ed4a4048314d7d19c8c8d24ba6576.bin.gz",
+      "bytes": 207818
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-87dacbe43b37095b721202a6844b28fadd1cc16a6014c289f06b116584a2820e.bin.gz",
+      "bytes": 2487697
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-89509f7796b582169c12fa93eb664e4d40f364206335e78e263c4ff4ebd4b72c.bin.gz",
+      "bytes": 117743
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-895ee2e4bbfb76cdbc83b935cbc7bf061ec0bb8ba531425447ccac09bd53b6f4.bin.gz",
+      "bytes": 265877
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8a84cff268049ded1f184b4eeb99b14e76d34795c23ac8234d1e6a91f9786c77.bin.gz",
+      "bytes": 86687
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8ae517144f1ae44bf207ded7563b79400bfb6b4de27bd8be9bfb915b6e612fc0.bin.gz",
+      "bytes": 130607
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8b01bc04412e126a17d55b3c1334b5edd5e40207ad02badce62dfaa763b32beb.bin.gz",
+      "bytes": 35123
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8bfe780a16ba055c7e00f5ef43c0d089143c42f3e131e109030d4e4060d3e36c.bin.gz",
+      "bytes": 77563
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8cb86f8249b48583275ee9a2491eae8bf31efd1dbd573badc713dc8d6537b5b6.bin.gz",
+      "bytes": 243328
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8cecd3eb98160f8d7c5c480d3999c1a8dc01c94685e1a2795978843ae934b7f2.bin.gz",
+      "bytes": 217718
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8cf562b22d1d6451ecb8571578dcb35ca66ef781d40c25ea901a06445600d31e.bin.gz",
+      "bytes": 350010
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8d3e41f89d902fbcda5bcba52d56ac0cec37161a5db2222da4245d3ab57981e0.bin.gz",
+      "bytes": 69356
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8da3933583e9f86d794f6fee760460e8ddeabf3c9f4be4ea9c7041e35c51d2cb.bin.gz",
+      "bytes": 19517
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8e77c71e240772a43fff898aa9b2a3d2e18820e686b358e0b803fa44bacff070.bin.gz",
+      "bytes": 29593
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8fe5199b2a499e97d42f7bb74c6d14c4e24293a67467176181534167d539e536.bin.gz",
+      "bytes": 12019
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-916954bb7d46d4696bf3446cda35c1a4afc68cfa43bff299fedf14c03aa5d27c.bin.gz",
+      "bytes": 4164
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-921029b69e463f89ab88895303a1b2944a8deb745277ddcf57b217851b0dd105.bin.gz",
+      "bytes": 28415
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-921972fa10c75a5e8edfe8c82b897a8651e63defe28bde86f169337dcbdd85b1.bin.gz",
+      "bytes": 4568
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-92c0a883952eb131bd036b7701ecb085f35df2a6116feb6bc0078806941b56fa.bin.gz",
+      "bytes": 54766
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-934a935b5c39bba8e40aae531326e3f7f8e5d4b0d815ff4f2d1f8fe7cacd4f6d.bin.gz",
+      "bytes": 1833277
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-941f7433c303a05678f07fc35e72f98b294e8822eba3299063b4a8c1d9238aec.bin.gz",
+      "bytes": 136787
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-945e05431065a35753cd7c7b19246f262fef778797aabb3930f0c764a29a2ee4.bin.gz",
+      "bytes": 392616
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-96058bd081c0476c142e755ea7ebf6dc2e7ee3373b098663a246af4e0b7ace0b.bin.gz",
+      "bytes": 774951
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-96530ff53aa72347062c6619d49026b77871500ca5845bbb98164110628da74a.bin.gz",
+      "bytes": 19226
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-99239ab5965575533a814cf100d9cad89f65e3ef95bf45e6d3f7f1bd1f861988.bin.gz",
+      "bytes": 252040
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9954f6e99cc31d22077b1b6e0e018878128944f3d09f262774cbdf26d0fc1a46.bin.gz",
+      "bytes": 129901
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-99c08873e076ccba7771f00233f38f47d456fbbb4839f1d5edc583209fc5e8d0.bin.gz",
+      "bytes": 5180
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9aa9ec69945877c639da90febd710b256a84d59f01e263ddb1ad87a238889190.bin.gz",
+      "bytes": 147
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9afa2bc3603a91bed23056a07bb336d87134908505b7a47406850112aced7b52.bin.gz",
+      "bytes": 1640
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9cd639eed627dc3b4a8a7e05ea34ab09eb6b1b0f1e669c9096ecc22dbf5a7c9d.bin.gz",
+      "bytes": 6502
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9cd94896db9b613fd3879ede4ad01769be98e1e25bd7b4fc84b3f2491d8255ca.bin.gz",
+      "bytes": 179
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9d4eaaa34666c7ba2b60321ea1b3a765d2bb4cad877c79c4b4fe1e2873545f9d.bin.gz",
+      "bytes": 59861
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9dd5d581c2b57b7308dc7b82ea4ee17297cd11e0fabc802e877a74b6a943cc8c.bin.gz",
+      "bytes": 31724
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9e3ea07673567a3e6ec4f9d9897060831dbf3044f6af730fd7a3d621b56fea2b.bin.gz",
+      "bytes": 546005
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9e543bf189dcdd7f65a17458170ea6475f98e5d4c44ee5c592591f30a0d61b02.bin.gz",
+      "bytes": 238
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9e6c84db9b0a073283f60b6f8545eadc443eb17f4dca329b6eddb15a4b2ad37f.bin.gz",
+      "bytes": 128515
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9e7873a798d6f0aa871ae2161a2a7d635c27d5e480672112ec5c47b49bf1e1cb.bin.gz",
+      "bytes": 1360643
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9eabc61a0eb701527bd2e764bc021d3d5ac123302e4076f4aaa725f8cf6f6019.bin.gz",
+      "bytes": 535664
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9f6f1a084dd56a6c083fcaf2786b67d7c52bd7f554a5fc189596bcca6cb301e4.bin.gz",
+      "bytes": 242
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9f8162fc2de740ad6758304fcf749740b69a76fc80bb0c213e9f3b05d6e0c33d.bin.gz",
+      "bytes": 1417
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9f841e5c823fbbbf6082d449e42ecd4f9f358a52c27cf4497d524ab229d8286f.bin.gz",
+      "bytes": 4389
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9f94ffcbac969d2753edc5b9e5ab373a2452d358f4e80e325504299bd146a149.bin.gz",
+      "bytes": 76158
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a0312d698158cb5271b77ab09fa2a40db5350fa199804453b21916d022e7f066.bin.gz",
+      "bytes": 161465
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a03615fcae6b7a148d197cf13ed1b04e2c55271570d2d401e87bcbcf21f6cbda.bin.gz",
+      "bytes": 116237
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a037f114cbdd839e63a81382e94bde44c02e7e1238ea5bb232ffb6c6246808be.bin.gz",
+      "bytes": 2439747
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a055b0f258df53990b7438fe11aa40503298778063a19d2aec2ad8823494ee05.bin.gz",
+      "bytes": 137760
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a0a76ec1516f30df531554b789116a287dee0f92a43c866b8e3893ea8ea34f22.bin.gz",
+      "bytes": 16209
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a1afbba179c283a768ded4143214bbda84a98b13cfe154e39ef2362997628c36.bin.gz",
+      "bytes": 66612
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a1c647041819b2b13c003c01ea390825b3e12c240d37d6fbc5aaa1eca6022351.bin.gz",
+      "bytes": 5790
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a206e892c95cd66bf721629eb09c66c3e92f837cb4c33286a109f48474ccd709.bin.gz",
+      "bytes": 7833
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a29f4c1cd10c960c1a9e7ce150ffc87cf353cc900ab49bf83c44f2398cbe0f60.bin.gz",
+      "bytes": 17487
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a2c10ce94b54a000694f0db9e0876d35e1a4bdb4e18a311bb03ab5a749fb0db7.bin.gz",
+      "bytes": 822151
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a2e83196918d6f30a3d3dc65f439c11db160a1529212f5cd246483a25f5d1e2e.bin.gz",
+      "bytes": 40425
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a33a7ba84791e50e96ed0fd1f02cfc0b62af4b60390f960ab27842d998758e1c.bin.gz",
+      "bytes": 49531
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a371d485efa2e062e6e537654250870a5d0caa3d119331bcfc35dc2958a95e67.bin.gz",
+      "bytes": 12962
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a46f46784935244cf936b9c27c6b943f50cddac105c40ff2cc3d3f07e512172e.bin.gz",
+      "bytes": 62074
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a63638f7dd0f074bf532cf637fa166c819efb131d418b22447541dd3a79eecf0.bin.gz",
+      "bytes": 297
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a63806ba98e055d7a182b526643d064471ce7134d42f13ccb5982af5203e0b69.bin.gz",
+      "bytes": 57483
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a654fe0190828a69ed5019e99204c7d38ce4a2900c48bb6c157416d180b6af12.bin.gz",
+      "bytes": 226
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a6bcb1629d5c74b9fbce2168f2015a99fb9cde509f2ece1820f6d97c13e03517.bin.gz",
+      "bytes": 98387
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a74ed4a3bbe10ceabb098e06418ce276fad1b9239bad5fb8d16ed303b0e49ffc.bin.gz",
+      "bytes": 807901
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a7c094f562330b7514ebd8ce36a4ddf2592f3b9b556b585a419b3f94a4ecc749.bin.gz",
+      "bytes": 5477
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a883e0d084b742ea489c34d74af98f76e4dba2be31f95256566a24acc03e7e0e.bin.gz",
+      "bytes": 36882
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a8ade01be9d93dd63c54d5d5a09724bed62f0c91ad5a3e94f2baed0bae5dbc3c.bin.gz",
+      "bytes": 1511
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a8b8fc08800ccbd3d4bda4e329fb7c1837d8fe27498a8927ba970f0620679258.bin.gz",
+      "bytes": 46416
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-aa8e7e8b1e630bb333c82e05f0890e69945245a42cb6be140e2cd85413232541.bin.gz",
+      "bytes": 8759
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-aac75c76d0fb2ba594f25e4d8da340052b29e0514a248c01a42d829de08b6664.bin.gz",
+      "bytes": 419957
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-aca0dce8dfe116c7c7cfa64d8fc1fbebb170e6c75047b2b6f462d0e92768d0e7.bin.gz",
+      "bytes": 269122
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ad17446d390612f7df0c6fe2c7c41c5d4e21884e35b376b8aebd8dca594a1ce4.bin.gz",
+      "bytes": 1195
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-adfd6491fdd0b01fab8e75907658e2dde93a6ca059c6e04945c0edb013bc56b4.bin.gz",
+      "bytes": 327500
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ae194ed0d1f1ac197cd398ea32fceda30914bdaf93322d145646b8b366c3554b.bin.gz",
+      "bytes": 233480
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-aeea2f63f34965199a96c5daed7eccd2948564e901230c919d906a87f28377ff.bin.gz",
+      "bytes": 90601
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b08a96d919b71a1680854e5b4786c942db2eb2b1db1ed6e1469fc97ef4a9af84.bin.gz",
+      "bytes": 253580
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b0daa0befb8e0eb3104ffa3543488d9f51858472f3faf8728b45984dbc10b91d.bin.gz",
+      "bytes": 43163
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b133cca9baf18998fab5699716658230a5865017226477337441ba5e1db06657.bin.gz",
+      "bytes": 50538
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b2c6c842bf5f648b9338a85d147921186e3af2e3dbbda1533b22715dbaa2cf48.bin.gz",
+      "bytes": 120423
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b3d4dc30b76d9c9d0febd40e52f97f9e1c2a77cb388d87a63a692c865ad193dd.bin.gz",
+      "bytes": 654055
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b3ea73023f2e886521707b0e9b2613adfc8d7bc503c890c3d530c6ef133b8ea9.bin.gz",
+      "bytes": 36207
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b401ba8c64469795b9e10fbfc690779792a5619801417fe0eda503b8bf109035.bin.gz",
+      "bytes": 7254
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b4371c9f410563697bc026e8c8ef8a6ebf397652d98e907997c02da91b06e833.bin.gz",
+      "bytes": 156701
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b5df416d5fa09c672a06716c4e006dcbf63c36410b7ea38d366ea8e6077e4d65.bin.gz",
+      "bytes": 13325
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b613ac8be961ada49ec0f915df7588a414b0b942d3a329aaaf970161ee58f646.bin.gz",
+      "bytes": 16053
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b622be6ad8faac62c8647d7db397d8f7bacaec98ef413e1a3cb52d82e63e47c7.bin.gz",
+      "bytes": 286277
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b796e6d87d59fdf9fc4ba4bb22847338dc45189b1c17a5bcf84e2b044fb204b7.bin.gz",
+      "bytes": 40405
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-b926ebbea953a956d7e12cf815445354f281405d8da218ee1620f57a8f57657d.bin.gz",
+      "bytes": 296
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ba9fa2aef981f03a6e28b3619c969d4ec7124eab7a0b18de61f04ab6c7622853.bin.gz",
+      "bytes": 120787
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bb2789ba6968e69c52eb4e141a98c605d6f3b4832b5750fcfcd5ff10e17d69da.bin.gz",
+      "bytes": 37203
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bb3e345b1c9c192d9012f02f8845be926760d30fb1550b8e103b918d2221dd82.bin.gz",
+      "bytes": 86215
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bc89810be0c36d88c7d7f125380448ae1ece3bcc09ac83eb4fd7c0f85b3f87a9.bin.gz",
+      "bytes": 6241
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bcc82548794e02ce28c2c7ef09550fa354c4caec0c2838671f6369a3a2764a69.bin.gz",
+      "bytes": 78610
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bdb08828811a5a6f1b68a26e556051c23b692104354be95dd635e2ba58bd7dd0.bin.gz",
+      "bytes": 543956
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bdb844aed0110debcf5284c2b0cf8aeb05d2b9f22e370f596ed0e4d0b604ff2c.bin.gz",
+      "bytes": 1266392
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-be5bffd319fc36ed7d6b2154ac787154f5c4b074d37ebfee467f48884007090a.bin.gz",
+      "bytes": 8605
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-be6e57311f40ad155ba76b7046c9c93d88d7a1d1b0c4027fda3015f1a168121f.bin.gz",
+      "bytes": 6463
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bf3bc7216ba4e5531062f56c593e0c8faf564f50df6385b75f6b20107d7fadda.bin.gz",
+      "bytes": 779157
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bf5067bff3a6914ad1a18e3aa1d6a839922c449161525c79ca6dc2ac3daef3dd.bin.gz",
+      "bytes": 5339
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c068dcd4ef74d550642aff8dbbfd5179bc819ea67c3f171ccf5c82d459902f0f.bin.gz",
+      "bytes": 14842
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c0f545db4f78fa6fd140a5136ebf246855c6abaf1b4123be32809cd9b823e5f2.bin.gz",
+      "bytes": 14778
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c0f6622dc9c2cd5b7845904f7d01e4c8437cf3c469bbb9210f097d9572e45563.bin.gz",
+      "bytes": 1394350
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c1fc99df7a8fc13ea047bd987323d3c4a1cbe873995d358a7fbab708cf57336e.bin.gz",
+      "bytes": 22311
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c25c5b1f068c64bc782cc8312f765e860ef92b5640a51d65584dd600a47a6ca2.bin.gz",
+      "bytes": 169149
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c283b2644b8525af930e2d1bd69d26f86477902b8a5fddf7ef8aa7f09b17be90.bin.gz",
+      "bytes": 37737
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c2dbb1e8a022f6223c4a31b5a3609e63aba700d33f4fa571d63fa50989465303.bin.gz",
+      "bytes": 39002
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c2f73cd050bd15eba123c8e801acc06eec52b3f72abe8e9d8f9d51d87d558ea0.bin.gz",
+      "bytes": 84817
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c380fd3e9ee7535131acd962276512bd9f7c6ef176704b96def0e00dcbb17e28.bin.gz",
+      "bytes": 2010918
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c432a107e884cfa208e74e23c2ad2f13f7484cb7a8d9cfd361a40bf6abae199d.bin.gz",
+      "bytes": 168921
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c45dcc2a2f68595da36be6412a4c564f15056551d74962b4c74555ca1b9f77b5.bin.gz",
+      "bytes": 42030
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c4ea61eaaa321e9c84829cdcafbdf76abe6d42789294707d698bd0d5e5cb19ac.bin.gz",
+      "bytes": 335708
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c4f7becec22af257fb982464d52f652b1d2498781c95a017062dc1cc94db904d.bin.gz",
+      "bytes": 172464
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c4ffc3c528a3512f42658dfcb4e2fa94f91d0483345629552fc643f3f1967178.bin.gz",
+      "bytes": 822047
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c6ee3b434484677c7ee489ce99f27dab56179e35825a10afeec11b959e64297a.bin.gz",
+      "bytes": 213107
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c6f6cfe77ab28e729d4f7541f2e96684b8b3ebb7e91321d97037975a2b9a4e83.bin.gz",
+      "bytes": 250512
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c73640e7fe4c1ebd18f734cf49f8a894f2c335e25717a170c909ba552dcba895.bin.gz",
+      "bytes": 23152
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c7c5d9f44f682835a1cae0e9111e715f4f932cbf3d2b62e787c90265e1c8a773.bin.gz",
+      "bytes": 18110
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c7e449c4ba44daaad17408964034f4c144f116ca1040818ad1c7bf3391984f3e.bin.gz",
+      "bytes": 1511
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c8255b6fc2ba692930269d1bcee05c8799c5833e5ffa994e32709a301b7b1015.bin.gz",
+      "bytes": 120033
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c8ce9c3ecff9d804c5107cf23dc3dd5c6f9d1ec47dd8bf3c957997f7a96d9163.bin.gz",
+      "bytes": 255684
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c910e8f24471152ff42023880cacd12008026a0eda34da61d0afa54b63dbe857.bin.gz",
+      "bytes": 46485
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c9119c5f7fee0d4b8f3b5c6f2153d6774af90ef44c6cb3cbc6f58253d86a70cf.bin.gz",
+      "bytes": 313187
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c993f01f4f8062c0528b3ead87a7ca4de10399a1f37c173fdfdf8049dbf102d0.bin.gz",
+      "bytes": 2438
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cb79e55ea550e3a181f8ba60454d5834c047cc9088dca43825a93536385afcf4.bin.gz",
+      "bytes": 186473
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cb7df75e081ef651af06b2b7aab198b061602f2df41957d68dce9ffe1dba4ad8.bin.gz",
+      "bytes": 1737
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cbdb33dbce8e49d628b7275d232ea7bfce267abf43ec97458d99071d74eeb761.bin.gz",
+      "bytes": 405400
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cc86a20b74c5fe8a4039ac4810e3bd760a06af0289f9a3e5c489eaa9e77b27a2.bin.gz",
+      "bytes": 317883
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cc88acca8e09b671878bd8244ed11953ffc6072ebfbe5f0a9b43842f7eeba7b9.bin.gz",
+      "bytes": 149095
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cca42684c635152a10b8c5ea07afe2bcdb2db5c3ae99cd27238c9b4bdc7ef7c6.bin.gz",
+      "bytes": 171135
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ccfc5cef51e87ac582e251a86b3f9fbd2eba23ed415b949282e1309c693a36b8.bin.gz",
+      "bytes": 253581
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cd96351c98d5bdc30d015033bbaa76dccc3b938bafd66058b5114440fec98216.bin.gz",
+      "bytes": 179623
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ceef9788efd7b6dc5ec4a2ada1d34c4e92528b93271fc339634aafdee5f259db.bin.gz",
+      "bytes": 68124
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cf3740cb0df86a8ea9fb90d975d886943b7f160e03c15a6e0dc1c998c475d501.bin.gz",
+      "bytes": 111014
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cf64fc4b57e7e38c471ccd30d363a3c21d345f1fd25a3789ba97b61a51f4371b.bin.gz",
+      "bytes": 95368
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cf9df8eb4179a76562800c5e660157b20f0766ec494f7385d014eabd7dd9771e.bin.gz",
+      "bytes": 122376
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-cfb2ae007553ebbf05486d303f6345d2be4f16b5e41676f6b9be47d0a1e6b476.bin.gz",
+      "bytes": 2723
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d0465df3d64a0af9b849d34f2ef3cbb32985e7f3dbde734b4de3660c3cf9c7d0.bin.gz",
+      "bytes": 47452
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d24762c123093c621cb94058e74523873ece3f52ec88dcb84d999e227ee2c028.bin.gz",
+      "bytes": 3178
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d2727f05148cd0b21a8407ffeac5a1524b8d86c4e864681a906abdbc44082294.bin.gz",
+      "bytes": 143204
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d2934053cf27785c7c1f834531afeb5033195e3d273cbf2a9ab6ec068eb6500b.bin.gz",
+      "bytes": 3007
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d2e4c45e73002a85206ace91674392d853bd95ad9dba3e7a23f93f36a32cbf21.bin.gz",
+      "bytes": 29528
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d367ff4a4853d3d94e7c185faa3b4b196d2b827c420aac29dbedf5e65d3fbb09.bin.gz",
+      "bytes": 330042
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d44599b7bf2b00c1650ae3b0e11c371646f13bdb4f57d11c9cc62ec4c838bc5d.bin.gz",
+      "bytes": 1993089
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d5d05987b19824f0b7e614ed2432971f598f9db2018d63f6acfb3dfa28869a4a.bin.gz",
+      "bytes": 10807
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d6a454ac9d453dde8fc359c4399197835de8594b2ed6fc65b805aa8907a23d2b.bin.gz",
+      "bytes": 38293
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d779120a2be362cb3052e8b58b103fb72098cf3f0032899608e14f67e58f5375.bin.gz",
+      "bytes": 147345
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d781724f29051fb24457f5f0b49fc4068317d01e9bf86b4e80ae295bc7b2cfda.bin.gz",
+      "bytes": 6807
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d80c0346876baad6016a26695b2bf09b7b5e0a12eca9632ec0d898ca035d4ae6.bin.gz",
+      "bytes": 1620476
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d80f9561254247872bc39ba79555667fdda5b1822178de08a0270a80560f1163.bin.gz",
+      "bytes": 93336
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d8126bc9797276c1b206ef206335d96dd031ca2ef7bd3e8acbbe86f690482b41.bin.gz",
+      "bytes": 196482
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d8d21dfa9753dd77e273e7ba8086f63dbd06ba92ab79f63e2ecfdba914f07d39.bin.gz",
+      "bytes": 7219
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d992eecea49ae942b7d00c9f538cbe2a9ff2d184a6a5a154ef02189632b26ac0.bin.gz",
+      "bytes": 23040
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-da0d72f5340b00b9159b9d674b796271fb35b1a9a790feed6b3c98c8b3948111.bin.gz",
+      "bytes": 48097
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dae7ed1b0e1f47c28394fce95e2d49c2465fc6ab80321f55bc15c261025ebb5b.bin.gz",
+      "bytes": 1823
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dbe32d24820c3673987f289cd17167d5fffafbe789fd27ee4b3c7c412a552efd.bin.gz",
+      "bytes": 114119
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dc71f0ce6bdc20664f30e8478be0fd11a8c0d44c2964b0b3b22dae02efd553fd.bin.gz",
+      "bytes": 456134
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dca1c510c9d5c74a03ac4cff948df1eb3e8d7c6d4231446c6dc28efbf61bc430.bin.gz",
+      "bytes": 10978
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dd2e7ee5dadfa46e657362d988150a02dd1d941ab15292ca1e04dbab10027c75.bin.gz",
+      "bytes": 22152
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dd460058493c9228a2d8c406cdcfcebf67c1dc03b908ebdac8d8ed264b9ed5f0.bin.gz",
+      "bytes": 128185
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-de0507620b8d6b3da64413d5c212ca8f43826456a67dc9a5eb91b151f78b6bee.bin.gz",
+      "bytes": 1620378
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-deb7ed37ef05e2d58aba647c9453a8c485dde4099ea9c70aae240e5d09322ad1.bin.gz",
+      "bytes": 83256
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-df10e3f846cb22d291a189fcadc44b23dfb192802b554de5fe59693e0fab7a13.bin.gz",
+      "bytes": 4605
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-df18404a3ef1eab0110eda52f687f747aca3079acbe01ae4d4670de15e86025b.bin.gz",
+      "bytes": 55960
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-df2018f269e580b59196ac4dbfccf67cceda68deb9678920bd27b73b00670dec.bin.gz",
+      "bytes": 19239
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dfb0bad3d7b5bfcf2d536465b793d8f3172bb0768f44c57d3bdb72972d840b81.bin.gz",
+      "bytes": 11100
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dfbe287c81fd7a18365898e8fd9c2265655663e54bdfab25fa9333226cf50c77.bin.gz",
+      "bytes": 431472
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e0999aa0f7c58a4e1a1351ba500750556e5e2759f6bd6380e367b8f553400ed8.bin.gz",
+      "bytes": 11579
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e0c5299ca1c5fa9be8517540a2322c854e5a2bd56059f567605e4cb7040947d1.bin.gz",
+      "bytes": 55698
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e0d9603f9b3f607fe5a38829b44192d0d030b1ec021cae06ed203c3eeeac7312.bin.gz",
+      "bytes": 177
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e0e040bbde2a20bd8224bbe6034f086515eb812e39e7ea3792c04c65e4ac6203.bin.gz",
+      "bytes": 246549
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e10748ccbc7c7d19e22d2210954380f5ebe76addae7c28977384d17be65b25ad.bin.gz",
+      "bytes": 233455
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e13b0fd94505477319f677cca4ed48044022a85d9dfe1cf690a2c889d421dc17.bin.gz",
+      "bytes": 161649
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e14a559ae0b97e2408b2eca11b57df9b40d6398fe886140dcc3e6d0c1411ae90.bin.gz",
+      "bytes": 32515
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e1680c52369aa48698d785794aff65b6d3a1a6454893dce43e7b3fdf5de8672a.bin.gz",
+      "bytes": 112612
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e1d33a6bebf05171321599c5b8ba48dfb76dbe92f4e2084d9b23100e74d206ae.bin.gz",
+      "bytes": 83983
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e1f11513e3803e8de8f875d7f113d0436725f4ada50985b754b2a85c536beba5.bin.gz",
+      "bytes": 613558
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e370ab40db6bdf8dbb561b7d0b2a6c7260d8c95226b32fb773c36b7c20b68646.bin.gz",
+      "bytes": 221165
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e43fb7cc0ae0554a2075fa9ca60c63f327009c48709fa0bc50f3ad8747d23e24.bin.gz",
+      "bytes": 292638
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e4434e31429a53483726cb80a0ca61ddd856f1a9b2417368dad867770f52aaa7.bin.gz",
+      "bytes": 2506
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e445d581fb6fb54860b3bfd0929ed378859cdd88f5004a6f4c342f256e00c79d.bin.gz",
+      "bytes": 515982
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e4ca0baa6a0c5291f5db6c1f5bc4099d5f314e151e607e795a8c59252d638591.bin.gz",
+      "bytes": 101798
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e65141e824e8002d2fedad308bd73c89cbe7f828607a732d58360b8b3883af29.bin.gz",
+      "bytes": 949626
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e6679cb305721be824e8c651cf198b970f3416e62137a44aad660f625a37d423.bin.gz",
+      "bytes": 779157
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e694e3240a9d2e49df37472143f8286f30f9a6e51fd541353ad4cca17b68cbc6.bin.gz",
+      "bytes": 2313
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e741820e714b27d9f78d9e92665c5fbddfc968e655263d07d3c7123e1aab55e0.bin.gz",
+      "bytes": 162352
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e7a145d83bc6a8308fe552a63ef52cccb293c4b088cd116d4ff6cf54ed5c89ff.bin.gz",
+      "bytes": 231689
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e7b2e58ad9179b7f73b29f7a16e071ba175dbba607914c9468a7e723afd26441.bin.gz",
+      "bytes": 24551
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e7ebd8438fda1defb72309f98da475592597ad24139120d2ab1b626b54ed9374.bin.gz",
+      "bytes": 106839
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e8886a69ab22c2486f7039a320cb22e4aaba629a1edc0e93cba48e5da6463157.bin.gz",
+      "bytes": 115574
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ea2bac6cd73a33ac5bd20b4779c8528c8d792e2463edafa43d5c69c6c1457ebe.bin.gz",
+      "bytes": 3435
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ea7cb9f6516488e6d6b3f6c861e61a89497b7f8bf31ce38100cf98fd86099342.bin.gz",
+      "bytes": 2308
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-eb0408145fb9eba171c5aad4724c30872ec7257f626d3a923703e43f8bea228a.bin.gz",
+      "bytes": 50535
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-eb56db8f3a97f6d6182f3cc3e7f674003392ac4e15cb3e1985b9bb2b3970c5b9.bin.gz",
+      "bytes": 35682
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ec04412d30358798bdf9933266388073b6663e4793aeaa019c3794df8a73fc27.bin.gz",
+      "bytes": 150158
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ec0add05e4b08b91c3f7482596b9ebc096c931d84a89a8ed790bca7b63851540.bin.gz",
+      "bytes": 3715
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ec1d732f5ec02f1084a9b7307b223126c4c4b9bc6701a904f7306e986bd14815.bin.gz",
+      "bytes": 176097
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ec3179f5118e73157898ba3e7233b6f1281164ae45e009bbc3a6cc8a22c2d040.bin.gz",
+      "bytes": 610
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ec96da8df66233b2e43cb01ab141fdba1dea53a9fe6306d127537882fe73bcde.bin.gz",
+      "bytes": 60951
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ecc7c5374271446772b8881141b7012a7ef39795e0beb75e6980da1ae140feaa.bin.gz",
+      "bytes": 46491
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ed59e6f875457a0af2b56004f15f7e6a4e7e7f50febe2eec83dfbcad7b66abaa.bin.gz",
+      "bytes": 46786
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ed8f871dcc96066fb429af221afffacdab1beb31a356b478f0d7d8858241ec3d.bin.gz",
+      "bytes": 23742
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ed8fc7984e2391547b11b5aa6e234b42a70c3a6560bb7795de7530cad07f2559.bin.gz",
+      "bytes": 217566
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ee24af4e0d421b5136c35dd83fadad3b2ee827821fbccd63193789e6f4ad02f8.bin.gz",
+      "bytes": 70894
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ee8890d42246fe0d64d9293364fd8c88b24ac916041bd50e953758fc72afad1b.bin.gz",
+      "bytes": 774
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-eeadeed4e6c0aff4ed260cd07b431d63c59514d695e550c4102cdcfc56a502be.bin.gz",
+      "bytes": 824664
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-eef5608dedaa9299b3b0096b93090357ab705f12cb524a4cfdf2ed784591919b.bin.gz",
+      "bytes": 210414
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ef2405c3b11d5305650c9829e2b629e9b5c1d3bb65430f6e0b2fa25fe11c9ac2.bin.gz",
+      "bytes": 98901
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-efaa0a698ca4ce0180ed0872cc080db3f14e626b66b12d9a2870f148d5d5e802.bin.gz",
+      "bytes": 775056
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-efe35813ffa9054df817dd5735bb68e0b7689793d7252b3f7db967a9abba881b.bin.gz",
+      "bytes": 22960
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f0cc428848cbe81dee9aa7a89c7c7105815c7c1aef212c389d68f3513b47e3e1.bin.gz",
+      "bytes": 159123
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f234d7fcbb724ee24a63a575dc18092d90ec274cbf3a2224ce950de3c50094bf.bin.gz",
+      "bytes": 136321
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f2a10437dee7e6fe14ed58609bfdc096dd5adcb06f3a357ce8ea6490bed96088.bin.gz",
+      "bytes": 69265
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f325be170a7f9c005a5648627d2cedb2a31d5a2c70383f1c4b210987fdb349f2.bin.gz",
+      "bytes": 16248
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f55c3b372d6730ce8933b13a789c0ae6d39a1b5c25be145f67bd0f50300b3c0b.bin.gz",
+      "bytes": 27102
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f584e49af30c1041c1dddd2b27918d833db0846e20471ad42ccc3469bce2dec5.bin.gz",
+      "bytes": 340764
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f65160d1313b9f4e725f535589cbd228e8a053994488520157069ee1fcfd2f90.bin.gz",
+      "bytes": 2219
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f6922f51227235a4160e5556c738e86c19bab518ab049b1e191c4ccaf4ce3cad.bin.gz",
+      "bytes": 10685
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f6a4eafeb4b2ed33199d928823fdc615e90c1aa4c3f0d397a0e8010ed9214e2f.bin.gz",
+      "bytes": 706181
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f7ba0ded11b50fb75e17266cb3bf1a126780e4d23223ceca97b89fa1f3afc86f.bin.gz",
+      "bytes": 676022
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f7df98f2c00b0df18a11357f8122564ee89d1ccafafe54497bdd1cb91ea73308.bin.gz",
+      "bytes": 128163
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f7f88c1106251d4caca2eee3f8073885f468b132b468f100b4feee1f26f373f5.bin.gz",
+      "bytes": 13680
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f8b331d900cea0792de159d67bc13e95b67d9e7a0f77c509651ec7a3e523ee65.bin.gz",
+      "bytes": 198632
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f934472f6a28689590ff9636dc9c752e4c13013654ac8a1a246939f298d3274e.bin.gz",
+      "bytes": 2207
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f9704f9a75b09c4c23dd5db6b9462651766124ccc6185d43d4417956f90f1416.bin.gz",
+      "bytes": 130948
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f9e67b115472cdb2f8a786299859b8aea900086d82e30b5edba09037aff1517b.bin.gz",
+      "bytes": 8513
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fa2c0d32d7abe909dbb255b0d6d894129ac0a562a2a416b6052830842a3e9f97.bin.gz",
+      "bytes": 25940
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fa5b63afd6d729a727de9acc27a36fab83310b08ea9ade32d14a0291be38dc3a.bin.gz",
+      "bytes": 18358
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fa97c14f1d8a91da75751a2360498c9fa046615f3bcf520583d3f575d5d2eb09.bin.gz",
+      "bytes": 79208
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fb1548b0ff7d8a97324e4c4dbadefb3ff6663fa273ce0385550592555c433a0f.bin.gz",
+      "bytes": 27538
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fbfaa48fbc7e33811e046baa5084524442bc9554bdb0b2c75128496c7c479ebd.bin.gz",
+      "bytes": 8819
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fc0e4cd0f228a17d45542bba50f5c93915ea7393a770436e88151d3699fcd1f9.bin.gz",
+      "bytes": 40762
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fc2aa3428875d7ae334bfa1048187852eb65e4caa6dde7a2b33735352bae8407.bin.gz",
+      "bytes": 22788
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fc58a45cf4ba2e23f183dee0154516435d855756134af54f856ec9bceeca3aec.bin.gz",
+      "bytes": 77185
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fca9b3aff675d0b36922e2b25f4499184d4c19af9cae98c018dec7086d113fa5.bin.gz",
+      "bytes": 51857
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fdd4c5cf59985ac1ec83b56f8d7a3e2280a366e0a3db95d7ad077f3a7ea45033.bin.gz",
+      "bytes": 83628
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-feceab82416d5fa349f6e141a4acf28ed18ada886f2e28110220c554634eefb6.bin.gz",
+      "bytes": 35997
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ff74dec44fac77b0d1ff6b4f2375d7492d36c8287f11fa640861e05c720bf90c.bin.gz",
+      "bytes": 1230
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ff8a5c92727af52689f555b0c7886277644e0461873c60e7d653ea493a199657.bin.gz",
+      "bytes": 136
+    },
+    {
+      "path": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fff76b5ee5d81a3625155dd4c896f4228463965244d1758e7ab5acd470178fae.bin.gz",
+      "bytes": 3513
+    }
+  ],
+  "obsoleteLogicalBytes": 354390110
+}

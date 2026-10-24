@@ -1,0 +1,14 @@
+✔ full-world stage selects manifest-pinned Web resources and keeps the canonical bootstrap intact (419.3715ms)
+✔ full-world stage refuses tampered pinned immutable data (199.5064ms)
+✔ full-world stage rejects a corrupted builtin country transport before packaging (188.166ms)
+✔ full-world manifest closure includes active historical and prepared geometry only (4.9005ms)
+✔ full-world manifest closure rejects traversal, remote paths and altered hash paths (1.5956ms)
+✔ full-world packaging requires the current pinned country transport (1.6111ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1288.6315

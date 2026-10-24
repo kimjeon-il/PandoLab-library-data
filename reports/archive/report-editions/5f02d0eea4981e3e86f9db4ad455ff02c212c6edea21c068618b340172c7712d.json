@@ -1,0 +1,43 @@
+{
+  "product": "editor",
+  "buildId": "0.36.0-build-0f1adc5c9827",
+  "renderer": "webgl2",
+  "point": {
+    "x": 929.7449951171875,
+    "y": 478.03953552246094
+  },
+  "hover": {
+    "buildSucceeded": true,
+    "drawSucceeded": true,
+    "renderedKeys": [
+      "territorial:entity:PRK"
+    ],
+    "missingKeys": []
+  },
+  "primary": {
+    "buildSucceeded": true,
+    "drawSucceeded": true,
+    "renderedKeys": [
+      "territorial:entity:PRK"
+    ],
+    "missingKeys": []
+  },
+  "gpuHealth": "healthy",
+  "svgOutlineCount": 0,
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": [
+    {
+      "status": 404,
+      "url": "http://127.0.0.1:8765/assets/data/library-channel/current.json"
+    },
+    {
+      "status": 404,
+      "url": "http://127.0.0.1:8765/assets/data/library-channel/current.json"
+    },
+    {
+      "status": 404,
+      "url": "http://127.0.0.1:8765/assets/data/library-channel/current.json"
+    }
+  ]
+}

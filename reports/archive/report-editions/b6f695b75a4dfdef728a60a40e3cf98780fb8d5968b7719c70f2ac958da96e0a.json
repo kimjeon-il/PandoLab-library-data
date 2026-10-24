@@ -1,0 +1,237 @@
+{
+  "state": {
+    "readiness": "error",
+    "startup": {
+      "buildId": "0.36.0-build-86bcd7bf8433",
+      "assetRevision": "0.36.0-build-86bcd7bf8433",
+      "dataRevision": "data-b5495cd43ea09bbda19c9a3e689e6918",
+      "dataCacheName": "pandolab-world-content-v1",
+      "uiStylesheetRequestCount": 0,
+      "coreStylesheetRequestCount": 2,
+      "modalStylesheetRequestCount": 0,
+      "uiBundleBuildSourceCount": 13,
+      "firstCanonicalFrameMs": null,
+      "canonicalFrameFallbackCount": 0,
+      "signals": {
+        "layout": "wide",
+        "deviceMemory": 16,
+        "hardwareConcurrency": 6,
+        "effectiveType": "4g",
+        "saveData": false
+      },
+      "loadPolicy": {
+        "mode": "sequential",
+        "reason": "interaction-first-v1",
+        "constrained": false,
+        "signals": {
+          "layout": "wide",
+          "deviceMemory": 16,
+          "hardwareConcurrency": 6,
+          "effectiveType": "4g",
+          "saveData": false
+        }
+      },
+      "startupPhase": "canonical-ready",
+      "interactivePaintMs": 2476.60000000149,
+      "canonicalQuietWindowMs": 500,
+      "canonicalInputDeferralCount": 0,
+      "canonicalGeometryQueuedMs": 2476.60000000149,
+      "canonicalGeometryStartedMs": 2992.10000000149,
+      "canonicalGeometryReceivedMs": 3130.60000000149,
+      "canonicalGeometryAppliedMs": null,
+      "canonicalMeshQueuedMs": null,
+      "canonicalMeshStartedMs": null,
+      "canonicalMeshReceivedMs": null,
+      "canonicalMeshAppliedMs": 8056.10000000149,
+      "canonicalWorkStartedDuringInputCount": 0,
+      "canonicalPacketCompressedBytes": 12813397,
+      "canonicalPacketDecodedBytes": 17897496,
+      "canonicalPacketRetainedBytes": 17897496,
+      "canonicalPacketTransferBytes": 17897496,
+      "canonicalStructuredCloneMetadataBytes": 1085,
+      "canonicalCacheWriteMs": 0,
+      "canonicalDecompressMs": 101.09999999403954,
+      "canonicalPacketValidateMs": 5.899999998509884,
+      "canonicalPacketTransferMs": 0.5,
+      "canonicalMaterializeMs": 2724.7999999970198,
+      "canonicalMaterializeSliceCount": 273,
+      "canonicalMaterializeMaxSliceMs": 0.7000000029802322,
+      "canonicalMaterializedCoordinateCount": 1115410,
+      "canonicalPreviewReleasedBytes": 0,
+      "canonicalPristineReparseCount": 0,
+      "canonicalMemorySamples": [
+        {
+          "label": "canonical-packet-request",
+          "atMs": 2992.2000000029802,
+          "supported": true,
+          "bytes": 155840563,
+          "source": "performance.memory"
+        },
+        {
+          "label": "packet-transferred",
+          "atMs": 3130.8000000044703,
+          "supported": true,
+          "bytes": 175772983,
+          "source": "performance.memory"
+        },
+        {
+          "label": "materialization-start",
+          "atMs": 3162.10000000149,
+          "supported": true,
+          "bytes": 175772983,
+          "source": "performance.memory"
+        },
+        {
+          "label": "materialization-complete",
+          "atMs": 5880.70000000298,
+          "supported": true,
+          "bytes": 217665462,
+          "source": "performance.memory"
+        },
+        {
+          "label": "canonical-mesh-committed",
+          "atMs": 8056.20000000298,
+          "supported": true,
+          "bytes": 251698049,
+          "source": "performance.memory"
+        }
+      ],
+      "lazyModalLoadedMs": null,
+      "lazyGisLoadedMs": null,
+      "lazyHistoricalLoadedMs": null,
+      "lazyModuleLoadErrorCount": 0,
+      "initialModuleRequestCount": 240,
+      "startedAt": 426.79999999701977,
+      "preview": {
+        "policy": {
+          "mode": "sequential",
+          "reason": "interaction-first-v1",
+          "constrained": false,
+          "signals": {
+            "layout": "wide",
+            "deviceMemory": 16,
+            "hardwareConcurrency": 6,
+            "effectiveType": "4g",
+            "saveData": false
+          }
+        },
+        "milliseconds": 187.30000000447035,
+        "transferredBytes": 0,
+        "decodedBytes": 6590652,
+        "assets": {
+          "countries": {
+            "source": "cache",
+            "cacheHit": true,
+            "transferredBytes": 0,
+            "storedBytes": 1004978,
+            "decodedBytes": 2780014,
+            "loadMs": 35.100000001490116,
+            "cacheWriteMs": 0,
+            "decompressMs": 28.5,
+            "parseMs": 24.799999997019768
+          },
+          "mesh": {
+            "source": "cache",
+            "cacheHit": true,
+            "transferredBytes": 0,
+            "storedBytes": 1747723,
+            "decodedBytes": 3796812,
+            "loadMs": 60.80000000447035,
+            "cacheWriteMs": 0,
+            "decompressMs": 51.899999998509884,
+            "parseMs": 0
+          },
+          "labelAnchors": {
+            "source": "cache",
+            "cacheHit": true,
+            "transferredBytes": 0,
+            "storedBytes": 13826,
+            "decodedBytes": 13826,
+            "loadMs": 4.9000000059604645,
+            "cacheWriteMs": 0,
+            "decompressMs": 0,
+            "parseMs": 0.19999999552965164
+          }
+        }
+      },
+      "geometry": {
+        "policy": {
+          "mode": "sequential",
+          "reason": "interaction-first-v1",
+          "constrained": false,
+          "signals": {
+            "layout": "wide",
+            "deviceMemory": 16,
+            "hardwareConcurrency": 6,
+            "effectiveType": "4g",
+            "saveData": false
+          }
+        },
+        "milliseconds": 137.60000000149012,
+        "transferredBytes": 0,
+        "decodedBytes": 17897496,
+        "canonicalPacketCompressedBytes": 12813397,
+        "canonicalPacketDecodedBytes": 17897496,
+        "canonicalCacheWriteMs": 0,
+        "canonicalDecompressMs": 101.09999999403954,
+        "canonicalPacketValidateMs": 5.899999998509884,
+        "assets": {
+          "countryPacket": {
+            "source": "cache",
+            "cacheHit": true,
+            "transferredBytes": 0,
+            "storedBytes": 12813397,
+            "decodedBytes": 17897496,
+            "loadMs": 118.79999999701977,
+            "cacheWriteMs": 0,
+            "decompressMs": 101.09999999403954,
+            "parseMs": 0
+          }
+        }
+      },
+      "mesh": null,
+      "canonical": null,
+      "interactiveMs": 2444.7000000029802,
+      "editableMs": null,
+      "readyMs": 8056.10000000149,
+      "layerHydrationStartedMs": 2136.7000000029802,
+      "objectSearchRenderedMs": null,
+      "layerReadyMs": null,
+      "geometryError": "",
+      "meshError": "",
+      "previewReceivedMs": 285.90000000596046,
+      "previewMainThreadTransferMs": 40.5,
+      "rendererStatus": "편집 데이터 오류 · 자동 재시도 중",
+      "mapHostStage": "ready",
+      "previewMeshUploadMs": 181.19999999552965,
+      "renderer": "webgl2",
+      "fallbackReason": "",
+      "devicePixelRatio": 1,
+      "effectivePixelRatio": 1,
+      "previewDisplayMs": 2158.7999999970198,
+      "geometryProgress": {
+        "stage": "countries",
+        "percent": 98
+      },
+      "geometryReceivedMs": 3130.60000000149,
+      "geometryMainThreadTransferMs": 0.5,
+      "canonicalStateApplyStage": "start",
+      "meshDisplayMs": 8056.10000000149
+    },
+    "body": "파일\n보기\n설정\n도움말\n미리보기 표시 완료. 편집 데이터 준비 중…\n볼리비아\n인도네시아\n아르헨티나\n인도\n중화인민공화국\n벨라루스\n남아프리카 공화국\n카자흐스탄\n오만\n브라질\n몽골\n독일\n러시아\n핀란드\n노르웨이\n에스파냐\n라오스\n헝가리\n영국\n그리스\n에리트레아\n이라크\n튀르키예\n앙골라\n보츠와나\n알제리\n모잠비크\n아프가니스탄\n콜롬비아\n부르키나파소\n카메룬\n에티오피아\n케냐\n차드\n캐나다\n멕시코\n미국\n이집트\n파푸아뉴기니\n모리타니\n남극\n오스트레일리아\n뉴질랜드\n필리핀\n바하마\n온두라스\n일본\n아이슬란드\n세이셸\n모리셔스\n쿡제도\n미크로네시아 연방\n그린란드\n프랑스령 남방 및 남극\n미국령 군소제도\n미저장\n평면지도\n정밀 경계 준비 중",
+    "diagnostics": []
+  },
+  "events": [
+    {
+      "type": "error",
+      "text": "[PL-GEOMETRY-APPLY-001] Error: 국가 자료 묶음 저장 크기가 올바르지 않습니다.\n    at validateStoredAsset (http://tauri.localhost/assets/js/modules/stored-asset-loader.js?v=0.36.0-build-86bcd7bf8433:106:77)\n    at loadRepresentation (http://tauri.localhost/assets/js/modules/stored-asset-loader.js?v=0.36.0-build-86bcd7bf8433:160:13)",
+      "location": {
+        "url": "http://tauri.localhost/assets/js/modules/app-progressive-startup.js?v=0.36.0-build-86bcd7bf8433",
+        "line": 403,
+        "column": 14,
+        "lineNumber": 403,
+        "columnNumber": 14
+      }
+    }
+  ]
+}
