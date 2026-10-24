@@ -1,0 +1,153 @@
+diff --git a/tools/library-data.mjs b/tools/library-data.mjs
+index 4443fac8..13e0cb89 100644
+--- a/tools/library-data.mjs
++++ b/tools/library-data.mjs
+@@ -1,6 +1,6 @@
+ import { execFileSync } from 'node:child_process';
+ import { createHash, randomUUID } from 'node:crypto';
+-import { chmodSync, closeSync, copyFileSync, existsSync, lstatSync, mkdirSync, openSync, readFileSync, readdirSync, realpathSync, renameSync, rmdirSync, rmSync, statfsSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
++import { chmodSync, closeSync, copyFileSync, existsSync, lstatSync, mkdirSync, openSync, readFileSync, readdirSync, realpathSync, renameSync, rmdirSync, statfsSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
+ import { dirname, isAbsolute, relative, resolve, sep } from 'node:path';
+ import { fileURLToPath } from 'node:url';
+ import { gunzipSync, gzipSync } from 'node:zlib';
+@@ -641,7 +641,7 @@ export function materializeRuntimeView({ root, index, source = null }) {
+       const owned = files[file.logical];
+       if (owned && owned.sha256 === contentHash(readFileSync(file.path))) removeContentLink(shared, file.path);
+       else if (['.complete', '.cache-owner.json'].includes(file.logical)) unlinkSync(file.path);
+-      else throw new AggregateError([error], `Unexpected pending work preserved: ${file.path}`);
++      else throw new AggregateError([error], `Unexpected pending work preserved: ${file.path}`, { cause: error });
+     }
+     removeEmptyDirectories(pending); throw error;
+   }
+@@ -805,13 +805,93 @@ export function prepareOwnedLibraryData({ root, fetch }) {
+   return { repository: config.repository, revision: config.revision, checkout, materialized, files: index.files, compaction };
+ }
+ 
++function reportWorkingFiles(root, prefixes) {
++  if (!Array.isArray(prefixes) || !prefixes.length || prefixes.some(path => typeof path !== 'string'
++    || !/^reports\/[\w.-]+(?:\/[\w.-]+)*$/.test(path) || path.split('/').some(part => part.startsWith('.')))) {
++    throw Error('Report completion requires explicit reports/<scope> prefixes.');
++  }
++  const files = new Map();
++  for (const prefix of prefixes) {
++    const scope = checkedReportPath(libraryReportEditRoot(root), prefix.slice(8));
++    const scoped = plainReportFiles(scope);
++    if (!scoped.length) throw Error(`Empty or missing report scope: ${prefix}`);
++    for (const file of scoped) {
++      const before = lstatSync(file.path), bytes = readFileSync(file.path), after = lstatSync(file.path);
++      if (before.size !== after.size || before.mtimeMs !== after.mtimeMs) throw Error(`Report writer is still changing ${file.path}`);
++      const logical = prefix + (file.logical ? '/' + file.logical : '');
++      files.set(logical, { logical, bytes: bytes.length, sha256: reportDigest(bytes) });
++    }
++  }
++  return [...files.values()];
++}
++function fetchReportMain(shared) {
++  git(shared, ['fetch', '--filter=blob:none', 'origin', 'main']);
++  return git(shared, ['rev-parse', 'FETCH_HEAD']);
++}
++function prepareReportPublication(root, prefixes) {
++  const shared = librarySharedCheckout(root);
++  if (git(shared, ['branch', '--show-current']) !== 'main' || git(shared, ['status', '--porcelain'])) {
++    throw Error('Preserve existing library main work before publishing reports.');
++  }
++  const remote = fetchReportMain(shared), current = git(shared, ['rev-parse', 'HEAD']);
++  if (current !== remote) {
++    const base = git(shared, ['merge-base', current, remote]);
++    if (base === current) git(shared, ['merge', '--ff-only', remote]);
++    else if (base === remote) {
++      // A rejected report push is retryable; unpublished runtime/history is not.
++      const included = path => prefixes.some(prefix => path === prefix || path.startsWith(prefix + '/'));
++      for (const revision of git(shared, ['rev-list', `${remote}..HEAD`]).split('\n')) {
++        const paths = git(shared, ['diff-tree', '--root', '--no-commit-id', '--name-only', '-z', '-r', revision]).split('\0').filter(Boolean);
++        if (paths.some(path => path !== 'archive/index.json' && !path.startsWith('reports/'))) {
++          throw Error('Preserve unpublished non-report commits on library main before report publication.');
++        }
++        if (paths.some(path => path.startsWith('reports/') && !included(path))) throw Error('Unpublished report commits exist outside the selected scope; preserve them before publishing this scope.');
++      }
++      const previous = JSON.parse(git(shared, ['show', `${remote}:archive/index.json`])).files;
++      const pending = JSON.parse(git(shared, ['show', 'HEAD:archive/index.json'])).files;
++      if ([...new Set([...Object.keys(previous), ...Object.keys(pending)])].some(path => !path.startsWith('reports/')
++        && JSON.stringify(previous[path]) !== JSON.stringify(pending[path]))) throw Error('Preserve unpublished non-report archive entries before report publication.');
++      if ([...new Set([...Object.keys(previous), ...Object.keys(pending)])].some(path => path.startsWith('reports/') && !included(path)
++        && JSON.stringify(previous[path]) !== JSON.stringify(pending[path]))) throw Error('Unpublished report archive entries exist outside the selected scope.');
++    } else throw Error('Library main has diverged; preserve both histories and resolve the merge before publishing reports.');
++  }
++  return { checkout: shared };
++}
++function checkOwnedReports(root, prefixes) {
++  const files = reportWorkingFiles(root, prefixes), shared = librarySharedCheckout(root), revision = fetchReportMain(shared);
++  const index = JSON.parse(git(shared, ['show', `${revision}:archive/index.json`]));
++  for (const file of files) {
++    const entry = index.files[file.logical];
++    if (!entry || entry.sha256 !== file.sha256 || entry.bytes !== file.bytes) throw Error(`Report is not published with its current original: ${file.logical}`);
++    safeChild(shared, entry.stored);
++    const stored = execFileSync('git', [...gitOptions, 'show', `${revision}:${entry.stored}`], { cwd: shared, maxBuffer: Math.max(entry.bytes * 2, 16 * 1024 * 1024) });
++    if (!['identity', 'gzip'].includes(entry.encoding)) throw Error(`Unknown report archive encoding: ${file.logical}`);
++    const bytes = entry.encoding === 'gzip' ? gunzipSync(stored) : stored;
++    if (bytes.length !== file.bytes || reportDigest(bytes) !== file.sha256) throw Error(`Remote report content is corrupt or mismatched: ${file.logical}`);
++  }
++  return { revision, files: files.length, prefixes };
++}
++// Task completion is scoped and explicit. Merely requesting a writable path
++// must never publish a partially written report or unrelated runtime work.
++export function publishLibraryReports({ root = defaultRoot, prefixes } = {}) {
++  return withLibraryLock(root, () => {
++    reportWorkingFiles(root, prefixes);
++    const data = prepareReportPublication(root, prefixes);
++    storeOwnedLibraryData({ root, prefixes, removePaths: [], push: true, reportData: data });
++    return checkOwnedReports(root, prefixes);
++  });
++}
++export function checkLibraryReports({ root = defaultRoot, prefixes } = {}) {
++  return withLibraryLock(root, () => checkOwnedReports(root, prefixes));
++}
++
+ // App-owned writers store their output here; the data repository runs no tools.
+ export function storeLibraryData({ root = defaultRoot, push = false, prefixes = null, removePaths = [] } = {}) {
+   if (!prefixes?.length) throw Error("Storage requires explicit library prefixes.");
+   return withLibraryLock(root, () => storeOwnedLibraryData({ root, push, prefixes, removePaths }));
+ }
+-function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
+-  const data = prepareOwnedLibraryData({ root, fetch: true });
++function storeOwnedLibraryData({ root, push, prefixes, removePaths, reportData }) {
++  const data = reportData || prepareOwnedLibraryData({ root, fetch: true });
+   if (libraryWriteLeases(librarySharedCheckout(root)).some(lease => lease.alive && lease.owner === libraryOwnerId(root) && lease.prefixes.some(a => prefixes.some(b => scopesOverlap(a, b))))) throw Error('Finish the active library write lease before storing this scope');
+   if (git(data.checkout, ['status', '--porcelain'])) throw Error('Preserve existing data checkout edits before storing library material.');
+   if (prefixes && (!Array.isArray(prefixes) || !prefixes.length || prefixes.some(path =>
+@@ -862,7 +942,7 @@ function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
+     }
+   };
+   const managedMounts = libraryConfig(root).mounts.filter(path => path !== 'reports');
+-  for (const path of managedMounts) visit(safeChild(data.materialized, path), path);
++  if (!reportData) for (const path of managedMounts) visit(safeChild(data.materialized, path), path);
+   // Store only this branch's mutable scope. Shared originals from another
+   // branch must never be implicitly imported into a branch publication.
+   visit(editRoot, 'reports');
+@@ -901,7 +981,7 @@ function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
+   if (push) {
+     const token = process.env.PANDOLAB_LIBRARY_WRITE_TOKEN;
+     const env = token ? { ...process.env, GIT_CONFIG_COUNT: '1', GIT_CONFIG_KEY_0: 'http.https://github.com/.extraheader', GIT_CONFIG_VALUE_0: `AUTHORIZATION: basic ${Buffer.from('x-access-token:' + token).toString('base64')}` } : process.env;
+-    execFileSync('git', [...gitOptions, 'push', 'origin', `HEAD:${index.branch}`], { cwd: data.checkout, env, stdio: ['ignore', 'pipe', 'pipe'] });
++    execFileSync('git', [...gitOptions, 'push', 'origin', `HEAD:${reportData ? 'main' : index.branch}`], { cwd: data.checkout, env, stdio: ['ignore', 'pipe', 'pipe'] });
+   }
+   if (!prefixes.every(path => path === 'reports' || path.startsWith('reports/'))) {
+     const config = libraryConfig(root); config.revision = revision;
+@@ -933,6 +1013,11 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
+     console.log(libraryReportRoot(process.argv[3] || defaultRoot));
+   } else {
+   const prefixes = process.argv.filter(arg => arg.startsWith('--include-prefix=')).map(arg => arg.slice('--include-prefix='.length));
++  if (process.argv.includes('--publish-reports') || process.argv.includes('--check-reports')) {
++    const root = process.argv.find(arg => arg.startsWith('--root='))?.slice(7) || defaultRoot;
++    const operation = process.argv.includes('--publish-reports') ? publishLibraryReports : checkLibraryReports;
++    console.log(JSON.stringify(operation({ root, prefixes })));
++  } else {
+   const separator = process.argv.indexOf('--');
+   const selected = separator < 0 ? [] : process.argv.slice(separator + 1).filter(path => !path.startsWith('-'));
+   if (!prefixes.length && process.argv.includes('--store-and-stage')) for (const path of selected) {
+@@ -955,4 +1040,5 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
+   } else if (process.argv.includes('--store')) console.log(`Library stored: ${storeLibraryData(storeOptions)}`);
+   else { const result = prepareLibraryData(); console.log(`Library mounted: ${result.repository}@${result.revision}`); }
+   }
++  }
+ }
