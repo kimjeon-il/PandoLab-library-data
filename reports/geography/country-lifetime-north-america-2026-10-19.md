@@ -23,7 +23,7 @@
 
 ## 2026-10-20 후속 검토
 
-요약 정본은 `cc2d0db1fd0b08a8d28d95e3b3c4ff73dc99f81a`에 등록됐다(2026-10-19 17:17:36 UTC / 한국 10-20). 원래 대화 첨부 전체와의 동일성은 미확인이다. [GEO-REVIEW-20261020](reviews/morning-2026-10-20.md)에서 출처 범위·현행 객체·원격 등록 및 [순환 이력](country-lifetime-rotation-progress.md)을 대조했다. 상태는 계속 `investigating` / `not-applied`, lifetime 승인 0건이다.
+요약 정본은 `cc2d0db1fd0b08a8d28d95e3b3c4ff73dc99f81a`에 등록됐다(2026-10-19 17:17:36 UTC / 한국 10-20). 원래 대화 첨부 전체와의 동일성은 미확인이다. [GEO-REVIEW-20261020](reviews/README.md)에서 출처 범위·현행 객체·원격 등록 및 [순환 이력](country-lifetime-rotation-progress.md)을 대조했다. 상태는 계속 `investigating` / `not-applied`, lifetime 승인 0건이다.
 
 - GTM의 AGN은 정부 통신사다. 연결 기사는 1847-03-21 법령 15호를 서술하지만 1839-04-17의 직접 근거는 아니므로 해당 일자 원법령 대조는 보류한다.
 - HND의 연결 기사는 1838-10-26과 11-05를 설명하는 2차 문헌이다. 11-15의 상충 원자료는 이 요약에 제시되지 않아 날짜 충돌 해소로 처리하지 않는다.
