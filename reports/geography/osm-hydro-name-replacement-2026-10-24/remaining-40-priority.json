@@ -1,0 +1,769 @@
+{
+  "schema": "pando-osm-river-remaining-v1",
+  "reportId": "GEO-HYDRO-OSM-20261024",
+  "subject": "Remaining independent provenance for OSM relation-matched HydroRIVERS systems",
+  "baseline": 73,
+  "isolatedVerified": 33,
+  "publishedReplacements": 0,
+  "remaining": 40,
+  "counts": {
+    "noNE": 17,
+    "risk": 17,
+    "partial": 6
+  },
+  "methods": "Numbers are research proximity on NE vector, not hydrographic identity probability. Legacy original Korean names and Hydro geometries kept unless independently validated.",
+  "sources": {
+    "original": "inventory.json",
+    "comparison": "ne-crosscheck.json",
+    "alreadyReplaced": "staged-33-proof.json"
+  },
+  "records": [
+    {
+      "systemId": "10047863",
+      "currentDisplayName": "나일강",
+      "status": "not-applied",
+      "group": "partial-or-unverified-independent-name",
+      "NEnameSamples": {
+        "name": "Nile",
+        "ko": "나일강",
+        "coverage": 0.556
+      },
+      "NECandidates": [
+        {
+          "name": "Nile",
+          "coverage": 0.556
+        },
+        {
+          "name": "White Nile",
+          "coverage": 0.198
+        },
+        {
+          "name": "Rosetta Branch",
+          "coverage": 0.049
+        },
+        {
+          "name": "river-1378",
+          "coverage": 0.012
+        }
+      ],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government gazetteer plus whole river path matching; preserve original name until confirmed"
+    },
+    {
+      "systemId": "10521208",
+      "currentDisplayName": "샤리강",
+      "status": "not-applied",
+      "group": "partial-or-unverified-independent-name",
+      "NEnameSamples": {
+        "name": "Chari",
+        "ko": "샤리강",
+        "coverage": 0.481
+      },
+      "NECandidates": [
+        {
+          "name": "Chari",
+          "coverage": 0.481
+        },
+        {
+          "name": "Bahr Aouk",
+          "coverage": 0.173
+        },
+        {
+          "name": "Aoukalé",
+          "coverage": 0.037
+        },
+        {
+          "name": "Logone",
+          "coverage": 0.025
+        }
+      ],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government gazetteer plus whole river path matching; preserve original name until confirmed"
+    },
+    {
+      "systemId": "10526283",
+      "currentDisplayName": "샤리강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20071308",
+      "currentDisplayName": "오울루강",
+      "status": "not-applied",
+      "group": "partial-or-unverified-independent-name",
+      "NEnameSamples": {
+        "name": "Oulujoki",
+        "ko": "오울루강",
+        "coverage": 0.296
+      },
+      "NECandidates": [
+        {
+          "name": "Oulujoki",
+          "coverage": 0.296
+        }
+      ],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government gazetteer plus whole river path matching; preserve original name until confirmed"
+    },
+    {
+      "systemId": "20075401",
+      "currentDisplayName": "오울루강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20244836",
+      "currentDisplayName": "네만강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Neris",
+        "ko": "네리스",
+        "coverage": 0.679
+      },
+      "NECandidates": [
+        {
+          "name": "Neris",
+          "coverage": 0.679
+        },
+        {
+          "name": "Neman",
+          "coverage": 0.358
+        }
+      ],
+      "possibleMismatch": "Neman mainstem and Neris named tributary mixed; retain existing name until basin chain identity confirmed",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "20265844",
+      "currentDisplayName": "드르벵차강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Vistula",
+        "ko": "비스와강",
+        "coverage": 0.519
+      },
+      "NECandidates": [
+        {
+          "name": "Vistula",
+          "coverage": 0.519
+        },
+        {
+          "name": "Western Bug",
+          "coverage": 0.407
+        },
+        {
+          "name": "Mukhavets",
+          "coverage": 0.16
+        }
+      ],
+      "possibleMismatch": "Drweca displayed for basin route sampled near Vistula and Western Bug; neither automatic rename nor aggregate alias justified",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "20282318",
+      "currentDisplayName": "오데르강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Oder",
+        "ko": "오데르강",
+        "coverage": 0.259
+      },
+      "NECandidates": [
+        {
+          "name": "Oder",
+          "coverage": 0.259
+        },
+        {
+          "name": "Warta",
+          "coverage": 0.173
+        }
+      ],
+      "possibleMismatch": "Oder sampled alongside Warta but existing mainstem match is only partial",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "20386022",
+      "currentDisplayName": "센강",
+      "status": "not-applied",
+      "group": "partial-or-unverified-independent-name",
+      "NEnameSamples": {
+        "name": "Seine",
+        "ko": "센강",
+        "coverage": 0.469
+      },
+      "NECandidates": [
+        {
+          "name": "Seine",
+          "coverage": 0.469
+        }
+      ],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government gazetteer plus whole river path matching; preserve original name until confirmed"
+    },
+    {
+      "systemId": "20456598",
+      "currentDisplayName": "우랄강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20532766",
+      "currentDisplayName": "테레크강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20540915",
+      "currentDisplayName": "테레크강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20561290",
+      "currentDisplayName": "리오니강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20565620",
+      "currentDisplayName": "리오니강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20597827",
+      "currentDisplayName": "마리차강",
+      "status": "not-applied",
+      "group": "partial-or-unverified-independent-name",
+      "NEnameSamples": {
+        "name": "Maritsa",
+        "ko": "마리차강",
+        "coverage": 0.37
+      },
+      "NECandidates": [
+        {
+          "name": "Maritsa",
+          "coverage": 0.37
+        }
+      ],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government gazetteer plus whole river path matching; preserve original name until confirmed"
+    },
+    {
+      "systemId": "20628098",
+      "currentDisplayName": "아무다리야강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "20773860",
+      "currentDisplayName": "수에즈운하강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Suez Canal",
+        "ko": "수에즈운하",
+        "coverage": 0.852
+      },
+      "NECandidates": [
+        {
+          "name": "Suez Canal",
+          "coverage": 0.852
+        },
+        {
+          "name": "Ismailiya Canal",
+          "coverage": 0.173
+        }
+      ],
+      "possibleMismatch": "Suez Canal is an engineered canal; river feature classification needs an explicit model decision",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "20774342",
+      "currentDisplayName": "수에즈운하강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Suez Canal",
+        "ko": "수에즈운하",
+        "coverage": 0.049
+      },
+      "NECandidates": [
+        {
+          "name": "Suez Canal",
+          "coverage": 0.049
+        }
+      ],
+      "possibleMismatch": "Suez Canal relation present but river line has low 0.049 NE overlap; do not automatically propagate canal label",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "30145067",
+      "currentDisplayName": "오비강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Ob",
+        "ko": "오비강",
+        "coverage": 0.383
+      },
+      "NECandidates": [
+        {
+          "name": "Ob",
+          "coverage": 0.383
+        },
+        {
+          "name": "Irtysh",
+          "coverage": 0.21
+        },
+        {
+          "name": "Tobol",
+          "coverage": 0.049
+        },
+        {
+          "name": "river-1381",
+          "coverage": 0.049
+        }
+      ],
+      "possibleMismatch": "Ob logical network samples named Ob and Irtysh; other branches require authoritative independent name provenance",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "40017702",
+      "currentDisplayName": "아무르강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Amur",
+        "ko": "아무르강",
+        "coverage": 0.593
+      },
+      "NECandidates": [
+        {
+          "name": "Amur",
+          "coverage": 0.593
+        },
+        {
+          "name": "Ussuri",
+          "coverage": 0.444
+        },
+        {
+          "name": "Songacha",
+          "coverage": 0.025
+        },
+        {
+          "name": "Muling",
+          "coverage": 0.025
+        }
+      ],
+      "possibleMismatch": "Amur system samples Amur and Ussuri major cross-border tributary; isolate source per chain",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "40188382",
+      "currentDisplayName": "시르다리야강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "40279876",
+      "currentDisplayName": "두만강",
+      "status": "not-applied",
+      "group": "partial-or-unverified-independent-name",
+      "NEnameSamples": {
+        "name": "Tumen",
+        "ko": "두만강",
+        "coverage": 0.506
+      },
+      "NECandidates": [
+        {
+          "name": "Tumen",
+          "coverage": 0.506
+        }
+      ],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government gazetteer plus whole river path matching; preserve original name until confirmed"
+    },
+    {
+      "systemId": "40364680",
+      "currentDisplayName": "청천강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "40391614",
+      "currentDisplayName": "대동강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "40414035",
+      "currentDisplayName": "례성강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "40415850",
+      "currentDisplayName": "림진강/임진강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "40423228",
+      "currentDisplayName": "남한강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Namhan",
+        "ko": "남한",
+        "coverage": 0.802
+      },
+      "NECandidates": [
+        {
+          "name": "Namhan",
+          "coverage": 0.802
+        },
+        {
+          "name": "Han",
+          "coverage": 0.37
+        }
+      ],
+      "possibleMismatch": "Han basin network displayed as Namhan River; mainstem and confluence name change by reach",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "40475481",
+      "currentDisplayName": "금강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "40486439",
+      "currentDisplayName": "아라카와강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Tone",
+        "ko": "도네강",
+        "coverage": 0.272
+      },
+      "NECandidates": [
+        {
+          "name": "Tone",
+          "coverage": 0.272
+        }
+      ],
+      "possibleMismatch": "Tokyo Arakawa river has a crossmatch to Tone; official Japanese agency line or gauges needed",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41023100",
+      "currentDisplayName": "라비강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Indus",
+        "ko": "인더스강",
+        "coverage": 0.605
+      },
+      "NECandidates": [
+        {
+          "name": "Indus",
+          "coverage": 0.605
+        },
+        {
+          "name": "Chenab",
+          "coverage": 0.173
+        },
+        {
+          "name": "Ravi",
+          "coverage": 0.086
+        },
+        {
+          "name": "Sutlej",
+          "coverage": 0.025
+        }
+      ],
+      "possibleMismatch": "Ravi name assigned to Indus-dominant mainstem, with Chenab and Ravi portions; separate river scopes",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41067217",
+      "currentDisplayName": "브라마푸트라강/얄룽창포강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Brahmaputra",
+        "ko": "브라마푸트라강",
+        "coverage": 0.63
+      },
+      "NECandidates": [
+        {
+          "name": "Brahmaputra",
+          "coverage": 0.63
+        },
+        {
+          "name": "river-256",
+          "coverage": 0.247
+        },
+        {
+          "name": "river-257",
+          "coverage": 0.111
+        },
+        {
+          "name": "river-255",
+          "coverage": 0.074
+        }
+      ],
+      "possibleMismatch": "Brahmaputra/Ganges confluence aggregate; distinct identity by branch and mouth must be checked",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41109275",
+      "currentDisplayName": "난판강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Zuo",
+        "ko": "주오",
+        "coverage": 0.321
+      },
+      "NECandidates": [
+        {
+          "name": "Zuo",
+          "coverage": 0.321
+        },
+        {
+          "name": "Xi",
+          "coverage": 0.259
+        },
+        {
+          "name": "Yu",
+          "coverage": 0.235
+        },
+        {
+          "name": "Xunjiang",
+          "coverage": 0.16
+        }
+      ],
+      "possibleMismatch": "Nanpan/Red crossmatch; Zuo-Xi-Yu corridor merits provincial gazetteer and contour verification",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41171836",
+      "currentDisplayName": "룩남강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": "룩남강과 꺼우강 관계명의 동일성 검토 필요",
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "41182380",
+      "currentDisplayName": "꺼우강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Red",
+        "ko": "홍강",
+        "coverage": 0.37
+      },
+      "NECandidates": [
+        {
+          "name": "Red",
+          "coverage": 0.37
+        },
+        {
+          "name": "Black",
+          "coverage": 0.037
+        }
+      ],
+      "possibleMismatch": "Cau assigned to Red River mainstem section; two Vietnamese rivers may have been merged",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41337891",
+      "currentDisplayName": "빠삭강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Yom",
+        "ko": "욤강",
+        "coverage": 0.691
+      },
+      "NECandidates": [
+        {
+          "name": "Yom",
+          "coverage": 0.691
+        },
+        {
+          "name": "Chao Phraya",
+          "coverage": 0.346
+        },
+        {
+          "name": "Ping",
+          "coverage": 0.037
+        }
+      ],
+      "possibleMismatch": "Pa Sak name attached to Yom/Chao Phraya mainstem; needs Thai official reach geometry",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41386179",
+      "currentDisplayName": "미명명 수계 41386179",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Krong",
+        "ko": "크롱",
+        "coverage": 0.012
+      },
+      "NECandidates": [
+        {
+          "name": "Krong",
+          "coverage": 0.012
+        }
+      ],
+      "possibleMismatch": "Unnamed Saigon mainstem contains related Saigon tributary but naming entire group unsafe",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "41386700",
+      "currentDisplayName": "미명명 수계 41386700",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": "Unnamed Vam Co Tay mainstem: cannot promote tributary name without full route identity",
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "41390476",
+      "currentDisplayName": "발라이강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Mekong",
+        "ko": "메콩강",
+        "coverage": 0.407
+      },
+      "NECandidates": [
+        {
+          "name": "Mekong",
+          "coverage": 0.407
+        },
+        {
+          "name": "river-1764",
+          "coverage": 0.222
+        },
+        {
+          "name": "river-1763",
+          "coverage": 0.099
+        }
+      ],
+      "possibleMismatch": "Ba Lai within Mekong delta may be distributary; independent official delta branch source needed",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    },
+    {
+      "systemId": "50798885",
+      "currentDisplayName": "야라강",
+      "status": "not-applied",
+      "group": "no-independent-natural-earth-match",
+      "NEnameSamples": null,
+      "NECandidates": [],
+      "possibleMismatch": null,
+      "requiredNextCheck": "Government GIS vectors or station coordinates matching each mainstem and mouth"
+    },
+    {
+      "systemId": "70814357",
+      "currentDisplayName": "미시시피강",
+      "status": "not-applied",
+      "group": "source-conflict-or-name-scope",
+      "NEnameSamples": {
+        "name": "Mississippi",
+        "ko": "미시시피강",
+        "coverage": 0.481
+      },
+      "NECandidates": [
+        {
+          "name": "Mississippi",
+          "coverage": 0.481
+        },
+        {
+          "name": "Arkansas",
+          "coverage": 0.346
+        },
+        {
+          "name": "Red of the South",
+          "coverage": 0.037
+        },
+        {
+          "name": "Bayou Lafourche",
+          "coverage": 0.025
+        }
+      ],
+      "possibleMismatch": "Mississippi metadata contains Rio Grande, a separate basin; named major tributaries require separate review",
+      "requiredNextCheck": "Validate continuous downstream path and individual tributary identity using official hydrology"
+    }
+  ]
+}
