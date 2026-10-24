@@ -9,7 +9,6 @@
 | 문서 | ID | 기록 날짜 | 상태 |
 | --- | --- | --- | --- |
 | [코드 변경과 검사 자동 선택·실행 연동](ci/check-automation-2026-10-19.md) | UI-CHECK-AUTOMATION-20261019 | 2026-10-20 | `local-validation / known-product-failures / unpublished` |
-| [CI path resolution and timeline camera fixes — 2026-10-24](ci/ci-timeline-fixes-2026-10-24.md) |  |  | 원문 참조 |
 | [C++ CI 2건과 Windows WebGL UI 시간 초과 수정](ci/core-ci-webgl-repair-2026-10-20.md) | DEV-CORE-CI-WEBGL-20261020 | 2026-10-20 | `native-ci-verified / webgl-ui-verified / separate-artifact-ci-failure` |
 | [P2 — C++ 생성물 자동화 실행·검증](ci/p2-generated-artifact-automation-2026-10-14.md) | DEV-073 | 2026-10-14 | `implemented` |
 | [P4 — GIS Python 격리·원격 검증](ci/p4-python-gis-isolation-2026-10-14.md) | DEV-074 | 2026-10-14 | `implemented` |
@@ -21,19 +20,12 @@
 | [P1 — 원격 개발환경 표준화·검증](native/p1-remote-development-validation-2026-10-14.md) | DEV-071 | 2026-10-14 | `implemented` |
 | [구 Qt 앱 전체 제거](native/qt-app-retirement-2026-10-18.md) | DEV-QT-RETIRE-20261018 | 2026-10-18 | `verified-focused-runtime` |
 | [P0 — 원격 개발 체계·도구 의존성·성능 기준 조사](native/remote-toolchain-p0-audit-2026-10-14.md) | DEV-070 | 2026-10-14 | `investigating` |
-| [Verification build separation — 2026-10-24](native/verification-build-separation-2026-10-24.md) |  |  | 원문 참조 |
 | [웹·앱 공통 파일 입출력 — 2-2 구현 기록](native/web-shell-file-io-2026-10-16.md) | DEV-079 | 2026-10-16 | `investigating` |
 | [공통 웹 초기화 및 전체 세계 데이터 패키징 — 2-3A~C](native/web-shell-full-world-2026-10-16.md) | DEV-080 | 2026-10-16 | `investigating` |
 | [신규 WebView 전체 세계지도 물리 자료 로딩 경량화](native/web-shell-physical-startup-2026-10-16.md) | DEV-084 | 2026-10-16 | `verified-windows-paired-30s` |
 | [Windows·Android 웹 기반 시험용 앱](native/web-shell-prototype-2026-10-16.md) | DEV-078 | 2026-10-16 | `investigating` |
-| [Instructions](native/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/error-context.md) |  |  | 원문 참조 |
 | [P5-5 공유 국경선 렌더링 패킷 성능 검증](p5-shared-border-performance.md) |  |  | 원문 참조 |
 | [공유 국경선 선분 공간 인덱스 압축: JS 힙 165MiB 절감 A/B 검증](performance/boundary-spatial-index-packed-2026-10-17.md) | OBJ-089 | 2026-10-17 | `verified-web-paired` |
-| [내부 계산 전수 정적 조사 및 결과 동일 최적화 — 2026-10-23](performance/exact-calculation-2026-10-23/README.md) | DEV-EXACT-CALC-20261023 |  | deployed / focused-verification / CI-incomplete · 지도 반영: not-applicable (계산 변경) |
-| [SDD ledger — plan: exact-calculation-optimization (approved conversation plan)](performance/exact-calculation-2026-10-23/progress.md) |  |  | 원문 참조 |
-| [Fresh whole-branch review](performance/exact-calculation-2026-10-23/review.md) |  |  | 원문 참조 |
-| [Storage and native development execution - final 2026-10-24](performance/exact-calculation-2026-10-23/storage-progress.md) |  |  | 원문 참조 |
-| [Full source triage](performance/exact-calculation-2026-10-23/triage.md) |  |  | 원문 참조 |
 | [객체 시점 resolveWorld 단일화 검증](performance/objects-timeline-cursor-reuse-2026-10-17.md) | OBJ-083 | 2026-10-17 | `verified-web-diagnostics` |
 | [P6–P9 구현·검증 진행 기록](performance/p6-p9-execution-2026-10-16.md) | DEV-076 | 2026-10-16 | `investigating` |
 | [기준 코드·기존 계측 자산 통합 검토](performance/performance-baseline-consolidation-2026-10-17.md) | PERF-P0-001 | 2026-10-17 | `verified-source-and-focused-ci` |
@@ -74,7 +66,6 @@
 | [객체 워크트리 main 동기화와 미커밋 작업 복원](releases/objects-main-sync-2026-10-21.md) | OBJ-MAIN-SYNC-20261021 |  | main-synchronized / local-wip-restored |
 | [프로젝트 생성·공통 보기 변경 커밋과 Pages 배포](releases/project-creation-release-2026-10-19.md) | UI-PROJECT-RELEASE-20261019 | 2026-10-19 | `published / focused-verified / android-device-unverified` |
 | [남은 작업 브랜치의 main 통합](releases/remaining-branch-integration-2026-10-20.md) | DEV-REMAINING-BRANCH-20261020 | 2026-10-20 | `integrated / remote-verified / docs-only` |
-| [원격 브랜치 main 통합 — 2026-10-24](releases/remote-branch-integration-2026-10-24/README.md) |  |  | 원문 참조 |
 | [웹·앱 저장소 통합 — 4단계](releases/repository-unification-stage4-2026-10-12.md) | DEV-065 | 2026-10-12 | `historical-record` |
 | [Web·App 저장소 통합 — 5단계 검증 (2026-10-12)](releases/repository-unification-stage5-2026-10-12.md) |  |  | 원문 참조 |
 | [공통 지도 변경 배포와 작업 브랜치 통합](releases/shared-viewing-release-sync-2026-10-20.md) | UI-RELEASE-SYNC-20261020 | 2026-10-20 | `pages-content-verified / ci-failures-recorded / native-unverified` |
@@ -88,19 +79,6 @@
 | [웹 지구본 전용 표시 구현과 최소 검증](rendering/viewer-globe-only-2026-10-21.md) | UI-WEB-GLOBE-20261021 | 2026-10-21 | `local-verified / release-followup-linked` |
 | [보고서 이관 기록](storage/MIGRATION.md) |  |  | 원문 참조 |
 | [데이터 버전 관리 — 과거 단계 보고서 통합 요약](storage/archive/data-versioning/README.md) |  |  | 원문 참조 |
-| [판도편집기 조사·검증 보고서](storage/archive/report-editions/0f4ff414ece12ef3db2cc08fd0727fef548aab08435fdb47adc2e8591d0a8488.md) | DEV-MAIN-20261021 |  | 원문 참조 |
-| [참조 이미지 자동 분석 기록](storage/archive/report-editions/133269e1f7190d4ad55bee7a4bf4518b73ffdc003a75b16a00277e9120237ed6.md) | UI-REF-TRAINED-20261023 |  | 원문 참조 |
-| [참조 이미지 자동 분석 — main 배포와 학습 자료 준비](storage/archive/report-editions/5b005a0f62a5bfbcac687371a2f6f46b6489289ed6f62c2de0c103f049230c98.md) | UI-REF-RELEASE-20261023 |  | pages-live-verified / implementation-partial |
-| [판도편집기 조사·검증 보고서](storage/archive/report-editions/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a.md) | DEV-MAIN-20261021 |  | 원문 참조 |
-| [참조 이미지 자동 분석 기록](storage/archive/report-editions/6adfcd773b20f624dd4271336c6c9ee9bb3f419c5a1dddff9cbe93fb873bdec3.md) | UI-REF-DIVERSITY-20261023 |  | 원문 참조 |
-| [Verification build separation — 2026-10-24](storage/archive/report-editions/872d6d042eecf23678041bc62ead972c041243c38ff5d0d348e18d157c59ee9b.md) |  |  | 원문 참조 |
-| [판도편집기 조사·검증 보고서](storage/archive/report-editions/9dae9fe4291548eb3e9190b71f6674c041de34a20e18c620935308f63ea9d48d.md) | DEV-MAIN-20261021 |  | 원문 참조 |
-| [판도편집기 조사·검증 보고서](storage/archive/report-editions/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8.md) | DEV-MAIN-20261021 |  | 원문 참조 |
-| [참조 이미지 자동 분석 기록](storage/archive/report-editions/b42265b174846c8e38176319bda3adf0a6dba54292507d1211c951303b8cd31f.md) | UI-REF-PANELS-20261023 |  | 원문 참조 |
-| [동독 라체부르크·메호어호 경계 적용](storage/archive/report-editions/b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88.md) | GEO-DDR-NORTHERN-APPLIED-20261023 |  | local-applied / provisional |
-| [Latest Pages first readiness attempt](storage/archive/report-editions/c6c1b824438a062bcb2b8d1028260fde215a8bef30c6b171758498f08da3dbd8.md) |  |  | 원문 참조 |
-| [버튼 UI main 통합·웹 배포·Windows 앱 갱신](storage/archive/report-editions/cc975404572a3037b93e321fa3e4a93276f10cb693013f86780c3c2ba88f9cf5.md) | DEV-BUTTON-RELEASE-20261022 |  | web-published / windows-native-verified |
-| [참조 이미지 자동 분석 기록](storage/archive/report-editions/fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6.md) | UI-REF-MACRO-SEAMS-20261024 |  | 원문 참조 |
 | [판도편집기 조사·검증 보고서](storage/branch-originals/gis/README.md) | DEV-MAIN-20261021 |  | 원문 참조 |
 | [10월 21일 작업 브랜치의 main 통합](storage/branch-originals/gis/development/testing/all-branch-integration-2026-10-21.md) | DEV-ALL-BRANCH-20261021 |  | integrated / focused-verified / local-only |
 | [미병합 커밋 main 통합](storage/branch-originals/gis/development/testing/all-branches-main-integration-2026-10-21.md) | DEV-MAIN-20261021 |  | integrated / focused-verification |
@@ -133,11 +111,8 @@
 | [앱 편집 집중과 프로젝트 저장 범위 변경 검증](storage/editor-focus-project-storage-2026-10-19.md) | UI-EDITOR-FOCUS-20261019 | 2026-10-19 | `focused-verified / android-device-unverified` |
 | [Git 대용량 이력 정리 — 격리 검증 및 PR 참조 제약](storage/git-history-readonly-audit-2026-10-13.md) | DEV-069 | 2026-10-13 | `historical-record` |
 | [미사용 세계지도 구버전 대용량 자산 정리 — 의존성 검증](storage/legacy-world-asset-retirement-2026-10-13.md) | DEV-068 | 2026-10-13 | `historical-record` |
-| [라이브러리 원문 중앙화·중복 정리 완료](storage/library-centralization-20261024/README.md) | DEV-LIBRARY-CENTRALIZATION-20261024 |  | completed / focused-verification · 지도 반영: not-applicable · 색인일: 2026-10-24 |
-| [라이브러리 보고서 보관 및 main 병합 — 2026-10-24](storage/library-report-publication-2026-10-24/README.md) |  |  | 원문 보관 스냅샷 / 제품 반영·학습 모델 승인 아님 |
-| [판도편집기 조사·검증 보고서](storage/organization-original-indexes/README.md) | DEV-EXACT-CALC-20261023 |  | 원문 참조 |
+| [판도편집기 조사·검증 보고서](storage/organization-original-indexes/README.md) | DEV-MAIN-20261023 |  | 원문 참조 |
 | [새 프로젝트 생성 통합과 보기 상태 저장 분리](storage/project-creation-storage-2026-10-19.md) | UI-PROJECT-CREATION-20261019 | 2026-10-19 | `focused-verified / baseline-test-failures / android-device-unverified` |
-| [보고서 완료 시 원문 보관·커밋·푸시 보장](storage/report-completion-2026-10-25/README.md) | DEV-REPORT-COMPLETION-20261025 |  | focused-verified / source-worktree-applied · 지도 반영: not-applicable |
 | [웹·앱 저장소 파일 및 Git 이력 정리 — 1~3단계](storage/repository-cleanup-2026-10-12.md) | DEV-064 | 2026-10-12 | `historical-record` |
 | [공통 지도·열람 구조 정리 구현과 검증](storage/shared-viewing-cleanup-2026-10-19.md) | UI-SHARED-VIEWING-20261019 | 2026-10-19 | `local-validation / native-unverified / unpublished` |
 | [국가 존속기간과 지도 자료 제공 기간 분리](ui/country-lifetime-2026-10-21.md) | OBJ-MAIN-SYNC-20261021 |  | web-app-core-verified |
@@ -168,3 +143,8 @@
 | [일반객체·지방객체 통합의 과거 단계별 진행 기록](ui/unified-objects-sdd-progress.md) |  |  | 원문 참조 |
 | [웹 열람 UI 공유 누락 조사와 복원](ui/viewing-ui-reuse-repair-2026-10-18.md) | UI-VIEWING-REPAIR-20261018 | 2026-10-18 | `verified-web-release / native-unverified` |
 | [웹 열람·앱 편집 분리와 휴대폰 가로 화면](ui/web-app-product-split-2026-10-18.md) | UI-PRODUCT-SPLIT-20261018 | 2026-10-18 | `focused-verified / native-device-unverified` |
+
+## 보고서 보관·분류
+
+- [주제별 재배치와 보존 검증](storage/library-organization-2026-10-25/README.md)
+- [완료 보고서 보관·게시 절차](storage/report-completion-2026-10-25/README.md)

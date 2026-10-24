@@ -1,0 +1,2398 @@
+--- a/.github/workflows/german-empire-1914-modern-coast.yml
++++ b/.github/workflows/german-empire-1914-modern-coast.yml
+@@ -26,7 +26,7 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- tools/historical-library/working tools/historical-library/sources/german-empire-1914 "$(python tools/report_paths.py tools/historical-library/working)"/german-empire-1914-modern-coast.diagnostics.json
++          node tools/library-data.mjs --store-and-stage --push -- tools/historical-library/working tools/historical-library/sources/german-empire-1914 reports/borders/reconstruction/germany/diagnostics/german-empire-1914-modern-coast.diagnostics.json
+           if git diff --cached --quiet; then
+             echo "No generated changes."
+           else
+--- a/.github/workflows/hydro-retirement-consumers-gate.yml
++++ b/.github/workflows/hydro-retirement-consumers-gate.yml
+@@ -31,7 +31,7 @@
+             /tools/research-hydro-names.mjs
+             /tools/promote-hydro-names.mjs
+             /tools/lib/
+-            /reports/hydro-names/
++            /reports/hydro/names/
+             /tests/unit/river-territory-partition-serbia.test.mjs
+             /assets/js/
+             /assets/data/hydro/v0.13.2/
+--- a/.github/workflows/integration-ui-objects-20261016.yml
++++ b/.github/workflows/integration-ui-objects-20261016.yml
+@@ -11,7 +11,7 @@
+       - 'apps/web-shell/**'
+       - 'index.html'
+       - 'reports/README.md'
+-      - 'reports/development/testing/soviet-*'
++      - 'reports/development/performance/soviet-*'
+       - 'tests/unit/**'
+       - 'tests/browser/soviet-edit-entry-profile.spec.mjs'
+       - 'package.json'
+--- a/.github/workflows/north-schleswig-1914-001-026-audit.yml
++++ b/.github/workflows/north-schleswig-1914-001-026-audit.yml
+@@ -8,8 +8,8 @@
+       - tools/audit_north_schleswig_1914_001_026.py
+       - .github/workflows/north-schleswig-1914-001-026-audit.yml
+       - tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.geojson
+-      - reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.diagnostics.json
+-      - tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.diagnostics.json
++      - reports/borders/reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.diagnostics.json
++      - reports/borders/reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.diagnostics.json
+ 
+ permissions:
+   contents: write
+@@ -38,7 +38,7 @@
+           node tools/library-data.mjs --store-and-stage --push -- \
+             tools/historical-library/sources/german-empire-1914/north-schleswig-001-026/seem-by-ejerlav-current.geojson \
+             tools/historical-library/sources/german-empire-1914/north-schleswig-001-026/seem-by-ejerlav-current.provenance.json \
+-            "$(python tools/report_paths.py tools/historical-library/land-borders)"/german-denmark-1914-north-schleswig-001-026.audit.json
++            reports/borders/reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.audit.json
+           if git diff --cached --quiet; then
+             echo "No audit changes."
+           else
+--- a/.github/workflows/north-schleswig-1914-001-026.yml
++++ b/.github/workflows/north-schleswig-1914-001-026.yml
+@@ -33,7 +33,7 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- tools/historical-library/sources/german-empire-1914/north-schleswig-001-026 tools/historical-library/land-borders "$(python tools/report_paths.py tools/historical-library/land-borders)"/german-denmark-1914-north-schleswig-001-026.diagnostics.json
++          node tools/library-data.mjs --store-and-stage --push -- tools/historical-library/sources/german-empire-1914/north-schleswig-001-026 tools/historical-library/land-borders reports/borders/reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.diagnostics.json
+           if git diff --cached --quiet; then
+             echo "No generated changes."
+           else
+--- a/.github/workflows/north-schleswig-1914-stone26-transition.yml
++++ b/.github/workflows/north-schleswig-1914-stone26-transition.yml
+@@ -46,7 +46,7 @@
+           from pathlib import Path
+           base=Path("tools/historical-library/land-borders")
+           stem="german-denmark-1914-north-schleswig-001-026"
+-          a=json.loads((report_path("tools/historical-library/land-borders")/(stem+".stone26-transition.audit.json")).read_text())
++          a=json.loads((report_path("reports/borders/reconstruction/germany/north-schleswig", access="read")/(stem+".stone26-transition.audit.json")).read_text())
+           g=json.loads((base/(stem+".stone26-transition.provisional.geojson")).read_text())
+           assert a["referenceDate"]=="1914-07-31"
+           assert a["currentMasterUnmodified"]
+@@ -79,7 +79,7 @@
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+           node tools/library-data.mjs --store-and-stage --push -- \
+-            "$(python tools/report_paths.py tools/historical-library/land-borders)"/german-denmark-1914-north-schleswig-001-026.stone26-transition.audit.json \
++            reports/borders/reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.stone26-transition.audit.json \
+             tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.stone26-transition.provisional.geojson
+           if git diff --cached --quiet; then
+             echo "Derived candidates unchanged."
+--- a/.github/workflows/pando-pretransfer-cleanup-gate.yml
++++ b/.github/workflows/pando-pretransfer-cleanup-gate.yml
+@@ -40,15 +40,15 @@
+           paths=set(subprocess.check_output(['git','ls-files','-z']).decode().strip('\x00').split('\x00'))
+           reports=[p for p in paths if p.startswith('reports/')]
+           assert len(reports)==1957, f'unexpected report count {len(reports)}'
+-          assert len([p for p in paths if p.startswith('reports/research/siachen/')])==54
++          assert len([p for p in paths if p.startswith('reports/borders/reconstruction/siachen/')])==54
+           assert not any(p.startswith('assets/data/research/siachen/') for p in paths)
+           assert not any(p.startswith('native/') for p in paths)
+           assert not any(p.startswith('.superpowers/') for p in paths)
+           assert 'reports/places/source-manifest.json' in paths
+-          assert 'reports/geography/netherlands/phase0-current-representation-inventory.json' in paths
++          assert 'reports/borders/reconstruction/netherlands/phase0-current-representation-inventory.json' in paths
+           for batch in range(152,195):
+             for name in ('results.json','source-notes.json'):
+-              path=f'reports/hydro-names/reconstruction-2026-10-09/batch-r{batch}/{name}'
++              path=f'reports/hydro/names/reconstruction-2026-10-09/batch-r{batch}/{name}'
+               assert path in paths, path
+           print('PASS: report inventory and research evidence checked; no retired app or legacy copies')
+           PY
+--- a/.github/workflows/siachen-agpl-ice-diagnostic.yml
++++ b/.github/workflows/siachen-agpl-ice-diagnostic.yml
+@@ -29,7 +29,7 @@
+           from report_paths import report_path
+           import json
+           from pathlib import Path
+-          p=report_path("assets/data/research/siachen")
++          p=report_path("reports/borders/reconstruction/siachen", access="read")
+           m=json.loads((p/"siachen_agpl_discrepancy_diagnostic.json").read_text())
+           assert 1 < m["by_source_scale"]["10m"]["rgi_overlap_pakistan_km2"] < 2
+           assert m["line_through_ice"]["intersected_length_km"] > 0
+@@ -42,17 +42,19 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/
+           if ! git diff --cached --quiet; then
+             git commit -m "research: record spatial diagnosis of AGPL and ice overlaps"
+             git push origin HEAD:work/gis
+           fi
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - uses: actions/upload-artifact@v4
+         with:
+           name: siachen-ice-agpl-discrepancy
+           path: |
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_agpl_discrepancy_diagnostic.json
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_glacier_agpl_discrepancy.geojson
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_agpl_discrepancy_overview.png
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_agpl_discrepancy_zoom.png
+-            reports/research/siachen/README_discrepancy.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_agpl_discrepancy_diagnostic.json
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_glacier_agpl_discrepancy.geojson
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_agpl_discrepancy_overview.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_agpl_discrepancy_zoom.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_discrepancy.md
+--- a/.github/workflows/siachen-agpl-research.yml
++++ b/.github/workflows/siachen-agpl-research.yml
+@@ -31,7 +31,7 @@
+           from report_paths import report_path
+           from pathlib import Path
+           import json
+-          folder=report_path("assets/data/research/siachen")
++          folder=report_path("reports/borders/reconstruction/siachen", access="read")
+           expected=['siachen_agpl_osm_candidate.geojson','siachen_control_split_ne_10m.geojson','siachen_control_split_ne_50m.geojson','siachen_control_comparison.json','siachen_control_comparison.png','README_control.md']
+           for name in expected:
+             assert (folder/name).stat().st_size > 100, name
+@@ -49,25 +49,21 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/
+           if ! git diff --cached --quiet; then
+             git commit -m "research: save source-attributed approximate AGPL and polygon splits"
+             git push origin HEAD:work/gis
+           fi
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - name: Export artifacts
+         uses: actions/upload-artifact@v4
+         with:
+           name: siachen-agpl-research
+           path: |
+-            reports/research/siachen/siachen_agpl_osm_candidate.geojson
+-            assets/data/research/siachen/siachen_agpl_osm_candidate.geojson
+-            reports/research/siachen/siachen_control_split_ne_10m.geojson
+-            assets/data/research/siachen/siachen_control_split_ne_10m.geojson
+-            reports/research/siachen/siachen_control_split_ne_50m.geojson
+-            assets/data/research/siachen/siachen_control_split_ne_50m.geojson
+-            reports/research/siachen/siachen_control_comparison.json
+-            assets/data/research/siachen/siachen_control_comparison.json
+-            reports/research/siachen/siachen_control_comparison.png
+-            assets/data/research/siachen/siachen_control_comparison.png
+-            reports/research/siachen/README_control.md
+-            assets/data/research/siachen/README_control.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_agpl_osm_candidate.geojson
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_control_split_ne_10m.geojson
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_control_split_ne_50m.geojson
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_control_comparison.json
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_control_comparison.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_control.md
+--- a/.github/workflows/siachen-cop30-terrain.yml
++++ b/.github/workflows/siachen-cop30-terrain.yml
+@@ -30,7 +30,7 @@
+           from report_paths import report_path
+           import json
+           from pathlib import Path
+-          p=report_path("assets/data/research/siachen")
++          p=report_path("reports/borders/reconstruction/siachen", access="read")
+           r=json.loads((p/'sia_bilafond_dem_comparison.json').read_text())
+           assert 'Copernicus' in r['sources']['copernicus_dem']['dataset']
+           assert r['sector']['sample_count'] > 60
+@@ -46,18 +46,20 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/
+           if ! git diff --cached --quiet; then
+             git commit -m "research: record Copernicus GLO30 Saltoro terrain diagnostics"
+             git push origin HEAD:work/gis
+           fi
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - uses: actions/upload-artifact@v4
+         with:
+           name: sia-bilafond-cop30-terrain
+           path: |
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/sia_bilafond_dem_comparison.json
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/sia_bilafond_dem_samples.geojson
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/sia_bilafond_cop30_relief.png
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/sia_bilafond_sia_osm_transect.png
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/sia_bilafond_bila_osm_transect.png
+-            reports/research/siachen/README_dem_sia_bilafond.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/sia_bilafond_dem_comparison.json
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/sia_bilafond_dem_samples.geojson
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/sia_bilafond_cop30_relief.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/sia_bilafond_sia_osm_transect.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/sia_bilafond_bila_osm_transect.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_dem_sia_bilafond.md
+--- a/.github/workflows/siachen-km90-optical.yml
++++ b/.github/workflows/siachen-km90-optical.yml
+@@ -33,7 +33,7 @@
+           from report_paths import report_path
+           import json
+           from pathlib import Path
+-          p=report_path("assets/data/research/siachen")
++          p=report_path("reports/borders/reconstruction/siachen", access="read")
+           a=json.loads((p/'siachen_s2_km90_corridor.json').read_text())
+           assert a['years']['2025']['item_id']=='S2B_43SFV_20250923_0_L2A'
+           assert a['years']['2026']['item_id']=='S2B_43SFV_20260829_0_L2A'
+@@ -44,14 +44,16 @@
+           print('PASS: 2025 and 2026 comparison georeferenced and source-fixed')
+           PY
+ 
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - uses: actions/upload-artifact@v4
+         with:
+           name: siachen-km90-optical
+           path: |
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_*_km90_corridor.png
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_km90_corridor.json
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_km90_corridor.geojson
+-            reports/research/siachen/README_s2_km90.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_s2_*_km90_corridor.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_s2_km90_corridor.json
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_s2_km90_corridor.geojson
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_s2_km90.md
+ 
+       - name: Commit research outputs with concurrent-branch retry
+         env:
+@@ -59,7 +61,7 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_*_km90_corridor.png "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_km90_corridor.* "$(python tools/report_paths.py assets/data/research/siachen)"/README_s2_km90.md
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_s2_*_km90_corridor.png reports/borders/reconstruction/siachen/siachen_s2_km90_corridor.* reports/borders/reconstruction/siachen/README_s2_km90.md
+           if ! git diff --cached --quiet; then
+             git commit -m "research: record optical km90 anomaly crosscheck"
+             for attempt in 1 2 3 4 5; do
+--- a/.github/workflows/siachen-multidem-ridge.yml
++++ b/.github/workflows/siachen-multidem-ridge.yml
+@@ -33,7 +33,7 @@
+           from report_paths import report_path
+           import json
+           from pathlib import Path
+-          p=report_path("assets/data/research/siachen")
++          p=report_path("reports/borders/reconstruction/siachen", access="read")
+           x=json.loads((p/'siachen_multidem_ridge_comparison.json').read_text())
+           assert 'COP30' in x['sources']
+           assert len(x['sources'])>=2
+@@ -45,24 +45,23 @@
+               assert '1600' in st['DEM']['COP30']['search_windows_m']
+           print('SUCCESS: four pass sites and six DEM profiles verified')
+           PY
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - name: Upload studies irrespective of Git branch contention
+         uses: actions/upload-artifact@v4
+         with:
+           name: siachen-saltoro-dem-cross-source
+           path: |
+-            reports/research/siachen/siachen_multidem_*.png
+-            assets/data/research/siachen/siachen_multidem_*.png
+-            reports/research/siachen/siachen_multidem_ridge_comparison.json
+-            assets/data/research/siachen/siachen_multidem_ridge_comparison.json
+-            reports/research/siachen/README_multidem_ridge.md
+-            assets/data/research/siachen/README_multidem_ridge.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_multidem_*.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_multidem_ridge_comparison.json
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_multidem_ridge.md
+       - name: Commit source data to research branch
+         env:
+           PANDOLAB_LIBRARY_WRITE_TOKEN: ${{ secrets.PANDOLAB_LIBRARY_WRITE_TOKEN }}
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_multidem_* "$(python tools/report_paths.py assets/data/research/siachen)"/README_multidem_ridge.md
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_multidem_* reports/borders/reconstruction/siachen/README_multidem_ridge.md
+           if ! git diff --cached --quiet; then
+             git commit -m "research: source-record independent Saltoro DEM comparison"
+             for attempt in 1 2 3 4; do
+--- a/.github/workflows/siachen-rgi7-research.yml
++++ b/.github/workflows/siachen-rgi7-research.yml
+@@ -48,15 +48,16 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen
+           if ! git diff --cached --quiet; then
+             git commit -m "research: add verified Siachen glacier GeoJSON and comparison"
+             git push origin HEAD:work/gis
+           fi
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - name: Upload GIS files
+         uses: actions/upload-artifact@v4
+         with:
+           name: siachen-rgi7-study
+           path: |
+-            reports/research/siachen/
+-            assets/data/research/siachen/
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/
+--- a/.github/workflows/siachen-ridge-saddle-review.yml
++++ b/.github/workflows/siachen-ridge-saddle-review.yml
+@@ -32,7 +32,7 @@
+           from report_paths import report_path
+           import json
+           from pathlib import Path
+-          path=report_path("assets/data/research/siachen")
++          path=report_path("reports/borders/reconstruction/siachen", access="read")
+           v=json.loads((path/'siachen_saltoro_ridge_terrain_diagnostics.json').read_text())
+           assert set(v['studies'])=={'mid_ridge_90km','sia_la','bilafond_north'}
+           assert len(v['saddle_site_points'])==5
+@@ -49,20 +49,22 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_saltoro_ridge_terrain_diagnostics.json
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_saltoro_ridge_terrain_diagnostics.geojson
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/README_saltoro_terrain_continuity.md
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_terrain_90km_profile_*.png
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_saltoro_ridge_terrain_diagnostics.json
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_saltoro_ridge_terrain_diagnostics.geojson
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/README_saltoro_terrain_continuity.md
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_terrain_90km_profile_*.png
+           if ! git diff --cached --quiet; then
+             git commit -m "research: save Saltoro DEM crest and pass-saddle diagnostic"
+             git fetch origin work/gis
+             git rebase origin/work/gis
+             git push origin HEAD:work/gis
+           fi
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - uses: actions/upload-artifact@v4
+         with:
+           name: siachen-ridge-saddle-review
+           path: |
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_saltoro_ridge_terrain_diagnostics.*
+-            "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_terrain_90km_profile_*.png
+-            reports/research/siachen/README_saltoro_terrain_continuity.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_saltoro_ridge_terrain_diagnostics.*
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_terrain_90km_profile_*.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_saltoro_terrain_continuity.md
+--- a/.github/workflows/siachen-sentinel2-optical.yml
++++ b/.github/workflows/siachen-sentinel2-optical.yml
+@@ -33,7 +33,7 @@
+           from report_paths import report_path
+           import json
+           from pathlib import Path
+-          p=report_path("assets/data/research/siachen")
++          p=report_path("reports/borders/reconstruction/siachen", access="read")
+           x=json.loads((p/'siachen_s2_optical_comparison.json').read_text())
+           assert set(x['scenes']) == {'2025','2026'}
+           for year,record in x['scenes'].items():
+@@ -50,23 +50,22 @@
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_*_optical.png
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/siachen_s2_optical_comparison.json
+-          node tools/library-data.mjs --store-and-stage --push -- "$(python tools/report_paths.py assets/data/research/siachen)"/README_s2_optical.md
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_s2_*_optical.png
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/siachen_s2_optical_comparison.json
++          node tools/library-data.mjs --store-and-stage --push -- reports/borders/reconstruction/siachen/README_s2_optical.md
+           if ! git diff --cached --quiet; then
+             git commit -m "research: record Sentinel-2 georeferenced optical comparisons"
+             git fetch origin work/gis
+             git rebase origin/work/gis
+             git push origin HEAD:work/gis
+           fi
++      - name: Resolve branch report artifacts
++        run: echo "PANDO_REPORT_ARTIFACTS=$(python tools/report_paths.py reports/borders/reconstruction/siachen --access read)" >> "$GITHUB_ENV"
+       - name: Upload optical image and source data
+         uses: actions/upload-artifact@v4
+         with:
+           name: siachen-sentinel2-optical
+           path: |
+-            reports/research/siachen/siachen_s2_*_optical.png
+-            assets/data/research/siachen/siachen_s2_*_optical.png
+-            reports/research/siachen/siachen_s2_optical_comparison.json
+-            assets/data/research/siachen/siachen_s2_optical_comparison.json
+-            reports/research/siachen/README_s2_optical.md
+-            assets/data/research/siachen/README_s2_optical.md
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_s2_*_optical.png
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/siachen_s2_optical_comparison.json
++            ${{ env.PANDO_REPORT_ARTIFACTS }}/README_s2_optical.md
+--- a/.github/workflows/soviet-shared-border-heap-owners.yml
++++ b/.github/workflows/soviet-shared-border-heap-owners.yml
+@@ -25,7 +25,7 @@
+         run: |
+           git merge-base --is-ancestor "$MAIN_BASE" HEAD
+           git diff --name-only "$MAIN_BASE" HEAD |
+-            grep -Ev '^(\.github/workflows/soviet-main-long-cycle-memory\.yml|tests/browser/soviet-main-long-cycle\.spec\.mjs|tests/browser/helpers/soviet-memory-attribution\.mjs|\.github/workflows/soviet-shared-border-heap-owners\.yml|tests/browser/soviet-shared-border-heap-owners\.spec\.mjs|reports/development/testing/web-shell-physical-startup-2026-10-16\.md)$' > /tmp/non-test-diffs || true
++            grep -Ev '^(\.github/workflows/soviet-main-long-cycle-memory\.yml|tests/browser/soviet-main-long-cycle\.spec\.mjs|tests/browser/helpers/soviet-memory-attribution\.mjs|\.github/workflows/soviet-shared-border-heap-owners\.yml|tests/browser/soviet-shared-border-heap-owners\.spec\.mjs|reports/development/native/web-shell-physical-startup-2026-10-16\.md)$' > /tmp/non-test-diffs || true
+           test ! -s /tmp/non-test-diffs || { cat /tmp/non-test-diffs; exit 1; }
+       - uses: actions/setup-node@v4
+         with:
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -101,6 +101,21 @@
+ - Scope completion explicitly; never publish all reports merely to hide a missing selected scope. Do not publish on every file write or run a background full-project watcher. Report-only completion must not prepare/copy runtime datasets.
+ - If storage is locked, main diverges, or publication/remote verification fails, preserve originals and pending commits, report the exact incomplete step, and do not claim report completion. Do not remove another writer's lock, stash/reset work, force-push, or silently include unrelated unpublished history.
+ 
++
++### Report subjects and independent editions
++
++Use only `reports/borders`, `reports/hydro`, `reports/places`, `reports/terrain`,
++`reports/map-analysis` and `reports/development` for new report scopes. Borders
++use `history`, `reconstruction` and `validation`; hydro uses `names`,
++`calibration`, `connectivity` and `releases`; map-analysis uses `corpus`, `models`
++and `reports`; development uses `ui`, `rendering`, `performance`, `ci`,
++`integrations`, `releases`, `storage` and `native`. Keep attachments with their
++report and use Node/Python report helpers with these canonical paths; do not
++recreate retired categories or legacy aliases. Keep runtime/GIS mounts fixed.
++Runtime pins and report revisions are independent. Preserve each owner's
++report revision and its `refs/pando/reports/<owner>` protection during runtime
++preparation/storage and publish only explicitly completed report scopes.
++
+ ## Historical GIS reconstruction policy (mandatory)
+ 
+ For **all historical borders, coastlines, reclamations, river boundaries,
+--- a/README.md
++++ b/README.md
+@@ -200,10 +200,10 @@
+   --hydrorivers-root <HydroRIVERS-대륙별-폴더> `
+   --hydrolakes <HydroLAKES_polys_v10.shp> `
+   --natural-earth-root assets/data/hydro `
+-  --output reports/hydro-calibration
+-```
+-
+-분석 출력은 안전상 `assets/data` 아래로 지정할 수 없습니다. 캘리브레이션 원본 결과는 [`reports/hydro-calibration`](https://github.com/kimjeon-il/PandoLab-library-data/blob/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/reports/hydro-calibration/README.md)에 보존되어 있습니다.
++  --output reports/hydro/calibration/
++```
++
++분석 출력은 안전상 `assets/data` 아래로 지정할 수 없습니다. 캘리브레이션 원본 결과는 [`reports/hydro/calibration/`](https://github.com/kimjeon-il/PandoLab-library-data/blob/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/reports/hydro-calibration/README.md)에 보존되어 있습니다.
+ 
+ 실제 v0.13.1 수계 샤드는 다음 명령으로 다시 생성합니다. 아홉 개 HydroRIVERS 대륙 Shapefile, 저장소의 Natural Earth `lakes_base.geojson`, 검수 교정표와 빌드용 OSM waterway 관계 내보내기를 사용합니다. 생성기는 중형 본류를 하구까지 폐합하고, 수계 단위 논리 ID와 본류·지류 역할을 만든 뒤 내장 공유국경과 일치하는 세부 구간을 표시용 형상으로 정렬합니다. 결과에는 Natural Earth 호수, 단일 공간 인덱스와 4MiB 이하 정적 샤드가 포함됩니다. 표시 강의 종점은 바다·Natural Earth 호수·합류점·내륙 유역으로 분류하고, 같은 육지 안의 명확한 하구만 최대 25km 범위에서 연결합니다. Hydro 원본 연결망 자체가 해안에서 멀리 끊겨 안전하게 복구할 수 없는 경우에는 임의의 직선을 만들지 않고 해당 논리 수계 전체를 제외하며 manifest 통계에 남깁니다.
+ 
+--- a/apps/web-shell/tests/preflight.mjs
++++ b/apps/web-shell/tests/preflight.mjs
+@@ -8,7 +8,7 @@
+ import { reportPath } from '../../../tools/report-paths.mjs';
+ 
+ const root = fileURLToPath(new URL('../dist/', import.meta.url));
+-const output = resolve(reportPath('reports/development/testing/web-shell/browser-preflight.json', { access: 'write' }), '..');
++const output = resolve(reportPath('reports/development/native/web-shell/browser-preflight.json', { access: 'write' }), '..');
+ const evidence = JSON.parse(await readFile(resolve(root, 'shell/stage-evidence.json'), 'utf8'));
+ const mime = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript', '.json': 'application/json',
+   '.wasm': 'application/wasm', '.css': 'text/css', '.woff2': 'font/woff2', '.svg': 'image/svg+xml' };
+--- a/docs/branch-policy.md
++++ b/docs/branch-policy.md
+@@ -51,3 +51,23 @@
+ `node tools/library-data.mjs --publish-reports --include-prefix=reports/<scope>`
+ 
+ 보고서만 있는 작업도 같은 기준을 적용한다. 최종 증거를 덧붙였으면 다시 실행하고, `--check-reports`로 재확인한 라이브러리 커밋과 범위를 완료 보고에 적는다. 기존 자료 핀·개인 작업 커밋·다른 작업의 편집본을 함께 공개하지 않는다. 잠금·충돌·푸시·원격 검증 실패는 미완료로 보고하며 원문과 대기 커밋을 보존한다. 자세한 사용법은 [외부 라이브러리 자료](library-data.md#보고서-완료-명령)를 따른다.
++
++## 보고서 주제와 판본
++
++새 보고서 경로는 아래 여섯 주제만 사용하며, Node/Python 경로 helper에
++`reports/<주제>/<작업 범위>`를 직접 전달한다. 옛 분류나 경로 별칭을 만들지 않는다.
++
++| 폴더 | 세부 분류 |
++| --- | --- |
++| `borders` | `history` 존속기간·역사, `reconstruction` 국가별 재구성, `validation` 검증, `data` 자료 |
++| `hydro` | `names` 명칭, `calibration` 교정, `connectivity` 연결성, `releases` 버전 기록 |
++| `places` | 도시·지명 조사 |
++| `terrain` | 지형 조사 색인과 고정 원자료 링크 |
++| `map-analysis` | `corpus` 학습 자료, `models` 모델, `reports` 평가·조사 |
++| `development` | `ui`, `rendering`, `performance`, `ci`, `integrations`, `releases`, `storage`, `native` |
++
++보고서와 스크린샷·로그·검증 JSON은 같은 작업 묶음에 둔다. 공용 첨부는
++정본 한 곳에 보관하고 링크한다. 런타임·GIS 원자료 마운트는 유지한다.
++보고서 revision은 런타임 pin과 독립적이며, 자료 준비·저장으로 되돌리지 않는다.
++브랜치별 다른 판본은 `refs/pando/reports/<owner>`와 기존 편집본으로 보존한다.
++완료된 범위만 보관·커밋·푸시·원격 검증하고 다른 작업의 편집본은 공개하지 않는다.
+--- a/docs/development/generated-artifacts-p2.md
++++ b/docs/development/generated-artifacts-p2.md
+@@ -50,4 +50,4 @@
+ 
+ ## 검증 상태
+ 
+-이 문서는 실행 계약이다. 구현 여부와 실제 실행 증거, 미검증 항목은 `reports/development/testing/p6-p9-execution-2026-10-16.md`에 기록한다. 그래프 등록만으로 실제 자산 재생성·앱/웹 동등성·성능 통과를 뜻하지 않는다.
++이 문서는 실행 계약이다. 구현 여부와 실제 실행 증거, 미검증 항목은 `reports/development/performance/p6-p9-execution-2026-10-16.md`에 기록한다. 그래프 등록만으로 실제 자산 재생성·앱/웹 동등성·성능 통과를 뜻하지 않는다.
+--- a/docs/historical-vector-source-workflow.md
++++ b/docs/historical-vector-source-workflow.md
+@@ -41,7 +41,7 @@
+ 
+ ## 4. 보고서 필수 필드와 결정
+ 
+-매 실행은 기존 조사 연도·지역 커서를 유지하고, 대상 사건/국경별로 다음을 `work/gis` 브랜치의 저장소 루트 `reports/geography/` 보고서에 표 또는 짧은 항목으로 남긴다.
++매 실행은 기존 조사 연도·지역 커서를 유지하고, 대상 사건/국경별로 다음을 `work/gis` 브랜치의 저장소 루트 `reports/borders/reconstruction/` 보고서에 표 또는 짧은 항목으로 남긴다.
+ 
+ | 필드 | 기록 내용 |
+ | --- | --- |
+--- a/docs/library-data.md
++++ b/docs/library-data.md
+@@ -41,3 +41,33 @@
+ 원격 상태를 다시 확인하려면 `pnpm.cmd reports:check --include-prefix=reports/<scope>` 또는 같은 Node 명령의 `--check-reports`를 사용한다. 원격 커밋의 보관 목록과 실제 파일 바이트를 현재 편집본의 SHA-256·길이에 대조한다. 이후 문서를 수정하면 다시 게시해야 완료된다. 결과의 `revision`, `files`, `prefixes`를 기록한다.
+ 
+ 기존 `--store`는 명시적인 중간 저장·혼합 자료 보관 명령이다. 그것만 실행하거나 로컬 커밋만 만든 상태는 보고서 작업 완료가 아니다. 잠금·자료 main의 미공개 비보고서 변경·분기·푸시 거부·원격 내용 불일치는 오류로 끝나며, 진행 중인 원문과 대기 커밋을 남긴다. 다른 작업의 잠금을 지우거나 강제 병합·푸시로 해결하지 않는다.
++
++## 보고서 주제와 판본
++
++새 보고서 경로는 아래 여섯 주제만 사용하며, Node/Python 경로 helper에
++`reports/<주제>/<작업 범위>`를 직접 전달한다. 옛 분류나 경로 별칭을 만들지 않는다.
++
++| 폴더 | 세부 분류 |
++| --- | --- |
++| `borders` | `history` 존속기간·역사, `reconstruction` 국가별 재구성, `validation` 검증, `data` 자료 |
++| `hydro` | `names` 명칭, `calibration` 교정, `connectivity` 연결성, `releases` 버전 기록 |
++| `places` | 도시·지명 조사 |
++| `terrain` | 지형 조사 색인과 고정 원자료 링크 |
++| `map-analysis` | `corpus` 학습 자료, `models` 모델, `reports` 평가·조사 |
++| `development` | `ui`, `rendering`, `performance`, `ci`, `integrations`, `releases`, `storage`, `native` |
++
++보고서와 스크린샷·로그·검증 JSON은 같은 작업 묶음에 둔다. 공용 첨부는
++정본 한 곳에 보관하고 링크한다. 런타임·GIS 원자료 마운트는 유지한다.
++보고서 revision은 런타임 pin과 독립적이며, 자료 준비·저장으로 되돌리지 않는다.
++브랜치별 다른 판본은 `refs/pando/reports/<owner>`와 기존 편집본으로 보존한다.
++완료된 범위만 보관·커밋·푸시·원격 검증하고 다른 작업의 편집본은 공개하지 않는다.
++
++## 보고서 주제 재배치 명령
++
++`node tools/library-data.mjs --organize-reports`는 기존→새 경로, 충돌과 예상 추가
++공간만 표시한다. `--apply`는 쓰기 작업이 끝난 뒤 기존 잠금 안에서 동일 드라이브
++이동·SHA-256 대조·공개 main 커밋·푸시·원격 확인을 수행한다. 중단하면 같은 명령으로
++`.pando-store/report-organization.pending.json`을 재개한다. 잠금은 강제로 제거하지 않는다.
++원문과 비공개 편집본의 전체 대응표는 로컬 private evidence에, 공개 원문 대응표는
++`reports/development/storage/library-organization-2026-10-25`에 남긴다. 앱 main 통합·배포나
++비공개 이력 푸시는 포함하지 않는다. 반복 적용은 추가 이동·커밋을 만들지 않는다.
+--- a/docs/territorial-entity-storage.md
++++ b/docs/territorial-entity-storage.md
+@@ -12,7 +12,7 @@
+   `geometryVersions[].versionId`, provenance, administrative parent and instantiation.
+ - 281 entities / 262 lineages. Identity, lifetime and historical geometry are preserved.
+   Eligible modern land-boundary intervals are supplemented from pinned LSIB 11.4;
+-  source details and withheld intervals are recorded in `reports/geography/country-files-lsib-2026-10-21.md`.
++  source details and withheld intervals are recorded in `reports/borders/data/country-files-lsib-2026-10-21.md`.
+ - `metadata.representativeGeometryVersionId` explicitly selects an object's undated
+   representative. Importing it records a null reference date; explicit dated queries
+   still use that object's lifetime and version validity without a fallback.
+@@ -182,7 +182,7 @@
+ multi-version evidence, canonical/lazy-load paths, parity, command counts, builds,
+ performance, and remaining work, and freeze the final candidate SHA.
+ 
+-추가 집중 비교 완료: 기준·후보 cold/warm 각 3회, 총 12회. 초기 ready 중앙값 cold 24622.3→24226.9ms, warm 26395.4→24034.6ms, 실제 pan/zoom CPU 제출 p95 cold 19.7→19.3ms, warm 20.4→19.4ms. 그러나 cold bufferData CPU 제출 2.3→2.8ms(+21.7%)와 warm used heap 426823492→476396433 bytes(+11.6%)가 5% gate를 넘었다. 수집 명령 종료 코드 0은 성능 gate 통과를 뜻하지 않는다. used heap은 아직 회수되지 않은 garbage를 포함하며, 이 결과만으로 원인을 코드 변경이나 GC 차이라고 확정하지 않는다. 전체 GPU 실행 완료 시간·GC 후 retained heap은 미검증이다. 실패를 보존한 산출물은 `reports/development/testing/territorial-entity-storage/performance.json`이다. 후보 SHA·M15·M16은 미확정이다. 변경 파일 ESLint 종료 코드 0. 전체 검사는 반복하지 않았다.
++추가 집중 비교 완료: 기준·후보 cold/warm 각 3회, 총 12회. 초기 ready 중앙값 cold 24622.3→24226.9ms, warm 26395.4→24034.6ms, 실제 pan/zoom CPU 제출 p95 cold 19.7→19.3ms, warm 20.4→19.4ms. 그러나 cold bufferData CPU 제출 2.3→2.8ms(+21.7%)와 warm used heap 426823492→476396433 bytes(+11.6%)가 5% gate를 넘었다. 수집 명령 종료 코드 0은 성능 gate 통과를 뜻하지 않는다. used heap은 아직 회수되지 않은 garbage를 포함하며, 이 결과만으로 원인을 코드 변경이나 GC 차이라고 확정하지 않는다. 전체 GPU 실행 완료 시간·GC 후 retained heap은 미검증이다. 실패를 보존한 산출물은 `reports/development/storage/territorial-entity-storage/performance.json`이다. 후보 SHA·M15·M16은 미확정이다. 변경 파일 ESLint 종료 코드 0. 전체 검사는 반복하지 않았다.
+ 
+ 장면 보존 실패 분류: 원격 기준 SHA의 기존 WebGL2 검사 1개를 동일 조건으로 실행했고, 라이브러리를 열기 전 같은 sceneCache valid 대기에서 동일 실패(1 실패·0 통과·0 skip)를 재현했다. 따라서 WebGL2 선행 실패는 기존 문제(C)이며 이번 catalog 교체의 회귀로 판정하지 않는다. WebGL1의 기준 재실행은 미실행이고 두 후보 사례의 후속 country-add 표시 구간도 아직 검증하지 못했다. 기존 assertion은 유지했다.
+ 
+@@ -217,7 +217,7 @@
+ 
+ ### 요청한 산출물 13항목
+ 
+-1. 변경 파일 전체: `reports/development/testing/territorial-entity-storage/file-inventory.json`의 M 목록.
++1. 변경 파일 전체: `reports/development/storage/territorial-entity-storage/file-inventory.json`의 M 목록.
+ 2. 추가 파일 전체: 같은 산출물의 A 목록. source 284개와 gzip 284개를 포함한다.
+ 3. 삭제 파일 전체: 같은 산출물의 D 목록. historical-only model/service/controller,
+    pilot JSON, retired validator/builder, 미사용 Natural Earth gzip과 구형 unit 파일을 제거했다.
+--- a/scripts/check-territorial-storage.mjs
++++ b/scripts/check-territorial-storage.mjs
+@@ -26,11 +26,11 @@
+       const classified = entries.map(entry => ({ ...entry,
+         classification: policy.owners.find(item => item.file === entry.file && item.functions.includes(entry.function)),
+       }));
+-      fs.mkdirSync(path.join(root, 'reports/territorial-integration'), { recursive: true });
+-      fs.writeFileSync(path.join(root, 'reports/territorial-integration/storage-access.json'), JSON.stringify(classified, null, 2) + '\n');
++      fs.mkdirSync(path.join(root, 'reports/borders/validation/territorial-integration/'), { recursive: true });
++      fs.writeFileSync(path.join(root, 'reports/borders/validation/territorial-integration/storage-access.json'), JSON.stringify(classified, null, 2) + '\n');
+       const escape = value => String(value).replaceAll('|', '\\|').replace(/\s+/g, ' ');
+       const rows = classified.map(entry => `| [${entry.file}:${entry.line}](../../${entry.file}#L${entry.line}) | ${entry.function} | ${entry.access} | ${entry.field} / ${entry.via} | ${escape(entry.classification.owner)} | ${escape(entry.classification.reason)} | ${escape(entry.expression)} |`);
+-      fs.writeFileSync(path.join(root, 'reports/territorial-integration/storage-access.md'),
++      fs.writeFileSync(path.join(root, 'reports/borders/validation/territorial-integration/storage-access.md'),
+         '# Territorial storage access inventory\n\nGenerated by node scripts/check-territorial-storage.mjs --write-report.\n\n'
+         + 'Each row is classified by exact file and function, not by whole-file exemption. See final-gate.md for call-path review, changes and static-analysis limits.\n\n'
+         + '| File/line | Function | Access | Field / route | Owner/call boundary | Reason | Expression |\n'
+--- a/scripts/research/siachen/build_control_zones.py
++++ b/scripts/research/siachen/build_control_zones.py
+@@ -22,7 +22,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-OUT = report_path("assets/data/research/siachen", access='write')
++OUT = report_path("reports/borders/reconstruction/siachen", access='write')
+ OUT.mkdir(parents=True, exist_ok=True)
+ OSM_SOURCE_URL = ("https://raw.githubusercontent.com/"
+     "uncovering-world/travel-regions-extraction/"
+--- a/scripts/research/siachen/compare_cop30_sia_bilafond.py
++++ b/scripts/research/siachen/compare_cop30_sia_bilafond.py
+@@ -32,7 +32,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-OUT = report_path("assets/data/research/siachen", access='write')
++OUT = report_path("reports/borders/reconstruction/siachen", access='write')
+ OUT.mkdir(parents=True, exist_ok=True)
+ TILE = "Copernicus_DSM_COG_10_N35_00_E076_00_DEM"
+ DEM_URL = "https://copernicus-dem-30m.s3.amazonaws.com/" + TILE + "/" + TILE + ".tif"
+--- a/scripts/research/siachen/compare_independent_dem_saltoro.py
++++ b/scripts/research/siachen/compare_independent_dem_saltoro.py
+@@ -23,7 +23,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-OUT=report_path("assets/data/research/siachen", access='write')
++OUT=report_path("reports/borders/reconstruction/siachen", access='write')
+ OUT.mkdir(parents=True,exist_ok=True)
+ BBOX=(76.715,35.365,76.995,35.610)
+ CRS="EPSG:32643"
+--- a/scripts/research/siachen/compare_sentinel2_km90.py
++++ b/scripts/research/siachen/compare_sentinel2_km90.py
+@@ -19,7 +19,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-ROOT=report_path("assets/data/research/siachen", access='write')
++ROOT=report_path("reports/borders/reconstruction/siachen", access='write')
+ INPUT=ROOT/"siachen_s2_optical_comparison.json"
+ ANALYSIS=ROOT/"sia_bilafond_dem_comparison.json"
+ BBOX=[76.725,35.501,76.796,35.548]
+--- a/scripts/research/siachen/compare_sentinel2_saltoro.py
++++ b/scripts/research/siachen/compare_sentinel2_saltoro.py
+@@ -22,7 +22,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-ROOT=report_path("assets/data/research/siachen", access='write')
++ROOT=report_path("reports/borders/reconstruction/siachen", access='write')
+ ROOT.mkdir(parents=True,exist_ok=True)
+ STAC="https://earth-search.aws.element84.com/v1/search"
+ CRS="EPSG:32643"
+--- a/scripts/research/siachen/diagnose_glacier_agpl_discrepancy.py
++++ b/scripts/research/siachen/diagnose_glacier_agpl_discrepancy.py
+@@ -16,7 +16,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-OUT=report_path("assets/data/research/siachen", access='write')
++OUT=report_path("reports/borders/reconstruction/siachen", access='write')
+ FILE_G="siachen_glacier_rgi7.geojson"
+ FILE_L="siachen_agpl_osm_candidate.geojson"
+ FILE_P="siachen_control_split_ne_10m.geojson"
+--- a/scripts/research/siachen/extract_rgi7.py
++++ b/scripts/research/siachen/extract_rgi7.py
+@@ -16,7 +16,7 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+ from report_paths import report_path
+ 
+-OUT=report_path("assets/data/research/siachen", access='write')
++OUT=report_path("reports/borders/reconstruction/siachen", access='write')
+ OUT.mkdir(parents=True,exist_ok=True)
+ RGI_ID="RGI2000-v7.0-G-14-20040"
+ RGI_URLS=[
+--- a/tests/browser/viewer-layout.spec.mjs
++++ b/tests/browser/viewer-layout.spec.mjs
+@@ -17,7 +17,7 @@
+   await expect.poll(()=>page.evaluate(()=>window.__PANDOLAB_VIEWER__.documentSnapshot().baseDataset)).toBe(fixture.project.baseDataset);
+   await expect(page.locator('#viewerStatus')).toHaveAttribute('data-ready','true');
+   const before=await page.evaluate(()=>window.__PANDOLAB_VIEWER__.documentSnapshot());
+-  mkdirSync('reports/images/viewer-editor',{recursive:true});
++  mkdirSync('reports/development/ui/viewer-editor',{recursive:true});
+   for(const viewport of [{width:390,height:844},{width:768,height:1024},{width:1024,height:768},{width:844,height:390}]){
+     await page.setViewportSize(viewport);
+     await page.locator('#objectSearchBtn').click();
+@@ -31,7 +31,7 @@
+     expect(panel.x).toBeGreaterThanOrEqual(0);expect(panel.y).toBeGreaterThanOrEqual(0);
+     expect(panel.x+panel.width).toBeLessThanOrEqual(viewport.width);
+     expect(panel.y+panel.height).toBeLessThanOrEqual(viewport.height);
+-    await page.screenshot({path:`reports/images/viewer-editor/current-${viewport.width}x${viewport.height}.png`});
++    await page.screenshot({path:`reports/development/ui/viewer-editor/current-${viewport.width}x${viewport.height}.png`});
+     await closeViewingDisplay(page);
+     expect(await page.evaluate(()=>window.__PANDOLAB_VIEWER__.documentSnapshot())).toEqual(before);
+     expect((await page.evaluate(()=>window.__PANDOLAB_VIEWER__.selectionSnapshot())).items).toEqual([{domain:'territorial',type:'entity',id:'A',key:'territorial:entity:A'}]);
+--- a/tests/test_report_paths.py
++++ b/tests/test_report_paths.py
+@@ -17,24 +17,24 @@
+         self.library.mkdir(parents=True)
+ 
+     def test_reads_the_canonical_original_in_an_exported_library(self):
+-        original = self.library / 'reports/research/country-default-colors.json'
++        original = self.library / 'reports/borders/data/country-default-colors.json'
+         original.parent.mkdir(parents=True)
+         original.write_bytes(b'{"original":true}\n')
+-        resolved = self.module.report_path('docs/research/country-default-colors.json', access='read', root=self.root)
++        resolved = self.module.report_path('reports/borders/data/country-default-colors.json', access='read', root=self.root)
+         self.assertEqual(resolved.read_bytes(), original.read_bytes())
+ 
+     def test_new_output_uses_the_current_report_mapping(self):
+-        resolved = self.module.report_path('assets/data/research/siachen/new-output.json', access='write', root=self.root)
+-        self.assertEqual(resolved, self.library / 'reports/research/siachen/new-output.json')
++        resolved = self.module.report_path('reports/borders/reconstruction/siachen/new-output.json', access='write', root=self.root)
++        self.assertEqual(resolved, self.library / 'reports/borders/reconstruction/siachen/new-output.json')
+ 
+     def test_access_is_required(self):
+         with self.assertRaises(TypeError):
+             self.module.report_path('reports/new.json', root=self.root)
+ 
+     def test_cli_input_siblings_use_the_resolved_report_directory(self):
+-        source = self.root / 'reports/reference-analysis/corpus/corpus.json'
++        source = self.root / 'reports/map-analysis/corpus/corpus.json'
+         resolved = self.module.report_argument(source, access='read', siblings=True, root=self.root)
+-        self.assertEqual(Path(resolved), self.library / 'reports/reference-analysis/corpus/corpus.json')
++        self.assertEqual(Path(resolved), self.library / 'reports/map-analysis/corpus/corpus.json')
+ 
+     def test_an_explicit_input_outside_the_report_mount_is_preserved(self):
+         source = self.root / 'sources/master.geojson'
+--- a/tests/unit/historical-german-coastline-events.test.mjs
++++ b/tests/unit/historical-german-coastline-events.test.mjs
+@@ -59,7 +59,7 @@
+ });
+ 
+ test('Dollart–Jade modern-coast densification does not claim validated 1914 shorelines', () => {
+-  const url = reportPath('tools/historical-library/working/german-empire-1914-northsea-dollart-jade.diagnostics.json', { access: 'read' });
++  const url = reportPath('reports/borders/reconstruction/germany/diagnostics/german-empire-1914-northsea-dollart-jade.diagnostics.json', { access: 'read' });
+   const report = JSON.parse(readFileSync(url, 'utf8'));
+   assert.equal(report.status, 'applied'); // applied only to the working geometry
+   assert.equal(report.historicalValidation.geometryPatchApplied, 'modern-detail-densification-only');
+--- a/tests/unit/library-data.test.mjs
++++ b/tests/unit/library-data.test.mjs
+@@ -78,7 +78,7 @@
+     git(directory, 'config', 'user.name', 'Test'); git(directory, 'config', 'user.email', 'test@example.invalid');
+   }
+   const files = {};
+-  for (const [path, text] of [['assets/data/territorial-entities/generated/v2/index.json', '{"entities":[]}'], ['assets/data/obsolete.json', '{}'], ['reports/obsolete.md', '# original'], ['reports/partial/old.md', '# sibling original']]) {
++  for (const [path, text] of [['assets/data/territorial-entities/generated/v2/index.json', '{"entities":[]}'], ['assets/data/obsolete.json', '{}'], ['reports/obsolete.md', '# original'], ['reports/development/partial/old.md', '# sibling original']]) {
+     const bytes = Buffer.from(text); put(checkout, path, bytes);
+     files[path] = { stored: path, encoding: 'identity', bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') };
+   }
+@@ -119,8 +119,8 @@
+   writeFileSync(hydrateReports({ root, path: 'obsolete.md', access: 'write' }), '# unfinished');
+   hydrateReports({ root, path: 'obsolete.md', access: 'read' });
+   assert.equal(readFileSync(hydrateReports({ root, path: 'obsolete.md', access: 'read' }), 'utf8'), '# unfinished');
+-  put(edits, 'partial/new.md', '# unfinished sibling');
+-  const partial = reportPath('reports/partial', { root, access: 'read' });
++  put(edits, 'development/partial/new.md', '# unfinished sibling');
++  const partial = reportPath('reports/development/partial', { root, access: 'read' });
+   assert.equal(readFileSync(join(partial, 'old.md'), 'utf8'), '# sibling original');
+   assert.equal(readFileSync(join(partial, 'new.md'), 'utf8'), '# unfinished sibling');
+   const unrelated = join(root, 'assets/data/territorial-entities/generated/v2/index.json');
+--- a/tests/unit/library-report-centralization.test.mjs
++++ b/tests/unit/library-report-centralization.test.mjs
+@@ -21,7 +21,7 @@
+     mkdirSync(root); git(root, 'init', '-q'); git(root, 'config', 'user.name', 'Report fixture'); git(root, 'config', 'user.email', 'fixture@example.invalid');
+   }
+   const files = {};
+-  for (const [path, text] of [['reports/shared.md', '# shared original\n'], ['reports/review/value.json', '{"edition":1}\n']]) {
++  for (const [path, text] of [['reports/development/shared.md', '# shared original\n'], ['reports/development/review/value.json', '{"edition":1}\n']]) {
+     const bytes = Buffer.from(text), sha256 = createHash('sha256').update(bytes).digest('hex');
+     const stored = `archive/blobs/${sha256}.gz`; put(join(data, stored), gzipSync(bytes));
+     files[path] = { stored, encoding: 'gzip', sha256, bytes: bytes.length };
+@@ -46,7 +46,7 @@
+     put(join(checkout, '.working', revision, '.reports-complete'), revision + '\n');
+     symlinkSync(legacy, join(root, 'reports'), process.platform === 'win32' ? 'junction' : 'dir');
+   }
+-  put(join(uiData, '.working', revision, 'reports/review/value.json'), '{"edition":2,"unfinished":true}\n');
++  put(join(uiData, '.working', revision, 'reports/development/review/value.json'), '{"edition":2,"unfinished":true}\n');
+   put(join(uiData, '.working/old/private-evidence/original.png'), 'unique private original');
+   return { parent, app, data, ui, uiData, revision };
+ }
+@@ -56,11 +56,11 @@
+   assert.equal(typeof library.centralizeLibraryReports, 'function');
+   const preview = library.centralizeLibraryReports({ root: f.app });
+   assert.ok(preview.duplicateBytes > 0);
+-  assert.ok(existsSync(join(f.uiData, '.working', f.revision, 'reports/shared.md')));
++  assert.ok(existsSync(join(f.uiData, '.working', f.revision, 'reports/development/shared.md')));
+   const result = library.centralizeLibraryReports({ root: f.app, apply: true });
+   assert.ok(result.deletedBytes > 0);
+-  assert.equal(readFileSync(join(f.data, 'reports/shared.md'), 'utf8'), '# shared original\n');
+-  assert.equal(readFileSync(join(f.data, 'reports/.edits/ui/review/value.json'), 'utf8'), '{"edition":2,"unfinished":true}\n');
++  assert.equal(readFileSync(join(f.data, 'reports/development/shared.md'), 'utf8'), '# shared original\n');
++  assert.equal(readFileSync(join(f.data, 'reports/.edits/ui/development/review/value.json'), 'utf8'), '{"edition":2,"unfinished":true}\n');
+   assert.equal(readFileSync(join(f.data, 'private-evidence/ui/old/original.png'), 'utf8'), 'unique private original');
+   assert.equal(existsSync(join(f.uiData, '.working')), false);
+   assert.equal(existsSync(join(f.data, '.working')), false);
+@@ -72,14 +72,14 @@
+   const f = fixture(t);
+   assert.equal(typeof library.centralizeLibraryReports, 'function');
+   library.centralizeLibraryReports({ root: f.app, apply: true });
+-  const shared = library.hydrateReports({ root: f.ui, path: 'shared.md', access: 'read' });
+-  assert.equal(shared, join(f.data, 'reports/shared.md'));
+-  const edited = library.hydrateReports({ root: f.ui, path: 'shared.md', access: 'write' });
++  const shared = library.hydrateReports({ root: f.ui, path: 'development/shared.md', access: 'read' });
++  assert.equal(shared, join(f.data, 'reports/development/shared.md'));
++  const edited = library.hydrateReports({ root: f.ui, path: 'development/shared.md', access: 'write' });
+   writeFileSync(edited, '# ui edit');
+   assert.equal(readFileSync(shared, 'utf8'), '# shared original\n');
+-  assert.equal(readFileSync(library.hydrateReports({ root: f.ui, path: 'shared.md', access: 'read' }), 'utf8'), '# ui edit');
+-  assert.equal(readFileSync(library.hydrateReports({ root: f.app, path: 'review/value.json', access: 'read' }), 'utf8'), '{"edition":1}\n');
+-  const directory = library.hydrateReports({ root: f.ui, path: 'review', access: 'read' });
++  assert.equal(readFileSync(library.hydrateReports({ root: f.ui, path: 'development/shared.md', access: 'read' }), 'utf8'), '# ui edit');
++  assert.equal(readFileSync(library.hydrateReports({ root: f.app, path: 'development/review/value.json', access: 'read' }), 'utf8'), '{"edition":1}\n');
++  const directory = library.hydrateReports({ root: f.ui, path: 'development/review', access: 'read' });
+   assert.equal(readFileSync(join(directory, 'value.json'), 'utf8'), '{"edition":2,"unfinished":true}\n');
+   assert.throws(() => library.hydrateReports({ root: f.ui, path: '../outside', access: 'read' }), /Unsafe/);
+ });
+@@ -89,24 +89,24 @@
+   assert.equal(typeof library.centralizeLibraryReports, 'function');
+   symlinkSync(f.app, join(f.uiData, '.working/linked'), process.platform === 'win32' ? 'junction' : 'dir');
+   assert.throws(() => library.centralizeLibraryReports({ root: f.app, apply: true }), /link/i);
+-  assert.ok(existsSync(join(f.uiData, '.working', f.revision, 'reports/shared.md')));
+-  assert.equal(readFileSync(join(f.uiData, '.working', f.revision, 'reports/review/value.json'), 'utf8'), '{"edition":2,"unfinished":true}\n');
++  assert.ok(existsSync(join(f.uiData, '.working', f.revision, 'reports/development/shared.md')));
++  assert.equal(readFileSync(join(f.uiData, '.working', f.revision, 'reports/development/review/value.json'), 'utf8'), '{"edition":2,"unfinished":true}\n');
+ });
+ 
+ test('scoped report publication keeps the runtime pin and restores the branch raw bytes after an edit is evicted', t => {
+   const f = fixture(t);
+   library.centralizeLibraryReports({ root: f.app, apply: true });
+   const pin = readFileSync(join(f.ui, 'config/library-data.json'));
+-  const edit = library.hydrateReports({ root: f.ui, path: 'shared.md', access: 'write' });
++  const edit = library.hydrateReports({ root: f.ui, path: 'development/shared.md', access: 'write' });
+   writeFileSync(edit, '# published ui original\n');
+-  library.storeLibraryData({ root: f.ui, prefixes: ['reports/shared.md'] });
++  library.storeLibraryData({ root: f.ui, prefixes: ['reports/development/shared.md'] });
+   assert.deepEqual(readFileSync(join(f.ui, 'config/library-data.json')), pin);
+-  assert.equal(readFileSync(join(f.data, 'reports/shared.md'), 'utf8'), '# shared original\n');
+-  const published = JSON.parse(git(f.uiData, 'show', 'HEAD:archive/index.json')).files['reports/shared.md'];
+-  assert.equal(published.stored, 'reports/shared.md');
++  assert.equal(readFileSync(join(f.data, 'reports/development/shared.md'), 'utf8'), '# shared original\n');
++  const published = JSON.parse(git(f.uiData, 'show', 'HEAD:archive/index.json')).files['reports/development/shared.md'];
++  assert.equal(published.stored, 'reports/development/shared.md');
+   assert.equal(published.encoding, 'identity');
+   rmSync(edit);
+-  assert.equal(readFileSync(library.hydrateReports({ root: f.ui, path: 'shared.md', access: 'read' }), 'utf8'), '# published ui original\n');
++  assert.equal(readFileSync(library.hydrateReports({ root: f.ui, path: 'development/shared.md', access: 'read' }), 'utf8'), '# published ui original\n');
+ });
+ 
+ test('development report HTTP reads the branch original and does not expose edit or private directories', async t => {
+@@ -115,54 +115,54 @@
+   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+   try {
+     const origin = `http://127.0.0.1:${server.address().port}`;
+-    const response = await fetch(origin + '/reports/review/value.json');
++    const response = await fetch(origin + '/reports/development/review/value.json');
+     assert.equal(response.status, 200);
+     assert.deepEqual(await response.json(), { edition: 2, unfinished: true });
+-    assert.equal((await fetch(origin + '/reports/.edits/ui/review/value.json')).status, 404);
++    assert.equal((await fetch(origin + '/reports/.edits/ui/development/review/value.json')).status, 404);
+     assert.equal((await fetch(origin + '/private-evidence/ui/old/original.png')).status, 404);
+   } finally { await new Promise(resolve => server.close(resolve)); }
+ });
+ 
+ test('a caller modification inside a generated read view is preserved and surfaced', t => {
+   const f = fixture(t); library.centralizeLibraryReports({ root: f.app, apply: true });
+-  const view = library.hydrateReports({ root: f.ui, path: 'review', access: 'read' });
++  const view = library.hydrateReports({ root: f.ui, path: 'development/review', access: 'read' });
+   assert.throws(()=>writeFileSync(join(view,'value.json'),'{"unsafe":true}'));
+   makePrivate(f.data,join(view,'value.json')); // Simulate a caller explicitly replacing the read-only view.
+   writeFileSync(join(view, 'value.json'), '{"manual":"keep"}');
+-  assert.throws(() => library.hydrateReports({ root: f.ui, path: 'review', access: 'read' }), /modified.*view/i);
++  assert.throws(() => library.hydrateReports({ root: f.ui, path: 'development/review', access: 'read' }), /modified.*view/i);
+   assert.equal(readFileSync(join(view, 'value.json'), 'utf8'), '{"manual":"keep"}');
+ });
+ 
+ test('write access makes an existing independent readonly report edit writable without replacing its bytes',t=>{
+   const f=fixture(t);library.centralizeLibraryReports({root:f.app,apply:true});
+-  const edit=library.hydrateReports({root:f.ui,path:'review/value.json',access:'write'}),bytes=readFileSync(edit);
+-  chmodSync(edit,0o400);assert.equal(library.hydrateReports({root:f.ui,path:'review/value.json',access:'write'}),edit);
++  const edit=library.hydrateReports({root:f.ui,path:'development/review/value.json',access:'write'}),bytes=readFileSync(edit);
++  chmodSync(edit,0o400);assert.equal(library.hydrateReports({root:f.ui,path:'development/review/value.json',access:'write'}),edit);
+   assert.ok(statSync(edit).mode&0o200);assert.equal(statSync(edit).nlink,1);assert.deepEqual(readFileSync(edit),bytes);
+ });
+ 
+ test('parent and child directory reads keep independent generated view ownership', t => {
+   const f = fixture(t); library.centralizeLibraryReports({ root: f.app, apply: true });
+-  const edit = library.hydrateReports({ root: f.ui, path: 'review', access: 'write' });
++  const edit = library.hydrateReports({ root: f.ui, path: 'development/review', access: 'write' });
+   put(join(edit, 'nested/extra.json'), '{"nested":"current"}');
+   // A nested archived source is needed so both scopes require assembled views.
+   const index = JSON.parse(git(f.uiData, 'show', 'HEAD:archive/index.json'));
+-  index.files['reports/review/nested/value.json'] = index.files['reports/review/value.json'];
++  index.files['reports/development/review/nested/value.json'] = index.files['reports/development/review/value.json'];
+   put(join(f.uiData, 'archive/index.json'), JSON.stringify(index));
+   git(f.uiData, 'add', 'archive/index.json'); git(f.uiData, 'commit', '-qm', 'nested report scope');
+   const registry = JSON.parse(readFileSync(join(f.data, 'reports/.owners.json')));
+   registry.owners.ui.revision = git(f.uiData, 'rev-parse', 'HEAD');
+   put(join(f.data, 'reports/.owners.json'), JSON.stringify(registry));
+-  for (const scope of ['review', 'review/nested', 'review']) {
++  for (const scope of ['development/review', 'development/review/nested', 'development/review']) {
+     const view = library.hydrateReports({ root: f.ui, path: scope, access: 'read' });
+-    assert.equal(readFileSync(join(view, scope === 'review' ? 'nested/extra.json' : 'extra.json'), 'utf8'), '{"nested":"current"}');
++    assert.equal(readFileSync(join(view, scope === 'development/review' ? 'nested/extra.json' : 'extra.json'), 'utf8'), '{"nested":"current"}');
+   }
+ });
+ 
+ test('the registered active unfinished edition wins over older unarchived editions', t => {
+   const f = fixture(t);
+-  put(join(f.uiData, '.working', '0'.repeat(40), 'reports/review/value.json'), '{"obsolete":true}\n');
+-  library.centralizeLibraryReports({ root: f.app, apply: true });
+-  const current = library.hydrateReports({ root: f.ui, path: 'review/value.json', access: 'read' });
++  put(join(f.uiData, '.working', '0'.repeat(40), 'reports/development/review/value.json'), '{"obsolete":true}\n');
++  library.centralizeLibraryReports({ root: f.app, apply: true });
++  const current = library.hydrateReports({ root: f.ui, path: 'development/review/value.json', access: 'read' });
+   assert.equal(readFileSync(current, 'utf8'), '{"edition":2,"unfinished":true}\n');
+   const oldHash = createHash('sha256').update('{"obsolete":true}\n').digest('hex');
+   assert.equal(readFileSync(join(f.data, 'reports/.variants', oldHash), 'utf8'), '{"obsolete":true}\n');
+@@ -177,22 +177,22 @@
+   assert.throws(() => library.centralizeLibraryReports({ root: f.app, apply: true }), /unrelated|checkout changes/i);
+   assert.equal(git(f.data, 'rev-parse', 'HEAD'), before);
+   assert.equal(git(f.data, 'diff', '--cached', '--name-only'), 'unrelated.txt');
+-  assert.ok(existsSync(join(f.uiData, '.working', f.revision, 'reports/shared.md')));
++  assert.ok(existsSync(join(f.uiData, '.working', f.revision, 'reports/development/shared.md')));
+ });
+ 
+ test('Python report arguments resolve branch input siblings through the same central owner', t => {
+   const f = fixture(t); library.centralizeLibraryReports({ root: f.app, apply: true });
+   const tools = fileURLToPath(new URL('../../tools', import.meta.url));
+   const output = execFileSync(process.env.PANDOLAB_PYTHON || 'python', ['-c',
+-    "import sys,json;sys.path.insert(0,sys.argv[1]);from report_paths import report_argument;from pathlib import Path;p=report_argument('reports/review/value.json',access='read',siblings=True,root=sys.argv[2]);print(Path(p).read_text())", tools, f.ui], { cwd: f.ui, encoding: 'utf8', env: { ...process.env, PYTHONDONTWRITEBYTECODE: '1' } });
++    "import sys,json;sys.path.insert(0,sys.argv[1]);from report_paths import report_argument;from pathlib import Path;p=report_argument('reports/development/review/value.json',access='read',siblings=True,root=sys.argv[2]);print(Path(p).read_text())", tools, f.ui], { cwd: f.ui, encoding: 'utf8', env: { ...process.env, PYTHONDONTWRITEBYTECODE: '1' } });
+   assert.deepEqual(JSON.parse(output), { edition: 2, unfinished: true });
+ });
+ 
+ test('an inactive unfinished edition cannot override the active archived original', t => {
+   const f = fixture(t);
+-  put(join(f.uiData, '.working', '0'.repeat(40), 'reports/shared.md'), '# obsolete unfinished');
+-  library.centralizeLibraryReports({ root: f.app, apply: true });
+-  assert.equal(readFileSync(library.hydrateReports({ root: f.ui, path: 'shared.md', access: 'read' }), 'utf8'), '# shared original\n');
++  put(join(f.uiData, '.working', '0'.repeat(40), 'reports/development/shared.md'), '# obsolete unfinished');
++  library.centralizeLibraryReports({ root: f.app, apply: true });
++  assert.equal(readFileSync(library.hydrateReports({ root: f.ui, path: 'development/shared.md', access: 'read' }), 'utf8'), '# shared original\n');
+   const hash = createHash('sha256').update('# obsolete unfinished').digest('hex');
+   assert.equal(readFileSync(join(f.data, 'reports/.variants', hash), 'utf8'), '# obsolete unfinished');
+ });
+@@ -200,14 +200,14 @@
+ test('recovery accepts an already relocated raw original without losing its unstaged status column', t => {
+   const f = fixture(t);
+   put(join(f.data, 'reports/.centralization.pending.json'), '{"sources":[]}');
+-  put(join(f.data, 'reports/shared.md'), '# shared original\n');
++  put(join(f.data, 'reports/development/shared.md'), '# shared original\n');
+   library.centralizeLibraryReports({ root: f.app, apply: true });
+   assert.equal(git(f.data, 'status', '--porcelain'), '');
+ });
+ 
+ test('recovery commits previously staged retired archive deletions and leaves a clean data index', t => {
+   const f = fixture(t);
+-  const stored = JSON.parse(git(f.data, 'show', 'HEAD:archive/index.json')).files['reports/shared.md'].stored;
++  const stored = JSON.parse(git(f.data, 'show', 'HEAD:archive/index.json')).files['reports/development/shared.md'].stored;
+   put(join(f.data, 'reports/.centralization.pending.json'), '{"sources":[]}');
+   git(f.data, 'update-index', '--force-remove', stored);
+   library.centralizeLibraryReports({ root: f.app, apply: true });
+--- /dev/null
++++ b/tests/unit/library-report-organization.test.mjs
+@@ -0,0 +1,210 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import { execFileSync } from 'node:child_process';
++import { createHash } from 'node:crypto';
++import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
++import { tmpdir } from 'node:os';
++import { dirname, join } from 'node:path';
++import { gzipSync } from 'node:zlib';
++import * as library from '../../tools/library-data.mjs';
++import { organizedReportPath, reportSubjectReadmes, rewriteReportLinks } from '../../tools/library-report-layout.mjs';
++
++test('subject indexes show readable titles and declared status instead of only filenames', () => {
++  const path = 'reports/borders/history/lifetimes/korea.md';
++  const pages = reportSubjectReadmes([path], { [path]: { title: '한국 존속기간', id: 'GEO-LIFE-001', status: 'investigating', date: '2026-10-24' } });
++  assert.match(pages['reports/borders/README.md'], /\[한국 존속기간\]/);
++  assert.match(pages['reports/borders/README.md'], /GEO-LIFE-001.*2026-10-24.*investigating/);
++});
++
++test('directory links follow subject moves and current landing pages while pinned URLs stay intact', () => {
++  const before = '[models](models/) [all](../README.md)';
++  const after = rewriteReportLinks(before, 'reports/reference-analysis/README.md', 'reports/map-analysis/reports/README.md', { 'reports/README.md': 'reports/development/storage/organization-original-indexes/README.md' });
++  assert.equal(after, '[models](../models) [all](../../README.md)');
++  assert.equal(organizedReportPath('reports/research/siachen'), 'reports/borders/reconstruction/siachen');
++  assert.equal(organizedReportPath('reports/reference-analysis/centralization-result.json'), 'reports/development/storage/centralization-result.json');
++});
++
++const git = (cwd, ...args) => execFileSync('git', ['-c', 'maintenance.auto=false', '-c', 'gc.auto=0', '-c', 'core.autocrlf=false', ...args], { cwd, encoding: 'utf8', stdio: 'pipe' }).trim();
++const put = (root, path, bytes) => { mkdirSync(dirname(join(root, path)), { recursive: true }); writeFileSync(join(root, path), bytes); };
++const sha = bytes => createHash('sha256').update(bytes).digest('hex');
++function fixture(t) {
++  const base = mkdtempSync(join(tmpdir(), 'pando-report-layout-'));
++  t.after(() => rmSync(base, { recursive: true, force: true }));
++  const root = join(base, 'app'), shared = join(base, 'data'), remote = join(base, 'remote.git');
++  for (const folder of [root, shared]) {
++    mkdirSync(folder); git(folder, 'init', '-qb', folder === root ? 'work/ui' : 'main');
++    git(folder, 'config', 'user.name', 'Fixture'); git(folder, 'config', 'user.email', 'fixture@example.invalid');
++  }
++  git(base, 'init', '--bare', '-q', remote);
++  put(shared, '.gitignore', '/reports/.*\n/.pando-worktrees/\n/.pando-store/\n');
++  const originals = {
++    'reports/geography/east-germany-review/README.md': '# 동독 경계\n[model](../../reference-analysis/models/active.bin)\n[old](https://github.com/example/data/blob/' + 'a'.repeat(40) + '/reports/geography/old.md)\n',
++    'reports/reference-analysis/models/active.bin': Buffer.from([0, 9, 255, 1]),
++    'reports/reference-analysis/corpus/manifest.json': JSON.stringify({ image: 'D:\\fixture\\reports\\reference-analysis\\models\\active.bin' }),
++    'reports/hydro-calibration/check.json': '{"result":0}\n',
++    'reports/development/testing/report-completion-2026-10-25.md': '# 보고서 보관\n',
++    'assets/data/current.bin': 'published runtime',
++  };
++  const files = {};
++  for (const [path, value] of Object.entries(originals)) {
++    const bytes = Buffer.from(value); put(shared, path, bytes);
++    files[path] = { stored: path, encoding: 'identity', bytes: bytes.length, sha256: sha(bytes) };
++  }
++  put(shared, 'archive/index.json', JSON.stringify({ branch: 'main', files }) + '\n');
++  git(shared, 'add', '.'); git(shared, 'commit', '-qm', 'published');
++  const published = git(shared, 'rev-parse', 'HEAD');
++  git(shared, 'remote', 'add', 'origin', remote); git(shared, 'push', '-qu', 'origin', 'main');
++  const data = join(shared, '.pando-worktrees/ui'); git(shared, 'worktree', 'add', '--detach', data, published);
++  put(data, 'assets/data/current.bin', 'private runtime');
++  const privateIndex = JSON.parse(readFileSync(join(data, 'archive/index.json')));
++  privateIndex.files['assets/data/current.bin'] = { stored: 'assets/data/current.bin', encoding: 'identity', bytes: Buffer.byteLength('private runtime'), sha256: sha('private runtime') };
++  const privateReport = '# private edition\n';
++  put(data, 'reports/hydro-calibration/check.json', privateReport);
++  privateIndex.files['reports/hydro-calibration/check.json'] = { stored: 'reports/hydro-calibration/check.json', encoding: 'identity', bytes: Buffer.byteLength(privateReport), sha256: sha(privateReport) };
++  const compressed = Buffer.from('# archived full original\n[model](../reference-analysis/models/active.bin)\n');
++  put(data, 'reports/geography/private.md', '# excerpt');
++  put(data, 'archive/blobs/private.md.gz', gzipSync(compressed));
++  privateIndex.files['reports/geography/private.md'] = { stored: 'archive/blobs/private.md.gz', encoding: 'gzip', bytes: compressed.length, sha256: sha(compressed) };
++  const unchangedOriginal = Buffer.from('# full original without links\n');
++  put(data, 'reports/geography/unchanged.md', '[model](../reference-analysis/models/active.bin)');
++  put(data, 'archive/blobs/unchanged.md.gz', gzipSync(unchangedOriginal));
++  privateIndex.files['reports/geography/unchanged.md'] = { stored: 'archive/blobs/unchanged.md.gz', encoding: 'gzip', bytes: unchangedOriginal.length, sha256: sha(unchangedOriginal) };
++  put(data, 'archive/index.json', JSON.stringify(privateIndex)); git(data, 'add', '.'); git(data, 'commit', '-qm', 'private work');
++  const privateHead = git(data, 'rev-parse', 'HEAD');
++  put(root, '.gitignore', '.library-data/\n');
++  put(root, 'config/library-data.json', JSON.stringify({ repository: 'example/data', revision: published, mounts: ['assets/data', 'reports'] }));
++  git(root, 'add', '.'); git(root, 'commit', '-qm', 'app');
++  mkdirSync(join(root, '.library-data')); symlinkSync(data, join(root, '.library-data/repository'), process.platform === 'win32' ? 'junction' : 'dir');
++  put(shared, 'reports/.owners.json', JSON.stringify({ schemaVersion: 1, owners: { ui: { revision: privateHead } } }));
++  put(shared, 'reports/.edits/ui/reference-analysis/models/resume.bin', Buffer.from([4, 3, 2]));
++  return { root, shared, remote, data, published, privateHead, originals, privateReport, pin: readFileSync(join(root, 'config/library-data.json'), 'utf8') };
++}
++
++test('preview is non-mutating and apply organizes originals, private editions and drafts independently', t => {
++  const f = fixture(t); assert.equal(typeof library.organizeLibraryReports, 'function');
++  const preview = library.organizeLibraryReports({ root: f.root });
++  assert.ok(preview.moves.some(x => x.to === 'reports/map-analysis/models/active.bin'));
++  assert.equal(git(f.shared, 'rev-parse', 'HEAD'), f.published);
++  const result = library.organizeLibraryReports({ root: f.root, apply: true });
++  assert.equal(git(f.remote, 'rev-parse', 'main'), result.revision);
++  assert.equal(git(f.remote, 'show', 'main:assets/data/current.bin'), 'published runtime');
++  assert.equal(git(f.data, 'rev-parse', 'HEAD'), f.privateHead);
++  assert.equal(readFileSync(join(f.root, 'config/library-data.json'), 'utf8'), f.pin);
++  assert.deepEqual(readFileSync(join(f.shared, 'reports/map-analysis/models/active.bin')), f.originals['reports/reference-analysis/models/active.bin']);
++  assert.equal(JSON.parse(readFileSync(join(f.shared, 'reports/map-analysis/corpus/manifest.json'))).image, 'D:/fixture/reports/map-analysis/models/active.bin');
++  assert.deepEqual(readFileSync(join(f.shared, 'reports/.edits/ui/map-analysis/models/resume.bin')), Buffer.from([4, 3, 2]));
++  const registry = JSON.parse(readFileSync(join(f.shared, 'reports/.owners.json')));
++  assert.equal(git(f.shared, 'rev-parse', 'refs/pando/reports/ui'), registry.owners.ui.revision);
++  assert.equal(git(f.shared, 'show', registry.owners.ui.revision + ':reports/hydro/calibration/check.json'), f.privateReport.trim());
++  library.prepareLibraryData({ root: f.root, fetch: false });
++  assert.equal(JSON.parse(readFileSync(join(f.shared, 'reports/.owners.json'))).owners.ui.revision, registry.owners.ui.revision);
++  assert.equal(readFileSync(library.hydrateReports({ root: f.root, path: 'hydro/calibration/check.json', access: 'read' }), 'utf8'), f.privateReport);
++  assert.match(readFileSync(library.hydrateReports({ root: f.root, path: 'borders/reconstruction/private.md', access: 'read' }), 'utf8'), /# archived full original\n\[model\]\(\.\.\/\.\.\/map-analysis\/models\/active.bin\)/);
++  assert.equal(readFileSync(library.hydrateReports({ root: f.root, path: 'borders/reconstruction/unchanged.md', access: 'read' }), 'utf8'), '# full original without links\n');
++  assert.throws(() => library.hydrateReports({ root: f.root, path: 'hydro-calibration/check.json', access: 'write' }), /subject|obsolete|canonical/i);
++  const doc = readFileSync(join(f.shared, 'reports/borders/reconstruction/germany/east-germany-review/README.md'), 'utf8');
++  assert.match(doc, /map-analysis\/models\/active.bin/);
++  assert.ok(doc.includes('/blob/' + 'a'.repeat(40) + '/reports/geography/old.md'));
++  assert.equal(existsSync(join(f.shared, 'reports/geography')), false);
++  assert.equal(library.organizeLibraryReports({ root: f.root, apply: true }).revision, result.revision);
++  // Fresh clones may be detached at an old runtime pin while main already
++  // carries the organized report metadata. New owners must use library main.
++  git(f.shared, 'update-ref', '--no-deref', 'HEAD', f.published);
++  const fresh = join(dirname(f.root), 'fresh-app');
++  git(f.root, 'worktree', 'add', '-b', 'work/objects', fresh);
++  mkdirSync(join(fresh, '.library-data')); symlinkSync(f.data, join(fresh, '.library-data/repository'), process.platform === 'win32' ? 'junction' : 'dir');
++  unlinkSync(join(f.shared, 'reports/.owners.json'));
++  assert.throws(() => library.hydrateReports({ root: fresh, path: 'geography/obsolete.md', access: 'write' }), /subject|obsolete|canonical/i);
++  library.prepareLibraryData({ root: fresh, fetch: false });
++  const freshRegistry = JSON.parse(readFileSync(join(f.shared, 'reports/.owners.json')));
++  assert.equal(freshRegistry.reportLayout, 'subjects-v1');
++  const objects = freshRegistry.owners.objects.revision;
++  assert.equal(objects, result.revision);
++  assert.equal(git(f.shared, 'rev-parse', 'refs/pando/reports/objects'), objects);
++  assert.deepEqual(readFileSync(library.hydrateReports({ root: fresh, path: 'map-analysis/models/active.bin', access: 'read' })), f.originals['reports/reference-analysis/models/active.bin']);
++});
++
++test('push rejection is resumable without republishing private history or duplicating file moves', t => {
++  const f = fixture(t); assert.equal(typeof library.organizeLibraryReports, 'function');
++  put(f.remote, 'hooks/pre-receive', '#!/bin/sh\nexit 1\n');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root, apply: true }), /push|reject|failed/i);
++  const pending = git(f.shared, 'rev-parse', 'HEAD');
++  unlinkSync(join(f.remote, 'hooks/pre-receive'));
++  assert.equal(library.organizeLibraryReports({ root: f.root, apply: true }).revision, pending);
++  assert.equal(git(f.shared, 'merge-base', pending, f.privateHead), f.published);
++  assert.throws(() => git(f.remote, 'cat-file', '-e', f.privateHead), /valid|object|exist|failed/i);
++});
++
++test('a committed retry refuses an intervening private main commit before pushing', t => {
++  const f = fixture(t);
++  put(f.remote, 'hooks/pre-receive', '#!/bin/sh\nexit 1\n');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root, apply: true }), /push|reject|failed/i);
++  unlinkSync(join(f.remote, 'hooks/pre-receive'));
++  put(f.shared, 'assets/data/private.bin', 'unpublished private work');
++  git(f.shared, 'add', '.'); git(f.shared, 'commit', '-qm', 'private intervening work');
++  const privateHead = git(f.shared, 'rev-parse', 'HEAD');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root, apply: true }), /main changed|recorded revision/i);
++  assert.equal(git(f.remote, 'rev-parse', 'main'), f.published);
++  assert.equal(git(f.shared, 'rev-parse', 'HEAD'), privateHead);
++});
++
++test('runtime storage and scoped report publication retain the independent private report edition', t => {
++  const f = fixture(t);
++  library.organizeLibraryReports({ root: f.root, apply: true });
++  const revision = JSON.parse(readFileSync(join(f.shared, 'reports/.owners.json'))).owners.ui.revision;
++  library.storeLibraryData({ root: f.root, prefixes: ['assets/data/current.bin'] });
++  assert.equal(JSON.parse(readFileSync(join(f.shared, 'reports/.owners.json'))).owners.ui.revision, revision);
++  assert.throws(() => library.storeLibraryData({ root: f.root, prefixes: ['reports/geography'] }), /subject|obsolete|canonical/i);
++  writeFileSync(library.hydrateReports({ root: f.root, path: 'borders/data/edited.md', access: 'write' }), '# narrow edit\n');
++  library.storeLibraryData({ root: f.root, prefixes: ['reports/borders'] });
++  assert.match(readFileSync(library.hydrateReports({ root: f.root, path: 'borders/reconstruction/private.md', access: 'read' }), 'utf8'), /archived full original/);
++  const path = 'development/storage/completed.md';
++  writeFileSync(library.hydrateReports({ root: f.root, path, access: 'write' }), '# completed\n');
++  library.publishLibraryReports({ root: f.root, prefixes: ['reports/' + path] });
++  assert.equal(readFileSync(library.hydrateReports({ root: f.root, path: 'hydro/calibration/check.json', access: 'read' }), 'utf8'), f.privateReport);
++});
++
++test('a sparse checkout retains absent archive blobs and resumes a missing moved output from its recorded bytes', t => {
++  const f = fixture(t);
++  put(f.shared, 'archive/blobs/unused.bin', 'archived only'); git(f.shared, 'add', '.'); git(f.shared, 'commit', '-qm', 'archived blob'); git(f.shared, 'push', '-q', 'origin', 'main');
++  git(f.shared, 'sparse-checkout', 'set', '--no-cone', '/*', '!/archive/blobs/');
++  assert.equal(existsSync(join(f.shared, 'archive/blobs/unused.bin')), false);
++  library.organizeLibraryReports({ root: f.root, apply: true, stopAfter: 'moved' });
++  // Reproduce interruption after replacement unlink and before atomic rename.
++  const pending = join(f.shared, '.pando-store/report-organization.pending.json');
++  const journal = JSON.parse(readFileSync(pending)); journal.phase = 'inventoried';
++  const changed = journal.files.find(file => file.text !== undefined && !file.owner);
++  journal.workerPids.push(2147483000);
++  const temporary = changed.output + '.2147483000.pending'; writeFileSync(temporary, changed.text);
++  unlinkSync(changed.output); writeFileSync(pending, JSON.stringify(journal));
++  library.organizeLibraryReports({ root: f.root, apply: true });
++  assert.equal(sha(readFileSync(changed.output)), changed.updatedSha256);
++  assert.equal(existsSync(temporary), false);
++  assert.equal(git(f.shared, 'status', '--porcelain'), '');
++  assert.match(git(f.shared, 'ls-files', '-v', 'archive/blobs/unused.bin'), /^S /);
++  assert.equal(existsSync(join(f.shared, 'archive/blobs/unused.bin')), false);
++});
++
++test('an interruption after moving files resumes the journal without repeating moves', t => {
++  const f = fixture(t); assert.equal(typeof library.organizeLibraryReports, 'function');
++  assert.equal(library.organizeLibraryReports({ root: f.root, apply: true, stopAfter: 'moved' }).interruptedAt, 'moved');
++  assert.equal(git(f.shared, 'rev-parse', 'HEAD'), f.published);
++  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/map-analysis/models'] }), /organization.*resume/i);
++  const done = library.organizeLibraryReports({ root: f.root, apply: true });
++  assert.equal(git(f.remote, 'rev-parse', 'main'), done.revision);
++});
++
++test('busy locks, linked inputs, collisions and unknown categories are rejected before mutation', t => {
++  const f = fixture(t); assert.equal(typeof library.organizeLibraryReports, 'function');
++  const lock = join(f.shared, '.git/pando-library.lock'); put(f.shared, '.git/pando-library.lock', 'busy');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root, apply: true }), /running|lock/i); unlinkSync(lock);
++  put(f.shared, 'reports/.edits/ui/map-analysis/models/resume.bin', 'conflicting destination');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root }), /collision|conflict/i);
++  unlinkSync(join(f.shared, 'reports/.edits/ui/map-analysis/models/resume.bin'));
++  symlinkSync(join(f.shared, 'assets'), join(f.shared, 'reports/.edits/ui/reference-analysis/linked'), process.platform === 'win32' ? 'junction' : 'dir');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root }), /link/i);
++  unlinkSync(join(f.shared, 'reports/.edits/ui/reference-analysis/linked'));
++  put(f.shared, 'reports/.edits/ui/unclassified/item.bin', 'review me');
++  assert.throws(() => library.organizeLibraryReports({ root: f.root }), /unclassified|unknown|review/i);
++  assert.equal(git(f.shared, 'rev-parse', 'HEAD'), f.published);
++});
+--- a/tests/unit/library-report-publication.test.mjs
++++ b/tests/unit/library-report-publication.test.mjs
+@@ -30,53 +30,53 @@
+   put(root, 'config/library-data.json', JSON.stringify({ repository: 'example/data', revision, mounts: ['assets/data', 'reports'] }));
+   git(root, 'add', '.'); git(root, 'commit', '-qm', 'source');
+   mkdirSync(join(root, '.library-data')); symlinkSync(data, join(root, '.library-data/repository'), process.platform === 'win32' ? 'junction' : 'dir');
+-  const edits = join(shared, 'reports/.edits/ui'); put(edits, 'task/report.md', '# 원문\n'); put(edits, 'other/unfinished.md', '# 다른 작업\n');
++  const edits = join(shared, 'reports/.edits/ui'); put(edits, 'development/task/report.md', '# 원문\n'); put(edits, 'development/other/unfinished.md', '# 다른 작업\n');
+   return { root, shared, remote, data, edits, revision, privateHead: git(data, 'rev-parse', 'HEAD'), pin: readFileSync(join(root, 'config/library-data.json'), 'utf8') };
+ }
+ 
+ test('report completion publishes only the selected originals through shared main and verifies remote bytes', t => {
+   const f = fixture(t);
+   assert.equal(typeof library.publishLibraryReports, 'function', 'report completion must include publication');
+-  const result = library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] });
++  const result = library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] });
+   assert.equal(result.files, 1);
+   assert.equal(git(f.remote, 'rev-parse', 'refs/heads/main'), result.revision);
+-  assert.equal(git(f.remote, 'show', 'main:reports/task/report.md'), '# 원문');
++  assert.equal(git(f.remote, 'show', 'main:reports/development/task/report.md'), '# 원문');
+   assert.equal(git(f.remote, 'show', 'main:assets/data/current.bin'), 'published runtime');
+   assert.equal(git(f.data, 'rev-parse', 'HEAD'), f.privateHead);
+   assert.equal(readFileSync(join(f.data, 'assets/data/current.bin'), 'utf8'), 'private runtime in progress');
+   assert.equal(readFileSync(join(f.root, 'config/library-data.json'), 'utf8'), f.pin);
+-  assert.equal(readFileSync(join(f.edits, 'other/unfinished.md'), 'utf8'), '# 다른 작업\n');
+-  assert.equal(existsSync(join(f.shared, 'reports/other/unfinished.md')), false);
++  assert.equal(readFileSync(join(f.edits, 'development/other/unfinished.md'), 'utf8'), '# 다른 작업\n');
++  assert.equal(existsSync(join(f.shared, 'reports/development/other/unfinished.md')), false);
+   assert.equal(existsSync(join(f.root, '.library-data/materialized')), false, 'report completion must not prepare runtime data');
+-  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }).revision, result.revision, 'repeating completion creates no extra commit');
+-  put(f.edits, 'task/report.md', '# 수정\n');
+-  assert.throws(() => library.checkLibraryReports({ root: f.root, prefixes: ['reports/task'] }), /report|archiv|publish/i);
+-  library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] });
+-  assert.equal(git(f.remote, 'show', 'main:reports/task/report.md'), '# 수정');
++  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }).revision, result.revision, 'repeating completion creates no extra commit');
++  put(f.edits, 'development/task/report.md', '# 수정\n');
++  assert.throws(() => library.checkLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }), /report|archiv|publish/i);
++  library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] });
++  assert.equal(git(f.remote, 'show', 'main:reports/development/task/report.md'), '# 수정');
+ });
+ 
+ test('failed push remains a failure with originals intact and retries the same report-only commit', t => {
+   const f = fixture(t); assert.equal(typeof library.publishLibraryReports, 'function');
+   put(f.remote, 'hooks/pre-receive', '#!/bin/sh\nexit 1\n');
+-  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }), /push|reject|failed/i);
++  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }), /push|reject|failed/i);
+   const saved = git(f.shared, 'rev-parse', 'HEAD');
+   assert.equal(git(f.remote, 'rev-parse', 'main'), f.revision);
+-  assert.equal(readFileSync(join(f.edits, 'task/report.md'), 'utf8'), '# 원문\n');
++  assert.equal(readFileSync(join(f.edits, 'development/task/report.md'), 'utf8'), '# 원문\n');
+   unlinkSync(join(f.remote, 'hooks/pre-receive'));
+-  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/other'] }), /outside.*scope|unpublished.*scope/i);
++  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/other'] }), /outside.*scope|unpublished.*scope/i);
+   assert.equal(git(f.remote, 'rev-parse', 'main'), f.revision, 'another scope must not publish the pending report');
+   assert.equal(git(f.shared, 'rev-parse', 'HEAD'), saved);
+-  assert.equal(readFileSync(join(f.edits, 'other/unfinished.md'), 'utf8'), '# 다른 작업\n');
+-  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }).revision, saved);
++  assert.equal(readFileSync(join(f.edits, 'development/other/unfinished.md'), 'utf8'), '# 다른 작업\n');
++  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }).revision, saved);
+ });
+ 
+ test('publication preserves a busy lock and refuses unpublished non-report work on shared main', t => {
+   const f = fixture(t); assert.equal(typeof library.publishLibraryReports, 'function');
+   const lock = join(f.shared, '.git/pando-library.lock'); writeFileSync(lock, 'another writer');
+-  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }), /running/i);
++  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }), /running/i);
+   assert.equal(readFileSync(lock, 'utf8'), 'another writer'); unlinkSync(lock);
+   put(f.shared, 'assets/data/current.bin', 'unfinished main runtime'); git(f.shared, 'add', '.'); git(f.shared, 'commit', '-qm', 'unfinished');
+-  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }), /unpublished|non-report|preserv/i);
++  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }), /unpublished|non-report|preserv/i);
+   assert.equal(git(f.remote, 'rev-parse', 'main'), f.revision);
+   assert.equal(readFileSync(join(f.shared, 'assets/data/current.bin'), 'utf8'), 'unfinished main runtime');
+ });
+@@ -85,12 +85,12 @@
+   const f = fixture(t); assert.equal(typeof library.publishLibraryReports, 'function');
+   assert.throws(() => library.publishLibraryReports({ root: f.root }), /scope|prefix/i);
+   assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['assets/data'] }), /report|scope/i);
+-  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/missing'] }), /missing|empty|scope/i);
+-  library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] });
++  assert.throws(() => library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/missing'] }), /missing|empty|scope/i);
++  library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] });
+   const corrupt = execFileSync('git', ['hash-object', '-w', '--stdin'], { cwd: f.shared, input: 'remote body differs from its archive metadata', encoding: 'utf8' }).trim();
+-  git(f.shared, 'update-index', '--cacheinfo', `100644,${corrupt},reports/task/report.md`);
++  git(f.shared, 'update-index', '--cacheinfo', `100644,${corrupt},reports/development/task/report.md`);
+   git(f.shared, 'commit', '-qm', 'out-of-band report update'); git(f.shared, 'push', '-q', 'origin', 'main');
+-  assert.throws(() => library.checkLibraryReports({ root: f.root, prefixes: ['reports/task'] }), /corrupt|mismatch|content|original/i);
++  assert.throws(() => library.checkLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }), /corrupt|mismatch|content|original/i);
+ });
+ 
+ test('report completion adopts a newer remote main from a filtered archive without preparing runtime data', t => {
+@@ -103,7 +103,7 @@
+   remoteGit('read-tree', 'main'); remoteGit('update-index', '--cacheinfo', `100644,${blob},archive/index.json`);
+   const tree = remoteGit('write-tree'), newer = remoteGit('commit-tree', tree, '-p', f.revision, '-m', 'remote metadata');
+   remoteGit('update-ref', 'refs/heads/main', newer);
+-  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }).files, 1);
++  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/development/task'] }).files, 1);
+   assert.equal(git(f.shared, 'merge-base', newer, 'HEAD'), newer);
+   assert.equal(git(f.data, 'rev-parse', 'HEAD'), f.privateHead);
+ });
+--- a/tests/unit/report-paths.test.mjs
++++ b/tests/unit/report-paths.test.mjs
+@@ -8,11 +8,12 @@
+ test('report consumers share a fixed original owner and reject non-report paths', t => {
+   const root = mkdtempSync(join(tmpdir(), 'pando-reports-'));
+   t.after(() => rmSync(root, { recursive: true, force: true }));
+-  const expected = join(root, '.library-data/repository/reports/research/country-default-colors.json');
+-  assert.equal(reportPath('docs/research/country-default-colors.json', { root, access: 'read' }), expected);
++  const expected = join(root, '.library-data/repository/reports/borders/data/country-default-colors.json');
++  assert.equal(reportPath('reports/borders/data/country-default-colors.json', { root, access: 'read' }), expected);
+   mkdirSync(join(root, 'config'), { recursive: true });
+   writeFileSync(join(root, 'config/library-data.json'), JSON.stringify({ revision: 'a'.repeat(40) }));
+-  assert.equal(reportPath('docs/research/country-default-colors.json', { root, access: 'read' }), expected);
++  assert.equal(reportPath('reports/borders/data/country-default-colors.json', { root, access: 'read' }), expected);
+   assert.throws(() => reportPath('reports/../secret', { root, access: 'read' }), /Unsafe/);
+   assert.throws(() => reportPath('private.txt', { root, access: 'read' }), /Not a report/);
++  assert.throws(() => reportPath('reports/reference-analysis/models/old.bin', { root, access: 'write' }), /canonical|subject/);
+ });
+--- a/tools/audit_north_schleswig_1914_001_026.py
++++ b/tools/audit_north_schleswig_1914_001_026.py
+@@ -22,7 +22,7 @@
+ ROOT = Path(__file__).resolve().parents[1]
+ SOURCE = ROOT / "tools/historical-library/sources/german-empire-1914/north-schleswig-001-026"
+ BORDER = ROOT / "tools/historical-library/land-borders"
+-REPORT_DIR = report_path("tools/historical-library/land-borders", access='write')
++REPORT_DIR = report_path("reports/borders/reconstruction/germany/north-schleswig", access='write')
+ PREFIX = "german-denmark-1914-north-schleswig-001-026"
+ EJERLAV_PATH = SOURCE / "seem-by-ejerlav-current.geojson"
+ EJERLAV_META_PATH = SOURCE / "seem-by-ejerlav-current.provenance.json"
+--- a/tools/audit_north_schleswig_1914_stone26_split.py
++++ b/tools/audit_north_schleswig_1914_stone26_split.py
+@@ -27,7 +27,7 @@
+ B = ROOT / "tools/historical-library/land-borders"
+ SRC = ROOT / "tools/historical-library/sources/german-empire-1914/north-schleswig-001-026"
+ STEM = "german-denmark-1914-north-schleswig-001-026"
+-AUDIT = report_path("tools/historical-library/land-borders", access='write') / (STEM + ".stone26-transition.audit.json")
++AUDIT = report_path("reports/borders/reconstruction/germany/north-schleswig", access='write') / (STEM + ".stone26-transition.audit.json")
+ PARTS = B / (STEM + ".stone26-transition.provisional.geojson")
+ VIEW = ROOT / "tools/historical-library/review-output/north-schleswig-1914-001-026/stone26-transition"
+ WMS = "https://wms.kartenforum.slub-dresden.de/map/10006007"
+--- a/tools/build-country-default-colors.mjs
++++ b/tools/build-country-default-colors.mjs
+@@ -2,7 +2,7 @@
+ import { readFileSync, writeFileSync } from 'node:fs';
+ 
+ // The approved research table owns the palette and its source provenance.
+-const sourceUrl = reportPath('docs/research/country-default-colors.json', { access: 'read' });
++const sourceUrl = reportPath('reports/borders/data/country-default-colors.json', { access: 'read' });
+ const outputUrl = new URL('../assets/js/modules/country-default-colors.js', import.meta.url);
+ const source = JSON.parse(readFileSync(sourceUrl, 'utf8'));
+ if (source.status !== 'confirmed') throw new Error('국가 기본색이 확정되지 않았습니다.');
+--- a/tools/build-korean-boundaries.mjs
++++ b/tools/build-korean-boundaries.mjs
+@@ -147,7 +147,7 @@
+     const update=entity=>({...entity,lifetime:{validFrom:value.from,validTo:null},geometryVersions:value.versions,
+       sourceInfo:{...entity.sourceInfo,sourceId:'natural-earth-5.1.1+dos-lsib-11.4',
+         title:'Natural Earth coastlines with US Department of State LSIB 11.4 Korean boundaries',geometrySha256:sha(value.geometry)},
+-      metadata:{...entity.metadata,historicalBoundaryEvidence:'provisional',boundaryEvidenceFile:'reports/geography/korea-boundaries-2026-10-21.md'}});
++      metadata:{...entity.metadata,historicalBoundaryEvidence:'provisional',boundaryEvidenceFile:'reports/borders/reconstruction/korea-boundaries-2026-10-21.md'}});
+     if(check){
+       const current=readTerritorialSource(entityId);
+       assert.deepEqual(current,update(current),`Stale Korean source: ${entityId}`);
+--- a/tools/build-place-candidates.py
++++ b/tools/build-place-candidates.py
+@@ -717,7 +717,7 @@
+         fetch(args.cache)
+     elif args.command == "build":
+         build(args.cache, args.stats or ROOT / "reports" / "places" / "geonames-statistics.json",
+-              args.report or report_path("docs/place-data-audit.md", access='write'))
++              args.report or report_path("reports/places/place-data-audit.md", access='write'))
+     else:
+         overrides = args.review_overrides
+         default_reviews = ROOT / "reports" / "places" / "candidate-reviews.json"
+@@ -725,7 +725,7 @@
+         if overrides is None and args.reviews == default_reviews and default_overrides.exists():
+             overrides = default_overrides
+         review(args.cache, args.reviews, args.stats or ROOT / "reports" / "places" / "candidate-review-summary.json",
+-               args.report or report_path("docs/place-candidate-review.md", access='write'), overrides)
++               args.report or report_path("reports/places/place-candidate-review.md", access='write'), overrides)
+ 
+ 
+ if __name__ == "__main__":
+--- a/tools/build_german_empire_1914_modern_coast.py
++++ b/tools/build_german_empire_1914_modern_coast.py
+@@ -15,7 +15,7 @@
+ OUTDIR=ROOT/"tools/historical-library/working"
+ SRCDIR=ROOT/"tools/historical-library/sources/german-empire-1914"
+ OUTDIR.mkdir(parents=True,exist_ok=True); SRCDIR.mkdir(parents=True,exist_ok=True)
+-REPORT_DIR=report_path("tools/historical-library/working", access='write')
++REPORT_DIR=report_path("reports/borders/reconstruction/germany/diagnostics", access='write')
+ REPORT_DIR.mkdir(parents=True,exist_ok=True)
+ 
+ HGIS_URL="https://raw.githubusercontent.com/acdh-oeaw/histogis-data/master/single_files/deutsches-reich__1871-02-27_1919-12-31.geojson"
+--- a/tools/build_north_schleswig_1914_001_026.py
++++ b/tools/build_north_schleswig_1914_001_026.py
+@@ -13,7 +13,7 @@
+ SRC=ROOT/"tools/historical-library/sources/german-empire-1914/north-schleswig-001-026"
+ OUT=ROOT/"tools/historical-library/land-borders"
+ OUT.mkdir(parents=True,exist_ok=True)
+-REPORT_DIR=report_path("tools/historical-library/land-borders", access='write')
++REPORT_DIR=report_path("reports/borders/reconstruction/germany/north-schleswig", access='write')
+ REPORT_DIR.mkdir(parents=True,exist_ok=True)
+ 
+ parishes=json.loads((SRC/"dagi-current-parishes-sector.geojson").read_text(encoding="utf-8"))
+--- a/tools/calibrate-hydro.py
++++ b/tools/calibrate-hydro.py
+@@ -998,7 +998,7 @@
+   --hydrorivers-root <HydroRIVERS-대륙별-파일-폴더> `
+   --hydrolakes <HydroLAKES_polys_v10.shp> `
+   --natural-earth-root assets/data/hydro `
+-  --output reports/hydro-calibration
++  --output reports/hydro/calibration/
+ ```
+ 
+ `results.json`에는 공식, 단계별 원시 지표, 중복률, 입력 파일 정보가 들어 있습니다. 비교 PNG는 동일 범위·등거리 경위도 화면·동일 선폭으로 생성했습니다. 회색은 양쪽에 공통인 Natural Earth 기본 수계입니다. 한반도는 Natural Earth 지역 보충 자료가 없으므로 현재 전 세계 기본 수계를 왼쪽 기준으로 표시하며 최적화 목적함수에는 넣지 않았습니다.
+--- a/tools/cleanup-reference-analysis-caches.ps1
++++ b/tools/cleanup-reference-analysis-caches.ps1
+@@ -46,7 +46,7 @@
+     if ($Apply) {
+         $taskEditRoot = & node (Join-Path $PSScriptRoot 'library-data.mjs') --report-edit-root $RepositoryRoot
+         if ($LASTEXITCODE -ne 0) { throw 'Cannot resolve the cleanup evidence owner.' }
+-        $taskReportDirectory = Join-Path $taskEditRoot 'reference-analysis'
++        $taskReportDirectory = Join-Path $taskEditRoot 'development/storage'
+         [void](New-Item -ItemType Directory -Path $taskReportDirectory -Force)
+         $taskReportPath = Join-Path $taskReportDirectory ('centralization-result-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff') + '.json')
+         $taskOutput | Set-Content -LiteralPath $taskReportPath -Encoding UTF8
+@@ -187,7 +187,7 @@
+ $modulePath = Join-Path $PSScriptRoot 'library-data.mjs'
+ $reportRoot = & node $modulePath --report-edit-root $RepositoryRoot
+ if ($LASTEXITCODE -ne 0 -or -not $reportRoot) { throw 'Cannot resolve the canonical report owner.' }
+-$reportDirectory = Get-ChildPath $reportRoot 'reference-analysis'
++$reportDirectory = Get-ChildPath $reportRoot 'development/storage'
+ $reportPath = Join-Path $reportDirectory ('cleanup-result-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff') + '.json')
+ $drive = New-Object IO.DriveInfo ([IO.Path]::GetPathRoot($cacheRoot))
+ $freeBytesBefore = $drive.AvailableFreeSpace
+--- a/tools/library-data.mjs
++++ b/tools/library-data.mjs
+@@ -4,6 +4,7 @@
+ import { dirname, isAbsolute, relative, resolve, sep } from 'node:path';
+ import { fileURLToPath } from 'node:url';
+ import { gunzipSync, gzipSync } from 'node:zlib';
++import { REPORT_SUBJECTS, organizedReportPath, reportDocumentDetails, reportSubjectReadmes, rewriteReportArtifact } from './library-report-layout.mjs';
+ import { atomicStorageJSON, containedPath, contentFiles, contentHash, contentPath, linkContent, makePrivate, publishContent, recoverContentPermissions, removeContentLink, replaceLibraryFile, shareContentFile } from './library-content.mjs';
+ 
+ export const defaultRoot = fileURLToPath(new URL('../', import.meta.url));
+@@ -70,10 +71,27 @@
+   const missing = patterns.filter(line => !text.split(/\r?\n/).includes(line));
+   if (missing.length) { mkdirSync(dirname(path), { recursive: true }); writeFileSync(path, text + '\n' + missing.join('\n') + '\n'); }
+ }
++function reportMainRevision(root) {
++  const shared = librarySharedCheckout(root);
++  for (const ref of ['refs/remotes/origin/main', 'refs/heads/main']) {
++    let revision;
++    try { revision = git(shared, ['rev-parse', '--verify', ref]); } catch { continue; }
++    const index = JSON.parse(git(shared, ['show', `${revision}:archive/index.json`], { allowFetch: true }));
++    if (index.reportLayout === 'subjects-v1') return revision;
++  }
++  return git(shared, ['rev-parse', 'HEAD']);
++}
+ function reportContext(root) {
+   const checkout = libraryCheckout(root), owner = libraryOwnerId(root), registry = reportRegistry(root);
+-  const revision = registry.owners[owner]?.revision || git(checkout, ['rev-parse', 'HEAD']);
+-  return { checkout, owner, revision, files: JSON.parse(git(checkout, ['show', `${revision}:archive/index.json`])).files };
++  if (!registry.owners[owner]) {
++    const revision = reportMainRevision(root);
++    const index = JSON.parse(git(checkout, ['show', `${revision}:archive/index.json`]));
++    git(librarySharedCheckout(root), ['update-ref', `refs/pando/reports/${owner}`, revision]);
++    if (index.reportLayout) registry.reportLayout = index.reportLayout;
++    registry.owners[owner] = { revision }; writeReportRegistry(root, registry);
++  }
++  const revision = registry.owners[owner].revision;
++  return { checkout, owner, revision, base:libraryReportRoot(root), files: JSON.parse(git(checkout, ['show', `${revision}:archive/index.json`])).files };
+ }
+ function checkedReportPath(base, path) {
+   const output = safeChild(base, path);
+@@ -97,14 +115,14 @@
+   return existsSync(path) && lstatSync(path).isFile() && !lstatSync(path).isSymbolicLink()
+     && lstatSync(path).size === entry.bytes && reportDigest(readFileSync(path)) === entry.sha256;
+ }
+-function originalReport(root, context, logical, entry) {
+-  const base = libraryReportRoot(root), canonical = checkedReportPath(base, logical.slice(8));
++function originalReport(context, logical, entry) {
++  const base = context.base, canonical = checkedReportPath(base, logical.slice(8));
+   if (matchingReport(canonical, entry)) return canonical;
+   const variant = checkedReportPath(base, `.variants/${entry.sha256}`);
+   if (!existsSync(variant)) {
+-    const bytes = decodeArchiveEntry(context.checkout, entry, context.revision);
++    const bytes = decodeArchiveEntry(context.checkout, entry, context.revision,{fetch:true});
+     mkdirSync(dirname(variant), { recursive: true }); writeFileSync(variant, bytes, { flag: 'wx' });
+-    shareContentFile(librarySharedCheckout(root), variant, entry);
++    shareContentFile(dirname(base), variant, entry);
+   }
+   if (!matchingReport(variant, entry)) throw Error(`Modified report variant: ${variant}`);
+   return variant;
+@@ -112,6 +130,7 @@
+ // Access is explicit: readers share originals; writers receive independent,
+ // scoped copies. Neither access overwrites another branch's unfinished work.
+ export function hydrateReports({ root = defaultRoot, path, access } = {}) {
++  assertReportSubject(root, 'reports/' + path);
+   if (!['read', 'write'].includes(access)) throw Error('Report access must be read or write');
+   checkedReportPath(libraryReportRoot(root), path);
+   if (path.split(/[\\/]/).some(part => part.startsWith('.'))) throw Error('Unsafe reserved report path');
+@@ -119,18 +138,19 @@
+ }
+ function hydrateOwnedReports({ root, path, access }) {
+   excludeReportStorage(librarySharedCheckout(root));
+-  const base = libraryReportRoot(root), context = reportContext(root);
++  const context = reportContext(root), base=context.base, shared=dirname(base);
+   const editRoot = resolve(base, '.edits', context.owner), edit = checkedReportPath(editRoot, path);
+   const logical = 'reports/' + path.replaceAll('\\', '/');
+   const entries = Object.entries(context.files).filter(([key]) => key === logical || key.startsWith(logical + '/'));
+   if (access === 'write') {
+     for (const [key, entry] of entries) {
+       const output = checkedReportPath(editRoot, key.slice(8));
+-      if (!existsSync(output)) { mkdirSync(dirname(output), { recursive: true }); copyFileSync(originalReport(root, context, key, entry), output); chmodSync(output, 0o600); }
+-    }
++      if (!existsSync(output)) { mkdirSync(dirname(output), { recursive: true }); copyFileSync(originalReport(context, key, entry), output); chmodSync(output, 0o600); }
++    }
++    for(const file of plainReportFiles(edit))makePrivate(shared,file.path);
+     mkdirSync(dirname(edit), { recursive: true }); return edit;
+   }
+-  if (entries.length === 1 && entries[0][0] === logical) return existsSync(edit) ? edit : originalReport(root, context, logical, entries[0][1]);
++  if (entries.length === 1 && entries[0][0] === logical) return existsSync(edit) ? edit : originalReport(context, logical, entries[0][1]);
+   if (!entries.length) {
+     if (existsSync(edit)) return edit;
+     throw Error(`Report is not archived or edited: ${logical}`);
+@@ -144,14 +164,14 @@
+   for (const existing of plainReportFiles(view)) {
+     if (previous[existing.logical] !== reportDigest(readFileSync(existing.path))) throw Error(`Modified report view must be preserved: ${existing.path}`);
+   }
+-  const expected = new Map(entries.map(([key, entry]) => [key.slice(logical.length + 1), originalReport(root, context, key, entry)]));
++  const expected = new Map(entries.map(([key, entry]) => [key.slice(logical.length + 1), originalReport(context, key, entry)]));
+   for (const file of edited) expected.set(file.logical, file.path);
+-  for (const existing of plainReportFiles(view)) if (!expected.has(existing.logical)) removeContentLink(librarySharedCheckout(root),existing.path);
++  for (const existing of plainReportFiles(view)) if (!expected.has(existing.logical)) removeContentLink(shared,existing.path);
+   for (const [name, input] of expected) {
+     const output = checkedReportPath(view, name), bytes = readFileSync(input);
+     mkdirSync(dirname(output), { recursive: true });
+-    if (!existsSync(output) || !readFileSync(output).equals(bytes)) replaceLibraryFile(librarySharedCheckout(root),output,bytes);
+-    shareContentFile(librarySharedCheckout(root),output);
++    if (!existsSync(output) || !readFileSync(output).equals(bytes)) replaceLibraryFile(shared,output,bytes);
++    shareContentFile(shared,output);
+   }
+   mkdirSync(dirname(manifest), { recursive: true });
+   writeFileSync(manifest, JSON.stringify(Object.fromEntries([...expected].map(([name, input]) => [name, reportDigest(readFileSync(input))]))) + '\n');
+@@ -165,11 +185,17 @@
+   const operation = () => centralizeOwnedReports(root, apply);
+   return apply ? withLibraryLock(root, operation) : operation();
+ }
+-function assertReportProducersIdle() {
++function assertReportProducersIdle(shared = null) {
+   if (process.platform !== 'win32') return;
+   const output = execFileSync('powershell.exe', ['-NoProfile', '-Command', "Get-CimInstance Win32_Process | Where-Object { $_.Name -match '^(python|node|pandolab).*\\.exe$' } | Select-Object ProcessId,CommandLine | ConvertTo-Json -Compress"], { encoding: 'utf8', maxBuffer: 4 * 1024 * 1024 });
+   const parsed = output.trim() ? JSON.parse(output) : [], processes = Array.isArray(parsed) ? parsed : [parsed];
+-  const writers = processes.filter(item => item.ProcessId !== process.pid && /\.working[\\/]|reference-analysis[\\/](?:train|macro|inspect-checkpoint|acquire-sources|publisher|prepare-analysis-images)\.py/i.test(item.CommandLine || ''));
++  const writers = processes.filter(item => {
++    if (item.ProcessId === process.pid) return false;
++    const command = item.CommandLine || '';
++    if (/\.working[\\/]|reference-analysis[\\/](?:train|macro|inspect-checkpoint|acquire-sources|publisher|prepare-analysis-images)\.py/i.test(command)) return true;
++    // An input report path does not make a read-only verifier a producer.
++    return /--report-directory(?:[=\s])/.test(command) && (!shared || command.replaceAll('\\', '/').toLowerCase().includes(shared.replaceAll('\\', '/').toLowerCase()));
++  });
+   if (writers.length) throw Error(`Report producers are running; retry after completion: ${writers.map(item => `${item.ProcessId}: ${item.CommandLine}`).join('; ')}`);
+ }
+ function centralizeOwnedReports(root, apply) {
+@@ -240,7 +266,7 @@
+   }
+   if (!apply) return result;
+   if (!sources.length && !markers.length && existsSync(resolve(base, '.owners.json')) && !existsSync(resolve(base, '.centralization.pending.json'))) return result;
+-  assertReportProducersIdle();
++  assertReportProducersIdle(shared);
+   const disk = statfsSync(shared); result.freeBytesBefore = disk.bavail * disk.bsize;
+   if (result.freeBytesBefore < 7 * 1024 ** 3) throw Error('Report migration requires 2 GiB peak space plus 5 GiB headroom.');
+   const dirty = git(shared, ['status', '--porcelain', '-z']).split('\0').filter(Boolean)
+@@ -303,7 +329,7 @@
+     else { mkdirSync(dirname(destination), { recursive: true }); writeFileSync(destination, decodeArchiveEntry(shared, entry, baselineOwners.get(logical).revision), { flag: 'wx' }); }
+   }
+   for (const record of sources) if (!retained.has(record.path)) moveOrVerify(record);
+-  assertReportProducersIdle();
++  assertReportProducersIdle(shared);
+   // Store raw originals directly; keep compressed originals in historical Git
+   // commits, and remove only formerly report-owned, now-unreferenced tree blobs.
+   const indexPath = resolve(shared, 'archive/index.json'), index = JSON.parse(readFileSync(indexPath, 'utf8'));
+@@ -425,7 +451,7 @@
+   if (!rel || rel === '..' || rel.startsWith(`..${sep}`) || isAbsolute(rel)) throw Error(`Unsafe library path: ${path}`);
+   return target;
+ }
+-export function decodeArchiveEntry(checkout, entry, revision = null) {
++export function decodeArchiveEntry(checkout, entry, revision = null, {fetch=false}={}) {
+   let stored;
+   try { stored = readFileSync(safeChild(checkout, entry.stored)); }
+   catch (error) { if (!revision) throw error; }
+@@ -437,23 +463,23 @@
+   };
+   if (revision) {
+     try { return decode(stored); } catch { /* The storage HEAD may contain a newer runtime resource. */ }
+-    stored = execFileSync('git', [...gitOptions, 'show', revision + ':' + entry.stored], { cwd: checkout, env: { ...process.env, GIT_NO_LAZY_FETCH: '1' }, maxBuffer: Math.max(entry.bytes * 2, 16 * 1024 * 1024), stdio:['pipe','pipe','pipe'] });
++    stored = execFileSync('git', [...gitOptions, 'show', revision + ':' + entry.stored], { cwd: checkout, env: { ...process.env, GIT_NO_LAZY_FETCH: fetch?'0':'1' }, maxBuffer: Math.max(entry.bytes * 2, 16 * 1024 * 1024), stdio:['pipe','pipe','pipe'] });
+   }
+   return decode(stored);
+ }
+ export function prepareLibraryData({ root = defaultRoot, fetch = true } = {}) {
+   return withLibraryLock(root, () => prepareOwnedLibraryData({ root, fetch }));
+ }
+-export function withLibraryLock(root, operation, { maintenance = false } = {}) {
++export function withLibraryLock(root, operation, { maintenance = false, organizing = false } = {}) {
+   const lockPath = resolve(root, '.library-data/prepare.lock');
+   mkdirSync(dirname(lockPath), { recursive: true });
+   let lock;
+   try { discardDeadLibraryLock(lockPath); lock = openSync(lockPath, 'wx'); }
+   catch (error) { throw Error('Library preparation is already running; preserve its outputs and retry after it finishes.', { cause: error }); }
+-  try { writeFileSync(lock, JSON.stringify({ pid: process.pid, root })); return withCheckoutLock(libraryCheckout(root), operation, maintenance); }
++  try { writeFileSync(lock, JSON.stringify({ pid: process.pid, root })); return withCheckoutLock(libraryCheckout(root), operation, maintenance, organizing); }
+   finally { closeSync(lock); unlinkSync(lockPath); }
+ }
+-function withCheckoutLock(checkout, operation, maintenance = false) {
++function withCheckoutLock(checkout, operation, maintenance = false, organizing = false) {
+   if (!existsSync(resolve(checkout, '.git'))) return operation();
+   const common = resolve(checkout, git(checkout, ['rev-parse', '--git-common-dir']));
+   const path = resolve(common, 'pando-library.lock');
+@@ -463,6 +489,7 @@
+   try {
+     writeFileSync(handle, JSON.stringify({ pid: process.pid, checkout })); recoverContentPermissions(dirname(common));
+     if (!maintenance && existsSync(resolve(dirname(common), '.pando-store/storage-migration.pending.json'))) throw Error('Library storage migration must resume before preparing or editing data.');
++    if (!organizing && existsSync(resolve(dirname(common), '.pando-store/report-organization.pending.json'))) throw Error('Report organization must resume before preparing or editing data.');
+     return operation();
+   }
+   finally { closeSync(handle); unlinkSync(path); }
+@@ -481,11 +508,18 @@
+ }
+ 
+ const sparseMetadata = ['/*', '!/*/', '/archive/', '!/archive/*', '/archive/index.json'];
+-function setMetadataCheckout(checkout) {
++function setMetadataCheckout(checkout,{fetch=false}={}) {
+   const shared = dirname(resolve(checkout, git(checkout, ['rev-parse', '--git-common-dir'])));
+   const keepReports = checkout === shared && existsSync(resolve(shared, 'reports/.owners.json'));
++  const patterns=[...sparseMetadata],directories=new Set();
++  const literal=path=>path.replace(/[\\*?[\]]/g,'\\$&');
++  const includeDirectory=path=>{if(directories.has(path))return;const parent=path.slice(0,path.lastIndexOf('/'));if(parent)includeDirectory(parent);directories.add(path);patterns.push('/'+literal(path)+'/','!/'+literal(path)+'/*');};
++  if(keepReports)for(const file of plainReportFiles(resolve(shared,'reports'))){
++    if(file.logical.startsWith('.'))continue;
++    const path='reports/'+file.logical;includeDirectory(path.slice(0,path.lastIndexOf('/')));patterns.push('/'+literal(path));
++  }
+   execFileSync('git', [...gitOptions, 'sparse-checkout', 'set', '--no-cone', '--stdin'], {
+-    cwd: checkout, input: [...sparseMetadata, ...(keepReports ? ['/reports/'] : [])].join('\n') + '\n', stdio: ['pipe', 'pipe', 'pipe'],
++    cwd: checkout, env:{...process.env,GIT_NO_LAZY_FETCH:fetch?'0':'1'}, input: patterns.join('\n') + '\n', stdio: ['pipe', 'pipe', 'pipe'],
+   });
+ }
+ function plainChild(checkout, path, checkedDirectories = new Map()) {
+@@ -600,7 +634,7 @@
+   for(const file of source.values())privateBytes+=file.bytes;
+   return {poolBytes,privateBytes,totalBytes:poolBytes+privateBytes};
+ }
+-export function materializeRuntimeView({ root, index, source = null }) {
++export function materializeRuntimeView({ root, index, source = null, fetch=false }) {
+   const shared = librarySharedCheckout(root), config = libraryConfig(root), owner = libraryOwnerId(root), view = libraryMaterializedRoot(root);
+   const marker = resolve(view, '.complete'), manifest = resolve(view, '.cache-owner.json');
+   if (existsSync(marker)) {
+@@ -619,7 +653,7 @@
+     for (const file of previous) {
+       if (['.complete', '.cache-owner.json'].includes(file.logical)) continue;
+       const old = containedPath(source, file.logical), entry = index.files[file.logical];
+-      const original = existsSync(old) ? readFileSync(old) : entry ? decodeArchiveEntry(libraryCheckout(root), entry, config.revision) : null;
++      const original = existsSync(old) ? readFileSync(old) : entry ? decodeArchiveEntry(libraryCheckout(root), entry, config.revision,{fetch}) : null;
+       if (!original || !original.equals(readFileSync(file.path))) throw Error(`Unknown pending runtime work must be preserved: ${file.path}`);
+     }
+     for (const file of previous) {
+@@ -651,7 +685,7 @@
+     if (existsSync(previous)) {
+       if (!lstatSync(previous).isFile() || lstatSync(previous).isSymbolicLink()) throw Error(`Unexpected old runtime source: ${previous}`);
+       write(logical, readFileSync(previous), entry);
+-    } else write(logical, decodeArchiveEntry(libraryCheckout(root), entry, config.revision), entry);
++    } else write(logical, decodeArchiveEntry(libraryCheckout(root), entry, config.revision,{fetch}), entry);
+   }
+   if (existsSync(source)) for (const file of sourceFiles) {
+     if (['.complete', '.cache-owner.json'].includes(file.logical) || files[file.logical]) continue;
+@@ -800,31 +834,29 @@
+     mkdirSync(dirname(checkout), { recursive: true });
+     execFileSync('git', [...gitOptions, '-c', 'core.autocrlf=false', 'clone', '--filter=blob:none', '--no-checkout', `https://github.com/${config.repository}.git`, checkout], { stdio: 'inherit' });
+     git(checkout, ['config', 'core.autocrlf', 'false']);
+-    setMetadataCheckout(checkout);
++    setMetadataCheckout(checkout,{fetch:true});
+     // A no-checkout clone has no working snapshot yet, not user deletions.
+     git(checkout, ['fetch', '--filter=blob:none', 'origin', config.revision]);
+-    git(checkout, ['checkout', '--detach', config.revision]);
++    git(checkout, ['checkout', '--detach', config.revision],{allowFetch:true});
+   }
+   let current;
+   try { current = git(checkout, ['rev-parse', 'HEAD']); } catch { current = ''; }
+   let index;
+-  try { index = JSON.parse(git(checkout, ['show', `${config.revision}:archive/index.json`])); }
++  try { index = JSON.parse(git(checkout, ['show', `${config.revision}:archive/index.json`],{allowFetch:fetch})); }
+   catch (error) {
+     if (!fetch) throw error;
+     git(checkout, ['fetch', '--filter=blob:none', 'origin', config.revision]);
+-    index = JSON.parse(git(checkout, ['show', `${config.revision}:archive/index.json`]));
++    index = JSON.parse(git(checkout, ['show', `${config.revision}:archive/index.json`],{allowFetch:fetch}));
+   }
+   // The archive checkout owns stored work. Runtime pairing is selected by the
+   // pinned Git tree, not by moving that checkout back over later reports/WIP.
+   if (!current || !existsSync(resolve(checkout, 'archive/index.json'))) throw Error('Library archive checkout is incomplete; preserve its work before repairing it.');
+   excludeReportStorage(librarySharedCheckout(root));
+-  const materialized = materializeRuntimeView({ root, index });
++  const materialized = materializeRuntimeView({ root, index, fetch });
+   const reportRoot = libraryReportRoot(root);
+   if (existsSync(resolve(checkout, '.working/report-owner.json'))) throw Error('Centralize existing report originals with --centralize-reports --apply before preparing data.');
+   mkdirSync(reportRoot, { recursive: true });
+-  const registry = reportRegistry(root);
+-  registry.owners[libraryOwnerId(root)] = { revision: current };
+-  writeReportRegistry(root, registry);
++  reportContext(root); // Metadata only; report editions stay independent of the runtime pin.
+   const excludePath = resolve(checkout, git(checkout, ['rev-parse', '--git-path', 'info/exclude']));
+   const exclude = existsSync(excludePath) ? readFileSync(excludePath, 'utf8') : '';
+   if (!exclude.split(/\r?\n/).includes('/.working/')) { mkdirSync(dirname(excludePath), { recursive: true }); writeFileSync(excludePath, exclude + '\n/.working/\n'); }
+@@ -850,6 +882,277 @@
+   return { repository: config.repository, revision: config.revision, checkout, materialized, files: index.files, compaction };
+ }
+ 
++function organizationTree(shared, revision) {
++  return git(shared, ['ls-tree', '-rz', revision]).split('\0').filter(Boolean).map(row => {
++    const tab = row.indexOf('\t'), [mode, type, oid] = row.slice(0, tab).split(' ');
++    if (type !== 'blob') throw Error('Unexpected report tree entry');
++    return { mode, oid, path: row.slice(tab + 1) };
++  });
++}
++const organizationTextFile = path => /\.md$/i.test(path) || /^reports\/reference-analysis\/(?:corpus|models)\/.*(?:manifest|catalog|config|registry|inventory|corpus[^/]*)\.json$/i.test(path);
++function reportOrganizationInventory(root) {
++  const shared = librarySharedCheckout(root), base = resolve(shared, 'reports'), registry = reportRegistry(root), head = git(shared, ['rev-parse', 'HEAD']);
++  const owners = Object.entries(registry.owners).map(([id, record]) => ({ id, revision: record.revision }));
++  if (!owners.some(owner => owner.id === libraryOwnerId(root))) owners.push({ id: libraryOwnerId(root), revision: head });
++  const revisions = [...new Set([head, ...owners.map(owner => owner.revision)])], mapping = {}, trees = {};
++  const destination = path => {
++    // Replaced indexes remain available as historical originals, with stable bytes.
++    if (/^reports\/(?:README\.md|(?:borders|hydro|places|terrain|map-analysis|development)\/README\.md)$/.test(path)) {
++      return 'reports/development/storage/organization-original-indexes/' + path.slice(8).replaceAll('/', '-');
++    }
++    return organizedReportPath(path);
++  };
++  for (const revision of revisions) {
++    trees[revision] = organizationTree(shared, revision);
++    const index = JSON.parse(git(shared, ['show', `${revision}:archive/index.json`], { allowFetch: true }));
++    for (const path of new Set([...trees[revision].map(x => x.path), ...Object.keys(index.files)])) if (path.startsWith('reports/')) mapping[path] = destination(path);
++  }
++  const files = [];
++  const scan = (directory, owner = null) => {
++    for (const file of plainReportFiles(directory)) {
++      const from = 'reports/' + file.logical, to = destination(from);
++      mapping[from] = to;
++      const old = file.path, output = checkedReportPath(owner ? resolve(base, '.edits', owner) : base, to.slice(8));
++      const bytes = readFileSync(old), sha256 = reportDigest(bytes);
++      files.push({ from, to, old, output, owner, sha256, bytes: bytes.length });
++    }
++  };
++  for (const name of existsSync(base) ? readdirSync(base) : []) {
++    if (name.startsWith('.')) continue;
++    const path = checkedReportPath(base, name), stamp = lstatSync(path);
++    if (stamp.isDirectory()) {
++      for (const file of plainReportFiles(path)) {
++        const from = `reports/${name}/${file.logical}`, to = destination(from), bytes = readFileSync(file.path);
++        mapping[from] = to; files.push({ from, to, old: file.path, output: checkedReportPath(base, to.slice(8)), owner: null, sha256: reportDigest(bytes), bytes: bytes.length });
++      }
++    } else if (stamp.isFile()) {
++      const from = 'reports/' + name, to = destination(from), bytes = readFileSync(path);
++      mapping[from] = to; files.push({ from, to, old: path, output: checkedReportPath(base, to.slice(8)), owner: null, sha256: reportDigest(bytes), bytes: bytes.length });
++    } else throw Error(`Linked report source must be preserved: ${path}`);
++  }
++  const editBase = resolve(base, '.edits');
++  if (existsSync(editBase)) for (const id of readdirSync(editBase)) {
++    checkedReportPath(base, '.edits/' + id); scan(resolve(editBase, id), id);
++  }
++  const targets = new Map();
++  for (const [from, to] of Object.entries(mapping)) {
++    const key = to.toLowerCase(), previous = targets.get(key);
++    if (previous && previous !== from) throw Error(`Report destination collision: ${previous}, ${from} -> ${to}`);
++    targets.set(key, from);
++  }
++  for (const file of files) {
++    if (file.old !== file.output && existsSync(file.output)) throw Error(`Report destination conflict: ${file.output}`);
++    const text = organizationTextFile(file.from);
++    if (text) {
++      const original = readFileSync(file.old, 'utf8'), updated = rewriteReportArtifact(original, file.from, file.to, mapping);
++      if (updated !== original) { file.text = updated; file.updatedSha256 = reportDigest(Buffer.from(updated)); }
++    }
++  }
++  const apps = git(root, ['worktree', 'list', '--porcelain']).split('\n').filter(x => x.startsWith('worktree ')).map(x => x.slice(9)).filter(app => existsSync(resolve(app, 'config/library-data.json')));
++  const pins = apps.map(app => ({ app, sha256: reportDigest(readFileSync(resolve(app, 'config/library-data.json'))), checkout: libraryCheckout(app), head: git(libraryCheckout(app), ['rev-parse', 'HEAD']) }));
++  const skipWorktree = git(shared, ['ls-files', '-t', '-z']).split('\0').filter(row => row.startsWith('S ')).map(row => row.slice(2));
++  return { schemaVersion: 1, layout: 'subjects-v1', phase: 'inventoried', head, owners, mapping, files, pins, skipWorktree, freeBytesBefore: statfsSync(shared).bavail * statfsSync(shared).bsize };
++}
++function organizationTextBlobs(shared, oids, cache) {
++  const missing = [...new Set(oids)].filter(oid => !cache.has(oid));
++  if (!missing.length) return;
++  const output = execFileSync('git', [...gitOptions, 'cat-file', '--batch'], { cwd: shared, input: missing.join('\n') + '\n', env: { ...process.env, GIT_NO_LAZY_FETCH: '0' }, maxBuffer: 128 * 1024 * 1024, stdio: ['pipe', 'pipe', 'pipe'] });
++  let offset = 0;
++  for (const oid of missing) {
++    const end = output.indexOf(10, offset), header = output.subarray(offset, end).toString('ascii').split(' '), size = Number(header[2]);
++    if (end < 0 || header[0] !== oid || header[1] !== 'blob' || !Number.isSafeInteger(size) || size < 0 || end + size + 1 >= output.length || output[end + size + 1] !== 10) throw Error(`Invalid report blob response: ${oid}`);
++    cache.set(oid, output.subarray(end + 1, end + 1 + size)); offset = end + size + 2;
++  }
++  if (offset !== output.length) throw Error('Unexpected report blob batch content');
++}
++function organizedReportCommit(shared, revision, mapping, cache, resources) {
++  if (cache.has(revision)) return cache.get(revision);
++  const tree = organizationTree(shared, revision), index = JSON.parse(git(shared, ['show', `${revision}:archive/index.json`], { allowFetch: true }));
++  const reportFiles = tree.filter(x => x.path.startsWith('reports/')), entries = {}, updated = new Map(), documents = {};
++  const byPath = new Map(tree.map(item => [item.path, item]));
++  const originals = Object.entries(index.files).filter(([path]) => path.startsWith('reports/') && organizationTextFile(path)).map(([, entry]) => {
++    const item = byPath.get(entry.stored); if (!item) throw Error(`Missing stored report: ${entry.stored}`); return item.oid;
++  });
++  organizationTextBlobs(shared, [...reportFiles.filter(item => organizationTextFile(item.path)).map(item => item.oid), ...originals], resources.originals);
++  const blob = bytes => {
++    const key = reportDigest(bytes);
++    if (!resources.written.has(key)) resources.written.set(key, execFileSync('git', [...gitOptions, 'hash-object', '-w', '--stdin'], { cwd: shared, input: bytes, encoding: 'utf8' }).trim());
++    return resources.written.get(key);
++  };
++  for (const item of reportFiles) {
++    const target = mapping[item.path]; if (!target) throw Error(`Unmapped report: ${item.path}`);
++    let oid = item.oid, bytes = null;
++    if (organizationTextFile(item.path)) {
++      const original = resources.originals.get(item.oid);
++      if (item.path.endsWith('.md')) documents[item.path] = original.toString('utf8');
++      const text = rewriteReportArtifact(original.toString('utf8'), item.path, target, mapping);
++      if (text !== original.toString('utf8')) { bytes = Buffer.from(text); oid = blob(bytes); }
++    }
++    updated.set(target, { ...item, path: target, oid, bytes });
++  }
++  for (const [path, entry] of Object.entries(index.files)) {
++    if (!path.startsWith('reports/')) { entries[path] = entry; continue; }
++    const target = mapping[path]; if (!target) throw Error(`Unmapped report index entry: ${path}`);
++    if ((!updated.has(target) || entry.stored !== path || entry.encoding !== 'identity') && organizationTextFile(path)) {
++      const stored = resources.originals.get(byPath.get(entry.stored).oid);
++      if (!['identity', 'gzip'].includes(entry.encoding)) throw Error(`Unknown report encoding: ${path}`);
++      const original = entry.encoding === 'gzip' ? gunzipSync(stored) : stored;
++      if (original.length !== entry.bytes || reportDigest(original) !== entry.sha256) throw Error(`Corrupt report original: ${path}`);
++      if (path.endsWith('.md')) documents[path] = original.toString('utf8');
++      const text = rewriteReportArtifact(original.toString('utf8'), path, target, mapping);
++      if (text !== original.toString('utf8')) {
++        const bytes = Buffer.from(text); updated.set(target, { path: target, mode: '100644', oid: blob(bytes), bytes });
++        entries[target] = { stored: target, encoding: 'identity', bytes: bytes.length, sha256: reportDigest(bytes) }; continue;
++      }
++      // A raw excerpt may have changed independently of its archived original.
++      // Its hash must never replace the metadata for an unchanged full edition.
++      entries[target] = { ...entry, stored: mapping[entry.stored] || entry.stored }; continue;
++    }
++    const changed = updated.get(target)?.bytes;
++    entries[target] = { ...entry, stored: mapping[entry.stored] || entry.stored, ...(changed ? { bytes: changed.length, sha256: reportDigest(changed) } : {}) };
++  }
++  for (const [path, text] of Object.entries(reportSubjectReadmes([...updated.keys()], reportDocumentDetails(documents, mapping)))) {
++    const bytes = Buffer.from(text); updated.set(path, { path, mode: '100644', oid: blob(bytes) });
++    entries[path] = { stored: path, encoding: 'identity', sha256: reportDigest(bytes), bytes: bytes.length };
++  }
++  const indexBytes = Buffer.from(JSON.stringify({ ...index, reportLayout: 'subjects-v1', files: entries }) + '\n');
++  updated.set('archive/index.json', { path: 'archive/index.json', mode: '100644', oid: blob(indexBytes) });
++  const scratch = resolve(shared, '.pando-store/report-organization.index');
++  const env = { ...process.env, GIT_INDEX_FILE: scratch, GIT_NO_LAZY_FETCH: '1' };
++  mkdirSync(dirname(scratch), { recursive: true });
++  const indexGit = args => execFileSync('git', [...gitOptions, ...args], { cwd: shared, env, encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).trim();
++  try {
++    indexGit(['read-tree', revision]);
++    const removals = reportFiles.map(item => `0 ${'0'.repeat(40)}\t${item.path}\0`).join('');
++    const additions = [...updated.values()].map(item => `${item.mode} ${item.oid}\t${item.path}\0`).join('');
++    execFileSync('git', [...gitOptions, 'update-index', '-z', '--index-info'], { cwd: shared, env, input: removals + additions, stdio: ['pipe', 'pipe', 'pipe'] });
++    const result = indexGit(['write-tree']);
++    const commit = git(shared, ['-c', 'user.name=Pando library publisher', '-c', 'user.email=library-publisher@users.noreply.github.com', 'commit-tree', result, '-p', revision, '-m', 'Organize research and reports by subject']);
++    cache.set(revision, commit); return commit;
++  } finally { if (existsSync(scratch)) unlinkSync(scratch); }
++}
++export function organizeLibraryReports({ root = defaultRoot, apply = false, stopAfter = null } = {}) {
++  const shared = librarySharedCheckout(root), base = resolve(shared, 'reports'), pending = resolve(shared, '.pando-store/report-organization.pending.json');
++  const operation = () => {
++    const current = git(shared, ['rev-parse', 'HEAD']);
++    const currentIndex = JSON.parse(git(shared, ['show', 'HEAD:archive/index.json'], { allowFetch: true }));
++    if (!existsSync(pending) && currentIndex.reportLayout === 'subjects-v1') return { layout: 'subjects-v1', revision: current, moves: [], files: 0, unchanged: true };
++    if (!apply && existsSync(resolve(shared, '.git/pando-library.lock'))) throw Error('Library storage is already running.');
++    const journal = existsSync(pending) ? JSON.parse(readFileSync(pending, 'utf8')) : reportOrganizationInventory(root);
++    const moves = Object.entries(journal.mapping).filter(([from, to]) => from !== to).map(([from, to]) => ({ from, to }));
++    if (!apply) return { layout: journal.layout, moves, files: journal.files.length, privateFiles: journal.files.filter(x => x.owner).length, estimatedAdditionalBytes: 64 * 1024 * 1024 };
++    assertReportProducersIdle(shared);
++    if (libraryWriteLeases(shared).some(lease => lease.alive && lease.prefixes.some(path => path === 'reports' || path.startsWith('reports/')))) throw Error('Report writers hold active leases; retry after completion.');
++    if (git(shared, ['branch', '--show-current']) !== 'main') throw Error('Preserve the library branch; organization requires main.');
++    if (!existsSync(pending)) {
++      if (git(shared, ['status', '--porcelain'])) throw Error('Preserve dirty library work before organization.');
++      if (fetchReportMain(shared) !== current) throw Error('Library main must match remote main before organization; preserve both histories.');
++      atomicStorageJSON(pending, journal);
++    }
++    const save = () => atomicStorageJSON(pending, journal);
++    // Only recorded transaction PIDs and exact hashes authorize stale temporary
++    // cleanup after a process was killed between replacement unlink and rename.
++    journal.workerPids ||= [];
++    const clearReplacementTemps = (output, sha256) => {
++      for (const pid of journal.workerPids) {
++        const path = checkedReportPath(shared, relative(shared, `${output}.${pid}.pending`));
++        if (!existsSync(path)) continue;
++        if (reportDigest(readFileSync(path)) !== sha256) throw Error(`Modified organization temporary must be preserved: ${path}`);
++        removeContentLink(shared, path);
++      }
++    };
++    if (!journal.workerPids.includes(process.pid)) { journal.workerPids.push(process.pid); save(); }
++    for (const pin of journal.pins) {
++      if (reportDigest(readFileSync(resolve(pin.app, 'config/library-data.json'))) !== pin.sha256 || git(pin.checkout, ['rev-parse', 'HEAD']) !== pin.head) {
++        // Shared main is deliberately advanced by this transaction only.
++        if (pin.checkout !== shared || reportDigest(readFileSync(resolve(pin.app, 'config/library-data.json'))) !== pin.sha256) throw Error('Runtime pin or private checkout changed during organization; preserve it.');
++      }
++    }
++    if (journal.phase === 'inventoried') {
++      for (const file of journal.files) {
++        const source = checkedReportPath(shared, relative(shared, file.old)), output = checkedReportPath(shared, relative(shared, file.output));
++        if (file.updatedSha256) clearReplacementTemps(output, file.updatedSha256);
++        if (!existsSync(source) && !existsSync(output)) {
++          if (file.text !== undefined) replaceLibraryFile(shared, output, Buffer.from(file.text));
++          else {
++            linkContent(shared, file.updatedSha256 || file.sha256, output);
++            if (file.owner) makePrivate(shared, output);
++          }
++        }
++        const input = existsSync(source) ? source : output;
++        const digest = existsSync(input) ? reportDigest(readFileSync(input)) : null;
++        if (![file.sha256, file.updatedSha256].includes(digest)) throw Error(`Report changed during organization: ${input}`);
++        if (source !== output && existsSync(source)) {
++          if (existsSync(output)) throw Error(`Report destination collision during resume: ${output}`);
++          mkdirSync(dirname(output), { recursive: true }); renameSync(source, output);
++        }
++        if (file.text !== undefined && digest !== file.updatedSha256) {
++          replaceLibraryFile(shared, output, Buffer.from(file.text));
++          if (!file.owner) shareContentFile(shared, output);
++        }
++      }
++      // Empty retired directories only; never recurse into a populated or linked path.
++      for (const file of journal.files) for (let dir = dirname(file.old); dir !== base && dir.startsWith(base + sep); dir = dirname(dir)) {
++        if (!existsSync(dir) || lstatSync(dir).isSymbolicLink() || readdirSync(dir).length) break;
++        rmdirSync(dir);
++      }
++      journal.phase = 'moved'; save();
++    }
++    if (stopAfter === journal.phase) return { interruptedAt: journal.phase };
++    if (journal.phase === 'moved') {
++      const cache = new Map(), resources = { originals: new Map(), written: new Map() };
++      if (!journal.revision) { journal.revision = organizedReportCommit(shared, journal.head, journal.mapping, cache, resources); save(); }
++      cache.set(journal.head, journal.revision); journal.ownerRevisions ||= {};
++      for (const owner of journal.owners) if (!journal.ownerRevisions[owner.id]) {
++        journal.ownerRevisions[owner.id] = organizedReportCommit(shared, owner.revision, journal.mapping, cache, resources); save();
++      }
++      journal.phase = 'commits'; save();
++    }
++    if (journal.phase === 'commits') {
++      if (git(shared, ['rev-parse', 'HEAD']) !== journal.head && git(shared, ['rev-parse', 'HEAD']) !== journal.revision) throw Error('Library main changed; preserve the pending organization.');
++      for (const file of journal.files) if (reportDigest(readFileSync(file.output)) !== (file.updatedSha256 || file.sha256)) throw Error(`Post-move verification failed: ${file.output}`);
++      for (const path of Object.keys(reportSubjectReadmes([]))) {
++        const bytes = execFileSync('git', [...gitOptions, 'show', `${journal.revision}:${path}`], { cwd: shared, maxBuffer: 4 * 1024 * 1024 });
++        const output = checkedReportPath(shared, path); clearReplacementTemps(output, reportDigest(bytes)); mkdirSync(dirname(output), { recursive: true }); replaceLibraryFile(shared, output, bytes); shareContentFile(shared, output);
++      }
++      const finalIndex = git(shared, ['show', `${journal.revision}:archive/index.json`]);
++      clearReplacementTemps(resolve(shared, 'archive/index.json'), reportDigest(Buffer.from(finalIndex + '\n')));
++      replaceLibraryFile(shared, resolve(shared, 'archive/index.json'), Buffer.from(finalIndex + '\n'));
++      if (git(shared, ['rev-parse', 'HEAD']) === journal.head) git(shared, ['update-ref', 'refs/heads/main', journal.revision, journal.head]);
++      git(shared, ['read-tree', journal.revision]);
++      if (journal.skipWorktree.length) execFileSync('git', [...gitOptions, 'update-index', '--skip-worktree', '-z', '--stdin'], {
++        cwd: shared, input: journal.skipWorktree.map(path => journal.mapping[path] || path).join('\0') + '\0', stdio: ['pipe', 'pipe', 'pipe'],
++      });
++      const registry = reportRegistry(root); registry.reportLayout = 'subjects-v1';
++      for (const [owner, revision] of Object.entries(journal.ownerRevisions)) {
++        git(shared, ['update-ref', `refs/pando/reports/${owner}`, revision]); registry.owners[owner] = { revision };
++      }
++      writeReportRegistry(root, registry); journal.phase = 'committed'; save();
++    }
++    if (git(shared, ['rev-parse', 'HEAD']) !== journal.revision) throw Error('Library main changed from the recorded revision; preserve the pending organization.');
++    if (git(shared, ['status', '--porcelain'])) throw Error('Unexpected library work remains after organization; preserve the journal.');
++    execFileSync('git', [...gitOptions, 'push', 'origin', `${journal.revision}:main`], { cwd: shared, stdio: ['ignore', 'pipe', 'pipe'] });
++    if (fetchReportMain(shared) !== journal.revision) throw Error('Remote organization revision differs; preserve the journal.');
++    const disk = statfsSync(shared), result = { layout: journal.layout, revision: journal.revision, files: journal.files.length, moved: moves.length, privateFiles: journal.files.filter(x => x.owner).length, freeBytesBefore: journal.freeBytesBefore, freeBytesAfter: disk.bavail * disk.bsize };
++    const evidence = resolve(libraryReportEditRoot(root), 'development/storage/library-organization-2026-10-25');
++    mkdirSync(evidence, { recursive: true });
++    const published = new Set(organizationTree(shared, journal.head).map(x => x.path));
++    for (const path of Object.keys(JSON.parse(git(shared, ['show', `${journal.head}:archive/index.json`])).files)) published.add(path);
++    const paths = Object.fromEntries(Object.entries(journal.mapping).filter(([path]) => published.has(path)));
++    atomicStorageJSON(resolve(evidence, 'mapping.json'), { paths, moves: moves.filter(x => published.has(x.from)), publishedBaseline: journal.head });
++    atomicStorageJSON(resolve(evidence, 'result.json'), result);
++    atomicStorageJSON(resolve(shared, 'private-evidence/report-organization/2026-10-25.json'), journal);
++    unlinkSync(pending); return result;
++  };
++  return apply ? withLibraryLock(root, operation, { organizing: true }) : operation();
++}
++
++function assertReportSubject(root, path) {
++  const layout = reportRegistry(root).reportLayout || JSON.parse(git(librarySharedCheckout(root), ['show', `${reportMainRevision(root)}:archive/index.json`])).reportLayout;
++  if (layout !== 'subjects-v1') return;
++  const subject = path.slice(8).split('/')[0];
++  if (!Object.hasOwn(REPORT_SUBJECTS, subject) && !['README.md', 'TEMPLATE.md'].includes(subject)) throw Error(`Use a canonical report subject; obsolete path: ${path}`);
++}
+ function reportWorkingFiles(root, prefixes) {
+   if (!Array.isArray(prefixes) || !prefixes.length || prefixes.some(path => typeof path !== 'string'
+     || !/^reports\/[\w.-]+(?:\/[\w.-]+)*$/.test(path) || path.split('/').some(part => part.startsWith('.')))) {
+@@ -857,6 +1160,7 @@
+   }
+   const files = new Map();
+   for (const prefix of prefixes) {
++    assertReportSubject(root, prefix);
+     const scope = checkedReportPath(libraryReportEditRoot(root), prefix.slice(8));
+     const scoped = plainReportFiles(scope);
+     if (!scoped.length) throw Error(`Empty or missing report scope: ${prefix}`);
+@@ -933,7 +1237,37 @@
+ // App-owned writers store their output here; the data repository runs no tools.
+ export function storeLibraryData({ root = defaultRoot, push = false, prefixes = null, removePaths = [] } = {}) {
+   if (!prefixes?.length) throw Error("Storage requires explicit library prefixes.");
++  for (const path of prefixes) if (path === 'reports' || path.startsWith('reports/')) assertReportSubject(root, path);
+   return withLibraryLock(root, () => storeOwnedLibraryData({ root, push, prefixes, removePaths }));
++}
++// Advance selected report scopes only. Runtime stores and another report's
++// publication must not replace this branch's independent archived editions.
++function recordReportOwner(root, source, paths) {
++  const shared = librarySharedCheckout(root), registry = reportRegistry(root), owner = libraryOwnerId(root);
++  const previous = registry.owners[owner]?.revision || source;
++  let revision = source;
++  if (previous !== source) {
++    const selected = new Set(paths), included = path => selected.has(path);
++    const before = JSON.parse(git(shared, ['show', `${previous}:archive/index.json`]));
++    const after = JSON.parse(git(shared, ['show', `${source}:archive/index.json`]));
++    const files = Object.fromEntries(Object.entries(before.files).filter(([path]) => !included(path)));
++    for (const [path, entry] of Object.entries(after.files)) if (included(path)) files[path] = entry;
++    const bytes = Buffer.from(JSON.stringify({ ...before, reportLayout: after.reportLayout || before.reportLayout, files }) + '\n');
++    const oid = execFileSync('git', [...gitOptions, 'hash-object', '-w', '--stdin'], { cwd: shared, input: bytes, encoding: 'utf8' }).trim();
++    const scratch = resolve(shared, '.pando-store/report-owner.index'), env = { ...process.env, GIT_INDEX_FILE: scratch, GIT_NO_LAZY_FETCH: '1' };
++    mkdirSync(dirname(scratch), { recursive: true });
++    const indexGit = args => execFileSync('git', [...gitOptions, ...args], { cwd: shared, env, encoding: 'utf8', stdio: 'pipe' }).trim();
++    try {
++      indexGit(['read-tree', previous]);
++      const removed = organizationTree(shared, previous).filter(item => included(item.path)).map(item => `0 ${'0'.repeat(40)}\t${item.path}\0`);
++      const added = organizationTree(shared, source).filter(item => included(item.path)).map(item => `${item.mode} ${item.oid}\t${item.path}\0`);
++      execFileSync('git', [...gitOptions, 'update-index', '-z', '--index-info'], { cwd: shared, env, input: [...removed, ...added, `100644 ${oid}\tarchive/index.json\0`].join(''), stdio: 'pipe' });
++      const tree = indexGit(['write-tree']);
++      revision = tree === git(shared, ['rev-parse', `${previous}^{tree}`]) ? previous : git(shared, ['-c', 'user.name=Pando library publisher', '-c', 'user.email=library-publisher@users.noreply.github.com', 'commit-tree', tree, '-p', previous, '-m', 'Record selected report editions']);
++    } finally { if (existsSync(scratch)) unlinkSync(scratch); }
++  }
++  git(shared, ['update-ref', `refs/pando/reports/${owner}`, revision]);
++  registry.owners[owner] = { revision }; writeReportRegistry(root, registry);
+ }
+ function storeOwnedLibraryData({ root, push, prefixes, removePaths, reportData }) {
+   const data = reportData || prepareOwnedLibraryData({ root, fetch: true });
+@@ -1019,8 +1353,8 @@
+   });
+   if (git(data.checkout, ['diff', '--cached', '--name-only'])) git(data.checkout, ['-c', 'user.name=Pando library publisher', '-c', 'user.email=library-publisher@users.noreply.github.com', 'commit', '-m', `Store app-produced library material from ${index.sourceRevision}`]);
+   const revision = git(data.checkout, ['rev-parse', 'HEAD']);
+-  const registry = reportRegistry(root); registry.owners[libraryOwnerId(root)] = { revision };
+-  writeReportRegistry(root, registry);
++  const reportPaths = [...seen, ...removed].filter(path => path.startsWith('reports/'));
++  if (reportPaths.length) recordReportOwner(root, revision, reportPaths);
+   const compaction = compactOwnedCheckout(data.checkout, true);
+   if (compaction.status !== 'compacted') throw Error(`Stored library checkout could not be compacted: ${compaction.reason}`);
+   if (push) {
+@@ -1049,6 +1383,9 @@
+         process.exitCode = status;
+       }
+     }
++  } else if (process.argv[2] === '--organize-reports') {
++    const root = process.argv.find(arg => arg.startsWith('--root='))?.slice(7) || defaultRoot;
++    console.log(JSON.stringify(organizeLibraryReports({ root, apply: process.argv.includes('--apply') })));
+   } else if (process.argv[2] === '--centralize-reports') {
+     const root = process.argv.find(arg => arg.startsWith('--root='))?.slice(7) || defaultRoot;
+     console.log(JSON.stringify(centralizeLibraryReports({ root, apply: process.argv.includes('--apply') })));
+--- /dev/null
++++ b/tools/library-report-layout.mjs
+@@ -0,0 +1,128 @@
++import { posix } from 'node:path';
++
++export const REPORT_SUBJECTS = Object.freeze({ borders: '국경·영토·해안선', hydro: '강·호수·수계', places: '도시·지명', terrain: '지형', 'map-analysis': '지도 분석·학습', development: '앱·웹 개발' });
++export function developmentSubject(name) {
++  if (/storage|cleanup|cache|library-report|report-completion|report-organization|branch-originals|data-version|git-history|library-centralization|legacy-world-asset/i.test(name)) return 'storage';
++  if (/qgis|plugin|mcp/i.test(name)) return 'integrations';
++  if (/release|deploy|publish|publication|branch.*integrat|branches.*main|main.*merge|main-sync|repository-unification/i.test(name)) return 'releases';
++  if (/native|android|windows|qt-app|tauri|verification-build|profile|packag|dev-launch|offline|portable|web-shell|remote-development|remote-toolchain/i.test(name)) return 'native';
++  if (/ci-|ci_|core-ci|check-automation|validation-audit|p2-generated|p4-python|p5-6-final/i.test(name)) return 'ci';
++  if (/performance|latency|calculation|optimization|soviet|spatial|packed|mesh-worker|predicate|russia-edit|shared-core|^p\d|objects-timeline/i.test(name)) return 'performance';
++  if (/render|terrain|canvas|globe|webgl|stroke|coast|border/i.test(name)) return 'rendering';
++  if (/ui|editor|view|menu|focus|search|project|object|selection|visibility|interaction|product|source-|shared|internal-naming|console|historical-world|map-|initial-map|info-tab|editing|temporal|country-lifetime|editable|evidence|empty-time/i.test(name)) return 'ui';
++  throw Error(`Unclassified development report requires review: ${name}`);
++}
++// This is the migration classifier, not an old-path alias in the path resolver.
++export function organizedReportPath(path) {
++  if (!path.startsWith('reports/')) throw Error(`Not a report path: ${path}`);
++  const tail = path.slice(8), parts = tail.split('/'), group = parts.shift(), rest = parts.join('/');
++  if (['README.md', 'TEMPLATE.md'].includes(group) && !rest) return path;
++  if (group === 'MIGRATION.md' && !rest) return 'reports/development/storage/MIGRATION.md';
++  if (Object.hasOwn(REPORT_SUBJECTS, group) && !(group === 'development' && (rest === 'testing' || rest.startsWith('testing/') || rest.startsWith('qgis-')))) return path;
++  if (group === 'hydro-names') return 'reports/hydro/names/' + rest;
++  if (group === 'hydro-calibration') return 'reports/hydro/calibration/' + rest;
++  if (group === 'hydro-connectivity') return 'reports/hydro/connectivity/' + rest;
++  if (/^hydro-v\d/.test(group)) return 'reports/hydro/releases/' + group.slice(6) + '/' + rest;
++  if (group === 'reference-analysis') {
++    if (/^(corpus|models)(\/|$)/.test(rest)) return 'reports/map-analysis/' + rest;
++    if (/cleanup|storage|cache|centralization/.test(rest.split('/')[0])) return 'reports/development/storage/' + rest;
++    return 'reports/map-analysis/reports/' + rest;
++  }
++  if (group === 'research') return rest === 'siachen' || rest.startsWith('siachen/') ? 'reports/borders/reconstruction/siachen' + rest.slice(7) : 'reports/borders/data/' + (rest === 'README.md' ? 'research-index.md' : rest);
++  if (group === 'territorial-integration') return 'reports/borders/validation/territorial-integration/' + rest;
++  if (group === 'images') return 'reports/development/ui/' + rest;
++  if (group === 'archive') return rest.startsWith('hydro/') ? 'reports/hydro/archive/' + rest.slice(6) : 'reports/development/storage/archive/' + rest;
++  if (group === 'development') {
++    if (rest === 'testing') return 'reports/development';
++    if (rest.startsWith('testing/')) { const item = rest.slice(8); return 'reports/development/' + developmentSubject(item.split('/')[0]) + '/' + item; }
++    if (rest.startsWith('qgis-')) return 'reports/development/integrations/' + rest;
++  }
++  if (group === 'geography') {
++    if (/^osm-hydro|^hydro\//.test(rest)) return 'reports/hydro/' + (rest.startsWith('hydro/') ? 'validation/' + rest.slice(6) : 'names/' + rest);
++    if (/^country-lifetime|^verified-entity-lifetimes/.test(rest)) return 'reports/borders/history/lifetimes/' + rest;
++    if (/^historical-timeline/.test(rest)) return 'reports/borders/history/timeline/' + rest;
++    if (/^border-aa|^north-korea-border-stroke/.test(rest)) return 'reports/development/rendering/' + rest;
++    if (/^country-files|^country-loading|^country-geometry|^ne-selected/.test(rest)) return 'reports/borders/data/' + rest;
++    if (/^germany\//.test(rest)) return 'reports/borders/reconstruction/' + rest;
++    if (/^east-germany/.test(rest)) return 'reports/borders/reconstruction/germany/' + rest;
++    if (/^(netherlands|serbia)\//.test(rest)) return 'reports/borders/reconstruction/' + rest;
++    if (/^(diagnostics|evidence|images|reviews)\//.test(rest)) return 'reports/borders/validation/' + rest;
++    return 'reports/borders/reconstruction/' + rest;
++  }
++  throw Error(`Unknown report category requires review: ${path}`);
++}
++
++export function rewriteReportLinks(text, from, to, mapping) {
++  const map = value => {
++    const edited = /^(reports\/\.edits\/[^/]+\/)(.+)$/.exec(value);
++    if (edited) return edited[1] + map('reports/' + edited[2]).slice(8);
++    if (/^reports\/(?:README\.md|(?:borders|hydro|places|terrain|map-analysis|development)\/README\.md)$/.test(value)) return value;
++    if (mapping[value]) return mapping[value];
++    if (/^reports\/reference-analysis\/?$/.test(value)) return 'reports/map-analysis/';
++    if (/^reports\/geography\/?$/.test(value)) return 'reports/borders/';
++    if (value.startsWith('reports/')) { try { return organizedReportPath(value); } catch { return value; } }
++    return value;
++  };
++  // Absolute current report paths may occur in source lists and catalogues.
++  const direct = text.replace(/(?:https?:\/\/[^\s<>"')]+)|reports\/[\w./-]+/g, value => value.startsWith('http') ? value : map(value));
++  return direct.replace(/(\]\(|\b(?:src|href)=["'])([^\s)"']+)(["']?)/g, (whole, prefix, url, suffix) => {
++    if (/^(?:[a-z]+:|\/|#)/i.test(url)) return whole;
++    const [file, anchor = ''] = url.split(/(?=[?#])/s, 2);
++    const oldTarget = posix.normalize(posix.join(posix.dirname(from), file));
++    const target = map(oldTarget);
++    const relative = posix.relative(posix.dirname(to), target);
++    return prefix + relative + anchor + suffix;
++  });
++}
++
++export function rewriteReportArtifact(text, from, to, mapping) {
++  if (!from.endsWith('.json')) {
++    const result = rewriteReportLinks(text, from, to, mapping);
++    return from === 'reports/TEMPLATE.md' && !result.includes('## 보관 경로') ? result.trimEnd() + '\n\n## 보관 경로\n\n[주제 색인](README.md)에서 `borders`, `hydro`, `places`, `terrain`, `map-analysis`, `development` 중 하나를 선택한다. 보고서와 첨부는 같은 작업 묶음에 보관하고, Node/Python 경로 helper에는 `reports/<주제>/<작업 범위>`를 직접 전달한다. 완료된 범위만 라이브러리에 보관·커밋·푸시·원격 검증한다.\n' : result;
++  }
++  let changed = false;
++  const walk = value => {
++    if (typeof value === 'string' && /reports[\\/]/.test(value)) {
++      const updated = rewriteReportLinks(value.replaceAll('\\', '/'), from, to, mapping);
++      changed ||= updated !== value; return updated;
++    }
++    if (Array.isArray(value)) return value.map(walk);
++    if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, walk(item)]));
++    return value;
++  };
++  const result = walk(JSON.parse(text));
++  return changed ? JSON.stringify(result, null, 2) + '\n' : text;
++}
++
++export function reportDocumentDetails(documents, mapping) {
++  const details = {};
++  for (const [path, text] of Object.entries(documents)) {
++    const target = mapping[path] || path, heading = /^#\s+(.+)$/m.exec(text);
++    details[target] = { title: heading?.[1] || path.split('/').at(-1), id: /\b(?:GEO|DEV|UI|OBJ|PERF|PL)-[A-Z0-9-]+/.exec(text.slice(0, 2500))?.[0] || '', status: /상태\s*[:：]\s*`?([^\n|`]+)/.exec(text.slice(0, 2500))?.[1]?.trim() || '원문 참조', date: /(?:작성일|작성 날짜)\s*[:：]\s*(\d{4}-\d\d-\d\d)/.exec(text.slice(0, 2500))?.[1] || '' };
++  }
++  const originalIndex = documents['reports/README.md'] || '';
++  for (const line of originalIndex.split('\n')) {
++    const cells = line.split('|').slice(1, -1).map(x => x.trim());
++    const link = cells[1] && /\[([^\]]+)\]\(([^)]+)\)/.exec(cells[1]);
++    if (!link || cells.length < 5 || !cells[0].includes('`')) continue;
++    const path = posix.normalize(posix.join('reports', link[2]));
++    details[mapping[path] || path] = { title: link[1], id: cells[0].replaceAll('`', ''), date: cells[2], status: cells[3] };
++  }
++  return details;
++}
++
++export function reportSubjectReadmes(paths, details = {}) {
++  const out = {};
++  out['reports/README.md'] = '# 조사·보고서·학습 자료\n\n주제별 정본과 첨부를 함께 보관합니다. 보고서의 날짜·상태는 현재 제품의 검증 완료를 뜻하지 않습니다.\n\n| 주제 | 내용 |\n| --- | --- |\n' + Object.entries(REPORT_SUBJECTS).map(([key, title]) => `| [${title}](${key}/README.md) | ${key} |`).join('\n') + '\n';
++  for (const [subject, title] of Object.entries(REPORT_SUBJECTS)) {
++    const documents = paths.filter(path => path.startsWith(`reports/${subject}/`) && path.endsWith('.md') && path !== `reports/${subject}/README.md`).sort();
++    const cell = value => String(value || '').replaceAll('|', '\\|').replaceAll('\n', ' ').replaceAll('[', '').replaceAll(']', '');
++    const links = documents.map(path => { const item = details[path] || {}, relative = path.slice(9 + subject.length); return `| [${cell(item.title || relative)}](${relative}) | ${cell(item.id)} | ${cell(item.date)} | ${cell(item.status || '원문 참조')} |`; });
++    const groups = [...new Set(paths.filter(path => path.startsWith(`reports/${subject}/`) && path.split('/').length > 3).map(path => path.split('/')[2]))].sort();
++    out[`reports/${subject}/README.md`] = `# ${title}\n\n[전체 주제](../README.md)\n\n원문 ID·작성일·검증 상태를 기준으로 읽습니다. 관련 첨부는 각 작업 묶음에 보관합니다.\n\n` + groups.map(group => `[${group}](${group}/)`).join(' · ') + '\n\n' + (links.length ? '| 문서 | ID | 기록 날짜 | 상태 |\n| --- | --- | --- | --- |\n' + links.join('\n') : '관련 조사 기록은 아래 연결 자료에서 확인합니다.') + '\n';
++  }
++  out['reports/terrain/README.md'] += '\n- [배포 지형 자료](../../terrain/)\n- [시아첸 지형·국경 조사](../borders/reconstruction/siachen/)\n- [지형 렌더링 검증](../development/rendering/)\n';
++  out['reports/map-analysis/README.md'] += '\n- [학습 데이터](corpus/)\n- [모델·체크포인트](models/)\n- [조사·평가 기록](reports/)\n';
++  out['reports/borders/README.md'] += '\nGIS 생성기의 원자료는 기존 마운트와 보관 색인에 유지됩니다. [보관 색인](../../archive/index.json)을 참조합니다.\n';
++  return out;
++}
+--- a/tools/reference-analysis/README.md
++++ b/tools/reference-analysis/README.md
+@@ -34,8 +34,8 @@
+ failed downloads remove only their own exclusively created `.part` file.
+ 
+ ```powershell
+-& build-native/python/Scripts/python.exe tools/reference-analysis/acquire-sources.py --output EXTERNAL_LIBRARY_REPORTS/reference-analysis/corpus/sources
+-& build-native/python/Scripts/python.exe tools/reference-analysis/prepare-analysis-images.py --sources EXTERNAL_LIBRARY_REPORTS/reference-analysis/corpus/sources
++& build-native/python/Scripts/python.exe tools/reference-analysis/acquire-sources.py --output EXTERNAL_LIBRARY_REPORTS/map-analysis/corpus/sources
++& build-native/python/Scripts/python.exe tools/reference-analysis/prepare-analysis-images.py --sources EXTERNAL_LIBRARY_REPORTS/map-analysis/corpus/sources
+ ```
+ 
+ The second command preserves the master and makes an 8MP app input only when
+@@ -112,7 +112,7 @@
+ another image copy:
+ 
+ ```powershell
+-& build-native/python/Scripts/python.exe tools/reference-analysis/corpus.py --prepare-review EXTERNAL_LIBRARY_REPORTS/reference-analysis/corpus/sources
++& build-native/python/Scripts/python.exe tools/reference-analysis/corpus.py --prepare-review EXTERNAL_LIBRARY_REPORTS/map-analysis/corpus/sources
+ ```
+ 
+ This writes `labels/<source-id>.json` and `corpus.draft.json` beside `sources/`.
+@@ -145,7 +145,7 @@
+ $trainingPython = 'D:/dev/worktrees/ui/build-native/python/Scripts/python.exe'
+ $corpusPath = 'EXTERNAL_LIBRARY_CORPUS/corpus.json'
+ $checkpointPath = 'EXTERNAL_LIBRARY_WEIGHTS/boundary.pt'
+-$evaluationPath = 'EXTERNAL_LIBRARY_REPORTS/boundary-evaluation.json'
++$evaluationPath = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/reports/boundary-evaluation.json'
+ $onnxPath = 'EXTERNAL_LIBRARY_RUNTIME/boundary.onnx'
+ 
+ & $trainingPython tools/reference-analysis/corpus.py --corpus $corpusPath
+@@ -179,8 +179,8 @@
+ water polygons are not silently relabelled as coastline.
+ 
+ ```powershell
+-$publisherCorpus = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/corpus/usgs-publisher'
+-$firstModel = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/models/usgs-publisher-v1'
++$publisherCorpus = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/corpus/usgs-publisher'
++$firstModel = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/models/usgs-publisher-v1'
+ & $trainingPython tools/reference-analysis/acquire-sources.py --catalog tools/reference-analysis/usgs-source-catalog.json --output "$publisherCorpus/sources"
+ & $trainingPython tools/reference-analysis/publisher.py --sources "$publisherCorpus/sources"
+ $env:TORCH_HOME = "$firstModel/encoder"
+@@ -231,16 +231,16 @@
+ color/monochrome field records a raster-chroma heuristic for inventory only.
+ 
+ ```powershell
+-$auxiliaryCorpus = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/corpus/semap-diverse'
++$auxiliaryCorpus = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/corpus/semap-diverse'
+ $auxiliaryManifest = "$auxiliaryCorpus/corpus.expanded.training.json"
+-$previousModel = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/models/diverse-v1'
+-$diverseModel = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/models/diverse-v2'
++$previousModel = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/models/diverse-v1'
++$diverseModel = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/models/diverse-v2'
+ & $trainingPython tools/reference-analysis/semap.py --output $auxiliaryCorpus --per-institution 12 --maximum-maps 96 --manifest-name corpus.expanded.training.json
+ & $trainingPython tools/reference-analysis/train.py train --training-only --corpus "$publisherCorpus/corpus.training.json" --auxiliary-corpus $auxiliaryManifest --initialize-checkpoint "$previousModel/boundary.pt" --output "$diverseModel/boundary.pt" --epochs 6 --batch 1 --device cuda --balance-sources --learning-rate 0.00003 --freeze-encoder-epochs 0
+ & $trainingPython tools/reference-analysis/train.py export --checkpoint "$diverseModel/boundary.pt" --output "$diverseModel/boundary.onnx"
+ & $trainingPython tools/reference-analysis/inspect-checkpoint.py --corpus "$publisherCorpus/corpus.training.json" --auxiliary-corpus $auxiliaryManifest --checkpoint "$diverseModel/boundary.pt" --baseline-checkpoint "$previousModel/boundary.pt" --onnx "$diverseModel/boundary.onnx" --output "$diverseModel/diagnostics"
+ & $trainingPython tools/reference-analysis/inspect-checkpoint.py --corpus "$publisherCorpus/corpus.training.json" --auxiliary-corpus $auxiliaryManifest --view-corpus auxiliary --checkpoint "$diverseModel/boundary.pt" --baseline-checkpoint "$previousModel/boundary.pt" --onnx "$diverseModel/boundary.onnx" --output "$diverseModel/auxiliary-diagnostics"
+-node tools/reference-analysis/verify-trained-onnx.mjs --base http://127.0.0.1:4287/ --model reports/reference-analysis/models/diverse-v2/boundary.onnx --diagnostics reports/reference-analysis/models/diverse-v2/diagnostics --output "$diverseModel/onnx-wasm-parity.json"
++node tools/reference-analysis/verify-trained-onnx.mjs --base http://127.0.0.1:4287/ --model reports/map-analysis/models/diverse-v2/boundary.onnx --diagnostics reports/map-analysis/models/diverse-v2/diagnostics --output "$diverseModel/onnx-wasm-parity.json"
+ ```
+ 
+ The last command needs a local static server for this worktree. It checks the
+@@ -290,13 +290,13 @@
+ PDF bytes and whole-map scope are hash-bound in the corpus fingerprint.
+ 
+ ```powershell
+-$macroCorpus = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/corpus/macro-political'
+-$macroModel = 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/models/macro-v2'
++$macroCorpus = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/corpus/macro-political'
++$macroModel = 'EXTERNAL_LIBRARY_REPORTS/map-analysis/models/macro-v2'
+ & $trainingPython tools/reference-analysis/acquire-sources.py --catalog tools/reference-analysis/macro-source-catalog.json --output "$macroCorpus/sources"
+ & $trainingPython tools/reference-analysis/macro.py --sources "$macroCorpus/sources" --manifest-name corpus.conditions.training.json
+-& $trainingPython tools/reference-analysis/train.py train --training-only --macro-only --corpus "$macroCorpus/corpus.conditions.training.json" --initialize-checkpoint 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/models/macro-v1/boundary.pt' --output "$macroModel/boundary.pt" --epochs 8 --batch 1 --device cuda --balance-sources --learning-rate 0.00001 --freeze-encoder-epochs 2
++& $trainingPython tools/reference-analysis/train.py train --training-only --macro-only --corpus "$macroCorpus/corpus.conditions.training.json" --initialize-checkpoint 'EXTERNAL_LIBRARY_REPORTS/map-analysis/models/macro-v1/boundary.pt' --output "$macroModel/boundary.pt" --epochs 8 --batch 1 --device cuda --balance-sources --learning-rate 0.00001 --freeze-encoder-epochs 2
+ & $trainingPython tools/reference-analysis/train.py export --checkpoint "$macroModel/boundary.pt" --output "$macroModel/boundary.onnx"
+-& $trainingPython tools/reference-analysis/inspect-checkpoint.py --corpus "$macroCorpus/corpus.conditions.training.json" --checkpoint "$macroModel/boundary.pt" --baseline-checkpoint 'EXTERNAL_LIBRARY_REPORTS/reference-analysis/models/macro-v1/boundary.pt' --onnx "$macroModel/boundary.onnx" --output "$macroModel/diagnostics"
++& $trainingPython tools/reference-analysis/inspect-checkpoint.py --corpus "$macroCorpus/corpus.conditions.training.json" --checkpoint "$macroModel/boundary.pt" --baseline-checkpoint 'EXTERNAL_LIBRARY_REPORTS/map-analysis/models/macro-v1/boundary.pt' --onnx "$macroModel/boundary.onnx" --output "$macroModel/diagnostics"
+ ```
+ 
+ Macro scope records a verified whole-map extent, not a count of cropped tiles or
+--- a/tools/report-lsib-supplement.py
++++ b/tools/report-lsib-supplement.py
+@@ -7,7 +7,7 @@
+ from report_paths import report_path
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+-REPORT = report_path('reports/geography/country-files-lsib-2026-10-21.md', access='write')
++REPORT = report_path('reports/borders/data/country-files-lsib-2026-10-21.md', access='write')
+ DIAGNOSTICS = REPORT.parent / 'diagnostics'
+ REASONS = {
+     'existing-disputed-territory-or-protected-country-pair': '분쟁선 인접 또는 명시적 보호 쌍',
+--- a/tools/report-paths.json
++++ /dev/null
+@@ -1,95 +0,0 @@
+-{
+-  "files": {
+-    "docs/place-candidate-review.md": "reports/places/place-candidate-review.md",
+-    "docs/place-data-audit.md": "reports/places/place-data-audit.md",
+-    "docs/research/country-default-colors.json": "reports/research/country-default-colors.json",
+-    "docs/research/country-default-colors.md": "reports/research/country-default-colors.md",
+-    "assets/data/research/siachen/README.md": "reports/research/siachen/README.md",
+-    "assets/data/research/siachen/README_control.md": "reports/research/siachen/README_control.md",
+-    "assets/data/research/siachen/README_dem_sia_bilafond.md": "reports/research/siachen/README_dem_sia_bilafond.md",
+-    "assets/data/research/siachen/README_discrepancy.md": "reports/research/siachen/README_discrepancy.md",
+-    "assets/data/research/siachen/README_multidem_ridge.md": "reports/research/siachen/README_multidem_ridge.md",
+-    "assets/data/research/siachen/README_s2_km90.md": "reports/research/siachen/README_s2_km90.md",
+-    "assets/data/research/siachen/README_s2_optical.md": "reports/research/siachen/README_s2_optical.md",
+-    "assets/data/research/siachen/README_saltoro_terrain_continuity.md": "reports/research/siachen/README_saltoro_terrain_continuity.md",
+-    "assets/data/research/siachen/REVIEW_SALTORO_MULTI_SOURCE_2026-10-08.md": "reports/research/siachen/REVIEW_SALTORO_MULTI_SOURCE_2026-10-08.md",
+-    "assets/data/research/siachen/REVIEW_agpl_vs_glacier_2026-10-08.md": "reports/research/siachen/REVIEW_agpl_vs_glacier_2026-10-08.md",
+-    "assets/data/research/siachen/REVIEW_saltoro_crosssource_2026-10-08.md": "reports/research/siachen/REVIEW_saltoro_crosssource_2026-10-08.md",
+-    "assets/data/research/siachen/REVIEW_sentinel2_sia_bilafond_2026-10-08.md": "reports/research/siachen/REVIEW_sentinel2_sia_bilafond_2026-10-08.md",
+-    "assets/data/research/siachen/REVIEW_sia_bilafond_cop30_2026-10-08.md": "reports/research/siachen/REVIEW_sia_bilafond_cop30_2026-10-08.md",
+-    "assets/data/research/siachen/sia_bilafond_bila_osm_transect.png": "reports/research/siachen/sia_bilafond_bila_osm_transect.png",
+-    "assets/data/research/siachen/sia_bilafond_cop30_relief.png": "reports/research/siachen/sia_bilafond_cop30_relief.png",
+-    "assets/data/research/siachen/sia_bilafond_dem_comparison.json": "reports/research/siachen/sia_bilafond_dem_comparison.json",
+-    "assets/data/research/siachen/sia_bilafond_dem_samples.geojson": "reports/research/siachen/sia_bilafond_dem_samples.geojson",
+-    "assets/data/research/siachen/sia_bilafond_sia_osm_transect.png": "reports/research/siachen/sia_bilafond_sia_osm_transect.png",
+-    "assets/data/research/siachen/siachen_agpl_discrepancy_diagnostic.json": "reports/research/siachen/siachen_agpl_discrepancy_diagnostic.json",
+-    "assets/data/research/siachen/siachen_agpl_discrepancy_overview.png": "reports/research/siachen/siachen_agpl_discrepancy_overview.png",
+-    "assets/data/research/siachen/siachen_agpl_discrepancy_zoom.png": "reports/research/siachen/siachen_agpl_discrepancy_zoom.png",
+-    "assets/data/research/siachen/siachen_agpl_osm_candidate.geojson": "reports/research/siachen/siachen_agpl_osm_candidate.geojson",
+-    "assets/data/research/siachen/siachen_comparison.json": "reports/research/siachen/siachen_comparison.json",
+-    "assets/data/research/siachen/siachen_comparison.png": "reports/research/siachen/siachen_comparison.png",
+-    "assets/data/research/siachen/siachen_comparison_overlay.geojson": "reports/research/siachen/siachen_comparison_overlay.geojson",
+-    "assets/data/research/siachen/siachen_control_comparison.json": "reports/research/siachen/siachen_control_comparison.json",
+-    "assets/data/research/siachen/siachen_control_comparison.png": "reports/research/siachen/siachen_control_comparison.png",
+-    "assets/data/research/siachen/siachen_control_split_ne_10m.geojson": "reports/research/siachen/siachen_control_split_ne_10m.geojson",
+-    "assets/data/research/siachen/siachen_control_split_ne_50m.geojson": "reports/research/siachen/siachen_control_split_ne_50m.geojson",
+-    "assets/data/research/siachen/siachen_dispute_ne_10m.geojson": "reports/research/siachen/siachen_dispute_ne_10m.geojson",
+-    "assets/data/research/siachen/siachen_dispute_ne_50m.geojson": "reports/research/siachen/siachen_dispute_ne_50m.geojson",
+-    "assets/data/research/siachen/siachen_glacier_agpl_discrepancy.geojson": "reports/research/siachen/siachen_glacier_agpl_discrepancy.geojson",
+-    "assets/data/research/siachen/siachen_glacier_rgi7.geojson": "reports/research/siachen/siachen_glacier_rgi7.geojson",
+-    "assets/data/research/siachen/siachen_multidem_after_shift.png": "reports/research/siachen/siachen_multidem_after_shift.png",
+-    "assets/data/research/siachen/siachen_multidem_before_shift.png": "reports/research/siachen/siachen_multidem_before_shift.png",
+-    "assets/data/research/siachen/siachen_multidem_bilafond_north.png": "reports/research/siachen/siachen_multidem_bilafond_north.png",
+-    "assets/data/research/siachen/siachen_multidem_ridge_comparison.json": "reports/research/siachen/siachen_multidem_ridge_comparison.json",
+-    "assets/data/research/siachen/siachen_multidem_shift_a.png": "reports/research/siachen/siachen_multidem_shift_a.png",
+-    "assets/data/research/siachen/siachen_multidem_shift_b.png": "reports/research/siachen/siachen_multidem_shift_b.png",
+-    "assets/data/research/siachen/siachen_multidem_sia_la.png": "reports/research/siachen/siachen_multidem_sia_la.png",
+-    "assets/data/research/siachen/siachen_s2_2025_bilafond_north_optical.png": "reports/research/siachen/siachen_s2_2025_bilafond_north_optical.png",
+-    "assets/data/research/siachen/siachen_s2_2025_km90_corridor.png": "reports/research/siachen/siachen_s2_2025_km90_corridor.png",
+-    "assets/data/research/siachen/siachen_s2_2025_sia_la_optical.png": "reports/research/siachen/siachen_s2_2025_sia_la_optical.png",
+-    "assets/data/research/siachen/siachen_s2_2026_bilafond_north_optical.png": "reports/research/siachen/siachen_s2_2026_bilafond_north_optical.png",
+-    "assets/data/research/siachen/siachen_s2_2026_km90_corridor.png": "reports/research/siachen/siachen_s2_2026_km90_corridor.png",
+-    "assets/data/research/siachen/siachen_s2_2026_sia_la_optical.png": "reports/research/siachen/siachen_s2_2026_sia_la_optical.png",
+-    "assets/data/research/siachen/siachen_s2_km90_corridor.geojson": "reports/research/siachen/siachen_s2_km90_corridor.geojson",
+-    "assets/data/research/siachen/siachen_s2_km90_corridor.json": "reports/research/siachen/siachen_s2_km90_corridor.json",
+-    "assets/data/research/siachen/siachen_s2_optical_comparison.json": "reports/research/siachen/siachen_s2_optical_comparison.json",
+-    "assets/data/research/siachen/siachen_saltoro_ridge_terrain_diagnostics.geojson": "reports/research/siachen/siachen_saltoro_ridge_terrain_diagnostics.geojson",
+-    "assets/data/research/siachen/siachen_saltoro_ridge_terrain_diagnostics.json": "reports/research/siachen/siachen_saltoro_ridge_terrain_diagnostics.json",
+-    "assets/data/research/siachen/siachen_terrain_90km_profile_90525.png": "reports/research/siachen/siachen_terrain_90km_profile_90525.png",
+-    "assets/data/research/siachen/siachen_terrain_90km_profile_90775.png": "reports/research/siachen/siachen_terrain_90km_profile_90775.png",
+-    "assets/data/research/siachen/siachen_terrain_90km_profile_91025.png": "reports/research/siachen/siachen_terrain_90km_profile_91025.png",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.hotspots.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.hotspots.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0717-hvidding-ufer-stage5.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0717-hvidding-ufer-stage5.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0718-east-stage2.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0718-east-stage2.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0718-west-stage1.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0718-west-stage1.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.scope-audit.json": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.scope-audit.json",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.audit.json": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.audit.json",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.diagnostics.json": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.diagnostics.json",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.review.md": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.review.md",
+-    "tools/historical-library/land-borders/german-denmark-1914-north-schleswig-001-026.stone26-transition.audit.json": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.stone26-transition.audit.json",
+-    "tools/historical-library/sources/netherlands/phase0-country-minus-water-area-audit.json": "reports/geography/netherlands/phase0-country-minus-water-area-audit.json",
+-    "tools/historical-library/sources/netherlands/phase0-generalization-audit.json": "reports/geography/netherlands/phase0-generalization-audit.json",
+-    "tools/historical-library/sources/netherlands/phase0-land-water-subtraction-audit.json": "reports/geography/netherlands/phase0-land-water-subtraction-audit.json",
+-    "tools/historical-library/sources/serbia/serbia-1914-qa.md": "reports/geography/serbia/serbia-1914-qa.md",
+-    "tools/historical-library/sources/serbia/serbia-montenegro-1914-border-candidate-qa.md": "reports/geography/serbia/serbia-montenegro-1914-border-candidate-qa.md",
+-    "tools/historical-library/sources/serbia/serbia-montenegro-1914-map-crosscheck.md": "reports/geography/serbia/serbia-montenegro-1914-map-crosscheck.md",
+-    "tools/historical-library/working/german-empire-1914-base.diagnostics.json": "reports/geography/germany/diagnostics/german-empire-1914-base.diagnostics.json",
+-    "tools/historical-library/working/german-empire-1914-modern-coast.diagnostics.json": "reports/geography/germany/diagnostics/german-empire-1914-modern-coast.diagnostics.json",
+-    "tools/historical-library/working/german-empire-1914-north-sea-mainland-coast-audit.json": "reports/geography/germany/diagnostics/german-empire-1914-north-sea-mainland-coast-audit.json",
+-    "tools/historical-library/working/german-empire-1914-northsea-dollart-jade.diagnostics.json": "reports/geography/germany/diagnostics/german-empire-1914-northsea-dollart-jade.diagnostics.json",
+-    "docs/validation/historical-world-timeline/web-crimea-2012.png": "reports/development/testing/historical-world-timeline/web-crimea-2012.png",
+-    "docs/validation/terrain-v0120-retirement-evidence.json": "reports/development/testing/terrain-v0120-retirement-evidence.json",
+-    "docs/validation/territorial-entity-storage/file-inventory.json": "reports/development/testing/territorial-entity-storage/file-inventory.json",
+-    "docs/validation/territorial-entity-storage/performance.json": "reports/development/testing/territorial-entity-storage/performance.json",
+-    "docs/validation/territorial-entity-storage/speed-diagnosis.json": "reports/development/testing/territorial-entity-storage/speed-diagnosis.json",
+-    ".superpowers/sdd/2026-10-03-unified-objects/progress.md": "reports/development/testing/unified-objects-sdd-progress.md",
+-    "tools/historical-library/sources/netherlands/phase0-current-representation-inventory.json": "reports/geography/netherlands/phase0-current-representation-inventory.json"
+-  },
+-  "directories": {
+-    "assets/data/research/siachen": "reports/research/siachen",
+-    "tools/historical-library/land-borders": "reports/geography/germany/north-schleswig",
+-    "tools/historical-library/working": "reports/geography/germany/diagnostics"
+-  }
+-}
+--- a/tools/report-paths.mjs
++++ b/tools/report-paths.mjs
+@@ -1,24 +1,17 @@
+-import { existsSync, readFileSync } from 'node:fs';
++import { existsSync } from 'node:fs';
+ import { resolve } from 'node:path';
+ import { fileURLToPath } from 'node:url';
+ 
+ import { hydrateReports, libraryCheckout, libraryReportRoot, safeChild } from './library-data.mjs';
++import { REPORT_SUBJECTS } from './library-report-layout.mjs';
+ 
+ const repo = fileURLToPath(new URL('../', import.meta.url));
+-const mapping = JSON.parse(readFileSync(new URL('./report-paths.json', import.meta.url), 'utf8'));
+-
+-export function reportPath(legacy, { root = repo, access } = {}) {
++export function reportPath(target, { root = repo, access } = {}) {
+   if (!['read', 'write'].includes(access)) throw Error('Report access must be read or write');
+-  let target = mapping.files[legacy] ?? legacy;
+-  for (const [old, replacement] of Object.entries(mapping.directories)) {
+-    const recursive = old === 'assets/data/research/siachen';
+-    if (legacy === old || (recursive && legacy.startsWith(old + '/'))) {
+-      target = mapping.files[legacy] ?? replacement + legacy.slice(old.length);
+-      break;
+-    }
+-  }
+-  if (!target.startsWith('reports/')) throw Error(`Not a report path: ${legacy}`);
++  if (!target.startsWith('reports/')) throw Error(`Not a report path: ${target}`);
+   const output = safeChild(libraryReportRoot(root), target.slice('reports/'.length));
++  const subject = target.slice(8).split('/')[0];
++  if (!Object.hasOwn(REPORT_SUBJECTS, subject) && !['README.md', 'TEMPLATE.md'].includes(subject)) throw Error(`Use a canonical report subject: ${target}`);
+   if (existsSync(resolve(libraryCheckout(root), '.git'))) return hydrateReports({ root, path: target.slice('reports/'.length), access });
+   return output;
+ }

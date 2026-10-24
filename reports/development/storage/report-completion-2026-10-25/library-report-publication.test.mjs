@@ -92,3 +92,18 @@ test('completion requires an explicit report scope and checks actual remote cont
   git(f.shared, 'commit', '-qm', 'out-of-band report update'); git(f.shared, 'push', '-q', 'origin', 'main');
   assert.throws(() => library.checkLibraryReports({ root: f.root, prefixes: ['reports/task'] }), /corrupt|mismatch|content|original/i);
 });
+
+test('report completion adopts a newer remote main from a filtered archive without preparing runtime data', t => {
+  const f = fixture(t); const environment = { ...process.env, GIT_INDEX_FILE: join(f.remote, 'report-test.index') };
+  const remoteGit = (...args) => execFileSync('git', ['-c', 'user.name=Fixture', '-c', 'user.email=fixture@example.invalid', ...args], { cwd: f.remote, env: environment, encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).trim();
+  git(f.remote, 'config', 'uploadpack.allowFilter', 'true');
+  git(f.shared, 'config', 'remote.origin.promisor', 'true'); git(f.shared, 'config', 'remote.origin.partialclonefilter', 'blob:none');
+  const index = JSON.parse(git(f.remote, 'show', 'main:archive/index.json')); index.sourceRevision = 'newer remote metadata';
+  const blob = execFileSync('git', ['hash-object', '-w', '--stdin'], { cwd: f.remote, input: JSON.stringify(index) + '\n', encoding: 'utf8' }).trim();
+  remoteGit('read-tree', 'main'); remoteGit('update-index', '--cacheinfo', `100644,${blob},archive/index.json`);
+  const tree = remoteGit('write-tree'), newer = remoteGit('commit-tree', tree, '-p', f.revision, '-m', 'remote metadata');
+  remoteGit('update-ref', 'refs/heads/main', newer);
+  assert.equal(library.publishLibraryReports({ root: f.root, prefixes: ['reports/task'] }).files, 1);
+  assert.equal(git(f.shared, 'merge-base', newer, 'HEAD'), newer);
+  assert.equal(git(f.data, 'rev-parse', 'HEAD'), f.privateHead);
+});

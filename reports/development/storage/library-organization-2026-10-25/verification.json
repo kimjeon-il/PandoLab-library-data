@@ -1,0 +1,68 @@
+{
+  "layout": "subjects-v1",
+  "revision": "6fcdf285c228a8fbd9b585e9917eb633807ac13b",
+  "files": 4102,
+  "moved": 3896,
+  "privateFiles": 249,
+  "freeBytesBefore": 33239498752,
+  "freeBytesAfter": 33122807808,
+  "publicPaths": 3853,
+  "physical": {
+    "unchanged": 3994,
+    "changedText": 108,
+    "missing": [],
+    "concurrentlyChanged": []
+  },
+  "publicOriginals": {
+    "owner": "public",
+    "before": "56304621ed9eedcae36f3fd1c1ead2054928c293",
+    "after": "6fcdf285c228a8fbd9b585e9917eb633807ac13b",
+    "stable": 6398,
+    "changedText": 108,
+    "compressed": 0
+  },
+  "privateEditionsVerified": 4,
+  "allFiveRuntimePinsPreserved": true,
+  "allFiveRuntimeCheckoutExpectationsPreserved": true,
+  "footprint": {
+    "before": {
+      "scope": [
+        ".git",
+        ".pando-store",
+        "reports",
+        "archive/index.json"
+      ],
+      "logicalBytes": 6544806981,
+      "fileIdBytes": 5508239892,
+      "allocatedBytes": null,
+      "allocationMeasurement": "Windows script execution policy rejected the allocation query; no bypass attempted",
+      "uniqueFiles": 6789,
+      "freeBytes": 33425190912
+    },
+    "after": {
+      "scope": [
+        ".git",
+        ".pando-store",
+        "reports",
+        "archive/index.json"
+      ],
+      "logicalBytes": 6552685266,
+      "fileIdBytes": 5516045077,
+      "allocatedBytes": null,
+      "allocationMeasurement": "Windows script execution policy rejected the allocation query; no bypass attempted",
+      "uniqueFiles": 7595,
+      "freeBytes": 32981397504
+    },
+    "fileIdBytesChange": 7805185,
+    "driveFreeBytesChange": -443793408,
+    "scope": "Before final report publication and temporary-file cleanup; concurrent unrelated GIS writes affect volume free space."
+  },
+  "checks": {
+    "node": 42,
+    "python": 5,
+    "yamlWorkflowCopies": 45,
+    "lint": "passed",
+    "fiveWorktreeDiffCheck": "passed",
+    "independentReview": "no remaining important findings"
+  }
+}
