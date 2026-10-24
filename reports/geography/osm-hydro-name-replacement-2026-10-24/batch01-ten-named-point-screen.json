@@ -1,0 +1,623 @@
+{
+  "schema": "pando-osm-hydro-batch01-independent-station-screen-v1",
+  "reportId": "GEO-HYDRO-OSM-20261024-BATCH01",
+  "date": "2026-10-24",
+  "investigatedSystems": 10,
+  "originalOsmMatchedSystems": 73,
+  "previousIndependentlyPublishedSystems": 42,
+  "remainingUnclearedOsmSystems": 31,
+  "additionalApprovedReplacements": 0,
+  "publishedHydroAffected": false,
+  "method": "Named hydrometric gauge, field sample, or gazetteer point versus exact published HydroRIVERS v0.13.2 centerline (WGS84 local UTM metric distance). Distances below are point-to-line, NOT named whole-mainstem coverage.",
+  "run": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+  "runStatus": "success",
+  "verifiedCodeCommit": "031fac43f02e2ef31bced52eb4a92b6595de885b",
+  "scriptUrl": "https://github.com/kimjeon-il/Pando/blob/work/gis/tools/gis/verify_osm_hydro_batch01_anchors.py",
+  "independentSources": [
+    {
+      "role": "Chad official catalog measurements reproduced in IRD 2021 study",
+      "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2021-08/010082147.pdf"
+    },
+    {
+      "role": "Poland IMGW public hydrological station table",
+      "url": "https://danepubliczne.imgw.pl/api/data/hydro/format/html"
+    },
+    {
+      "role": "Finland NLS named place register Oulujoki",
+      "url": "https://finto.fi/yso-paikat/fi/page/p204727"
+    },
+    {
+      "role": "Finland NLS named place register Siikajoki",
+      "url": "https://finto.fi/yso-paikat/en/page/p139542"
+    },
+    {
+      "role": "Finland NLS topographic river features open-data service",
+      "url": "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme"
+    },
+    {
+      "role": "Kazakhstan published geography Zhem/Emba location (secondary)",
+      "url": "https://silkadv.com/ru/node/4653"
+    },
+    {
+      "role": "Kazakhstan published geography Ural location (secondary)",
+      "url": "https://silkadv.com/en/content/ural-river-kazakhstan"
+    },
+    {
+      "role": "Russian Sulak 2024 independent field sampling",
+      "url": "https://www.mdpi.com/2073-4441/17/23/3390"
+    },
+    {
+      "role": "Russian Terek mouth gazetteer (secondary)",
+      "url": "https://waterresources.ru/reki/terek/"
+    },
+    {
+      "role": "Georgia NEA EU4Environment river field survey 2022",
+      "url": "https://eu4waterdata.eu/images/pdf/library/UBA/EU4EnvWD_A1.4.1_GE_SW_Survey_Report_2022_ENG.pdf"
+    },
+    {
+      "role": "Norway NVE and Georgia NEA 2017 gauging station table",
+      "url": "https://publikasjoner.nve.no/rapport/2017/rapport2017_27.pdf"
+    }
+  ],
+  "nationalVectorEndpointProbe": {
+    "provider": "National Land Survey of Finland",
+    "url": "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse/items",
+    "status": "unavailable",
+    "downloadedRawLinesIntoRuntime": false,
+    "failureClass": "URLError",
+    "note": "The endpoint could not be tested in this action. It is not evidence of missing national data."
+  },
+  "caveats": [
+    "A station is a point, not a verified full river centerline; the nearest pixel/point may belong to tributaries or cross-sections.",
+    "Some Hydro logical river systems contain several differently named channels because HydroRIVERS groups upstream reaches.",
+    "A low nonmatching-station distance does not independently prove that the full system should be renamed.",
+    "20071308 and 20075401 still require primary Finnish named-polyline query; the endpoint request failed, rather than proving no vector data exist.",
+    "10526283 remains unidentified; lack of NE references or a large distance to known Chari gauges is insufficient to assign a new river name.",
+    "Kazakh Zhem/Ural reference points and Russian Terek mouth originate from secondary text; government vector is pending.",
+    "Current ODbL attribution for 31 remaining systems must be preserved."
+  ],
+  "items": [
+    {
+      "systemId": "10521208",
+      "publishedNameKo": "샤리강",
+      "mainstemLengthKm": 1845.142,
+      "minDistanceKmByRiver": {
+        "Bahr Sara (Chari tributary)": 14.034,
+        "Chari": 1.045,
+        "Chari/Logone": 0.908,
+        "Logone": 15.511
+      },
+      "stations": [
+        [
+          "chari_sarh",
+          1.106
+        ],
+        [
+          "chari_bousso",
+          2.464
+        ],
+        [
+          "chari_mailao",
+          1.045
+        ],
+        [
+          "chari_ndjamena",
+          0.908
+        ],
+        [
+          "bahr_sara_manda",
+          14.034
+        ],
+        [
+          "logone_bongor",
+          71.649
+        ],
+        [
+          "logone_gana",
+          15.511
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "10526283",
+      "publishedNameKo": "샤리강",
+      "mainstemLengthKm": 640.088,
+      "minDistanceKmByRiver": {
+        "Bahr Sara (Chari tributary)": 119.052,
+        "Chari": 52.783,
+        "Chari/Logone": 198.3,
+        "Logone": 194.828
+      },
+      "stations": [
+        [
+          "chari_sarh",
+          122.817
+        ],
+        [
+          "chari_bousso",
+          52.783
+        ],
+        [
+          "chari_mailao",
+          191.899
+        ],
+        [
+          "chari_ndjamena",
+          198.3
+        ],
+        [
+          "bahr_sara_manda",
+          119.052
+        ],
+        [
+          "logone_bongor",
+          194.828
+        ],
+        [
+          "logone_gana",
+          207.11
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20071308",
+      "publishedNameKo": "오울루강",
+      "mainstemLengthKm": 416.298,
+      "minDistanceKmByRiver": {
+        "Oulujoki": 1.964,
+        "Siikajoki": 37.737
+      },
+      "stations": [
+        [
+          "nls_oulujoki",
+          1.964
+        ],
+        [
+          "nls_siikajoki",
+          37.737
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20075401",
+      "publishedNameKo": "오울루강",
+      "mainstemLengthKm": 179.022,
+      "minDistanceKmByRiver": {
+        "Oulujoki": 38.998,
+        "Siikajoki": 0.396
+      },
+      "stations": [
+        [
+          "nls_oulujoki",
+          38.998
+        ],
+        [
+          "nls_siikajoki",
+          0.396
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20282318",
+      "publishedNameKo": "오데르강",
+      "mainstemLengthKm": 591.434,
+      "minDistanceKmByRiver": {
+        "Odra": 0.25,
+        "Warta": 0.168
+      },
+      "stations": [
+        [
+          "imgw_odra_trestno",
+          170.298
+        ],
+        [
+          "imgw_odra_glogow",
+          123.528
+        ],
+        [
+          "imgw_odra_kostrzyn",
+          0.336
+        ],
+        [
+          "imgw_odra_gozdowice",
+          0.25
+        ],
+        [
+          "imgw_warta_kostrzyn",
+          0.168
+        ],
+        [
+          "imgw_warta_skwierzyna",
+          15.348
+        ],
+        [
+          "imgw_warta_swierkocin",
+          0.298
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20456598",
+      "publishedNameKo": "우랄강",
+      "mainstemLengthKm": 699.416,
+      "minDistanceKmByRiver": {
+        "Zhaiyk/Ural": 308.332,
+        "Zhem/Emba": 0.207
+      },
+      "stations": [
+        [
+          "atlas_zhem",
+          0.207
+        ],
+        [
+          "atlas_ural",
+          308.332
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20532766",
+      "publishedNameKo": "테레크강",
+      "mainstemLengthKm": 601.479,
+      "minDistanceKmByRiver": {
+        "Sulak": 35.21,
+        "Terek": 1.366
+      },
+      "stations": [
+        [
+          "sulak_field_01",
+          38.108
+        ],
+        [
+          "sulak_field_02",
+          35.21
+        ],
+        [
+          "terek_mouth",
+          1.366
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20540915",
+      "publishedNameKo": "테레크강",
+      "mainstemLengthKm": 282.666,
+      "minDistanceKmByRiver": {
+        "Sulak": 0.03,
+        "Terek": 34.557
+      },
+      "stations": [
+        [
+          "sulak_field_01",
+          0.084
+        ],
+        [
+          "sulak_field_02",
+          0.03
+        ],
+        [
+          "terek_mouth",
+          34.557
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20561290",
+      "publishedNameKo": "리오니강",
+      "mainstemLengthKm": 202.137,
+      "minDistanceKmByRiver": {
+        "Chanistskali (Enguri tributary)": 16.207,
+        "Chkhoushia (Enguri tributary)": 6.959,
+        "Dolra (Enguri tributary)": 3.326,
+        "Enguri": 0.001,
+        "Jejora": 50.602,
+        "Jumi (Enguri tributary)": 1.348,
+        "Khobistskali": 22.203,
+        "Krikhula": 45.09,
+        "Kvirila": 72.06,
+        "Nakra (Enguri tributary)": 2.071,
+        "Nenskra (Enguri tributary)": 5.109,
+        "Rioni": 26.744,
+        "Tskhenistskali": 9.906
+      },
+      "stations": [
+        [
+          "rioni_oni",
+          50.057
+        ],
+        [
+          "rioni_utsera",
+          51.163
+        ],
+        [
+          "rioni_khidikari",
+          44.987
+        ],
+        [
+          "rioni_alpana",
+          40.572
+        ],
+        [
+          "tskh_lentekhi",
+          22.924
+        ],
+        [
+          "tskh_luji",
+          9.906
+        ],
+        [
+          "kvirila_sachkhere",
+          72.06
+        ],
+        [
+          "kvirila_chiatura",
+          73.261
+        ],
+        [
+          "jejora_oni",
+          50.602
+        ],
+        [
+          "krikhula_ambrolauri",
+          45.09
+        ],
+        [
+          "rioni_nve_chaladidi",
+          33.473
+        ],
+        [
+          "rioni_nve_patara_poti",
+          28.304
+        ],
+        [
+          "rioni_nve_poti",
+          29.362
+        ],
+        [
+          "rioni_nve_poti_north",
+          26.744
+        ],
+        [
+          "rioni_nve_samtredia",
+          62.965
+        ],
+        [
+          "rioni_nve_dapnari",
+          35.855
+        ],
+        [
+          "rioni_nve_kutaisi",
+          71.976
+        ],
+        [
+          "kvirila_nve_mouth",
+          80.174
+        ],
+        [
+          "kvirila_nve_zestaponi",
+          90.499
+        ],
+        [
+          "kvirila_nve_ajameti",
+          80.889
+        ],
+        [
+          "enguri_vichnishi",
+          0.213
+        ],
+        [
+          "enguri_mestia",
+          7.28
+        ],
+        [
+          "enguri_potskho",
+          0.001
+        ],
+        [
+          "enguri_khaishi",
+          0.126
+        ],
+        [
+          "enguri_anaklia_mouth",
+          0.623
+        ],
+        [
+          "dolra_ushkhvani",
+          3.326
+        ],
+        [
+          "nakra_intake",
+          2.071
+        ],
+        [
+          "nenskra_marghi",
+          5.109
+        ],
+        [
+          "chanistskali_jikhashkari",
+          16.207
+        ],
+        [
+          "chkhoushia_zugdidi",
+          6.959
+        ],
+        [
+          "jumi_darcheli",
+          1.348
+        ],
+        [
+          "khobistskali_gamogma",
+          22.203
+        ],
+        [
+          "khobistskali_khobi",
+          23.883
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    },
+    {
+      "systemId": "20565620",
+      "publishedNameKo": "리오니강",
+      "mainstemLengthKm": 241.089,
+      "minDistanceKmByRiver": {
+        "Chanistskali (Enguri tributary)": 32.739,
+        "Chkhoushia (Enguri tributary)": 30.966,
+        "Dolra (Enguri tributary)": 94.381,
+        "Enguri": 20.96,
+        "Jejora": 33.45,
+        "Jumi (Enguri tributary)": 24.017,
+        "Khobistskali": 6.984,
+        "Krikhula": 42.758,
+        "Kvirila": 0.231,
+        "Nakra (Enguri tributary)": 101.038,
+        "Nenskra (Enguri tributary)": 92.256,
+        "Rioni": 0.276,
+        "Tskhenistskali": 64.292
+      },
+      "stations": [
+        [
+          "rioni_oni",
+          34.046
+        ],
+        [
+          "rioni_utsera",
+          37.601
+        ],
+        [
+          "rioni_khidikari",
+          43.307
+        ],
+        [
+          "rioni_alpana",
+          39.594
+        ],
+        [
+          "tskh_lentekhi",
+          64.292
+        ],
+        [
+          "tskh_luji",
+          69.789
+        ],
+        [
+          "kvirila_sachkhere",
+          15.625
+        ],
+        [
+          "kvirila_chiatura",
+          18.962
+        ],
+        [
+          "jejora_oni",
+          33.45
+        ],
+        [
+          "krikhula_ambrolauri",
+          42.758
+        ],
+        [
+          "rioni_nve_chaladidi",
+          0.276
+        ],
+        [
+          "rioni_nve_patara_poti",
+          0.276
+        ],
+        [
+          "rioni_nve_poti",
+          4.329
+        ],
+        [
+          "rioni_nve_poti_north",
+          3.511
+        ],
+        [
+          "rioni_nve_samtredia",
+          0.861
+        ],
+        [
+          "rioni_nve_dapnari",
+          15.11
+        ],
+        [
+          "rioni_nve_kutaisi",
+          9.336
+        ],
+        [
+          "kvirila_nve_mouth",
+          0.552
+        ],
+        [
+          "kvirila_nve_zestaponi",
+          0.288
+        ],
+        [
+          "kvirila_nve_ajameti",
+          0.231
+        ],
+        [
+          "enguri_vichnishi",
+          82.007
+        ],
+        [
+          "enguri_mestia",
+          96.61
+        ],
+        [
+          "enguri_potskho",
+          58.457
+        ],
+        [
+          "enguri_khaishi",
+          84.076
+        ],
+        [
+          "enguri_anaklia_mouth",
+          20.96
+        ],
+        [
+          "dolra_ushkhvani",
+          94.381
+        ],
+        [
+          "nakra_intake",
+          101.038
+        ],
+        [
+          "nenskra_marghi",
+          92.256
+        ],
+        [
+          "chanistskali_jikhashkari",
+          32.739
+        ],
+        [
+          "chkhoushia_zugdidi",
+          30.966
+        ],
+        [
+          "jumi_darcheli",
+          24.017
+        ],
+        [
+          "khobistskali_gamogma",
+          6.984
+        ],
+        [
+          "khobistskali_khobi",
+          12.036
+        ]
+      ],
+      "evidenceState": "independent-point-screen-not-approved-for-runtime"
+    }
+  ]
+}

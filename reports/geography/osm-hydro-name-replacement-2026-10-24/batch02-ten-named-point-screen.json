@@ -1,0 +1,1067 @@
+{
+  "schema": "pando-hydro-remaining-batch02-independent-point-screen-v1",
+  "reportId": "GEO-HYDRO-OSM-20261024-BATCH02",
+  "run": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+  "runStatus": "success",
+  "codeRef": "https://github.com/kimjeon-il/Pando/commit/c240b2df3081525316861585b75ef6d941a4b92c",
+  "originalHydroVersion": "v0.13.2",
+  "pin": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "comparedSystems": 10,
+  "pointComparisons": 90,
+  "updatedPublishedData": false,
+  "independentlyApprovedSystems": 0,
+  "experimentalTitle": "Read-only: one named point vs exact HydroRIVERS mainstem; a near-zero distance does not validate an entire 100-3000 km river name",
+  "centralAsiaIndependentHydrometArchive": {
+    "source": "https://zenodo.org/records/7743778",
+    "originalSourceName": "CA-discharge.gpkg",
+    "originalSourceChecksumMd5": "97f883aa7014c05555c792e579e9b645",
+    "originalSourceChecksumSha256": "8366f37811ef578c899a6cd891380d0f0379617c724a80a02bbbd096ae8f1725",
+    "rawGaugeFeatures": 297,
+    "originalPublishedStationSites": 295,
+    "candidatePointsWithinAmuSystemBBox": 28,
+    "candidatePointsWithinSyrSystemBBox": 44,
+    "bboxCandidatesNotAllSameRiver": true,
+    "sourceSchemaFields": [
+      "fid",
+      "geom",
+      "CODE",
+      "EASTING",
+      "NORTHING",
+      "LON",
+      "LAT",
+      "NAME_ENG",
+      "NAME_RU",
+      "RIVER",
+      "COUNTRY",
+      "BASIN",
+      "q_m3s",
+      "SOURCE",
+      "res",
+      "has_ts",
+      "ts_start",
+      "ts_end",
+      "n_complete",
+      "n_miss",
+      "n_propmiss",
+      "n_largestgap"
+    ],
+    "status": "verified-original-geopackage"
+  },
+  "nationalGeospatialIntelligenceAgency": {
+    "service": "https://geonames.nga.mil/geonames/GNSHome/",
+    "governmentRegisteredAliasesFile": "batch02-nga-government-names.json",
+    "foundFeatureAliases": 11,
+    "independentlyVerifiedNamePointSystems": 4
+  },
+  "measurementCaveats": [
+    "CA-discharge 2023 station locations are georeferenced independent research points based on historical hydro-meteorological yearbooks; not OSM river geometry.",
+    "Coordinates of navigation marinas and ecological-area centroids are not the exact watercourse centerline.",
+    "United States NGA GNS river names are point-based labels that can be offset from the displayed mainstem or lie beyond the packed segment.",
+    "South Korean Namhan water-level position is from a secondary aggregation of government data, not the direct agency station API.",
+    "Both the Amu Darya and Syr Darya candidate bbox windows include gauges for other river basins; names must be attributed by each gauge RIVER field before any identity decision.",
+    "No individual source gives a complete, reusable and topology-matched polyline for all ten Hydro logical systems.",
+    "No map source code, hydro geometry, published river name, legal feature class, OSM relation, or attribution was changed."
+  ],
+  "items": [
+    {
+      "systemId": "20628098",
+      "publishedNameKo": "아무다리야강",
+      "mainstemLengthKm": 1484.7,
+      "independentPointCount": 30,
+      "pointDistancesKm": [
+        [
+          "tmu_amu_12348",
+          258.723,
+          "Amu Darya river (satellite water level reference)"
+        ],
+        [
+          "kerki_2025_paper",
+          257.277,
+          "Amu Darya Kerki hydrometric station"
+        ],
+        [
+          "cad_8-0.000-1M",
+          209.413,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-0.000-2M",
+          173.392,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-0.000-3S",
+          158.255,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-0.000-4M",
+          121.16,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-0.000-5M",
+          82.319,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-0.000-7M",
+          52.545,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-0.000-9M",
+          50.844,
+          "Hari Rud"
+        ],
+        [
+          "cad_8-1.R00-9T",
+          138.965,
+          "Senjab"
+        ],
+        [
+          "cad_8-3.L00-1A",
+          122.581,
+          "Kowgan"
+        ],
+        [
+          "cad_8-3.L00-6A",
+          100.43,
+          "Kowgan"
+        ],
+        [
+          "cad_8-11.L00-1A",
+          52.525,
+          "Lal"
+        ],
+        [
+          "cad_8-2.R00-3A",
+          130.056,
+          "Karukh"
+        ],
+        [
+          "cad_10-0.000-4M",
+          131.936,
+          "Shirin Tagab"
+        ],
+        [
+          "cad_10-0.000-6M",
+          78.161,
+          "Shirin Tagab"
+        ],
+        [
+          "cad_10-1.1L0-7A",
+          52.032,
+          "Qaisar"
+        ],
+        [
+          "cad_10-0.000-3M",
+          146.077,
+          "Shirin Tagab"
+        ],
+        [
+          "cad_10-1.L00-1T",
+          139.949,
+          "Mainmana"
+        ],
+        [
+          "cad_11-0.000-4M",
+          93.744,
+          "Sare Pul"
+        ],
+        [
+          "cad_11-1.R00-1A",
+          90.503,
+          "Shorab"
+        ],
+        [
+          "cad_9-0.000-1M",
+          0.007,
+          "Murghab"
+        ],
+        [
+          "cad_9-0.000-5M",
+          0.089,
+          "Murghab"
+        ],
+        [
+          "cad_9-1.000-1A",
+          96.782,
+          "Gulran"
+        ],
+        [
+          "cad_9-2.000-1A",
+          93.88,
+          "Kushk"
+        ],
+        [
+          "cad_9-3.000-1A",
+          43.122,
+          "Kashan"
+        ],
+        [
+          "cad_9-4.R00-8A",
+          62.071,
+          "Chichaktu"
+        ],
+        [
+          "cad_9-5.L00-1A",
+          2.392,
+          "Bum"
+        ],
+        [
+          "cad_17275",
+          344.581,
+          "Kichikuryadarya"
+        ],
+        [
+          "cad_17279",
+          354.816,
+          "Uryadarya"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "cad_9-0.000-1M",
+          "distanceKm": 0.007,
+          "name": "Murghab",
+          "referenceLonLat": [
+            63.32700275200706,
+            35.58218239536431
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_9-0.000-5M",
+          "distanceKm": 0.089,
+          "name": "Murghab",
+          "referenceLonLat": [
+            64.00779407170806,
+            35.035137606489435
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_9-5.L00-1A",
+          "distanceKm": 2.392,
+          "name": "Bum",
+          "referenceLonLat": [
+            63.465486401498985,
+            35.234825053438485
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_9-3.000-1A",
+          "distanceKm": 43.122,
+          "name": "Kashan",
+          "referenceLonLat": [
+            62.92812158508076,
+            35.319678269197
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_8-0.000-9M",
+          "distanceKm": 50.844,
+          "name": "Hari Rud",
+          "referenceLonLat": [
+            65.76617412905254,
+            34.55140556509066
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_10-1.1L0-7A",
+          "distanceKm": 52.032,
+          "name": "Qaisar",
+          "referenceLonLat": [
+            64.30338494477417,
+            35.69906354610503
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_8-11.L00-1A",
+          "distanceKm": 52.525,
+          "name": "Lal",
+          "referenceLonLat": [
+            65.66684457861209,
+            34.50186574749497
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_8-0.000-7M",
+          "distanceKm": 52.545,
+          "name": "Hari Rud",
+          "referenceLonLat": [
+            65.25014271646828,
+            34.52131203641406
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_9-4.R00-8A",
+          "distanceKm": 62.071,
+          "name": "Chichaktu",
+          "referenceLonLat": [
+            64.08304153231751,
+            35.72716784775204
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_10-0.000-6M",
+          "distanceKm": 78.161,
+          "name": "Shirin Tagab",
+          "referenceLonLat": [
+            64.90877952539176,
+            35.95273805534546
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_8-0.000-5M",
+          "distanceKm": 82.319,
+          "name": "Hari Rud",
+          "referenceLonLat": [
+            63.67279481955275,
+            34.339243072691325
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_11-1.R00-1A",
+          "distanceKm": 90.503,
+          "name": "Shorab",
+          "referenceLonLat": [
+            66.04857769047615,
+            36.17548287001899
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "20773860",
+      "publishedNameKo": "수에즈운하강",
+      "mainstemLengthKm": 185.82,
+      "independentPointCount": 3,
+      "pointDistancesKm": [
+        [
+          "sca_port_said_marina",
+          0.407,
+          "Suez navigation canal Port Said marina"
+        ],
+        [
+          "sca_ismailia_marina",
+          3.356,
+          "Suez navigation canal Ismailia marina"
+        ],
+        [
+          "sca_port_tawfik_marina",
+          19.056,
+          "Suez navigation canal Port Tawfik marina"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "sca_port_said_marina",
+          "distanceKm": 0.407,
+          "name": "Suez navigation canal Port Said marina",
+          "referenceLonLat": [
+            32.3150132,
+            31.2561108
+          ],
+          "sourceKind": "government-navigation-facility",
+          "url": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+        },
+        {
+          "id": "sca_ismailia_marina",
+          "distanceKm": 3.356,
+          "name": "Suez navigation canal Ismailia marina",
+          "referenceLonLat": [
+            32.2712444,
+            30.5849802
+          ],
+          "sourceKind": "government-navigation-facility",
+          "url": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+        },
+        {
+          "id": "sca_port_tawfik_marina",
+          "distanceKm": 19.056,
+          "name": "Suez navigation canal Port Tawfik marina",
+          "referenceLonLat": [
+            32.5719166,
+            29.9475083
+          ],
+          "sourceKind": "government-navigation-facility",
+          "url": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "20774342",
+      "publishedNameKo": "수에즈운하강",
+      "mainstemLengthKm": 191.913,
+      "independentPointCount": 3,
+      "pointDistancesKm": [
+        [
+          "sca_port_said_marina",
+          27.399,
+          "Suez navigation canal Port Said marina"
+        ],
+        [
+          "sca_ismailia_marina",
+          40.118,
+          "Suez navigation canal Ismailia marina"
+        ],
+        [
+          "sca_port_tawfik_marina",
+          64.149,
+          "Suez navigation canal Port Tawfik marina"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "sca_port_said_marina",
+          "distanceKm": 27.399,
+          "name": "Suez navigation canal Port Said marina",
+          "referenceLonLat": [
+            32.3150132,
+            31.2561108
+          ],
+          "sourceKind": "government-navigation-facility",
+          "url": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+        },
+        {
+          "id": "sca_ismailia_marina",
+          "distanceKm": 40.118,
+          "name": "Suez navigation canal Ismailia marina",
+          "referenceLonLat": [
+            32.2712444,
+            30.5849802
+          ],
+          "sourceKind": "government-navigation-facility",
+          "url": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+        },
+        {
+          "id": "sca_port_tawfik_marina",
+          "distanceKm": 64.149,
+          "name": "Suez navigation canal Port Tawfik marina",
+          "referenceLonLat": [
+            32.5719166,
+            29.9475083
+          ],
+          "sourceKind": "government-navigation-facility",
+          "url": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "30145067",
+      "publishedNameKo": "오비강",
+      "mainstemLengthKm": 3147.799,
+      "independentPointCount": 4,
+      "pointDistancesKm": [
+        [
+          "tum_ob_38692",
+          0.672,
+          "Ob river satellite water level point"
+        ],
+        [
+          "hydromet_irtysh_hanty",
+          0.38,
+          "Irtysh hydrometric station Khanty-Mansiysk"
+        ],
+        [
+          "ru_fish_irtysh_slushkinskaya",
+          0.058,
+          "Irtysh legally defined fishing boundary (not gauge)"
+        ],
+        [
+          "ru_fish_irtysh_sotnikovskaya",
+          0.124,
+          "Irtysh legally defined fishing boundary (not gauge)"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "ru_fish_irtysh_slushkinskaya",
+          "distanceKm": 0.058,
+          "name": "Irtysh legally defined fishing boundary (not gauge)",
+          "referenceLonLat": [
+            69.81959944444444,
+            60.21011638888889
+          ],
+          "sourceKind": "Russian-federal-fisheries-statutory-river-coordinate",
+          "url": "https://fish.gov.ru/wp-content/uploads/2025/11/zs.pdf"
+        },
+        {
+          "id": "ru_fish_irtysh_sotnikovskaya",
+          "distanceKm": 0.124,
+          "name": "Irtysh legally defined fishing boundary (not gauge)",
+          "referenceLonLat": [
+            69.87701888888888,
+            60.32964777777778
+          ],
+          "sourceKind": "Russian-federal-fisheries-statutory-river-coordinate",
+          "url": "https://fish.gov.ru/wp-content/uploads/2025/11/zs.pdf"
+        },
+        {
+          "id": "hydromet_irtysh_hanty",
+          "distanceKm": 0.38,
+          "name": "Irtysh hydrometric station Khanty-Mansiysk",
+          "referenceLonLat": [
+            68.9853,
+            60.9882
+          ],
+          "sourceKind": "federal-hydromet-coordinates-from-independent-secondary-reproduction",
+          "url": "https://www.snt-bugorok.ru/level/uroven-vody-v-irtyshe-u-goroda-khanty-mansiisk-segodnya"
+        },
+        {
+          "id": "tum_ob_38692",
+          "distanceKm": 0.672,
+          "name": "Ob river satellite water level point",
+          "referenceLonLat": [
+            65.7292,
+            65.69
+          ],
+          "sourceKind": "German-TUM-DAHITI-satellite-water-level-site",
+          "url": "https://dahiti.dgfi.tum.de/en/38692/"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "40188382",
+      "publishedNameKo": "시르다리야강",
+      "mainstemLengthKm": 1118.16,
+      "independentPointCount": 44,
+      "pointDistancesKm": [
+        [
+          "cad_15057",
+          53.644,
+          "Ak Terek"
+        ],
+        [
+          "cad_15064",
+          32.801,
+          "river Toru-Aigyr-U.R. Kyzyl-Bulak"
+        ],
+        [
+          "cad_15102",
+          0.011,
+          "Chu"
+        ],
+        [
+          "cad_15149",
+          0.191,
+          "Chon Kemin"
+        ],
+        [
+          "cad_15171",
+          23.07,
+          "Kegetey"
+        ],
+        [
+          "cad_15189",
+          33.37,
+          "Alamedin"
+        ],
+        [
+          "cad_15194",
+          41.349,
+          "Ala Archa"
+        ],
+        [
+          "cad_15212",
+          68.762,
+          "Aksu"
+        ],
+        [
+          "cad_15214",
+          55.451,
+          "Sokuluk"
+        ],
+        [
+          "cad_15215",
+          69.958,
+          "Kara Balta"
+        ],
+        [
+          "cad_15216",
+          74.017,
+          "Kaindy"
+        ],
+        [
+          "cad_15256",
+          115.772,
+          "Talas"
+        ],
+        [
+          "cad_15259",
+          147.755,
+          "Talas"
+        ],
+        [
+          "cad_15261",
+          188.816,
+          "Talas"
+        ],
+        [
+          "cad_15278",
+          138.713,
+          "Uch-Koshoy"
+        ],
+        [
+          "cad_15283",
+          170.901,
+          "None"
+        ],
+        [
+          "cad_15285",
+          190.606,
+          "None"
+        ],
+        [
+          "cad_15287",
+          197.422,
+          "None"
+        ],
+        [
+          "cad_15290",
+          212.019,
+          "Kara Buura"
+        ],
+        [
+          "cad_15292",
+          202.433,
+          "None"
+        ],
+        [
+          "cad_15312",
+          245.022,
+          "None"
+        ],
+        [
+          "cad_16082",
+          72.673,
+          "Kekemeren"
+        ],
+        [
+          "cad_16085",
+          72.097,
+          "Kekemeren"
+        ],
+        [
+          "cad_16087",
+          68.996,
+          "Karakol West"
+        ],
+        [
+          "cad_16088",
+          57.837,
+          "Djumgol"
+        ],
+        [
+          "cad_16093",
+          152.845,
+          "Torkent"
+        ],
+        [
+          "cad_16096",
+          168.777,
+          "Chichkan"
+        ],
+        [
+          "cad_16100",
+          189.123,
+          "Uzunakhmat"
+        ],
+        [
+          "cad_16326",
+          257.576,
+          "Arys"
+        ],
+        [
+          "cad_16340",
+          263.148,
+          "Mashat"
+        ],
+        [
+          "cad_16363",
+          227.217,
+          "Boraldai"
+        ],
+        [
+          "cad_16374",
+          273.067,
+          "Badam"
+        ],
+        [
+          "cad_16375",
+          252.047,
+          "Badam"
+        ],
+        [
+          "cad_16390",
+          293.484,
+          "Sayram"
+        ],
+        [
+          "cad_60006",
+          234.641,
+          "Hodjaata"
+        ],
+        [
+          "cad_60011",
+          71.071,
+          "Kekemeren"
+        ],
+        [
+          "cad_60012",
+          68.885,
+          "Kekemeren"
+        ],
+        [
+          "cad_60019",
+          50.275,
+          "Orto-Kugandy"
+        ],
+        [
+          "cad_60021",
+          145.767,
+          "Torkent"
+        ],
+        [
+          "cad_60033",
+          305.946,
+          "Chiralma"
+        ],
+        [
+          "cad_60034",
+          305.571,
+          "Maidantal"
+        ],
+        [
+          "cad_60038",
+          280.023,
+          "Pskem"
+        ],
+        [
+          "cad_60039",
+          280.286,
+          "Koksu"
+        ],
+        [
+          "cad_60040",
+          305.921,
+          "Pskem"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "cad_15102",
+          "distanceKm": 0.011,
+          "name": "Chu",
+          "referenceLonLat": [
+            75.84053557440679,
+            42.2615410014497
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15149",
+          "distanceKm": 0.191,
+          "name": "Chon Kemin",
+          "referenceLonLat": [
+            75.89503666211534,
+            42.69117494631163
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15171",
+          "distanceKm": 23.07,
+          "name": "Kegetey",
+          "referenceLonLat": [
+            75.15075429775978,
+            42.64193146160801
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15064",
+          "distanceKm": 32.801,
+          "name": "river Toru-Aigyr-U.R. Kyzyl-Bulak",
+          "referenceLonLat": [
+            76.3980632691112,
+            42.63356600908289
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15189",
+          "distanceKm": 33.37,
+          "name": "Alamedin",
+          "referenceLonLat": [
+            74.66438154766055,
+            42.69680938138547
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15194",
+          "distanceKm": 41.349,
+          "name": "Ala Archa",
+          "referenceLonLat": [
+            74.50122879599418,
+            42.65977547797452
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_60019",
+          "distanceKm": 50.275,
+          "name": "Orto-Kugandy",
+          "referenceLonLat": [
+            74.47105044973415,
+            42.018809000288535
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15057",
+          "distanceKm": 53.644,
+          "name": "Ak Terek",
+          "referenceLonLat": [
+            76.65815316468105,
+            42.15113265652059
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15214",
+          "distanceKm": 55.451,
+          "name": "Sokuluk",
+          "referenceLonLat": [
+            74.2385957765599,
+            42.64061413853849
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_16088",
+          "distanceKm": 57.837,
+          "name": "Djumgol",
+          "referenceLonLat": [
+            74.50611651833975,
+            41.92170244684707
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_15212",
+          "distanceKm": 68.762,
+          "name": "Aksu",
+          "referenceLonLat": [
+            74.00836178750222,
+            42.61312659200517
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        },
+        {
+          "id": "cad_60012",
+          "distanceKm": 68.885,
+          "name": "Kekemeren",
+          "referenceLonLat": [
+            74.0772255872933,
+            42.1215838682052
+          ],
+          "sourceKind": "CA-discharge-scientific-2023-located-hydromet-gauge",
+          "url": "https://zenodo.org/records/7743778"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "40364680",
+      "publishedNameKo": "청천강",
+      "mainstemLengthKm": 193.588,
+      "independentPointCount": 1,
+      "pointDistancesKm": [
+        [
+          "nga_-173649",
+          0.475,
+          "청천강"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "nga_-173649",
+          "distanceKm": 0.475,
+          "name": "청천강",
+          "referenceLonLat": [
+            125.458889,
+            39.575833
+          ],
+          "sourceKind": "US-NGA-GNS-named-stream-feature-point",
+          "url": "https://geonames.nga.mil/geonames/GNSHome/"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "40391614",
+      "publishedNameKo": "대동강",
+      "mainstemLengthKm": 380.858,
+      "independentPointCount": 1,
+      "pointDistancesKm": [
+        [
+          "nga_-187951",
+          8.523,
+          "Taedonggang"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "nga_-187951",
+          "distanceKm": 8.523,
+          "name": "Taedonggang",
+          "referenceLonLat": [
+            125.465828,
+            38.720416
+          ],
+          "sourceKind": "US-NGA-GNS-named-stream-feature-point",
+          "url": "https://geonames.nga.mil/geonames/GNSHome/"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "40414035",
+      "publishedNameKo": "례성강",
+      "mainstemLengthKm": 168.138,
+      "independentPointCount": 1,
+      "pointDistancesKm": [
+        [
+          "nga_-191071",
+          0.697,
+          "Yeseonggang"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "nga_-191071",
+          "distanceKm": 0.697,
+          "name": "Yeseonggang",
+          "referenceLonLat": [
+            126.395278,
+            37.885278
+          ],
+          "sourceKind": "US-NGA-GNS-named-stream-feature-point",
+          "url": "https://geonames.nga.mil/geonames/GNSHome/"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "40415850",
+      "publishedNameKo": "림진강/임진강",
+      "mainstemLengthKm": 255.4,
+      "independentPointCount": 2,
+      "pointDistancesKm": [
+        [
+          "nibr_imjin_wetland_zone_centroid",
+          2.492,
+          "Imjin River ecological study zone centroid (NOT a river station)"
+        ],
+        [
+          "nga_-708771",
+          4.809,
+          "림진강"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "nibr_imjin_wetland_zone_centroid",
+          "distanceKm": 2.492,
+          "name": "Imjin River ecological study zone centroid (NOT a river station)",
+          "referenceLonLat": [
+            126.769,
+            37.887
+          ],
+          "sourceKind": "ecological-area-centroid-not-hydrographic-observation",
+          "url": "https://www.nibr.go.kr/aiibook/access/ecatalogt.jsp?Dir=1069&callmode=admin&catimage=&eclang=ko&start=12&um=s"
+        },
+        {
+          "id": "nga_-708771",
+          "distanceKm": 4.809,
+          "name": "림진강",
+          "referenceLonLat": [
+            126.663889,
+            37.785
+          ],
+          "sourceKind": "US-NGA-GNS-named-stream-feature-point",
+          "url": "https://geonames.nga.mil/geonames/GNSHome/"
+        }
+      ],
+      "geometryIdentityApproved": false
+    },
+    {
+      "systemId": "40423228",
+      "publishedNameKo": "남한강",
+      "mainstemLengthKm": 178.385,
+      "independentPointCount": 1,
+      "pointDistancesKm": [
+        [
+          "ag_namhan_station_277",
+          4.986,
+          "Namhan River water-level site (Korea Rural Community Corporation data reproduction)"
+        ]
+      ],
+      "twelveClosestIndependentPoints": [
+        {
+          "id": "ag_namhan_station_277",
+          "distanceKm": 4.986,
+          "name": "Namhan River water-level site (Korea Rural Community Corporation data reproduction)",
+          "referenceLonLat": [
+            127.6866667,
+            37.18305556
+          ],
+          "sourceKind": "government-derived-station-point-secondary-reproduction",
+          "url": "https://yss.purpleo.kr/article/277"
+        }
+      ],
+      "geometryIdentityApproved": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "pando-north-korea-official-independent-hydronym-points-v1",
+  "sourceAgency": "United States National Geospatial-Intelligence Agency, Geographic Names Server",
+  "sourceLicenseType": "verify before redistribution beyond individual research records",
+  "sourceService": "https://geonames.nga.mil/geonames/GNSHome/",
+  "originalSourceRun": "https://github.com/kimjeon-il/Pando/actions/runs/40059851369",
+  "retrievalDate": "2026-10-24",
+  "dataRole": "independent named-point identity anchors, not a named centerline",
+  "originalRecords": 11,
+  "uniqueNamedRiverLocations": 4,
+  "samples": [
+    {
+      "systemId": "40364680",
+      "ufi": -173649,
+      "designation": "STM",
+      "registeredLonLat": [
+        125.458889,
+        39.575833
+      ],
+      "aliases": [
+        "청천강"
+      ],
+      "sourceQuery": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=cc_ft+%3D+%27PRK%27+AND+fc+%3D+%27H%27+AND+full_name+LIKE+%27%25%EC%B2%AD%EC%B2%9C%EA%B0%95%25%27&outFields=ufi%2Cuni%2Clat_dd%2Clong_dd%2Cfull_name%2Cdesig_cd%2Ccc_ft&returnGeometry=false&f=json&resultRecordCount=20",
+      "sourceFeatureCount": 1,
+      "spatialIdentityVerified": false
+    },
+    {
+      "systemId": "40391614",
+      "ufi": -187951,
+      "designation": "STM",
+      "registeredLonLat": [
+        125.465828,
+        38.720416
+      ],
+      "aliases": [
+        "Taedonggang",
+        "Taedong-gang",
+        "대동강"
+      ],
+      "sourceQuery": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-187951&outFields=ufi%2Cuni%2Clat_dd%2Clong_dd%2Cfull_name%2Cdesig_cd%2Ccc_ft&returnGeometry=false&f=json&resultRecordCount=20",
+      "sourceFeatureCount": 3,
+      "spatialIdentityVerified": false
+    },
+    {
+      "systemId": "40414035",
+      "ufi": -191071,
+      "designation": "STM",
+      "registeredLonLat": [
+        126.395278,
+        37.885278
+      ],
+      "aliases": [
+        "Yeseonggang",
+        "예성강",
+        "Yesŏng-gang"
+      ],
+      "sourceQuery": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-191071&outFields=ufi%2Cuni%2Clat_dd%2Clong_dd%2Cfull_name%2Cdesig_cd%2Ccc_ft&returnGeometry=false&f=json&resultRecordCount=20",
+      "sourceFeatureCount": 3,
+      "spatialIdentityVerified": false
+    },
+    {
+      "systemId": "40415850",
+      "ufi": -708771,
+      "designation": "STM",
+      "registeredLonLat": [
+        126.663889,
+        37.785
+      ],
+      "aliases": [
+        "림진강",
+        "Imjin River",
+        "Imjin-gang",
+        "임진강"
+      ],
+      "sourceQuery": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?where=ufi+%3D+-708771&outFields=ufi%2Cuni%2Clat_dd%2Clong_dd%2Cfull_name%2Cdesig_cd%2Ccc_ft&returnGeometry=false&f=json&resultRecordCount=20",
+      "sourceFeatureCount": 4,
+      "spatialIdentityVerified": false
+    }
+  ],
+  "changesToPublishedMap": false,
+  "caveat": "GNS supplies registered name coordinates (occasionally near the mouth), so offsets of several km from a Hydro segment do not prove name mismatch. Korean north/south variants must not be discarded from original toponyms."
+}
