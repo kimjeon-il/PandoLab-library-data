@@ -45,10 +45,13 @@
         }
       ],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/",
+        "https://cblt.org/wp-content/uploads/2026/05/Lake-Chad-Basin-Strategic-Action-Programme-SAP-2023-2037_compressed.pdf"
+      ],
+      "independentFinding": "Lake Chad Basin Commission independently describes Chari-Logone hydrology and upstream Bahr Aouk and Bamingui/Gribingui rivers. This supports basin/tributary distinctions only; NE Chari covers 48.1% of the sampled Hydro mainstem and cannot establish full-system identity.",
       "applied": false,
-      "nextAction": "Reconfirm partial mainstem with authoritative basin mapping"
+      "nextAction": "Use official Chari/Logone basin maps or named hydrometric stations to validate the actual Hydro mainstem and tributary split before removing OSM-derived aliases."
     },
     {
       "systemId": "10526283",
@@ -57,10 +60,12 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/"
+      ],
+      "independentFinding": "Lake Chad Basin Commission offers a non-OSM hydrological description of the Chari-Logone basin. This small, separately grouped Hydro system has no NE named-line match; official basin narrative does not assign this system's exact centerline.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Locate station coordinates or authoritative named Chari/Logone line segments; spatially test this Hydro ID independently from 10521208."
     },
     {
       "systemId": "20071308",
@@ -80,11 +85,14 @@
       "primarySourceLeads": [
         "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-oulujoen-vesistoalueella/",
         "https://www.maanmittauslaitos.fi/palvelutiedotteet/uusi-inspire-rajapinta-hydrografia-teemasta",
-        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse"
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse",
+        "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme",
+        "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/inspire-directive",
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/"
       ],
-      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID.",
+      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. National Land Survey of Finland confirms independent watercourse line vectors sourced from the National Topographic Database, via open OGC API Features/WFS without API key and under NLS open CC BY 4.0 licence. Oulujoki official hydrology is already documented; live vector query and Hydro mainstem overlap remain untested.",
       "applied": false,
-      "nextAction": "Use OGC API Features / official river line to compare both Hydro logical mainstems, separately."
+      "nextAction": "Query Finnish OGC API watercourse features over Hydro bbox 25.4231,64.0854,29.5521,65.5354; verify named segments, mainstem continuity, attribution, and licensing before source replacement."
     },
     {
       "systemId": "20075401",
@@ -96,11 +104,14 @@
       "primarySourceLeads": [
         "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-oulujoen-vesistoalueella/",
         "https://www.maanmittauslaitos.fi/palvelutiedotteet/uusi-inspire-rajapinta-hydrografia-teemasta",
-        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse"
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse",
+        "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme",
+        "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/inspire-directive",
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/"
       ],
-      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID.",
+      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. The Finnish National Land Survey independently publishes Watercourse line vector data under CC BY 4.0. System 20075401 has no NE named-line match and must not inherit 20071308's Oulujoki identity from a shared OSM relation ID.",
       "applied": false,
-      "nextAction": "Use OGC API Features / official river line to compare both Hydro logical mainstems, separately."
+      "nextAction": "Query national watercourse line segments over bbox 24.7325,64.0917,26.7688,64.8393; test whether the single Hydro feature actually follows the named Oulujoki or a tributary."
     },
     {
       "systemId": "20282318",
@@ -121,10 +132,13 @@
         }
       ],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.gov.pl/web/wody-polskie/warstwa-pzrp-w-nowej-odslonie-wtyczyki-qgis-wod-polskich",
+        "https://data.europa.eu/data/datasets/https-dane-gov-pl-pl-dataset-2167-mapa-podzialu-hydrograficznego-polski-w-skali-110"
+      ],
+      "independentFinding": "Poland's public water authority publishes MPHP10k (hydrographic division and named river network) via WMS and its QGIS plugin. This is an independent verification lead for the Polish Oder reach, not yet a downloaded/reusable named centerline or a verified full transboundary Hydro identity.",
       "applied": false,
-      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+      "nextAction": "Compare official MPHP10k Oder/Odra and Warta river sections, then cross-border join to independently sourced German reach; resolve only Hydro segments actually on the Oder mainstem."
     },
     {
       "systemId": "20456598",
@@ -173,10 +187,14 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://portal.mepa.gov.ge/Ge/User/data",
+        "https://portal.mepa.gov.ge/Ge/user/map/16",
+        "https://nea.gov.ge/En/News/2339"
+      ],
+      "independentFinding": "Georgia's environment ministry data portal lists NEA36 GCF_Basins and NEA38 Rioni_Basins as public free polygon basin/subbasin layers. They may disambiguate the Rioni catchment but are not named centerline vectors; Hydro feature-level overlap not tested.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Obtain authenticated source provenance and geometry of the official Rioni basin polygons, test system membership, then seek NEA hydrometric stations/named river polylines."
     },
     {
       "systemId": "20565620",
@@ -185,10 +203,14 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://portal.mepa.gov.ge/Ge/User/data",
+        "https://portal.mepa.gov.ge/Ge/user/map/16",
+        "https://nea.gov.ge/En/News/2339"
+      ],
+      "independentFinding": "Government NEA36/NEA38 basin polygon datasets can help distinguish a second OSM-relation-linked Rioni system from Rioni proper. Publication says Rioni subbasin work is ongoing; no named river centerline or Hydro ID-level match yet.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Separately compare this system bbox 41.6396,42.0812,43.6417,42.5646 with independent official basin geometry and locate hydrometric station references."
     },
     {
       "systemId": "20628098",
@@ -302,10 +324,12 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393"
+      ],
+      "independentFinding": "KICT 2020-161 research describes independently constructed North Korean river basin and river-network maps, including Cheongcheon River, and DEM-based channel analysis. The public report does not by itself provide a licensed reusable centerline or a measured overlap with this Hydro system.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Identify KICT/NGII map geometry and licence; compare Cheongcheon basin and centerline with Hydro logical system without copying report artwork."
     },
     {
       "systemId": "40391614",
@@ -314,10 +338,12 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393"
+      ],
+      "independentFinding": "KICT's independently developed North Korean hydrographic research recognizes Daedong River as a separate major catchment among nine basins. It is a literature/basin reference only; no actual feature-level matching yet.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Find KICT river-network line file or NGII official named source; check Daedong mainstem and confluences spatially."
     },
     {
       "systemId": "40414035",
@@ -326,10 +352,12 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393"
+      ],
+      "independentFinding": "KICT 2020-161 reports independent basin and network mapping for the Yesong River among nine major North Korean basins; publication supports hydronym/basin, not a reusable exact Hydro centerline.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Identify georeferenced government/academic hydrography for Yesong; verify 40414035 mainstem (not bbox relation alone)."
     },
     {
       "systemId": "40415850",
@@ -338,10 +366,14 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.river.go.kr/intro/nationOrigin.do",
+        "https://www.river.go.kr/summary/riverList.do",
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393"
+      ],
+      "independentFinding": "Korean river management authority separately identifies Imjin River as river code 1005980 with its source in North Korea, and KICT basin-network research includes Imjin. Korean official identity is corroborated; published river centerline and Hydro mainstem overlap remain unchecked.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Use official Imjin river code 1005980 / upstream KICT basin data to test Hydro mainstem geometry; retain approved 임진강/림진강 variants pending full comparison."
     },
     {
       "systemId": "40423228",
@@ -362,10 +394,14 @@
         }
       ],
       "previousFlag": "한강 수계 전체를 남한강으로 이름붙였을 가능성",
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.river.go.kr/intro/nationOrigin.do",
+        "https://www.river.go.kr/summary/riverList.do",
+        "https://www.kwater.or.kr/news/repoView.do?brdId=KO26&s_mid=362&seq=137461"
+      ],
+      "independentFinding": "Official Korean RIMGIS distinguishes Han river system code 1000010 and separate North Han river; K-water describes independently aggregated named river centerlines. Neither metadata alone determines whether Hydro grouped route should display 남한강 for every fragment.",
       "applied": false,
-      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+      "nextAction": "Acquire independent Korean national river centerline/name segmentation and compare Namhan/Han reach labels, including Namhan-to-Han transition and tributary splits."
     },
     {
       "systemId": "40475481",
@@ -374,10 +410,14 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.river.go.kr/intro/nationOrigin.do",
+        "https://www.river.go.kr/summary/riverList.do",
+        "https://www.kwater.or.kr/news/repoView.do?brdId=KO26&s_mid=362&seq=137461"
+      ],
+      "independentFinding": "The Korean national river authority identifies Geum River by code 3000010 and names its origin near Jangsu. K-water confirms an independently assembled national named river centerline service, but the exact Hydro system has not been geometry-matched.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Compare Hydro bbox 126.7854,35.7188,127.7146,36.5187 with official Geum code 3000010 river path and available station/control points."
     },
     {
       "systemId": "40486439",
