@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-10-24T14:17:51.650Z",
+  "reason": "GIS report changes completed during report archival",
+  "editions": [
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/code-file-manifest.json",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/code-file-manifest.json",
+      "archived": "reports/geography/ussr-1922-caspian-application-2026-10-24/code-file-manifest.json",
+      "bytes": 7154,
+      "sha256": "013ab81f5a1abc06326f355abef5d10c1848080eb7fd5140b5f2d9c79cc402ed"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json",
+      "archived": "reports/archive/report-editions/a1f493138b0313c91f44ab8b4bfb79b3f1bea3944cde0e05f5bd47e33e54e392.json",
+      "bytes": 1734,
+      "sha256": "a1f493138b0313c91f44ab8b4bfb79b3f1bea3944cde0e05f5bd47e33e54e392"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/README.md",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/README.md",
+      "archived": "reports/geography/ussr-1922-caspian-application-2026-10-24/README.md",
+      "bytes": 9142,
+      "sha256": "71abf67cc8a5a4871704af9279ca23a7f89a39596d7fef10cfa9685cb66d03c7"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/task-cleanup.json",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/task-cleanup.json",
+      "archived": "reports/geography/ussr-1922-caspian-application-2026-10-24/task-cleanup.json",
+      "bytes": 277,
+      "sha256": "127358ddd9051dfbd88efeb08ce1310efc8d7a83f14f40d92af7a7474a9a5bf4"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-blocked-2026-10-24.md",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-blocked-2026-10-24.md",
+      "archived": "reports/geography/ussr-1922-caspian-application-blocked-2026-10-24.md",
+      "bytes": 6916,
+      "sha256": "acc5d9a099c711e955f22e9cb8a0cf1e7132d2e5b0d62d565ef7dae571966c78"
+    }
+  ]
+}

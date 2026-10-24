@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-10-24T14:17:51.654Z",
+  "originalAndRemoteMainMerged": true,
+  "priorVerification": {
+    "verifiedAt": "2026-10-24T14:14:11.562Z",
+    "head": "41fa5754fc25c8513984c60df2d00796c6836323",
+    "verifiedStoredFiles": 183,
+    "verifiedStoredBytes": 30142851,
+    "reportEntries": 3837,
+    "workingFiles": 256,
+    "missing": [
+      {
+        "relative": ".edits/ui/reference-analysis/models/macro-v5/boundary.pt",
+        "bytes": 16909633,
+        "sha256": "c53d04ec3612f9d5502e43b03a20a5afa62ae77a693f3e2314492cf1a69f2d0c",
+        "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\ui\\reference-analysis\\models\\macro-v5\\boundary.pt"
+      },
+      {
+        "relative": ".edits/ui/reference-analysis/models/macro-v5/training.log",
+        "bytes": 144,
+        "sha256": "323a156bbf029a7594133ec8ea71d74a2837f5da6ef213a4ed688d574120bec0",
+        "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\ui\\reference-analysis\\models\\macro-v5\\training.log"
+      }
+    ],
+    "nonReportDrift": []
+  },
+  "protectedWork": [
+    {
+      "root": "D:/dev/PandoLab",
+      "head": "287eeeadee3d50a3b992607db71ee264126f6684",
+      "headUnchanged": true,
+      "pinUnchanged": true,
+      "protectedPaths": 41,
+      "changedPaths": [],
+      "missingPaths": []
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "head": "c1efa658cedbf35c0f5d7f65c8e0847f393afc76",
+      "headUnchanged": true,
+      "pinUnchanged": true,
+      "protectedPaths": 42,
+      "changedPaths": [
+        "tools/reference-analysis/README.md",
+        "tools/reference-analysis/macro.py",
+        "tools/reference-analysis/train.py"
+      ],
+      "missingPaths": []
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "head": "da6c04b3bdf49a89f1bafc1b5d76bc25a1e86bb9",
+      "headUnchanged": false,
+      "pinUnchanged": true,
+      "protectedPaths": 168,
+      "changedPaths": [
+        "docs/superpowers/plans/2026-10-24-ussr-caspian-application.md",
+        "tests/browser/ussr-1922-caspian.spec.mjs"
+      ],
+      "missingPaths": []
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "head": "70a110cf8a1fa849046bb732e04dad3f547558bf",
+      "headUnchanged": true,
+      "pinUnchanged": true,
+      "protectedPaths": 41,
+      "changedPaths": [],
+      "missingPaths": []
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "head": "70a110cf8a1fa849046bb732e04dad3f547558bf",
+      "headUnchanged": true,
+      "pinUnchanged": true,
+      "protectedPaths": 41,
+      "changedPaths": [],
+      "missingPaths": []
+    }
+  ],
+  "additionalArtifacts": [
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/code-file-manifest.json",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/code-file-manifest.json",
+      "archived": "reports/geography/ussr-1922-caspian-application-2026-10-24/code-file-manifest.json",
+      "bytes": 7154,
+      "sha256": "013ab81f5a1abc06326f355abef5d10c1848080eb7fd5140b5f2d9c79cc402ed"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json",
+      "archived": "reports/archive/report-editions/a1f493138b0313c91f44ab8b4bfb79b3f1bea3944cde0e05f5bd47e33e54e392.json",
+      "bytes": 1734,
+      "sha256": "a1f493138b0313c91f44ab8b4bfb79b3f1bea3944cde0e05f5bd47e33e54e392"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/README.md",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/README.md",
+      "archived": "reports/geography/ussr-1922-caspian-application-2026-10-24/README.md",
+      "bytes": 9142,
+      "sha256": "71abf67cc8a5a4871704af9279ca23a7f89a39596d7fef10cfa9685cb66d03c7"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/task-cleanup.json",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/task-cleanup.json",
+      "archived": "reports/geography/ussr-1922-caspian-application-2026-10-24/task-cleanup.json",
+      "bytes": 277,
+      "sha256": "127358ddd9051dfbd88efeb08ce1310efc8d7a83f14f40d92af7a7474a9a5bf4"
+    },
+    {
+      "logical": "reports/geography/ussr-1922-caspian-application-blocked-2026-10-24.md",
+      "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-blocked-2026-10-24.md",
+      "archived": "reports/geography/ussr-1922-caspian-application-blocked-2026-10-24.md",
+      "bytes": 6916,
+      "sha256": "acc5d9a099c711e955f22e9cb8a0cf1e7132d2e5b0d62d565ef7dae571966c78"
+    }
+  ],
+  "activeTraining": {
+    "paths": [
+      ".edits/ui/reference-analysis/models/macro-v5/boundary.pt",
+      ".edits/ui/reference-analysis/models/macro-v5/training.log"
+    ],
+    "snapshot": "supplement-1.json",
+    "policy": "Running producers remain untouched; subsequent epoch updates remain live work and are not treated as final reports."
+  },
+  "checks": {
+    "focusedMergeWhitespace": true,
+    "unresolvedMergeConflicts": 0,
+    "nativeBuilds": 0,
+    "fullTestRuns": 0,
+    "remotePushVerified": false
+  }
+}
