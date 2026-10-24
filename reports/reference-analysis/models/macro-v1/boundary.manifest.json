@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "architecture": "mobilenetv3-unet-context-v1",
+  "classes": [
+    "international",
+    "administrative",
+    "coast",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "tileSize": 512,
+  "overlap": 64,
+  "overviewSize": 256,
+  "model": {
+    "url": "boundary.onnx",
+    "sha256": "48dc77b43e4bdad2555bb757a46f2da818f50b897686c1461f1a9efc5ece4155",
+    "bytes": 16697571
+  },
+  "corpusSha256": "da4e0465837fe5ec76a48ebf292af993eb21b95ff8d0ab34d418fe39dd5c8d08",
+  "evaluationStatus": "pending",
+  "releaseApproved": false,
+  "trainingOnly": true,
+  "trainingBatches": 352,
+  "optimizerUpdates": 349,
+  "stepCountKind": "attempted-batches",
+  "unobservedChannels": [
+    "coast",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ]
+}

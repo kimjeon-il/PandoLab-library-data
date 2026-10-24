@@ -24,7 +24,3 @@ Reference date: 1914-07-28
 
 ## Status
 Ready as a 1914 Kingdom of Serbia base geometry. The north/west frontier is compatible with the previously reconstructed Austria-Hungary frontier; remaining south/east edges come from the HistoGIS Serbia state polygon valid for 1913–1919.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/90f2484c6a45a9735bd851c43776024196bd6c49a8049f14d8bfa5e3cdeb7213.gz) · 원본 SHA-256 `90f2484c6a45a9735bd851c43776024196bd6c49a8049f14d8bfa5e3cdeb7213`.

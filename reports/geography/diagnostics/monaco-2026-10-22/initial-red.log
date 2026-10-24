@@ -1,0 +1,32 @@
+EEE
+======================================================================
+ERROR: test_coastal_repair_uses_shared_border_and_only_reviewed_outer_arc (__main__.SupplementTests.test_coastal_repair_uses_shared_border_and_only_reviewed_outer_arc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_lsib_boundary_supplement.py", line 36, in test_coastal_repair_uses_shared_border_and_only_reviewed_outer_arc
+    updated, sections, review = module.repair_coastal_boundary(geometries, border, coasts)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'supplement' has no attribute 'repair_coastal_boundary'. Did you mean: 'repair_enclave_boundary'?
+
+======================================================================
+ERROR: test_coastal_repair_rejects_missing_anchor_and_large_endpoint_move (__main__.SupplementTests.test_coastal_repair_rejects_missing_anchor_and_large_endpoint_move)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_lsib_boundary_supplement.py", line 61, in test_coastal_repair_rejects_missing_anchor_and_large_endpoint_move
+    module.repair_coastal_boundary(geometries, border, coasts)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'supplement' has no attribute 'repair_coastal_boundary'. Did you mean: 'repair_enclave_boundary'?
+
+======================================================================
+ERROR: test_reviewed_coast_manifest_pins_features_level_and_bytes (__main__.SupplementTests.test_reviewed_coast_manifest_pins_features_level_and_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_lsib_boundary_supplement.py", line 82, in test_reviewed_coast_manifest_pins_features_level_and_bytes
+    loaded, _ = module.reviewed_coast_reference(root, file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'supplement' has no attribute 'reviewed_coast_reference'. Did you mean: 'reviewed_reference'?
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.026s
+
+FAILED (errors=3)

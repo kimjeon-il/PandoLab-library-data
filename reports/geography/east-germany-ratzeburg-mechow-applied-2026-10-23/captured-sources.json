@@ -1,0 +1,42 @@
+[
+  {
+    "name": "mechower-authority.html",
+    "url": "https://www.schaalsee.de/schuetzen-entwickeln/naturschutz/naturschutzgebiete/mechower-see",
+    "capturedAt": "2026-10-23T00:45:58.700Z",
+    "stored": "mechower-authority.html.gz",
+    "bytes": 151111,
+    "sha256": "26f03dc7a1d2bcf00e130048ec8d4feb89b8cdb07afe540adac992bb5b2e37ab"
+  },
+  {
+    "name": "kreis-boundary-continuity.html",
+    "url": "https://www.kreis-rz.de/Adressen/Zweckverband-Schaalsee-Landschaft-.php?ModID=9&FID=327.1042.1",
+    "capturedAt": "2026-10-23T00:45:58.745Z",
+    "stored": "kreis-boundary-continuity.html.gz",
+    "bytes": 25155,
+    "sha256": "e851f05810db0c8ce2c4e9a8bdfd4ce54d869cb400f3957c7b673ecb5f524208"
+  },
+  {
+    "name": "grenzparcours.html",
+    "url": "https://www.grenzhus.de/grenzparcours/",
+    "capturedAt": "2026-10-23T00:45:58.746Z",
+    "stored": "grenzparcours.html.gz",
+    "bytes": 228194,
+    "sha256": "2290da6983ca9330b5311029ee786c0a7079ecc543c4d04724158e89e9a73c5c"
+  },
+  {
+    "name": "schaalsee-1990-ordinance.pdf",
+    "url": "https://www.schaalsee.de/fileadmin/schaalsee/Downloads/01_Wissen_und_Verstehen/Gesetze/NSG_Mechower_See/Verordnung_Naturpark_Schaalsee_mit_NSG_1990.pdf",
+    "capturedAt": "2026-10-23T00:45:58.747Z",
+    "stored": "schaalsee-1990-ordinance.pdf.gz",
+    "bytes": 1120633,
+    "sha256": "99733e9440f3673864f2a2fd037379e09f29f20d3e92dddeff38092607e33db7"
+  },
+  {
+    "name": "grenzwege-map.pdf",
+    "url": "https://www.grenzhus.de/wp-content/uploads/2017/06/GRENZWEGE-Karte.pdf",
+    "capturedAt": "2026-10-23T00:45:58.748Z",
+    "stored": "grenzwege-map.pdf.gz",
+    "bytes": 242894,
+    "sha256": "03fcd89a95eee109c723c418f1819a6e29bee1ea6a7e1c3ba8d77be3324774cd"
+  }
+]

@@ -3,7 +3,7 @@
 > 보고서 ID: DEV-QT-RETIRE-20261018 · 상태: verified-focused-runtime · 지도 반영: not-applicable
 > 원문 최종 수정: 2026-10-18
 > 조사 기준: 통합 Web/App 커밋 `43d13b10ef0276ada9dd91430d59b3266ae7e286` + work/ui 미커밋 변경
-> 원본·출처: [파일·해시·검사 기록](../../../archive/blobs/38a641f870ede0398ebcb030acc7c8952125093a35423b961b4e02f48e7338aa.gz)
+> 원본·출처: [파일·해시·검사 기록](qt-app-retirement-2026-10-18.json)
 
 ## 제거 범위
 
@@ -37,7 +37,3 @@ WASM을 실제 로드하는 검사 파일 4개는 `PL-CORE-PREREQUISITE-STALE`�
 앞서 차단됐던 검사 파일 4개를 재실행했다. 테스트 helper 두 곳이 schema v1과 propertyBindings 누락 입력을 만들던 문제는 현재 TIMELINE_RECORD_SCHEMA_VERSION과 빈 propertyBindings를 사용하도록 수정했다. 제품 검증기를 완화하거나 기대값·고정 원본 fixture를 변경하지 않았다. 재실행 결과 20/20 통과이며 선택 14단계, 전체 문서의 저장 시점·Undo/Redo, 새 앱 staging, 참조 이미지 계산을 포함한다. 패키지 검사 및 소스 prerequisite도 통과했다.
 
 새 앱·Qt·BAT·브라우저 UI는 실행하지 않았다. 전체 CI·전체 테스트 통과를 뜻하지 않는다. 후속 Pages 배포 결과는 main의 Pages workflow 실행과 최종 사용자 응답에서 확인한다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/9017166cf0bf71757ce8c9cd6a4c0b402841d5ae5d4a71f933c184cc09b672c8.gz) · 원본 SHA-256 `9017166cf0bf71757ce8c9cd6a4c0b402841d5ae5d4a71f933c184cc09b672c8`.

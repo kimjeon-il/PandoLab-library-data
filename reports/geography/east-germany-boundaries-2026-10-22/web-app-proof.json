@@ -1,0 +1,53 @@
+{
+  "sourceId": "state:deutsche-demokratische-republik",
+  "geometryVersion": "state:deutsche-demokratische-republik:1989-04-25-r1",
+  "objectId": "c648e16f-8f96-4288-9553-fe9577ed5280",
+  "appImport": true,
+  "undoRedo": true,
+  "webFileGeometryEqual": true,
+  "precisionAudits": [
+    {
+      "discards": [
+        {
+          "areaM2": 1.7375922023057466e-8,
+          "operationIndex": 1,
+          "polygonIndex": 0,
+          "ringCount": 1,
+          "vertexCount": 4
+        },
+        {
+          "areaM2": 9.68478090526652e-9,
+          "operationIndex": 3,
+          "polygonIndex": 18,
+          "ringCount": 1,
+          "vertexCount": 4
+        },
+        {
+          "areaM2": 1.1993896884597105e-7,
+          "operationIndex": 7,
+          "polygonIndex": 0,
+          "ringCount": 1,
+          "vertexCount": 4
+        },
+        {
+          "areaM2": 3.7769053854880005e-8,
+          "operationIndex": 7,
+          "polygonIndex": 1,
+          "ringCount": 1,
+          "vertexCount": 4
+        }
+      ],
+      "objectIds": [
+        "c648e16f-8f96-4288-9553-fe9577ed5280"
+      ],
+      "sourceEntityIds": [
+        "state:deutsche-demokratische-republik"
+      ]
+    }
+  ],
+  "webFileBytes": 57098240,
+  "packageSha256": "0dcc2b8cd738462da32e053fa7ee02b070af1cc33b9ace62845304bf831480db",
+  "webErrors": [],
+  "appProof": "app-import-undo-redo-proof.json",
+  "combinedPlaywrightCase": "Semantic assertions passed; optional Web upload stopped at Playwright 50MB buffer limit. Web-only file-path continuation passed."
+}

@@ -1,0 +1,65 @@
+{
+  "sourceCommit": "2ea0c1e663d2a72ee17c257a2be90de94f50d729",
+  "dataCommit": "7e7a015ebddada00d97d899e11c9ebcc1847452a",
+  "fileCount": 1701,
+  "bytes": 202696903,
+  "metadataCheck": "passed",
+  "results": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 60013,
+      "sha256": "8300477e34adef46992f5a85899284065bbbb7c2be907bb988ac03e7af6b69d5",
+      "artifactMatch": true,
+      "commitMatch": true
+    },
+    {
+      "path": "assets/js/build-meta.js",
+      "status": 200,
+      "bytes": 58011,
+      "sha256": "198c3de00178309f6b6941bf218d57192e1600a3806da2aaa88d075879280c57",
+      "artifactMatch": true,
+      "commitMatch": true
+    },
+    {
+      "path": "assets/css/viewer.css",
+      "status": 200,
+      "bytes": 4237,
+      "sha256": "af357192a1022a340099af62235b5cb32977390ccbe25ba3c35cf1a5e2a63a36",
+      "artifactMatch": true,
+      "commitMatch": true
+    },
+    {
+      "path": "assets/css/ui-viewer.bundle.css",
+      "status": 200,
+      "bytes": 243025,
+      "sha256": "93a39f23734cba7586564a664f188b97c52e80b36a24847422d908794b6b2a56",
+      "artifactMatch": true,
+      "commitMatch": true
+    },
+    {
+      "path": "assets/js/modules/timeline-controls.js",
+      "status": 200,
+      "bytes": 6648,
+      "sha256": "839b8536e7407ef5e96d907f9c4219158a9e3fa931f062dd4a20e8797b04ff06",
+      "artifactMatch": true,
+      "commitMatch": true
+    },
+    {
+      "path": "assets/js/modules/viewer-composition.js",
+      "status": 200,
+      "bytes": 15488,
+      "sha256": "f39b02f8a3a303072031b330da5504b3174b48171901d565ae1f86593b620911",
+      "artifactMatch": true,
+      "commitMatch": true
+    },
+    {
+      "path": "assets/js/modules/map-renderer-composition.js",
+      "status": 200,
+      "bytes": 5468,
+      "sha256": "32bf8f3b338cf21b2c4ca312605917900c94ec3e5882393f63d06634bc744867",
+      "artifactMatch": true,
+      "commitMatch": true
+    }
+  ]
+}

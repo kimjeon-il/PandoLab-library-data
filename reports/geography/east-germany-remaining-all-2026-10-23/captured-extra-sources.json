@@ -1,0 +1,42 @@
+[
+  {
+    "name": "helmstedt-museum-2015.pdf",
+    "url": "https://www.grenzdenkmaeler.de/fileadmin/user_upload/Grenzdenkmaeler/Downloads/Grenzenlos_2015_Internet.pdf",
+    "capturedAt": "2026-10-23T01:59:11.227Z",
+    "stored": "helmstedt-museum-2015.pdf.gz",
+    "bytes": 4617901,
+    "sha256": "eb394cd80bead80c3d55b25f5e5254d6d64d6d6cb8b6010fac6c9e346a1b67f8"
+  },
+  {
+    "name": "lappwald-official-regulation-2019.pdf",
+    "url": "https://www.nlwkn.niedersachsen.de/download/147563",
+    "capturedAt": "2026-10-23T01:59:11.360Z",
+    "stored": "lappwald-official-regulation-2019.pdf.gz",
+    "bytes": 389914,
+    "sha256": "760782e16a6771ca6efaf4bdfdc2c20108a09f8187c293dd8b318ef1f20ea9ff"
+  },
+  {
+    "name": "saxony-international-boundaries.html",
+    "url": "https://www.landesvermessung.sachsen.de/staatsgrenzen-9118.html",
+    "capturedAt": "2026-10-23T01:59:11.362Z",
+    "stored": "saxony-international-boundaries.html.gz",
+    "bytes": 77201,
+    "sha256": "33bc2725bd55f28307e17a2a7e3549fe7c244e2221210871d48642c47fc4dc2f"
+  },
+  {
+    "name": "saxony-border-survey-duties.html",
+    "url": "https://www.landesvermessung.sachsen.de/aufgaben-9112.html",
+    "capturedAt": "2026-10-23T01:59:11.363Z",
+    "stored": "saxony-border-survey-duties.html.gz",
+    "bytes": 51590,
+    "sha256": "81ef4a9b078dd103452617b9673006bf442d320fe42fdd7cfbaddfe0ef2b8615"
+  },
+  {
+    "name": "thuringia-historical-map-download.html",
+    "url": "https://geoportal.geoportal-th.de/gaialight-th/_apps/dladownload/dl-histkart1.html",
+    "capturedAt": "2026-10-23T01:59:11.364Z",
+    "stored": "thuringia-historical-map-download.html.gz",
+    "bytes": 970,
+    "sha256": "8bc4abe14fd3be7766c6fe4d9f11a1cf792c3881a285246aa4973903ad17430f"
+  }
+]

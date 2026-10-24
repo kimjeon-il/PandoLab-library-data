@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "trainingOnly": true,
+  "sheets": [
+    {
+      "id": "cia-world-political-2021",
+      "familyId": "cia-world-political-robinson",
+      "editionId": "cia-february-2021",
+      "duplicateGroup": "cia-world-political-2021",
+      "split": "train",
+      "image": "derived/cia-world-political-2021.jpg",
+      "sha256": "a882b7bffc5da41bac9df4090f66d524b2ade5fb818c5104d91ca3b1c3297a75",
+      "annotations": "labels/cia-world-political-2021.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "geographicScope": "world",
+      "scopeEvidence": "Complete single-page political world map, Robinson projection, printed scale 1:35,000,000",
+      "source": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/CIA_World_Map_Political_2021.pdf",
+        "metadataUrl": "https://commons.wikimedia.org/wiki/File:CIA_World_Map_Political_2021.pdf",
+        "license": "CIA public-domain map; credit Central Intelligence Agency; retain all map notices and archival mirror provenance",
+        "rightsUrl": "https://www.cia.gov/site-policies/",
+        "published": "2021-02"
+      }
+    },
+    {
+      "id": "nrcan-canada-national",
+      "familyId": "atlas-canada-national-reference",
+      "editionId": "nrcan-canada-credit-2024",
+      "duplicateGroup": "nrcan-canada-national",
+      "split": "train",
+      "image": "derived/nrcan-canada-national.jpg",
+      "sha256": "c7901cb1c8e37f5d4dd5bb8ef50d3f78952a0eb737f3a4f95201ef7d2baa6ec6",
+      "annotations": "labels/nrcan-canada-national.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "geographicScope": "country",
+      "scopeEvidence": "Complete national Canada PDF with all provinces/territories and adjacent foreign areas; official small-scale reference collection",
+      "source": {
+        "url": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_canada/colour/Canada.pdf",
+        "metadataUrl": "https://open.canada.ca/data/en/dataset/e9ffaaa6-c8f0-4c88-be9a-5d019a919ad8",
+        "license": "Contains information licensed under the Open Government Licence - Canada. Source: Natural Resources Canada, Atlas of Canada. Retain Crown copyright and map credits.",
+        "rightsUrl": "https://open.canada.ca/en/open-government-licence-canada",
+        "published": null
+      }
+    },
+    {
+      "id": "cia-asia-political",
+      "familyId": "cia-asia-political-azimuthal",
+      "editionId": "cia-asia-803612ai-2013",
+      "duplicateGroup": "cia-asia-political-2013",
+      "split": "train",
+      "image": "derived/cia-asia-political.jpg",
+      "sha256": "5445992eac4264e51738e84c37ab28b0d478bf93e268949a2eb7d8b04f704139",
+      "annotations": "labels/cia-asia-political.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "geographicScope": "continent",
+      "scopeEvidence": "Complete Asia continental map, printed 1:48,000,000 and Azimuthal Equal-Area Projection; whole-map frame inspected.",
+      "source": {
+        "url": "https://maps.lib.utexas.edu/maps/middle_east_and_asia/asia_pol_2013.pdf",
+        "metadataUrl": "https://maps.lib.utexas.edu/maps/asia.html",
+        "license": "CIA public-domain map; credit Central Intelligence Agency and University of Texas Libraries archival reproduction; retain source notices.",
+        "rightsUrl": "https://www.cia.gov/site-policies/",
+        "published": "2013"
+      }
+    },
+    {
+      "id": "nrcan-canada-monochrome",
+      "familyId": "atlas-canada-national-reference",
+      "editionId": "nrcan-canada-credit-2024",
+      "duplicateGroup": "nrcan-canada-national",
+      "split": "train",
+      "image": "derived/nrcan-canada-monochrome.jpg",
+      "sha256": "67825bcd24499cd6e08e2dab561e1d455ee12d6869ae290f4e4e7a4e74320e3b",
+      "annotations": "labels/nrcan-canada-monochrome.json",
+      "mapKind": "monochrome",
+      "language": "eng",
+      "script": "Latin",
+      "geographicScope": "country",
+      "scopeEvidence": "Complete national Canada monochrome PDF; same full-country geometry and publisher edition as the colour variant, with its own printed legend.",
+      "source": {
+        "url": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_canada/b&w/Canadab&w.pdf",
+        "metadataUrl": "https://open.canada.ca/data/en/dataset/e9ffaaa6-c8f0-4c88-be9a-5d019a919ad8",
+        "license": "Contains information licensed under the Open Government Licence - Canada. Source: Natural Resources Canada, Atlas of Canada. Retain Crown copyright and map credits.",
+        "rightsUrl": "https://open.canada.ca/en/open-government-licence-canada",
+        "published": null
+      }
+    }
+  ]
+}

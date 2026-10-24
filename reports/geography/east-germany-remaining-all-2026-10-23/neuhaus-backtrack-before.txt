@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_neuhaus_printed_border_has_no_digitization_backtrack (tests.test_v0300_east_germany_library.EastGermanyHistoricalLibraryTests.test_neuhaus_printed_border_has_no_digitization_backtrack)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_v0300_east_germany_library.py", line 249, in test_neuhaus_printed_border_has_no_digitization_backtrack
+    self.assertTrue(all(step >= -1 for step in steps) or all(step <= 1 for step in steps))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+FAILED (failures=1)

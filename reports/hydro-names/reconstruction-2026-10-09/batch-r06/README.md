@@ -27,7 +27,3 @@ The two selected lake GeoJSON collections are derived from public-domain Natural
 ## Incremental continuity
 
 The previous 15 logical targets are fixed through `761150320ff05b4459fbd3cb899d3b46a858fa4b`. This batch adds exactly three distinct new lake targets, for 18 total: 14 lake features and four river groups. Supported, candidate and whole-scope-hold categories remain separate. The unavailable historical 504-target ledger is not restored or added to this count.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/13f3569b3b5d3dbf0a2c5f1c4d9784dcec93c35c79624efd6277b420a3d1c8ac.gz) · 원본 SHA-256 `13f3569b3b5d3dbf0a2c5f1c4d9784dcec93c35c79624efd6277b420a3d1c8ac`.

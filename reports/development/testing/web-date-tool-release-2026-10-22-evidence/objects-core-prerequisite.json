@@ -1,0 +1,12 @@
+{
+  "code": "PL-CORE-PREREQUISITE-STALE",
+  "sourceHead": "7f4ed5b0661146e8ed020b86be9f02f62bcf9975",
+  "currentSource": "e3358a716040d593d44d4b127c2c0dac5147aa27b1c0e797a69cf758373b50f4",
+  "packagedSource": "10aa3ff4e05037670655332ec1755b075254edfe09ede1b09e233a4fb3137684",
+  "affectedTestFiles": [
+    "tests/unit/timeline-controls.test.mjs",
+    "tests/unit/user-preferences.test.mjs"
+  ],
+  "changedSharedOrWasmFiles": "",
+  "packagedAssetsRebuilt": false
+}

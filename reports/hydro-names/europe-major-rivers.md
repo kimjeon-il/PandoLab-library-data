@@ -11,12 +11,8 @@
 
 ## 정본 자료 및 재현
 
-- [33개 ID별 판정·원명·추천 한국명·지오메트리 수치·근거 출처](../../archive/blobs/022bae5f399326983fe753ad7abb5d3b7a5c622e78bc6502006902adbbd87861.gz) — 원본 연구 값 전체 (`schemaVersion: 1`).
-- [검토 당시 지리적 오버레이](../../archive/blobs/000ff0ee8e97f2fc96aa302f19fec41ecc1285ff18c6c36a74bf878c60db9ef8.gz).
+- [33개 ID별 판정·원명·추천 한국명·지오메트리 수치·근거 출처](europe-major-rivers.json) — 원본 연구 값 전체 (`schemaVersion: 1`).
+- [검토 당시 지리적 오버레이](europe-major-rivers.geojson).
 - [축약 이전 ID별 상세 표·근거 설명 (고정 Git 커밋)](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/hydro-names/europe-major-rivers.md).
 
 당시 보고서의 `accepted-candidate`는 연구 판정이다. 지금의 수계 배포 버전이나 명칭 반영 여부는 따로 검증해야 한다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../archive/blobs/49a0a42387af770f39edcefd252290409d7005f6d1d0f7ec6bb6b29fcdf77c37.gz) · 원본 SHA-256 `49a0a42387af770f39edcefd252290409d7005f6d1d0f7ec6bb6b29fcdf77c37`.

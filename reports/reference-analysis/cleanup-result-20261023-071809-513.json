@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-22T22:18:29.5823157Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "eligibleBytes": 253792256,
+  "deletedBytes": 253792256,
+  "entries": [
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-70789caf-failed\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22678528,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22678528,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22564864,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-9bd078c7\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22670848,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-9bd078c7\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22546432,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-baseline\\p9-windows-qt-baseline-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-candidate\\p9-windows-qt-candidate-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-candidate\\p9-windows-qt-candidate-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23380480,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-baseline\\p9-windows-qt-baseline-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-candidate\\p9-windows-qt-candidate-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-candidate\\p9-windows-qt-candidate-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23379968,
+      "reason": ""
+    }
+  ]
+}

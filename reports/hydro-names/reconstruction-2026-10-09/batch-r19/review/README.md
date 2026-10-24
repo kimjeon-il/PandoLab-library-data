@@ -25,7 +25,3 @@ Run Python with -B on validate-independent-review.py or test-independent-review.
 ## Continuity
 
 Only the prior54 ID membership and current3 delta were checked. The cumulative record is57 targets with4,008 still absent from the fresh reconstruction index:3,436 river groups and572 lakes. These are inventory target counts, not numbers of verified names. The two prior access-pending IDs and17 prior naming holds remain open without re-auditing their originals. Sandfly retains its eastern-basin limitation; Lake Ohrid and literal Prespa Lake remain low-confidence naming candidates, and the smaller southeastern lake remains unassigned. No prior naming decision, product data, geometry or live deployment was changed.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/a903d60e8014153e269d9860f21811ffefffa29a647a19d8f0a858e98355a016.gz) · 원본 SHA-256 `a903d60e8014153e269d9860f21811ffefffa29a647a19d8f0a858e98355a016`.

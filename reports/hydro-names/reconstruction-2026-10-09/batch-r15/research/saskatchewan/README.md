@@ -13,7 +13,3 @@ Evidence is the Water Security Agency's November 25, 2014 map, at a printed scal
 This directory contains bibliography, factual observations and selected geometry facts. The original publication and inspection materials are excluded. Public validation checks included records and geometry; it does not reproduce omitted visual map evidence.
 
 Whole-feature scalar and Korean names remain null. Automatic application and product application are false.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/321a37d3dd305a94e0b27313de70cdb071a577ed954faa539f20c050e1183603.gz) · 원본 SHA-256 `321a37d3dd305a94e0b27313de70cdb071a577ed954faa539f20c050e1183603`.

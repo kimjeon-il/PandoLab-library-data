@@ -11,7 +11,3 @@
 - 좌표는 단순화하지 않고 Hydro 원본을 1e-6도 Int32로 보존했습니다.
 
 정량 결과는 `validation.json`에 기록되어 있습니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../archive/blobs/c3c60a85f1aae761112592ec7c3cd8fbb28cf8bb4b56743874bf09f42d302a7e.gz) · 원본 SHA-256 `c3c60a85f1aae761112592ec7c3cd8fbb28cf8bb4b56743874bf09f42d302a7e`.

@@ -1,0 +1,23 @@
+{
+  "id": "usgs-pajarito-peak-2014",
+  "familyId": "usgs-us-topo",
+  "editionId": "usgs-az-2014",
+  "language": "eng",
+  "script": "Latin",
+  "published": "2014-12-15",
+  "format": "pdf",
+  "materialKind": "publisher-layered-pdf",
+  "rightsReviewed": true,
+  "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+  "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+  "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88e73f82cef33f43f0119f",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/AZ/AZ_Pajarito_Peak_20141215_TM_geo.pdf",
+  "expectedBytes": 13477214,
+  "maximumBytes": 33554432,
+  "sha256": "27b7d5be1db48272b3bca82415ec76f5e2d4078501b44408376f7592b92d6878",
+  "bytes": 13477214,
+  "acquiredAt": "2026-10-23T03:29:15.645236+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

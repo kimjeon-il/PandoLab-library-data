@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "tests": {
+    "macroCorpusSourcePython": 23,
+    "modelPython": 9,
+    "nodePackagingAndTiles": 4,
+    "total": 36,
+    "passed": true
+  },
+  "originalCorpusFilesUnchanged": 37,
+  "initializerFilesUnchanged": 3,
+  "runtimePin": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+  "fullDeviceWorkflowVerified": false,
+  "activeModelPromoted": false,
+  "independentEvaluation": false
+}

@@ -1,0 +1,53 @@
+{"id": "semap-berkeleylib_000004-0_2662_1421", "inputChroma": 22.70361328125, "source": "actual-author-training-image"}
+{"id": "semap-bordeaux_montaigne_025335-0_4787_1817", "inputChroma": 35.65985107421875, "source": "actual-author-training-image"}
+{"id": "semap-bostonleventhal_026006-0_1241_1103", "inputChroma": 40.097412109375, "source": "actual-author-training-image"}
+{"id": "semap-loc_091362-15_834_3141", "inputChroma": 22.440673828125, "source": "actual-author-training-image"}
+{"id": "semap-nypl_098391-0_1028_2602", "inputChroma": 39.836669921875, "source": "actual-author-training-image"}
+{"id": "semap-unileiden_106094-0_4125_4229", "inputChroma": 47.44049072265625, "source": "actual-author-training-image"}
+{"id": "semap-wwu_munster_110270-0_2678_3159", "inputChroma": 12.6414794921875, "source": "actual-author-training-image"}
+{"id": "semap-berkeleylib_000169-16_2039_4697", "inputChroma": 19.27313232421875, "source": "actual-author-training-image"}
+{"id": "semap-bordeaux_montaigne_024922-0_12174_3034", "inputChroma": 35.44354248046875, "source": "actual-author-training-image"}
+{"id": "semap-erara_076588-0_1341_2511", "inputChroma": 35.93743896484375, "source": "actual-author-training-image"}
+{"id": "semap-loc_090404-2_3350_1143", "inputChroma": 21.841552734375, "source": "actual-author-training-image"}
+{"id": "semap-unileiden_109429-0_4600_2289", "inputChroma": 15.1546630859375, "source": "actual-author-training-image"}
+{"id": "semap-wwu_munster_110412-0_8724_12351", "inputChroma": 32.010009765625, "source": "actual-author-training-image"}
+{"id": "semap-berkeleylib_000161-3_3071_4277", "inputChroma": 77.1053466796875, "source": "actual-author-training-image"}
+{"id": "semap-bordeaux_montaigne_025398-0_8129_6075", "inputChroma": 21.5430908203125, "source": "actual-author-training-image"}
+{"id": "semap-bostonleventhal_026316-0_6141_918", "inputChroma": 29.097900390625, "source": "actual-author-training-image"}
+{"id": "semap-princeton_099601-0_624_2149", "inputChroma": 82.19091796875, "source": "actual-author-training-image"}
+{"id": "semap-unileiden_108804-23_3295_1389", "inputChroma": 45.53314208984375, "source": "actual-author-training-image"}
+{"id": "semap-bostonleventhal_028486-0_247_1083", "inputChroma": 31.54754638671875, "source": "actual-author-training-image"}
+{"id": "semap-erara_077423-0_757_673", "inputChroma": 33.95147705078125, "source": "actual-author-training-image"}
+{"id": "semap-nypl_095185-0_2642_1025", "inputChroma": 34.29132080078125, "source": "actual-author-training-image"}
+{"id": "semap-princeton_100579-0_491_75", "inputChroma": 21.4271240234375, "source": "actual-author-training-image"}
+{"id": "semap-unileiden_106218-0_1663_1621", "inputChroma": 35.82415771484375, "source": "actual-author-training-image"}
+{"id": "semap-wwu_munster_110192-0_3222_5988", "inputChroma": 34.2777099609375, "source": "actual-author-training-image"}
+{"id": "semap-bostonleventhal_027794-0_1486_1423", "inputChroma": 28.5906982421875, "source": "actual-author-training-image"}
+{"id": "semap-nypl_097695-0_6502_5152", "inputChroma": 48.85931396484375, "source": "actual-author-training-image"}
+{"id": "semap-princeton_101243-1_3165_5764", "inputChroma": 43.02691650390625, "source": "actual-author-training-image"}
+{"id": "semap-wwu_munster_110144-0_2083_5708", "inputChroma": 19.87115478515625, "source": "actual-author-training-image"}
+Traceback (most recent call last):
+  File "D:\dev\worktrees\ui\tools\reference-analysis\semap.py", line 239, in <module>
+    print(prepare(args.output, args.per_institution, args.manifest_name, args.maximum_maps))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\worktrees\ui\tools\reference-analysis\semap.py", line 180, in prepare
+    image_bytes = existing_image.read_bytes() if existing_image.is_file() else images.read(member)
+                                                                               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taeeu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\zipfile\__init__.py", line 1586, in read
+    return fp.read()
+           ^^^^^^^^^
+  File "C:\Users\taeeu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\zipfile\__init__.py", line 994, in read
+    buf += self._read1(self.MAX_N)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taeeu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\zipfile\__init__.py", line 1076, in _read1
+    data += self._read2(n - len(data))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taeeu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\zipfile\__init__.py", line 1108, in _read2
+    data = self._fileobj.read(n)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taeeu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\zipfile\__init__.py", line 827, in read
+    data = self._file.read(n)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\dev\worktrees\ui\tools\reference-analysis\semap.py", line 57, in read
+    raise ValueError('ZIP range length mismatch')
+ValueError: ZIP range length mismatch

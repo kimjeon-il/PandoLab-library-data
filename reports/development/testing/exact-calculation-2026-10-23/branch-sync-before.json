@@ -1,0 +1,22 @@
+[
+  {
+    "root": "D:/dev/PandoLab",
+    "head": "3b5939a9c83d887ccab24ce8309c6b9f62e1cc9f",
+    "status": []
+  },
+  {
+    "root": "D:/dev/worktrees/ui",
+    "head": "f8895d4631556f1ceb80fb988f1c8f6bad8cd689",
+    "status": []
+  },
+  {
+    "root": "D:/dev/worktrees/gis",
+    "head": "f8895d4631556f1ceb80fb988f1c8f6bad8cd689",
+    "status": []
+  },
+  {
+    "root": "D:/dev/worktrees/places",
+    "head": "f8895d4631556f1ceb80fb988f1c8f6bad8cd689",
+    "status": []
+  }
+]

@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/WMS_MS_Capabilities.dtd"
+ [
+ <!ELEMENT VendorSpecificCapabilities EMPTY>
+ ]>  <!-- end of DOCTYPE declaration -->
+<WMT_MS_Capabilities version="1.1.1">
+<Service>
+  <Name>OGC:WMS</Name>
+  <Title>WMS SH DTK25</Title>
+  <Abstract>Die Digitale Topographische Karte 1:25 000 (DTK25) ist eine aus dem Digitalen Basis Landschaftsmodell und dem Digitalen Geländemodell erzeugte topographische Karte im Rasterformat. Die Signaturierung der Kartenobjekte folgt den Regeln des Signaturenkatalogs ATKIS-SK25. Dieser Dienst beinhaltet die farbig kombinierte Darstellung aller Layer vom gesamten Landesgebiet Schleswig-Holstein.</Abstract>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/lvermgeosh_node.html"/>
+  <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson>Servicestelle Geoserver</ContactPerson>
+        <ContactOrganization>Landesamt für Vermessung und Geoinformation Schleswig-Holstein</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition></ContactPosition>
+      <ContactAddress>
+        <AddressType>postal</AddressType>
+        <Address>Mercatorstraße 1</Address>
+        <City>Kiel</City>
+        <StateOrProvince></StateOrProvince>
+        <PostCode>24106</PostCode>
+        <Country>Germany</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone>+49 (0)431 383-2019</ContactVoiceTelephone>
+      <ContactFacsimileTelephone>+49 (0)431 988624-2019</ContactFacsimileTelephone>
+      <ContactElectronicMailAddress>Geoserver@LVermGeo.landsh.de</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>Für die Nutzung der Daten ist die Creative Commons (CC BY 4.0) – Namensnennung 4.0 International anzuwenden. Die Lizenz ist über  http://creativecommons.org/licenses/by/4.0 abrufbar. Der Quellenvermerk lautet "© GeoBasis-DE/LVermGeo SH/CC BY 4.0" ||{"id":"cc-by/4.0","name":"Creative Commons Namensnennung – 4.0 International (CC BY 4.0)","url":"http://creativecommons.org/licenses/by/4.0/","quelle":"© GeoBasis-DE/LVermGeo SH/CC BY 4.0"}</Fees>
+  <AccessConstraints>NONE</AccessConstraints>
+</Service>
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>application/vnd.ogc.wms_xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+        <Format>image/png</Format>
+        <Format>image/gif</Format>
+        <Format>image/jpeg</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/plain</Format>
+      <Format>text/html</Format>
+      <Format>application/vnd.ogc.gml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD?"/></Get>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+    <GetLegendGraphic>
+        <Format>image/png</Format>
+        <Format>image/gif</Format>
+        <Format>image/jpeg</Format>
+        <DCPType>
+            <HTTP>
+                <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD?"/></Get>
+            </HTTP>
+        </DCPType>
+    </GetLegendGraphic>
+  </Request>
+  <Exception>
+    <Format>application/vnd.ogc.se_xml</Format>
+    <Format>application/vnd.ogc.se_inimage</Format>
+    <Format>application/vnd.ogc.se_blank</Format>
+  </Exception>
+  <Layer>
+    <Title>WMS SH DTK25</Title>
+    <SRS>EPSG:3034</SRS>
+    <SRS>EPSG:3035</SRS>
+    <SRS>EPSG:3044</SRS>
+    <SRS>EPSG:3045</SRS>
+    <SRS>EPSG:3857</SRS>
+    <SRS>EPSG:4326</SRS>
+    <SRS>EPSG:4258</SRS>
+    <SRS>EPSG:25832</SRS>
+    <SRS>EPSG:25833</SRS>
+    <SRS>EPSG:31467</SRS>
+    <SRS>EPSG:31468</SRS>
+    <SRS>EPSG:25832</SRS>
+    <SRS>EPSG:25833</SRS>
+    <SRS>EPSG:3857</SRS>
+    <SRS>EPSG:4647</SRS>
+    <SRS>EPSG:4326</SRS>
+    <SRS>EPSG:4258</SRS>
+    <LatLonBoundingBox minx="0.10594674240568917" miny="45.237542736025574" maxx="20.448891294525673" maxy="56.84787345153812" />
+    <BoundingBox SRS="EPSG:3034" minx="3248616.257512832" miny="2072952.3560456363" maxx="4793246.105744812" maxy="3366003.7002406213" />
+    <BoundingBox SRS="EPSG:3035" minx="3545460.5471543586" miny="2458428.488361003" maxx="5139713.465792648" maxy="3795883.6370529165" />
+    <BoundingBox SRS="EPSG:3044" minx="-198055.94904201722" miny="5010132.602068914" maxx="1398535.014148831" maxy="6359019.3376716245" />
+    <BoundingBox SRS="EPSG:3045" minx="-668793.3140101961" miny="5009403.077166317" maxx="927672.5993785243" maxy="6399747.2696914235" />
+    <BoundingBox SRS="EPSG:3857" minx="11793.937415807442" miny="5658995.571556416" maxx="2276360.1661936026" maxy="7729088.680646518" />
+    <BoundingBox SRS="EPSG:4326" minx="0.10594674240568917" miny="45.237542736025574" maxx="20.448891294525673" maxy="56.84787345153812" />
+    <BoundingBox SRS="EPSG:4258" minx="0.10594674240568917" miny="45.237542736025574" maxx="20.448891294525673" maxy="56.84787345153812" />
+    <BoundingBox SRS="EPSG:25832" minx="-198055.94904201722" miny="5010132.602068914" maxx="1398535.014148831" maxy="6359019.3376716245" />
+    <BoundingBox SRS="EPSG:25833" minx="-668793.3140101961" miny="5009403.077166317" maxx="927672.5993785243" maxy="6399747.2696914235" />
+    <BoundingBox SRS="EPSG:31467" minx="2801741.886643743" miny="5011697.393548898" maxx="4398975.74806499" maxy="6361131.494732678" />
+    <BoundingBox SRS="EPSG:31468" minx="3566271.9380413485" miny="5012343.786475784" maxx="5163497.845865629" maxy="6365774.031530023" />
+    <BoundingBox SRS="EPSG:4647" minx="31801944.05095798" miny="5010132.602068914" maxx="33398535.01414883" maxy="6359019.3376716245" />
+    <Layer>
+      <Name>sh_dtk25_col</Name>
+      <Title>SH DTK25 col</Title>
+      <Abstract>Digitale Topographische Karte 1:25 000 (DTK25)</Abstract>
+      <LatLonBoundingBox minx="7.810140928711504" miny="53.298791463351506" maxx="11.410130537962354" maxy="55.06443446530556" />
+      <BoundingBox SRS="EPSG:3034" minx="3862115.1283156085" miny="2940383.29000523" maxx="4087285.393897974" maxy="3131165.4966987423" />
+      <BoundingBox SRS="EPSG:3035" minx="4178332.7295798734" miny="3355313.6046539247" maxx="4411178.495548094" maxy="3552525.3972397894" />
+      <BoundingBox SRS="EPSG:3044" minx="424000.0" miny="5908000.0" maxx="654000.0" maxy="6102000.0" />
+      <BoundingBox SRS="EPSG:3045" minx="24634.238853190735" miny="5911858.146285816" maxx="270646.5940605146" maxy="6125003.951549312" />
+      <BoundingBox SRS="EPSG:3857" minx="869420.9112078693" miny="7038458.633199875" maxx="1270169.9213707498" maxy="7374381.5847108625" />
+      <BoundingBox SRS="EPSG:4326" minx="7.810140928711504" miny="53.298791463351506" maxx="11.410130537962354" maxy="55.06443446530556" />
+      <BoundingBox SRS="EPSG:4258" minx="7.810140928711504" miny="53.298791463351506" maxx="11.410130537962354" maxy="55.06443446530556" />
+      <BoundingBox SRS="EPSG:25832" minx="424000.0" miny="5908000.0" maxx="654000.0" maxy="6102000.0" />
+      <BoundingBox SRS="EPSG:25833" minx="24634.238853190735" miny="5911858.146285816" maxx="270646.5940605146" maxy="6125003.951549312" />
+      <BoundingBox SRS="EPSG:31467" minx="3424036.9630324733" miny="5909922.43301663" maxx="3654132.4930214877" maxy="6104003.818253606" />
+      <BoundingBox SRS="EPSG:31468" minx="4224200.199484462" miny="5907652.576791318" maxx="4462389.562970714" maxy="6111376.539309055" />
+      <BoundingBox SRS="EPSG:4647" minx="32424000.0" miny="5908000.0" maxx="32654000.0" maxy="6102000.0" />
+    </Layer>
+    <Layer>
+      <Name>sh_dtk25_ein</Name>
+      <Title>SH DTK25 ein</Title>
+      <Abstract>Digitale Topographische Karte 1:25 000 (DTK25) Graustufen</Abstract>
+      <LatLonBoundingBox minx="0.10594674240568917" miny="45.237542736025574" maxx="20.448891294525673" maxy="56.84787345153812" />
+      <BoundingBox SRS="EPSG:3034" minx="3395314.9272525567" miny="2105849.728374508" maxx="4625140.554569104" maxy="3328080.9066502084" />
+      <BoundingBox SRS="EPSG:3035" minx="3696700.37924958" miny="2492075.705139839" maxx="4965316.820130265" maxy="3756694.622511524" />
+      <BoundingBox SRS="EPSG:3044" minx="-46133.17" miny="5048875.26857567" maxx="1206211.10142433" maxy="6301219.54" />
+      <BoundingBox SRS="EPSG:3045" minx="-515738.42812121264" miny="5013712.0055006435" maxx="836787.5036063069" maxy="6365521.907384202" />
+      <BoundingBox SRS="EPSG:3857" minx="11793.937415807442" miny="5658995.571556416" maxx="2276360.1661936026" maxy="7729088.680646518" />
+      <BoundingBox SRS="EPSG:4326" minx="0.10594674240568917" miny="45.237542736025574" maxx="20.448891294525673" maxy="56.84787345153812" />
+      <BoundingBox SRS="EPSG:4258" minx="0.10594674240568917" miny="45.237542736025574" maxx="20.448891294525673" maxy="56.84787345153812" />
+      <BoundingBox SRS="EPSG:25832" minx="-46133.17" miny="5048875.26857567" maxx="1206211.10142433" maxy="6301219.54" />
+      <BoundingBox SRS="EPSG:25833" minx="-515738.42812121264" miny="5013712.0055006435" maxx="836787.5036063069" maxy="6365521.907384202" />
+      <BoundingBox SRS="EPSG:31467" minx="2953717.276178638" miny="5050450.8582792785" maxx="4206574.290490384" maxy="6303308.746264404" />
+      <BoundingBox SRS="EPSG:31468" minx="3718830.1612095963" miny="5028439.792784174" maxx="5022089.995402371" maxy="6331355.330947137" />
+      <BoundingBox SRS="EPSG:4647" minx="31953866.83" miny="5048875.268575669" maxx="33206211.10142433" maxy="6301219.540000001" />
+      <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="138" height="68">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD?format=image%2Fpng&amp;layer=sh_dtk25_ein&amp;sld_version=1.1.0&amp;request=GetLegendGraphic&amp;service=WMS&amp;version=1.1.1&amp;styles="/>
+          </LegendURL>
+      </Style>
+    </Layer>
+  </Layer>
+</Capability>
+</WMT_MS_Capabilities>

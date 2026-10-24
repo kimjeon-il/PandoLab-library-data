@@ -1,0 +1,59 @@
+{
+  "referenceDate": "1989-04-25",
+  "sourceRevision": "WFS capture 2026-10-22; LSIB 11.4 adopted DEU source",
+  "beforeCoordinates": 4108,
+  "afterCoordinates": 5752,
+  "beforePolygons": 6,
+  "afterPolygons": 6,
+  "beforeAreaKm2": 108571.23047876623,
+  "afterAreaKm2": 108420.09013851952,
+  "valid": true,
+  "changesConfinedToAdmittedWindowsWithinRoundingDegrees": 3e-12,
+  "foreignSourcesUnchanged": {
+    "DEU": "5a5ad4437b7b95e61e2c4a86a74de9a3f4f2a1967ae794bcc0a7aa13c2a46715",
+    "POL": "87439bdd19f241491812a9d525484fecc5127f9c8805b04e123111a793767671",
+    "CZE": "3df46778563e7580cd06a065e7f730e3a56edcd49d111da294a2cfd6a3b78327"
+  },
+  "lifetimeUnchanged": true,
+  "appliedSections": [
+    {
+      "id": "lsib-poland-adopted-central",
+      "bounds": [
+        14,
+        51.8,
+        15.1,
+        53.3
+      ],
+      "basis": "Reuse only the currently adopted DEU/POL LSIB-derived arcs; estuary and remaining Neisse are held."
+    },
+    {
+      "id": "lsib-czech-saxony",
+      "bounds": [
+        12,
+        50.05,
+        14.9,
+        51.12
+      ],
+      "basis": "Current adopted German linework, Saxony exterior only; Bavaria is outside the DDR ring."
+    },
+    {
+      "id": "vg25-schaalsee-lake",
+      "bounds": [
+        10.903,
+        53.54,
+        10.958,
+        53.659
+      ],
+      "basis": "Lake-crossing arcs between existing geometric intersections only. Former inter-German boundary equals current SH/MV boundary within Schaalsee per the reserve authority; surrounding land is excluded. Official SH lake catchment map (1:50000) reviewed for the lake passage; no independent historical vector accuracy claim. The old NE path detours south to 53.548463; the window includes this obsolete detour, while the replacement lake arc stays north of 53.5716795 between actual shared intersections.",
+      "evidence": "https://www.schaalsee.de/flipbook/naturschutzprojekte/12/",
+      "overview": "https://umweltanwendungen.schleswig-holstein.de/Seen/seen/schaalsee_seedorfer_tief/schaalsee_nord-west_einz.gif"
+    }
+  ],
+  "historicalIndependentVectorScreenAccuracy": "not measured",
+  "sourceSimplificationToleranceDegrees": 0.0002,
+  "comparisonImages": {
+    "overview": "equirectangular 78 px/degree",
+    "international": "455.1111 px/degree, equivalent flatZoom64 at map width2560",
+    "schaalsee": "3300 px/degree, magnified beyond product baseline for comparison"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "vg25-ratzeburg-wakenitz-south",
+    "bounds": [
+      10.72,
+      53.75,
+      10.8,
+      53.8
+    ],
+    "basis": "Restricted eastern Ratzeburger See and short southern Wakenitz/outlet interval, south of53.80. GRENZHUS 2023 PDF p.8 describes the joint 1973 boundary survey and FRG narrow bank strip; Kreis Lauenburg identifies the former inter-German boundary as the present SH/MV boundary. The approved provider-georeferenced TK25AS map, sheet N32082DA (edition1991, content1989), was visually reviewed without fitting to VG25. Reuse the pinned vector between real shared crossings, not a traced shoreline. The1990 NatPSchaalseeV section2(2)4 follows the shared western state border north to Naedlershorst; the remainder of Wakenitz is not admitted. No independent reference-date 0.5px positional pass.",
+    "evidence": "https://www.grenzhus.de/wp-content/uploads/2023/12/Newsletter-2023_Nummer-1.pdf",
+    "corroboration": "https://www.kreis-rz.de/Adressen/Zweckverband-Schaalsee-Landschaft-.php?ModID=9&FID=327.1042.1"
+  },
+  {
+    "id": "vg25-kiekbusch-mechower-west-shore",
+    "bounds": [
+      10.745,
+      53.695,
+      10.9,
+      53.76
+    ],
+    "basis": "Kiekbuschwiesen former border ditch and Mechower See western bank only. GRENZHUS 2023 PDF p.8 identifies the early1980s boundary ditch; GRENZHUS 2024 PDF p.8 explicitly places the lake in the DDR and describes the1973 commission. The Schaalsee-Elbe reserve authority identifies the entire western bank as the present SH boundary. Kreis Lauenburg corroborates boundary continuity. The user-approved TK25AS georeferencing was reviewed to distinguish the numbered political boundary from the inner patrol road. Reuse CC-BY4.0 VG25, not digitized provider pixels. Exact1989 revision day/georeferencing residual unmeasured; provisional.",
+    "evidence": "https://www.grenzhus.de/wp-content/uploads/2025/01/Newsletter-2024_final.pdf",
+    "corroboration": "https://www.schaalsee.de/schuetzen-entwickeln/naturschutz/naturschutzgebiete/mechower-see"
+  }
+]

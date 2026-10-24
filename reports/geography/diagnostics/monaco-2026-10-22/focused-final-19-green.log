@@ -1,0 +1,8 @@
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 0.439s
+
+OK
+{"targets": ["AND/FRA", "ITA/SMR", "ITA/VAT", "LSO/ZAF"], "changedCountries": 8, "sections": 8, "output": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\tmpahfg5nwr\\candidate.json"}
+{"targets": ["ITA/SMR"], "changedCountries": 2, "sections": 1, "output": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\tmpahfg5nwr\\candidate.json"}
+{"targets": ["FRA/MCO"], "changedCountries": 2, "sections": 4, "output": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\tmpf1e9qtuq\\candidate.json"}

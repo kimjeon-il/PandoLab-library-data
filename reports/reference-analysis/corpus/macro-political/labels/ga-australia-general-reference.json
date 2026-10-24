@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "origin": "macro-vector-supervision",
+  "reviewed": false,
+  "supervisionQuality": "source-derived-weak",
+  "width": 2560,
+  "height": 1810,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "administrative"
+  ],
+  "sourcePdf": "sources/ga-australia-general-reference.pdf",
+  "sourceSha256": "c68ddeef790eacafd1ade0f8353fe8818e3b1e3f01083fdb9bbe0a93e4c3ae57",
+  "sourceMetadata": "sources/ga-australia-general-reference.source.json",
+  "sourceMetadataSha256": "e1707994f58e4d865a30ba7de49350c998236e5e92bfd81960db30138d99563a",
+  "producer": {
+    "script": "tools/reference-analysis/macro.py",
+    "sha256": "0fad7451213c6c7289daf904edc4f3c670dc8084ae4432ac07a6abb56391d97d",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "positivePixels": {
+    "international": 0,
+    "administrative": 6904,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/ga-australia-general-reference.mask.png",
+    "sha256": "bb9c136d71fbf38a19c23d8affb2fb391b2e617db99204066913f2f8b0f49150"
+  },
+  "validRaster": {
+    "path": "derived/ga-australia-general-reference.valid.png",
+    "sha256": "309022c2c41df00d04987b554abd92ea3e43d10c32338cb0031d90053afddae5"
+  }
+}

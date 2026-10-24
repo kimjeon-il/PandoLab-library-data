@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-24T11:46:09.1627420Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "freeBytesBefore": 25814831104,
+  "freeBytesAfter": 28499251200,
+  "freeBytesDelta": 2684420096,
+  "eligibleBytes": 2684420096,
+  "deletedBytes": 2684420096,
+  "entries": [
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+      "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "abandoned-git-pack",
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_9xSZPv",
+      "status": "protected-or-failed",
+      "bytes": 421265408,
+      "reason": "Git failed: fatal: missing blob object '179bd5a9c7bb57c4f8690c8b0adb36ff13a2780e'"
+    },
+    {
+      "kind": "abandoned-git-pack",
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_OfPqh8",
+      "status": "protected-or-failed",
+      "bytes": 978190336,
+      "reason": "Git failed: fatal: missing blob object '179bd5a9c7bb57c4f8690c8b0adb36ff13a2780e'"
+    },
+    {
+      "kind": "emulator-quickboot",
+      "path": "D:\\Android\\avd\\medium_phone.avd\\snapshots\\default_boot",
+      "status": "removed",
+      "bytes": 2684420096,
+      "reason": ""
+    }
+  ]
+}

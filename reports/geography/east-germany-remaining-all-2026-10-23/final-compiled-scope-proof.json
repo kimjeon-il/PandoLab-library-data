@@ -1,0 +1,8 @@
+{
+  "outsideAdmittedCompiledBoundaryHausdorffDegrees": 1.7763568394002505e-15,
+  "insideAdmittedCompiledVsSourceBoundaryHausdorffDegrees": 0.0,
+  "existingRemovedAreaBeforeKm2": 78.55314751953803,
+  "existingRemovedAreaAfterKm2": 78.55314751953803,
+  "addedOutsideSourceKm2": 0.0,
+  "note": "Existing Czechoslovakia unknown-peer-overlap exclusion remains; source library geometry is intact."
+}

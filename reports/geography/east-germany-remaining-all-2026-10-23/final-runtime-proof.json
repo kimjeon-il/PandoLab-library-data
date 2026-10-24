@@ -1,0 +1,49 @@
+{
+  "entityId": "state:deutsche-demokratische-republik",
+  "individualChunk": "state-deutsche-demokratische-republik.json.gz",
+  "individualChunkMatchesSource": true,
+  "transport": {
+    "schemaVersion": 1,
+    "url": "transport/countries-sha256-36ad60219c299437aa7eb4efda6ae6ca524f0cad18c4e27d62a1614e335d414c.bin",
+    "encoding": "identity",
+    "sha256": "36ad60219c299437aa7eb4efda6ae6ca524f0cad18c4e27d62a1614e335d414c",
+    "compressedBytes": 13690799,
+    "decodedBytes": 13690799
+  },
+  "transportSliceMatchesCountryFile": true,
+  "transportCountryGeometryMatchesSource": false,
+  "existingCompilerAdjustments": [
+    {
+      "entityId": "state:deutsche-demokratische-republik",
+      "kind": "unknown-peer-overlap",
+      "relatedIds": [
+        "state:czechoslovakia"
+      ],
+      "mode": "dated",
+      "validFrom": "1989-04-25",
+      "validTo": "1989-04-25"
+    }
+  ],
+  "preparedSourceMesh": {
+    "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-340d03cc9a6b5283e97054bd700140c6a71d61be00b3e491f8a4419052cced6d.bin.gz",
+    "sha256": "340d03cc9a6b5283e97054bd700140c6a71d61be00b3e491f8a4419052cced6d",
+    "encoding": "gzip",
+    "compressedBytes": 244769,
+    "decodedBytes": 434868
+  },
+  "preparedCompiledMesh": {
+    "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e10748ccbc7c7d19e22d2210954380f5ebe76addae7c28977384d17be65b25ad.bin.gz",
+    "sha256": "e10748ccbc7c7d19e22d2210954380f5ebe76addae7c28977384d17be65b25ad",
+    "encoding": "gzip",
+    "compressedBytes": 233455,
+    "decodedBytes": 415172
+  },
+  "geometryDigest": "f4041203f47e8907d890a744ac9fcdb6b8fb727e61b08b81991e10c029a1dfd8",
+  "datedCoverage": [
+    {
+      "validFrom": "1989-04-25",
+      "validTo": "1989-04-25"
+    }
+  ],
+  "currentCoverage": []
+}

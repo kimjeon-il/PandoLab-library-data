@@ -1,0 +1,108 @@
+[
+  {
+    "ref": "origin/feature/reference-image-p1-layout-20261018",
+    "sha": "8cb2883e4bd09ba014965b3ce7bec1d5770c1b33",
+    "missing": 0,
+    "commits": []
+  },
+  {
+    "ref": "origin/main",
+    "sha": "2ea0c1e663d2a72ee17c257a2be90de94f50d729",
+    "missing": 0,
+    "commits": []
+  },
+  {
+    "ref": "origin/work/gis",
+    "sha": "3d2c0d82ce46a16eaa73b3ed720ca1fbd45c9d95",
+    "missing": 8,
+    "commits": [
+      "3d2c0d82 build: refresh propagated date control metadata [skip ci]",
+      "71bc9eba feat: propagate released date controls to work/gis [skip ci]",
+      "b0aa666b build: refresh paired country coverage metadata [skip ci]",
+      "a75289dc fix: composite country border coverage once [skip ci]",
+      "4cfe0c21 fix: support shared library data checkout and safe linked-file writes [skip ci]",
+      "2cd77335 fix: initialize fresh sparse library checkouts before guarding edits [skip ci]",
+      "4e0db215 refactor: move paired library data and compressed reports outside app Git [skip ci]",
+      "836cc4e5 chore(gis): remove retired artifacts and archive completed evidence"
+    ]
+  },
+  {
+    "ref": "origin/work/objects",
+    "sha": "4df51620a5bb92d40e9ee881d768801c192dc0ae",
+    "missing": 15,
+    "commits": [
+      "4df51620 build: refresh propagated date control metadata [skip ci]",
+      "34050c49 feat: propagate released date controls to work/objects [skip ci]",
+      "7f4ed5b0 refactor(core): retire obsolete Qt project codec and native identity parsing",
+      "d5920db8 refactor(core): remove retired Qt-only DocumentSession profile and migrate tests",
+      "f5fd15c5 refactor(core): drop unused native Project mutation convenience API",
+      "6cddfa4e refactor(core): retire unused Qt-era spatial/render helpers and picking API",
+      "e06a58f4 build: refresh paired country coverage metadata [skip ci]",
+      "73fe526b fix: composite country border coverage once [skip ci]",
+      "9110577e build: publish paired packed-country assets and identity core [skip ci]"
+    ]
+  },
+  {
+    "ref": "origin/work/places",
+    "sha": "f9e53554c3b601b84dec052a00339fc868086bad",
+    "missing": 8,
+    "commits": [
+      "f9e53554 build: refresh propagated date control metadata [skip ci]",
+      "817c58b6 feat: propagate released date controls to work/places [skip ci]",
+      "263d2a58 build: refresh paired country coverage metadata [skip ci]",
+      "f13ce739 fix: composite country border coverage once [skip ci]",
+      "42f8e9b2 fix: support shared library data checkout and safe linked-file writes [skip ci]",
+      "4a7ee7a8 fix: initialize fresh sparse library checkouts before guarding edits [skip ci]",
+      "39202f6c refactor: move paired library data and compressed reports outside app Git [skip ci]",
+      "401bac86 chore(places): remove retired artifacts and archive completed evidence"
+    ]
+  },
+  {
+    "ref": "origin/work/ui",
+    "sha": "5b37d0a23b76b9f1143e8e5bfa5eca9737417219",
+    "missing": 27,
+    "commits": [
+      "aaed8a7a test(native): report exact canonical snapshot divergence on Windows reopen [windows-diff]",
+      "0fd3f088 feat: float Web date controls and replace navigation arrows",
+      "293a0c4b fix: retain verified publication channel and font fixes [skip ci]",
+      "a18f609d fix: composite country border coverage once [skip ci]",
+      "53934daf fix: support shared library data checkout and safe linked-file writes [skip ci]",
+      "3f6ffc83 fix: initialize fresh sparse library checkouts before guarding edits [skip ci]",
+      "ce693ef6 refactor: move paired library data and compressed reports outside app Git [skip ci]",
+      "b53b246c test(ui): use POSIX shell for Android emulator execution [android-retry]",
+      "8e83b4a4 test(ui): allow isolated Android retry while prior run drains [android-retry]"
+    ]
+  },
+  {
+    "ref": "origin/work/ui-native-restore-diff-20261022",
+    "sha": "f71e596afb9e3c4797ef81e7de0e727dd7395fcb",
+    "missing": 10,
+    "commits": [
+      "f71e596a test(ui): execute Windows Tauri WebView2 and Android emulator WebView",
+      "f1cfea87 docs(ui): record scoped P6 verification and generated app asset evidence [skip ci]",
+      "4df41af2 build(ui): publish verified editor metadata [skip ci]",
+      "88eb2b64 test(ui): publish source-matched generated editor assets [stage-only] [publish-meta]",
+      "8c85f18b test(ui): build source-matched assets before App staging [stage-only]",
+      "415e00d8 test(ui): verify actual app staging bytes [stage-only]",
+      "4fe5dcb1 test(ui): align line-tool browser fixtures with lazy loading",
+      "132c176d test(ui): run scoped P6 verification in four minimal stages",
+      "4f80c53f refactor(ui): finalize shared Surface cleanup and tab action sync [skip ci]"
+    ]
+  },
+  {
+    "ref": "origin/work/ui-reopen-diagnostic",
+    "sha": "d678966571e67ffe345551c1a3cb007a30340664",
+    "missing": 11,
+    "commits": [
+      "d6789665 test(native): diagnose original Windows reopen mismatch with bounded JSON-pointer paths",
+      "f71e596a test(ui): execute Windows Tauri WebView2 and Android emulator WebView",
+      "f1cfea87 docs(ui): record scoped P6 verification and generated app asset evidence [skip ci]",
+      "4df41af2 build(ui): publish verified editor metadata [skip ci]",
+      "88eb2b64 test(ui): publish source-matched generated editor assets [stage-only] [publish-meta]",
+      "8c85f18b test(ui): build source-matched assets before App staging [stage-only]",
+      "415e00d8 test(ui): verify actual app staging bytes [stage-only]",
+      "4fe5dcb1 test(ui): align line-tool browser fixtures with lazy loading",
+      "132c176d test(ui): run scoped P6 verification in four minimal stages"
+    ]
+  }
+]

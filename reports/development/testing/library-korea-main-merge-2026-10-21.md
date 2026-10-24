@@ -15,7 +15,3 @@
 - 기존 UI 테스트 삭제 873개와 생성 권한 파일 변경, main의 미추적 이미지, 영구 작업트리는 보존했다. 이 작업에서 테스트 삭제를 커밋하지 않았다.
 - 최초 fetch/스테이징의 Git fsync 오류는 해당 명령에 한정한 `core.fsyncObjectFiles=false`로 해결했다. 사용자/저장소 Git 설정은 변경하지 않았다. 원격 main SHA는 별도 ls-remote로 확인했고 병합 전 로컬 main과 같았다.
 - 현재 결과는 로컬 main이다. main 푸시는 Pages 자동 배포를 일으키므로 이번 병합에서 실행하지 않았다. 호스트의 검사 제한 훅은 사용자 전역 설정이며 저장소 병합 대상이 아니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/3ecd4ba7bce92b14db0998122185a8ab733176102061bb5efd7fb6c3c2eec4f1.gz) · 원본 SHA-256 `3ecd4ba7bce92b14db0998122185a8ab733176102061bb5efd7fb6c3c2eec4f1`.

@@ -29,7 +29,3 @@ The 2022 Kazhydromet issue8 PDF and direct HydroSHEDS license-PDF request return
 ## Incremental continuity
 
 The preceding six lake records are fixed by commits `4300128a1298222a430464b1899d7a1a141f1ab3` and `d89d00bb5237d486761965762c94c96d71b7b6c7`. This batch adds exactly three distinct river groups, for nine reconstructed logical targets. Separate candidate, representative-system, generalized lake-identity and geometry/scope-hold categories remain visible; old unavailable totals are not added.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/58b6576ca2b628de5892080a3cd573f231db7a189c911c0db168f1683d944760.gz) · 원본 SHA-256 `58b6576ca2b628de5892080a3cd573f231db7a189c911c0db168f1683d944760`.

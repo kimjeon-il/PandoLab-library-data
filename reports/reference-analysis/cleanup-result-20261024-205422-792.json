@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-24T11:54:25.0016969Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "freeBytesBefore": 29898694656,
+  "freeBytesAfter": 29898694656,
+  "freeBytesDelta": 0,
+  "eligibleBytes": 0,
+  "deletedBytes": 0,
+  "entries": [
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+      "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    }
+  ]
+}

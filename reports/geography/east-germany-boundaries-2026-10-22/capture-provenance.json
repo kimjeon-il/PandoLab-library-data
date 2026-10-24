@@ -1,0 +1,21 @@
+[
+  {
+    "name": "schaalsee-official-history.html",
+    "url": "https://www.schaalsee.de/flipbook/naturschutzprojekte/12/",
+    "bytes": 6277,
+    "sha256": "b6b1c4eafad4227c031ba09c50614fda93da6bd82e1427f41ef1eda7c0462fc1",
+    "capturedAt": "2026-10-22T12:47:01.942Z"
+  },
+  {
+    "name": "schaalsee-official-1994-study.pdf",
+    "url": "https://umweltanwendungen.schleswig-holstein.de/Bestellsysteme/pdf/seen/schaalsee.pdf",
+    "status": "unavailable",
+    "reason": "The operation was aborted due to timeout"
+  },
+  {
+    "name": "wenigentaft-former-border-2011.pdf",
+    "url": "https://umwelt.thueringen.de/fileadmin/001_TMUEN/Unsere_Themen/Natur_Artenschutz/Gruenes_Band/Detailkarten_Risikogebiete_Minen/5391_1.pdf",
+    "status": "unavailable",
+    "reason": "HTTP 200; text/html"
+  }
+]

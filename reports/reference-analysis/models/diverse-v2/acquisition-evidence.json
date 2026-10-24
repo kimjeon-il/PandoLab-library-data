@@ -1,0 +1,26 @@
+[
+  {
+    "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-analysis\\semap-expanded-acquire-attempt2.log",
+    "archivedAs": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\bae09cf0380569a176d3e19dda40f94c55668227\\reports\\reference-analysis\\models\\diverse-v2\\evidence\\semap-expanded-acquire-attempt2.log",
+    "sha256": "91a861cba196f7c94366742379c7194bcd6cb6b30c15a9e9030b16db2b5daee6",
+    "bytes": 8388
+  },
+  {
+    "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-analysis\\semap-expanded-acquire-attempt3.log",
+    "archivedAs": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\bae09cf0380569a176d3e19dda40f94c55668227\\reports\\reference-analysis\\models\\diverse-v2\\evidence\\semap-expanded-acquire-attempt3.log",
+    "sha256": "958ae60b2f3cf1282ef70a2e3e2a55579f133c21ad90abb0027d8a43bb59e171",
+    "bytes": 11495
+  },
+  {
+    "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-analysis\\semap-expanded-acquire-final.log",
+    "archivedAs": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\bae09cf0380569a176d3e19dda40f94c55668227\\reports\\reference-analysis\\models\\diverse-v2\\evidence\\semap-expanded-acquire-final.log",
+    "sha256": "0d95ed7c8c92d6e3d3e6f6b18465c12904a7445229bd889af5d12c964925c5d5",
+    "bytes": 10029
+  },
+  {
+    "path": "D:\\dev\\worktrees\\ui\\build-native\\reference-analysis\\semap-expanded-acquire.log",
+    "archivedAs": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\bae09cf0380569a176d3e19dda40f94c55668227\\reports\\reference-analysis\\models\\diverse-v2\\evidence\\semap-expanded-acquire.log",
+    "sha256": "df17131b0f9a261ac7dad3b401ed2d476fb7c73029a099e200434d0b208317e7",
+    "bytes": 5178
+  }
+]

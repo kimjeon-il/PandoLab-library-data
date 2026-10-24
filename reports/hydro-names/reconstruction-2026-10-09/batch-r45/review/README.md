@@ -13,7 +13,3 @@ White blue-shored water was distinguished from colored geological land before co
 Two full-feature source-scope reviews are complete: one generalized research identity and one unnamed scope hold. The third has insufficient source resolution and is not counted as complete. Prior 40 holds, two access-pending cases and one material-pending case remain unchanged. The added hold yields 41 holds; the added material-pending case yields two material-pending and four pending-source targets total. Access and material pending remain distinct from completed scope holds. Prior targets were not reassessed. Accepted, whole-feature scalar/product and Korean names remain null; automatic and product application remain false.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. The unchanged-size bounded suite checks included current-three factual linkage, stage, geometry summaries, arithmetic and included-file bytes only. It cannot reopen omitted originals, recompute full polygons, reproduce visual judgments or replay the decoder. Maps, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/baff735e5997d704a9cce4f132e278de11fae373756b74688563fb5b5d70c9d0.gz) · 원본 SHA-256 `baff735e5997d704a9cce4f132e278de11fae373756b74688563fb5b5d70c9d0`.

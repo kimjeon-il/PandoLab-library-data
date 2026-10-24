@@ -1,0 +1,23 @@
+{
+  "id": "usgs-detroit-2017",
+  "familyId": "usgs-us-topo",
+  "editionId": "usgs-mi-2017",
+  "language": "eng",
+  "script": "Latin",
+  "published": "2017-05-03",
+  "format": "pdf",
+  "materialKind": "publisher-layered-pdf",
+  "rightsReviewed": true,
+  "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+  "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+  "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88e9c182cef33f43f04a45",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/MI/MI_Detroit_20170503_TM_geo.pdf",
+  "expectedBytes": 11194419,
+  "maximumBytes": 33554432,
+  "sha256": "7fb6c33aeb2f37b5ad788cf2258a4d6c91bb990b0d1e29bb477ca982ebae1c4a",
+  "bytes": 11194419,
+  "acquiredAt": "2026-10-23T03:29:18.377179+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

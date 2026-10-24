@@ -43,7 +43,3 @@ selected geometry는 Natural Earth 공개영역 자료의 세 대상만 추출�
 - [Becharof National Wildlife Refuge: About Us](https://www.fws.gov/refuge/becharof/about-us)
 - [Guide Use Areas within Alaska Peninsula and Becharof NWRs](https://www.fws.gov/sites/default/files/documents/2024-04/3.pdf)
 - [Egegik River & Becharof Lake System: RDI application](https://www.blm.gov/sites/default/files/docs/2025-08/AK_Egegik%20Becharof%20Ruth_App_12-28-17.pdf)
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/f3ca45ebada399c5f6442f336d394d889e09a6652d8fab7d41799e7e9ed993b5.gz) · 원본 SHA-256 `f3ca45ebada399c5f6442f336d394d889e09a6652d8fab7d41799e7e9ed993b5`.

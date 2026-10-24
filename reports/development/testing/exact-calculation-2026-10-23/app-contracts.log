@@ -1,0 +1,37 @@
+✔ project bridge roundtrips binary bytes through bounded native chunks (21.5378ms)
+✔ a document above the prior 1 MiB cap is transferred without a whole-file Base64 value (602.8112ms)
+✔ oversized document is blocked before IPC while tiny probe remains bounded (1.662ms)
+✔ cancelled user selection is not counted as saved project (0.6194ms)
+✔ GIS ZIP and multiselect retain native formats and filename identity (1.4729ms)
+✔ native errors abort the transfer and leave the owning file state unchanged (0.4449ms)
+file:///D:/dev/worktrees/objects/tools/load-node-core.mjs:47
+    throw Object.assign(new Error(`Shared C++ core prerequisite failed: ${cause.message}`, { cause }), { code });
+                        ^
+
+Error: Shared C++ core prerequisite failed: Compiled core source identity is stale for this checkout
+    at loadNodeCore (file:///D:/dev/worktrees/objects/tools/load-node-core.mjs:47:25)
+    at async file:///D:/dev/worktrees/objects/assets/js/modules/temporal.js:8:14 {
+  code: 'PL-CORE-PREREQUISITE-STALE',
+  [cause]: Error: Compiled core source identity is stale for this checkout
+      at loadNodeCore (file:///D:/dev/worktrees/objects/tools/load-node-core.mjs:26:27)
+      at async file:///D:/dev/worktrees/objects/assets/js/modules/temporal.js:8:14 {
+    code: 'PL-CORE-PREREQUISITE-STALE'
+  }
+}
+
+Node.js v24.21.0
+✖ apps\web-shell\tests\stage.test.mjs (603.85ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1014.0593
+
+✖ failing tests:
+
+test at apps\web-shell\tests\stage.test.mjs:1:1
+✖ apps\web-shell\tests\stage.test.mjs (603.85ms)
+  'test failed'

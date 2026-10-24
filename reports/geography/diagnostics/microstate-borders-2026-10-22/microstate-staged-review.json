@@ -1,0 +1,166 @@
+{
+  "scope": "Normalized current countries using LSIB 11.4",
+  "historicalAccuracyVerified": false,
+  "widthCssPx": 2560,
+  "flatZoom": 64,
+  "metadataAndDatedVersionsPreserved": true,
+  "groups": [
+    {
+      "countries": [
+        "AND",
+        "FRA",
+        "ESP"
+      ],
+      "unionDifferenceSquareDegrees": 0,
+      "overlapSquareDegrees": 0
+    },
+    {
+      "countries": [
+        "ITA",
+        "SMR",
+        "VAT"
+      ],
+      "unionDifferenceSquareDegrees": 0,
+      "overlapSquareDegrees": 0
+    },
+    {
+      "countries": [
+        "LSO",
+        "ZAF"
+      ],
+      "unionDifferenceSquareDegrees": 0,
+      "overlapSquareDegrees": 0
+    }
+  ],
+  "areas": {
+    "AND": {
+      "beforeKm2": 446.57382657092245,
+      "afterKm2": 465.68675300020413
+    },
+    "ESP": {
+      "beforeKm2": 507188.25495752215,
+      "afterKm2": 507263.31245801965
+    },
+    "FRA": {
+      "beforeKm2": 637432.381735075,
+      "afterKm2": 637338.2113081483
+    },
+    "ITA": {
+      "beforeKm2": 301144.83873150824,
+      "afterKm2": 301143.4316433336
+    },
+    "LSO": {
+      "beforeKm2": 30106.5193613238,
+      "afterKm2": 30559.280811523284
+    },
+    "SMR": {
+      "beforeKm2": 60.316971607159914,
+      "afterKm2": 61.23934565417227
+    },
+    "VAT": {
+      "beforeKm2": 0.012205784274619073,
+      "afterKm2": 0.49691991198837376
+    },
+    "ZAF": {
+      "beforeKm2": 1219368.551355552,
+      "afterKm2": 1218915.7899053525
+    }
+  },
+  "sanMarinoIndependentComparison": {
+    "source": "San Marino SIT Limite_stato_li; source survey date and datum-operation accuracy unestablished",
+    "samples": 3592,
+    "sampledMaximumCssPx": 0.5578655327337414,
+    "continuousUpperBoundCssPx": 0.7854210882892969
+  },
+  "sourceDerivative": [
+    {
+      "countries": [
+        "AND",
+        "FRA"
+      ],
+      "closedRing": false,
+      "samples": 3555,
+      "sampledMaximumCssPx": 0.18094666152973982,
+      "continuousUpperBoundCssPx": 0.4085022170852953,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "AND",
+        "ESP"
+      ],
+      "closedRing": false,
+      "samples": 996,
+      "sampledMaximumCssPx": 0.1800910881968751,
+      "continuousUpperBoundCssPx": 0.40764664375243065,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "ESP",
+        "FRA"
+      ],
+      "closedRing": false,
+      "samples": 2096,
+      "sampledMaximumCssPx": 0.18005149755634398,
+      "continuousUpperBoundCssPx": 0.4076070531118995,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "AND",
+        "ESP"
+      ],
+      "closedRing": false,
+      "samples": 124,
+      "sampledMaximumCssPx": 0.1244785559878039,
+      "continuousUpperBoundCssPx": 0.35203411154335945,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "ESP",
+        "FRA"
+      ],
+      "closedRing": false,
+      "samples": 1630,
+      "sampledMaximumCssPx": 0.1813824302586769,
+      "continuousUpperBoundCssPx": 0.40893798581423246,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "ITA",
+        "SMR"
+      ],
+      "closedRing": true,
+      "samples": 1537,
+      "sampledMaximumCssPx": 0.18002587414788476,
+      "continuousUpperBoundCssPx": 0.4075814297034403,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "ITA",
+        "VAT"
+      ],
+      "closedRing": true,
+      "samples": 300,
+      "sampledMaximumCssPx": 0,
+      "continuousUpperBoundCssPx": 0.22755555555555554,
+      "sourceId": "dos-lsib-11.4"
+    },
+    {
+      "countries": [
+        "LSO",
+        "ZAF"
+      ],
+      "closedRing": true,
+      "samples": 35053,
+      "sampledMaximumCssPx": 0.18171562610260572,
+      "continuousUpperBoundCssPx": 0.40927118165816123,
+      "sourceId": "dos-lsib-11.4"
+    }
+  ],
+  "maximumSourceDerivativeUpperBoundCssPx": 0.40927118165816123
+}

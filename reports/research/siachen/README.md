@@ -17,7 +17,3 @@ Area (EPSG:32643 UTM): 1088.019 km2
 Files: siachen_glacier_rgi7.geojson (ice geometry); siachen_dispute_ne_50m.geojson and _10m.geojson (political shapes); siachen_comparison_overlay.geojson; siachen_comparison.json; siachen_comparison.png.
 
 Licenses: RGI7 CC BY 4.0, Natural Earth public domain.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/e9522e97c4d22316cd30961b94d833cb07cfad9226a95d96a7efda43e272a3de.gz) · 원본 SHA-256 `e9522e97c4d22316cd30961b94d833cb07cfad9226a95d96a7efda43e272a3de`.

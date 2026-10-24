@@ -1,0 +1,26 @@
+{
+  "borderCount": 2425,
+  "stats": [
+    {
+      "mode": "current",
+      "totalAlpha": 596.1411764705881
+    },
+    {
+      "mode": "opaque",
+      "totalAlpha": 356
+    },
+    {
+      "mode": "mask",
+      "totalAlpha": 410.49803921568645
+    }
+  ],
+  "errors": [],
+  "center": [
+    128.080237,
+    41.96160900000007
+  ],
+  "widthCssPx": 0.72,
+  "dpr": 1,
+  "pixelsPerDegree": 455.1111111111111,
+  "compositing": "Pixel readback is used only to produce evidence images, not a proposed production readback path"
+}

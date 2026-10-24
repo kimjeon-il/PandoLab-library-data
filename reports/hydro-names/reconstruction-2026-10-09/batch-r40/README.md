@@ -17,7 +17,3 @@ The exact original inventory and cumulative index recover 3,948 unrecorded targe
 ## Public verification
 
 Run `python validate-package.py` for included-file integrity, current-result consistency and cumulative accounting. `recover-remaining-queue.py` uses the exact initial inventory. Public validators do not replay omitted source maps, complete polygons, compressed component bytes or original decoder inputs. Only own factual findings, bibliography, bounded metadata are included; the earlier public payload-correspondence note is linked without duplicating it; original map bodies, crops, full lake coordinates and private-input fingerprints are omitted.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/35d22da97964aeddbe3d49910e2d303b0905ef57e37612581dd7cf3b5cfd7029.gz) · 원본 SHA-256 `35d22da97964aeddbe3d49910e2d303b0905ef57e37612581dd7cf3b5cfd7029`.

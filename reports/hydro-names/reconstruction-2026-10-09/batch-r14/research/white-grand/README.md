@@ -9,7 +9,3 @@ The two independently authored official publications provide one naming-map sour
 `source-evidence.json` contains official bibliography and availability facts. `map-scope-review.json` retains own whole-outline observations, and `target-identity-facts.json` records geometry facts. Source maps and inspection materials are excluded. Public validation checks included records and geometry and cannot reproduce omitted visual map judgments.
 
 Korean and whole-feature scalar names remain null. Formal registry verification, exact shoreline verification, automatic application and product application remain false.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/9295868b690812a3a3e5d4484fb6f5fe49fe8e60badc6f66659c8bdc430abe0c.gz) · 원본 SHA-256 `9295868b690812a3a3e5d4484fb6f5fe49fe8e60badc6f66659c8bdc430abe0c`.

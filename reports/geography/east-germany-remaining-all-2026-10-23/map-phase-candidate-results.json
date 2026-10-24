@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vg25-delvenau-approved-map",
+    "status": 0,
+    "log": [
+      "BOUNDARY_SECTION vg25-delvenau-approved-map arcs=8 oldLengthDegrees=0.14805\r"
+    ]
+  },
+  {
+    "id": "vg25-saxony-tripoint-approved-map",
+    "status": 0,
+    "log": [
+      "BOUNDARY_SECTION vg25-saxony-tripoint-approved-map arcs=3 oldLengthDegrees=0.0029764\r"
+    ]
+  }
+]

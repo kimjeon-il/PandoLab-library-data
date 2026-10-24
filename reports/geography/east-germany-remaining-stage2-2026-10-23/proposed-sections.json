@@ -1,0 +1,26 @@
+[
+  {
+    "id": "vg25-eichsfeld-glasehausen",
+    "bounds": [
+      10.17,
+      51.453,
+      10.19,
+      51.474
+    ],
+    "basis": "Northern land interval around Glasehausen/Etzenborn, excluding Wendebach below51.447 and Werra. Niedersachsen Das Eichsfeld2002 printedp17 fixes the former border as the new state boundary; map printedp18/PDFp19 locates crossings between Eichenberg and Brochthausen. Documentary continuity, not an independent vector precision test.",
+    "evidence": "https://www.mk.niedersachsen.de/download/57145/Peter_Aufgebauer_u.a._Eichsfeld_-_Ein_deutscher_Grenzraum._Niedersaechsische_Landeszentrale_fuer_politische_Bildung._Niedersachsen_-_vom_Grenzland_zum_Land_in_der_Mitte._Folge_6_._Hannover_2002._PDF_2.196_KB_124_Seiten_..pdf",
+    "corroboration": "https://www.lgln.niedersachsen.de/download/80437/NaVKV_2010_2_3.pdf"
+  },
+  {
+    "id": "vg25-schaalsee-mustin-thurow-land",
+    "bounds": [
+      10.915,
+      53.679,
+      10.945,
+      53.694
+    ],
+    "basis": "Restricted inland Mustin/GrossThurow interval north of the already adopted Schaalsee lake, excluding Goldensee, MechowerSee, RatzeburgerSee and Wakenitz shores. KreisHerzogtumLauenburg identifies the former interGerman border as the current SH/MV boundary across the335km2 project. NatPSchaalseeV1990 section2(2)4 identifies the same western border between Marienstedt and Naedlershorst. Regional1945exchange history reviewed. Candidate subject to source/geometry review before application.",
+    "evidence": "https://www.kreis-rz.de/index.php?FID=327.1042.1&ModID=9&object=tx%2C3149.1",
+    "corroboration": "https://www.gesetze-im-internet.de/natpschaalseev/DDNR514770990.html"
+  }
+]

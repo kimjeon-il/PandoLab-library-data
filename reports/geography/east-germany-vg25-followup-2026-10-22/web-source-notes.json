@@ -1,0 +1,19 @@
+{
+  "readAt": "2026-10-22",
+  "method": "web source reader; full HTML download unavailable for BfN",
+  "sources": [
+    {
+      "url": "https://www.bfn.de/gruenes-band",
+      "publisher": "Bundesamt fuer Naturschutz",
+      "observed": "The federal nature conservation agency describes the Thuringian Green Belt monument established in 2018 between the land boundary and the Kolonnenweg. This corroborates the distinction between the former state line and a patrol road; it does not supply an independent 1989 vector."
+    },
+    {
+      "url": "https://tlbg.thueringen.de/fileadmin/TLBG/Publikationen/mitteilungshefte/251119_Mitteilungsheft_56_ua.pdf",
+      "observed": "CAPTCHA page, original not read; excluded from admission."
+    },
+    {
+      "url": "https://voris.wolterskluwer-online.de/browse/document/2e1cf19e-b97f-4da2-b9c9-7ef359cad556",
+      "observed": "Search index points to a 2023 Wendebach cadastral-coordinate case; original access 402, no ruling on historical identity made. Southern Eichsfeld/Wendebach remains outside admitted northern window."
+    }
+  ]
+}

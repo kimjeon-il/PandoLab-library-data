@@ -1,0 +1,48 @@
+[
+  {
+    "name": "lgln-survey-2016.pdf",
+    "url": "https://www.lgln.niedersachsen.de/download/113504/NaVKV_2016_1.pdf",
+    "capturedAt": "2026-10-23T01:37:02.130Z",
+    "stored": "lgln-survey-2016.pdf.gz",
+    "bytes": 5568918,
+    "sha256": "3a2dcae1d85c0f2ba3abbabe9b343e03cfdefedfd0f58011737704ca872d0684"
+  },
+  {
+    "name": "tlbg-roads-borders-2019.pdf",
+    "url": "https://tlbg.thueringen.de/fileadmin/TLBG/Publikationen/tlbg-ausstellung-strassen-grenzen-2019.pdf",
+    "capturedAt": "2026-10-23T01:37:02.178Z",
+    "error": "Not PDF; no access challenge bypass"
+  },
+  {
+    "name": "grenzhus-wakenitz.html",
+    "url": "https://www.grenzhus.de/wakenitz-und-trave/",
+    "capturedAt": "2026-10-23T01:37:02.179Z",
+    "stored": "grenzhus-wakenitz.html.gz",
+    "bytes": 224972,
+    "sha256": "546f1b712fe72b0bc717d5adc49f2c377135d6619c1f2d2dc56d32f20f1db3a6"
+  },
+  {
+    "name": "sachsen-anhalt-period-map-catalogue.html",
+    "url": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-historische-ausgaben-1-25000.html",
+    "capturedAt": "2026-10-23T01:37:02.180Z",
+    "stored": "sachsen-anhalt-period-map-catalogue.html.gz",
+    "bytes": 545197,
+    "sha256": "558eab984f4bffbebf34389fb233ed112cd1bccb7ac3b9c7ca138c2f13d7e183"
+  },
+  {
+    "name": "saxony-historical-map-services.html",
+    "url": "https://www.landesvermessung.sachsen.de/topographische-karten-4984.html",
+    "capturedAt": "2026-10-23T01:37:02.181Z",
+    "stored": "saxony-historical-map-services.html.gz",
+    "bytes": 69618,
+    "sha256": "c1b934e57c75c1d8ad5f00d5e4add935c45f110779ea4629c9e866f5b31dfea2"
+  },
+  {
+    "name": "stresow-boundary-continuity.html",
+    "url": "https://www.seehausen-altmark.de/familie-freizeit/kultur-tourismus/aktivitaeten-ausflugsziele/denkmaeler-gedenkstaetten/gedenkstaette-stresow/",
+    "capturedAt": "2026-10-23T01:37:02.182Z",
+    "stored": "stresow-boundary-continuity.html.gz",
+    "bytes": 201081,
+    "sha256": "c5c097ad537d2704ab61e86fd5a464d161be66c469d94dd8c2a27dd46b40e0ff"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "codeRevision": "71edcb51e16b50b759ff4ea12ac284d740041d78",
+  "purpose": "diverse-real-map-continuation-pending-independent-evaluation",
+  "releaseApproved": false,
+  "initialization": {
+    "sha256": "305c0c63a3942f55f2dc8ca0a91698b6eff7b16d5e5df35d4c0e091cd4a53fef",
+    "attemptedBatches": 430,
+    "optimizerUpdates": 425,
+    "corpusSha256": "8f3c7a3f1dc0b8a261e2601bd392aa3dc9e1c89fa44e0004ab1ee78cc6a917a3"
+  },
+  "modelFiles": {
+    "boundary.pt": {
+      "sha256": "9b6f0de59f91073226154191daa1f98e1295b99ab5006bb033182ca82ea3f553",
+      "bytes": 16913025
+    },
+    "boundary.onnx": {
+      "sha256": "dcabcf04c67384aec5bc976c72b8c466f6dc5023d160e867917c043f500e688b",
+      "bytes": 16697571
+    },
+    "boundary.manifest.json": {
+      "sha256": "2f96b38d717ce4c2fc164b20508e1837d0846c8be197a53e634578bd26f3789d",
+      "bytes": 751
+    },
+    "training.log": {
+      "sha256": "559d64fe7de28b142be9c8d072ea2e081bd60f69f009c7e50241eff1bfa24bd9",
+      "bytes": 877
+    },
+    "onnx-wasm-parity.json": {
+      "sha256": "6a1152df936e22397715ee4feeeec8139bf9913b6e2d2f781deefe24ef6a3477",
+      "bytes": 1576
+    },
+    "training-comparison.json": {
+      "sha256": "0f57d2847da6f60b6b8ad977a70f2b06903b81ef7e56b55f44c34c23ecc58f3d",
+      "bytes": 9412
+    },
+    "diagnostics/diagnostics.json": {
+      "sha256": "cdbb1c23ffb61a3fafada4b92028a22965b28f4a5e3ce5fd906b4a19b83926cf",
+      "bytes": 21254
+    },
+    "auxiliary-diagnostics/diagnostics.json": {
+      "sha256": "417c04167cd27593d0e193c41cf6e66a58d7e93534a3d12d52f0da17379ce4d0",
+      "bytes": 326832
+    },
+    "acquisition-evidence.json": {
+      "sha256": "4b73fc3546ca531132fb17710792495921c66f25f078f0b59385b3332c13a908",
+      "bytes": 1767
+    }
+  },
+  "packages": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "onnx": "1.23.2",
+    "onnxscript": "0.7.2",
+    "PyMuPDF": "1.26.6"
+  },
+  "encoder": {
+    "url": "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth",
+    "sha256": "5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997",
+    "name": "MobileNet_V3_Large_Weights.IMAGENET1K_V2"
+  },
+  "gpuWheelIdentities": [
+    {
+      "package": "torch",
+      "url": "https://download-r2.pytorch.org/whl/cu126/torch-2.14.1%2Bcu126-cp312-cp312-win_amd64.whl#sha256=97e3bc87ea74367518b740d912a7f5259c25a3c8115bf5916abee1d53ff115a4"
+    },
+    {
+      "package": "torchvision",
+      "url": "https://download-r2.pytorch.org/whl/cu126/torchvision-0.29.1%2Bcu126-cp312-cp312-win_amd64.whl#sha256=ab045bfb0ac014b80afb478190d14c6f7d3b57ade0d1fcd6ffc07414a0266b96"
+    }
+  ],
+  "coverage": {
+    "publisherMaps": 5,
+    "auxiliaryInventoryItems": 82,
+    "auxiliaryUsedItems": 82,
+    "auxiliaryInstitutions": 9,
+    "publisherTiles": 150,
+    "auxiliaryTiles": 318,
+    "totalOriginals": 87,
+    "totalTiles": 468,
+    "coastSupervised": false,
+    "auxiliaryObservedChannels": [
+      "hydro",
+      "transport"
+    ],
+    "languagesIndependentlyEvaluated": [],
+    "productionFamiliesIndependentlyVerified": false,
+    "allAuxiliaryRasterChromaKind": "color"
+  },
+  "training": {
+    "epochs": 6,
+    "attemptedBatches": 2808,
+    "optimizerUpdates": 2801,
+    "skippedUpdates": 7,
+    "selectedCheckpointEpoch": 5,
+    "selectedCheckpointAttemptedBatches": 2808,
+    "selectedCheckpointOptimizerUpdates": 2801,
+    "selectedCheckpointSkippedUpdates": 7,
+    "trainingLoss": 1.5716204236969988,
+    "validationLoss": null,
+    "selectionMetric": "trainingLoss",
+    "sampling": "balanced-corpora-originals-with-coverage",
+    "samplingSeed": 20261023,
+    "samplesPerCorpusPerEpoch": 234,
+    "learningRate": 3e-05,
+    "freezeEncoderEpochs": 0,
+    "unobservedChannels": [
+      "coast"
+    ],
+    "toolchain": {
+      "torch": "2.14.1+cu126",
+      "device": "cuda",
+      "amp": true,
+      "encoderWeights": "MobileNet_V3_Large_Weights.IMAGENET1K_V2"
+    }
+  },
+  "corpusFingerprints": {
+    "primary": "36f93c7f2606882b20eb75a729b2cf838fdb319480f068d8593d154dc095e4aa",
+    "auxiliary": "cfa57e18643c0175b005d7bbc2d517996e85b156f9198d4952f60e4c2008bc94",
+    "combined": "2291093ad87a49f86273e095a25202809be892ebf2b1809c93404eacff39f1bd"
+  },
+  "verification": {
+    "pythonCorpusSourceTests": 32,
+    "pythonModelTests": 7,
+    "nodeReleaseGateTests": 3,
+    "actualWasmParity": "onnx-wasm-parity.json",
+    "actualSourceInspectionOriginals": 87,
+    "previews": 29,
+    "comparison": "training-comparison.json",
+    "independentAccuracyEvaluation": false,
+    "windowsWebView2ModelProfiling": false,
+    "androidModelProfiling": false
+  },
+  "cleanup": {
+    "removedBuildLogCopies": 4,
+    "bytesReclaimed": 35090,
+    "evidence": "acquisition-evidence.json",
+    "reason": "unused duplicate acquisition logs after exact-byte external evidence transfer"
+  }
+}

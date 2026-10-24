@@ -1,0 +1,189 @@
+{
+  "codeCommit": "be60e5aa45a7",
+  "dataVersion": "data-e1e46b9ca55aaef12c08894388eed3d7",
+  "inputDataRevision": "f00766401e390ac401ce02f3bfed783bba952527",
+  "countries": [
+    {
+      "code": "AND",
+      "file": "assets/data/territorial-entities/source/countries/state-AND.json",
+      "sha256": "45c5c0034c742abe9a5465fb9f391c2a095b556efd5fe520381c9794130c67fe",
+      "entityId": "state:AND",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:AND:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        }
+      ]
+    },
+    {
+      "code": "FRA",
+      "file": "assets/data/territorial-entities/source/countries/state-FRA.json",
+      "sha256": "e006466a5aa517a1eb63781453d277d533cf1883f4ada54964f2dd705e83dbe8",
+      "entityId": "state:FRA",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:FRA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        }
+      ]
+    },
+    {
+      "code": "ESP",
+      "file": "assets/data/territorial-entities/source/countries/state-ESP.json",
+      "sha256": "9324ebcb055b7fcdeaa3f87bc03199cb37058ccca57a272218c5843b31873fe1",
+      "entityId": "state:ESP",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:ESP:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        }
+      ]
+    },
+    {
+      "code": "ITA",
+      "file": "assets/data/territorial-entities/source/countries/state-ITA.json",
+      "sha256": "e6b14579471c4c9a342bf02ab8aca6f76f4f5bf9bb1374e05fd0acbb84475c5c",
+      "entityId": "state:ITA",
+      "lifetime": {
+        "validFrom": "1861-03-17",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:ITA:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+igm-dbsn-2025-06-27"
+        }
+      ]
+    },
+    {
+      "code": "SMR",
+      "file": "assets/data/territorial-entities/source/countries/state-SMR.json",
+      "sha256": "59c617c8870f4215283a4d52a4febec8a3b9aff7ee0222ae2e1243a7d25f816a",
+      "entityId": "state:SMR",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:SMR:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+igm-dbsn-2025-06-27"
+        }
+      ]
+    },
+    {
+      "code": "VAT",
+      "file": "assets/data/territorial-entities/source/countries/state-VAT.json",
+      "sha256": "d6aa32ba78401f656849374fc0230c487ab6d4ecc25e410f6b94343c221efb8e",
+      "entityId": "state:VAT",
+      "lifetime": {
+        "validFrom": "1929-06-07",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:VAT:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        }
+      ]
+    },
+    {
+      "code": "LSO",
+      "file": "assets/data/territorial-entities/source/countries/state-LSO.json",
+      "sha256": "ccfd9f7e91de541e3244feca8bf77572d7fb08224c6e0ed98390dc80d2137363",
+      "entityId": "state:LSO",
+      "lifetime": {
+        "validFrom": "1966-10-04",
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:LSO:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        }
+      ]
+    },
+    {
+      "code": "ZAF",
+      "file": "assets/data/territorial-entities/source/countries/state-ZAF.json",
+      "sha256": "3fa06196e5264d3ca18e43ab9992d69aee6a0a369fc327e38d72d197bbf5b5b4",
+      "entityId": "state:ZAF",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "versions": [
+        {
+          "versionId": "state:ZAF:natural-earth-5.1.1",
+          "validFrom": null,
+          "validTo": null,
+          "datePrecision": "current",
+          "sourceId": "natural-earth-5.1.1+dos-lsib-11.4"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "assets/data/world/current.json",
+      "sha256": "96a200e88df223b744822e625a1e02a60317cb4481cedceab71527bcd0682a4c",
+      "bytes": 15231
+    },
+    {
+      "file": "assets/data/builtin-world/generated/v1/index.json",
+      "sha256": "27181e393e4b01b16dfaace7357279e45d8d35dbfb9afa158af26dccfa6b9157",
+      "bytes": 162147
+    },
+    {
+      "file": "assets/data/territorial-entities/generated/v2/index.json",
+      "sha256": "eb8fa01d2624508ed36d17e0c39cd24773ca1c3c87f333cf601a64039c1c5923",
+      "bytes": 1368057
+    },
+    {
+      "file": "assets/data/prepared-polygons/generated/v2/manifest.json",
+      "sha256": "5e1c7e7546c01f28c6aea35ffd6e7655a492cc0b166147dae7393858da06c837",
+      "bytes": 230583
+    }
+  ]
+}

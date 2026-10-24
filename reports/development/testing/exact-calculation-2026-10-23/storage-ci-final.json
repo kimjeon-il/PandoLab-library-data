@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "name": "Application Architecture",
+      "conclusion": "failure",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/39985352036"
+    },
+    {
+      "name": "Web-only GitHub Pages",
+      "conclusion": "success",
+      "status": "completed",
+      "url": "https://github.com/kimjeon-il/Pando/actions/runs/39985352211"
+    }
+  ],
+  "knownArchitectureFailure": {
+    "error": "Missing dependency apps/assets/js/modules/reference-image-analysis-client.js in apps/web-shell/reference-analysis-probe.js",
+    "sameFailureAsPreviousBase": true,
+    "validatorChanged": false,
+    "testsNotWeakened": true
+  }
+}

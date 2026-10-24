@@ -1,0 +1,25 @@
+✔ every current browser workflow can be assigned before CI dependency planning (19.1303ms)
+✔ application CI prepares pinned data before planning and executing registered checks (25.1618ms)
+✔ transitive source changes choose related units and declared HTTP browser consumers (50.983ms)
+✔ new and moved tests are discovered; an unregistered browser test fails coverage (37.061ms)
+✔ deleted imports and missing declared prerequisite commands fail, not silently pass (30.8511ms)
+✔ docs-only changes skip runtime work and unknown product code fails registration (36.3669ms)
+✔ an unknown computed executable import fails with its owner and does not invent a dependency (21.9811ms)
+✔ classic mixed arguments cannot hide a computed script behind a literal script (23.2368ms)
+✔ fixed fixture directories are data leaves and their child changes retain test consumers (26.8189ms)
+✔ cycles in prerequisites and missing fixture inputs fail inventory before execution (32.508ms)
+✔ a checker and its prerequisite implementation are inferred inputs, not copied file lists (46.1203ms)
+✔ computing a script base URL does not make every sibling script a consumed input (17.4743ms)
+✔ local comparison includes commits, index, working tree, untracked and both rename paths (2358.9009ms)
+✔ prerequisites and identical commands execute once; failed prerequisites block consumers visibly (0.7964ms)
+✔ missing tools and test process failures are failures, never skipped passes (0.2201ms)
+✔ a verifier runs again after a different profile replaces its staged input (0.3783ms)
+✔ explicit manual coverage stays explicit while artifact auto dispatch stays affected-only (0.3807ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2748.7206

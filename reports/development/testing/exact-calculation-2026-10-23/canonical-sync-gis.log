@@ -1,0 +1,11 @@
+Updating f58d61e9..43a1f29d
+Fast-forward
+ apps/web-shell/editor.html                 | 836 ++++++++++++++---------------
+ assets/js/build-meta.js                    |   4 +-
+ assets/wasm/pandoeditor-core.manifest.json |   2 +-
+ assets/wasm/pandoeditor-core.wasm          | Bin 3069894 -> 3069894 bytes
+ index.html                                 | 424 +++++++--------
+ scripts/contracts/application-checks.json  |   3 +
+ tests/unit/check-automation.test.mjs       |  12 +-
+ tools/exact-calculation-performance.mjs    |   4 +-
+ 8 files changed, 649 insertions(+), 636 deletions(-)

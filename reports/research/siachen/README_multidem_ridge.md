@@ -15,7 +15,3 @@ No source GeoJSON, state border or control-region area was modified.
 - shift_b: siachen_multidem_shift_b.png
 - after_shift: siachen_multidem_after_shift.png
 - sia_la: siachen_multidem_sia_la.png
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/f5961492d89c2e36c5835ecd332d60dc7fb11128211c8eeef74f8d5f0fa9bcf8.gz) · 원본 SHA-256 `f5961492d89c2e36c5835ecd332d60dc7fb11128211c8eeef74f8d5f0fa9bcf8`.

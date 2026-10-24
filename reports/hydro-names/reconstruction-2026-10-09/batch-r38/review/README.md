@@ -13,7 +13,3 @@ The retained Manitoba Geological Survey OF2024-4 map supplies the naming evidenc
 Two new scope holds increase the cumulative hold count from 32 to 34. The two prior access-pending targets remain unchanged; no new access-pending target was added. Prior targets were not reassessed. Unknown scalar and Korean fields are null, including all whole-feature scalar/product-name fields. Kasmere Lake is a research candidate only. Automatic and product application remain false. No geometry or product data was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. The public checks verify included current-three factual linkage, bounded metadata, arithmetic and included-file integrity. They cannot reopen original maps, recompute omitted full polygons, reproduce map judgments or replay the decoder. Maps, crops, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry-component files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/a77ad0908c803447bc7903a54a3d3ad2f1587eef313fe62e67ee0df25d687ccc.gz) · 원본 SHA-256 `a77ad0908c803447bc7903a54a3d3ad2f1587eef313fe62e67ee0df25d687ccc`.

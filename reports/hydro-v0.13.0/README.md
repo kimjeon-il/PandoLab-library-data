@@ -45,7 +45,3 @@
 - OpenStreetMap waterway 관계: 한국어 명칭·별칭 보강. © OpenStreetMap contributors, ODbL
 
 OSM은 빌드 시에만 사용하며 판도연구소 실행 중 온라인 요청은 발생하지 않습니다. 원본 파일명과 SHA-256은 [`manifest.json`](../../assets/data/hydro/v0.13.0/manifest.json)의 `sources`에 기록했습니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../archive/blobs/4d23fa49c679b6009976ab73534facfbeb9a626e9134e3eeef8a9f045c0d1516.gz) · 원본 SHA-256 `4d23fa49c679b6009976ab73534facfbeb9a626e9134e3eeef8a9f045c0d1516`.

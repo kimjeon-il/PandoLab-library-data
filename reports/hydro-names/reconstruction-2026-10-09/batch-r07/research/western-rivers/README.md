@@ -8,7 +8,3 @@ The complete selected baseline paths were compared with two figures in one BOM r
 All evidence concerns the pinned historical baseline. No current-deployment equality, surveyed mouth, uniform whole-group name, or original-source coordinate equivalence is claimed. Korean names remain null. Automatic, whole-group scalar and per-reach scalar application are false.
 
 The package contains factual findings, bounded location facts and citation hashes only. No raw report, map, HTML, crop or complete coordinate array is included.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/d51ca627e80bd9f0428c7bc80c1e555c75175d0e482810ef5679f4c4ddc4d113.gz) · 원본 SHA-256 `d51ca627e80bd9f0428c7bc80c1e555c75175d0e482810ef5679f4c4ddc4d113`.

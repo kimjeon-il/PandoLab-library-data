@@ -1,0 +1,122 @@
+[
+  {
+    "id": "north",
+    "bounds": [
+      10.58,
+      53.35,
+      11.05,
+      53.95
+    ],
+    "sourceVsDonorMaxPx": 5.346531680653787,
+    "sourceLengthDegrees": 1.4272009936136487,
+    "donorLengthDegrees": 1.7546863640112018
+  },
+  {
+    "id": "altmark",
+    "bounds": [
+      10.5,
+      52.7,
+      11.75,
+      53.15
+    ],
+    "sourceVsDonorMaxPx": 53.661891471521,
+    "sourceLengthDegrees": 1.6249275598558732,
+    "donorLengthDegrees": 1.8320361981040048
+  },
+  {
+    "id": "ohre",
+    "bounds": [
+      10.6,
+      52.38,
+      11.1,
+      52.72
+    ],
+    "sourceVsDonorMaxPx": 5.420623222069525,
+    "sourceLengthDegrees": 0.6164868929934626,
+    "donorLengthDegrees": 0.8030818251409039
+  },
+  {
+    "id": "helmstedt",
+    "bounds": [
+      10.7,
+      52.09,
+      11.3,
+      52.4
+    ],
+    "sourceVsDonorMaxPx": 7.190531230614902,
+    "sourceLengthDegrees": 0.6357459368647385,
+    "donorLengthDegrees": 0.8511237682692633
+  },
+  {
+    "id": "harz-north",
+    "bounds": [
+      10.5,
+      51.87,
+      10.85,
+      51.98
+    ],
+    "sourceVsDonorMaxPx": 4.991200473062977,
+    "sourceLengthDegrees": 0.19817340835320502,
+    "donorLengthDegrees": 0.27104787868335545
+  },
+  {
+    "id": "harz-south",
+    "bounds": [
+      10.35,
+      51.58,
+      10.75,
+      51.79
+    ],
+    "sourceVsDonorMaxPx": 6.3624549735104665,
+    "sourceLengthDegrees": 0.4145039205237708,
+    "donorLengthDegrees": 0.5675751301984914
+  },
+  {
+    "id": "eichsfeld-south",
+    "bounds": [
+      9.88,
+      51.25,
+      10.23,
+      51.47
+    ],
+    "sourceVsDonorMaxPx": 14.331604658962164,
+    "sourceLengthDegrees": 0.5357116896346262,
+    "donorLengthDegrees": 0.7303410662250397
+  },
+  {
+    "id": "hesse-central",
+    "bounds": [
+      9.85,
+      50.7,
+      10.35,
+      51.25
+    ],
+    "sourceVsDonorMaxPx": 8.70032894337262,
+    "sourceLengthDegrees": 1.3922476880566264,
+    "donorLengthDegrees": 2.1767240780780868
+  },
+  {
+    "id": "rhon",
+    "bounds": [
+      9.8,
+      50.37,
+      10.25,
+      50.7
+    ],
+    "sourceVsDonorMaxPx": 5.123438333674343,
+    "sourceLengthDegrees": 0.7936268571192285,
+    "donorLengthDegrees": 1.0050975479644486
+  },
+  {
+    "id": "tripoint",
+    "bounds": [
+      11.98,
+      50.22,
+      12.24,
+      50.36
+    ],
+    "sourceVsDonorMaxPx": 4.232404537163228,
+    "sourceLengthDegrees": 0.3817401884456747,
+    "donorLengthDegrees": 0.47348262454327017
+  }
+]

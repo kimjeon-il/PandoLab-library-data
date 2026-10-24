@@ -7,7 +7,3 @@ Cold Lake is explicitly source-access-limited, its full-feature correspondence r
 The WSA and ECCC original bytes were reused and hash-checked. Cold Lake has only a retained web-text-extraction hash, not an original PDF-body hash. Source publication dates, original retrieval times, quotation scope and map locators are recorded in source-evidence.json. Original government publications, map images, inspection crops, map-derived vectors and complete extracted texts are excluded.
 
 No formal naming instrument or current registry record was verified. Korean names and whole-feature scalar names remain null; automatic application and product application remain false. No source geometry or product data was changed.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/ac732ca16314a754b84578a37d8952549fecf573583f550943e9dac66f927548.gz) · 원본 SHA-256 `ac732ca16314a754b84578a37d8952549fecf573583f550943e9dac66f927548`.

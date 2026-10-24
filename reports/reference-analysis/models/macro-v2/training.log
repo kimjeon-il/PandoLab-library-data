@@ -1,0 +1,8 @@
+{"epoch": 0, "attemptedBatches": 96, "optimizerUpdates": 93, "skippedUpdates": 3, "trainingLoss": 1.7452273033559322, "validationLoss": null}
+{"epoch": 1, "attemptedBatches": 192, "optimizerUpdates": 188, "skippedUpdates": 4, "trainingLoss": 1.242546582594514, "validationLoss": null}
+{"epoch": 2, "attemptedBatches": 288, "optimizerUpdates": 284, "skippedUpdates": 4, "trainingLoss": 0.9727671563953967, "validationLoss": null}
+{"epoch": 3, "attemptedBatches": 384, "optimizerUpdates": 380, "skippedUpdates": 4, "trainingLoss": 0.7710120658048254, "validationLoss": null}
+{"epoch": 4, "attemptedBatches": 480, "optimizerUpdates": 476, "skippedUpdates": 4, "trainingLoss": 0.7788460893470983, "validationLoss": null}
+{"epoch": 5, "attemptedBatches": 576, "optimizerUpdates": 572, "skippedUpdates": 4, "trainingLoss": 0.6724272580286197, "validationLoss": null}
+{"epoch": 6, "attemptedBatches": 672, "optimizerUpdates": 668, "skippedUpdates": 4, "trainingLoss": 0.5890653362427353, "validationLoss": null}
+{"epoch": 7, "attemptedBatches": 768, "optimizerUpdates": 764, "skippedUpdates": 4, "trainingLoss": 0.4816967349393053, "validationLoss": null}

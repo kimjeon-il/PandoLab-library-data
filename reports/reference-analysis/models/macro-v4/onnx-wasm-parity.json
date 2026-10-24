@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "purpose": "trained-model-execution-parity-only",
+  "releaseApproved": false,
+  "independentEvaluation": false,
+  "provider": "onnxruntime-web-wasm-cpu",
+  "threads": 1,
+  "modelSha256": "9fbea24239fb2a0ab7ce4945d928d224443eb6240883aa1071c334ff0bc47456",
+  "trainingBatches": 615,
+  "optimizerUpdates": 607,
+  "outputShape": [
+    1,
+    7,
+    512,
+    512
+  ],
+  "finite": true,
+  "maximumAbsoluteError": 0.0003781318664550781,
+  "meanAbsoluteError": 0.000040317299390326055,
+  "loadMilliseconds": 983.2999999970198,
+  "inferenceMilliseconds": 687.5,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "requests": [
+    "/assets/vendor/reference-analysis/manifest.json",
+    "/assets/vendor/reference-analysis/ort-wasm-simd-threaded.mjs",
+    "/assets/vendor/reference-analysis/ort-wasm-simd-threaded.wasm",
+    "/assets/vendor/reference-analysis/ort.wasm.min.mjs",
+    "/reports/reference-analysis/models/macro-v4/boundary.manifest.json",
+    "/reports/reference-analysis/models/macro-v4/boundary.onnx",
+    "/reports/reference-analysis/models/macro-v4/diagnostics/expected-logits.f32",
+    "/reports/reference-analysis/models/macro-v4/diagnostics/overview.f32",
+    "/reports/reference-analysis/models/macro-v4/diagnostics/position.f32",
+    "/reports/reference-analysis/models/macro-v4/diagnostics/tile.f32"
+  ],
+  "externalRequests": 0,
+  "verifierSha256": "38a85d0a2470950962b8aaaf31c374159beec64f7f063b97d18b839d4d8813e9"
+}

@@ -1,0 +1,57 @@
+{
+  "appErrors": {
+    "pageErrors": [],
+    "unexpectedConsoleErrors": []
+  },
+  "sourceId": "state:deutsche-demokratische-republik",
+  "geometryVersion": "state:deutsche-demokratische-republik:1989-04-25-r1",
+  "objectId": "ae34af44-c7e2-46b4-b515-38e24fb6383a",
+  "appImport": true,
+  "undoRedo": true,
+  "webFileGeometryEqual": true,
+  "precisionAudits": [
+    {
+      "discards": [
+        {
+          "areaM2": 1.7375922023057466e-8,
+          "operationIndex": 1,
+          "polygonIndex": 0,
+          "ringCount": 1,
+          "vertexCount": 4
+        },
+        {
+          "areaM2": 9.68478090526652e-9,
+          "operationIndex": 3,
+          "polygonIndex": 18,
+          "ringCount": 1,
+          "vertexCount": 4
+        },
+        {
+          "areaM2": 1.1993896884597105e-7,
+          "operationIndex": 7,
+          "polygonIndex": 0,
+          "ringCount": 1,
+          "vertexCount": 4
+        },
+        {
+          "areaM2": 3.7769053854880005e-8,
+          "operationIndex": 7,
+          "polygonIndex": 1,
+          "ringCount": 1,
+          "vertexCount": 4
+        }
+      ],
+      "objectIds": [
+        "ae34af44-c7e2-46b4-b515-38e24fb6383a"
+      ],
+      "sourceEntityIds": [
+        "state:deutsche-demokratische-republik"
+      ]
+    }
+  ],
+  "webFileBytes": 57335808,
+  "packageSha256": "fca35b869d482abadb729e44cfad21c2d807a92face1e05175598f0045397c82",
+  "webErrors": [],
+  "appProof": "app-import-undo-redo-proof.json",
+  "combinedPlaywrightCase": "App import/Undo/Redo and source/audit assertions passed; combined case stopped at 8-second post-open viewer readiness assertion. Increased that assertion to 90 seconds; this Web-only continuation uses the exact exported file and a 120-second readiness wait."
+}

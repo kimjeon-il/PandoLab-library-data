@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "purpose": "identical-target-selected-training-tile-fit-only",
+  "independentEvaluation": false,
+  "releaseApproved": false,
+  "threshold": 0.55,
+  "rows": [
+    {
+      "sheet": "cia-asia-political-seams-r4",
+      "channel": "international",
+      "before": {
+        "dice": 0.9974447283635152,
+        "precision": 1.0,
+        "recall": 0.9949024822695035,
+        "targetPixels": 9024,
+        "supervisedPixels": 113178
+      },
+      "after": {
+        "dice": 0.9972219135459496,
+        "precision": 1.0,
+        "recall": 0.994459219858156,
+        "targetPixels": 9024,
+        "supervisedPixels": 113178
+      }
+    },
+    {
+      "sheet": "cia-world-political-2021",
+      "channel": "international",
+      "before": {
+        "dice": 0.9654240950837385,
+        "precision": 0.9797149122807017,
+        "recall": 0.9515441959531417,
+        "targetPixels": 1878,
+        "supervisedPixels": 41871
+      },
+      "after": {
+        "dice": 0.9690048939641109,
+        "precision": 0.99,
+        "recall": 0.9488817891373802,
+        "targetPixels": 1878,
+        "supervisedPixels": 41871
+      }
+    },
+    {
+      "sheet": "ga-australia-general-reference",
+      "channel": "administrative",
+      "before": {
+        "dice": 0.18370883882149047,
+        "precision": 0.10632998962296783,
+        "recall": 0.6747146619841967,
+        "targetPixels": 2278,
+        "supervisedPixels": 172525
+      },
+      "after": {
+        "dice": 0.3566169154228856,
+        "precision": 0.2305712815234174,
+        "recall": 0.7866549604916594,
+        "targetPixels": 2278,
+        "supervisedPixels": 172525
+      }
+    },
+    {
+      "sheet": "nrcan-canada-monochrome",
+      "channel": "international",
+      "before": {
+        "dice": 0.3601003764115433,
+        "precision": 0.22499216055189714,
+        "recall": 0.9013819095477387,
+        "targetPixels": 1592,
+        "supervisedPixels": 236370
+      },
+      "after": {
+        "dice": 0.3268348623853211,
+        "precision": 0.2348901098901099,
+        "recall": 0.5370603015075377,
+        "targetPixels": 1592,
+        "supervisedPixels": 236370
+      }
+    },
+    {
+      "sheet": "nrcan-canada-monochrome",
+      "channel": "administrative",
+      "before": {
+        "dice": 0.4710107747562853,
+        "precision": 0.32331533223761444,
+        "recall": 0.8671284634760705,
+        "targetPixels": 1588,
+        "supervisedPixels": 236370
+      },
+      "after": {
+        "dice": 0.6578947368421053,
+        "precision": 0.6140829694323144,
+        "recall": 0.7084382871536524,
+        "targetPixels": 1588,
+        "supervisedPixels": 236370
+      }
+    },
+    {
+      "sheet": "nrcan-canada-national",
+      "channel": "international",
+      "before": {
+        "dice": 0.291151284490961,
+        "precision": 0.17341576506955178,
+        "recall": 0.9067887931034483,
+        "targetPixels": 1856,
+        "supervisedPixels": 236370
+      },
+      "after": {
+        "dice": 0.3049977688531905,
+        "precision": 0.19231851435002814,
+        "recall": 0.7365301724137931,
+        "targetPixels": 1856,
+        "supervisedPixels": 236370
+      }
+    },
+    {
+      "sheet": "nrcan-canada-national",
+      "channel": "administrative",
+      "before": {
+        "dice": 0.3782126856873379,
+        "precision": 0.2356051703877791,
+        "recall": 0.9581839904420549,
+        "targetPixels": 1674,
+        "supervisedPixels": 236370
+      },
+      "after": {
+        "dice": 0.43660598179453836,
+        "precision": 0.29991067440821795,
+        "recall": 0.8022700119474313,
+        "targetPixels": 1674,
+        "supervisedPixels": 236370
+      }
+    }
+  ]
+}

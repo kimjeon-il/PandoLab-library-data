@@ -36,7 +36,3 @@
 - 재사용 참조 5개 11,244,495 bytes. `v0.13.0`·`v0.13.1`에 불필요한 미참조 파일은 각각 0개.
 - 모든 gzip 압축 파일에 대해 level9 가상 재압축을 비교한 결과 추가 잠재 절감량 34,594 bytes. **재압축/원본 수정/배포/구형 파일 삭제 없음.**
 - CI 산출물: [활성 수계 감사 JSON](https://github.com/kimjeon-il/Pando/actions/runs/37903489555/artifacts/11603990024).
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/3d8d74f65a18f701c4e5bb3e4cc1e74f40f476732e78f902c8427556f248eec4.gz) · 원본 SHA-256 `3d8d74f65a18f701c4e5bb3e4cc1e74f40f476732e78f902c8427556f248eec4`.

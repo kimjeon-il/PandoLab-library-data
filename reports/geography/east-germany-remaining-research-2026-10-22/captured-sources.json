@@ -1,0 +1,125 @@
+[
+  {
+    "name": "droemling-1990-section4.html",
+    "url": "https://www.gesetze-im-internet.de/natpdr_mlv/__4.html",
+    "capturedAt": "2026-10-22T14:49:09.969Z",
+    "stored": "droemling-1990-section4.html.gz",
+    "contentType": "text/html",
+    "bytes": 17339,
+    "sha256": "f8a1774fd1da784a89fb74424f1a1cab08116a8ca65fab52499f1478afb3f613",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "droemling-1990-index.html",
+    "url": "https://www.gesetze-im-internet.de/natpdr_mlv/index.html",
+    "capturedAt": "2026-10-22T14:49:10.012Z",
+    "stored": "droemling-1990-index.html.gz",
+    "contentType": "text/html",
+    "bytes": 7577,
+    "sha256": "292bd874621d190fb598fed37880f6ea31fc2b12050888740726ce1573f915c9",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "ohreaue-regulation.pdf",
+    "url": "https://lvwa.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/LVWA/LVwA/Bilder/Landw_Umwelt/407/naturschutzgebiete/verordnungen/ohreauevo.pdf",
+    "capturedAt": "2026-10-22T14:49:10.014Z",
+    "stored": "ohreaue-regulation.pdf.gz",
+    "contentType": "application/pdf",
+    "bytes": 62570,
+    "sha256": "e8eb83926cc1850a5ec52d093d87ca2edd28ccfc37c76f55666ea55746c065b0",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "wakenitz-bathing-profile.pdf",
+    "url": "https://efi2.schleswig-holstein.de/BG/files/BWProfile/HL/0009_BWProfil.pdf",
+    "capturedAt": "2026-10-22T14:49:10.015Z",
+    "stored": "wakenitz-bathing-profile.pdf.gz",
+    "contentType": "application/pdf",
+    "bytes": 1819692,
+    "sha256": "5c63a2bdea14e8ca432eaa65d0593ed772e92aebb27055ac2dc3fd0258813e3f",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "hessen-archive-2007.pdf",
+    "url": "https://landesarchiv.hessen.de/sites/landesarchiv.hessen.de/files/2022-12/archivnachrichten_7_1_juni_2007_internet_col.pdf",
+    "capturedAt": "2026-10-22T14:49:10.016Z",
+    "stored": "hessen-archive-2007.pdf.gz",
+    "contentType": "application/pdf",
+    "bytes": 2104643,
+    "sha256": "b293b7a77a29a054fbbc01bde587ebfe6386221b2710f05923ee1653876d9fc9",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "thuringia-border-map-catalogue.html",
+    "url": "https://www.archive-in-thueringen.de/de/findbuch/view/bestand/30874/systematik/114715",
+    "capturedAt": "2026-10-22T14:49:10.017Z",
+    "stored": "thuringia-border-map-catalogue.html.gz",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 448852,
+    "sha256": "457bd9d45c1f7f0f2d0e764e233047ed73d538a615545c505c3fe72e28893eb7",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "grenzhus-wakenitz.html",
+    "url": "https://www.grenzhus.de/wakenitz-und-trave/",
+    "capturedAt": "2026-10-22T14:49:10.018Z",
+    "stored": "grenzhus-wakenitz.html.gz",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 224972,
+    "sha256": "031e511020a0ab11ad414346af1006daaa0d18e6a2726793ea7590d216b23844",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "pointalpha-borderpost.html",
+    "url": "https://www.pointalpha.com/foerderverein-gibt-restaurierten-grenzpfosten-frei/",
+    "capturedAt": "2026-10-22T14:49:10.018Z",
+    "stored": "pointalpha-borderpost.html.gz",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 814974,
+    "sha256": "0a300e6f3e6f9157f8b09bfae94d242e61d443bce429a0738492c55fe23289f0",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "tlbg-mitteilungsheft56.pdf",
+    "url": "https://tlbg.thueringen.de/fileadmin/TLBG/Publikationen/mitteilungshefte/251119_Mitteilungsheft_56_ua.pdf",
+    "capturedAt": "2026-10-22T14:49:10.019Z",
+    "error": "Not a PDF; possible challenge page, not bypassed",
+    "status": "not captured"
+  },
+  {
+    "name": "wendebach-judgment.html",
+    "url": "https://voris.wolterskluwer-online.de/browse/document/2e1cf19e-b97f-4da2-b9c9-7ef359cad556",
+    "capturedAt": "2026-10-22T14:49:10.020Z",
+    "stored": "wendebach-judgment.html.gz",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 189450,
+    "sha256": "fcf1646f7d3d31111f6672c54405f5e716be7f3e8f43c15ce8646925a5b4a3c2",
+    "status": "captured; reading status recorded separately"
+  },
+  {
+    "name": "droemling-1990-law.pdf",
+    "url": "https://www.gesetze-im-internet.de/natpdr_mlv/NatPDr%C3%B6mlV.pdf",
+    "capturedAt": "2026-10-22T14:52:08.852Z",
+    "stored": "droemling-1990-law.pdf.gz",
+    "bytes": 64226,
+    "sha256": "4cd2186563487ace3f908e61d266a53ee448ddb66b42cb2c6df11760bde0bf89"
+  },
+  {
+    "name": "hessen-1989-page02.jpg",
+    "url": "https://www.beim-alten-bgs.de/Grenze-Grenzoffnungen/Grenze_Hessen-DDR/02-Scan.jpg",
+    "capturedAt": "2026-10-22T14:52:11.143Z",
+    "error": "fetch failed"
+  },
+  {
+    "name": "hessen-1989-page16.jpg",
+    "url": "https://www.beim-alten-bgs.de/Grenze-Grenzoffnungen/Grenze_Hessen-DDR/16-Scan.jpg",
+    "capturedAt": "2026-10-22T14:52:21.983Z",
+    "error": "fetch failed"
+  },
+  {
+    "name": "hessen-1989-page36.jpg",
+    "url": "https://www.beim-alten-bgs.de/Grenze-Grenzoffnungen/Grenze_Hessen-DDR/36-Scan.jpg",
+    "capturedAt": "2026-10-22T14:52:32.531Z",
+    "error": "fetch failed"
+  }
+]

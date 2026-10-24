@@ -1,0 +1,111 @@
+{
+  "beforeFree": 18362429440,
+  "roots": [
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports",
+      "removedFiles": 1619,
+      "removedBytes": 111860037,
+      "kept": [
+        "reports/README.md",
+        "reports/reference-analysis/README.md"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\71a67904db2beb933735727ad6c19adde082d2bd\\reports",
+      "removedFiles": 3384,
+      "removedBytes": 856640792,
+      "kept": [
+        "reports/geography/historical-boundary-rollback-2026-10-23/archived-source-drift-proof.json",
+        "reports/geography/historical-boundary-rollback-2026-10-23/audit.json",
+        "reports/geography/historical-boundary-rollback-2026-10-23/AUDIT.md",
+        "reports/geography/historical-boundary-rollback-2026-10-23/modern-unchanged-proof.json",
+        "reports/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+        "reports/geography/ne-selected-20261023/README.md"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\b4c115dc2b9b0ddea4261475807b86f9af2d836a\\reports",
+      "removedFiles": 2581,
+      "removedBytes": 304301841,
+      "kept": [
+        "reports/README.md",
+        "reports/reference-analysis/cleanup-release-5de478ba-2026-10-23.json",
+        "reports/reference-analysis/cleanup-result-20261023-105048-538.json",
+        "reports/reference-analysis/main-release-2026-10-23.md",
+        "reports/reference-analysis/pages-artifact-5de478ba-2026-10-23.json",
+        "reports/reference-analysis/pages-artifact-baf1cbb7-2026-10-23.json",
+        "reports/reference-analysis/pages-live-5de478ba-2026-10-23.json",
+        "reports/reference-analysis/pages-live-5de478ba-first-failure.md",
+        "reports/reference-analysis/pages-live-baf1cbb7-2026-10-23.json",
+        "reports/reference-analysis/README.md",
+        "reports/reference-analysis/windows-native-release-5de478ba-2026-10-23.json",
+        "reports/reference-analysis/windows-native-release-baf1cbb7-2026-10-23.json",
+        "reports/reference-analysis/ci-logs/architecture-followup-failure.log",
+        "reports/reference-analysis/ci-logs/artifact-ci-failure.log",
+        "reports/reference-analysis/ci-logs/ci-contracts-green.log",
+        "reports/reference-analysis/ci-logs/ci-regressions-red.log",
+        "reports/reference-analysis/ci-logs/core-ci-failure.log",
+        "reports/reference-analysis/ci-logs/core-ci-final-failure.log",
+        "reports/reference-analysis/ci-logs/linux-runtime-browser.log",
+        "reports/reference-analysis/ci-logs/linux-runtime-focused.log",
+        "reports/reference-analysis/ci-logs/p2-final-failure.log",
+        "reports/reference-analysis/corpus/corpus.draft.json",
+        "reports/reference-analysis/corpus/loc-tehran-1889-preview-ocr-diagnostic.json",
+        "reports/reference-analysis/corpus/zenodo-urdu-punjab-undated-ocr-diagnostic.json",
+        "reports/reference-analysis/corpus/labels/loc-tehran-1889-preview.json",
+        "reports/reference-analysis/corpus/labels/zenodo-urdu-punjab-undated.json"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\bae09cf0380569a176d3e19dda40f94c55668227\\reports",
+      "removedFiles": 2997,
+      "removedBytes": 380010490,
+      "kept": [
+        "reports/README.md",
+        "reports/reference-analysis/README.md"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\d3cb6c0097d4d466c878623e2944a1d28a084389\\reports",
+      "removedFiles": 3037,
+      "removedBytes": 456951576,
+      "kept": [
+        "reports/README.md"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\fa2de64ac125e768e9ce54137a07591be8d5f506\\reports",
+      "removedFiles": 3357,
+      "removedBytes": 809898578,
+      "kept": [
+        "reports/README.md"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\objects\\.working\\1373ef67d0a5ca8baf34edf493daa18fef37b9c7\\reports",
+      "removedFiles": 3348,
+      "removedBytes": 807544584,
+      "kept": [
+        "reports/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+        "reports/geography/ne-selected-20261023/README.md"
+      ]
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\00aa69a52b4b2d56fcfbd7e5b8ceba173776527b\\reports",
+      "removedFiles": 2532,
+      "removedBytes": 362320708,
+      "kept": [
+        "reports/README.md",
+        "reports/geography/east-germany-ratzeburg-mechow-applied-2026-10-23.md"
+      ]
+    }
+  ],
+  "afterFree": 21507862528,
+  "activeRoots": [
+    "D:\\dev\\PandoLab-library-data\\.working\\fa2de64ac125e768e9ce54137a07591be8d5f506\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\d401965fdbbcb53b54602b1d8736554b8ebc7dda\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\objects\\.working\\71a67904db2beb933735727ad6c19adde082d2bd\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\fa2de64ac125e768e9ce54137a07591be8d5f506\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\places\\.working\\fa2de64ac125e768e9ce54137a07591be8d5f506\\reports"
+  ]
+}

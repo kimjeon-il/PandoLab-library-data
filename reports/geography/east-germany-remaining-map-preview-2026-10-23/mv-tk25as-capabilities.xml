@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<WMS_Capabilities version="1.3.0"  xmlns="http://www.opengis.net/wms"   xmlns:sld="http://www.opengis.net/sld"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xmlns:ms="http://mapserver.gis.umn.edu/mapserver"   xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0"   xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0"   xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd  http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd  http://inspire.ec.europa.eu/schemas/inspire_vs/1.0  http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd http://mapserver.gis.umn.edu/mapserver https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;service=WMS&amp;version=1.3.0&amp;request=GetSchemaExtension">
+
+<!-- MapServer version 8.0.0 OUTPUT=PNG OUTPUT=JPEG OUTPUT=KML SUPPORTS=PROJ SUPPORTS=AGG SUPPORTS=FREETYPE SUPPORTS=CAIRO SUPPORTS=SVG_SYMBOLS SUPPORTS=RSVG SUPPORTS=ICONV SUPPORTS=FRIBIDI SUPPORTS=WMS_SERVER SUPPORTS=WMS_CLIENT SUPPORTS=WFS_SERVER SUPPORTS=WFS_CLIENT SUPPORTS=WCS_SERVER SUPPORTS=SOS_SERVER SUPPORTS=OGCAPI_SERVER SUPPORTS=FASTCGI SUPPORTS=THREADS SUPPORTS=GEOS SUPPORTS=PBF INPUT=JPEG INPUT=POSTGIS INPUT=OGR INPUT=GDAL INPUT=SHAPEFILE INPUT=FLATGEOBUF -->
+
+<Service>
+  <Name>WMS</Name>
+  <Title>WMS Historische Topographische Karten 1:25 000 MV (WMS_MV_TK25-AS)</Title>
+  <Abstract>Die GDI-MV ist Bestandteil der Geodateninfrastruktur Deutschland (GDI-DE) und gliedert sich mit dieser in die europäische Geodateninfrastruktur (INSPIRE) ein. Dieser Dienst dient der Darstellung der Topographische Karte 1:25 000 Ausgabe Staat (Kartenwerk der DDR). Angezeigt werden Ausgaben der Jahrgänge 1981 - 1987. Er wird durch das Land Mecklenburg-Vorpommern, Landesamt für innere Verwaltung betrieben.</Abstract>
+  <KeywordList>
+      <Keyword>25.000</Keyword>
+      <Keyword>25000</Keyword>
+      <Keyword>AdVMIS</Keyword>
+      <Keyword>Karte</Keyword>
+      <Keyword>LAiV</Keyword>
+      <Keyword>TK25 Ausgabe Staat</Keyword>
+      <Keyword>TK25AS</Keyword>
+      <Keyword>Topographische Karte</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+      <Keyword>topografisch</Keyword>
+  </KeywordList>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/>
+  <ContactInformation>
+    <ContactPersonPrimary>
+      <ContactPerson>Geodatenservice</ContactPerson>
+      <ContactOrganization>Landesamt für innere Verwaltung M-V, Amt für Geoinformation, Vermessung und Katasterwesen</ContactOrganization>
+    </ContactPersonPrimary>
+      <ContactPosition>pointOfContact</ContactPosition>
+    <ContactAddress>
+        <AddressType>postal</AddressType>
+        <Address>Lübecker Straße 289</Address>
+        <City>Schwerin</City>
+        <StateOrProvince>Mecklenburg-Vorpommern</StateOrProvince>
+        <PostCode>19059</PostCode>
+        <Country>Germany</Country>
+    </ContactAddress>
+      <ContactVoiceTelephone>0385 - 588 56860</ContactVoiceTelephone>
+      <ContactFacsimileTelephone>0385 - 509 56030</ContactFacsimileTelephone>
+  <ContactElectronicMailAddress>geodatenservice@laiv-mv.de</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>Es gibt keine Eignungs-, nur Zugriffseinschränkungen. Für die Nutzung können Kosten anfallen. </Fees>
+  <AccessConstraints>Interne Nutzung: der Dienst darf mit eigenen Diensten und Daten sowie Diensten und Daten Dritter, soweit von diesen entsprechende Rechte eingeräumt wurden, zusammengeführt und in interne Geschäftsprozesse, Produkte und Anwendungen eingebunden werden. Externe Nutzung: Jede externe Nutzung des Dienstes, z. B. Weitergabe analoger Auszüge zum Zweck der unmittelbaren Gewinnerzielung (Gutachten oder Exposés) oder das Einbinden in Internetpräsentationen bzw. Apps, ist genehmigungs- und ggf. geldleistungspflichtig. Kontakt zum Lizenzerwerb: geodatenservice@laiv-mv.de</AccessConstraints>
+  <MaxWidth>4192</MaxWidth>
+  <MaxHeight>4192</MaxHeight>
+</Service>
+
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/png; mode=24bit</Format>
+      <Format>image/png; mode=8bit</Format>
+      <Format>image/tiff</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/html</Format>
+      <Format>application/vnd.ogc.gml</Format>
+      <Format>text/plain</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+    <sld:GetLegendGraphic>
+      <Format>image/png</Format>
+      <Format>image/png; mode=8bit</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/vnd.jpeg-png</Format>
+      <Format>image/vnd.jpeg-png8</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </sld:GetLegendGraphic>
+  </Request>
+  <Exception>
+    <Format>XML</Format>
+    <Format>INIMAGE</Format>
+    <Format>BLANK</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization SupportSLD="1" UserLayer="0" UserStyle="1" RemoteWFS="0" InlineFeature="0" RemoteWCS="0"/>
+  <inspire_vs:ExtendedCapabilities>
+    <inspire_common:MetadataUrl xsi:type="inspire_common:resourceLocatorType">
+      <inspire_common:URL>https://www.geodaten-mv.de/geomis/id/b9466e6c-715d-4c4c-b79f-af2fb3a9d426</inspire_common:URL>
+      <inspire_common:MediaType>application/vnd.ogc.csw.GetRecordByIdResponse_xml</inspire_common:MediaType>
+    </inspire_common:MetadataUrl>
+    <inspire_common:SupportedLanguages>
+      <inspire_common:DefaultLanguage><inspire_common:Language>ger</inspire_common:Language></inspire_common:DefaultLanguage>
+    </inspire_common:SupportedLanguages>
+    <inspire_common:ResponseLanguage><inspire_common:Language>ger</inspire_common:Language></inspire_common:ResponseLanguage>
+  </inspire_vs:ExtendedCapabilities>
+  <Layer queryable="1">
+    <Name>WMS_MV_TK25AS</Name>
+    <Title>TK25AS um 1980</Title>
+    <Abstract>Dienst zur Darstellung der der Topographische Karte 1:25 000 Ausgabe Staat (TK25AS) ist ein Kartenwerk der DDR. Hier dargestellt wird die topographische Situation um 1980 mitsamt Blattschnitt-bezogenen Metadaten hinsichtlich Aktualität.</Abstract>
+    <KeywordList>
+        <Keyword>25.000</Keyword>
+        <Keyword>25000</Keyword>
+        <Keyword>AdVMIS</Keyword>
+        <Keyword>Karte</Keyword>
+        <Keyword>LAiV</Keyword>
+        <Keyword>TK25 Ausgabe Staat</Keyword>
+        <Keyword>TK25AS</Keyword>
+        <Keyword>Topographische Karte</Keyword>
+        <Keyword>infoMapAccessService</Keyword>
+        <Keyword>topografisch</Keyword>
+    </KeywordList>
+    <CRS>EPSG:25833</CRS>
+    <CRS>EPSG:25832</CRS>
+    <CRS>EPSG:3034</CRS>
+    <CRS>EPSG:3035</CRS>
+    <CRS>EPSG:3044</CRS>
+    <CRS>EPSG:3045</CRS>
+    <CRS>EPSG:31468</CRS>
+    <CRS>EPSG:31469</CRS>
+    <CRS>EPSG:3857</CRS>
+    <CRS>EPSG:4258</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:4647</CRS>
+    <CRS>EPSG:5650</CRS>
+    <CRS>EPSG:5652</CRS>
+    <CRS>EPSG:5674</CRS>
+    <CRS>EPSG:5675</CRS>
+    <CRS>EPSG:5677</CRS>
+    <CRS>EPSG:5678</CRS>
+    <CRS>EPSG:5679</CRS>
+    <CRS>EPSG:4937</CRS>
+    <CRS>EPSG:7409</CRS>
+    <CRS>EPSG:7423</CRS>
+    <CRS>EPSG:9422</CRS>
+    <CRS>EPSG:2398</CRS>
+    <EX_GeographicBoundingBox>
+        <westBoundLongitude>10.339420</westBoundLongitude>
+        <eastBoundLongitude>14.476990</eastBoundLongitude>
+        <southBoundLatitude>53.039183</southBoundLatitude>
+        <northBoundLatitude>54.820921</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox CRS="EPSG:25833"
+                minx="200000" miny="5.886e+06" maxx="465000" maxy="6.075e+06" />
+    <BoundingBox CRS="EPSG:25832"
+                minx="586247" miny="5.87772e+06" maxx="866367" maxy="6.08851e+06" />
+    <BoundingBox CRS="EPSG:3034"
+                minx="2.91183e+06" miny="4.02116e+06" maxx="3.11186e+06" maxy="4.28948e+06" />
+    <BoundingBox CRS="EPSG:3035"
+                minx="3.32576e+06" miny="4.34287e+06" maxx="3.53275e+06" maxy="4.62052e+06" />
+    <BoundingBox CRS="EPSG:3044"
+                minx="5.87772e+06" miny="586247" maxx="6.08851e+06" maxy="866367" />
+    <BoundingBox CRS="EPSG:3045"
+                minx="5.886e+06" miny="200000" maxx="6.075e+06" maxy="465000" />
+    <BoundingBox CRS="EPSG:31468"
+                minx="5.87939e+06" miny="4.39304e+06" maxx="6.07943e+06" maxy="4.66579e+06" />
+    <BoundingBox CRS="EPSG:31469"
+                minx="5.88775e+06" miny="5.19992e+06" maxx="6.0768e+06" maxy="5.46499e+06" />
+    <BoundingBox CRS="EPSG:3857"
+                minx="1.15098e+06" miny="6.99025e+06" maxx="1.61157e+06" maxy="7.32719e+06" />
+    <BoundingBox CRS="EPSG:4258"
+                minx="53.039183" miny="10.339420" maxx="54.820921" maxy="14.476990" />
+    <BoundingBox CRS="EPSG:4326"
+                minx="53.039183" miny="10.339420" maxx="54.820921" maxy="14.476990" />
+    <BoundingBox CRS="EPSG:4647"
+                minx="3.25862e+07" miny="5.87772e+06" maxx="3.28664e+07" maxy="6.08851e+06" />
+    <BoundingBox CRS="EPSG:5650"
+                minx="3.32e+07" miny="5.886e+06" maxx="3.3465e+07" maxy="6.075e+06" />
+    <BoundingBox CRS="EPSG:5652"
+                minx="5.87772e+06" miny="3.25862e+07" maxx="6.08851e+06" maxy="3.28664e+07" />
+    <BoundingBox CRS="EPSG:5674"
+                minx="4.39316e+06" miny="5.88015e+06" maxx="4.66594e+06" maxy="6.08021e+06" />
+    <BoundingBox CRS="EPSG:5675"
+                minx="5.2e+06" miny="5.8885e+06" maxx="5.46511e+06" maxy="6.07757e+06" />
+    <BoundingBox CRS="EPSG:5677"
+                minx="3.58635e+06" miny="5.87963e+06" maxx="3.86659e+06" maxy="6.09051e+06" />
+    <BoundingBox CRS="EPSG:5678"
+                minx="4.39313e+06" miny="5.87956e+06" maxx="4.66592e+06" maxy="6.07962e+06" />
+    <BoundingBox CRS="EPSG:5679"
+                minx="5.20001e+06" miny="5.88791e+06" maxx="5.46512e+06" maxy="6.07699e+06" />
+    <BoundingBox CRS="EPSG:4937"
+                minx="53.039183" miny="10.339420" maxx="54.820921" maxy="14.476990" />
+    <BoundingBox CRS="EPSG:7409"
+                minx="53.039183" miny="10.339420" maxx="54.820921" maxy="14.476990" />
+    <BoundingBox CRS="EPSG:7423"
+                minx="53.039183" miny="10.339420" maxx="54.820921" maxy="14.476990" />
+    <BoundingBox CRS="EPSG:9422"
+                minx="10.3394" miny="53.0392" maxx="14.477" maxy="54.8209" />
+    <BoundingBox CRS="EPSG:2398"
+                minx="5.8801e+06" miny="4.39303e+06" maxx="6.08017e+06" maxy="4.66582e+06" />
+    <Attribution>
+        <Title>Landesamt für Innere Verwaltung M-V</Title>
+        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.laiv-mv.de"/>
+    </Attribution>
+    <AuthorityURL name="GeoPortal.MV">
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/geomis/"/>
+    </AuthorityURL>
+    <Identifier authority="GeoPortal.MV">https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929</Identifier>
+    <MetadataURL type="TC211">
+      <Format>application/xml</Format>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929"/>
+    </MetadataURL>
+    <Style>
+       <Name>default</Name>
+       <Title>farbige Darstellung</Title>
+       <LegendURL width="1400" height="1400">
+          <Format>image/gif</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.geodaten-mv.de/dienste/legenden/tk25as_laiv_wms.gif"/>
+       </LegendURL>
+    </Style>
+    <MinScaleDenominator>1</MinScaleDenominator>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <Layer queryable="0" opaque="1" cascaded="0">
+        <Name>mv_tk25as</Name>
+        <Title>TK25AS um 1980 (Karte)</Title>
+        <Abstract>Die Topographische Karte 1:25 000 Ausgabe Staat (TK25AS) ist ein Kartenwerk der DDR. Dargestellt wird die topographische Situation um 1980.</Abstract>
+        <KeywordList>
+            <Keyword>25.000</Keyword>
+            <Keyword>25000</Keyword>
+            <Keyword>AdVMIS</Keyword>
+            <Keyword>Karte</Keyword>
+            <Keyword>LAiV</Keyword>
+            <Keyword>TK25 Ausgabe Staat</Keyword>
+            <Keyword>TK25AS</Keyword>
+            <Keyword>Topographische Karte</Keyword>
+            <Keyword>infoMapAccessService</Keyword>
+            <Keyword>topografisch</Keyword>
+        </KeywordList>
+        <CRS>EPSG:31468</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>10.349387</westBoundLongitude>
+            <eastBoundLongitude>14.694843</eastBoundLongitude>
+            <southBoundLatitude>53.005823</southBoundLatitude>
+            <northBoundLatitude>54.774358</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:25833"
+                    minx="192565" miny="5.87284e+06" maxx="480226" maxy="6.07818e+06" />
+        <BoundingBox CRS="EPSG:25832"
+                    minx="586745" miny="5.87564e+06" maxx="874497" maxy="6.08105e+06" />
+        <BoundingBox CRS="EPSG:3034"
+                    minx="2.91009e+06" miny="4.02177e+06" maxx="3.10455e+06" maxy="4.29724e+06" />
+        <BoundingBox CRS="EPSG:3035"
+                    minx="3.32396e+06" miny="4.3435e+06" maxx="3.52523e+06" maxy="4.62858e+06" />
+        <BoundingBox CRS="EPSG:3044"
+                    minx="5.87581e+06" miny="586823" maxx="6.08124e+06" maxy="874614" />
+        <BoundingBox CRS="EPSG:3045"
+                    minx="5.873e+06" miny="192661" maxx="6.07836e+06" maxy="480356" />
+        <BoundingBox CRS="EPSG:31468"
+                    minx="5.87779e+06" miny="4.39377e+06" maxx="6.07148e+06" maxy="4.67351e+06" />
+        <BoundingBox CRS="EPSG:31469"
+                    minx="5.87474e+06" miny="5.19258e+06" maxx="6.08016e+06" maxy="5.48035e+06" />
+        <BoundingBox CRS="EPSG:3857"
+                    minx="1.15195e+06" miny="6.98381e+06" maxx="1.6356e+06" maxy="7.31787e+06" />
+        <BoundingBox CRS="EPSG:4258"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:4647"
+                    minx="3.25867e+07" miny="5.87564e+06" maxx="3.28745e+07" maxy="6.08105e+06" />
+        <BoundingBox CRS="EPSG:5650"
+                    minx="3.31926e+07" miny="5.87284e+06" maxx="3.34802e+07" maxy="6.07818e+06" />
+        <BoundingBox CRS="EPSG:5652"
+                    minx="5.87581e+06" miny="3.25868e+07" maxx="6.08124e+06" maxy="3.28746e+07" />
+        <BoundingBox CRS="EPSG:5674"
+                    minx="4.39379e+06" miny="5.87838e+06" maxx="4.67353e+06" maxy="6.07207e+06" />
+        <BoundingBox CRS="EPSG:5675"
+                    minx="5.19257e+06" miny="5.87533e+06" maxx="5.48034e+06" maxy="6.08075e+06" />
+        <BoundingBox CRS="EPSG:5677"
+                    minx="3.58685e+06" miny="5.87756e+06" maxx="3.87472e+06" maxy="6.08304e+06" />
+        <BoundingBox CRS="EPSG:5678"
+                    minx="4.39377e+06" miny="5.87779e+06" maxx="4.67351e+06" maxy="6.07148e+06" />
+        <BoundingBox CRS="EPSG:5679"
+                    minx="5.19258e+06" miny="5.87474e+06" maxx="5.48035e+06" maxy="6.08016e+06" />
+        <BoundingBox CRS="EPSG:4937"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:7409"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:7423"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:9422"
+                    minx="10.3481" miny="53.0044" maxx="14.6928" maxy="54.7727" />
+        <BoundingBox CRS="EPSG:2398"
+                    minx="5.8785e+06" miny="4.39375e+06" maxx="6.07222e+06" maxy="4.67353e+06" />
+        <AuthorityURL name="GeoPortal.MV">
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/geomis/"/>
+        </AuthorityURL>
+        <Identifier authority="GeoPortal.MV">https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929</Identifier>
+        <MetadataURL type="TC211">
+          <Format>application/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929"/>
+        </MetadataURL>
+        <Style>
+          <Name>palette_rgb</Name>
+          <Title>farbige Darstellung</Title>
+          <LegendURL width="1400" height="1400">
+             <Format>image/gif</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.geodaten-mv.de/dienste/legenden/tk25as_laiv_wms.gif"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1</MinScaleDenominator>
+        <MaxScaleDenominator>50003</MaxScaleDenominator>
+    </Layer>
+    <Layer queryable="1" opaque="0" cascaded="0">
+        <Name>mv_tk25as_info</Name>
+        <Title>TK25AS um 1980 (Info)</Title>
+        <Abstract>Die Topographische Karte 1:25 000 Ausgabe Staat (TK25AS) ist ein Kartenwerk der DDR. Dargestellt wird der Blattschnitt. Er enthält Angaben zum Erfassungsstand des jeweiligen Kartenblattes.</Abstract>
+        <KeywordList>
+            <Keyword>25.000</Keyword>
+            <Keyword>25000</Keyword>
+            <Keyword>AdVMIS</Keyword>
+            <Keyword>Karte</Keyword>
+            <Keyword>LAiV</Keyword>
+            <Keyword>TK25 Ausgabe Staat</Keyword>
+            <Keyword>TK25AS</Keyword>
+            <Keyword>Topographische Karte</Keyword>
+            <Keyword>infoMapAccessService</Keyword>
+            <Keyword>topografisch</Keyword>
+        </KeywordList>
+        <CRS>EPSG:31468</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>10.349387</westBoundLongitude>
+            <eastBoundLongitude>14.694843</eastBoundLongitude>
+            <southBoundLatitude>53.005823</southBoundLatitude>
+            <northBoundLatitude>54.774358</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:25833"
+                    minx="192565" miny="5.87284e+06" maxx="480226" maxy="6.07818e+06" />
+        <BoundingBox CRS="EPSG:25832"
+                    minx="586745" miny="5.87564e+06" maxx="874497" maxy="6.08105e+06" />
+        <BoundingBox CRS="EPSG:3034"
+                    minx="2.91009e+06" miny="4.02177e+06" maxx="3.10455e+06" maxy="4.29724e+06" />
+        <BoundingBox CRS="EPSG:3035"
+                    minx="3.32396e+06" miny="4.3435e+06" maxx="3.52523e+06" maxy="4.62858e+06" />
+        <BoundingBox CRS="EPSG:3044"
+                    minx="5.87581e+06" miny="586823" maxx="6.08124e+06" maxy="874614" />
+        <BoundingBox CRS="EPSG:3045"
+                    minx="5.873e+06" miny="192661" maxx="6.07836e+06" maxy="480356" />
+        <BoundingBox CRS="EPSG:31468"
+                    minx="5.87779e+06" miny="4.39377e+06" maxx="6.07148e+06" maxy="4.67351e+06" />
+        <BoundingBox CRS="EPSG:31469"
+                    minx="5.87474e+06" miny="5.19258e+06" maxx="6.08016e+06" maxy="5.48035e+06" />
+        <BoundingBox CRS="EPSG:3857"
+                    minx="1.15195e+06" miny="6.98381e+06" maxx="1.6356e+06" maxy="7.31787e+06" />
+        <BoundingBox CRS="EPSG:4258"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:4647"
+                    minx="3.25867e+07" miny="5.87564e+06" maxx="3.28745e+07" maxy="6.08105e+06" />
+        <BoundingBox CRS="EPSG:5650"
+                    minx="3.31926e+07" miny="5.87284e+06" maxx="3.34802e+07" maxy="6.07818e+06" />
+        <BoundingBox CRS="EPSG:5652"
+                    minx="5.87581e+06" miny="3.25868e+07" maxx="6.08124e+06" maxy="3.28746e+07" />
+        <BoundingBox CRS="EPSG:5674"
+                    minx="4.39379e+06" miny="5.87838e+06" maxx="4.67353e+06" maxy="6.07207e+06" />
+        <BoundingBox CRS="EPSG:5675"
+                    minx="5.19257e+06" miny="5.87533e+06" maxx="5.48034e+06" maxy="6.08075e+06" />
+        <BoundingBox CRS="EPSG:5677"
+                    minx="3.58685e+06" miny="5.87756e+06" maxx="3.87472e+06" maxy="6.08304e+06" />
+        <BoundingBox CRS="EPSG:5678"
+                    minx="4.39377e+06" miny="5.87779e+06" maxx="4.67351e+06" maxy="6.07148e+06" />
+        <BoundingBox CRS="EPSG:5679"
+                    minx="5.19258e+06" miny="5.87474e+06" maxx="5.48035e+06" maxy="6.08016e+06" />
+        <BoundingBox CRS="EPSG:4937"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:7409"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:7423"
+                    minx="53.005823" miny="10.349387" maxx="54.774358" maxy="14.694843" />
+        <BoundingBox CRS="EPSG:9422"
+                    minx="10.3481" miny="53.0044" maxx="14.6928" maxy="54.7727" />
+        <BoundingBox CRS="EPSG:2398"
+                    minx="5.8785e+06" miny="4.39375e+06" maxx="6.07222e+06" maxy="4.67353e+06" />
+        <AuthorityURL name="GeoPortal.MV">
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.geodaten-mv.de/geomis/"/>
+        </AuthorityURL>
+        <Identifier authority="GeoPortal.MV">https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929</Identifier>
+        <MetadataURL type="TC211">
+          <Format>application/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929"/>
+        </MetadataURL>
+        <MinScaleDenominator>1</MinScaleDenominator>
+        <MaxScaleDenominator>50003</MaxScaleDenominator>
+    </Layer>
+  </Layer>
+</Capability>
+</WMS_Capabilities>

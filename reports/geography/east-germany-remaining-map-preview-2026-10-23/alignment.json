@@ -1,0 +1,38 @@
+{
+  "crs": "EPSG:25832",
+  "bbox": [
+    613016,
+    5952750,
+    623016,
+    5962750
+  ],
+  "width": 1800,
+  "height": 1800,
+  "metersPerPixel": 5.555555555555555,
+  "method": "Authoritative LAiV WMS native georeferencing/reprojection; no local GCP fit and no border-based adjustment",
+  "providerDescription": "TK25AS editions 1981-1987; individual sheet revision to be read from info/map",
+  "localControlPointResidual": "not-measured",
+  "historicalBoundaryAccuracy": "not-measured-no-digitized-period-boundary",
+  "approval": "pending-user-preview-before-tracing",
+  "sourceToMap": "Provider WMS request, axis order x/y EPSG:25832 WMS1.1.1",
+  "sheet": {
+    "name": "N32082DA",
+    "title": "Luedersdorf",
+    "edition": 1991,
+    "contentRevision": 1989,
+    "exactRevisionDate": "not supplied"
+  },
+  "sourceMetadataMismatch": "Service summary says editions1981-1987; GetFeatureInfo reports edition1991/content1989. Individual sheet information retained without substituting the summary.",
+  "privateEvidenceRoot": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\00aa69a52b4b2d56fcfbd7e5b8ceba173776527b\\private-evidence\\ddr-map-preview-2026-10-23",
+  "existingDdrBoundarySha256": "022a4284ab8c5047e8d2a5675e26c656c47969755aa3ee251b70a15fd14fc5ec",
+  "sourceRasterWasShiftedOrFittedToBorder": false,
+  "newBoundaryDigitized": false,
+  "georeferencingPreview": "Provider-georeferenced raster only; independent check-point residual unmeasured",
+  "originalRasterMetersPerPixel": 5.555555555555555,
+  "previewMapPixels": [
+    535,
+    535
+  ],
+  "previewAnisotropicDisplay": "Preview resized to panel; use full-resolution square raster for spatial interpretation, not the composite preview for measurement",
+  "previewDisplay": "Square aspect ratio preserved; use full-resolution raster for measurement"
+}

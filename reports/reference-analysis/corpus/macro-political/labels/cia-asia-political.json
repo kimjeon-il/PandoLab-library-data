@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "origin": "macro-vector-supervision",
+  "reviewed": false,
+  "supervisionQuality": "source-derived-weak",
+  "width": 1979,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international"
+  ],
+  "sourcePdf": "sources/cia-asia-political.pdf",
+  "sourceSha256": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+  "sourceMetadata": "sources/cia-asia-political.source.json",
+  "sourceMetadataSha256": "b1a5321031dab0d37e6bc4f82f5d0918cb15a67f80105c667fe59e536f80ba91",
+  "producer": {
+    "script": "tools/reference-analysis/macro.py",
+    "sha256": "2a80304d0aa82cb530dbcf30625dbf516ef1fa1dd911de32905bb8fd9502d14e",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "positivePixels": {
+    "international": 1526,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/cia-asia-political.mask.png",
+    "sha256": "77d528d587d3ade532a05fa833fc06e08b42a5d56aa6ee389ab9cb4a92e06685"
+  },
+  "validRaster": {
+    "path": "derived/cia-asia-political.valid.png",
+    "sha256": "7d11079815ae3aba67c1cff3cf3ee58cc408708f8ef4d16ede0edcf0a14fbab7"
+  }
+}

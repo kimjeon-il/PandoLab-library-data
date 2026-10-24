@@ -1,0 +1,20 @@
+{
+  "result": {
+    "count": 70,
+    "orientation": {
+      "script": "Cyrillic",
+      "clockwiseDegrees": 0,
+      "orientationSource": "ocr-comparison",
+      "confidence": 0.06238555908203125,
+      "scriptConfidence": 2.6666669845581055,
+      "languages": [
+        "eng"
+      ]
+    }
+  },
+  "logs": [
+    "Estimating resolution as 210",
+    "Estimating resolution as 173",
+    "Estimating resolution as 210"
+  ]
+}

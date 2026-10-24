@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "codeRevision": "f9fe57e3c00dc37fd7be63074bc3de749116a396",
+  "purpose": "actual-trained-first-checkpoint-pending-independent-evaluation",
+  "releaseApproved": false,
+  "modelFiles": {
+    "boundary.pt": {
+      "sha256": "305c0c63a3942f55f2dc8ca0a91698b6eff7b16d5e5df35d4c0e091cd4a53fef",
+      "bytes": 16910017
+    },
+    "boundary.onnx": {
+      "sha256": "2cab8ce3fc4ebd321b39e24fcd90c2f8c29b635e9e3e5b0f3254af759f63071e",
+      "bytes": 16697571
+    },
+    "boundary.manifest.json": {
+      "sha256": "a5d6a26887ae3ae4c311870180f1e42cf2b0df112353f63fc88a561cc4f37fff",
+      "bytes": 749
+    },
+    "training.log": {
+      "sha256": "4e5865c894d5b7a02d87e6556515fed090ce659e2dc353398abf3f769fdfa385",
+      "bytes": 579
+    },
+    "onnx-wasm-parity.json": {
+      "sha256": "0197ffb6a1192a5b5ab0e029774c9f72f80f1e00385b128ae68069defabb4592",
+      "bytes": 1574
+    },
+    "diagnostics/diagnostics.json": {
+      "sha256": "1ec76f1fcf861f0ff1972da7431e8f07065fd2e0037f0e2f5c10815a1a8bd8a1",
+      "bytes": 11061
+    },
+    "auxiliary-diagnostics/diagnostics.json": {
+      "sha256": "43e895314e950a4fab28a0ca086993265a9874bb7a1d31946f33d169d0534457",
+      "bytes": 35235
+    }
+  },
+  "packages": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "onnx": "1.23.2",
+    "onnxscript": "0.7.2",
+    "PyMuPDF": "1.26.6"
+  },
+  "encoder": {
+    "url": "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth",
+    "sha256": "5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997",
+    "name": "MobileNet_V3_Large_Weights.IMAGENET1K_V2"
+  },
+  "gpuWheelIdentities": [
+    {
+      "package": "torch",
+      "url": "https://download-r2.pytorch.org/whl/cu126/torch-2.14.1%2Bcu126-cp312-cp312-win_amd64.whl#sha256=97e3bc87ea74367518b740d912a7f5259c25a3c8115bf5916abee1d53ff115a4"
+    },
+    {
+      "package": "torchvision",
+      "url": "https://download-r2.pytorch.org/whl/cu126/torchvision-0.29.1%2Bcu126-cp312-cp312-win_amd64.whl#sha256=ab045bfb0ac014b80afb478190d14c6f7d3b57ade0d1fcd6ffc07414a0266b96"
+    }
+  ],
+  "corpusFingerprints": {
+    "usgs-publisher": "36f93c7f2606882b20eb75a729b2cf838fdb319480f068d8593d154dc095e4aa",
+    "semap-diverse": "4a902740ec0a7611c78d1bedb14f04352d2ed846d8a45db3d5e7dcd5bd8b1ae5"
+  },
+  "coverage": {
+    "publisherMaps": 5,
+    "auxiliaryInventoryItems": 24,
+    "auxiliaryUsedItems": 17,
+    "auxiliaryInstitutions": 6,
+    "publisherTiles": 150,
+    "auxiliaryTiles": 65,
+    "coastSupervised": false,
+    "auxiliaryObservedChannels": [
+      "hydro",
+      "transport"
+    ],
+    "languagesIndependentlyEvaluated": []
+  },
+  "training": {
+    "firstStageAttemptedBatches": 1800,
+    "firstStageOptimizerUpdates": null,
+    "mixedStageAttemptedBatches": 860,
+    "mixedStageOptimizerUpdates": 855,
+    "mixedStageSkippedUpdates": 5,
+    "selectedCheckpointAttemptedBatches": 430,
+    "selectedCheckpointOptimizerUpdates": 425,
+    "selectionMetric": "trainingLoss",
+    "validationLoss": null
+  },
+  "verification": {
+    "pythonCorpusSourceTests": 28,
+    "pythonModelTests": 6,
+    "nodeReleaseGateTests": 3,
+    "actualWasmParity": "onnx-wasm-parity.json",
+    "actualSourceInspectionSheets": 22,
+    "independentAccuracyEvaluation": false,
+    "windowsWebView2ModelProfiling": false,
+    "androidModelProfiling": false
+  },
+  "cleanup": {
+    "removed": "D:/dev/worktrees/ui/build-native/reference-analysis/interface-smoke.onnx",
+    "bytesReclaimed": 16642355,
+    "reason": "unused reproducible untrained interface diagnostic replaced by trained inference proof"
+  }
+}

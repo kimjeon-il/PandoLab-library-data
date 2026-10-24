@@ -13,7 +13,3 @@ The official NPS Katmai park map supplies the direct naming evidence. The Naknek
 Formal-registry decisions, exact shorelines, name boundaries, Korean forms and scalar product-name application are not approved. All product-name fields remain null and automatic application is false. The 24 prior scope holds and two pending-access IDs are preserved without reassessment; this batch adds one scope hold.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` from this directory. The validator checks only included factual linkage, bounded metadata, arithmetic and included-file byte integrity. It does not reopen original maps, recompute omitted complete polygons or replay the production decoder. Original maps, crops, full coordinates, private paths and omitted-input fingerprints are excluded. The pins cover only the nine included geometry-component files; the review manifest covers the seven other review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/38e6f72ddf79129e87ac2465f20421d912f7ffce4de6467afef6dc2610c740da.gz) · 원본 SHA-256 `38e6f72ddf79129e87ac2465f20421d912f7ffce4de6467afef6dc2610c740da`.

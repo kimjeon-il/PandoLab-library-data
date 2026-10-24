@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewed": false,
+  "origin": "publisher-layer-export",
+  "width": 2009,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "sourcePdf": "sources/usgs-detroit-2017.pdf",
+  "sourceSha256": "7fb6c33aeb2f37b5ad788cf2258a4d6c91bb990b0d1e29bb477ca982ebae1c4a",
+  "sourceMetadata": "sources/usgs-detroit-2017.source.json",
+  "sourceMetadataSha256": "070c1776f2e608298efe9973033f98a78ba6a0e5a9291931d834824ac8b6c04a",
+  "producer": {
+    "script": "tools/reference-analysis/publisher.py",
+    "sha256": "53fb78609a1c834f725bb942fa122e8af65872369b025340d6c4fafc2c1f71db",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "sourceRectPts": [
+    0.0,
+    0.0,
+    1638.0,
+    2088.0
+  ],
+  "pixelsPerPoint": 1.2260536398467432,
+  "layers": {
+    "international": [
+      "International"
+    ],
+    "administrative": [
+      "State or Territory",
+      "County or Equivalent"
+    ],
+    "hydro": [
+      "Hydrography"
+    ],
+    "transport": [
+      "Road Features",
+      "Trails",
+      "Railroads"
+    ],
+    "frame": [
+      "Map Frame",
+      "Projection and Grids"
+    ]
+  },
+  "disabledInputLayers": [
+    "Orthoimage",
+    "Shaded Relief"
+  ],
+  "positivePixels": {
+    "international": 3555,
+    "administrative": 8654,
+    "coast": 0,
+    "hydro": 262073,
+    "transport": 253015,
+    "text": 547645,
+    "frame": 60554
+  },
+  "raster": {
+    "path": "derived/usgs-detroit-2017.mask.png",
+    "sha256": "4eaf796b22c62b2c4d52f1f8ba50536317ec9266db05104803708844e35b45ea"
+  },
+  "validRaster": {
+    "path": "derived/usgs-detroit-2017.valid.png",
+    "sha256": "ec72ff418ee9076bb3f7f1baee3e2cac9ba2c2f35cf260ebd4df85ff39c45fff"
+  },
+  "sheet": {
+    "id": "usgs-detroit-2017",
+    "familyId": "usgs-us-topo",
+    "editionId": "usgs-mi-2017",
+    "duplicateGroup": "usgs-detroit-2017",
+    "split": "train",
+    "image": "derived/usgs-detroit-2017.jpg",
+    "annotations": "labels/usgs-detroit-2017.json",
+    "mapKind": "color",
+    "language": "eng",
+    "script": "Latin",
+    "source": {
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/MI/MI_Detroit_20170503_TM_geo.pdf",
+      "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88e9c182cef33f43f04a45",
+      "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+      "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+      "published": "2017-05-03"
+    },
+    "sha256": "0ac67f6d2aad9a36476e67c9e0fe38be99f00dfae43e93b5e87b832d944632cc"
+  }
+}

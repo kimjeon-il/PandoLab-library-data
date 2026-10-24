@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "trainingOnly": true,
+  "evaluationStatus": "pending",
+  "releaseApproved": false,
+  "epochs": 6,
+  "completed": {
+    "epoch": 5,
+    "attemptedBatches": 576,
+    "optimizerUpdates": 572,
+    "skippedUpdates": 4,
+    "trainingLoss": 0.46439595103159564,
+    "validationLoss": null
+  },
+  "selected": {
+    "epoch": 3,
+    "steps": 384,
+    "optimizerUpdates": 380,
+    "skippedUpdates": 4,
+    "trainingLoss": 0.4054391971140679,
+    "validationLoss": null,
+    "corpusSha256": "0574499702f0ea0426b0fed84a95a54e9614e62c57eedac36c155eaf8c7265a8",
+    "initialization": {
+      "sha256": "b5c60836159048d59825bee921870a7b3cc226393d40f96d385b8d596423edf4",
+      "attemptedBatches": 768,
+      "optimizerUpdates": 764,
+      "corpusSha256": "5c384a0321d2ae9af8a48e2aa49daf90ec6ca538fc48e541aa78d3ca3d2c837d"
+    }
+  },
+  "originalGroups": 3,
+  "publisherVariants": 4,
+  "tiles": 96,
+  "epochsLog": [
+    {
+      "epoch": 0,
+      "attemptedBatches": 96,
+      "optimizerUpdates": 92,
+      "skippedUpdates": 4,
+      "trainingLoss": 1.1542563542801265,
+      "validationLoss": null
+    },
+    {
+      "epoch": 1,
+      "attemptedBatches": 192,
+      "optimizerUpdates": 188,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.7291367602883838,
+      "validationLoss": null
+    },
+    {
+      "epoch": 2,
+      "attemptedBatches": 288,
+      "optimizerUpdates": 284,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.5955512599942571,
+      "validationLoss": null
+    },
+    {
+      "epoch": 3,
+      "attemptedBatches": 384,
+      "optimizerUpdates": 380,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.4054391971140679,
+      "validationLoss": null
+    },
+    {
+      "epoch": 4,
+      "attemptedBatches": 480,
+      "optimizerUpdates": 476,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.5785118938038067,
+      "validationLoss": null
+    },
+    {
+      "epoch": 5,
+      "attemptedBatches": 576,
+      "optimizerUpdates": 572,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.46439595103159564,
+      "validationLoss": null
+    }
+  ],
+  "checkpointSha256": "f1649f67778a706b5d741405f68f16245bce62a6f76f64597e4121dcc16a868a"
+}

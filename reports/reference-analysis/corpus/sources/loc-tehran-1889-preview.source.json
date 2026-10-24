@@ -1,0 +1,20 @@
+{
+  "id": "loc-tehran-1889-preview",
+  "familyId": "tehran-najm-al-mulk",
+  "language": "fas",
+  "script": "Arabic",
+  "published": "1889",
+  "materialKind": "official-downsample",
+  "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7624:g7624t:ct001792/full/2048,/0/default.jpg",
+  "metadataUrl": "https://www.loc.gov/item/2009582796/",
+  "originalMetadataUrl": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7624:g7624t:ct001792/info.json",
+  "license": "LOC free to use and reuse advisory; retain item-level rights statement",
+  "rightsReviewed": true,
+  "maximumBytes": 8388608,
+  "sha256": "35c31b490ee4aab6c775540f18e59660d5b354deefdf9ec8568952bea80d875d",
+  "bytes": 783466,
+  "acquiredAt": "2026-10-23T00:40:31.057762+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

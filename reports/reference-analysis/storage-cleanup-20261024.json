@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-24T11:28:19.696Z",
+  "taskFreeBytesBefore": 16687767552,
+  "freeBytesBeforeBatch": 18518745088,
+  "automaticUiCompaction": {
+    "deletedBytes": 2158366423,
+    "files": 9348,
+    "verification": "Preview bytes before concurrent preparation; subsequent preview found no remaining copies."
+  },
+  "entries": [
+    {
+      "checkout": "D:\\dev\\PandoLab-library-data",
+      "status": "compacted",
+      "eligibleBytes": 2622330488,
+      "deletedBytes": 2622330488,
+      "files": 8335,
+      "head": "220465af5ac619db74f575139dfc7910989606eb",
+      "reportOwnerUnchanged": true
+    },
+    {
+      "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis",
+      "status": "compacted",
+      "eligibleBytes": 1766103896,
+      "deletedBytes": 1766103896,
+      "files": 7045,
+      "head": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+      "reportOwnerUnchanged": true
+    },
+    {
+      "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\objects",
+      "status": "compacted",
+      "eligibleBytes": 2083821291,
+      "deletedBytes": 2083821291,
+      "files": 9425,
+      "head": "27697e8293cb18e3173577cdb102b6bdcfd7a7c3",
+      "reportOwnerUnchanged": true
+    },
+    {
+      "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\places",
+      "status": "compacted",
+      "eligibleBytes": 1766103896,
+      "deletedBytes": 1766103896,
+      "files": 7045,
+      "head": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+      "reportOwnerUnchanged": true
+    },
+    {
+      "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui",
+      "status": "compacted",
+      "eligibleBytes": 0,
+      "deletedBytes": 0,
+      "files": 0,
+      "head": "d8df0da62ba3ba9e52b38ac4ada693687ca45b37",
+      "reportOwnerUnchanged": true
+    }
+  ],
+  "pins": {
+    "D:\\dev\\PandoLab": "{\r\n  \"schemaVersion\": 1,\r\n  \"repository\": \"kimjeon-il/PandoLab-library-data\",\r\n  \"revision\": \"36210d5fde7d4d2301d0ff1335cf728e23b24195\",\r\n  \"mounts\": [\r\n    \"assets/data\",\r\n    \"reports\",\r\n    \"tools/historical-library/sources\",\r\n    \"tools/historical-library/working\",\r\n    \"tools/historical-library/review-output\",\r\n    \"tools/historical-library/land-borders\"\r\n  ]\r\n}\r\n",
+    "D:\\dev\\worktrees\\gis": "{\r\n  \"schemaVersion\": 1,\r\n  \"repository\": \"kimjeon-il/PandoLab-library-data\",\r\n  \"revision\": \"71a67904db2beb933735727ad6c19adde082d2bd\",\r\n  \"mounts\": [\r\n    \"assets/data\",\r\n    \"reports\",\r\n    \"tools/historical-library/sources\",\r\n    \"tools/historical-library/working\",\r\n    \"tools/historical-library/review-output\",\r\n    \"tools/historical-library/land-borders\"\r\n  ]\r\n}\r\n",
+    "D:\\dev\\worktrees\\objects": "{\r\n  \"schemaVersion\": 1,\r\n  \"repository\": \"kimjeon-il/PandoLab-library-data\",\r\n  \"revision\": \"71a67904db2beb933735727ad6c19adde082d2bd\",\r\n  \"mounts\": [\r\n    \"assets/data\",\r\n    \"reports\",\r\n    \"tools/historical-library/sources\",\r\n    \"tools/historical-library/working\",\r\n    \"tools/historical-library/review-output\",\r\n    \"tools/historical-library/land-borders\"\r\n  ]\r\n}\r\n",
+    "D:\\dev\\worktrees\\places": "{\r\n  \"schemaVersion\": 1,\r\n  \"repository\": \"kimjeon-il/PandoLab-library-data\",\r\n  \"revision\": \"71a67904db2beb933735727ad6c19adde082d2bd\",\r\n  \"mounts\": [\r\n    \"assets/data\",\r\n    \"reports\",\r\n    \"tools/historical-library/sources\",\r\n    \"tools/historical-library/working\",\r\n    \"tools/historical-library/review-output\",\r\n    \"tools/historical-library/land-borders\"\r\n  ]\r\n}\r\n",
+    "D:\\dev\\worktrees\\ui": "{\r\n  \"schemaVersion\": 1,\r\n  \"repository\": \"kimjeon-il/PandoLab-library-data\",\r\n  \"revision\": \"d401965fdbbcb53b54602b1d8736554b8ebc7dda\",\r\n  \"mounts\": [\r\n    \"assets/data\",\r\n    \"reports\",\r\n    \"tools/historical-library/sources\",\r\n    \"tools/historical-library/working\",\r\n    \"tools/historical-library/review-output\",\r\n    \"tools/historical-library/land-borders\"\r\n  ]\r\n}\r\n"
+  },
+  "freeBytesAfterBatch": 25930874880,
+  "pinsUnchanged": true,
+  "finishedAt": "2026-10-24T11:55:28.188Z",
+  "verification": {
+    "offlinePreparation": true,
+    "metadataCopiesNotRecreated": true,
+    "allCodePinsUnchanged": true,
+    "checkoutReruns": [
+      {
+        "checkout": "D:\\dev\\PandoLab-library-data",
+        "status": "verified-unused",
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "files": 0
+      },
+      {
+        "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis",
+        "status": "verified-unused",
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "files": 0
+      },
+      {
+        "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\objects",
+        "status": "verified-unused",
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "files": 0
+      },
+      {
+        "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\places",
+        "status": "verified-unused",
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "files": 0
+      },
+      {
+        "checkout": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui",
+        "status": "verified-unused",
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "files": 0
+      }
+    ],
+    "offlineRuntimeSamples": [
+      {
+        "logical": "assets/data/builtin-world/generated/v1/countries/AFG-sha256-bad003df9964a247d6d7f07a6ffc4db97de577891585953f9cfc3e64bcedec75.json.gz",
+        "sha256": "bad003df9964a247d6d7f07a6ffc4db97de577891585953f9cfc3e64bcedec75"
+      },
+      {
+        "logical": "assets/data/builtin-world/generated/v1/countries/AGO-sha256-87fd091b35bf89881982a0fdd55483aeec7ca9504fb0c65c28e66b5a4f22cff0.json.gz",
+        "sha256": "87fd091b35bf89881982a0fdd55483aeec7ca9504fb0c65c28e66b5a4f22cff0"
+      },
+      {
+        "logical": "assets/data/builtin-world/generated/v1/countries/ALB-sha256-b2140e6d32c8ff61a2ee7907c36fbcd8a0cc6a978f842d936561a9f576bb5390.json.gz",
+        "sha256": "b2140e6d32c8ff61a2ee7907c36fbcd8a0cc6a978f842d936561a9f576bb5390"
+      }
+    ],
+    "cleanupReports": [
+      "cleanup-result-20261024-204606-421.json",
+      "cleanup-result-20261024-204645-976.json",
+      "cleanup-result-20261024-205409-039.json",
+      "cleanup-result-20261024-205422-792.json"
+    ],
+    "secondCleanupDeletedBytes": 0,
+    "focusedTests": {
+      "passed": 7,
+      "failed": 0
+    },
+    "unrelatedHistoricalTestFailure": {
+      "name": "East Prussia r3 library preserves the reviewed geometry and reports its limitations",
+      "expected": "54c45d4de9f5f16e9dffb06eec24aeaef8f89b82aa455fd7c26b1064fe716237",
+      "actual": "285e75670217a29020bf0dd7de323311f3cdc1e42e3efbb7c462be0ce09d2307",
+      "sourceMatchesPinnedArchive": true
+    },
+    "partialCloneCleanup": {
+      "missingNonPromisorObjectsProtected": true,
+      "promisorObjectsNotFetched": true,
+      "realOfflineReferenceCheckPassed": true
+    },
+    "canonicalStorageDirectoriesRetained": true
+  },
+  "totalLogicalDeletedBytes": 14480601834,
+  "retainedGitTemporaryPacks": [],
+  "dataRepositoryBytesAfter": 14008463604,
+  "freeBytesAfter": 29898690560,
+  "freeBytesDelta": 13210923008,
+  "retainedLargeOutputs": [
+    {
+      "path": "D:/dev/PandoLab-library-data/.git",
+      "purpose": "Shared archive objects and history",
+      "bytes": 6095694209
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-cache/materialized",
+      "purpose": "Three revisions actively pinned or mounted by permanent worktrees",
+      "bytes": 2839677883
+    },
+    {
+      "path": "D:/dev/worktrees/ui/build-native",
+      "purpose": "Current CUDA training environment and fixed native tooling; no rebuild-only eviction"
+    },
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/target",
+      "purpose": "Current Windows/Android incremental builds and packaged applications"
+    }
+  ],
+  "implementation": {
+    "AGENTS.md": "f04c02ec9ed9c95685d5f2b2eb9b502022ec3af4e9b91ba7f122cdad063dfeaf",
+    "docs/branch-policy.md": "f9d76bfa3c4b3e69e3143e107f97644b0c6ef4cfa6f34a2750a11006a5272697",
+    "tools/library-data.mjs": "592244ebcf8610bf51fd2a15c33e82599e7a6f308eb8295ad331d2e2b585d36a",
+    "tools/cleanup-reference-analysis-caches.ps1": "8d798a76767ba107ebd41536b209494cb34f746c156b229ce0a3eff5f6ce0dce",
+    "tests/unit/library-data.test.mjs": "8e6c5897550baa867f171ef63ccc79fd1d2c9dec8542bcd31117d321a6dfeb93",
+    "tests/unit/reference-cache-cleanup.test.mjs": "a3d0bcaa5776b945a9a1b02caeb4a3f340ec328e4e2998f515f5fab374af8c38"
+  }
+}

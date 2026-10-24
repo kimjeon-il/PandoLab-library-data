@@ -37,7 +37,3 @@ Files:
 - siachen_control_comparison.png: research visual comparison
 
 The main country polygons, glaciers and political histories are unchanged.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/eb9052da3811d5e20db3aa797c03a1521b3c1839e4716b41416b6f7f3256d981.gz) · 원본 SHA-256 `eb9052da3811d5e20db3aa797c03a1521b3c1839e4716b41416b6f7f3256d981`.

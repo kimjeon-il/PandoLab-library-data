@@ -15,7 +15,3 @@ The complete original maps and whole target regions were visually examined, with
 This directory contains bibliography, factual observations and selected geometry facts. Original publications and inspection materials are excluded. Public validation checks included records and geometry; it does not reproduce omitted visual map evidence.
 
 Whole-feature scalar and Korean names remain null. Automatic application and product application are false.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/6694c216605d7a0ae194e44b7dfd721c63020e4e2a7db7f1fc7fc8505a95436b.gz) · 원본 SHA-256 `6694c216605d7a0ae194e44b7dfd721c63020e4e2a7db7f1fc7fc8505a95436b`.

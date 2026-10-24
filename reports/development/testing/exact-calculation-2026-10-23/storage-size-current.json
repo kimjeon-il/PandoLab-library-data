@@ -1,0 +1,28 @@
+{
+  "trackedBeforeBytes": 133791438,
+  "trackedAfterBytes": 112790800,
+  "artifacts": [
+    {
+      "path": "apps/web-shell/src-tauri/target/packaged/windows/pandolab-web-shell.exe",
+      "logicalBytes": 500165006,
+      "allocatedBytes": 500166656,
+      "links": 1,
+      "identity": "2029611902:3377699720546388"
+    },
+    {
+      "path": "apps/web-shell/src-tauri/target/x86_64-pc-windows-gnu/debug/pandolab-web-shell.exe",
+      "logicalBytes": 182416916,
+      "allocatedBytes": 182419456,
+      "links": 2,
+      "identity": "2029611902:2814749767192051"
+    },
+    {
+      "path": "apps/web-shell/src-tauri/target/x86_64-linux-android/debug/libpandolab_web_shell_lib.so",
+      "logicalBytes": 140735656,
+      "allocatedBytes": 140738560,
+      "links": 3,
+      "identity": "2029611902:3940649674030199"
+    }
+  ],
+  "diskFreeBytes": 20052033536
+}

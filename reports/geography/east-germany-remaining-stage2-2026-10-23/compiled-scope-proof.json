@@ -1,0 +1,22 @@
+{
+  "compiledOutsideNewWindowsHausdorffDegrees": 1.7763568394002505e-15,
+  "compiledIsValid": true,
+  "compiledChangedFootprintKm2": 0.5851051408197798,
+  "sourceVsCompiledRemovedKm2": 78.55314751953803,
+  "removedBounds": [
+    12.239073400000052,
+    50.17132330000004,
+    14.489817899629076,
+    51.037196
+  ],
+  "sections": [
+    {
+      "id": "vg25-eichsfeld-glasehausen",
+      "compiledBoundaryVsSourceHausdorffDegrees": 0.0
+    },
+    {
+      "id": "vg25-schaalsee-mustin-thurow-land",
+      "compiledBoundaryVsSourceHausdorffDegrees": 0.0
+    }
+  ]
+}

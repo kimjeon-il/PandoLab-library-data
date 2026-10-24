@@ -28,7 +28,3 @@ Run with Python 3:
 The validator reads only included files and makes no network requests. It checks 15 included input-file pins, research/review manifests, 101 ordered positions, identity joins, research/review factual linkage, source bibliography, access/completion flags and preserved follow-up categories. Mutation tests check these bounds without treating byte integrity as proof of source interpretation.
 
 The review manifest covers its seven other included files and excludes itself. Passing validation means included-file integrity and consistency; it does not independently establish the truth of the historical cartographic interpretation.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/6e0e17e2cf8cadb3274d6ca2d3d90b138d7db8e5477ca63dc0a309fe84c639d2.gz) · 원본 SHA-256 `6e0e17e2cf8cadb3274d6ca2d3d90b138d7db8e5477ca63dc0a309fe84c639d2`.

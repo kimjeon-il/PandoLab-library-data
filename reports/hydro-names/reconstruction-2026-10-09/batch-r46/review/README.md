@@ -13,7 +13,3 @@ Ontario Geological Survey's Index to Maps, Bedrock Geology, 1991–2020, East-Ce
 All three generalized identity reviews are complete. No new scope hold, source-access pending or source-material pending case is added. Prior 41 holds, two access-pending and two material-pending cases remain unchanged, for four pending-source targets total. Primrose remains source-coverage-incomplete; the prior tiny sliver remains source-material-insufficient. Prior targets were not reassessed. Accepted, whole-feature scalar/product and Korean names remain null; automatic and product application remain false.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. The same-size bounded suite checks current-three factual linkage, stages, geometry summaries, arithmetic and included-file bytes only. It cannot reopen omitted originals, recompute full polygons, reproduce visual judgments or replay the decoder. Maps, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins nine included geometry files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/0f649b98beeebaf7da63e6ebde83c230db16f4c8f039450f2db9daa9f9f74c4d.gz) · 원본 SHA-256 `0f649b98beeebaf7da63e6ebde83c230db16f4c8f039450f2db9daa9f9f74c4d`.

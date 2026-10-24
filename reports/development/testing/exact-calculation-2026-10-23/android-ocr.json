@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "orientation": {
+    "script": "Cyrillic",
+    "clockwiseDegrees": 270,
+    "orientationSource": "ocr-comparison",
+    "confidence": 0.220123291015625,
+    "scriptConfidence": 0,
+    "languages": [
+      "eng"
+    ]
+  },
+  "title": "CHINA-KOREA BORDER"
+}

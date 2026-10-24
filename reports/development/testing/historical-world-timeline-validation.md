@@ -7,7 +7,3 @@
 - Qt에서는 12개월 공통 추적 일치, 선택 UI 5/5, 수정 후 비활성/활성 월 검증 선택 함수 2/2 통과로 기록했다. 문서·전체 앱 배포·Android·전체 CTest·소스 밖 실제 배포 검증은 미실행이며 320px 이미지 도구 겹침도 당시 범위에서 제외했다.
 
 [정리 전 원문·전체 테스트 목록·출처·원본 커밋](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/historical-world-timeline-validation.md)을 참조할 것. 현재 지도 데이터·런타임 변경이나 검증 완료를 의미하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/c5310628d8078d4ab616da8c38f158244a1602f0122580c601494f211be72b2c.gz) · 원본 SHA-256 `c5310628d8078d4ab616da8c38f158244a1602f0122580c601494f211be72b2c`.

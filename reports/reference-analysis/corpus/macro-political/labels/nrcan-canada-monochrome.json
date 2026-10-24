@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "origin": "macro-vector-supervision",
+  "reviewed": false,
+  "supervisionQuality": "source-derived-weak",
+  "width": 2560,
+  "height": 1979,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative"
+  ],
+  "sourcePdf": "sources/nrcan-canada-monochrome.pdf",
+  "sourceSha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+  "sourceMetadata": "sources/nrcan-canada-monochrome.source.json",
+  "sourceMetadataSha256": "f76117f3a76c3f3590703c8bba826b15694fb6eae970fae2adae50631c7a0bf6",
+  "producer": {
+    "script": "tools/reference-analysis/macro.py",
+    "sha256": "2a80304d0aa82cb530dbcf30625dbf516ef1fa1dd911de32905bb8fd9502d14e",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "positivePixels": {
+    "international": 9577,
+    "administrative": 12420,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/nrcan-canada-monochrome.mask.png",
+    "sha256": "4e2c648a60384b84748402e83424d7427d243c6c371e66ada268e6cb1ab04383"
+  },
+  "validRaster": {
+    "path": "derived/nrcan-canada-monochrome.valid.png",
+    "sha256": "4d3dea709e63918227f0a76ea39dad59cd00ccab094d92e0da9d444b1eaf4502"
+  }
+}

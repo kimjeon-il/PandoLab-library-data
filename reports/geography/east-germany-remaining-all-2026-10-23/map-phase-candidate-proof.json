@@ -1,0 +1,58 @@
+[
+  {
+    "id": "vg25-delvenau-approved-map",
+    "valid": true,
+    "deltaKm2": 4.030381823850652,
+    "deltaBounds": [
+      10.764358350562322,
+      53.490156578469644,
+      10.846178608363328,
+      53.576224533032075
+    ],
+    "outsideWindowBoundaryHausdorffDegrees": 0.0,
+    "outsideGermanyKm2": 0.0,
+    "oldInternationalMissingFromNewDegrees": 0.0
+  },
+  {
+    "id": "vg25-saxony-tripoint-approved-map",
+    "valid": true,
+    "deltaKm2": 1.898334961045123e-08,
+    "deltaBounds": [
+      11.996763802977188,
+      50.346287421407034,
+      11.998513986562061,
+      50.34751739399972
+    ],
+    "outsideWindowBoundaryHausdorffDegrees": 0.0,
+    "outsideGermanyKm2": 0.0,
+    "oldInternationalMissingFromNewDegrees": 0.0
+  },
+  {
+    "id": "tk25as-elbe-neuhaus-printed-claim",
+    "valid": true,
+    "deltaKm2": 0.6482486016231207,
+    "deltaBounds": [
+      10.783483671267442,
+      53.27393315955697,
+      10.811965905207018,
+      53.29107036551258
+    ],
+    "outsideWindowBoundaryHausdorffDegrees": 0.0,
+    "outsideGermanyKm2": 0.0,
+    "oldInternationalMissingFromNewDegrees": 0.0
+  },
+  {
+    "id": "tk25as-elbe-schnackenburg-printed-claim",
+    "valid": true,
+    "deltaKm2": 1.1091134968722303,
+    "deltaBounds": [
+      11.532299,
+      53.01002,
+      11.58134,
+      53.054643
+    ],
+    "outsideWindowBoundaryHausdorffDegrees": 0.0,
+    "outsideGermanyKm2": 0.0,
+    "oldInternationalMissingFromNewDegrees": 0.0
+  }
+]

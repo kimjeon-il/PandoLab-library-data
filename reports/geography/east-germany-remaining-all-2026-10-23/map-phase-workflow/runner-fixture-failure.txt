@@ -1,0 +1,56 @@
+[WebServer] (node:20420) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:25368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source (1.5m)
+
+
+  1) tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 0
+
+    @@ -18,8 +18,6 @@
+        "vg25-helmstedt-lappwald-land",
+        "vg25-ecker-lower-foothills",
+        "vg25-suedharz-ellrich-land",
+        "vg25-rhon-point-alpha-land",
+        "vg25-delvenau-approved-map",
+    -   "tk25as-elbe-neuhaus-printed-claim",
+    -   "tk25as-elbe-schnackenburg-printed-claim",
+      ]
+
+      104 |   const source=await page.evaluate(()=>window.PANDOLAB_TERRITORIAL_LIBRARY.get('state:deutsche-demokratische-republik'));
+      105 |   expect(source.geometryVersions[0].sourceId).toContain('adopted-dos-lsib-11.4+bkg-vg25');
+    > 106 |   expect(source.geometryVersions[0].boundarySupplement.sections.filter(s=>s.id.startsWith('vg25-')).map(s=>s.id)).toEqual([
+          |                                                                                                                   ^
+      107 |     'vg25-schaalsee-lake', 'vg25-bavaria-central', 'vg25-saxony-bavaria',
+      108 |     'vg25-eichsfeld-north', 'vg25-harz-ecker', 'vg25-geismar-spahl',
+      109 |     'vg25-wolfenbuettel-hornburg',
+        at D:\dev\worktrees\gis\tests\browser\historical-library.spec.mjs:106:115
+
+    attachment #1: static-import-provenance (application/json) ─────────────────────────────────────
+    test-results\historical-library-East-Ge-3759e-history-and-original-source\attachments\static-import-provenance-54d78d10cc880fb4e913527db18350a281496a3c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\historical-library-East-Ge-3759e-history-and-original-source\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\historical-library-East-Ge-3759e-history-and-original-source\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\historical-library-East-Ge-3759e-history-and-original-source\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\historical-library-East-Ge-3759e-history-and-original-source\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source 

@@ -27,7 +27,3 @@ Run `python validate-package.py` for offline package verification. Package-only 
 ## Incremental continuity
 
 The preceding nine reconstructed logical targets are fixed through `ed7bdaf154563ebdce8de6b40aff463b714a7a17`. This batch adds exactly three distinct targets, for twelve total: eight lake features and four river groups. Candidate, supported principal-body/representative-system and explicit geometry/name-scope-hold categories remain separate. The old unavailable 504-target ledger is not added or represented as restored.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/5e9daaaa3cc6119ff6ac5510d319c9ce1d206ff08f893b92bbfc671acbcd12d3.gz) · 원본 SHA-256 `5e9daaaa3cc6119ff6ac5510d319c9ce1d206ff08f893b92bbfc671acbcd12d3`.

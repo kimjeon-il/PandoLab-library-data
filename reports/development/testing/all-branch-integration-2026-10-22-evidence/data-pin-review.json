@@ -1,0 +1,74 @@
+[
+  {
+    "pin": "ea843c09e790245cbcfe35a44051b2d67534ee4e",
+    "missingTotal": 51,
+    "missingNonReports": [
+      "assets/data/builtin-world/generated/v1/countries/IDN-sha256-1911f09f52c7a6b3f2227109089cb209c86c72cb53c2cc3595a069327b618344.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/KOR-sha256-3f581a56a52c3c490e3927330d92b54329f81384c547371c10901c860c0ce271.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/PRK-sha256-b077698398d0e9479ac9ff54848d2a254fea1ed67ce7ce594762b8a2e274ca69.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/SDN-sha256-686c8ddd5ea542b1b1f0d65caa55e030e64f0d2195c6888cf4402b1ab039e17e.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/SDS-sha256-809314508ed3c82556a8a534a9b15d7651250404b62634d6ef78a13a7a72c5ed.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/TLS-sha256-1051a2106a9e97dc596d36600dca9ec208d1bd05893717dc8055d3e639f45164.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/UKR-sha256-14aec091be0af231ce24903dac48a34da46c69b4c081747d7a0ed421b5b458a1.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-000000414c44-sha256-515e70037d53bfee01d7adb463d5455d6ecbf21c100583a89b30625bdb938de9.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-a74569e2b5f39d2301f191579d6781de635a159e3e79c97e3af999875d9bd5d2.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-czechoslovakia-sha256-341e3daecdcc1dd09b5c14e24e25c9d3eb3b2a6007f56f8f06952d2054f93581.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-deutsche-demokratische-republik-sha256-167beb1a4e3f5d291f51f627655be3fe019689ada4da424f380f49b8cf7508b8.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-armenian-ssr-sha256-901ca99667b26a9ec3b4861fa277a4208b21d9a3a13787134ed63b587f0bed29.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-azerbaijan-ssr-sha256-3731db50eab96b280b6f57633c0d435478db8d9acd8eaccde3cf2061f2d98e54.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-1e7c7aae23f469a0f9028d0d2a8a2996d721f89e575ab8c0c4ee1cf371f55eb6.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-estonian-ssr-sha256-938d8a003871f876f1c18d1a12186ed1a05ada24d7b55e7a132be40337811623.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-georgian-ssr-sha256-81dd0f16f8ec0ddd5e6284504644a0a312fcf6ca991bd1528a123ec87b8b6a10.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-kazakh-ssr-sha256-8e82677b0a78571627a124a588eb10f57301b96b6bb692934f7ec194b5b8768f.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-kirghiz-ssr-sha256-d36f46033784729f21c1a096d52f29600825465c3e7e8f23e6a25338ea5977d5.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-latvian-ssr-sha256-fbe201562f0299457b522bc2d3eb6831e086e4514a34441972269a173854afb1.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-lithuanian-ssr-sha256-a0c08cd249025030559493c4913531dafcd94dab98fca77a6d851dbe6c3c01fd.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-moldavian-ssr-sha256-39b8ba3b1e004ff48c85280e519595cac99ae8d65f138d26ed3db6f00a486767.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-4700738582bcff75aba09bdea091d310416b64f5bdfa6ae7aed17e42535cb830.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-20672bedd2a315f15044166337976adb400d93ae8855f3f7079ca285d795a4f1.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-tajik-ssr-sha256-21921677e25f8b40446be7e14d83f80e6b4d52534b576fe097fa26eb55f97ddc.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-turkmen-ssr-sha256-8c3eae7cdbc9d2da983fa08461634a4f035b29d3e974c472181a22ce3a097b4c.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-ukrainian-ssr-sha256-4188c05ca60569d836f4047ce5ffc6ea6c09584c2b43969d13d42c578541dbc5.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-soviet-union-uzbek-ssr-sha256-c1d4f6e472f6c2f1a0f53f2b3bf91da172eedd3bb72856fdd4533fa7ad61f48b.json.gz",
+      "assets/data/builtin-world/generated/v1/countries/state-yugoslavia-sha256-2d85fd4cb44b5d29da867820306700c2338029aef5e8d43b34ae6c2f238fdf45.json.gz",
+      "assets/data/builtin-world/generated/v1/transport/countries-sha256-f19703f37f675dc6bf686d3f583b548d275a8e3f76b8fd8b4e4a781efe55b2cd.bin"
+    ],
+    "changedNonReports": [
+      "assets/data/builtin-world/generated/v1/coverage-report.json",
+      "assets/data/builtin-world/generated/v1/index.json",
+      "assets/data/prepared-polygons/generated/v2/manifest.json"
+    ],
+    "missingReports": [
+      "reports/development/testing/country-lifetime-2026-10-21.md",
+      "reports/development/testing/evidence/country-lifetime-20261021/app-build.log",
+      "reports/development/testing/evidence/country-lifetime-20261021/app-exit.json",
+      "reports/development/testing/evidence/country-lifetime-20261021/app-process.json",
+      "reports/development/testing/evidence/country-lifetime-20261021/app-stage.json",
+      "reports/development/testing/evidence/country-lifetime-20261021/browser.log",
+      "reports/development/testing/evidence/country-lifetime-20261021/data-proof.json",
+      "reports/development/testing/evidence/country-lifetime-20261021/loader.log",
+      "reports/development/testing/evidence/country-lifetime-20261021/native-tests.log",
+      "reports/development/testing/evidence/country-lifetime-20261021/publication.log",
+      "reports/development/testing/evidence/country-lifetime-20261021/reset.log",
+      "reports/development/testing/evidence/country-lifetime-20261021/unit.log"
+    ]
+  },
+  {
+    "pin": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+    "missingTotal": 0,
+    "missingNonReports": [],
+    "changedNonReports": [
+      "assets/data/builtin-world/generated/v1/index.json"
+    ],
+    "missingReports": []
+  },
+  {
+    "pin": "cd0698ab2886e7468cf10571186c76941e56709a",
+    "missingTotal": 0,
+    "missingNonReports": [],
+    "changedNonReports": [
+      "assets/data/builtin-world/generated/v1/index.json"
+    ],
+    "missingReports": []
+  }
+]

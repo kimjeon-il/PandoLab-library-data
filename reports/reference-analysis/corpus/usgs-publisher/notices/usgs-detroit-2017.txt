@@ -1,0 +1,1269 @@
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/MI/MI_Detroit_20170503_TM_geo.pdf
+USGS topographic-map reuse permission; retain map-specific third-party credits
+
+Publisher text / credits:
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+›
+!"
+!"
+&
+PO
+!"
+^
+^
+^
+^
+^
+^
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+Þ
+Þ
+@
+T
+▄
+
+Þ
+Þ
+@
+T
+▄
+
+Þ
+Þ
+@
+T
+▄
+
+Þ
+Þ
+@
+T
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+â@
+T
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+â@
+T
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+Þ
+Þ
+@
+T
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+â@
+T
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+▄
+
+n
+F
+F
+F
+F
+F
+F
+F
+F
+F
+F
+F
+F
+F
+F
+H
+H
+H
+H
+H
+H
+H
+H
+H
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+600
+T2S R11E
+T1S R11E
+T1S R12E
+1
+0
+3
+36
+31
+11
+2
+32
+§¨¦
+96
+§¨¦
+94
+§¨¦
+75
+§¨¦
+375
+§¨¦
+96
+§¨¦
+94
+§¨¦
+75
+§¨¦
+75
+§¨¦
+75
+§¨¦
+94
+§¨¦
+96
+£
+¤
+12
+£
+¤
+12
+¬«
+5
+¬«
+10
+¬«
+10
+¬«
+1
+¬«
+3
+¬«
+5
+¬«
+¬«
+85
+¬«
+3
+¬«
+1
+¬«
+3
+WY
+T
+ST
+ST
+SENATOR ST
+ST
+BELANGER PARK DR
+NAVY ST
+DIX AVE
+CLIPPERT AVE
+HAMMOND ST
+QUINCY ST
+DEXTER AVE
+28TH AVE
+RADFORD AVE
+W
+ 
+VERNOR HWY
+28TH ST
+S WATERMAN ST
+PLUMER ST
+MCKINLEY ST
+GRAND SVC RD
+W GRAND BLVD
+MAGNOLIA ST
+SEWARD ST
+HOLDEN ST
+17TH ST
+D
+A
+L
+Z
+E
+L
+L
+E 
+S
+T
+ELM ST
+TEMPLE ST
+MIRACLES BLVD
+ANTHONY WAYNE DR
+8TH ST
+W ALEXANDRINE ST
+W WARREN AVE
+T
+1ST ST
+SAINT ANTOINE ST
+RUSSELL ST
+TROMBLY ST
+GAR
+FIE
+LD 
+AVE
+E WARREN AVE
+MEDBURY ST
+MONROE ST
+HENDRIE ST
+CHRYSLER DR
+RIOPELLE ST
+SUPERIOR ST
+JOSEPH CAMPAU ST
+FARNSWORTH ST
+E PALMER AVE
+PRINCE HALL DR
+HEIDELBERG ST
+BELLEVUE ST
+TOWNSEND ST
+BEALS ST
+FISCHER ST
+C
+T
+T
+COPLAND ST
+NORTHFIELD AVE
+DEARBORN ST
+THADDEUS ST
+CE
+NT
+RA
+L A
+VE
+SEEBALDT ST
+S W
+ 
+END ST
+W FORT ST
+MILFORD ST
+HAZELWOOD AVE
+CLAIRMOUNT ST
+R
+LEWERENZ ST
+RADEMACHER ST
+KOPERNICK ST
+BLAINE ST
+S POST ST
+CRAWFORD ST
+LOVETT ST
+TAYL
+OR S
+T
+CAVALRY ST
+LINWOOD ST
+CHRISTIANCY ST
+23RD ST
+JEFFRIES SVC DR
+HUMBOLDT ST
+ASH ST
+PALLISTER ST
+12TH ST
+W FOREST AVE
+ABBOTT ST
+LEVER
+ETTE 
+ST
+E FERRY AVE
+C
+H
+R
+Y
+S
+L
+E
+R 
+E
+X
+P
+Y
+BRUSH ST
+DEQUINDRE ST
+ST AUBIN ST
+GARFIELD ST
+MCDOUGALL ST
+ILLINOIS ST
+ATWATER ST
+LUDDEN ST
+BEAUFAIT ST
+KERCHEVAL ST
+FIELD ST
+GOETHE ST
+MAX
+W
+ 
+JEFFERS
+ON AVE
+MELVILLE ST
+ALLENDALE ST
+N CAMPBELL ST
+MCGRAW ST
+S SOLVAY ST
+30TH ST
+MOORE PL
+S GREEN ST
+LOTHROP AVE
+LAWTON ST
+D
+BANGOR ST
+24TH ST
+CLARK ST
+HUDSON ST
+14TH ST
+LEE PL
+POE ST
+15TH ST
+W CANFIELD ST
+DELAWARE ST
+LOTHROP RD
+TH
+IR
+D
+HOWAR
+D ST
+BAGLEY ST
+BUTTERNUT ST
+JOHN 
+C LOD
+GE EXP
+Y
+PORTER ST
+JOHN R ST
+FI
+SH
+ER 
+FW
+Y
+C
+L
+I
+F
+F
+O
+R
+D 
+S
+T
+PARK AVE
+E CANFIELD ST
+GRISWOLD ST
+ORLEANS ST
+E FOREST AVE
+ERSKINE ST
+SAINT AUBIN ST
+HALE ST
+MITCHELL ST
+ELMWOOD ST
+E HANC
+OCK ST
+E VERNOR HWY
+BENSON ST
+CANTON ST
+T
+SYLVESTER ST
+HELEN ST
+BALDWIN ST
+W
+ 
+FI
+SH
+ER 
+FW
+Y
+WHITTAKER ST
+EDWARD ST
+WESSON AVE
+N GREEN ST
+HOLMUR AVE
+BEARD ST
+FEDERAL ST
+32ND ST
+RICH ST
+MCMILLAN ST
+29TH ST
+TOLEDO ST
+JUNCTION ST
+LA SALLE BLVD
+MORRELL ST
+MC KINSTRY ST
+TILLMAN ST
+SELDEN ST
+16TH ST
+VERMON
+T ST
+POPLAR ST
+SPRUCE ST
+PINE ST
+2ND AVE
+HARPER AVE
+E MONTCALM ST
+DUBOIS ST
+WILKINS ST
+LELAND ST
+ROBER
+T BRAD
+BY DR
+CHARLEVOIX ST
+E CANFIELD ST
+ST PAUL ST
+PARKER ST
+T
+ST
+STAIR ST
+GILBERT ST
+PACIFIC ST
+HOLMUR ST
+MILITARY ST
+JEFFRI
+ES FWY
+VIRGINIA PARK ST
+TAYLOR AVE
+GLADSTONE ST
+OTIS ST
+HARTFORD ST
+COLUMBUS ST
+S ST
+S RADEMACHER ST
+DRAGOON ST
+MERRITT ST
+W
+ 
+HANCOCK ST
+ROOSEVELT ST
+WILLIAMS ST
+LAWTON ST
+BUCHANAN ST
+17TH ST
+SAINTE ANNE ST
+LYSANDER ST
+TRUMBULL ST
+W
+ 
+BETHUNE AVE
+PERRY ST
+CUSTER ST
+CHARLOTTE ST
+E HANCOCK ST
+PIQUETTE ST
+JOHN C LODGE FWY
+FA
+R
+M
+E
+R 
+S
+T
+E LARNED ST
+A
+N
+T
+I
+E
+T
+A
+M 
+A
+V
+E
+DIVISION ST
+MACK AVE
+E KIRBY AVE
+SCOTT ST
+E JEFFERSON AVE
+HUNT ST
+MORAN ST
+HENDRICKS ST
+SHERIDAN ST
+MAXWELL ST
+SEMINOLE ST
+PITT ST
+VANCOUVER ST
+MACKINAW ST
+WATERMAN ST
+ST HEDWIG ST
+HERBERT ST
+SCOVEL PL
+VICKSBURG ST
+PINGREE ST
+WHITNEY ST
+HOGARTH ST
+TORREY CT
+VINEWOOD ST
+CAMPBELL ST
+FERDINAND ST
+ROSA PARKS BLVD
+HUBBARD ST
+STANLEY ST
+WABASH ST
+MERRICK ST
+12TH ST
+14TH ST
+COMMONWEALTH ST
+W GRAND BLVD
+W MILWAUKEE ST
+HARRISON ST
+W
+ 
+JEFFERSON AVE
+VERMONT ST
+GIBSON ST
+E GRAND BLVD
+HORTON ST
+LABROSSE ST
+E 
+ED
+SE
+L 
+FO
+RD 
+FW
+Y
+SM
+BRO
+OKL
+YN S
+T
+CASS AVE
+HASTINGS ST
+MACOMB ST
+C
+H
+R
+Y
+S
+L
+E
+R 
+E
+X
+P
+Y
+GRANDY ST
+THEODORE ST
+LAFAYETTE ST E
+FRANKLIN ST
+CHENE ST
+WIGHT ST
+SEYBURN ST
+BURNS ST
+T
+SPRINGWELLS ST
+IRONWOOD ST
+PETOSKEY AVE
+CICOTTE ST
+BEECHWOOD ST
+MCQUADE ST
+HORATIO ST
+WOODRO
+W
+ 
+ST
+W PHILADELPHIA ST
+33RD ST
+COBB PL
+W EUCLID ST
+CARTER ST
+W
+ 
+GRA
+ND 
+BLV
+D
+HAZELWOOD ST
+I- 
+96 
+SV
+C R
+D
+S LIVERNOIS AVE
+25TH ST
+C L FRANKLIN BLVD
+LAMOTHE AVE
+S LA SALLE GARDENS
+PORTER ST
+LANSING ST
+MARQUETTE AVE
+W 
+AVERY ST
+16TH ST
+LINCOLN ST
+W LAFAYETTE BLVD
+TRUMBULL ST
+BEAUBIEN ST
+E MILWAUKEE ST
+6TH ST
+HENRY ST
+ADELAIDE ST
+ALFRED ST
+FREDERICK ST
+PIERCE ST
+WOODBRIDGE ST
+ARNDT ST
+MELDRUM ST
+CONCORD ST
+MOUNT ELLIOTT ST
+CASINO WAY
+T
+JOHN KRONK ST
+HAZLETT ST
+OTSEGO ST
+VANDERBILT ST
+LAFAYETTE BLVD
+BEGOLE ST
+VANCOURT ST
+JOY RD
+35TH ST
+TIREMAN ST
+GREEN ST
+CASGRAIN ST
+31ST ST
+MONTGOMERY ST
+S HARRINGTON ST
+REGULAR ST
+SCOTTEN ST
+NORTHWESTERN ST
+S CRAWFORD ST
+FERRY PARK AVE
+HA
+18TH ST
+MARTIN LUTHER KING JR BLVD
+20
+TH 
+ST
+BRAINARD ST
+CALUMET ST
+SMITH ST
+C
+3RD ST
+W WILLIS ST
+W
+ 
+HANC
+OCK S
+T
+4TH ST
+RIVARD ST
+CHENE ST
+ATWATER DR
+ST JOSEPH ST
+E WILLIS ST
+E ALEXANDRINE ST
+PRESTON ST
+MOUNT ELLIOTT ST
+ADAIR ST
+E GRAND BLVD
+AGNES ST
+VAN DYKE ST
+SENECA ST
+W FORT ST
+W FORT ST
+E JEFFERSON AVE
+GRATIOT AVE
+WOODWAR
+D AVE
+GRAND RIVER AVE
+GRATIOT AVE
+GRAND RIVER AVE
+MICHIGAN AVE
+MICHIGAN AVE
+WAYNE CO
+O
+WAYNE CO
+MICHIGAN
+MICHIGAN
+CANADA
+UNITED STATES OF AMERICA
+Detroit River
+Detroit River
+River 
+Rouge
+Detroit River
+Detroit River
+Wayne
+State
+Univ
+Coll for
+Creative
+Studies
+Ecumenical
+Theological
+Seminary
+Wayne
+County
+Community Coll District
+Lutheran
+Cem
+Elmwood
+Cem
+Mount
+Elliott
+Cem
+DETROIT
+ECORSE
+RIVER
+ROUGE
+Delray
+Fort
+Wayne
+Detroit
+Windsor Tunnel
+Belle
+Isle
+Zug
+Island
+MacArthur
+Bridge
+Ambassador
+Bridge
+42°
+93
+83
+30"
+46
+46
+22'
+280
+30"
+46
+84
+46
+90
+30"
+3
+000mE
+3
+3
+30
+30"
+33
+34
+490
+83°
+46
+30"
+89
+000m
+FEET
+42°
+46
+46
+46
+20'
+46
+30"
+3
+3
+32
+000 FEET
+46
+17'
+46
+46
+83
+91
+15'
+000m
+80
+46
+46
+07'
+13 
+26
+29
+29
+31
+3
+3
+46
+46
+4684
+46
+80
+81
+86
+000
+46
+85
+87
+46
+91
+07'
+460 
+3
+3
+5'
+3
+2'
+2'
+3
+83°
+4687
+20'
+22'
+N
+30"
+17'
+83°
+82
+86
+92
+N
+27
+28
+3
+31
+30"
+3
+000mE
+46
+46
+46
+88
+000 FEET
+26
+27
+3
+28
+5'
+30
+3
+3
+00'
+46
+46
+88
+90
+42°
+83°
+FEET
+3
+33
+34
+13
+00'
+320
+42°
+82
+85
+92
+000
+93
+15'
+MICHIGAN
+QUADRANGLE LOCATION
+DETROIT QUADRANGLE
+MICHIGAN-ONTARIO
+7.5-MINUTE SERIES
+DETROIT, MI-ON
+2017
+Expressway
+Local Connector
+ROAD CLASSIFICATION
+Ramp
+4WD
+Secondary Hwy
+Local Road
+Interstate Route
+State Route
+US Route
+WX
+.
+/
+H
+U.S. DEPARTMENT OF THE INTERIOR
+ U.S. GEOLOGICAL SURVEY
+ 
+1 Royal Oak
+8  
+2 Highland Park
+3 Grosse Pointe
+4 Dearborn
+5 Belle Isle
+6 Wyandotte
+7 Wyandotte OE E
+ADJOINING QUADRANGLES
+1
+2
+3
+4
+5
+6
+7
+8
+This map was produced to conform with the 
+National Geospatial Program US Topo Product Standard, 2011.
+A metadata file associated with this product is draft version 0.6.19
+CONTOUR INTERVAL 10 FEET
+NORTH AMERICAN VERTICAL DATUM OF 1988
+SCALE 1:24 000
+1000
+500
+0
+METERS
+1000
+2000
+2
+1
+KILOMETERS
+0
+0.5
+1
+1
+0.5
+0
+MILES
+1
+1000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+FEET
+Imagery.............................................NAIP, 
+October 
+2014
+Roads................................ U.S. Census Bureau, 2015 - 2016
+Names..........................................................GNIS, 
+2016
+Hydrography....................National Hydrography Dataset, 2014
+Contours............................National Elevation Dataset, 1999
+Boundaries............Multiple sources; see metadata file 1972 - 2016
+Public Land Survey System..................................BLM, 2016
+Wetlands.........FWS National Wetlands Inventory 1977 - 2014
+North American Datum of 1983 (NAD83)
+World Geodetic System of 1984 (WGS84).  Projection and
+1 000-meter grid: Universal Transverse Mercator, Zone 17T
+Produced by the United States Geological Survey
+10 000-foot ticks: Michigan Coordinate System of 1983 (south
+zone)
+This map is not a legal document. Boundaries may be
+generalized for this map scale. Private lands within government
+reservations may not be shown. Obtain permission before
+entering private lands.
+U.S. National Grid
+100,000-m Square ID
+Grid Zone Designation
+LG
+17T
+^
+Ø
+MN
+GN
+UTM GRID AND 2017 MAGNETIC NORTH
+DECLINATION AT CENTER OF SHEET
+1° 23´
+25 MILS
+7° 31´
+134 MILS
+*7643016370917*
+NSN.
+7 6 4 3 0 1 6 3 7 0 9 1 7
+NGA REF NO.
+U S G S X 2 4 K 1 2 0 7 0

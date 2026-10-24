@@ -1,0 +1,181 @@
+{
+  "at": "2026-10-22T22:22:00.497Z",
+  "bytes": 5564760377,
+  "kinds": {
+    "data-cache": {
+      "filesOrDirectories": 7,
+      "bytes": 4702502309
+    },
+    "retired-app-binary": {
+      "filesOrDirectories": 2,
+      "bytes": 608465812
+    },
+    "retired-qt-test": {
+      "filesOrDirectories": 11,
+      "bytes": 253792256
+    }
+  },
+  "entries": [
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\81f6c2a54224427c1f9081bdb9310520774903f5",
+      "revision": "81f6c2a54224427c1f9081bdb9310520774903f5",
+      "status": "removed",
+      "bytes": 827938869,
+      "files": 2425,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "revision": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "status": "removed",
+      "bytes": 608125785,
+      "files": 2316,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\b1f02ed6cafc991d82eaaa42ae00d64c9ac83b87",
+      "revision": "b1f02ed6cafc991d82eaaa42ae00d64c9ac83b87",
+      "status": "removed",
+      "bytes": 637679988,
+      "files": 2346,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\be811d024b756640452f617ea61606b9b6d7f0b9",
+      "revision": "be811d024b756640452f617ea61606b9b6d7f0b9",
+      "status": "removed",
+      "bytes": 686994194,
+      "files": 2354,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\cd0698ab2886e7468cf10571186c76941e56709a",
+      "revision": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "status": "removed",
+      "bytes": 608125785,
+      "files": 2316,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ea843c09e790245cbcfe35a44051b2d67534ee4e",
+      "revision": "ea843c09e790245cbcfe35a44051b2d67534ee4e",
+      "status": "removed",
+      "bytes": 624260612,
+      "files": 2345,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "revision": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "status": "removed",
+      "bytes": 709377076,
+      "files": 2338,
+      "reason": ""
+    },
+    {
+      "kind": "retired-app-binary",
+      "path": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\deps\\pandolab_web_shell-8f21b66dd513f179.exe",
+      "status": "removed",
+      "bytes": 370047780,
+      "reason": ""
+    },
+    {
+      "kind": "retired-app-binary",
+      "path": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\deps\\pandolab_web_shell-957be31c0842e320.exe",
+      "status": "removed",
+      "bytes": 238418032,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-70789caf-failed\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22678528,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22678528,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22564864,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-9bd078c7\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22670848,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-9bd078c7\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 22546432,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-baseline\\p9-windows-qt-baseline-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-candidate\\p9-windows-qt-candidate-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-candidate\\p9-windows-qt-candidate-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23380480,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-baseline\\p9-windows-qt-baseline-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-candidate\\p9-windows-qt-candidate-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\baseline-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23473152,
+      "reason": ""
+    },
+    {
+      "kind": "retired-qt-test",
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-candidate\\p9-windows-qt-candidate-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\candidate-ui_tests.exe",
+      "status": "removed",
+      "bytes": 23379968,
+      "reason": ""
+    }
+  ],
+  "snapshot": {
+    "removed": false,
+    "bytes": 2699482830,
+    "reason": "Automatic tool approval rejected direct deletion with blocked by policy. Tested manual script supports opt-in cleanup."
+  },
+  "backupsCreatedByCleanup": false,
+  "freeBytesObserved": 5312069632
+}

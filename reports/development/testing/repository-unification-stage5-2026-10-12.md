@@ -13,7 +13,3 @@
 - [원래 실행 기록·테스트 방법·계측값과 source pins (고정 Git 커밋)](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/repository-unification-stage5-2026-10-12.md)
 - [당시 GitHub Actions 실행](https://github.com/kimjeon-il/Pando/actions/runs/38227225149)
 - 문서 요약은 Git 원본을 대체해 현재 기능을 승인하는 행위가 아니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/3bd5397f4266cc8e3e4711e6d2fe432c49c1b02c26bcc0cd48fadf0e22ea3540.gz) · 원본 SHA-256 `3bd5397f4266cc8e3e4711e6d2fe432c49c1b02c26bcc0cd48fadf0e22ea3540`.

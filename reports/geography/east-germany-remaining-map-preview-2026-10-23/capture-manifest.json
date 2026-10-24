@@ -1,0 +1,27 @@
+[
+  {
+    "name": "mv-ratzeburg-mechow-provider-georeferenced.png",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=613016%2C5952750%2C623016%2C5962750&WIDTH=1800&HEIGHT=1800&STYLES=&LAYERS=mv_tk25as&REQUEST=GetMap&FORMAT=image%2Fpng",
+    "retrievedAt": "2026-10-23T00:15:43.617777+00:00",
+    "use": "local internal research preview only; external reuse rights unresolved",
+    "contentType": "image/png",
+    "bytes": 1845039,
+    "sha256": "afcc5726de4b751a394245b87251a8c32d3aed9e134ff3d36dbc6c6611e270ec"
+  },
+  {
+    "name": "mv-ratzeburg-sheet-info.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=613016%2C5952750%2C623016%2C5962750&WIDTH=1800&HEIGHT=1800&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=900&Y=900",
+    "retrievedAt": "2026-10-23T00:15:48.432026+00:00",
+    "use": "local internal research preview only; external reuse rights unresolved",
+    "contentType": "text/html",
+    "bytes": 438,
+    "sha256": "568e2dfb258cd5c9b20a16c81c2133b8c9764941049b15647ec7e2924755a7e0"
+  },
+  {
+    "name": "mv-ratzeburg-legend.gif",
+    "url": "https://www.geodaten-mv.de/dienste/legenden/tk25as/legende.gif",
+    "retrievedAt": "2026-10-23T00:15:49.559996+00:00",
+    "use": "local internal research preview only; external reuse rights unresolved",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

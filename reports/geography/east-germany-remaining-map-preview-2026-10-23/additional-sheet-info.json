@@ -1,0 +1,17 @@
+[
+  {
+    "name": "wakenitz-north",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&SRS=EPSG%3A25832&BBOX=614645.7027217086%2C5966640.145638143%2C615645.7027217086%2C5967640.145638143&WIDTH=100&HEIGHT=100&LAYERS=mv_tk25as_info&QUERY_LAYERS=mv_tk25as_info&STYLES=&INFO_FORMAT=text%2Fhtml&X=50&Y=50",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9729:\n     Name           = N32082BC\n     Titel          = Lübeck - Schlutup\n     Erstellung     = Ausgabe 1992\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "goldensee-south",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&SRS=EPSG%3A25832&BBOX=627571.3671214785%2C5951392.062630041%2C628571.3671214785%2C5952392.062630041&WIDTH=100&HEIGHT=100&LAYERS=mv_tk25as_info&QUERY_LAYERS=mv_tk25as_info&STYLES=&INFO_FORMAT=text%2Fhtml&X=50&Y=50",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9734:\n     Name           = N32082DD\n     Titel          = Mustin\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-neuhaus",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&SRS=EPSG%3A25832&BBOX=627420.2762849745%2C5907975.340923055%2C628420.2762849745%2C5908975.340923055&WIDTH=100&HEIGHT=100&LAYERS=mv_tk25as_info&QUERY_LAYERS=mv_tk25as_info&STYLES=&INFO_FORMAT=text%2Fhtml&X=50&Y=50",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9789:\n     Name           = N32106BB\n     Titel          = Neuhaus (Elbe)\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1988\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  }
+]

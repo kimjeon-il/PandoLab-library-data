@@ -1,0 +1,57 @@
+[
+  {
+    "file": "bkg-vg25-documentation.pdf.gz",
+    "url": "https://sgx.geodatenzentrum.de/web_public/gdz/dokumentation/deu/vg25.pdf",
+    "captured": "2026-10-22T11:57:11.493Z",
+    "contentType": "application/pdf",
+    "originalBytes": 983139,
+    "sha256": "85c5b75c3a66d337e26e96cad1a422c35831da2d8c149c953f2a909fb9c3b739"
+  },
+  {
+    "file": "bkg-vg-hist-documentation.pdf.gz",
+    "url": "https://sgx.geodatenzentrum.de/public/gdz/dokumentation/deu/vg-hist.pdf",
+    "captured": "2026-10-22T11:57:10.339Z",
+    "contentType": "application/pdf",
+    "originalBytes": 683212,
+    "sha256": "574f51129890054abbf97b199162b09ae235a11cb16301bda8a984daabd0eabd"
+  },
+  {
+    "file": "bkg-administrative-boundary-appendix.pdf.gz",
+    "url": "https://sgx.geodatenzentrum.de/web_public/gdz/dokumentation/deu/anlagen_vg.pdf",
+    "captured": "2026-10-22T11:57:10.096Z",
+    "contentType": "application/pdf",
+    "originalBytes": 644692,
+    "sha256": "dd43ab3ed46656e6258dc08fe825c4047145990bcf3f22c3f9303c9c769dc106"
+  },
+  {
+    "file": "bkg-vg25-license.pdf.gz",
+    "url": "https://sgx.geodatenzentrum.de/web_public/gdz/lizenz/deu/nutzungsbedingungen_vg25.pdf",
+    "captured": "2026-10-22T11:57:07.667Z",
+    "contentType": "application/pdf",
+    "originalBytes": 116847,
+    "sha256": "b81610594e4ae436e6720a87f8b32c5988fbd9bb64beb40f077b7a7ff424b664"
+  },
+  {
+    "file": "germany-czech-border-1999.pdf.gz",
+    "url": "https://dserver.bundestag.de/btd/14/047/1404707.pdf",
+    "captured": "2026-10-22T11:57:06.466Z",
+    "contentType": "application/pdf",
+    "originalBytes": 140835,
+    "sha256": "9dcfac9d91b2579b6aca7feb6268c31fded059e4a431f78d0940ae6164c4a132"
+  },
+  {
+    "file": "slovakia-post-1993-boundaries.pdf.gz",
+    "url": "https://www.minv.sk/swift_data/source/verejna_sprava/hranice_prezentacie/Statne%20hranice%20Slovenskej%20republiky%20od%20roku%201993.pdf",
+    "captured": "2026-10-22T11:57:07.856Z",
+    "contentType": "application/pdf",
+    "originalBytes": 373612,
+    "sha256": "5f0b246baa0aaf00a63a90f63ac348c7abec2fb1f4f571850a7e11e0ce1726ea"
+  },
+  {
+    "file": "us-state-norway-ussr-1978.pdf",
+    "url": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs024.pdf",
+    "captured": "2026-10-22T11:57:14.673Z",
+    "archived": false,
+    "error": "TypeError: fetch failed"
+  }
+]

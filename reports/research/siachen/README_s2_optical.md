@@ -12,7 +12,3 @@ Data: Copernicus Sentinel data / ESA, COG indexed by Element84 Earth Search.
 Overlay: OSM AGPL candidate, ODbL 1.0; RGI 7.0 ice polygon, CC BY 4.0.
 The AGPL is approximate and neither accepted as treaty boundary nor edited here.
 PNG images and source metadata are stored in this research directory.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/d568ec7643df1fd3b12ecf807ce678674351a641b1316adcc6b908dbd79ca68c.gz) · 원본 SHA-256 `d568ec7643df1fd3b12ecf807ce678674351a641b1316adcc6b908dbd79ca68c`.

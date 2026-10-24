@@ -14,7 +14,7 @@
 
 ## 후보 메타데이터 후속 검토
 
-최신 [벡터 자료 운영 규칙](https://github.com/kimjeon-il/Pando/blob/75499e014542747def35653a73b753e208ed0d31/docs/historical-vector-source-workflow.md)에 따라 위 공개 목록·API 본문을 읽었다. 원본 보고서 커밋은 `e5b31d700fb6a9e2e2b0ab67356b3883011f22c3`이다. 형상 데이터 파일 자체는 다운로드하지 않았으므로 아래 상태는 모두 **source-indexed / 역사 적합성 provisional**이다.
+최신 [벡터 자료 운영 규칙](../../docs/historical-vector-source-workflow.md)에 따라 위 공개 목록·API 본문을 읽었다. 원본 보고서 커밋은 `e5b31d700fb6a9e2e2b0ab67356b3883011f22c3`이다. 형상 데이터 파일 자체는 다운로드하지 않았으므로 아래 상태는 모두 **source-indexed / 역사 적합성 provisional**이다.
 
 | 후보·공간 범위 | 판본·시간 의미 | 권리·검증 한계 | 후속 판단 |
 | --- | --- | --- | --- |
@@ -26,7 +26,3 @@
 현행 대상은 `state:KGZ`·`state:TJK`다. 위 자료에서는 조약 부속 좌표·실제 효력일·인계 구간과 독립 역사 사료 2개 대조가 확보되지 않았다. 기존 양자조약 보류는 해소되지 않으며, 서명일을 국가 lifetime 또는 형상 유효일로 입력하지 않는다. 1801-01-01은 조사 하한이다.
 
 자료 파일의 CRS·레이어·형상/속성·해시, 변환·공유경계·위상 및 2560 CSS px/flatZoom=64/0.5 CSS px 검사는 모두 미실행이다. 상세 revision·현행 데이터 대조 및 별도 원문 부재 보류는 [후속 검토](reviews/followup-2026-10-20-vector-sources.md)에 남겼다. 이 보완은 원보고서 전체를 대체하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../archive/blobs/fab656a84b659ab802147e81aba806efbaffd44ac04797dd07214ce4e4c318c6.gz) · 원본 SHA-256 `fab656a84b659ab802147e81aba806efbaffd44ac04797dd07214ce4e4c318c6`.

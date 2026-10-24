@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewed": false,
+  "origin": "publisher-layer-export",
+  "width": 2009,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "sourcePdf": "sources/usgs-pajarito-peak-2014.pdf",
+  "sourceSha256": "27b7d5be1db48272b3bca82415ec76f5e2d4078501b44408376f7592b92d6878",
+  "sourceMetadata": "sources/usgs-pajarito-peak-2014.source.json",
+  "sourceMetadataSha256": "a4d05f39ba507c73a2cb12998279f1263b4fb3b2f69bf7e471cc58f6feb322a4",
+  "producer": {
+    "script": "tools/reference-analysis/publisher.py",
+    "sha256": "53fb78609a1c834f725bb942fa122e8af65872369b025340d6c4fafc2c1f71db",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "sourceRectPts": [
+    0.0,
+    0.0,
+    1638.0,
+    2088.0
+  ],
+  "pixelsPerPoint": 1.2260536398467432,
+  "layers": {
+    "international": [
+      "International"
+    ],
+    "administrative": [
+      "State or Territory",
+      "County or Equivalent"
+    ],
+    "hydro": [
+      "Hydrography"
+    ],
+    "transport": [
+      "Road Features",
+      "Trails",
+      "Railroads"
+    ],
+    "frame": [
+      "Map Frame",
+      "Projection and Grids"
+    ]
+  },
+  "disabledInputLayers": [
+    "Orthoimage",
+    "Shaded Relief"
+  ],
+  "positivePixels": {
+    "international": 2799,
+    "administrative": 7240,
+    "coast": 0,
+    "hydro": 106336,
+    "transport": 14928,
+    "text": 261748,
+    "frame": 71966
+  },
+  "raster": {
+    "path": "derived/usgs-pajarito-peak-2014.mask.png",
+    "sha256": "0e232e1fab257d698eeef2d3164a33a8d57f0c7e05fff8a60943c0c19c20f6e3"
+  },
+  "validRaster": {
+    "path": "derived/usgs-pajarito-peak-2014.valid.png",
+    "sha256": "3987f367a1a2124336c98cf99fd3d6a4ee8e42d8e6fd5df76431db216a8f0fda"
+  },
+  "sheet": {
+    "id": "usgs-pajarito-peak-2014",
+    "familyId": "usgs-us-topo",
+    "editionId": "usgs-az-2014",
+    "duplicateGroup": "usgs-pajarito-peak-2014",
+    "split": "train",
+    "image": "derived/usgs-pajarito-peak-2014.jpg",
+    "annotations": "labels/usgs-pajarito-peak-2014.json",
+    "mapKind": "color",
+    "language": "eng",
+    "script": "Latin",
+    "source": {
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/AZ/AZ_Pajarito_Peak_20141215_TM_geo.pdf",
+      "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88e73f82cef33f43f0119f",
+      "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+      "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+      "published": "2014-12-15"
+    },
+    "sha256": "c56edf8b4309192f78f47ce5509a03747bb50de085202538828268319149a3d3"
+  }
+}

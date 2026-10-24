@@ -27,7 +27,3 @@ Run `python -B review/validate-independent-review.py` and `python -B review/test
 The included prior-ID membership and current three-ID delta give 57 → 60 distinct reconstructed inventory targets. The remaining queue is 4,005 targets: 3,433 river groups and 572 lakes. These are inventory coverage counts, not counts of verified river names or historically never-researched targets.
 
 The two existing access-pending IDs and 17 naming-scope holds remain unchanged. Sandfly retains its eastern-basin limitation; Lake Ohrid and literal Prespa Lake remain naming candidates with extent holds; the smaller southeastern lake remains unassigned. Prior originals were not re-audited. No product data, names, geometry, topology or live deployment was changed.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/6f1eb5e7dc25ee80b84e453503a7740239f55efc4b5041703925d66d2ac40aee.gz) · 원본 SHA-256 `6f1eb5e7dc25ee80b84e453503a7740239f55efc4b5041703925d66d2ac40aee`.

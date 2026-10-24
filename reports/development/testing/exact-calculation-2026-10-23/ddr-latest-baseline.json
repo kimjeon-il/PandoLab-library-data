@@ -1,0 +1,10 @@
+{
+  "variant": "baseline",
+  "coreSource": "c0c9347887746747d3bb868bdc78860ec20b8efdb807aed8da5adebaa16bc3be",
+  "dataRevision": "71a67904db2beb933735727ad6c19adde082d2bd",
+  "inputSha256": "e1dd317b9ac71dfa0a18c1a4e42397ed08c657a0ff7c71767de15937db530cdc",
+  "outcome": {
+    "ok": true,
+    "resultSha256": "b594c967550a215057736b6f2c2533a04e789fe2a8a3419b2891d36a5d63e302"
+  }
+}

@@ -11,7 +11,3 @@ No complete coordinates, ring paths, raw source or inventory bodies, decoder dep
 Run `python -B validate-geometry-reference.py --check-component-manifest` and `python -B test-geometry-reference.py`. The validator checks only included metadata, arithmetic and included-file hashes. The corruption suite uses fixed included-metadata pins and rebases editable receipts. It cannot reproduce omitted source-coordinate, inventory, decoder or prior-index verification. It exposes no omitted-input replay interface.
 
 The included prior list contains 96 distinct IDs and has no overlap with these three new inventory targets. The resulting recorded count is 99. The eligible unrecorded queue decreases from 3,969 to 3,966 (3,412 river groups and 554 lakes). All prior two pending-access IDs and 27 prior scope-hold IDs are preserved and are not reassessed. This component does not decide whether the current research adds any new scope hold. Remaining queue counts do not claim historically never-reviewed status.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/fc16293aea57baa14477c29862b5be7e6db7d4c7eefed59198d12a4fc558a6a6.gz) · 원본 SHA-256 `fc16293aea57baa14477c29862b5be7e6db7d4c7eefed59198d12a4fc558a6a6`.

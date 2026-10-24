@@ -1,0 +1,17 @@
+{
+  "output": "assets/data/world-mesh-v0.36.1.bin.gz",
+  "sourceSha256": "29d9fa227795c70a6176399173b14e58658808f051610d486f516b2f55471157",
+  "meshSha256": "c26beca50ebe10c802ad1a1b5d4114fefc45ad9c9b8296714842f3972ee31ce2",
+  "countries": 258,
+  "sourceCoordinates": 1110892,
+  "vertices": 1632441,
+  "triangles": 2149657,
+  "lineSegments": 1105896,
+  "polarPolygons": 1,
+  "removedDegenerateTriangles": 544,
+  "maxEdgeDegrees": 0.4989975291022107,
+  "algorithmRevision": 5,
+  "rawBytes": 50976800,
+  "compressedBytes": 23071463,
+  "buildMilliseconds": 18377
+}

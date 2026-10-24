@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "purpose": "trained-model-execution-parity-only",
+  "releaseApproved": false,
+  "independentEvaluation": false,
+  "provider": "onnxruntime-web-wasm-cpu",
+  "threads": 1,
+  "modelSha256": "dcabcf04c67384aec5bc976c72b8c466f6dc5023d160e867917c043f500e688b",
+  "trainingBatches": 2808,
+  "optimizerUpdates": 2801,
+  "outputShape": [
+    1,
+    7,
+    512,
+    512
+  ],
+  "finite": true,
+  "maximumAbsoluteError": 0.0001690387725830078,
+  "meanAbsoluteError": 0.00004922559646125535,
+  "loadMilliseconds": 796.8000000119209,
+  "inferenceMilliseconds": 706.8999999910593,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "requests": [
+    "/assets/vendor/reference-analysis/manifest.json",
+    "/assets/vendor/reference-analysis/ort-wasm-simd-threaded.mjs",
+    "/assets/vendor/reference-analysis/ort-wasm-simd-threaded.wasm",
+    "/assets/vendor/reference-analysis/ort.wasm.min.mjs",
+    "/reports/reference-analysis/models/diverse-v2/boundary.manifest.json",
+    "/reports/reference-analysis/models/diverse-v2/boundary.onnx",
+    "/reports/reference-analysis/models/diverse-v2/diagnostics/expected-logits.f32",
+    "/reports/reference-analysis/models/diverse-v2/diagnostics/overview.f32",
+    "/reports/reference-analysis/models/diverse-v2/diagnostics/position.f32",
+    "/reports/reference-analysis/models/diverse-v2/diagnostics/tile.f32"
+  ],
+  "externalRequests": 0,
+  "verifierSha256": "6e943ec5c8c3f990650a111f225445f565d927a692562e3c3addc06919a2bd93"
+}

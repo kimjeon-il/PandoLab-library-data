@@ -1,0 +1,21 @@
+{
+  "sourceId": "zenodo-urdu-punjab-undated",
+  "familyId": "survey-india-manuscript-punjab",
+  "sourceSha256": "cfdf4de3992c84ae3d45dc84e187c536298908b0712e74ce326d3ea775c57fc3",
+  "originalSize": [
+    17180,
+    14414
+  ],
+  "reviewedLabels": false,
+  "purpose": "app-runtime-input-only",
+  "path": "zenodo-urdu-punjab-undated-analysis.jpg",
+  "size": [
+    3087,
+    2590
+  ],
+  "originalPixelsPerInputPixel": [
+    5.565273728539035,
+    5.565250965250965
+  ],
+  "sha256": "103806f1b4390e8d74c47c7595422d0beed33c1d818540ea332481018468aa19"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-24T12:19:30.307870+00:00",
+  "trainingOnly": true,
+  "releaseApproved": false,
+  "independentEvaluation": false,
+  "focusedPythonTests": 33,
+  "mainStorageTests": 7,
+  "mainPagesStagingTests": 7,
+  "mainCommit": "98f59a884bea0abf76d9834ae0135929eca3bcf1",
+  "pagesRun": "https://github.com/kimjeon-il/Pando/actions/runs/40092482535",
+  "pagesConclusion": "success",
+  "architectureConclusion": "cancelled",
+  "originalsPreserved": 64,
+  "temporaryPngRemovedBytes": 528211,
+  "freeBytesAfter": 29847576576,
+  "codeSha256": {
+    "tools\\reference-analysis\\macro.py": "0fad7451213c6c7289daf904edc4f3c670dc8084ae4432ac07a6abb56391d97d",
+    "tools\\reference-analysis\\macro-source-catalog.json": "a2594e3a246467dc161bb34f0fc12f8d03ba7d13268f5d7ee0b865b73e189637",
+    "tests\\python\\test_reference_analysis_macro.py": "4df2aa9c9b4b4c07d1609f8a3e4c223c4891a605d88e0581a6b42b6df385a2c9"
+  }
+}

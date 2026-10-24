@@ -1,0 +1,65 @@
+{
+  "initialDiskFreeBytes": 7163396096,
+  "finalDiskFreeBytes": 19543199744,
+  "netFreeIncreaseBytes": 12379803648,
+  "freeGoalBytes": 21474836480,
+  "freeGoalMet": false,
+  "trackedBeforeMainBytes": 133775535,
+  "trackedAfterMainBytes": 112778247,
+  "trackedBeforeUiBytes": 133791438,
+  "trackedAfterUiBytes": 112794150,
+  "artifacts": [
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/target/packaged/windows/pandolab-web-shell.exe",
+      "logicalBytes": 500165006,
+      "allocatedBytes": 500166656,
+      "links": 1,
+      "identity": "2029611902:3377699720546388"
+    },
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/target/x86_64-pc-windows-gnu/debug/pandolab-web-shell.exe",
+      "logicalBytes": 182416916,
+      "allocatedBytes": 182419456,
+      "links": 2,
+      "identity": "2029611902:2814749767192051"
+    },
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/target/x86_64-pc-windows-gnu/debug/deps/pandolab_web_shell-b223e979aa33c247.exe",
+      "logicalBytes": 182416916,
+      "allocatedBytes": 182419456,
+      "links": 2,
+      "identity": "2029611902:2814749767192051"
+    },
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/target/packaged/android/app-x86_64-debug.apk",
+      "logicalBytes": 323522938,
+      "allocatedBytes": 323526656,
+      "links": 1,
+      "identity": "2029611902:2251799813915162"
+    },
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/target/x86_64-linux-android/debug/libpandolab_web_shell_lib.so",
+      "logicalBytes": 140735656,
+      "allocatedBytes": 140738560,
+      "links": 3,
+      "identity": "2029611902:1688849860494862"
+    },
+    {
+      "path": "D:/dev/worktrees/ui/apps/web-shell/src-tauri/gen/android/app/src/main/jniLibs/x86_64/libpandolab_web_shell_lib.so",
+      "logicalBytes": 140735656,
+      "allocatedBytes": 140738560,
+      "links": 3,
+      "identity": "2029611902:1688849860494862"
+    }
+  ],
+  "artifactsUniqueAllocatedBytes": 1146851328,
+  "preserved": [
+    "two private training commits and d401 data pin",
+    "active71a and d401 materializations",
+    "dependency and active development incremental caches",
+    "raw GIS and unique reports/evidence",
+    "training environment and weights",
+    "original single-file world project and user media"
+  ],
+  "policyBlockedReadOnlyGitTmpPackBytes": 421265408
+}

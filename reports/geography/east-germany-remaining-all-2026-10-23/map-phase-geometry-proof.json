@@ -1,0 +1,45 @@
+{
+  "referenceDate": "1989-04-25",
+  "beforeCoordinates": 8652,
+  "afterCoordinates": 8708,
+  "components": 6,
+  "isValid": true,
+  "holesPreserved": true,
+  "symmetricDifferenceKm2": 5.7847785977909405,
+  "outsideAdmittedBoundaryHausdorffDegrees": 0.0,
+  "historicalPositionalAccuracy": "not-measured-no-independent-period-vector",
+  "sections": [
+    {
+      "id": "vg25-delvenau-approved-map",
+      "bounds": [
+        10.75,
+        53.45,
+        10.99,
+        53.59
+      ],
+      "changedFootprintKm2": 4.030381823850652
+    },
+    {
+      "id": "tk25as-elbe-neuhaus-printed-claim",
+      "bounds": [
+        10.729910812084295,
+        53.25800456528921,
+        10.82469624859888,
+        53.30156420254467
+      ],
+      "changedFootprintKm2": 0.6449849404275918
+    },
+    {
+      "id": "tk25as-elbe-schnackenburg-printed-claim",
+      "bounds": [
+        11.534451753409602,
+        53.03136456110668,
+        11.62215714749881,
+        53.05599538567732
+      ],
+      "changedFootprintKm2": 1.109411833512696
+    }
+  ],
+  "identityLifetimeInstantiationMetadataEqual": true,
+  "foreignHashesEqual": true
+}

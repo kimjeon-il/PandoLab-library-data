@@ -1,0 +1,102 @@
+{
+  "purpose": "same-revised-target-training-tile-fitting-only",
+  "independentEvaluation": false,
+  "rows": [
+    {
+      "sheetId": "cia-asia-political-seams-r4",
+      "channel": "international",
+      "targetPixels": 9024,
+      "supervisedPixels": 113178,
+      "before": {
+        "precision": 1.0,
+        "recall": 0.9686391843971631,
+        "dice": 0.9840698001688714
+      },
+      "after": {
+        "precision": 1.0,
+        "recall": 0.9949024822695035,
+        "dice": 0.9974447283635152
+      }
+    },
+    {
+      "sheetId": "cia-world-political-2021",
+      "channel": "international",
+      "targetPixels": 1878,
+      "supervisedPixels": 41871,
+      "before": {
+        "precision": 0.9827928524156188,
+        "recall": 0.7907348242811502,
+        "dice": 0.8763647093537916
+      },
+      "after": {
+        "precision": 0.9796926454445664,
+        "recall": 0.950479233226837,
+        "dice": 0.9648648648648649
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-monochrome",
+      "channel": "international",
+      "targetPixels": 1592,
+      "supervisedPixels": 236370,
+      "before": {
+        "precision": 0.22573757763975155,
+        "recall": 0.7305276381909548,
+        "dice": 0.34489916963226575
+      },
+      "after": {
+        "precision": 0.22499216055189714,
+        "recall": 0.9013819095477387,
+        "dice": 0.3601003764115433
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-monochrome",
+      "channel": "administrative",
+      "targetPixels": 1588,
+      "supervisedPixels": 236370,
+      "before": {
+        "precision": 0.40083843921315704,
+        "recall": 0.7827455919395466,
+        "dice": 0.5301770100234592
+      },
+      "after": {
+        "precision": 0.32331533223761444,
+        "recall": 0.8671284634760705,
+        "dice": 0.4710107747562853
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-national",
+      "channel": "international",
+      "targetPixels": 1856,
+      "supervisedPixels": 236370,
+      "before": {
+        "precision": 0.20008472182999154,
+        "recall": 0.7634698275862069,
+        "dice": 0.3170731707317073
+      },
+      "after": {
+        "precision": 0.17341576506955178,
+        "recall": 0.9067887931034483,
+        "dice": 0.291151284490961
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-national",
+      "channel": "administrative",
+      "targetPixels": 1674,
+      "supervisedPixels": 236370,
+      "before": {
+        "precision": 0.32108902333621436,
+        "recall": 0.8876941457586619,
+        "dice": 0.47159631862900664
+      },
+      "after": {
+        "precision": 0.2356051703877791,
+        "recall": 0.9581839904420549,
+        "dice": 0.3782126856873379
+      }
+    }
+  ]
+}

@@ -46,7 +46,3 @@ Other treaty control settlements checked nearby mostly agree with the HistoGIS s
 ### Consequence
 
 Do not promote this candidate geometry to final. The Kanje–Metanac–Lim segment must be reconstructed from the treaty route and contemporary maps before finalization. The rest of the line remains a candidate pending the same control procedure.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/0b41d93f29caf9a565fe6bdd36403317ec81cdad0a827d1db08a20798b1c75c5.gz) · 원본 SHA-256 `0b41d93f29caf9a565fe6bdd36403317ec81cdad0a827d1db08a20798b1c75c5`.

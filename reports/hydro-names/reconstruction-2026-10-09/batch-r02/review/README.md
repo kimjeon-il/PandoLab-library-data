@@ -35,7 +35,3 @@ No network access is used. A current live deployment was not checked.
 Only original factual observations, validation code and metadata are included.
 Raw articles, PDFs, map scans and derivative crops stay outside this directory.
 Selected Natural Earth geometry rights are documented in the parent package.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/c62472ab629b465f42af871244c7e37e25b765c6397d8f3903e356b02a686131.gz) · 원본 SHA-256 `c62472ab629b465f42af871244c7e37e25b765c6397d8f3903e356b02a686131`.

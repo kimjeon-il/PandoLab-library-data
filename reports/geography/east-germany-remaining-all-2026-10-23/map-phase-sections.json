@@ -1,0 +1,40 @@
+[
+  {
+    "id": "tk25as-elbe-neuhaus-printed-claim",
+    "sourceId": "mapElbeNeuhaus",
+    "source": {
+      "path": "tools/historical-library/sources/east-germany/tk25as-elbe-neuhaus-printed-claim-reference.geojson",
+      "crs": "EPSG:4326",
+      "sha256": "25DA369104B50743E3827C39B5FA12079B14B40F81371663B369798971D4F341",
+      "license": "LAiV WMS internal local research; external reuse of derived vectors unresolved. No external publication authorized.",
+      "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=610981%2C5891197%2C640981%2C5921197&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as&REQUEST=GetMap&FORMAT=image%2Fpng"
+    },
+    "bounds": [
+      10.729910812084295,
+      53.25800456528921,
+      10.82469624859888,
+      53.30156420254467
+    ],
+    "basis": "map-depicted late1980s DDR cartographic boundary; Elbe jurisdiction disputed, not bilateral delimitation; 1988/1989 content; exact1989-04-25 validity not independently established; no independent georeferencing residual or1989 positional accuracy pass. Production use in this local branch only; external-use terms unresolved.",
+    "masterVertices": 35
+  },
+  {
+    "id": "tk25as-elbe-schnackenburg-printed-claim",
+    "sourceId": "mapElbeSchnackenburg",
+    "source": {
+      "path": "tools/historical-library/sources/east-germany/tk25as-elbe-schnackenburg-printed-claim-reference.geojson",
+      "crs": "EPSG:4326",
+      "sha256": "6BF33B5A10B6BA0403ECDEA6D9503B5BC3560E93F0516B4EE2FE7E029393DEE9",
+      "license": "LAiV WMS internal local research; external reuse of derived vectors unresolved. No external publication authorized.",
+      "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=657298%2C5864809%2C687298%2C5894809&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as&REQUEST=GetMap&FORMAT=image%2Fpng"
+    },
+    "bounds": [
+      11.534451753409602,
+      53.03136456110668,
+      11.62215714749881,
+      53.05599538567732
+    ],
+    "basis": "map-depicted late1980s DDR cartographic boundary; Elbe jurisdiction disputed, not bilateral delimitation; 1988/1989 content; exact1989-04-25 validity not independently established; no independent georeferencing residual or1989 positional accuracy pass. Production use in this local branch only; external-use terms unresolved.",
+    "masterVertices": 20
+  }
+]

@@ -1,0 +1,27 @@
+{"geometryVersion":"state:deutsche-demokratische-republik:1989-04-25-r1","componentCount":6,"output":"assets/data/territorial-entities/source/countries/state-deutsche-demokratische-republik.json","check":false}
+
+BOUNDARY_SECTION lsib-poland-adopted-central arcs=63 oldLengthDegrees=2.26466
+BOUNDARY_SECTION lsib-czech-saxony arcs=59 oldLengthDegrees=3.87619
+BOUNDARY_SECTION vg25-schaalsee-lake arcs=3 oldLengthDegrees=0.192567
+BOUNDARY_SECTION vg25-bavaria-central arcs=189 oldLengthDegrees=2.92481
+BOUNDARY_SECTION vg25-saxony-bavaria arcs=8 oldLengthDegrees=0.0201026
+BOUNDARY_SECTION vg25-eichsfeld-north arcs=4 oldLengthDegrees=0.134395
+BOUNDARY_SECTION vg25-harz-ecker arcs=6 oldLengthDegrees=0.118729
+BOUNDARY_SECTION vg25-geismar-spahl arcs=5 oldLengthDegrees=0.0161432
+BOUNDARY_SECTION vg25-wolfenbuettel-hornburg arcs=10 oldLengthDegrees=0.34557
+BOUNDARY_SECTION vg25-eichsfeld-glasehausen arcs=3 oldLengthDegrees=0.0208052
+BOUNDARY_SECTION vg25-schaalsee-mustin-thurow-land arcs=2 oldLengthDegrees=0.0201415
+BOUNDARY_SECTION vg25-ratzeburg-wakenitz-south arcs=4 oldLengthDegrees=0.0495867
+BOUNDARY_SECTION vg25-kiekbusch-mechower-west-shore arcs=6 oldLengthDegrees=0.118329
+BOUNDARY_SECTION vg25-wakenitz-palingen-remaining arcs=11 oldLengthDegrees=0.107316
+BOUNDARY_SECTION vg25-schaalsee-northern-remaining arcs=6 oldLengthDegrees=0.108493
+BOUNDARY_SECTION vg25-gudow-lauenburg-land arcs=5 oldLengthDegrees=0.0634482
+BOUNDARY_SECTION vg25-altmark-diesdorf-land arcs=6 oldLengthDegrees=0.117854
+BOUNDARY_SECTION vg25-altmark-stresow-land arcs=2 oldLengthDegrees=0.0617883
+BOUNDARY_SECTION vg25-helmstedt-lappwald-land arcs=28 oldLengthDegrees=0.436524
+BOUNDARY_SECTION vg25-ecker-lower-foothills arcs=12 oldLengthDegrees=0.116159
+BOUNDARY_SECTION vg25-suedharz-ellrich-land arcs=8 oldLengthDegrees=0.143452
+BOUNDARY_SECTION vg25-rhon-point-alpha-land arcs=59 oldLengthDegrees=0.675384
+BOUNDARY_SECTION vg25-delvenau-approved-map arcs=8 oldLengthDegrees=0.14805
+BOUNDARY_SECTION tk25as-elbe-neuhaus-printed-claim arcs=3 oldLengthDegrees=0.0330993
+BOUNDARY_SECTION tk25as-elbe-schnackenburg-printed-claim arcs=2 oldLengthDegrees=0.0484307

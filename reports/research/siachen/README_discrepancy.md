@@ -15,7 +15,3 @@ that wedge. Never conflate these quantities.
 Landmark QA includes Sia La, Bilafond La, Gyong La and K12 public coordinates; several reported India-held features fall to the west of the OSM line. This implies a cartographic accuracy/position warning, not evidence of Pakistan holding these passes. No military post coordinates are inferred.
 
 No geometry is changed by this analysis.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/1c08e5627215a8b6eeaadd9177a0609e6b8a78ed76cec014cc9e83f3dee027f8.gz) · 원본 SHA-256 `1c08e5627215a8b6eeaadd9177a0609e6b8a78ed76cec014cc9e83f3dee027f8`.

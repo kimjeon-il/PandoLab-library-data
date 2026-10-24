@@ -37,14 +37,10 @@ Windows 앱 전용 자료 편집, 외부 원본 저장, 비공개 GitHub 동기�
 
 이웃 경계 버전의 유효 기간이 다르면 저장을 거부한다. 자동 기간 분할은 구현하지 않았으며 자료 편집에서 버전 기간을 먼저 맞춰야 한다.
 
-원격 rollout에는 `kimjeon-il/PandoLab-library-data`의 초기 커밋, 기존 gh 인증, `PANDO_LIBRARY_READ_TOKEN`, 공개 `library-data` 배포 브랜치 및 main에 통합된 workflow가 필요하다. 이번 작업에서 원격 생성·푸시·main 병합·배포는 하지 않았다.
+원격 rollout에는 `kimjeon-il/Pando-library-data`의 초기 커밋, 기존 gh 인증, `PANDO_LIBRARY_READ_TOKEN`, 공개 `library-data` 배포 브랜치 및 main에 통합된 workflow가 필요하다. 이번 작업에서 원격 생성·푸시·main 병합·배포는 하지 않았다.
 
 ## 보존
 
 2026-10-21 후속 통합: 사용자 지시로 작업 커밋 `d8d424d7`을 로컬 main에 병합했다. 통합용 metadata/Worker 목록은 갱신했고 추가 검사·새 앱 빌드·원격 rollout은 미뤘다. 이전 체크포인트의 미커밋/미통합 표기는 당시 상태다. 현재 범위는 [통합 기록](library-korea-main-merge-2026-10-21.md)을 참조한다.
 
 작업 전부터 존재하던 삭제 테스트 873개, 생성 권한 파일 수정 6개 및 생성 산출물을 보존했다. 작업 변경은 영구 `work/ui` 작업트리에 남겼으며 커밋하지 않았다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/4c74e1c0ae2dca7d856a57daa4d9d7ac8cd44ff5b804c0c5b48643b809386dff.gz) · 원본 SHA-256 `4c74e1c0ae2dca7d856a57daa4d9d7ac8cd44ff5b804c0c5b48643b809386dff`.

@@ -1,0 +1,124 @@
+✔ every current browser workflow can be assigned before CI dependency planning (77.9747ms)
+✔ application CI prepares pinned data before planning and executing registered checks (76.9299ms)
+✔ transitive source changes choose related units and declared HTTP browser consumers (48.8151ms)
+✔ new and moved tests are discovered; an unregistered browser test fails coverage (37.969ms)
+✔ deleted imports and missing declared prerequisite commands fail, not silently pass (31.4495ms)
+✔ docs-only changes skip runtime work and unknown product code fails registration (40.7638ms)
+✔ an unknown computed executable import fails with its owner and does not invent a dependency (21.5155ms)
+✔ classic mixed arguments cannot hide a computed script behind a literal script (25.1751ms)
+✔ fixed fixture directories are data leaves and their child changes retain test consumers (30.1357ms)
+✔ cycles in prerequisites and missing fixture inputs fail inventory before execution (32.8347ms)
+✔ a checker and its prerequisite implementation are inferred inputs, not copied file lists (51.2166ms)
+✔ computing a script base URL does not make every sibling script a consumed input (17.198ms)
+✖ relocated shell imports preserve source dependency edges and reject missing runtime modules (27.9243ms)
+✖ catalog versions retain explicit identities, records and whole archive through production full/delta saves (11.1716ms)
+✖ complex catalog storage activates in the current Core without losing its historical identities (5.3949ms)
+✖ partial catalog coverage cannot silently become a complete project lifetime (5.0978ms)
+✖ a coastline-only snapshot change keeps both complete polygon versions in the existing archive (2.3897ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 12
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15289.9224
+
+✖ failing tests:
+
+test at tests\unit\check-automation.test.mjs:124:1
+✖ relocated shell imports preserve source dependency edges and reject missing runtime modules (27.9243ms)
+  Error: Missing dependency apps/assets/js/modules/terrain.js in apps/web-shell/probe.js
+      at add (file:///D:/dev/worktrees/objects/scripts/plan-application-checks.mjs:127:44)
+      at file:///D:/dev/worktrees/objects/scripts/plan-application-checks.mjs:131:119
+      at visit (file:///D:/dev/worktrees/objects/scripts/lib/source-analysis.mjs:15:5)
+      at Array.forEach (<anonymous>)
+      at visit (file:///D:/dev/worktrees/objects/scripts/lib/source-analysis.mjs:18:39)
+      at walkJavaScript (file:///D:/dev/worktrees/objects/scripts/lib/source-analysis.mjs:22:3)
+      at Object.dependencies (file:///D:/dev/worktrees/objects/scripts/plan-application-checks.mjs:130:5)
+      at planApplicationChecks (file:///D:/dev/worktrees/objects/scripts/plan-application-checks.mjs:204:35)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/check-automation.test.mjs:129:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+
+test at tests\unit\territorial-timeline-storage.test.mjs:28:1
+✖ catalog versions retain explicit identities, records and whole archive through production full/delta saves (11.1716ms)
+  Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+      at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+      at __emval_invoke (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+      at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+      at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+      at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+      at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+      at normalizeTimelineRecords (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-records.js:25:49)
+      at restoreTimelineStorage (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-storage.js:37:19)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/territorial-timeline-storage.test.mjs:30:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14) {
+    code: 'TIMELINE_SCHEMA'
+  }
+
+test at tests\unit\territorial-timeline-storage.test.mjs:44:1
+✖ complex catalog storage activates in the current Core without losing its historical identities (5.3949ms)
+  Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+      at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+      at __emval_invoke (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+      at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+      at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+      at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+      at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+      at normalizeTimelineRecords (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-records.js:25:49)
+      at restoreTimelineStorage (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-storage.js:37:19)
+      at content (file:///D:/dev/worktrees/objects/assets/js/modules/project-serializer.js:30:21)
+      at Object.buildProject (file:///D:/dev/worktrees/objects/assets/js/modules/project-serializer.js:39:10) {
+    code: 'TIMELINE_SCHEMA'
+  }
+
+test at tests\unit\territorial-timeline-storage.test.mjs:52:1
+✖ partial catalog coverage cannot silently become a complete project lifetime (5.0978ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    Comparison {
+  +   code: 'TIMELINE_SCHEMA'
+  -   code: 'TIMELINE_GAP'
+    }
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/territorial-timeline-storage.test.mjs:56:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+        at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+        at __emval_invoke (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+        at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+        at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+        at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+        at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+        at normalizeTimelineRecords (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-records.js:25:49)
+        at restoreTimelineStorage (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-storage.js:37:19)
+        at assert.throws.code (file:///D:/dev/worktrees/objects/tests/unit/territorial-timeline-storage.test.mjs:56:21)
+        at getActual (node:assert:611:5),
+    expected: { code: 'TIMELINE_GAP' },
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests\unit\territorial-timeline-storage.test.mjs:58:1
+✖ a coastline-only snapshot change keeps both complete polygon versions in the existing archive (2.3897ms)
+  Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+      at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+      at __emval_invoke (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+      at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+      at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+      at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+      at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///D:/dev/worktrees/objects/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+      at normalizeTimelineRecords (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-records.js:25:49)
+      at restoreTimelineStorage (file:///D:/dev/worktrees/objects/assets/js/modules/timeline-storage.js:37:19)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/territorial-timeline-storage.test.mjs:62:43)
+      at Test.runInAsyncScope (node:async_hooks:227:14) {
+    code: 'TIMELINE_SCHEMA'
+  }

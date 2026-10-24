@@ -1,0 +1,12 @@
+{
+  "id": "vg25-wolfenbuettel-hornburg",
+  "bounds": [
+    10.55,
+    51.98,
+    10.91,
+    52.09
+  ],
+  "basis": "LGLN NaVKV 2/3 2010, PDF p.33/printed p.32 fig.4 reproduces the 1985 DDR map of the Wolfenbuettel/Hornburg boundary. PDF pp.40-42 describe the post-1941 territorial allocation, joint 1974-1976 survey and 1986 inspection of section 21. The adopted window is restricted to the Hornburg/Grosses Bruch line visible in this period map, including the former west-side bend; it does not extend to all Harz or Altmark. NLWKN independently describes Grosses Bruch on the current Niedersachsen/Sachsen-Anhalt boundary. Reuse pinned VG25 only between actual intersections. Documentary continuity and visual period-map review; no independent historical-vector 0.5px pass.",
+  "evidence": "https://www.lgln.niedersachsen.de/download/80437/NaVKV_2010_2_3.pdf",
+  "corroboration": "https://www.nlwkn.niedersachsen.de/natura2000/schutzgebiete_zur_umsetzung_von_natura_2000/landschaftsschutzgebiet-grosses-bruch-197972.html"
+}

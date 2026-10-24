@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "purpose": "training-set-diagnostic-only",
+  "viewCorpus": "primary",
+  "independentEvaluation": false,
+  "releaseApproved": false,
+  "checkpointSha256": "9b6f0de59f91073226154191daa1f98e1295b99ab5006bb033182ca82ea3f553",
+  "baselineCheckpointSha256": "305c0c63a3942f55f2dc8ca0a91698b6eff7b16d5e5df35d4c0e091cd4a53fef",
+  "onnxSha256": "dcabcf04c67384aec5bc976c72b8c466f6dc5023d160e867917c043f500e688b",
+  "corpusSha256": "2291093ad87a49f86273e095a25202809be892ebf2b1809c93404eacff39f1bd",
+  "trainingBatches": 2808,
+  "optimizerUpdates": 2801,
+  "trainingLoss": 1.5716204236969988,
+  "validationLoss": null,
+  "unobservedChannels": [
+    "coast"
+  ],
+  "sheets": [
+    {
+      "sheetId": "usgs-detroit-2017",
+      "tileIndex": 16,
+      "pixelOrigin": [
+        448,
+        1344
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 248669,
+          "targetPixels": 1058,
+          "predictedPixels": 3528,
+          "overlapPixels": 788,
+          "probabilityMin": 0.0003290984022896737,
+          "probabilityMax": 0.9193470478057861
+        },
+        "administrative": {
+          "supervisedPixels": 248669,
+          "targetPixels": 2687,
+          "predictedPixels": 2424,
+          "overlapPixels": 2116,
+          "probabilityMin": 0.0012721422826871276,
+          "probabilityMax": 0.9905580282211304
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 248669,
+          "targetPixels": 61818,
+          "predictedPixels": 62457,
+          "overlapPixels": 60104,
+          "probabilityMin": 0.004411309026181698,
+          "probabilityMax": 0.9955729246139526
+        },
+        "transport": {
+          "supervisedPixels": 248669,
+          "targetPixels": 3509,
+          "predictedPixels": 8754,
+          "overlapPixels": 3185,
+          "probabilityMin": 0.007399707101285458,
+          "probabilityMax": 0.9988442659378052
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 13475,
+          "predictedPixels": 21984,
+          "overlapPixels": 12700,
+          "probabilityMin": 0.021109066903591156,
+          "probabilityMax": 0.9920448064804077
+        },
+        "frame": {
+          "supervisedPixels": 248669,
+          "targetPixels": 4105,
+          "predictedPixels": 6671,
+          "overlapPixels": 3854,
+          "probabilityMin": 0.0006188239785842597,
+          "probabilityMax": 0.9999419450759888
+        }
+      },
+      "previewFile": "usgs-detroit-2017.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 248669,
+          "targetPixels": 1058,
+          "predictedPixels": 4643,
+          "overlapPixels": 1052,
+          "probabilityMin": 0.0024340462405234575,
+          "probabilityMax": 0.8650979995727539
+        },
+        "administrative": {
+          "supervisedPixels": 248669,
+          "targetPixels": 2687,
+          "predictedPixels": 5515,
+          "overlapPixels": 2687,
+          "probabilityMin": 0.007532757706940174,
+          "probabilityMax": 0.996292233467102
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 248669,
+          "targetPixels": 61818,
+          "predictedPixels": 64782,
+          "overlapPixels": 61734,
+          "probabilityMin": 0.02651057578623295,
+          "probabilityMax": 0.9779047966003418
+        },
+        "transport": {
+          "supervisedPixels": 248669,
+          "targetPixels": 3509,
+          "predictedPixels": 5891,
+          "overlapPixels": 3383,
+          "probabilityMin": 0.03224515914916992,
+          "probabilityMax": 0.9943540096282959
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 13475,
+          "predictedPixels": 24905,
+          "overlapPixels": 13261,
+          "probabilityMin": 0.07944714277982712,
+          "probabilityMax": 0.9879905581474304
+        },
+        "frame": {
+          "supervisedPixels": 248669,
+          "targetPixels": 4105,
+          "predictedPixels": 7277,
+          "overlapPixels": 3925,
+          "probabilityMin": 0.0071381209418177605,
+          "probabilityMax": 0.9997888207435608
+        }
+      }
+    },
+    {
+      "sheetId": "usgs-east-brownsville-2016",
+      "tileIndex": 20,
+      "pixelOrigin": [
+        0,
+        1792
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 207647,
+          "targetPixels": 1839,
+          "predictedPixels": 3274,
+          "overlapPixels": 1493,
+          "probabilityMin": 0.00017383595695719123,
+          "probabilityMax": 0.9398137927055359
+        },
+        "administrative": {
+          "supervisedPixels": 207647,
+          "targetPixels": 4043,
+          "predictedPixels": 3648,
+          "overlapPixels": 3252,
+          "probabilityMin": 0.001287751249037683,
+          "probabilityMax": 0.9956538677215576
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 207647,
+          "targetPixels": 11488,
+          "predictedPixels": 21237,
+          "overlapPixels": 10719,
+          "probabilityMin": 0.005591804627329111,
+          "probabilityMax": 0.9872249364852905
+        },
+        "transport": {
+          "supervisedPixels": 207647,
+          "targetPixels": 6551,
+          "predictedPixels": 12821,
+          "overlapPixels": 6371,
+          "probabilityMin": 0.0053728921338915825,
+          "probabilityMax": 0.9995229244232178
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 54497,
+          "predictedPixels": 61163,
+          "overlapPixels": 40195,
+          "probabilityMin": 0.01499114092439413,
+          "probabilityMax": 0.9965425133705139
+        },
+        "frame": {
+          "supervisedPixels": 207647,
+          "targetPixels": 4319,
+          "predictedPixels": 8282,
+          "overlapPixels": 4104,
+          "probabilityMin": 0.00020878133364021778,
+          "probabilityMax": 0.9999769926071167
+        }
+      },
+      "previewFile": "usgs-east-brownsville-2016.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 207647,
+          "targetPixels": 1839,
+          "predictedPixels": 4455,
+          "overlapPixels": 1733,
+          "probabilityMin": 0.0014250257518142462,
+          "probabilityMax": 0.895592451095581
+        },
+        "administrative": {
+          "supervisedPixels": 207647,
+          "targetPixels": 4043,
+          "predictedPixels": 6882,
+          "overlapPixels": 3998,
+          "probabilityMin": 0.00615871325135231,
+          "probabilityMax": 0.9970423579216003
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 207647,
+          "targetPixels": 11488,
+          "predictedPixels": 13486,
+          "overlapPixels": 10385,
+          "probabilityMin": 0.025806499645113945,
+          "probabilityMax": 0.9810432195663452
+        },
+        "transport": {
+          "supervisedPixels": 207647,
+          "targetPixels": 6551,
+          "predictedPixels": 11637,
+          "overlapPixels": 6339,
+          "probabilityMin": 0.024151867255568504,
+          "probabilityMax": 0.9973515272140503
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 54497,
+          "predictedPixels": 74945,
+          "overlapPixels": 45233,
+          "probabilityMin": 0.04494551941752434,
+          "probabilityMax": 0.9918437600135803
+        },
+        "frame": {
+          "supervisedPixels": 207647,
+          "targetPixels": 4319,
+          "predictedPixels": 9758,
+          "overlapPixels": 4262,
+          "probabilityMin": 0.0024734442122280598,
+          "probabilityMax": 0.9998136162757874
+        }
+      }
+    },
+    {
+      "sheetId": "usgs-eastport-2014",
+      "tileIndex": 16,
+      "pixelOrigin": [
+        448,
+        1344
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 134676,
+          "targetPixels": 607,
+          "predictedPixels": 1166,
+          "overlapPixels": 548,
+          "probabilityMin": 0.0009629747364670038,
+          "probabilityMax": 0.8353167176246643
+        },
+        "administrative": {
+          "supervisedPixels": 134676,
+          "targetPixels": 1243,
+          "predictedPixels": 1191,
+          "overlapPixels": 1069,
+          "probabilityMin": 0.0027784809935837984,
+          "probabilityMax": 0.9494372010231018
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 134676,
+          "targetPixels": 130662,
+          "predictedPixels": 134013,
+          "overlapPixels": 130657,
+          "probabilityMin": 0.12569484114646912,
+          "probabilityMax": 0.9902815818786621
+        },
+        "transport": {
+          "supervisedPixels": 134676,
+          "targetPixels": 729,
+          "predictedPixels": 1619,
+          "overlapPixels": 582,
+          "probabilityMin": 0.03059864416718483,
+          "probabilityMax": 0.9895560145378113
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 127468,
+          "predictedPixels": 87020,
+          "overlapPixels": 74001,
+          "probabilityMin": 0.08055587112903595,
+          "probabilityMax": 0.9909523725509644
+        },
+        "frame": {
+          "supervisedPixels": 134676,
+          "targetPixels": 2786,
+          "predictedPixels": 4279,
+          "overlapPixels": 2551,
+          "probabilityMin": 0.008980996906757355,
+          "probabilityMax": 0.9997889399528503
+        }
+      },
+      "previewFile": "usgs-eastport-2014.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 134676,
+          "targetPixels": 607,
+          "predictedPixels": 1592,
+          "overlapPixels": 600,
+          "probabilityMin": 0.0038362336345016956,
+          "probabilityMax": 0.8110791444778442
+        },
+        "administrative": {
+          "supervisedPixels": 134676,
+          "targetPixels": 1243,
+          "predictedPixels": 2481,
+          "overlapPixels": 1240,
+          "probabilityMin": 0.02244368940591812,
+          "probabilityMax": 0.9964984655380249
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 134676,
+          "targetPixels": 130662,
+          "predictedPixels": 131579,
+          "overlapPixels": 130650,
+          "probabilityMin": 0.01965748518705368,
+          "probabilityMax": 0.9698230028152466
+        },
+        "transport": {
+          "supervisedPixels": 134676,
+          "targetPixels": 729,
+          "predictedPixels": 1117,
+          "overlapPixels": 579,
+          "probabilityMin": 0.053839053958654404,
+          "probabilityMax": 0.9805495142936707
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 127468,
+          "predictedPixels": 122677,
+          "overlapPixels": 100068,
+          "probabilityMin": 0.16930776834487915,
+          "probabilityMax": 0.9921860694885254
+        },
+        "frame": {
+          "supervisedPixels": 134676,
+          "targetPixels": 2786,
+          "predictedPixels": 7268,
+          "overlapPixels": 2739,
+          "probabilityMin": 0.0074750459752976894,
+          "probabilityMax": 0.9998371601104736
+        }
+      }
+    },
+    {
+      "sheetId": "usgs-guthrie-2016",
+      "tileIndex": 22,
+      "pixelOrigin": [
+        896,
+        1792
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 199356,
+          "targetPixels": 0,
+          "predictedPixels": 165,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0002905118453782052,
+          "probabilityMax": 0.696467936038971
+        },
+        "administrative": {
+          "supervisedPixels": 199356,
+          "targetPixels": 1958,
+          "predictedPixels": 1073,
+          "overlapPixels": 1056,
+          "probabilityMin": 0.001311281230300665,
+          "probabilityMax": 0.9737526178359985
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 199356,
+          "targetPixels": 2944,
+          "predictedPixels": 5531,
+          "overlapPixels": 2101,
+          "probabilityMin": 0.006830113939940929,
+          "probabilityMax": 0.9898087978363037
+        },
+        "transport": {
+          "supervisedPixels": 199356,
+          "targetPixels": 9518,
+          "predictedPixels": 14372,
+          "overlapPixels": 8467,
+          "probabilityMin": 0.0054467711597681046,
+          "probabilityMax": 0.9992724061012268
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 62788,
+          "predictedPixels": 35598,
+          "overlapPixels": 26154,
+          "probabilityMin": 0.014429396018385887,
+          "probabilityMax": 0.99539715051651
+        },
+        "frame": {
+          "supervisedPixels": 199356,
+          "targetPixels": 4060,
+          "predictedPixels": 8075,
+          "overlapPixels": 3710,
+          "probabilityMin": 0.00031151174334809184,
+          "probabilityMax": 0.9999536275863647
+        }
+      },
+      "previewFile": "usgs-guthrie-2016.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 199356,
+          "targetPixels": 0,
+          "predictedPixels": 815,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0019943546503782272,
+          "probabilityMax": 0.7907570004463196
+        },
+        "administrative": {
+          "supervisedPixels": 199356,
+          "targetPixels": 1958,
+          "predictedPixels": 2792,
+          "overlapPixels": 1946,
+          "probabilityMin": 0.006396173965185881,
+          "probabilityMax": 0.9972489476203918
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 199356,
+          "targetPixels": 2944,
+          "predictedPixels": 7653,
+          "overlapPixels": 2552,
+          "probabilityMin": 0.015089541673660278,
+          "probabilityMax": 0.9809680581092834
+        },
+        "transport": {
+          "supervisedPixels": 199356,
+          "targetPixels": 9518,
+          "predictedPixels": 14883,
+          "overlapPixels": 8833,
+          "probabilityMin": 0.015491527505218983,
+          "probabilityMax": 0.9964273571968079
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 62788,
+          "predictedPixels": 78279,
+          "overlapPixels": 50519,
+          "probabilityMin": 0.03247842565178871,
+          "probabilityMax": 0.9936519861221313
+        },
+        "frame": {
+          "supervisedPixels": 199356,
+          "targetPixels": 4060,
+          "predictedPixels": 10523,
+          "overlapPixels": 3974,
+          "probabilityMin": 0.002762917196378112,
+          "probabilityMax": 0.9997575879096985
+        }
+      }
+    },
+    {
+      "sheetId": "usgs-pajarito-peak-2014",
+      "tileIndex": 8,
+      "pixelOrigin": [
+        1344,
+        448
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 242426,
+          "targetPixels": 858,
+          "predictedPixels": 1984,
+          "overlapPixels": 853,
+          "probabilityMin": 0.0005134731763973832,
+          "probabilityMax": 0.9613178968429565
+        },
+        "administrative": {
+          "supervisedPixels": 242426,
+          "targetPixels": 2302,
+          "predictedPixels": 2615,
+          "overlapPixels": 2285,
+          "probabilityMin": 0.0011755762388929725,
+          "probabilityMax": 0.9973809123039246
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 242426,
+          "targetPixels": 10442,
+          "predictedPixels": 23088,
+          "overlapPixels": 8083,
+          "probabilityMin": 0.0057264878414571285,
+          "probabilityMax": 0.9875934720039368
+        },
+        "transport": {
+          "supervisedPixels": 242426,
+          "targetPixels": 6345,
+          "predictedPixels": 15817,
+          "overlapPixels": 5526,
+          "probabilityMin": 0.004831892903894186,
+          "probabilityMax": 0.9973740577697754
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 19718,
+          "predictedPixels": 35532,
+          "overlapPixels": 17590,
+          "probabilityMin": 0.01625691168010235,
+          "probabilityMax": 0.991581380367279
+        },
+        "frame": {
+          "supervisedPixels": 242426,
+          "targetPixels": 3988,
+          "predictedPixels": 9450,
+          "overlapPixels": 3494,
+          "probabilityMin": 0.0002472918131388724,
+          "probabilityMax": 0.9999300241470337
+        }
+      },
+      "previewFile": "usgs-pajarito-peak-2014.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 242426,
+          "targetPixels": 858,
+          "predictedPixels": 1998,
+          "overlapPixels": 843,
+          "probabilityMin": 0.002727348357439041,
+          "probabilityMax": 0.9127286672592163
+        },
+        "administrative": {
+          "supervisedPixels": 242426,
+          "targetPixels": 2302,
+          "predictedPixels": 3501,
+          "overlapPixels": 2302,
+          "probabilityMin": 0.006350384559482336,
+          "probabilityMax": 0.9975013136863708
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 242426,
+          "targetPixels": 10442,
+          "predictedPixels": 16554,
+          "overlapPixels": 7250,
+          "probabilityMin": 0.017442133277654648,
+          "probabilityMax": 0.9721794724464417
+        },
+        "transport": {
+          "supervisedPixels": 242426,
+          "targetPixels": 6345,
+          "predictedPixels": 9974,
+          "overlapPixels": 4759,
+          "probabilityMin": 0.013007713481783867,
+          "probabilityMax": 0.9941502213478088
+        },
+        "text": {
+          "supervisedPixels": 262144,
+          "targetPixels": 19718,
+          "predictedPixels": 31478,
+          "overlapPixels": 17307,
+          "probabilityMin": 0.047448474913835526,
+          "probabilityMax": 0.9925851225852966
+        },
+        "frame": {
+          "supervisedPixels": 242426,
+          "targetPixels": 3988,
+          "predictedPixels": 11949,
+          "overlapPixels": 3821,
+          "probabilityMin": 0.0021749858278781176,
+          "probabilityMax": 0.9996039271354675
+        }
+      }
+    }
+  ]
+}

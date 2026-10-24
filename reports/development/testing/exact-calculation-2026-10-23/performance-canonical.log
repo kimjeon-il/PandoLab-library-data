@@ -1,0 +1,58 @@
+{
+  "output": "D:\\dev\\worktrees\\objects\\.superpowers\\sdd\\exact-calculation-optimization\\performance-canonical.json",
+  "parityCases": 219,
+  "metrics": [
+    {
+      "name": "timeline-16",
+      "baselineMedianMs": 9.583200000000033,
+      "candidateMedianMs": 9.697300000000041,
+      "changePercent": 1.1906252608732792,
+      "work": null
+    },
+    {
+      "name": "timeline-256",
+      "baselineMedianMs": 152.39969999999994,
+      "candidateMedianMs": 148.22399999999925,
+      "changePercent": -2.739966023555618,
+      "work": null
+    },
+    {
+      "name": "timeline-2048",
+      "baselineMedianMs": 1406.6065000000017,
+      "candidateMedianMs": 1208.9100000000035,
+      "changePercent": -14.054854715942088,
+      "work": null
+    },
+    {
+      "name": "source-analysis-53",
+      "baselineMedianMs": 621.412900000003,
+      "candidateMedianMs": 610.4379000000044,
+      "changePercent": -1.7661364931430446,
+      "work": null
+    },
+    {
+      "name": "import-id-replace",
+      "baselineMedianMs": 99.41969999999856,
+      "candidateMedianMs": 21.102599999998347,
+      "changePercent": -78.77422683834425,
+      "work": {
+        "baselineBoundsCalls": 256,
+        "candidateBoundsCalls": 129,
+        "incomingVertices": 20001,
+        "existingCountries": 128
+      }
+    },
+    {
+      "name": "import-territory-replacement",
+      "baselineMedianMs": 264.507099999988,
+      "candidateMedianMs": 183.71910000000207,
+      "changePercent": -30.542847432068776,
+      "work": {
+        "baselineBoundsCalls": 256,
+        "candidateBoundsCalls": 129,
+        "incomingVertices": 20001,
+        "existingCountries": 128
+      }
+    }
+  ]
+}

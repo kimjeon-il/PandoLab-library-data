@@ -1,0 +1,29 @@
+FFF
+======================================================================
+FAIL: test_approved_map_phase_changes_only_safe_covered_arcs (tests.test_v0300_east_germany_library.EastGermanyHistoricalLibraryTests.test_approved_map_phase_changes_only_safe_covered_arcs) (section='vg25-delvenau-approved-map')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_v0300_east_germany_library.py", line 222, in test_approved_map_phase_changes_only_safe_covered_arcs
+    self.assertGreater(projected_area_km2(delta.intersection(box(*section["bounds"]))), 0.001)
+AssertionError: 0.0 not greater than 0.001
+
+======================================================================
+FAIL: test_approved_map_phase_changes_only_safe_covered_arcs (tests.test_v0300_east_germany_library.EastGermanyHistoricalLibraryTests.test_approved_map_phase_changes_only_safe_covered_arcs) (section='tk25as-elbe-neuhaus-printed-claim')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_v0300_east_germany_library.py", line 222, in test_approved_map_phase_changes_only_safe_covered_arcs
+    self.assertGreater(projected_area_km2(delta.intersection(box(*section["bounds"]))), 0.001)
+AssertionError: 0.0 not greater than 0.001
+
+======================================================================
+FAIL: test_approved_map_phase_changes_only_safe_covered_arcs (tests.test_v0300_east_germany_library.EastGermanyHistoricalLibraryTests.test_approved_map_phase_changes_only_safe_covered_arcs) (section='tk25as-elbe-schnackenburg-printed-claim')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_v0300_east_germany_library.py", line 222, in test_approved_map_phase_changes_only_safe_covered_arcs
+    self.assertGreater(projected_area_km2(delta.intersection(box(*section["bounds"]))), 0.001)
+AssertionError: 0.0 not greater than 0.001
+
+----------------------------------------------------------------------
+Ran 1 test in 2.435s
+
+FAILED (failures=3)

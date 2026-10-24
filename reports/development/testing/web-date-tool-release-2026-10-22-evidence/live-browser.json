@@ -1,0 +1,10 @@
+{
+  "url": "https://kimjeon-il.github.io/Pando/",
+  "observations": [
+    "2026년 10월에서 이전 달 이동 후 2026년 9월 표시",
+    "다음 달 이동 후 2026년 10월 복귀",
+    "날짜 입력창 열기와 Escape 닫기 확인",
+    "초기 불러오기 안내가 사라진 뒤 지도와 날짜 도구 표시"
+  ],
+  "warningsAndErrors": []
+}

@@ -27,7 +27,3 @@ Full DEM raster not redistributable from this research repository;
 only derived, source-attributed diagnostic images/measurements are saved.
 
 Country geometries and the source AGPL candidate are unchanged.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/51987338f9aa6a6e48d79998076964d9d1e68169c1a12a5a698f09f8373e2d63.gz) · 원본 SHA-256 `51987338f9aa6a6e48d79998076964d9d1e68169c1a12a5a698f09f8373e2d63`.

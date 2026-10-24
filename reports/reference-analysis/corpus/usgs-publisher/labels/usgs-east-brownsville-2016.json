@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewed": false,
+  "origin": "publisher-layer-export",
+  "width": 2009,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "sourcePdf": "sources/usgs-east-brownsville-2016.pdf",
+  "sourceSha256": "f76179e205a70bfd3adde81050c4b256222e4eaec4f762000cfaca133322c26e",
+  "sourceMetadata": "sources/usgs-east-brownsville-2016.source.json",
+  "sourceMetadataSha256": "8deaa5497386d22d7aa0c6be5016a88ed62cfad00ea3f2c46fb5ce95e6a7d0b3",
+  "producer": {
+    "script": "tools/reference-analysis/publisher.py",
+    "sha256": "53fb78609a1c834f725bb942fa122e8af65872369b025340d6c4fafc2c1f71db",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "sourceRectPts": [
+    0.0,
+    0.0,
+    1638.0,
+    2088.0
+  ],
+  "pixelsPerPoint": 1.2260536398467432,
+  "layers": {
+    "international": [
+      "International"
+    ],
+    "administrative": [
+      "State or Territory",
+      "County or Equivalent"
+    ],
+    "hydro": [
+      "Hydrography"
+    ],
+    "transport": [
+      "Road Features",
+      "Trails",
+      "Railroads"
+    ],
+    "frame": [
+      "Map Frame",
+      "Projection and Grids"
+    ]
+  },
+  "disabledInputLayers": [
+    "Orthoimage",
+    "Shaded Relief"
+  ],
+  "positivePixels": {
+    "international": 2999,
+    "administrative": 6539,
+    "coast": 0,
+    "hydro": 203780,
+    "transport": 200750,
+    "text": 990096,
+    "frame": 62178
+  },
+  "raster": {
+    "path": "derived/usgs-east-brownsville-2016.mask.png",
+    "sha256": "78022d580b00c2bd52657f5f87713ff326884950c145669c5a912c1f80ba805e"
+  },
+  "validRaster": {
+    "path": "derived/usgs-east-brownsville-2016.valid.png",
+    "sha256": "56f308c0987a1947f394ab240388aa4b7f8f04f1436f461767364e59e3c48dbf"
+  },
+  "sheet": {
+    "id": "usgs-east-brownsville-2016",
+    "familyId": "usgs-us-topo",
+    "editionId": "usgs-tx-2016",
+    "duplicateGroup": "usgs-east-brownsville-2016",
+    "split": "train",
+    "image": "derived/usgs-east-brownsville-2016.jpg",
+    "annotations": "labels/usgs-east-brownsville-2016.json",
+    "mapKind": "color",
+    "language": "eng",
+    "script": "Latin",
+    "source": {
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/TX/TX_East_Brownsville_20160226_TM_geo.pdf",
+      "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88fc7882cef33f43f2114c",
+      "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+      "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+      "published": "2016-02-26"
+    },
+    "sha256": "7031ad3d15dea9a6061ac416566f64bec2ad45930e648f9c8607f935b93f78dd"
+  }
+}

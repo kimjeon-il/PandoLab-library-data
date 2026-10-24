@@ -1,0 +1,21 @@
+D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:1467
+  let error = new Error(text);
+              ^
+
+Error: Build failed with 1 error:
+assets/js/build-meta.js:4:0: ERROR: Expected identifier but found "<<"
+    at failureErrorWithLog (D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:1467:15)
+    at D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:926:25
+    at runOnEndCallbacks (D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:1307:45)
+    at buildResponseToResult (D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:924:7)
+    at D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:951:16
+    at responseCallbacks.<computed> (D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:603:9)
+    at handleIncomingPacket (D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:658:12)
+    at Socket.readFromStdout (D:\dev\worktrees\objects\node_modules\.pnpm\esbuild@0.25.10\node_modules\esbuild\lib\main.js:581:7)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:568:12) {
+  errors: [Getter/Setter],
+  warnings: [Getter/Setter]
+}
+
+Node.js v24.21.0

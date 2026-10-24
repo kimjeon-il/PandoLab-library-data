@@ -1,0 +1,20 @@
+[WebServer] (node:21532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:17200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source (0ms)
+
+
+  1) tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source 
+
+    Error: worker process exited unexpectedly (code=3221226505, signal=null)
+
+    attachment #1: static-import-provenance (application/json) ─────────────────────────────────────
+    test-results\historical-library-East-Ge-3759e-history-and-original-source\attachments\static-import-provenance-54d78d10cc880fb4e913527db18350a281496a3c.json
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source 

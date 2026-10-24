@@ -15,7 +15,3 @@ Two new originals were acquired: Manitoba Geological Survey OF2024-4 (printed pu
 No new scope hold or access-pending target was added. The prior 27 scope holds and two access-pending targets remain unchanged and were not reassessed. Formal-registry decisions, precise named extents, Korean forms and scalar product names remain unapproved. All product-name fields are null; automatic and product application remain false. No product data or geometry was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` in this directory. Checks validate included current-three factual linkage, bounded metadata, arithmetic and included-file integrity. They do not reopen originals, recompute omitted complete polygons, reproduce visual judgments or replay the production decoder. Maps, crops, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json hashes the nine included geometry-component files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/9f30aa59bd01af856ab056a7ffe4be6264a6efe120e4d3801ed16bc903c2fdb9.gz) · 원본 SHA-256 `9f30aa59bd01af856ab056a7ffe4be6264a6efe120e4d3801ed16bc903c2fdb9`.

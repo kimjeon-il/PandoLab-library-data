@@ -1,0 +1,41 @@
+{
+  "wideDelvenau": {
+    "bounds": [
+      10.58,
+      53.365,
+      11,
+      53.6
+    ],
+    "decision": "reject overly broad map footprint; narrow to approved covered area"
+  },
+  "wideTripoint": {
+    "bounds": [
+      11.98,
+      50.3,
+      12.13,
+      50.36
+    ],
+    "operations": {
+      "vg25": 33,
+      "lsibRestore": 20
+    },
+    "symmetricDifferenceKm2": 1.428398720918777,
+    "decision": "reject partial reversing fragments where current VG25 and adopted generalized international LSIB differ; do not bridge or move international boundary",
+    "geometryRetention": "wide candidate superseded by refined trial; definition retained in scratch probe, no claim original wide output archived"
+  },
+  "narrowTripoint": {
+    "bounds": [
+      11.98,
+      50.335,
+      12.025,
+      50.36
+    ],
+    "symmetricDifferenceKm2": 1.898334961045123e-08,
+    "decision": "no substantive new geometry; not admitted"
+  },
+  "finalAdmitted": [
+    "vg25-delvenau-approved-map",
+    "tk25as-elbe-neuhaus-printed-claim",
+    "tk25as-elbe-schnackenburg-printed-claim"
+  ]
+}

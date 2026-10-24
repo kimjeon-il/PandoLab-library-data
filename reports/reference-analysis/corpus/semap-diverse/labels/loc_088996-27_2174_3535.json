@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "092627f6a65f45ab369fcedfde542e95ecfb7bb34c0df5a54ea0be9223cf084e"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/loc_088996-27_2174_3535.jpg",
+      "sha256": "eae1974ab25ab98b922c3195465c3ef278d4fd765ebeef9658409d6a17ad4e67"
+    },
+    {
+      "path": "sources/loc_088996-27_2174_3535.png",
+      "sha256": "56c00d6d565d932dd35c9f3f50e0ef65df0696d724c90fae01bac69136b5c9cc"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/loc_088996-27_2174_3535.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 56797,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/loc_088996-27_2174_3535.raster.png",
+    "sha256": "cd8fd7536aa70e3cb70d7f32f4620dfa692b26a6b7117b4a0695ebaa93a73db6"
+  },
+  "validRaster": {
+    "path": "derived/loc_088996-27_2174_3535.validRaster.png",
+    "sha256": "282ff6fda3d9f58a78f047ea775e641d3588257ebc66f517a04ac3e25154c155"
+  }
+}

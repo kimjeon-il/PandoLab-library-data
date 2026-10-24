@@ -1,0 +1,55 @@
+✔ stages committed viewer assets while excluding editor and repository source (3144.1532ms)
+✔ final evidence describes overlaid publication files and their current hashes (3137.7645ms)
+✔ required Worker cannot publish with a missing WASM pair member (3549.9782ms)
+✔ rejects a modified Web file before creating a site (2943.1235ms)
+✔ stages committed LF bytes from an equivalent Windows CRLF checkout (3463.954ms)
+✔ stages committed bytes when checkout line endings are mixed (3284.5974ms)
+✔ refuses to stage inside the repository or overwrite a prior artifact (3302.3814ms)
+✔ dry run preserves all public URLs and required Web GIS binary paths (41.1624ms)
+✔ over-1GB footprint is blocked before creating any artifact directory (45.478ms)
+✔ an old byte changed or duplicate path blocks candidate without deleting (29.1548ms)
+✔ offline materialization verifies Git Blob and produces byte identical files (163.5045ms)
+✔ modified source contents fail exact Git Blob verification (46.5775ms)
+﹣ symlinked source path is rejected without following outside root (35.4109ms) # Windows symlink creation is not permitted
+✔ version checks and staging share the distinction between common viewing and editor assets (1.3371ms)
+✔ viewer closure includes static and query-versioned dynamic imports but excludes editor and repository sources (179.4884ms)
+✔ viewer publication excludes offline reference OCR and AI runtime assets (36.5928ms)
+✔ viewer data closure follows current manifest references and excludes source, old versions and orphan assets (47.0796ms)
+✔ viewer closure rejects missing, editor-only and unresolved dynamic dependencies (153.5902ms)
+✔ runtime worker catalog includes classic Worker imports and rejects a missing worker dependency (66.2113ms)
+✔ actual viewer graph contains render and read Workers without editor execution entries (1092.1408ms)
+✔ product HTML is generated from one source for each common viewing control (62.7316ms)
+✖ both maps expose shared OSM credit and the ODbL source/derivative archive (55.2791ms)
+✔ Worker closure is immutable, includes transitive imports, and changes identity when an internal calculation changes (138.7295ms)
+✔ classic importScripts and fixed-identity versioned dynamic imports are included in the same closure (42.655ms)
+✔ classic bare sibling script names are included and computed unknown scripts are rejected (61.4213ms)
+✔ unknown dynamic executable dependencies fail packaging (20.7912ms)
+✔ bootstrap metadata imports resolve outside the immutable tree with their revision query intact (26.2147ms)
+✔ Worker URL resolution requires generated identity and preserves application base and runtime parameters (0.713ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 1
+ℹ todo 0
+ℹ duration_ms 23305.7905
+
+✖ failing tests:
+
+test at tests\unit\product-html.test.mjs:48:1
+✖ both maps expose shared OSM credit and the ODbL source/derivative archive (55.2791ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/product-html.test.mjs:54:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

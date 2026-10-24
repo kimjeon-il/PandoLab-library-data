@@ -1,0 +1,5 @@
+{
+  "url": "https://sgx.geodatenzentrum.de/wfs_vg25?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=vg25%3Avg25_gem&OUTPUTFORMAT=application%2Fjson&SRSNAME=EPSG%3A25832&CQL_FILTER=gen+IN+%28%27Amt+Neuhaus%27%2C%27Bleckede%27%29",
+  "status": 400,
+  "response": "<html><head><title>Request Rejected</title></head><body>\r\nDieser URL wird nicht beantwortet. Bitte wenden Sie sich mit Ihrer Anfrage an das <a href=\"https://www.bkg.bund.de/DE/Ueber-das-BKG/Dienstleistungszentrum/dienstleistungszentrum.html\"> Dienstleistungszentrum des BKG. <br></a>Nennen Sie uns bitte diese Support ID: 3244067494999927819<br><br><a href='javascript:history.back();'>[Zurück]</a>\r\n<br><br>\r\nThe requested URL was rejected. Please consult <a href=\"https://www.bkg.bund.de/DE/Ueber-das-BKG/Dienstleistungszentrum/dienstleistungszentrum.html\"> Dienstleistungszentrum of BKG.</a><br>Your support ID is: 3244067494999927819<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>"
+}

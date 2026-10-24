@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_coast_endpoint_snap_cannot_invent_an_outer_intersection (__main__.SupplementTests.test_coast_endpoint_snap_cannot_invent_an_outer_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_lsib_boundary_supplement.py", line 77, in test_coast_endpoint_snap_cannot_invent_an_outer_intersection
+    with self.assertRaisesRegex(ValueError, 'No safe outer coast anchor'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+FAILED (failures=1)

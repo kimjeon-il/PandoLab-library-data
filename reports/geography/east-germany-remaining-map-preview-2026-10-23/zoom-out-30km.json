@@ -1,0 +1,34 @@
+{
+  "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=mv_tk25as&STYLES=&SRS=EPSG%3A25832&BBOX=603016%2C5942750%2C633016%2C5972750&WIDTH=2400&HEIGHT=2400&FORMAT=image%2Fpng",
+  "sha256": "5174039f2a12d28db5cc66eabac391750c03cbe5717c1bf2172ccb7105ab0dcd",
+  "retrievedAt": "2026-10-23T00:39:22.671164+00:00",
+  "crs": "EPSG:25832",
+  "bbox": [
+    603016,
+    5942750,
+    633016,
+    5972750
+  ],
+  "originalSize": [
+    2400,
+    2400
+  ],
+  "originalMetersPerPixel": 12.5,
+  "previewSize": [
+    960,
+    1040
+  ],
+  "mapPanelSize": [
+    920,
+    920
+  ],
+  "previousBBox": [
+    613016,
+    5952750,
+    623016,
+    5962750
+  ],
+  "centerUnchanged": true,
+  "newBoundaryDigitized": false,
+  "note": "Wider view contains additional sheets; previous individual sheet dates cannot be extrapolated to all new sheets. Provider summary/individual sheet mismatch remains unresolved."
+}

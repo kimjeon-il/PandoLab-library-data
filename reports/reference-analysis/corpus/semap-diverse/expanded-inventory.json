@@ -1,0 +1,20 @@
+{
+  "actualOriginals": 82,
+  "usedOriginals": 82,
+  "trainingTiles": 318,
+  "institutions": {
+    "berkeleylib": 4,
+    "bordeaux_montaigne": 5,
+    "bostonleventhal": 8,
+    "nypl": 12,
+    "unileiden": 12,
+    "wwu_munster": 5,
+    "erara": 12,
+    "loc": 12,
+    "princeton": 12
+  },
+  "inputKinds": {
+    "color": 82
+  },
+  "uniqueOriginalGroups": 82
+}

@@ -1,0 +1,10 @@
+{
+  "url": "http://tauri.localhost/",
+  "readiness": "enhanced",
+  "entities": 254,
+  "afg": "아프가니스탄",
+  "developmentScripts": 0,
+  "serverRunning": false,
+  "compactedApk": true,
+  "cleartextTrafficPermitted": false
+}

@@ -1,0 +1,22 @@
+....E............
+======================================================================
+ERROR: test_coastal_repair_uses_shared_border_and_only_reviewed_outer_arc (__main__.SupplementTests.test_coastal_repair_uses_shared_border_and_only_reviewed_outer_arc)
+----------------------------------------------------------------------
+{"targets": ["AND/FRA", "ITA/SMR", "ITA/VAT", "LSO/ZAF"], "changedCountries": 8, "sections": 8, "output": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\tmp4432jjs7\\candidate.json"}
+{"targets": ["ITA/SMR"], "changedCountries": 2, "sections": 1, "output": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\tmp4432jjs7\\candidate.json"}
+Traceback (most recent call last):
+  File "D:\dev\worktrees\gis\tests\test_lsib_boundary_supplement.py", line 36, in test_coastal_repair_uses_shared_border_and_only_reviewed_outer_arc
+    updated, sections, review = module.repair_coastal_boundary(geometries, border, coasts)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\worktrees\gis\tools\supplement-lsib-boundaries.py", line 379, in repair_coastal_boundary
+    expected = shape(replace_chain(mapping(before_union), old, replacement))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\worktrees\gis\tools\supplement-lsib-boundaries.py", line 226, in replace_chain
+    ring[:] = points + points[:1]
+    ~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.411s
+
+FAILED (errors=1)

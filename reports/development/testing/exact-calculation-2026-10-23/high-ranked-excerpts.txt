@@ -1,0 +1,535 @@
+tools/builtin-world-compiler.mjs-65-  for (const feature of [...classified.countries.features, ...classified.subunits]) {
+tools/builtin-world-compiler.mjs-66-    const sourceFeature = builtinSubunitSourceId(feature) || feature.id;
+tools/builtin-world-compiler.mjs:67:    const sourceFeatureIds = [sourceFeature, ...BUILTIN_TERRITORY_MERGES.filter(row => row.controller === sourceFeature).map(row => row.sourceId)].sort();
+tools/builtin-world-compiler.mjs:68:    const sources = entities.filter(entity => currentIds.has(entity.entityId) && sourceFeatureIds.includes(entity.sourceInfo?.featureId));
+tools/builtin-world-compiler.mjs-69-    if (!sources.length) throw new Error(`Missing current identity: ${feature.id}`);
+tools/builtin-world-compiler.mjs-70-    for (const source of sources) sourceToProject.set(source.entityId, feature.id);
+tools/builtin-world-compiler.mjs-71-    const info = { projectEntityId: feature.id, sourceEntityIds: sources.map(source => source.entityId).sort(), sourceFeatureIds, currentGeometryRef: null };
+tools/builtin-world-compiler.mjs-72-    sourceIdentities.push(info);
+tools/builtin-world-compiler.mjs:73:    const primary = sources.find(source => source.sourceInfo.featureId === sourceFeature);
+tools/builtin-world-compiler.mjs-74-    const lifetime = bounds(primary.lifetime);
+tools/builtin-world-compiler.mjs:75:    const version = primary.geometryVersions.find(row=>row.versionId===selection.get(primary.entityId));
+tools/builtin-world-compiler.mjs-76-    if(!version)throw new Error(`Missing selected geometry: ${primary.entityId}`);
+tools/builtin-world-compiler.mjs-77-    const normalized = identity(feature);
+--
+tools/builtin-world-compiler.mjs-84-        parentId:feature.properties.parentId,coverageMode:feature.properties.coverageMode,
+tools/builtin-world-compiler.mjs-85-        currentSnapshot:row.versionId===version.versionId};
+tools/builtin-world-compiler.mjs:86:    }).filter(Boolean);
+tools/builtin-world-compiler.mjs-87-    definitions.set(feature.id,{identity:normalized,currentSnapshot:true,info,windows});
+tools/builtin-world-compiler.mjs-88-  }
+--
+tools/builtin-world-compiler.mjs-112-        parentId: sourceToProject.get(entity.parentEntityId) || entity.parentEntityId,
+tools/builtin-world-compiler.mjs-113-        coverageMode: entity.instantiation.coverageMode || 'explicit' };
+tools/builtin-world-compiler.mjs:114:    }).filter(Boolean);
+tools/builtin-world-compiler.mjs-115-    definitions.set(entity.entityId, { identity: identity(feature), currentSnapshot: false, windows });
+tools/builtin-world-compiler.mjs-116-    sourceIdentities.push({ projectEntityId: entity.entityId, sourceEntityIds: [entity.entityId], sourceFeatureIds: [], currentGeometryRef: null });
+tools/builtin-world-compiler.mjs-117-  }
+tools/builtin-world-compiler.mjs:118:  const eligibleWindows=(definition,mode)=>definition.windows.filter(window=>mode==='dated'?!window.currentOnly:
+tools/builtin-world-compiler.mjs-119-    definition.currentSnapshot?window.currentSnapshot:window.end===null);
+tools/builtin-world-compiler.mjs-120-  const archive = createGeometryVersionStore(), byGeometry = new Map();
+--
+tools/builtin-world-compiler.mjs-144-    let candidates = [];
+tools/builtin-world-compiler.mjs-145-    for (const [id, definition] of ordered) {
+tools/builtin-world-compiler.mjs:146:      let active = eligibleWindows(definition,mode).filter(window=>covers(window,start));
+tools/builtin-world-compiler.mjs:147:      if(active.some(window=>!window.currentOnly))active=active.filter(window=>!window.currentOnly);
+tools/builtin-world-compiler.mjs-148-      if (active.length > 1) throw new Error(`Overlapping geometry intervals: ${id}`);
+tools/builtin-world-compiler.mjs-149-      if (active.length) candidates.push({ ...active[0], entityId: id, currentSnapshot: active[0].currentSnapshot ?? definition.currentSnapshot,
+--
+tools/builtin-world-compiler.mjs-159-      return !!parent && activeParent(parent, seen);
+tools/builtin-world-compiler.mjs-160-    };
+tools/builtin-world-compiler.mjs:161:    candidates = candidates.filter(row => activeParent(row));
+tools/builtin-world-compiler.mjs-162-    const mappedPolicy = { ...policy, replacements: policy.replacements.map(rule => ({ ...rule,
+tools/builtin-world-compiler.mjs-163-      targetEntityId: sourceToProject.get(rule.targetEntityId) || rule.targetEntityId,
+--
+tools/builtin-world-compiler.mjs-168-    const surviving=new Map(candidates.map(row=>[row.entityId,row]));
+tools/builtin-world-compiler.mjs-169-    const hasParent=row=>!row.parentId || (surviving.has(row.parentId)&&hasParent(surviving.get(row.parentId)));
+tools/builtin-world-compiler.mjs:170:    candidates=candidates.filter(hasParent);
+tools/builtin-world-compiler.mjs-171-    adjustments.push(...adjusted.adjustments.map(row => ({ ...row, mode, validFrom: start && date(start), validTo: end && date(end) })));
+tools/builtin-world-compiler.mjs-172-    for (const candidate of candidates) {
+--
+tools/builtin-world-compiler.mjs-185-    }
+tools/builtin-world-compiler.mjs-186-  }
+tools/builtin-world-compiler.mjs:187:  const identities = normalizeTerritorialIdentities(ordered.filter(([id]) => rowsByEntity.has(id)).map(([, value]) => value.identity));
+tools/builtin-world-compiler.mjs-188-  const records = { schemaVersion: 2, lifetimes: [], geometryBindings: [], parentRelations: [], propertyBindings: [] };
+tools/builtin-world-compiler.mjs-189-  for (const [id] of ordered) {
+--
+tools/builtin-world-compiler.mjs-213-      const records=contexts[mode].records;
+tools/builtin-world-compiler.mjs-214-      modes[mode]=Object.fromEntries(Object.entries(records).map(([key,value])=>[key,
+tools/builtin-world-compiler.mjs:215:        Array.isArray(value)?value.filter(row=>row.entityId===id):value]));
+tools/builtin-world-compiler.mjs-216-    }
+tools/builtin-world-compiler.mjs-217-    if(!modes.dated.lifetimes.length&&!modes.current.lifetimes.length)continue;
+tools/builtin-world-compiler.mjs-218-    const refs=new Set(Object.values(modes).flatMap(rows=>rows.geometryBindings.map(row=>JSON.stringify(row.geometryRef))));
+tools/builtin-world-compiler.mjs:219:    const geometries=allGeometry.filter(row=>refs.has(JSON.stringify({id:row.id,version:row.version})));
+tools/builtin-world-compiler.mjs-220-    countries.push({schemaVersion:1,entityId:id,identity:definition.identity,modes,geometries,
+tools/builtin-world-compiler.mjs-221-      sourceBindings:Object.fromEntries(['dated','current'].map(mode=>[mode,contexts[mode].sourceBindings.get(id)||[]]))});
+--
+tools/builtin-world-compiler.mjs-227-    entities:countries.map(country=>({entityId:country.entityId,
+tools/builtin-world-compiler.mjs-228-      lifetime:structuredClone(country.identity.properties.metadata.historicalTimeline.lifetime),
+tools/builtin-world-compiler.mjs:229:      availability:index.entities.find(row=>row.entityId===country.entityId).coverage}))}};
+tools/builtin-world-compiler.mjs-230-}
+--
+assets/js/modules/gpu-scene-preparation.js-31-      const overlayItems = [
+assets/js/modules/gpu-scene-preparation.js-32-        ...(scene?.polygons || []).map(packet => ({ kind: 'polygon', packet })),
+assets/js/modules/gpu-scene-preparation.js:33:        ...(scene?.strokes || []).filter(packet => Number(packet.style?.alpha ?? 1) > 0 && Number(packet.style?.width ?? 1) > 0)
+assets/js/modules/gpu-scene-preparation.js-34-          .map(packet => ({ kind: 'stroke', packet, resourcePacket: sceneStrokeResourcePacket(packet, frame.projectGeneration ?? 0) })),
+assets/js/modules/gpu-scene-preparation.js-35-      ].sort((left, right) => Number(left.packet.order || 0) - Number(right.packet.order || 0));
+--
+assets/js/modules/gpu-scene-preparation.js-38-      const deferredOverlayKeys = new Set();
+assets/js/modules/gpu-scene-preparation.js-39-      const failedOverlayKeys = new Set();
+assets/js/modules/gpu-scene-preparation.js:40:      const uploadCandidates = overlayItems.filter(item => {
+assets/js/modules/gpu-scene-preparation.js-41-        const pass = item.kind === 'polygon' ? polygonOverlayPass : strokeRenderer;
+assets/js/modules/gpu-scene-preparation.js-42-        const resourcePacket = item.resourcePacket || item.packet;
+--
+assets/js/modules/gpu-scene-preparation.js-65-
+assets/js/modules/gpu-scene-preparation.js-66-  const desiredDomains = new Map();
+assets/js/modules/gpu-scene-preparation.js:67:  for (const item of overlayItems.filter(item => item.kind === 'stroke')) {
+assets/js/modules/gpu-scene-preparation.js-68-    const domain = item.packet.domain || item.packet.key;
+assets/js/modules/gpu-scene-preparation.js-69-    if (!desiredDomains.has(domain)) desiredDomains.set(domain, []);
+--
+assets/js/modules/gpu-scene-preparation.js-76-    const desired = desiredDomains.get(domain) || [];
+assets/js/modules/gpu-scene-preparation.js-77-    const visualKeys = new Set(desired.map(item => item.packet.key));
+assets/js/modules/gpu-scene-preparation.js:78:    const objects = new Set(desired.map(item => item.packet.objectKey).filter(Boolean));
+assets/js/modules/gpu-scene-preparation.js-79-    const owners = new Set(desired.flatMap(item => item.packet.continuityOwnerIds || []));
+assets/js/modules/gpu-scene-preparation.js:80:    const fallback = (presentedStrokeDomains.get(domain) || []).filter(item =>
+assets/js/modules/gpu-scene-preparation.js-81-      desired.length > 0 && item.resourcePacket.projectGeneration === (frame.projectGeneration ?? 0)
+assets/js/modules/gpu-scene-preparation.js-82-      && (item.packet.continuityOwnerIds || []).every(id => owners.has(id))
+--
+assets/js/modules/gpu-scene-preparation.js-93-    }
+assets/js/modules/gpu-scene-preparation.js-94-  }
+assets/js/modules/gpu-scene-preparation.js:95:  const selectedItems = [...overlayItems.filter(item => item.kind === 'polygon'), ...selectedStrokes]
+assets/js/modules/gpu-scene-preparation.js-96-    .sort((left, right) => Number(left.packet.order || 0) - Number(right.packet.order || 0));
+assets/js/modules/gpu-scene-preparation.js-97-
+--
+assets/js/modules/gpu-scene-preparation.js-108-      return items.every(item => eligible.has(item.resourcePacket.key));
+assets/js/modules/gpu-scene-preparation.js-109-    }),
+assets/js/modules/gpu-scene-preparation.js:110:    territoryItems: selectedItems.filter(item => item.kind === 'polygon' && item.packet.role === 'territorial-fill')
+assets/js/modules/gpu-scene-preparation.js-111-      .sort((a, b) => b.packet.territoryDepth - a.packet.territoryDepth || b.packet.order - a.packet.order),
+assets/js/modules/gpu-scene-preparation.js:112:    physicalLandItems: selectedItems.filter(item => item.kind === 'polygon' && item.packet.role === 'physical-land'),
+assets/js/modules/gpu-scene-preparation.js:113:    independentItems: selectedItems.filter(item => item.packet.role !== 'physical-land' && (item.kind !== 'polygon' || item.packet.role !== 'territorial-fill')),
+assets/js/modules/gpu-scene-preparation.js-114-    deferredOverlayKeys, failedOverlayKeys, overlayUploadBytes, overrunCount,
+assets/js/modules/gpu-scene-preparation.js-115-  };
+--
+assets/js/modules/gpu-scene-preparation.js-125-
+assets/js/modules/gpu-scene-preparation.js-126-export function prepareGpuInteractionPlan({ interaction, emphasis, mesh, overrideMesh, overrideIds, countriesVisible, blocked, isPending, isVisible }, polygonOverlayPass) {
+assets/js/modules/gpu-scene-preparation.js:127:  const preview = (interaction.previewPackets || []).filter(item => item.kind === 'polygon').map(item => item.packet);
+assets/js/modules/gpu-scene-preparation.js:128:  const draft = (interaction.draftPackets || []).filter(item => item.kind === 'polygon').map(item => item.packet);
+assets/js/modules/gpu-scene-preparation.js-129-  const generic = interaction.genericFillItems || [];
+assets/js/modules/gpu-scene-preparation.js:130:  const emphasizedIds = [...new Set([...emphasis.selectedIds, emphasis.primaryId, emphasis.hoverId].map(String).filter(Boolean))];
+assets/js/modules/gpu-scene-preparation.js:131:  const priorities = [...new Set(Object.values(INTERACTION_ROLE_PRIORITY))].filter(priority => priority > 1).sort((a, b) => b - a).map(priority => {
+assets/js/modules/gpu-scene-preparation.js:132:    const ids = countriesVisible && !blocked ? emphasizedIds.filter(id => Number(emphasis.priorities[id] || (emphasis.primaryIds.has(id) ? 4 : emphasis.selectedIds.has(id) ? 3 : 2)) === priority && !isPending(id) && isVisible(id)) : [];
+assets/js/modules/gpu-scene-preparation.js-133-    return {
+assets/js/modules/gpu-scene-preparation.js-134-      priority,
+assets/js/modules/gpu-scene-preparation.js:135:      preview: preview.filter(packet => Number(packet.interactionPriority || 5) === priority),
+assets/js/modules/gpu-scene-preparation.js:136:      draft: draft.filter(packet => Number(packet.interactionPriority || 5) === priority),
+assets/js/modules/gpu-scene-preparation.js:137:      generic: generic.filter(item => Number(item.priority || 2) === priority)
+assets/js/modules/gpu-scene-preparation.js-138-        .sort((a, b) => Number(a.depth || 0) - Number(b.depth || 0) || String(a.objectKey || a.key).localeCompare(String(b.objectKey || b.key))),
+assets/js/modules/gpu-scene-preparation.js-139-      country: {
+assets/js/modules/gpu-scene-preparation.js:140:        base: ids.filter(id => !overrideIds.has(id)).flatMap(id => mesh?.triangleRangesByCountryId?.get(id) || []),
+assets/js/modules/gpu-scene-preparation.js:141:        override: ids.filter(id => overrideIds.has(id)).flatMap(id => overrideMesh?.triangleRangesByCountryId?.get(id) || []),
+assets/js/modules/gpu-scene-preparation.js-142-      },
+assets/js/modules/gpu-scene-preparation.js-143-    };
+--
+assets/js/modules/gpu-scene-preparation.js-145-  // A camera frame with no interaction fills needs neither water/border
+assets/js/modules/gpu-scene-preparation.js-146-  // stencil masking nor a full-viewport fill framebuffer.
+assets/js/modules/gpu-scene-preparation.js:147:  const hasFillItems = priorities.some(group => group.preview.length || group.draft.length
+assets/js/modules/gpu-scene-preparation.js-148-    || group.generic.length || group.country.base.length || group.country.override.length);
+assets/js/modules/gpu-scene-preparation.js-149-  return {
+assets/js/modules/gpu-scene-preparation.js-150-    priorities, hasFillItems, genericKeys: generic.map(item => item.key), previewFillKeys: preview.map(packet => packet.key), draftFillKeys: draft.map(packet => packet.key),
+assets/js/modules/gpu-scene-preparation.js:151:    previewStrokes: (interaction.previewPackets || []).filter(item => item.kind !== 'polygon').map(item => item.packet),
+assets/js/modules/gpu-scene-preparation.js:152:    draftStrokes: (interaction.draftPackets || []).filter(item => item.kind !== 'polygon').map(item => item.packet),
+assets/js/modules/gpu-scene-preparation.js-153-    fillReady: generic.every(item => polygonOverlayPass.hasResource(item.key))
+assets/js/modules/gpu-scene-preparation.js-154-      && [...preview, ...draft].every(packet => polygonOverlayPass.hasPreparedResource?.(packet) ?? polygonOverlayPass.hasResource(packet.key))
+--
+assets/js/modules/boundary-topology.js-50-    // Preserve the historical skip for empty/one-point rings, while using
+assets/js/modules/boundary-topology.js-51-    // one crossing into the shared C++ integral for all remaining rings.
+assets/js/modules/boundary-topology.js:52:    const calculable = rings.filter(ring => ring.length > 1);
+assets/js/modules/boundary-topology.js-53-    const areas = calculable.length ? sphericalSignedAreas(calculable) : [];
+assets/js/modules/boundary-topology.js-54-    let areaIndex = 0;
+--
+assets/js/modules/boundary-topology.js-142-  function replace(features = []) {
+assets/js/modules/boundary-topology.js-143-    const ids = new Set(features.map(feature => String(feature.id)));
+assets/js/modules/boundary-topology.js:144:    return patch(features, [...byId.keys()].filter(id => !ids.has(id)));
+assets/js/modules/boundary-topology.js-145-  }
+assets/js/modules/boundary-topology.js-146-  return { patch, replace, get: id => byId.get(String(id)), values: () => [...byId.values()],
+--
+assets/js/modules/boundary-topology.js-166-  const refs = [];
+assets/js/modules/boundary-topology.js-167-  for (const segment of segments) for (const ref of segment.refs) {
+assets/js/modules/boundary-topology.js:168:    if (!refs.some(other => other.featureId === ref.featureId
+assets/js/modules/boundary-topology.js-169-      && other.polygonIndex === ref.polygonIndex
+assets/js/modules/boundary-topology.js-170-      && other.ringIndex === ref.ringIndex && other.segmentIndex === ref.segmentIndex)) refs.push(ref);
+--
+assets/js/modules/boundary-topology.js-182-    const left = rows[leftIndex];
+assets/js/modules/boundary-topology.js-183-    if (!left.segments.length) continue;
+assets/js/modules/boundary-topology.js:184:    const nearby = store.nearby(left.bounds).filter(right => order.get(right.id) > leftIndex)
+assets/js/modules/boundary-topology.js-185-      .sort((a, b) => order.get(a.id) - order.get(b.id));
+assets/js/modules/boundary-topology.js-186-    for (const right of nearby) pairs.push([left, right]);
+--
+assets/js/modules/boundary-topology.js-211-    const splits = candidates.length ? sharedCalculationCore.boundarySplitCandidatesBatch(
+assets/js/modules/boundary-topology.js-212-      candidates.map(({ a, b }) => [a, b]), [segment.start, segment.end], 1e-7) : [];
+assets/js/modules/boundary-topology.js:213:    const edge = candidates.find((_, index) => splits[index].some(([node]) => node === 0)
+assets/js/modules/boundary-topology.js:214:      && splits[index].some(([node]) => node === 1));
+assets/js/modules/boundary-topology.js-215-    if (!edge) throw new Error(`공유 경계의 원본 구간이 없습니다: ${id}`);
+assets/js/modules/boundary-topology.js-216-    refs.push(edge);
+--
+assets/js/modules/boundary-topology.js-240-      const node = nodes.get(key);
+assets/js/modules/boundary-topology.js-241-      node.ownerIds.add(raw.featureId);
+assets/js/modules/boundary-topology.js:242:      if (!node.refs.some(ref => ref.featureId === raw.featureId && ref.polygonIndex === raw.polygonIndex
+assets/js/modules/boundary-topology.js-243-        && ref.ringIndex === raw.ringIndex && ref.vertexIndex === vertexIndex)) node.refs.push({
+assets/js/modules/boundary-topology.js-244-        featureId: raw.featureId, polygonIndex: raw.polygonIndex, ringIndex: raw.ringIndex, vertexIndex,
+--
+assets/js/modules/boundary-topology.js-255-      rawSegments.map(({ a, b }) => [a, b]), nodeValues.map(node => node.coordinate), epsilon) : [];
+assets/js/modules/boundary-topology.js-256-  if (!Array.isArray(splitRows) || splitRows.length !== rawSegments.length
+assets/js/modules/boundary-topology.js:257:    || splitRows.some(row => !Array.isArray(row))) {
+assets/js/modules/boundary-topology.js-258-    throw Object.assign(new Error('Incomplete compiled boundary topology split result.'),
+assets/js/modules/boundary-topology.js-259-      { code: 'PL-BOUNDARY-SPLIT' });
+--
+assets/js/modules/boundary-topology.js-264-    for (const item of split) {
+assets/js/modules/boundary-topology.js-265-      item.node.ownerIds.add(raw.featureId);
+assets/js/modules/boundary-topology.js:266:      if (item.t > epsilon && item.t < 1 - epsilon && !item.node.virtualRefs.some(ref => ref.featureId === raw.featureId
+assets/js/modules/boundary-topology.js-267-        && ref.polygonIndex === raw.polygonIndex && ref.ringIndex === raw.ringIndex && ref.segmentIndex === raw.segmentIndex)) {
+assets/js/modules/boundary-topology.js-268-        item.node.virtualRefs.push({
+--
+assets/js/modules/boundary-topology.js-351-
+assets/js/modules/boundary-topology.js-352-export function planSharedBoundaryEdit(topology, selectedCountryIds = []) {
+assets/js/modules/boundary-topology.js:353:  const selectedIds = [...new Set(selectedCountryIds.map(String).filter(Boolean))];
+assets/js/modules/boundary-topology.js-354-  const selected = new Set(selectedIds);
+assets/js/modules/boundary-topology.js-355-  const segmentKeys = selectedTopologySegmentKeys(topology, segment => segment.kind === 'shared'
+--
+assets/js/modules/boundary-topology.js-370-  }
+assets/js/modules/boundary-topology.js-371-
+assets/js/modules/boundary-topology.js:372:  const isolatedIds = selectedIds.filter(id => !participantIds.has(id));
+assets/js/modules/boundary-topology.js-373-  return {
+assets/js/modules/boundary-topology.js-374-    selectedIds,
+--
+assets/js/modules/boundary-topology.js-420-export function boundaryInteriorComparison(segment, ownerIds = segment.ownerIds) {
+assets/js/modules/boundary-topology.js-421-  const refs = ownerIds.map(id => {
+assets/js/modules/boundary-topology.js:422:    const edge = segment.refs?.find(ref => String(ref.featureId) === String(id));
+assets/js/modules/boundary-topology.js-423-    if (!edge) throw new Error('공유 경계의 원본 구간이 없습니다: ' + id);
+assets/js/modules/boundary-topology.js-424-    return [edge.a, edge.b, edge.interiorSide];
+--
+assets/js/modules/boundary-topology.js-433-export function buildTerritorialInternalBoundarySegments(countries = [], units = [], { precision = 7, epsilon = 1e-7 } = {}) {
+assets/js/modules/boundary-topology.js-434-  // No unit can own an internal boundary: do not even inspect country geometry.
+assets/js/modules/boundary-topology.js:435:  if (!(units || []).some(feature => ['Polygon', 'MultiPolygon'].includes(feature?.geometry?.type))) return [];
+assets/js/modules/boundary-topology.js-436-  const rootIds = new Set((countries || [])
+assets/js/modules/boundary-topology.js:437:    .filter(feature => feature?.geometry?.type === 'Polygon' || feature?.geometry?.type === 'MultiPolygon')
+assets/js/modules/boundary-topology.js-438-    .map((feature, index) => featureId(feature, index)));
+assets/js/modules/boundary-topology.js-439-  const unitFeatures = (units || [])
+assets/js/modules/boundary-topology.js:440:    .filter(feature => feature?.geometry?.type === 'Polygon' || feature?.geometry?.type === 'MultiPolygon')
+assets/js/modules/boundary-topology.js-441-    .map((feature, index) => topologyFeature(feature, 'unit', index));
+assets/js/modules/boundary-topology.js-442-  const entities = new Map([...countries, ...units].map(feature => [String(feature.id), feature]));
+--
+assets/js/modules/boundary-topology.js-452-  // replacing canonical entity geometry or including independent regions.
+assets/js/modules/boundary-topology.js-453-  const countryFeatures = (countries || [])
+assets/js/modules/boundary-topology.js:454:    .filter(feature => rootIds.has(String(feature.id)))
+assets/js/modules/boundary-topology.js-455-    .map((feature, index) => {
+assets/js/modules/boundary-topology.js:456:      const members = unitFeatures.filter(unit => {
+assets/js/modules/boundary-topology.js-457-        const meta = unitMeta.get(unit.id);
+assets/js/modules/boundary-topology.js-458-        return meta.entityKind === 'general' && meta.rootId === String(feature.id);
+--
+assets/js/modules/boundary-topology.js-463-    });
+assets/js/modules/boundary-topology.js-464-  const topology = buildBoundaryTopology([...countryFeatures, ...unitFeatures], { precision, epsilon });
+assets/js/modules/boundary-topology.js:465:  const countryEdges = [...topology.segments.values()].filter(segment => [...segment.ownerIds].some(ownerId => ownerId.startsWith('country:')));
+assets/js/modules/boundary-topology.js-466-  const boundaryTolerance = Math.max(1e-4, epsilon * 1000);
+assets/js/modules/boundary-topology.js-467-  const bucketSize = 1;
+--
+assets/js/modules/boundary-topology.js-494-      }
+assets/js/modules/boundary-topology.js-495-    }
+assets/js/modules/boundary-topology.js:496:    return candidates.some(edge => pointSegmentDistance(segment.a, edge.a, edge.b) <= boundaryTolerance
+assets/js/modules/boundary-topology.js-497-      && pointSegmentDistance(segment.b, edge.a, edge.b) <= boundaryTolerance);
+assets/js/modules/boundary-topology.js-498-  };
+assets/js/modules/boundary-topology.js-499-  const output = [];
+assets/js/modules/boundary-topology.js-500-  for (const segment of topology.segments.values()) {
+assets/js/modules/boundary-topology.js:501:    const unitOwners = [...segment.ownerIds].filter(ownerId => ownerId.startsWith('unit:'));
+assets/js/modules/boundary-topology.js:502:    if (!unitOwners.length || [...segment.ownerIds].some(ownerId => ownerId.startsWith('country:')) || nearCountryExterior(segment)) continue;
+assets/js/modules/boundary-topology.js:503:    const metadata = unitOwners.map(ownerId => unitMeta.get(ownerId)).filter(Boolean);
+assets/js/modules/boundary-topology.js-504-    if (!metadata.length) continue;
+assets/js/modules/boundary-topology.js-505-    const validRootIds = new Set(metadata
+assets/js/modules/boundary-topology.js-506-      .map(item => item.rootId)
+assets/js/modules/boundary-topology.js:507:      .filter(rootId => rootId && rootIds.has(rootId)));
+assets/js/modules/boundary-topology.js-508-    if (validRootIds.size > 1) continue;
+assets/js/modules/boundary-topology.js-509-    const allRootsValid = metadata.every(item => item.rootId && rootIds.has(item.rootId));
+--
+assets/js/modules/boundary-topology.js-511-      && allRootsValid
+assets/js/modules/boundary-topology.js-512-      && validRootIds.size === 1;
+assets/js/modules/boundary-topology.js:513:    const styleType = metadata.some(item => item.entityKind === 'regional')
+assets/js/modules/boundary-topology.js-514-      ? 'region'
+assets/js/modules/boundary-topology.js-515-      : sameRootChildren ? 'subunit-internal' : 'subunit';
+--
+assets/js/modules/gpu-map-renderer.js-73-  const overlapThreshold = Math.max(0, Number(minimumOverlap) || 0);
+assets/js/modules/gpu-map-renderer.js-74-  const candidates = [-2 * Math.PI, 0, 2 * Math.PI];
+assets/js/modules/gpu-map-renderer.js:75:  const visible = candidates.filter(worldOffset => {
+assets/js/modules/gpu-map-renderer.js-76-    const left = resolvedTranslate + resolvedScale * (-Math.PI + worldOffset - resolvedCenter);
+assets/js/modules/gpu-map-renderer.js-77-    const right = resolvedTranslate + resolvedScale * (Math.PI + worldOffset - resolvedCenter);
+--
+assets/js/modules/gpu-map-renderer.js-100-  const pendingRevisions = new Map();
+assets/js/modules/gpu-map-renderer.js-101-
+assets/js/modules/gpu-map-renderer.js:102:  const normalizedIds = ids => [...new Set([...(ids || [])].map(String).filter(Boolean))];
+assets/js/modules/gpu-map-renderer.js-103-
+assets/js/modules/gpu-map-renderer.js-104-  function beginCommit(ids) {
+--
+assets/js/modules/gpu-map-renderer.js-410-      getCacheBudget: () => renderQuality.hydroCacheBudgetBytes,
+assets/js/modules/gpu-map-renderer.js-411-      getProtectedPackIds: () => { const feature = state.selected?.domain === 'hydro' ? hydroFeatureById(state.selected.id) : null;
+assets/js/modules/gpu-map-renderer.js:412:        return feature?.properties?.pack_ids || [feature?.properties?.pack_id].filter(Number.isFinite); },
+assets/js/modules/gpu-map-renderer.js-413-      getView: () => hydroViewSnapshot(), registerHydroPack, unregisterHydroPack,
+assets/js/modules/gpu-map-renderer.js-414-      queueHydroRender, reportOperationError, setActionStatus, onConnect: connectHydroCanvasWorkers,
+--
+assets/js/modules/gpu-map-renderer.js-541-        packet: canvasCountryBoundaryPacket(),
+assets/js/modules/gpu-map-renderer.js-542-        countryBoundaryStyles: Object.fromEntries(packet.ownerIds.map(id => [id, countryBoundaryStyleById(id)])),
+assets/js/modules/gpu-map-renderer.js:543:        hiddenSharedCountryIds: packet.ownerIds.filter(id => !countryBoundaryStyleById(id)),
+assets/js/modules/gpu-map-renderer.js-544-        geometryRevision: geometryRevisionTracker.committedRevision(), projectGeneration });
+assets/js/modules/gpu-map-renderer.js-545-      invalidateGpuFrame('country-shared-boundary-ready');
+--
+assets/js/modules/gpu-map-renderer.js-556-        const unique = [...new Map(batches.map(batch => [batch.key, batch])).values()];
+assets/js/modules/gpu-map-renderer.js-557-        for (const batch of unique) strokeRenderer.ensureResource(batch);
+assets/js/modules/gpu-map-renderer.js:558:        if (unique.some(batch => !strokeRenderer.hasResource(batch.key))) return false;
+assets/js/modules/gpu-map-renderer.js-559-      }
+assets/js/modules/gpu-map-renderer.js-560-      return publishCountrySharedBoundary(packet);
+--
+assets/js/modules/gpu-map-renderer.js-608-      // still invalidate the precomputed boundary cache's geometry contract.
+assets/js/modules/gpu-map-renderer.js-609-      baselineCache = baselineCache && boundaryFeatures.every(feature => feature.properties.parentId
+assets/js/modules/gpu-map-renderer.js:610:        ? feature.boundaryPristine === true : meshCountryIds.includes(String(feature.id)));
+assets/js/modules/gpu-map-renderer.js-611-      resetCountrySharedBoundary({ preservePresented: countrySharedBoundary?.sourceProjectGeneration === projectGeneration
+assets/js/modules/gpu-map-renderer.js-612-        && countrySharedBoundary?.sourceGeometryRevision === geometryRevisionTracker.committedRevision() });
+--
+assets/js/modules/gpu-map-renderer.js-676-    function markPreviewFramePresented() {
+assets/js/modules/gpu-map-renderer.js-677-      if (previewFramePresented || !previewAllowed || canonicalMeshReady
+assets/js/modules/gpu-map-renderer.js:678:        || !state.territorialEntities?.some(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId))) return;
+assets/js/modules/gpu-map-renderer.js-679-      previewFramePresented = true;
+assets/js/modules/gpu-map-renderer.js-680-      for (const resolve of previewFrameWaiters) resolve(true);
+--
+assets/js/modules/gpu-map-renderer.js-741-      try {
+assets/js/modules/gpu-map-renderer.js-742-        const value = new URLSearchParams(location.search).get('renderer');
+assets/js/modules/gpu-map-renderer.js:743:        return ['webgl2', 'webgl1', 'canvas'].includes(value) ? value : '';
+assets/js/modules/gpu-map-renderer.js-744-      } catch (_) { return ''; }
+assets/js/modules/gpu-map-renderer.js-745-    })();
+--
+assets/js/modules/gpu-map-renderer.js-1411-      );
+assets/js/modules/gpu-map-renderer.js-1412-      const viewUniforms = GPU_VIEW_UNIFORM_NAMES;
+assets/js/modules/gpu-map-renderer.js:1413:      for (const program of [fillProgram, pickProgram, terrainProgram, hydroFillProgram, hydroLineProgram, hydroPickProgram, hydroLinePickProgram].filter(Boolean)) {
+assets/js/modules/gpu-map-renderer.js-1414-        primeProgramLocations(program, viewUniforms);
+assets/js/modules/gpu-map-renderer.js-1415-      }
+--
+assets/js/modules/gpu-map-renderer.js-1417-      primeProgramLocations(fillProgram, ['uBaseLand', 'uBaseLandColor'], []);
+assets/js/modules/gpu-map-renderer.js-1418-      primeProgramLocations(countryStateFillProgram, ['uCountryIds', 'uPalette', 'uPaletteWidth'], ['aPosition']);
+assets/js/modules/gpu-map-renderer.js:1419:      for (const program of [hydroFillProgram, hydroLineProgram, hydroPickProgram, hydroLinePickProgram].filter(Boolean)) {
+assets/js/modules/gpu-map-renderer.js-1420-        primeProgramLocations(program, ['uHydroVisibility', 'uHydroVisibilitySize', 'uHydroColor', 'uWidthBoost', 'uWidthScale'], ['aCoord', 'aCountry', 'aCorner', 'aStart', 'aEnd', 'aStartWidth', 'aEndWidth']);
+assets/js/modules/gpu-map-renderer.js-1421-      }
+--
+assets/js/modules/gpu-map-renderer.js-1636-
+assets/js/modules/gpu-map-renderer.js-1637-    function rememberBuiltinMesh(meshValue, countryIds, identity = null) {
+assets/js/modules/gpu-map-renderer.js:1638:      const ids = [...(countryIds || [])].map(String).filter(Boolean);
+assets/js/modules/gpu-map-renderer.js-1639-      if (!meshValue || !ids.length || new Set(ids).size !== ids.length
+assets/js/modules/gpu-map-renderer.js-1640-        || (identity?.header?.[2] && identity.header[2] !== ids.length)) throw new Error('내장 기본 메시의 국가 슬롯이 올바르지 않습니다.');
+--
+assets/js/modules/gpu-map-renderer.js-1680-      if (!isWebGlRenderer()) {
+assets/js/modules/gpu-map-renderer.js-1681-        onStaged?.();
+assets/js/modules/gpu-map-renderer.js:1682:        const rebuilt = await rebuildFromCountries((canonicalCountryFeatures?.() || (state.territorialEntities || []).filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId))), {
+assets/js/modules/gpu-map-renderer.js-1683-          reason: 'new-project-canvas-fallback', projectGeneration: requestedGeneration,
+assets/js/modules/gpu-map-renderer.js-1684-        });
+--
+assets/js/modules/gpu-map-renderer.js-1777-        step: ({ byteBudget }) => {
+assets/js/modules/gpu-map-renderer.js-1778-          if (signal?.aborted || generation !== projectGeneration || contextGeneration !== renderDeviceContextRevision || gl !== uploadGl || gl.isContextLost()) throw Object.assign(new Error('Stale mesh staging'), { name: 'AbortError' });
+assets/js/modules/gpu-map-renderer.js:1779:          const task = tasks.find(item => !item.done);
+assets/js/modules/gpu-map-renderer.js-1780-          if (!task) return { done: true, value: uploadMeshResources(nextMesh, resources) };
+assets/js/modules/gpu-map-renderer.js-1781-          const oldArray = gl.getParameter(gl.ARRAY_BUFFER_BINDING);
+--
+assets/js/modules/gpu-map-renderer.js-1927-      const globalIndices = localIds.map(id => {
+assets/js/modules/gpu-map-renderer.js-1928-        const key = String(id);
+assets/js/modules/gpu-map-renderer.js:1929:        let index = globalIds.indexOf(key);
+assets/js/modules/gpu-map-renderer.js-1930-        if (index < 0) {
+assets/js/modules/gpu-map-renderer.js-1931-          globalIds.push(key);
+--
+assets/js/modules/gpu-map-renderer.js-1984-    function normalizeCountryPatchRequest(rawRequest) {
+assets/js/modules/gpu-map-renderer.js-1985-      if (rawRequest && !Array.isArray(rawRequest) && typeof rawRequest === 'object' && rawRequest.ids) {
+assets/js/modules/gpu-map-renderer.js:1986:        const ids = [...new Set([...(rawRequest.ids || [])].map(String).filter(Boolean))];
+assets/js/modules/gpu-map-renderer.js-1987-        const byId = new Map((rawRequest.features || []).map(feature => [
+assets/js/modules/gpu-map-renderer.js-1988-          String(feature?.id || ''),
+assets/js/modules/gpu-map-renderer.js-1989-          feature,
+assets/js/modules/gpu-map-renderer.js:1990:        ]).filter(([id]) => id));
+assets/js/modules/gpu-map-renderer.js-1991-        const removed = new Set((rawRequest.removedIds || []).map(String));
+assets/js/modules/gpu-map-renderer.js-1992-        return {
+assets/js/modules/gpu-map-renderer.js-1993-          ids,
+assets/js/modules/gpu-map-renderer.js:1994:          features: ids.filter(id => !removed.has(id) && byId.has(id)).map(id => byId.get(id)),
+assets/js/modules/gpu-map-renderer.js:1995:          removedIds: ids.filter(id => removed.has(id) || !byId.has(id)),
+assets/js/modules/gpu-map-renderer.js-1996-        };
+assets/js/modules/gpu-map-renderer.js-1997-      }
+assets/js/modules/gpu-map-renderer.js:1998:      const ids = [...new Set([...(rawRequest || [])].map(String).filter(Boolean))];
+assets/js/modules/gpu-map-renderer.js-1999-      const features = [];
+assets/js/modules/gpu-map-renderer.js-2000-      const removedIds = [];
+--
+assets/js/modules/gpu-map-renderer.js-2140-      // masks would resurrect its old shapes; keep patches until a full rebuild.
+assets/js/modules/gpu-map-renderer.js-2141-      if (previewAllowed && meshVariants.has('preview')) return;
+assets/js/modules/gpu-map-renderer.js:2142:      rebuildFromCountries((canonicalCountryFeatures?.() || (state.territorialEntities || []).filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId))), {
+assets/js/modules/gpu-map-renderer.js-2143-        geometryRevision: geometryRevisionTracker.committedRevision(),
+assets/js/modules/gpu-map-renderer.js-2144-        reason: 'compaction',
+--
+assets/js/modules/gpu-map-renderer.js-2511-          ? meshCountryIds.map((_, index) => index)
+assets/js/modules/gpu-map-renderer.js-2512-          : [...pendingEmphasisCountryIds]
+assets/js/modules/gpu-map-renderer.js:2513:            .map(id => meshCountryIds.indexOf(id))
+assets/js/modules/gpu-map-renderer.js:2514:            .filter(index => index >= 0);
+assets/js/modules/gpu-map-renderer.js-2515-        performanceMetrics.paletteChangedCountryCount += indices.length;
+assets/js/modules/gpu-map-renderer.js-2516-        for (const index of indices) {
+--
+assets/js/modules/gpu-map-renderer.js-3077-        const parts = ordered.flatMap(feature => feature.geometry?.type === 'LineString' ? [feature.geometry.coordinates] : feature.geometry?.coordinates || []);
+assets/js/modules/gpu-map-renderer.js-3078-        const widths = ordered.flatMap(feature => feature.properties?.stroke_widths || []);
+assets/js/modules/gpu-map-renderer.js:3079:        const sourceIds = [...new Set(ordered.flatMap(feature => String(feature.properties?.source_id || '').split(',').filter(Boolean)))];
+assets/js/modules/gpu-map-renderer.js-3080-        aggregate = {
+assets/js/modules/gpu-map-renderer.js-3081-          type: 'Feature', id: logicalId,
+--
+assets/js/modules/gpu-map-renderer.js-3242-        return;
+assets/js/modules/gpu-map-renderer.js-3243-      }
+assets/js/modules/gpu-map-renderer.js:3244:      if ((renderScene?.polygons || []).some(packet => packet.key === key)
+assets/js/modules/gpu-map-renderer.js:3245:        || (renderScene?.strokes || []).some(packet => sceneStrokeResourcePacket(packet, projectGeneration).key === key)) {
+assets/js/modules/gpu-map-renderer.js-3246-        sceneColorCache.invalidate('overlay-resource-ready'); invalidateGpuFrame('overlay-resource-ready');
+assets/js/modules/gpu-map-renderer.js-3247-      } else scheduleGpuInteractionFrame?.('interaction-resource-ready');
+--
+assets/js/modules/gpu-map-renderer.js-3256-      const ownerRanges = preparedGeometry.inputOwnerRanges;
+assets/js/modules/gpu-map-renderer.js-3257-      const ownerIds = Object.entries(ownerRanges)
+assets/js/modules/gpu-map-renderer.js:3258:        .filter(([, range]) => Number(range?.count || 0) > 0)
+assets/js/modules/gpu-map-renderer.js-3259-        .map(([id]) => id);
+assets/js/modules/gpu-map-renderer.js-3260-      const segmentOffset = startsEnds.length / 4;
+--
+assets/js/modules/gpu-map-renderer.js-3353-    function drawBaseSceneContent() {
+assets/js/modules/gpu-map-renderer.js-3354-      if (!gl || !activeFrameContext || projectRenderBlocked || !preparedBaseScene) return false;
+assets/js/modules/gpu-map-renderer.js:3355:      if (!mesh && (!preparedBaseScene.physicalLandItems.length || preparedBaseScene.physicalLandItems.some(({ packet }) =>
+assets/js/modules/gpu-map-renderer.js-3356-        preparedBaseScene.deferredOverlayKeys.has(packet.key) || preparedBaseScene.failedOverlayKeys.has(packet.key)))) return false;
+assets/js/modules/gpu-map-renderer.js-3357-      const theme = mapTheme();
+--
+assets/js/modules/gpu-map-renderer.js-3617-        const lake = feature.properties?.category === 'lake';
+assets/js/modules/gpu-map-renderer.js-3618-        const border = feature.properties?.border_aligned === true || (Number(feature.properties?.__flags || 0) & 1) !== 0;
+assets/js/modules/gpu-map-renderer.js:3619:        if (lake ? !['lake', 'lake-boundary'].includes(role) : role !== (border ? 'border-river' : 'river')) continue;
+assets/js/modules/gpu-map-renderer.js-3620-        if (state.layerVisibility[lake ? 'lakes' : 'rivers'] === false) continue;
+assets/js/modules/gpu-map-renderer.js-3621-        const opacity = lake ? theme.lakeOpacity : theme.riverOpacity;
+--
+assets/js/modules/gpu-map-renderer.js-3741-      } else {
+assets/js/modules/gpu-map-renderer.js-3742-        const drawTriangle = (source, destination) => {
+assets/js/modules/gpu-map-renderer.js:3743:          if (destination.some(point => !point)) return;
+assets/js/modules/gpu-map-renderer.js-3744-          const [d0, d1, d2] = globalThis.PandoLabCanvasTerrainDem.triangleClip(destination, 0.75 / dpr);
+assets/js/modules/gpu-map-renderer.js-3745-          const transform = globalThis.PandoLabCanvasTerrainDem.affineTransform(source, destination);
+--
+assets/js/modules/gpu-map-renderer.js-3773-      const canvasPath = frame.createCanvasPath(ctx2d);
+assets/js/modules/gpu-map-renderer.js-3774-      const theme = mapTheme();
+assets/js/modules/gpu-map-renderer.js:3775:      const countryFeatures = renderCountryFeatures?.() || (state.territorialEntities || []).filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId));
+assets/js/modules/gpu-map-renderer.js-3776-      const visibleFeatures = state.layerVisibility.objects
+assets/js/modules/gpu-map-renderer.js:3777:        ? countryFeatures.filter(feature => isCountryVisibleById(String(feature.id))) : [];
+assets/js/modules/gpu-map-renderer.js-3778-      const resolveFill = createCountryFillResolver();
+assets/js/modules/gpu-map-renderer.js-3779-      const substrate = canvasFillSubstrate ||= document.createElement('canvas');
+--
+assets/js/modules/gpu-map-renderer.js-3827-      for (const role of mapVisualOrder('base')) {
+assets/js/modules/gpu-map-renderer.js-3828-        if (Object.hasOwn(paint, role)) paint[role]();
+assets/js/modules/gpu-map-renderer.js:3829:        else if (mapVisualOrder('hydro').includes(role)) renderCanvasHydro(canvasPath, theme, ctx2d, false, role);
+assets/js/modules/gpu-map-renderer.js-3830-      }
+assets/js/modules/gpu-map-renderer.js-3831-      const emphasisEntries = [];
+--
+assets/js/modules/gpu-map-renderer.js-3855-    function canvasInteractionPolygons() {
+assets/js/modules/gpu-map-renderer.js-3856-      return [...(renderInteractionState.previewPackets || []), ...(renderInteractionState.draftPackets || [])]
+assets/js/modules/gpu-map-renderer.js:3857:        .filter(item => item.kind === 'polygon').map(item => item.packet);
+assets/js/modules/gpu-map-renderer.js-3858-    }
+assets/js/modules/gpu-map-renderer.js-3859-
+assets/js/modules/gpu-map-renderer.js-3860-    function canvasScenePolygons() {
+assets/js/modules/gpu-map-renderer.js:3861:      return (renderScene?.polygons || []).filter(packet => packet.ringCoordinates).map(packet => ({
+assets/js/modules/gpu-map-renderer.js-3862-        key: packet.key, ringCoordinates: packet.ringCoordinates, ringOffsets: packet.ringOffsets, polygonOffsets: packet.polygonOffsets,
+assets/js/modules/gpu-map-renderer.js-3863-        role: packet.role, territoryDepth: packet.territoryDepth,
+--
+assets/js/modules/gpu-map-renderer.js-3907-
+assets/js/modules/gpu-map-renderer.js-3908-    function canvasWorkerStyleMessage() {
+assets/js/modules/gpu-map-renderer.js:3909:      const features = renderCountryFeatures?.() || (state.territorialEntities || []).filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId));
+assets/js/modules/gpu-map-renderer.js-3910-      const fills = canvasCountryFills(features);
+assets/js/modules/gpu-map-renderer.js-3911-      return {
+--
+assets/js/modules/gpu-map-renderer.js-3913-        styleRevision: ++canvasStyleRevision,
+assets/js/modules/gpu-map-renderer.js-3914-        visible: !!state.layerVisibility.objects,
+assets/js/modules/gpu-map-renderer.js:3915:        hiddenCountryIds: features.map(feature => String(feature.id)).filter(id => !isCountryVisibleById(id)),
+assets/js/modules/gpu-map-renderer.js:3916:        hiddenSharedCountryIds: (countrySharedBoundary?.ownerIds || []).filter(id => !countryBoundaryStyleById(id)),
+assets/js/modules/gpu-map-renderer.js-3917-        fills,
+assets/js/modules/gpu-map-renderer.js-3918-        countryBoundaryStyles: Object.fromEntries((countrySharedBoundary?.ownerIds || []).map(id => [id, countryBoundaryStyleById(id)])),
+--
+assets/js/modules/gpu-map-renderer.js-4005-
+assets/js/modules/gpu-map-renderer.js-4006-    function postCanvasWorkerMessage(message) {
+assets/js/modules/gpu-map-renderer.js:4007:      if (['init', 'replace-data', 'patch-countries'].includes(message.type) && message.features)
+assets/js/modules/gpu-map-renderer.js-4008-        message = { ...message, features: message.features.map(feature => ({ ...feature,
+assets/js/modules/gpu-map-renderer.js-4009-          boundaryGeometryRevision: geometryRevisionKey(feature.geometry) })) };
+assets/js/modules/gpu-map-renderer.js-4010-      const sent = canvasWorker?.postMessage(message) || false;
+assets/js/modules/gpu-map-renderer.js:4011:      if (sent && ['init', 'replace-data'].includes(message.type) && message.features)
+assets/js/modules/gpu-map-renderer.js-4012-        canvasLastCountryGeometrySignature = canvasCountryGeometrySignature(message.features, projectGeneration);
+assets/js/modules/gpu-map-renderer.js-4013-      return sent;
+--
+assets/js/modules/gpu-map-renderer.js-4214-          if (!canvasWorkerBitmapContext && !canvasWorker2dContext) throw new Error('Canvas 표시 컨텍스트를 만들 수 없습니다.');
+assets/js/modules/gpu-map-renderer.js-4215-          const initMessage = canvasWorkerInitMessage();
+assets/js/modules/gpu-map-renderer.js:4216:          initMessage.features = (renderCountryFeatures?.() || (state.territorialEntities || []).filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId)));
+assets/js/modules/gpu-map-renderer.js-4217-          canvasWorker.onmessage = receiveCanvasWorkerMessage;
+assets/js/modules/gpu-map-renderer.js-4218-          canvasWorker.onerror = event => failCanvasWorker(event.message || 'Canvas Worker 실행 오류');
+--
+assets/js/modules/gpu-map-renderer.js-4273-      // picking when canonical slots differ, rather than decode another country.
+assets/js/modules/gpu-map-renderer.js-4274-      if (pickEntry && (pickEntry.countryIds.length !== meshCountryIds.length
+assets/js/modules/gpu-map-renderer.js:4275:        || pickEntry.countryIds.some((id, index) => id !== meshCountryIds[index]))) return false;
+assets/js/modules/gpu-map-renderer.js-4276-      try { ensurePickTarget(); } catch (_) { return false; }
+assets/js/modules/gpu-map-renderer.js-4277-      const pickMesh = pickEntry?.mesh || mesh;
+--
+assets/js/modules/gpu-map-renderer.js-4462-        for (const id of startupPatch.removedIds) overrideFeatureSnapshots.delete(id);
+assets/js/modules/gpu-map-renderer.js-4463-        if (stagedPatch) {
+assets/js/modules/gpu-map-renderer.js:4464:          for (const id of stagedPatch.globalIds) if (!meshCountryIds.includes(id)) meshCountryIds.push(id);
+assets/js/modules/gpu-map-renderer.js-4465-          setOverrideMesh(stagedPatch.mesh, { renderFrame: false, stagedResources: stagedPatch.resources });
+assets/js/modules/gpu-map-renderer.js-4466-        }
+--
+assets/js/modules/gpu-map-renderer.js-4516-
+assets/js/modules/gpu-map-renderer.js-4517-    function setCountryEmphasis({ primaryId = '', primaryIds = [], priorities = {}, hoverId = '', selectedIds = [] } = {}) {
+assets/js/modules/gpu-map-renderer.js:4518:      const nextSelected = new Set((selectedIds || []).map(String).filter(Boolean));
+assets/js/modules/gpu-map-renderer.js-4519-      const nextPrimary = String(primaryId || '');
+assets/js/modules/gpu-map-renderer.js:4520:      const nextPrimaries = new Set([...primaryIds, nextPrimary].map(String).filter(Boolean));
+assets/js/modules/gpu-map-renderer.js-4521-      const nextHover = String(hoverId || '');
+assets/js/modules/gpu-map-renderer.js-4522-      const unchanged = countryEmphasis.primaryId === nextPrimary
+--
+assets/js/modules/gpu-map-renderer.js-4540-        nextHover,
+assets/js/modules/gpu-map-renderer.js-4541-        ...nextSelected,
+assets/js/modules/gpu-map-renderer.js:4542:      ].map(String).filter(Boolean));
+assets/js/modules/gpu-map-renderer.js-4543-      countryEmphasis = { primaryId: nextPrimary, primaryIds: nextPrimaries, priorities, hoverId: nextHover, selectedIds: nextSelected };
+assets/js/modules/gpu-map-renderer.js-4544-      countryEmphasisRevision += 1;
+--
+assets/js/modules/gpu-map-renderer.js-4560-      const pendingIds = geometryRevisionTracker.pendingIds().map(String).sort();
+assets/js/modules/gpu-map-renderer.js-4561-      const overriddenIds = [...countryOverrideIds].map(String).sort();
+assets/js/modules/gpu-map-renderer.js:4562:      const visibleIds = meshCountryIds.filter(id => isCountryVisibleById(id));
+assets/js/modules/gpu-map-renderer.js-4563-      const strokeResources = currentCountryStrokeResources();
+assets/js/modules/gpu-map-renderer.js-4564-      return {
+--
+assets/js/modules/gpu-map-renderer.js-4590-        ...(renderInteractionState.previewPackets || []),
+assets/js/modules/gpu-map-renderer.js-4591-        ...(renderInteractionState.draftPackets || []),
+assets/js/modules/gpu-map-renderer.js:4592:      ].map(item => item?.packet).filter(Boolean);
+assets/js/modules/gpu-map-renderer.js-4593-      const borderPacketKeys = [countrySharedBoundary, pendingCountrySharedBoundary]
+assets/js/modules/gpu-map-renderer.js:4594:        .flatMap(packet => packet ? [packet.key, packet.outlineOverrides?.key] : []).filter(Boolean);
+assets/js/modules/gpu-map-renderer.js-4595-      const protectedKeys = new Set([
+assets/js/modules/gpu-map-renderer.js-4596-        ...borderPacketKeys,
+assets/js/modules/gpu-map-renderer.js:4597:        ...(renderScene?.polygons || []).filter(packet => packet.protected).map(packet => packet.key),
+assets/js/modules/gpu-map-renderer.js:4598:        ...(renderScene?.strokes || []).filter(packet => packet.protected).map(packet => packet.key),
+assets/js/modules/gpu-map-renderer.js-4599-        ...(selectionPass?.resourceKeys?.() || []),
+assets/js/modules/gpu-map-renderer.js-4600-      ]);
+assets/js/modules/gpu-map-renderer.js-4601-      polygonOverlayPass.retain([
+assets/js/modules/gpu-map-renderer.js-4602-        ...(renderScene?.polygons || []).map(packet => packet.key),
+assets/js/modules/gpu-map-renderer.js:4603:        ...interactionPackets.filter(packet => packet.positions instanceof Float32Array).map(packet => packet.key),
+assets/js/modules/gpu-map-renderer.js-4604-      ], { protectedKeys });
+assets/js/modules/gpu-map-renderer.js-4605-      const countryStrokeKeys = Object.values(currentCountryStrokeResources())
+assets/js/modules/gpu-map-renderer.js:4606:        .map(resource => resource?.packet?.key).filter(Boolean);
+assets/js/modules/gpu-map-renderer.js-4607-      strokeRenderer.retain([
+assets/js/modules/gpu-map-renderer.js-4608-        ...(renderScene?.strokes || []).map(packet => sceneStrokeResourcePacket(packet, projectGeneration).key),
+assets/js/modules/gpu-map-renderer.js-4609-        ...[...presentedStrokeDomains.values()].flatMap(items => items.map(item => item.resourcePacket.key)),
+assets/js/modules/gpu-map-renderer.js:4610:        ...interactionPackets.filter(packet => packet.startsEnds instanceof Float32Array).map(packet => packet.key),
+assets/js/modules/gpu-map-renderer.js-4611-        ...countryStrokeKeys,
+assets/js/modules/gpu-map-renderer.js-4612-        ...borderPacketKeys,
+--
+assets/js/modules/gpu-map-renderer.js-4619-        ...(scene?.polygons || []),
+assets/js/modules/gpu-map-renderer.js-4620-        ...(scene?.strokes || []),
+assets/js/modules/gpu-map-renderer.js:4621:      ].filter(packet => !String(packet?.key || '').startsWith('pending-country-'))
+assets/js/modules/gpu-map-renderer.js-4622-        .map(packet => [
+assets/js/modules/gpu-map-renderer.js-4623-          packet.kind,
+--
+assets/js/modules/gpu-map-renderer.js-4645-    function shouldPreserveSceneAcrossCountryPatch(previousScene, nextScene) {
+assets/js/modules/gpu-map-renderer.js-4646-      const presentation = countryPatchPresentation;
+assets/js/modules/gpu-map-renderer.js:4647:      if (!presentation || !['waiting-mesh', 'staging', 'promoted'].includes(presentation.phase)) return false;
+assets/js/modules/gpu-map-renderer.js-4648-      if (presentation.preserveAllowed === false) return false;
+assets/js/modules/gpu-map-renderer.js-4649-      return nonCountrySceneSignature(previousScene) === nonCountrySceneSignature(nextScene);
+--
+assets/js/modules/gpu-map-renderer.js-4914-          .reduce((count, key) => count + countrySharedBoundary.ownerRanges[key].count, 0),
+assets/js/modules/gpu-map-renderer.js-4915-        countryInternalBoundaryVisibleOwnerIds: [...new Set(Object.values(countrySharedBoundary?.internalOwners || {})
+assets/js/modules/gpu-map-renderer.js:4916:          .flat().filter(id => !!countryBoundaryStyleById(id)))],
+assets/js/modules/gpu-map-renderer.js-4917-        countrySharedBoundaryWorkerActive: !!countryBoundaryWorker,
+assets/js/modules/gpu-map-renderer.js-4918-        countrySharedBoundaryRequestId: countryBoundaryRequestId,

@@ -1,0 +1,360 @@
+{
+  "counts": {
+    "first-party": 900,
+    "generated-or-third-party": 550,
+    "verification": 826
+  },
+  "parseErrors": [],
+  "top": [
+    {
+      "file": "assets/js/modules/gpu-map-renderer.js",
+      "signals": {
+        "loops": 99,
+        "scans": 63,
+        "copies": 82,
+        "io": 7,
+        "nestedScans": 40
+      }
+    },
+    {
+      "file": "scripts/plan-application-checks.mjs",
+      "signals": {
+        "loops": 24,
+        "scans": 43,
+        "copies": 20,
+        "io": 1,
+        "nestedScans": 36
+      }
+    },
+    {
+      "file": "tools/builtin-world-compiler.mjs",
+      "signals": {
+        "loops": 17,
+        "scans": 17,
+        "copies": 37,
+        "io": 0,
+        "nestedScans": 36
+      }
+    },
+    {
+      "file": "assets/js/modules/boundary-topology.js",
+      "signals": {
+        "loops": 43,
+        "scans": 31,
+        "copies": 26,
+        "io": 0,
+        "nestedScans": 33
+      }
+    },
+    {
+      "file": "scripts/lib/p2-artifact-graph.mjs",
+      "signals": {
+        "loops": 24,
+        "scans": 30,
+        "copies": 28,
+        "io": 5,
+        "nestedScans": 30
+      }
+    },
+    {
+      "file": "assets/js/modules/gpu-scene-preparation.js",
+      "signals": {
+        "loops": 6,
+        "scans": 30,
+        "copies": 18,
+        "io": 0,
+        "nestedScans": 27
+      }
+    },
+    {
+      "file": "assets/js/gis-io.js",
+      "signals": {
+        "loops": 22,
+        "scans": 45,
+        "copies": 32,
+        "io": 2,
+        "nestedScans": 24
+      }
+    },
+    {
+      "file": "assets/js/workers/canvas-render-worker.js",
+      "signals": {
+        "loops": 49,
+        "scans": 31,
+        "copies": 32,
+        "io": 11,
+        "nestedScans": 20
+      }
+    },
+    {
+      "file": "assets/js/modules/project-preview-topology.js",
+      "signals": {
+        "loops": 57,
+        "scans": 5,
+        "copies": 46,
+        "io": 0,
+        "nestedScans": 20
+      }
+    },
+    {
+      "file": "assets/js/modules/coast-reconciliation.js",
+      "signals": {
+        "loops": 32,
+        "scans": 13,
+        "copies": 32,
+        "io": 0,
+        "nestedScans": 19
+      }
+    },
+    {
+      "file": "assets/js/modules/map-edit-country-commands.js",
+      "signals": {
+        "loops": 26,
+        "scans": 21,
+        "copies": 18,
+        "io": 0,
+        "nestedScans": 18
+      }
+    },
+    {
+      "file": "assets/js/modules/gis-import-transaction.js",
+      "signals": {
+        "loops": 10,
+        "scans": 19,
+        "copies": 24,
+        "io": 2,
+        "nestedScans": 18
+      }
+    },
+    {
+      "file": "scripts/check-runtime-boundaries.mjs",
+      "signals": {
+        "loops": 38,
+        "scans": 35,
+        "copies": 7,
+        "io": 6,
+        "nestedScans": 17
+      }
+    },
+    {
+      "file": "assets/js/modules/reference-image-renderer.js",
+      "signals": {
+        "loops": 16,
+        "scans": 15,
+        "copies": 16,
+        "io": 9,
+        "nestedScans": 16
+      }
+    },
+    {
+      "file": "assets/js/modules/rendering-domain.js",
+      "signals": {
+        "loops": 21,
+        "scans": 27,
+        "copies": 18,
+        "io": 0,
+        "nestedScans": 15
+      }
+    },
+    {
+      "file": "assets/js/modules/app-territorial-drafts.js",
+      "signals": {
+        "loops": 5,
+        "scans": 21,
+        "copies": 24,
+        "io": 0,
+        "nestedScans": 15
+      }
+    },
+    {
+      "file": "assets/js/modules/country-shared-boundary-packet.js",
+      "signals": {
+        "loops": 16,
+        "scans": 19,
+        "copies": 19,
+        "io": 0,
+        "nestedScans": 15
+      }
+    },
+    {
+      "file": "assets/js/modules/map-content-presentation.js",
+      "signals": {
+        "loops": 9,
+        "scans": 38,
+        "copies": 20,
+        "io": 0,
+        "nestedScans": 14
+      }
+    },
+    {
+      "file": "tools/build-prepared-polygon-mesh.mjs",
+      "signals": {
+        "loops": 13,
+        "scans": 9,
+        "copies": 12,
+        "io": 6,
+        "nestedScans": 14
+      }
+    },
+    {
+      "file": "assets/js/modules/territorial-edit-plan.js",
+      "signals": {
+        "loops": 37,
+        "scans": 25,
+        "copies": 25,
+        "io": 0,
+        "nestedScans": 13
+      }
+    },
+    {
+      "file": "assets/js/modules/selection-pass.js",
+      "signals": {
+        "loops": 10,
+        "scans": 18,
+        "copies": 14,
+        "io": 0,
+        "nestedScans": 13
+      }
+    },
+    {
+      "file": "assets/js/modules/territorial-import-plan.js",
+      "signals": {
+        "loops": 5,
+        "scans": 10,
+        "copies": 14,
+        "io": 0,
+        "nestedScans": 12
+      }
+    },
+    {
+      "file": "scripts/check-ui-information-architecture.mjs",
+      "signals": {
+        "loops": 13,
+        "scans": 50,
+        "copies": 14,
+        "io": 1,
+        "nestedScans": 11
+      }
+    },
+    {
+      "file": "assets/js/modules/app-task-presentation.js",
+      "signals": {
+        "loops": 11,
+        "scans": 37,
+        "copies": 31,
+        "io": 0,
+        "nestedScans": 11
+      }
+    },
+    {
+      "file": "tools/build-korean-boundaries.mjs",
+      "signals": {
+        "loops": 1,
+        "scans": 21,
+        "copies": 23,
+        "io": 1,
+        "nestedScans": 10
+      }
+    },
+    {
+      "file": "tools/lib/hydro-name-research.mjs",
+      "signals": {
+        "loops": 14,
+        "scans": 18,
+        "copies": 10,
+        "io": 0,
+        "nestedScans": 10
+      }
+    },
+    {
+      "file": "assets/js/modules/boundary-preparation.js",
+      "signals": {
+        "loops": 25,
+        "scans": 17,
+        "copies": 15,
+        "io": 0,
+        "nestedScans": 10
+      }
+    },
+    {
+      "file": "scripts/lib/product-assets.mjs",
+      "signals": {
+        "loops": 22,
+        "scans": 12,
+        "copies": 6,
+        "io": 1,
+        "nestedScans": 10
+      }
+    },
+    {
+      "file": "assets/js/workers/gis-gpkg-worker.js",
+      "signals": {
+        "loops": 5,
+        "scans": 11,
+        "copies": 13,
+        "io": 0,
+        "nestedScans": 10
+      }
+    },
+    {
+      "file": "assets/js/modules/territorial-library.js",
+      "signals": {
+        "loops": 17,
+        "scans": 14,
+        "copies": 25,
+        "io": 0,
+        "nestedScans": 9
+      }
+    },
+    {
+      "file": "assets/js/modules/gpu-scene.js",
+      "signals": {
+        "loops": 8,
+        "scans": 13,
+        "copies": 18,
+        "io": 0,
+        "nestedScans": 9
+      }
+    },
+    {
+      "file": "assets/js/modules/territorial-library-editor.js",
+      "signals": {
+        "loops": 6,
+        "scans": 9,
+        "copies": 4,
+        "io": 2,
+        "nestedScans": 9
+      }
+    },
+    {
+      "file": "tools/library-data.mjs",
+      "signals": {
+        "loops": 8,
+        "scans": 20,
+        "copies": 17,
+        "io": 18,
+        "nestedScans": 8
+      }
+    },
+    {
+      "file": "assets/js/modules/territorial-labels.js",
+      "signals": {
+        "loops": 2,
+        "scans": 14,
+        "copies": 14,
+        "io": 0,
+        "nestedScans": 8
+      }
+    },
+    {
+      "file": "scripts/run-boundary-revision-comparison.mjs",
+      "signals": {
+        "loops": 5,
+        "scans": 13,
+        "copies": 4,
+        "io": 11,
+        "nestedScans": 8
+      }
+    }
+  ]
+}

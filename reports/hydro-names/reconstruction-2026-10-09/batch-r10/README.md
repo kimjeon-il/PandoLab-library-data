@@ -25,7 +25,3 @@ The preceding 27 logical targets are fixed through `ea66825657b0f7ff8e41616e375b
 Run `python recover-remaining-queue.py --inventory INVENTORY.csv.gz --include-ids` with that exact initial inventory to rebuild the remainder offline. The output uses original inventory row order. There are 4,035 eligible targets absent from this fresh reconstructed index: 3,439 river groups and 596 lakes. This is not the historical never-reviewed count; unavailable past research is not silently restored or added.
 
 Run `python validate-package.py` for included-file hashes, target/count/review linkage, rights checks and durable validation. The recovery script separately rechecks initial inventory bytes when supplied. Neither validator acquires external data.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/c0527bdc096e2e45926dbc97557465cf34d9ae5900bdebba791bbeb28f89a423.gz) · 원본 SHA-256 `c0527bdc096e2e45926dbc97557465cf34d9ae5900bdebba791bbeb28f89a423`.

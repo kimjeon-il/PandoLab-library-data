@@ -1,0 +1,26 @@
+{
+  "platform": "Android Medium_Phone x86_64 WebView",
+  "upstream": "http://127.0.0.1:4175",
+  "navigations": [
+    {
+      "url": "http://tauri.localhost/",
+      "started": 1792767147820.8
+    },
+    {
+      "url": "http://tauri.localhost/",
+      "started": 1792767164576.8
+    },
+    {
+      "url": "http://tauri.localhost/",
+      "started": 1792767186029.7
+    },
+    {
+      "url": "http://tauri.localhost/",
+      "started": 1792767206249
+    }
+  ],
+  "binarySha256Before": "b8ef02f4cae32fa680dd766c6e72d6bf55ad65e77bbbc35d6d02f4acb44db267",
+  "binarySha256After": "b8ef02f4cae32fa680dd766c6e72d6bf55ad65e77bbbc35d6d02f4acb44db267",
+  "binaryUnchanged": true,
+  "nativeBuildLogUnchanged": true
+}

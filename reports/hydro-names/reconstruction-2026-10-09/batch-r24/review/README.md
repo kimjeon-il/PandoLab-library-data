@@ -21,7 +21,3 @@ The eight review files depend only on the ten included geometry files. Run `pyth
 Included membership and the three-ID delta increase reconstructed inventory coverage from 69 to 72 distinct targets. The remaining queue is 3,993 targets: 3,421 river groups and 572 lakes. Coverage is not a count of verified reach names. Both prior access-pending IDs and all 18 prior scope holds are preserved; Richmond adds a nineteenth hold. Sandfly, Ohrid and Prespa limitations remain unchanged.
 
 Prior Mitchell hydro-system:50798927 retains Victoria explicitly in supported_name_scope. It remains separate from Queensland Mitchell hydro-system:50464082 with its Palmer/Walsh context. These are inherited facts, without re-auditing prior originals or paths. No product, geometry, topology or live deployment changed.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/c16711e5544e05ccc293a9f364286aea3da8e9d9d5543a7aee25346ac78f0265.gz) · 원본 SHA-256 `c16711e5544e05ccc293a9f364286aea3da8e9d9d5543a7aee25346ac78f0265`.

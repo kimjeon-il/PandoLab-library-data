@@ -1,0 +1,47 @@
+✔ automatic recommendation needs distributed independent source-pixel cross validation (14.9149ms)
+✔ semantic boundary graph preserves two adjacent faces and a single shared border (6.9832ms)
+✔ open lines and text-only masks never turn into invented polygons (0.3572ms)
+✔ consensus never counts two alternatives for one detected label as independent controls (24.7723ms)
+✔ a dangling branch is retained as a line without corrupting its enclosing face (0.6647ms)
+✔ projected boundary lines split at the dateline using the shared warp (0.8621ms)
+✔ nonlinear projection samples the source edge so its curved midpoint is retained (0.933ms)
+✔ a bridge between nested closed rings preserves the outer annulus and inner region (2.1016ms)
+✔ reviewed extracted lines create one real Core import with provenance and atomic undo redo (343.3248ms)
+✔ a changed project or image mapping rejects old extraction before any command (4.0849ms)
+✔ editor groups placement, match and display into accessible tabs while keeping image controls shared (3.0008ms)
+✔ task tab preserves selected panel and hides inactive sections without removing tool actions (0.5103ms)
+✔ calibration list shows hard anchor and per-GCP residuals next to each point (0.8254ms)
+✔ calibration section shows a focused empty state when no points exist (0.3367ms)
+✔ free transform button is available and reports active state for an uncalibrated image (0.2212ms)
+✔ anchor, GCP and free transform controls stay available together (0.3815ms)
+✔ rubber-sheet calibration shows TPS as the effective locked warp mode (1.3658ms)
+✔ free transform is disabled only by record lock (0.4478ms)
+✔ automatic georeferencing shows scan action and a review-before-apply preview (0.4838ms)
+✔ automatic georeferencing action is disabled while analysis is running or the record is locked (0.3538ms)
+✔ OCR automatic georeferencing preview identifies the method and place matching counts (0.2723ms)
+✔ map-navigation toggle is independent of image calibration and explains edit limits (0.3604ms)
+✔ point workflow distinguishes an unfinished pair from an immediate point replacement (1.0427ms)
+✔ line workflow gates progression and keeps preview confirmation separate from cancellation (0.4382ms)
+✔ automatic workflow offers cancellation during analysis and explicit confirmation after review (0.242ms)
+✔ ambiguous locations require an explicit choice before applying calibration (0.1346ms)
+✔ boundary review starts with no selection and disables incomplete faces (0.4492ms)
+▶ cancelling or leaving automatic analysis cannot restore a late result
+  ✔ cancel button (17.9505ms)
+  ✔ Escape (9.9963ms)
+  ✔ panel close (8.5631ms)
+  ✔ image selection (7.694ms)
+  ✔ manual point tool (8.9236ms)
+  ✔ auxiliary tool start (10.8819ms)
+  ✔ record lock (8.981ms)
+✔ cancelling or leaving automatic analysis cannot restore a late result (76.4374ms)
+✔ location choice and selected boundary import keep their review state until dispatch (8.0152ms)
+✔ undo restores visibility without restoring cancelled automatic analysis (8.4695ms)
+✔ selecting a GCP image point renders the map step without committing a partial point (0.7838ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 829.47

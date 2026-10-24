@@ -1,0 +1,63 @@
+{
+  "schema": "pando-exact-calculation-release-v1",
+  "revision": "43a1f29d7be0a30b57462a10624343eaebbc5017",
+  "url": "https://kimjeon-il.github.io/Pando/",
+  "workflowUrl": "https://github.com/kimjeon-il/Pando/actions/runs/39945738101",
+  "verifiedAt": "2026-10-23T11:35:26.401Z",
+  "assets": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 65679,
+      "expectedSha256": "a32a49d36815001d4e1ce770aa2420343717991c2fad9c3a37a702aec6ecd2b7",
+      "observedSha256": "a32a49d36815001d4e1ce770aa2420343717991c2fad9c3a37a702aec6ecd2b7"
+    },
+    {
+      "file": "assets/js/build-meta.js",
+      "status": 200,
+      "bytes": 62368,
+      "expectedSha256": "3e7f2e6984ca99f0b8a89701bd5ecf60d04b95c5d072a4e55781a38cae010cee",
+      "observedSha256": "3e7f2e6984ca99f0b8a89701bd5ecf60d04b95c5d072a4e55781a38cae010cee"
+    },
+    {
+      "file": "assets/wasm/pandoeditor-core.js",
+      "status": 200,
+      "bytes": 51379,
+      "expectedSha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+      "observedSha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+    },
+    {
+      "file": "assets/wasm/pandoeditor-core.wasm",
+      "status": 200,
+      "bytes": 3069894,
+      "expectedSha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+      "observedSha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+    },
+    {
+      "file": "assets/wasm/pandoeditor-core.manifest.json",
+      "status": 200,
+      "bytes": 23553,
+      "expectedSha256": "74e7a09878c3de9b34e70eb380aae8701fc049dfacfdb474b6d75f564497e32e",
+      "observedSha256": "74e7a09878c3de9b34e70eb380aae8701fc049dfacfdb474b6d75f564497e32e"
+    }
+  ],
+  "state": {
+    "buildId": "0.36.0-build-exact-calc-ci-f58d61e9-data-71a67904",
+    "dataRevision": "c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b",
+    "ready": "true",
+    "month": "2026년 10월",
+    "entities": 254
+  },
+  "publicChannel": {
+    "pointer": {
+      "schema": "pandolab-data-channel",
+      "schemaVersion": 1,
+      "revision": "c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b",
+      "manifestSha256": "fbad789df24cd476aa083760bb3dd3cf353b15d9f99ee270cba06da255beafe6"
+    },
+    "sourceRevision": "8218bca44e34872fc3ad86cf1bb4c6849f7b21c6",
+    "status": "online"
+  },
+  "pageErrors": [],
+  "consoleErrors": []
+}

@@ -28,7 +28,3 @@ Run with Python 3:
 The validator reads 18 included public input files and checks their pins, component manifests, complete ordered geometry, identity joins, conservation-authority limits, research/review linkage and carried-forward status/delta arithmetic. It makes no network requests. The review manifest covers seven other review files and excludes itself.
 
 Passing establishes included-file integrity and factual consistency only. It cannot reopen the omitted publication, reproduce map interpretation or the private original-decoder verification, establish source independence, or authorize names to be applied.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/7b7af33676b662ed6db00a91c4ec4561d87673aee4f5798d2c07ee765c905c52.gz) · 원본 SHA-256 `7b7af33676b662ed6db00a91c4ec4561d87673aee4f5798d2c07ee765c905c52`.

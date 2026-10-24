@@ -1,0 +1,438 @@
+[
+  {
+    "name": "schaalsee-south-delvenau.png",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=609021%2C5915077%2C639021%2C5945077&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as&REQUEST=GetMap&FORMAT=image%2Fpng",
+    "private": true,
+    "bbox": [
+      609021,
+      5915077,
+      639021,
+      5945077
+    ],
+    "crs": "EPSG:25832",
+    "size": [
+      2400,
+      2400
+    ],
+    "metersPerPixel": 12.5,
+    "providerGeoreferenced": true,
+    "independentResidual": "unmeasured",
+    "newProductionTracing": false,
+    "capturedAt": "2026-10-23T01:46:55.384814+00:00",
+    "contentType": "image/png",
+    "bytes": 3649757,
+    "sha256": "a100cc7f373043b800a7795cad0956f50dba7f3bc2f558e2680d0d234a8647da",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\private-evidence\\ddr-remaining-all-2026-10-23\\schaalsee-south-delvenau.png"
+  },
+  {
+    "name": "schaalsee-south-delvenau-sheet-0.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=609021%2C5915077%2C639021%2C5945077&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=600",
+    "private": false,
+    "bbox": [
+      609021,
+      5915077,
+      639021,
+      5945077
+    ],
+    "queryPixel": [
+      600,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:46:55.389303+00:00",
+    "contentType": "text/html",
+    "bytes": 432,
+    "sha256": "55744bf75ac1193e4acac6f2dc581c7d0a32665b14f353509993be4f0bedd8bb",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\schaalsee-south-delvenau-sheet-0.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9760:\n     Name           = N32094BC\n     Titel          = Gudow\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "schaalsee-south-delvenau-sheet-1.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=609021%2C5915077%2C639021%2C5945077&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=600",
+    "private": false,
+    "bbox": [
+      609021,
+      5915077,
+      639021,
+      5945077
+    ],
+    "queryPixel": [
+      1800,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:46:55.389621+00:00",
+    "contentType": "text/html",
+    "bytes": 436,
+    "sha256": "7b9889b8baf87e3dc687ba7295290db12ed4937caa8575b48437efad8f4d4a65",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\schaalsee-south-delvenau-sheet-1.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9761:\n     Name           = N32094BD\n     Titel          = Zarrentin\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "schaalsee-south-delvenau-sheet-2.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=609021%2C5915077%2C639021%2C5945077&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=1800",
+    "private": false,
+    "bbox": [
+      609021,
+      5915077,
+      639021,
+      5945077
+    ],
+    "queryPixel": [
+      600,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:46:55.389621+00:00",
+    "contentType": "text/html",
+    "bytes": 433,
+    "sha256": "87bc2865aca2a80006469a7840e74320a370d1f4895793db40033f2438a76528",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\schaalsee-south-delvenau-sheet-2.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9766:\n     Name           = N32094DA\n     Titel          = Greven\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "schaalsee-south-delvenau-sheet-3.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=609021%2C5915077%2C639021%2C5945077&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=1800",
+    "private": false,
+    "bbox": [
+      609021,
+      5915077,
+      639021,
+      5945077
+    ],
+    "queryPixel": [
+      1800,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:46:57.223438+00:00",
+    "contentType": "text/html",
+    "bytes": 433,
+    "sha256": "b3cac9261ceac0a0038f00eca7d2c67fc43c9dcd86cb12da14f9904c2224c40a",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\schaalsee-south-delvenau-sheet-3.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9767:\n     Name           = N32094DB\n     Titel          = Bennin\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-neuhaus.png",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=610981%2C5891197%2C640981%2C5921197&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as&REQUEST=GetMap&FORMAT=image%2Fpng",
+    "private": true,
+    "bbox": [
+      610981,
+      5891197,
+      640981,
+      5921197
+    ],
+    "crs": "EPSG:25832",
+    "size": [
+      2400,
+      2400
+    ],
+    "metersPerPixel": 12.5,
+    "providerGeoreferenced": true,
+    "independentResidual": "unmeasured",
+    "newProductionTracing": false,
+    "capturedAt": "2026-10-23T01:46:57.256491+00:00",
+    "contentType": "image/png",
+    "bytes": 3840863,
+    "sha256": "e19e69fa8fa82ea37ec8d6d6fa03c6740284a6fdbc4d170801b51c139969e93b",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\private-evidence\\ddr-remaining-all-2026-10-23\\elbe-neuhaus.png"
+  },
+  {
+    "name": "elbe-neuhaus-sheet-0.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=610981%2C5891197%2C640981%2C5921197&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=600",
+    "private": false,
+    "bbox": [
+      610981,
+      5891197,
+      640981,
+      5921197
+    ],
+    "queryPixel": [
+      600,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:46:57.281159+00:00",
+    "contentType": "text/html",
+    "bytes": 433,
+    "sha256": "e247feb6416ddc11c6a84c1b96f37741e48e321526c77b88cc72a933dcc0b788",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-neuhaus-sheet-0.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9768:\n     Name           = N32094DC\n     Titel          = Besitz\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-neuhaus-sheet-1.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=610981%2C5891197%2C640981%2C5921197&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=600",
+    "private": false,
+    "bbox": [
+      610981,
+      5891197,
+      640981,
+      5921197
+    ],
+    "queryPixel": [
+      1800,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:46:58.488635+00:00",
+    "contentType": "text/html",
+    "bytes": 433,
+    "sha256": "4353fd5df0c975f7ce0c4c084f25546301aab552713f755c4aad514e4e48a418",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-neuhaus-sheet-1.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9780:\n     Name           = N32095CC\n     Titel          = Melkof\n     Erstellung     = Ausgabe 1993\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-neuhaus-sheet-2.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=610981%2C5891197%2C640981%2C5921197&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=1800",
+    "private": false,
+    "bbox": [
+      610981,
+      5891197,
+      640981,
+      5921197
+    ],
+    "queryPixel": [
+      600,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:46:58.529103+00:00",
+    "contentType": "text/html",
+    "bytes": 437,
+    "sha256": "4f6fb8a0e08aacd6a1d810866518e97576bb9a60f724c72068fc9bfe531f64f1",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-neuhaus-sheet-2.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9790:\n     Name           = N32106BC\n     Titel          = Nahrendorf\n     Erstellung     = Ausgabe 1992\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-neuhaus-sheet-3.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=610981%2C5891197%2C640981%2C5921197&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=1800",
+    "private": false,
+    "bbox": [
+      610981,
+      5891197,
+      640981,
+      5921197
+    ],
+    "queryPixel": [
+      1800,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:46:59.719459+00:00",
+    "contentType": "text/html",
+    "bytes": 435,
+    "sha256": "ea5a16389eba4385023144b45e3ca36206494e7629b55989b26705df5793be58",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-neuhaus-sheet-3.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9796:\n     Name           = N32107AC\n     Titel          = Kaarßen\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1988\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-schnackenburg.png",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=657298%2C5864809%2C687298%2C5894809&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as&REQUEST=GetMap&FORMAT=image%2Fpng",
+    "private": true,
+    "bbox": [
+      657298,
+      5864809,
+      687298,
+      5894809
+    ],
+    "crs": "EPSG:25832",
+    "size": [
+      2400,
+      2400
+    ],
+    "metersPerPixel": 12.5,
+    "providerGeoreferenced": true,
+    "independentResidual": "unmeasured",
+    "newProductionTracing": false,
+    "capturedAt": "2026-10-23T01:46:59.753202+00:00",
+    "contentType": "image/png",
+    "bytes": 2422201,
+    "sha256": "8cdb99a2cfda4dd8c7de6facdb93fcf69c2eaa91f236f433baf96d172ef3b792",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\private-evidence\\ddr-remaining-all-2026-10-23\\elbe-schnackenburg.png"
+  },
+  {
+    "name": "elbe-schnackenburg-sheet-0.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=657298%2C5864809%2C687298%2C5894809&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=600",
+    "private": false,
+    "bbox": [
+      657298,
+      5864809,
+      687298,
+      5894809
+    ],
+    "queryPixel": [
+      600,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:47:00.961599+00:00",
+    "contentType": "text/html",
+    "bytes": 440,
+    "sha256": "63cff5ba678165e1ddb7dfa91368db688e47cfa91a3a01438fa521b2295c0aa4",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-schnackenburg-sheet-0.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9806:\n     Name           = N32107DB\n     Titel          = Lenzen / Elbe\n     Erstellung     = Ausgabe 1991\n     Aktualisierung = Stand 1989\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-schnackenburg-sheet-1.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=657298%2C5864809%2C687298%2C5894809&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=600",
+    "private": false,
+    "bbox": [
+      657298,
+      5864809,
+      687298,
+      5894809
+    ],
+    "queryPixel": [
+      1800,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:47:02.224371+00:00",
+    "contentType": "text/html",
+    "bytes": 436,
+    "sha256": "5ecfb073e27b65c41153f808a006effdce21a22119aa8cd542210229941aa073",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-schnackenburg-sheet-1.html.gz",
+    "response": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n</head>\n<body>\n<pre>\nLayer 'mv_tk25as_info'\n  Feature 9817:\n     Name           = N32108CB\n     Titel          = Karstädt\n     Erstellung     = Ausgabe 1987\n     Aktualisierung = Stand 1984\n     Publikation    = n/a\n     CSW-Anfrage    = https://www.geodaten-mv.de/geomis/id/48effc76-8b74-4d52-a615-a5a18bb47929\n\n</pre>\n</body>\n</html>\n"
+  },
+  {
+    "name": "elbe-schnackenburg-sheet-2.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=657298%2C5864809%2C687298%2C5894809&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=1800",
+    "private": false,
+    "bbox": [
+      657298,
+      5864809,
+      687298,
+      5894809
+    ],
+    "queryPixel": [
+      600,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:47:02.354763+00:00",
+    "contentType": "text/html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-schnackenburg-sheet-2.html.gz",
+    "response": ""
+  },
+  {
+    "name": "elbe-schnackenburg-sheet-3.html",
+    "url": "https://www.geodaten-mv.de/dienste/tk25as_laiv_wms?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=657298%2C5864809%2C687298%2C5894809&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=mv_tk25as_info&REQUEST=GetFeatureInfo&QUERY_LAYERS=mv_tk25as_info&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=1800",
+    "private": false,
+    "bbox": [
+      657298,
+      5864809,
+      687298,
+      5894809
+    ],
+    "queryPixel": [
+      1800,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:47:03.448661+00:00",
+    "contentType": "text/html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\elbe-schnackenburg-sheet-3.html.gz",
+    "response": ""
+  },
+  {
+    "name": "saxony-tripoint.png",
+    "url": "https://geodienste.sachsen.de/wms_geosn_hist/guest?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=705670%2C5563807%2C735670%2C5593807&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=tk25_ddr_ausgabe_staat&REQUEST=GetMap&FORMAT=image%2Fpng",
+    "private": true,
+    "bbox": [
+      705670,
+      5563807,
+      735670,
+      5593807
+    ],
+    "crs": "EPSG:25832",
+    "size": [
+      2400,
+      2400
+    ],
+    "metersPerPixel": 12.5,
+    "providerGeoreferenced": true,
+    "independentResidual": "unmeasured",
+    "newProductionTracing": false,
+    "capturedAt": "2026-10-23T01:47:03.615111+00:00",
+    "contentType": "image/png",
+    "bytes": 6796802,
+    "sha256": "79541dd8166fa702db0fa37ca7794a4a1d8cd2afd35609b2f2cfcaf86af27176",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\private-evidence\\ddr-remaining-all-2026-10-23\\saxony-tripoint.png"
+  },
+  {
+    "name": "saxony-tripoint-sheet-0.html",
+    "url": "https://geodienste.sachsen.de/wms_geosn_hist/guest?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=705670%2C5563807%2C735670%2C5593807&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=tk25_ddr_ausgabe_staat_metadaten&REQUEST=GetFeatureInfo&QUERY_LAYERS=tk25_ddr_ausgabe_staat_metadaten&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=600",
+    "private": false,
+    "bbox": [
+      705670,
+      5563807,
+      735670,
+      5593807
+    ],
+    "queryPixel": [
+      600,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:47:04.621649+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 7237,
+    "sha256": "772346e8e656e47b294b1aff2bdceb8f2ae5b30bfd1f18a1511010e66655ddca",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\saxony-tripoint-sheet-0.html.gz",
+    "response": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html xmlns:esri_wms=\"http://www.esri.com/wms\" xmlns=\"http://www.esri.com/wms\"><!--GeoBAK20-Sachdatenabfrage-Version: 2018-02-01-->\r\n<head>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></meta>\r\n<TITLE>Sachdatenabfrage WMS Geodiensteserver GeoBAK 2.0</TITLE>\r\n<meta name=\"language\" content=\"de\"/>\r\n<META name=\"author\" content=\"GeoSN\"/>\r\n<meta name=\"publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"copyright\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<META name=\"keywords\" lang=\"de\" content=\"Sachsenatlas 2.0, Geoportal, Geoviewer, Sachsen, GDI-Sachsen, GetFeatureInfo, Web Map Service, WMS\" xml:lang=\"de\"/>\r\n<meta name=\"DC.Title\" content=\"Geoobjekt des Suchindex des Geoportals der GDI-Sachsen\"/>\r\n<meta name=\"DC.Description\" content=\"Sachsenatlas 2.0: &quot;Das Geoportal des Freistaates Sachsen&quot;. Geoobjekt: Ort: Chemnitz\"/>\r\n<meta name=\"DC.subject\" content=\"Sachdatenabfrage WMS Geodiensteserver\"/>\r\n<meta name=\"DC.Creator\" content=\"GeoSN\"/>\r\n<meta name=\"DC.Publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"DC.Rights\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<style type=\"text/css\">\r\nhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}\r\narticle,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}\r\nol,ul{list-style:none}\r\nblockquote,q{quotes:none}\r\nblockquote:before,blockquote:after,q:before,q:after{content:none}\r\nhtml{height: 100%}\r\nbody{line-height:1;font-family:Arial,Helvetica,sans-serif;min-width:auto;margin:0 auto;background-color:#F3F3F3}\r\ntable{text-align:center;margin-left:auto;margin-right:auto;border-spacing:0;font-family:Arial,Helvetica,sans-serif;color:#000;font-size:12px;text-shadow:1px 1px 0 #fff;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;width:auto;margin-top:10px}\r\ndiv.top{margin:0 auto;width:31%}\r\ndiv.top_tab{margin:0 auto;width:95%}\r\ndiv.white{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand{margin:10px 0 10px 0} \r\n\r\ndiv.top_err{width:31%}\r\ndiv.top_tab_err{width:95%}\r\ndiv.white_err{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand_err{margin:10px 0 10px 0} \r\ndiv#div_gr_err{width:250px;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin:10px 0 0 54px}\r\n\r\nh2.left{text-align:center;padding-top:6px;color:#4863A7;font:700 14px Arial,Helvetica,sans-serif}\r\nh3.left{text-align:center;padding-top:6px;color:#4863A7;font:700 12px Arial,Helvetica,sans-serif}\r\np.print{font-family:Arial,Helvetica,sans-serif;text-align:center;font-size:10px;color:#666}\r\ntable a:visited{color:#999;font-weight:700;text-decoration:none}\r\ntable th{border-top:1px solid #FAFAFA;border-bottom:1px solid #E0E0E0;background:#EDEDED;padding:5px 5px 6px}\r\ntable th:first-child{text-align:left;padding-left:10px}\r\ntable tr:first-child th:first-child{-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-top-left-radius:4px}\r\ntable tr:first-child th:last-child{-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;border-top-right-radius:4px}\r\ntable tr{text-align:left;padding-left:5px}\r\ntable tr td:first-child{text-align:left;padding-left:5px;border-left:0}\r\ntable tr td{border-top:1px solid #fff;border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;background:#FAFAFA;padding:10px}\r\ntable tr.even td{background:#F6F6F6}\r\ntable tr:last-child td{border-bottom:0}\r\ntable tr:last-child td:first-child{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;border-bottom-left-radius:4px}\r\ntable tr:last-child td:last-child{-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;border-bottom-right-radius:4px}\r\ntable tr:hover td{background:#F2F2F2}\r\na:link,a:visited,table a:link{color:#4863A7;font-weight:700;text-decoration:none}\r\na:active,a:hover,table a:active,table a:hover{color:#4863A7;text-decoration:underline}\r\np.err{font-family:Arial,Helvetica,sans-serif;line-height:25px;color:#666;font-size:0,81 em}\r\ndiv#div_gr{width:250px;margin:auto 0;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin-top:10px}\r\n.myButton{-moz-box-shadow:inset 0px 1px 0px 0px #54A3F7;-webkit-box-shadow:inset 0px 1px 0px 0px #54A3F7;box-shadow:inset 0px 1px 0px 0px #54A3F7;background-color:#0061A7;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #124D77;display:inline-block;cursor:pointer;color:#FFF;font-size:13px;padding:9px 29px;text-decoration:none;text-shadow:0px 1px 0px #154682;margin:10px 0}\r\n.myButton:hover{background-color:#124D77;color:#FFF}\r\n.myButton:active{position:relative;top:1px}\r\na.myButton{color:#FFF;text-decoration:none}\r\n</style>\r\n</head>\r\n<body>\r\n<div class=\"abstand\">\r\n<div class=\"white\">\r\n<div class=\"top_tab\">\r\n<h2 class=\"left\">Sachdatenabfrage - Kartenebene: 'tk25_ddr_ausgabe_staat_metadaten'</h2>\r\n</div>\r\n<div class=\"top_tab\">\r\n<table id=\"tab\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Blatt Nr.</th>\r\n<td>M-33-49-C-c</td>\r\n</tr>\r\n<tr>\r\n<th>Aktualität</th>\r\n<td>1988</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Name</th>\r\n<td>F. Zeppenfeld</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Anschrift</th>\r\n<td>Olbrichtplatz 3, 01099 Dresden</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Telefon</th>\r\n<td>+49 351 8283-2234</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Organisation</th>\r\n<td>Staatsbetrieb Geobasisinformation und Vermessung Sachsen</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Email</th>\r\n<td>Frithjof.Zeppenfeld@geosn.sachsen.de</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Leng</th>\r\n<td>36328,736017</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Area</th>\r\n<td>82450340,6457</td>\r\n</tr>\r\n</tbody>\r\n</table><br/>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"abstand\">\r\n<div class=\"white\" style=\"padding-bottom:0px\">\r\n<div class=\"top_tab\">\r\n<p id=\"druck\" class=\"print\">\r\n<a onclick=\"javascript:self.print();\" class=\"myButton\" href=\"#\">Drucken</a>\r\n</p>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "name": "saxony-tripoint-sheet-1.html",
+    "url": "https://geodienste.sachsen.de/wms_geosn_hist/guest?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=705670%2C5563807%2C735670%2C5593807&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=tk25_ddr_ausgabe_staat_metadaten&REQUEST=GetFeatureInfo&QUERY_LAYERS=tk25_ddr_ausgabe_staat_metadaten&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=600",
+    "private": false,
+    "bbox": [
+      705670,
+      5563807,
+      735670,
+      5593807
+    ],
+    "queryPixel": [
+      1800,
+      600
+    ],
+    "capturedAt": "2026-10-23T01:47:05.794396+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 7237,
+    "sha256": "4f4ccf1322732eb0ef86fb1bbbf3264470f5367763069847dd4f2178474bc9dc",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\saxony-tripoint-sheet-1.html.gz",
+    "response": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html xmlns:esri_wms=\"http://www.esri.com/wms\" xmlns=\"http://www.esri.com/wms\"><!--GeoBAK20-Sachdatenabfrage-Version: 2018-02-01-->\r\n<head>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></meta>\r\n<TITLE>Sachdatenabfrage WMS Geodiensteserver GeoBAK 2.0</TITLE>\r\n<meta name=\"language\" content=\"de\"/>\r\n<META name=\"author\" content=\"GeoSN\"/>\r\n<meta name=\"publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"copyright\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<META name=\"keywords\" lang=\"de\" content=\"Sachsenatlas 2.0, Geoportal, Geoviewer, Sachsen, GDI-Sachsen, GetFeatureInfo, Web Map Service, WMS\" xml:lang=\"de\"/>\r\n<meta name=\"DC.Title\" content=\"Geoobjekt des Suchindex des Geoportals der GDI-Sachsen\"/>\r\n<meta name=\"DC.Description\" content=\"Sachsenatlas 2.0: &quot;Das Geoportal des Freistaates Sachsen&quot;. Geoobjekt: Ort: Chemnitz\"/>\r\n<meta name=\"DC.subject\" content=\"Sachdatenabfrage WMS Geodiensteserver\"/>\r\n<meta name=\"DC.Creator\" content=\"GeoSN\"/>\r\n<meta name=\"DC.Publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"DC.Rights\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<style type=\"text/css\">\r\nhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}\r\narticle,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}\r\nol,ul{list-style:none}\r\nblockquote,q{quotes:none}\r\nblockquote:before,blockquote:after,q:before,q:after{content:none}\r\nhtml{height: 100%}\r\nbody{line-height:1;font-family:Arial,Helvetica,sans-serif;min-width:auto;margin:0 auto;background-color:#F3F3F3}\r\ntable{text-align:center;margin-left:auto;margin-right:auto;border-spacing:0;font-family:Arial,Helvetica,sans-serif;color:#000;font-size:12px;text-shadow:1px 1px 0 #fff;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;width:auto;margin-top:10px}\r\ndiv.top{margin:0 auto;width:31%}\r\ndiv.top_tab{margin:0 auto;width:95%}\r\ndiv.white{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand{margin:10px 0 10px 0} \r\n\r\ndiv.top_err{width:31%}\r\ndiv.top_tab_err{width:95%}\r\ndiv.white_err{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand_err{margin:10px 0 10px 0} \r\ndiv#div_gr_err{width:250px;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin:10px 0 0 54px}\r\n\r\nh2.left{text-align:center;padding-top:6px;color:#4863A7;font:700 14px Arial,Helvetica,sans-serif}\r\nh3.left{text-align:center;padding-top:6px;color:#4863A7;font:700 12px Arial,Helvetica,sans-serif}\r\np.print{font-family:Arial,Helvetica,sans-serif;text-align:center;font-size:10px;color:#666}\r\ntable a:visited{color:#999;font-weight:700;text-decoration:none}\r\ntable th{border-top:1px solid #FAFAFA;border-bottom:1px solid #E0E0E0;background:#EDEDED;padding:5px 5px 6px}\r\ntable th:first-child{text-align:left;padding-left:10px}\r\ntable tr:first-child th:first-child{-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-top-left-radius:4px}\r\ntable tr:first-child th:last-child{-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;border-top-right-radius:4px}\r\ntable tr{text-align:left;padding-left:5px}\r\ntable tr td:first-child{text-align:left;padding-left:5px;border-left:0}\r\ntable tr td{border-top:1px solid #fff;border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;background:#FAFAFA;padding:10px}\r\ntable tr.even td{background:#F6F6F6}\r\ntable tr:last-child td{border-bottom:0}\r\ntable tr:last-child td:first-child{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;border-bottom-left-radius:4px}\r\ntable tr:last-child td:last-child{-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;border-bottom-right-radius:4px}\r\ntable tr:hover td{background:#F2F2F2}\r\na:link,a:visited,table a:link{color:#4863A7;font-weight:700;text-decoration:none}\r\na:active,a:hover,table a:active,table a:hover{color:#4863A7;text-decoration:underline}\r\np.err{font-family:Arial,Helvetica,sans-serif;line-height:25px;color:#666;font-size:0,81 em}\r\ndiv#div_gr{width:250px;margin:auto 0;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin-top:10px}\r\n.myButton{-moz-box-shadow:inset 0px 1px 0px 0px #54A3F7;-webkit-box-shadow:inset 0px 1px 0px 0px #54A3F7;box-shadow:inset 0px 1px 0px 0px #54A3F7;background-color:#0061A7;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #124D77;display:inline-block;cursor:pointer;color:#FFF;font-size:13px;padding:9px 29px;text-decoration:none;text-shadow:0px 1px 0px #154682;margin:10px 0}\r\n.myButton:hover{background-color:#124D77;color:#FFF}\r\n.myButton:active{position:relative;top:1px}\r\na.myButton{color:#FFF;text-decoration:none}\r\n</style>\r\n</head>\r\n<body>\r\n<div class=\"abstand\">\r\n<div class=\"white\">\r\n<div class=\"top_tab\">\r\n<h2 class=\"left\">Sachdatenabfrage - Kartenebene: 'tk25_ddr_ausgabe_staat_metadaten'</h2>\r\n</div>\r\n<div class=\"top_tab\">\r\n<table id=\"tab\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Blatt Nr.</th>\r\n<td>M-33-49-C-d</td>\r\n</tr>\r\n<tr>\r\n<th>Aktualität</th>\r\n<td>1988</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Name</th>\r\n<td>F. Zeppenfeld</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Anschrift</th>\r\n<td>Olbrichtplatz 3, 01099 Dresden</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Telefon</th>\r\n<td>+49 351 8283-2234</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Organisation</th>\r\n<td>Staatsbetrieb Geobasisinformation und Vermessung Sachsen</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Email</th>\r\n<td>Frithjof.Zeppenfeld@geosn.sachsen.de</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Leng</th>\r\n<td>36327,235122</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Area</th>\r\n<td>82443545,7115</td>\r\n</tr>\r\n</tbody>\r\n</table><br/>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"abstand\">\r\n<div class=\"white\" style=\"padding-bottom:0px\">\r\n<div class=\"top_tab\">\r\n<p id=\"druck\" class=\"print\">\r\n<a onclick=\"javascript:self.print();\" class=\"myButton\" href=\"#\">Drucken</a>\r\n</p>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "name": "saxony-tripoint-sheet-2.html",
+    "url": "https://geodienste.sachsen.de/wms_geosn_hist/guest?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=705670%2C5563807%2C735670%2C5593807&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=tk25_ddr_ausgabe_staat_metadaten&REQUEST=GetFeatureInfo&QUERY_LAYERS=tk25_ddr_ausgabe_staat_metadaten&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=600&Y=1800",
+    "private": false,
+    "bbox": [
+      705670,
+      5563807,
+      735670,
+      5593807
+    ],
+    "queryPixel": [
+      600,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:47:07.489725+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6333,
+    "sha256": "c9467f7dfde55aab3bb28e89e58e9dfb64af5c10a8f47ec1543e9079db015e67",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\saxony-tripoint-sheet-2.html.gz",
+    "response": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html xmlns:esri_wms=\"http://www.esri.com/wms\" xmlns=\"http://www.esri.com/wms\"><!--GeoBAK20-Sachdatenabfrage-Version: 2018-02-01-->\r\n<head>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></meta>\r\n<TITLE>Sachdatenabfrage WMS Geodiensteserver GeoBAK 2.0</TITLE>\r\n<meta name=\"language\" content=\"de\"/>\r\n<META name=\"author\" content=\"GeoSN\"/>\r\n<meta name=\"publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"copyright\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<META name=\"keywords\" lang=\"de\" content=\"Sachsenatlas 2.0, Geoportal, Geoviewer, Sachsen, GDI-Sachsen, GetFeatureInfo, Web Map Service, WMS\" xml:lang=\"de\"/>\r\n<meta name=\"DC.Title\" content=\"Geoobjekt des Suchindex des Geoportals der GDI-Sachsen\"/>\r\n<meta name=\"DC.Description\" content=\"Sachsenatlas 2.0: &quot;Das Geoportal des Freistaates Sachsen&quot;. Geoobjekt: Ort: Chemnitz\"/>\r\n<meta name=\"DC.subject\" content=\"Sachdatenabfrage WMS Geodiensteserver\"/>\r\n<meta name=\"DC.Creator\" content=\"GeoSN\"/>\r\n<meta name=\"DC.Publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"DC.Rights\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<style type=\"text/css\">\r\nhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}\r\narticle,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}\r\nol,ul{list-style:none}\r\nblockquote,q{quotes:none}\r\nblockquote:before,blockquote:after,q:before,q:after{content:none}\r\nhtml{height: 100%}\r\nbody{line-height:1;font-family:Arial,Helvetica,sans-serif;min-width:auto;margin:0 auto;background-color:#F3F3F3}\r\ntable{text-align:center;margin-left:auto;margin-right:auto;border-spacing:0;font-family:Arial,Helvetica,sans-serif;color:#000;font-size:12px;text-shadow:1px 1px 0 #fff;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;width:auto;margin-top:10px}\r\ndiv.top{margin:0 auto;width:31%}\r\ndiv.top_tab{margin:0 auto;width:95%}\r\ndiv.white{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand{margin:10px 0 10px 0} \r\n\r\ndiv.top_err{width:31%}\r\ndiv.top_tab_err{width:95%}\r\ndiv.white_err{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand_err{margin:10px 0 10px 0} \r\ndiv#div_gr_err{width:250px;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin:10px 0 0 54px}\r\n\r\nh2.left{text-align:center;padding-top:6px;color:#4863A7;font:700 14px Arial,Helvetica,sans-serif}\r\nh3.left{text-align:center;padding-top:6px;color:#4863A7;font:700 12px Arial,Helvetica,sans-serif}\r\np.print{font-family:Arial,Helvetica,sans-serif;text-align:center;font-size:10px;color:#666}\r\ntable a:visited{color:#999;font-weight:700;text-decoration:none}\r\ntable th{border-top:1px solid #FAFAFA;border-bottom:1px solid #E0E0E0;background:#EDEDED;padding:5px 5px 6px}\r\ntable th:first-child{text-align:left;padding-left:10px}\r\ntable tr:first-child th:first-child{-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-top-left-radius:4px}\r\ntable tr:first-child th:last-child{-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;border-top-right-radius:4px}\r\ntable tr{text-align:left;padding-left:5px}\r\ntable tr td:first-child{text-align:left;padding-left:5px;border-left:0}\r\ntable tr td{border-top:1px solid #fff;border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;background:#FAFAFA;padding:10px}\r\ntable tr.even td{background:#F6F6F6}\r\ntable tr:last-child td{border-bottom:0}\r\ntable tr:last-child td:first-child{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;border-bottom-left-radius:4px}\r\ntable tr:last-child td:last-child{-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;border-bottom-right-radius:4px}\r\ntable tr:hover td{background:#F2F2F2}\r\na:link,a:visited,table a:link{color:#4863A7;font-weight:700;text-decoration:none}\r\na:active,a:hover,table a:active,table a:hover{color:#4863A7;text-decoration:underline}\r\np.err{font-family:Arial,Helvetica,sans-serif;line-height:25px;color:#666;font-size:0,81 em}\r\ndiv#div_gr{width:250px;margin:auto 0;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin-top:10px}\r\n.myButton{-moz-box-shadow:inset 0px 1px 0px 0px #54A3F7;-webkit-box-shadow:inset 0px 1px 0px 0px #54A3F7;box-shadow:inset 0px 1px 0px 0px #54A3F7;background-color:#0061A7;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #124D77;display:inline-block;cursor:pointer;color:#FFF;font-size:13px;padding:9px 29px;text-decoration:none;text-shadow:0px 1px 0px #154682;margin:10px 0}\r\n.myButton:hover{background-color:#124D77;color:#FFF}\r\n.myButton:active{position:relative;top:1px}\r\na.myButton{color:#FFF;text-decoration:none}\r\n</style>\r\n</head>\r\n<body class=\"ogc-getfeatureinfo-isempty\">\r\n<div class=\"abstand_err\">\r\n<div class=\"white_err\">\r\n<div class=\"top_err\">\r\n<div id=\"div_gr_err\">\r\n<p class=\"err\">An dieser Stelle konnten leider keine Sachinformationen gefunden werden.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "name": "saxony-tripoint-sheet-3.html",
+    "url": "https://geodienste.sachsen.de/wms_geosn_hist/guest?SERVICE=WMS&VERSION=1.1.1&SRS=EPSG%3A25832&BBOX=705670%2C5563807%2C735670%2C5593807&WIDTH=2400&HEIGHT=2400&STYLES=&LAYERS=tk25_ddr_ausgabe_staat_metadaten&REQUEST=GetFeatureInfo&QUERY_LAYERS=tk25_ddr_ausgabe_staat_metadaten&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=10&X=1800&Y=1800",
+    "private": false,
+    "bbox": [
+      705670,
+      5563807,
+      735670,
+      5593807
+    ],
+    "queryPixel": [
+      1800,
+      1800
+    ],
+    "capturedAt": "2026-10-23T01:47:08.868135+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 7956,
+    "sha256": "f453b4c389240bce245ba3b5f0c13237ac50ab095be376cf9223c87248de09af",
+    "stored": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6\\reports\\geography\\east-germany-remaining-all-2026-10-23\\saxony-tripoint-sheet-3.html.gz",
+    "response": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html xmlns:esri_wms=\"http://www.esri.com/wms\" xmlns=\"http://www.esri.com/wms\"><!--GeoBAK20-Sachdatenabfrage-Version: 2018-02-01-->\r\n<head>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></meta>\r\n<TITLE>Sachdatenabfrage WMS Geodiensteserver GeoBAK 2.0</TITLE>\r\n<meta name=\"language\" content=\"de\"/>\r\n<META name=\"author\" content=\"GeoSN\"/>\r\n<meta name=\"publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"copyright\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<META name=\"keywords\" lang=\"de\" content=\"Sachsenatlas 2.0, Geoportal, Geoviewer, Sachsen, GDI-Sachsen, GetFeatureInfo, Web Map Service, WMS\" xml:lang=\"de\"/>\r\n<meta name=\"DC.Title\" content=\"Geoobjekt des Suchindex des Geoportals der GDI-Sachsen\"/>\r\n<meta name=\"DC.Description\" content=\"Sachsenatlas 2.0: &quot;Das Geoportal des Freistaates Sachsen&quot;. Geoobjekt: Ort: Chemnitz\"/>\r\n<meta name=\"DC.subject\" content=\"Sachdatenabfrage WMS Geodiensteserver\"/>\r\n<meta name=\"DC.Creator\" content=\"GeoSN\"/>\r\n<meta name=\"DC.Publisher\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<meta name=\"DC.Rights\" content=\"Landesamtes für Geobasisinformation Sachsen (GeoSN)\"/>\r\n<style type=\"text/css\">\r\nhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}\r\narticle,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}\r\nol,ul{list-style:none}\r\nblockquote,q{quotes:none}\r\nblockquote:before,blockquote:after,q:before,q:after{content:none}\r\nhtml{height: 100%}\r\nbody{line-height:1;font-family:Arial,Helvetica,sans-serif;min-width:auto;margin:0 auto;background-color:#F3F3F3}\r\ntable{text-align:center;margin-left:auto;margin-right:auto;border-spacing:0;font-family:Arial,Helvetica,sans-serif;color:#000;font-size:12px;text-shadow:1px 1px 0 #fff;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;width:auto;margin-top:10px}\r\ndiv.top{margin:0 auto;width:31%}\r\ndiv.top_tab{margin:0 auto;width:95%}\r\ndiv.white{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand{margin:10px 0 10px 0} \r\n\r\ndiv.top_err{width:31%}\r\ndiv.top_tab_err{width:95%}\r\ndiv.white_err{background-color:#FFF;width:95%;min-height:auto;margin:0 auto;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #CCC;box-shadow:2px 2px 2px #DDD; padding-bottom: 10px;}\r\ndiv.abstand_err{margin:10px 0 10px 0} \r\ndiv#div_gr_err{width:250px;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin:10px 0 0 54px}\r\n\r\nh2.left{text-align:center;padding-top:6px;color:#4863A7;font:700 14px Arial,Helvetica,sans-serif}\r\nh3.left{text-align:center;padding-top:6px;color:#4863A7;font:700 12px Arial,Helvetica,sans-serif}\r\np.print{font-family:Arial,Helvetica,sans-serif;text-align:center;font-size:10px;color:#666}\r\ntable a:visited{color:#999;font-weight:700;text-decoration:none}\r\ntable th{border-top:1px solid #FAFAFA;border-bottom:1px solid #E0E0E0;background:#EDEDED;padding:5px 5px 6px}\r\ntable th:first-child{text-align:left;padding-left:10px}\r\ntable tr:first-child th:first-child{-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;border-top-left-radius:4px}\r\ntable tr:first-child th:last-child{-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;border-top-right-radius:4px}\r\ntable tr{text-align:left;padding-left:5px}\r\ntable tr td:first-child{text-align:left;padding-left:5px;border-left:0}\r\ntable tr td{border-top:1px solid #fff;border-bottom:1px solid #E0E0E0;border-left:1px solid #E0E0E0;background:#FAFAFA;padding:10px}\r\ntable tr.even td{background:#F6F6F6}\r\ntable tr:last-child td{border-bottom:0}\r\ntable tr:last-child td:first-child{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;border-bottom-left-radius:4px}\r\ntable tr:last-child td:last-child{-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;border-bottom-right-radius:4px}\r\ntable tr:hover td{background:#F2F2F2}\r\na:link,a:visited,table a:link{color:#4863A7;font-weight:700;text-decoration:none}\r\na:active,a:hover,table a:active,table a:hover{color:#4863A7;text-decoration:underline}\r\np.err{font-family:Arial,Helvetica,sans-serif;line-height:25px;color:#666;font-size:0,81 em}\r\ndiv#div_gr{width:250px;margin:auto 0;padding:25px;background:#EAEBEC;border:#ccc 1px solid;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-moz-box-shadow:0 1px 2px #D1D1D1;-webkit-box-shadow:0 1px 2px #D1D1D1;box-shadow:0 1px 2px #D1D1D1;margin-top:10px}\r\n.myButton{-moz-box-shadow:inset 0px 1px 0px 0px #54A3F7;-webkit-box-shadow:inset 0px 1px 0px 0px #54A3F7;box-shadow:inset 0px 1px 0px 0px #54A3F7;background-color:#0061A7;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #124D77;display:inline-block;cursor:pointer;color:#FFF;font-size:13px;padding:9px 29px;text-decoration:none;text-shadow:0px 1px 0px #154682;margin:10px 0}\r\n.myButton:hover{background-color:#124D77;color:#FFF}\r\n.myButton:active{position:relative;top:1px}\r\na.myButton{color:#FFF;text-decoration:none}\r\n</style>\r\n</head>\r\n<body>\r\n<div class=\"abstand\">\r\n<div class=\"white\">\r\n<div class=\"top_tab\">\r\n<h2 class=\"left\">Sachdatenabfrage - Kartenebene: 'tk25_ddr_ausgabe_staat_metadaten'</h2>\r\n</div>\r\n<div class=\"top_tab\">\r\n<table id=\"tab\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Blatt Nr.</th>\r\n<td>M-33-61-A-b</td>\r\n</tr>\r\n<tr>\r\n<th>Aktualität</th>\r\n<td>1988</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Name</th>\r\n<td>F. Zeppenfeld</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Anschrift</th>\r\n<td>Olbrichtplatz 3, 01099 Dresden</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Telefon</th>\r\n<td>+49 351 8283-2234</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Organisation</th>\r\n<td>Staatsbetrieb Geobasisinformation und Vermessung Sachsen</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Email</th>\r\n<td>Frithjof.Zeppenfeld@geosn.sachsen.de</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Leng</th>\r\n<td>36358,170179</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Area</th>\r\n<td>82586962,9763</td>\r\n</tr>\r\n</tbody>\r\n</table><br/>\r\n<table id=\"tab\" cellpadding=\"0\" cellspacing=\"0\" border=\"1\">\r\n<tbody>\r\n<tr>\r\n<th>Blatt Nr.</th>\r\n<td>M-33-61-A-d</td>\r\n</tr>\r\n<tr>\r\n<th>Aktualität</th>\r\n<td>1980</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Name</th>\r\n<td>F. Zeppenfeld</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Anschrift</th>\r\n<td>Olbrichtplatz 3, 01099 Dresden</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Telefon</th>\r\n<td>+49 351 8283-2234</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Organisation</th>\r\n<td>Staatsbetrieb Geobasisinformation und Vermessung Sachsen</td>\r\n</tr>\r\n<tr>\r\n<th>Kontakt Email</th>\r\n<td>Frithjof.Zeppenfeld@geosn.sachsen.de</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Leng</th>\r\n<td>36389,070427</td>\r\n</tr>\r\n<tr>\r\n<th>Shape Area</th>\r\n<td>82730231,2664</td>\r\n</tr>\r\n</tbody>\r\n</table><br/>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"abstand\">\r\n<div class=\"white\" style=\"padding-bottom:0px\">\r\n<div class=\"top_tab\">\r\n<p id=\"druck\" class=\"print\">\r\n<a onclick=\"javascript:self.print();\" class=\"myButton\" href=\"#\">Drucken</a>\r\n</p>\r\n</div>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+  }
+]

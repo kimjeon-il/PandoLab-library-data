@@ -27,7 +27,3 @@ Original maps, full paths, omitted-input fingerprints and private replay interfa
 ## Continuity
 
 The included prior-ID membership and three-ID delta give 63 to 66 distinct reconstructed inventory targets. The remaining inventory queue is 3,999 targets: 3,427 river groups and 572 lakes. These are coverage counts, not counts of verified river names. The two pending-access IDs and 17 prior scope holds are preserved; the one new Hastings scope hold is separate, giving 18 total holds. It is not an access-pending case. Sandfly's eastern-basin limitation and the Ohrid/Prespa candidate and southeastern-lake holds are carried forward without re-auditing prior originals. No product names, geometry, topology or live deployment changed.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/715025b3c0845dea0de89e36a204230e8df214ccd46daaaf73e5a918757df4a3.gz) · 원본 SHA-256 `715025b3c0845dea0de89e36a204230e8df214ccd46daaaf73e5a918757df4a3`.

@@ -15,7 +15,3 @@ Three retained WSA/Elections publications form two publisher groups; underlying 
 The new scope hold takes total scope holds from 26 to 27. The prior 26 holds and two access-pending targets remain unchanged and were not reassessed. A scope hold is separate from an access failure. Formal-registry decisions, precise named extents, Korean forms and scalar product names remain unapproved. All product-name fields are null; automatic and product application remain false. No product data or geometry was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` in this directory. The checks validate included current-three factual linkage, bounded metadata, arithmetic and included-file integrity. They do not reopen originals, recompute omitted complete polygons, reproduce visual judgments or replay the production decoder. Maps, crops, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json hashes the nine included geometry-component files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/7bd8f9f788e6e57d6c97e430b29d728a634c17b2af458be8e7494209e11a874b.gz) · 원본 SHA-256 `7bd8f9f788e6e57d6c97e430b29d728a634c17b2af458be8e7494209e11a874b`.

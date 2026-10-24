@@ -1,0 +1,20 @@
+{
+  "reportRoot": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\d401965fdbbcb53b54602b1d8736554b8ebc7dda\\reports",
+  "before": {
+    "files": 3390,
+    "bytes": 857748177,
+    "allocatedBytes": 864596992
+  },
+  "after": {
+    "files": 3390,
+    "bytes": 857748177,
+    "allocatedBytes": 864596992
+  },
+  "growthBytes": 0,
+  "growthAllocatedBytes": 0,
+  "sameMaterialization": true,
+  "activeRevisions": [
+    "71a67904db2beb933735727ad6c19adde082d2bd",
+    "d401965fdbbcb53b54602b1d8736554b8ebc7dda"
+  ]
+}

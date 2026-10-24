@@ -15,7 +15,3 @@ Alaska DNR hosts and links the retained map; its TOPO! cartography credits Natio
 Formal-registry decisions, precise shorelines and name boundaries, Korean forms and scalar product-name application remain unapproved. Product-name fields are null and automatic application is false. No product data or geometry was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` in this directory. These bounded current-three checks validate included factual linkage, metadata, arithmetic and included-file integrity. They do not reopen the original map, recompute omitted complete polygons, reproduce visual correspondence or replay the production decoder. Maps, crops, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json hashes only the nine included geometry-component files. review-manifest.json hashes the seven other review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/259171f49931d370fd617306412b41b939c455bbe7374b335a6cdc4827aa30a5.gz) · 원본 SHA-256 `259171f49931d370fd617306412b41b939c455bbe7374b335a6cdc4827aa30a5`.

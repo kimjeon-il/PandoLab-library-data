@@ -1,0 +1,22 @@
+{
+  "id": "zenodo-urdu-punjab-undated",
+  "familyId": "survey-india-manuscript-punjab",
+  "language": "urd",
+  "script": "Arabic",
+  "published": null,
+  "materialKind": "depositor-original",
+  "url": "https://zenodo.org/api/records/3596387/files/F04-26%20nd%20Map%20of%20District%20xx%20in%20Punjab%20in%20Urdu.jpg/content",
+  "metadataUrl": "https://zenodo.org/records/3596387",
+  "license": "CC-BY-4.0 (depositor collection metadata)",
+  "rightsReviewed": true,
+  "expectedBytes": 26226792,
+  "md5": "52985d651ba64a5489e8b72581cd22f9",
+  "maximumBytes": 30000000,
+  "uncertainty": "Depositor filename is undated and does not identify the district. Ferozepur/1870 attribution in a Commons mirror is secondary and unconfirmed.",
+  "sha256": "cfdf4de3992c84ae3d45dc84e187c536298908b0712e74ce326d3ea775c57fc3",
+  "bytes": 26226792,
+  "acquiredAt": "2026-10-23T00:40:42.069226+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

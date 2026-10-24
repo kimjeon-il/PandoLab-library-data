@@ -1,0 +1,31 @@
+{
+  "referenceDate": "1989-04-25",
+  "beforeAppRevision": "7822e7ab",
+  "beforeDataRevision": "3044d17e05e7233be7edab4d029efd1254d19476",
+  "newSectionId": "vg25-wolfenbuettel-hornburg",
+  "nativeGeneratorArcs": 10,
+  "bounds": [
+    10.55,
+    51.98,
+    10.91,
+    52.09
+  ],
+  "beforeCoordinates": 7739,
+  "afterCoordinates": 7809,
+  "components": 6,
+  "valid": true,
+  "beforeAreaKm2": 108413.2911370109,
+  "afterAreaKm2": 108411.30717391612,
+  "changedFootprintKm2": 4.0961016932629635,
+  "outsideWindowBoundaryMaxDegrees": 0.0,
+  "foreignSourceSha256Unchanged": {
+    "DEU": "5a5ad4437b7b95e61e2c4a86a74de9a3f4f2a1967ae794bcc0a7aa13c2a46715",
+    "POL": "87439bdd19f241491812a9d525484fecc5127f9c8805b04e123111a793767671",
+    "CZE": "3df46778563e7580cd06a065e7f730e3a56edcd49d111da294a2cfd6a3b78327"
+  },
+  "identityLifetimeAndVersionDateUnchanged": true,
+  "sourceSha256": "8d6b2809c526bb72f8a5076c75bcdd5697e447f7531578917629d9f24ada9f64",
+  "historicalAccuracy": "period-map visual and documentary review, no independently digitized 1989 reference; no 0.5px positional pass",
+  "focusedGeometryTests": "8 passed; new Hornburg regression watched fail before generation",
+  "sharedBorderImportMeshRegression": "1 passed"
+}

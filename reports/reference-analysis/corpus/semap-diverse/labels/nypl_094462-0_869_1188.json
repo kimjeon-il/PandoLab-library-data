@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "01aebbf46ebbe36795b611a6bd553d180785f9fb91a10e3e99c812fa4a78d54e"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/nypl_094462-0_869_1188.jpg",
+      "sha256": "e92c36cf2d9a394794938787bb6a65cd75dfedc3e24e925a6b8f3893391a1284"
+    },
+    {
+      "path": "sources/nypl_094462-0_869_1188.png",
+      "sha256": "e61f0aeab327423003494682701deda82c03e9c109871a24ba8dbf381d253933"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/nypl_094462-0_869_1188.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 11176,
+    "transport": 13942,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/nypl_094462-0_869_1188.raster.png",
+    "sha256": "cbc68f2764fd89a9b2e257810e705b2f020e7c016a547d1fe98e90583f0a8c2c"
+  },
+  "validRaster": {
+    "path": "derived/nypl_094462-0_869_1188.validRaster.png",
+    "sha256": "913d87bcfb8a97306cbd1fef6bc1a75b5b9889be98f740d1fd07cbcb672122c2"
+  }
+}

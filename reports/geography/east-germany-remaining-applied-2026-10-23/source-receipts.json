@@ -1,0 +1,20 @@
+[
+  {
+    "title": "LGLN NaVKV 2/3 2010",
+    "url": "https://www.lgln.niedersachsen.de/download/80437/NaVKV_2010_2_3.pdf",
+    "sha256": "c20519232db43282624c620622a31ce3142517536ef7df566b5ef541a19546a2",
+    "original": "../east-germany-vg25-followup-2026-10-22/lgln-survey-2010.pdf",
+    "pages": "PDF 33, 40-42; 1985 map figure 4 and survey record",
+    "use": "period documentary/visual evidence; not digitized, no subpixel accuracy claim"
+  },
+  {
+    "title": "NLWKN Landschaftsschutzgebiet Grosses Bruch",
+    "url": "https://www.nlwkn.niedersachsen.de/natura2000/schutzgebiete_zur_umsetzung_von_natura_2000/landschaftsschutzgebiet-grosses-bruch-197972.html",
+    "stored": "nlwkn-grosses-bruch.html.gz",
+    "bytes": 431793,
+    "sha256": "07d7b1ea27e09669c77a83097e641dca80c1dbee70ae990a6d2df76d9aaf5473",
+    "retrievedAt": "2026-10-22T15:20:26.947Z",
+    "use": "modern region/state-boundary corroboration only; not a 1989 source",
+    "license": "No open redistribution license confirmed for HTML; preserved as research evidence only"
+  }
+]

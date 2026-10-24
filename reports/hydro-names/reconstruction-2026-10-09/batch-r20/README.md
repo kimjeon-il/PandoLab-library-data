@@ -27,7 +27,3 @@ Of three current bounded attempts, 3 completed source-scope assessment and 0 rem
 ## Recoverable remaining queue
 
 The cumulative index and exact committed initial inventory recover 4,005 unrecorded targets: 3,433 river groups and 572 lakes. Run `python recover-remaining-queue.py --inventory INVENTORY.csv.gz --include-ids`. Remaining means absent from fresh reconstructed records, not historically never researched. Known access-pending IDs and scope holds remain separate from that unrecorded list.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/2ab996e3c2e999292796101ec83969d3c01e86e9a72fa2c488c44b9d304758e7.gz) · 원본 SHA-256 `2ab996e3c2e999292796101ec83969d3c01e86e9a72fa2c488c44b9d304758e7`.

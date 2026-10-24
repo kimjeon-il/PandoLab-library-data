@@ -1,0 +1,34 @@
+[
+  {
+    "ref": "work/ui",
+    "local": "0fd3f08803e3b596101b85bb2463be81a097d982",
+    "remote": "aaed8a7a0595f53cfb8aae7868d2969fed953614",
+    "pin": "7e7a015ebddada00d97d899e11c9ebcc1847452a",
+    "coreManifestBlob": "6309408b4c6a10447e183b2f61e14d2d6485575a",
+    "wasmBlob": "0ef75bf5731f776377f656e28174007308237e34"
+  },
+  {
+    "ref": "work/objects",
+    "local": "e06a58f4550f723070a85a1ce9a9b91506688cad",
+    "remote": "7f4ed5b0661146e8ed020b86be9f02f62bcf9975",
+    "pin": "ea843c09e790245cbcfe35a44051b2d67534ee4e",
+    "coreManifestBlob": "e0dc64a5d8872a0573f16858211abe52923caa62",
+    "wasmBlob": "365ea5ca2dceebf1e27e5c7404c17286e1960e80"
+  },
+  {
+    "ref": "work/gis",
+    "local": "b0aa666b94c68d95a738d7e7fa14ecd33b850f03",
+    "remote": "b0aa666b94c68d95a738d7e7fa14ecd33b850f03",
+    "pin": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+    "coreManifestBlob": "6ba35462db36f142f298d67f5af5bd9d78ff59b5",
+    "wasmBlob": "4556f266460b4e259830a226670746324356fcb1"
+  },
+  {
+    "ref": "work/places",
+    "local": "263d2a58747376a228aaa129108f636a3e56d606",
+    "remote": "263d2a58747376a228aaa129108f636a3e56d606",
+    "pin": "cd0698ab2886e7468cf10571186c76941e56709a",
+    "coreManifestBlob": "6ba35462db36f142f298d67f5af5bd9d78ff59b5",
+    "wasmBlob": "4556f266460b4e259830a226670746324356fcb1"
+  }
+]

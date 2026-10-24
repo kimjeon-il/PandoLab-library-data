@@ -1,0 +1,657 @@
+https://www.ga.gov.au/bigobj/GA20891.pdf
+Copyright Commonwealth of Australia (Geoscience Australia) 2011, Australia Folio Map edition 3, GEOCAT 73102. Printed Creative Commons Attribution 3.0 Australia Licence. Retain map notices and attribution; derived raster/masks are modifications. Logo and coat of arms are excluded from supervision and no endorsement is implied.
+L Woods
+L Amadeus
+L Macleod
+L Mackay
+L Auld
+L Disappointment
+L Carnegie
+L Wells
+L Carey
+L Rebecca
+L Dundas
+L Cowan
+L Moore
+L Barlee
+L Austin
+L Maurice
+(Carle-Thulka)
+L Frome
+L Torrens
+L Eyre South
+L Gairdner
+L Everard
+L Blanche
+L Eyre North
+L Pedder
+L Dalrymple
+L Alexandrina
+L Argyle
+R
+Darling
+River
+Lachlan
+R
+Bogan
+R
+Macquarie
+R
+Gwydir
+R
+Drysdale
+R
+Fitzroy
+River
+Victoria
+R
+Roper
+R
+Goyder
+R
+R
+McArthur
+R
+Nicholson
+Warrego
+River
+Nebine
+Ck
+Moonie
+R
+Maranoa
+R
+Dawson
+R
+Belyando
+R
+Burdekin
+R
+Holroyd
+R
+Gilbert
+Leichhardt
+R
+Flinders
+River
+Norman
+R
+Paroo
+R
+Thomson
+R
+Bulloo
+River
+Diamantina
+River
+Georgina
+R
+Sandover
+R
+Finke
+Cooper
+Ck
+Warburton
+R
+Macumba
+R
+De
+R
+Fortescue
+R
+Ashburton
+River
+Gascoyne
+R
+Murchison
+R
+Grey
+River
+Murray
+R
+Murrumbidgee
+Mitchell
+R
+Daly
+River
+Ord
+R
+R
+GREAT
+DIVIDING
+RANGE
+GREAT
+RANGE
+MACDONNELL
+PETERMANN
+RANGES
+HAMERSLEY RANGE
+KING LEOPOLD RANGES
+FLINDERS RANGES
+RA
+DIVIDING
+Mt Meharry
+1253
+Mt Squires
+704
+Mt Ord
+947
+Mt Remarkable
+751
+Mt Evelyn
+366
+Mt Zeil
+1531
+Mt Woodroffe
+1435
+St Mary Peak
+1168
+Mt Kosciuszko
+2229
+Ulu u-Ayers Rock
+863
+r
+Mt Buller
+1805
+Round Mtn
+1586
+Consuelo Peak
+1174
+Mt Dalrymple
+1300
+Bartle Frere
+1622
+Mt Ossa
+1617
+T A N A M I
+D E S E R T
+S I M P S O N
+D E S E R T
+G R E A T
+V I C T O R I A
+D E S E R T
+G I B S O N
+D E S E R T
+G R E A T
+S A N D Y
+D E S E R T
+L I T T L E
+S A N D Y
+D E S E R T
+S T R Z E L E C K I
+D E S E R T
+A R N H E M
+L A N D
+N U L L A R B O R
+P L A I N
+K I M B E R L E Y
+P I L B A R A
+C A P E
+Y O R K
+P E N I N S U L A
+G U L F
+C O U N T R Y
+B A R K L Y
+T A B L E L A N D
+C H A N N E L
+C O U N T R Y
+V I C T O R I A
+T A S M A N I A
+A C T
+N E W
+S O U T H
+W A L E S
+Q U E E N S L A N D
+N O R T H E R N
+T E R R I T O R Y
+W E S T E R N
+A U S T R A L I A
+S O U T H
+A U S T R A L I A
+Warrior Reefs
+Osprey Reef
+Willis Group
+Lihou Reefs
+Flinders Reefs
+Marion Reef
+Saumarez Reef
+GREAT
+BARRIER
+REEF
+Ashmore Reef
+Scott Reef
+Rowley Shoals
+Flinders I
+King I
+Cape Barren I
+Bruny I
+Lord Howe I
+Kangaroo I
+Fraser I
+Curtis I
+Hinchinbrook I
+Prince of Wales I
+Moa I
+Mornington I
+Vanderlin I
+Groote Eylandt
+Wessel Is
+Croker I
+Melville I
+Bathurst I
+Augustus I
+Barrow I
+Dirk Hartog I
+Bigge I
+TORRES
+STRAIT
+GULF
+OF
+CARPENTARIA
+Halifax Bay
+Broad
+Sound
+Repulse Bay
+BAS S
+STRAIT
+GREAT
+AUSTRALIAN
+BIGHT
+Spencer Gulf
+Joseph
+Bonaparte
+Gulf
+Shark Bay
+Collier
+Bay
+Blue Mud Bay
+Van Diemen
+Gulf
+TASMAN
+SEA
+CORAL
+SEA
+SOLOMON
+SEA
+ARAFURA
+SEA
+TIMOR
+SEA
+S O U T H
+P A C I F I C
+O C E A N
+I N D I A N
+O C E A N
+I N D I A N
+O C E A N
+S O U T H E R N
+O C E A N
+S O U T H
+P A C I F I C
+O C E A N
+P A P U A
+N E W
+G U I N E A
+I N D O N E S I A
+S O L O M O N
+I S L A N D S
+EAST TIMOR
+MADURA
+NEW GEORGIA
+ISLANDS
+LOMBOK
+JAVA
+BALI
+SUMBA
+SUMBAWA
+FLORES
+TIMOR
+TANIMBAR
+WETAR
+ALOR
+D'ENTRECASTEAUX
+ISLANDS
+Yulara
+Hermannsburg
+Papunya
+Narrogin
+Lancelin
+Telfer
+Newman
+Port Hedland
+Paraburdoo
+Onslow
+Pannawonica
+Karratha
+Roebourne
+Exmouth
+Carnarvon
+Denham
+Meekatharra
+Wiluna
+Warburton
+Leinster
+Laverton
+Leonora
+Mount Magnet
+Balladonia
+Norseman
+Esperance
+Kambalda
+Northampton
+Morawa
+Dongara
+Moora
+Dalwallinu
+Wongan Hills
+Merredin
+Kellerberrin
+Northam
+York
+Corrigin
+Southern Cross
+Pingelly
+Collie
+Lake Grace
+Katanning
+Busselton
+Margaret River
+Denmark
+Mount Barker
+Manjimup
+Kojonup
+Ravensthorpe
+Jerramungup
+Tom Price
+Yarrie
+Daly River
+Yuendumu
+Tennant Creek
+Elliott
+Kalkarindji
+(Wave Hill)
+Lajamanu
+Borroloola
+Katherine
+Barunga (Bamyili)
+Ngukurr
+Numbulwar
+Alyangula
+Pine Creek
+Batchelor
+Jabiru
+Oenpelli
+Nguiu
+Nhulunbuy
+Galiwinku
+Maningrida
+Oodnadatta
+Innamincka
+Port Douglas
+Bamaga
+Weipa
+Lockhart River
+Kowanyama
+Cooktown
+Normanton
+Doomadgee
+Georgetown
+Mareeba
+Innisfail
+Greenvale
+Ingham
+Ayr
+Bowen
+Charters Towers
+Hughenden
+Collinsville
+Cloncurry
+Boulia
+Winton
+Longreach
+Barcaldine
+Emerald
+Clermont
+Moranbah
+Blackall
+Tambo
+Springsure
+Windorah
+Proserpine
+Dysart
+Middlemount
+Blackwater
+Woorabinda
+Biloela
+Kalumburu
+Wyndham
+Kununurra
+Halls Creek
+Fitzroy Crossing
+Derby
+Broome
+Lombadina
+Birdsville
+Thursday Island
+Balranald Hay
+Ivanhoe
+Gawler
+Nuriootpa
+Murray Bridge
+Victor Harbor
+Bordertown
+Kingston SE
+Naracoorte
+Millicent
+Ouyen
+Swan Hill
+Horsham
+Hamilton
+Portland
+Ararat
+Smithton
+Queenstown
+Wilcannia
+White Cliffs
+Andamooka
+Coober Pedy
+Tarcoola
+Woomera
+Marree
+Leigh Creek
+Ceduna
+Streaky Bay
+Wudinna
+Tumby Bay
+Port Lincoln
+Kingscote
+Cleve
+Port Augusta
+Hawker
+Peterborough
+Port Pirie
+Clare
+Kadina
+Renmark
+Charleville
+Quilpie
+Thargomindah
+Cunnamulla
+Broken Hill
+Deniliquin
+Tumut
+Bega
+Cooma Narooma
+Batemans Bay
+Ulladulla
+Gilgandra
+Cowra
+Young
+Griffith
+West Wyalong
+Narrandera
+Katoomba
+Bairnsdale
+Benalla
+Wangaratta
+Echuca
+Sale
+Moe
+Wonthaggi
+Kingston
+Ulverstone
+George Town
+Bridgewater
+Burnie
+St Marys
+Bowral
+Cobar
+Nyngan
+Bourke
+Brewarrina
+Lightning Ridge
+Collarenebri
+Walgett
+Moree
+Narrabri
+Gunnedah
+Mudgee
+Parkes
+Singleton
+Scone
+Taree
+Kempsey
+Yamba
+Ballina
+Tenterfield
+Glen Innes
+Grafton
+Inverell
+St George
+Dirranbandi
+Goondiwindi
+Surat
+Tara
+Roma
+Miles
+Taroom
+Gayndah
+Gympie
+Kingaroy
+Dalby
+Gatton
+Beaudesert
+Warwick
+Monto
+Mount Isa
+Armidale
+Bunbury
+Rockingham
+Mandurah
+Kalgoorlie-Boulder
+Geraldton
+Launceston
+Devonport
+Whyalla
+Mount Gambier
+Bendigo
+Melton
+Mildura
+Shepparton
+Ballarat
+Warrnambool
+Alice Springs
+Darwin
+Wagga Wagga
+Dubbo
+Bathurst
+Orange
+Maitland
+Tamworth
+Goulburn
+Albury–Wodonga
+Nowra
+Queanbeyan
+Port Macquarie
+Coffs Harbour
+Tweed Heads
+Lismore
+Cairns
+Mackay
+Rockhampton
+Gladstone
+Bundaberg
+Maryborough
+Hervey Bay
+Toowoomba
+Sunbury
+Albany
+Palmerston
+Traralgon
+CANBERRA
+WOLLONGONG
+CENTRAL COAST
+NEWCASTLE
+GEELONG
+HOBART
+GOLD COAST
+TOWNSVILLE
+SUNSHINE COAST
+MELBOURNE
+ADELAIDE
+SYDNEY
+BRISBANE
+PERTH
+Tropic of Capricorn
+Tropic of Capricorn
+Simple Conic Projection with Standard Parallels 18°S and 36°S
+500 kilometres
+100
+0
+100
+200
+300
+400
+AUSTRALIA
+AUSTRALIA
+HYPSOMETRIC TINTS
+BATHYMETRIC TINTS
+Heights and depths are shown in metres
+2000 1500 1000
+500
+200
+0
+200
+EDITION 3
+Population figures based on
+2006 Census data
+Populated places
+1 000 000 or greater
+100 000 - 999 999
+20 000 - 99 999
+Less than 20 000
+State boundary
+Reef
+Spot elevation
+Lake, non-perennial
+Lake, perennial
+River, non-perennial
+River, perennial
+1435
+Road, principal sealed
+Road, principal unsealed
+Road, secondary sealed
+Road, secondary unsealed
+Road, minor sealed
+Road, minor unsealed
+Operational railways
+AUSTRALIA FOLIO MAP
+Produced by the National Geographic Information Group
+Geoscience Australia, GEOCAT 73102
+www.ga.gov.au
+© Commonwealth of Australia (Geoscience Australia) 2011
+This material is released under the Creative Commons
+Attribution 3.0 Australia Licence
+9
+314231
+000687

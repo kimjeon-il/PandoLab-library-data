@@ -8,7 +8,3 @@ Such a maximum may merely be the peak of the search *boundary* rather than a rid
 Radial saddle score tests opposite uphill/downhill axis directions at 120/240/420m.
 It is a heuristic to screen public geographic-name coordinates, NOT pass surveying.
 No physical or political GeoJSON source was modified.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/9b1b70bccc3570f250597e276bed124f65da6b5f3291e93255b3f2f9e4aa10f2.gz) · 원본 SHA-256 `9b1b70bccc3570f250597e276bed124f65da6b5f3291e93255b3f2f9e4aa10f2`.

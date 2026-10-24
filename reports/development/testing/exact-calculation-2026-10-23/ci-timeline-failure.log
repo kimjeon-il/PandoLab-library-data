@@ -1,0 +1,273 @@
+web-timeline	Check month-end, resolution and timeline edits	﻿2026-10-23T11:24:19.0848984Z ##[group]Run node --test \
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0849333Z ^[[36;1mnode --test \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0849602Z ^[[36;1m  tests/unit/temporal.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0849933Z ^[[36;1m  tests/unit/timeline-records.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0850271Z ^[[36;1m  tests/unit/timeline-storage.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0850645Z ^[[36;1m  tests/unit/project-timeline-domain.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0851014Z ^[[36;1m  tests/unit/timeline-edit.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0851352Z ^[[36;1m  tests/unit/timeline-resolver.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0851712Z ^[[36;1m  tests/unit/timeline-objects-parity.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0852102Z ^[[36;1m  tests/unit/territorial-library.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0852809Z ^[[36;1m  tests/unit/territorial-library-service.test.mjs \^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0853221Z ^[[36;1m  tests/unit/territorial-timeline-storage.test.mjs^[[0m
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0917488Z shell: /usr/bin/bash -e {0}
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.0918015Z ##[endgroup]
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.7356473Z ✔ project domain resolves a month without changing stored project (372.17883ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.7383704Z ✔ project timeline requires its canonical core query dependency (1.103642ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.7993815Z ✔ calendar validation handles leap years and rejects impossible dates (9.440374ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8041085Z ✔ signed BCE years order before CE years without a year zero (7.234ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8065706Z ✔ open intervals contain dates and interval overlap uses parsed boundaries (15.469641ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8092447Z ✔ month precision retains its text and has no invented day (1.460917ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8147112Z ✔ every month ends on its actual last day (1.71707ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8181149Z ✔ February month boundaries use the existing signed-year leap rule (10.099216ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8246384Z ✔ month precision preserves signed and extended years without a year zero (6.188157ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8334539Z ✔ malformed month values still fail date validation (1.833609ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8363632Z ✔ year and date precision are unchanged after adding months (0.518698ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8397136Z ✔ mixed precision comparisons honor the selected boundary (1.042777ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8431724Z ✔ a same-month interval includes both endpoints but not adjacent dates (5.206565ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8477455Z ✔ open monthly intervals and BCE to CE boundaries remain inclusive (1.108963ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8524087Z ✔ monthly overlaps use endpoints rather than text order or array order (2.24122ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8543427Z ✔ reversed monthly and mixed precision intervals are rejected (3.229885ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8576294Z ✔ timeline month-end reference is an exact date without changing source precision (0.850505ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8578100Z ✔ a month interval is not silently treated as a month-end snapshot (0.46103ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8579783Z ✔ compiled C++ temporal key ordering, day succession and month movement are the only calendar owner (2.091376ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8582054Z ✔ UI normalization keeps blank, first-day, BCE and extended-year semantics separate from the shared selector (10.926938ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8584572Z ✔ blank browsing keeps every identity, name alias and catalog order without choosing geometry or today (2.542487ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8586636Z ✔ dated search distinguishes availability, gaps, explicit absence and unknown lifetimes (21.48873ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8588746Z ✔ direct coarse search and descriptor APIs retain period-end selection while UI dates select day one (8.837306ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8594076Z ✔ descriptors lazily load requested alive descendants without runtime current/historical synthesis (4.261491ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8595650Z ✔ failed catalog loading can retry (0.560067ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8597323Z ✔ missing reference date and geometry gaps never instantiate a nearest or overridden version (5.648618ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8599061Z ✔ nonblank resolution passes the exact cursor to the shared selector and never falls back across a gap (6.440413ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8600792Z ✔ representatives select only the explicit version, keep dates as provenance, and import independent geometry (0.747541ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8601893Z ✔ a missing representative is never guessed from snapshots, date metadata or version order (0.864461ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8603637Z ✔ unknown lifetimes and undated representative imports do not acquire the current date (0.399414ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8604764Z ✔ events use only existing lifetime endpoints and explicit dissolution metadata, independently of the date filter (7.614396ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8605853Z ✔ event identities retain different source fields sharing the same date and remain stable across catalog order (2.733899ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8606844Z ✔ events preserve original precision and sort BCE, CE and signed extended dates chronologically (1.472098ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8608470Z ✔ malformed optional dissolution dates do not suppress valid lifetime events or other entities (1.334779ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8610475Z ✔ undated representative descendants stay independent of explicit dated traversal (1.165399ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8611425Z ✔ modern and extinct entities have the same schema and preserve geometry without rewriting (10.439318ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8612529Z ✔ dated versions select inclusively and outside lifetime has no nearest fallback (48.2001ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8614165Z ✔ overlaps, ambiguous undated versions, duplicate IDs, year zero and invalid leap days are rejected (6.494645ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8615820Z ✔ BCE/CE precision, extended years, leap month end and geometry gaps use the temporal contract (8.369212ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8616765Z ✔ invalid IDs, versions, geometry and reversed lifetime fail visibly (1.096439ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8617970Z ✔ a single country identity selects historic replacement and modern independent geometry without changing source ID (4.331563ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8619267Z ✖ catalog versions retain explicit identities, records and whole archive through production full/delta saves (16.289016ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8620593Z ✖ complex catalog storage activates in the current Core without losing its historical identities (5.064036ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8621561Z ✖ partial catalog coverage cannot silently become a complete project lifetime (6.151517ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.8623078Z ✖ a coastline-only snapshot change keeps both complete polygon versions in the existing archive (8.750913ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.9696068Z ✔ dated geometry replacement retains exact original start and later versions (13.387191ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.9723755Z ✔ month split preserves a later exact-date endpoint verbatim (2.385511ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.9760395Z ✔ same-month replacement keeps its exact day and does not create overlap (1.138939ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.9762826Z ✔ parent change splits only its own slot and can be validated as one candidate (8.562777ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:19.9793984Z ✔ ending an entity removes future records but preserves earlier month coverage (5.160026ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.2064092Z ✔ historical timeline edits match the shared web/native golden corpus (97.241059ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5263923Z ✔ timeless hierarchy and independent region (37.093874ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5343702Z ✔ empty world (2.334866ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5379322Z ✔ schema version rejected (2.139056ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5543810Z ✔ missing entity (1.64313ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5633491Z ✔ empty record id (0.538917ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5663444Z ✔ cross-slot duplicate id (2.703291ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5693220Z ✔ duplicate entity catalog id (4.273764ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5723009Z ✔ invalid entity kind (1.156362ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5763297Z ✔ missing geometry asset (5.439615ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5783210Z ✔ missing exact geometry version (6.111321ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5873776Z ✔ zero geometry version (0.797414ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5913097Z ✔ empty geometry id (0.544387ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5923414Z ✔ bad date (4.634284ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5927309Z ✔ year zero (0.904237ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5928140Z ✔ empty date is not unbounded (3.788469ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5928998Z ✔ whitespace date is not unbounded (0.680805ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5929827Z ✔ reversed interval (0.750035ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5930530Z ✔ missing lifetime (0.646329ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5931354Z ✔ overlapping lifetimes (3.871686ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5932118Z ✔ overlapping geometry slots (2.34222ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5933431Z ✔ overlapping parent slots (3.869204ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5934237Z ✔ missing geometry slot (0.561119ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5935052Z ✔ missing parent slot (0.583251ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5935931Z ✔ geometry outside lifetime (0.710591ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5936810Z ✔ parent slot outside lifetime (3.838934ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5937564Z ✔ unknown parent (0.686134ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5938235Z ✔ self parent (3.885291ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5938884Z ✔ regional cannot be a parent (0.939823ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5939997Z ✔ regional cannot have a parent (0.931337ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5940721Z ✔ root must be explicit (0.739225ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5941423Z ✔ unknown coverage mode (0.750907ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5942089Z ✔ active parent cycle (5.943085ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5943125Z ✔ parent ends before child (0.889448ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5944070Z ✔ parent starts after child (3.834065ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5945128Z ✔ child inside finite parent (13.070763ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5945944Z ✔ bounded month lifetime (6.839416ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5946667Z ✔ exact day lifetime (6.197284ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5947362Z ✔ mixed precision lifetime (8.255348ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5948203Z ✔ normalized endpoints retain precision (6.684553ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5948910Z ✔ monthly switch (2.261367ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5949524Z ✔ daily switch (5.31023ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5950180Z ✔ inclusive same-day overlap (0.772898ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5950862Z ✔ one-day hole (0.732502ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5951525Z ✔ non-leap February adjacency (4.21834ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5952560Z ✔ leap February adjacency (5.186988ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5953271Z ✔ leap day hole (0.699079ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5953935Z ✔ century not leap (2.87207ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5954510Z ✔ 400-year leap (5.378098ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5955146Z ✔ BCE CE adjacency (7.095409ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5955813Z ✔ BCE leap adjacency (4.535138ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5956533Z ✔ expanded year adjacency (8.303067ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5957287Z ✔ upper bound then open future (4.961252ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5958108Z ✔ one-day cycle invisible at month end (0.820778ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5958921Z ✔ opposite edges in disjoint periods (4.603005ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5959667Z ✔ disjoint lifetimes (5.838577ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5960373Z ✔ geometry leaks between lifetimes (0.806782ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5961236Z ✔ unknown wire field rejected (3.33372ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.5962097Z ✔ missing collection rejected (0.273797ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6034020Z ✔ missing endpoint is not null (0.268798ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6055733Z ✔ numeric entity id rejected (0.294917ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6066369Z ✔ numeric date rejected (0.290598ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6093285Z ✔ fractional geometry version (1.412495ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6094282Z ✔ overflow geometry version (0.417018ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6154112Z ✔ retired sovereign field rejected (2.764676ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6163397Z ✔ two-million-year span uses only record boundaries (3.758552ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6193131Z ✔ maximum native geometry version (6.976364ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6213356Z ✔ Unicode date whitespace stays lossless (3.612817ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6218511Z ✔ day starts within ending month (5.20968ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6253401Z ✔ required geometry dependency cannot be silently omitted (4.765663ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6283453Z ✔ unexpected geometry repository failure propagates unchanged (10.452633ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6303495Z ✔ returned references do not alias input and cannot be edited (4.72167ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.6313392Z ✔ paired geometry and parent gaps preserve the independent lifetime (8.064638ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8007686Z ✔ month-end resolution selects exact geometry versions and parent graph (25.964724ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8010488Z ✔ month-end resolution respects disjoint lifetimes and exact days (16.241637ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8021365Z ✔ month-end resolution includes exact starts and excludes exact mid-month ends (15.237622ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8034674Z ✔ initial month uses the latest explicit record start and static fallback (1.516982ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8036560Z ✔ independent timeline golden months match effective identity, version and ancestry (59.406837ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8038152Z ✔ materialized editor views contain only living features at the selected month (7.983234ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8039925Z ✔ scattered timeline rows retain catalog order, exact values, ancestry and validation failures (408.26993ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8165571Z ✔ storage: past and present geometry versions plus unbound features (24.397306ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8166935Z ✔ storage: empty snapshot (0.587809ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8167627Z ✔ storage: missing past geometry (2.143234ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8168142Z ✔ storage: missing future version (3.523459ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8168607Z ✔ storage: territory cannot bind a point (1.020596ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8169064Z ✔ storage: territory cannot bind a line (2.295582ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8169470Z ✔ storage: duplicate version (0.578742ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8169867Z ✔ storage: unknown snapshot schema (0.457133ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8170326Z ✔ storage: invalid old geometry coordinate (0.472621ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8170727Z ✔ storage: open old ring (0.530832ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8171115Z ✔ storage: zero geometry version (0.333139ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8171503Z ✔ storage: empty geometry ID (0.352415ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8173292Z ✔ storage: overlapping records (2.512962ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8174130Z ✔ storage: one-day record gap (1.095216ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8174951Z ✔ storage: day precision retained (3.725088ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8176215Z ✔ storage: BCE CE transition retained (4.348926ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8177245Z ✔ storage: blank endpoint is not null (0.999517ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8178284Z ✔ storage: endpoint normalization retains month precision (3.22239ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8178912Z ✔ storage: maximum geometry version retained (2.654579ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8179430Z ✔ storage: unbound old version is not pruned (2.679566ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8179941Z ✔ storage: holes islands and dateline retained (4.568691ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8180456Z ✔ storage: all canonical geometry types retained (2.588064ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8181065Z ✔ storage: UTF8 geometry ID ordering (6.489435ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8181870Z ✔ storage: multiple entities share one immutable version (5.100163ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8182986Z ✔ storage: old record schema rejected (0.580616ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8183735Z ✔ storage: unknown snapshot field (0.28633ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8184256Z ✔ storage: missing geometries collection (0.211529ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8184716Z ✔ storage: unknown geometry field (0.278616ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8185144Z ✔ storage: numeric version string (0.243731ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8185559Z ✔ storage: fractional version (0.232398ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8185982Z ✔ storage: extra coordinate is rejected (0.260752ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8186594Z ✔ a failed candidate restore leaves the previously loaded storage unchanged (5.325208ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8187345Z ✔ old storage checkpoints stay intact after appending a new geometry version (3.83117ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8188044Z ✔ save validates records against real stored polygon versions (2.879043ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8188639Z ✔ store and entity catalog are required dependencies (2.304549ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8189252Z ℹ tests 165
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8189654Z ℹ suites 0
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8190048Z ℹ pass 161
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8190404Z ℹ fail 4
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8190623Z ℹ cancelled 0
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8190874Z ℹ skipped 0
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8191327Z ℹ todo 0
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8191570Z ℹ duration_ms 1687.478057
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8209837Z 
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8210100Z ✖ failing tests:
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8210335Z 
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8210710Z test at tests/unit/territorial-timeline-storage.test.mjs:28:1
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8211614Z ✖ catalog versions retain explicit identities, records and whole archive through production full/delta saves (16.289016ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8212533Z   Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8213921Z       at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8215543Z       at __emval_invoke (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8216626Z       at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8217023Z       at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8217444Z       at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8218573Z       at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8219853Z       at normalizeTimelineRecords (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-records.js:25:49)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8220694Z       at restoreTimelineStorage (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-storage.js:37:19)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8221580Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/territorial-timeline-storage.test.mjs:30:18)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8222526Z       at Test.runInAsyncScope (node:async_hooks:227:14) {
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8223129Z     code: 'TIMELINE_SCHEMA'
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8223440Z   }
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8223552Z 
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8223823Z test at tests/unit/territorial-timeline-storage.test.mjs:44:1
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8224655Z ✖ complex catalog storage activates in the current Core without losing its historical identities (5.064036ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8225261Z   Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8226470Z       at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8228038Z       at __emval_invoke (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8228846Z       at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8229246Z       at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8229632Z       at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8230745Z       at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8232128Z       at normalizeTimelineRecords (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-records.js:25:49)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8233416Z       at restoreTimelineStorage (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-storage.js:37:19)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8234262Z       at content (file:///home/runner/work/Pando/Pando/assets/js/modules/project-serializer.js:30:21)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8235127Z       at Object.buildProject (file:///home/runner/work/Pando/Pando/assets/js/modules/project-serializer.js:39:10) {
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8235952Z     code: 'TIMELINE_SCHEMA'
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8236211Z   }
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8236334Z 
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8236610Z test at tests/unit/territorial-timeline-storage.test.mjs:52:1
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8237396Z ✖ partial catalog coverage cannot silently become a complete project lifetime (6.151517ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8238097Z   AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8238546Z   + actual - expected
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8238784Z   
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8238995Z     Comparison {
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8239239Z   +   code: 'TIMELINE_SCHEMA'
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8239527Z   -   code: 'TIMELINE_GAP'
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8239807Z     }
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8239982Z   
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8240606Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/territorial-timeline-storage.test.mjs:56:10)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8241338Z       at Test.runInAsyncScope (node:async_hooks:227:14)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8241929Z       at Test.run (node:internal/test_runner/test:1402:25)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8242822Z       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8243386Z       at Test.postRun (node:internal/test_runner/test:1542:19)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8243858Z       at Test.run (node:internal/test_runner/test:1467:12)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8244356Z       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8244815Z     generatedMessage: true,
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8245083Z     code: 'ERR_ASSERTION',
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8245440Z     actual: Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8247561Z         at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8249575Z         at __emval_invoke (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8250423Z         at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8250828Z         at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8251235Z         at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8253676Z         at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8255311Z         at normalizeTimelineRecords (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-records.js:25:49)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8256202Z         at restoreTimelineStorage (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-storage.js:37:19)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8257087Z         at assert.throws.code (file:///home/runner/work/Pando/Pando/tests/unit/territorial-timeline-storage.test.mjs:56:21)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8257722Z         at getActual (node:assert:611:5),
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8258049Z     expected: { code: 'TIMELINE_GAP' },
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8258328Z     operator: 'throws',
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8258558Z     diff: 'simple'
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8258765Z   }
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8258863Z 
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8259124Z test at tests/unit/territorial-timeline-storage.test.mjs:58:1
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8259975Z ✖ a coastline-only snapshot change keeps both complete polygon versions in the existing archive (8.750913ms)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8260585Z   Error: TIMELINE_SCHEMA: Unexpected or missing fields.
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8261804Z       at methodCaller<(std::string) => emscripten::val> (eval at __emval_create_invoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:41264), <anonymous>:4:58)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8263702Z       at __emval_invoke (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:42091)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8264713Z       at wasm://wasm/00bb5f1a:wasm-function[87]:0x4316
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8265102Z       at wasm://wasm/00bb5f1a:wasm-function[2213]:0x1ee941
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8265499Z       at wasm://wasm/00bb5f1a:wasm-function[2848]:0x29dbcd
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8266649Z       at Object.timelineNormalizeRecords (eval at createJsInvoker (file:///home/runner/work/Pando/Pando/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b:1:26153), <anonymous>:6:10)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8267933Z       at normalizeTimelineRecords (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-records.js:25:49)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8268776Z       at restoreTimelineStorage (file:///home/runner/work/Pando/Pando/assets/js/modules/timeline-storage.js:37:19)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8269794Z       at TestContext.<anonymous> (file:///home/runner/work/Pando/Pando/tests/unit/territorial-timeline-storage.test.mjs:62:43)
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8270452Z       at Test.runInAsyncScope (node:async_hooks:227:14) {
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8270784Z     code: 'TIMELINE_SCHEMA'
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8271015Z   }
+web-timeline	Check month-end, resolution and timeline edits	2026-10-23T11:24:20.8293515Z ##[error]Process completed with exit code 1.

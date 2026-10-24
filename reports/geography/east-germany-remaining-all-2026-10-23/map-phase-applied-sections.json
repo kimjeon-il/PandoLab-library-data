@@ -1,0 +1,32 @@
+[
+  {
+    "id": "vg25-delvenau-approved-map",
+    "bounds": [
+      10.75,
+      53.45,
+      10.99,
+      53.59
+    ],
+    "basis": "User-approved LAiV TK25AS content1989/publication1991 overlay corroborates fixed political line in covered Delvenau/Segrahner Forst interval; pinned VG25 coordinates reused, no raster-derived coordinates here. Independent exact-date positional accuracy unmeasured."
+  },
+  {
+    "id": "tk25as-elbe-neuhaus-printed-claim",
+    "bounds": [
+      10.729910812084295,
+      53.25800456528921,
+      10.82469624859888,
+      53.30156420254467
+    ],
+    "basis": "map-depicted late1980s DDR cartographic boundary; Elbe jurisdiction disputed, not bilateral delimitation; 1988/1989 content; exact1989-04-25 validity not independently established; no independent georeferencing residual or1989 positional accuracy pass. Production use in this local branch only; external-use terms unresolved."
+  },
+  {
+    "id": "tk25as-elbe-schnackenburg-printed-claim",
+    "bounds": [
+      11.534451753409602,
+      53.03136456110668,
+      11.62215714749881,
+      53.05599538567732
+    ],
+    "basis": "map-depicted late1980s DDR cartographic boundary; Elbe jurisdiction disputed, not bilateral delimitation; 1988/1989 content; exact1989-04-25 validity not independently established; no independent georeferencing residual or1989 positional accuracy pass. Production use in this local branch only; external-use terms unresolved."
+  }
+]

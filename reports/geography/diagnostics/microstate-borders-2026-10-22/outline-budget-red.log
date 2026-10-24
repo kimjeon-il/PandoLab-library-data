@@ -1,0 +1,23 @@
+✖ large outlines cross the compiled boundary budget without losing edges or ordering (266.9444ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 697.403
+
+✖ failing tests:
+
+test at tests\unit\country-shared-boundary-state.test.mjs:20:1
+✖ large outlines cross the compiled boundary budget without losing edges or ordering (266.9444ms)
+  Error: INVALID_BOUNDARY_OVERLAP: too many source edges
+      at Object.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/country-shared-boundary-state.test.mjs:33:37)
+      at Object.apply (node:internal/test_runner/mock/mock:805:20)
+      at prepareCountrySharedBoundaryPacket (file:///D:/dev/worktrees/gis/assets/js/modules/country-shared-boundary-packet.js:203:60)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/gis/tests/unit/country-shared-boundary-state.test.mjs:37:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)

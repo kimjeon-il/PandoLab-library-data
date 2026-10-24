@@ -1,0 +1,48 @@
+{
+  "referenceDate": "1989-04-25",
+  "beforeCoordinates": 7809,
+  "afterCoordinates": 7845,
+  "beforeComponents": 6,
+  "afterComponents": 6,
+  "isValid": true,
+  "beforeAreaKm2": 108411.30717391612,
+  "afterAreaKm2": 108411.38524677171,
+  "symmetricDifferenceKm2": 0.5851051408197798,
+  "outsideAdmittedBoundaryHausdorffDegrees": 1.7763568394002505e-15,
+  "foreignSourceHashesBefore": {
+    "DEU": "5a5ad4437b7b95e61e2c4a86a74de9a3f4f2a1967ae794bcc0a7aa13c2a46715",
+    "POL": "87439bdd19f241491812a9d525484fecc5127f9c8805b04e123111a793767671",
+    "CZE": "3df46778563e7580cd06a065e7f730e3a56edcd49d111da294a2cfd6a3b78327"
+  },
+  "foreignSourceHashesAfter": {
+    "DEU": "5a5ad4437b7b95e61e2c4a86a74de9a3f4f2a1967ae794bcc0a7aa13c2a46715",
+    "POL": "87439bdd19f241491812a9d525484fecc5127f9c8805b04e123111a793767671",
+    "CZE": "3df46778563e7580cd06a065e7f730e3a56edcd49d111da294a2cfd6a3b78327"
+  },
+  "identityLifetimeInstantiationMetadataEqual": true,
+  "beforeEntitySha256": "8d6b2809c526bb72f8a5076c75bcdd5697e447f7531578917629d9f24ada9f64",
+  "afterEntitySha256": "022a4284ab8c5047e8d2a5675e26c656c47969755aa3ee251b70a15fd14fc5ec",
+  "historicalPositionalAccuracy": "not-measured-no-independent-period-vector",
+  "sections": [
+    {
+      "id": "vg25-eichsfeld-glasehausen",
+      "bounds": [
+        10.17,
+        51.453,
+        10.19,
+        51.474
+      ],
+      "changedFootprintKm2": 0.21411622109733855
+    },
+    {
+      "id": "vg25-schaalsee-mustin-thurow-land",
+      "bounds": [
+        10.915,
+        53.679,
+        10.945,
+        53.694
+      ],
+      "changedFootprintKm2": 0.37098891972244125
+    }
+  ]
+}

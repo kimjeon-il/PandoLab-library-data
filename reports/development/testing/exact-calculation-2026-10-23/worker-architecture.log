@@ -1,0 +1,2 @@
+- assets/js/modules/project-file-reader.js:11 RPC consumer owns onmessage dispatch
+- assets/js/modules/project-file-reader.js:18 RPC consumer bypasses transport with postMessage

@@ -13,7 +13,3 @@ First original-pixel observations and wider-context refinements preceded compari
 Two new scope holds increase the cumulative hold count from 34 to 36. Two prior access-pending targets remain unchanged. One new source-material-pending target is separate from access failures and scope holds: three pending targets in total. Prior targets were not reassessed. Unknown scalar and Korean fields are null, including all whole-feature scalar/product-name fields. Loon Lake and Primrose Lake are partial research associations only. Automatic and product application remain false. No geometry or product data was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. The public checks verify included current-three factual linkage, bounded metadata, arithmetic and included-file integrity. They cannot reopen original maps, recompute omitted full polygons, reproduce map judgments or replay the decoder. Maps, crops, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry-component files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/da150a93bff38631c03e902c9cd49263973d4666ca2648f7b8033d490c85b85b.gz) · 원본 SHA-256 `da150a93bff38631c03e902c9cd49263973d4666ca2648f7b8033d490c85b85b`.

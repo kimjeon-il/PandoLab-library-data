@@ -1,0 +1,64 @@
+[WebServer] (node:540) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:10092) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\builtin-country-loading.spec.mjs:4:1 › builtin country loading follows calendar rollover, retains manual dates and never requests the retired project (35.0s)
+(node:12600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 tests\browser\historical-world-timeline.spec.mjs:28:1 › historical geometry and parent edits preserve the earlier month and support lock and Undo (25.5s)
+(node:20256) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 tests\browser\historical-library.spec.mjs:93:1 › East Germany static import preserves identity, archive, history and original source (1.3m)
+
+
+  1) tests\browser\builtin-country-loading.spec.mjs:4:1 › builtin country loading follows calendar rollover, retains manual dates and never requests the retired project 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      10 |  expect(await page.evaluate(()=>window.PANDOLAB_BUILD_META.builtinWorld?.url)).toContain('builtin-world/generated/v1/index.json');
+      11 |  await expect(page.locator('#timelineMonthButtonText')).toHaveText('2026년 10월');
+    > 12 |  expect(requests.some(url=>url.includes('/builtin-world/generated/v1/countries/'))).toBe(true);
+         |                                                                                     ^
+      13 |  expect(requests.some(url=>url.includes('world-project.json.gz'))).toBe(false);
+      14 |  await page.clock.setSystemTime(new Date(2026,10,1));await page.evaluate(()=>window.dispatchEvent(new window.Event('focus')));
+      15 |  await expect(page.locator('#timelineMonthButtonText')).toHaveText('2026년 11월',{timeout:45000});
+        at D:\dev\worktrees\objects\tests\browser\builtin-country-loading.spec.mjs:12:85
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\builtin-country-loading-bu-3bb92-equests-the-retired-project\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\builtin-country-loading-bu-3bb92-equests-the-retired-project\error-context.md
+
+  2) tests\browser\historical-world-timeline.spec.mjs:28:1 › historical geometry and parent edits preserve the earlier month and support lock and Undo 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      38 |   await expect(page.locator('#editEntityCoastBtn')).toBeDisabled();
+      39 |   await page.locator('#undoBtn').click();
+    > 40 |   expect(await page.evaluate(id => window.PANDOLAB_TERRITORIAL.isLocked(id), id)).toBe(false);
+         |                                                                                   ^
+      41 |   await page.evaluate(id => window.PANDOLAB_TERRITORIAL.select(id), id);
+      42 |   await page.locator('#actionsTabBtn').click();
+      43 |   await expect(page.locator('#editEntityCoastBtn')).toBeEnabled();
+        at D:\dev\worktrees\objects\tests\browser\historical-world-timeline.spec.mjs:40:83
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\historical-world-timeline--628fd-h-and-support-lock-and-Undo\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\historical-world-timeline--628fd-h-and-support-lock-and-Undo\error-context.md
+
+  2 failed
+    tests\browser\builtin-country-loading.spec.mjs:4:1 › builtin country loading follows calendar rollover, retains manual dates and never requests the retired project 
+    tests\browser\historical-world-timeline.spec.mjs:28:1 › historical geometry and parent edits preserve the earlier month and support lock and Undo 
+  1 passed (2.4m)

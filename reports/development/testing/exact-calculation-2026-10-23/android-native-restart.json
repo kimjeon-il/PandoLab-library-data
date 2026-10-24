@@ -1,0 +1,23 @@
+{
+  "beforePid": "6517",
+  "source": "apps/web-shell/src-tauri/capabilities/prototype-main.json",
+  "sourceHash": "6bd6bee1246cd0f98db634979476479e7c18105bca0d39897b933f6aa3a05a6a",
+  "beforeNativeHash": "b8ef02f4cae32fa680dd766c6e72d6bf55ad65e77bbbc35d6d02f4acb44db267",
+  "beforeNativeMtime": 1792771213526.5298,
+  "trigger": "2026-10-23T16:05:11.220Z",
+  "afterPid": "7487",
+  "afterNativeMtime": 1792771774562.0154,
+  "afterNativeHash": "b8ef02f4cae32fa680dd766c6e72d6bf55ad65e77bbbc35d6d02f4acb44db267",
+  "sourceRestored": true,
+  "restart": true,
+  "observedBuild": {
+    "compiledCrates": [
+      "pandolab-web-shell"
+    ],
+    "cargoDuration": "4m55s",
+    "gradleDuration": "28s",
+    "gradleExecuted": 2,
+    "gradleUpToDate": 93,
+    "scope": "Exact-byte resave of native capability input; real watcher rebuild and PID restart, no semantic source edit."
+  }
+}

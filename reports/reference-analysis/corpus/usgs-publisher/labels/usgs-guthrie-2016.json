@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewed": false,
+  "origin": "publisher-layer-export",
+  "width": 2009,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "sourcePdf": "sources/usgs-guthrie-2016.pdf",
+  "sourceSha256": "5998b3342c6b1adb383b4fc6839ab976ed6898d5c7aeefe31e9e3ae655e98cba",
+  "sourceMetadata": "sources/usgs-guthrie-2016.source.json",
+  "sourceMetadataSha256": "3dac0f9176dccab0b28fd5ef8e3721864b8e5ae2ec60c270b2044c7f4ab8d925",
+  "producer": {
+    "script": "tools/reference-analysis/publisher.py",
+    "sha256": "53fb78609a1c834f725bb942fa122e8af65872369b025340d6c4fafc2c1f71db",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "sourceRectPts": [
+    0.0,
+    0.0,
+    1638.0,
+    2088.0
+  ],
+  "pixelsPerPoint": 1.2260536398467432,
+  "layers": {
+    "international": [
+      "International"
+    ],
+    "administrative": [
+      "State or Territory",
+      "County or Equivalent"
+    ],
+    "hydro": [
+      "Hydrography"
+    ],
+    "transport": [
+      "Road Features",
+      "Trails",
+      "Railroads"
+    ],
+    "frame": [
+      "Map Frame",
+      "Projection and Grids"
+    ]
+  },
+  "disabledInputLayers": [
+    "Orthoimage",
+    "Shaded Relief"
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 5756,
+    "coast": 0,
+    "hydro": 38950,
+    "transport": 61714,
+    "text": 730194,
+    "frame": 57845
+  },
+  "raster": {
+    "path": "derived/usgs-guthrie-2016.mask.png",
+    "sha256": "56a87d6624b734df8aa42a9cf7ca197e3874ac5ee87444f2b3fbff0ff3ed22e1"
+  },
+  "validRaster": {
+    "path": "derived/usgs-guthrie-2016.valid.png",
+    "sha256": "75ec4c66615dd9f1946802475a76b65a43bea36dfaa4b64e6774f36212a73a23"
+  },
+  "sheet": {
+    "id": "usgs-guthrie-2016",
+    "familyId": "usgs-us-topo",
+    "editionId": "usgs-ky-2016",
+    "duplicateGroup": "usgs-guthrie-2016",
+    "split": "train",
+    "image": "derived/usgs-guthrie-2016.jpg",
+    "annotations": "labels/usgs-guthrie-2016.json",
+    "mapKind": "color",
+    "language": "eng",
+    "script": "Latin",
+    "source": {
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/KY/KY_Guthrie_20160322_TM_geo.pdf",
+      "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88f0cd82cef33f43f0ddd0",
+      "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+      "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+      "published": "2016-03-22"
+    },
+    "sha256": "ac7a7e44293a4a664faaf327b09d19edb3f17b781f1e0b0f9471453591d3aadc"
+  }
+}

@@ -1,0 +1,15 @@
+✔ month-end resolution selects exact geometry versions and parent graph (12.1271ms)
+✔ month-end resolution respects disjoint lifetimes and exact days (6.2482ms)
+✔ month-end resolution includes exact starts and excludes exact mid-month ends (3.1164ms)
+✔ initial month uses the latest explicit record start and static fallback (1.269ms)
+✔ independent timeline golden months match effective identity, version and ancestry (72.3607ms)
+✔ materialized editor views contain only living features at the selected month (1.8182ms)
+✔ scattered timeline rows retain catalog order, exact values, ancestry and validation failures (178.6491ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 725.8824

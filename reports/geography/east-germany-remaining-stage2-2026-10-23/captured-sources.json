@@ -1,0 +1,71 @@
+[
+  {
+    "name": "dvw-hessen-thueringen-2015-1.pdf",
+    "url": "https://dvw.de/api/assets/downloads/hessen/mitteilungsheft/dvw_heth_2015_heft1.pdf",
+    "capturedAt": "2026-10-22T21:38:12.734Z",
+    "stored": "dvw-hessen-thueringen-2015-1.pdf.gz",
+    "bytes": 2513639,
+    "sha256": "c078cfb4489ac1acfdb7f260ddc74563fd801020e2a32b59bf95e73e3913fbc3"
+  },
+  {
+    "name": "grenzhus-newsletter2024.pdf",
+    "url": "https://www.grenzhus.de/GrenzhusNEU/wp-content/uploads/2025/01/Newsletter-2024_final.pdf",
+    "capturedAt": "2026-10-22T21:38:13.290Z",
+    "error": "HTTP 404"
+  },
+  {
+    "name": "grenzhus-newsletter2023.pdf",
+    "url": "https://www.grenzhus.de/GrenzhusNEU/wp-content/uploads/2023/12/Newsletter-2023_Nummer-1.pdf",
+    "capturedAt": "2026-10-22T21:38:13.291Z",
+    "error": "HTTP 404"
+  },
+  {
+    "name": "schaalsee-1990-law.html",
+    "url": "https://www.gesetze-im-internet.de/natpschaalseev/DDNR514770990.html",
+    "capturedAt": "2026-10-22T21:38:13.294Z",
+    "stored": "schaalsee-1990-law.html.gz",
+    "bytes": 36571,
+    "sha256": "6f21d88d17825d3978ea9e188a8db7c4eca4271b398b6d4956dc2f9ae1fe5c1c"
+  },
+  {
+    "name": "schaalsee-project-continuity.html",
+    "url": "https://www.kreis-rz.de/index.php?FID=327.1042.1&ModID=9&object=tx%2C3149.1",
+    "capturedAt": "2026-10-22T21:38:13.295Z",
+    "stored": "schaalsee-project-continuity.html.gz",
+    "bytes": 25155,
+    "sha256": "e851f05810db0c8ce2c4e9a8bdfd4ce54d869cb400f3957c7b673ecb5f524208"
+  },
+  {
+    "name": "kreis-lauenburg-history.html",
+    "url": "https://www.kreis-rz.de/Politik-und-Verwaltung/Der-Kreis-Herzogtum-Lauenburg/",
+    "capturedAt": "2026-10-22T21:38:13.296Z",
+    "stored": "kreis-lauenburg-history.html.gz",
+    "bytes": 65895,
+    "sha256": "39d363dd58d7b0ea81b72ab8f335d16997fd22f1442c5ad8eebfcc01ace726d5"
+  },
+  {
+    "name": "grenzhus-newsletter2024-current-path.pdf",
+    "url": "https://www.grenzhus.de/wp-content/uploads/2025/01/Newsletter-2024_final.pdf",
+    "stored": "grenzhus-newsletter2024-current-path.pdf.gz",
+    "bytes": 1102333,
+    "sha256": "d2ebfd2cc21a57c4a980e781443025486023be43daff7a07532a3a54cdc531e5",
+    "capturedAt": "2026-10-22T21:43:10.532Z"
+  },
+  {
+    "name": "grenzhus-newsletter2023-current-path.pdf",
+    "url": "https://www.grenzhus.de/wp-content/uploads/2023/12/Newsletter-2023_Nummer-1.pdf",
+    "stored": "grenzhus-newsletter2023-current-path.pdf.gz",
+    "bytes": 1168346,
+    "sha256": "dfffe040ab7f3f81892f354ad4763ccea9c695363e25f495c7e71cda2a3253d9",
+    "capturedAt": "2026-10-22T21:43:14.135Z"
+  },
+  {
+    "name": "sh-dtk25-mustin-thurow-current.png",
+    "url": "https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=sh_dtk25_col&STYLES=&SRS=EPSG:4326&BBOX=10.88,53.66,10.99,53.71&WIDTH=1200&HEIGHT=900&FORMAT=image/png",
+    "bytes": 680985,
+    "sha256": "938d17347b28a56439ef7e64bd706abdf66a45830c1db156ee70e4d83aa8740c",
+    "capturedAt": "2026-10-22T21:48:46.204Z",
+    "license": "CC BY 4.0; © GeoBasis-DE/LVermGeo SH/CC BY 4.0",
+    "use": "current hydrography and land-only window screening, not a1989map"
+  }
+]

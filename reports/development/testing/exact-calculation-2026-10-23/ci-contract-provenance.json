@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "file": "scripts/plan-application-checks.mjs",
+      "baselineBlob": "2a78a0024ab473bc2567c7be7ef0a246fee2d146",
+      "finalBlob": "2a78a0024ab473bc2567c7be7ef0a246fee2d146"
+    },
+    {
+      "file": "apps/web-shell/reference-analysis-probe.js",
+      "baselineBlob": "09735da4245ecfa21bc741f67922e2a4389bc692",
+      "finalBlob": "09735da4245ecfa21bc741f67922e2a4389bc692"
+    },
+    {
+      "file": "tests/unit/territorial-timeline-storage.test.mjs",
+      "baselineBlob": "51ba97ee1dff87ef180b7604275e2ebdb322b574",
+      "finalBlob": "51ba97ee1dff87ef180b7604275e2ebdb322b574"
+    },
+    {
+      "file": "tests/browser/temporal-editing.spec.mjs",
+      "baselineBlob": "cf605e7b4b561bfc2b403fd957896cfcefb5938c",
+      "finalBlob": "cf605e7b4b561bfc2b403fd957896cfcefb5938c"
+    },
+    {
+      "file": "assets/js/modules/browser-project-storage.js",
+      "baselineBlob": "d1e93401bfe7383eccb43934ba15f6551e375a3e",
+      "finalBlob": "d1e93401bfe7383eccb43934ba15f6551e375a3e"
+    },
+    {
+      "file": "shared/core/src/timeline-records.cpp",
+      "baselineBlob": "9fdfce5edcfaf1171914d87728fa3f3a188cdd93",
+      "finalBlob": "9fdfce5edcfaf1171914d87728fa3f3a188cdd93"
+    }
+  ],
+  "notes": [
+    "All listed paths are byte-identical Git blobs before/after the optimization.",
+    "Four storage tests use schemaVersion 1 without propertyBindings; canonical record schema is 2.",
+    "Temporal roundtrip reads active-view but current storage uses active-view:<documentId>; projectSavedAt field is retired.",
+    "Application planner resolves staged shell static imports against source layout.",
+    "WASM repeated Linux build differs, source identity and JS identical; do not claim reproducibility or all CI passing.",
+    "Followup CI cleanup was halted at user concern about scope/size; own experimental test removed, no product/check weakening."
+  ]
+}

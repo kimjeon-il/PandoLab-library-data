@@ -1,0 +1,27 @@
+[
+  {
+    "id": "vg25-eichsfeld-glasehausen",
+    "bounds": [
+      10.17,
+      51.453,
+      10.19,
+      51.474
+    ],
+    "basis": "Restricted land interval east of Glasehausen, adjoining the previously admitted northern Eichsfeld window. Niedersachsen Das Eichsfeld (2002), printed p.17/PDF p.18, explicitly records the former state boundary becoming the land boundary on 1990-10-03; printed p.18/PDF p.19 reproduces the July 1990 Eichenberg-Brochthausen crossing overview. The restricted window excludes Wendebach and Werra. Documentary continuity and schematic period-map review, not an independently digitized 1989 positional test.",
+    "evidence": "https://www.mk.niedersachsen.de/download/57145/Peter_Aufgebauer_u.a._Eichsfeld_-_Ein_deutscher_Grenzraum._Niedersaechsische_Landeszentrale_fuer_politische_Bildung._Niedersachsen_-_vom_Grenzland_zum_Land_in_der_Mitte._Folge_6_._Hannover_2002._PDF_2.196_KB_124_Seiten_..pdf",
+    "corroboration": "https://www.lgln.niedersachsen.de/download/80437/NaVKV_2010_2_3.pdf"
+  },
+  {
+    "id": "vg25-schaalsee-mustin-thurow-land",
+    "bounds": [
+      10.915,
+      53.679,
+      10.945,
+      53.694
+    ],
+    "basis": "Only the two inland forest arcs southeast of Mustin toward Gross Thurow. Kreis Herzogtum Lauenburg explicitly identifies the former inter-German boundary as the present SH/MV state boundary throughout the Schaalsee project. NatPSchaalseeV of 1990-09-12 section 2(2)4 identifies its shared western state-border interval; the Kreis history records the 1945 territorial exchange. Official current SH DTK25 reviewed to exclude Culpiner See, Wasserkrueger See and other lake/river shores. The current map screens land/water only; documentary continuity is not independent 1989 vector accuracy.",
+    "evidence": "https://www.kreis-rz.de/Adressen/Zweckverband-Schaalsee-Landschaft-.php?ModID=9&FID=327.1042.1",
+    "corroboration": "https://www.gesetze-im-internet.de/natpschaalseev/DDNR514770990.html",
+    "overview": "https://service.gdi-sh.de/WMS_SH_DTK25_OpenGBD"
+  }
+]

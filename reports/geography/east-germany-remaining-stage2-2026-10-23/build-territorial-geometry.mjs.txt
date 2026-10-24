@@ -1,0 +1,13 @@
+{"geometryVersion":"state:deutsche-demokratische-republik:1989-04-25-r1","componentCount":6,"output":"assets/data/territorial-entities/source/countries/state-deutsche-demokratische-republik.json","check":false}
+
+BOUNDARY_SECTION lsib-poland-adopted-central arcs=63 oldLengthDegrees=2.26466
+BOUNDARY_SECTION lsib-czech-saxony arcs=59 oldLengthDegrees=3.87619
+BOUNDARY_SECTION vg25-schaalsee-lake arcs=3 oldLengthDegrees=0.192567
+BOUNDARY_SECTION vg25-bavaria-central arcs=189 oldLengthDegrees=2.92481
+BOUNDARY_SECTION vg25-saxony-bavaria arcs=8 oldLengthDegrees=0.0201026
+BOUNDARY_SECTION vg25-eichsfeld-north arcs=4 oldLengthDegrees=0.134395
+BOUNDARY_SECTION vg25-harz-ecker arcs=6 oldLengthDegrees=0.118729
+BOUNDARY_SECTION vg25-geismar-spahl arcs=5 oldLengthDegrees=0.0161432
+BOUNDARY_SECTION vg25-wolfenbuettel-hornburg arcs=10 oldLengthDegrees=0.34557
+BOUNDARY_SECTION vg25-eichsfeld-glasehausen arcs=3 oldLengthDegrees=0.0208052
+BOUNDARY_SECTION vg25-schaalsee-mustin-thurow-land arcs=2 oldLengthDegrees=0.0201415

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "scope": [
+    "reports/reference-analysis/corpus/macro-political",
+    "reports/reference-analysis/models/macro-v4",
+    "reports/reference-analysis/macro-publisher-training-2026-10-24.md"
+  ],
+  "beforeRevision": "97be899888cec22885c4120f00903f0890dca7ab",
+  "verifiedRevision": "1019444257e25c02b3087dad901d80903dbb0c58",
+  "verifiedRawFiles": 73,
+  "newLogicalFiles": 31,
+  "unchangedNonTargetEntries": 6027,
+  "runtimePinUnchanged": true,
+  "trainingOnly": true,
+  "releaseApproved": false,
+  "recordedAt": "2026-10-24T12:20:54.676Z"
+}

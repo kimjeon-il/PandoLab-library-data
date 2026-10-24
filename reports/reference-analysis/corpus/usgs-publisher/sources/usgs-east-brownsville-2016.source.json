@@ -1,0 +1,23 @@
+{
+  "id": "usgs-east-brownsville-2016",
+  "familyId": "usgs-us-topo",
+  "editionId": "usgs-tx-2016",
+  "language": "eng",
+  "script": "Latin",
+  "published": "2016-02-26",
+  "format": "pdf",
+  "materialKind": "publisher-layered-pdf",
+  "rightsReviewed": true,
+  "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+  "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+  "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88fc7882cef33f43f2114c",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/TX/TX_East_Brownsville_20160226_TM_geo.pdf",
+  "expectedBytes": 14992038,
+  "maximumBytes": 33554432,
+  "sha256": "f76179e205a70bfd3adde81050c4b256222e4eaec4f762000cfaca133322c26e",
+  "bytes": 14992038,
+  "acquiredAt": "2026-10-23T03:29:22.072013+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

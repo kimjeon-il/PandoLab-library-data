@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "codeRevision": "f4e24681d77df9290afd5eb934b1d56b1bcc7cad",
+  "trainingOnly": true,
+  "evaluationStatus": "pending",
+  "releaseApproved": false,
+  "geographicFocus": "macro-only",
+  "originalGroups": 3,
+  "inputVariants": 4,
+  "tiles": 96,
+  "epochsCompleted": 8,
+  "attemptedBatches": 768,
+  "optimizerUpdates": 764,
+  "skippedUpdates": 4,
+  "selectedEpoch": 7,
+  "trainingLoss": 0.4816967349393053,
+  "validationLoss": null,
+  "learningRate": 1e-05,
+  "freezeEncoderEpochs": 2,
+  "device": "cuda",
+  "sampling": "balanced-corpora-originals-with-coverage",
+  "corpusSha256": "5c384a0321d2ae9af8a48e2aa49daf90ec6ca538fc48e541aa78d3ca3d2c837d",
+  "baselineCheckpointSha256": "821ac74bce26018c1da8d5ae273dc33a9a17f02f76c25039e94e44ea8247f218",
+  "checkpointSha256": "b5c60836159048d59825bee921870a7b3cc226393d40f96d385b8d596423edf4",
+  "onnxSha256": "fa006251ebedd5892ea7e9485c83f83b8b4f1d8dc29f38148a0d846d257829e5",
+  "unobservedChannels": [
+    "coast",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "toolchain": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "PyMuPDF": "1.26.6",
+    "onnx": "1.23.2"
+  },
+  "pending": [
+    "independent reviewed macro boundary annotations and evaluation",
+    "historical and non-Latin macro-map coverage",
+    "actual Windows WebView2 and Android full-image offline budgets"
+  ],
+  "history": [
+    {
+      "epoch": 0,
+      "attemptedBatches": 96,
+      "optimizerUpdates": 93,
+      "skippedUpdates": 3,
+      "trainingLoss": 1.7452273033559322,
+      "validationLoss": null
+    },
+    {
+      "epoch": 1,
+      "attemptedBatches": 192,
+      "optimizerUpdates": 188,
+      "skippedUpdates": 4,
+      "trainingLoss": 1.242546582594514,
+      "validationLoss": null
+    },
+    {
+      "epoch": 2,
+      "attemptedBatches": 288,
+      "optimizerUpdates": 284,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.9727671563953967,
+      "validationLoss": null
+    },
+    {
+      "epoch": 3,
+      "attemptedBatches": 384,
+      "optimizerUpdates": 380,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.7710120658048254,
+      "validationLoss": null
+    },
+    {
+      "epoch": 4,
+      "attemptedBatches": 480,
+      "optimizerUpdates": 476,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.7788460893470983,
+      "validationLoss": null
+    },
+    {
+      "epoch": 5,
+      "attemptedBatches": 576,
+      "optimizerUpdates": 572,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.6724272580286197,
+      "validationLoss": null
+    },
+    {
+      "epoch": 6,
+      "attemptedBatches": 672,
+      "optimizerUpdates": 668,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.5890653362427353,
+      "validationLoss": null
+    },
+    {
+      "epoch": 7,
+      "attemptedBatches": 768,
+      "optimizerUpdates": 764,
+      "skippedUpdates": 4,
+      "trainingLoss": 0.4816967349393053,
+      "validationLoss": null
+    }
+  ]
+}
