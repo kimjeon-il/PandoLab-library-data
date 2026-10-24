@@ -138,6 +138,27 @@
 - `inventory.json`의 `reviewState`는 독립 검증 완료 또는 잘못된 이름 최종 판정이 아니다.
 - 원본 OSM 조사 자료·권리 기록은 역사 연구 증거로 보존한다.
 
+## Natural Earth 독립 선형 비교 (추가 조사)
+
+- [73개 수계별 본류·명칭 대조 수치](ne-crosscheck.json) — OSM과 무관한 Natural Earth `rivers_base.geojson`의 SHA-256을 검사한 후, 실제 배포 수계 **본류**의 각 길이 비례 81표본을 1:10m Natural Earth 하천과 공간 대조했다.
+- 소스 SHA: `3391aa917d3707be8da0a133b5a3bde26594e8b87648cb7f533d0df4fd8bcc99`; 이름 있는 Natural Earth 선분 **4,226개**.
+- 대조 허용 범위 `0.14°`는 조사용 후보 범위일 뿐 위치 정확도나 확정 오차가 아니다. 점표본의 근접 비율은 지오메트리 독립 비교이며, 최종 이름 승인과 구분한다.
+
+| ID | 현재 대표명 | 독립 NE 본류 후보 | 81표본 근접률 | 별도 검증 자료 |
+|---|---|---|---:|---|
+| `20680587` | 과디아나강 | 과달키비르강 (Guadalquivir) | 97.5% | [기관 원문](https://www.boe.es/buscar/doc.php?id=BOE-A-2013-5319) |
+| `20773860` | 수에즈운하강 | 수에즈운하 (Suez Canal) | 85.2% | [기관 원문](https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx) · 운하 분류 검토 |
+| `40485117` | 아라카와강 | 도네강 (Tone) | 100.0% | [기관 원문](https://www.mlit.go.jp/common/001157851.pdf) |
+| `41023100` | 라비강 | 인더스강 (Indus) | 60.5% | [기관 원문](https://www.fao.org/4/y5082e/y5082e05.htm) |
+| `41279826` | 브라마푸트라강/얄룽창포강 | 살윈강 (Salween) | 96.3% | [기관 원문](https://www.fao.org/aquastat/en/countries-and-basins/transboundary-river-basins/salween/) |
+| `50261309` | 마하캄강 | 바리토강 (Barito) | 92.6% | [기관 원문](https://sda.pu.go.id/balai/bwskalimantan3/berita/kunker-dprd-kotabaru-ke-balai-wilayah-sungai-kalimantan-iii) |
+| `70576631` | 서스쿼해나강 | 델라웨어강 (Delaware) | 91.4% | [기관 원문](https://www.usgs.gov/centers/new-jersey-water-science-center/science/delaware-river-basin-study-unit-description) |
+| `70816878` | 리오그란데강 | 브래저스강 (Brazos) | 76.5% | [기관 원문](https://www.usgs.gov/publications/reconnaissance-investigation-ground-water-resources-brazos-river-basin-texas) · 한국어 표기 추가 검수 |
+
+- 위 표의 8개는 독립적인 Natural Earth 선형 비교와 기관 문헌 대조가 확보된 **교체·재분류 후보**다. 해당 교체에 영향을 받는 수계의 하구 및 본류 연속성과 한국어 표기 최종 승인은 별도로 판단한다.
+- NE 대조에서 일치 후보가 없거나 두 강이 섞여 나타나는 수계는 확인 없이 이름을 새로 부여하지 않는다. 이전 승인 교정표도 보존한다.
+- 자료에 포함된 한국어 이름이 OSM 계열인지 여부는 OSM bbox 매칭 자체로 판단하지 않는다. `sourceLabels`와 외부 검증 근거를 분리한다.
+
 ## 데이터 반영
 
 `not-applied` · 원본 수계 형상·명칭·출처 UI 유지, 단 재현 가능한 조사·대조 목록 생성.
