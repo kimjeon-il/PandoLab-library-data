@@ -30,7 +30,3 @@ Run with Python 3:
 The validator reads included files only and makes no network requests. It checks 18 included input pins, component manifests, complete ordered geometry, identity joins, research/review factual linkage, bibliography and separate access/completion/follow-up categories. The review manifest covers seven other review files and excludes itself.
 
 Passing establishes included-file integrity and consistency only. It does not independently establish source interpretation or approval to apply names.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/5e422e4f8aefa8516a22253e38523c6e951c6e4e55c836df6914bf734f68b232.gz) · 원본 SHA-256 `5e422e4f8aefa8516a22253e38523c6e951c6e4e55c836df6914bf734f68b232`.

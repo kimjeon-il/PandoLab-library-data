@@ -1,0 +1,15 @@
+[WebServer] (node:18152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:19512) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\editor-status-timeline.spec.mjs:6:1 › editor status bar omits date navigation while editing context remains usable (24.1s)
+(node:6272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 tests\browser\timeline-controls.spec.mjs:7:1 › floating date controls preserve navigation and document state across desktop and narrow mobile (37.5s)
+
+  2 passed (1.1m)

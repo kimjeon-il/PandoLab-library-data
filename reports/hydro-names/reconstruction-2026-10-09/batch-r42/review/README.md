@@ -13,7 +13,3 @@ The Ontario Geological Survey's Index to Maps, Bedrock Geology, 1991–2020, Nor
 The three new scope holds bring the cumulative count to 39; all prior 36 holds are preserved. Two access-pending cases and one material-pending case, lakes_base:1159109285, remain separate and unchanged. There are three pending-source targets total. Readable source coverage does not resolve the present naming-scope issues. Prior targets were not reassessed. Candidate scalar, whole-feature scalar/product and Korean fields remain null. Component name arrays are bounded associations only. Automatic and product application remain false. No geometry, topology or product data was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. Checks validate included current-three factual linkage, bounded geometry metadata, arithmetic and included-file bytes only. They cannot reopen omitted original maps, recompute full polygons, reproduce visual judgments or replay the decoder. Original maps, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/7135e38949ed7344a98904d4aeee9a164cb1e17e6d17d379e5ca934ff6c620e8.gz) · 원본 SHA-256 `7135e38949ed7344a98904d4aeee9a164cb1e17e6d17d379e5ca934ff6c620e8`.

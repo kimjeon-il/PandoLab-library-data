@@ -7,7 +7,3 @@
 - 현행 지형·수계 v0.13.2·GDAL WASM·네이티브 오프라인 패키지·연구 원본/fixture는 삭제 대상에서 제외했으며, 사용자 승인 없는 전체 구버전 일괄 삭제를 뜻하지 않는다.
 
 [정리 전 원문·전체 테스트 목록·출처·원본 커밋](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/legacy-world-asset-retirement-2026-10-13.md)을 참조할 것. 현재 지도 데이터·런타임 변경이나 검증 완료를 의미하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/e294c238d5d8a84409f736d5cc4e73addca17a188f9d480530a09c82839e5f02.gz) · 원본 SHA-256 `e294c238d5d8a84409f736d5cc4e73addca17a188f9d480530a09c82839e5f02`.

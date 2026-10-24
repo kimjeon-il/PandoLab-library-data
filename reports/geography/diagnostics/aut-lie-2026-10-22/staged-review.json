@@ -1,0 +1,120 @@
+{
+  "widthCssPx": 2560,
+  "flatZoom": 64,
+  "source": "swissBOUNDARIES3D 2025-01 independent official vectors",
+  "sourceCrs": "EPSG:2056",
+  "comparisonCrs": "EPSG:4326, equirectangular display coordinates",
+  "transform": "Inverse of Swiss Oblique Mercator 1995 + CH1903+ to WGS 84 (1) + axis order change (2D)",
+  "publishedTransformAccuracyMetres": 1.0,
+  "scope": "entire AUT/LIE boundary and four adjacent tripoint branches, C++ normalized staged geometry",
+  "historicalGroundTruthVerified": false,
+  "preservedIdsDatesAndOtherMetadata": [
+    "AUT",
+    "CHE",
+    "LIE"
+  ],
+  "counterpartOverlapDegreesSquared": {
+    "AUT/LIE": 0.0,
+    "AUT/CHE": 0.0,
+    "CHE/LIE": 0.0
+  },
+  "threeCountryUnionDeltaDegreesSquared": 0.0,
+  "sections": [
+    {
+      "pair": [
+        "AUT",
+        "LIE"
+      ],
+      "anchors": [
+        [
+          9.530734900000027,
+          47.270574200000055
+        ],
+        [
+          9.607062800000051,
+          47.060771500000044
+        ]
+      ],
+      "samples": 2677,
+      "sampledMaximumCssPx": 0.18125267473693943,
+      "continuousUpperBoundCssPx": 0.40880823029249497
+    },
+    {
+      "pair": [
+        "AUT",
+        "CHE"
+      ],
+      "anchors": [
+        [
+          9.530734900000027,
+          47.270574200000055
+        ],
+        [
+          9.6457521023652,
+          47.43077559487466
+        ]
+      ],
+      "samples": 643,
+      "sampledMaximumCssPx": 0.177576923970323,
+      "continuousUpperBoundCssPx": 0.4051324795258785
+    },
+    {
+      "pair": [
+        "CHE",
+        "LIE"
+      ],
+      "anchors": [
+        [
+          9.530734900000027,
+          47.270574200000055
+        ],
+        [
+          9.49686092774352,
+          47.15418744800902
+        ]
+      ],
+      "samples": 289,
+      "sampledMaximumCssPx": 0.12330576400305553,
+      "continuousUpperBoundCssPx": 0.35086131955861105
+    },
+    {
+      "pair": [
+        "AUT",
+        "CHE"
+      ],
+      "anchors": [
+        [
+          9.607062800000051,
+          47.060771500000044
+        ],
+        [
+          9.617003273197453,
+          47.05388152264693
+        ]
+      ],
+      "samples": 84,
+      "sampledMaximumCssPx": 0.17222653397683824,
+      "continuousUpperBoundCssPx": 0.3997820895323938
+    },
+    {
+      "pair": [
+        "CHE",
+        "LIE"
+      ],
+      "anchors": [
+        [
+          9.607062800000051,
+          47.060771500000044
+        ],
+        [
+          9.55328140000006,
+          47.05697920000006
+        ]
+      ],
+      "samples": 243,
+      "sampledMaximumCssPx": 0.1641653643606431,
+      "continuousUpperBoundCssPx": 0.3917209199161986
+    }
+  ],
+  "maximumContinuousUpperBoundCssPx": 0.40880823029249497
+}

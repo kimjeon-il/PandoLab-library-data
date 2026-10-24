@@ -1,0 +1,21 @@
+{
+  "platform": "Windows WebView2",
+  "file": "assets/css/app.css",
+  "navigations": [
+    {
+      "url": "http://127.0.0.1:4175/",
+      "started": 1792764320317.5
+    },
+    {
+      "url": "http://127.0.0.1:4175/",
+      "started": 1792764327309.8
+    },
+    {
+      "url": "http://127.0.0.1:4175/",
+      "started": 1792764333608.1
+    }
+  ],
+  "binarySha256Before": "2937edd2bb209af45cacd6136aa5df86c65dbbe7dcc4ebf86c6f38f5e30adc7e",
+  "binarySha256After": "2937edd2bb209af45cacd6136aa5df86c65dbbe7dcc4ebf86c6f38f5e30adc7e",
+  "binaryUnchanged": true
+}

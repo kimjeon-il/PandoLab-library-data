@@ -1,0 +1,103 @@
+{
+  "id": "cia-asia-political",
+  "familyId": "cia-asia-political-azimuthal",
+  "editionId": "cia-asia-803612ai-2013",
+  "duplicateGroup": "cia-asia-political-2013",
+  "language": "eng",
+  "script": "Latin",
+  "mapKind": "color",
+  "published": "2013",
+  "printedEditionCode": "803612AI (G00543) 8-13",
+  "format": "pdf",
+  "materialKind": "published-macro-pdf",
+  "rightsReviewed": true,
+  "geographicScope": "continent",
+  "scopeEvidence": "Complete Asia continental map, printed 1:48,000,000 and Azimuthal Equal-Area Projection; whole-map frame inspected.",
+  "url": "https://maps.lib.utexas.edu/maps/middle_east_and_asia/asia_pol_2013.pdf",
+  "metadataUrl": "https://maps.lib.utexas.edu/maps/asia.html",
+  "rightsUrl": "https://www.cia.gov/site-policies/",
+  "license": "CIA public-domain map; credit Central Intelligence Agency and University of Texas Libraries archival reproduction; retain source notices.",
+  "uncertainty": "Colour adjacency is source-derived weak supervision. Same-colour, coastal and obscured boundaries remain unknown. Broad disputed India/Pakistan/China area is excluded; map notices do not establish sovereignty.",
+  "supervision": {
+    "strategy": "country-fill-adjacency",
+    "radiusPixels": 2,
+    "countryFillColors": [
+      [
+        1.0,
+        0.9686274509803922,
+        0.6
+      ],
+      [
+        1.0,
+        0.8,
+        0.3058823529411765
+      ],
+      [
+        0.8352941176470589,
+        0.8823529411764706,
+        0.3568627450980392
+      ],
+      [
+        0.5372549019607843,
+        0.7803921568627451,
+        0.396078431372549
+      ],
+      [
+        0.21176470588235294,
+        0.7333333333333333,
+        0.611764705882353
+      ],
+      [
+        0.596078431372549,
+        0.8313725490196079,
+        0.7607843137254902
+      ],
+      [
+        0.7333333333333333,
+        0.7137254901960784,
+        0.34901960784313724
+      ],
+      [
+        0.9803921568627451,
+        0.7058823529411765,
+        0.5764705882352941
+      ],
+      [
+        0.7215686274509804,
+        0.596078431372549,
+        0.5058823529411764
+      ],
+      [
+        0.5568627450980392,
+        0.7333333333333333,
+        0.8156862745098039
+      ],
+      [
+        0.996078431372549,
+        0.8588235294117647,
+        0.7058823529411765
+      ],
+      [
+        0.8705882352941177,
+        0.45098039215686275,
+        0.38823529411764707
+      ]
+    ]
+  },
+  "excludedRegionsNormalized": [
+    [
+      0.25,
+      0.5,
+      0.55,
+      0.62
+    ]
+  ],
+  "sha256": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+  "expectedBytes": 463827,
+  "maximumBytes": 33554432,
+  "bytes": 463827,
+  "acquiredAt": "2026-10-23T11:57:49.453109+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

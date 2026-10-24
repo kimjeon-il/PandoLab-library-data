@@ -1,0 +1,8 @@
+{"epoch": 0, "attemptedBatches": 44, "optimizerUpdates": 41, "skippedUpdates": 3, "trainingLoss": 2.811404123902321, "validationLoss": null}
+{"epoch": 1, "attemptedBatches": 88, "optimizerUpdates": 85, "skippedUpdates": 3, "trainingLoss": 2.109099333936518, "validationLoss": null}
+{"epoch": 2, "attemptedBatches": 132, "optimizerUpdates": 129, "skippedUpdates": 3, "trainingLoss": 1.8638461530208588, "validationLoss": null}
+{"epoch": 3, "attemptedBatches": 176, "optimizerUpdates": 173, "skippedUpdates": 3, "trainingLoss": 1.5029940957372838, "validationLoss": null}
+{"epoch": 4, "attemptedBatches": 220, "optimizerUpdates": 217, "skippedUpdates": 3, "trainingLoss": 1.4514809846878052, "validationLoss": null}
+{"epoch": 5, "attemptedBatches": 264, "optimizerUpdates": 261, "skippedUpdates": 3, "trainingLoss": 1.2597335129976273, "validationLoss": null}
+{"epoch": 6, "attemptedBatches": 308, "optimizerUpdates": 305, "skippedUpdates": 3, "trainingLoss": 1.3166166327216409, "validationLoss": null}
+{"epoch": 7, "attemptedBatches": 352, "optimizerUpdates": 349, "skippedUpdates": 3, "trainingLoss": 1.1443072164600545, "validationLoss": null}

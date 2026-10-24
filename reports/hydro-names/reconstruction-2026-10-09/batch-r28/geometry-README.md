@@ -9,7 +9,3 @@ Full coordinates, per-part paths, source-reach sequences, decoder dependencies, 
 Run `python -B validate-geometry-reference.py --check-component-manifest` and `python -B test-geometry-reference.py`. These check only included summaries and included-file hashes. They do not replay the decoder, revalidate omitted source/inventory/prior-index bytes, or check complete coordinates. The compact corruption suite rebases editable artifact receipts and tests independent fixed summary pins; its rejection results do not imply omitted-input or independent source validation. No omitted-input replay interface is exposed.
 
 The prior index contains 81 distinct IDs. Its intersection with the selected targets is the expected two existing memberships, not an index duplicate. This reassessment adds zero IDs: recorded targets remain 81, and the eligible unrecorded queue remains 3,984 (3,412 river groups and 572 lakes). The prior 24 scope holds include the two selected targets and 22 unselected holds. The two pending-access IDs and all unselected targets are unchanged and are not reassessed. Post-reassessment naming decisions belong to the separate research results, not this geometry component. Queue counts do not claim historically never-reviewed status.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/475fd57fcf6f99277adb00d7c34818369bab6e955a03f39a1d5fc1caea179dbb.gz) · 원본 SHA-256 `475fd57fcf6f99277adb00d7c34818369bab6e955a03f39a1d5fc1caea179dbb`.

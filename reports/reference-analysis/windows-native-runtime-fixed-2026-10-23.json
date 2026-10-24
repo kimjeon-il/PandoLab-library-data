@@ -1,0 +1,250 @@
+{
+  "embeddedBuild": {
+    "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+    "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+    "files": [
+      {
+        "bytes": 51379,
+        "path": "assets/wasm/pandoeditor-core.js",
+        "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "bytes": 3064629,
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "bytes": 23553,
+        "path": "assets/wasm/pandoeditor-core.manifest.json",
+        "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+      }
+    ],
+    "fixture": null,
+    "schema": "pandolab-web-shell-stage",
+    "trackedDiffSha256": "85e7ead886f0ae09ed84452a60ee5d2db05b10dec9e963bcf4e3b9cb3517e191"
+  },
+  "error": {
+    "code": "PL-WORKER-RPC-OPERATION",
+    "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "operation": "reference.segment",
+    "stack": "Error: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON\n    at createWorkerRpcError (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:34:17)\n    at rpcErrorFromMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:125:12)\n    at handleMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:188:20)\n    at currentWorker.onmessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:227:7)"
+  },
+  "network": {
+    "blocked": [],
+    "requests": [
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/shell/stage-profile.json"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/data/world/current.json"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/d33cf539d453d3c7c9f39b64e4cce0fc/assets/js/workers/data-loader-worker.js?v=0.36.0-build-08314289e08e&layout=wide&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/data/world/current.json?v=data-94eafdbb58c052b7ec04668586e18007"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/4d09408d8989b02ab9f27a3bcc4778c7/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/data/countries-preview-shared-v0.36.1.json.gz"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/shell/reference-probe.json"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/shell/reference-probe.jpg"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/7fec6767933319fb640c772cdbf6b2b0/assets/js/workers/reference-image-analysis-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "worker",
+        "url": "blob:http://tauri.localhost/ecd58def-7932-4a5a-8d17-492c83a5549e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/data/countries-canonical-shared-v0.36.1.json.gz"
+      },
+      {
+        "context": "worker",
+        "url": "blob:http://tauri.localhost/db564f4e-ae1d-45fa-888b-93c9e0b3c931"
+      },
+      {
+        "context": "worker",
+        "url": "blob:http://tauri.localhost/8948e836-ffb8-4703-91c1-185bf0b042a4"
+      },
+      {
+        "context": "window",
+        "url": "http://tauri.localhost/assets/worker-runtime/c8cd0e04cec773f4b5259d6401b455fa/assets/js/workers/place-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/data/places/manifest.json?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/data/places/places-v1.bin?v=approved-places-d35bd85615fbaf49"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "context": "worker",
+        "url": "http://tauri.localhost/assets/data/reference-analysis/v1/boundary.manifest.json"
+      }
+    ],
+    "workers": [
+      {
+        "name": "pandolab-data-loader",
+        "type": "module",
+        "url": "http://tauri.localhost/assets/worker-runtime/d33cf539d453d3c7c9f39b64e4cce0fc/assets/js/workers/data-loader-worker.js?v=0.36.0-build-08314289e08e&layout=wide&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false"
+      },
+      {
+        "name": "",
+        "type": "module",
+        "url": "http://tauri.localhost/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "name": "pandolab-country-shared-boundary",
+        "type": "classic",
+        "url": "http://tauri.localhost/assets/worker-runtime/4d09408d8989b02ab9f27a3bcc4778c7/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic",
+        "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic",
+        "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "name": "pandolab-label-anchors",
+        "type": "classic",
+        "url": "http://tauri.localhost/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "name": "reference-image-analysis",
+        "type": "classic",
+        "url": "http://tauri.localhost/assets/worker-runtime/7fec6767933319fb640c772cdbf6b2b0/assets/js/workers/reference-image-analysis-worker.js?v=0.36.0-build-08314289e08e"
+      },
+      {
+        "name": "reference-probe-places",
+        "type": "module",
+        "url": "http://tauri.localhost/assets/worker-runtime/c8cd0e04cec773f4b5259d6401b455fa/assets/js/workers/place-worker.js?v=0.36.0-build-08314289e08e"
+      }
+    ]
+  },
+  "ok": false,
+  "releaseReady": false,
+  "schema": "pandolab-reference-runtime-probe"
+}

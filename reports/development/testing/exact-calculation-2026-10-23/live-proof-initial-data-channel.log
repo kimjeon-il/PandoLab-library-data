@@ -1,0 +1,20 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ 'c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b'
+- 'data-f90bdb599ba09323f05688344496b238'
+
+    at file:///D:/dev/worktrees/objects/.superpowers/sdd/exact-calculation-optimization/live-proof.mjs:33:59 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b',
+  expected: 'data-f90bdb599ba09323f05688344496b238',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.21.0

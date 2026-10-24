@@ -1,0 +1,16 @@
+{
+  "sourceSha256": "ee4dd6e83a1fd1bbbccd8da36f04017463b3985576504a9c774eace798977a64",
+  "first": {
+    "run": 39942940366,
+    "bytes": 3069894,
+    "sha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+  },
+  "second": {
+    "run": 39945738421,
+    "bytes": 3069894,
+    "sha256": "dc0fdb7bf688d9f6bc9bcb1fdcfdf8aed529b6e087e705227a9c641bf5dafa88"
+  },
+  "differentBytePositions": 192,
+  "reproducible": false,
+  "disassemblyObservation": "Exception try/delegate grouping differs; not proof of exact compiler root cause. Source/compiler/ABI identity is necessary but does not guarantee byte reproducibility."
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "01aebbf46ebbe36795b611a6bd553d180785f9fb91a10e3e99c812fa4a78d54e"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/princeton_100539-0_4493_5973.jpg",
+      "sha256": "5c76d000e698c036435ce6a3b150f938fb697d4551e5c516f769553131163f87"
+    },
+    {
+      "path": "sources/princeton_100539-0_4493_5973.png",
+      "sha256": "7b8023c83f972f7a46deae91ba9a4224e12ea3c6ef2d20992dd4ffb40e98520d"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/princeton_100539-0_4493_5973.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 51129,
+    "transport": 129322,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/princeton_100539-0_4493_5973.raster.png",
+    "sha256": "cd01d9b2ab35822899132e53d8bc44c21a451df19ac09586efc618c8a0f449a1"
+  },
+  "validRaster": {
+    "path": "derived/princeton_100539-0_4493_5973.validRaster.png",
+    "sha256": "cc6eb9eda114d818c7a593f519fd12c19614fd1f54465a89787325a8921e4662"
+  }
+}

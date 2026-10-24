@@ -7,7 +7,3 @@ The complete 41-position polygon for `lakes_base:1159110475` includes a northern
 `source-evidence.json` contains official bibliography and availability facts. `map-scope-review.json` retains own whole-outline observations. `target-identity-facts.json` records geometry facts. The source maps and inspection materials are excluded. Public validation checks included files and geometry and cannot reproduce omitted visual map judgments.
 
 Korean and whole-feature scalar names remain null. Exact shoreline verification, formal registry verification, automatic application and product application remain false.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/dbb67f5d238a495ec2a2435ac1e655013a48d9da58279657d95b36cf1d8bc5cd.gz) · 원본 SHA-256 `dbb67f5d238a495ec2a2435ac1e655013a48d9da58279657d95b36cf1d8bc5cd`.

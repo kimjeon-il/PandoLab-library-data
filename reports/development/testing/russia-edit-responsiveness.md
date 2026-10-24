@@ -7,7 +7,3 @@
 - 일부 준비·입력에 약 600ms 작업이 남았고, 최초 브라우저 기준선 자체가 실행 실패해 **유효한 전후 성능 개선율은 산출할 수 없었다**. 함수별 비용·전체 적용 조합·GPU 장치 FPS는 미검증.
 
 [정리 전 원문·전체 테스트 목록·출처·원본 커밋](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/russia-edit-responsiveness.md)을 참조할 것. 현재 지도 데이터·런타임 변경이나 검증 완료를 의미하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/7cb83d48f3df2129ba3f9177a8410cf4146db276d5522a5d233c361112e9ff06.gz) · 원본 SHA-256 `7cb83d48f3df2129ba3f9177a8410cf4146db276d5522a5d233c361112e9ff06`.

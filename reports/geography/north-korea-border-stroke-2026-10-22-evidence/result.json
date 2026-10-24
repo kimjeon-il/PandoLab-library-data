@@ -1,0 +1,44 @@
+{
+  "data": {
+    "countryIds": [
+      "CHN",
+      "PRK"
+    ],
+    "sharedSegments": 2425,
+    "exactDuplicateSegments": 0,
+    "subpixelSegmentsAt2560pxZoom64": 1880,
+    "extent": [
+      124.369965,
+      40.098293,
+      130.530771,
+      43.01027
+    ]
+  },
+  "gpu": {
+    "sparseRound": {
+      "equivalentAlphaWidthPx": 0.8117647058823771,
+      "maximumAlpha": 148
+    },
+    "denseRound": {
+      "equivalentAlphaWidthPx": 1.0039215686274552,
+      "maximumAlpha": 148
+    },
+    "sparseMiter": {
+      "equivalentAlphaWidthPx": 0.8117647058823771,
+      "maximumAlpha": 148
+    },
+    "denseMiter": {
+      "equivalentAlphaWidthPx": 0.8117647058823771,
+      "maximumAlpha": 148
+    },
+    "sparseNoAA": {
+      "equivalentAlphaWidthPx": 1,
+      "maximumAlpha": 255
+    },
+    "denseNoAA": {
+      "equivalentAlphaWidthPx": 1,
+      "maximumAlpha": 255
+    },
+    "errors": []
+  }
+}

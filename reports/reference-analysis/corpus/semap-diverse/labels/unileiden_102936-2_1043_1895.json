@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "add697cbe8f0c7e4e9109b379ea986e7a3fc1bcd5e934f06d2b03d918fa72b2a"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/unileiden_102936-2_1043_1895.jpg",
+      "sha256": "ed4d69005a943274bc12d664a9f010af375cf72e588550c308da4aa55ee3cfbb"
+    },
+    {
+      "path": "sources/unileiden_102936-2_1043_1895.png",
+      "sha256": "e31f08b54d0833b5a7ee529f9b1c65b861da70a0416c18ccd20bd4bde8d1cc02"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/unileiden_102936-2_1043_1895.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 182091,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/unileiden_102936-2_1043_1895.raster.png",
+    "sha256": "7e1661c857aa0b4ce7df688f17a42e2b66d73ee63f817a1fc5418ee385541d24"
+  },
+  "validRaster": {
+    "path": "derived/unileiden_102936-2_1043_1895.validRaster.png",
+    "sha256": "87cec6f79df445346ad373c9f3f2a7fd2ef618b7ce96613ebe3e570f70fdc9db"
+  }
+}

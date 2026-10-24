@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "01aebbf46ebbe36795b611a6bd553d180785f9fb91a10e3e99c812fa4a78d54e"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/erara_077176-0_3165_5202.jpg",
+      "sha256": "2dfe4a55db20986bf3201672961f4a3caf4fb03f54cddff8fa12e4a6dce58e73"
+    },
+    {
+      "path": "sources/erara_077176-0_3165_5202.png",
+      "sha256": "eac421ddbb617c3c3780e66403a4abf53f34c2ebf7584a93a2481c92b93c5fdf"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/erara_077176-0_3165_5202.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 28917,
+    "transport": 2718,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/erara_077176-0_3165_5202.raster.png",
+    "sha256": "afe176b10e6627328c5c69b5d886e5efe087da90cd04bb3ad855c561fa77f351"
+  },
+  "validRaster": {
+    "path": "derived/erara_077176-0_3165_5202.validRaster.png",
+    "sha256": "eca611857fe9923f38094212b556b35977618e366f2e44df32dde4daf40658e5"
+  }
+}

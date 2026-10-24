@@ -1,0 +1,18 @@
+{
+  "reportRoot": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\d401965fdbbcb53b54602b1d8736554b8ebc7dda\\reports",
+  "before": {
+    "bytes": 857748177,
+    "files": 3390
+  },
+  "after": {
+    "bytes": 857748177,
+    "files": 3390
+  },
+  "growth": 0,
+  "cacheRevisions": [
+    "71a67904db2beb933735727ad6c19adde082d2bd",
+    "d401965fdbbcb53b54602b1d8736554b8ebc7dda"
+  ],
+  "materialized": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+  "stable": true
+}

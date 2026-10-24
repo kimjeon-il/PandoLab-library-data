@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "purpose": "selected-weak-source-training-tile-fitting-only",
+  "independentEvaluation": false,
+  "releaseApproved": false,
+  "threshold": 0.55,
+  "tolerancePixels": 0,
+  "sheets": [
+    {
+      "id": "cia-world-political-2021",
+      "tileIndex": 8,
+      "pixelOrigin": [
+        1344,
+        448
+      ],
+      "channels": {
+        "international": {
+          "before": {
+            "supervisedPixels": 41871,
+            "targetPixels": 1878,
+            "predictedPixels": 0,
+            "overlapPixels": 0,
+            "probabilityMin": 0.0011868135770782828,
+            "probabilityMax": 0.7366690039634705,
+            "dice": 0.0,
+            "precision": null,
+            "recall": 0.0
+          },
+          "after": {
+            "supervisedPixels": 41871,
+            "targetPixels": 1878,
+            "predictedPixels": 1103,
+            "overlapPixels": 966,
+            "probabilityMin": 0.00228540669195354,
+            "probabilityMax": 0.9784990549087524,
+            "dice": 0.6481046628648105,
+            "precision": 0.8757932910244787,
+            "recall": 0.5143769968051118
+          }
+        }
+      }
+    },
+    {
+      "id": "nrcan-canada-national",
+      "tileIndex": 6,
+      "pixelOrigin": [
+        0,
+        448
+      ],
+      "channels": {
+        "international": {
+          "before": {
+            "supervisedPixels": 236370,
+            "targetPixels": 1856,
+            "predictedPixels": 20,
+            "overlapPixels": 0,
+            "probabilityMin": 0.001614645472727716,
+            "probabilityMax": 0.665865957736969,
+            "dice": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "after": {
+            "supervisedPixels": 236370,
+            "targetPixels": 1856,
+            "predictedPixels": 11322,
+            "overlapPixels": 1490,
+            "probabilityMin": 0.002356921089813113,
+            "probabilityMax": 0.9722214937210083,
+            "dice": 0.2261344665351343,
+            "precision": 0.13160219042571983,
+            "recall": 0.802801724137931
+          }
+        },
+        "administrative": {
+          "before": {
+            "supervisedPixels": 236370,
+            "targetPixels": 1674,
+            "predictedPixels": 26,
+            "overlapPixels": 0,
+            "probabilityMin": 0.0006647997652180493,
+            "probabilityMax": 0.6978461742401123,
+            "dice": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "after": {
+            "supervisedPixels": 236370,
+            "targetPixels": 1674,
+            "predictedPixels": 8506,
+            "overlapPixels": 1662,
+            "probabilityMin": 0.0012115273857489228,
+            "probabilityMax": 0.9819359183311462,
+            "dice": 0.32652259332023575,
+            "precision": 0.19539148836115683,
+            "recall": 0.992831541218638
+          }
+        }
+      }
+    }
+  ]
+}

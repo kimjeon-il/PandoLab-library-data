@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "codeRevision": "bdfd230ba396228e417f2210e3e11e143887de26",
+  "purpose": "macro-only-source-derived-weak-training-pilot",
+  "releaseApproved": false,
+  "independentEvaluation": false,
+  "initialization": {
+    "sha256": "9b6f0de59f91073226154191daa1f98e1295b99ab5006bb033182ca82ea3f553",
+    "attemptedBatches": 2808,
+    "optimizerUpdates": 2801,
+    "corpusSha256": "2291093ad87a49f86273e095a25202809be892ebf2b1809c93404eacff39f1bd"
+  },
+  "geographicFocus": "macro-only",
+  "coverage": {
+    "actualTrainingOriginals": 2,
+    "actualTrainingTiles": 44,
+    "geographicFocus": "macro-only",
+    "trainingSources": [
+      {
+        "id": "cia-world-political-2021",
+        "scope": "world",
+        "originals": 1,
+        "tiles": 14,
+        "positivePixels": {
+          "international": 5791,
+          "administrative": 0,
+          "coast": 0,
+          "hydro": 0,
+          "transport": 0,
+          "text": 0,
+          "frame": 0
+        }
+      },
+      {
+        "id": "nrcan-canada-national",
+        "scope": "country",
+        "originals": 1,
+        "tiles": 30,
+        "positivePixels": {
+          "international": 10075,
+          "administrative": 13029,
+          "coast": 0,
+          "hydro": 0,
+          "transport": 0,
+          "text": 0,
+          "frame": 0
+        }
+      }
+    ],
+    "excludedInventory": [
+      {
+        "path": "sources/cia-asia-political.pdf",
+        "trainingReady": false,
+        "reason": "raster-only reproduction; no verified semantic boundary geometry"
+      },
+      {
+        "path": "sources/cia-oceania-political.pdf",
+        "trainingReady": false,
+        "reason": "raster-only reproduction; no verified semantic boundary geometry"
+      },
+      {
+        "path": "sources/nrcan-Africa.pdf",
+        "trainingReady": false,
+        "reason": "raster-only reproduction; no verified semantic boundary geometry"
+      }
+    ]
+  },
+  "modelFiles": {
+    "boundary.pt": {
+      "sha256": "821ac74bce26018c1da8d5ae273dc33a9a17f02f76c25039e94e44ea8247f218",
+      "bytes": 16908993
+    },
+    "boundary.onnx": {
+      "sha256": "48dc77b43e4bdad2555bb757a46f2da818f50b897686c1461f1a9efc5ece4155",
+      "bytes": 16697571
+    },
+    "boundary.manifest.json": {
+      "sha256": "2086e55f2e0fa6f98793258406db9ec1ba68b7b4254a2863e7994b94ebe73311",
+      "bytes": 808
+    },
+    "training.log": {
+      "sha256": "87979a894c1ca9c34e25aee1a21f2a317315b2039e63daa1982a77e5a6527081",
+      "bytes": 1154
+    },
+    "diagnostics/diagnostics.json": {
+      "sha256": "ec7d7f97e5d531e1fe50fac6072c1716a11c828fcdf42eee6b1edf8912338dc3",
+      "bytes": 8731
+    },
+    "onnx-wasm-parity.json": {
+      "sha256": "7947c563e671eeecb23cf21685fc7e37fcd514027fc58f778dd752148e6bcfc3",
+      "bytes": 1565
+    },
+    "training-comparison.json": {
+      "sha256": "e12eaa45dba3257d0d83a5e12469ee49ca1f6021e28b6997f14b956e498807eb",
+      "bytes": 3043
+    },
+    "preview-cleanup.json": {
+      "sha256": "86f087631404fb2f460a244ec0170d8df1cb2e3b26a2fc549f91aa7ee379da21",
+      "bytes": 1383
+    }
+  },
+  "packages": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "onnx": "1.23.2",
+    "onnxscript": "0.7.2",
+    "PyMuPDF": "1.26.6"
+  },
+  "encoder": {
+    "url": "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth",
+    "sha256": "5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997",
+    "name": "MobileNet_V3_Large_Weights.IMAGENET1K_V2"
+  },
+  "gpuWheelIdentities": [
+    {
+      "package": "torch",
+      "url": "https://download-r2.pytorch.org/whl/cu126/torch-2.14.1%2Bcu126-cp312-cp312-win_amd64.whl#sha256=97e3bc87ea74367518b740d912a7f5259c25a3c8115bf5916abee1d53ff115a4"
+    },
+    {
+      "package": "torchvision",
+      "url": "https://download-r2.pytorch.org/whl/cu126/torchvision-0.29.1%2Bcu126-cp312-cp312-win_amd64.whl#sha256=ab045bfb0ac014b80afb478190d14c6f7d3b57ade0d1fcd6ffc07414a0266b96"
+    }
+  ],
+  "training": {
+    "epochs": 8,
+    "attemptedBatches": 352,
+    "optimizerUpdates": 349,
+    "skippedUpdates": 3,
+    "selectedEpoch": 7,
+    "selectedAttemptedBatches": 352,
+    "selectedOptimizerUpdates": 349,
+    "trainingLoss": 1.1443072164600545,
+    "validationLoss": null,
+    "selectionMetric": "trainingLoss",
+    "learningRate": 1e-05,
+    "freezeEncoderEpochs": 2,
+    "sampling": "balanced-corpora-originals-with-coverage",
+    "samplingSeed": 20261023,
+    "toolchain": {
+      "torch": "2.14.1+cu126",
+      "device": "cuda",
+      "amp": true,
+      "encoderWeights": "MobileNet_V3_Large_Weights.IMAGENET1K_V2"
+    },
+    "trainingUsedSheetIds": [
+      [
+        "cia-world-political-2021",
+        "nrcan-canada-national"
+      ]
+    ],
+    "unobservedChannels": [
+      "coast",
+      "hydro",
+      "transport",
+      "text",
+      "frame"
+    ]
+  },
+  "corpusSha256": "da4e0465837fe5ec76a48ebf292af993eb21b95ff8d0ab34d418fe39dd5c8d08",
+  "verification": {
+    "pythonCorpusSourceTests": 35,
+    "pythonModelTests": 9,
+    "nodeGatePackageTests": 3,
+    "actualWasmParity": "onnx-wasm-parity.json",
+    "actualMicroSourceForgedScopeRejected": true,
+    "reviewImportantFindingsFixed": 1,
+    "reviewDeferredMinors": 0,
+    "windowsWebView2ModelProfiling": false,
+    "androidModelProfiling": false
+  },
+  "cleanup": {
+    "regeneratedDraftFiles": 11,
+    "removedGeneratedBytesBeforeRegeneration": 1813297,
+    "reason": "unused draft derivatives regenerated after excluding legend; sources preserved",
+    "unusedDuplicatePreviewsRemoved": 5,
+    "bytesReclaimed": 3418351,
+    "previewEvidence": "preview-cleanup.json"
+  }
+}

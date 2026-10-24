@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "loc-tehran-1889-preview",
+      "width": 2048,
+      "height": 1964,
+      "format": "JPEG",
+      "mode": "RGB",
+      "exifOrientation": 1,
+      "reviewedLabels": false
+    },
+    {
+      "id": "zenodo-urdu-punjab-undated",
+      "width": 17180,
+      "height": 14414,
+      "format": "JPEG",
+      "mode": "RGB",
+      "exifOrientation": 1,
+      "reviewedLabels": false
+    }
+  ],
+  "trainingReady": false
+}

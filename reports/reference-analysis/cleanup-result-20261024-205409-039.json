@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-24T11:54:12.1454588Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "freeBytesBefore": 28499243008,
+  "freeBytesAfter": 29898698752,
+  "freeBytesDelta": 1399455744,
+  "eligibleBytes": 1399455744,
+  "deletedBytes": 1399455744,
+  "entries": [
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+      "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "abandoned-git-pack",
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_9xSZPv",
+      "status": "removed",
+      "bytes": 421265408,
+      "reason": ""
+    },
+    {
+      "kind": "abandoned-git-pack",
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_OfPqh8",
+      "status": "removed",
+      "bytes": 978190336,
+      "reason": ""
+    }
+  ]
+}

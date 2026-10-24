@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-23T11:58:59.2682860Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "eligibleBytes": 845840586,
+  "deletedBytes": 845840586,
+  "entries": [
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d3cb6c0097d4d466c878623e2944a1d28a084389",
+      "revision": "d3cb6c0097d4d466c878623e2944a1d28a084389",
+      "status": "removed",
+      "bytes": 845840586,
+      "files": 2438,
+      "reason": ""
+    }
+  ]
+}

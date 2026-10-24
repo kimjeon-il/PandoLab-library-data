@@ -1,0 +1,34 @@
+{
+  "embeddedBuild": {
+    "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+    "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+    "files": [
+      {
+        "bytes": 51379,
+        "path": "assets/wasm/pandoeditor-core.js",
+        "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "bytes": 3064629,
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+      },
+      {
+        "bytes": 23553,
+        "path": "assets/wasm/pandoeditor-core.manifest.json",
+        "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+      }
+    ],
+    "fixture": null,
+    "schema": "pandolab-web-shell-stage",
+    "trackedDiffSha256": "f3e4af40493133cbc23bd8b9779c7620a7291c1edc75f923657d6d3d8353836a"
+  },
+  "error": {
+    "code": "PL-WORKER-RPC-OPERATION",
+    "message": "Worker 작업에 실패했습니다.",
+    "stack": "Error: Worker 작업에 실패했습니다.\n    at createWorkerRpcError (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:34:17)\n    at rpcErrorFromMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:125:12)\n    at handleMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:188:20)\n    at currentWorker.onmessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:227:7)"
+  },
+  "ok": false,
+  "releaseReady": false,
+  "schema": "pandolab-reference-runtime-probe"
+}

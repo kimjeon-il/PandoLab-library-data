@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "trainingOnly": true,
+  "sheets": [
+    {
+      "id": "semap-bostonleventhal_026006-0_1241_1103",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-bostonleventhal-026006",
+      "duplicateGroup": "semap-bostonleventhal_026006",
+      "split": "train",
+      "image": "sources/bostonleventhal_026006-0_1241_1103.jpg",
+      "sha256": "fd69919e354c3b009ef58bf13637dc587bb4543aa3197ed3993346b500d41782",
+      "annotations": "labels/bostonleventhal_026006-0_1241_1103.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "bostonleventhal",
+        "originalItem": "bostonleventhal_026006-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-bostonleventhal_026913-0_1309_3664",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-bostonleventhal-026913",
+      "duplicateGroup": "semap-bostonleventhal_026913",
+      "split": "train",
+      "image": "sources/bostonleventhal_026913-0_1309_3664.jpg",
+      "sha256": "1e2a9f7b7b4eeef4ed5f9c980074d9083b74cb500b9ff85dcb7ada0bab91aad1",
+      "annotations": "labels/bostonleventhal_026913-0_1309_3664.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "bostonleventhal",
+        "originalItem": "bostonleventhal_026913-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-bostonleventhal_027394-0_1581_1641",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-bostonleventhal-027394",
+      "duplicateGroup": "semap-bostonleventhal_027394",
+      "split": "train",
+      "image": "sources/bostonleventhal_027394-0_1581_1641.jpg",
+      "sha256": "6ffd6be48474bfc666c1f878c8a30fc5b28ee7a838e63f8cd569dad3a7d265fd",
+      "annotations": "labels/bostonleventhal_027394-0_1581_1641.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "bostonleventhal",
+        "originalItem": "bostonleventhal_027394-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-bostonleventhal_028486-0_247_1083",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-bostonleventhal-028486",
+      "duplicateGroup": "semap-bostonleventhal_028486",
+      "split": "train",
+      "image": "sources/bostonleventhal_028486-0_247_1083.jpg",
+      "sha256": "2a542e35fc04bf42df89c30b548213e9140a7df66d1706619edf8618ce9d64d4",
+      "annotations": "labels/bostonleventhal_028486-0_247_1083.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "bostonleventhal",
+        "originalItem": "bostonleventhal_028486-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-erara_076215-0_2034_1388",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-erara-076215",
+      "duplicateGroup": "semap-erara_076215",
+      "split": "train",
+      "image": "sources/erara_076215-0_2034_1388.jpg",
+      "sha256": "5d51de23a901e1f0df6d2bc97fa4838ddb989fb55f0d2f7167adb7ec00d035f4",
+      "annotations": "labels/erara_076215-0_2034_1388.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "erara",
+        "originalItem": "erara_076215-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-erara_077455-0_1297_9056",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-erara-077455",
+      "duplicateGroup": "semap-erara_077455",
+      "split": "train",
+      "image": "sources/erara_077455-0_1297_9056.jpg",
+      "sha256": "21712645fa252d3f517c1d6df3932120bc5469073256a6b9027cd126fbf0b4e9",
+      "annotations": "labels/erara_077455-0_1297_9056.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "erara",
+        "originalItem": "erara_077455-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-erara_079017-0_2778_12697",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-erara-079017",
+      "duplicateGroup": "semap-erara_079017",
+      "split": "train",
+      "image": "sources/erara_079017-0_2778_12697.jpg",
+      "sha256": "8186d85fae7b54b71688c5081d195e9fa780ad1bac926dd4a443a547aebf4700",
+      "annotations": "labels/erara_079017-0_2778_12697.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "erara",
+        "originalItem": "erara_079017-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-erara_080881-0_754_10466",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-erara-080881",
+      "duplicateGroup": "semap-erara_080881",
+      "split": "train",
+      "image": "sources/erara_080881-0_754_10466.jpg",
+      "sha256": "be3eec164fa435bf22205bde0c9a78a0565ac628c69c9dc7815cf633ffcc52f4",
+      "annotations": "labels/erara_080881-0_754_10466.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "erara",
+        "originalItem": "erara_080881-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-loc_081414-15_1016_1244",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-loc-081414",
+      "duplicateGroup": "semap-loc_081414",
+      "split": "train",
+      "image": "sources/loc_081414-15_1016_1244.jpg",
+      "sha256": "cf83633d9423a03cee6091435c62db4a41b1fa54bcd0da4a6ade69440f7d734a",
+      "annotations": "labels/loc_081414-15_1016_1244.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "loc",
+        "originalItem": "loc_081414-15",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-loc_083555-28_2418_100",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-loc-083555",
+      "duplicateGroup": "semap-loc_083555",
+      "split": "train",
+      "image": "sources/loc_083555-28_2418_100.jpg",
+      "sha256": "2f982211a212c4b9a55ef6befd80bc81d2c8f4ce025a4711b479a54def3817b9",
+      "annotations": "labels/loc_083555-28_2418_100.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "loc",
+        "originalItem": "loc_083555-28",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-loc_088996-27_2174_3535",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-loc-088996",
+      "duplicateGroup": "semap-loc_088996",
+      "split": "train",
+      "image": "sources/loc_088996-27_2174_3535.jpg",
+      "sha256": "eae1974ab25ab98b922c3195465c3ef278d4fd765ebeef9658409d6a17ad4e67",
+      "annotations": "labels/loc_088996-27_2174_3535.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "loc",
+        "originalItem": "loc_088996-27",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-loc_092763-23_2525_3561",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-loc-092763",
+      "duplicateGroup": "semap-loc_092763",
+      "split": "train",
+      "image": "sources/loc_092763-23_2525_3561.jpg",
+      "sha256": "6936ef8bf7f6eb55a022d83705b499c4a82504f25113703b18ec2b149e93d585",
+      "annotations": "labels/loc_092763-23_2525_3561.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "loc",
+        "originalItem": "loc_092763-23",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-nypl_093346-0_4423_7757",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-nypl-093346",
+      "duplicateGroup": "semap-nypl_093346",
+      "split": "train",
+      "image": "sources/nypl_093346-0_4423_7757.jpg",
+      "sha256": "dc1a54a3a601f2deaf9b0970ea31b22d9f1d0967ac188293a442dac8cbf6a586",
+      "annotations": "labels/nypl_093346-0_4423_7757.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "nypl",
+        "originalItem": "nypl_093346-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-nypl_094640-0_1730_4090",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-nypl-094640",
+      "duplicateGroup": "semap-nypl_094640",
+      "split": "train",
+      "image": "sources/nypl_094640-0_1730_4090.jpg",
+      "sha256": "a1f9242fa895d3b8c61600549ca549f1159f0023be9e2ad6fb8f88925f8c2556",
+      "annotations": "labels/nypl_094640-0_1730_4090.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "nypl",
+        "originalItem": "nypl_094640-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-nypl_097738-0_874_3177",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-nypl-097738",
+      "duplicateGroup": "semap-nypl_097738",
+      "split": "train",
+      "image": "sources/nypl_097738-0_874_3177.jpg",
+      "sha256": "9f11cf0799425d703680ca0aba5ea76767a63e9d450fffcfa3986a364a93e56f",
+      "annotations": "labels/nypl_097738-0_874_3177.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "nypl",
+        "originalItem": "nypl_097738-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-nypl_099286-0_10583_1079",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-nypl-099286",
+      "duplicateGroup": "semap-nypl_099286",
+      "split": "train",
+      "image": "sources/nypl_099286-0_10583_1079.jpg",
+      "sha256": "d3f8b18b993a389354ea3e0caf03562cae6fb3d6fc3be7e87fd946aaa8787f5e",
+      "annotations": "labels/nypl_099286-0_10583_1079.json",
+      "mapKind": "monochrome",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "nypl",
+        "originalItem": "nypl_099286-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-princeton_099557-0_1376_2009",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-princeton-099557",
+      "duplicateGroup": "semap-princeton_099557",
+      "split": "train",
+      "image": "sources/princeton_099557-0_1376_2009.jpg",
+      "sha256": "f9d6214e60a551b280ad62570bf72f8b42cc33aabc15c5d6cb2ce21bc827026b",
+      "annotations": "labels/princeton_099557-0_1376_2009.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "princeton",
+        "originalItem": "princeton_099557-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-princeton_100065-0_8862_2109",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-princeton-100065",
+      "duplicateGroup": "semap-princeton_100065",
+      "split": "train",
+      "image": "sources/princeton_100065-0_8862_2109.jpg",
+      "sha256": "074bb2779ed75d5d36b29fe712c2d4041f635fb78b3cd2af3467ff187cc84180",
+      "annotations": "labels/princeton_100065-0_8862_2109.json",
+      "mapKind": "monochrome",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "princeton",
+        "originalItem": "princeton_100065-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-princeton_100787-0_2022_6022",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-princeton-100787",
+      "duplicateGroup": "semap-princeton_100787",
+      "split": "train",
+      "image": "sources/princeton_100787-0_2022_6022.jpg",
+      "sha256": "b4ac52acd8dd1dc3c02fc277d3f6aa0f71df112010a45ac80ecb19365e27548c",
+      "annotations": "labels/princeton_100787-0_2022_6022.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "princeton",
+        "originalItem": "princeton_100787-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-princeton_101461-1_5867_6915",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-princeton-101461",
+      "duplicateGroup": "semap-princeton_101461",
+      "split": "train",
+      "image": "sources/princeton_101461-1_5867_6915.jpg",
+      "sha256": "ef3a766169063b8d288dd94b840d3007a53ce22f0e4aec296b087118c7bf9642",
+      "annotations": "labels/princeton_101461-1_5867_6915.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "princeton",
+        "originalItem": "princeton_101461-1",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-unileiden_102304-17_2538_3061",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-unileiden-102304",
+      "duplicateGroup": "semap-unileiden_102304",
+      "split": "train",
+      "image": "sources/unileiden_102304-17_2538_3061.jpg",
+      "sha256": "0c84a9ed95e38dad10acda47ebbe140a737f6806732c1de6c5864edbab68406c",
+      "annotations": "labels/unileiden_102304-17_2538_3061.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "unileiden",
+        "originalItem": "unileiden_102304-17",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-unileiden_102983-1_2975_3626",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-unileiden-102983",
+      "duplicateGroup": "semap-unileiden_102983",
+      "split": "train",
+      "image": "sources/unileiden_102983-1_2975_3626.jpg",
+      "sha256": "e05c4ede765e9171feacffa3b103963686e771e5a18ff0326c859dbc3cc58cf2",
+      "annotations": "labels/unileiden_102983-1_2975_3626.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "unileiden",
+        "originalItem": "unileiden_102983-1",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-unileiden_107192-0_2650_1857",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-unileiden-107192",
+      "duplicateGroup": "semap-unileiden_107192",
+      "split": "train",
+      "image": "sources/unileiden_107192-0_2650_1857.jpg",
+      "sha256": "a015a54e29406fe2790ef77cbc6438b8a9ef4e5da186a17320b9e2c2a5919aff",
+      "annotations": "labels/unileiden_107192-0_2650_1857.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "unileiden",
+        "originalItem": "unileiden_107192-0",
+        "published": null
+      }
+    },
+    {
+      "id": "semap-unileiden_109429-0_4600_2289",
+      "familyId": "semap-all-production-families-unresolved",
+      "editionId": "semap-unileiden-109429",
+      "duplicateGroup": "semap-unileiden_109429",
+      "split": "train",
+      "image": "sources/unileiden_109429-0_4600_2289.jpg",
+      "sha256": "8fa17f9cc67ac112b9e9ba98f4366e1758b61f6845290e6d7d3754c89a300e72",
+      "annotations": "labels/unileiden_109429-0_4600_2289.json",
+      "mapKind": "color",
+      "mapKindBasis": "input-raster-chroma-heuristic",
+      "language": "und",
+      "script": "Unknown",
+      "source": {
+        "url": "https://zenodo.org/records/19048095",
+        "license": "Annotations CC BY 4.0; image institution terms in sources/license_images.md",
+        "institution": "unileiden",
+        "originalItem": "unileiden_109429-0",
+        "published": null
+      }
+    }
+  ]
+}

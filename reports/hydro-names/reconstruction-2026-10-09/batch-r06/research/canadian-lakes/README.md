@@ -9,7 +9,3 @@ The map bodies were acquired and visually inspected, including target regions an
 These are whole-outline, generalized geographic associations. Fine islands and shoreline details are omitted by the source polygons. Formal current naming status, exact shoreline fit, Korean names and scalar-name approvals are unverified. Both whole-feature scalar-name fields remain null, with automatic and product application false.
 
 `source-evidence.json` distinguishes hashes of exact original HTTP bodies from extracted text and supplies map/image locators. `target-identity-facts.json` pins the inventory and source joins and excludes the prior fifteen targets. `findings.json` preserves the bounded scope and limits. Raw official originals, complete texts, maps and inspection images are excluded from this public package.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/123205e1aca103b63e59003e65c833183592a28c1c4f0878b058d2171ead893a.gz) · 원본 SHA-256 `123205e1aca103b63e59003e65c833183592a28c1c4f0878b058d2171ead893a`.

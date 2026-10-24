@@ -7,7 +7,3 @@
 - 공간자료 조각화가 앱 전체 시작속도를 개선했다고 단정하지 않았으며 새 p95/GC 후 retained heap 및 전체 제품/원격 CI/배포 완료는 미검증으로 남았다.
 
 [정리 전 원문·전체 테스트 목록·출처·원본 커밋](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/country-lineage-storage.md)을 참조할 것. 현재 지도 데이터·런타임 변경이나 검증 완료를 의미하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/be76fe292344e8ba558767a78821dd2a65b2591ca83bcf99bfd222fe8b8f88e3.gz) · 원본 SHA-256 `be76fe292344e8ba558767a78821dd2a65b2591ca83bcf99bfd222fe8b8f88e3`.

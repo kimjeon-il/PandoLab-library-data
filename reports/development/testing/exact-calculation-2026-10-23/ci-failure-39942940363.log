@@ -1,0 +1,17 @@
+changes	Select current application checks	﻿2026-10-23T11:01:14.3151154Z ##[group]Run node scripts/run-application-checks.mjs --list --github-output
+changes	Select current application checks	2026-10-23T11:01:14.3151629Z ^[[36;1mnode scripts/run-application-checks.mjs --list --github-output^[[0m
+changes	Select current application checks	2026-10-23T11:01:14.3209284Z shell: /usr/bin/bash -e {0}
+changes	Select current application checks	2026-10-23T11:01:14.3209529Z env:
+changes	Select current application checks	2026-10-23T11:01:14.3209763Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+changes	Select current application checks	2026-10-23T11:01:14.3210053Z   BASE_SHA: 4137265e1701d7c4ea6798e84eb73071942d6a25
+changes	Select current application checks	2026-10-23T11:01:14.3210506Z   HEAD_SHA: f58d61e9e344bbabe36b9915bb7339c55830146a
+changes	Select current application checks	2026-10-23T11:01:14.3210754Z   BROWSER_SCOPE: default
+changes	Select current application checks	2026-10-23T11:01:14.3210940Z ##[endgroup]
+changes	Select current application checks	2026-10-23T11:01:14.4821247Z Error: Unregistered test: tests/browser/button-consistency.spec.mjs
+changes	Select current application checks	2026-10-23T11:01:14.4822174Z     at loadRepository (file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:71:23)
+changes	Select current application checks	2026-10-23T11:01:14.4823025Z     at main (file:///home/runner/work/Pando/Pando/scripts/run-application-checks.mjs:88:22)
+changes	Select current application checks	2026-10-23T11:01:14.4823796Z     at file:///home/runner/work/Pando/Pando/scripts/run-application-checks.mjs:111:9
+changes	Select current application checks	2026-10-23T11:01:14.4824310Z     at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+changes	Select current application checks	2026-10-23T11:01:14.4824639Z     at async node:internal/modules/esm/loader:647:26
+changes	Select current application checks	2026-10-23T11:01:14.4825040Z     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+changes	Select current application checks	2026-10-23T11:01:14.4890418Z ##[error]Process completed with exit code 1.

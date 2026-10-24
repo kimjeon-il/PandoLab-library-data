@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "reviewed": false,
+  "origin": "publisher-layer-export",
+  "width": 2009,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "sourcePdf": "sources/usgs-eastport-2014.pdf",
+  "sourceSha256": "9dc79d1c34e257c8b024c9cb90b31811a83b4f604780331cb47e65002fa360b0",
+  "sourceMetadata": "sources/usgs-eastport-2014.source.json",
+  "sourceMetadataSha256": "23e1c71c0c23310cfc2dad4f952f757f33e2d54eb4b76ef820004fb9343585da",
+  "producer": {
+    "script": "tools/reference-analysis/publisher.py",
+    "sha256": "53fb78609a1c834f725bb942fa122e8af65872369b025340d6c4fafc2c1f71db",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "sourceRectPts": [
+    0.0,
+    0.0,
+    1638.0,
+    2088.0
+  ],
+  "pixelsPerPoint": 1.2260536398467432,
+  "layers": {
+    "international": [
+      "International"
+    ],
+    "administrative": [
+      "State or Territory",
+      "County or Equivalent"
+    ],
+    "hydro": [
+      "Hydrography"
+    ],
+    "transport": [
+      "Road Features",
+      "Trails",
+      "Railroads"
+    ],
+    "frame": [
+      "Map Frame",
+      "Projection and Grids"
+    ]
+  },
+  "disabledInputLayers": [
+    "Orthoimage",
+    "Shaded Relief"
+  ],
+  "positivePixels": {
+    "international": 1344,
+    "administrative": 2956,
+    "coast": 0,
+    "hydro": 1169204,
+    "transport": 5772,
+    "text": 1271370,
+    "frame": 40093
+  },
+  "raster": {
+    "path": "derived/usgs-eastport-2014.mask.png",
+    "sha256": "fe010e0967a16369777c45ebca2cfd79059f7b156143e3c8d3d08cd9891bdcbc"
+  },
+  "validRaster": {
+    "path": "derived/usgs-eastport-2014.valid.png",
+    "sha256": "eb1de57a48b823cf7df0813bc92ef66d8d845ce4bcadd368d3c7e993687df2b7"
+  },
+  "sheet": {
+    "id": "usgs-eastport-2014",
+    "familyId": "usgs-us-topo",
+    "editionId": "usgs-me-2014",
+    "duplicateGroup": "usgs-eastport-2014",
+    "split": "train",
+    "image": "derived/usgs-eastport-2014.jpg",
+    "annotations": "labels/usgs-eastport-2014.json",
+    "mapKind": "color",
+    "language": "eng",
+    "script": "Latin",
+    "source": {
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/ME/ME_Eastport_OE_E_20141009_TM_geo.pdf",
+      "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88fb5c82cef33f43f1f1d8",
+      "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+      "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+      "published": "2014-10-09"
+    },
+    "sha256": "030570177b5fab64d266b912f7fa517bc56884fc0b95bdca6e05c97162769954"
+  }
+}

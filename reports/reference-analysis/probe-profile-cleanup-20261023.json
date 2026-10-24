@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23T10:28:16.6144230+09:00",
+  "removedBytes": 0,
+  "targets": [
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\com.pandolab.webshell.prototype\\test-profile\\webview2-benchmark-reference-debug",
+      "status": "not-removed-policy-blocked",
+      "purpose": "completed native reference probe test profile"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\com.pandolab.webshell.prototype\\test-profile\\webview2-benchmark-reference-analysis",
+      "status": "not-removed-policy-blocked",
+      "purpose": "completed native reference probe test profile"
+    }
+  ],
+  "reason": "Automatic tool approval rejected direct cleanup command as blocked by policy; no bypass attempted."
+}

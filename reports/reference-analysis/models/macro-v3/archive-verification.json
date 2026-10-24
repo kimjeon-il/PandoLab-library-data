@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "verifiedRevision": "4182bee7a24e0f828bf0f218d49a3b03ec0f9aa0",
+  "runtimePinUnchanged": true,
+  "originalReportOwnerUnchanged": true,
+  "unrelatedEntriesUnchanged": 6035,
+  "unrelatedEntriesSha256": "f4b29334a766ec9bded3ca0d92ea71e6e062d065340bdbaa09df7ead1dc45688",
+  "verifiedFiles": [
+    {
+      "path": "reports/reference-analysis/README.md",
+      "sha256": "fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6",
+      "bytes": 2775
+    },
+    {
+      "path": "reports/reference-analysis/corpus/macro-political/corpus.seams.training.json",
+      "sha256": "b88a47a44a24f5be7ea859cb445baf78a802ed878a3d1b666b04847ae9694944",
+      "bytes": 4823
+    },
+    {
+      "path": "reports/reference-analysis/corpus/macro-political/derived/cia-asia-political-seams-r4.mask.png",
+      "sha256": "9a93be7c750a6dc5b5b9f5460354d65e83a13b0e0a72c5f97935a63656579b58",
+      "bytes": 22464
+    },
+    {
+      "path": "reports/reference-analysis/corpus/macro-political/derived/cia-asia-political-seams-r4.valid.png",
+      "sha256": "1ce28d77f9720fcc6a0fec601115a38ec67f8d9fe5477de86a70f0e4200f5d65",
+      "bytes": 54352
+    },
+    {
+      "path": "reports/reference-analysis/corpus/macro-political/labels/cia-asia-political-seams-r4.json",
+      "sha256": "e9c2c975f29c5391850e4271b734feb7c0fb68082797c858e1eb4b52c7120ef0",
+      "bytes": 1246
+    },
+    {
+      "path": "reports/reference-analysis/corpus/macro-political/recipes/seams-r4/cia-asia-political.source.json",
+      "sha256": "a6e4e94f539178ed05647ea6f2619b5b2bbda58a87803adf56be9e33d03094a0",
+      "bytes": 2896
+    },
+    {
+      "path": "reports/reference-analysis/macro-seam-training-2026-10-24.md",
+      "sha256": "67a2bf485d83ef780e89d2f2c6ae5e0d5f4938c26e4c71059be83c76813eb477",
+      "bytes": 5909
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/boundary.manifest.json",
+      "sha256": "dd73b462cfd960eee1a182fe08095133e0f1c45b4f79e18a214be3893990085f",
+      "bytes": 808
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/boundary.onnx",
+      "sha256": "c6554f199f428e1abaa4deede702ceaadcad870ffde735f37bfaee9d37f19706",
+      "bytes": 16697571
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/boundary.pt",
+      "sha256": "f1649f67778a706b5d741405f68f16245bce62a6f76f64597e4121dcc16a868a",
+      "bytes": 16909057
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/cia-asia-political-seams-r4.jpg",
+      "sha256": "9569230c31e414d53b9594676211ff29f12115aa7565eab48355c8fc3e3273d9",
+      "bytes": 401385
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/cia-world-political-2021.jpg",
+      "sha256": "3a8276a978a9dd80af6efba7f2aea8e013525fc47a5cd97ad7d01c7962068d15",
+      "bytes": 381691
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/diagnostics.json",
+      "sha256": "60c096b5e8cb700b0933f86697ba115625f6edc7255fd5690803f709098cbb98",
+      "bytes": 16763
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/expected-logits.f32",
+      "sha256": "69195e018281267fd74ebcaf61995d0767fb076b17a6adc8d329723589ce44a2",
+      "bytes": 7340032
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/nrcan-canada-monochrome.jpg",
+      "sha256": "7d07fc215528922e6dac5714e64115d1b436e8227f6faf9deaeefd4c6958dae6",
+      "bytes": 241837
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/nrcan-canada-national.jpg",
+      "sha256": "e1e96deb52441657797a72052f88da29cccf886b1b9ee72fd21a30e65457d991",
+      "bytes": 241942
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/overview.f32",
+      "sha256": "b6a1b547db4fdd9b583fc4d626033be53930f26372b569ffefdab48f2552fb39",
+      "bytes": 786432
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/position.f32",
+      "sha256": "247c4482d8dd4aff4b50f8942950d45a0a1b4c0fb52dd0a93a76af0badd1f100",
+      "bytes": 16
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/diagnostics/tile.f32",
+      "sha256": "d999e7686c87596a2dfade2b1b0231e344da575c21ee8f3c9a3bee8f524c9e35",
+      "bytes": 3145728
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/initializer-preservation.json",
+      "sha256": "49f932b1e75c8723576af1e6c033675cc76a0cc73a0d7730e079f1b53bb02e99",
+      "bytes": 276
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/onnx-wasm-parity.json",
+      "sha256": "c92730024e81ed36dd3a2df91396273214acf6264eae0ed38b376cc0c230611e",
+      "bytes": 1562
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/operation-verification.json",
+      "sha256": "882c5a9641a2457cd05ffee858309321226436b45447524179873145190457f0",
+      "bytes": 421
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/preservation-baseline.json",
+      "sha256": "f30a8db02b155c214a2eaa343ab9c4a6514690e3b19b91bd4b3d8b5f8fc9beab",
+      "bytes": 4094
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/source-seam-crop.jpg",
+      "sha256": "8dd1fc62d1eef1cdf10c2fbf584b94e9fb1a3381f4f22af329d09582e1d38b0b",
+      "bytes": 254652
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/source-seam-overview.jpg",
+      "sha256": "36f69c03aa01a3846641ecca9444d948ed512bf291500ddfc39b8d8ab880d730",
+      "bytes": 405445
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/training-comparison.json",
+      "sha256": "b71789e68d76e4680cf0778a74d639786e190f0e392a59de56bd57e0fc77eb27",
+      "bytes": 2795
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/training-summary.json",
+      "sha256": "6cf386d9874a6b99d47281064963413d0f1a6982a41661298f9ea97764fb75a8",
+      "bytes": 2248
+    },
+    {
+      "path": "reports/reference-analysis/models/macro-v3/training.log",
+      "sha256": "60f5175c7da95919222d6bf11cda19fe2d7775e1f36465e18bdfeeca8a3e053c",
+      "bytes": 869
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "ref": "work/ui",
+    "head": "5b37d0a23b76b9f1143e8e5bfa5eca9737417219",
+    "remote": "5b37d0a23b76b9f1143e8e5bfa5eca9737417219",
+    "remoteMatches": true,
+    "pin": "7e7a015ebddada00d97d899e11c9ebcc1847452a",
+    "pinPreserved": true,
+    "coreManifestPreserved": true,
+    "wasmPreserved": true,
+    "previousLocalPreserved": true,
+    "previousRemotePreserved": true,
+    "taskSourceCount": 31,
+    "taskDifferences": [],
+    "status": ""
+  },
+  {
+    "ref": "work/objects",
+    "head": "4df51620a5bb92d40e9ee881d768801c192dc0ae",
+    "remote": "4df51620a5bb92d40e9ee881d768801c192dc0ae",
+    "remoteMatches": true,
+    "pin": "ea843c09e790245cbcfe35a44051b2d67534ee4e",
+    "pinPreserved": true,
+    "coreManifestPreserved": true,
+    "wasmPreserved": true,
+    "previousLocalPreserved": true,
+    "previousRemotePreserved": true,
+    "taskSourceCount": 31,
+    "taskDifferences": [],
+    "status": ""
+  },
+  {
+    "ref": "work/gis",
+    "head": "3d2c0d82ce46a16eaa73b3ed720ca1fbd45c9d95",
+    "remote": "3d2c0d82ce46a16eaa73b3ed720ca1fbd45c9d95",
+    "remoteMatches": true,
+    "pin": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+    "pinPreserved": true,
+    "coreManifestPreserved": true,
+    "wasmPreserved": true,
+    "previousLocalPreserved": true,
+    "previousRemotePreserved": true,
+    "taskSourceCount": 31,
+    "taskDifferences": [],
+    "status": ""
+  },
+  {
+    "ref": "work/places",
+    "head": "f9e53554c3b601b84dec052a00339fc868086bad",
+    "remote": "f9e53554c3b601b84dec052a00339fc868086bad",
+    "remoteMatches": true,
+    "pin": "cd0698ab2886e7468cf10571186c76941e56709a",
+    "pinPreserved": true,
+    "coreManifestPreserved": true,
+    "wasmPreserved": true,
+    "previousLocalPreserved": true,
+    "previousRemotePreserved": true,
+    "taskSourceCount": 31,
+    "taskDifferences": [],
+    "status": ""
+  }
+]

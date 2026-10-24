@@ -10,7 +10,3 @@ Direct river-line names are distinguished from basin callouts. Headwater, feeder
 The single public bibliography contains own factual observations. Original maps, full paths and private review inputs are omitted. Multiple views from one publication remain one source group.
 
 The included validators check only public metadata, factual linkage and byte integrity. They do not replay omitted original-source, complete-path or decoder judgments. Earlier verdicts remain in cumulative assessment history; a completed reassessment may retain a naming hold.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/9eee677debfc4be3752f5d57dc6bb1208eef85ffb83eaa0e09f3c3eb56a4ebdc.gz) · 원본 SHA-256 `9eee677debfc4be3752f5d57dc6bb1208eef85ffb83eaa0e09f3c3eb56a4ebdc`.

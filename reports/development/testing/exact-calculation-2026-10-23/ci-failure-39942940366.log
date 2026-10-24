@@ -1,0 +1,31 @@
+contracts	Verify the compiled source and committed runtime pair	﻿2026-10-23T11:05:48.5875164Z ##[group]Run node tools/package-shared-core-assets.mjs --build-dir build-native/wasm/wasm --check
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5875586Z ^[[36;1mnode tools/package-shared-core-assets.mjs --build-dir build-native/wasm/wasm --check^[[0m
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5927516Z shell: /usr/bin/bash -e {0}
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5927666Z env:
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5927789Z   EMCC_CORES: 1
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5927904Z   BINARYEN_CORES: 1
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5928036Z   NODE_OPTIONS: --max-old-space-size=512
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5928224Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.5928400Z ##[endgroup]
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6499007Z node:internal/modules/run_main:107
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6499528Z     triggerUncaughtException(
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6507341Z     ^
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6507713Z 
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6508113Z AssertionError [ERR_ASSERTION]: WASM binary artifact stale
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6508622Z + actual - expected
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6508757Z 
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6509011Z + '70e4cb446bef37d9efe6be90c28f95b1eaf172128ffd916a9ac36ede012473a8'
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6509578Z - 'f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03'
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6509829Z 
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6510193Z     at packageSharedCoreAssets (file:///home/runner/work/Pando/Pando/tools/package-shared-core-assets.mjs:46:12)
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6511204Z     at async file:///home/runner/work/Pando/Pando/tools/package-shared-core-assets.mjs:63:18 {
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6511603Z   generatedMessage: false,
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6511824Z   code: 'ERR_ASSERTION',
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6512184Z   actual: '70e4cb446bef37d9efe6be90c28f95b1eaf172128ffd916a9ac36ede012473a8',
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6512689Z   expected: 'f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03',
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6513129Z   operator: 'strictEqual',
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6513332Z   diff: 'simple'
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6513511Z }
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6513599Z 
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6513679Z Node.js v24.21.0
+contracts	Verify the compiled source and committed runtime pair	2026-10-23T11:05:48.6568972Z ##[error]Process completed with exit code 1.

@@ -37,7 +37,3 @@ Android 문서 공급자에서 이름을 알아낼 수 없는 파일은 확장�
 2-2 기능 검증의 완료 조건은 현재 브랜치에서 `node --test tests/unit/project-save-picker.test.mjs tests/unit/gis-export-controller.test.mjs apps/web-shell/tests/native-storage.test.mjs`,
 `pnpm --dir apps/web-shell test:native`, Windows Tauri 실동작, Android 실제 다이얼로그 검사이다.
 기존 Qt 앱과 `main` 배포는 변경하지 않았다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/edbcd9ff4c821cd7ab4c19c3724999cfe3eaa00f476b91ee563a9ba79adbd188.gz) · 원본 SHA-256 `edbcd9ff4c821cd7ab4c19c3724999cfe3eaa00f476b91ee563a9ba79adbd188`.

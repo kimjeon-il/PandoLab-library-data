@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "trainingOnly": true,
+  "evaluationStatus": "pending",
+  "releaseApproved": false,
+  "mapApplication": "not-applied",
+  "epochs": 6,
+  "completed": {
+    "epoch": 5,
+    "attemptedBatches": 738,
+    "optimizerUpdates": 729,
+    "skippedUpdates": 9,
+    "trainingLoss": 0.6347311678440362,
+    "validationLoss": null
+  },
+  "selected": {
+    "epoch": 4,
+    "steps": 615,
+    "optimizerUpdates": 607,
+    "skippedUpdates": 8,
+    "trainingLoss": 0.5267204682770865,
+    "validationLoss": null,
+    "corpusSha256": "f4c21c66dc3384cb025d4b400e1a4641bbdd61bb211dcc9a2113c8848d68c432",
+    "initialization": {
+      "sha256": "f1649f67778a706b5d741405f68f16245bce62a6f76f64597e4121dcc16a868a",
+      "attemptedBatches": 384,
+      "optimizerUpdates": 380,
+      "corpusSha256": "0574499702f0ea0426b0fed84a95a54e9614e62c57eedac36c155eaf8c7265a8"
+    }
+  },
+  "epochsLog": [
+    {
+      "epoch": 0,
+      "attemptedBatches": 123,
+      "optimizerUpdates": 120,
+      "skippedUpdates": 3,
+      "trainingLoss": 0.7363987979091083,
+      "validationLoss": null
+    },
+    {
+      "epoch": 1,
+      "attemptedBatches": 246,
+      "optimizerUpdates": 243,
+      "skippedUpdates": 3,
+      "trainingLoss": 0.6399965985996149,
+      "validationLoss": null
+    },
+    {
+      "epoch": 2,
+      "attemptedBatches": 369,
+      "optimizerUpdates": 363,
+      "skippedUpdates": 6,
+      "trainingLoss": 0.64419780988568,
+      "validationLoss": null
+    },
+    {
+      "epoch": 3,
+      "attemptedBatches": 492,
+      "optimizerUpdates": 485,
+      "skippedUpdates": 7,
+      "trainingLoss": 0.7072673004217128,
+      "validationLoss": null
+    },
+    {
+      "epoch": 4,
+      "attemptedBatches": 615,
+      "optimizerUpdates": 607,
+      "skippedUpdates": 8,
+      "trainingLoss": 0.5267204682770865,
+      "validationLoss": null
+    },
+    {
+      "epoch": 5,
+      "attemptedBatches": 738,
+      "optimizerUpdates": 729,
+      "skippedUpdates": 9,
+      "trainingLoss": 0.6347311678440362,
+      "validationLoss": null
+    }
+  ],
+  "originalGroups": 4,
+  "publisherVariants": 5,
+  "tiles": 123,
+  "learningRate": 1e-05,
+  "freezeEncoderEpochs": 2,
+  "sampling": "balanced-corpora-originals-with-coverage"
+}

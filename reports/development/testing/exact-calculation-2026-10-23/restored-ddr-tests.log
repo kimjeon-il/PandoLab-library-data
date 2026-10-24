@@ -1,0 +1,10 @@
+✔ frozen adopted DDR shared-border import audits Boolean roundoff without taking Polish or Czech territory (1112.8825ms)
+✔ current paired DDR source imports its exact geometry without modifying its source or donors (336.5444ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1740.6706

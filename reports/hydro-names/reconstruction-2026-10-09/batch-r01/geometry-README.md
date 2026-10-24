@@ -102,7 +102,3 @@ Made with Natural Earth.
 This rights statement concerns the selected Natural Earth-derived geometry
 and our factual extraction. It does not cover unrelated evidence documents
 or authorize copying raw maps/PDFs gathered by the name researchers.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/7aa49807e358d91649386342c9927ac685d36a1c8b03047af58a92e5753c0ade.gz) · 원본 SHA-256 `7aa49807e358d91649386342c9927ac685d36a1c8b03047af58a92e5753c0ade`.

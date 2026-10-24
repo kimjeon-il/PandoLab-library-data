@@ -1,0 +1,60 @@
+warning: in the working copy of 'scripts/lib/source-analysis.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/unit/source-analysis.test.mjs', LF will be replaced by CRLF the next time Git touches it
+{
+  "output": "D:\\dev\\worktrees\\objects\\.superpowers\\sdd\\exact-calculation-optimization\\performance.json",
+  "parityCases": 219,
+  "metrics": [
+    {
+      "name": "timeline-16",
+      "baselineMedianMs": 9.66150000000016,
+      "candidateMedianMs": 9.516200000000026,
+      "changePercent": -1.5039072607786697,
+      "work": null
+    },
+    {
+      "name": "timeline-256",
+      "baselineMedianMs": 152.66449999999986,
+      "candidateMedianMs": 148.84540000000015,
+      "changePercent": -2.501629389936566,
+      "work": null
+    },
+    {
+      "name": "timeline-2048",
+      "baselineMedianMs": 1407.6008999999976,
+      "candidateMedianMs": 1212.174500000001,
+      "changePercent": -13.883651253703865,
+      "work": null
+    },
+    {
+      "name": "source-analysis-53",
+      "baselineMedianMs": 587.5584999999992,
+      "candidateMedianMs": 567.7828000000009,
+      "changePercent": -3.3657414538294184,
+      "work": null
+    },
+    {
+      "name": "import-id-replace",
+      "baselineMedianMs": 100.22419999999693,
+      "candidateMedianMs": 21.013099999996484,
+      "changePercent": -79.03390598278945,
+      "work": {
+        "baselineBoundsCalls": 256,
+        "candidateBoundsCalls": 129,
+        "incomingVertices": 20001,
+        "existingCountries": 128
+      }
+    },
+    {
+      "name": "import-territory-replacement",
+      "baselineMedianMs": 263.2948000000033,
+      "candidateMedianMs": 181.57510000000184,
+      "changePercent": -31.037339134688736,
+      "work": {
+        "baselineBoundsCalls": 256,
+        "candidateBoundsCalls": 129,
+        "incomingVertices": 20001,
+        "existingCountries": 128
+      }
+    }
+  ]
+}

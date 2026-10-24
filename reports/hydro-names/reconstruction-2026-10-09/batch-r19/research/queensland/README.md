@@ -13,7 +13,3 @@ Direct river labels are distinguished from catchment titles and shading. One off
 All three bounded group-name assessments are complete. None is access-pending. No follow-up is required to complete these bounded representative-system assessments. Additional reach-specific evidence would be needed for any separately authorized name application. Whole-group scalar and Korean names are null, all-reach verification is false, and automatic/product application is false. No geometry was modified.
 
 This directory contains six files: bibliography, own findings, bounded geometry identity facts and a manifest of the five other included files. Complete baseline paths, original publications and inspection materials are excluded. Public offline validation cannot reproduce the omitted whole-path and map-pixel comparisons.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/3d5359bc712c97405fe10d5e7e5853f0e9fc1a13938fcb7902dbf159947a7780.gz) · 원본 SHA-256 `3d5359bc712c97405fe10d5e7e5853f0e9fc1a13938fcb7902dbf159947a7780`.

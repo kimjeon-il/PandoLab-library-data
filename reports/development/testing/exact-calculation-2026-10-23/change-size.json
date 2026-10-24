@@ -1,0 +1,25 @@
+{
+  "productionOptimizationNumstat": "6\t2\tassets/js/modules/import-service.js\n30\t11\tshared/core/src/timeline-resolver.cpp",
+  "additions": [
+    {
+      "file": "tools/exact-calculation-performance.mjs",
+      "before": 0,
+      "after": 12287
+    },
+    {
+      "file": "tests/fixtures/geometry/library-ddr-roundoff.json.gz",
+      "before": 0,
+      "after": 346182
+    },
+    {
+      "file": "assets/wasm/pandoeditor-core.wasm",
+      "before": 3064342,
+      "after": 3069894
+    }
+  ],
+  "worker": {
+    "files": 42,
+    "bytes": 294379
+  },
+  "claim": "Execution work reduced; source and stored payload bytes increased. No storage-size improvement claimed. Unrelated CI cleanup was stopped."
+}

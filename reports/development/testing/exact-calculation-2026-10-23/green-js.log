@@ -1,0 +1,22 @@
+✔ project replacement rejects unmarked vectors and preserves current common fields from the Core file receipt (638.2777ms)
+✔ GIS geometry validator scopes IDs and resolves worker responses (0.9434ms)
+✔ country merge planner replaces matching IDs without mutating inputs (2.1646ms)
+✔ merge planning computes unchanged incoming bounds once per operation and keeps validation order (1.5919ms)
+✔ imported-wins authoritatively replaces the same country instead of unioning its old geometry (1.4628ms)
+✔ territory replacement deletes every country fully covered by one historical country (0.5354ms)
+✔ territory replacement preserves the remainders of several partially covered countries (0.5694ms)
+✔ historical replacement clips fully transferred dependents in one actual Core commit and Undo unit (228.916ms)
+✔ import service returns a current immutable entity plan without a retired country merge (2.2604ms)
+✔ GIS imports ignore feature metadata while project packages preserve separate assets and source history (0.5502ms)
+✔ JavaScript analysis ignores comment text and retains actual syntax after formatting changes (17.3916ms)
+✔ JavaScript analysis preserves alias bindings and detects real global access (4.7293ms)
+✔ JavaScript analysis fails visibly on malformed code (1.8851ms)
+✔ successive analyses preserve earlier AST, scopes, source type and syntax errors (6.4176ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1279.6611

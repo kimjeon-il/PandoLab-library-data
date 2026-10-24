@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-22T21:36:07.759Z",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "worktrees": [
+    "D:/dev/PandoLab",
+    "D:/dev/worktrees/gis",
+    "D:/dev/worktrees/objects",
+    "D:/dev/worktrees/places",
+    "D:/dev/worktrees/ui"
+  ],
+  "protectedRevisions": [
+    "36818f327b5d7a423dbf51db79106197786b69f6",
+    "f8114d67ff786f3b6d252c034b8654b2dde4d75b",
+    "3044d17e05e7233be7edab4d029efd1254d19476",
+    "f9935af232ae56515ec30604034a05d66408428a"
+  ],
+  "protectedMounts": [
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\assets\\data",
+    "D:\\dev\\PandoLab-library-data\\.working\\36818f327b5d7a423dbf51db79106197786b69f6\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\sources",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\working",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\review-output",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\land-borders",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\3044d17e05e7233be7edab4d029efd1254d19476\\assets\\data",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\gis\\.working\\3044d17e05e7233be7edab4d029efd1254d19476\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\3044d17e05e7233be7edab4d029efd1254d19476\\tools\\historical-library\\sources",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\3044d17e05e7233be7edab4d029efd1254d19476\\tools\\historical-library\\working",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\3044d17e05e7233be7edab4d029efd1254d19476\\tools\\historical-library\\review-output",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\3044d17e05e7233be7edab4d029efd1254d19476\\tools\\historical-library\\land-borders",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\assets\\data",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\objects\\.working\\36818f327b5d7a423dbf51db79106197786b69f6\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\sources",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\working",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\review-output",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\land-borders",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\assets\\data",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\places\\.working\\36818f327b5d7a423dbf51db79106197786b69f6\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\sources",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\working",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\review-output",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6\\tools\\historical-library\\land-borders",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f9935af232ae56515ec30604034a05d66408428a\\assets\\data",
+    "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\f9935af232ae56515ec30604034a05d66408428a\\reports",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f9935af232ae56515ec30604034a05d66408428a\\tools\\historical-library\\sources",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f9935af232ae56515ec30604034a05d66408428a\\tools\\historical-library\\working",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f9935af232ae56515ec30604034a05d66408428a\\tools\\historical-library\\review-output",
+    "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f9935af232ae56515ec30604034a05d66408428a\\tools\\historical-library\\land-borders"
+  ],
+  "entries": [
+    {
+      "revision": "81f6c2a54224427c1f9081bdb9310520774903f5",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\81f6c2a54224427c1f9081bdb9310520774903f5",
+      "files": 2425,
+      "bytes": 827938869,
+      "mismatches": [],
+      "extras": [],
+      "status": "verified-unused"
+    }
+  ]
+}

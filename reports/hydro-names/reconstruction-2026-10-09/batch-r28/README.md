@@ -16,7 +16,3 @@ Earlier Richmond and Hastings verdicts, source pointers and scope statements are
 ## Public verification
 
 Run `python validate-package.py` for included-file integrity, current reassessment consistency and cumulative accounting. `recover-remaining-queue.py` uses the exact initial inventory and this index. Neither public validation nor the corruption tests replay omitted original maps, complete paths or decoder inputs. Original PDF bodies, map rasters, full river coordinates and private fingerprints are omitted.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/d902abca6c2f158dbf0d09b30b8598b795024fce250d0cf3c1bd9ec20c623a27.gz) · 원본 SHA-256 `d902abca6c2f158dbf0d09b30b8598b795024fce250d0cf3c1bd9ec20c623a27`.

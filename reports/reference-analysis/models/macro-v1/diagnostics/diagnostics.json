@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "purpose": "training-set-diagnostic-only",
+  "viewCorpus": "primary",
+  "independentEvaluation": false,
+  "releaseApproved": false,
+  "checkpointSha256": "821ac74bce26018c1da8d5ae273dc33a9a17f02f76c25039e94e44ea8247f218",
+  "baselineCheckpointSha256": "9b6f0de59f91073226154191daa1f98e1295b99ab5006bb033182ca82ea3f553",
+  "onnxSha256": "48dc77b43e4bdad2555bb757a46f2da818f50b897686c1461f1a9efc5ece4155",
+  "corpusSha256": "da4e0465837fe5ec76a48ebf292af993eb21b95ff8d0ab34d418fe39dd5c8d08",
+  "trainingBatches": 352,
+  "optimizerUpdates": 349,
+  "trainingLoss": 1.1443072164600545,
+  "validationLoss": null,
+  "unobservedChannels": [
+    "coast",
+    "hydro",
+    "transport",
+    "text",
+    "frame"
+  ],
+  "sheets": [
+    {
+      "sheetId": "cia-world-political-2021",
+      "tileIndex": 8,
+      "pixelOrigin": [
+        1344,
+        448
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 41871,
+          "targetPixels": 1878,
+          "predictedPixels": 1103,
+          "overlapPixels": 966,
+          "probabilityMin": 0.00228540669195354,
+          "probabilityMax": 0.9784990549087524
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0010217026574537158,
+          "probabilityMax": 0.9825199842453003
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "transport": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        }
+      },
+      "previewFile": "cia-world-political-2021.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 41871,
+          "targetPixels": 1878,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0011868135770782828,
+          "probabilityMax": 0.7366690039634705
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0012821289710700512,
+          "probabilityMax": 0.9316394329071045
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0011196497362107038,
+          "probabilityMax": 0.9968570470809937
+        },
+        "transport": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0028798277489840984,
+          "probabilityMax": 0.9660230278968811
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.012557507492601871,
+          "probabilityMax": 0.9924673438072205
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0010394684504717588,
+          "probabilityMax": 0.9989845156669617
+        }
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-national",
+      "tileIndex": 6,
+      "pixelOrigin": [
+        0,
+        448
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 236370,
+          "targetPixels": 1856,
+          "predictedPixels": 11322,
+          "overlapPixels": 1490,
+          "probabilityMin": 0.002356921089813113,
+          "probabilityMax": 0.9722214937210083
+        },
+        "administrative": {
+          "supervisedPixels": 236370,
+          "targetPixels": 1674,
+          "predictedPixels": 8506,
+          "overlapPixels": 1662,
+          "probabilityMin": 0.0012115273857489228,
+          "probabilityMax": 0.9819359183311462
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "transport": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        }
+      },
+      "previewFile": "nrcan-canada-national.jpg",
+      "baselineChannels": {
+        "international": {
+          "supervisedPixels": 236370,
+          "targetPixels": 1856,
+          "predictedPixels": 20,
+          "overlapPixels": 0,
+          "probabilityMin": 0.001614645472727716,
+          "probabilityMax": 0.665865957736969
+        },
+        "administrative": {
+          "supervisedPixels": 236370,
+          "targetPixels": 1674,
+          "predictedPixels": 26,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0006647997652180493,
+          "probabilityMax": 0.6978461742401123
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0010269088670611382,
+          "probabilityMax": 0.9959990978240967
+        },
+        "transport": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0018146615475416183,
+          "probabilityMax": 0.9924829602241516
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.010259243659675121,
+          "probabilityMax": 0.9878700375556946
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.00035417539766058326,
+          "probabilityMax": 0.9956195950508118
+        }
+      }
+    }
+  ]
+}

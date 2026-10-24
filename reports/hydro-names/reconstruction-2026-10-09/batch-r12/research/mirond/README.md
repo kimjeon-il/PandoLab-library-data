@@ -7,7 +7,3 @@ The historical full-feature review considered every lobe of the complete source 
 `source-evidence.json` gives the official bibliographic URL, printed date, original retrieval date and limits. `map-scope-review.json` retains factual all-lobe observations. Original publications and inspection materials are absent. Public validation checks the included records and selected public-domain lake geometry; it does not reproduce visual map judgments.
 
 Whole-feature scalar and Korean names remain null. Formal registry verification, exact shoreline verification, automatic application and product application remain false.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/1834006d052f206221b0ec0d0ad1e4d7682f6da41c6bbb5a3b01e515ee1d5a25.gz) · 원본 SHA-256 `1834006d052f206221b0ec0d0ad1e4d7682f6da41c6bbb5a3b01e515ee1d5a25`.

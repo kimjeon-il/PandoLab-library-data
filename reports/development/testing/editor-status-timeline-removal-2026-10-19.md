@@ -23,7 +23,3 @@
 - Windows full-world 디버그 실행파일을 같은 고정 빌드 위치에 재빌드했다. 실제 WebView2 canonical 시작 검사 **12/12 통과**: `windows-build.log`, `windows-probe.log`, `windows-verified/world-windows.json`. 현재 앱 staging의 HTML에는 이동 컨트롤이 없고, 비교·편집 기준 시점은 존재하며, 변경한 JS 5개와 공통 CSS bundle은 소스와 바이트가 일치한다: `staging-ui-parity.json`. probe의 내장 Core 판본·자산 해시와 최종 staging HTML 해시도 확인했다: `windows-parity.json`. 네이티브 검사는 실제 앱 시작·자료·Worker·렌더러 준비 확인이며, 컨트롤과 입력 동작의 직접 검증은 앞서 명시한 앱 시작점 브라우저 검사다.
 
 기존 미커밋 변경과 상설 워크트리를 보존했다. 작업 시작 확인에서 main과 작업 HEAD는 같았으며 원격 work/ui의 생성물 커밋 한 개는 겹치는 미완료 변경 위로 병합하지 않았다. 전체 테스트, Android 기기 실행, 커밋·푸시·main 통합·배포는 이번 검사에 포함하지 않았다. HTML/브라우저 검사를 네이티브 UI 직접 조작 검증으로 표현하지 않는다. 중간 실패와 중단 실행 기록은 보존하고 최종 판정은 위에 명시한 로그로 구분했다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/5ec41172361ddd1472b479586003a192a02d20d7eaba337108f6bddbf703a383.gz) · 원본 SHA-256 `5ec41172361ddd1472b479586003a192a02d20d7eaba337108f6bddbf703a383`.

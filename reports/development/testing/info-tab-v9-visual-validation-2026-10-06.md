@@ -7,7 +7,3 @@
 - WebGL raster 추가 검사 중 브라우저 응답 지연으로 완료하지 못한 구간이 있고 원인을 확정하지 못했다. 통과한 Canvas 결과를 모든 렌더러 연속성·실제 배포 UI 결과로 확대하지 않는다.
 
 [정리 전 원문·전체 테스트 목록·출처·원본 커밋](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/info-tab-v9-visual-validation-2026-10-06.md)을 참조할 것. 현재 지도 데이터·런타임 변경이나 검증 완료를 의미하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/1c2f0d5ee48d7f54e333d0f4febb3dae940fc8982f1f6ca80c9af4f671c08e12.gz) · 원본 SHA-256 `1c2f0d5ee48d7f54e333d0f4febb3dae940fc8982f1f6ca80c9af4f671c08e12`.

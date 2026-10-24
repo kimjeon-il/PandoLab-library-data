@@ -1,0 +1,88 @@
+{
+  "checks": {
+    "blockedRequests": "PASS",
+    "builtinWorld": "PASS",
+    "canonicalGeometry": "PASS",
+    "canonicalMesh": "PASS",
+    "dataLoaderWorker": "PASS",
+    "modelEntityCount": "PASS",
+    "packageProfile": "PASS",
+    "preview": "PASS",
+    "renderer": "PASS",
+    "sharedCore": "PASS",
+    "sourceCountryCount": "PASS",
+    "sovereignRootCount": "PASS"
+  },
+  "embeddedBuild": {
+    "commit": "5de478ba676cb2286de3029578e46a222765b83f",
+    "coreSourceSha256": "c0c9347887746747d3bb868bdc78860ec20b8efdb807aed8da5adebaa16bc3be",
+    "files": [
+      {
+        "bytes": 51379,
+        "path": "assets/wasm/pandoeditor-core.js",
+        "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+      },
+      {
+        "bytes": 3064342,
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "sha256": "e72501c94cdc445ab149e49d7a067a62eba71ac104c8e2202f2f057cabeccc95"
+      },
+      {
+        "bytes": 23553,
+        "path": "assets/wasm/pandoeditor-core.manifest.json",
+        "sha256": "1c7edffb9d95e52c74325f09143df728c098de4672980c81fe4f8d5225381405"
+      }
+    ],
+    "fixture": null,
+    "schema": "pandolab-web-shell-stage",
+    "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "observed": {
+    "activeWebGlContextCount": 1,
+    "blockedRequests": 0,
+    "canonicalGeometryReceivedMs": 23121.59999999404,
+    "canonicalMeshReceivedMs": 38776.19999998808,
+    "countryBaseIndexCount": 6461577,
+    "countryCount": 254,
+    "dataRevision": "data-94eafdbb58c052b7ec04668586e18007",
+    "expectedModelCount": 254,
+    "expectedRootCount": 207,
+    "expectedSourceCount": 258,
+    "previewReceivedMs": 6751.9000000059605,
+    "readyMs": 41235.90000000596,
+    "renderer": "webgl2",
+    "sourceCountryCount": 258,
+    "sovereignRootCount": 207,
+    "triangleCount": 2153859,
+    "workers": [
+      {
+        "name": "pandolab-data-loader",
+        "type": "module"
+      },
+      {
+        "name": "",
+        "type": "module"
+      },
+      {
+        "name": "pandolab-country-shared-boundary",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-overlay-mesh",
+        "type": "classic"
+      },
+      {
+        "name": "pandolab-label-anchors",
+        "type": "classic"
+      }
+    ]
+  },
+  "ok": true,
+  "phase": "canonical-ready",
+  "schema": "pandolab-web-shell-world-probe",
+  "version": 1
+}

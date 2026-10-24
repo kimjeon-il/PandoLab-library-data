@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "origin": "macro-vector-supervision",
+  "reviewed": false,
+  "supervisionQuality": "source-derived-weak",
+  "width": 2560,
+  "height": 1979,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international",
+    "administrative"
+  ],
+  "sourcePdf": "sources/nrcan-canada-national.pdf",
+  "sourceSha256": "954101b51bce0f3313394e960e4bb1b4570d03c4b03b2f2b08166073afea731a",
+  "sourceMetadata": "sources/nrcan-canada-national.source.json",
+  "sourceMetadataSha256": "8c1d9aee0a6207ea9248bb39189b475139faf0fc9fcce39db5f5c526bb1c8d68",
+  "producer": {
+    "script": "tools/reference-analysis/macro.py",
+    "sha256": "2a80304d0aa82cb530dbcf30625dbf516ef1fa1dd911de32905bb8fd9502d14e",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "positivePixels": {
+    "international": 10075,
+    "administrative": 13029,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/nrcan-canada-national.mask.png",
+    "sha256": "bfa31ab784350bffefc75d957b02f8a27ce0390365c2d299c37947bdd09fb1b4"
+  },
+  "validRaster": {
+    "path": "derived/nrcan-canada-national.valid.png",
+    "sha256": "e9563af4e5e806d3e0a6a8f8a21f0a03c3036cf60155bcfa8fcc3770848f3adc"
+  }
+}

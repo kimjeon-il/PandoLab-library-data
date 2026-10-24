@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-22T22:09:26.527Z",
+  "measurement": "Robocopy /L /E /XJ logical file lengths. Hard links may be counted more than once; not physical reclaimable space. No historical disk snapshot: increase since 40GB/70GB free is unproven.",
+  "logicalBytes": {
+    "pandoCode": 3741355284,
+    "libraryDataIncludingCaches": 23710076542,
+    "permanentCodeWorktrees": 25601514249,
+    "build": 4767916507,
+    "codex": 1905653730,
+    "pnpmStore": 321489186,
+    "android": 12195941405,
+    "bakugan": 926776300,
+    "beyblade": 110370845509,
+    "hearthstone": 17205093642,
+    "other": 119157064,
+    "openDesign": 6390440869,
+    "hearthstoneStudioCode": 725636232,
+    "beystadiumCode": 1153660968,
+    "verification": 392554
+  },
+  "details": {
+    "materializedCaches": 12394421728,
+    "nativeUiTarget": 16368794492,
+    "quickBootSnapshot": 2699482830,
+    "retiredAppExecutables": 608465812
+  },
+  "confirmedRemovedBytes": 5564760377,
+  "cleanupInProgress": false,
+  "snapshotDeletion": "Tool approval review rejected blocked by policy; manual script available. Not removed.",
+  "cleanupSummary": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\cleanup-summary-2026-10-23.json"
+}

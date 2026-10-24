@@ -1,0 +1,31 @@
+{
+  "Removed": [
+    {
+      "Path": "D:\\dev\\worktrees\\ui\\reports\\reference-analysis\\corpus\\macro-political\\cia-world-preview.png",
+      "Bytes": 516932,
+      "Sha256": "410a0e283db36b50b62824fa1ddff213527711b2644e2134f4286e729b840093"
+    },
+    {
+      "Path": "D:\\dev\\worktrees\\ui\\reports\\reference-analysis\\corpus\\macro-political\\canada-preview.png",
+      "Bytes": 610624,
+      "Sha256": "231f7c43553822d1d67f969a16717bd6d05666acf676b876ca246c0f81d6e0f6"
+    },
+    {
+      "Path": "D:\\dev\\worktrees\\ui\\reports\\reference-analysis\\corpus\\macro-political\\africa-preview.png",
+      "Bytes": 866405,
+      "Sha256": "4d7b3f86b1af6f40a77d6be2090e98c89161c0098cb6ec49f8f333a313024cc0"
+    },
+    {
+      "Path": "D:\\dev\\worktrees\\ui\\reports\\reference-analysis\\corpus\\macro-political\\asia-preview.png",
+      "Bytes": 1124481,
+      "Sha256": "8faaa073e34bb8312a0d72e887a2064a0b5c6bf82aa55471ce1ff29d85927477"
+    },
+    {
+      "Path": "D:\\dev\\worktrees\\ui\\reports\\reference-analysis\\corpus\\macro-political\\oceania-preview.png",
+      "Bytes": 299909,
+      "Sha256": "0e75574ea5f88298d840ce55d215910d8a92ccf8d80b7a484ad3d6479ba1d13e"
+    }
+  ],
+  "BytesReclaimed": 3418351.0,
+  "Reason": "Unused duplicate source previews; original PDFs, rendered training images and current supervision previews retained"
+}

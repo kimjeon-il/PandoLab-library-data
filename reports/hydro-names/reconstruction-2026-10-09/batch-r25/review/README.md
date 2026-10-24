@@ -7,7 +7,3 @@ Adelaide and Mary have bounded representative identity support. South Alligator 
 `source-observations.json` is the single public bibliography and own factual extraction. Original maps, complete coordinates and private review materials are omitted. Multiple figures from one publication remain one source group.
 
 `validate-independent-review.py` checks only included metadata and factual linkage. `test-independent-review.py` rejects bounded current-record corruptions. Neither program repeats omitted map interpretation, complete-path comparison or original decoding. A completed scope review may retain a naming hold.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/46bcfacc20b1a423cecba8c06295cc792fc319319990fda9364872773ccf3489.gz) · 원본 SHA-256 `46bcfacc20b1a423cecba8c06295cc792fc319319990fda9364872773ccf3489`.

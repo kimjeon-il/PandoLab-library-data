@@ -66,7 +66,3 @@ stash/reset/clean/강제 checkout을 사용하지 않았다. main에 있던 미�
 삭제하거나 다른 작업 브랜치를 변경하지 않았다.
 
 > 2026-10-21 정리 후속: 이 문서에서 언급한 완료된 작업의 일부 원시 증거는 외부로 옮겼다. 작성 당시의 결과는 변경하지 않았다. [브랜치별 원래 경로·SHA-256·보관 목록](/D:/dev/release-evidence/PandoLab/branch-cleanup-20261021/main-archive.json).
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/cd73897087046a777a44c169c23fdaf29278206853c723fd014c93faf78d52fe.gz) · 원본 SHA-256 `cd73897087046a777a44c169c23fdaf29278206853c723fd014c93faf78d52fe`.

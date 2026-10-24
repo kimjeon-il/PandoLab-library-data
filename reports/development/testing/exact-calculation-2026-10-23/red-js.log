@@ -1,0 +1,29 @@
+✖ merge planning computes unchanged incoming bounds once per operation and keeps validation order (10.8218ms)
+✔ successive analyses preserve earlier AST, scopes, source type and syntax errors (28.771ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 635.0708
+
+✖ failing tests:
+
+test at tests\unit\import-service.test.mjs:94:1
+✖ merge planning computes unchanged incoming bounds once per operation and keeps validation order (10.8218ms)
+  AssertionError [ERR_ASSERTION]: three distinct existing geometries plus one unchanged incoming geometry
+  
+  6 !== 4
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/import-service.test.mjs:114:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 6,
+    expected: 4,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

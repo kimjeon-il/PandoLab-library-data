@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-23T12:21:41.1239020Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "eligibleBytes": 4547665154,
+  "deletedBytes": 4547665154,
+  "entries": [
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\00aa69a52b4b2d56fcfbd7e5b8ceba173776527b",
+      "revision": "00aa69a52b4b2d56fcfbd7e5b8ceba173776527b",
+      "status": "protected-or-failed",
+      "bytes": 0,
+      "files": 0,
+      "reason": "Extra or missing files; preserve cache."
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\1373ef67d0a5ca8baf34edf493daa18fef37b9c7",
+      "revision": "1373ef67d0a5ca8baf34edf493daa18fef37b9c7",
+      "status": "removed",
+      "bytes": 997738928,
+      "files": 2651,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6",
+      "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+      "status": "protected-or-failed",
+      "bytes": 0,
+      "files": 0,
+      "reason": "Extra or missing files; preserve cache."
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+      "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "status": "protected-active",
+      "bytes": 0,
+      "files": 0,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\80fefc44bb70cb9eed7032e4d6e4fd3662e8deaa",
+      "revision": "80fefc44bb70cb9eed7032e4d6e4fd3662e8deaa",
+      "status": "removed",
+      "bytes": 845840586,
+      "files": 2438,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+      "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+      "status": "removed",
+      "bytes": 845840586,
+      "files": 2438,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\bae09cf0380569a176d3e19dda40f94c55668227",
+      "revision": "bae09cf0380569a176d3e19dda40f94c55668227",
+      "status": "removed",
+      "bytes": 845840586,
+      "files": 2438,
+      "reason": ""
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6",
+      "revision": "bfc9adccd7b6efc4e07e898e15a45814b0f730d6",
+      "status": "protected-or-failed",
+      "bytes": 0,
+      "files": 0,
+      "reason": "Extra or missing files; preserve cache."
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f8114d67ff786f3b6d252c034b8654b2dde4d75b",
+      "revision": "f8114d67ff786f3b6d252c034b8654b2dde4d75b",
+      "status": "protected-or-failed",
+      "bytes": 0,
+      "files": 0,
+      "reason": "Extra or missing files; preserve cache."
+    },
+    {
+      "kind": "data-cache",
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\fa2de64ac125e768e9ce54137a07591be8d5f506",
+      "revision": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+      "status": "removed",
+      "bytes": 1012404468,
+      "files": 2495,
+      "reason": ""
+    }
+  ]
+}

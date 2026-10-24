@@ -1,0 +1,1141 @@
+{
+  "schemaVersion": 1,
+  "purpose": "training-set-diagnostic-only",
+  "viewCorpus": "auxiliary",
+  "independentEvaluation": false,
+  "releaseApproved": false,
+  "checkpointSha256": "305c0c63a3942f55f2dc8ca0a91698b6eff7b16d5e5df35d4c0e091cd4a53fef",
+  "onnxSha256": "2cab8ce3fc4ebd321b39e24fcd90c2f8c29b635e9e3e5b0f3254af759f63071e",
+  "corpusSha256": "8f3c7a3f1dc0b8a261e2601bd392aa3dc9e1c89fa44e0004ab1ee78cc6a917a3",
+  "trainingBatches": 430,
+  "optimizerUpdates": 425,
+  "trainingLoss": 2.0872189150300136,
+  "validationLoss": null,
+  "unobservedChannels": [
+    "coast"
+  ],
+  "sheets": [
+    {
+      "sheetId": "semap-bostonleventhal_026006-0_1241_1103",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.028686044737696648,
+          "probabilityMax": 0.771640419960022
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.015211340971291065,
+          "probabilityMax": 0.9914259910583496
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 252137,
+          "targetPixels": 181559,
+          "predictedPixels": 9398,
+          "overlapPixels": 5079,
+          "probabilityMin": 0.014258631505072117,
+          "probabilityMax": 0.9469318389892578
+        },
+        "transport": {
+          "supervisedPixels": 252137,
+          "targetPixels": 0,
+          "predictedPixels": 11171,
+          "overlapPixels": 0,
+          "probabilityMin": 0.025942610576748848,
+          "probabilityMax": 0.9969996809959412
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0970931127667427,
+          "probabilityMax": 0.9836493730545044
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0063040717504918575,
+          "probabilityMax": 0.9818545579910278
+        }
+      }
+    },
+    {
+      "sheetId": "semap-bostonleventhal_026913-0_1309_3664",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.017470194026827812,
+          "probabilityMax": 0.823266863822937
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0071604931727051735,
+          "probabilityMax": 0.9724418520927429
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 260608,
+          "targetPixels": 149325,
+          "predictedPixels": 1069,
+          "overlapPixels": 1069,
+          "probabilityMin": 0.014959109015762806,
+          "probabilityMax": 0.8146041631698608
+        },
+        "transport": {
+          "supervisedPixels": 260608,
+          "targetPixels": 111283,
+          "predictedPixels": 3726,
+          "overlapPixels": 0,
+          "probabilityMin": 0.022712264209985733,
+          "probabilityMax": 0.9824626445770264
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.030848313122987747,
+          "probabilityMax": 0.9864700436592102
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.004013412166386843,
+          "probabilityMax": 0.929542601108551
+        }
+      }
+    },
+    {
+      "sheetId": "semap-bostonleventhal_027394-0_1581_1641",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.03693524748086929,
+          "probabilityMax": 0.7486907243728638
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.021604884415864944,
+          "probabilityMax": 0.9035637378692627
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 235712,
+          "targetPixels": 28906,
+          "predictedPixels": 76209,
+          "overlapPixels": 13833,
+          "probabilityMin": 0.018829500302672386,
+          "probabilityMax": 0.8823935985565186
+        },
+        "transport": {
+          "supervisedPixels": 235712,
+          "targetPixels": 13152,
+          "predictedPixels": 43473,
+          "overlapPixels": 3035,
+          "probabilityMin": 0.034062400460243225,
+          "probabilityMax": 0.9971223473548889
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.1281241625547409,
+          "probabilityMax": 0.9828248023986816
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.008883538655936718,
+          "probabilityMax": 0.9892220497131348
+        }
+      }
+    },
+    {
+      "sheetId": "semap-bostonleventhal_028486-0_247_1083",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.029676606878638268,
+          "probabilityMax": 0.8238482475280762
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.015858929604291916,
+          "probabilityMax": 0.9864146113395691
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 188796,
+          "targetPixels": 6560,
+          "predictedPixels": 4556,
+          "overlapPixels": 1206,
+          "probabilityMin": 0.01271788775920868,
+          "probabilityMax": 0.8573020696640015
+        },
+        "transport": {
+          "supervisedPixels": 188796,
+          "targetPixels": 4436,
+          "predictedPixels": 17354,
+          "overlapPixels": 3638,
+          "probabilityMin": 0.022584805265069008,
+          "probabilityMax": 0.9979846477508545
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0713966116309166,
+          "probabilityMax": 0.9875427484512329
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.005793521646410227,
+          "probabilityMax": 0.9958407282829285
+        }
+      }
+    },
+    {
+      "sheetId": "semap-erara_076215-0_2034_1388",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.031023407354950905,
+          "probabilityMax": 0.8149039149284363
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.017656823620200157,
+          "probabilityMax": 0.9325341582298279
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 260875,
+          "targetPixels": 255036,
+          "predictedPixels": 67033,
+          "overlapPixels": 66873,
+          "probabilityMin": 0.017875347286462784,
+          "probabilityMax": 0.9295102953910828
+        },
+        "transport": {
+          "supervisedPixels": 260875,
+          "targetPixels": 0,
+          "predictedPixels": 46669,
+          "overlapPixels": 0,
+          "probabilityMin": 0.03677363693714142,
+          "probabilityMax": 0.9980560541152954
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.09928484261035919,
+          "probabilityMax": 0.9862538576126099
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.008259285241365433,
+          "probabilityMax": 0.9895563721656799
+        }
+      }
+    },
+    {
+      "sheetId": "semap-erara_077455-0_1297_9056",
+      "tileIndex": 2,
+      "pixelOrigin": [
+        0,
+        448
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.009687204845249653,
+          "probabilityMax": 0.8653669953346252
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.012401176616549492,
+          "probabilityMax": 0.9845094084739685
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 83331,
+          "targetPixels": 1779,
+          "predictedPixels": 795,
+          "overlapPixels": 603,
+          "probabilityMin": 0.017192702740430832,
+          "probabilityMax": 0.8028895258903503
+        },
+        "transport": {
+          "supervisedPixels": 83331,
+          "targetPixels": 0,
+          "predictedPixels": 3012,
+          "overlapPixels": 0,
+          "probabilityMin": 0.02319948561489582,
+          "probabilityMax": 0.9938827753067017
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.06192731112241745,
+          "probabilityMax": 0.9925570487976074
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0065379636362195015,
+          "probabilityMax": 0.9964391589164734
+        }
+      }
+    },
+    {
+      "sheetId": "semap-erara_079017-0_2778_12697",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.008942230604588985,
+          "probabilityMax": 0.811375081539154
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.009539577178657055,
+          "probabilityMax": 0.9826160669326782
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 247882,
+          "targetPixels": 2092,
+          "predictedPixels": 9585,
+          "overlapPixels": 1969,
+          "probabilityMin": 0.014317206107079983,
+          "probabilityMax": 0.982695460319519
+        },
+        "transport": {
+          "supervisedPixels": 247882,
+          "targetPixels": 2657,
+          "predictedPixels": 19471,
+          "overlapPixels": 2427,
+          "probabilityMin": 0.021107925102114677,
+          "probabilityMax": 0.9987533092498779
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.05519937351346016,
+          "probabilityMax": 0.9873966574668884
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.003830945584923029,
+          "probabilityMax": 0.9988881945610046
+        }
+      }
+    },
+    {
+      "sheetId": "semap-erara_080881-0_754_10466",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        448
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.015272031538188457,
+          "probabilityMax": 0.7312594652175903
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.014036016538739204,
+          "probabilityMax": 0.9834316372871399
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 110666,
+          "targetPixels": 0,
+          "predictedPixels": 10186,
+          "overlapPixels": 0,
+          "probabilityMin": 0.017911287024617195,
+          "probabilityMax": 0.8410351872444153
+        },
+        "transport": {
+          "supervisedPixels": 110666,
+          "targetPixels": 0,
+          "predictedPixels": 2385,
+          "overlapPixels": 0,
+          "probabilityMin": 0.029374754056334496,
+          "probabilityMax": 0.9936115145683289
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.07995501905679703,
+          "probabilityMax": 0.9804010987281799
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.007159168366342783,
+          "probabilityMax": 0.9908938407897949
+        }
+      }
+    },
+    {
+      "sheetId": "semap-loc_088996-27_2174_3535",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.030392372980713844,
+          "probabilityMax": 0.7778484225273132
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.018718503415584564,
+          "probabilityMax": 0.972331702709198
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 242688,
+          "targetPixels": 0,
+          "predictedPixels": 64396,
+          "overlapPixels": 0,
+          "probabilityMin": 0.015093929134309292,
+          "probabilityMax": 0.9315819144248962
+        },
+        "transport": {
+          "supervisedPixels": 242688,
+          "targetPixels": 37859,
+          "predictedPixels": 12155,
+          "overlapPixels": 915,
+          "probabilityMin": 0.03358144313097,
+          "probabilityMax": 0.9972435235977173
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.10102883726358414,
+          "probabilityMax": 0.9877650141716003
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.009122800081968307,
+          "probabilityMax": 0.9595857858657837
+        }
+      }
+    },
+    {
+      "sheetId": "semap-loc_092763-23_2525_3561",
+      "tileIndex": 2,
+      "pixelOrigin": [
+        0,
+        448
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.014062801375985146,
+          "probabilityMax": 0.8035814166069031
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.010269979014992714,
+          "probabilityMax": 0.973427951335907
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 162389,
+          "targetPixels": 0,
+          "predictedPixels": 3306,
+          "overlapPixels": 0,
+          "probabilityMin": 0.019887501373887062,
+          "probabilityMax": 0.8726485967636108
+        },
+        "transport": {
+          "supervisedPixels": 162389,
+          "targetPixels": 144946,
+          "predictedPixels": 8748,
+          "overlapPixels": 8492,
+          "probabilityMin": 0.02193601429462433,
+          "probabilityMax": 0.9993686079978943
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.035833023488521576,
+          "probabilityMax": 0.978446364402771
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.00502899382263422,
+          "probabilityMax": 0.9964383840560913
+        }
+      }
+    },
+    {
+      "sheetId": "semap-nypl_093346-0_4423_7757",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.09435702115297318,
+          "probabilityMax": 0.7416419982910156
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.05307812988758087,
+          "probabilityMax": 0.8934906125068665
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 229579,
+          "targetPixels": 0,
+          "predictedPixels": 67989,
+          "overlapPixels": 0,
+          "probabilityMin": 0.14575538039207458,
+          "probabilityMax": 0.8621879816055298
+        },
+        "transport": {
+          "supervisedPixels": 229579,
+          "targetPixels": 119271,
+          "predictedPixels": 87423,
+          "overlapPixels": 64658,
+          "probabilityMin": 0.12814347445964813,
+          "probabilityMax": 0.9942439198493958
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.18075145781040192,
+          "probabilityMax": 0.978012204170227
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.040126167237758636,
+          "probabilityMax": 0.9704674482345581
+        }
+      }
+    },
+    {
+      "sheetId": "semap-nypl_094640-0_1730_4090",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.0426025427877903,
+          "probabilityMax": 0.6784501075744629
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.02297659032046795,
+          "probabilityMax": 0.8644078373908997
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 252139,
+          "targetPixels": 0,
+          "predictedPixels": 1206,
+          "overlapPixels": 0,
+          "probabilityMin": 0.023462340235710144,
+          "probabilityMax": 0.7931404709815979
+        },
+        "transport": {
+          "supervisedPixels": 252139,
+          "targetPixels": 94808,
+          "predictedPixels": 16337,
+          "overlapPixels": 7411,
+          "probabilityMin": 0.030680451542139053,
+          "probabilityMax": 0.9992376565933228
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.07615228742361069,
+          "probabilityMax": 0.9894129633903503
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.008252574130892754,
+          "probabilityMax": 0.9843569397926331
+        }
+      }
+    },
+    {
+      "sheetId": "semap-princeton_100065-0_8862_2109",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.014766581356525421,
+          "probabilityMax": 0.5004359483718872
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.00842002872377634,
+          "probabilityMax": 0.82596755027771
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 260096,
+          "targetPixels": 0,
+          "predictedPixels": 4891,
+          "overlapPixels": 0,
+          "probabilityMin": 0.019285202026367188,
+          "probabilityMax": 0.9798116087913513
+        },
+        "transport": {
+          "supervisedPixels": 260096,
+          "targetPixels": 0,
+          "predictedPixels": 3254,
+          "overlapPixels": 0,
+          "probabilityMin": 0.018472835421562195,
+          "probabilityMax": 0.999267041683197
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.048090625554323196,
+          "probabilityMax": 0.8753746747970581
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.004344755783677101,
+          "probabilityMax": 0.9978645443916321
+        }
+      }
+    },
+    {
+      "sheetId": "semap-princeton_100787-0_2022_6022",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.033234965056180954,
+          "probabilityMax": 0.747372031211853
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.02294011600315571,
+          "probabilityMax": 0.9130232930183411
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 259935,
+          "targetPixels": 3576,
+          "predictedPixels": 2427,
+          "overlapPixels": 2065,
+          "probabilityMin": 0.015705419704318047,
+          "probabilityMax": 0.9078346490859985
+        },
+        "transport": {
+          "supervisedPixels": 259935,
+          "targetPixels": 0,
+          "predictedPixels": 6134,
+          "overlapPixels": 0,
+          "probabilityMin": 0.019999248906970024,
+          "probabilityMax": 0.9964302182197571
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.1478501856327057,
+          "probabilityMax": 0.981698751449585
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.01898476667702198,
+          "probabilityMax": 0.9674432873725891
+        }
+      }
+    },
+    {
+      "sheetId": "semap-unileiden_102304-17_2538_3061",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.027694033458828926,
+          "probabilityMax": 0.7848576307296753
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.018136966973543167,
+          "probabilityMax": 0.9875453114509583
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 246487,
+          "targetPixels": 7258,
+          "predictedPixels": 8479,
+          "overlapPixels": 3364,
+          "probabilityMin": 0.01589379832148552,
+          "probabilityMax": 0.9311309456825256
+        },
+        "transport": {
+          "supervisedPixels": 246487,
+          "targetPixels": 3155,
+          "predictedPixels": 16749,
+          "overlapPixels": 2337,
+          "probabilityMin": 0.026914363726973534,
+          "probabilityMax": 0.993025541305542
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.12566794455051422,
+          "probabilityMax": 0.9876567125320435
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.007656463887542486,
+          "probabilityMax": 0.9915105104446411
+        }
+      }
+    },
+    {
+      "sheetId": "semap-unileiden_107192-0_2650_1857",
+      "tileIndex": 0,
+      "pixelOrigin": [
+        0,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.031383413821458817,
+          "probabilityMax": 0.7566318511962891
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.020687220618128777,
+          "probabilityMax": 0.9547448754310608
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 253005,
+          "targetPixels": 0,
+          "predictedPixels": 865,
+          "overlapPixels": 0,
+          "probabilityMin": 0.02213849313557148,
+          "probabilityMax": 0.8523662686347961
+        },
+        "transport": {
+          "supervisedPixels": 253005,
+          "targetPixels": 3714,
+          "predictedPixels": 12755,
+          "overlapPixels": 1116,
+          "probabilityMin": 0.03126776963472366,
+          "probabilityMax": 0.9960564374923706
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.11748049408197403,
+          "probabilityMax": 0.991487979888916
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.009969615377485752,
+          "probabilityMax": 0.9911730885505676
+        }
+      }
+    },
+    {
+      "sheetId": "semap-unileiden_109429-0_4600_2289",
+      "tileIndex": 1,
+      "pixelOrigin": [
+        448,
+        0
+      ],
+      "channels": {
+        "international": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.02929009683430195,
+          "probabilityMax": 0.7988574504852295
+        },
+        "administrative": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.014379477128386497,
+          "probabilityMax": 0.9853690266609192
+        },
+        "coast": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 2.06115369216775e-09,
+          "probabilityMax": 2.06115369216775e-09
+        },
+        "hydro": {
+          "supervisedPixels": 162364,
+          "targetPixels": 155613,
+          "predictedPixels": 24912,
+          "overlapPixels": 22528,
+          "probabilityMin": 0.027946406975388527,
+          "probabilityMax": 0.8859150409698486
+        },
+        "transport": {
+          "supervisedPixels": 162364,
+          "targetPixels": 0,
+          "predictedPixels": 22972,
+          "overlapPixels": 0,
+          "probabilityMin": 0.03187190368771553,
+          "probabilityMax": 0.992595374584198
+        },
+        "text": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.07013649493455887,
+          "probabilityMax": 0.9848887920379639
+        },
+        "frame": {
+          "supervisedPixels": 0,
+          "targetPixels": 0,
+          "predictedPixels": 0,
+          "overlapPixels": 0,
+          "probabilityMin": 0.007543809711933136,
+          "probabilityMax": 0.9909550547599792
+        }
+      }
+    }
+  ]
+}

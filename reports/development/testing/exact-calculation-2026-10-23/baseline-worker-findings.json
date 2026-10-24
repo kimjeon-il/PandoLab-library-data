@@ -1,0 +1,13 @@
+{
+  "baseline": "3b5939a9c83d887ccab24ce8309c6b9f62e1cc9f",
+  "before": [
+    "assets/js/modules/project-file-reader.js:11 RPC consumer owns onmessage dispatch",
+    "assets/js/modules/project-file-reader.js:18 RPC consumer bypasses transport with postMessage"
+  ],
+  "after": [
+    "assets/js/modules/project-file-reader.js:11 RPC consumer owns onmessage dispatch",
+    "assets/js/modules/project-file-reader.js:18 RPC consumer bypasses transport with postMessage"
+  ],
+  "productCheck": "unchanged baseline failures",
+  "parsedBaselineModules": 396
+}

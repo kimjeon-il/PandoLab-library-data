@@ -1,0 +1,21 @@
+{
+  "measuredRevision": "a39beb2d692c9a146d21dcc74ad836e686719fce",
+  "finalRevision": "43a1f29d7be0a30b57462a10624343eaebbc5017",
+  "measuredData": "71a67904db2beb933735727ad6c19adde082d2bd",
+  "finalData": "71a67904db2beb933735727ad6c19adde082d2bd",
+  "owners": [
+    {
+      "file": "assets/js/modules/import-service.js",
+      "measuredBlob": "d89bc23d3f642ae4c75ddbe94cefcfc5b92c8960",
+      "finalBlob": "d89bc23d3f642ae4c75ddbe94cefcfc5b92c8960"
+    },
+    {
+      "file": "shared/core/src/timeline-resolver.cpp",
+      "measuredBlob": "1791a9be7b7c9c2a3a9b3d82bbc037f232fc6a86",
+      "finalBlob": "1791a9be7b7c9c2a3a9b3d82bbc037f232fc6a86"
+    }
+  ],
+  "measuredWasmSha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+  "finalWasmSha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+  "parserDecision": "rejected: first -3.37%, repeat +0.61%, config reuse -0.22%; no reliable gain; source exactly baseline"
+}

@@ -33,7 +33,3 @@ Run `python test-geometry-reference.py` for durable corruption checks. Add `--in
 Original HydroRIVERS continental shapefiles were not acquired. The per-reach source coordinates, original-reach-to-rendered-part mapping and coordinate equivalence to upstream HydroRIVERS remain unverified. Matching counts of source IDs and line parts does not independently prove reach geometry identity. Decoding establishes the entire immutable rendered baseline group only.
 
 Terminal classes and source/render endpoints are baseline metadata, not contemporary hydrological observations. System 50488324's sea endpoint was altered for rendering. Source endpoint values and the displayed six-decimal endpoint are distinguished. No geometry repair or exact-topology reconstruction was performed. Baseline Korean placeholders are retained as historical metadata; research Korean names remain null and automatic application is false.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/18f1f63c1e49ddc98893c280b59acb023ca07491af3824492aad393be33dd969.gz) · 원본 SHA-256 `18f1f63c1e49ddc98893c280b59acb023ca07491af3824492aad393be33dd969`.

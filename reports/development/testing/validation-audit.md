@@ -14,7 +14,3 @@
 - [당시 GitHub Actions 실행](https://github.com/kimjeon-il/Pando/actions/runs/37417882532)
 - [당시 GitHub Actions 실행](https://github.com/kimjeon-il/Pando/actions/runs/37417882644)
 - 문서 요약은 Git 원본을 대체해 현재 기능을 승인하는 행위가 아니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/bbc594482110ab0ee3138d16f92c26fec6ebb6fa059f623da4998689c7b39723.gz) · 원본 SHA-256 `bbc594482110ab0ee3138d16f92c26fec6ebb6fa059f623da4998689c7b39723`.

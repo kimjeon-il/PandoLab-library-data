@@ -1,0 +1,54 @@
+{
+  "actualTrainingOriginals": 2,
+  "actualTrainingTiles": 44,
+  "geographicFocus": "macro-only",
+  "trainingSources": [
+    {
+      "id": "cia-world-political-2021",
+      "scope": "world",
+      "originals": 1,
+      "tiles": 14,
+      "positivePixels": {
+        "international": 5791,
+        "administrative": 0,
+        "coast": 0,
+        "hydro": 0,
+        "transport": 0,
+        "text": 0,
+        "frame": 0
+      }
+    },
+    {
+      "id": "nrcan-canada-national",
+      "scope": "country",
+      "originals": 1,
+      "tiles": 30,
+      "positivePixels": {
+        "international": 10075,
+        "administrative": 13029,
+        "coast": 0,
+        "hydro": 0,
+        "transport": 0,
+        "text": 0,
+        "frame": 0
+      }
+    }
+  ],
+  "excludedInventory": [
+    {
+      "path": "sources/cia-asia-political.pdf",
+      "trainingReady": false,
+      "reason": "raster-only reproduction; no verified semantic boundary geometry"
+    },
+    {
+      "path": "sources/cia-oceania-political.pdf",
+      "trainingReady": false,
+      "reason": "raster-only reproduction; no verified semantic boundary geometry"
+    },
+    {
+      "path": "sources/nrcan-Africa.pdf",
+      "trainingReady": false,
+      "reason": "raster-only reproduction; no verified semantic boundary geometry"
+    }
+  ]
+}

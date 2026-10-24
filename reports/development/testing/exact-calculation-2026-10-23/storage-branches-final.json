@@ -1,0 +1,10 @@
+{
+  "main": "70a110cf8a1fa849046bb732e04dad3f547558bf",
+  "localUi": "9b1c2162730e8c859e9eb890a8b73abf8f9c6709",
+  "remote": "70a110cf8a1fa849046bb732e04dad3f547558bf\trefs/heads/main\n70a110cf8a1fa849046bb732e04dad3f547558bf\trefs/heads/work/gis\n70a110cf8a1fa849046bb732e04dad3f547558bf\trefs/heads/work/objects\n70a110cf8a1fa849046bb732e04dad3f547558bf\trefs/heads/work/places\n70a110cf8a1fa849046bb732e04dad3f547558bf\trefs/heads/work/ui",
+  "privateTrainingPreserved": true,
+  "privateTrainingPublished": false,
+  "uiPin": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+  "otherPins": "71a67904db2beb933735727ad6c19adde082d2bd",
+  "workingTrees": "clean"
+}

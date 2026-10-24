@@ -1,0 +1,6 @@
+{"epoch": 0, "attemptedBatches": 468, "optimizerUpdates": 463, "skippedUpdates": 5, "trainingLoss": 2.3876755671878147, "validationLoss": null}
+{"epoch": 1, "attemptedBatches": 936, "optimizerUpdates": 931, "skippedUpdates": 5, "trainingLoss": 2.0834577759871116, "validationLoss": null}
+{"epoch": 2, "attemptedBatches": 1404, "optimizerUpdates": 1398, "skippedUpdates": 6, "trainingLoss": 2.0636581504701548, "validationLoss": null}
+{"epoch": 3, "attemptedBatches": 1872, "optimizerUpdates": 1866, "skippedUpdates": 6, "trainingLoss": 1.830564127009139, "validationLoss": null}
+{"epoch": 4, "attemptedBatches": 2340, "optimizerUpdates": 2333, "skippedUpdates": 7, "trainingLoss": 1.7640464103374727, "validationLoss": null}
+{"epoch": 5, "attemptedBatches": 2808, "optimizerUpdates": 2801, "skippedUpdates": 7, "trainingLoss": 1.5716204236969988, "validationLoss": null}

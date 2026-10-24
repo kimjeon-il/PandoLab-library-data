@@ -23,7 +23,3 @@ Run `python validate-geometry-reference.py` or `python test-geometry-reference.p
 For a complete replay, supply `--input-cache INPUT_CACHE`, containing the immutable assets named and hashed in `geometry-reference.json`. Node.js is additionally required. The validator verifies all assets before executing the pinned production decoder, then recomputes every selected lake and river metric and full-geometry hash. Neither script fetches inputs. Adding `--historical-input-root RECOVERED_REPOSITORY_ROOT` verifies only the selected rows in the recovered priority/CSV inventory and its baseline summary. The recovered inventory assets remain external to this compact component.
 
 The complete source inputs, original rights documents and local research plots are not required for durable-only validation. Component hashes are frozen in `geometry-component-manifest.json`; `geometry-validation.json` records both successful modes and six bounded corruption checks.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/baa1ede8989d5c0357f08282e47505e1f22068ef2f11eb5c6576563f1263137f.gz) · 원본 SHA-256 `baa1ede8989d5c0357f08282e47505e1f22068ef2f11eb5c6576563f1263137f`.

@@ -1,0 +1,4 @@
+{"epoch": 0, "attemptedBatches": 215, "optimizerUpdates": 210, "skippedUpdates": 5, "trainingLoss": 2.1592476911323013, "validationLoss": null}
+{"epoch": 1, "attemptedBatches": 430, "optimizerUpdates": 425, "skippedUpdates": 5, "trainingLoss": 2.0872189150300136, "validationLoss": null}
+{"epoch": 2, "attemptedBatches": 645, "optimizerUpdates": 640, "skippedUpdates": 5, "trainingLoss": 2.177013393890026, "validationLoss": null}
+{"epoch": 3, "attemptedBatches": 860, "optimizerUpdates": 855, "skippedUpdates": 5, "trainingLoss": 2.0874351293541666, "validationLoss": null}

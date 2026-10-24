@@ -38,7 +38,3 @@
 
 
 게시 결과와 최종 검증 범위는 [UI-CANVAS-GLOBE-20261019](canvas-globe-release-2026-10-19.md)를 따른다. 위 내용은 당시의 미배포 기록을 보존한다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/a0e6a358db9a31af0cb7e2a1a22acbf2e0d536e20b5c8d0904bd661baf2f1f6d.gz) · 원본 SHA-256 `a0e6a358db9a31af0cb7e2a1a22acbf2e0d536e20b5c8d0904bd661baf2f1f6d`.

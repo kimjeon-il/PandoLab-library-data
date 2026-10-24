@@ -1,0 +1,34 @@
+[
+  {
+    "name": "mv-open-data.html",
+    "url": "https://www.laiv-mv.de/Geoinformation/Open_Data_Angebot/",
+    "private": false,
+    "bytes": 65047,
+    "sha256": "de47c39e963f7a24aebc4cecec72efa504cc24d79d2a692a8a682bd56b4f2287",
+    "capturedAt": "2026-10-23T02:20:45.804Z"
+  },
+  {
+    "name": "mv-historical-products.html",
+    "url": "https://www.laiv-mv.de/Geoinformation/Karten/Historische-Karten/",
+    "private": false,
+    "bytes": 100665,
+    "sha256": "ac1551a3d752f5b970e7c45f339723cd4fe229fe33fa3999c8a815ddd4e1d14f",
+    "capturedAt": "2026-10-23T02:20:46.053Z"
+  },
+  {
+    "name": "geosn-license.html",
+    "url": "https://www.landesvermessung.sachsen.de/allgemeine-nutzungsbedingungen-8954.html",
+    "private": false,
+    "bytes": 49890,
+    "sha256": "7bb830370b6035669a1e865850c64d2141aa8bd71d9c86962115f0a55fed7999",
+    "capturedAt": "2026-10-23T02:20:46.108Z"
+  },
+  {
+    "name": "nva-training-legend.jpg",
+    "url": "https://www.igzd.de/download/lehrkarte-nva-n-33-133-c-stolpe-legende-zeichenerklaerung.jpg",
+    "private": true,
+    "bytes": 15121563,
+    "sha256": "c96887e112c4a79cd9eb1485b04d38c30160ad807fb9532d974fb71285ea989f",
+    "capturedAt": "2026-10-23T02:20:52.140Z"
+  }
+]

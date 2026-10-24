@@ -15,7 +15,3 @@ The original map covers all three complete target regions. All three bounded cor
 Follow-up is required for all three targets to establish authoritative name coverage over the complete waterbody. Whole-feature scalar and Korean names remain null; automatic and product application are false. No geometry was changed or historical verdict restored.
 
 This directory contains only bibliography, own findings and selected geometry facts. Original publications, inspection materials, acquisition records and their fingerprints are excluded. Public validation checks included records and geometry; it cannot reproduce the omitted visual map judgment.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../../archive/blobs/70c86a6aa8baafe92ec3eb5d14f9f080402a1c797513b5d0b46fbae0d33db9df.gz) · 원본 SHA-256 `70c86a6aa8baafe92ec3eb5d14f9f080402a1c797513b5d0b46fbae0d33db9df`.

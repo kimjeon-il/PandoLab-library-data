@@ -13,7 +13,3 @@
 - [원래 실행 기록·테스트 방법·계측값과 source pins (고정 Git 커밋)](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/repository-cleanup-2026-10-12.md)
 - [당시 GitHub Actions 실행](https://github.com/kimjeon-il/Pando/actions/runs/38210548128)
 - 문서 요약은 Git 원본을 대체해 현재 기능을 승인하는 행위가 아니다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/2f2609af4f4a0e33ef3d134e3545d23b72e504cc43a5cda00ec8880a8c178d9c.gz) · 원본 SHA-256 `2f2609af4f4a0e33ef3d134e3545d23b72e504cc43a5cda00ec8880a8c178d9c`.

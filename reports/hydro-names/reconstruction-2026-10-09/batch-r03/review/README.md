@@ -33,7 +33,3 @@ Optional complete local replay also needs Node.js, the complete pinned immutable
 The local source index is a JSON array of objects with `id` and `local_file`; IDs match `local_evidence_assets` in the public pins. Relative paths are resolved against `SOURCE_ROOT`. The index and underlying files are not distributed. Missing local inputs are not fetched or substituted. Partial options produce a truthfully labeled partial-local result.
 
 The 10 bounded corrupt fixtures cover unsupported name/application clearance, altered source metadata, missing fragments or parts, reversed part order, a changed interior coordinate and reordered source IDs. They operate on copies and leave original inputs unchanged.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/ca2157cad022c7e68ba94a98b52becc18fc3e1ba351f31a5c2bcdafdbce84b8d.gz) · 원본 SHA-256 `ca2157cad022c7e68ba94a98b52becc18fc3e1ba351f31a5c2bcdafdbce84b8d`.

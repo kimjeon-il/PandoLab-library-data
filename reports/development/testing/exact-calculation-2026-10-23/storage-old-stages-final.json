@@ -1,0 +1,16 @@
+[
+  {
+    "root": "D:\\dev\\worktrees\\ui\\.superpowers\\sdd\\2026-10-19-editor-focus-project-storage\\baseline-dist",
+    "files": 318,
+    "bytes": 5633402,
+    "commit": "f7d7b6ba244ef75ba5b708090ec09c453de504ee",
+    "remainingPayloadHashesMatch": true
+  },
+  {
+    "root": "D:\\dev\\worktrees\\ui\\.superpowers\\sdd\\terrain-release-20261021\\prior-dist-6cdec40b",
+    "files": 1722,
+    "bytes": 174399493,
+    "commit": "6cdec40b549acccf23a8583c4ba531c8aac1b44a",
+    "remainingPayloadHashesMatch": true
+  }
+]

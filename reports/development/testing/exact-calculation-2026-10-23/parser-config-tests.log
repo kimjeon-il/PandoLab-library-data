@@ -1,0 +1,20 @@
+✔ RPC architecture accepts aliases, formatting and comment-only private implementation markers (20.5011ms)
+✔ RPC architecture rejects actual direct message handling and transport bypass (3.7341ms)
+✔ removing an RPC import or using a barrel cannot disable message ownership guards (4.7792ms)
+✔ RPC workers cannot use the host without loading it (5.3093ms)
+✔ schema ownership follows imports and exported bindings rather than declaration spelling (7.0157ms)
+✔ version displays follow the current package version without pinning its value or quote style (0.6482ms)
+✔ schema re-exports can cross renamed modules without creating another schema owner (4.9596ms)
+✔ JavaScript analysis ignores comment text and retains actual syntax after formatting changes (17.6656ms)
+✔ JavaScript analysis preserves alias bindings and detects real global access (4.8824ms)
+✔ JavaScript analysis fails visibly on malformed code (2.1065ms)
+✔ successive analyses preserve earlier AST, scopes, source type and syntax errors (6.724ms)
+✔ repeated source modes do not retain inline globals or suppress invalid-mode errors (5.0821ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 414.8418

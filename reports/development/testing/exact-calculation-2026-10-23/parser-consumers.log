@@ -1,0 +1,15 @@
+✔ RPC architecture accepts aliases, formatting and comment-only private implementation markers (22.4694ms)
+✔ RPC architecture rejects actual direct message handling and transport bypass (5.1366ms)
+✔ removing an RPC import or using a barrel cannot disable message ownership guards (5.5372ms)
+✔ RPC workers cannot use the host without loading it (6.6137ms)
+✔ schema ownership follows imports and exported bindings rather than declaration spelling (7.8715ms)
+✔ version displays follow the current package version without pinning its value or quote style (0.5627ms)
+✔ schema re-exports can cross renamed modules without creating another schema owner (4.3005ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 451.4032

@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\console-load-20261022\\fresh-context.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "5dd1538580bdef25732e174fe935f03e0d5f3b37624bae6ab55a72bb1524a105",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\console-load-20261022\\hard-reload.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "dc60d5bcdf70bd8df32c82b824498ce09d65fdbba71098d91f62ada40e21f953",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\evidence\\country-lifetime-20261021\\web.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ede0b43de0474fc7918f5f13298f3f899b7ae0f1630ce8747a61f0f0d1a58619",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\evidence\\country-lifetime-20261021\\webview.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "f6ea28bd1f060fd47adc14752677078b53bcf645670ef0706464581e69ff1cd7",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\historical-world-timeline\\web-crimea-2012.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "72a414417ee652ebb13b9b3dfec35bb874f59cac069a2c59afb2ef505ebff994",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\shared-output-audit-2026-10-18.md",
+      "kind": "source-references",
+      "urls": [
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/app-map-host.js#L50",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/app-map-host.js#L91",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/map-input-controller.js#L1",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L112",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L130",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L195",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L202",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L264",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L29",
+        "https://github.com/kimjeon-il/Pando/blob/4273bca1298c42fcb5a1bca8570b7b26387f3de8/assets/js/modules/viewer-map.js#L86"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\web-date-tool-release-2026-10-22-evidence\\browser\\timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile\\date-popover-1024.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "94352f5a506763629a8b2c93ffb3702caa31a86de92814ab9acaf771be49ccbc",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\web-date-tool-release-2026-10-22-evidence\\browser\\timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile\\date-popover-1440.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ca28aa957932f7d1305f81dc56a73fc14af5153456ecb3a661755b6e84d2776c",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\web-date-tool-release-2026-10-22-evidence\\browser\\timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile\\date-popover-320.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "3e32c41757da9e659b76fd89dc791054003b95b22d457a2b9fda31a136b688a2",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\web-date-tool-release-2026-10-22-evidence\\browser\\timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile\\date-popover-390.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "d3c33ff40130ea9b1d1fcb8e6dd52877db806920d554088e70eb08bae9ea813f",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\web-date-tool-release-2026-10-22-evidence\\browser\\timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile\\date-popover-800.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "4c8c92efd89d7f15953fa2301d1ec784d2cd9372981dffedfea573a193e3f886",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\development\\testing\\web-date-tool-release-2026-10-22-evidence\\live-date-tool.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "9d6c03db22f2e37b55f3a2287b3d23ad07fed54c1ae6b4c22c3fc94601236b7e",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\border-aa-options-2026-10-22-evidence\\comparison.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "d69cd175123c4c8e3ed297a869f9988d3469e44237005d6709602089231721e5",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\country-lifetime-asia-middle-east-2026-10-17.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.finance.gov.lb/en-us/Finance/Rep-Pub/DRI-MOF/Sovereign%20and%20Investment%20Reports/Lebanon%20Country%20Profile%202014.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\country-lifetime-europe-1801-plus-2026-10-15.md",
+      "kind": "source-references",
+      "urls": [
+        "https://sip.gouvernement.lu/dam-assets/publications/brochure-livre/minist-etat/sip/brochure/a-propos/A_propos_Histoire/a-propos-histoire-en.pdf",
+        "https://www.government.is/library/01-Ministries/Ministry-for-Foreign-Affairs/PDF-skjol/Diplomatic-Handbook/Diplomatic%20Handbook%20WEB_09-2-22.pdf",
+        "https://www.sobranie.mk/content/%D0%9F%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B5%D0%BD%20%D0%B8%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%98%D0%B0%20%D0%BD%D0%B0%20%D0%BF%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B7%D0%B0%D0%BC_ENG.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\evidence\\korea-boundaries-20261021\\web.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ead1e23eabf6d83660b1a35ff9fc8bd57ffdfaf5b9ec307e6bc724c1589c657e",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\1914-screen-delta-precheck.md",
+      "kind": "source-references",
+      "urls": [
+        "https://dienste.gdi-sh.de/WMS_SH_FD_Chronologen"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\1914-sh-period-map-overlay-review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://github.com/kimjeon-il/Pando/blob/e2efceb6788f5b9e1f682916b8b9763f7bc2db85/tools/historical-library/sources/german-coastline/1914-sh-period-map-overlay-review.md",
+        "https://github.com/kimjeon-il/PandoEditor/blob/f535673993f45957b82d125ff766ed1e18233170/tools/historical-library/sources/german-coastline/1914-sh-period-map-overlay-review.md"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.hotspots.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://datafordeler.dk/dataoversigt/historiske-kort-og-data/preussiske-maalebordsblade-wms/",
+        "https://naturstyrelsen.dk/media/0mtes1p0/skitseprojektgelsbrologo1.pdf",
+        "https://www.deutschefotothek.de/documents/obj/71051510"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.deutschefotothek.de/documents/obj/71051510",
+        "https://www.esbjerg.dk/Files/Filer/Energi%20og%20milj%C3%B8/Vandl%C3%B8b%20og%20s%C3%B8er/vandl%C3%B8bsregulativer/Gels%C3%A5%20nedre%20del%20ved%20%C3%85rup.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.0717-hvidding-ufer-stage5.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://danhostel-ribe.dk/wp-content/uploads/2022/03/Kammerslusen_A2skilte_WEB.pdf",
+        "https://dataforsyningen.dk/asset/PDF/signaturforklaringer/HistoriskeKort-M%C3%A5lebordsblade-linksSignaturforklaringer.pdf",
+        "https://slks.dk/omraader/kulturarv/bevaringsvaerdige-bygninger-og-miljoeer/bevaringsvaerdige-bygninger-metode/atlas/vadehavet-kulturarvsatlas/bebyggede-strukturer/niveau-2-de-store-landskaber/marsken-ved-ribe-aa",
+        "https://www.deutschefotothek.de/documents/obj/71051521",
+        "https://www.deutschefotothek.de/documents/obj/71051522"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.0718-east-stage2.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.deutschefotothek.de/documents/obj/71051522"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.0718-west-stage1.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://slks.dk/omraader/kulturarv/bevaringsvaerdige-bygninger-og-miljoeer/bevaringsvaerdige-bygninger-metode/atlas/vadehavet-kulturarvsatlas/kulturmiljoeer/egebaek-hviding-station",
+        "https://wms.kartenforum.slub-dresden.de/map/10006008`,",
+        "https://www.deutschefotothek.de/documents/obj/71051522"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://slaegtsbibliotek.dk/928701.pdf",
+        "https://slaegtsbibliotek.dk/929079.pdf",
+        "https://vejen.dk/p/Globalt%20indhold/Sejlads/regulativ-for-sejlads-p--de-s-nderjyske-amtsvandl-b.pdf",
+        "https://www.deutschefotothek.de/documents/obj/71051523",
+        "https://www.ronlev.dk/bibliotek/4142.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\germany\\north-schleswig\\german-denmark-1914-north-schleswig-001-026.review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://datafordeler.dk/dataoversigt/historiske-kort-og-data/lave-maalebordsblade-wms/",
+        "https://datafordeler.dk/dataoversigt/historiske-kort-og-data/preussiske-maalebordsblade-wms/",
+        "https://demo.geoinfo.dk/server/rest/services/DAGI_Hele_DK/MapServer/1",
+        "https://demo.geoinfo.dk/server/rest/services/Matriklen_Hele_DK/MapServer/6",
+        "https://dienste.gdi-sh.de/WMS_SH_FD_Chronologen\\`는",
+        "https://search.kartenforum.slub-dresden.de/vk20\\`에서",
+        "https://slks.dk/omraader/kulturarv/bevaringsvaerdige-bygninger-og-miljoeer/bevaringsvaerdige-bygninger-metode/atlas/vadehavet-kulturarvsatlas/bebyggede-strukturer/niveau-3-bebyggelsesstrukturer-i-byomraader/vester-vedsted",
+        "https://wms.kartenforum.slub-dresden.de/map/10006007",
+        "https://wms.kartenforum.slub-dresden.de/map/10006008",
+        "https://wms.kartenforum.slub-dresden.de/map/10006009",
+        "https://wms.kartenforum.slub-dresden.de/map/10006020"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\historical-timeline-2025-central-asia-vector-screen-2026-10-21.md",
+      "kind": "source-references",
+      "urls": [
+        "https://gps.gov.kg/wp-content/uploads/Digital-maps/en/index.html"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\aut-lie-flat-2560-2026-10-22.jpg",
+      "kind": "report-evidence-candidate",
+      "sha256": "14ed61b95ef29f3eab2a4501e2c2928bc7628b8ecd0eeffb3fc00745e7bc13e9",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\aut-lie-junctions-2026-10-22.jpg",
+      "kind": "report-evidence-candidate",
+      "sha256": "43c1d656d83c3c14c3960b4aa43a1f6b13a47d57ee5de99dddbea076aaec0317",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\microstate-andorra-flat-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "78c4bcbef5490073be7573147a526520132dc2eb66d88ff9433641dcccb7544d",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\microstate-lesotho-flat-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ff6a818e0ca032293837b527e0657284be8d6fa1a852562467d5b666e63e5161",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\microstate-san-marino-flat-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "226310f1040211abbd041ccb7a41b188d707b7b866fd36c33e9d78f94ac2b79a",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\microstate-vatican-flat-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ab3cff84bba27d38d766a962b698a5a01b12b69b351dcbf001060d2d9d3803da",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\microstate-viewer-final-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "635d3f11f16d59189eb6f3ffc9153b1d4e24694961f8fa0bdaf037eb5bd69e64",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\microstate-viewer-initial-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "afd8abab08a02488db7cdc52366d4b2904a8772d57951c9e13b03b084032cdb6",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\monaco-app-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "52bc94b8b02c6a7bfc33f8de2a447c630e730ab3d0afec80fda420d3c0fa7ee5",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\monaco-geometry-comparison-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "c709685013920a72010584f785fd02cbc1edaa3725f6b4f2c6f5549a2f48ef32",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\monaco-viewer-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "beaf245a7fafa4100c0e8edb07024ddcd008443eb90e7ee26a15169db5083fb6",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\images\\smr-reference-comparison-2026-10-22.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "429ad569299ca299ffcd0dcec8dcba1e046a148468f75a87399a5d261a5a94d2",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\korea-boundaries-2026-10-21.md",
+      "kind": "source-references",
+      "urls": [
+        "https://digitallibrary.un.org/record/703005/files/A_575_Add-3-EN.pdf?ln=ar",
+        "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs017.pdf",
+        "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs022.pdf",
+        "https://www.cuhk.edu.hk/ics/21c/media/articles/c124-201103001.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\microstate-borders-2026-10-22.md",
+      "kind": "source-references",
+      "urls": [
+        "https://mappeonline.pa.sm/arcgis/rest/services/Cartografia/castelli_GR/MapServer/1",
+        "https://www.cartografia.ad/mapa-topografic-d-andorra-1-50-000",
+        "https://www.vatican.va/archive/aas/documents/AAS-21-1929-ocr.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\netherlands\\phase0-canonical-audit.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.portofrotterdam.com/sites/default/files/2023-03/widening-the-yangtze-canal.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\north-korea-border-stroke-2026-10-22-evidence\\stroke-comparison.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "2276d2c3c8bf09a496836c20742f6b62fab7a2c3913440161447427d91138a3b",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\reviews\\followup-2026-10-20-vector-sources.md",
+      "kind": "source-references",
+      "urls": [
+        "https://gps.gov.kg/wp-content/uploads/Digital-maps/en/index.html"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\reviews\\morning-2026-10-17.md",
+      "kind": "source-references",
+      "urls": [
+        "https://lex.uz/Pages/GetPDF.aspx?file=8099205.pdf",
+        "https://treaties.un.org/doc/Publication/UNTS/Volume%206/v6.pdf#page=157"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\serbia\\serbia-montenegro-1914-map-crosscheck.md",
+      "kind": "source-references",
+      "urls": [
+        "https://data.labs.loc.gov/austro-hungarian-maps/manifest.html",
+        "https://igrek.amzp.pl/mapindex.php?cat=KUK075"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\geography\\verified-entity-lifetimes.md",
+      "kind": "source-references",
+      "urls": [
+        "https://aprm.au.int/sites/default/files/files/2023-10/agr202320231023142001strongcompression-compressed20231023142355strongcompression.pdf;",
+        "https://dirco1.azurewebsites.net/department/thediplomat/february_2012.pdf;",
+        "https://legislation.mt/MediaCenter/PDFs/ORD/MaltaIndependenceOrder1964.pdf;",
+        "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/3899/TUV3899.pdf;",
+        "https://www.nationalarchives.ie/wp-content/uploads/2022/11/22-10-21-CS-Constitution-Committee-Mini-Programme-Interactive-v07.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-calibration\\australia.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "e613e7f7157e088375df1ec6cd69834b183158e8bd648c9a628a3d7c8fdc19ac",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-calibration\\europe.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "6fab9a2679e0ea29d6017dfe139ec6ef707fccf83422dde9291da5678d8f489b",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-calibration\\korea.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "d64f3e23c61ac2bee9562774617679d4c112158868deacfcac468abe8573ce07",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-calibration\\north-america.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ee262e8dff843f738ff0702f2c0e03e82a89b0820834532be94e65619d7688c1",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r01\\README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://nunavikparks.ca/assets/documents/Fishing_Tursujuq_2024_FR.pdf",
+        "https://www.blm.gov/sites/default/files/docs/2025-08/AK_Egegik%20Becharof%20Ruth_App_12-28-17.pdf",
+        "https://www.fws.gov/sites/default/files/documents/2024-04/3.pdf",
+        "https://www.gov.nt.ca/sites/ecc/files/resources/publication_text_fsu_caribou_management_zone_messaging_dec_18_2018.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r01\\sources\\becharof-fws-guide-use-areas-2012.pdf",
+      "kind": "original-candidate",
+      "sha256": "5d37dfd13f863be39cf4d1c0de30dd14476e85c2e50536ad2f6ed7d3fb54e117",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r03\\geometry-README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r07\\geometry-README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r08\\geometry-README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r09\\geometry-README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r10\\geometry-README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r19\\review\\README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.bom.gov.au/water/awra/2012/documents/assessment-lr.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-names\\reconstruction-2026-10-09\\batch-r20\\review\\README.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.bom.gov.au/water/awra/2012/documents/assessment-lr.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-v0.12.3\\korea-mainstems-comparison.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "2d1d64cdd98c208b19d897b24fc07497228a0f51fde227d8f23265eecb81b868",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\hydro-v0.12.4\\korea-mainstems-border-alignment.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "9a37bbb9468cf888487ce94594bb72294b6a78d6abed82d7b131a106593ec11d",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\editor-focus\\editor-focus-desktop.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "c6fba79b172eaecafad1e4557362d0b9ded42d27d6fc247623d4b15ea0b6fac6",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\editor-focus\\editor-focus-phone-canvas.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "c5a35597b78f9bd8233c68dd31bad018819301af9cace100bddb164da7610709",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\desktop-dark-match.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "9753c47982fcc5b8e8127e1999ad6f66ca3f290b08865bdab01fd6a5c1268f80",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\desktop-gcp-guide.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "5ff1d0744933ebad42ae730db025c17876db09355d28fdc57aad7269611d8d18",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\mobile-320-gcp.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "c47289edc348a15d0a97bbdc38ae1a8c884b871fa87fa42bcb4e83b7a16f53ac",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\mobile-auto-analysis.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "bc2c3d877e493c3902289a5a81a80a7f9a9d67ca21edde989dc3f1556c78214d",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\mobile-line-preview.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "33f99c6027fc3a829b2af791399f9275f7386ab8765cb48913f8eb46e667c744",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\mobile-live-expanded.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "cda9364deeb3886cc2c94773d3188de5d3a288da5c64e741eb71c51880cffb32",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\ui-sync-landscape-640-gcp.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "8abd30bd959651e1f0ed60a23a85a0e764bc001711fe2102b7569c09eac2acaf",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\reference-image-ui-p5\\ui-sync-landscape-844-gcp.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "90faae4cb5da1f65a0c8de364f2f56e5da72dc92f9ee691db40d026c722ba5c7",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\current-1024x768.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ca7eb60dd9c26797d62d358c0dc9beda5e9071eedbb7372764675751c05cf90d",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\current-390x844.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "18512de708d93d9e814fc7b9977ded643f1a229b9b676be59b083a10f10fe661",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\current-768x1024.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "6b89fc66f9b796df7edfa6b7ce89211139f8abb735eeafee76e607a0562f3496",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\current-844x390.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "06d994877a597fa4240cb8a6c65f7edaa345aa768478bc5dc4db3e6f58ddad2f",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\existing-ui-1280x800.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "d35b3b3dbbcd4d7b568b17615ff80eb3b13d8409a0df008e79cdbb7859deef16",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\existing-ui-640x360.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "b3c7e3ced78668e327594f20530f8fcf4c69eb260f459e7c24f2550a69e98cc8",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\globe-label-order-before.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "e82e7ecca80572a087dc72ae2c623cf4f0c70d93241a57da0baee272484e1efa",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\phone-landscape-editor.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "dac4ad9533a73b39a4d633758ee955787fd319ae67a90e9ab03b3aea88a2b1ef",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\release-live-640x360.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "add06361eae73b035b1bc723b7e3c7862ab22459796b3c78cfed30e46024e3b6",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\restored-desktop-view-menu.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "48d7bf00b18db0bb24b7fa43ac5f80aee323fdaf82e71a6946b1b462023cdde6",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\viewing-fixed-desktop.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "392599d110ef1fff666a223477517d9d358cb0895f3d334fdca34839e44b23de",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\images\\viewer-editor\\viewing-fixed-mobile-settings.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "139e10ac304eb6cee7b2cf2afae13599d93d51197a3041247f30e1a3b114df91",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\places\\place-candidate-review.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.taizhou.gov.cn/cms_files/filemanager/288403819/attach/20237/ce0cdc2d266148068c4506c69ea8d853.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\continuation-2026-10-23.md",
+      "kind": "source-references",
+      "urls": [
+        "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs017.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\corpus\\sources\\loc-tehran-1889-preview.jpg",
+      "kind": "source-downsample-candidate",
+      "sha256": "35c31b490ee4aab6c775540f18e59660d5b354deefdf9ec8568952bea80d875d",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\corpus\\sources\\zenodo-urdu-punjab-undated-analysis.jpg",
+      "kind": "analysis-derivative",
+      "sha256": "103806f1b4390e8d74c47c7595422d0beed33c1d818540ea332481018468aa19",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\corpus\\sources\\zenodo-urdu-punjab-undated.jpg",
+      "kind": "original-candidate",
+      "sha256": "cfdf4de3992c84ae3d45dc84e187c536298908b0712e74ce326d3ea775c57fc3",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\implementation-2026-10-22.md",
+      "kind": "source-references",
+      "urls": [
+        "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs017.pdf",
+        "https://wms.kartenforum.slub-dresden.de/map/10006008",
+        "https://www.deutschefotothek.de/documents/obj/71051522"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\reference-analysis\\panels-package-2026-10-23.md",
+      "kind": "source-references",
+      "urls": [
+        "https://blogs.loc.gov/maps/2023/04/early-20th-century-survey-of-egypt-provincial-series-now-online/",
+        "https://corpora.kiv.zcu.cz/map_border/"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\country-default-colors.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.mapchart.net/txt/mapchartSave__hearts_of_iron_iv_provinces__1936.txt",
+        "https://www.un.org/sites/un2.un.org/files/2020/03/un75_logo_guidelines_oct_2019.pdf"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\README_control.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.openstreetmap.org/relation/13559521"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\README_dem_sia_bilafond.md",
+      "kind": "source-references",
+      "urls": [
+        "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E076_00_DEM/Copernicus_DSM_COG_10_N35_00_E076_00_DEM.tif"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\REVIEW_agpl_vs_glacier_2026-10-08.md",
+      "kind": "source-references",
+      "urls": [
+        "https://mapcarta.com/14675508",
+        "https://mapcarta.com/14700516",
+        "https://mapcarta.com/14710602",
+        "https://mapcarta.com/N4770525720",
+        "https://www.openstreetmap.org/relation/13559521"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\REVIEW_saltoro_crosssource_2026-10-08.md",
+      "kind": "source-references",
+      "urls": [
+        "https://mapcarta.com/14675508"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\REVIEW_SALTORO_MULTI_SOURCE_2026-10-08.md",
+      "kind": "source-references",
+      "urls": [
+        "https://www.openstreetmap.org/relation/13559521"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\REVIEW_sia_bilafond_cop30_2026-10-08.md",
+      "kind": "source-references",
+      "urls": [
+        "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E076_00_DEM/Copernicus_DSM_COG_10_N35_00_E076_00_DEM.tif",
+        "https://mapcarta.com/14675508",
+        "https://mapcarta.com/14710602",
+        "https://www.openstreetmap.org/relation/13559521"
+      ],
+      "annotationStatus": "unreviewed"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\sia_bilafond_bila_osm_transect.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "c90bf8d9795f215f5907a28617c438309b2381411c881baac58229c8b74ba077",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\sia_bilafond_cop30_relief.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "832fdde640a00a3760c3dcf84116ae217ed5ed1b9d428d122c2402d014fc340e",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\sia_bilafond_sia_osm_transect.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "933686edf945a052e51eb9c350e7d03cc08092e0f406d4f89e8cbc05e17fdba9",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_agpl_discrepancy_overview.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "b0a70cfc6b808b72d5e2fd515758727edc9b6f5f18691dbd1dedd03f2d12cd59",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_agpl_discrepancy_zoom.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "d9efa1070b4178e0296eccf910bc5b4b53c6fa74d5cae945c4f42c289c508a6c",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_comparison.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "254010be2086bea779003b1d7a5b156aa0988a4d452a6b0a1c06b7cd631f9568",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_control_comparison.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "235a8ed17c20409e5985c4010620ae1e0a873a8045cc3f322d6ee1c628187d57",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_multidem_after_shift.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "121df8d49145bcdd986a37763c7f7b3f80ee8b27646f62371281af09d713c1bd",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_multidem_before_shift.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "82aa05927b46c93ed3dc7daaae2899de251a99ef53b9bb004c58d7317c8d2e8b",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_multidem_bilafond_north.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "fb8b838760e6b7ab84740b83581b9ec55b8d5df3382540a5cbcff79db4caa869",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_multidem_shift_a.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "5a3b84eec4faa89279780879362b79bdcb7d80db1f8298ad89c7c88682063560",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_multidem_shift_b.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "42f1903ae038c3e134ef0a506cccfe910d456d1a1767e01df46e9ec37a9dfcd3",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_multidem_sia_la.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "b26fcea1f7e2bd043cc852b0748d26cd498925ab6236f1da2c90ad971c8691fb",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_s2_2025_bilafond_north_optical.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "2c5fbff1d75b7235aafa5474c3b7e64c0fa752b0dea57bf621fc0df25bb3888b",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_s2_2025_km90_corridor.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "20c394daede4c687cf1082b54ee826d7ddd17d59b087050439fd397edc0bca05",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_s2_2025_sia_la_optical.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "0b91d0f9b5e62615d7033e1f2953a75fc7b177f5bac0af4c93dfb14049f9f7b9",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_s2_2026_bilafond_north_optical.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "3b59d6a9708633e2724c939c30dda75ee074425a2ff24d3aabdf4f09adb9791d",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_s2_2026_km90_corridor.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "e63c978021b1bb0f077f22ee5dda595fc83e1849ffa714be4ca241c5421273d2",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_s2_2026_sia_la_optical.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "ef5dd3f71b68de88b2a0e3ff77f8246697c7b0ffefe9edf14b0023520031c198",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_terrain_90km_profile_90525.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "f69494f6bb89a58a73e2e858fa90a30cb4a9c3897df8b5edefa2c114eca5f7b8",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_terrain_90km_profile_90775.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "41669c78512550499d09110109771c971789a099db319f0d1ce8997881791de1",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-worktrees\\ui\\.working\\2207af99958a25c8166b3b88d2365b2e345bdbec\\reports\\research\\siachen\\siachen_terrain_90km_profile_91025.png",
+      "kind": "report-evidence-candidate",
+      "sha256": "35c241cbc34be9e5758f78907107974cdfb575ad7ce76ff535a2c6523c1349b3",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "tools\\historical-library\\sources\\korea\\ibs017-1962-map.jpg",
+      "kind": "original-candidate",
+      "sha256": "23ab23c7a8d16782038ca237dbff9f5e7b7a2123286af9c03a37dd0e7bcbf844",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "tools\\historical-library\\sources\\reviewed-boundaries-2026-10-22\\AAS-21-1929-ocr.pdf",
+      "kind": "original-candidate",
+      "sha256": "98b6d3710f1934d977ed141c1e1271958ede5607b579b5e35ccba9897f60625b",
+      "annotationStatus": "unlabelled"
+    },
+    {
+      "path": "tools\\historical-library\\sources\\reviewed-boundaries-2026-10-22\\vatican-aas1929-page-225.jpg",
+      "kind": "original-candidate",
+      "sha256": "1b0c895680ea4548a3ad998b4b2aa23ebcea2766becb5efca82bde82995bc27c",
+      "annotationStatus": "unlabelled"
+    }
+  ],
+  "trainingReady": false
+}

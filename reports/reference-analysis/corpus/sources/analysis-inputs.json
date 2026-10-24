@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "sourceId": "loc-tehran-1889-preview",
+      "familyId": "tehran-najm-al-mulk",
+      "sourceSha256": "35c31b490ee4aab6c775540f18e59660d5b354deefdf9ec8568952bea80d875d",
+      "originalSize": [
+        2048,
+        1964
+      ],
+      "reviewedLabels": false,
+      "purpose": "app-runtime-input-only",
+      "path": "loc-tehran-1889-preview.jpg",
+      "size": [
+        2048,
+        1964
+      ],
+      "originalPixelsPerInputPixel": [
+        1,
+        1
+      ],
+      "sha256": "35c31b490ee4aab6c775540f18e59660d5b354deefdf9ec8568952bea80d875d"
+    },
+    {
+      "sourceId": "zenodo-urdu-punjab-undated",
+      "familyId": "survey-india-manuscript-punjab",
+      "sourceSha256": "cfdf4de3992c84ae3d45dc84e187c536298908b0712e74ce326d3ea775c57fc3",
+      "originalSize": [
+        17180,
+        14414
+      ],
+      "reviewedLabels": false,
+      "purpose": "app-runtime-input-only",
+      "path": "zenodo-urdu-punjab-undated-analysis.jpg",
+      "size": [
+        3087,
+        2590
+      ],
+      "originalPixelsPerInputPixel": [
+        5.565273728539035,
+        5.565250965250965
+      ],
+      "sha256": "103806f1b4390e8d74c47c7595422d0beed33c1d818540ea332481018468aa19"
+    }
+  ],
+  "trainingReady": false
+}

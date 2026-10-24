@@ -25,7 +25,3 @@ Only original factual extraction, compact quotes/citations, original validation 
 Two SIGRH documents returned HTTP 502, one ITPCAS page returned HTTP 502, and a USP abstract timed out. None supplied substantive evidence or was retried by another route. Successful source acquisitions and these individual failures are separately recorded.
 
 The prior three-record reconstruction is fixed at commit `4300128a1298222a430464b1899d7a1a141f1ab3`. The incremental index has six unique research targets: four generalized whole-water identities, one reservoir association with a geometry hold, and the prior MacKay whole-name-scope hold. These new research categories are not added to the old unavailable 504-record ledger.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/a4ad50ba0f1cf2fa2d0625acf4887886e91aba6de8b03aa9af5412f62dc06bc1.gz) · 원본 SHA-256 `a4ad50ba0f1cf2fa2d0625acf4887886e91aba6de8b03aa9af5412f62dc06bc1`.

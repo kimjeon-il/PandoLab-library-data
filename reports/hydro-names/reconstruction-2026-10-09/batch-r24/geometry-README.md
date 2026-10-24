@@ -9,7 +9,3 @@ Full rendered coordinates, per-part paths, source-reach sequences, production de
 Run `python -B validate-geometry-reference.py --check-component-manifest` and `python -B test-geometry-reference.py` from this directory. These public tools check included summaries, metadata and included-file hashes only. They neither access nor reconstruct omitted inputs, do not replay the production decoder, and make no full-coordinate verification claim. The corruption tests rebase editable included-file receipts to verify that independent fixed file pins reject changed facts. There is no omitted-input replay interface.
 
 The prior 69 recorded targets are excluded. The selected three bring the reconstructed-record count to 72, with 3,993 unrecorded eligible targets remaining: 3,421 river groups and 572 lakes. The two earlier pending-access IDs and 18 earlier scope holds are preserved without reassessment. These queue facts do not mean historically never reviewed. The earlier target geometry and naming decisions are not revalidated here.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../archive/blobs/493d8308a3ae0a88423ebdc1995953b027fbd69667dc11055e7e3281120b5087.gz) · 원본 SHA-256 `493d8308a3ae0a88423ebdc1995953b027fbd69667dc11055e7e3281120b5087`.

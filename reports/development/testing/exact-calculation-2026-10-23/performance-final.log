@@ -1,0 +1,160 @@
+warning: in the working copy of 'apps/web-shell/editor.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/js/build-meta.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/builtin-subunits.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/builtin-territory-policy.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/coordinate-bounds.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/core-wasm-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/country-stroke-preparation.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/geometry-validation.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/gpu-stroke-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/mesh-spatial-blocks.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/polygon-clipping-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/polygon-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/project-preview-policy.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/project-preview-topology.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/temporal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/territorial-edit-plan.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/modules/territorial-units.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/vendor/topojson-client.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/vendor/topojson-server.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/vendor/topojson-simplify.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/workers/gpu-mesh-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/0155dad5ea1923253bdc34ad77374706/assets/js/workers/project-preview-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/gis-adapters.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/modules/reference-image-model.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/modules/reference-image-package.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/modules/reference-image-source.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/vendor/sql/sql-wasm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/workers/gis-gpkg-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/2e591390b413e24ffda3ae5aa17dbe73/assets/js/workers/gpkg-read-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/3791464e7abeda6a47338a4614779fe0/assets/js/vendor/sql/sql-wasm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/3791464e7abeda6a47338a4614779fe0/assets/js/workers/gpkg-read-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/3791464e7abeda6a47338a4614779fe0/assets/js/workers/project-read-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/boundary-lines.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/boundary-spatial-index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/boundary-topology.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/coordinate-bounds.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/core-wasm-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/country-contact-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/country-shared-boundary-cache.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/geographic-boundary.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/geometry-versions.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/map-display-preparation.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/map-edit-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/polygon-clipping-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/polygon-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/temporal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/territorial-edit-plan.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/territorial-highlight-boundary.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/modules/territorial-units.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/workers/map-display-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/6a68f7fcdfedcf1d5b82f9fb3e9c1a0b/assets/js/workers/worker-rpc-host.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/boundary-spatial-index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/boundary-topology.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/coordinate-bounds.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/core-wasm-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/country-contact-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/country-shared-boundary-cache.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/country-shared-boundary-packet.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/geographic-boundary.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/gpu-stroke-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/map-edit-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/polygon-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/temporal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/territorial-edit-plan.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/modules/territorial-units.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/core-wasm-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/country-mesh-preparation.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/country-stroke-preparation.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/gpu-stroke-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/mesh-spatial-blocks.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/polygon-mesh-codec.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/prepared-polygon-mesh.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/publication-data-channel.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/stored-asset-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/modules/temporal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/geographic-boundary-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/gpu-mesh-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/a95986434bb932ab3f0eff062072ba97/assets/js/workers/worker-rpc-host.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/coordinate-bounds.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/core-wasm-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/geometry-validation.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/polygon-clipping-core.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/polygon-geometry.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/temporal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/territorial-edit-plan.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/modules/territorial-units.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/workers/geometry-validation-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/c00d81672fbfa17b76f433eb62980953/assets/js/workers/worker-rpc-host.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/core-wasm-loader.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-analysis-engine.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-analysis-tiles.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-auto-georef.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-grid.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-layout.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-ocr-runtime.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-ocr.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/modules/reference-image-source.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/workers/reference-image-analysis-worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/worker-runtime/e71fd17e26de49e9afeeb31cb751aed6/assets/js/workers/worker-rpc-host.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+{
+  "output": "D:\\dev\\worktrees\\objects\\.superpowers\\sdd\\exact-calculation-optimization\\performance-final.json",
+  "parityCases": 219,
+  "metrics": [
+    {
+      "name": "timeline-16",
+      "baselineMedianMs": 9.642499999999927,
+      "candidateMedianMs": 9.387300000000096,
+      "changePercent": -2.646616541351654,
+      "work": null
+    },
+    {
+      "name": "timeline-256",
+      "baselineMedianMs": 151.05140000000029,
+      "candidateMedianMs": 145.29250000000047,
+      "changePercent": -3.8125432799694714,
+      "work": null
+    },
+    {
+      "name": "timeline-2048",
+      "baselineMedianMs": 1398.6491000000024,
+      "candidateMedianMs": 1188.3626999999979,
+      "changePercent": -15.034964809973006,
+      "work": null
+    },
+    {
+      "name": "source-analysis-53",
+      "baselineMedianMs": 570.8246999999974,
+      "candidateMedianMs": 574.2796999999991,
+      "changePercent": 0.6052646285281238,
+      "work": null
+    },
+    {
+      "name": "import-id-replace",
+      "baselineMedianMs": 101.14979999999923,
+      "candidateMedianMs": 21.37510000000475,
+      "changePercent": -78.86787714854117,
+      "work": {
+        "baselineBoundsCalls": 256,
+        "candidateBoundsCalls": 129,
+        "incomingVertices": 20001,
+        "existingCountries": 128
+      }
+    },
+    {
+      "name": "import-territory-replacement",
+      "baselineMedianMs": 264.418399999995,
+      "candidateMedianMs": 185.26239999999234,
+      "changePercent": -29.935889484243216,
+      "work": {
+        "baselineBoundsCalls": 256,
+        "candidateBoundsCalls": 129,
+        "incomingVertices": 20001,
+        "existingCountries": 128
+      }
+    }
+  ]
+}

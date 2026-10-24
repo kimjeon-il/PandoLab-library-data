@@ -1,0 +1,14 @@
+warning: in the working copy of 'tools/exact-calculation-performance.mjs', LF will be replaced by CRLF the next time Git touches it
+{
+  "output": "D:\\dev\\worktrees\\objects\\.superpowers\\sdd\\exact-calculation-optimization\\performance-canonical-small-repeat.json",
+  "parityCases": 209,
+  "metrics": [
+    {
+      "name": "timeline-16",
+      "baselineMedianMs": 9.600999999999885,
+      "candidateMedianMs": 9.604299999999967,
+      "changePercent": 0.034371419644640966,
+      "work": null
+    }
+  ]
+}

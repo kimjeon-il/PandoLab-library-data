@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "ga-australia-general-reference",
+  "sourceSha256": "c68ddeef790eacafd1ade0f8353fe8818e3b1e3f01083fdb9bbe0a93e4c3ae57",
+  "publisherRightsUrl": "https://www.ga.gov.au/copyright",
+  "publisherRightsAccess": "Read in browser source; direct archival HTTP request returned 403. The original PDF printed item-specific licence is preserved in corpus notices.",
+  "itemLicense": "Printed CC BY 3.0 Australia notice, Commonwealth of Australia (Geoscience Australia) 2011",
+  "review": "Whole source and source-supervision overlay visually inspected. State boundaries align; road, rail, river, text and footer marks are not positive targets. Source-derived weak supervision, not independent truth.",
+  "supervisedAdministrativePixels": 6904,
+  "publicationDate": null,
+  "independentEvaluation": false,
+  "trainingOnly": true,
+  "releaseApproved": false,
+  "recordedAt": "2026-10-24T12:11:52.863185+00:00"
+}

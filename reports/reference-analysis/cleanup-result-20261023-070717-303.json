@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-22T22:08:22.3062117Z",
+  "apply": true,
+  "repository": "D:\\dev\\worktrees\\ui",
+  "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+  "eligibleBytes": 608465812,
+  "deletedBytes": 608465812,
+  "entries": [
+    {
+      "kind": "retired-app-binary",
+      "path": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\deps\\pandolab_web_shell-8f21b66dd513f179.exe",
+      "status": "removed",
+      "bytes": 370047780,
+      "reason": ""
+    },
+    {
+      "kind": "retired-app-binary",
+      "path": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\deps\\pandolab_web_shell-957be31c0842e320.exe",
+      "status": "removed",
+      "bytes": 238418032,
+      "reason": ""
+    }
+  ]
+}

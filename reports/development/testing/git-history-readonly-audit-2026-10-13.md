@@ -7,7 +7,3 @@
 - 원격 PR 참조 문제로 기존 Pando 원격의 이력 강제 재작성은 **차단**, 새 저장소 생성·서비스 이전·배포·강제 푸시는 **미실행**. 이 기록은 GitHub 저장소 크기 절감 완료 증거가 아니다.
 
 [정리 전 원문·전체 테스트 목록·출처·원본 커밋](https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/reports/development/testing/git-history-readonly-audit-2026-10-13.md)을 참조할 것. 현재 지도 데이터·런타임 변경이나 검증 완료를 의미하지 않는다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/cab1eb915f3c81a0b8e5aceb65afc8c4c92c0733ae137470cfa5bf3b305c5c1b.gz) · 원본 SHA-256 `cab1eb915f3c81a0b8e5aceb65afc8c4c92c0733ae137470cfa5bf3b305c5c1b`.

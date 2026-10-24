@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "e082e0a8be90d0472c337b84a33f255eacc6d8714d23b6a7cdcc9128be0770c5"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/wwu_munster_110144-0_2083_5708.jpg",
+      "sha256": "e0b6fcb105bd70f42eed84c5b738243995f757e7e9fe3ec2a50171f51907ef8a"
+    },
+    {
+      "path": "sources/wwu_munster_110144-0_2083_5708.png",
+      "sha256": "16b150421ad3b7b09afee99508033fe73f81d3ac9ee2e5fef2ebedd37e2bf5e3"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/wwu_munster_110144-0_2083_5708.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 5162,
+    "transport": 115,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/wwu_munster_110144-0_2083_5708.raster.png",
+    "sha256": "9e32d003ac33e1309228eb6dbda8a61b3f0132f01fda189fa5753be74d816de1"
+  },
+  "validRaster": {
+    "path": "derived/wwu_munster_110144-0_2083_5708.validRaster.png",
+    "sha256": "6480026c208029f370b9e14c51557a3d20895b9e548506e25574f41c2d2c8b94"
+  }
+}

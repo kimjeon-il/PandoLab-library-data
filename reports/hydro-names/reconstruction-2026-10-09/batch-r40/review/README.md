@@ -13,7 +13,3 @@ One Ontario Geological Survey original, Index to Maps, Bedrock Geology, 1991–2
 No new scope holds, access-pending cases or material-pending cases are added. The prior 36 scope holds, two access-pending cases and one material-pending case (Primrose Lake, lakes_base:1159109285) remain separate and unchanged: three pending targets in total. Prior targets were not reassessed. Candidate names are research identities; all whole-feature scalar/product-name fields and unknown Korean fields remain null. Automatic and product application remain false. No geometry, topology or product data was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. Checks validate only included current-three factual linkage, bounded geometry metadata, arithmetic and included-file bytes. They cannot reopen omitted original maps, recompute full polygons, reproduce visual judgments or replay the decoder. Originals, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/3fa66cc0bb3200941496dd0a438c56653e39ea9b0842580733202a15ececcacb.gz) · 원본 SHA-256 `3fa66cc0bb3200941496dd0a438c56653e39ea9b0842580733202a15ececcacb`.

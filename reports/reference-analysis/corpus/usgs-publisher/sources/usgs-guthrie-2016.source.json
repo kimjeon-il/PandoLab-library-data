@@ -1,0 +1,23 @@
+{
+  "id": "usgs-guthrie-2016",
+  "familyId": "usgs-us-topo",
+  "editionId": "usgs-ky-2016",
+  "language": "eng",
+  "script": "Latin",
+  "published": "2016-03-22",
+  "format": "pdf",
+  "materialKind": "publisher-layered-pdf",
+  "rightsReviewed": true,
+  "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+  "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+  "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88f0cd82cef33f43f0ddd0",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/KY/KY_Guthrie_20160322_TM_geo.pdf",
+  "expectedBytes": 10337528,
+  "maximumBytes": 33554432,
+  "sha256": "5998b3342c6b1adb383b4fc6839ab976ed6898d5c7aeefe31e9e3ae655e98cba",
+  "bytes": 10337528,
+  "acquiredAt": "2026-10-23T03:37:40.927401+00:00",
+  "annotations": null,
+  "reviewedLabels": false,
+  "trainingReady": false
+}

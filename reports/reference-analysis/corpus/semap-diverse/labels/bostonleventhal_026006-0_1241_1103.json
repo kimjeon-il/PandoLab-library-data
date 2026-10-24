@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "092627f6a65f45ab369fcedfde542e95ecfb7bb34c0df5a54ea0be9223cf084e"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/bostonleventhal_026006-0_1241_1103.jpg",
+      "sha256": "fd69919e354c3b009ef58bf13637dc587bb4543aa3197ed3993346b500d41782"
+    },
+    {
+      "path": "sources/bostonleventhal_026006-0_1241_1103.png",
+      "sha256": "9cc5840a5d5b35f4dac34ac0312820fe1119207b5f4e34f43d446e17a3815bb8"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/bostonleventhal_026006-0_1241_1103.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 505172,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/bostonleventhal_026006-0_1241_1103.raster.png",
+    "sha256": "8c16b1695485948eba9df288cdf50a40d2b4a325638de449d8f57cacd81266e8"
+  },
+  "validRaster": {
+    "path": "derived/bostonleventhal_026006-0_1241_1103.validRaster.png",
+    "sha256": "491004239890406187880636f401f13d0c25cde29a0115ccde150b80ba97dabe"
+  }
+}

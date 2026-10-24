@@ -1,0 +1,23 @@
+{
+  "url": "http://tauri.localhost/",
+  "readiness": "enhanced",
+  "entities": 254,
+  "afg": "아프가니스탄",
+  "health": {
+    "root": "D:\\dev\\worktrees\\ui",
+    "profile": "full-world",
+    "revision": 0,
+    "error": null,
+    "executionMode": "development"
+  },
+  "cachedNativeBuild": [
+    "Reusing existing development server: http://127.0.0.1:4175\r",
+    "    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.10s\r"
+  ],
+  "serverOwnedAcrossSymlinkFallback": true,
+  "gradleRepackage": {
+    "seconds": 19,
+    "executed": 2,
+    "upToDate": 93
+  }
+}

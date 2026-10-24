@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "purpose": "selected-training-tile-fitting-only",
+  "independentEvaluation": false,
+  "releaseApproved": false,
+  "threshold": 0.55,
+  "pixelTolerance": 0,
+  "sourceTruth": "source-derived-weak",
+  "sheets": [
+    {
+      "sheetId": "cia-world-political-2021",
+      "channel": "international",
+      "before": {
+        "dice": 0.6481046628648105,
+        "precision": 0.8757932910244787,
+        "recall": 0.5143769968051118
+      },
+      "after": {
+        "dice": 0.8763647093537916,
+        "precision": 0.9827928524156188,
+        "recall": 0.7907348242811502
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-national",
+      "channel": "international",
+      "before": {
+        "dice": 0.2261344665351343,
+        "precision": 0.13160219042571983,
+        "recall": 0.802801724137931
+      },
+      "after": {
+        "dice": 0.3170731707317073,
+        "precision": 0.20008472182999154,
+        "recall": 0.7634698275862069
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-national",
+      "channel": "administrative",
+      "before": {
+        "dice": 0.32652259332023575,
+        "precision": 0.19539148836115683,
+        "recall": 0.992831541218638
+      },
+      "after": {
+        "dice": 0.47159631862900664,
+        "precision": 0.32108902333621436,
+        "recall": 0.8876941457586619
+      }
+    },
+    {
+      "sheetId": "cia-asia-political",
+      "channel": "international",
+      "before": {
+        "dice": 0.8018720748829953,
+        "precision": 0.6710182767624021,
+        "recall": 0.9961240310077519
+      },
+      "after": {
+        "dice": 0.9980657640232108,
+        "precision": 0.9961389961389961,
+        "recall": 1.0
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-monochrome",
+      "channel": "international",
+      "before": {
+        "dice": 0.24237170596393898,
+        "precision": 0.16738505747126436,
+        "recall": 0.439070351758794
+      },
+      "after": {
+        "dice": 0.34489916963226575,
+        "precision": 0.22573757763975155,
+        "recall": 0.7305276381909548
+      }
+    },
+    {
+      "sheetId": "nrcan-canada-monochrome",
+      "channel": "administrative",
+      "before": {
+        "dice": 0.5585926928281462,
+        "precision": 0.4897959183673469,
+        "recall": 0.6498740554156172
+      },
+      "after": {
+        "dice": 0.5301770100234592,
+        "precision": 0.40083843921315704,
+        "recall": 0.7827455919395466
+      }
+    }
+  ]
+}

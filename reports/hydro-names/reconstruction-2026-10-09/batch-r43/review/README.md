@@ -13,7 +13,3 @@ The Ontario Geological Survey's Index to Maps, Bedrock Geology, 1991–2020, Wes
 Three full-feature source-scope reviews are complete, yielding two supported generalized research identities and one naming-scope hold. The new hold brings the cumulative count to 40; all prior 39 holds are preserved. Two access-pending cases and one material-pending case, lakes_base:1159109285, remain separate and unchanged. There are three pending-source targets total. Prior targets were not reassessed. Bamaji Lake and Ball Lake are candidate research names, not approved product scalars; whole-feature scalar/product and Korean fields remain null. Automatic and product application remain false. No geometry, topology or product data was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. Checks validate included current-three factual linkage, bounded geometry metadata, arithmetic and included-file bytes only. They cannot reopen omitted original maps, recompute full polygons, reproduce visual judgments or replay the decoder. Original maps, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/9785cc22f8e0759a06048add21d1a26b0f16d1ca0051dc112b32ca9bfa72e7e4.gz) · 원본 SHA-256 `9785cc22f8e0759a06048add21d1a26b0f16d1ca0051dc112b32ca9bfa72e7e4`.

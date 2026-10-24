@@ -13,7 +13,3 @@ Original white water with blue shores was distinguished from colored geological 
 Three full-feature source-scope reviews are complete, supporting three generalized research identities. No new naming-scope hold or access/material-pending case is added. All prior 40 holds, two access-pending cases and one material-pending case, lakes_base:1159109285, remain separate and unchanged. There are three pending-source targets total. Prior targets were not reassessed. Candidate research names are not approved product scalars; accepted, whole-feature scalar/product and Korean fields remain null. Automatic and product application remain false. No geometry, topology or product data was changed.
 
 Run `python -B validate-independent-review.py` and `python -B test-independent-review.py` here. Checks validate included current-three factual linkage, stage, bounded geometry metadata, arithmetic and included-file bytes only. They cannot reopen omitted original maps, recompute full polygons, reproduce visual judgments or replay the decoder. Original maps, PDFs, full coordinates, private paths and omitted-input fingerprints are excluded. public-input-pins.json pins the nine included geometry files. review-manifest.json hashes the other seven review files and excludes itself.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/f977459ade5bd9695e5066ccc05c7f02d7a679c5357bc22a1673ad043c77ad44.gz) · 원본 SHA-256 `f977459ade5bd9695e5066ccc05c7f02d7a679c5357bc22a1673ad043c77ad44`.

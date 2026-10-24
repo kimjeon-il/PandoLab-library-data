@@ -1,0 +1,1 @@
+{"sourceSha256":"ee4dd6e83a1fd1bbbccd8da36f04017463b3985576504a9c774eace798977a64","assets":{"js":{"file":"pandoeditor-core.js","sha256":"2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"},"wasm":{"file":"pandoeditor-core.wasm","sha256":"70e4cb446bef37d9efe6be90c28f95b1eaf172128ffd916a9ac36ede012473a8"}},"mode":"package"}

@@ -1,0 +1,36 @@
+✖ every current browser workflow can be assigned before CI dependency planning (19.4633ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 425.9915
+
+✖ failing tests:
+
+test at tests\unit\check-automation.test.mjs:9:1
+✖ every current browser workflow can be assigned before CI dependency planning (19.4633ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   'tests/browser/button-consistency.spec.mjs',
+  +   'tests/browser/editable-library-ui.spec.mjs',
+  +   'tests/browser/korean-boundaries.spec.mjs'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/objects/tests/unit/check-automation.test.mjs:14:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'tests/browser/button-consistency.spec.mjs', 'tests/browser/editable-library-ui.spec.mjs', 'tests/browser/korean-boundaries.spec.mjs' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

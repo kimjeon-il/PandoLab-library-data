@@ -1,0 +1,21 @@
+changes	Select current application checks	﻿2026-10-23T11:25:25.4125283Z ##[group]Run node scripts/run-application-checks.mjs --list --github-output
+changes	Select current application checks	2026-10-23T11:25:25.4126376Z ^[[36;1mnode scripts/run-application-checks.mjs --list --github-output^[[0m
+changes	Select current application checks	2026-10-23T11:25:25.4214465Z shell: /usr/bin/bash -e {0}
+changes	Select current application checks	2026-10-23T11:25:25.4214885Z env:
+changes	Select current application checks	2026-10-23T11:25:25.4215315Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+changes	Select current application checks	2026-10-23T11:25:25.4215939Z   BASE_SHA: f58d61e9e344bbabe36b9915bb7339c55830146a
+changes	Select current application checks	2026-10-23T11:25:25.4216776Z   HEAD_SHA: 43a1f29d7be0a30b57462a10624343eaebbc5017
+changes	Select current application checks	2026-10-23T11:25:25.4217289Z   BROWSER_SCOPE: default
+changes	Select current application checks	2026-10-23T11:25:25.4217648Z ##[endgroup]
+changes	Select current application checks	2026-10-23T11:25:33.1945609Z Error: Missing dependency apps/assets/js/modules/reference-image-analysis-client.js in apps/web-shell/reference-analysis-probe.js
+changes	Select current application checks	2026-10-23T11:25:33.1949367Z     at add (file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:127:44)
+changes	Select current application checks	2026-10-23T11:25:33.1950528Z     at file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:131:119
+changes	Select current application checks	2026-10-23T11:25:33.1952052Z     at visit (file:///home/runner/work/Pando/Pando/scripts/lib/source-analysis.mjs:15:5)
+changes	Select current application checks	2026-10-23T11:25:33.1952877Z     at Array.forEach (<anonymous>)
+changes	Select current application checks	2026-10-23T11:25:33.1953859Z     at visit (file:///home/runner/work/Pando/Pando/scripts/lib/source-analysis.mjs:18:39)
+changes	Select current application checks	2026-10-23T11:25:33.1955124Z     at walkJavaScript (file:///home/runner/work/Pando/Pando/scripts/lib/source-analysis.mjs:22:3)
+changes	Select current application checks	2026-10-23T11:25:33.1956638Z     at Object.dependencies (file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:130:5)
+changes	Select current application checks	2026-10-23T11:25:33.1971199Z     at planApplicationChecks (file:///home/runner/work/Pando/Pando/scripts/plan-application-checks.mjs:204:35)
+changes	Select current application checks	2026-10-23T11:25:33.1972693Z     at main (file:///home/runner/work/Pando/Pando/scripts/run-application-checks.mjs:92:21)
+changes	Select current application checks	2026-10-23T11:25:33.1973781Z     at file:///home/runner/work/Pando/Pando/scripts/run-application-checks.mjs:111:9
+changes	Select current application checks	2026-10-23T11:25:33.2459821Z ##[error]Process completed with exit code 1.

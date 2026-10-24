@@ -22,7 +22,3 @@
 - 후속 CI 성능 게이트: 동일 러너의 이전 JS 대비 미리보기·정밀 1.15배 초과 느려지는 경우, 합성 입력은 1.25배 초과 느려지는 경우 실패 처리한다. 절대 시간은 하드웨어와 부하에 따라 달라질 수 있어 게이트로 사용하지 않는다.
 
 근거: [성능 CI 실행](https://github.com/kimjeon-il/Pando/actions/runs/38695309581) · [원본 측정 JSON](https://github.com/kimjeon-il/Pando/actions/runs/38695309581/artifacts/11953882779) · [P3 브라우저·Qt 검증](https://github.com/kimjeon-il/Pando/actions/runs/38693512411)
-
-
----
-[작성 당시 원문(무손실 압축)](../../archive/blobs/af58246fba103f1ab76b9baccd7fd782c55315bd8445b02028a2643a0f24a67a.gz) · 원본 SHA-256 `af58246fba103f1ab76b9baccd7fd782c55315bd8445b02028a2643a0f24a67a`.

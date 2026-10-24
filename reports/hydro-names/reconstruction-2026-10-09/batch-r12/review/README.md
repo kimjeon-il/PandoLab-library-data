@@ -26,7 +26,3 @@ Run from this directory with Python 3:
 The validator reads only included public files. It checks file integrity, all 277 ordered source/baseline positions, geometry identity joins, factual correspondence between research and review records, official source metadata, current completion/access flags, the compound hold and carried-forward Cold Lake gap. It has no original-source replay mode and makes no network requests.
 
 `public-input-pins.json` lists only included input files. Each research manifest covers included files in its own directory. The review manifest covers the seven other review files, excluding itself. `review-validation.json` records current public-only checks and corruption tests separately from the historical assessment. Passing these checks verifies internal consistency and included-file integrity, not the independent truth of the source interpretation.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../../../archive/blobs/b1bb844ee73147f82cafb635154fd716117ce8c2cc2a56ce78fefdf0181a2344.gz) · 원본 SHA-256 `b1bb844ee73147f82cafb635154fd716117ce8c2cc2a56ce78fefdf0181a2344`.

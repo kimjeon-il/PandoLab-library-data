@@ -1,0 +1,7 @@
+{
+  "mechanism": "bounded health polling",
+  "observedReloads": 2,
+  "nativeBefore": "2937edd2bb209af45cacd6136aa5df86c65dbbe7dcc4ebf86c6f38f5e30adc7e",
+  "nativeAfter": "2937edd2bb209af45cacd6136aa5df86c65dbbe7dcc4ebf86c6f38f5e30adc7e",
+  "cssRestored": true
+}

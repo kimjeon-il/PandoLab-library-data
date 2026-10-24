@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "trainingOnly": true,
+  "sheets": [
+    {
+      "id": "usgs-detroit-2017",
+      "familyId": "usgs-us-topo",
+      "editionId": "usgs-mi-2017",
+      "duplicateGroup": "usgs-detroit-2017",
+      "split": "train",
+      "image": "derived/usgs-detroit-2017.jpg",
+      "annotations": "labels/usgs-detroit-2017.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "source": {
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/MI/MI_Detroit_20170503_TM_geo.pdf",
+        "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88e9c182cef33f43f04a45",
+        "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+        "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+        "published": "2017-05-03"
+      },
+      "sha256": "0ac67f6d2aad9a36476e67c9e0fe38be99f00dfae43e93b5e87b832d944632cc"
+    },
+    {
+      "id": "usgs-east-brownsville-2016",
+      "familyId": "usgs-us-topo",
+      "editionId": "usgs-tx-2016",
+      "duplicateGroup": "usgs-east-brownsville-2016",
+      "split": "train",
+      "image": "derived/usgs-east-brownsville-2016.jpg",
+      "annotations": "labels/usgs-east-brownsville-2016.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "source": {
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/TX/TX_East_Brownsville_20160226_TM_geo.pdf",
+        "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88fc7882cef33f43f2114c",
+        "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+        "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+        "published": "2016-02-26"
+      },
+      "sha256": "7031ad3d15dea9a6061ac416566f64bec2ad45930e648f9c8607f935b93f78dd"
+    },
+    {
+      "id": "usgs-eastport-2014",
+      "familyId": "usgs-us-topo",
+      "editionId": "usgs-me-2014",
+      "duplicateGroup": "usgs-eastport-2014",
+      "split": "train",
+      "image": "derived/usgs-eastport-2014.jpg",
+      "annotations": "labels/usgs-eastport-2014.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "source": {
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/ME/ME_Eastport_OE_E_20141009_TM_geo.pdf",
+        "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88fb5c82cef33f43f1f1d8",
+        "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+        "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+        "published": "2014-10-09"
+      },
+      "sha256": "030570177b5fab64d266b912f7fa517bc56884fc0b95bdca6e05c97162769954"
+    },
+    {
+      "id": "usgs-guthrie-2016",
+      "familyId": "usgs-us-topo",
+      "editionId": "usgs-ky-2016",
+      "duplicateGroup": "usgs-guthrie-2016",
+      "split": "train",
+      "image": "derived/usgs-guthrie-2016.jpg",
+      "annotations": "labels/usgs-guthrie-2016.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "source": {
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/KY/KY_Guthrie_20160322_TM_geo.pdf",
+        "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88f0cd82cef33f43f0ddd0",
+        "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+        "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+        "published": "2016-03-22"
+      },
+      "sha256": "ac7a7e44293a4a664faaf327b09d19edb3f17b781f1e0b0f9471453591d3aadc"
+    },
+    {
+      "id": "usgs-pajarito-peak-2014",
+      "familyId": "usgs-us-topo",
+      "editionId": "usgs-az-2014",
+      "duplicateGroup": "usgs-pajarito-peak-2014",
+      "split": "train",
+      "image": "derived/usgs-pajarito-peak-2014.jpg",
+      "annotations": "labels/usgs-pajarito-peak-2014.json",
+      "mapKind": "color",
+      "language": "eng",
+      "script": "Latin",
+      "source": {
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/AZ/AZ_Pajarito_Peak_20141215_TM_geo.pdf",
+        "metadataUrl": "https://www.sciencebase.gov/catalog/item/5f88e73f82cef33f43f0119f",
+        "license": "USGS topographic-map reuse permission; retain map-specific third-party credits",
+        "rightsUrl": "https://www.usgs.gov/faqs/are-usgs-topographic-maps-copyrighted",
+        "published": "2014-12-15"
+      },
+      "sha256": "c56edf8b4309192f78f47ce5509a03747bb50de085202538828268319149a3d3"
+    }
+  ]
+}

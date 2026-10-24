@@ -1,0 +1,8 @@
+
+Running 3 tests using 1 worker
+
+  ok 1 tests\browser\reference-image-boundary-review.spec.mjs:5:1 › boundary review edits a real Core graph through the Worker and Live-Wire, then applies one import (19.6s)
+  ok 2 tests\browser\reference-image-offline-ocr.spec.mjs:52:1 › analysis corrects a rotated archived map and restores OCR boxes to its loaded source pixels (4.7s)
+  ok 3 tests\browser\reference-image-offline-ocr.spec.mjs:72:1 › analysis RPC executes real bundled OCR inside its dedicated Worker and rejects absent segmentation weights (4.9s)
+
+  3 passed (31.4s)

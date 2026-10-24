@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "origin": "semap-human-mask-export",
+  "reviewed": false,
+  "width": 768,
+  "height": 768,
+  "observedChannels": [
+    "hydro",
+    "transport"
+  ],
+  "producer": {
+    "script": "tools/reference-analysis/semap.py",
+    "sha256": "e082e0a8be90d0472c337b84a33f255eacc6d8714d23b6a7cdcc9128be0770c5"
+  },
+  "sourceFiles": [
+    {
+      "path": "sources/bordeaux_montaigne_025335-0_4787_1817.jpg",
+      "sha256": "d75459109410bec6f2432a9eaaf78781fc8569514ed3178fc35489d05d5955fc"
+    },
+    {
+      "path": "sources/bordeaux_montaigne_025335-0_4787_1817.png",
+      "sha256": "80289e82c941f65b209d1f3799d434e2bc58c92cf487e83fa40a00fa7af50833"
+    },
+    {
+      "path": "sources/partitions.zip",
+      "sha256": "2008e67aef47110cadd79785ec664c84cd26cb972ec21264688ee239704cba9f"
+    },
+    {
+      "path": "sources/license_images.md",
+      "sha256": "34862887e1e05645c28c823f3b42c9bdf326a1312d1a4633f450294c1744c018"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "1175fbcbd4f28b957151473a1eb4d85dafb30fe6be3ba3ec0fa0bc2ab3e709da"
+    }
+  ],
+  "authorPartition": "train",
+  "synthetic": false,
+  "originalImageMember": "images/real/bordeaux_montaigne_025335-0_4787_1817.jpg",
+  "labelMapping": {
+    "4": "hydro",
+    "5": "transport"
+  },
+  "ignoredSourceClasses": [
+    0,
+    1
+  ],
+  "positivePixels": {
+    "international": 0,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 6162,
+    "transport": 10873,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/bordeaux_montaigne_025335-0_4787_1817.raster.png",
+    "sha256": "febaa6f3a5ccb440af9d4487b047cc8e4949fea7a194f7d769d090d473bc1919"
+  },
+  "validRaster": {
+    "path": "derived/bordeaux_montaigne_025335-0_4787_1817.validRaster.png",
+    "sha256": "d1d7a8f800acb02649e1384f4aa4ecd11c61cab6ff4ef074525c3e682dfffd3c"
+  }
+}

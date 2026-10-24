@@ -1,0 +1,52 @@
+[  3%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/hydroformat.cpp.obj
+[  3%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/hydroviewport.cpp.obj
+[  5%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/project.cpp.obj
+[  6%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/presentation.cpp.obj
+[  8%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/presentationcommands.cpp.obj
+[ 10%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/document.cpp.obj
+[ 11%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/geometryprovenance.cpp.obj
+[ 13%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/temporal.cpp.obj
+[ 15%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/timeline-records.cpp.obj
+[ 16%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/timeline-resolver.cpp.obj
+[ 18%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/timeline-view.cpp.obj
+[ 20%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/timeline-edit.cpp.obj
+[ 22%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/losslessjson.cpp.obj
+[ 23%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/projectcodec.cpp.obj
+[ 25%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webstorage.cpp.obj
+[ 27%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/document-session.cpp.obj
+[ 28%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/historicallibrary.cpp.obj
+[ 30%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/historicalinstantiation.cpp.obj
+[ 32%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/gisexchange.cpp.obj
+[ 33%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/geopackagegeometry.cpp.obj
+[ 35%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/content.cpp.obj
+[ 37%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/objectproperties.cpp.obj
+[ 40%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/geometrypredicates.cpp.obj
+[ 40%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/polygonwrapping.cpp.obj
+[ 42%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/polygonclipping.cpp.obj
+[ 44%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/planargraph.cpp.obj
+[ 45%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/riverpartition.cpp.obj
+[ 47%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/cutgeometry.cpp.obj
+[ 49%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/referenceimage.cpp.obj
+[ 50%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/referencetracing.cpp.obj
+[ 52%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/referenceboundaries.cpp.obj
+[ 54%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/sphericalpolygon.cpp.obj
+[ 55%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/territorialmutation.cpp.obj
+[ 57%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/commands.cpp.obj
+[ 59%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/commandbatch.cpp.obj
+[ 61%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webcommands.cpp.obj
+[ 62%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webcontentcommands.cpp.obj
+[ 64%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webpresentationcommands.cpp.obj
+[ 66%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webterritorialcommands.cpp.obj
+[ 67%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webterritorialedit.cpp.obj
+[ 69%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/webobjectcommands.cpp.obj
+[ 71%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/jobs.cpp.obj
+[ 72%] Building CXX object core/CMakeFiles/pandoeditor_core.dir/src/snapshot.cpp.obj
+[ 74%] Linking CXX static library libpandoeditor_core.a
+[ 96%] Built target pandoeditor_core
+[ 98%] Building CXX object tests/CMakeFiles/document_session_tests.dir/document-session-tests.cpp.obj
+[100%] Linking CXX executable document_session_tests.exe
+[100%] Built target document_session_tests
+[ 96%] Built target pandoeditor_core
+[ 98%] Building CXX object tests/CMakeFiles/temporal_editing_tests.dir/temporal-editing-tests.cpp.obj
+[100%] Linking CXX executable temporal_editing_tests.exe
+[100%] Built target temporal_editing_tests

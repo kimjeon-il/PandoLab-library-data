@@ -33,7 +33,3 @@
 ## 보존 및 판정
 
 1단계 `시점 계산 3중 실행 → 단일 결과 재사용`의 **기능 동등성 및 집중 회귀 기준 충족**. 비교 실행을 위해 만든 임시 워크플로 4개는 실행 기록/아티팩트를 남기고 브랜치에서 정리한다. 유지할 정기 검사는 `.github/workflows/objects-cursor-focused-acceptance.yml` 하나이며, `work/objects` 작업은 다음 단계(저장·미리보기 중복 제거)와 분리한다.
-
-
----
-[작성 당시 원문(무손실 압축)](../../../archive/blobs/d92f6dce94b15a4f80f08cf6b73581b3d443122c7e84620e333e9f5a4a86a7a4.gz) · 원본 SHA-256 `d92f6dce94b15a4f80f08cf6b73581b3d443122c7e84620e333e9f5a4a86a7a4`.
