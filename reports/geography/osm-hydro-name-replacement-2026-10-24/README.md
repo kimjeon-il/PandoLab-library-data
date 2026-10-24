@@ -159,6 +159,28 @@
 - NE 대조에서 일치 후보가 없거나 두 강이 섞여 나타나는 수계는 확인 없이 이름을 새로 부여하지 않는다. 이전 승인 교정표도 보존한다.
 - 자료에 포함된 한국어 이름이 OSM 계열인지 여부는 OSM bbox 매칭 자체로 판단하지 않는다. `sourceLabels`와 외부 검증 근거를 분리한다.
 
+## 5개 수계 비OSM 교체 준비본 — 생산 디코더 검증 성공
+
+- [`work/gis` 재생성 정책](https://github.com/kimjeon-il/Pando/blob/work/gis/tools/build-hydro-tiles.py)과 [독립 교체 표](https://github.com/kimjeon-il/Pando/blob/work/gis/tools/gis/hydro-independent-name-replacements.json)에 5개 ID(`20680587`, `40485117`, `41279826`, `50261309`, `70576631`)를 반영했다. 이 시스템들은 재생성 시 OSM 명칭·관계 메타데이터 조회를 건너뛰며, 검증된 별칭만 사용한다.
+- 편집 중 지도 파일을 덮어쓰지 않는 [격리 재패키저](https://github.com/kimjeon-il/Pando/blob/work/gis/tools/gis/prepare_hydro_name_replacement_bundle.py)로 본류 데이터 102개 fragment의 이름·별칭·OSM 관계정보만 정정한 실험본을 작성했다.
+- 검증: 5개 명칭 전부 기대값과 일치. 원본 지오메트리 샤드 3개 SHA-256 각각 동일, 공간 인덱스 SHA-256 동일, 총 16,548개 feature/902개 pack/3개 shard를 기존 생산 디코더로 정상 판독. `compressedBytes`와 컨테이너 바이트 수 일치. CI 성공.
+- 실험본 Hydro 패키지 SHA-256: `c31cc298b2f99aec388f440253d5a2e4d9683736c1efa716201f453f199557be`. 원본 SHA-256: `91c2268c6dbfdfa7fc6103d8ad0b4eeca71f6c522df5c0118db69a3654ff532a`.
+- [검사 증거 및 생성된 격리 패키지](https://github.com/kimjeon-il/Pando/actions/runs/40046580398/artifacts/12541228932) (일시적 GitHub Actions 보관). 실제 지도 데이터 저장소 최신 런타임 파일에 미게시, Pando `config/library-data.json` 수정 없음, Web/App 게시 없음.
+- 원본은 73개 OSM 매칭 수계이며 격리본은 5개를 대체해 68개 매칭이 남는다. 실제 배포 패키지는 여전히 원본의 **73개**를 포함한다.
+
+## 기존 승인 교정표 26개 원출처 확인
+
+- [기존 26개 수계의 최초 승인 출처·독립 자료 목록](previous-26-reviewed-names.json)으로 기존 교정표의 26개 ID와 출처 URL을 전수 보존했다.
+- 26개 중 24개에는 OSM 이외의 출처 URL이 포함돼 있다. 그 자료의 실제 내용·하천 선형을 본 조사에서 24개 모두 다시 검증했다는 뜻은 아니다.
+- 원래 출처 열이 비었던 2개는 독일 연방수문청(BfG)의 [엘베강](https://undine.bafg.de/elbe/elbegebiet_en.html) 및 [오데르강](https://undine.bafg.de/oder/odergebiet.html) 안내에서 강의 독립 식별 근거를 보강했다.
+- 기존 승인 교정표의 이름을 일괄 삭제·교체하지 않는다. 해당 26개 중 본 조사 73개와 중복 3개를 제외하면 별도 ID 23개다.
+
+## 재검토해야 할 남은 분류
+
+- Natural Earth 81표본 비교에서 26개는 최다 후보의 근접 비율이 75% 이상, 20개는 40~75% 미만, 9개는 40% 미만, **18개는 이름 붙은 NE 선분과 해당 허용범위에서 불일치**했다. 이는 소스 이름을 확정하는 검사가 아니다.
+- 특히 기존 73개 목록 가운데 신규 5개를 제외한 **68개**는 비OSM 대체가 아직 완료되지 않았다. 원출처·별칭·본류 동일성을 일괄 정리하지 않고 개별 진행한다.
+- `41023100` 인더스/라비, `70816878` 브래저스/리오그란데, `20773860` 수에즈 운하의 분류와 `20774342` 혼입 사례는 추가 검수 전 자동 승격 금지.
+
 ## 데이터 반영
 
 `not-applied` · 원본 수계 형상·명칭·출처 UI 유지, 단 재현 가능한 조사·대조 목록 생성.
