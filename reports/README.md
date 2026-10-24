@@ -44,14 +44,11 @@
 | `GEO-LOAD-20261021` | [국가별 내장 지도 로딩·현재 월 자동 선택·기존 단일 파일 보관](geography/country-loading-current-month-2026-10-21.md) | 2026-10-21 | `implemented / focused-verification` | `work-gis-only` |
 | `GEO-WORLD-20261021` | [국가별 원본 분리와 LSIB 육상 국경 보충·미교체 구간 전체 목록](geography/country-files-lsib-2026-10-21.md) | 2026-10-21 | `implemented-partially / provisional` | `work-gis-only` |
 | `GEO-KOR-20261021` | [한국·북한 정부수립일과 남북 경계 전환](geography/korea-boundaries-2026-10-21.md) | 2026-10-21 | `implemented-partially / provisional` | `work-gis-only` |
-| `GEO-REVIEW-20261020-FOLLOWUP` | [GIS 후속 검토 — 중앙아시아 벡터 후보·원문 부재 보류](geography/reviews/followup-2026-10-20-vector-sources.md) | 2026-10-20 UTC / 10-21 한국 | `investigating` | `not-applied` |
+| `GEO-REVIEW-SUMMARY-20261024` | [국가 존속기간·타임라인 미적용 아침 검토 통합](geography/reviews/README.md) | 2026-10-24 (정리) | `source-review / consolidated` | `not-applied` |
 | `GEO-TIME-005` | [2025년 중앙아시아 역사 벡터 자료 후보 탐색](geography/historical-timeline-2025-central-asia-vector-screen-2026-10-21.md) | 2026-10-21 회차 / 검토 10-20 UTC | `investigating` | `not-applied` |
-| `GEO-REVIEW-20261020` | [10월 20일 아침 보고서 검토 — 미주 8개국 보류·순환 이력 정합성 보정](geography/reviews/morning-2026-10-20.md) | 2026-10-20 회차 / 2026-10-19 UTC | `investigating` | `not-applied` |
 | `GEO-LIFE-008` | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](geography/country-lifetime-south-america-2026-10-20.md) | 2026-10-20 회차 / 검토 10-20 | `investigating` | `not-applied` |
 | `GEO-LIFE-007` | [북아메리카 국가 존속기간 — 멕시코·과테말라·온두라스·니카라과](geography/country-lifetime-north-america-2026-10-19.md) | 2026-10-19 조사 / 등록・검토 10-20 | `investigating` | `not-applied` |
-| `GEO-REVIEW-20261019` | [10월 19일 아침 보고서 검토 — 새 문헌·시간 정밀도 보완 및 데이터 보류](geography/reviews/morning-2026-10-19.md) | 2026-10-19 회차 / 2026-10-18 UTC | `investigating` | `not-applied` |
 | `GEO-LIFE-006` | [아프리카 국가 존속기간 — 에리트레아·기니비사우·세네갈](geography/country-lifetime-africa-eri-gnb-sen-2026-10-18.md) | 2026-10-18 / 검토 10-19 | `investigating` | `not-applied` |
-| `GEO-REVIEW-20261017` | [10월 17일 아침 보고서 검토 — 효력일 근거 보완·데이터 보류](geography/reviews/morning-2026-10-17.md) | 2026-10-17 회차 / 2026-10-16 UTC | `investigating` | `not-applied` |
 | `GEO-LIFE-005` | [아시아 국가 존속기간 — 이라크·요르단·레바논](geography/country-lifetime-asia-middle-east-2026-10-17.md) | 2026-10-17 | `investigating` | `not-applied` |
 | `GEO-LIFE-ROTATION` | [국가 존속기간 조사 지역 순환 진행기록](geography/country-lifetime-rotation-progress.md) | 2026-10-20 회차 / 2026-10-19 UTC | `investigating` | `not-applied` |
 | `GEO-TIME-PROGRESS` | [2025년 세계 연도별 타임라인 조사 진행 기록](geography/historical-timeline-yearly-progress.md) | 2026-10-20 UTC / 10-21 한국 | `investigating` | `not-applied` |
@@ -187,7 +184,7 @@
 
 | 분야 | 현재 보고서·증거 정본 |
 | --- | --- |
-| 시아첸 지리 조사 | [연구 개요](research/siachen/README.md), [산등성이 원자료 검토](research/siachen/REVIEW_SALTORO_MULTI_SOURCE_2026-10-08.md) |
+| 시아첸 지리 조사 | [미적용 사유·독립 출처·최종 요약](research/siachen/README.md) |
 | 독일제국 1914년 북슐레스비히 | [사료 검토](geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.review.md) |
 | 네덜란드 간척·해안 | [현행 국가·수역 표현 조사](geography/netherlands/phase0-current-representation-inventory.json), [기존 검증 기록](geography/netherlands/phase0-canonical-audit.md) |
 | 세르비아 역사 경계 | [세르비아 1914년 QA](geography/serbia/serbia-1914-qa.md) |
@@ -206,7 +203,7 @@
 
 ## 세부 조사·검증 원자료
 
-[독일제국 북슐레스비히](geography/germany/north-schleswig/), [수계 지명 조사 배치별 기록](hydro-names/reconstruction-2026-10-09/), [시아첸 연구·위성도판](research/siachen/)에 개별 파일이 보존되어 있음. 수계 배치별 `README.md`·`review/README.md`에서 출처 및 미완료 사항을 추적함. 파일 존재는 현재 반영·재검증을 의미하지 않음.
+[독일제국 북슐레스비히](geography/germany/north-schleswig/), [수계 지명 조사 배치별 기록](hydro-names/reconstruction-2026-10-09/), [시아첸 최종 요약](research/siachen/README.md)을 유지하며 불필요한 연구 PNG·경과 보고서는 제거했습니다. 수계 배치별 `README.md`·`review/README.md`에서 출처 및 미완료 사항을 추적함. 파일 존재는 현재 반영·재검증을 의미하지 않음.
 
 ## 새 보고서 작성
 
