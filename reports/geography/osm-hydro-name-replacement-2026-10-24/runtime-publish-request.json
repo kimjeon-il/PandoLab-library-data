@@ -1,0 +1,14 @@
+{
+  "schema": "pando-audited-hydro-storage-request-v1",
+  "auditRun": 40055943255,
+  "auditCommit": "2101634a267085d566c92ef2219b07ad0435604b",
+  "verifiedReplacementSystems": 42,
+  "renamedSystems": 8,
+  "metadataFragments": 1895,
+  "remainingOsmMatchedSystems": 31,
+  "targetBundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
+  "artifact": "https://github.com/kimjeon-il/Pando/actions/runs/40055943255/artifacts/12545640505",
+  "review": "https://github.com/kimjeon-il/PandoLab-library-data/blob/main/reports/geography/osm-hydro-name-replacement-2026-10-24/README.md",
+  "policy": "Store only source-independent audited metadata. Leave 31 unverified OSM relations and global attribution untouched.",
+  "status": "requested"
+}
