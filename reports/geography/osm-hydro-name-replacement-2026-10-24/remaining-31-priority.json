@@ -88,11 +88,25 @@
         "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse",
         "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme",
         "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/inspire-directive",
-        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/"
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/",
+        "https://finto.fi/yso-paikat/fi/page/p204727",
+        "https://finto.fi/yso-paikat/en/page/p139542"
       ],
-      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. National Land Survey of Finland confirms independent watercourse line vectors sourced from the National Topographic Database, via open OGC API Features/WFS without API key and under NLS open CC BY 4.0 licence. Oulujoki official hydrology is already documented; live vector query and Hydro mainstem overlap remain untested.",
+      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. National Land Survey of Finland confirms independent watercourse line vectors sourced from the National Topographic Database, via open OGC API Features/WFS without API key and under NLS open CC BY 4.0 licence. Oulujoki official hydrology is already documented; live vector query and Hydro mainstem overlap remain untested. Published mainstem (416.298 km) is longer than the officially described 107-km Oulujoki reach; NLS official Oulujoki point is 1.964 km from Hydro centerline, versus 37.737 km for Siikajoki.",
       "applied": false,
-      "nextAction": "Query Finnish OGC API watercourse features over Hydro bbox 25.4231,64.0854,29.5521,65.5354; verify named segments, mainstem continuity, attribution, and licensing before source replacement."
+      "nextAction": "Verify individual 107-km Oulujoki reach and upstream Hyrynsalmi/Sotkamo network with official Finnish named polylines; do not transfer one river name across all 416 km.",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Oulujoki",
+        "conclusion": "current-name-supported-but-mainstem-longer-than-officially-named-reach",
+        "mainstemTotalLengthKm": 416.298,
+        "distancesKm": {
+          "finnish_nls_oulujoki": 1.964,
+          "finnish_nls_siikajoki": 37.737
+        }
+      }
     },
     {
       "systemId": "20075401",
@@ -107,11 +121,26 @@
         "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse",
         "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme",
         "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/inspire-directive",
-        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/"
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/",
+        "https://finto.fi/yso-paikat/en/page/p139542",
+        "https://finto.fi/yso-paikat/fi/page/p204727",
+        "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-siikajoen-vesistoalueella/"
       ],
-      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. The Finnish National Land Survey independently publishes Watercourse line vector data under CC BY 4.0. System 20075401 has no NE named-line match and must not inherit 20071308's Oulujoki identity from a shared OSM relation ID.",
+      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. The Finnish National Land Survey independently publishes Watercourse line vector data under CC BY 4.0. System 20075401 has no NE named-line match and must not inherit 20071308's Oulujoki identity from a shared OSM relation ID. Hydro mainstem (179.022 km) is 0.396 km from NLS Siikajoki registered river point but 38.998 km from registered Oulujoki point. Finnish Environment Institute describes separate 194-km Siikajoki, strong false OSM shared-relation diagnosis.",
       "applied": false,
-      "nextAction": "Query national watercourse line segments over bbox 24.7325,64.0917,26.7688,64.8393; test whether the single Hydro feature actually follows the named Oulujoki or a tributary."
+      "nextAction": "Acquire named NLS Siikajoki centerline and verify along 179 km, confluences and license; decide exact Korean label before removing the Oulujoki alias.",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Siikajoki (Korean label to validate)",
+        "conclusion": "suspected-wrong-published-name-strong-independent-point-evidence",
+        "mainstemTotalLengthKm": 179.022,
+        "distancesKm": {
+          "finnish_nls_oulujoki": 38.998,
+          "finnish_nls_siikajoki": 0.396
+        }
+      }
     },
     {
       "systemId": "20282318",
@@ -150,11 +179,26 @@
       "primarySourceLeads": [
         "https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25185",
         "https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25196?lang=kk",
-        "https://oq.gov.kz/en/abai/zhayyq-ozeni"
+        "https://oq.gov.kz/en/abai/zhayyq-ozeni",
+        "https://silkadv.com/ru/node/4653",
+        "https://silkadv.com/en/content/ural-river-kazakhstan",
+        "https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25185?directionId=8907&lang=ru"
       ],
-      "independentFinding": "Current 우랄강 is a possible false OSM bbox match for the separate Zhem/Emba catchment. Kazakh government describes its Mugalzhar headwaters and Caspian drainage.",
+      "independentFinding": "Current 우랄강 is a possible false OSM bbox match for the separate Zhem/Emba catchment. Kazakh government describes its Mugalzhar headwaters and Caspian drainage. Hydro 699.416-km mainstem is 0.207 km from independently book-sourced Zhem/Emba location but 308.332 km from Ural/Zhaiyk location. Kazakhstan Mugalzhar government independently names Zhem/Emba as its own river. Published point transcription is secondary, not official government GIS geometry.",
       "applied": false,
-      "nextAction": "Find independently authored official Zhem/Emba centerline or surveyed stations to confirm full mainstem before changing display name."
+      "nextAction": "Acquire official Kazakh Zhem/Emba river centerline or at least three primary-source gauging stations and verify against entire Hydro mainstem before renaming.",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Zhem/Emba (Korean label to validate)",
+        "conclusion": "suspected-wrong-published-name-strong-independent-point-evidence",
+        "mainstemTotalLengthKm": 699.416,
+        "distancesKm": {
+          "kazakh_emba_atlas_location": 0.207,
+          "kazakh_ural_atlas_location": 308.332
+        }
+      }
     },
     {
       "systemId": "20532766",
@@ -163,10 +207,27 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.mdpi.com/2073-4441/17/23/3390",
+        "https://waterresources.ru/reki/terek/",
+        "https://voda.gov.ru/favr/structure/bvu/department/subject/6885"
+      ],
+      "independentFinding": "Hydro 601.479-km mainstem is 1.366 km from published Terek mouth, versus 38.108 and 35.210 km from two independently sampled Sulak river locations.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Verify Terek mainstem and mouth using official Russian hydrology GIS or named gauge stations; do not copy nearby Sulak relation metadata.",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Terek",
+        "conclusion": "current-name-supported-by-independent-hydrology-screen",
+        "mainstemTotalLengthKm": 601.479,
+        "distancesKm": {
+          "russian_sulak_2024_field_mouth": 38.108,
+          "russian_sulak_2024_field_upstream": 35.21,
+          "russian_terek_register_mouth": 1.366
+        }
+      }
     },
     {
       "systemId": "20540915",
@@ -175,10 +236,27 @@
       "sourceNameCandidate": null,
       "candidateNEPaths": [],
       "previousFlag": null,
-      "primarySourceLeads": [],
-      "independentFinding": "",
+      "primarySourceLeads": [
+        "https://www.mdpi.com/2073-4441/17/23/3390",
+        "https://base.garant.ru/407033236/",
+        "https://voda.gov.ru/favr/structure/bvu/department/subject/6885"
+      ],
+      "independentFinding": "Hydro 282.666-km mainstem is 0.084 km and 0.030 km from two independent August 2024 Sulak field sites, but 34.557 km from secondary Terek mouth. Russian government resolution 1543-r (2023) legally maps Sulak confluence and dams at multiple coordinates near this Hydro course.",
       "applied": false,
-      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+      "nextAction": "Verify Russian government Sulak statutory 2023 coordinates against actual Hydro polyline, segment Andi/Avar Koysu tributaries, then approve Korean name and independent metadata.",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Sulak (Korean label to validate)",
+        "conclusion": "suspected-wrong-published-name-strong-independent-two-field-station-evidence",
+        "mainstemTotalLengthKm": 282.666,
+        "distancesKm": {
+          "russian_sulak_2024_field_mouth": 0.084,
+          "russian_sulak_2024_field_upstream": 0.03,
+          "russian_terek_register_mouth": 34.557
+        }
+      }
     },
     {
       "systemId": "20561290",
