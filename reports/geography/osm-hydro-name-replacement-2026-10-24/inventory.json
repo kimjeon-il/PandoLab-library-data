@@ -1,0 +1,2410 @@
+{
+  "reportId": "GEO-HYDRO-OSM-20261024",
+  "kind": "provenance-and-name-audit",
+  "state": "inventory-complete-name-verification-in-progress",
+  "scope": "73 OSM relation-matched logical HydroRIVERS systems, plus previously approved source overrides",
+  "manifest": "PandoLab-library-data/assets/data/hydro/v0.13.2/manifest.json",
+  "pin": "71a67904db2beb933735727ad6c19adde082d2bd",
+  "sourceOSMExportSHA256": "b2a803994578e501d23739cca4d2ec6dd18009f65c2c575d2e4a1fc31212f0f9",
+  "matchCount": 73,
+  "overrides": {
+    "reference": "https://github.com/kimjeon-il/Pando/blob/6b0c501dd09029ef237e90c1ef55fdb82bdf315f/assets/data/hydro/hydronym-ko-overrides.json",
+    "approvedTotal": 26,
+    "approvedOutsideMatched": 23,
+    "approvedIntersection": [
+      "20282220",
+      "20282318",
+      "20323928"
+    ],
+    "approvedIdsOutsideMatched": [
+      "20047780",
+      "20056202",
+      "20065206",
+      "20082813",
+      "20095848",
+      "20096823",
+      "20100115",
+      "20138228",
+      "20144091",
+      "20155944",
+      "20168496",
+      "20172821",
+      "20175392",
+      "20179925",
+      "20257054",
+      "20278472",
+      "20287845",
+      "20304531",
+      "20440799",
+      "20486748",
+      "20534315",
+      "20574952",
+      "20602907"
+    ]
+  },
+  "disclaimer": "OSM matching was bbox-based, not evidence that every display name is OSM-derived. A non-OSM name citation requires independent verification. Neither a matching relation ID nor a point within a bbox proves mainstem identity.",
+  "entries": [
+    {
+      "systemId": "10047863",
+      "nameKo": "나일강",
+      "osmRelationIds": [
+        50793,
+        1657491
+      ],
+      "bbox": [
+        24.1521,
+        -3.3937,
+        39.7604,
+        31.4455
+      ],
+      "aliases": [
+        "Blue Nile",
+        "Nile",
+        "نهر النيل",
+        "ዓባይ ወንዝ-النيل الأزرق",
+        "로제타 브랜치강",
+        "백나일강",
+        "세트강",
+        "소밧강",
+        "청나일강",
+        "캉겐강"
+      ],
+      "tributaryNames": [
+        "백나일강",
+        "세트강",
+        "소밧강",
+        "청나일강",
+        "캉겐강"
+      ],
+      "featureCount": 148,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border BDI/RWA",
+        "HydroRIVERS 1.0 · Natural Earth border BDI/TZA",
+        "HydroRIVERS 1.0 · Natural Earth border CAF/SDS",
+        "HydroRIVERS 1.0 · Natural Earth border COD/UGA",
+        "HydroRIVERS 1.0 · Natural Earth border ERI/ETH",
+        "HydroRIVERS 1.0 · Natural Earth border ETH/SDS",
+        "HydroRIVERS 1.0 · Natural Earth border RWA/TZA",
+        "HydroRIVERS 1.0 · Natural Earth border SDN/SDS",
+        "HydroRIVERS 1.0 · Natural Earth border TZA/UGA",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "10521208",
+      "nameKo": "샤리강",
+      "osmRelationIds": [
+        2631912
+      ],
+      "bbox": [
+        13.4688,
+        6.2438,
+        24.0479,
+        13.0771
+      ],
+      "aliases": [
+        "Chari",
+        "نهر شاري Chari",
+        "로그온강",
+        "오함강"
+      ],
+      "tributaryNames": [
+        "로그온강",
+        "오함강"
+      ],
+      "featureCount": 64,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CAF/CMR",
+        "HydroRIVERS 1.0 · Natural Earth border CAF/TCD",
+        "HydroRIVERS 1.0 · Natural Earth border CMR/TCD",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "10526283",
+      "nameKo": "샤리강",
+      "osmRelationIds": [
+        2631912
+      ],
+      "bbox": [
+        16.7229,
+        10.2521,
+        19.0854,
+        12.9146
+      ],
+      "aliases": [
+        "Chari",
+        "نهر شاري Chari"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20071308",
+      "nameKo": "오울루강",
+      "osmRelationIds": [
+        9445500
+      ],
+      "bbox": [
+        25.4231,
+        64.0854,
+        29.5521,
+        65.5354
+      ],
+      "aliases": [
+        "Oulujoki"
+      ],
+      "tributaryNames": [],
+      "featureCount": 3,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20075401",
+      "nameKo": "오울루강",
+      "osmRelationIds": [
+        9445500
+      ],
+      "bbox": [
+        24.7325,
+        64.0917,
+        26.7688,
+        64.8393
+      ],
+      "aliases": [
+        "Oulujoki"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20081953",
+      "nameKo": "북드비나강",
+      "osmRelationIds": [
+        2649819,
+        2824464
+      ],
+      "bbox": [
+        39.6021,
+        59.2729,
+        54.9146,
+        64.7146
+      ],
+      "aliases": [
+        "Northern Dvina",
+        "Yug",
+        "Северная Двина",
+        "Юг",
+        "루자강",
+        "비체그다강",
+        "세베르나야드비나강",
+        "유크강"
+      ],
+      "tributaryNames": [
+        "루자강",
+        "세베르나야드비나강",
+        "유크강"
+      ],
+      "featureCount": 34,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20244836",
+      "nameKo": "네만강",
+      "osmRelationIds": [
+        189775
+      ],
+      "bbox": [
+        21.2563,
+        53.4062,
+        27.9229,
+        55.3479
+      ],
+      "aliases": [
+        "Neman",
+        "Нёман / Неман / Nemunas"
+      ],
+      "tributaryNames": [],
+      "featureCount": 7,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border LTU/RUS",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20265844",
+      "nameKo": "드르벵차강",
+      "osmRelationIds": [
+        1314266,
+        2712795
+      ],
+      "bbox": [
+        18.1354,
+        49.6,
+        24.4688,
+        54.3485
+      ],
+      "aliases": [
+        "Bug",
+        "Bug / Західний Буг / Заходні Буг",
+        "Drwęca",
+        "부크강",
+        "비스와강"
+      ],
+      "tributaryNames": [
+        "부크강",
+        "비스와강"
+      ],
+      "featureCount": 18,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border BLR/POL",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "드르벵차강 수계에 부크강 관계명 유입 가능성",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20282220",
+      "nameKo": "엘베강",
+      "osmRelationIds": [
+        387605
+      ],
+      "bbox": [
+        9.832,
+        48.7542,
+        16.0604,
+        53.5438
+      ],
+      "aliases": [
+        "Oder",
+        "Odra",
+        "블타바강",
+        "엘베강"
+      ],
+      "tributaryNames": [
+        "블타바강"
+      ],
+      "featureCount": 9,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": {
+        "nameKo": "엘베강",
+        "sourceUrls": []
+      },
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "엘베강에 오데르강 별칭 Oder/Odra가 유입됨",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20282318",
+      "nameKo": "오데르강",
+      "osmRelationIds": [
+        387605
+      ],
+      "bbox": [
+        14.1239,
+        49.6229,
+        19.4521,
+        53.5984
+      ],
+      "aliases": [
+        "Oder",
+        "Odra"
+      ],
+      "tributaryNames": [],
+      "featureCount": 12,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border DEU/POL",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": {
+        "nameKo": "오데르강",
+        "sourceUrls": []
+      },
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20323928",
+      "nameKo": "라인강",
+      "osmRelationIds": [
+        2192950
+      ],
+      "bbox": [
+        4.1351,
+        46.5312,
+        11.6396,
+        52.0029
+      ],
+      "aliases": [
+        "Aare",
+        "마인강",
+        "모젤강",
+        "아레강"
+      ],
+      "tributaryNames": [
+        "마인강",
+        "모젤강",
+        "아레강"
+      ],
+      "featureCount": 48,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border AUT/CHE",
+        "HydroRIVERS 1.0 · Natural Earth border CHE/DEU",
+        "HydroRIVERS 1.0 · Natural Earth border CHE/LIE",
+        "HydroRIVERS 1.0 · Natural Earth border DEU/FRA",
+        "HydroRIVERS 1.0 · Natural Earth border DEU/LUX",
+        "HydroRIVERS 1.0 · Natural Earth border DEU/NLD",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": {
+        "nameKo": "라인강",
+        "sourceUrls": [
+          "https://www.wikidata.org/wiki/Q584"
+        ]
+      },
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20336821",
+      "nameKo": "템스강",
+      "osmRelationIds": [
+        2263653
+      ],
+      "bbox": [
+        -1.8604,
+        51.3854,
+        0.3845,
+        51.5771
+      ],
+      "aliases": [
+        "River Thames"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20342955",
+      "nameKo": "스헬데강",
+      "osmRelationIds": [
+        324288
+      ],
+      "bbox": [
+        3.0604,
+        50.15,
+        4.3979,
+        51.2867
+      ],
+      "aliases": [
+        "L'Escaut",
+        "Scheldt"
+      ],
+      "tributaryNames": [],
+      "featureCount": 6,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border BEL/FRA",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20386022",
+      "nameKo": "센강",
+      "osmRelationIds": [
+        962076
+      ],
+      "bbox": [
+        0.4932,
+        48.1688,
+        5.1458,
+        49.5271
+      ],
+      "aliases": [
+        "La Seine",
+        "Seine"
+      ],
+      "tributaryNames": [],
+      "featureCount": 7,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20446779",
+      "nameKo": "루아르강",
+      "osmRelationIds": [
+        962076
+      ],
+      "bbox": [
+        -1.9739,
+        44.7896,
+        4.2729,
+        48.35
+      ],
+      "aliases": [
+        "La Seine",
+        "Seine",
+        "센강"
+      ],
+      "tributaryNames": [
+        "센강"
+      ],
+      "featureCount": 14,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "루아르강에 센강 별칭 Seine이 유입됨",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20452421",
+      "nameKo": "돈강",
+      "osmRelationIds": [
+        1405518,
+        2241333
+      ],
+      "bbox": [
+        36.3396,
+        44.6313,
+        44.7229,
+        53.4792
+      ],
+      "aliases": [
+        "Manych",
+        "Voronezh",
+        "Воронеж",
+        "Маныч",
+        "마니치강",
+        "보로네시_강",
+        "세베르스키도네츠강",
+        "호표르강"
+      ],
+      "tributaryNames": [
+        "마니치강",
+        "보로네시_강",
+        "세베르스키도네츠강",
+        "호표르강"
+      ],
+      "featureCount": 18,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border RUS/UKR",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20456598",
+      "nameKo": "우랄강",
+      "osmRelationIds": [
+        214415
+      ],
+      "bbox": [
+        53.0438,
+        46.898,
+        58.125,
+        49.3604
+      ],
+      "aliases": [
+        "Ural",
+        "Жайық - Урал"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20457454",
+      "nameKo": "남부크강",
+      "osmRelationIds": [
+        3160619
+      ],
+      "bbox": [
+        27.5625,
+        46.8967,
+        32.0028,
+        49.5688
+      ],
+      "aliases": [
+        "Southern Bug",
+        "Південний Буг"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20478829",
+      "nameKo": "드네스트르강",
+      "osmRelationIds": [
+        2474595
+      ],
+      "bbox": [
+        22.9604,
+        46.0683,
+        30.476,
+        49.5854
+      ],
+      "aliases": [
+        "Dniester",
+        "Дністер / Nistru"
+      ],
+      "tributaryNames": [],
+      "featureCount": 7,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border MDA/UKR",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20498112",
+      "nameKo": "도나우강",
+      "osmRelationIds": [
+        157031,
+        1566139,
+        1567969,
+        2186067,
+        2249121
+      ],
+      "bbox": [
+        8.7958,
+        42.4021,
+        29.6723,
+        49.2604
+      ],
+      "aliases": [
+        "Drava",
+        "Drina",
+        "Enns",
+        "Olt",
+        "Prut",
+        "Prut / Прут",
+        "드라바강",
+        "드리나강",
+        "무레슈강",
+        "무어강",
+        "벨리카모라바강",
+        "브라툴 칠리아강",
+        "사바강",
+        "얄로미샤강",
+        "엔스강",
+        "올트강",
+        "인강",
+        "티서강",
+        "프루트강"
+      ],
+      "tributaryNames": [
+        "드라바강",
+        "드리나강",
+        "무레슈강",
+        "무어강",
+        "벨리카모라바강",
+        "사바강",
+        "얄로미샤강",
+        "엔스강",
+        "올트강",
+        "인강",
+        "티서강",
+        "프루트강"
+      ],
+      "featureCount": 204,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border AUT/CZE",
+        "HydroRIVERS 1.0 · Natural Earth border AUT/DEU",
+        "HydroRIVERS 1.0 · Natural Earth border AUT/SVK",
+        "HydroRIVERS 1.0 · Natural Earth border AUT/SVN",
+        "HydroRIVERS 1.0 · Natural Earth border BGR/ROU",
+        "HydroRIVERS 1.0 · Natural Earth border BIH/HRV",
+        "HydroRIVERS 1.0 · Natural Earth border BIH/MNE",
+        "HydroRIVERS 1.0 · Natural Earth border BIH/SRB",
+        "HydroRIVERS 1.0 · Natural Earth border HRV/HUN",
+        "HydroRIVERS 1.0 · Natural Earth border HRV/SRB",
+        "HydroRIVERS 1.0 · Natural Earth border HRV/SVN",
+        "HydroRIVERS 1.0 · Natural Earth border HUN/ROU",
+        "HydroRIVERS 1.0 · Natural Earth border HUN/SVK",
+        "HydroRIVERS 1.0 · Natural Earth border HUN/UKR",
+        "HydroRIVERS 1.0 · Natural Earth border MDA/ROU",
+        "HydroRIVERS 1.0 · Natural Earth border ROU/SRB",
+        "HydroRIVERS 1.0 · Natural Earth border ROU/UKR",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20532766",
+      "nameKo": "테레크강",
+      "osmRelationIds": [
+        2471690
+      ],
+      "bbox": [
+        42.4312,
+        43.2396,
+        47.5521,
+        43.7812
+      ],
+      "aliases": [
+        "Terek",
+        "თერგი/Терек"
+      ],
+      "tributaryNames": [],
+      "featureCount": 5,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20540915",
+      "nameKo": "테레크강",
+      "osmRelationIds": [
+        2471690
+      ],
+      "bbox": [
+        46.7979,
+        41.9104,
+        47.5476,
+        43.3729
+      ],
+      "aliases": [
+        "Terek",
+        "თერგი/Терек"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20561290",
+      "nameKo": "리오니강",
+      "osmRelationIds": [
+        3396398
+      ],
+      "bbox": [
+        41.5532,
+        42.3972,
+        43.1,
+        43.0562
+      ],
+      "aliases": [
+        "Rioni",
+        "რიონი"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20565620",
+      "nameKo": "리오니강",
+      "osmRelationIds": [
+        3396398
+      ],
+      "bbox": [
+        41.6396,
+        42.0812,
+        43.6417,
+        42.5646
+      ],
+      "aliases": [
+        "Rioni",
+        "რიონი"
+      ],
+      "tributaryNames": [],
+      "featureCount": 4,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20588291",
+      "nameKo": "도루강",
+      "osmRelationIds": [
+        2566210
+      ],
+      "bbox": [
+        -8.6483,
+        41.0271,
+        -3.2583,
+        43.0438
+      ],
+      "aliases": [
+        "Douro",
+        "Río Duero - Rio Douro",
+        "에슬라강"
+      ],
+      "tributaryNames": [
+        "에슬라강"
+      ],
+      "featureCount": 11,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border ESP/PRT",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20597827",
+      "nameKo": "마리차강",
+      "osmRelationIds": [
+        12796993
+      ],
+      "bbox": [
+        23.75,
+        40.7356,
+        28.1708,
+        42.4688
+      ],
+      "aliases": [
+        "Tundzha",
+        "툰자강"
+      ],
+      "tributaryNames": [
+        "툰자강"
+      ],
+      "featureCount": 10,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border GRC/TUR",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20628098",
+      "nameKo": "아무다리야강",
+      "osmRelationIds": [
+        223008
+      ],
+      "bbox": [
+        55.3813,
+        34.2354,
+        66.0917,
+        39.4646
+      ],
+      "aliases": [
+        "Amu Darya"
+      ],
+      "tributaryNames": [],
+      "featureCount": 26,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border AFG/IRN",
+        "HydroRIVERS 1.0 · Natural Earth border AFG/TKM",
+        "HydroRIVERS 1.0 · Natural Earth border IRN/TKM",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20673409",
+      "nameKo": "과디아나강",
+      "osmRelationIds": [
+        289968
+      ],
+      "bbox": [
+        -7.6813,
+        37.1928,
+        -2.3875,
+        40.0312
+      ],
+      "aliases": [
+        "Guadiana",
+        "Río Guadiana"
+      ],
+      "tributaryNames": [],
+      "featureCount": 6,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border ESP/PRT",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20680587",
+      "nameKo": "과디아나강",
+      "osmRelationIds": [
+        289968
+      ],
+      "bbox": [
+        -6.3563,
+        36.7966,
+        -2.7812,
+        38.1938
+      ],
+      "aliases": [
+        "Guadiana",
+        "Río Guadiana",
+        "과달키비르강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 3,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "과디아나강과 과달키비르강 후보의 지리적 불일치",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20773860",
+      "nameKo": "수에즈운하강",
+      "osmRelationIds": [
+        7719838
+      ],
+      "bbox": [
+        32.3062,
+        30.0938,
+        32.9208,
+        31.2727
+      ],
+      "aliases": [
+        "Suez Canal",
+        "قناة السويس"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "운하를 강으로 표기(수에즈운하강)",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "20774342",
+      "nameKo": "수에즈운하강",
+      "osmRelationIds": [
+        7719838
+      ],
+      "bbox": [
+        32.4312,
+        30.2063,
+        33.2979,
+        31.0915
+      ],
+      "aliases": [
+        "Suez Canal",
+        "قناة السويس"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "운하를 강으로 표기(수에즈운하강)",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "30145067",
+      "nameKo": "오비강",
+      "osmRelationIds": [
+        157622,
+        2098340,
+        2469254,
+        13864527
+      ],
+      "bbox": [
+        59.1375,
+        46.9854,
+        91.6063,
+        67.5729
+      ],
+      "aliases": [
+        "Esil",
+        "Irtysh",
+        "Miass",
+        "Ob",
+        "river-1379",
+        "Есіл",
+        "Иртыш",
+        "Миасс",
+        "Обь",
+        "미아스강",
+        "바슈간강",
+        "바흐강",
+        "세베르나야 소스바강",
+        "이르티시강",
+        "이심강",
+        "출리쉬만강",
+        "카툰강",
+        "토볼강",
+        "톰강",
+        "투라강"
+      ],
+      "tributaryNames": [
+        "river-1379",
+        "미아스강",
+        "바슈간강",
+        "바흐강",
+        "세베르나야 소스바강",
+        "이르티시강",
+        "이심강",
+        "출리쉬만강",
+        "카툰강",
+        "토볼강",
+        "톰강",
+        "투라강"
+      ],
+      "featureCount": 154,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border KAZ/RUS",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40017702",
+      "nameKo": "아무르강",
+      "osmRelationIds": [
+        161305,
+        170539,
+        197653,
+        198568
+      ],
+      "bbox": [
+        108.7917,
+        42.3354,
+        140.7081,
+        55.6812
+      ],
+      "aliases": [
+        "Amur",
+        "Argun",
+        "Nen",
+        "Zeya",
+        "Амур 黑龙江",
+        "Аргунь",
+        "Зея",
+        "嫩江",
+        "눈강",
+        "비키니강",
+        "셀렘자강",
+        "송화강",
+        "실카강",
+        "아르군강",
+        "암군강",
+        "에르다오강",
+        "오논강",
+        "제야강"
+      ],
+      "tributaryNames": [
+        "눈강",
+        "비키니강",
+        "셀렘자강",
+        "송화강",
+        "실카강",
+        "아르군강",
+        "암군강",
+        "에르다오강",
+        "오논강",
+        "제야강"
+      ],
+      "featureCount": 210,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CHN/RUS",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40145639",
+      "nameKo": "시르다리야강",
+      "osmRelationIds": [
+        1206456
+      ],
+      "bbox": [
+        60.8687,
+        39.9958,
+        78.1521,
+        46.3354
+      ],
+      "aliases": [
+        "Syr Darya",
+        "Сырдария - Sirdaryo - Сирдарё - Сырдария",
+        "나린강"
+      ],
+      "tributaryNames": [
+        "나린강"
+      ],
+      "featureCount": 24,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border KAB/KAZ",
+        "HydroRIVERS 1.0 · Natural Earth border KAZ/UZB",
+        "HydroRIVERS 1.0 · Natural Earth border KGZ/UZB",
+        "HydroRIVERS 1.0 · Natural Earth border TJK/UZB",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40188382",
+      "nameKo": "시르다리야강",
+      "osmRelationIds": [
+        1206456
+      ],
+      "bbox": [
+        67.7146,
+        42.1771,
+        76.0979,
+        45.0438
+      ],
+      "aliases": [
+        "Syr Darya",
+        "Сырдария - Sirdaryo - Сирдарё - Сырдария"
+      ],
+      "tributaryNames": [],
+      "featureCount": 13,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border KAZ/KGZ",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40190238",
+      "nameKo": "아무다리야강",
+      "osmRelationIds": [
+        223008
+      ],
+      "bbox": [
+        59.1313,
+        34.6875,
+        74.8229,
+        44.9062
+      ],
+      "aliases": [
+        "Amu Darya",
+        "제랍샨강",
+        "판지강"
+      ],
+      "tributaryNames": [
+        "제랍샨강",
+        "판지강"
+      ],
+      "featureCount": 112,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border AFG/CHN",
+        "HydroRIVERS 1.0 · Natural Earth border AFG/TJK",
+        "HydroRIVERS 1.0 · Natural Earth border AFG/TKM",
+        "HydroRIVERS 1.0 · Natural Earth border AFG/UZB",
+        "HydroRIVERS 1.0 · Natural Earth border TJK/UZB",
+        "HydroRIVERS 1.0 · Natural Earth border TKM/UZB",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40279876",
+      "nameKo": "두만강",
+      "osmRelationIds": [
+        6970997
+      ],
+      "bbox": [
+        128.1667,
+        41.8771,
+        130.6674,
+        43.0438
+      ],
+      "aliases": [
+        "Tumen",
+        "图门江 / 두만강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 18,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CHN/PRK",
+        "HydroRIVERS 1.0 · Natural Earth border PRK/RUS",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40351117",
+      "nameKo": "압록강",
+      "osmRelationIds": [
+        2899525,
+        17250669
+      ],
+      "bbox": [
+        124.3354,
+        40.0309,
+        128.303,
+        41.9625
+      ],
+      "aliases": [
+        "Yalu",
+        "浑江",
+        "鸭绿江 압록강",
+        "훈강"
+      ],
+      "tributaryNames": [
+        "훈강"
+      ],
+      "featureCount": 28,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CHN/PRK",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40364680",
+      "nameKo": "청천강",
+      "osmRelationIds": [
+        5454222
+      ],
+      "bbox": [
+        125.4518,
+        39.5713,
+        126.8083,
+        40.3188
+      ],
+      "aliases": [
+        "Cheongcheon"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40391614",
+      "nameKo": "대동강",
+      "osmRelationIds": [
+        3858130
+      ],
+      "bbox": [
+        125.5271,
+        38.6479,
+        126.9833,
+        40.325
+      ],
+      "aliases": [
+        "Taedong"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40414035",
+      "nameKo": "례성강",
+      "osmRelationIds": [
+        13705291
+      ],
+      "bbox": [
+        126.3688,
+        37.889,
+        126.5729,
+        38.8125
+      ],
+      "aliases": [
+        "Ryeseong"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40415850",
+      "nameKo": "림진강/임진강",
+      "osmRelationIds": [
+        5488146
+      ],
+      "bbox": [
+        126.6682,
+        37.8282,
+        127.1354,
+        39.1667
+      ],
+      "aliases": [],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40423228",
+      "nameKo": "남한강",
+      "osmRelationIds": [
+        5486141,
+        5488155
+      ],
+      "bbox": [
+        126.7552,
+        36.9271,
+        128.9938,
+        38.8312
+      ],
+      "aliases": [
+        "Bukhangang",
+        "Namhangang",
+        "북한강"
+      ],
+      "tributaryNames": [
+        "북한강"
+      ],
+      "featureCount": 8,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "한강 수계 전체를 남한강으로 이름붙였을 가능성",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40475481",
+      "nameKo": "금강",
+      "osmRelationIds": [
+        17966007
+      ],
+      "bbox": [
+        126.7854,
+        35.7188,
+        127.7146,
+        36.5187
+      ],
+      "aliases": [
+        "Geum"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40485117",
+      "nameKo": "아라카와강",
+      "osmRelationIds": [
+        3922416
+      ],
+      "bbox": [
+        138.9688,
+        35.7563,
+        140.8229,
+        36.9625
+      ],
+      "aliases": [
+        "Ara",
+        "荒川",
+        "도네강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "도네강과 아라카와강의 위치·별칭 불일치",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40486439",
+      "nameKo": "아라카와강",
+      "osmRelationIds": [
+        3922416
+      ],
+      "bbox": [
+        138.8208,
+        35.6375,
+        139.8521,
+        36.1396
+      ],
+      "aliases": [
+        "Ara",
+        "荒川"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40505530",
+      "nameKo": "낙동강",
+      "osmRelationIds": [
+        11698958
+      ],
+      "bbox": [
+        128.2354,
+        35.1369,
+        129.0938,
+        37.2083
+      ],
+      "aliases": [
+        "Nakdong"
+      ],
+      "tributaryNames": [],
+      "featureCount": 3,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "40613666",
+      "nameKo": "장강",
+      "osmRelationIds": [
+        215354,
+        396599,
+        403702,
+        9392345
+      ],
+      "bbox": [
+        92.7104,
+        24.7437,
+        120.2353,
+        34.7646
+      ],
+      "aliases": [
+        "Gan",
+        "Han",
+        "Mekong",
+        "Yangtze",
+        "汉江",
+        "赣江",
+        "长江",
+        "간장강",
+        "다두허강",
+        "댐강",
+        "매강",
+        "메콩강",
+        "상강",
+        "야룽강",
+        "오강",
+        "위안강",
+        "자링강",
+        "창강",
+        "콴강",
+        "타강",
+        "한강",
+        "화이허강"
+      ],
+      "tributaryNames": [
+        "간장강",
+        "다두허강",
+        "댐강",
+        "매강",
+        "메콩강",
+        "상강",
+        "야룽강",
+        "오강",
+        "위안강",
+        "자링강",
+        "콴강",
+        "타강",
+        "한강",
+        "화이허강"
+      ],
+      "featureCount": 268,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "장강과 별개인 메콩강 별칭의 혼입",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41023100",
+      "nameKo": "라비강",
+      "osmRelationIds": [
+        325142
+      ],
+      "bbox": [
+        67.5331,
+        24.0703,
+        82.4313,
+        36.8771
+      ],
+      "aliases": [
+        "Sutlej",
+        "ਸਤਲੁਜ ਦਰਿਆ / دریاۓ ستلج",
+        "수틀레지강",
+        "인더스강",
+        "젤룸강",
+        "첸나브강"
+      ],
+      "tributaryNames": [
+        "수틀레지강",
+        "인더스강",
+        "젤룸강",
+        "첸나브강"
+      ],
+      "featureCount": 73,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border AFG/PAK",
+        "HydroRIVERS 1.0 · Natural Earth border IND/PAK",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "인더스강 본류 후보에 라비강 이름 부여 여부 조사 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41067217",
+      "nameKo": "브라마푸트라강/얄룽창포강",
+      "osmRelationIds": [
+        1067987,
+        1236345
+      ],
+      "bbox": [
+        73.5187,
+        22.6104,
+        97.4938,
+        31.0479
+      ],
+      "aliases": [
+        "Brahmaputra",
+        "Ganga",
+        "Ganges",
+        "river-255",
+        "雅鲁藏布江 ཡར་ཀླུངས་གཙང་པོ། Brahmaputra যমুনা নদী",
+        "간다크강",
+        "갠지스강",
+        "게가라강",
+        "루히트강",
+        "마나스강",
+        "마쿠안강",
+        "바나나강",
+        "발락강",
+        "베트와강",
+        "브라마푸트라강",
+        "삽강",
+        "손강",
+        "야무나강",
+        "얄룽강",
+        "참발강",
+        "파르바티강"
+      ],
+      "tributaryNames": [
+        "river-255",
+        "간다크강",
+        "갠지스강",
+        "게가라강",
+        "루히트강",
+        "마나스강",
+        "마쿠안강",
+        "바나나강",
+        "발락강",
+        "베트와강",
+        "삽강",
+        "손강",
+        "야무나강",
+        "얄룽강",
+        "참발강",
+        "파르바티강"
+      ],
+      "featureCount": 485,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border BGD/IND",
+        "HydroRIVERS 1.0 · Natural Earth border BTN/CHN",
+        "HydroRIVERS 1.0 · Natural Earth border BTN/IND",
+        "HydroRIVERS 1.0 · Natural Earth border CHN/IND",
+        "HydroRIVERS 1.0 · Natural Earth border IND/NPL",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "갠지스강과 브라마푸트라강 본류 이름 범위 조사 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41109275",
+      "nameKo": "난판강",
+      "osmRelationIds": [
+        2377017
+      ],
+      "bbox": [
+        103.0312,
+        21.6104,
+        114.6979,
+        26.3813
+      ],
+      "aliases": [
+        "Red",
+        "리우강",
+        "슌강",
+        "용강",
+        "홍강",
+        "홍수이강"
+      ],
+      "tributaryNames": [
+        "리우강",
+        "슌강",
+        "용강",
+        "홍강",
+        "홍수이강"
+      ],
+      "featureCount": 73,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "난판강과 별개인 홍강/Red 별칭의 혼입",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41171836",
+      "nameKo": "룩남강",
+      "osmRelationIds": [
+        3388654,
+        9101784
+      ],
+      "bbox": [
+        105.8354,
+        20.698,
+        106.6626,
+        21.7812
+      ],
+      "aliases": [
+        "Cau",
+        "Lục Nam",
+        "Sông Cầu",
+        "Sông Lục Nam",
+        "꺼우강"
+      ],
+      "tributaryNames": [
+        "꺼우강"
+      ],
+      "featureCount": 5,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "룩남강과 꺼우강 관계명의 동일성 검토 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41182380",
+      "nameKo": "꺼우강",
+      "osmRelationIds": [
+        2377017,
+        3388654
+      ],
+      "bbox": [
+        100.125,
+        20.2896,
+        106.5303,
+        25.5063
+      ],
+      "aliases": [
+        "Cau",
+        "Red",
+        "Sông Cầu",
+        "다강",
+        "홍강"
+      ],
+      "tributaryNames": [
+        "다강",
+        "홍강"
+      ],
+      "featureCount": 36,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CHN/VNM",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "홍강 수계 범위에 꺼우강 관계명 혼입 여부 확인 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41225082",
+      "nameKo": "람강",
+      "osmRelationIds": [
+        393967
+      ],
+      "bbox": [
+        103.5083,
+        18.0167,
+        105.8354,
+        20.4375
+      ],
+      "aliases": [
+        "Cả",
+        "Sông Lam"
+      ],
+      "tributaryNames": [],
+      "featureCount": 15,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border LAO/VNM",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41261061",
+      "nameKo": "시탕강",
+      "osmRelationIds": [
+        233960
+      ],
+      "bbox": [
+        95.8125,
+        17.302,
+        97.1146,
+        20.2063
+      ],
+      "aliases": [
+        "Sittaung",
+        "시통강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 8,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41279826",
+      "nameKo": "브라마푸트라강/얄룽창포강",
+      "osmRelationIds": [
+        1067987
+      ],
+      "bbox": [
+        91.5104,
+        16.2735,
+        100.1021,
+        32.7042
+      ],
+      "aliases": [
+        "Brahmaputra",
+        "雅鲁藏布江 ཡར་ཀླུངས་གཙང་པོ། Brahmaputra যমুনা নদী",
+        "살윈강"
+      ],
+      "tributaryNames": [
+        "살윈강"
+      ],
+      "featureCount": 73,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CHN/MMR",
+        "HydroRIVERS 1.0 · Natural Earth border MMR/THA",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "살윈강 지역에 브라마푸트라강 명칭 매칭 의심",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41337891",
+      "nameKo": "빠삭강",
+      "osmRelationIds": [
+        229599
+      ],
+      "bbox": [
+        99.0396,
+        13.5984,
+        101.3771,
+        19.5521
+      ],
+      "aliases": [
+        "Pa Sak",
+        "แม่น้ำป่าสัก",
+        "욤강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 10,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border LAO/THA",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "빠삭강과 욤강의 관계·별칭 혼입 여부 확인 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41339527",
+      "nameKo": "짜오프라야강",
+      "osmRelationIds": [
+        227317
+      ],
+      "bbox": [
+        100.0104,
+        13.5167,
+        100.2854,
+        15.2042
+      ],
+      "aliases": [
+        "Chao Phraya",
+        "แม่น้ำเจ้าพระยา"
+      ],
+      "tributaryNames": [],
+      "featureCount": 2,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41347969",
+      "nameKo": "바강",
+      "osmRelationIds": [
+        8529973
+      ],
+      "bbox": [
+        108.2562,
+        12.9854,
+        109.3284,
+        14.5896
+      ],
+      "aliases": [
+        "Ba",
+        "Sông Ba"
+      ],
+      "tributaryNames": [],
+      "featureCount": 4,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41386179",
+      "nameKo": "미명명 수계 41386179",
+      "osmRelationIds": [
+        9856326
+      ],
+      "bbox": [
+        106.3354,
+        10.4998,
+        108.6979,
+        12.1896
+      ],
+      "aliases": [
+        "Saigon",
+        "Sông Sài Gòn",
+        "사이공강"
+      ],
+      "tributaryNames": [
+        "사이공강"
+      ],
+      "featureCount": 11,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41386700",
+      "nameKo": "미명명 수계 41386700",
+      "osmRelationIds": [
+        16740801
+      ],
+      "bbox": [
+        105.5146,
+        10.4354,
+        106.7214,
+        11.9292
+      ],
+      "aliases": [
+        "Sông Vàm Cỏ Tây",
+        "Vam Co Tay",
+        "밤꼬떠이강"
+      ],
+      "tributaryNames": [
+        "밤꼬떠이강"
+      ],
+      "featureCount": 9,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border KHM/VNM",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41390476",
+      "nameKo": "발라이강",
+      "osmRelationIds": [
+        9733190
+      ],
+      "bbox": [
+        105.8458,
+        9.9325,
+        106.4653,
+        10.1687
+      ],
+      "aliases": [
+        "Sông Ba Lai"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "41392598",
+      "nameKo": "메콩강",
+      "osmRelationIds": [
+        215354
+      ],
+      "bbox": [
+        93.9958,
+        9.6025,
+        108.4229,
+        33.2854
+      ],
+      "aliases": [
+        "Mekong",
+        "문강",
+        "스레폭강",
+        "오우강",
+        "자강",
+        "치강",
+        "콩강",
+        "크롱강",
+        "톤레 삽강"
+      ],
+      "tributaryNames": [
+        "문강",
+        "스레폭강",
+        "오우강",
+        "자강",
+        "치강",
+        "콩강",
+        "크롱강",
+        "톤레 삽강"
+      ],
+      "featureCount": 195,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border CHN/MMR",
+        "HydroRIVERS 1.0 · Natural Earth border KHM/LAO",
+        "HydroRIVERS 1.0 · Natural Earth border KHM/VNM",
+        "HydroRIVERS 1.0 · Natural Earth border LAO/MMR",
+        "HydroRIVERS 1.0 · Natural Earth border LAO/THA",
+        "HydroRIVERS 1.0 · Natural Earth border LAO/VNM",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "50170097",
+      "nameKo": "마하캄강",
+      "osmRelationIds": [
+        7910696
+      ],
+      "bbox": [
+        114.0479,
+        -0.8625,
+        117.3312,
+        1.8229
+      ],
+      "aliases": [
+        "Mahakam"
+      ],
+      "tributaryNames": [],
+      "featureCount": 31,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "50261309",
+      "nameKo": "마하캄강",
+      "osmRelationIds": [
+        7910696
+      ],
+      "bbox": [
+        113.5104,
+        -3.3062,
+        115.1646,
+        0.7167
+      ],
+      "aliases": [
+        "Mahakam",
+        "바리토강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 19,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "바리토강 지역에 마하캄강 명칭 매칭 의심",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "50798885",
+      "nameKo": "야라강",
+      "osmRelationIds": [
+        2211681
+      ],
+      "bbox": [
+        144.8979,
+        -37.8698,
+        146.1333,
+        -37.6604
+      ],
+      "aliases": [
+        "Yarra"
+      ],
+      "tributaryNames": [],
+      "featureCount": 1,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70576631",
+      "nameKo": "서스쿼해나강",
+      "osmRelationIds": [
+        3339284
+      ],
+      "bbox": [
+        -75.5118,
+        39.7035,
+        -74.6896,
+        42.3792
+      ],
+      "aliases": [
+        "Susquehanna",
+        "델라웨어강"
+      ],
+      "tributaryNames": [],
+      "featureCount": 5,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "서스쿼해나강과 델라웨어강의 명칭·위치 범위 검토 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70580124",
+      "nameKo": "서스쿼해나강",
+      "osmRelationIds": [
+        3339284
+      ],
+      "bbox": [
+        -78.8063,
+        39.5548,
+        -74.7625,
+        42.6771
+      ],
+      "aliases": [
+        "Susquehanna",
+        "W. 브랜치 서스케하나강"
+      ],
+      "tributaryNames": [
+        "W. 브랜치 서스케하나강"
+      ],
+      "featureCount": 10,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "서스쿼해나강과 델라웨어강의 본류 범위 검토 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70617856",
+      "nameKo": "새크라멘토강",
+      "osmRelationIds": [
+        6704812
+      ],
+      "bbox": [
+        -122.4604,
+        36.7646,
+        -119.05,
+        41.4937
+      ],
+      "aliases": [
+        "San Joaquin",
+        "샌와킨강",
+        "페더강"
+      ],
+      "tributaryNames": [
+        "샌와킨강",
+        "페더강"
+      ],
+      "featureCount": 11,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "새크라멘토강과 샌와킨강의 본류·지류 구분 검토 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70814357",
+      "nameKo": "미시시피강",
+      "osmRelationIds": [
+        1075500,
+        1756854,
+        1756890,
+        2716682,
+        11069321
+      ],
+      "bbox": [
+        -112.0146,
+        29.1059,
+        -78.0833,
+        48.1521
+      ],
+      "aliases": [
+        "Arkansas",
+        "Mississippi",
+        "Missouri",
+        "Rio Grande",
+        "Río Bravo;Rio Grande",
+        "Yazoo",
+        "가나와강",
+        "레드강",
+        "리오그란데강",
+        "머논가힐라강",
+        "머스킹검강",
+        "미네소타강",
+        "미주리강",
+        "세인트크로익스강",
+        "시더강",
+        "시오토강",
+        "아칸소강",
+        "야주강",
+        "오하이오강",
+        "와바시강",
+        "위스콘신강",
+        "윈드강",
+        "일리노이강",
+        "제임스강",
+        "카스카스키아강",
+        "캐나디안강",
+        "컴벌랜드강",
+        "켄터키강",
+        "테네시강",
+        "플랫강",
+        "화이트강"
+      ],
+      "tributaryNames": [
+        "가나와강",
+        "레드강",
+        "리오그란데강",
+        "머논가힐라강",
+        "머스킹검강",
+        "미네소타강",
+        "미주리강",
+        "세인트크로익스강",
+        "시더강",
+        "시오토강",
+        "아칸소강",
+        "야주강",
+        "오하이오강",
+        "와바시강",
+        "위스콘신강",
+        "윈드강",
+        "일리노이강",
+        "제임스강",
+        "카스카스키아강",
+        "캐나디안강",
+        "컴벌랜드강",
+        "켄터키강",
+        "테네시강",
+        "플랫강",
+        "화이트강"
+      ],
+      "featureCount": 206,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "미시시피강에 별개인 리오그란데강 관계명 혼입",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70816878",
+      "nameKo": "리오그란데강",
+      "osmRelationIds": [
+        2716682
+      ],
+      "bbox": [
+        -103.45,
+        28.8807,
+        -95.3729,
+        34.4792
+      ],
+      "aliases": [
+        "Rio Grande",
+        "Río Bravo;Rio Grande"
+      ],
+      "tributaryNames": [],
+      "featureCount": 3,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "리오그란데강 후보의 위치 범위(텍사스 내 타 수계 가능성) 확인 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70819626",
+      "nameKo": "리오그란데강",
+      "osmRelationIds": [
+        2716682
+      ],
+      "bbox": [
+        -103.7708,
+        28.6022,
+        -95.9646,
+        33.1729
+      ],
+      "aliases": [
+        "Rio Grande",
+        "Río Bravo;Rio Grande"
+      ],
+      "tributaryNames": [],
+      "featureCount": 3,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "source-name-crossmatch-suspected",
+      "suspicion": "리오그란데강 후보의 위치 범위(텍사스 내 타 수계 가능성) 확인 필요",
+      "outcome": "unchanged"
+    },
+    {
+      "systemId": "70842751",
+      "nameKo": "리오그란데강",
+      "osmRelationIds": [
+        2716682
+      ],
+      "bbox": [
+        -108.1875,
+        25.8439,
+        -97.1488,
+        37.8229
+      ],
+      "aliases": [
+        "Rio Grande",
+        "Río Bravo;Rio Grande",
+        "콘초강"
+      ],
+      "tributaryNames": [
+        "콘초강"
+      ],
+      "featureCount": 91,
+      "sourceLabels": [
+        "HydroRIVERS 1.0 · Natural Earth border MEX/USA",
+        "HydroRIVERS 1.0 · OSM waterway names"
+      ],
+      "previousApprovedOverride": null,
+      "reviewState": "needs-independent-evidence",
+      "suspicion": null,
+      "outcome": "unchanged"
+    }
+  ]
+}
