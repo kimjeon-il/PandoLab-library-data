@@ -1,0 +1,40 @@
+{
+  "schema": "pando-osm-independent-hydro-published-receipt-v1",
+  "reviewedSystems": 42,
+  "renamedSystems": 8,
+  "retainedNameIndependentSystems": 34,
+  "remainingOsmDependentSystems": 31,
+  "originalOsmMatchedSystems": 73,
+  "changedMetadataFragments": 1895,
+  "publishedDataVersion": "v0.13.2",
+  "publishedDataGitSha": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "publishedSourceCodeGitSha": "15046c820c393e9822b9e148d972291d101822f1",
+  "bundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
+  "independentSourceFile": "hydro-independent-name-replacements.json",
+  "independentSourceFileSha256": "1609047d0015f05b0f35b0c53244fc4182afda3ea59c849a745088c55bd0e1c0",
+  "indexGeometryUnchanged": true,
+  "originalGeometryShardsSha256": [
+    "1ae657ac378ae4fb441425a8ce52c38348541717b363b3a8189d3bd7249702a8",
+    "76eb0b3392eb3376d344ebce4cbfdda05de6fee437d25ce5ee7f98e603a28fbf",
+    "f3b651e7a5a1503532701222f3deee658df03757076cd73b62994637fb63e15e"
+  ],
+  "runtimeSourceNotesOnReviewedFragments": true,
+  "globalOsmAttributionStillRequired": true,
+  "pointScreenOnlyAdditionalRisks": [
+    "20075401",
+    "20456598",
+    "20540915"
+  ],
+  "mapGeometryModified": false,
+  "publishResults": {
+    "auditedNames": "https://github.com/kimjeon-il/Pando/actions/runs/40055943255",
+    "isolatedArtifact": "https://github.com/kimjeon-il/Pando/actions/runs/40055943255/artifacts/12545640505",
+    "storageIngest": "https://github.com/kimjeon-il/PandoLab-library-data/actions/runs/40056202118",
+    "workerBuild": "https://github.com/kimjeon-il/Pando/actions/runs/40056929156",
+    "runtimeContract": "https://github.com/kimjeon-il/Pando/actions/runs/40057033263",
+    "pagesBuildAndDeploy": "https://github.com/kimjeon-il/Pando/actions/runs/40057033282",
+    "pagesBuildStatus": "success",
+    "pagesDeployStatus": "success",
+    "liveSiteUrlExternallyChecked": false
+  }
+}
