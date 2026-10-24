@@ -3,7 +3,7 @@
   "reportId": "GEO-HYDRO-OSM-20261024",
   "verified": 42,
   "originalOsmMatched": 73,
-  "publishedReplaced": 0,
+  "publishedReplaced": 42,
   "pending": 31,
   "counts": {
     "noNE": 16,
@@ -749,5 +749,8 @@
       "applied": false,
       "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
     }
-  ]
+  ],
+  "publishedSourceCommit": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "publishedBundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
+  "publishedHydroRuntimeStatus": "pinned-to-pando-main-pages-deployment-pending"
 }
