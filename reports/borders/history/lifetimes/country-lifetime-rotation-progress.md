@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-10-24 회차 / 2026-10-23 UTC · 정본 브랜치: `work/gis`
+> 생성: 2026-10-17 · 최종 수정: 2026-10-25 회차 / 2026-10-24 UTC · 정본 브랜치: `work/gis`
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 아프리카**
-- **lastCompletedRun: 2026-10-24** (이번 아프리카 배치 실행일; 전 지역 완료가 아님)
-- **nextRegion: 북아메리카**
+- **lastProcessedRegion: 북아메리카**
+- **lastCompletedRun: 2026-10-25** (이번 북아메리카 국가별 1차 배치 실행일; 전 지역 완료가 아님)
+- **nextRegion: 남아메리카**
 - **nextPhase: 국가별 1차 조사**
-- **nextAction: 북아메리카에서 GEO-LIFE-007(멕시코·과테말라·온두라스·니카라과)을 제외한 미조사 최상위 국가 2~4개를 현행 색인에서 선정한다. GEO-LIFE-009/010/011은 2026-10-24에 외부 보고서 정본으로 복구·색인 완료됐으며 재조사하지 않는다. GEO-LIFE-012 아프리카 CMR/MLI/TZA도 등록 완료.**
+- **nextAction: 남아메리카에서 GEO-LIFE-008(COL/PER/URY/VEN)과 GEO-LIFE-001 기조사국 및 현행 lifetime 기입국을 제외하고, 미조사 최상위 주권국 2~4개를 현행 국가 색인에서 재확인하여 1차 조사한다. 이번 GEO-LIFE-013의 북아메리카 SLV/USA는 1차 조사 완료·2차 검증 유보이며 중복 조사하지 않는다.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -30,7 +30,7 @@
 | 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 27개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005: 이라크·요르단·레바논 3개](country-lifetime-asia-middle-east-2026-10-17.md) 및 GEO-LIFE-001의 기존 아시아 국가 | 진행 중 | 미완료 | 이라크·요르단·레바논 법적 효력 차이 유보 |
 | 아프리카 | [GEO-LIFE-006: 에리트레아·기니비사우·세네갈 3개](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) 및 [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 3개국 문헌 1차 조사 등록 완료, 전체 지역 완료 아님 |
-| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md) 및 [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | 1차 배치 요약 정본 등록 확인; HND·NIC 날짜 충돌 및 국가 동일성 보류 |
+| 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA 2개](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | SLV 1839~1841년 독립국 성립 효력·1896~1898년 국가 동일성 보류; USA 1801년 이전 이미 존속, 내전 중 법적 계속성과 실효 지배 구별 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md) 및 [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | 1차 배치 등록 확인; 연방·연합과 국가 계속성 및 원법령 효력 보류 |
 | 오세아니아 | [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | 차례 대기 |
 
@@ -42,6 +42,7 @@
 | **2026-10-18** | **아프리카** | 국가별 1차 | `ERI`, `GNB`, `SEN` 3개 | [GEO-LIFE-006](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) — 2026-10-19 원격 등록 | **북아메리카** |
 | **2026-10-19** | **북아메리카** | 국가별 1차 | `MEX`, `GTM`, `HND`, `NIC` 4개 | [GEO-LIFE-007](country-lifetime-north-america-2026-10-19.md) — 요약 정본 `cc2d0db1`, 10-19 17:17:36 UTC / 10-20 한국 등록 | **남아메리카** |
 | **2026-10-20** | **남아메리카** | 국가별 1차 | `COL`, `PER`, `URY`, `VEN` 4개 | [GEO-LIFE-008](country-lifetime-south-america-2026-10-20.md) — `b882b3d9`, 10-19 17:17:01 UTC / 10-20 한국 등록 | **오세아니아** |
+| **2026-10-25** | **북아메리카** | 국가별 1차 | `SLV`, `USA` 2개 | [GEO-LIFE-013](country-lifetime-north-america-slv-usa-2026-10-25.md), 2026-10-25 원격 등록 | **남아메리카** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -71,3 +72,10 @@
 - **lastProcessedRegion = 아프리카**, **nextRegion = 북아메리카**, **nextPhase = 미조사 국가별 1차**. 전 지역 1·2차 완료 아님. 횡단국(러시아·튀르키예·조지아)=유럽 고정. 1801년 이전은 제외.
 - 이전 누락 보고서 복구 확인(2026-10-24): GEO-LIFE-009 commit `60b6ef96c1d648a23225fb89b4126e8bf2a8cdfa`, GEO-LIFE-010 commit `de7d465dbc9571f1cf02a61407dbbb66a8ac40f9`, GEO-LIFE-011 commit `6bb7304d6ac33cf199cfcd4b6217729dead62262`. 보고서 색인도 2026-10-24 업데이트. 3건 모두 1·2차 해당 배치 조사기록이지 지역 전체 완료가 아님.
 - 제품 국가 lifetime·지오메트리·지도·웹·앱·렌더러 `main` 변경 **0건**. 조사 범위 외 검사 미실행.
+
+## 2026-10-25 북아메리카 1차 조사 — GEO-LIFE-013
+
+- 현행 국가 색인 blob `314465f2ed332628fbb7e411513dfb49388cd188`에서 `state:SLV`·`state:USA` 최상위 일반객체의 `lifetime.validFrom/validTo=null` 확인. 기존 `GEO-LIFE-007`과 `GEO-LIFE-001` 조사국 및 시작일 기입국은 중복 조사하지 않음.
+- [GEO-LIFE-013](country-lifetime-north-america-slv-usa-2026-10-25.md): 엘살바도르의 1821·1823·1824·1841 독립/연방 헌정 경과와 1896~1898 중미 통합체 대외주권 문제를 구분. 미국은 1801년 이전에 이미 존재한 국가로, 1861~1865 남북전쟁 실효지배와 연방법적 계속성을 구별. 양국 법적 성립일 단일 확정 및 후속 2차 검증 **보류**.
+- **lastProcessedRegion=북아메리카, nextRegion=남아메리카, nextPhase=국가별 1차.** 북아메리카를 포함한 어느 지역도 1·2차 전수 완료가 아니며 1801년 이전 사건은 대상 외. 지도·lifetime·형상·웹·앱·배포 수정 **0건**, 지도 검사 미실행.
+- 정본 보고서는 2026-10-25 자료 저장소 경로 개편 이후 `reports/borders/history/lifetimes/`에 위치. 코드 저장소 `Pando/main` 및 `Pando/work/gis`는 변경하지 않음. 주제 색인은 `reports/borders/README.md`, 최상위 `reports/README.md`는 그 색인으로 연결됨.
