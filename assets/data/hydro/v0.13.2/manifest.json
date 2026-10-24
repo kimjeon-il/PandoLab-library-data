@@ -96,16 +96,16 @@
     "featureCount": 16548,
     "core": {
       "url": "hydro.bin",
-      "bytes": 729625,
-      "sha256": "700b886134bbc44fa7686f8f2c131be53a73a5c2ebaabb468b50ea3e4000cee5",
+      "bytes": 748229,
+      "sha256": "3b47ac75a4c174b2fae626fa1a0426a3abd1be3d01953f4dd0b7aff59aa30fdc",
       "offset": 32632
     },
     "detail": {
       "url": "hydro.bin",
-      "bytes": 1670972,
-      "sha256": "1416c6932976427e9cb8140f171f4ccb54704111bce49fb8b8260819ce54b2bd",
+      "bytes": 1684723,
+      "sha256": "877fd5fa954c4cada474eaf6e1be802ee9da93f1f8f80cb5e5689c02508f9a58",
       "lazy": true,
-      "offset": 762257
+      "offset": 780861
     }
   },
   "shards": [
@@ -115,7 +115,7 @@
       "bytes": 4169624,
       "sha256": "1ae657ac378ae4fb441425a8ce52c38348541717b363b3a8189d3bd7249702a8",
       "packs": 237,
-      "offset": 2433229
+      "offset": 2465584
     },
     {
       "id": 1,
@@ -123,7 +123,7 @@
       "bytes": 4186759,
       "sha256": "76eb0b3392eb3376d344ebce4cbfdda05de6fee437d25ce5ee7f98e603a28fbf",
       "packs": 512,
-      "offset": 6602853
+      "offset": 6635208
     },
     {
       "id": 2,
@@ -131,11 +131,11 @@
       "bytes": 1184508,
       "sha256": "f3b651e7a5a1503532701222f3deee658df03757076cd73b62994637fb63e15e",
       "packs": 153,
-      "offset": 10789612
+      "offset": 10821967
     }
   ],
   "cache": {
-    "name": "pandolab-water-v0.13.2-91c2268c6dbf",
+    "name": "pandolab-water-v0.13.2-independent-3b47ac75a4c174b2",
     "backgroundDownload": true,
     "rangeRequests": true
   },
@@ -176,7 +176,7 @@
     "shardCount": 3,
     "indexTileCount": 953,
     "logicalFeatureCount": 5173,
-    "compressedBytes": 11974120,
+    "compressedBytes": 12006475,
     "largestPackBytes": 236563,
     "seedReachCount": 326261,
     "continuityRootCount": 2285,
@@ -204,7 +204,7 @@
     "riverSystemCount": 3818,
     "namedRiverSystemCount": 377,
     "unnamedRiverSystemCount": 3441,
-    "osmWaterwayMatchCount": 73
+    "osmWaterwayMatchCount": 31
   },
   "sources": {
     "naturalEarthNameReference": [
@@ -377,7 +377,7 @@
         "chainCount": 1090,
         "systemCount": 814,
         "nameMatches": 44,
-        "osmMatches": 3
+        "osmMatches": 2
       },
       {
         "datasetCode": "ar",
@@ -664,7 +664,7 @@
         "chainCount": 1265,
         "systemCount": 569,
         "nameMatches": 61,
-        "osmMatches": 31
+        "osmMatches": 17
       },
       {
         "datasetCode": "au",
@@ -880,7 +880,7 @@
         "chainCount": 852,
         "systemCount": 623,
         "nameMatches": 47,
-        "osmMatches": 3
+        "osmMatches": 0
       },
       {
         "datasetCode": "eu",
@@ -1136,7 +1136,7 @@
         "chainCount": 798,
         "systemCount": 622,
         "nameMatches": 72,
-        "osmMatches": 28
+        "osmMatches": 11
       },
       {
         "datasetCode": "gr",
@@ -1295,7 +1295,7 @@
         "chainCount": 818,
         "systemCount": 436,
         "nameMatches": 71,
-        "osmMatches": 7
+        "osmMatches": 0
       },
       {
         "datasetCode": "sa",
@@ -1801,7 +1801,7 @@
     "osmWaterways": {
       "file": "osm-waterway-ko-v0.13.0.json",
       "sha256": "b2a803994578e501d23739cca4d2ec6dd18009f65c2c575d2e4a1fc31212f0f9",
-      "matchedSystems": 73,
+      "matchedSystems": 31,
       "license": "ODbL"
     },
     "hydronymOverrides": {
@@ -1811,7 +1811,13 @@
     "nameEnrichment": {
       "namedRiverSystems": 377,
       "unnamedRiverSystems": 3441,
-      "osmMatches": 73
+      "osmMatches": 31
+    },
+    "independentHydronymReplacements": {
+      "file": "hydro-independent-name-replacements.json",
+      "sha256": "1609047d0015f05b0f35b0c53244fc4182afda3ea59c849a745088c55bd0e1c0",
+      "replacedSystems": 42,
+      "geometryChanged": false
     }
   },
   "connectivity": {
@@ -1821,8 +1827,8 @@
   },
   "container": {
     "url": "hydro.bin",
-    "bytes": 11974120,
-    "sha256": "91c2268c6dbfdfa7fc6103d8ad0b4eeca71f6c522df5c0118db69a3654ff532a",
+    "bytes": 12006475,
+    "sha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
     "format": "byte-concatenated-subresources-v1",
     "roles": [
       "index",
