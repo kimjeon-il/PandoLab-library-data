@@ -3,5 +3,10 @@
   "logicalBytes": 294663,
   "currentBuildMetaReferencesTarget": false,
   "browserTestContextsClosed": true,
-  "driveFreeSpaceChangeNotAttributed": true
+  "driveFreeSpaceChangeNotAttributed": true,
+  "removedTaskScratch": "D:\\dev\\worktrees\\gis\\.superpowers\\sdd\\2026-10-24-ussr-caspian-application",
+  "scratchLogicalBytes": 169636,
+  "removedBrowserRunMarkerBytes": 45,
+  "skippedActiveWorkerClosure": "9dce383c68ce7b257d4c72a72a884e42 retained because current build-meta references it",
+  "blockedDeletionCount": 0
 }

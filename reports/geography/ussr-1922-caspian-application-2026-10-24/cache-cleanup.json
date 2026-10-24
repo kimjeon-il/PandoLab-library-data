@@ -1,0 +1,23 @@
+{
+  "restoredPreviousPinnedCache": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "restoredFiles": 17,
+  "alreadyPristineFiles": 0,
+  "alreadyAbsentTaskIntermediates": [
+    "assets/data/builtin-world/generated/v1/countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-29e65c22056516238c78798c9fbe805980bf64c57f9676e28c0b4f5a83937058.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-318c848e28f3c1406a3754dad697a44e9c142b42ae18966b66f07609fc339472.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-byelorussian-ssr-sha256-493045f882244e6431d6c95a61bd43f9eee833dcc72a48aa4a68c7aee67691d6.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-800114ec7effbf88f26d7bc3f8f29782923769043f0adac7a6da5070320432ce.json.gz",
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-d81fa42842608213662f205992d21b6160792b9e761111fd3f6a70aa313ef276.json.gz"
+  ],
+  "deletedNewUnreferencedCacheFiles": 26,
+  "deletedLogicalBytes": 65715254,
+  "restoredLogicalSizeReduction": 21538754,
+  "retainedPreviousCacheConsumer": "D:/dev/PandoLab main pin36210; other pins/mounts preserved",
+  "retainedCurrentCache": "d790ac6f0e8fe55e1407cc7a5b29bc696f48384c",
+  "currentCacheDecodedBytes": 679060203,
+  "currentCacheConsumer": "work/gis pin and source reproduction",
+  "freeBytesBefore": 30462468096,
+  "freeBytesAfter": 30549745664,
+  "freeSpaceAttribution": "Observed D free-space delta, separate from logical bytes; concurrent work may contribute.",
+  "observedFreeBytesDelta": 87277568
+}
