@@ -27,6 +27,7 @@
 | [남아메리카 국가 존속기간 — 콜롬비아·페루·우루과이·베네수엘라](history/lifetimes/country-lifetime-south-america-2026-10-20.md) | GEO-LIFE-008 | 2026-10-20 회차 / 검토 10-20 | `investigating` |
 | [Verified entity lifetime additions](history/lifetimes/verified-entity-lifetimes.md) | GEO-023 | 2026-10-08 | `historical-record` |
 | [2025년 아프리카 가봉–적도기니 ICJ 법적 권원 판결·벡터 선별](history/timeline/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md) | GEO-TIME-009 | 2026-10-24 | `investigating / source-indexed / provisional` |
+| [2025년 아프리카 서사하라 승인·국제적 지위·유엔 결의 2797 선별](history/timeline/historical-timeline-2025-africa-western-sahara-status-2026-10-25.md) | GEO-TIME-010 | 2026-10-25 | `investigating / source-indexed / provisional` |
 | [2025년 중앙아시아 국경 획정 사건](history/timeline/historical-timeline-2025-central-asia-2026-10-17.md) | GEO-TIME-001 | 2026-10-17 | `investigating` |
 | [2025년 중앙아시아 역사 벡터 자료 후보 탐색](history/timeline/historical-timeline-2025-central-asia-vector-screen-2026-10-21.md) | GEO-TIME-005 | 2026-10-21 회차 / 검토 10-20 UTC | `investigating` |
 | [2025년 남아시아·동남아시아 국경 절차 선별 조사](history/timeline/historical-timeline-2025-south-southeast-asia-2026-10-19.md) | GEO-TIME-003 | 2026-10-19 | `investigating` |
