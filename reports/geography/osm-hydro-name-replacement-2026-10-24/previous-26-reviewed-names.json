@@ -1,0 +1,457 @@
+{
+  "schema": "pando-old-approved-hydronym-source-audit-v1",
+  "sourceGitRef": "6b0c501dd09029ef237e90c1ef55fdb82bdf315f",
+  "sourcePath": "assets/data/hydro/hydronym-ko-overrides.json",
+  "sourceBlobSha": "df7b659682506a73d35a223d5ad5eb01b6606c41",
+  "count": 26,
+  "originalNonOSMReferenceCount": 24,
+  "supplementaryOfficialVerifiedCount": 2,
+  "notes": "A non-OSM URL in a prior approved record does NOT mean independently revalidated all 26 geometries in this run. Previously approved names remain unchanged pending individual second-pass confirmation.",
+  "items": [
+    {
+      "systemId": "20047780",
+      "approvedNameKo": "라넬바강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/way/28286467",
+        "https://www.wikidata.org/wiki/Q1861845"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/way/28286467"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1861845"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20056202",
+      "approvedNameKo": "토르네강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/8544989",
+        "https://www.wikidata.org/wiki/Q121538"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/8544989"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q121538"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20065206",
+      "approvedNameKo": "이요키강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/8546148",
+        "https://www.wikidata.org/wiki/Q1472085"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/8546148"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1472085"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20082813",
+      "approvedNameKo": "남센강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/14006101",
+        "https://www.wikidata.org/wiki/Q1518561"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/14006101"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1518561"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20095848",
+      "approvedNameKo": "욀뷔사우강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/9486159",
+        "https://www.vedur.is/vatnafar/haettumat-floda/vatnsflod/",
+        "https://www.wikidata.org/wiki/Q297018"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/9486159"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.vedur.is/vatnafar/haettumat-floda/vatnsflod/",
+        "https://www.wikidata.org/wiki/Q297018"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20096823",
+      "approvedNameKo": "스케이다라우강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/19416451",
+        "https://www.wikidata.org/wiki/Q256270"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/19416451"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q256270"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20100115",
+      "approvedNameKo": "우메강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/7427577",
+        "https://www.wikidata.org/wiki/Q51845"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/7427577"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q51845"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20138228",
+      "approvedNameKo": "코케매에니오키강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/7497265",
+        "https://www.wikidata.org/wiki/Q1329599",
+        "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-kokemaenjoen-vesistoalueelle/"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/7497265"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1329599",
+        "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-kokemaenjoen-vesistoalueelle/"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20144091",
+      "approvedNameKo": "유스난강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/10739741",
+        "https://www.wikidata.org/wiki/Q1160449"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/10739741"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1160449"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20155944",
+      "approvedNameKo": "퀴미요키강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/7034187",
+        "https://www.wikidata.org/wiki/Q890526",
+        "https://www.vesi.fi/tra_arviointi/kymijoki/"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/7034187"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q890526",
+        "https://www.vesi.fi/tra_arviointi/kymijoki/"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20168496",
+      "approvedNameKo": "드람멘셀바강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/14005798",
+        "https://www.wikidata.org/wiki/Q537889"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/14005798"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q537889"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20172821",
+      "approvedNameKo": "나르바강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/3824601",
+        "https://www.wikidata.org/wiki/Q209031",
+        "https://registerdok.keskkonnaportaal.ee/dokid/-1559122184"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/3824601"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q209031",
+        "https://registerdok.keskkonnaportaal.ee/dokid/-1559122184"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20175392",
+      "approvedNameKo": "노르스트룀강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/2400203",
+        "https://www.wikidata.org/wiki/Q1479784",
+        "https://www.smhi.se/publikationer-fran-smhi/sok-publikationer/1945-01-02-de-svenska-vattendragens-arealforhallanden-9.-malaren--norrstrom-m.-fl."
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/2400203"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1479784",
+        "https://www.smhi.se/publikationer-fran-smhi/sok-publikationer/1945-01-02-de-svenska-vattendragens-arealforhallanden-9.-malaren--norrstrom-m.-fl."
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20179925",
+      "approvedNameKo": "시엔셀바강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/way/972366090",
+        "https://www.openstreetmap.org/way/1216170190",
+        "https://www.wikidata.org/wiki/Q924838",
+        "https://stadnamn.kartverket.no/fakta/589791",
+        "https://snl.no/Skiensvassdraget"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/way/972366090",
+        "https://www.openstreetmap.org/way/1216170190"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q924838",
+        "https://stadnamn.kartverket.no/fakta/589791",
+        "https://snl.no/Skiensvassdraget"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20257054",
+      "approvedNameKo": "프레골랴강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/2835046",
+        "https://www.wikidata.org/wiki/Q5611"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/2835046"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q5611"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20278472",
+      "approvedNameKo": "우즈강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/2873839",
+        "https://www.wikidata.org/wiki/Q19718",
+        "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%A6%88%EA%B0%95_(%EB%85%B8%EC%8A%A4%EC%9A%94%ED%81%AC%EC%85%94%EC%A3%BC)"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/2873839"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q19718",
+        "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%A6%88%EA%B0%95_(%EB%85%B8%EC%8A%A4%EC%9A%94%ED%81%AC%EC%85%94%EC%A3%BC)"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20282220",
+      "approvedNameKo": "엘베강",
+      "originalSourceUrls": [],
+      "originalOSMSourceUrls": [],
+      "originalNonOSMSourceUrls": [],
+      "supplementaryOfficialReference": "https://undine.bafg.de/elbe/elbegebiet_en.html",
+      "status": "official-source-confirmed-plus-NE-mainstem",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20282318",
+      "approvedNameKo": "오데르강",
+      "originalSourceUrls": [],
+      "originalOSMSourceUrls": [],
+      "originalNonOSMSourceUrls": [],
+      "supplementaryOfficialReference": "https://undine.bafg.de/oder/odergebiet.html",
+      "status": "official-source-confirmed-plus-NE-mainstem",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20287845",
+      "approvedNameKo": "베저강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/123751",
+        "https://www.wikidata.org/wiki/Q1650"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/123751"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q1650"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20304531",
+      "approvedNameKo": "섀넌강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/3611921",
+        "https://www.wikidata.org/wiki/Q192820"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/3611921"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q192820"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20323928",
+      "approvedNameKo": "라인강",
+      "originalSourceUrls": [
+        "https://www.wikidata.org/wiki/Q584"
+      ],
+      "originalOSMSourceUrls": [],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q584"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20440799",
+      "approvedNameKo": "빌렌강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/1082413",
+        "https://www.wikidata.org/wiki/Q842462"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/1082413"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q842462"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20486748",
+      "approvedNameKo": "소차강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/2219647",
+        "https://www.wikidata.org/wiki/Q202760"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/2219647"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q202760"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20534315",
+      "approvedNameKo": "아두르강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/116984",
+        "https://www.wikidata.org/wiki/Q207366"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/116984"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q207366"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20574952",
+      "approvedNameKo": "테베레강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/1827384",
+        "https://www.wikidata.org/wiki/Q13712"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/1827384"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q13712"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    },
+    {
+      "systemId": "20602907",
+      "approvedNameKo": "바르다르강",
+      "originalSourceUrls": [
+        "https://www.openstreetmap.org/relation/5896030",
+        "https://www.wikidata.org/wiki/Q189596",
+        "https://www.moepp.gov.mk/mk-MK/ministerstvo/sektor-za-vodi"
+      ],
+      "originalOSMSourceUrls": [
+        "https://www.openstreetmap.org/relation/5896030"
+      ],
+      "originalNonOSMSourceUrls": [
+        "https://www.wikidata.org/wiki/Q189596",
+        "https://www.moepp.gov.mk/mk-MK/ministerstvo/sektor-za-vodi"
+      ],
+      "supplementaryOfficialReference": null,
+      "status": "non-OSM-original-reference-present-not-yet-reverified",
+      "retentionDecision": "retain-previously-approved-name-unmodified"
+    }
+  ]
+}

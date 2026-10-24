@@ -1,0 +1,91 @@
+{
+  "schema": "pando-hydro-usgs-official-stations-v1",
+  "referenceNote": "USGS WGS84 station coordinates independently measured or map-derived; HydroRIVERS display centerline is generalized.",
+  "stationRows": [
+    {
+      "station": "USGS-08116650",
+      "independentHydrography": "Brazos",
+      "lon": -95.58246348462062,
+      "lat": 29.349686143162536,
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-08116650",
+      "distancesToHydroMainstemKm": {
+        "70816878": 0.218,
+        "70819626": 48.839
+      }
+    },
+    {
+      "station": "USGS-08114000",
+      "independentHydrography": "Brazos",
+      "lon": -95.7577275325698,
+      "lat": 29.5824589022502,
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-08114000",
+      "distancesToHydroMainstemKm": {
+        "70816878": 0.143,
+        "70819626": 44.988
+      }
+    },
+    {
+      "station": "USGS-08117300",
+      "independentHydrography": "Brazos",
+      "lon": -95.3816077936518,
+      "lat": 28.8980278072396,
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-08117300/",
+      "distancesToHydroMainstemKm": {
+        "70816878": 0.371,
+        "70819626": 60.091
+      }
+    },
+    {
+      "station": "USGS-08162500",
+      "independentHydrography": "Colorado-Texas",
+      "lon": -96.0124587726231,
+      "lat": 28.9741462100881,
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-08162500/",
+      "distancesToHydroMainstemKm": {
+        "70816878": 40.811,
+        "70819626": 0.199
+      }
+    },
+    {
+      "station": "USGS-08162504",
+      "independentHydrography": "Colorado-Texas",
+      "lon": -95.9755182378249,
+      "lat": 28.6872113055232,
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-08162504/",
+      "distancesToHydroMainstemKm": {
+        "70816878": 57.549,
+        "70819626": 0.153
+      }
+    },
+    {
+      "station": "USGS-08162501",
+      "independentHydrography": "Colorado-Texas",
+      "lon": -95.9975,
+      "lat": 28.7741666666667,
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-08162501/",
+      "distancesToHydroMainstemKm": {
+        "70816878": 51.828,
+        "70819626": 0.061
+      }
+    }
+  ],
+  "candidateSystems": {
+    "70816878": {
+      "candidateName": "Brazos",
+      "matchedIndependentStations": 3,
+      "maxMatchingStationDistanceKm": 0.371,
+      "nearestDifferentBasinStationKm": 40.811,
+      "criteriaSatisfied": true
+    },
+    "70819626": {
+      "candidateName": "Colorado-Texas",
+      "matchedIndependentStations": 3,
+      "maxMatchingStationDistanceKm": 0.199,
+      "nearestDifferentBasinStationKm": 44.988,
+      "criteriaSatisfied": true
+    }
+  },
+  "run": "https://github.com/kimjeon-il/Pando/actions/runs/40048059529",
+  "hydroReferenceVersion": "0.13.2",
+  "status": "independently-computed-not-deployed"
+}

@@ -1,5 +1,8 @@
 # 판도편집기 조사·검증 보고서
 
+계산 최적화 기록: [전수 정적 조사·동일 결과 검증·용량 증가·미해결 CI — 2026-10-23](development/testing/exact-calculation-2026-10-23/README.md) (`DEV-EXACT-CALC-20261023`, `deployed / focused-verification / CI-incomplete`).
+
+
 전체 브랜치 통합 검증: [UI·GIS main 통합 — 2026-10-23](development/testing/all-branches-main-integration-2026-10-23.md) (DEV-MAIN-20261023, focused-verification).
 
 최신 개발 통합 기록: [미병합 커밋 main 통합 — 2026-10-21](development/testing/all-branches-main-integration-2026-10-21.md) (`DEV-MAIN-20261021`, `integrated / focused-verification`).
@@ -20,6 +23,12 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-HYDRO-OSM-20261024` | [수계 OSM 관계 73개·과거 교정표 26개 교체 조사](geography/osm-hydro-name-replacement-2026-10-24/README.md) | 2026-10-24 | `investigating / inventory-complete` | `not-applied` |
+| `GEO-TIME-009` | [2025년 아프리카 가봉–적도기니 ICJ 법적 권원 판결·벡터 선별](geography/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md) | 2026-10-24 | `investigating / source-indexed / provisional` | `not-applied` |
+| `GEO-LIFE-012` | [아프리카 3개국 국가 존속기간 — 카메룬·말리·탄자니아](geography/country-lifetime-africa-cmr-mli-tza-2026-10-24.md) | 2026-10-24 | `investigating / phase-1` | `not-applied` |
+| `GEO-LIFE-011` | [아시아 3개국 국가 존속기간 — 파키스탄·말레이시아·네팔](geography/country-lifetime-asia-south-southeast-2026-10-23.md) | 2026-10-23 (2026-10-24 복구) | `investigating / phase-1` | `not-applied` |
+| `GEO-LIFE-010` | [유럽 발트 3국 국가 존속기간 — 2차 교차검증](geography/country-lifetime-europe-baltic-2026-10-22.md) | 2026-10-22 (2026-10-24 복구) | `investigating / phase-2` | `not-applied` |
+| `GEO-LIFE-009` | [오세아니아 4개국 국가 존속기간 — FSM·마셜제도·팔라우·통가](geography/country-lifetime-oceania-micronesia-tonga-2026-10-21.md) | 2026-10-21 (2026-10-24 복구) | `investigating / phase-1` | `not-applied` |
 | `GEO-DDR-ALL-FOLLOWUP-20261023` | [동독 남은 경계 전체 후속 — 벡터 및 승인 지도 일부 적용](geography/east-germany-remaining-all-2026-10-23.md) | 2026-10-23 | `local-applied / provisional / map-review-approved` | `9 vector windows + approved map3; remainder held; Elbe local-only` |
 | `GEO-DDR-NORTHERN-APPLIED-20261023` | [동독 라체부르크·메호어호 경계 적용](geography/east-germany-ratzeburg-mechow-applied-2026-10-23.md) | 2026-10-23 | `local-applied / provisional` | `work/gis only` |
 | `GEO-DDR-MAP-PREVIEW-20261023` | [동독 남은 구간 벡터 탐색·첫 지도 정합본](geography/east-germany-remaining-map-preview-2026-10-23.md) | 2026-10-23 | `historical-record / map-review-approved` | `see northern follow-up` |
