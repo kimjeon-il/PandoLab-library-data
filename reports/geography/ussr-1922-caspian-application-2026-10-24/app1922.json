@@ -1,0 +1,41 @@
+{
+  "imported": [
+    {
+      "id": "927e6934-0a31-4bc7-b07a-bc5bb8ff818d",
+      "source": "state:soviet-union",
+      "version": "state:soviet-union:1922-12-30-reviewed-v2",
+      "parentId": ""
+    },
+    {
+      "id": "515560bb-95f9-40af-ae3f-2892e65e000a",
+      "source": "state:soviet-union-byelorussian-ssr",
+      "version": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2",
+      "parentId": "927e6934-0a31-4bc7-b07a-bc5bb8ff818d"
+    },
+    {
+      "id": "bbaa82a0-91e3-4a1c-b6ec-f74576f21d48",
+      "source": "state:soviet-union-russian-sfsr",
+      "version": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "parentId": "927e6934-0a31-4bc7-b07a-bc5bb8ff818d"
+    },
+    {
+      "id": "442df7ac-fbb3-4dfb-9609-09ed3fae05e4",
+      "source": "state:soviet-union-transcaucasian-sfsr",
+      "version": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2",
+      "parentId": "927e6934-0a31-4bc7-b07a-bc5bb8ff818d"
+    },
+    {
+      "id": "84c76ac3-0b14-4dd6-8e8e-4127232a033e",
+      "source": "state:soviet-union-ukrainian-ssr",
+      "version": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2",
+      "parentId": "927e6934-0a31-4bc7-b07a-bc5bb8ff818d"
+    }
+  ],
+  "physical": {
+    "month": "1922-12",
+    "landRevision": "487594cc829d8d58ebb0ab7a04eace628fe58864262e4eb4533af8245ca96ec4",
+    "waterRevision": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1",
+    "holes": 68
+  },
+  "errors": []
+}
