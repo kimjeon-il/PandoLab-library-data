@@ -1,5 +1,5 @@
 diff --git a/tools/library-data.mjs b/tools/library-data.mjs
-index 4443fac8..13e0cb89 100644
+index 2ef5dfea..05df699d 100644
 --- a/tools/library-data.mjs
 +++ b/tools/library-data.mjs
 @@ -1,6 +1,6 @@
@@ -10,7 +10,18 @@ index 4443fac8..13e0cb89 100644
  import { dirname, isAbsolute, relative, resolve, sep } from 'node:path';
  import { fileURLToPath } from 'node:url';
  import { gunzipSync, gzipSync } from 'node:zlib';
-@@ -641,7 +641,7 @@ export function materializeRuntimeView({ root, index, source = null }) {
+@@ -8,8 +8,8 @@ import { atomicStorageJSON, containedPath, contentFiles, contentHash, contentPat
+ 
+ export const defaultRoot = fileURLToPath(new URL('../', import.meta.url));
+ const gitOptions = ['-c', 'core.fsync=none', '-c', 'core.fsyncObjectFiles=false', '-c', 'core.autocrlf=false', '-c', 'maintenance.auto=false', '-c', 'gc.auto=0'];
+-const git = (root, args) => {
+-  const output = execFileSync('git', [...gitOptions, ...args], { cwd: root, env: { ...process.env, GIT_OPTIONAL_LOCKS: '0', GIT_NO_LAZY_FETCH: '1' }, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024, stdio: ['pipe', 'pipe', 'pipe'] });
++const git = (root, args, { allowFetch = false } = {}) => {
++  const output = execFileSync('git', [...gitOptions, ...args], { cwd: root, env: { ...process.env, GIT_OPTIONAL_LOCKS: '0', GIT_NO_LAZY_FETCH: allowFetch ? '0' : '1' }, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024, stdio: ['pipe', 'pipe', 'pipe'] });
+   return args.includes('-z') || args.includes('-rz') ? output : output.trim();
+ };
+ export function libraryConfig(root = defaultRoot) {
+@@ -667,7 +667,7 @@ export function materializeRuntimeView({ root, index, source = null }) {
        const owned = files[file.logical];
        if (owned && owned.sha256 === contentHash(readFileSync(file.path))) removeContentLink(shared, file.path);
        else if (['.complete', '.cache-owner.json'].includes(file.logical)) unlinkSync(file.path);
@@ -19,7 +30,7 @@ index 4443fac8..13e0cb89 100644
      }
      removeEmptyDirectories(pending); throw error;
    }
-@@ -805,13 +805,93 @@ export function prepareOwnedLibraryData({ root, fetch }) {
+@@ -850,13 +850,93 @@ export function prepareOwnedLibraryData({ root, fetch }) {
    return { repository: config.repository, revision: config.revision, checkout, materialized, files: index.files, compaction };
  }
  
@@ -54,7 +65,7 @@ index 4443fac8..13e0cb89 100644
 +  const remote = fetchReportMain(shared), current = git(shared, ['rev-parse', 'HEAD']);
 +  if (current !== remote) {
 +    const base = git(shared, ['merge-base', current, remote]);
-+    if (base === current) git(shared, ['merge', '--ff-only', remote]);
++    if (base === current) git(shared, ['merge', '--ff-only', remote], { allowFetch: true });
 +    else if (base === remote) {
 +      // A rejected report push is retryable; unpublished runtime/history is not.
 +      const included = path => prefixes.some(prefix => path === prefix || path.startsWith(prefix + '/'));
@@ -65,7 +76,7 @@ index 4443fac8..13e0cb89 100644
 +        }
 +        if (paths.some(path => path.startsWith('reports/') && !included(path))) throw Error('Unpublished report commits exist outside the selected scope; preserve them before publishing this scope.');
 +      }
-+      const previous = JSON.parse(git(shared, ['show', `${remote}:archive/index.json`])).files;
++      const previous = JSON.parse(git(shared, ['show', `${remote}:archive/index.json`], { allowFetch: true })).files;
 +      const pending = JSON.parse(git(shared, ['show', 'HEAD:archive/index.json'])).files;
 +      if ([...new Set([...Object.keys(previous), ...Object.keys(pending)])].some(path => !path.startsWith('reports/')
 +        && JSON.stringify(previous[path]) !== JSON.stringify(pending[path]))) throw Error('Preserve unpublished non-report archive entries before report publication.');
@@ -77,12 +88,12 @@ index 4443fac8..13e0cb89 100644
 +}
 +function checkOwnedReports(root, prefixes) {
 +  const files = reportWorkingFiles(root, prefixes), shared = librarySharedCheckout(root), revision = fetchReportMain(shared);
-+  const index = JSON.parse(git(shared, ['show', `${revision}:archive/index.json`]));
++  const index = JSON.parse(git(shared, ['show', `${revision}:archive/index.json`], { allowFetch: true }));
 +  for (const file of files) {
 +    const entry = index.files[file.logical];
 +    if (!entry || entry.sha256 !== file.sha256 || entry.bytes !== file.bytes) throw Error(`Report is not published with its current original: ${file.logical}`);
 +    safeChild(shared, entry.stored);
-+    const stored = execFileSync('git', [...gitOptions, 'show', `${revision}:${entry.stored}`], { cwd: shared, maxBuffer: Math.max(entry.bytes * 2, 16 * 1024 * 1024) });
++    const stored = execFileSync('git', [...gitOptions, 'show', `${revision}:${entry.stored}`], { cwd: shared, env: { ...process.env, GIT_NO_LAZY_FETCH: '0' }, maxBuffer: Math.max(entry.bytes * 2, 16 * 1024 * 1024), stdio: ['pipe', 'pipe', 'pipe'] });
 +    if (!['identity', 'gzip'].includes(entry.encoding)) throw Error(`Unknown report archive encoding: ${file.logical}`);
 +    const bytes = entry.encoding === 'gzip' ? gunzipSync(stored) : stored;
 +    if (bytes.length !== file.bytes || reportDigest(bytes) !== file.sha256) throw Error(`Remote report content is corrupt or mismatched: ${file.logical}`);
@@ -115,7 +126,7 @@ index 4443fac8..13e0cb89 100644
    if (libraryWriteLeases(librarySharedCheckout(root)).some(lease => lease.alive && lease.owner === libraryOwnerId(root) && lease.prefixes.some(a => prefixes.some(b => scopesOverlap(a, b))))) throw Error('Finish the active library write lease before storing this scope');
    if (git(data.checkout, ['status', '--porcelain'])) throw Error('Preserve existing data checkout edits before storing library material.');
    if (prefixes && (!Array.isArray(prefixes) || !prefixes.length || prefixes.some(path =>
-@@ -862,7 +942,7 @@ function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
+@@ -907,7 +987,7 @@ function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
      }
    };
    const managedMounts = libraryConfig(root).mounts.filter(path => path !== 'reports');
@@ -124,7 +135,7 @@ index 4443fac8..13e0cb89 100644
    // Store only this branch's mutable scope. Shared originals from another
    // branch must never be implicitly imported into a branch publication.
    visit(editRoot, 'reports');
-@@ -901,7 +981,7 @@ function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
+@@ -946,7 +1026,7 @@ function storeOwnedLibraryData({ root, push, prefixes, removePaths }) {
    if (push) {
      const token = process.env.PANDOLAB_LIBRARY_WRITE_TOKEN;
      const env = token ? { ...process.env, GIT_CONFIG_COUNT: '1', GIT_CONFIG_KEY_0: 'http.https://github.com/.extraheader', GIT_CONFIG_VALUE_0: `AUTHORIZATION: basic ${Buffer.from('x-access-token:' + token).toString('base64')}` } : process.env;
@@ -133,7 +144,7 @@ index 4443fac8..13e0cb89 100644
    }
    if (!prefixes.every(path => path === 'reports' || path.startsWith('reports/'))) {
      const config = libraryConfig(root); config.revision = revision;
-@@ -933,6 +1013,11 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
+@@ -978,6 +1058,11 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
      console.log(libraryReportRoot(process.argv[3] || defaultRoot));
    } else {
    const prefixes = process.argv.filter(arg => arg.startsWith('--include-prefix=')).map(arg => arg.slice('--include-prefix='.length));
@@ -145,7 +156,7 @@ index 4443fac8..13e0cb89 100644
    const separator = process.argv.indexOf('--');
    const selected = separator < 0 ? [] : process.argv.slice(separator + 1).filter(path => !path.startsWith('-'));
    if (!prefixes.length && process.argv.includes('--store-and-stage')) for (const path of selected) {
-@@ -955,4 +1040,5 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
+@@ -1000,4 +1085,5 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
    } else if (process.argv.includes('--store')) console.log(`Library stored: ${storeLibraryData(storeOptions)}`);
    else { const result = prepareLibraryData(); console.log(`Library mounted: ${result.repository}@${result.revision}`); }
    }
