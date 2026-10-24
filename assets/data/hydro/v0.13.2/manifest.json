@@ -96,16 +96,16 @@
     "featureCount": 16548,
     "core": {
       "url": "hydro.bin",
-      "bytes": 748229,
-      "sha256": "3b47ac75a4c174b2fae626fa1a0426a3abd1be3d01953f4dd0b7aff59aa30fdc",
+      "bytes": 748227,
+      "sha256": "048449cce261fa142b509a0f4ef6216be3fc85e58bcfbc18b76d341ee451d935",
       "offset": 32632
     },
     "detail": {
       "url": "hydro.bin",
       "bytes": 1684723,
-      "sha256": "877fd5fa954c4cada474eaf6e1be802ee9da93f1f8f80cb5e5689c02508f9a58",
+      "sha256": "da7d26b7b2f830c73e14d0396038686352693ccf4515580e2a7ba311aea600fb",
       "lazy": true,
-      "offset": 780861
+      "offset": 780859
     }
   },
   "shards": [
@@ -115,7 +115,7 @@
       "bytes": 4169624,
       "sha256": "1ae657ac378ae4fb441425a8ce52c38348541717b363b3a8189d3bd7249702a8",
       "packs": 237,
-      "offset": 2465584
+      "offset": 2465582
     },
     {
       "id": 1,
@@ -123,7 +123,7 @@
       "bytes": 4186759,
       "sha256": "76eb0b3392eb3376d344ebce4cbfdda05de6fee437d25ce5ee7f98e603a28fbf",
       "packs": 512,
-      "offset": 6635208
+      "offset": 6635206
     },
     {
       "id": 2,
@@ -131,11 +131,11 @@
       "bytes": 1184508,
       "sha256": "f3b651e7a5a1503532701222f3deee658df03757076cd73b62994637fb63e15e",
       "packs": 153,
-      "offset": 10821967
+      "offset": 10821965
     }
   ],
   "cache": {
-    "name": "pandolab-water-v0.13.2-independent-3b47ac75a4c174b2",
+    "name": "pandolab-water-v0.13.2-independent-048449cce261fa14",
     "backgroundDownload": true,
     "rangeRequests": true
   },
@@ -176,7 +176,7 @@
     "shardCount": 3,
     "indexTileCount": 953,
     "logicalFeatureCount": 5173,
-    "compressedBytes": 12006475,
+    "compressedBytes": 12006473,
     "largestPackBytes": 236563,
     "seedReachCount": 326261,
     "continuityRootCount": 2285,
@@ -1795,7 +1795,7 @@
     ],
     "naturalEarthLakes": {
       "file": "lakes_base.geojson",
-      "sha256": "c848770c5c2177c1e1fe170e1d85faa6c804aad53fb8e8bcfc9b75f14a6a7a5c",
+      "sha256": "13b3489aeb44af8991363f792430b39812293086e2a21590353bf33123da1bb2",
       "selected": 1355
     },
     "osmWaterways": {
@@ -1806,7 +1806,7 @@
     },
     "hydronymOverrides": {
       "file": "hydronym-ko-overrides.json",
-      "sha256": "46903881edc05fcde234377e711489f2bc1d39a9307efa218ec47a5f04ccdfd4"
+      "sha256": "cad65a745248d91bd931d580af0eb8e806af2d6947aaa42296dc7038473ffd99"
     },
     "nameEnrichment": {
       "namedRiverSystems": 377,
@@ -1818,6 +1818,21 @@
       "sha256": "1609047d0015f05b0f35b0c53244fc4182afda3ea59c849a745088c55bd0e1c0",
       "replacedSystems": 42,
       "geometryChanged": false
+    },
+    "lakeNameCorrections": {
+      "file": "hydronym-ko-overrides.json",
+      "sha256": "cad65a745248d91bd931d580af0eb8e806af2d6947aaa42296dc7038473ffd99",
+      "names": {
+        "lakes_base:1159126555": {
+          "previousNameKo": "사우스아랄씨호",
+          "nameKo": "남아랄해"
+        },
+        "lakes_base:1729982865": {
+          "previousNameKo": "노스아랄씨호",
+          "nameKo": "북아랄해"
+        }
+      },
+      "geometryChanged": false
     }
   },
   "connectivity": {
@@ -1827,8 +1842,8 @@
   },
   "container": {
     "url": "hydro.bin",
-    "bytes": 12006475,
-    "sha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
+    "bytes": 12006473,
+    "sha256": "f0832dd2024cbfad8b1662410a4f189fa95bcecb56c3e3f1ad69d36af4a0c36f",
     "format": "byte-concatenated-subresources-v1",
     "roles": [
       "index",

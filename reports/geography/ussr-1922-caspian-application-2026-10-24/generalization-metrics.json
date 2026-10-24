@@ -1,0 +1,1078 @@
+{
+  "verticesBefore": 21771,
+  "verticesAfter": 7063,
+  "holesBefore": 68,
+  "holesAfter": 68,
+  "areaBeforeKm2": 430899.55362307245,
+  "areaAfterKm2": 430881.89674501604,
+  "boundaryHausdorffMeters": 299.5051655676505,
+  "nonEndpointIntersections": 0,
+  "adaptiveLocalRepairs": 0,
+  "perFeatureToleranceMeters": [
+    {
+      "id": "old:buzachi_north_west:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:mangyshlak_west:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:mangyshlak_west:1",
+      "tolerance": 300
+    },
+    {
+      "id": "old:mangyshlak_west:2",
+      "tolerance": 300
+    },
+    {
+      "id": "old:karabogaz_inner:0",
+      "tolerance": 0
+    },
+    {
+      "id": "old:karabogaz_inner:1",
+      "tolerance": 0
+    },
+    {
+      "id": "old:east_KyzylTash_to_Colorado:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:east_Colorado_toward_south_fold:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:north_bold_corrected_extension:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:south_bold_depicted_tip_extension:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:west_1934_explicit_approximate_dotted:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:southwest_burkay_1934_dotted:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:south_1934_bold_remaining_arc:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:DeadKultuk_east_inherited1861_1873:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:south_of_Prorva_inherited1861_1873:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:mouth_west_approx_fragment:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:mouth_islets_approx_fragment:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:Prorva_native_west_fragment:0",
+      "tolerance": 300
+    },
+    {
+      "id": "old:Prorva_native_inlet_fragment:0",
+      "tolerance": 300
+    },
+    {
+      "id": "reuse-audit:1929-north-east:mangyshlak_west:run2",
+      "tolerance": 0
+    },
+    {
+      "id": "reuse-audit:1929-north-east:mangyshlak_west:run3",
+      "tolerance": 0
+    },
+    {
+      "id": "reuse-audit:1929-north-east:karabogaz_inner:run2",
+      "tolerance": 0
+    },
+    {
+      "id": "west:west_historical_remainder_1",
+      "tolerance": 300
+    },
+    {
+      "id": "west:west_historical_remainder_last",
+      "tolerance": 300
+    },
+    {
+      "id": "west:west_NE_reuse_1",
+      "tolerance": 0
+    },
+    {
+      "id": "west:west_NE_reuse_2",
+      "tolerance": 0
+    },
+    {
+      "id": "west:absheron_to_SOI_intersection_reviewed",
+      "tolerance": 300
+    },
+    {
+      "id": "south:anzali_outer_west__retained_0",
+      "tolerance": 300
+    },
+    {
+      "id": "south:anzali_outer_east__retained_0",
+      "tolerance": 300
+    },
+    {
+      "id": "south:anzali_outer_east__retained_1",
+      "tolerance": 300
+    },
+    {
+      "id": "south:sefidrud_south",
+      "tolerance": 300
+    },
+    {
+      "id": "south:mazandaran_west__retained_0",
+      "tolerance": 300
+    },
+    {
+      "id": "south:mazandaran_west__retained_1",
+      "tolerance": 300
+    },
+    {
+      "id": "south:mazandaran_west__retained_2",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kura_north",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kura_mouth_south",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kizilagach_east_spit",
+      "tolerance": 300
+    },
+    {
+      "id": "south:sara_island",
+      "tolerance": 49.0924877171665
+    },
+    {
+      "id": "south:miankale_outer",
+      "tolerance": 300
+    },
+    {
+      "id": "south:miankale_inner",
+      "tolerance": 300
+    },
+    {
+      "id": "south:astrabad_bay_south_east",
+      "tolerance": 300
+    },
+    {
+      "id": "south:ashuradeh_west_island",
+      "tolerance": 28.141617821364427
+    },
+    {
+      "id": "south:ashuradeh_east_island",
+      "tolerance": 28.742872637790306
+    },
+    {
+      "id": "south:east_open_clean__retained_0",
+      "tolerance": 300
+    },
+    {
+      "id": "south:darja_west_bank",
+      "tolerance": 0
+    },
+    {
+      "id": "south:cheleken_island",
+      "tolerance": 0
+    },
+    {
+      "id": "south:anzali_outer_west__reuse_0_30",
+      "tolerance": 0
+    },
+    {
+      "id": "south:anzali_outer_east__reuse_45_60",
+      "tolerance": 0
+    },
+    {
+      "id": "south:mazandaran_west__reuse_15_75",
+      "tolerance": 0
+    },
+    {
+      "id": "south:mazandaran_west__reuse_90_105",
+      "tolerance": 0
+    },
+    {
+      "id": "south:east_open_clean__reuse_0_105",
+      "tolerance": 0
+    },
+    {
+      "id": "south:lankaran_astara_open__reuse_0_113",
+      "tolerance": 0
+    },
+    {
+      "id": "south:mazandaran_sheet15_to_miankale__reuse_0_70",
+      "tolerance": 0
+    },
+    {
+      "id": "south:aulak_island",
+      "tolerance": 0
+    },
+    {
+      "id": "south:rau_island",
+      "tolerance": 0
+    },
+    {
+      "id": "south:ogurchinski_island",
+      "tolerance": 0
+    },
+    {
+      "id": "south:kamishli_ada_island",
+      "tolerance": 24.471803110236074
+    },
+    {
+      "id": "south:uzun_ada_west_island",
+      "tolerance": 0
+    },
+    {
+      "id": "south:uzun_ada_long_island",
+      "tolerance": 74.77873442758032
+    },
+    {
+      "id": "south:kradashli_island",
+      "tolerance": 50.7024175175781
+    },
+    {
+      "id": "south:southeast_rechecked_full_waterbank",
+      "tolerance": 300
+    },
+    {
+      "id": "south:sefidrud_mazandaran_source_join",
+      "tolerance": 300
+    },
+    {
+      "id": "south:miankale_visible_tip",
+      "tolerance": 300
+    },
+    {
+      "id": "south:yagli_east_island_1",
+      "tolerance": 43.29526650041404
+    },
+    {
+      "id": "south:yagli_west_island_2",
+      "tolerance": 29.377913837219502
+    },
+    {
+      "id": "south:yagli_west_island_3",
+      "tolerance": 35.10225589016457
+    },
+    {
+      "id": "south:yagli_middle_island_4",
+      "tolerance": 35.982798046731276
+    },
+    {
+      "id": "south:yagli_east_island_5",
+      "tolerance": 37.98818492616884
+    },
+    {
+      "id": "south:yagli_south_island_6",
+      "tolerance": 35.864915157799786
+    },
+    {
+      "id": "south:ata_ada_north_island_7",
+      "tolerance": 38.97508238186259
+    },
+    {
+      "id": "south:ata_ada_south_island_8",
+      "tolerance": 38.451657594815494
+    },
+    {
+      "id": "south:chashman_island",
+      "tolerance": 60.151636835643
+    },
+    {
+      "id": "south:darja_to_east_mainland_completion",
+      "tolerance": 0
+    },
+    {
+      "id": "south:east_fringe_mainland_completion",
+      "tolerance": 300
+    },
+    {
+      "id": "south:coast_TCI_intersection_to_kura",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kizilagach_north_and_inner_spit",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kizilagach_west_water_margin_complete",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kura_to_kizil_continuous_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "south:kura_north_mouth_tip_extension",
+      "tolerance": 300
+    },
+    {
+      "id": "south:burana_islet",
+      "tolerance": 17.11217352836075
+    },
+    {
+      "id": "south:kulagin_offshore_islet",
+      "tolerance": 16.591494758256736
+    },
+    {
+      "id": "east-north:east_outer_reread_1929",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:karabogaz_north_spit_inner_1929",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:buzachi_mangyshlak_source_join",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:buzachi_north_inherited_full_1934source",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:prorva_coast_before_prior_cut",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:prorva_small_island_A",
+      "tolerance": 18.769347089866677
+    },
+    {
+      "id": "east-north:prorva_small_island_B",
+      "tolerance": 13.816631151579829
+    },
+    {
+      "id": "east-north:karabogaz_north_spit_printed_round_proxy",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_same_bold_ink_gap_1",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_same_bold_ink_gap_2",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:Prorva_same_thin_stroke_completion",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_dotted_north_tip_continuation",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_station9_occluded_dotted_continuation",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_Burkay_visible_bold_completion",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_Burkay_dotted_to_bold_continuation",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:karabogaz_south_spit_printed_round_candidate",
+      "tolerance": 300
+    },
+    {
+      "id": "east-north:1934_mouth_outer_dot_route_candidate",
+      "tolerance": 300
+    },
+    {
+      "id": "south-junctions:east_coast_south_neck__source_seam_corrected",
+      "tolerance": 0
+    },
+    {
+      "id": "south-junctions:krasnovodsk_west_shore_peninsula__trimmed_at_actual_TCI_intersection",
+      "tolerance": 0
+    },
+    {
+      "id": "south-junctions:soi_north_rim_U_inner_to_Darja_completed",
+      "tolerance": 0
+    },
+    {
+      "id": "south-junctions:darja_balkhan_north_bank__first_vertex_reread",
+      "tolerance": 300
+    },
+    {
+      "id": "prorva:prorva_south_main_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "prorva:channel_island_C",
+      "tolerance": 16.203427615436777
+    },
+    {
+      "id": "prorva:channel_island_D",
+      "tolerance": 24.76238680763257
+    },
+    {
+      "id": "prorva:channel_island_F",
+      "tolerance": 25.923527872937324
+    },
+    {
+      "id": "north-completion:north1908_west_to_ural_west_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:north1908_ural_delta_outer_east_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:north1908_ural_to_emba_reed_shore",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:north1908_emba_to_prorva_overlap",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:prorva_north_main_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-00",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-01",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-02",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-03",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-04",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-05",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-06",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-07",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-08",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-09",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-10",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-11",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-12",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-13",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-14",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-15",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-16",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-17",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-18",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-19",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-20",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-21",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-22",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-23",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-24",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-25",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-26",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-27",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-28",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-29",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-30",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-31",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-32",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-33",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-34",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-35",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-36",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-37",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-38",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-39",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-40",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:sinee-east-extension-source-41",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-north_backbay_connected_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-north_backbay_finger1",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-north_backbay_finger2",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-north_backbay_finger3",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-north_backbay_south_fingers",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-sinee_west_bank_middle",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-sinee_west_bank_south",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-sinee_south_bank_barynin_approach",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-gap1_barynin_seaward_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:1908-gap1_south_bank",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:lower22-mainland-bank-corrected",
+      "tolerance": 300
+    },
+    {
+      "id": "west:west_historical_remainder_0",
+      "tolerance": 300
+    },
+    {
+      "id": "north-completion:list16-derived-waterbody-limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:list19-derived-waterbody-limit",
+      "tolerance": 0
+    },
+    {
+      "id": "water-limit:Kura_Caspian_extent_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "water-limit:Anzali_Caspian_extent_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "water-limit:Sefidrud_Caspian_extent_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "water-limit:prorva_north_waterbody_extent",
+      "tolerance": 0
+    },
+    {
+      "id": "water-limit:prorva_south_waterbody_extent",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:list16_to1908_technical_transition",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:ural_derived_waterbody_mouth_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-01",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-03",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-04",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-05",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-06",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-07",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-08",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-09",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-10",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-11",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-12",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-13",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-14",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-15",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-16",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-17",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-18",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-19",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-20",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-21",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-22",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-23",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-24",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-25",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-26",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-27",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-28",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-29",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-30",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-31",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-32",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-33",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-34",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-35",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-36",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-37",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-38",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-39",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-40",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee-east-extension-mouth-41",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:1908-sinee-upper-mouth-limit-1",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:1908-sinee-upper-mouth-limit-2",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:1908-sinee-upper-mouth-limit-3",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:1908-sinee-upper-mouth-limit-4",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee_west_middle_mouth_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:sinee_south_small_mouth_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:barynin_derived_waterbody_extent_limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:list19-volga-caspian-water-limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:list19-list23-water-partition-sheet-transition",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:list23-volga-caspian-water-limit",
+      "tolerance": 0
+    },
+    {
+      "id": "north-completion:caspian-22-23-coastal-channel-waterbody-partition",
+      "tolerance": 0
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-13",
+      "tolerance": 86.83783242857402
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-19",
+      "tolerance": 82.6606847866058
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-29",
+      "tolerance": 88.51065981814936
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-30",
+      "tolerance": 114.35781180872755
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-32",
+      "tolerance": 68.17604894630496
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-38",
+      "tolerance": 120
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-44",
+      "tolerance": 87.48537765109944
+    },
+    {
+      "id": "north-island:north21:list16-major-landmass-49",
+      "tolerance": 120
+    },
+    {
+      "id": "north-island:north21:list19-major-landmass-123",
+      "tolerance": 71.51138062176705
+    },
+    {
+      "id": "north-island:north21:list19-major-landmass-135",
+      "tolerance": 67.54568510228476
+    },
+    {
+      "id": "north-island:north21:list19-major-landmass-157",
+      "tolerance": 63.32477153922381
+    },
+    {
+      "id": "north-island:north21:list19-major-landmass-436",
+      "tolerance": 66.68234890286566
+    },
+    {
+      "id": "north-island:north21:list19-major-landmass-512",
+      "tolerance": 65.1630054146284
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-68",
+      "tolerance": 59.97065589268061
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-70",
+      "tolerance": 48.649964888551295
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-75",
+      "tolerance": 44.99901795784973
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-81",
+      "tolerance": 52.15433161078375
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-85",
+      "tolerance": 47.307900393869495
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-135",
+      "tolerance": 71.34964922165449
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-146",
+      "tolerance": 41.252890250173934
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-island511-combined",
+      "tolerance": 86.61216183495942
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-lower121-120-combined",
+      "tolerance": 78.05179884261712
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-lower125",
+      "tolerance": 70.65455218342994
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-lower127-128-combined",
+      "tolerance": 62.33663066713558
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-bora-named-island",
+      "tolerance": 91.60594938812787
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-corrected-contour-63",
+      "tolerance": 66.81454270726411
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-corrected-contour-77",
+      "tolerance": 81.09827112004746
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-corrected-contour-80",
+      "tolerance": 54.95907108916678
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-corrected-contour-71",
+      "tolerance": 73.35695865182909
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-sheet23-manual-contour73-west-island-qa-corrected",
+      "tolerance": 55.01562172935137
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-sheet23-manual-contour73-east-islet-qa-corrected",
+      "tolerance": 29.740167595916148
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-93-qa-corrected",
+      "tolerance": 50.98669848681409
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-contour-130-qa-corrected",
+      "tolerance": 95.87773335288084
+    },
+    {
+      "id": "north-island:sheet23:sheet23-reviewed-sheet23-manual-contour130-northern-separate-islet-qa-corrected",
+      "tolerance": 17.61568416277905
+    },
+    {
+      "id": "north-island:lower22:lower22-east-hutnitsa-island",
+      "tolerance": 88.56209672187117
+    },
+    {
+      "id": "north-island:lower22:lower22-southern-sliver-island",
+      "tolerance": 32.2260083017702
+    },
+    {
+      "id": "north-island:lower22:lower22-central-channel-islet",
+      "tolerance": 15.44317811516659
+    },
+    {
+      "id": "north-island:lower22:lower22-north-small-islet",
+      "tolerance": 9.773397632554838
+    },
+    {
+      "id": "north-island:lower22:upper22-hooked-islet",
+      "tolerance": 27.24188235521703
+    },
+    {
+      "id": "north-island:dated1908:1908-gap2_south_island",
+      "tolerance": 39.78898770640251
+    },
+    {
+      "id": "north-island:dated1908:1908-gap2_east_island",
+      "tolerance": 23.84205772653135
+    }
+  ],
+  "interpretation": "Display generalization, not historical positional accuracy; NOT_COAST and source roles unchanged."
+}

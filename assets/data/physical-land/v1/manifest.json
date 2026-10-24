@@ -7,5 +7,29 @@
     "compressedBytes": 4357309,
     "decodedBytes": 12385591,
     "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
-  }
+  },
+  "historicalWaterbodies": [
+    {
+      "validFrom": "1922-12-30",
+      "validTo": "1925-05-12",
+      "referenceDate": "1922-12-30",
+      "id": "caspian-near1922-approved",
+      "land": {
+        "url": "assets/data/physical-land/v1/caspian-1922-land.json.gz",
+        "encoding": "gzip",
+        "compressedBytes": 4423308,
+        "decodedBytes": 12385352,
+        "sha256": "487594cc829d8d58ebb0ab7a04eace628fe58864262e4eb4533af8245ca96ec4"
+      },
+      "water": {
+        "url": "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+        "encoding": "gzip",
+        "compressedBytes": 101744,
+        "decodedBytes": 262771,
+        "sha256": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1"
+      },
+      "scope": "Physical water presentation only, not a sovereignty subtraction; NOT_COAST partitions are water limits, never drawn as land/banks. Display coverage through1925-05-12 is user-selected; not a surveyed1925 shore.",
+      "modernReference": "Natural Earth5.1.1, not2026 surveyed shore"
+    }
+  ]
 }
