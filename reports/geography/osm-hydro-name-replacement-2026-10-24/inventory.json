@@ -1,7 +1,7 @@
 {
   "reportId": "GEO-HYDRO-OSM-20261024",
   "kind": "provenance-and-name-audit",
-  "state": "40-non-OSM-river-system-metadata-staged-verification-success-33-remaining",
+  "state": "42-independent-sources-verified-isolated-31-osm-matches-pending",
   "scope": "73 OSM relation-matched logical HydroRIVERS systems, plus previously approved source overrides",
   "manifest": "PandoLab-library-data/assets/data/hydro/v0.13.2/manifest.json",
   "pin": "71a67904db2beb933735727ad6c19adde082d2bd",
@@ -433,7 +433,7 @@
           "https://undine.bafg.de/elbe/extremereignisse/elbe_hw2013.html"
         ],
         "validatedGeometrySource": "Elbe",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -526,7 +526,7 @@
           "https://www.iksr.org/en/topics/pollution/international-warning-and-alarm-plan/rhine-alarm-model"
         ],
         "validatedGeometrySource": "Rhine",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -613,7 +613,7 @@
           "https://etat.environnement.wallonie.be/contents/indicatorsheets/EAU%202.html"
         ],
         "validatedGeometrySource": "Scheldt",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -830,7 +830,7 @@
           "https://buvrpb.davr.gov.ua/vodni-resursy/hidrohrafichna-merezha"
         ],
         "validatedGeometrySource": "Southern Bug",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -874,7 +874,7 @@
           "https://gov.md/en/comunicate-de-presa-bpr/environmental-experts-discuss-critical-hydrological-situation-nistru-river"
         ],
         "validatedGeometrySource": "Dniester",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -1157,9 +1157,31 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "마리차강",
+        "previousNameKo": "마리차강",
+        "nameChanged": false,
+        "aliases": [
+          "Maritsa",
+          "Evros",
+          "Meriç"
+        ],
+        "tributaryNames": [
+          "툰자강"
+        ],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://earbd.bg/indexdetails.php?menu_id=226",
+          "https://www.pamth.gov.gr/en/anaklisi-tis-apagoreysis-alieias-ston-potamo-evro-stoys-parapotamoys-toy-sta-kanalia-kai-stoys-loipoys-ydatinoys-schimatismoys-2/",
+          "https://ec.europa.eu/futurium/en/system/files/ged/interreg_25years_en.pdf"
+        ],
+        "validatedGeometrySource": "Maritsa",
+        "verificationMethod": "bulgarian-greek-institutional-mainstem-confirmation",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "20628098",
@@ -1229,7 +1251,7 @@
           "https://www.miteco.gob.es/es/agua/planes-y-estrategias/informes-de-viabilidad-de-obras-hidraulicas/chguadiana2.html"
         ],
         "validatedGeometrySource": "Guadiana",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -1272,7 +1294,7 @@
           "https://www.boe.es/buscar/act.php?id=BOE-A-2013-5319"
         ],
         "validatedGeometrySource": "Guadalquivir",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -1515,7 +1537,7 @@
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/663361468283187700"
         ],
         "validatedGeometrySource": "Syr Dar",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -1696,7 +1718,7 @@
           "https://dfz.jl.gov.cn/zsjl/201809/t20180929_5216605.html"
         ],
         "validatedGeometrySource": "Yalu",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -1893,7 +1915,7 @@
           "https://www.ktr.mlit.go.jp/river/shihon/river_shihon00000122.html"
         ],
         "validatedGeometrySource": "Tone",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -1960,7 +1982,7 @@
           "https://www.me.go.kr/ndg"
         ],
         "validatedGeometrySource": "Nakdong",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2300,7 +2322,7 @@
           "https://ngheandost.gov.vn/csdl-khxhnv/dat-va-nguoi-xu-nghe/thuc-trang-va-nguyen-nhan-sat-lo-bo-song-lam-nhung-nam-gan-day-225.html"
         ],
         "validatedGeometrySource": "Cả",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2343,7 +2365,7 @@
           "https://www.sei.org/publications/climate-change-sittaung-river/"
         ],
         "validatedGeometrySource": "Sittong",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2390,7 +2412,7 @@
           "https://www.fao.org/aquastat/en/countries-and-basins/transboundary-river-basins/salween/"
         ],
         "validatedGeometrySource": "Salween",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2461,7 +2483,7 @@
           "https://www.rid.go.th/th/rid_news/28956"
         ],
         "validatedGeometrySource": "Chao Phraya",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2504,7 +2526,7 @@
           "https://dwrm.mae.gov.vn/bo-nong-nghiep-va-moi-truong-phe-duyet-quy-hoach-tong-hop-luu-vuc-song-ba-den-nam-2030-tam-nhin-2050-16754.htm"
         ],
         "validatedGeometrySource": "Ba",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2659,7 +2681,7 @@
           "https://www.ksp.go.kr/pageView/info/797"
         ],
         "validatedGeometrySource": "Mekong",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2744,7 +2766,7 @@
           "https://sda.pu.go.id/balai/bwskalimantan3/profil/sejarah"
         ],
         "validatedGeometrySource": "Barito",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2769,9 +2791,27 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "야라강",
+        "previousNameKo": "야라강",
+        "nameChanged": false,
+        "aliases": [
+          "Yarra River",
+          "Birrarung"
+        ],
+        "tributaryNames": [],
+        "independentSourceUrls": [
+          "https://spatial.planning.vic.gov.au/server/rest/services/yarra_river_land/MapServer/0",
+          "https://www.melbournewater.com.au/water-and-environment/water-management/rivers-and-creeks/yarra-river",
+          "https://discover.data.vic.gov.au/en_AU/dataset/vicmap-hydro-watercourse-line"
+        ],
+        "validatedGeometrySource": "https://spatial.planning.vic.gov.au/server/rest/services/yarra_river_land/MapServer/0",
+        "verificationMethod": "official-government-polyline-confirmation",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "70576631",
@@ -2811,7 +2851,7 @@
           "https://water.usgs.gov/GIS/huc_name.html"
         ],
         "validatedGeometrySource": "Delaware",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -2857,7 +2897,7 @@
           "https://www.srbc.net/"
         ],
         "validatedGeometrySource": "Susquehanna",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     },
@@ -3100,7 +3140,7 @@
           "https://www.twdb.texas.gov/surfacewater/rivers/river_basins/colorado/index.asp",
           "https://waterdata.usgs.gov/monitoring-location/USGS-08162504/"
         ],
-        "validatedGeometrySource": "three USGS reference stations",
+        "validatedGeometrySource": "USGS verified gauge positions",
         "verificationMethod": "USGS",
         "publishedToRuntime": false
       }
@@ -3151,14 +3191,14 @@
           "https://www.ibwc.gov/treaties/"
         ],
         "validatedGeometrySource": "Grande",
-        "verificationMethod": "Natural Earth full mainstem",
+        "verificationMethod": "natural earth independent named line",
         "publishedToRuntime": false
       }
     }
   ],
-  "verifiedCandidates": 40,
-  "osmMatchedRemainingInStagedBundle": 33,
+  "verifiedCandidates": 42,
+  "osmMatchedRemainingInStagedBundle": 31,
   "currentPublishedOsmMatched": 73,
-  "candidatePackageEvidence": "staged-40-proof.json",
-  "latestStageCommit": "3280e5e7627f0ca918351d369803ade7eeb53314"
+  "candidatePackageEvidence": "staged-42-proof.json",
+  "latestStageCommit": "112ebcd67402945b106f3ab6d5c91630e144363e"
 }
