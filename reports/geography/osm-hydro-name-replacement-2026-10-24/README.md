@@ -287,6 +287,15 @@
 
 이 차수에서도 **`assets/data/hydro/v0.13.2/`, 실제 웹·앱 런타임 및 OSM 지도 출처 링크를 수정하지 않았다**. 변경은 Pando `work/gis` 연구 코드·분리된 검증용 번들과 데이터 저장소의 조사 보고서에 한정된다.
 
+## 최신 진행 — 42개 교체 검증 · 31개 미완료 (2026-10-24)
+
+- `work/gis` 커밋 [`112ebcd`](https://github.com/kimjeon-il/Pando/commit/112ebcd67402945b106f3ab6d5c91630e144363e)에서 **42/73개 수계**의 OSM 이름·관계 의존성을 **격리 검증용 메타데이터**로 교체했다. 대표명 정정 **8개**, 대표명 유지·출처/별칭 정리 **34개**. 실제 웹/앱 배포 및 원본 수계 자산 변경 **0개**.
+- [GitHub Actions 42개 교체 검증](https://github.com/kimjeon-il/Pando/actions/runs/40053686547) **성공**: 메타데이터 수정 구성 구간 **1,895개**, 원래 16,548개 전체 형상·902 pack·3 geometry shard 재판독 통과, 압축된 공간 인덱스 및 원본 지오메트리 3개 SHA-256 각각 동일. 격리 번들 SHA-256 `d158d4323a10dc349c060647534778b70fb244543d3a843275389a898daacf9f`. [영구 검증 증거](staged-42-proof.json) · [임시 교체 패키지](https://github.com/kimjeon-il/Pando/actions/runs/40053686547/artifacts/12544785894).
+- `50798885` **야라강**: 빅토리아주 정부 [Yarra River/Birrarung 공식 수계 GIS 선형](https://spatial.planning.vic.gov.au/server/rest/services/yarra_river_land/MapServer/0)과 기존 Hydro 중심선 161개 표본 상호 비교 결과, 양방향 **1km 이내 98.76%**, Hydro 기준 거리 90백분위 **0.338km**. [공식 메타데이터 CC BY 4.0](https://discover.data.vic.gov.au/en_AU/dataset/vicmap-hydro-watercourse-line) 및 [멜버른 수자원기관 설명](https://www.melbournewater.com.au/water-and-environment/water-management/rivers-and-creeks/yarra-river). [정부 지리정보 원천 해시·검증 기록](yarra-government-vector-crosscheck.json). **정부 선형을 복사해 배포하지 않았음**.
+- `20597827` **마리차강**: [불가리아 동에게해 수계관리국](https://earbd.bg/indexdetails.php?menu_id=226)·[그리스 에브로스 지방정부](https://www.pamth.gov.gr/en/anaklisi-tis-apagoreysis-alieias-ston-potamo-evro-stoys-parapotamoys-toy-sta-kanalia-kai-stoys-loipoys-ydatinoys-schimatismoys-2/) 자료로 국경을 넘는 Maritsa/Evros 수계와 Tundzha 지류 관계를 확인. NE 본류 표본 일치율 37%이므로 **두 국가 기관의 독립 지명 설명을 교차검증**하여 대표명 유지. 향후 더 정확한 선형 원출처 조사 필요.
+- [남은 31개 전수 조사 대기열](remaining-31-priority.json): Natural Earth 독립 명칭 선형 없음 16개, 본류·지류·객체 유형 충돌 우려 13개, 명칭 범위 자료 미비 2개. 우선순위: [젬/엠바강과 우랄강 혼동](emba-ural-identity-review.md), 핀란드 오울루강 2개 OGC 공식 수로 선형 대조, 일본 아라카와강/도네강 원천 경로 분리, 수에즈운하의 객체 유형 검토.
+- 모든 기존 HydroRIVERS 지오메트리·국가 경계·OSM 저작권 링크·지도 사용 데이터·웹/앱 빌드는 수정하지 않았다. 이 단계는 **검증용 대체 소스 준비**에 한정된다.
+
 ## 데이터 반영
 
 `not-applied` · 원본 수계 형상·명칭·출처 UI 유지, 단 재현 가능한 조사·대조 목록 생성.
