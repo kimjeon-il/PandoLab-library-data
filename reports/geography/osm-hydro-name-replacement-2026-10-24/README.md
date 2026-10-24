@@ -218,6 +218,43 @@
 - 데이터 저장소 `assets/data/hydro/v0.13.2/`와 Pando `config/library-data.json`은 **수정하지 않았다**. 검증 번들은 임시 Actions artifact 및 검증 해시로만 존재한다. 웹·앱 재배포와 `main` 병합도 수행하지 않았다.
 - 런타임 OSM 의존성 0개가 되기 전까지 지도 왼쪽 아래의 `© OpenStreetMap contributors` 링크는 보존한다.
 
+## 최신 검증: 33개 시스템 (2026-10-24 후속)
+
+> 기존 위쪽의 5개·22개별 절은 작성 당시의 연구 단계 기록이며, **이 절이 최신 잠정 검증 상태**다. 실제 공개 지도와 저장소의 기존 hydro 원본은 수정하지 않았다.
+
+- `work/gis` 커밋 [`f701ff4`](https://github.com/kimjeon-il/Pando/commit/f701ff4bb2263c1cc0dcabd79317e14a69322f2c)의 [독립 이름·출처 장부](https://github.com/kimjeon-il/Pando/blob/work/gis/tools/gis/hydro-independent-name-replacements.json)에 33개 시스템을 명시했다. 원래 대표명 오류 정정 7개, 대표명 보존·OSM 관계 및 별칭 정보 교체 26개다.
+- GitHub Actions [GIS OSM river name dependency inventory — 성공](https://github.com/kimjeon-il/Pando/actions/runs/40049580223)에서 최신 33개 대상 격리 패키지 생성, 독립 Natural Earth 81표본 비교와 USGS 공식 관측소 검증, 추가 합류점 관계 대조, 원본 생산용 디코더 전체 검증을 통과했다.
+- 원래 HydroRIVERS **16,548개 feature**, **902개 pack**, **3개 shard** 전체 판독에 성공. 메타데이터가 바뀐 구성 feature는 **1,270개**. 공간 인덱스와 지오메트리 shard 3개의 SHA-256은 각각 변경 전후 동일하다.
+- 최신 별도 격리 패키지 SHA-256: `f366eae11bb2b0be80c2419cb3b710925fac78eeec83a80ee7b4cc26b7c28e5a`. 원본 공개 데이터 SHA-256: `91c2268c6dbfdfa7fc6103d8ad0b4eeca71f6c522df5c0118db69a3654ff532a`.
+- [검증 증거(영구 JSON)](staged-33-proof.json) · [생성된 패키지(GitHub Actions 임시 보관)](https://github.com/kimjeon-il/Pando/actions/runs/40049580223/artifacts/12541894380) · [73개 수계별 갱신 상태](inventory.json)
+- **검증용 파생본에는 33/73개 대체 완료, 미완료 40개**. 실제 지도 런타임 원본은 OSM 매칭 73개 그대로이고 화면의 OSM 저작자 표시도 유지해야 한다.
+
+### 이번 차수의 신규 11개 시스템
+
+| system ID | 현재명 / 교체본 대표명 | 비OSM 근거·특기사항 |
+|---|---|---|
+| `20336821` | 템스강 | [영국 환경청 수계 관리계획](https://www.gov.uk/guidance/thames-river-basin-district-river-basin-management-plan-updated-2022), NE Thames 본류 근접 72.8% |
+| `20452421` | 돈강 | [러시아 연방수자원청](https://voda.gov.ru/press-tsenter/news/federalnye/559696/), NE Don 본류 81.5% |
+| `20588291` | 도루강 | [포르투갈 환경청](https://cnpgb.apambiente.pt/content/r%C3%A9gua)·[스페인 도루 수계관리기구](https://mirame.chduero.es/chduero/public/naturalElements/river), NE Douro 74.1% |
+| `41225082` | 람강 | [베트남 수자원관리기관](https://mae.gov.vn/quan-ly-dieu-phoi-lien-vung-luu-vuc-song-ca-21850.htm), NE Cả 85.2%, Sông Lam 동일 명칭 |
+| `50170097` | 마하캄강 | [인도네시아 공공사업부](https://sda.pu.go.id/balai/bwskalimantan4/page/4), NE Mahakam 79.0% |
+| `40190238` | 아무다리야강 | [세계은행 Amu Darya 유역 자료](https://www.worldbank.org/en/news/press-release/2026/07/21/world-bank-support-improves-central-asia-water-management-and-conservation), 판지강을 지류로 분리, NE Amu Darya 71.6% |
+| `40613666` | 장강 | [중국 수리부 자료](https://slj.cq.gov.cn/zwgk_250/zfxxgkml/jczwgk/sxgcgl/sxgcyxaqgl/202204/t20220402_10585421.html), 잘못 섞인 메콩강 관계·별칭 제거, NE Yangtze 72.8% |
+| `20081953` | 북드비나강 | [러시아 정부 수로 목록](https://www.consultant.ru/document/cons_doc_LAW_40441/526e96dcf757c61b65432d68902b24c3b6a25b51/), NE Northern Dvina 49.4% / Vychegda 44.4%, 합류점 관계 보존 |
+| `20446779` | 루아르강 | [프랑스 정부 루아르·비엔강 합류점 지정](https://www.prefectures-regions.gouv.fr/pays-de-la-loire/DOCUMENTS-PUBLICATIONS/Environnement-Classement-de-la-confluence-de-la-Loire-et-de-la-Vienne), 잘못 들어간 센강 별칭 제거, NE Loire 40.7% / Vienne 64.2% |
+| `20498112` | 도나우강 | [ICPDR 수계·지류 명단](https://www.icpdr.org/danube-basin/danube-river-basin), NE Danube 58.0% / Sava 28.4%; 주요 지류명 독립 검증 |
+| `70617856` | 새크라멘토강 | [미국 USGS 센트럴밸리](https://www.usgs.gov/centers/california-water-science-center/central-valley-regional-overview)·[캘리포니아 DWR 페더강](https://water.ca.gov/Programs/Integrated-Science-and-Engineering/Feather-River-Program), 샌와킨강은 별개 수계로 분리, NE Sacramento 58.0% / Pit 38.3% |
+
+### 남은 40개 검토 범위
+
+- [40개 전수 후속 작업 장부](remaining-40-priority.json). NE 단순 이름 대조에 대응 후보가 없는 **17개**, 본류·지류·별칭 충돌 우려가 큰 **17개**, 명칭 범위의 문헌 보강이 필요한 **6개**로 분류했다. 이 분류는 조사 우선순위이며 잘못된 명칭의 최종 확정 수가 아니다.
+- 주요 미확정: `20265844` 드르벵차/비스와/서부크강 구분(폴란드 [Wody Polskie](https://www.gov.pl/web/wody-polskie/komunikaty-nawigacyjne) 공식 노선 확인), `41023100` 라비/인더스/첸나브강, `41182380` 꺼우/홍강, `41337891` 빠삭/욤강, `70814357` 미시시피/리오그란데강 별칭 혼입([미국 USGS 별개 유역 분류](https://pubs.usgs.gov/publication/dds49118)), 수에즈운하 2개 ID의 객체 형식 문제.
+- 이 40개는 단일 출처나 OSM bbox만으로 자동 명명·승격하지 않는다. 각국 정부 벡터/기준 관측소, 본류·지류 경로, 독립 지명 자료를 결합해 판단한다.
+
+### 게시 여부
+
+이 차수에서도 **`assets/data/hydro/v0.13.2/`, 실제 웹·앱 런타임 및 OSM 지도 출처 링크를 수정하지 않았다**. 변경은 Pando `work/gis` 연구 코드·분리된 검증용 번들과 데이터 저장소의 조사 보고서에 한정된다.
+
 ## 데이터 반영
 
 `not-applied` · 원본 수계 형상·명칭·출처 UI 유지, 단 재현 가능한 조사·대조 목록 생성.
