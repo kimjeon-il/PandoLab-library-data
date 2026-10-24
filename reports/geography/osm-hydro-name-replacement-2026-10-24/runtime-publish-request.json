@@ -10,9 +10,10 @@
   "artifact": "https://github.com/kimjeon-il/Pando/actions/runs/40055943255/artifacts/12545640505",
   "review": "https://github.com/kimjeon-il/PandoLab-library-data/blob/main/reports/geography/osm-hydro-name-replacement-2026-10-24/README.md",
   "policy": "Store only source-independent audited metadata. Leave 31 unverified OSM relations and global attribution untouched.",
-  "status": "stored-in-immutable-data-and-pinned-in-main-pages-deployment-pending",
+  "status": "completed-storage-pinned-to-main-and-pages-build-deploy-success",
   "transport": "sparse Git checkout to avoid unrelated archive and terrain files",
   "completedDataCommit": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
   "completedMainCommit": "15046c820c393e9822b9e148d972291d101822f1",
-  "storageActionsRun": "https://github.com/kimjeon-il/PandoLab-library-data/actions/runs/40056202118"
+  "storageActionsRun": "https://github.com/kimjeon-il/PandoLab-library-data/actions/runs/40056202118",
+  "pagesActionsRun": "https://github.com/kimjeon-il/Pando/actions/runs/40057033282"
 }
