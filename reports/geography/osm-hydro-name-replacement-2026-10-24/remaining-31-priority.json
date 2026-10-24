@@ -47,11 +47,29 @@
       "previousFlag": null,
       "primarySourceLeads": [
         "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/",
-        "https://cblt.org/wp-content/uploads/2026/05/Lake-Chad-Basin-Strategic-Action-Programme-SAP-2023-2037_compressed.pdf"
+        "https://cblt.org/wp-content/uploads/2026/05/Lake-Chad-Basin-Strategic-Action-Programme-SAP-2023-2037_compressed.pdf",
+        "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2021-08/010082147.pdf"
       ],
       "independentFinding": "Lake Chad Basin Commission independently describes Chari-Logone hydrology and upstream Bahr Aouk and Bamingui/Gribingui rivers. This supports basin/tributary distinctions only; NE Chari covers 48.1% of the sampled Hydro mainstem and cannot establish full-system identity.",
       "applied": false,
-      "nextAction": "Use official Chari/Logone basin maps or named hydrometric stations to validate the actual Hydro mainstem and tributary split before removing OSM-derived aliases."
+      "nextAction": "정식 Chari 하구-발원지 본류와 Bahr Aouk/Bahr Sara/Logone 지류를 분할한 국가·LCBC 공인 벡터 확보",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "confirmed-existing-lower-reach-partial-mainstem",
+        "preliminaryDecisionKo": "샤리강 유지 유력. 하류 관측소 4곳의 중심선 근접 확인, 상류까지 동일 이름 부여 불가",
+        "findingsKo": "2021년 차드 수문 관측소 Sarh·Bousso·Mailao·N'Djamena는 기존 Hydro 본류에서 각각 약 1.106·2.464·1.045·0.908km. 포장된 논리 본류가 1845km이므로 샤리 본류 1개 명칭을 전체에 일괄 적용하지 않음.",
+        "estimatedMainstemLengthKm": 1845.142,
+        "nearestIndependentPointKmByRiver": {
+          "Bahr Sara (Chari tributary)": 14.034,
+          "Chari": 1.045,
+          "Chari/Logone": 0.908,
+          "Logone": 15.511
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
     },
     {
       "systemId": "10526283",
@@ -61,11 +79,29 @@
       "candidateNEPaths": [],
       "previousFlag": null,
       "primarySourceLeads": [
-        "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/"
+        "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/",
+        "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2021-08/010082147.pdf"
       ],
       "independentFinding": "Lake Chad Basin Commission offers a non-OSM hydrological description of the Chari-Logone basin. This small, separately grouped Hydro system has no NE named-line match; official basin narrative does not assign this system's exact centerline.",
       "applied": false,
-      "nextAction": "Locate station coordinates or authoritative named Chari/Logone line segments; spatially test this Hydro ID independently from 10521208."
+      "nextAction": "해당 Hydro ID의 상류·하구 및 하천 고유 이름을 독립 지명등록부·관측소·공식 선형으로 특정",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "identity-unknown-no-safe-relabel",
+        "preliminaryDecisionKo": "기존 샤리강 명칭 근거 부족, 새 하천명 미확정",
+        "findingsKo": "640.088km 본류에서 가까운 차드 샤리 관측소까지 52.783km, 나머지 관측점은 더 멀다. 독립 NE 이름도 없다. 이는 기존 이름 오매칭 의심을 강화할 뿐 올바른 이름은 확인하지 못함.",
+        "estimatedMainstemLengthKm": 640.088,
+        "nearestIndependentPointKmByRiver": {
+          "Bahr Sara (Chari tributary)": 119.052,
+          "Chari": 52.783,
+          "Chari/Logone": 198.3,
+          "Logone": 194.828
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
     },
     {
       "systemId": "20071308",
@@ -94,7 +130,7 @@
       ],
       "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. National Land Survey of Finland confirms independent watercourse line vectors sourced from the National Topographic Database, via open OGC API Features/WFS without API key and under NLS open CC BY 4.0 licence. Oulujoki official hydrology is already documented; live vector query and Hydro mainstem overlap remain untested. Published mainstem (416.298 km) is longer than the officially described 107-km Oulujoki reach; NLS official Oulujoki point is 1.964 km from Hydro centerline, versus 37.737 km for Siikajoki.",
       "applied": false,
-      "nextAction": "Verify individual 107-km Oulujoki reach and upstream Hyrynsalmi/Sotkamo network with official Finnish named polylines; do not transfer one river name across all 416 km.",
+      "nextAction": "핀란드 국토조사국 실명 수로 벡터로 Oulujoki 107km 및 상류 Hyrynsalmi/Sotkamo 등 구간 분리",
       "independentPointEvidence": {
         "source": "independent-river-point-crosscheck.json",
         "method": "published-point-to-deployed-Hydro-mainstem-distance",
@@ -106,6 +142,21 @@
           "finnish_nls_oulujoki": 1.964,
           "finnish_nls_siikajoki": 37.737
         }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "existing-name-support-partial-named-reach",
+        "preliminaryDecisionKo": "오울루강 명칭을 하류에 유지할 근거, 상류 이름 구간 미분리",
+        "findingsKo": "핀란드 국토조사국 Oulujoki 등록 지점에서 1.964km, Siikajoki 지점에서 37.737km. Hydro 본류 416.298km는 공식 107km Oulujoki보다 길다.",
+        "estimatedMainstemLengthKm": 416.298,
+        "nearestIndependentPointKmByRiver": {
+          "Oulujoki": 1.964,
+          "Siikajoki": 37.737
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
       }
     },
     {
@@ -128,7 +179,7 @@
       ],
       "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. The Finnish National Land Survey independently publishes Watercourse line vector data under CC BY 4.0. System 20075401 has no NE named-line match and must not inherit 20071308's Oulujoki identity from a shared OSM relation ID. Hydro mainstem (179.022 km) is 0.396 km from NLS Siikajoki registered river point but 38.998 km from registered Oulujoki point. Finnish Environment Institute describes separate 194-km Siikajoki, strong false OSM shared-relation diagnosis.",
       "applied": false,
-      "nextAction": "Acquire named NLS Siikajoki centerline and verify along 179 km, confluences and license; decide exact Korean label before removing the Oulujoki alias.",
+      "nextAction": "핀란드 국가 실명 수로 선형, 하구, 하천명 구간과 한국어 표기 확인 후 교체 패키지 작성",
       "independentPointEvidence": {
         "source": "independent-river-point-crosscheck.json",
         "method": "published-point-to-deployed-Hydro-mainstem-distance",
@@ -140,6 +191,21 @@
           "finnish_nls_oulujoki": 38.998,
           "finnish_nls_siikajoki": 0.396
         }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "high-priority-rename-suspect-independent-name-register",
+        "preliminaryDecisionKo": "오울루강 → 시카강(Siikajoki) 유력, 정식 선형 검증 필요",
+        "findingsKo": "기존 Hydro 본류 179.022km; 핀란드 NLS 시카강 지정 지점 0.396km, 오울루강 지정 지점 38.998km. 같은 OSM relation을 공유한 잘못된 명명 가능성이 높음.",
+        "estimatedMainstemLengthKm": 179.022,
+        "nearestIndependentPointKmByRiver": {
+          "Oulujoki": 38.998,
+          "Siikajoki": 0.396
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
       }
     },
     {
@@ -163,11 +229,27 @@
       "previousFlag": null,
       "primarySourceLeads": [
         "https://www.gov.pl/web/wody-polskie/warstwa-pzrp-w-nowej-odslonie-wtyczyki-qgis-wod-polskich",
-        "https://data.europa.eu/data/datasets/https-dane-gov-pl-pl-dataset-2167-mapa-podzialu-hydrograficznego-polski-w-skali-110"
+        "https://data.europa.eu/data/datasets/https-dane-gov-pl-pl-dataset-2167-mapa-podzialu-hydrograficznego-polski-w-skali-110",
+        "https://danepubliczne.imgw.pl/api/data/hydro/format/html"
       ],
       "independentFinding": "Poland's public water authority publishes MPHP10k (hydrographic division and named river network) via WMS and its QGIS plugin. This is an independent verification lead for the Polish Oder reach, not yet a downloaded/reusable named centerline or a verified full transboundary Hydro identity.",
       "applied": false,
-      "nextAction": "Compare official MPHP10k Oder/Odra and Warta river sections, then cross-border join to independently sourced German reach; resolve only Hydro segments actually on the Oder mainstem."
+      "nextAction": "MPHP10k / IMGW 구간 연결과 오데르·바르타 합류점 검증, 독일 국경 연계 후 이름의 적용 범위를 구간별 확인",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "mainstem-and-tributary-mixed-no-global-rename",
+        "preliminaryDecisionKo": "오데르강을 전체 수정하지 말고 바르타강의 합류·상류 구간 분리",
+        "findingsKo": "폴란드 IMGW 오데르 관측지점 0.250~0.336km, 바르타 관측지점 0.168~0.298km인 구간이 같은 591.434km Hydro 논리 본류에 근접. 상류 Odra 관측소는 100km 이상 떨어져 표시 범위가 제한됨.",
+        "estimatedMainstemLengthKm": 591.434,
+        "nearestIndependentPointKmByRiver": {
+          "Odra": 0.25,
+          "Warta": 0.168
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
     },
     {
       "systemId": "20456598",
@@ -186,7 +268,7 @@
       ],
       "independentFinding": "Current 우랄강 is a possible false OSM bbox match for the separate Zhem/Emba catchment. Kazakh government describes its Mugalzhar headwaters and Caspian drainage. Hydro 699.416-km mainstem is 0.207 km from independently book-sourced Zhem/Emba location but 308.332 km from Ural/Zhaiyk location. Kazakhstan Mugalzhar government independently names Zhem/Emba as its own river. Published point transcription is secondary, not official government GIS geometry.",
       "applied": false,
-      "nextAction": "Acquire official Kazakh Zhem/Emba river centerline or at least three primary-source gauging stations and verify against entire Hydro mainstem before renaming.",
+      "nextAction": "카자흐스탄 공인 중심선이나 적어도 공식 수위 관측소 다수 확보·공식 한국어명 검수",
       "independentPointEvidence": {
         "source": "independent-river-point-crosscheck.json",
         "method": "published-point-to-deployed-Hydro-mainstem-distance",
@@ -198,6 +280,21 @@
           "kazakh_emba_atlas_location": 0.207,
           "kazakh_ural_atlas_location": 308.332
         }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "high-priority-rename-suspect-secondary-point-crosscheck",
+        "preliminaryDecisionKo": "우랄강 → 젬강/엠바강(Zhem/Emba) 유력, 정부 GIS 선형 필요",
+        "findingsKo": "카자흐스탄 독립 지리 문헌 젬강 지점 0.207km, 별개 우랄강 지점 308.332km. 정부 수문 설명도 두 하천을 구별하지만 이번 좌표는 2차 전사 자료임.",
+        "estimatedMainstemLengthKm": 699.416,
+        "nearestIndependentPointKmByRiver": {
+          "Zhaiyk/Ural": 308.332,
+          "Zhem/Emba": 0.207
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
       }
     },
     {
@@ -214,7 +311,7 @@
       ],
       "independentFinding": "Hydro 601.479-km mainstem is 1.366 km from published Terek mouth, versus 38.108 and 35.210 km from two independently sampled Sulak river locations.",
       "applied": false,
-      "nextAction": "Verify Terek mainstem and mouth using official Russian hydrology GIS or named gauge stations; do not copy nearby Sulak relation metadata.",
+      "nextAction": "러시아 국가 수문 기관 기준 테레크강 본류·하구·지류 선형 검증 뒤 OSM 관계 제거",
       "independentPointEvidence": {
         "source": "independent-river-point-crosscheck.json",
         "method": "published-point-to-deployed-Hydro-mainstem-distance",
@@ -227,6 +324,21 @@
           "russian_sulak_2024_field_upstream": 35.21,
           "russian_terek_register_mouth": 1.366
         }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "existing-name-supported-by-independent-points",
+        "preliminaryDecisionKo": "테레크강 기존명 유지 유력",
+        "findingsKo": "601.479km 본류는 테레크강 하구 문헌 지점 1.366km이고 술라크 독립 현장 관측점 35.210~38.108km.",
+        "estimatedMainstemLengthKm": 601.479,
+        "nearestIndependentPointKmByRiver": {
+          "Sulak": 35.21,
+          "Terek": 1.366
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
       }
     },
     {
@@ -243,7 +355,7 @@
       ],
       "independentFinding": "Hydro 282.666-km mainstem is 0.084 km and 0.030 km from two independent August 2024 Sulak field sites, but 34.557 km from secondary Terek mouth. Russian government resolution 1543-r (2023) legally maps Sulak confluence and dams at multiple coordinates near this Hydro course.",
       "applied": false,
-      "nextAction": "Verify Russian government Sulak statutory 2023 coordinates against actual Hydro polyline, segment Andi/Avar Koysu tributaries, then approve Korean name and independent metadata.",
+      "nextAction": "러시아 공식 술라크 강 수로 구간·아바르코이수 및 안디코이수 합류점과 한국어 표기 확정",
       "independentPointEvidence": {
         "source": "independent-river-point-crosscheck.json",
         "method": "published-point-to-deployed-Hydro-mainstem-distance",
@@ -256,6 +368,21 @@
           "russian_sulak_2024_field_upstream": 0.03,
           "russian_terek_register_mouth": 34.557
         }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "high-priority-rename-suspect-two-independent-field-points",
+        "preliminaryDecisionKo": "테레크강 → 술라크강(Sulak) 유력, 상류의 별도 이름 검증 필요",
+        "findingsKo": "282.666km 본류는 2024년 술라크 현장 관측점 두 곳에서 0.030·0.084km, 테레크강 하구에서 34.557km.",
+        "estimatedMainstemLengthKm": 282.666,
+        "nearestIndependentPointKmByRiver": {
+          "Sulak": 0.03,
+          "Terek": 34.557
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
       }
     },
     {
@@ -268,11 +395,39 @@
       "primarySourceLeads": [
         "https://portal.mepa.gov.ge/Ge/User/data",
         "https://portal.mepa.gov.ge/Ge/user/map/16",
-        "https://nea.gov.ge/En/News/2339"
+        "https://nea.gov.ge/En/News/2339",
+        "https://eu4waterdata.eu/images/pdf/library/UBA/EU4EnvWD_A1.4.1_GE_SW_Survey_Report_2022_ENG.pdf",
+        "https://publikasjoner.nve.no/rapport/2017/rapport2017_27.pdf"
       ],
       "independentFinding": "Georgia's environment ministry data portal lists NEA36 GCF_Basins and NEA38 Rioni_Basins as public free polygon basin/subbasin layers. They may disambiguate the Rioni catchment but are not named centerline vectors; Hydro feature-level overlap not tested.",
       "applied": false,
-      "nextAction": "Obtain authenticated source provenance and geometry of the official Rioni basin polygons, test system membership, then seek NEA hydrometric stations/named river polylines."
+      "nextAction": "2022년 NEA 측정 지점과 공식 하천망의 엔구리 본류·지류 연속성, 정식 한국어명 최종 검수 후 교체",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "very-strong-rename-suspect-multiple-nea-enguri-sites",
+        "preliminaryDecisionKo": "리오니강 → 엔구리강(Enguri) 매우 유력",
+        "findingsKo": "조지아 환경청 2022 현장 관측 Enguri 지점 5개 중 Potskho-Etseri 0.001km·Khaishi 0.126km·Vichnishi 0.213km·Anaklia 하구 0.623km. 반면 별도 Rioni 하류 정식 관측점까지 최소 26.744km.",
+        "estimatedMainstemLengthKm": 202.137,
+        "nearestIndependentPointKmByRiver": {
+          "Chanistskali (Enguri tributary)": 16.207,
+          "Chkhoushia (Enguri tributary)": 6.959,
+          "Dolra (Enguri tributary)": 3.326,
+          "Enguri": 0.001,
+          "Jejora": 50.602,
+          "Jumi (Enguri tributary)": 1.348,
+          "Khobistskali": 22.203,
+          "Krikhula": 45.09,
+          "Kvirila": 72.06,
+          "Nakra (Enguri tributary)": 2.071,
+          "Nenskra (Enguri tributary)": 5.109,
+          "Rioni": 26.744,
+          "Tskhenistskali": 9.906
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
     },
     {
       "systemId": "20565620",
@@ -284,11 +439,39 @@
       "primarySourceLeads": [
         "https://portal.mepa.gov.ge/Ge/User/data",
         "https://portal.mepa.gov.ge/Ge/user/map/16",
-        "https://nea.gov.ge/En/News/2339"
+        "https://nea.gov.ge/En/News/2339",
+        "https://eu4waterdata.eu/images/pdf/library/UBA/EU4EnvWD_A1.4.1_GE_SW_Survey_Report_2022_ENG.pdf",
+        "https://publikasjoner.nve.no/rapport/2017/rapport2017_27.pdf"
       ],
       "independentFinding": "Government NEA36/NEA38 basin polygon datasets can help distinguish a second OSM-relation-linked Rioni system from Rioni proper. Publication says Rioni subbasin work is ongoing; no named river centerline or Hydro ID-level match yet.",
       "applied": false,
-      "nextAction": "Separately compare this system bbox 41.6396,42.0812,43.6417,42.5646 with independent official basin geometry and locate hydrometric station references."
+      "nextAction": "리오니 하류·크비릴라 지류 이름 분리, 공식 중심선과 상류 지류 연결성 재확인 후 비OSM 교체",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "existing-name-supported-lower-rioni-kvirila-tributary",
+        "preliminaryDecisionKo": "리오니강 유지 타당, 크비릴라강 합류 구간 별도 표기",
+        "findingsKo": "2017년 노르웨이 NVE/조지아 NEA 관측소 중 Rioni Chaladidi·Patara-Poti 0.276km, Samtredia 0.861km; Kvirila Ajmeti·Zestaponi·하구 0.231~0.552km. 엔구리 관측 지점은 최소 20.96km.",
+        "estimatedMainstemLengthKm": 241.089,
+        "nearestIndependentPointKmByRiver": {
+          "Chanistskali (Enguri tributary)": 32.739,
+          "Chkhoushia (Enguri tributary)": 30.966,
+          "Dolra (Enguri tributary)": 94.381,
+          "Enguri": 20.96,
+          "Jejora": 33.45,
+          "Jumi (Enguri tributary)": 24.017,
+          "Khobistskali": 6.984,
+          "Krikhula": 42.758,
+          "Kvirila": 0.231,
+          "Nakra (Enguri tributary)": 101.038,
+          "Nenskra (Enguri tributary)": 92.256,
+          "Rioni": 0.276,
+          "Tskhenistskali": 64.292
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
     },
     {
       "systemId": "20628098",
@@ -752,5 +935,9 @@
   ],
   "publishedSourceCommit": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
   "publishedBundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
-  "publishedHydroRuntimeStatus": "pinned-to-pando-main-pages-actions-deployment-success"
+  "publishedHydroRuntimeStatus": "pinned-to-pando-main-pages-actions-deployment-success",
+  "batch01Reviewed": 10,
+  "batch01Status": "first-10-independent-point-investigation-complete-all-31-remain-source-uncleared",
+  "latestBatch01Evidence": "batch01-ten-named-point-screen.json",
+  "latestBatch01GitCommit": "031fac43f02e2ef31bced52eb4a92b6595de885b"
 }
