@@ -70,6 +70,10 @@ final-pages-evidence.json은 원격 최종 staging의 실제 4,400 files / 643,5
 
 [DEM CI 40139700391](https://github.com/kimjeon-il/Pando/actions/runs/40139700391)는 실제 DEM tile/cache/renderer 전환 assertion을 통과한 뒤 color screenshot 촬영 중 timeout이 발생했다. 같은 테스트의 Canvas Worker case를 GIS 작업트리의 기존 고정 DEM source cache로 재실행하여 20.1s에 통과했다. canvas-dem-delayed-preview.png, canvas-dem-detail-color.png, canvas-dem-detail-gray.png를 보존한다. 이 로컬 통과를 실패한 원격 실행의 통과로 바꿔 기록하지 않는다. Windows 전체 App CI는 기록 시각에 네이티브 빌드 중이며, 개별 native 저장 계약과 App staging/개발 서버 확인 결과를 전체 UI 검증으로 확대하지 않는다. 원격 산출물 P2의 수정된 plan 테스트는 성공했으며 후속 generate 단계가 진행 중이다.
 
+### Windows App 최종 결과 추가 (08:09 KST)
+
+앞선 중간 기록 이후 [Windows App CI 40139700581](https://github.com/kimjeon-il/Pando/actions/runs/40139700581)가 성공했다. 집중 shell/file 검사, 실제 자료의 staging·hash 검증, MSVC 네이티브 빌드 및 실제 Windows WebView 앱 실행을 모두 통과했다. windows-verification 아래 두 JSON은 해당 원격 실행에서 받은 원본 증거이며 world-windows.json의 12개 checks가 모두 PASS이다. 실제 WASM hash는 게시본 42de440a…와 같고 원격 차단 요청은 0개였다. 이 실행은 c9abf867의 App source를 검증하며 93b6e1b1과의 차이는 App 실행에 포함되지 않는 P2 테스트 파일 하나다. 플러그인의 모든 Windows·Android 편집 동작을 이 world probe가 검증했다고 확대하지 않는다.
+
 ## 최종 정리
 
 공용 pool에 다른 hardlink가 없는 135 blobs / 45,279,837 bytes를 추가 확인했다. 각 파일의 SHA-256을 파일명과 비교하고 로컬 Git 객체를 직접 읽어 124 blobs / 45,162,641 bytes의 정확한 복구를 확인한 뒤 삭제했다. 삭제 직전 중앙 잠금 아래 활성 write lease 부재와 nlink=1을 다시 확인했다. 이 단계의 실측 D: 여유 증가는 45,334,528 bytes이며 동시 빌드 영향을 포함할 수 있다.
