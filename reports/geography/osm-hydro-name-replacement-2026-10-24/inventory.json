@@ -1,7 +1,7 @@
 {
   "reportId": "GEO-HYDRO-OSM-20261024",
   "kind": "provenance-and-name-audit",
-  "state": "33-independent-sources-verified-isolated-40-osm-matches-pending",
+  "state": "40-non-OSM-river-system-metadata-staged-verification-success-33-remaining",
   "scope": "73 OSM relation-matched logical HydroRIVERS systems, plus previously approved source overrides",
   "manifest": "PandoLab-library-data/assets/data/hydro/v0.13.2/manifest.json",
   "pin": "71a67904db2beb933735727ad6c19adde082d2bd",
@@ -90,9 +90,30 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "나일강",
+        "previousNameKo": "나일강",
+        "nameChanged": false,
+        "aliases": [
+          "Nile"
+        ],
+        "tributaryNames": [
+          "백나일강",
+          "청나일강",
+          "소밧강"
+        ],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://nilebasin.org/nile-basin",
+          "https://nilebasin.org/en/content/nile-navigation-nilenav"
+        ],
+        "validatedGeometrySource": "Nile",
+        "verificationMethod": "official-basin-named-confluence",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "10521208",
@@ -284,9 +305,29 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "네만강",
+        "previousNameKo": "네만강",
+        "nameChanged": false,
+        "aliases": [
+          "Neman",
+          "Nemunas"
+        ],
+        "tributaryNames": [
+          "네리스강"
+        ],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://am.lrv.lt/uploads/am/documents/files/Raudonoji%20knyga/index.html",
+          "https://am.lrv.lt/lt/naujienos/spalio-1-d-isigalioja-draudimas-zvejoti-lasisiniu-zuvu-migracijai-ir-nerstui-svarbiose-upese-sToC/"
+        ],
+        "validatedGeometrySource": "Neman",
+        "verificationMethod": "official-basin-named-confluence",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "20265844",
@@ -318,9 +359,31 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": "드르벵차강 수계에 부크강 관계명 유입 가능성",
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "비스와강",
+        "previousNameKo": "드르벵차강",
+        "nameChanged": true,
+        "aliases": [
+          "Vistula",
+          "Wisła"
+        ],
+        "tributaryNames": [
+          "부크강",
+          "나레프강"
+        ],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://www.gov.pl/web/wody-polskie/komunikaty-nawigacyjne",
+          "https://www.gov.pl/web/infrastruktura/wspolpraca-miedzynarodowa-w-gospodarce-wodnej",
+          "https://samorzad.gov.pl/web/powiat-nowomiejski/informacja-o-powiecie"
+        ],
+        "validatedGeometrySource": "Vistula",
+        "verificationMethod": "independent-government-basin-rename",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "20282220",
@@ -370,7 +433,7 @@
           "https://undine.bafg.de/elbe/extremereignisse/elbe_hw2013.html"
         ],
         "validatedGeometrySource": "Elbe",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -463,7 +526,7 @@
           "https://www.iksr.org/en/topics/pollution/international-warning-and-alarm-plan/rhine-alarm-model"
         ],
         "validatedGeometrySource": "Rhine",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -550,7 +613,7 @@
           "https://etat.environnement.wallonie.be/contents/indicatorsheets/EAU%202.html"
         ],
         "validatedGeometrySource": "Scheldt",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -576,9 +639,27 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "센강",
+        "previousNameKo": "센강",
+        "nameChanged": false,
+        "aliases": [
+          "Seine",
+          "La Seine"
+        ],
+        "tributaryNames": [],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://eau-seine-normandie.fr/agence-de-leau/le-bassin-de-la-seine",
+          "https://www.drieat.ile-de-france.developpement-durable.gouv.fr/vigicrues-a29.html"
+        ],
+        "validatedGeometrySource": "Seine",
+        "verificationMethod": "government-confirmed-existing-mainstem-no-independent-rival",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "20446779",
@@ -749,7 +830,7 @@
           "https://buvrpb.davr.gov.ua/vodni-resursy/hidrohrafichna-merezha"
         ],
         "validatedGeometrySource": "Southern Bug",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -793,7 +874,7 @@
           "https://gov.md/en/comunicate-de-presa-bpr/environmental-experts-discuss-critical-hydrological-situation-nistru-river"
         ],
         "validatedGeometrySource": "Dniester",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1148,7 +1229,7 @@
           "https://www.miteco.gob.es/es/agua/planes-y-estrategias/informes-de-viabilidad-de-obras-hidraulicas/chguadiana2.html"
         ],
         "validatedGeometrySource": "Guadiana",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1191,7 +1272,7 @@
           "https://www.boe.es/buscar/act.php?id=BOE-A-2013-5319"
         ],
         "validatedGeometrySource": "Guadalquivir",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1217,7 +1298,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "운하를 강으로 표기(수에즈운하강)",
       "outcome": "unchanged"
     },
@@ -1243,7 +1324,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "운하를 강으로 표기(수에즈운하강)",
       "outcome": "unchanged"
     },
@@ -1361,9 +1442,30 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "아무르강",
+        "previousNameKo": "아무르강",
+        "nameChanged": false,
+        "aliases": [
+          "Amur",
+          "Heilongjiang",
+          "黑龙江"
+        ],
+        "tributaryNames": [
+          "우수리강"
+        ],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://voda.gov.ru/maps/khabarovskiy-kray/",
+          "https://atu.fish.gov.ru/press/regionalnye-novosti/organy-rybookhrany-rossii-i-kitaya-proveli-sovmestnyy-kontrol-na-reke-amur-i-ussuri/"
+        ],
+        "validatedGeometrySource": "Amur",
+        "verificationMethod": "official-basin-named-confluence",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "40145639",
@@ -1413,7 +1515,7 @@
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/663361468283187700"
         ],
         "validatedGeometrySource": "Syr Dar",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1523,9 +1625,28 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "needs-independent-evidence",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": null,
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "두만강",
+        "previousNameKo": "두만강",
+        "nameChanged": false,
+        "aliases": [
+          "Tumen",
+          "图们江"
+        ],
+        "tributaryNames": [],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://www.changbaishan.gov.cn/zjzbs/zrzy/201612/t20161229_208378.html",
+          "https://nkinfo.unikorea.go.kr/nkp/search/search.do?query=%EB%91%90%EB%A7%8C%EA%B0%95",
+          "https://dfz.jl.gov.cn/zsjl/201111/t20111122_5216469.html"
+        ],
+        "validatedGeometrySource": "Tumen",
+        "verificationMethod": "government-confirmed-existing-mainstem-no-independent-rival",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "40351117",
@@ -1575,7 +1696,7 @@
           "https://dfz.jl.gov.cn/zsjl/201809/t20180929_5216605.html"
         ],
         "validatedGeometrySource": "Yalu",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1703,7 +1824,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "한강 수계 전체를 남한강으로 이름붙였을 가능성",
       "outcome": "unchanged"
     },
@@ -1772,7 +1893,7 @@
           "https://www.ktr.mlit.go.jp/river/shihon/river_shihon00000122.html"
         ],
         "validatedGeometrySource": "Tone",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1839,7 +1960,7 @@
           "https://www.me.go.kr/ndg"
         ],
         "validatedGeometrySource": "Nakdong",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -1963,7 +2084,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "인더스강 본류 후보에 라비강 이름 부여 여부 조사 필요",
       "outcome": "unchanged"
     },
@@ -2031,7 +2152,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "갠지스강과 브라마푸트라강 본류 이름 범위 조사 필요",
       "outcome": "unchanged"
     },
@@ -2067,7 +2188,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "난판강과 별개인 홍강/Red 별칭의 혼입",
       "outcome": "unchanged"
     },
@@ -2099,7 +2220,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "룩남강과 꺼우강 관계명의 동일성 검토 필요",
       "outcome": "unchanged"
     },
@@ -2133,7 +2254,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "홍강 수계 범위에 꺼우강 관계명 혼입 여부 확인 필요",
       "outcome": "unchanged"
     },
@@ -2179,7 +2300,7 @@
           "https://ngheandost.gov.vn/csdl-khxhnv/dat-va-nguoi-xu-nghe/thuc-trang-va-nguyen-nhan-sat-lo-bo-song-lam-nhung-nam-gan-day-225.html"
         ],
         "validatedGeometrySource": "Cả",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2222,7 +2343,7 @@
           "https://www.sei.org/publications/climate-change-sittaung-river/"
         ],
         "validatedGeometrySource": "Sittong",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2269,7 +2390,7 @@
           "https://www.fao.org/aquastat/en/countries-and-basins/transboundary-river-basins/salween/"
         ],
         "validatedGeometrySource": "Salween",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2297,7 +2418,7 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "needs-independent-evidence",
       "suspicion": "빠삭강과 욤강의 관계·별칭 혼입 여부 확인 필요",
       "outcome": "unchanged"
     },
@@ -2340,7 +2461,7 @@
           "https://www.rid.go.th/th/rid_news/28956"
         ],
         "validatedGeometrySource": "Chao Phraya",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2383,7 +2504,7 @@
           "https://dwrm.mae.gov.vn/bo-nong-nghiep-va-moi-truong-phe-duyet-quy-hoach-tong-hop-luu-vuc-song-ba-den-nam-2030-tam-nhin-2050-16754.htm"
         ],
         "validatedGeometrySource": "Ba",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2538,7 +2659,7 @@
           "https://www.ksp.go.kr/pageView/info/797"
         ],
         "validatedGeometrySource": "Mekong",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2623,7 +2744,7 @@
           "https://sda.pu.go.id/balai/bwskalimantan3/profil/sejarah"
         ],
         "validatedGeometrySource": "Barito",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2690,7 +2811,7 @@
           "https://water.usgs.gov/GIS/huc_name.html"
         ],
         "validatedGeometrySource": "Delaware",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2736,7 +2857,7 @@
           "https://www.srbc.net/"
         ],
         "validatedGeometrySource": "Susquehanna",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     },
@@ -2871,9 +2992,32 @@
         "HydroRIVERS 1.0 · OSM waterway names"
       ],
       "previousApprovedOverride": null,
-      "reviewState": "source-name-crossmatch-suspected",
+      "reviewState": "independently-verified-isolated-replacement",
       "suspicion": "미시시피강에 별개인 리오그란데강 관계명 혼입",
-      "outcome": "unchanged"
+      "outcome": "staged-in-verified-nondeployed-hydro-bundle",
+      "independentReplacement": {
+        "nameKo": "미시시피강",
+        "previousNameKo": "미시시피강",
+        "nameChanged": false,
+        "aliases": [
+          "Mississippi"
+        ],
+        "tributaryNames": [
+          "아칸소강",
+          "미주리강",
+          "오하이오강",
+          "레드강"
+        ],
+        "independentSourceUrls": [
+          "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+          "https://www.epa.gov/ms-htf/mississippiatchafalaya-river-basin-marb",
+          "https://pubs.usgs.gov/ha/ha730/ch_f/F-text1.html",
+          "https://pubs.usgs.gov/circ/1375/C1375.pdf"
+        ],
+        "validatedGeometrySource": "Mississippi",
+        "verificationMethod": "official-basin-named-confluence",
+        "publishedToRuntime": false
+      }
     },
     {
       "systemId": "70816878",
@@ -2956,7 +3100,7 @@
           "https://www.twdb.texas.gov/surfacewater/rivers/river_basins/colorado/index.asp",
           "https://waterdata.usgs.gov/monitoring-location/USGS-08162504/"
         ],
-        "validatedGeometrySource": "USGS three official hydrological stations",
+        "validatedGeometrySource": "three USGS reference stations",
         "verificationMethod": "USGS",
         "publishedToRuntime": false
       }
@@ -3007,14 +3151,14 @@
           "https://www.ibwc.gov/treaties/"
         ],
         "validatedGeometrySource": "Grande",
-        "verificationMethod": "independent-natural-earth-mainstem",
+        "verificationMethod": "Natural Earth full mainstem",
         "publishedToRuntime": false
       }
     }
   ],
-  "verifiedCandidates": 33,
-  "osmMatchedRemainingInStagedBundle": 40,
+  "verifiedCandidates": 40,
+  "osmMatchedRemainingInStagedBundle": 33,
   "currentPublishedOsmMatched": 73,
-  "candidatePackageEvidence": "staged-33-proof.json",
-  "latestStageCommit": "f701ff4bb2263c1cc0dcabd79317e14a69322f2c"
+  "candidatePackageEvidence": "staged-40-proof.json",
+  "latestStageCommit": "3280e5e7627f0ca918351d369803ade7eeb53314"
 }

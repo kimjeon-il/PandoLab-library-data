@@ -2,6 +2,38 @@
 > 보고서 ID: `GEO-HYDRO-OSM-20261024` · 상태: `investigating / inventory-complete` · 지도 반영: `not-applied` · 색인일: 2026-10-24  
 > 조사 기준: Pando `work/gis` / 수계 데이터 v0.13.2, 외부 자료 pin `71a67904db2beb933735727ad6c19adde082d2bd`
 
+## 최신 진행: 비OSM 이름·관계 메타데이터 40/73개 검증 (2026-10-24)
+
+> 이 절이 아래 과거 '33개 검증' 및 이전 단계의 진행 수치를 대체한다. 과거 절은 작성 당시 검증 이력으로 유지한다.
+
+- 대상 원본 73개 중 **40개 수계의 OSM 관계 및 관련 이름 메타데이터를 독립 출처로 교체한 검증용 패키지** 생성 성공. **8개 대표명 정정**, **32개 기존 대표명 유지·관계/별칭 교체**, **33개 미완료**.
+- GitHub Actions [GIS OSM river name dependency inventory — 성공](https://github.com/kimjeon-il/Pando/actions/runs/40050627940)에서 73개 재추출, NE 본류 재비교, USGS 관측소 검증, 정부 출처 우선 기준·문헌 확인 테스트, 생산 디코더 검증을 통과.
+- 원본 Hydro **16,548개 feature/902개 pack/3개 shard**의 판독 성공. **1,884개 feature 메타데이터 변경**. 기존 공간 인덱스와 하천 형상 shard 3개의 SHA-256은 이전과 바이트 단위로 동일.
+- 원본 bundle SHA-256 `91c2268c6dbfdfa7fc6103d8ad0b4eeca71f6c522df5c0118db69a3654ff532a` · 시험 bundle SHA-256 `b92f80f9c971f3dbac8511522652665ab57437b233599a51bc5b36980e8554ca`.
+- 검증 결과 [staged-40-proof.json](staged-40-proof.json), 격리된 [Hydro 패키지(일시적 Actions 자료)](https://github.com/kimjeon-il/Pando/actions/runs/40050627940/artifacts/12543715131), [개별 73개 판정](inventory.json).
+
+### 신규 조사 및 교체 검증 7개
+
+| 시스템 ID | 기존 → 검증본 | 공식·독립 출처 및 판정 |
+|---|---|---|
+| `10047863` | 나일강 → 나일강 | [나일강유역기구 NBI](https://nilebasin.org/nile-basin) · 독립 NE 본류 Nile 55.6%와 White Nile 19.8%, 백나일·청나일·소밧강 관계 보존 |
+| `20244836` | 네만강 → 네만강 | [리투아니아 환경부](https://am.lrv.lt/uploads/am/documents/files/Raudonoji%20knyga/index.html) · NE Neman 35.8% / Neris 67.9%, 독립 지류 네리스강 보존 |
+| `40017702` | 아무르강 → 아무르강 | [러시아 연방수자원청](https://voda.gov.ru/maps/khabarovskiy-kray/) · NE Amur 59.3% / Ussuri 44.4%, 별개 우수리강 분류 보존 |
+| `70814357` | 미시시피강 → 미시시피강 | [미국 EPA](https://www.epa.gov/ms-htf/mississippiatchafalaya-river-basin-marb), [USGS](https://pubs.usgs.gov/ha/ha730/ch_f/F-text1.html), NE Mississippi 48.1% / Arkansas 34.6%. 독립 리오그란데 유역 별칭 제거 |
+| `20265844` | 드르벵차강 → **비스와강** | [폴란드 정부](https://www.gov.pl/web/infrastruktura/wspolpraca-miedzynarodowa-w-gospodarce-wodnej) 부크강→나레프강→비스와강과 [별도 드르벵차 지류](https://samorzad.gov.pl/web/powiat-nowomiejski/informacja-o-powiecie) 확인. NE Vistula 51.9% / Western Bug 40.7% |
+| `20386022` | 센강 → 센강 | [프랑스 수자원청](https://eau-seine-normandie.fr/agence-de-leau/le-bassin-de-la-seine) 및 [정부 홍수감시청](https://www.drieat.ile-de-france.developpement-durable.gouv.fr/vigicrues-a29.html), NE Seine 46.9%, 대체 강명 후보 없음 |
+| `40279876` | 두만강 → 두만강 | [한국 통일부 북한지도](https://nkinfo.unikorea.go.kr/nkp/search/search.do?query=%EB%91%90%EB%A7%8C%EA%B0%95), [중국 창바이산 관리기구](https://www.changbaishan.gov.cn/zjzbs/zrzy/201612/t20161229_208378.html), NE Tumen 50.6% |
+
+### 미교체 33개 — 독립 문헌 확보 및 다음 검사
+
+- [남은 33개 전수 조사·우선순위](remaining-33-priority.json): Natural Earth 독립 명칭 선형 부재 **17개**, 본류/지류/객체분류 혼입 의심 **14개**, 명칭·경로 추가 검증 필요 **2개**.
+- `20773860`, `20774342` [수에즈운하청](https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx)은 수에즈 운하가 인공 수로임을 명시. 현재 `수에즈운하강`으로 표시되는 원인에는 Hydro의 강 객체 유형 및 한국어명 접미사 규칙이 포함될 수 있으므로 단순 이름 교체를 보류.
+- `41337891` [태국 왕립관개청](https://www.rid.go.th/th/rid_news/28997)은 빠삭강이 짜오프라야강에 연결되는 별도 수로임을 설명. 현재 Hydro 본류는 NE 욤강 69.1% / 짜오프라야강 34.6% 근처여서 단일 이름 승격 금지.
+- `41182380` [베트남 박닌성 공식 지리자료](https://bacninh.gov.vn/news/-/details/37632/he-thong-song-ngoi-215681)는 꺼우강이 타이빈강 유역에 속한다고 명시. 해당 Hydro 본류는 NE 홍강 37%와 매칭되어 있으므로 독립 형상 재분리 필요.
+- `41023100` [세계은행 1960년 인더스 유역 자료](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/855531468078531004)에서 라비강과 인더스강은 별개의 하천임이 확인되지만, Hydro 본류가 여러 하천 구간과 맞닿으므로 단일 대표명 검증을 보류.
+
+**실제 지도 데이터 원본·웹 앱 및 작은 OSM 출처 링크는 변경하지 않았다.** 검증용 분리 패키지의 33개 잔여 OSM 관계정보가 모두 제거되고 별도 국가경계 OSM 의존성까지 확인된 뒤에만 지도 출처 표시 삭제를 검토한다.
+
 ## 확정된 원본 범위
 
 - 수계 3,818개 중 **OSM relation이 한 개 이상 연결된 수계 73개**를 `hydro.bin`의 메타데이터 core/detail SHA-256 검증 후 확인했다. 전수 재현은 `tools/inventory-osm-hydronyms.py` 및 GitHub Actions GIS OSM river name dependency inventory.
