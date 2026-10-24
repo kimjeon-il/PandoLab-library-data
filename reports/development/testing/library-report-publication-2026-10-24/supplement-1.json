@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-10-24T14:14:46.753Z",
+  "reason": "Artifacts completed during initial report archival",
+  "editions": [
+    {
+      "logical": "reports/reference-analysis/models/macro-v5/boundary.pt",
+      "workingPath": ".edits/ui/reference-analysis/models/macro-v5/boundary.pt",
+      "archived": "reports/archive/report-editions/5c7483e47975cb9fe20af33c626b59d8f59f5b1037616ef7a3b52847f2c660b8.pt",
+      "sha256": "5c7483e47975cb9fe20af33c626b59d8f59f5b1037616ef7a3b52847f2c660b8",
+      "bytes": 16909633,
+      "status": "snapshot-not-model-release-approval"
+    },
+    {
+      "logical": "reports/reference-analysis/models/macro-v5/training.log",
+      "workingPath": ".edits/ui/reference-analysis/models/macro-v5/training.log",
+      "archived": "reports/archive/report-editions/3c7e98ec4e83f4d26d86366f0403deaf41656085ab742df2d92d58b498969b8a.log",
+      "sha256": "3c7e98ec4e83f4d26d86366f0403deaf41656085ab742df2d92d58b498969b8a",
+      "bytes": 288,
+      "status": "snapshot-not-model-release-approval"
+    }
+  ]
+}

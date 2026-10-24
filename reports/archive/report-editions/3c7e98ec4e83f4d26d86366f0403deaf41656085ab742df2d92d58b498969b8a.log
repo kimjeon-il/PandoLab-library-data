@@ -1,0 +1,2 @@
+{"epoch": 0, "attemptedBatches": 143, "optimizerUpdates": 137, "skippedUpdates": 6, "trainingLoss": 6.282862609957339, "validationLoss": null}
+{"epoch": 1, "attemptedBatches": 286, "optimizerUpdates": 277, "skippedUpdates": 9, "trainingLoss": 5.758872929836747, "validationLoss": null}
