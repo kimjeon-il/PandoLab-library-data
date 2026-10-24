@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-10-24T14:23:02.671Z",
+  "reason": "Final stable checkpoint and log after producers ended",
+  "editions": [
+    {
+      "logical": "reports/reference-analysis/models/macro-v5/boundary.pt",
+      "target": "reports/reference-analysis/models/macro-v5/boundary.pt",
+      "bytes": 16909633,
+      "sha256": "72d3a8ceb72619b02c04533061badb3d84d751e7c61cc51e58b53bc5d6185685",
+      "workingPath": ".edits/ui/reference-analysis/models/macro-v5/boundary.pt"
+    },
+    {
+      "logical": "reports/reference-analysis/models/macro-v5/training.log",
+      "target": "reports/reference-analysis/models/macro-v5/training.log",
+      "bytes": 576,
+      "sha256": "1adc78904b276e68d62d5ab3ad055559c6e820ab1a9309c6fef7cbd88c7d97df",
+      "workingPath": ".edits/ui/reference-analysis/models/macro-v5/training.log"
+    }
+  ]
+}
