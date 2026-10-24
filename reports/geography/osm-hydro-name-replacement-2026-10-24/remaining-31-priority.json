@@ -1,0 +1,2333 @@
+{
+  "schema": "pando-osm-river-remaining-v3",
+  "reportId": "GEO-HYDRO-OSM-20261024",
+  "verified": 42,
+  "originalOsmMatched": 73,
+  "publishedReplaced": 42,
+  "pending": 31,
+  "counts": {
+    "noNE": 16,
+    "identity": 13,
+    "partial": 2
+  },
+  "sourceComparison": "ne-crosscheck.json",
+  "latestAuditProof": "staged-42-proof.json",
+  "warnings": [
+    "Natural Earth samples are proximity evidence only, not an official legal boundary or name assignment",
+    "Official links support preliminary river identity but may not validate full Hydro grouped mainstem",
+    "Published runtime retains 73 original OSM relations until explicitly deployed"
+  ],
+  "items": [
+    {
+      "systemId": "10521208",
+      "nameKo": "샤리강",
+      "group": "partial-name-scope-requires-national-source",
+      "sourceNameCandidate": {
+        "name": "Chari",
+        "coverage": 0.481
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Chari",
+          "coverage": 0.481
+        },
+        {
+          "name": "Bahr Aouk",
+          "coverage": 0.173
+        },
+        {
+          "name": "Aoukalé",
+          "coverage": 0.037
+        },
+        {
+          "name": "Logone",
+          "coverage": 0.025
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/",
+        "https://cblt.org/wp-content/uploads/2026/05/Lake-Chad-Basin-Strategic-Action-Programme-SAP-2023-2037_compressed.pdf",
+        "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2021-08/010082147.pdf"
+      ],
+      "independentFinding": "Lake Chad Basin Commission independently describes Chari-Logone hydrology and upstream Bahr Aouk and Bamingui/Gribingui rivers. This supports basin/tributary distinctions only; NE Chari covers 48.1% of the sampled Hydro mainstem and cannot establish full-system identity.",
+      "applied": false,
+      "nextAction": "정식 Chari 하구-발원지 본류와 Bahr Aouk/Bahr Sara/Logone 지류를 분할한 국가·LCBC 공인 벡터 확보",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "confirmed-existing-lower-reach-partial-mainstem",
+        "preliminaryDecisionKo": "샤리강 유지 유력. 하류 관측소 4곳의 중심선 근접 확인, 상류까지 동일 이름 부여 불가",
+        "findingsKo": "2021년 차드 수문 관측소 Sarh·Bousso·Mailao·N'Djamena는 기존 Hydro 본류에서 각각 약 1.106·2.464·1.045·0.908km. 포장된 논리 본류가 1845km이므로 샤리 본류 1개 명칭을 전체에 일괄 적용하지 않음.",
+        "estimatedMainstemLengthKm": 1845.142,
+        "nearestIndependentPointKmByRiver": {
+          "Bahr Sara (Chari tributary)": 14.034,
+          "Chari": 1.045,
+          "Chari/Logone": 0.908,
+          "Logone": 15.511
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "10526283",
+      "nameKo": "샤리강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://cblt.org/download/lake-chad-basin-strategic-action-programme-sap-2023-2037/",
+        "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2021-08/010082147.pdf"
+      ],
+      "independentFinding": "Lake Chad Basin Commission offers a non-OSM hydrological description of the Chari-Logone basin. This small, separately grouped Hydro system has no NE named-line match; official basin narrative does not assign this system's exact centerline.",
+      "applied": false,
+      "nextAction": "해당 Hydro ID의 상류·하구 및 하천 고유 이름을 독립 지명등록부·관측소·공식 선형으로 특정",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "identity-unknown-no-safe-relabel",
+        "preliminaryDecisionKo": "기존 샤리강 명칭 근거 부족, 새 하천명 미확정",
+        "findingsKo": "640.088km 본류에서 가까운 차드 샤리 관측소까지 52.783km, 나머지 관측점은 더 멀다. 독립 NE 이름도 없다. 이는 기존 이름 오매칭 의심을 강화할 뿐 올바른 이름은 확인하지 못함.",
+        "estimatedMainstemLengthKm": 640.088,
+        "nearestIndependentPointKmByRiver": {
+          "Bahr Sara (Chari tributary)": 119.052,
+          "Chari": 52.783,
+          "Chari/Logone": 198.3,
+          "Logone": 194.828
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20071308",
+      "nameKo": "오울루강",
+      "group": "partial-name-scope-requires-national-source",
+      "sourceNameCandidate": {
+        "name": "Oulujoki",
+        "coverage": 0.296
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Oulujoki",
+          "coverage": 0.296
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-oulujoen-vesistoalueella/",
+        "https://www.maanmittauslaitos.fi/palvelutiedotteet/uusi-inspire-rajapinta-hydrografia-teemasta",
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse",
+        "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme",
+        "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/inspire-directive",
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/",
+        "https://finto.fi/yso-paikat/fi/page/p204727",
+        "https://finto.fi/yso-paikat/en/page/p139542"
+      ],
+      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. National Land Survey of Finland confirms independent watercourse line vectors sourced from the National Topographic Database, via open OGC API Features/WFS without API key and under NLS open CC BY 4.0 licence. Oulujoki official hydrology is already documented; live vector query and Hydro mainstem overlap remain untested. Published mainstem (416.298 km) is longer than the officially described 107-km Oulujoki reach; NLS official Oulujoki point is 1.964 km from Hydro centerline, versus 37.737 km for Siikajoki.",
+      "applied": false,
+      "nextAction": "핀란드 국토조사국 실명 수로 벡터로 Oulujoki 107km 및 상류 Hyrynsalmi/Sotkamo 등 구간 분리",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Oulujoki",
+        "conclusion": "current-name-supported-but-mainstem-longer-than-officially-named-reach",
+        "mainstemTotalLengthKm": 416.298,
+        "distancesKm": {
+          "finnish_nls_oulujoki": 1.964,
+          "finnish_nls_siikajoki": 37.737
+        }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "existing-name-support-partial-named-reach",
+        "preliminaryDecisionKo": "오울루강 명칭을 하류에 유지할 근거, 상류 이름 구간 미분리",
+        "findingsKo": "핀란드 국토조사국 Oulujoki 등록 지점에서 1.964km, Siikajoki 지점에서 37.737km. Hydro 본류 416.298km는 공식 107km Oulujoki보다 길다.",
+        "estimatedMainstemLengthKm": 416.298,
+        "nearestIndependentPointKmByRiver": {
+          "Oulujoki": 1.964,
+          "Siikajoki": 37.737
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20075401",
+      "nameKo": "오울루강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-oulujoen-vesistoalueella/",
+        "https://www.maanmittauslaitos.fi/palvelutiedotteet/uusi-inspire-rajapinta-hydrografia-teemasta",
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/collections/watercourse",
+        "https://www.maanmittauslaitos.fi/en/service-messages/new-inspire-interface-service-hydrography-theme",
+        "https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/kartta-ja-paikkatietojen-rajapintapalvelut/inspire-directive",
+        "https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/",
+        "https://finto.fi/yso-paikat/en/page/p139542",
+        "https://finto.fi/yso-paikat/fi/page/p204727",
+        "https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-siikajoen-vesistoalueella/"
+      ],
+      "independentFinding": "Finnish Environment Institute identifies Oulujoki from Oulujärvi to the Bay of Bothnia, 107 km. National Land Survey open OGC API line data is independent of OSM; geometry has not yet been checked for either Hydro ID. The Finnish National Land Survey independently publishes Watercourse line vector data under CC BY 4.0. System 20075401 has no NE named-line match and must not inherit 20071308's Oulujoki identity from a shared OSM relation ID. Hydro mainstem (179.022 km) is 0.396 km from NLS Siikajoki registered river point but 38.998 km from registered Oulujoki point. Finnish Environment Institute describes separate 194-km Siikajoki, strong false OSM shared-relation diagnosis.",
+      "applied": false,
+      "nextAction": "핀란드 국가 실명 수로 선형, 하구, 하천명 구간과 한국어 표기 확인 후 교체 패키지 작성",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Siikajoki (Korean label to validate)",
+        "conclusion": "suspected-wrong-published-name-strong-independent-point-evidence",
+        "mainstemTotalLengthKm": 179.022,
+        "distancesKm": {
+          "finnish_nls_oulujoki": 38.998,
+          "finnish_nls_siikajoki": 0.396
+        }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "high-priority-rename-suspect-independent-name-register",
+        "preliminaryDecisionKo": "오울루강 → 시카강(Siikajoki) 유력, 정식 선형 검증 필요",
+        "findingsKo": "기존 Hydro 본류 179.022km; 핀란드 NLS 시카강 지정 지점 0.396km, 오울루강 지정 지점 38.998km. 같은 OSM relation을 공유한 잘못된 명명 가능성이 높음.",
+        "estimatedMainstemLengthKm": 179.022,
+        "nearestIndependentPointKmByRiver": {
+          "Oulujoki": 38.998,
+          "Siikajoki": 0.396
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20282318",
+      "nameKo": "오데르강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Oder",
+        "coverage": 0.259
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Oder",
+          "coverage": 0.259
+        },
+        {
+          "name": "Warta",
+          "coverage": 0.173
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.gov.pl/web/wody-polskie/warstwa-pzrp-w-nowej-odslonie-wtyczyki-qgis-wod-polskich",
+        "https://data.europa.eu/data/datasets/https-dane-gov-pl-pl-dataset-2167-mapa-podzialu-hydrograficznego-polski-w-skali-110",
+        "https://danepubliczne.imgw.pl/api/data/hydro/format/html"
+      ],
+      "independentFinding": "Poland's public water authority publishes MPHP10k (hydrographic division and named river network) via WMS and its QGIS plugin. This is an independent verification lead for the Polish Oder reach, not yet a downloaded/reusable named centerline or a verified full transboundary Hydro identity.",
+      "applied": false,
+      "nextAction": "MPHP10k / IMGW 구간 연결과 오데르·바르타 합류점 검증, 독일 국경 연계 후 이름의 적용 범위를 구간별 확인",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "mainstem-and-tributary-mixed-no-global-rename",
+        "preliminaryDecisionKo": "오데르강을 전체 수정하지 말고 바르타강의 합류·상류 구간 분리",
+        "findingsKo": "폴란드 IMGW 오데르 관측지점 0.250~0.336km, 바르타 관측지점 0.168~0.298km인 구간이 같은 591.434km Hydro 논리 본류에 근접. 상류 Odra 관측소는 100km 이상 떨어져 표시 범위가 제한됨.",
+        "estimatedMainstemLengthKm": 591.434,
+        "nearestIndependentPointKmByRiver": {
+          "Odra": 0.25,
+          "Warta": 0.168
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20456598",
+      "nameKo": "우랄강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25185",
+        "https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25196?lang=kk",
+        "https://oq.gov.kz/en/abai/zhayyq-ozeni",
+        "https://silkadv.com/ru/node/4653",
+        "https://silkadv.com/en/content/ural-river-kazakhstan",
+        "https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25185?directionId=8907&lang=ru"
+      ],
+      "independentFinding": "Current 우랄강 is a possible false OSM bbox match for the separate Zhem/Emba catchment. Kazakh government describes its Mugalzhar headwaters and Caspian drainage. Hydro 699.416-km mainstem is 0.207 km from independently book-sourced Zhem/Emba location but 308.332 km from Ural/Zhaiyk location. Kazakhstan Mugalzhar government independently names Zhem/Emba as its own river. Published point transcription is secondary, not official government GIS geometry.",
+      "applied": false,
+      "nextAction": "카자흐스탄 공인 중심선이나 적어도 공식 수위 관측소 다수 확보·공식 한국어명 검수",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Zhem/Emba (Korean label to validate)",
+        "conclusion": "suspected-wrong-published-name-strong-independent-point-evidence",
+        "mainstemTotalLengthKm": 699.416,
+        "distancesKm": {
+          "kazakh_emba_atlas_location": 0.207,
+          "kazakh_ural_atlas_location": 308.332
+        }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "high-priority-rename-suspect-secondary-point-crosscheck",
+        "preliminaryDecisionKo": "우랄강 → 젬강/엠바강(Zhem/Emba) 유력, 정부 GIS 선형 필요",
+        "findingsKo": "카자흐스탄 독립 지리 문헌 젬강 지점 0.207km, 별개 우랄강 지점 308.332km. 정부 수문 설명도 두 하천을 구별하지만 이번 좌표는 2차 전사 자료임.",
+        "estimatedMainstemLengthKm": 699.416,
+        "nearestIndependentPointKmByRiver": {
+          "Zhaiyk/Ural": 308.332,
+          "Zhem/Emba": 0.207
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20532766",
+      "nameKo": "테레크강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.mdpi.com/2073-4441/17/23/3390",
+        "https://waterresources.ru/reki/terek/",
+        "https://voda.gov.ru/favr/structure/bvu/department/subject/6885"
+      ],
+      "independentFinding": "Hydro 601.479-km mainstem is 1.366 km from published Terek mouth, versus 38.108 and 35.210 km from two independently sampled Sulak river locations.",
+      "applied": false,
+      "nextAction": "러시아 국가 수문 기관 기준 테레크강 본류·하구·지류 선형 검증 뒤 OSM 관계 제거",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Terek",
+        "conclusion": "current-name-supported-by-independent-hydrology-screen",
+        "mainstemTotalLengthKm": 601.479,
+        "distancesKm": {
+          "russian_sulak_2024_field_mouth": 38.108,
+          "russian_sulak_2024_field_upstream": 35.21,
+          "russian_terek_register_mouth": 1.366
+        }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "existing-name-supported-by-independent-points",
+        "preliminaryDecisionKo": "테레크강 기존명 유지 유력",
+        "findingsKo": "601.479km 본류는 테레크강 하구 문헌 지점 1.366km이고 술라크 독립 현장 관측점 35.210~38.108km.",
+        "estimatedMainstemLengthKm": 601.479,
+        "nearestIndependentPointKmByRiver": {
+          "Sulak": 35.21,
+          "Terek": 1.366
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20540915",
+      "nameKo": "테레크강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.mdpi.com/2073-4441/17/23/3390",
+        "https://base.garant.ru/407033236/",
+        "https://voda.gov.ru/favr/structure/bvu/department/subject/6885"
+      ],
+      "independentFinding": "Hydro 282.666-km mainstem is 0.084 km and 0.030 km from two independent August 2024 Sulak field sites, but 34.557 km from secondary Terek mouth. Russian government resolution 1543-r (2023) legally maps Sulak confluence and dams at multiple coordinates near this Hydro course.",
+      "applied": false,
+      "nextAction": "러시아 공식 술라크 강 수로 구간·아바르코이수 및 안디코이수 합류점과 한국어 표기 확정",
+      "independentPointEvidence": {
+        "source": "independent-river-point-crosscheck.json",
+        "method": "published-point-to-deployed-Hydro-mainstem-distance",
+        "verificationState": "independent-point-screen-only-not-full-polyline-validation",
+        "suggestedIndependentIdentity": "Sulak (Korean label to validate)",
+        "conclusion": "suspected-wrong-published-name-strong-independent-two-field-station-evidence",
+        "mainstemTotalLengthKm": 282.666,
+        "distancesKm": {
+          "russian_sulak_2024_field_mouth": 0.084,
+          "russian_sulak_2024_field_upstream": 0.03,
+          "russian_terek_register_mouth": 34.557
+        }
+      },
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "high-priority-rename-suspect-two-independent-field-points",
+        "preliminaryDecisionKo": "테레크강 → 술라크강(Sulak) 유력, 상류의 별도 이름 검증 필요",
+        "findingsKo": "282.666km 본류는 2024년 술라크 현장 관측점 두 곳에서 0.030·0.084km, 테레크강 하구에서 34.557km.",
+        "estimatedMainstemLengthKm": 282.666,
+        "nearestIndependentPointKmByRiver": {
+          "Sulak": 0.03,
+          "Terek": 34.557
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20561290",
+      "nameKo": "리오니강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://portal.mepa.gov.ge/Ge/User/data",
+        "https://portal.mepa.gov.ge/Ge/user/map/16",
+        "https://nea.gov.ge/En/News/2339",
+        "https://eu4waterdata.eu/images/pdf/library/UBA/EU4EnvWD_A1.4.1_GE_SW_Survey_Report_2022_ENG.pdf",
+        "https://publikasjoner.nve.no/rapport/2017/rapport2017_27.pdf"
+      ],
+      "independentFinding": "Georgia's environment ministry data portal lists NEA36 GCF_Basins and NEA38 Rioni_Basins as public free polygon basin/subbasin layers. They may disambiguate the Rioni catchment but are not named centerline vectors; Hydro feature-level overlap not tested.",
+      "applied": false,
+      "nextAction": "2022년 NEA 측정 지점과 공식 하천망의 엔구리 본류·지류 연속성, 정식 한국어명 최종 검수 후 교체",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "very-strong-rename-suspect-multiple-nea-enguri-sites",
+        "preliminaryDecisionKo": "리오니강 → 엔구리강(Enguri) 매우 유력",
+        "findingsKo": "조지아 환경청 2022 현장 관측 Enguri 지점 5개 중 Potskho-Etseri 0.001km·Khaishi 0.126km·Vichnishi 0.213km·Anaklia 하구 0.623km. 반면 별도 Rioni 하류 정식 관측점까지 최소 26.744km.",
+        "estimatedMainstemLengthKm": 202.137,
+        "nearestIndependentPointKmByRiver": {
+          "Chanistskali (Enguri tributary)": 16.207,
+          "Chkhoushia (Enguri tributary)": 6.959,
+          "Dolra (Enguri tributary)": 3.326,
+          "Enguri": 0.001,
+          "Jejora": 50.602,
+          "Jumi (Enguri tributary)": 1.348,
+          "Khobistskali": 22.203,
+          "Krikhula": 45.09,
+          "Kvirila": 72.06,
+          "Nakra (Enguri tributary)": 2.071,
+          "Nenskra (Enguri tributary)": 5.109,
+          "Rioni": 26.744,
+          "Tskhenistskali": 9.906
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20565620",
+      "nameKo": "리오니강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://portal.mepa.gov.ge/Ge/User/data",
+        "https://portal.mepa.gov.ge/Ge/user/map/16",
+        "https://nea.gov.ge/En/News/2339",
+        "https://eu4waterdata.eu/images/pdf/library/UBA/EU4EnvWD_A1.4.1_GE_SW_Survey_Report_2022_ENG.pdf",
+        "https://publikasjoner.nve.no/rapport/2017/rapport2017_27.pdf"
+      ],
+      "independentFinding": "Government NEA36/NEA38 basin polygon datasets can help distinguish a second OSM-relation-linked Rioni system from Rioni proper. Publication says Rioni subbasin work is ongoing; no named river centerline or Hydro ID-level match yet.",
+      "applied": false,
+      "nextAction": "리오니 하류·크비릴라 지류 이름 분리, 공식 중심선과 상류 지류 연결성 재확인 후 비OSM 교체",
+      "batch01Research": {
+        "source": "batch01-ten-named-point-screen.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40058061900",
+        "evidenceTier": "independent-multi-station-spatial-screen-not-whole-river-proof",
+        "classification": "existing-name-supported-lower-rioni-kvirila-tributary",
+        "preliminaryDecisionKo": "리오니강 유지 타당, 크비릴라강 합류 구간 별도 표기",
+        "findingsKo": "2017년 노르웨이 NVE/조지아 NEA 관측소 중 Rioni Chaladidi·Patara-Poti 0.276km, Samtredia 0.861km; Kvirila Ajmeti·Zestaponi·하구 0.231~0.552km. 엔구리 관측 지점은 최소 20.96km.",
+        "estimatedMainstemLengthKm": 241.089,
+        "nearestIndependentPointKmByRiver": {
+          "Chanistskali (Enguri tributary)": 32.739,
+          "Chkhoushia (Enguri tributary)": 30.966,
+          "Dolra (Enguri tributary)": 94.381,
+          "Enguri": 20.96,
+          "Jejora": 33.45,
+          "Jumi (Enguri tributary)": 24.017,
+          "Khobistskali": 6.984,
+          "Krikhula": 42.758,
+          "Kvirila": 0.231,
+          "Nakra (Enguri tributary)": 101.038,
+          "Nenskra (Enguri tributary)": 92.256,
+          "Rioni": 0.276,
+          "Tskhenistskali": 64.292
+        },
+        "sourceReviewCompleted": true,
+        "publishedRuntimeChanged": false
+      }
+    },
+    {
+      "systemId": "20628098",
+      "nameKo": "아무다리야강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.nature.com/articles/s41597-023-02474-8",
+        "https://zenodo.org/records/7743778",
+        "https://www.mdpi.com/2073-4441/17/5/721",
+        "https://dahiti.dgfi.tum.de/en/12348/",
+        "https://www.unomaha.edu/international-studies-and-programs/center-for-afghanistan-and-regional-studies/academics/transboundary-water-research/DLM3/DLM3.php"
+      ],
+      "independentFinding": "원본 하천 중심선(1484.700km)이 비OSM CA-discharge 무르가브강 수위관측소 2곳과 0.007/0.089km이며 아무다리야강 Kerki 및 TUM 독립 지점에서 257.277/258.723km 떨어진다. 서류상 두 수계는 다르다. Hydro 전체 중심선은 아직 공인 Murghab 선형과 전구간 비교하지 않았음.",
+      "applied": false,
+      "nextAction": "Afghanistan/Turkmenistan official Murghab river source-to-delta named vector and river segment boundaries; corroborate with 3+ gauge locations and licence before changing name.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": null,
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "very-strong-unverified-murghab-not-amu-identity",
+        "interpretationKo": "아무다리야강 → 무르가브강(Murghab) 오명명 의심 매우 강함",
+        "findingsKo": "원본 하천 중심선(1484.700km)이 비OSM CA-discharge 무르가브강 수위관측소 2곳과 0.007/0.089km이며 아무다리야강 Kerki 및 TUM 독립 지점에서 257.277/258.723km 떨어진다. 서류상 두 수계는 다르다. Hydro 전체 중심선은 아직 공인 Murghab 선형과 전구간 비교하지 않았음.",
+        "measuredMainstemLengthKm": 1484.7,
+        "measuredIndependentPoints": 30,
+        "nearestIndependentPoints": [
+          {
+            "name": "Murghab",
+            "distanceKm": 0.007,
+            "source": "https://zenodo.org/records/7743778"
+          },
+          {
+            "name": "Murghab",
+            "distanceKm": 0.089,
+            "source": "https://zenodo.org/records/7743778"
+          },
+          {
+            "name": "Bum",
+            "distanceKm": 2.392,
+            "source": "https://zenodo.org/records/7743778"
+          },
+          {
+            "name": "Kashan",
+            "distanceKm": 43.122,
+            "source": "https://zenodo.org/records/7743778"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "20773860",
+      "nameKo": "수에즈운하강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Suez Canal",
+        "coverage": 0.852
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Suez Canal",
+          "coverage": 0.852
+        },
+        {
+          "name": "Ismailiya Canal",
+          "coverage": 0.173
+        }
+      ],
+      "previousFlag": "운하를 강으로 표기(수에즈운하강)",
+      "primarySourceLeads": [
+        "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx",
+        "https://www.suezcanal.gov.eg/English/Pages/FAQ.aspx",
+        "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+      ],
+      "independentFinding": "Suez Canal Authority calls it an artificial sea-level navigation channel. Need feature type/canonical river exclusion: source-only rename would regenerate erroneous 강 suffix. Suez Canal Authority 인공 항행운하 193.30km. 본류 포장 185.82km; SCA Port Said 마리나까지 0.407km, Ismailia 3.356km, Port Tawfik 19.056km. Natural Earth Suez Canal centerline 표본 .852. '수에즈운하강'은 수로 유형 오류, name-only correction not sufficient.",
+      "applied": false,
+      "nextAction": "Confirm official Suez navigation canal centerline from SCA chart and distinct Ismailia freshwater canal; move only proven reaches to canal/waterway feature class before renaming.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": null,
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "strong-navigation-canal-type-error",
+        "interpretationKo": "실제 수에즈 항행운하 구간과 대체로 부합, 그러나 river 객체 유형 오류",
+        "findingsKo": "Suez Canal Authority 인공 항행운하 193.30km. 본류 포장 185.82km; SCA Port Said 마리나까지 0.407km, Ismailia 3.356km, Port Tawfik 19.056km. Natural Earth Suez Canal centerline 표본 .852. '수에즈운하강'은 수로 유형 오류, name-only correction not sufficient.",
+        "measuredMainstemLengthKm": 185.82,
+        "measuredIndependentPoints": 3,
+        "nearestIndependentPoints": [
+          {
+            "name": "Suez navigation canal Port Said marina",
+            "distanceKm": 0.407,
+            "source": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+          },
+          {
+            "name": "Suez navigation canal Ismailia marina",
+            "distanceKm": 3.356,
+            "source": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+          },
+          {
+            "name": "Suez navigation canal Port Tawfik marina",
+            "distanceKm": 19.056,
+            "source": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "20774342",
+      "nameKo": "수에즈운하강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Suez Canal",
+        "coverage": 0.049
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Suez Canal",
+          "coverage": 0.049
+        }
+      ],
+      "previousFlag": "운하를 강으로 표기(수에즈운하강)",
+      "primarySourceLeads": [
+        "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2266887/",
+        "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2024.1475082/full"
+      ],
+      "independentFinding": "Near-Suez candidate only 4 of 81 NE samples; do not assign Suez Canal name to entire Hydro group without geometry check. 본류 191.913km에서 SCA 세 항행시설 지점까지 각각 27.399/40.118/64.149km; NE Suez Canal 일치율 .049뿐. 인근 Ismailia Canal freshwater 및 동부 와디/배수로와의 별도 식별 필요.",
+      "applied": false,
+      "nextAction": "Obtain independent Egyptian hydrological or navigation vector for freshwater Ismailia/Suez canals and wadis; check full line segments before assigning any identity or waterway type.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": null,
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "suez-shared-relation-false-match-likely-identity-unknown",
+        "interpretationKo": "수에즈운하강 기존 대표명 지지되지 않음. 새 수계 정체 미확정",
+        "findingsKo": "본류 191.913km에서 SCA 세 항행시설 지점까지 각각 27.399/40.118/64.149km; NE Suez Canal 일치율 .049뿐. 인근 Ismailia Canal freshwater 및 동부 와디/배수로와의 별도 식별 필요.",
+        "measuredMainstemLengthKm": 191.913,
+        "measuredIndependentPoints": 3,
+        "nearestIndependentPoints": [
+          {
+            "name": "Suez navigation canal Port Said marina",
+            "distanceKm": 27.399,
+            "source": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+          },
+          {
+            "name": "Suez navigation canal Ismailia marina",
+            "distanceKm": 40.118,
+            "source": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+          },
+          {
+            "name": "Suez navigation canal Port Tawfik marina",
+            "distanceKm": 64.149,
+            "source": "https://companies.suezcanal.gov.eg/Home/English/Pages/default.aspx"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "30145067",
+      "nameKo": "오비강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Ob",
+        "coverage": 0.383
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Ob",
+          "coverage": 0.383
+        },
+        {
+          "name": "Irtysh",
+          "coverage": 0.21
+        },
+        {
+          "name": "Tobol",
+          "coverage": 0.049
+        },
+        {
+          "name": "river-1381",
+          "coverage": 0.049
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://fish.gov.ru/wp-content/uploads/2025/11/zs.pdf",
+        "https://dahiti.dgfi.tum.de/en/38692/",
+        "https://www.snt-bugorok.ru/level/uroven-vody-v-irtyshe-u-goroda-khanty-mansiisk-segodnya",
+        "https://www.mdpi.com/2072-4292/17/7/1135"
+      ],
+      "independentFinding": "포장된 논리 본류 3147.799km에 이르티시강 법정 지정 지점 0.058/0.124km, 수위관측소 0.380km와 오비강 독일 TUM 수위관측점 0.672km가 동시에 일치. NE Ob .383+Irtysh .210 (다른 이름 구간).",
+      "applied": false,
+      "nextAction": "Split Ob/Irtysh at confluence with government hydrographic named centerlines; audit Tobol tributary and cumulative logical MAIN_RIV grouping.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": null,
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "existing-basin-label-supported-ob-plus-irtysh-confluence",
+        "interpretationKo": "오비강 유역 대표명 유지 가능. 실제 이르티시강 구간과의 경계 분리 필수",
+        "findingsKo": "포장된 논리 본류 3147.799km에 이르티시강 법정 지정 지점 0.058/0.124km, 수위관측소 0.380km와 오비강 독일 TUM 수위관측점 0.672km가 동시에 일치. NE Ob .383+Irtysh .210 (다른 이름 구간).",
+        "measuredMainstemLengthKm": 3147.799,
+        "measuredIndependentPoints": 4,
+        "nearestIndependentPoints": [
+          {
+            "name": "Irtysh legally defined fishing boundary (not gauge)",
+            "distanceKm": 0.058,
+            "source": "https://fish.gov.ru/wp-content/uploads/2025/11/zs.pdf"
+          },
+          {
+            "name": "Irtysh legally defined fishing boundary (not gauge)",
+            "distanceKm": 0.124,
+            "source": "https://fish.gov.ru/wp-content/uploads/2025/11/zs.pdf"
+          },
+          {
+            "name": "Irtysh hydrometric station Khanty-Mansiysk",
+            "distanceKm": 0.38,
+            "source": "https://www.snt-bugorok.ru/level/uroven-vody-v-irtyshe-u-goroda-khanty-mansiisk-segodnya"
+          },
+          {
+            "name": "Ob river satellite water level point",
+            "distanceKm": 0.672,
+            "source": "https://dahiti.dgfi.tum.de/en/38692/"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40188382",
+      "nameKo": "시르다리야강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.nature.com/articles/s41597-023-02474-8",
+        "https://zenodo.org/records/7743778",
+        "https://syrdaryo.mewr.tj/en/node/1149"
+      ],
+      "independentFinding": "원본 1118.160km 본류는 독립 수문 원자료의 추강 관측점과 0.011km, 촌케민강과 0.191km. 2023 CA-discharge 논문은 15xxx 관측소를 Chu/Talas/Issyk-Kul 별도 유역으로 명시하고 Syr Darya와 구분한다. Hydro 전체 구간은 공식 named vector와 대조 필요.",
+      "applied": false,
+      "nextAction": "Use Kyrgyzstan/Kazakhstan Chu (Chuy) official river centerline; locate confluence of Chon Kemin, determine terminal endorheic reaches and correct named extent.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": null,
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "very-strong-unverified-chu-not-syr-identity",
+        "interpretationKo": "시르다리야강 → 추강(Chu/Chuy) 중심, 촌케민강 지류 혼입 매우 유력",
+        "findingsKo": "원본 1118.160km 본류는 독립 수문 원자료의 추강 관측점과 0.011km, 촌케민강과 0.191km. 2023 CA-discharge 논문은 15xxx 관측소를 Chu/Talas/Issyk-Kul 별도 유역으로 명시하고 Syr Darya와 구분한다. Hydro 전체 구간은 공식 named vector와 대조 필요.",
+        "measuredMainstemLengthKm": 1118.16,
+        "measuredIndependentPoints": 44,
+        "nearestIndependentPoints": [
+          {
+            "name": "Chu",
+            "distanceKm": 0.011,
+            "source": "https://zenodo.org/records/7743778"
+          },
+          {
+            "name": "Chon Kemin",
+            "distanceKm": 0.191,
+            "source": "https://zenodo.org/records/7743778"
+          },
+          {
+            "name": "Kegetey",
+            "distanceKm": 23.07,
+            "source": "https://zenodo.org/records/7743778"
+          },
+          {
+            "name": "river Toru-Aigyr-U.R. Kyzyl-Bulak",
+            "distanceKm": 32.801,
+            "source": "https://zenodo.org/records/7743778"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40364680",
+      "nameKo": "청천강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "KICT 2020-161 research describes independently constructed North Korean river basin and river-network maps, including Cheongcheon River, and DEM-based channel analysis. The public report does not by itself provide a licensed reusable centerline or a measured overlap with this Hydro system. NGA UFI -173649 청천강 지명점은 원본 193.588km Hydro 본류까지 0.475km. KICT 북한 하천망 연구에서도 별도 청천강 유역 구분. 양방향 전구간 독립 선형과 지류·이용허락 확인은 미완.",
+      "applied": false,
+      "nextAction": "Crosscheck Korea NGII/KICT 1:25k named river polyline with entire Hydro mainstem, preserve Cheongcheon name variants; verify licence.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": "batch02-nga-government-names.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "existing-cheongcheon-supported-official-independent-ufi",
+        "interpretationKo": "청천강 기존 이름 지지, 대표 지점 검증 완료",
+        "findingsKo": "NGA UFI -173649 청천강 지명점은 원본 193.588km Hydro 본류까지 0.475km. KICT 북한 하천망 연구에서도 별도 청천강 유역 구분. 양방향 전구간 독립 선형과 지류·이용허락 확인은 미완.",
+        "measuredMainstemLengthKm": 193.588,
+        "measuredIndependentPoints": 1,
+        "nearestIndependentPoints": [
+          {
+            "name": "청천강",
+            "distanceKm": 0.475,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40391614",
+      "nameKo": "대동강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "KICT's independently developed North Korean hydrographic research recognizes Daedong River as a separate major catchment among nine basins. It is a literature/basin reference only; no actual feature-level matching yet. NGA UFI -187951 Taedong-gang / 대동강 이름은 공식 등록. 위치 [125.465828,38.720416]이 Hydro 수계 380.858km 중심선에서 8.523km 떨어진다; 대표 지명점이 하구 밖에 있을 수 있으므로 오류 증거가 아니다. KICT 독립 대동강 유역과의 이름은 합치.",
+      "applied": false,
+      "nextAction": "Identify exact published hydrography mouth endpoint vs official NGA feature point and KICT Daedong centerline, validate confluences and Korean aliases.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": "batch02-nga-government-names.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "existing-daedong-supported-gazetteer-point-offset",
+        "interpretationKo": "대동강 기존 이름 지지, NGA 지명점 8.523km 떨어짐은 별도 검토",
+        "findingsKo": "NGA UFI -187951 Taedong-gang / 대동강 이름은 공식 등록. 위치 [125.465828,38.720416]이 Hydro 수계 380.858km 중심선에서 8.523km 떨어진다; 대표 지명점이 하구 밖에 있을 수 있으므로 오류 증거가 아니다. KICT 독립 대동강 유역과의 이름은 합치.",
+        "measuredMainstemLengthKm": 380.858,
+        "measuredIndependentPoints": 1,
+        "nearestIndependentPoints": [
+          {
+            "name": "Taedonggang",
+            "distanceKm": 8.523,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40414035",
+      "nameKo": "례성강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "KICT 2020-161 reports independent basin and network mapping for the Yesong River among nine major North Korean basins; publication supports hydronym/basin, not a reusable exact Hydro centerline. NGA UFI -191071 official STM 예성강 / Yesŏng-gang 좌표에서 Hydro 168.138km 중심선까지 0.697km. KICT 자료도 Yesong 유역을 별도로 표시. 북측 례성강 및 남측 예성강 병기 정책 임의 변경 금지.",
+      "applied": false,
+      "nextAction": "Verify entire Ryesong/Yesong river against KICT/NGII source line, assess historic Korea spelling policies and licence.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": "batch02-nga-government-names.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "existing-ryesong-supported-independent-government-name",
+        "interpretationKo": "례성강 이름 유지 지지. NGA 표기 예성강 및 로마자 변형 출처 분리",
+        "findingsKo": "NGA UFI -191071 official STM 예성강 / Yesŏng-gang 좌표에서 Hydro 168.138km 중심선까지 0.697km. KICT 자료도 Yesong 유역을 별도로 표시. 북측 례성강 및 남측 예성강 병기 정책 임의 변경 금지.",
+        "measuredMainstemLengthKm": 168.138,
+        "measuredIndependentPoints": 1,
+        "nearestIndependentPoints": [
+          {
+            "name": "Yeseonggang",
+            "distanceKm": 0.697,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40415850",
+      "nameKo": "림진강/임진강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.river.go.kr/intro/nationOrigin.do",
+        "https://www.river.go.kr/summary/riverList.do",
+        "https://www.codil.or.kr/viewDtlConRpt.do?gubun=rpt&pMetaCode=OTKCRK210393",
+        "https://geonames.nga.mil/geonames/GNSHome/",
+        "https://river.go.kr/intro/nationOrigin.do"
+      ],
+      "independentFinding": "Korean river management authority separately identifies Imjin River as river code 1005980 with its source in North Korea, and KICT basin-network research includes Imjin. Korean official identity is corroborated; published river centerline and Hydro mainstem overlap remain unchecked. NGA UFI -708771 Imjin/Rimjin alias matches river identity, but point [126.663889,37.785] is 4.809km from 255.400km Hydro mainstem; NIBR 습지지역 중심점은 2.492km지만 수위 관측소가 아니므로 하천명 직접 증빙에 쓰지 않는다. RIMGIS Imjin code 1005980.",
+      "applied": false,
+      "nextAction": "Compare Korean RIMGIS Imjin 1005980 line with north KICT/NGII; distinguish NK Rimjin and SK Imjin as aliases without overlabeling full basin.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": "batch02-nga-government-names.json",
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "existing-imjin-supported-independent-name-still-offset",
+        "interpretationKo": "림진강/임진강 기존 이명 유지, NGA 지명점과 거리 4.809km",
+        "findingsKo": "NGA UFI -708771 Imjin/Rimjin alias matches river identity, but point [126.663889,37.785] is 4.809km from 255.400km Hydro mainstem; NIBR 습지지역 중심점은 2.492km지만 수위 관측소가 아니므로 하천명 직접 증빙에 쓰지 않는다. RIMGIS Imjin code 1005980.",
+        "measuredMainstemLengthKm": 255.4,
+        "measuredIndependentPoints": 2,
+        "nearestIndependentPoints": [
+          {
+            "name": "Imjin River ecological study zone centroid (NOT a river station)",
+            "distanceKm": 2.492,
+            "source": "https://www.nibr.go.kr/aiibook/access/ecatalogt.jsp?Dir=1069&callmode=admin&catimage=&eclang=ko&start=12&um=s"
+          },
+          {
+            "name": "림진강",
+            "distanceKm": 4.809,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40423228",
+      "nameKo": "남한강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Namhan",
+        "coverage": 0.802
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Namhan",
+          "coverage": 0.802
+        },
+        {
+          "name": "Han",
+          "coverage": 0.37
+        }
+      ],
+      "previousFlag": "한강 수계 전체를 남한강으로 이름붙였을 가능성",
+      "primarySourceLeads": [
+        "https://www.river.go.kr/intro/nationOrigin.do",
+        "https://www.river.go.kr/summary/riverList.do",
+        "https://www.kwater.or.kr/news/repoView.do?brdId=KO26&s_mid=362&seq=137461",
+        "https://river.go.kr/intro/nationOrigin.do",
+        "https://river.go.kr/summary/riverList.do",
+        "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240702000000002517"
+      ],
+      "independentFinding": "Official Korean RIMGIS distinguishes Han river system code 1000010 and separate North Han river; K-water describes independently aggregated named river centerlines. Neither metadata alone determines whether Hydro grouped route should display 남한강 for every fragment. Hydro 논리 본류 178.385km는 남한강 수위관측 지점(2차 공식 자료 재배포)에서 4.986km이며 NE 'Namhan' 표본 .802 / 'Han' 표본 .370. 집합적 Hydro MAIN_RIV 그룹을 전부 남한강으로 표기하기 부적절할 수 있다.",
+      "applied": false,
+      "nextAction": "Acquire direct RIMGIS named river centerline with 1000010 Han / Namhan versus Bukhan code 1002710; split at Paldang/Dumulmeori naming transition and independently assess gauge.",
+      "batch02Research": {
+        "evidenceFile": "batch02-ten-named-point-screen.json",
+        "governmentAliasFile": null,
+        "auditRun": "https://github.com/kimjeon-il/Pando/actions/runs/40060444582",
+        "stage": "independently-researched-station-point-only-no-full-river-geometry-validation",
+        "classification": "partial-namhan-han-transition-no-basin-wide-rename",
+        "interpretationKo": "남한강 대표명은 해당 구간에서 지지, 한강과의 이름 경계 확인 필수",
+        "findingsKo": "Hydro 논리 본류 178.385km는 남한강 수위관측 지점(2차 공식 자료 재배포)에서 4.986km이며 NE 'Namhan' 표본 .802 / 'Han' 표본 .370. 집합적 Hydro MAIN_RIV 그룹을 전부 남한강으로 표기하기 부적절할 수 있다.",
+        "measuredMainstemLengthKm": 178.385,
+        "measuredIndependentPoints": 1,
+        "nearestIndependentPoints": [
+          {
+            "name": "Namhan River water-level site (Korea Rural Community Corporation data reproduction)",
+            "distanceKm": 4.986,
+            "source": "https://yss.purpleo.kr/article/277"
+          }
+        ],
+        "investigated": true,
+        "independentNamesApprovedForNewReplacement": false,
+        "publishedMapChanged": false
+      }
+    },
+    {
+      "systemId": "40475481",
+      "nameKo": "금강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.river.go.kr/intro/nationOrigin.do",
+        "https://www.river.go.kr/summary/riverList.do",
+        "https://www.kwater.or.kr/news/repoView.do?brdId=KO26&s_mid=362&seq=137461",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "The Korean national river authority identifies Geum River by code 3000010 and names its origin near Jangsu. K-water confirms an independently assembled national named river centerline service, but the exact Hydro system has not been geometry-matched. NGA Kum-gang UFI -713316 0km, separate NGA Geum River mouth name UFI -710113 12.045km from packed centerline. Korea RIMGIS Geum code 3000010. Name identity supported, but full centerline and mouth segment not confirmed.",
+      "applied": false,
+      "nextAction": "Use Korean RIMGIS 3000010 official named centerline and hydrometric stations to check complete logical mainstem, including mouth and Geum tributary matches.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "existing-name-corroborated-partial-mouth-gap",
+        "identitySummaryKo": "금강 유지 지지; 하구·지류 구간의 지명 적용 범위 확인",
+        "independentFindingKo": "NGA Kum-gang UFI -713316 0km, separate NGA Geum River mouth name UFI -710113 12.045km from packed centerline. Korea RIMGIS Geum code 3000010. Name identity supported, but full centerline and mouth segment not confirmed.",
+        "mainstemTotalLengthKm": 341.905,
+        "independentPointComparisons": 13,
+        "governmentPointsWithin1km": 3,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Kum-gang"
+            ],
+            "distanceKm": 0,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Kŭmgang-ch’ŏn"
+            ],
+            "distanceKm": 0.507,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Kŭm-chŏn",
+              "Geumcheon"
+            ],
+            "distanceKm": 0.524,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Geumcheoncheon"
+            ],
+            "distanceKm": 3.614,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Geumcheoncheon",
+              "Geumsancheon"
+            ],
+            "distanceKm": 9.804,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Kŭm Song",
+              "Geum River",
+              "Kŭm-gang",
+              "Geumgang River"
+            ],
+            "distanceKm": 12.045,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Kŭmsang-ch’ŏn",
+              "Geumsangcheon"
+            ],
+            "distanceKm": 13.006,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Geumgyecheon"
+            ],
+            "distanceKm": 16.969,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Geumgokcheon"
+            ],
+            "distanceKm": 17.782,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Geumgyecheon"
+            ],
+            "distanceKm": 18.939,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "40486439",
+      "nameKo": "아라카와강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Tone",
+        "coverage": 0.272
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Tone",
+          "coverage": 0.272
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0306_arakawa/0306_arakawa_00.html",
+        "https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0401_arakawa/0401_arakawa_00.html",
+        "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W05.html",
+        "https://www.ktr.mlit.go.jp/arage/about/data/data04.html",
+        "https://www.ktr.mlit.go.jp/arage/suibou-info/common/html/rain2128100100001_10.html",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "Japan MLIT identifies at least two distinct Arakawa rivers and has W05 named source waterway vectors with use restrictions. Original Hydro path also overlaps Tone within 0.14 degree. GNS Ara-kawa UFI -225637 0.444km, MLIT Iwabuchi rainfall rooftop 0.701km (not river gauge), closest Tone reference 20.995km. Hydro 167.946km vs MLIT official Arakawa river 173km; lower ~22km is artificial flood-control reach. NE 27.2% Tone candidate was too distant to prove an identity collision.",
+      "applied": false,
+      "nextAction": "Inspect Japanese MLIT W05 named Arakawa polyline, Tone basin boundary and the 22-km artificial lower floodway, and source licensing. Keep old name until whole route verified.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "existing-tokyo-saitama-arakawa-supported-not-tone",
+        "identitySummaryKo": "아라카와강 유지 가능성 높음; 도네강으로 개명 금지",
+        "independentFindingKo": "GNS Ara-kawa UFI -225637 0.444km, MLIT Iwabuchi rainfall rooftop 0.701km (not river gauge), closest Tone reference 20.995km. Hydro 167.946km vs MLIT official Arakawa river 173km; lower ~22km is artificial flood-control reach. NE 27.2% Tone candidate was too distant to prove an identity collision.",
+        "mainstemTotalLengthKm": 167.946,
+        "independentPointComparisons": 8,
+        "governmentPointsWithin1km": 2,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Ara-kawa",
+              "荒川",
+              "Arakawa-hōsuiro",
+              "Arakawa Drainage Canal"
+            ],
+            "distanceKm": 0.444,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Arakawa Iwabuchi RAIN station roof (NOT watercourse line)"
+            ],
+            "distanceKm": 0.701,
+            "source": "https://www.ktr.mlit.go.jp/arage/suibou-info/common/html/rain2128100100001_10.html",
+            "role": "MLIT-on-basin-building-roof-not-river-gauge"
+          },
+          {
+            "names": [
+              "元荒川"
+            ],
+            "distanceKm": 14.245,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "大落古利根川"
+            ],
+            "distanceKm": 16.002,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Tone-gawa"
+            ],
+            "distanceKm": 20.995,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Tone-gawa"
+            ],
+            "distanceKm": 23.593,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Tone-gawa"
+            ],
+            "distanceKm": 41.808,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Tone-gawa"
+            ],
+            "distanceKm": 70.462,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41023100",
+      "nameKo": "라비강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Indus",
+        "coverage": 0.605
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Indus",
+          "coverage": 0.605
+        },
+        {
+          "name": "Chenab",
+          "coverage": 0.173
+        },
+        {
+          "name": "Ravi",
+          "coverage": 0.086
+        },
+        {
+          "name": "Sutlej",
+          "coverage": 0.025
+        }
+      ],
+      "previousFlag": "인더스강 본류 후보에 라비강 이름 부여 여부 조사 필요",
+      "primarySourceLeads": [
+        "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/855531468078531004",
+        "https://ffd.pmd.gov.pk/river-state",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "World Bank's 1960 official Indus waters project distinguishes Ravi/Beas/Sutlej from Indus/Jhelum/Chenab; 81 NE samples favor Indus 60.5%, Chenab 17.3%, Ravi 8.6%. Geometry naming remains pending; second link is government portal, not a specific hydro source. NGA Panjnad 0.130 and 0.283km, Chenab and Sutlej confluence points 0.252km, Ravi named reference at least 11.130km, Indus mouth point 13.222km. NE Indus 60.5%, Chenab 17.3%, Ravi 8.6%. World Bank Indus treaty independently identifies separate rivers.",
+      "applied": false,
+      "nextAction": "Reconstruct Indus-Mithankot/Panjnad/Chenab/Ravi independent national centerline and original MAIN_RIV branch confluences; do not globally rename before segment audit.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "published-ravi-name-mixed-with-indus-chenab-panjnad",
+        "identitySummaryKo": "라비강 단일 대표명 오적용 강력 의심; 인더스·첸나브·판즈나드로 구간 분할 필요",
+        "independentFindingKo": "NGA Panjnad 0.130 and 0.283km, Chenab and Sutlej confluence points 0.252km, Ravi named reference at least 11.130km, Indus mouth point 13.222km. NE Indus 60.5%, Chenab 17.3%, Ravi 8.6%. World Bank Indus treaty independently identifies separate rivers.",
+        "mainstemTotalLengthKm": 1743.227,
+        "independentPointComparisons": 9,
+        "governmentPointsWithin1km": 4,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Panjnad",
+              "Panjnad River"
+            ],
+            "distanceKm": 0.13,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Chenab",
+              "Chenab River"
+            ],
+            "distanceKm": 0.252,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sutlej River",
+              "Sutlej"
+            ],
+            "distanceKm": 0.252,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Panjnad",
+              "Panjnad River"
+            ],
+            "distanceKm": 0.283,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Panjnad River",
+              "Panjnad"
+            ],
+            "distanceKm": 4.719,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Ravi",
+              "Ravi River"
+            ],
+            "distanceKm": 11.13,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sindho Darya",
+              "Indus",
+              "Indus River",
+              "Sindhu"
+            ],
+            "distanceKm": 13.222,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Ravi",
+              "Ravi River"
+            ],
+            "distanceKm": 19.892,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Chenab",
+              "Chenab River"
+            ],
+            "distanceKm": 41.99,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41067217",
+      "nameKo": "브라마푸트라강/얄룽창포강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Brahmaputra",
+        "coverage": 0.63
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Brahmaputra",
+          "coverage": 0.63
+        },
+        {
+          "name": "river-256",
+          "coverage": 0.247
+        },
+        {
+          "name": "river-257",
+          "coverage": 0.111
+        },
+        {
+          "name": "river-255",
+          "coverage": 0.074
+        }
+      ],
+      "previousFlag": "갠지스강과 브라마푸트라강 본류 이름 범위 조사 필요",
+      "primarySourceLeads": [
+        "https://jrcb.gov.bd/pages/static-pages/6922dc94933eb65569e110c8",
+        "https://jrcb.gov.bd/pages/static-pages/6922dd55933eb65569e148f8",
+        "https://documents1.worldbank.org/curated/en/666211468205474260/pdf/E47510V20P149700Box385438B00PUBLIC0.pdf",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "NGA Bangladesh Jamuna 2.503km and Ganges/Padma 3.924km from Hydro mainstem. NE Brahmaputra 63.0%, multiple unlabeled reaches; government Bangladesh JRC distinguishes Brahmaputra, downstream Jamuna, Ganges/Padma and Meghna confluences.",
+      "applied": false,
+      "nextAction": "Obtain Bangladesh JRC/BWDB named Jamuna, Padma, Old Brahmaputra mainstem and Tibet/India independently identified Tsangpo reach, split only exact named river segments.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "brahmaputra-jamuna-padma-scope-mixed",
+        "identitySummaryKo": "브라마푸트라·얄룽창포강 유역표기는 부분 지지, 하류 자무나·파드마 구간 별도 표기 필요",
+        "independentFindingKo": "NGA Bangladesh Jamuna 2.503km and Ganges/Padma 3.924km from Hydro mainstem. NE Brahmaputra 63.0%, multiple unlabeled reaches; government Bangladesh JRC distinguishes Brahmaputra, downstream Jamuna, Ganges/Padma and Meghna confluences.",
+        "mainstemTotalLengthKm": 1424.506,
+        "independentPointComparisons": 5,
+        "governmentPointsWithin1km": 0,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Jamuna",
+              "Jamuna River"
+            ],
+            "distanceKm": 2.503,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Ganges River",
+              "Ganges",
+              "Padma"
+            ],
+            "distanceKm": 3.924,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Meghna",
+              "Lower Meghna",
+              "Meghna River"
+            ],
+            "distanceKm": 40.166,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Jamuna River",
+              "Jamuna"
+            ],
+            "distanceKm": 55.205,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Tsangpo",
+              "Brahmaputra River",
+              "Brahmaputra",
+              "Old Brahmaputra",
+              "Yarlung Zangbo Jiang"
+            ],
+            "distanceKm": 89.143,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41109275",
+      "nameKo": "난판강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Zuo",
+        "coverage": 0.321
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Zuo",
+          "coverage": 0.321
+        },
+        {
+          "name": "Xi",
+          "coverage": 0.259
+        },
+        {
+          "name": "Yu",
+          "coverage": 0.235
+        },
+        {
+          "name": "Xunjiang",
+          "coverage": 0.16
+        }
+      ],
+      "previousFlag": "난판강과 별개인 홍강/Red 별칭의 혼입",
+      "primarySourceLeads": [
+        "https://slt.nx.gov.cn/xxgk_281/fdzdgknr/slkp/jhzl/202104/t20210409_2718481.html",
+        "https://www.gd.gov.cn/zwgk/gongbao/1992/7/content/post_3356463.html",
+        "https://www.nea.gov.cn/2011-11/21/c_131260325.htm",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "Five distinct NGA points for Zuo, You, Xun, Yu and Xi all within 0.231–0.730km of Hydro mainstem; no Nanpan named point in this inspected network. NE Zuo 32.1%, Xi 25.9%, Yu 23.5%, Xun 16.0%. China water/government classification places Nanpan on far-upstream Pearl main route, Yu/Zuo/You on different tributary route.",
+      "applied": false,
+      "nextAction": "Match exact name transition points and basin graph against Guangxi government national river named line, especially Zuo/You -> Yong/Yu -> Xun/Xi; exclude distant Nanpan mainstem.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "nanpan-false-alias-zuo-you-yu-xun-xi-system",
+        "identitySummaryKo": "난판강 단일 표기 오적용 매우 유력; 좌강·우강·욱강·심강·서강 구간 혼합",
+        "independentFindingKo": "Five distinct NGA points for Zuo, You, Xun, Yu and Xi all within 0.231–0.730km of Hydro mainstem; no Nanpan named point in this inspected network. NE Zuo 32.1%, Xi 25.9%, Yu 23.5%, Xun 16.0%. China water/government classification places Nanpan on far-upstream Pearl main route, Yu/Zuo/You on different tributary route.",
+        "mainstemTotalLengthKm": 1295.962,
+        "independentPointComparisons": 5,
+        "governmentPointsWithin1km": 5,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Zuo Jiang"
+            ],
+            "distanceKm": 0.231,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "You Jiang"
+            ],
+            "distanceKm": 0.231,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Xun Jiang"
+            ],
+            "distanceKm": 0.315,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "郁江",
+              "Yu Jiang"
+            ],
+            "distanceKm": 0.458,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "西江",
+              "Xi Jiang"
+            ],
+            "distanceKm": 0.73,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41171836",
+      "nameKo": "룩남강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": "룩남강과 꺼우강 관계명의 동일성 검토 필요",
+      "primarySourceLeads": [
+        "https://www.bacninh.gov.vn/web/english/news/-/details/1090513/river-system-2877901",
+        "https://phongchongthientai.mard.gov.vn/Pages/tin-lu-dac-biet-lon-tren-song-cau-song-thuong-tin-lu-tren-song-luc-nam.aspx",
+        "https://ees.vnuhcmjournal.com.vn/index.php/ees/article/view/748",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "NGA Lục Nam 0.347km, Thương 0.098km, Cầu 0.765km to one packed system. Vietnamese provincial agency documents three tributaries of Thai Binh as distinct river routes, so naming whole 224.444km group Luc Nam is inappropriate.",
+      "applied": false,
+      "nextAction": "Acquire provincial/central watercourse lines for Lục Nam, Thương and Cầu; split at Phả Lại and downstream junctions, retaining existing Luc Nam name only on matched reaches.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "luc-nam-actual-but-thuong-cau-basin-merged",
+        "identitySummaryKo": "룩남강 이름 구간 지지, 트엉강·꺼우강과 타이빈강 합류 체계 구분 필요",
+        "independentFindingKo": "NGA Lục Nam 0.347km, Thương 0.098km, Cầu 0.765km to one packed system. Vietnamese provincial agency documents three tributaries of Thai Binh as distinct river routes, so naming whole 224.444km group Luc Nam is inappropriate.",
+        "mainstemTotalLengthKm": 224.444,
+        "independentPointComparisons": 11,
+        "governmentPointsWithin1km": 4,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Thuong-Gian",
+              "Sông Thương"
+            ],
+            "distanceKm": 0.098,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Song Lục Nam",
+              "Sông Lục Nam"
+            ],
+            "distanceKm": 0.347,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Bác Cầu",
+              "Suoi Bac Cau",
+              "Song Rac Cau"
+            ],
+            "distanceKm": 0.631,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Cầu"
+            ],
+            "distanceKm": 0.765,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Cầu Lồ",
+              "Suoi Cau Lo",
+              "Sông Cầu Lô"
+            ],
+            "distanceKm": 5.241,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Ngòi Cầu Vồng"
+            ],
+            "distanceKm": 11.695,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Suối Nà Cầu"
+            ],
+            "distanceKm": 29.401,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Suối Cầu Tăm"
+            ],
+            "distanceKm": 31.552,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Cầu Bây"
+            ],
+            "distanceKm": 33.677,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Kouei Thuong"
+            ],
+            "distanceKm": 70.183,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41182380",
+      "nameKo": "꺼우강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Red",
+        "coverage": 0.37
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Red",
+          "coverage": 0.37
+        },
+        {
+          "name": "Black",
+          "coverage": 0.037
+        }
+      ],
+      "previousFlag": "홍강 수계 범위에 꺼우강 관계명 혼입 여부 확인 필요",
+      "primarySourceLeads": [
+        "https://bacninh.gov.vn/news/-/details/37632/he-thong-song-ngoi-215681",
+        "https://www.vista.gov.vn/vi/news/print/ket-qua-nghien-cuu-trien-khai/nghien-cuu-su-dung-quan-xa-dong-vat-day-khong-xuong-song-co-lon-de-danh-gia-muc-do-o-nhiem-tram-tich-song-cau-thuoc-he-thong-song-thai-binh-6813.html",
+        "https://www.bacninh.gov.vn/web/english/news/-/details/1090513/river-system-2877901",
+        "https://vienngonnguhoc.vass.gov.vn/?p_tudien=26628&pageid=47007",
+        "https://ees.vnuhcmjournal.com.vn/index.php/ees/article/view/748",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "Vietnam official provincial hydro data places Cau in Thai Binh River basin, whereas the sampled Hydro mainstem matches Red. Requires downstream chain disambiguation. NGA Cầu named river point 43.088km from Hydro centerline; Red River NGA point 9.183km (mouth-level), Black River point 9.013km; NE Red reference 37.0%, Black 3.7%. Vietnamese agency says Cầu in Thai Binh basin, Red River is distinct. GNS site point offset cannot alone prove the full Red identity.",
+      "applied": false,
+      "nextAction": "Compare full original MAIN_RIV route with Vietnamese national Red/Thao/Da and Thai Binh/Cau hydrographic GIS, then assign correct names only to corresponding chain.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "cau-false-alias-red-river-route",
+        "identitySummaryKo": "꺼우강 대표명 오적용 매우 유력; 홍강 중심 수계 후보",
+        "independentFindingKo": "NGA Cầu named river point 43.088km from Hydro centerline; Red River NGA point 9.183km (mouth-level), Black River point 9.013km; NE Red reference 37.0%, Black 3.7%. Vietnamese agency says Cầu in Thai Binh basin, Red River is distinct. GNS site point offset cannot alone prove the full Red identity.",
+        "mainstemTotalLengthKm": 718.855,
+        "independentPointComparisons": 18,
+        "governmentPointsWithin1km": 0,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Sông Cầu Bây"
+            ],
+            "distanceKm": 4.151,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da River",
+              "Black River"
+            ],
+            "distanceKm": 9.013,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Hồng Hà",
+              "Red Koi Ho",
+              "Sông Hồng",
+              "Red",
+              "Red River"
+            ],
+            "distanceKm": 9.183,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Ngòi Cau"
+            ],
+            "distanceKm": 16.062,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Cau Ton"
+            ],
+            "distanceKm": 16.833,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Ngòi Cầu Vồng"
+            ],
+            "distanceKm": 36.526,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Bác Cầu",
+              "Suoi Bac Cau",
+              "Song Rac Cau"
+            ],
+            "distanceKm": 42.001,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Cầu"
+            ],
+            "distanceKm": 43.088,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Cau"
+            ],
+            "distanceKm": 48.006,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Đô Hong"
+            ],
+            "distanceKm": 49.622,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41337891",
+      "nameKo": "빠삭강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Yom",
+        "coverage": 0.691
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Yom",
+          "coverage": 0.691
+        },
+        {
+          "name": "Chao Phraya",
+          "coverage": 0.346
+        },
+        {
+          "name": "Ping",
+          "coverage": 0.037
+        }
+      ],
+      "previousFlag": "빠삭강과 욤강의 관계·별칭 혼입 여부 확인 필요",
+      "primarySourceLeads": [
+        "https://www.rid.go.th/th/rid_news/28997",
+        "https://www.rid.go.th/th/rid_news/29001",
+        "https://www.rid.go.th/th/rid_news/28874",
+        "https://hywr.kuciv.kyoto-u.ac.jp/ihp/riverCatalogue/Vol_03/09_Thailand-4.pdf",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "Thai Royal Irrigation Department identifies Pa Sak and Chao Phraya separately; Natural Earth shows Yom in 69.1% and Chao Phraya in 34.6% of sampled mainstem. No automatic name change. NGA Nan 0.035km, Yom 0.100km, Ping 0.145km; Pa Sak 11.387km. NE Yom 69.1%, Chao Phraya 34.6%. Thailand RID separately manages Pa Sak dam and central basin, unlike upstream Yom/Nan/Ping branch.",
+      "applied": false,
+      "nextAction": "Compare Thai RID/ONWR named Yom, Nan, Ping and Chao Phraya route from headwaters to confluences, and separate the distinct Pa Sak at Ayutthaya.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "pa-sak-false-alias-yom-nan-ping-chao-confluences",
+        "identitySummaryKo": "빠삭강 단일 표기 오적용 매우 유력; 욤강·난강·핑강·짜오프라야강 경로 분리",
+        "independentFindingKo": "NGA Nan 0.035km, Yom 0.100km, Ping 0.145km; Pa Sak 11.387km. NE Yom 69.1%, Chao Phraya 34.6%. Thailand RID separately manages Pa Sak dam and central basin, unlike upstream Yom/Nan/Ping branch.",
+        "mainstemTotalLengthKm": 1042.213,
+        "independentPointComparisons": 19,
+        "governmentPointsWithin1km": 3,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Nam Nan",
+              "Me Nan",
+              "Lam Nan",
+              "Nan",
+              "Mae Nam Nan",
+              "Menam Nan"
+            ],
+            "distanceKm": 0.035,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Meh Nam Yom",
+              "Mei Nam Yom",
+              "Mae Nam Yom",
+              "Nam Yom",
+              "Menam Yom",
+              "Nam Mae Yom",
+              "Me Yom"
+            ],
+            "distanceKm": 0.1,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Me Ping",
+              "Meh Nam Ping",
+              "Mae Nam Ping",
+              "Menam Ping"
+            ],
+            "distanceKm": 0.145,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Lam Yommarat"
+            ],
+            "distanceKm": 5.336,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Nang Lee Khlong"
+            ],
+            "distanceKm": 5.412,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Maenam Chao Phraya",
+              "Chao Phraya"
+            ],
+            "distanceKm": 7.313,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Mae Nam Pa Sak",
+              "Lam Pa Sak"
+            ],
+            "distanceKm": 11.387,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Huai Pa Sak"
+            ],
+            "distanceKm": 13.371,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Nam Ping"
+            ],
+            "distanceKm": 15.698,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Khlong Ban Nong Kha Nang"
+            ],
+            "distanceKm": 16.066,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41386179",
+      "nameKo": "미명명 수계 41386179",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Krong",
+        "coverage": 0.012
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Krong",
+          "coverage": 0.012
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://lamdong.gov.vn/sites/book/kyyeu/timhieusongdongnai.htm",
+        "https://www.viwa-s.gov.vn/ket-cau-ha-tang-hang-hai-va-duong-thuy-phia-nam.html",
+        "https://www.ceviwrpi.gov.vn/index.php/bao-dam-an-ninh-nguon-nuoc-tren-luu-vuc-song-dong-nai",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "NGA Đồng Nai named STM point 0.701km, Saigon River 1.583km from Hydro mainstem. Hydro 529.210km length closely matches official Lâm Đồng provincial narrative that Đồng Nai has about 530km mainstem before Saigon confluence. Separate NGA near-stream result set hits 300-response cap; thousands of tiny streams may not form a mainstem name.",
+      "applied": false,
+      "nextAction": "Acquire Vietnam government Đồng Nai, La Ngà, Saigon and lower Nhà Bè named polyline; verify entire 529km, terminal and tributaries before naming currently unnamed system.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "unnamed-dong-nai-system-probable-overlap-with-saigon",
+        "identitySummaryKo": "미명명 수계의 동나이강 후보 매우 유력, 사이공강·라응아강 지류 확인 필요",
+        "independentFindingKo": "NGA Đồng Nai named STM point 0.701km, Saigon River 1.583km from Hydro mainstem. Hydro 529.210km length closely matches official Lâm Đồng provincial narrative that Đồng Nai has about 530km mainstem before Saigon confluence. Separate NGA near-stream result set hits 300-response cap; thousands of tiny streams may not form a mainstem name.",
+        "mainstemTotalLengthKm": 529.21,
+        "independentPointComparisons": 194,
+        "governmentPointsWithin1km": 19,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Da Tapoh"
+            ],
+            "distanceKm": 0,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Dak R’Keh",
+              "Dak R’Kheh",
+              "Dak Rheh",
+              "R’Keh",
+              "Dak Rkek",
+              "Da R’keh"
+            ],
+            "distanceKm": 0.191,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da Srai"
+            ],
+            "distanceKm": 0.227,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da Snirr"
+            ],
+            "distanceKm": 0.227,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da R’miss"
+            ],
+            "distanceKm": 0.227,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da Sa Mach",
+              "Da Semath",
+              "Suối Sà Mách"
+            ],
+            "distanceKm": 0.23,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da Thai"
+            ],
+            "distanceKm": 0.231,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Da Tapoh"
+            ],
+            "distanceKm": 0.231,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Thao"
+            ],
+            "distanceKm": 0.296,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Suối Vũng Cấm",
+              "Rach Vunggam",
+              "Song Vung Cam",
+              "Suoi Vung Gam"
+            ],
+            "distanceKm": 0.324,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41386700",
+      "nameKo": "미명명 수계 41386700",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://vnmc.gov.vn/?page_id=1878",
+        "https://www.viwa-s.gov.vn/ket-cau-ha-tang-hang-hai-va-duong-thuy-phia-nam.html",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "NGA East Vàm Cỏ (Vàm Cỏ Đông) 0.215km, West Vàm Cỏ (Vàm Cỏ Tây) 0.459km and common Vàm Cỏ 2.129km from original Hydro mainstem; Saigon and Đồng Nai independently registered points >30km. Vietnam National Mekong Committee explicitly defines separate East and West Vàm Cỏ arms joining downstream.",
+      "applied": false,
+      "nextAction": "Match Vietnamese national Vàm Cỏ Đông/Vàm Cỏ Tây and shared lower branch named centerlines, full basin and Cambodian cross-border tributary bounds before promoting a current unnamed system.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "unnamed-vam-co-dong-tay-system-confluence",
+        "identitySummaryKo": "미명명 수계의 밤꼬강 동·서 지류 계통 유력, 대표명 단일 확정 불가",
+        "independentFindingKo": "NGA East Vàm Cỏ (Vàm Cỏ Đông) 0.215km, West Vàm Cỏ (Vàm Cỏ Tây) 0.459km and common Vàm Cỏ 2.129km from original Hydro mainstem; Saigon and Đồng Nai independently registered points >30km. Vietnam National Mekong Committee explicitly defines separate East and West Vàm Cỏ arms joining downstream.",
+        "mainstemTotalLengthKm": 261.394,
+        "independentPointComparisons": 142,
+        "governmentPointsWithin1km": 9,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Rạch Trảng Bàng"
+            ],
+            "distanceKm": 0,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Rạch Lo Go"
+            ],
+            "distanceKm": 0,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Vàm Cỏ Đông",
+              "East Arm",
+              "Song Ben-Luc",
+              "Vaico Oriental",
+              "East Vaico",
+              "East Vaiko River"
+            ],
+            "distanceKm": 0.215,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Rach Ong Hugnh",
+              "Rach Ong Quynh",
+              "Rạch Mương Ông Quỳnh"
+            ],
+            "distanceKm": 0.228,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Rach Tapeang Cu",
+              "Rạch Trapéang Cu"
+            ],
+            "distanceKm": 0.23,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Vàm Cỏ Tây",
+              "West Vaico",
+              "Vaico Occidental",
+              "Song Vung Ngu",
+              "West Vaiko",
+              "West Arm"
+            ],
+            "distanceKm": 0.459,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Trà",
+              "Rach La",
+              "Song La"
+            ],
+            "distanceKm": 0.566,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Rạch Rễ"
+            ],
+            "distanceKm": 0.647,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Rạch Tây Ninh"
+            ],
+            "distanceKm": 0.728,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Rạch Tràm"
+            ],
+            "distanceKm": 1.594,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    },
+    {
+      "systemId": "41390476",
+      "nameKo": "발라이강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Mekong",
+        "coverage": 0.407
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Mekong",
+          "coverage": 0.407
+        },
+        {
+          "name": "river-1764",
+          "coverage": 0.222
+        },
+        {
+          "name": "river-1763",
+          "coverage": 0.099
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [
+        "https://vupc.mae.gov.vn/Data/files/12-2017-tt-btnmt.pdf",
+        "https://quyhoachquocgia.mpi.gov.vn/File/QHThoiKy/814.pdf",
+        "https://vast.gov.vn/web/guest/tin-chi-tiet/-/chi-tiet/nghien-cuu-khu-he-ca-song-ba-lai-cung-cap-co-so-du-lieu-thuc-te-tu-xay-dung-va-van-hanh-%C4%91ap-ngan-man-155839-427.html",
+        "https://geonames.nga.mil/geonames/GNSHome/"
+      ],
+      "independentFinding": "2017 Vietnam MONRE official Ba Lai start and end points are respectively 15.200km and 27.159km from Hydro, NGA Ba Lai point 27.004km. NGA Mekong/Tiền 12.237km and Cổ Chiên 15.457km from same centerline. Hydro 93.485km versus Vietnam 2023 plan Cổ Chiên 94km may be suggestive but is NOT a name/geometry proof.",
+      "applied": false,
+      "nextAction": "Match Vietnam MONRE registered Ba Lai start/end with primary official river vectors; compare Mekong Tiền, Cổ Chiên, Hàm Luông estuary geometries and mouth positions and exclude all unverified alternatives.",
+      "batch03Research": {
+        "report": "batch03-last11-research-2026-10-24.md",
+        "evidenceFile": "batch03-last11-named-point-screen.json",
+        "validationRun": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+        "method": "NGA/independent-gazetteer point-to-published-HydroRIVERS-centerline local UTM screen",
+        "reviewComplete": true,
+        "namedLineIdentityApproved": false,
+        "releasedHydroModified": false,
+        "preliminaryClass": "ba-lai-relation-name-unverified-vietnam-monre-termini-mismatch",
+        "identitySummaryKo": "발라이강 기존 표기 오적용 강력 의심; 꼬찌엔강·메콩강 하구 가지 중 정체 미확정",
+        "independentFindingKo": "2017 Vietnam MONRE official Ba Lai start and end points are respectively 15.200km and 27.159km from Hydro, NGA Ba Lai point 27.004km. NGA Mekong/Tiền 12.237km and Cổ Chiên 15.457km from same centerline. Hydro 93.485km versus Vietnam 2023 plan Cổ Chiên 94km may be suggestive but is NOT a name/geometry proof.",
+        "mainstemTotalLengthKm": 93.485,
+        "independentPointComparisons": 7,
+        "governmentPointsWithin1km": 0,
+        "closestIndependentPoints": [
+          {
+            "names": [
+              "Mekong River",
+              "Song Tien",
+              "Sông Tiền Giang",
+              "Mekong"
+            ],
+            "distanceKm": 12.237,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "sông Ba Lai official start"
+            ],
+            "distanceKm": 15.2,
+            "source": "https://vupc.mae.gov.vn/Data/files/12-2017-tt-btnmt.pdf",
+            "role": "government-registered-river-endpoint"
+          },
+          {
+            "names": [
+              "Sông Cổ Chiên",
+              "Cổ Chiên"
+            ],
+            "distanceKm": 15.457,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Hàm Luông",
+              "Sông Hàm Luông"
+            ],
+            "distanceKm": 17.79,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "Sông Ba Lai"
+            ],
+            "distanceKm": 27.004,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          },
+          {
+            "names": [
+              "sông Ba Lai official endpoint"
+            ],
+            "distanceKm": 27.159,
+            "source": "https://vupc.mae.gov.vn/Data/files/12-2017-tt-btnmt.pdf",
+            "role": "government-registered-river-endpoint"
+          },
+          {
+            "names": [
+              "Sông Hậu",
+              "Sông Hậu Giang"
+            ],
+            "distanceKm": 33.382,
+            "source": "https://geonames.nga.mil/geonames/GNSHome/",
+            "role": "NGA-GNS-named-STM-point-not-line"
+          }
+        ]
+      }
+    }
+  ],
+  "publishedSourceCommit": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+  "publishedBundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
+  "publishedHydroRuntimeStatus": "pinned-to-pando-main-pages-actions-deployment-success",
+  "batch01Reviewed": 10,
+  "batch01Status": "first-10-independent-point-investigation-complete-all-31-remain-source-uncleared",
+  "latestBatch01Evidence": "batch01-ten-named-point-screen.json",
+  "latestBatch01GitCommit": "031fac43f02e2ef31bced52eb4a92b6595de885b",
+  "batch02Reviewed": 10,
+  "latestBatch02Evidence": "batch02-ten-named-point-screen.json",
+  "latestBatch02Status": "first-20-individually-researched-yet-only-42-published-systems-cleared",
+  "first20Reviewed": true,
+  "batch03Reviewed": 11,
+  "completedResearchScreenings": 31,
+  "completedResearchBatches": 3,
+  "researchCoverage": "31/31 individually reviewed with independent official/public station sources",
+  "latestBatch03Evidence": "batch03-last11-named-point-screen.json",
+  "latestBatch03Run": "https://github.com/kimjeon-il/Pando/actions/runs/40061608741",
+  "verifiedReplacementCountUnchanged": true
+}
