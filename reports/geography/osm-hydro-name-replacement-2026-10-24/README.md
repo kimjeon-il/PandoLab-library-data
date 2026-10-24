@@ -2,7 +2,7 @@
 > 보고서 ID: `GEO-HYDRO-OSM-20261024` · 상태: `investigating / inventory-complete` · 지도 반영: `not-applied` · 색인일: 2026-10-24  
 > 조사 기준: Pando `work/gis` / 수계 데이터 v0.13.2, 외부 자료 pin `71a67904db2beb933735727ad6c19adde082d2bd`
 
-## 최신 진행: 비OSM 이름·관계 메타데이터 40/73개 검증 (2026-10-24)
+## 이전 검증 차수: 비OSM 이름·관계 메타데이터 40/73개 (2026-10-24)
 
 > 이 절이 아래 과거 '33개 검증' 및 이전 단계의 진행 수치를 대체한다. 과거 절은 작성 당시 검증 이력으로 유지한다.
 
@@ -295,6 +295,28 @@
 - `20597827` **마리차강**: [불가리아 동에게해 수계관리국](https://earbd.bg/indexdetails.php?menu_id=226)·[그리스 에브로스 지방정부](https://www.pamth.gov.gr/en/anaklisi-tis-apagoreysis-alieias-ston-potamo-evro-stoys-parapotamoys-toy-sta-kanalia-kai-stoys-loipoys-ydatinoys-schimatismoys-2/) 자료로 국경을 넘는 Maritsa/Evros 수계와 Tundzha 지류 관계를 확인. NE 본류 표본 일치율 37%이므로 **두 국가 기관의 독립 지명 설명을 교차검증**하여 대표명 유지. 향후 더 정확한 선형 원출처 조사 필요.
 - [남은 31개 전수 조사 대기열](remaining-31-priority.json): Natural Earth 독립 명칭 선형 없음 16개, 본류·지류·객체 유형 충돌 우려 13개, 명칭 범위 자료 미비 2개. 우선순위: [젬/엠바강과 우랄강 혼동](emba-ural-identity-review.md), 핀란드 오울루강 2개 OGC 공식 수로 선형 대조, 일본 아라카와강/도네강 원천 경로 분리, 수에즈운하의 객체 유형 검토.
 - 모든 기존 HydroRIVERS 지오메트리·국가 경계·OSM 저작권 링크·지도 사용 데이터·웹/앱 빌드는 수정하지 않았다. 이 단계는 **검증용 대체 소스 준비**에 한정된다.
+
+## 후속 재조사 — 독립 지점과 원본 중심선 직접 대조 5개 (2026-10-24)
+
+> 최신 검증용 비OSM 교체 패키지는 여전히 **42/73개**이며, 원본 지도 반영 **0개**다. 아래는 이전에 남겨둔 31개 중 **5개**에 대한 새로운 *식별 대조*다. 5개가 추가 교체 승인을 받았다는 뜻은 아니다.
+
+- [GitHub Actions 독립 지점 공간 대조 성공](https://github.com/kimjeon-il/Pando/actions/runs/40055173588): 배포용 HydroRIVERS v0.13.2의 16,548개 feature / 902 pack / 3 geometry shard를 기존 생산 디코더로 판독, 5개 논리 수계의 실제 mainstem과 독립 발표 지명 좌표를 로컬 UTM 투영 좌표계에서 비교했다. [계산 재현 스크립트](https://github.com/kimjeon-il/Pando/blob/work/gis/tools/gis/verify_independent_river_point_anchors.py) · [수치·기초문헌 영구 증거](independent-river-point-crosscheck.json).
+- 기존 OSM 관계 연결 방식은 외접 범위 중첩 매칭이므로, 서로 다른 강이 같은 이름과 별칭을 받을 위험이 이번 검사에서 구체화됐다.
+
+| System ID | 기존 대표명 | 유력한 독립 식별 | Hydro 중심선과 독립 지점 간 거리 (km) | 판정 |
+| --- | --- | --- | --- | --- |
+| `20071308` | 오울루강 | Oulujoki | 오울루강 1.964 / 시카강 37.737 | 기존명 대체로 부합하나 본류 약 416.3km로 공식 오울루강 107km보다 훨씬 길어 상류 범위 분리 필요 |
+| `20075401` | 오울루강 | **Siikajoki** | 시카강 0.396 / 오울루강 38.998 | **기존명 혼입 유력**. 핀란드 국가 지명등록부의 공식 지점과 기존 Hydro 일치 |
+| `20456598` | 우랄강 | **Zhem/Emba** | 젬강 0.207 / 우랄강 308.332 | **기존명 혼입 유력**. 독립 지리 문헌의 지점과 기존 Hydro 일치. 공식 정부 벡터 재검증 필요 |
+| `20532766` | 테레크강 | Terek | 테레크 하구 1.366 / 술라크 조사점 35.210~38.108 | 기존명 지지. 실제 본류 확인은 별도 |
+| `20540915` | 테레크강 | **Sulak** | 술라크 현장 관측점 두 곳 0.030, 0.084 / 테레크 하구 34.557 | **기존명 혼입 유력**. 러시아 공식 수로 지정과 독립 현장 2개 지점으로 교차검증 |
+
+### 독립 출처와 검증 한계
+
+- 핀란드: [국토조사국 지명등록부 Oulujoki](https://finto.fi/yso-paikat/fi/page/p204727) · [Siikajoki](https://finto.fi/yso-paikat/en/page/p139542). [핀란드 환경정보기관 오울루강(107km)](https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-oulujoen-vesistoalueella/)과 [시카강(약 194km)](https://www.vesi.fi/tra_arviointi/tulvariskien-alustava-arviointi-siikajoen-vesistoalueella/)은 별개의 강이다. 실제 이름 있는 공식 수로 선형을 [국토조사국 OGC API](https://avoin-paikkatieto.maanmittauslaitos.fi/inspire-hydrography/features/v1/)에서 확보해 전 구간 재검토할 것.
+- 카자흐스탄: [무갈자르 지방정부](https://www.gov.kz/org/aktobe-mugalzhar/press/article/details/25185?directionId=8907&lang=ru)는 젬/엠바강의 발원지를 독립적으로 명시한다. 비교에 쓴 **좌표**는 [카자흐스탄 지리 문헌 2차 전사](https://silkadv.com/ru/node/4653)와 [우랄강 전문서적 2차 전사](https://silkadv.com/en/content/ural-river-kazakhstan) 자료이며, 공식 정부 GIS가 아니다. 따라서 명칭을 즉시 변경하지 않는다.
+- 러시아: [연방수자원청](https://voda.gov.ru/favr/structure/bvu/department/subject/6885)은 테레크/술라크를 별도 하천으로 관리한다. [독립 2024년 현장 관측 연구](https://www.mdpi.com/2073-4441/17/23/3390)는 술라크 2개 지점의 위치를 측정했고, [정부 제1543-р호 명령](https://base.garant.ru/407033236/)은 술라크강 합류점(42.7923N, 46.7951E)과 치르케이 댐·미아틀리 댐·바브투가이 등 지점의 공식 좌표를 별도로 명시한다. 이것들은 표본 지점이지 전체 벡터는 아니다.
+- 공통 한계: 개별 지점의 하천 선형 근접성만으로 하천 **전체** 동일성, 상류의 다른 이름, 지류 포함 여부, 라이선스 및 한국어 표기까지 확정할 수 없다. 지도 이름·형상·원본 OSM relation 정보·OSM 저작권 링크는 계속 유지한다. 남은 31개 중 5개에만 구체적인 강 식별 단서를 추가했으며, 미완료 31개라는 검증상 숫자는 바뀌지 않았다.
 
 ## 데이터 반영
 
