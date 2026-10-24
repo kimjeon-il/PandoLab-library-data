@@ -318,6 +318,16 @@
 - 러시아: [연방수자원청](https://voda.gov.ru/favr/structure/bvu/department/subject/6885)은 테레크/술라크를 별도 하천으로 관리한다. [독립 2024년 현장 관측 연구](https://www.mdpi.com/2073-4441/17/23/3390)는 술라크 2개 지점의 위치를 측정했고, [정부 제1543-р호 명령](https://base.garant.ru/407033236/)은 술라크강 합류점(42.7923N, 46.7951E)과 치르케이 댐·미아틀리 댐·바브투가이 등 지점의 공식 좌표를 별도로 명시한다. 이것들은 표본 지점이지 전체 벡터는 아니다.
 - 공통 한계: 개별 지점의 하천 선형 근접성만으로 하천 **전체** 동일성, 상류의 다른 이름, 지류 포함 여부, 라이선스 및 한국어 표기까지 확정할 수 없다. 지도 이름·형상·원본 OSM relation 정보·OSM 저작권 링크는 계속 유지한다. 남은 31개 중 5개에만 구체적인 강 식별 단서를 추가했으며, 미완료 31개라는 검증상 숫자는 바뀌지 않았다.
 
-## 데이터 반영
+## 데이터 반영 — 코드·자료 저장 완료 (2026-10-24)
 
-`not-applied` · 원본 수계 형상·명칭·출처 UI 유지, 단 재현 가능한 조사·대조 목록 생성.
+> 이 절이 위의 과거 검증용 패키지·미반영 기록을 대체하는 **최신 데이터 상태**다. 웹 Pages 게시 확인은 별도이다.
+
+- **실제 HydroRIVERS v0.13.2 메타데이터 42개 수계 반영 완료**, 대표명 정정 8개, 기존 대표명 유지·별칭·지류·출처 정리 34개. 1,895개 feature 조각에 각각의 비OSM 증거 URL 등록.
+- 자료 저장소의 불변 원본 커밋 [`36210d5`](https://github.com/kimjeon-il/PandoLab-library-data/commit/36210d5fde7d4d2301d0ff1335cf728e23b24195), 원본 `hydro.bin`과 동위 `manifest.json`의 SHA 검증 통과. 새 bundle SHA-256 `aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4`.
+- 코드 저장소 `main` 새 자료 pin [`15046c8`](https://github.com/kimjeon-il/Pando/commit/15046c820c393e9822b9e148d972291d101822f1). [42개 메타데이터 전수 검증 성공](https://github.com/kimjeon-il/Pando/actions/runs/40055943255), [Hydro 현재 런타임 계약 검사](https://github.com/kimjeon-il/Pando/actions/runs/40056841310) 성공.
+- 국경선·하천 실제 좌표·압축 인덱스·세 기하 shard 원본 해시를 유지했다. 미교체 OSM 31개는 해당 원본 이름·관계정보 및 ODbL 표시를 보존한다. 오른쪽 개별 객체 비고에는 검증된 42개에 대해 공식 출처 URL이 나온다.
+- 독립 발표 지점과의 거리 검사에 따라 Siikajoki `20075401`, Zhem/Emba `20456598`, Sulak `20540915` 등은 오명명 유력 **후속 확인 대상**이며 **이번 8개 확정 정정에 포함되지 않는다**. 검증 전에는 기존 이름을 변경하지 않는다.
+- 배포 웹 페이지 사용 여부: **최신 Pages 게시 검증 대기** ([게시 작업](https://github.com/kimjeon-il/Pando/actions/runs/40057033282)).
+
+[원본 별도 조사표](remaining-31-priority.json) · [현재 73개 원천 판정](inventory.json) · [5개 중심선 거리 검증](independent-river-point-crosscheck.json)
+
