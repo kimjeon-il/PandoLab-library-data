@@ -3205,5 +3205,5 @@
   "publishedCodeCommit": "15046c820c393e9822b9e148d972291d101822f1",
   "publishedDataCommit": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
   "publishedBundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
-  "publishedVerificationStatus": "code-main-and-immutable-storage-pinned-pages-deployment-verification-pending"
+  "publishedVerificationStatus": "code-main-and-immutable-storage-pinned-pages-actions-build-deploy-success"
 }
