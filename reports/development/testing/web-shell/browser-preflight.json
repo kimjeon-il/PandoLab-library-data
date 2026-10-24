@@ -1,0 +1,999 @@
+{
+  "browserOnly": true,
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "source": "actual frontend under shell CSP",
+  "verification": false,
+  "bootstrap": {
+    "ready": true,
+    "metrics": {
+      "mapReadiness": {
+        "status": "ready",
+        "label": "현재 화면 준비 완료 · 저배율 표시",
+        "retry": false
+      },
+      "screenScale": 162.97466172610083,
+      "scaleBand": "low",
+      "previewAdmission": "startup-only-unverified",
+      "renderer": "webgl2",
+      "mapHost": "legacy",
+      "assetRevision": "0.36.0-build-merge-f9e653a9-010fb6b0",
+      "dataRevision": "data-f90bdb599ba09323f05688344496b238",
+      "dataCacheName": "pandolab-world-content-v1",
+      "projectGeneration": 0,
+      "terrainRepresentation": null,
+      "terrainDatasetVersion": "0.13.3-p1",
+      "terrainSource": "raster",
+      "terrainFallbackReason": null,
+      "terrainDetailedShade": false,
+      "projectRenderBlocked": false,
+      "activeWebGlContextCount": 1,
+      "renderSceneRevision": 72,
+      "sceneCacheValid": true,
+      "sceneCache": {
+        "valid": true,
+        "dirty": true,
+        "activeViewSignature": "1:flat:512,347:162.97466172610083::0,20:1024:720",
+        "stagingViewSignature": "1:flat:512,347:162.97466172610083::0,20:1024:720",
+        "activeProjectGeneration": 0,
+        "stagingProjectGeneration": 0,
+        "state": "rebuilding",
+        "disabled": false,
+        "width": 1024,
+        "height": 720,
+        "generation": 58,
+        "hitCount": 11,
+        "missCount": 7,
+        "compositeCount": 11,
+        "compositeMs": 0.29999999701976776,
+        "recreateCount": 2,
+        "failureCount": 0,
+        "lastFailureReason": "",
+        "lastInvalidationReason": "country-zoom-quality"
+      },
+      "sceneCacheFullDrawCount": 7,
+      "sceneCacheInteractionDrawCount": 11,
+      "sceneCacheReprojectCount": 0,
+      "selectionOnlyBaseDrawCount": 2,
+      "sceneCacheFallbackFrame": false,
+      "canonicalFrameFallbackCount": 0,
+      "firstCanonicalFrameMs": null,
+      "polygonOverlay": {
+        "resourceCount": 44,
+        "uploadBytes": 26502712,
+        "buildCount": 44,
+        "buildMs": 0,
+        "drawCount": 131,
+        "drawCallCount": 131,
+        "drawMs": 1.2000000029802322,
+        "cacheHits": 0,
+        "cacheMisses": 44,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "activeBufferBytes": 26502712,
+        "resourceBudget": {
+          "byteBudget": 124822487,
+          "activeBytes": 26502712,
+          "entryCount": 44,
+          "activeKeyCount": 44,
+          "protectedKeyCount": 5,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "stroke": {
+        "resourceCount": 3,
+        "uploadBytes": 13847944,
+        "buildCount": 3,
+        "buildMs": 0,
+        "drawCount": 7,
+        "drawCallCount": 1049,
+        "drawMs": 13.700000002980232,
+        "cacheHits": 9,
+        "cacheMisses": 0,
+        "failureCount": 0,
+        "lastFailureStage": "",
+        "contextLost": false,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 7.5,
+        "selfTestFailureReason": "",
+        "analyticAa": true,
+        "aaRadiusPx": 1,
+        "connectedTopology": true,
+        "topologyJoinCount": 0,
+        "topologyCapCount": 0,
+        "topologyClosedChainCount": 0,
+        "topologyInvalidSegmentCount": 0,
+        "activeBufferBytes": 13847944,
+        "resourceBudget": {
+          "byteBudget": 76504104,
+          "activeBytes": 13847944,
+          "entryCount": 3,
+          "activeKeyCount": 5,
+          "protectedKeyCount": 5,
+          "evictionCount": 0,
+          "evictedBytes": 0,
+          "blockedEvictionCount": 0,
+          "overBudgetBytes": 0
+        }
+      },
+      "selection": {
+        "packetRevision": 0,
+        "countryBoundaryRevision": "preview:0:0:204956:0:::4",
+        "viewDrawCount": 11,
+        "viewOnlyBufferRebuildCount": 0,
+        "drawMs": 0.7000000029802322,
+        "lastDrawMs": 0,
+        "renderFailureCount": 2,
+        "contextLost": false,
+        "contextLossCount": 0,
+        "contextRestoreCount": 0,
+        "bufferBuildCount": 0,
+        "bufferBuildMs": 0,
+        "bufferUploadBytes": 0,
+        "geometryCacheHits": 0,
+        "geometryCacheMisses": 0,
+        "countryBatchCount": 0,
+        "genericBatchCount": 0,
+        "strokeDrawCallCount": 0,
+        "gpuHealth": "healthy",
+        "selfTestPassed": true,
+        "selfTestCount": 1,
+        "selfTestMs": 7.5,
+        "selfTestFailureReason": "",
+        "renderSucceeded": true,
+        "channels": {
+          "candidate": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "hover": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "secondary": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          },
+          "primary": {
+            "rebuildCount": 1,
+            "rebuildMs": 0,
+            "uploadBytes": 0,
+            "activeBytes": 0,
+            "buildFailed": false,
+            "drawSucceeded": true
+          }
+        },
+        "segmentCount": 0,
+        "activeBufferBytes": 0,
+        "stagingBufferBytes": 0,
+        "drawCoverage": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "lastSelectionRenderResult": {
+        "succeeded": true,
+        "contextLost": false,
+        "selfTestPassed": true,
+        "gpuHealth": "healthy",
+        "channels": {
+          "candidate": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "hover": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "secondary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          },
+          "primary": {
+            "buildSucceeded": true,
+            "drawSucceeded": true,
+            "renderedKeys": [],
+            "missingKeys": []
+          }
+        }
+      },
+      "effectivePixelRatio": 1,
+      "devicePixelRatio": 1,
+      "meshQuality": "canonical",
+      "activeMeshQuality": "canonical",
+      "canonicalMeshReady": true,
+      "availableMeshQualities": [
+        "preview",
+        "canonical"
+      ],
+      "meshVariantBytes": {
+        "preview": 3775534,
+        "canonical": 28519542
+      },
+      "meshRestorePending": false,
+      "qualityPhase": "startup-preview",
+      "previewAllowed": true,
+      "previewActivationCount": 1,
+      "desiredCountryMeshQuality": "preview",
+      "countryFocusPending": false,
+      "previewActivationAfterCanonical": 0,
+      "canonicalPromotionCount": 0,
+      "canonicalPromotionError": "",
+      "canonicalReadyFrameId": 0,
+      "meshSwitchCount": 2,
+      "renderQualityChangeCount": 1,
+      "renderQuality": {
+        "tier": "high",
+        "phase": "settle",
+        "revision": 1,
+        "countryMeshQuality": "canonical",
+        "dprCap": 3,
+        "terrainResolutionScale": 1,
+        "terrainCacheBudgetBytes": 134217728,
+        "hydroCacheBudgetBytes": 100663296,
+        "overlayGpuBudgetBytes": 201326592,
+        "uploadBudgetBytes": 8388608,
+        "activeEditLod": "high",
+        "selectedLod": "high",
+        "backgroundLod": "high",
+        "renderPacketCacheBudgetBytes": 201326592,
+        "interactionUploadBudgetBytes": 786432,
+        "settleUploadBudgetBytes": 8388608,
+        "targetFrameMs": 20,
+        "p95FrameMs": 0,
+        "p99FrameMs": 0,
+        "longFrameCount": 0,
+        "reason": "device-hints"
+      },
+      "countries": 258,
+      "renderVertices": 1038279,
+      "triangleCount": 1511396,
+      "lineSegmentCount": 555959,
+      "countryBoundaryMode": "outline",
+      "countrySharedBoundarySegmentCount": 12893,
+      "countrySharedBoundaryReady": true,
+      "countrySharedBoundaryReplacementPending": false,
+      "countryInternalBoundarySegmentCount": 35,
+      "countryInternalBoundaryVisibleOwnerIds": [
+        "HKG",
+        "KAB",
+        "USG"
+      ],
+      "countrySharedBoundaryWorkerActive": true,
+      "countrySharedBoundaryRequestId": 4,
+      "countrySharedBoundaryLastMessage": "prepared:3:preview:0:0",
+      "p95CpuSubmitMs": 98.9,
+      "p99CpuSubmitMs": 98.9,
+      "pickCount": 0,
+      "pickReadPixelsMs": 0,
+      "pickLastReadPixelsMs": 0,
+      "pickSceneRenderCount": 0,
+      "countryEmphasisRevision": 1,
+      "interactionFillCoverage": {
+        "succeeded": true,
+        "renderedKeys": [],
+        "missingKeys": []
+      },
+      "interactionFillItems": [],
+      "countryEmphasis": {
+        "primaryId": "",
+        "primaryIds": [],
+        "priorities": {},
+        "hoverId": "",
+        "selectedIds": [],
+        "boundaryEnabled": false,
+        "primaryBoundaryColor": "#316fd3",
+        "secondaryBoundaryColor": "#316fd3"
+      },
+      "interactionStyle": {
+        "theme": "light",
+        "antiAlias": true,
+        "hover": {
+          "color": "#316fd3",
+          "width": 1.5,
+          "alpha": 0.85,
+          "fillAlpha": 0.027999999999999997
+        },
+        "selection": {
+          "color": "#316fd3",
+          "outlineVisible": true,
+          "fillStrength": 0.35,
+          "primary": {
+            "innerWidth": 2.5,
+            "innerAlpha": 1,
+            "fillAlpha": 0.08399999999999999
+          },
+          "secondary": {
+            "innerWidth": 1.5,
+            "innerAlpha": 0.72,
+            "fillAlpha": 0.049
+          }
+        },
+        "drawOrder": [
+          "candidate",
+          "hover",
+          "secondary-inner",
+          "primary-inner"
+        ]
+      },
+      "boundaryOwner": "interaction-overlay",
+      "visualPassOrder": [
+        "substrate",
+        "terrain",
+        "country-fill",
+        "territorial-fill",
+        "lake",
+        "lake-boundary",
+        "river",
+        "border-river",
+        "country-boundary",
+        "independent-overlay",
+        "candidate",
+        "hover",
+        "secondary",
+        "primary",
+        "edit-preview",
+        "validation",
+        "edit-handles",
+        "draft",
+        "snap",
+        "territorial-labels",
+        "labels"
+      ],
+      "emphasizedCountryCount": 0,
+      "viewportCss": [
+        1024,
+        720
+      ],
+      "canvasBackingPixels": [
+        1024,
+        720
+      ],
+      "layoutMismatchCssPx": 0,
+      "requestedRevision": 2,
+      "displayedRevision": 2,
+      "committedGeometryRevision": 0,
+      "displayedGeometryRevision": 0,
+      "pendingCountryCount": 0,
+      "pendingOldMeshVisibleCount": 0,
+      "countryPatchPresentation": null,
+      "geometryRenderTaskToken": 0,
+      "patchWorkerJobs": {
+        "submitted": 0,
+        "started": 0,
+        "completed": 0,
+        "failed": 0,
+        "cancelled": 0,
+        "coalesced": 0,
+        "staleDiscarded": 0,
+        "maxQueueDepth": 0,
+        "lastLatencyMs": 0,
+        "queueDepth": 0,
+        "runningCount": 0,
+        "activeKeys": [],
+        "queuedKeys": [],
+        "latencyP95Ms": 0,
+        "latencyP99Ms": 0
+      },
+      "patchWorkerOutputBytes": 0,
+      "lastMeshPreparation": null,
+      "lastGeometryCommitTimings": null,
+      "canvasWorkerBusy": false,
+      "canvasStyleRevision": 0,
+      "canvasDisplayedStyleRevision": 0,
+      "canvasWorkerHasPendingFrame": false,
+      "webglContextLost": false,
+      "webGlVersion": 2,
+      "forcedRenderer": null,
+      "fallbackReason": "",
+      "hydroFeaturesLoaded": 0,
+      "hydroDescriptorPackCount": 0,
+      "hydroDescriptorLogicalCount": 0,
+      "hydroDescriptorFidCount": 0,
+      "interactionActive": false,
+      "paletteDirty": {
+        "base": true,
+        "emphasis": true
+      },
+      "paletteRebuildCount": 4,
+      "paletteUploadCount": 8,
+      "paletteUploadBytes": 12384,
+      "uniformCacheHits": 161,
+      "uniformCacheMisses": 93,
+      "attributeCacheHits": 7,
+      "attributeCacheMisses": 34,
+      "frameContextBuildCount": 0,
+      "visualFrameConsumeCount": 11,
+      "hydroViewRequestCount": 0,
+      "hydroTileWindowCacheHitCount": 0,
+      "hydroTileWindowRecomputeCount": 0,
+      "hydroUploadBytes": 0,
+      "terrainIncompleteFrameCount": 0,
+      "canvasWorkerMessageCount": 0,
+      "canvasWorkerMessageBytes": 0,
+      "canvasWorkerViewMessageCount": 0,
+      "canvasWorkerStaleFrameCount": 0,
+      "canvasWorkerStateMessageCount": 0,
+      "canvasWorkerMessagesByType": {},
+      "baseSceneDrawCount": 7,
+      "interactionFrameCount": 11,
+      "selectionOnlyFrameCount": 3,
+      "selectionOnlyGeometryUploadBytes": 0,
+      "countryInteractionIndexCount": 0,
+      "countryInteractionRangeCount": 0,
+      "countryInteractionFullIndexCount": 423555,
+      "countryBaseIndexCount": 4534188,
+      "countryBaseFullIndexCount": 4534188,
+      "countryBaseRangeCount": 1,
+      "countryBoundaryIndexCount": 204956,
+      "countryBoundaryFullIndexCount": 204956,
+      "countryVisibleCount": 258,
+      "countryCullingFallbackCount": 0,
+      "countryStateCompositeCount": 0,
+      "countryStateCompositeMs": 0,
+      "countryPatchUploadBytes": 0,
+      "lastCountryPatchUploadBytes": 0,
+      "countryPatchSceneHoldCount": 0,
+      "paletteChangedCountryCount": 258,
+      "paletteUploadRangeCount": 0,
+      "paletteFullRebuildCount": 1,
+      "paletteSkippedUnchangedCount": 2,
+      "overlayUploadBytes": 0,
+      "lastOverlayUploadBytes": 0,
+      "overlayDeferredItemCount": 0,
+      "uploadBudgetOverrunCount": 0,
+      "shaderInitializationMs": 188.5,
+      "hydroTileWindowSignature": "",
+      "hydroPacksLoaded": 0,
+      "hydroFeaturePendingCount": 0,
+      "hydroLogicalQueryPendingCount": 0,
+      "hydroPacksActive": 0,
+      "hydroEditRevision": 0,
+      "hydroEditBatchCount": 0,
+      "hydroCacheBytes": 0
+    },
+    "network": {
+      "requests": [
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/current.json",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/ba131f56846837b2ff6ba4f565d2dcbe/assets/js/workers/data-loader-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0&layout=compact&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/current.json?v=data-f90bdb599ba09323f05688344496b238",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/objects/countries-preview-sha256-a1be5c387b95f643e6720d80fe3027ef527ac9cb172d0b633f216e49017eaedb.geojson.gz",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/objects/world-mesh-preview-sha256-3b682a4ecae55476d470244ceee4914890c2ec21b0f67ac293e42785687e9c9e.bin.gz",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/objects/country-label-anchors-sha256-791e244478cce05b76fa79bc6f7933250a8dd78def1d46aa7ec6ccea2c312902.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/physical-land/v1/geometry.json.gz",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/countries-preview-shared-v0.36.1.json.gz",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/manifest.json?sha256=1090ba543b54b116cbba1c06c987b606e4b80a098d6990e5c09ad4bf61e830ce",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3.bin.gz?sha256=04d34326fc175faeb60da19c06d3f45a679ce25f196a779fa83766b53657ecf3",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.manifest.json",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/wasm/pandoeditor-core.wasm?sha256=f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-daf31f34463a4208b70a16e217f34e23a63324a67fe03bac60bf95d9b0f6649a.bin.gz?sha256=daf31f34463a4208b70a16e217f34e23a63324a67fe03bac60bf95d9b0f6649a",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1e4dc7f93428b3fae2335d3617402024f6f077edd5bbe49aa28364ef4b898075.bin.gz?sha256=1e4dc7f93428b3fae2335d3617402024f6f077edd5bbe49aa28364ef4b898075",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/objects/countries-canonical-sha256-78680d3a00fdbb066d645ef623eb751fb4ef8d7307815fc1bf8ffd5fe5d745b3.pcg.gz",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/builtin-world/generated/v1/index.json",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/builtin-world/generated/v1/transport/countries-sha256-cc0ea9a80960bcabea8fc1da34d124ce2f419c1a200585bf023239d09cbbfee6.bin",
+          "context": "window"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/world/objects/world-mesh-sha256-e2d54d91c33470c8907f1c09ba58c81ebacd333d4d3afb129280403d74eec0a6.bin.gz",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e2e12752943f1994749a44f4ae1198e419d5e6db13d149d7cd4fc103700cb6b6.bin.gz?sha256=e2e12752943f1994749a44f4ae1198e419d5e6db13d149d7cd4fc103700cb6b6",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c8c8fc243a018f0cd0be202a126346542ec15163fa794746cb862e1c5d7e878c.bin.gz?sha256=c8c8fc243a018f0cd0be202a126346542ec15163fa794746cb862e1c5d7e878c",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1ddfd518630c8c2902f3deb442eb1d270a944c0bb40cf1f537067d97b68b047f.bin.gz?sha256=1ddfd518630c8c2902f3deb442eb1d270a944c0bb40cf1f537067d97b68b047f",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7037131020405d04321a6c51f95c69666031165b68c63df1c0574f2bebc8652d.bin.gz?sha256=7037131020405d04321a6c51f95c69666031165b68c63df1c0574f2bebc8652d",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-6c1d70d6fe88616645b82bd063114dc0efe313af0734b85ce5c03391503afb1b.bin.gz?sha256=6c1d70d6fe88616645b82bd063114dc0efe313af0734b85ce5c03391503afb1b",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1e163ce8c0a517e60463914310add50b30622f1aaa44a1f23765929c328b190a.bin.gz?sha256=1e163ce8c0a517e60463914310add50b30622f1aaa44a1f23765929c328b190a",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-639285e62008920b49aba9c98d4df796e6b9362056bd5b958afc1c510ff33536.bin.gz?sha256=639285e62008920b49aba9c98d4df796e6b9362056bd5b958afc1c510ff33536",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-464d2b0eb06e5dd2f1de9aef3b5f76519ce26b79f6dfcf41bdaf355be02c094e.bin.gz?sha256=464d2b0eb06e5dd2f1de9aef3b5f76519ce26b79f6dfcf41bdaf355be02c094e",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-95101a59c46cb769ede4b3a13c4648d09b2b1f2fdfcf8a359ba844eed1295adc.bin.gz?sha256=95101a59c46cb769ede4b3a13c4648d09b2b1f2fdfcf8a359ba844eed1295adc",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-06feb7c4994f0e05d9102db370d53d7baf66989cd2de16cf3f9100dabdcfa128.bin.gz?sha256=06feb7c4994f0e05d9102db370d53d7baf66989cd2de16cf3f9100dabdcfa128",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8e9f2166b27e4f7a1947f350a4473d25aab57c2e9353f9ac40ef510620c1dbed.bin.gz?sha256=8e9f2166b27e4f7a1947f350a4473d25aab57c2e9353f9ac40ef510620c1dbed",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-81449aa31e33169bf7bee424009508f035ce777aca0801cab7a139d298c39e43.bin.gz?sha256=81449aa31e33169bf7bee424009508f035ce777aca0801cab7a139d298c39e43",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-03a82eb5f52d21b6ec88184c7f581b3bcee7d010a721e0beb91cbfbe9d647b4a.bin.gz?sha256=03a82eb5f52d21b6ec88184c7f581b3bcee7d010a721e0beb91cbfbe9d647b4a",
+          "context": "worker"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a24c164b8bf9d4b35a4b907b82d1193c0669dbce0951ac563a5b7836e6596f68.bin.gz?sha256=a24c164b8bf9d4b35a4b907b82d1193c0669dbce0951ac563a5b7836e6596f68",
+          "context": "worker"
+        }
+      ],
+      "blocked": [],
+      "workers": [
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/ba131f56846837b2ff6ba4f565d2dcbe/assets/js/workers/data-loader-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0&layout=compact&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false",
+          "type": "module",
+          "name": "pandolab-data-loader"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "module",
+          "name": ""
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/a581058052b35788729cc286e2bfdb51/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-country-shared-boundary"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-overlay-mesh"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-overlay-mesh"
+        },
+        {
+          "url": "http://127.0.0.1:60526/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-merge-f9e653a9-010fb6b0",
+          "type": "classic",
+          "name": "pandolab-label-anchors"
+        }
+      ]
+    },
+    "entities": [
+      "AFG",
+      "AGO",
+      "ALB",
+      "AND",
+      "ARE",
+      "ARG",
+      "ARM",
+      "ATA",
+      "ATG",
+      "AUS",
+      "AUT",
+      "AZE",
+      "BDI",
+      "BEL",
+      "BEN",
+      "BFA",
+      "BGD",
+      "BGR",
+      "BHR",
+      "BHS",
+      "BIH",
+      "BLR",
+      "BLZ",
+      "BOL",
+      "BRA",
+      "BRB",
+      "BRN",
+      "BRT",
+      "BTN",
+      "BWA",
+      "CAF",
+      "CAN",
+      "CHE",
+      "CHL",
+      "CHN",
+      "CIV",
+      "CMR",
+      "CNM",
+      "COD",
+      "COG",
+      "COK",
+      "COL",
+      "COM",
+      "CPV",
+      "CRI",
+      "CUB",
+      "CYN",
+      "CYP",
+      "CZE",
+      "d34b00a1-9b13-8000-8000-000000414257",
+      "d34b00a1-9b13-8000-8000-000000414941",
+      "d34b00a1-9b13-8000-8000-000000414c44",
+      "d34b00a1-9b13-8000-8000-00000041534d",
+      "d34b00a1-9b13-8000-8000-000000415443",
+      "d34b00a1-9b13-8000-8000-000000415446",
+      "d34b00a1-9b13-8000-8000-000000424c4d",
+      "d34b00a1-9b13-8000-8000-000000424d55",
+      "d34b00a1-9b13-8000-8000-000000434c50",
+      "d34b00a1-9b13-8000-8000-000000435349",
+      "d34b00a1-9b13-8000-8000-000000435557",
+      "d34b00a1-9b13-8000-8000-00000043594d",
+      "d34b00a1-9b13-8000-8000-000000455342",
+      "d34b00a1-9b13-8000-8000-000000464c4b",
+      "d34b00a1-9b13-8000-8000-00000046524f",
+      "d34b00a1-9b13-8000-8000-000000474759",
+      "d34b00a1-9b13-8000-8000-000000474942",
+      "d34b00a1-9b13-8000-8000-00000047524c",
+      "d34b00a1-9b13-8000-8000-00000047554d",
+      "d34b00a1-9b13-8000-8000-000000484b47",
+      "d34b00a1-9b13-8000-8000-000000484d44",
+      "d34b00a1-9b13-8000-8000-000000494d4e",
+      "d34b00a1-9b13-8000-8000-000000494f41",
+      "d34b00a1-9b13-8000-8000-000000494f54",
+      "d34b00a1-9b13-8000-8000-0000004a4559",
+      "d34b00a1-9b13-8000-8000-0000004b4142",
+      "d34b00a1-9b13-8000-8000-0000004d4143",
+      "d34b00a1-9b13-8000-8000-0000004d4146",
+      "d34b00a1-9b13-8000-8000-0000004d4e50",
+      "d34b00a1-9b13-8000-8000-0000004d5352",
+      "d34b00a1-9b13-8000-8000-0000004e434c",
+      "d34b00a1-9b13-8000-8000-0000004e464b",
+      "d34b00a1-9b13-8000-8000-00000050434e",
+      "d34b00a1-9b13-8000-8000-000000504741",
+      "d34b00a1-9b13-8000-8000-000000505249",
+      "d34b00a1-9b13-8000-8000-000000505946",
+      "d34b00a1-9b13-8000-8000-000000534753",
+      "d34b00a1-9b13-8000-8000-00000053484e",
+      "d34b00a1-9b13-8000-8000-00000053504d",
+      "d34b00a1-9b13-8000-8000-00000053584d",
+      "d34b00a1-9b13-8000-8000-000000544341",
+      "d34b00a1-9b13-8000-8000-000000554d49",
+      "d34b00a1-9b13-8000-8000-000000555347",
+      "d34b00a1-9b13-8000-8000-000000564742",
+      "d34b00a1-9b13-8000-8000-000000564952",
+      "d34b00a1-9b13-8000-8000-000000574c46",
+      "d34b00a1-9b13-8000-8000-000000575342",
+      "DEU",
+      "DJI",
+      "DMA",
+      "DNK",
+      "DOM",
+      "DZA",
+      "ECU",
+      "EGY",
+      "ERI",
+      "ESP",
+      "EST",
+      "ETH",
+      "FIN",
+      "FJI",
+      "FRA",
+      "FSM",
+      "GAB",
+      "GBR",
+      "GEO",
+      "GHA",
+      "GIN",
+      "GMB",
+      "GNB",
+      "GNQ",
+      "GRC",
+      "GRD",
+      "GTM",
+      "GUY",
+      "HND",
+      "HRV",
+      "HTI",
+      "HUN",
+      "IDN",
+      "IND",
+      "IRL",
+      "IRN",
+      "IRQ",
+      "ISL",
+      "ISR",
+      "ITA",
+      "JAM",
+      "JOR",
+      "JPN",
+      "KAS",
+      "KAZ",
+      "KEN",
+      "KGZ",
+      "KHM",
+      "KIR",
+      "KNA",
+      "KOR",
+      "KOS",
+      "KWT",
+      "LAO",
+      "LBN",
+      "LBR",
+      "LBY",
+      "LCA",
+      "LIE",
+      "LKA",
+      "LSO",
+      "LTU",
+      "LUX",
+      "LVA",
+      "MAR",
+      "MCO",
+      "MDA",
+      "MDG",
+      "MDV",
+      "MEX",
+      "MHL",
+      "MKD",
+      "MLI",
+      "MLT",
+      "MMR",
+      "MNE",
+      "MNG",
+      "MOZ",
+      "MRT",
+      "MUS",
+      "MWI",
+      "MYS",
+      "NAM",
+      "NER",
+      "NGA",
+      "NIC",
+      "NIU",
+      "NLD",
+      "NOR",
+      "NPL",
+      "NRU",
+      "NZL",
+      "OMN",
+      "PAK",
+      "PAN",
+      "PER",
+      "PHL",
+      "PLW",
+      "PNG",
+      "POL",
+      "PRK",
+      "PRT",
+      "PRY",
+      "PSX",
+      "QAT",
+      "ROU",
+      "RUS",
+      "RWA",
+      "SAH",
+      "SAU",
+      "SDN",
+      "SDS",
+      "SEN",
+      "SGP",
+      "SLB",
+      "SLE",
+      "SLV",
+      "SMR",
+      "SOL",
+      "SOM",
+      "SPI",
+      "SRB",
+      "STP",
+      "SUR",
+      "SVK",
+      "SVN",
+      "SWE",
+      "SWZ",
+      "SYC",
+      "SYR",
+      "TCD",
+      "TGO",
+      "THA",
+      "TJK",
+      "TKM",
+      "TLS",
+      "TON",
+      "TTO",
+      "TUN",
+      "TUR",
+      "TUV",
+      "TWN",
+      "TZA",
+      "UGA",
+      "UKR",
+      "URY",
+      "USA",
+      "UZB",
+      "VAT",
+      "VCT",
+      "VEN",
+      "VNM",
+      "VUT",
+      "WSM",
+      "YEM",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ]
+  },
+  "commands": null,
+  "errors": []
+}

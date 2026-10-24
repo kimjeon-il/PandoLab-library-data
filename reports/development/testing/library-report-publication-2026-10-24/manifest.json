@@ -1,0 +1,3898 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-24T14:12:28.183Z",
+  "status": "archival-snapshot-not-product-approval",
+  "mergeCommit": "e35f4244df8c75b63e2f6e0407b790122524be11",
+  "editions": [
+    {
+      "sha256": "370ff8c648b08029ccbb125c0451584ade3e330d70740b12956529f50a8ff366",
+      "bytes": 1478,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/app1922.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/app1922.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/app1922.json"
+    },
+    {
+      "sha256": "c561d7e37bde8d6a57d123da4e8e56c578888934871d9212db86bf434e6961ed",
+      "bytes": 138526,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/app1922.png",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/app1922.png"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/app1922.png"
+    },
+    {
+      "sha256": "6948649a0ba4be6201552b75f2cbec1f88b7f696bf5c7f88eff34d10d744b8b4",
+      "bytes": 2655,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/application-proof.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/application-proof.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/application-proof.json"
+    },
+    {
+      "sha256": "c291de0d9dcaa2e0899883457aeaf99da37883cf239b2b139c0f8e9357483a82",
+      "bytes": 8054082,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/before-country-objects.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/before-country-objects.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/before-country-objects.json"
+    },
+    {
+      "sha256": "a4b30417e8cd2f809e26800470184fa81b16dba2a55ab296c43eda2fc1178626",
+      "bytes": 33142,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/caspian-comparison-10m.png",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/caspian-comparison-10m.png"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/caspian-comparison-10m.png"
+    },
+    {
+      "sha256": "31271664eb4e003dc03190b68323b505cd573abae251d77cb4184f5b50f09e9f",
+      "bytes": 5335,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/caspian-final-README.md.source.txt",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/caspian-final-README.md.source.txt"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/caspian-final-README.md.source.txt"
+    },
+    {
+      "sha256": "e6427878b664800523eb088600d73f29773b510e4359cf5aae55162592781c91",
+      "bytes": 149301,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/data-file-manifest.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/data-file-manifest.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/data-file-manifest.json"
+    },
+    {
+      "sha256": "c511d9425069dbbb1566bb0257fe90ca68d390467d114dc47ee5866d434ad22d",
+      "bytes": 22820,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/data-history-integration.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/data-history-integration.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/data-history-integration.json"
+    },
+    {
+      "sha256": "10b600a458c2c0e5eb5c8ec47ca1faf9f84a1e2340e28d40791651da982f73ee",
+      "bytes": 3195,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/DISPLAY-REVIEW.md.source.txt",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/DISPLAY-REVIEW.md.source.txt"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/DISPLAY-REVIEW.md.source.txt"
+    },
+    {
+      "sha256": "1f792d64b4eee592ab72b33120427031ba4cdc08387e36b9374b50744820acfd",
+      "bytes": 566258,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/display-water.geojson",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/display-water.geojson"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/display-water.geojson"
+    },
+    {
+      "sha256": "0f7bce0f1b8272dc6694872a4c1ec8398ac35f470274de6da70c419d6cc6f3a4",
+      "bytes": 1165,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/final-artifact-handoff.json.source.txt",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/final-artifact-handoff.json.source.txt"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/final-artifact-handoff.json.source.txt"
+    },
+    {
+      "sha256": "cb1d18347d4a5dda7818ee1657d47ef3597049f6d11343b9bee5967aa5cfd8ae",
+      "bytes": 27294,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/generalization-metrics.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/generalization-metrics.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/generalization-metrics.json"
+    },
+    {
+      "sha256": "a3fb04bce5ce58d2a4c1063e307df6902bb45c57060566cba787987a33c0bf3c",
+      "bytes": 984,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json"
+    },
+    {
+      "sha256": "e57a321ec2c7199de22208d534cc1310c0b9637b9172b4a828cfc06c408b2ca9",
+      "bytes": 383,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/modern-merge-limitation.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/modern-merge-limitation.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/modern-merge-limitation.json"
+    },
+    {
+      "sha256": "9f0fd07e443b34a9f754bacc0fc3b1295bcfc67f96386b9929f58b09971fdf0e",
+      "bytes": 8567,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/README.md.source.txt",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/README.md.source.txt"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/README.md.source.txt"
+    },
+    {
+      "sha256": "e167c7bb01f2a948dd085c8497228d9c5a57b2e815bd44b77f186c9232d49f20",
+      "bytes": 944,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/web1922.json",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/web1922.json"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/web1922.json"
+    },
+    {
+      "sha256": "98c0d863db8c8c60fa538db1706e0b598ac7bb7245aa0dd19a5c5b0e8bbc93e0",
+      "bytes": 629391,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/ussr-1922-caspian-application-2026-10-24/web1922.png",
+          "workingPath": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/web1922.png"
+        }
+      ],
+      "target": "reports/geography/ussr-1922-caspian-application-2026-10-24/web1922.png"
+    },
+    {
+      "sha256": "363fb22dc312198d67ea269b8a31b763496e296eb63bde2c58240404c7f8a75e",
+      "bytes": 11903,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1024.png",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1024.png"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1024.png"
+    },
+    {
+      "sha256": "a341ed712113ff3d372bbf9b80e62d67f8d92fff11899673cc74801dd604cb1d",
+      "bytes": 11143,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1440.png",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1440.png"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1440.png"
+    },
+    {
+      "sha256": "75cad376292749cf159333e8f5be8da551f584b51e5cdc89105a94595bc5b699",
+      "bytes": 10587,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-390.png",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-390.png"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-390.png"
+    },
+    {
+      "sha256": "608d0da16c08e8f6db4f5feeb798f6f7c7f682f5655c1796b09436bc102bdae4",
+      "bytes": 14750,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1024.png",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1024.png"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1024.png"
+    },
+    {
+      "sha256": "44ccec360cea89c35c957f098c4086e356e9f99fb4ffa642dc676b6cb904fde7",
+      "bytes": 14644,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1440.png",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1440.png"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1440.png"
+    },
+    {
+      "sha256": "2c96bb60f609b67f00d7c6ed267a2960112ed7c1b2109d82e450dd786d21de37",
+      "bytes": 13351,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-390.png",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-390.png"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-390.png"
+    },
+    {
+      "sha256": "4fc9021bc3f4eff12f57ce4fee48bd0693a1fc5dabad9f2c3bb1c31120b2840e",
+      "bytes": 364,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/checks.json",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/checks.json"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/checks.json"
+    },
+    {
+      "sha256": "5f99d183615b6b03ed35a9ff78c1a0579aab17fb398302861968023032e0fd7c",
+      "bytes": 2434,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/README.md",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/README.md"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/README.md"
+    },
+    {
+      "sha256": "b4a05dbe9a86a9bb3905547a20d6e21ef2f1ee4ad79cb31c458b701f929dd30d",
+      "bytes": 2729,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/release.json",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/release.json"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/release.json"
+    },
+    {
+      "sha256": "22ce6dbf409cabffb5b03405f90148c3c37af8292de7274bb7744a4ed08cc802",
+      "bytes": 1187,
+      "origins": [
+        {
+          "owner": "objects",
+          "logical": "reports/development/testing/remote-branch-integration-2026-10-24/scope.json",
+          "workingPath": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/scope.json"
+        }
+      ],
+      "target": "reports/development/testing/remote-branch-integration-2026-10-24/scope.json"
+    },
+    {
+      "sha256": "5e6db507bce273b563cab222483fd97ca20314289b0ca6d842e138a3810715ce",
+      "bytes": 814,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/qgis-mcp-20261024/codex-tools-proof.json",
+          "workingPath": ".edits/ui/development/qgis-mcp-20261024/codex-tools-proof.json"
+        }
+      ],
+      "target": "reports/development/qgis-mcp-20261024/codex-tools-proof.json"
+    },
+    {
+      "sha256": "3f5001a67e793dea1d314a9189922eb24b915d6a38f00fef05287d3b648d24a9",
+      "bytes": 4510,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/qgis-mcp-20261024/integration-evidence.zip",
+          "workingPath": ".edits/ui/development/qgis-mcp-20261024/integration-evidence.zip"
+        }
+      ],
+      "target": "reports/development/qgis-mcp-20261024/integration-evidence.zip"
+    },
+    {
+      "sha256": "f5774ec85013774a6f81da97afd8e2cbab6dbc7d63ae51efc4c66335bb9808f6",
+      "bytes": 6004,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/qgis-mcp-20261024/REPORT.md",
+          "workingPath": ".edits/ui/development/qgis-mcp-20261024/REPORT.md"
+        }
+      ],
+      "target": "reports/development/qgis-mcp-20261024/REPORT.md"
+    },
+    {
+      "sha256": "23b433e2d87ea28a844d4d61589eca43172b54d9741517b78b5eae36b905687d",
+      "bytes": 4512,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/ci-timeline-fixes-2026-10-24.md",
+          "workingPath": ".edits/ui/development/testing/ci-timeline-fixes-2026-10-24.md"
+        }
+      ],
+      "target": "reports/development/testing/ci-timeline-fixes-2026-10-24.md"
+    },
+    {
+      "sha256": "9a151069dbc005eadf25b5e341505c819f88540e238dfc36c0e26fd287297521",
+      "bytes": 20022,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/verification-build-separation-2026-10-24.md",
+          "workingPath": ".edits/ui/development/testing/verification-build-separation-2026-10-24.md"
+        }
+      ],
+      "target": "reports/development/testing/verification-build-separation-2026-10-24.md"
+    },
+    {
+      "sha256": "b953612b00b08cd1d7057471c0a326c85c4b96e2379253b4b2ab7d2bcfbee257",
+      "bytes": 33330,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/browser-preflight.json",
+          "workingPath": ".edits/ui/development/testing/web-shell/browser-preflight.json"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/browser-preflight.json"
+    },
+    {
+      "sha256": "19f6f1f6244b4cea84cfd3bf4e11f5f817e0e7de9b97b39666bd0dd607221a8b",
+      "bytes": 150086,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/browser-preflight.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/browser-preflight.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/browser-preflight.png"
+    },
+    {
+      "sha256": "d9b8e68581557840183a9fbd39c364d60987f6803259d94a1260cc87a1056303",
+      "bytes": 3900,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/profile-rename-fixture-browser.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/profile-rename-fixture-browser.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/profile-rename-fixture-browser.log"
+    },
+    {
+      "sha256": "7383e04386d1eb301d7e905330a7ce872b4d578ac730723ea0601505abe94835",
+      "bytes": 106,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/profile-rename-fixture-stage.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/profile-rename-fixture-stage.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/profile-rename-fixture-stage.log"
+    },
+    {
+      "sha256": "0afc82ee2a7b9a67806f61e7a0eb3c7d0f6bf2297d06b73727141e4c0b5f75a4",
+      "bytes": 8153,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/profile-rename-map-browser.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/profile-rename-map-browser.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/profile-rename-map-browser.log"
+    },
+    {
+      "sha256": "d6e48e6e3b4cde0037291f6bdfbff320fdfa14fd0c7060e7aeea5013ea89867a",
+      "bytes": 104,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/profile-rename-map-stage.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/profile-rename-map-stage.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/profile-rename-map-stage.log"
+    },
+    {
+      "sha256": "41470763b58c925e4c53ca485faa8e9ee7ab3e08b39799eb684b404ab9e68978",
+      "bytes": 7291,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/profile-rename-tests.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/profile-rename-tests.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/profile-rename-tests.log"
+    },
+    {
+      "sha256": "260ca64ed01da1a8179a7fe4e862b361c2442583c1c4d43d8d870d7313662ee1",
+      "bytes": 3206,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-browser.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-browser.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-browser.log"
+    },
+    {
+      "sha256": "6d7d9b4661ec6faacca496ffd922e5f2764abc4ab1bd6f986f09cec66a3f2ff4",
+      "bytes": 307,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-check-plan.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-check-plan.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-check-plan.log"
+    },
+    {
+      "sha256": "6aaba11b477910a1fe826d65ac2a0bfde6551eaa0ceb30d969b58b2bf4d58570",
+      "bytes": 1347,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-live-expected.json",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-live-expected.json"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-live-expected.json"
+    },
+    {
+      "sha256": "de0f72a7fd4eb836df9ed4705a485660e8883caf5f567f2b4e8de07a3ce08c5b",
+      "bytes": 3143,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-live-verified.json",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-live-verified.json"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-live-verified.json"
+    },
+    {
+      "sha256": "1a05171e1428c8ee3a0e5208a14e240589cfcbb7fb04652b979edc0eb9d67417",
+      "bytes": 1446,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-metadata-check.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-metadata-check.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-metadata-check.log"
+    },
+    {
+      "sha256": "d4d41056b800320d05a4cd5ddb638ece8aa0d7a2e8740ccb62f5b80847ee459c",
+      "bytes": 106,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-metadata.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-metadata.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-metadata.log"
+    },
+    {
+      "sha256": "7f33e1b83d1d7c9a4c9fae5a802fabfa576acae053e4cd098ffb1e775095bb2b",
+      "bytes": 54585,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-pages-failure.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-pages-failure.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-pages-failure.log"
+    },
+    {
+      "sha256": "b25a96185338a9d80602b52b4f1191b8afb5e8fdaa6f2dbc9e2fc36979fb1dec",
+      "bytes": 105,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-pinned-check.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-pinned-check.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-pinned-check.log"
+    },
+    {
+      "sha256": "05747be8622a0ce059c3a50d01cf31db5d3da3d809dd83ab7e3491318e1af262",
+      "bytes": 106,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-pinned-generated.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-pinned-generated.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-pinned-generated.log"
+    },
+    {
+      "sha256": "d7f753891e93732bb1b72bc77ab0f425df5c4b61c89055e1ae029f60fc588bda",
+      "bytes": 23830,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-pinned-red.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-pinned-red.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-pinned-red.log"
+    },
+    {
+      "sha256": "02a6ab2da7a68623307e409fda07ea7338c35a6a0ead54218ae4b50cadebc4a0",
+      "bytes": 898,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-pinned-unit.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-pinned-unit.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-pinned-unit.log"
+    },
+    {
+      "sha256": "1be62d254393610790321b8a8085bfdfb2b5352bcba40efe9c335b7db909f5ea",
+      "bytes": 7578,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-task-paths.txt",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-task-paths.txt"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-task-paths.txt"
+    },
+    {
+      "sha256": "7c10992a5b1e80a6fa87b01fd9ef186dfa5eb6a17b166273328cbfb8289c1e3a",
+      "bytes": 11868,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/release-unit.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/release-unit.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/release-unit.log"
+    },
+    {
+      "sha256": "d6f3d84e6e11ad258032f3a90c3e1855df8626ce04cff2356cfed5190c3cc116",
+      "bytes": 74032,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/verification-browser-preflight.json",
+          "workingPath": ".edits/ui/development/testing/web-shell/verification-browser-preflight.json"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/verification-browser-preflight.json"
+    },
+    {
+      "sha256": "2ff4e3f3296147bade09d9e42a680e3913b59012189ad08a3c1258f2cb2a56d1",
+      "bytes": 54059,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/verification-browser-preflight.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/verification-browser-preflight.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/verification-browser-preflight.png"
+    },
+    {
+      "sha256": "44d1ecc95da1625a8b534a025947dea02b940ffcea0be229304e08f3b146ff0c",
+      "bytes": 1961,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-browser.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-browser.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-browser.log"
+    },
+    {
+      "sha256": "8ad77803dfd2936809148311afb40bcdf91de809fca3e149a3a6a4be36733703",
+      "bytes": 707,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-keyboard.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-keyboard.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-keyboard.log"
+    },
+    {
+      "sha256": "2578240d9f547139532f1f62c95f6d716e42065e334364155bfcbecdcefe0515",
+      "bytes": 2643,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-mobile-red.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-mobile-red.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-mobile-red.log"
+    },
+    {
+      "sha256": "3f7218427b978ce5765b53467d6215f6d61394ed9297bb119a2a320734ecb051",
+      "bytes": 255,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-plan.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-plan.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-plan.log"
+    },
+    {
+      "sha256": "30d593824db3fe9cdc479a7e6f2945f606ab9f79c53a8c4bd4f7caac6474261a",
+      "bytes": 16197,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/error-context.md",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/error-context.md"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/error-context.md"
+    },
+    {
+      "sha256": "2d82faef406b9177cde092ab24bf53d78bb1060d1cbf1daad585f9b09007da90",
+      "bytes": 278086,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/test-failed-1.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/test-failed-1.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/test-failed-1.png"
+    },
+    {
+      "sha256": "32e860738b3d7bd25912b1138e804ef2308a35fa6fec1811fd4cbc85cccb9f80",
+      "bytes": 35840,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png"
+    },
+    {
+      "sha256": "b6a5dd52a831e16d952baf58ececd48911ad7764c7019b6a22a16f6c6e519e8d",
+      "bytes": 18054,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png"
+    },
+    {
+      "sha256": "b5636dae902d6ffb912339ddf2976fb1d55a58bbbadb685c340a8407d667d49f",
+      "bytes": 35687,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png"
+    },
+    {
+      "sha256": "0aedab14c89d990a80097e867495bc132159d97221ca40c37d323db881542834",
+      "bytes": 18038,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png"
+    },
+    {
+      "sha256": "d24b85aef1288eeb853ceef4cf772e7c63693b14f248a1a68b9929e3530fd491",
+      "bytes": 527551,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1024.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1024.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1024.png"
+    },
+    {
+      "sha256": "69a7a572704f7ff90b7d3c1faa1128fa643be6516c6a6f5c16fb337f3d1a4d36",
+      "bytes": 841670,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1440.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1440.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1440.png"
+    },
+    {
+      "sha256": "2fb0305b1234ad2744b297627fc5a3f079f4806fcc68f4b5fe4a6d0a00ffaf5d",
+      "bytes": 173061,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-320.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-320.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-320.png"
+    },
+    {
+      "sha256": "db4a35e4adec142084a2d56540468cb9be072ce1102777d40484652aea4cae20",
+      "bytes": 198993,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-390.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-390.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-390.png"
+    },
+    {
+      "sha256": "2833a91b3b019b5dc198418e0fdad83080beaf0de9a1fdaf335624b2e4bb5dba",
+      "bytes": 362901,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-800.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-800.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-800.png"
+    },
+    {
+      "sha256": "d2bf4cf8873a1926f9d553b2630d70632be01196b536382f7397feddee93631b",
+      "bytes": 51887,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png"
+    },
+    {
+      "sha256": "dedcdbf325309214536b9fc48a2a25f199b12cd20edc6e387b9f8563b0e1ff0d",
+      "bytes": 34012,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png"
+    },
+    {
+      "sha256": "ef8523f5935c1df25d0fa0a622e6c0824fdef5d9ae5451a631a8f4b34dff5312",
+      "bytes": 51785,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png"
+    },
+    {
+      "sha256": "7a5ebc3483d2f79140d20a035eb50273e8ff1a54637a868951aa07c58bed3a9f",
+      "bytes": 33993,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png"
+    },
+    {
+      "sha256": "3d5fdaff20d621c9610a8ac30cf6cd6118e7582730b5d9e60c45c5159c42b44e",
+      "bytes": 4874,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-unit.log",
+          "workingPath": ".edits/ui/development/testing/web-shell/view-menu-unit.log"
+        }
+      ],
+      "target": "reports/development/testing/web-shell/view-menu-unit.log"
+    },
+    {
+      "sha256": "7549b15e4192100a19bd6b0b7a6b60f66e90f38efe9f1b8d95ae5b9681aa023d",
+      "bytes": 8976,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/corpus.diverse-macro.training.json",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/corpus.diverse-macro.training.json"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/corpus.diverse-macro.training.json"
+    },
+    {
+      "sha256": "00883f5b72ace63c433ff1c3b231c3d7b404cfa24ccd57665352f8616b55e6c5",
+      "bytes": 880064,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg"
+    },
+    {
+      "sha256": "342dab4034c523eb8d6061f2cde8dca0f778e1d83797d924c42807cc24ca49ee",
+      "bytes": 1634,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg.aux.xml",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg.aux.xml"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg.aux.xml"
+    },
+    {
+      "sha256": "766451507e52cfeba91f73f1eed47a8375abbe8f8b2357e8ecf62c00fd74406e",
+      "bytes": 5231,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png"
+    },
+    {
+      "sha256": "b4011509ea073a72b952a5aef698b863f7dcf84aa204e1435d92b4500cdc4349",
+      "bytes": 412,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png.aux.xml",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png.aux.xml"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png.aux.xml"
+    },
+    {
+      "sha256": "a696d4753bea967bfb959b5d16f8377aa10ab1374bbf203076d282d34ec6a380",
+      "bytes": 5893,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.valid.png",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.valid.png"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.valid.png"
+    },
+    {
+      "sha256": "93680d1cf812557e54e5d078a49f27a055e406bdd58e765e43bcca3dff77cafc",
+      "bytes": 684687,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg"
+    },
+    {
+      "sha256": "a0fbb72509b4f8312b5a323d43fd1f3d1b1a347ae699d6dd14b634821db76dec",
+      "bytes": 1633,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg.aux.xml",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg.aux.xml"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg.aux.xml"
+    },
+    {
+      "sha256": "4248f9c1f393c77b9bc91c529ec94e19007720d58a4da8b618caf4f26dde4a50",
+      "bytes": 31846,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png"
+    },
+    {
+      "sha256": "c484b7db2f7cd0a6c70864e250298f80b4ecb62f362541d3ecb9690085e0179d",
+      "bytes": 408,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png.aux.xml",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png.aux.xml"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png.aux.xml"
+    },
+    {
+      "sha256": "d50e772321021194b9659c12edb753dc3c90b38df9652d69db28115159184db9",
+      "bytes": 43030,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.valid.png",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.valid.png"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.valid.png"
+    },
+    {
+      "sha256": "a75c282bfb1d37ac87a374bf19bcf9edff6e192d92aab5c3af10e670e0e4e472",
+      "bytes": 1253,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/labels/gsi-japan-national-japanese.json",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/labels/gsi-japan-national-japanese.json"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/labels/gsi-japan-national-japanese.json"
+    },
+    {
+      "sha256": "3e8308e42551946a39904f30f489b3ebfe0954a3c65ae9c5585c95e066361207",
+      "bytes": 1271,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/labels/nrcan-africa-national-reference.json",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/labels/nrcan-africa-national-reference.json"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/labels/nrcan-africa-national-reference.json"
+    },
+    {
+      "sha256": "877467fb64fbcc6dec09977a8757ef10149f5aa9755fb939361caed02efd9be0",
+      "bytes": 1927,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/notices/gsi-japan-national-japanese.txt",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/notices/gsi-japan-national-japanese.txt"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/notices/gsi-japan-national-japanese.txt"
+    },
+    {
+      "sha256": "529ed4f8d275319797735c367e4df52c0faec1d349dbc7bb835a4334688c1b46",
+      "bytes": 318,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/notices/nrcan-africa-national-reference.txt",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/notices/nrcan-africa-national-reference.txt"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/notices/nrcan-africa-national-reference.txt"
+    },
+    {
+      "sha256": "3b6fe3c79a50d263435aa99d90881040a5ef9f02d545508fdfc9072b10429784",
+      "bytes": 1669011,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.pdf",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.pdf"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.pdf"
+    },
+    {
+      "sha256": "1940c28aa31d15aab5b1669fa92c6ee58013272504b64bca17bc87bcaf6f2b56",
+      "bytes": 3095,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.source.json",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.source.json"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.source.json"
+    },
+    {
+      "sha256": "c3c3d8b5ece422ef6e53f7232ba7842804f7e273b9cd2f6bbdbe3ba7af6d3078",
+      "bytes": 2823,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/macro-political/sources/nrcan-africa-national-reference.source.json",
+          "workingPath": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-africa-national-reference.source.json"
+        }
+      ],
+      "target": "reports/reference-analysis/corpus/macro-political/sources/nrcan-africa-national-reference.source.json"
+    },
+    {
+      "sha256": "380b473e003d496e06950360be8fecbc950dac0b8db93e53a9f8e79a27ced87d",
+      "bytes": 246021,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/models/macro-v5/cia-oceania-political-source-review.png",
+          "workingPath": ".edits/ui/reference-analysis/models/macro-v5/cia-oceania-political-source-review.png"
+        }
+      ],
+      "target": "reports/reference-analysis/models/macro-v5/cia-oceania-political-source-review.png"
+    },
+    {
+      "sha256": "4bd93fc31270be017fca999d220567570ab3adae4841443511330c626487baf4",
+      "bytes": 1046980,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/models/macro-v5/gsi-japan-national-japanese-qgis-overlay.png",
+          "workingPath": ".edits/ui/reference-analysis/models/macro-v5/gsi-japan-national-japanese-qgis-overlay.png"
+        }
+      ],
+      "target": "reports/reference-analysis/models/macro-v5/gsi-japan-national-japanese-qgis-overlay.png"
+    },
+    {
+      "sha256": "3a3175800f3879a3bd64da72e5cd30b848d24f13d48bbc12e64d03e1a7b2a161",
+      "bytes": 494376,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/models/macro-v5/gsi-japan-national-japanese-source-review.png",
+          "workingPath": ".edits/ui/reference-analysis/models/macro-v5/gsi-japan-national-japanese-source-review.png"
+        }
+      ],
+      "target": "reports/reference-analysis/models/macro-v5/gsi-japan-national-japanese-source-review.png"
+    },
+    {
+      "sha256": "e9fa0405953b8ae7794caa56a88d76f4468d11b5bdcc453d75a81dfa3d7eba35",
+      "bytes": 710277,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/models/macro-v5/nrcan-africa-national-reference-qgis-overlay.png",
+          "workingPath": ".edits/ui/reference-analysis/models/macro-v5/nrcan-africa-national-reference-qgis-overlay.png"
+        }
+      ],
+      "target": "reports/reference-analysis/models/macro-v5/nrcan-africa-national-reference-qgis-overlay.png"
+    },
+    {
+      "sha256": "e4f2ca7943e9345d545a36eedbb08d8bb336c8cef4e76ca96fd2a7343c8c733e",
+      "bytes": 535272,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/models/macro-v5/nrcan-Africa-source-review.png",
+          "workingPath": ".edits/ui/reference-analysis/models/macro-v5/nrcan-Africa-source-review.png"
+        }
+      ],
+      "target": "reports/reference-analysis/models/macro-v5/nrcan-Africa-source-review.png"
+    },
+    {
+      "sha256": "89dcaf80e111918a855dad3d6cc15d43c18af69a354f0cc4d3695de2c3a60835",
+      "bytes": 930,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/models/macro-v5/qgis-raster-review.json",
+          "workingPath": ".edits/ui/reference-analysis/models/macro-v5/qgis-raster-review.json"
+        }
+      ],
+      "target": "reports/reference-analysis/models/macro-v5/qgis-raster-review.json"
+    },
+    {
+      "sha256": "021e290a4d22148dd96e9d88072c910c5b9d537abbed430efea2e5a6980f8cdf",
+      "bytes": 659181,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/live-web-1440.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/021e290a4d22148dd96e9d88072c910c5b9d537abbed430efea2e5a6980f8cdf"
+        }
+      ],
+      "target": "reports/archive/report-editions/021e290a4d22148dd96e9d88072c910c5b9d537abbed430efea2e5a6980f8cdf.png"
+    },
+    {
+      "sha256": "095eb46c48e74e90db1aea784cd129a0466461e6f6ff26994c6ee3e65494f2c2",
+      "bytes": 1824700,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/workflow-failure.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/095eb46c48e74e90db1aea784cd129a0466461e6f6ff26994c6ee3e65494f2c2"
+        }
+      ],
+      "target": "reports/archive/report-editions/095eb46c48e74e90db1aea784cd129a0466461e6f6ff26994c6ee3e65494f2c2.png"
+    },
+    {
+      "sha256": "0c3957960e6a19491aa858b67d2be3534ebdd23c33ebcacb094c80d099b0b1a5",
+      "bytes": 5407,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/unit.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/0c3957960e6a19491aa858b67d2be3534ebdd23c33ebcacb094c80d099b0b1a5"
+        }
+      ],
+      "target": "reports/archive/report-editions/0c3957960e6a19491aa858b67d2be3534ebdd23c33ebcacb094c80d099b0b1a5.log"
+    },
+    {
+      "sha256": "0f4ff414ece12ef3db2cc08fd0727fef548aab08435fdb47adc2e8591d0a8488",
+      "bytes": 35005,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/README.md",
+          "revision": "00aa69a52b4b2d56fcfbd7e5b8ceba173776527b",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/0f4ff414ece12ef3db2cc08fd0727fef548aab08435fdb47adc2e8591d0a8488"
+        }
+      ],
+      "target": "reports/archive/report-editions/0f4ff414ece12ef3db2cc08fd0727fef548aab08435fdb47adc2e8591d0a8488.md"
+    },
+    {
+      "sha256": "1209e8b5d9fea08c385cc1c2cedd1e5f41666c92db5ce883f542e3ca621fc998",
+      "bytes": 2111,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/corpus.draft.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/1209e8b5d9fea08c385cc1c2cedd1e5f41666c92db5ce883f542e3ca621fc998"
+        }
+      ],
+      "target": "reports/archive/report-editions/1209e8b5d9fea08c385cc1c2cedd1e5f41666c92db5ce883f542e3ca621fc998.json"
+    },
+    {
+      "sha256": "125c3ff275f9612efd2fa65de2da8d4be379b99edcd417d2844a2698534c5be5",
+      "bytes": 554,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-events.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/125c3ff275f9612efd2fa65de2da8d4be379b99edcd417d2844a2698534c5be5"
+        }
+      ],
+      "target": "reports/archive/report-editions/125c3ff275f9612efd2fa65de2da8d4be379b99edcd417d2844a2698534c5be5.log"
+    },
+    {
+      "sha256": "133269e1f7190d4ad55bee7a4bf4518b73ffdc003a75b16a00277e9120237ed6",
+      "bytes": 1283,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/README.md",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/133269e1f7190d4ad55bee7a4bf4518b73ffdc003a75b16a00277e9120237ed6"
+        }
+      ],
+      "target": "reports/archive/report-editions/133269e1f7190d4ad55bee7a4bf4518b73ffdc003a75b16a00277e9120237ed6.md"
+    },
+    {
+      "sha256": "17e8cd7d83d9e682c2ed568bbe4b07780634e53d86f8eb69e7f397812e6c8e1c",
+      "bytes": 2479,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/world-transport-proof.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/17e8cd7d83d9e682c2ed568bbe4b07780634e53d86f8eb69e7f397812e6c8e1c"
+        }
+      ],
+      "target": "reports/archive/report-editions/17e8cd7d83d9e682c2ed568bbe4b07780634e53d86f8eb69e7f397812e6c8e1c.json"
+    },
+    {
+      "sha256": "190b25f50bec348277a7a12d25e0f407e8de2501f6856b43b1e991ecf5a4622c",
+      "bytes": 4305,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/transport-red.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/190b25f50bec348277a7a12d25e0f407e8de2501f6856b43b1e991ecf5a4622c"
+        }
+      ],
+      "target": "reports/archive/report-editions/190b25f50bec348277a7a12d25e0f407e8de2501f6856b43b1e991ecf5a4622c.log"
+    },
+    {
+      "sha256": "1db18273d9d8f9a3e91922a151edfe52b06a8ff4fac771a50b9fc5952b55a079",
+      "bytes": 78,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/pages-workflow.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/1db18273d9d8f9a3e91922a151edfe52b06a8ff4fac771a50b9fc5952b55a079"
+        }
+      ],
+      "target": "reports/archive/report-editions/1db18273d9d8f9a3e91922a151edfe52b06a8ff4fac771a50b9fc5952b55a079.log"
+    },
+    {
+      "sha256": "215d532a1aad0f78ef0746925076cc1a2f300fb676c69925263be7a562fa87ce",
+      "bytes": 146,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/live-check-final.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/215d532a1aad0f78ef0746925076cc1a2f300fb676c69925263be7a562fa87ce"
+        },
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/live-check.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/215d532a1aad0f78ef0746925076cc1a2f300fb676c69925263be7a562fa87ce"
+        }
+      ],
+      "target": "reports/archive/report-editions/215d532a1aad0f78ef0746925076cc1a2f300fb676c69925263be7a562fa87ce.log"
+    },
+    {
+      "sha256": "2260a75b6017635b5dae3d8389baeb0e947eb1f215bcfdcf1626094cdcf07d40",
+      "bytes": 910,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/cleanup-release-5de478ba-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/2260a75b6017635b5dae3d8389baeb0e947eb1f215bcfdcf1626094cdcf07d40"
+        }
+      ],
+      "target": "reports/archive/report-editions/2260a75b6017635b5dae3d8389baeb0e947eb1f215bcfdcf1626094cdcf07d40.json"
+    },
+    {
+      "sha256": "27a7331d2512b9993c4e2caef96cc8a874506fbce44495b8d30c4723470a9deb",
+      "bytes": 1824656,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/viewer-selected.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/27a7331d2512b9993c4e2caef96cc8a874506fbce44495b8d30c4723470a9deb"
+        }
+      ],
+      "target": "reports/archive/report-editions/27a7331d2512b9993c4e2caef96cc8a874506fbce44495b8d30c4723470a9deb.png"
+    },
+    {
+      "sha256": "27e73093f166c1d61001abe0212e21cc5330f1ee7c94869801f0a882f050be35",
+      "bytes": 160680,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/artifact-ci-failure.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/27e73093f166c1d61001abe0212e21cc5330f1ee7c94869801f0a882f050be35"
+        }
+      ],
+      "target": "reports/archive/report-editions/27e73093f166c1d61001abe0212e21cc5330f1ee7c94869801f0a882f050be35.log"
+    },
+    {
+      "sha256": "29222d1fc97d75c19b1741390d5ceaa35b5c3a2678d304823a957fce9d1a5b8d",
+      "bytes": 74,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-transport-proof.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/29222d1fc97d75c19b1741390d5ceaa35b5c3a2678d304823a957fce9d1a5b8d"
+        },
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-ui-final.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/29222d1fc97d75c19b1741390d5ceaa35b5c3a2678d304823a957fce9d1a5b8d"
+        }
+      ],
+      "target": "reports/archive/report-editions/29222d1fc97d75c19b1741390d5ceaa35b5c3a2678d304823a957fce9d1a5b8d.log"
+    },
+    {
+      "sha256": "2b3fcd640ebffd6f0e04e70b897f279fd704aba6c91e209a6b26dc110a432c42",
+      "bytes": 96,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/web-shell/view-menu-results/.last-run.json",
+          "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+          "classification": "conflicting-original",
+          "workingPath": ".variants/2b3fcd640ebffd6f0e04e70b897f279fd704aba6c91e209a6b26dc110a432c42"
+        }
+      ],
+      "target": "reports/archive/report-editions/2b3fcd640ebffd6f0e04e70b897f279fd704aba6c91e209a6b26dc110a432c42.json"
+    },
+    {
+      "sha256": "37ec4eb0f55656d0876f4a9a4529e6881f05e0d6d87c8ca90078cbfe4b6d50d1",
+      "bytes": 109799,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/zenodo-urdu-punjab-undated-ocr-diagnostic.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/37ec4eb0f55656d0876f4a9a4529e6881f05e0d6d87c8ca90078cbfe4b6d50d1"
+        }
+      ],
+      "target": "reports/archive/report-editions/37ec4eb0f55656d0876f4a9a4529e6881f05e0d6d87c8ca90078cbfe4b6d50d1.json"
+    },
+    {
+      "sha256": "39e4c14dfe4c3be3a7b7aaf7a3f5e4b589c0aafcf42d99cfb3e4cf64da04394a",
+      "bytes": 557,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/linux-runtime-browser.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/39e4c14dfe4c3be3a7b7aaf7a3f5e4b589c0aafcf42d99cfb3e4cf64da04394a"
+        }
+      ],
+      "target": "reports/archive/report-editions/39e4c14dfe4c3be3a7b7aaf7a3f5e4b589c0aafcf42d99cfb3e4cf64da04394a.log"
+    },
+    {
+      "sha256": "3ca30430b1c8c26bde461fc0b1481e6316eff7ccf26c2df5533a47f491b0ff89",
+      "bytes": 1249,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/evidence.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/3ca30430b1c8c26bde461fc0b1481e6316eff7ccf26c2df5533a47f491b0ff89"
+        }
+      ],
+      "target": "reports/archive/report-editions/3ca30430b1c8c26bde461fc0b1481e6316eff7ccf26c2df5533a47f491b0ff89.json"
+    },
+    {
+      "sha256": "41543c8a33b309aa15fe5a8cb0cacb998507e5bc9785d66d193166a0b7850517",
+      "bytes": 4755,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/live-check.mjs",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/41543c8a33b309aa15fe5a8cb0cacb998507e5bc9785d66d193166a0b7850517"
+        }
+      ],
+      "target": "reports/archive/report-editions/41543c8a33b309aa15fe5a8cb0cacb998507e5bc9785d66d193166a0b7850517.mjs"
+    },
+    {
+      "sha256": "41ba218044f67ba409684658d40f0d17a9a674fc8694b0fa966567cf3772c389",
+      "bytes": 38211,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/east-germany-overlay-1to10m-2026-10-23/ddr-before-current-overlay-1to10000000.pdf",
+          "revision": "990dd4be446d65a30014abb71e010e5f5dfddcad",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/41ba218044f67ba409684658d40f0d17a9a674fc8694b0fa966567cf3772c389"
+        }
+      ],
+      "target": "reports/archive/report-editions/41ba218044f67ba409684658d40f0d17a9a674fc8694b0fa966567cf3772c389.pdf"
+    },
+    {
+      "sha256": "506002b92a273b528e2248bb469fcf0f28cc9a4a351942436eda4fe7724ceafb",
+      "bytes": 160680,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/p2-final-failure.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/506002b92a273b528e2248bb469fcf0f28cc9a4a351942436eda4fe7724ceafb"
+        }
+      ],
+      "target": "reports/archive/report-editions/506002b92a273b528e2248bb469fcf0f28cc9a4a351942436eda4fe7724ceafb.log"
+    },
+    {
+      "sha256": "540758ead1db4517bba54b7b3b51df98810a38fea0acef4f5ed2bf69999b0f8a",
+      "bytes": 562,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-delivery-initial.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/540758ead1db4517bba54b7b3b51df98810a38fea0acef4f5ed2bf69999b0f8a"
+        },
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-delivery.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/540758ead1db4517bba54b7b3b51df98810a38fea0acef4f5ed2bf69999b0f8a"
+        }
+      ],
+      "target": "reports/archive/report-editions/540758ead1db4517bba54b7b3b51df98810a38fea0acef4f5ed2bf69999b0f8a.json"
+    },
+    {
+      "sha256": "5412615105d04a78a4af347b4e05c41eb265f107dd19a5f97c97d6d624754397",
+      "bytes": 237988,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-failure.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5412615105d04a78a4af347b4e05c41eb265f107dd19a5f97c97d6d624754397"
+        }
+      ],
+      "target": "reports/archive/report-editions/5412615105d04a78a4af347b4e05c41eb265f107dd19a5f97c97d6d624754397.png"
+    },
+    {
+      "sha256": "575f349beb829b467c2aef8384097f4d6bcd563144d8bf1c079734a367dad78a",
+      "bytes": 4078,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/core-ci-failure.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/575f349beb829b467c2aef8384097f4d6bcd563144d8bf1c079734a367dad78a"
+        }
+      ],
+      "target": "reports/archive/report-editions/575f349beb829b467c2aef8384097f4d6bcd563144d8bf1c079734a367dad78a.log"
+    },
+    {
+      "sha256": "5b005a0f62a5bfbcac687371a2f6f46b6489289ed6f62c2de0c103f049230c98",
+      "bytes": 13171,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/main-release-2026-10-23.md",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5b005a0f62a5bfbcac687371a2f6f46b6489289ed6f62c2de0c103f049230c98"
+        }
+      ],
+      "target": "reports/archive/report-editions/5b005a0f62a5bfbcac687371a2f6f46b6489289ed6f62c2de0c103f049230c98.md"
+    },
+    {
+      "sha256": "5d7c40bd75710a199790a61bd16dbaf9b375c7ee37a20a6b5e4a58bda1169f25",
+      "bytes": 4533,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/ci-contracts-green.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5d7c40bd75710a199790a61bd16dbaf9b375c7ee37a20a6b5e4a58bda1169f25"
+        }
+      ],
+      "target": "reports/archive/report-editions/5d7c40bd75710a199790a61bd16dbaf9b375c7ee37a20a6b5e4a58bda1169f25.log"
+    },
+    {
+      "sha256": "5ebc44b694e441f7742c6bbfd18ff2cff091a9c56691351779aae042a654f0ba",
+      "bytes": 530707,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/app-stage-evidence-final.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5ebc44b694e441f7742c6bbfd18ff2cff091a9c56691351779aae042a654f0ba"
+        }
+      ],
+      "target": "reports/archive/report-editions/5ebc44b694e441f7742c6bbfd18ff2cff091a9c56691351779aae042a654f0ba.json"
+    },
+    {
+      "sha256": "5efc9efffd6d2e18cdbe8af1f70ab96937feff2ce1ba8c75ce3e83be36b18516",
+      "bytes": 706,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-diagnose.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5efc9efffd6d2e18cdbe8af1f70ab96937feff2ce1ba8c75ce3e83be36b18516"
+        }
+      ],
+      "target": "reports/archive/report-editions/5efc9efffd6d2e18cdbe8af1f70ab96937feff2ce1ba8c75ce3e83be36b18516.log"
+    },
+    {
+      "sha256": "5f02d0eea4981e3e86f9db4ad455ff02c212c6edea21c068618b340172c7712d",
+      "bytes": 924,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/editor-result.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5f02d0eea4981e3e86f9db4ad455ff02c212c6edea21c068618b340172c7712d"
+        }
+      ],
+      "target": "reports/archive/report-editions/5f02d0eea4981e3e86f9db4ad455ff02c212c6edea21c068618b340172c7712d.json"
+    },
+    {
+      "sha256": "5fb1419838f4e95d656cd9d8ec1cbb800f2f51d7db0f79bcb41dbba966ea3834",
+      "bytes": 163902,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/editor-hover.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5fb1419838f4e95d656cd9d8ec1cbb800f2f51d7db0f79bcb41dbba966ea3834"
+        }
+      ],
+      "target": "reports/archive/report-editions/5fb1419838f4e95d656cd9d8ec1cbb800f2f51d7db0f79bcb41dbba966ea3834.png"
+    },
+    {
+      "sha256": "5fdecc59e5ba00f7782906df54f3485efe24568f264d9e18c83158d8cfdf59c3",
+      "bytes": 3109,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/windows-native-release-5de478ba-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/5fdecc59e5ba00f7782906df54f3485efe24568f264d9e18c83158d8cfdf59c3"
+        }
+      ],
+      "target": "reports/archive/report-editions/5fdecc59e5ba00f7782906df54f3485efe24568f264d9e18c83158d8cfdf59c3.json"
+    },
+    {
+      "sha256": "634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a",
+      "bytes": 35315,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/README.md",
+          "revision": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+          "classification": "archived-variant",
+          "workingPath": ".variants/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+        },
+        {
+          "owner": "places",
+          "logical": "reports/README.md",
+          "revision": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+          "classification": "archived-variant",
+          "workingPath": ".variants/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+        },
+        {
+          "owner": "gis",
+          "logical": "reports/README.md",
+          "revision": "bfc9adccd7b6efc4e07e898e15a45814b0f730d6",
+          "classification": "archived-variant",
+          "workingPath": ".variants/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+        },
+        {
+          "owner": "ui",
+          "logical": "reports/README.md",
+          "revision": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+          "classification": "archived-variant",
+          "workingPath": ".variants/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+        }
+      ],
+      "target": "reports/archive/report-editions/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a.md"
+    },
+    {
+      "sha256": "6adfcd773b20f624dd4271336c6c9ee9bb3f419c5a1dddff9cbe93fb873bdec3",
+      "bytes": 1640,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/README.md",
+          "revision": "bae09cf0380569a176d3e19dda40f94c55668227",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/6adfcd773b20f624dd4271336c6c9ee9bb3f419c5a1dddff9cbe93fb873bdec3"
+        }
+      ],
+      "target": "reports/archive/report-editions/6adfcd773b20f624dd4271336c6c9ee9bb3f419c5a1dddff9cbe93fb873bdec3.md"
+    },
+    {
+      "sha256": "6cf657a8298d5f56f877e91bb883e36c63dc973cb3a6fe91018ee05e8986bdc4",
+      "bytes": 122,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/labels/zenodo-urdu-punjab-undated.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/6cf657a8298d5f56f877e91bb883e36c63dc973cb3a6fe91018ee05e8986bdc4"
+        }
+      ],
+      "target": "reports/archive/report-editions/6cf657a8298d5f56f877e91bb883e36c63dc973cb3a6fe91018ee05e8986bdc4.json"
+    },
+    {
+      "sha256": "76e3f023bcb5fe3ce77e0928b168d1a83a66142f8c25bd31e668971db9c28d0e",
+      "bytes": 495042,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/pages-artifact-5de478ba-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/76e3f023bcb5fe3ce77e0928b168d1a83a66142f8c25bd31e668971db9c28d0e"
+        }
+      ],
+      "target": "reports/archive/report-editions/76e3f023bcb5fe3ce77e0928b168d1a83a66142f8c25bd31e668971db9c28d0e.json"
+    },
+    {
+      "sha256": "7afeb21d6acc85188b5c5dfaddf455d7dd6c7bd0538855c926d88b99206658bf",
+      "bytes": 915,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/pages-live-5de478ba-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/7afeb21d6acc85188b5c5dfaddf455d7dd6c7bd0538855c926d88b99206658bf"
+        }
+      ],
+      "target": "reports/archive/report-editions/7afeb21d6acc85188b5c5dfaddf455d7dd6c7bd0538855c926d88b99206658bf.json"
+    },
+    {
+      "sha256": "7cc515b0f73e4075efb71782270c76ec7ac3848cb98ed0429e2177064ac9f7c7",
+      "bytes": 8145,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-ui-check.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/7cc515b0f73e4075efb71782270c76ec7ac3848cb98ed0429e2177064ac9f7c7"
+        },
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-ui-initial-failure.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/7cc515b0f73e4075efb71782270c76ec7ac3848cb98ed0429e2177064ac9f7c7"
+        }
+      ],
+      "target": "reports/archive/report-editions/7cc515b0f73e4075efb71782270c76ec7ac3848cb98ed0429e2177064ac9f7c7.log"
+    },
+    {
+      "sha256": "81ebaf440a5e01eae12a016f2539ad497e5c88ae8f1e1fd26bdb127db706e0ac",
+      "bytes": 86195,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-ui-windows.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/81ebaf440a5e01eae12a016f2539ad497e5c88ae8f1e1fd26bdb127db706e0ac"
+        }
+      ],
+      "target": "reports/archive/report-editions/81ebaf440a5e01eae12a016f2539ad497e5c88ae8f1e1fd26bdb127db706e0ac.png"
+    },
+    {
+      "sha256": "85a58f478685aeacca19fe75cb5c532310edb7ec3777ecb9cbabfc2a9d122e15",
+      "bytes": 2880,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/world-windows-final.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/85a58f478685aeacca19fe75cb5c532310edb7ec3777ecb9cbabfc2a9d122e15"
+        }
+      ],
+      "target": "reports/archive/report-editions/85a58f478685aeacca19fe75cb5c532310edb7ec3777ecb9cbabfc2a9d122e15.json"
+    },
+    {
+      "sha256": "872d6d042eecf23678041bc62ead972c041243c38ff5d0d348e18d157c59ee9b",
+      "bytes": 11518,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/development/testing/verification-build-separation-2026-10-24.md",
+          "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+          "classification": "conflicting-original",
+          "workingPath": ".variants/872d6d042eecf23678041bc62ead972c041243c38ff5d0d348e18d157c59ee9b"
+        }
+      ],
+      "target": "reports/archive/report-editions/872d6d042eecf23678041bc62ead972c041243c38ff5d0d348e18d157c59ee9b.md"
+    },
+    {
+      "sha256": "87a10e2fc2c0b23ee5ac7dffaafb58a4d08e15b63ac17acfc828df190fe82130",
+      "bytes": 1557,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/browser.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/87a10e2fc2c0b23ee5ac7dffaafb58a4d08e15b63ac17acfc828df190fe82130"
+        }
+      ],
+      "target": "reports/archive/report-editions/87a10e2fc2c0b23ee5ac7dffaafb58a4d08e15b63ac17acfc828df190fe82130.log"
+    },
+    {
+      "sha256": "8e43821a8c4a5c2a2c7c402de680e2ba23eac95425a22bd72226c7dd6b5a9842",
+      "bytes": 1895,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-diagnose.mjs",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/8e43821a8c4a5c2a2c7c402de680e2ba23eac95425a22bd72226c7dd6b5a9842"
+        }
+      ],
+      "target": "reports/archive/report-editions/8e43821a8c4a5c2a2c7c402de680e2ba23eac95425a22bd72226c7dd6b5a9842.mjs"
+    },
+    {
+      "sha256": "91bcacff291066a4cc56198e9f32a386048779d0af83aab2f1e649a63b29ac4e",
+      "bytes": 103860,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/east-germany-overlay-1to10m-2026-10-23/ddr-before-current-overlay-1to10000000.png",
+          "revision": "990dd4be446d65a30014abb71e010e5f5dfddcad",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/91bcacff291066a4cc56198e9f32a386048779d0af83aab2f1e649a63b29ac4e"
+        }
+      ],
+      "target": "reports/archive/report-editions/91bcacff291066a4cc56198e9f32a386048779d0af83aab2f1e649a63b29ac4e.png"
+    },
+    {
+      "sha256": "9329ae4f0ea34dd04eae6db6728e414979b777a079fc9f33e84f08f00d7c0beb",
+      "bytes": 814,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/viewer-result.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/9329ae4f0ea34dd04eae6db6728e414979b777a079fc9f33e84f08f00d7c0beb"
+        }
+      ],
+      "target": "reports/archive/report-editions/9329ae4f0ea34dd04eae6db6728e414979b777a079fc9f33e84f08f00d7c0beb.json"
+    },
+    {
+      "sha256": "96a4a180a7e7cf3c6f1c9b206b8e729307d69952e6dee73dd218e80a17181d65",
+      "bytes": 186365,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/live-web-390.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/96a4a180a7e7cf3c6f1c9b206b8e729307d69952e6dee73dd218e80a17181d65"
+        }
+      ],
+      "target": "reports/archive/report-editions/96a4a180a7e7cf3c6f1c9b206b8e729307d69952e6dee73dd218e80a17181d65.png"
+    },
+    {
+      "sha256": "98aac6546f8329fbc8ce74b94d5caf30ae24f8e3cbfbf36b2c6ca876e52a4722",
+      "bytes": 199758,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-transport-proof-windows.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/98aac6546f8329fbc8ce74b94d5caf30ae24f8e3cbfbf36b2c6ca876e52a4722"
+        }
+      ],
+      "target": "reports/archive/report-editions/98aac6546f8329fbc8ce74b94d5caf30ae24f8e3cbfbf36b2c6ca876e52a4722.png"
+    },
+    {
+      "sha256": "998f59f1442f2693f09d8e03cdd9b3cfc8b797f3eb8ae54ce18ad0fce7a072e1",
+      "bytes": 1083,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-ui-result.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/998f59f1442f2693f09d8e03cdd9b3cfc8b797f3eb8ae54ce18ad0fce7a072e1"
+        }
+      ],
+      "target": "reports/archive/report-editions/998f59f1442f2693f09d8e03cdd9b3cfc8b797f3eb8ae54ce18ad0fce7a072e1.json"
+    },
+    {
+      "sha256": "9b5c02366bc3e8664145bc95690ea0f672d87588565539b92cb0d9b49c5396f8",
+      "bytes": 61685,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/loc-tehran-1889-preview-ocr-diagnostic.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/9b5c02366bc3e8664145bc95690ea0f672d87588565539b92cb0d9b49c5396f8"
+        }
+      ],
+      "target": "reports/archive/report-editions/9b5c02366bc3e8664145bc95690ea0f672d87588565539b92cb0d9b49c5396f8.json"
+    },
+    {
+      "sha256": "9caab88d6a2835e25de6659e93aa52eaf3cc873659bece2e7fbd37c096145fe6",
+      "bytes": 2647,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/live-result.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/9caab88d6a2835e25de6659e93aa52eaf3cc873659bece2e7fbd37c096145fe6"
+        }
+      ],
+      "target": "reports/archive/report-editions/9caab88d6a2835e25de6659e93aa52eaf3cc873659bece2e7fbd37c096145fe6.json"
+    },
+    {
+      "sha256": "9dae9fe4291548eb3e9190b71f6674c041de34a20e18c620935308f63ea9d48d",
+      "bytes": 34542,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/README.md",
+          "revision": "f8114d67ff786f3b6d252c034b8654b2dde4d75b",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/9dae9fe4291548eb3e9190b71f6674c041de34a20e18c620935308f63ea9d48d"
+        }
+      ],
+      "target": "reports/archive/report-editions/9dae9fe4291548eb3e9190b71f6674c041de34a20e18c620935308f63ea9d48d.md"
+    },
+    {
+      "sha256": "9f0e291412b7c03baf9b2f5f4ed4ac69bbdff37a89b43dc5fc78ad174402b462",
+      "bytes": 687,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/transport-green.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/9f0e291412b7c03baf9b2f5f4ed4ac69bbdff37a89b43dc5fc78ad174402b462"
+        }
+      ],
+      "target": "reports/archive/report-editions/9f0e291412b7c03baf9b2f5f4ed4ac69bbdff37a89b43dc5fc78ad174402b462.log"
+    },
+    {
+      "sha256": "a00fcba5eda6b9c00a5af0cbcba5ea92e613c447073a9109a66742319ee472b3",
+      "bytes": 495042,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/pages-artifact-baf1cbb7-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/a00fcba5eda6b9c00a5af0cbcba5ea92e613c447073a9109a66742319ee472b3"
+        }
+      ],
+      "target": "reports/archive/report-editions/a00fcba5eda6b9c00a5af0cbcba5ea92e613c447073a9109a66742319ee472b3.json"
+    },
+    {
+      "sha256": "a18a40a77b4ca10b5b6f9a360cd624077353b7757d0ebdfa95d437670d3da52b",
+      "bytes": 915,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/pages-live-baf1cbb7-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/a18a40a77b4ca10b5b6f9a360cd624077353b7757d0ebdfa95d437670d3da52b"
+        }
+      ],
+      "target": "reports/archive/report-editions/a18a40a77b4ca10b5b6f9a360cd624077353b7757d0ebdfa95d437670d3da52b.json"
+    },
+    {
+      "sha256": "a6e5bb6456051eace0c87be29808121cc22dffe1716e43c6515e4eebe4f6f3eb",
+      "bytes": 1082,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-transport-proof-result.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/a6e5bb6456051eace0c87be29808121cc22dffe1716e43c6515e4eebe4f6f3eb"
+        }
+      ],
+      "target": "reports/archive/report-editions/a6e5bb6456051eace0c87be29808121cc22dffe1716e43c6515e4eebe4f6f3eb.json"
+    },
+    {
+      "sha256": "ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8",
+      "bytes": 33111,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/README.md",
+          "revision": "2207af99958a25c8166b3b88d2365b2e345bdbec",
+          "classification": "archived-variant",
+          "workingPath": ".variants/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8"
+        },
+        {
+          "owner": "ui",
+          "logical": "reports/README.md",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "archived-variant",
+          "workingPath": ".variants/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8"
+        },
+        {
+          "owner": "ui",
+          "logical": "reports/README.md",
+          "revision": "bae09cf0380569a176d3e19dda40f94c55668227",
+          "classification": "archived-variant",
+          "workingPath": ".variants/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8"
+        },
+        {
+          "owner": "ui",
+          "logical": "reports/README.md",
+          "revision": "d3cb6c0097d4d466c878623e2944a1d28a084389",
+          "classification": "archived-variant",
+          "workingPath": ".variants/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8"
+        },
+        {
+          "owner": "main",
+          "logical": "reports/README.md",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "archived-variant",
+          "workingPath": ".variants/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8"
+        }
+      ],
+      "target": "reports/archive/report-editions/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8.md"
+    },
+    {
+      "sha256": "ad233ffb2cff4c650b263c655fb1d773ffcf992cbfdb6b71d0be4442f8a3c48b",
+      "bytes": 495043,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/pages-evidence/pages-evidence.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/ad233ffb2cff4c650b263c655fb1d773ffcf992cbfdb6b71d0be4442f8a3c48b"
+        }
+      ],
+      "target": "reports/archive/report-editions/ad233ffb2cff4c650b263c655fb1d773ffcf992cbfdb6b71d0be4442f8a3c48b.json"
+    },
+    {
+      "sha256": "ade7afb768408398c2e0891237291d5b9b4283751bf57bdc71f96c12348e2591",
+      "bytes": 1039,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/build-windows-transport.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/ade7afb768408398c2e0891237291d5b9b4283751bf57bdc71f96c12348e2591"
+        }
+      ],
+      "target": "reports/archive/report-editions/ade7afb768408398c2e0891237291d5b9b4283751bf57bdc71f96c12348e2591.log"
+    },
+    {
+      "sha256": "adff4fc0b5fa0c011b518ec56711de3d7c763d06adf0d1686b30b1ea780e91d4",
+      "bytes": 2392,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/world-windows-diagnostic.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/adff4fc0b5fa0c011b518ec56711de3d7c763d06adf0d1686b30b1ea780e91d4"
+        }
+      ],
+      "target": "reports/archive/report-editions/adff4fc0b5fa0c011b518ec56711de3d7c763d06adf0d1686b30b1ea780e91d4.json"
+    },
+    {
+      "sha256": "b3c284ad20ddde2e011dbd0ed42141eb8d0d8e91a00cef7f9be40e6443a3fb32",
+      "bytes": 1096,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/east-germany-overlay-1to10m-2026-10-23/overlay-metadata.json",
+          "revision": "990dd4be446d65a30014abb71e010e5f5dfddcad",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/b3c284ad20ddde2e011dbd0ed42141eb8d0d8e91a00cef7f9be40e6443a3fb32"
+        }
+      ],
+      "target": "reports/archive/report-editions/b3c284ad20ddde2e011dbd0ed42141eb8d0d8e91a00cef7f9be40e6443a3fb32.json"
+    },
+    {
+      "sha256": "b3c6ef05a91deca0c8e0b758b8ed9be7b5965ca9e2b37773cfe60ceb3a45f7cc",
+      "bytes": 106,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/transport-stage.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/b3c6ef05a91deca0c8e0b758b8ed9be7b5965ca9e2b37773cfe60ceb3a45f7cc"
+        }
+      ],
+      "target": "reports/archive/report-editions/b3c6ef05a91deca0c8e0b758b8ed9be7b5965ca9e2b37773cfe60ceb3a45f7cc.log"
+    },
+    {
+      "sha256": "b42265b174846c8e38176319bda3adf0a6dba54292507d1211c951303b8cd31f",
+      "bytes": 978,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/README.md",
+          "revision": "2207af99958a25c8166b3b88d2365b2e345bdbec",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/b42265b174846c8e38176319bda3adf0a6dba54292507d1211c951303b8cd31f"
+        }
+      ],
+      "target": "reports/archive/report-editions/b42265b174846c8e38176319bda3adf0a6dba54292507d1211c951303b8cd31f.md"
+    },
+    {
+      "sha256": "b6f695b75a4dfdef728a60a40e3cf98780fb8d5968b7719c70f2ac958da96e0a",
+      "bytes": 8853,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-failure-state.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/b6f695b75a4dfdef728a60a40e3cf98780fb8d5968b7719c70f2ac958da96e0a"
+        }
+      ],
+      "target": "reports/archive/report-editions/b6f695b75a4dfdef728a60a40e3cf98780fb8d5968b7719c70f2ac958da96e0a.json"
+    },
+    {
+      "sha256": "b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88",
+      "bytes": 6396,
+      "origins": [
+        {
+          "owner": "gis",
+          "logical": "reports/geography/east-germany-ratzeburg-mechow-applied-2026-10-23.md",
+          "revision": "00aa69a52b4b2d56fcfbd7e5b8ceba173776527b",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88"
+        }
+      ],
+      "target": "reports/archive/report-editions/b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88.md"
+    },
+    {
+      "sha256": "b8ae3ce92db834c3e3b84ec10ecf01148ffea8beffc2b69adeb124c0f96a3aef",
+      "bytes": 3107,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/windows-native-release-baf1cbb7-2026-10-23.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/b8ae3ce92db834c3e3b84ec10ecf01148ffea8beffc2b69adeb124c0f96a3aef"
+        }
+      ],
+      "target": "reports/archive/report-editions/b8ae3ce92db834c3e3b84ec10ecf01148ffea8beffc2b69adeb124c0f96a3aef.json"
+    },
+    {
+      "sha256": "bcc21ec86165d531cb535c3b26a6e54824cdbe9e430fc536e8513af5b08d7809",
+      "bytes": 3756,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/pages-workflow-final.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/bcc21ec86165d531cb535c3b26a6e54824cdbe9e430fc536e8513af5b08d7809"
+        }
+      ],
+      "target": "reports/archive/report-editions/bcc21ec86165d531cb535c3b26a6e54824cdbe9e430fc536e8513af5b08d7809.log"
+    },
+    {
+      "sha256": "c2f474c7b5b9dae7851fc3da7fdfb8589957588de3bf3b82367367e5d5a39496",
+      "bytes": 495043,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/pages-evidence-final/pages-evidence.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/c2f474c7b5b9dae7851fc3da7fdfb8589957588de3bf3b82367367e5d5a39496"
+        }
+      ],
+      "target": "reports/archive/report-editions/c2f474c7b5b9dae7851fc3da7fdfb8589957588de3bf3b82367367e5d5a39496.json"
+    },
+    {
+      "sha256": "c315dd9477d807250532825a3343d7d593713a97ac5ea22c17feb0098c8a4811",
+      "bytes": 4078,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/core-ci-final-failure.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/c315dd9477d807250532825a3343d7d593713a97ac5ea22c17feb0098c8a4811"
+        }
+      ],
+      "target": "reports/archive/report-editions/c315dd9477d807250532825a3343d7d593713a97ac5ea22c17feb0098c8a4811.log"
+    },
+    {
+      "sha256": "c6c1b824438a062bcb2b8d1028260fde215a8bef30c6b171758498f08da3dbd8",
+      "bytes": 707,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/pages-live-5de478ba-first-failure.md",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/c6c1b824438a062bcb2b8d1028260fde215a8bef30c6b171758498f08da3dbd8"
+        }
+      ],
+      "target": "reports/archive/report-editions/c6c1b824438a062bcb2b8d1028260fde215a8bef30c6b171758498f08da3dbd8.md"
+    },
+    {
+      "sha256": "cc975404572a3037b93e321fa3e4a93276f10cb693013f86780c3c2ba88f9cf5",
+      "bytes": 7464,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/report.md",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/cc975404572a3037b93e321fa3e4a93276f10cb693013f86780c3c2ba88f9cf5"
+        }
+      ],
+      "target": "reports/archive/report-editions/cc975404572a3037b93e321fa3e4a93276f10cb693013f86780c3c2ba88f9cf5.md"
+    },
+    {
+      "sha256": "cdcd5e2509974bb76bac3eac448cbf23e8c2cebcf03795eac733fac4902dae8b",
+      "bytes": 29128,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/ci-regressions-red.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/cdcd5e2509974bb76bac3eac448cbf23e8c2cebcf03795eac733fac4902dae8b"
+        }
+      ],
+      "target": "reports/archive/report-editions/cdcd5e2509974bb76bac3eac448cbf23e8c2cebcf03795eac733fac4902dae8b.log"
+    },
+    {
+      "sha256": "ced082413691571e9b49c78bb12ca3b28f478cd2e01627e7491785e33db3ebcc",
+      "bytes": 120,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/corpus/labels/loc-tehran-1889-preview.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/ced082413691571e9b49c78bb12ca3b28f478cd2e01627e7491785e33db3ebcc"
+        }
+      ],
+      "target": "reports/archive/report-editions/ced082413691571e9b49c78bb12ca3b28f478cd2e01627e7491785e33db3ebcc.json"
+    },
+    {
+      "sha256": "cf337855457b4c66c6c8e5be35d2758e8d2c43050e867ebb1d11555e75b57469",
+      "bytes": 741,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-delivery-final.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/cf337855457b4c66c6c8e5be35d2758e8d2c43050e867ebb1d11555e75b57469"
+        }
+      ],
+      "target": "reports/archive/report-editions/cf337855457b4c66c6c8e5be35d2758e8d2c43050e867ebb1d11555e75b57469.json"
+    },
+    {
+      "sha256": "dd6a47dbf6551fea8c3519574a5b3f291f7bdd6cd978edce7a92c2017b6d51d5",
+      "bytes": 1821253,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/viewer-hover.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/dd6a47dbf6551fea8c3519574a5b3f291f7bdd6cd978edce7a92c2017b6d51d5"
+        }
+      ],
+      "target": "reports/archive/report-editions/dd6a47dbf6551fea8c3519574a5b3f291f7bdd6cd978edce7a92c2017b6d51d5.png"
+    },
+    {
+      "sha256": "dd80ae8964e4ba12b3ef6c8dd767241ab35af742ee5aca67be67e33a42098766",
+      "bytes": 173602,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/ui/interaction-outline-2026-10-22/editor-selected.png",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/dd80ae8964e4ba12b3ef6c8dd767241ab35af742ee5aca67be67e33a42098766"
+        }
+      ],
+      "target": "reports/archive/report-editions/dd80ae8964e4ba12b3ef6c8dd767241ab35af742ee5aca67be67e33a42098766.png"
+    },
+    {
+      "sha256": "dda7205988ea744ca130e1b365890bfe30bf3261123b5c64014e0e2f27b2729c",
+      "bytes": 2539,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/world-windows.json",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/dda7205988ea744ca130e1b365890bfe30bf3261123b5c64014e0e2f27b2729c"
+        }
+      ],
+      "target": "reports/archive/report-editions/dda7205988ea744ca130e1b365890bfe30bf3261123b5c64014e0e2f27b2729c.json"
+    },
+    {
+      "sha256": "dee7bcd2aa731dd64ca757e43a56faa535d6f6ca17a0c5d4f1277f6156db31bb",
+      "bytes": 2196,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/architecture-followup-failure.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/dee7bcd2aa731dd64ca757e43a56faa535d6f6ca17a0c5d4f1277f6156db31bb"
+        }
+      ],
+      "target": "reports/archive/report-editions/dee7bcd2aa731dd64ca757e43a56faa535d6f6ca17a0c5d4f1277f6156db31bb.log"
+    },
+    {
+      "sha256": "e419bab3b1863560dddf2a946bae2754ae753eaee05d0a6dbb1a78ea0df06ace",
+      "bytes": 26975,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/ci-logs/linux-runtime-focused.log",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/e419bab3b1863560dddf2a946bae2754ae753eaee05d0a6dbb1a78ea0df06ace"
+        }
+      ],
+      "target": "reports/archive/report-editions/e419bab3b1863560dddf2a946bae2754ae753eaee05d0a6dbb1a78ea0df06ace.log"
+    },
+    {
+      "sha256": "eaa906e1cd72c96362382c2ba0d6dee2d1010008856cd55f78b8877471bdc9ff",
+      "bytes": 613,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/cleanup-result-20261023-105048-538.json",
+          "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/eaa906e1cd72c96362382c2ba0d6dee2d1010008856cd55f78b8877471bdc9ff"
+        }
+      ],
+      "target": "reports/archive/report-editions/eaa906e1cd72c96362382c2ba0d6dee2d1010008856cd55f78b8877471bdc9ff.json"
+    },
+    {
+      "sha256": "eacd2e5e92dfac7c23d4a26ed74cb94f3aded3b863e07adccaf6b838fbf44d7c",
+      "bytes": 1133,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/build-windows.log",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/eacd2e5e92dfac7c23d4a26ed74cb94f3aded3b863e07adccaf6b838fbf44d7c"
+        }
+      ],
+      "target": "reports/archive/report-editions/eacd2e5e92dfac7c23d4a26ed74cb94f3aded3b863e07adccaf6b838fbf44d7c.log"
+    },
+    {
+      "sha256": "fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6",
+      "bytes": 2775,
+      "origins": [
+        {
+          "owner": "ui",
+          "logical": "reports/reference-analysis/README.md",
+          "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+          "classification": "archived-variant",
+          "workingPath": ".variants/fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6"
+        }
+      ],
+      "target": "reports/archive/report-editions/fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6.md"
+    },
+    {
+      "sha256": "fd4023bfdd34ffa054ba7bbd500ec2ed3ca9d2dcab1bd4f395dc6aa5ba45c4b8",
+      "bytes": 3678,
+      "origins": [
+        {
+          "owner": "main",
+          "logical": "reports/development/testing/button-release-20261022/native-ui-check.mjs",
+          "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+          "classification": "inactive-unfinished-original",
+          "workingPath": ".variants/fd4023bfdd34ffa054ba7bbd500ec2ed3ca9d2dcab1bd4f395dc6aa5ba45c4b8"
+        }
+      ],
+      "target": "reports/archive/report-editions/fd4023bfdd34ffa054ba7bbd500ec2ed3ca9d2dcab1bd4f395dc6aa5ba45c4b8.mjs"
+    }
+  ],
+  "workingSnapshot": [
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/app1922.json",
+      "bytes": 1478,
+      "sha256": "370ff8c648b08029ccbb125c0451584ade3e330d70740b12956529f50a8ff366",
+      "mtimeMs": 1792850953342.923
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/app1922.png",
+      "bytes": 138526,
+      "sha256": "c561d7e37bde8d6a57d123da4e8e56c578888934871d9212db86bf434e6961ed",
+      "mtimeMs": 1792850953331.25
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/application-proof.json",
+      "bytes": 2655,
+      "sha256": "6948649a0ba4be6201552b75f2cbec1f88b7f696bf5c7f88eff34d10d744b8b4",
+      "mtimeMs": 1792849428415.0962
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/before-country-objects.json",
+      "bytes": 8054082,
+      "sha256": "c291de0d9dcaa2e0899883457aeaf99da37883cf239b2b139c0f8e9357483a82",
+      "mtimeMs": 1792849419141.0686
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/caspian-comparison-10m.png",
+      "bytes": 33142,
+      "sha256": "a4b30417e8cd2f809e26800470184fa81b16dba2a55ab296c43eda2fc1178626",
+      "mtimeMs": 1792849428352.2937
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/caspian-final-README.md.source.txt",
+      "bytes": 5335,
+      "sha256": "31271664eb4e003dc03190b68323b505cd573abae251d77cb4184f5b50f09e9f",
+      "mtimeMs": 1792846413599.3647
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/data-file-manifest.json",
+      "bytes": 149301,
+      "sha256": "e6427878b664800523eb088600d73f29773b510e4359cf5aae55162592781c91",
+      "mtimeMs": 1792850980565.1804
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/data-history-integration.json",
+      "bytes": 22820,
+      "sha256": "c511d9425069dbbb1566bb0257fe90ca68d390467d114dc47ee5866d434ad22d",
+      "mtimeMs": 1792849829424.7788
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/DISPLAY-REVIEW.md.source.txt",
+      "bytes": 3195,
+      "sha256": "10b600a458c2c0e5eb5c8ec47ca1faf9f84a1e2340e28d40791651da982f73ee",
+      "mtimeMs": 1792846413592.368
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/display-water.geojson",
+      "bytes": 566258,
+      "sha256": "1f792d64b4eee592ab72b33120427031ba4cdc08387e36b9374b50744820acfd",
+      "mtimeMs": 1792846413422.5835
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/final-artifact-handoff.json.source.txt",
+      "bytes": 1165,
+      "sha256": "0f7bce0f1b8272dc6694872a4c1ec8398ac35f470274de6da70c419d6cc6f3a4",
+      "mtimeMs": 1792846413597.1697
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/generalization-metrics.json",
+      "bytes": 27294,
+      "sha256": "cb1d18347d4a5dda7818ee1657d47ef3597049f6d11343b9bee5967aa5cfd8ae",
+      "mtimeMs": 1792846413371.2795
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/input-manifest.json",
+      "bytes": 984,
+      "sha256": "a3fb04bce5ce58d2a4c1063e307df6902bb45c57060566cba787987a33c0bf3c",
+      "mtimeMs": 1792846413576.6091
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/modern-merge-limitation.json",
+      "bytes": 383,
+      "sha256": "e57a321ec2c7199de22208d534cc1310c0b9637b9172b4a828cfc06c408b2ca9",
+      "mtimeMs": 1792850881238.7776
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/README.md.source.txt",
+      "bytes": 8567,
+      "sha256": "9f0fd07e443b34a9f754bacc0fc3b1295bcfc67f96386b9929f58b09971fdf0e",
+      "mtimeMs": 1792846413588.909
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/web1922.json",
+      "bytes": 944,
+      "sha256": "e167c7bb01f2a948dd085c8497228d9c5a57b2e815bd44b77f186c9232d49f20",
+      "mtimeMs": 1792849724811.5674
+    },
+    {
+      "relative": ".edits/gis/geography/ussr-1922-caspian-application-2026-10-24/web1922.png",
+      "bytes": 629391,
+      "sha256": "98c0d863db8c8c60fa538db1706e0b598ac7bb7245aa0dd19a5c5b0e8bbc93e0",
+      "mtimeMs": 1792849724809.1475
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeMs": 1792821850817.3845
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1024.png",
+      "bytes": 11903,
+      "sha256": "363fb22dc312198d67ea269b8a31b763496e296eb63bde2c58240404c7f8a75e",
+      "mtimeMs": 1792821845613.7761
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1440.png",
+      "bytes": 11143,
+      "sha256": "a341ed712113ff3d372bbf9b80e62d67f8d92fff11899673cc74801dd604cb1d",
+      "mtimeMs": 1792821844928.6409
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-390.png",
+      "bytes": 10587,
+      "sha256": "75cad376292749cf159333e8f5be8da551f584b51e5cdc89105a94595bc5b699",
+      "mtimeMs": 1792821846337.4463
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1024.png",
+      "bytes": 14750,
+      "sha256": "608d0da16c08e8f6db4f5feeb798f6f7c7f682f5655c1796b09436bc102bdae4",
+      "mtimeMs": 1792821848794.892
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1440.png",
+      "bytes": 14644,
+      "sha256": "44ccec360cea89c35c957f098c4086e356e9f99fb4ffa642dc676b6cb904fde7",
+      "mtimeMs": 1792821847996.4563
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-390.png",
+      "bytes": 13351,
+      "sha256": "2c96bb60f609b67f00d7c6ed267a2960112ed7c1b2109d82e450dd786d21de37",
+      "mtimeMs": 1792821849385.4646
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/checks.json",
+      "bytes": 364,
+      "sha256": "4fc9021bc3f4eff12f57ce4fee48bd0693a1fc5dabad9f2c3bb1c31120b2840e",
+      "mtimeMs": 1792821836083.351
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/README.md",
+      "bytes": 2434,
+      "sha256": "5f99d183615b6b03ed35a9ff78c1a0579aab17fb398302861968023032e0fd7c",
+      "mtimeMs": 1792822392306.4055
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/release.json",
+      "bytes": 2729,
+      "sha256": "b4a05dbe9a86a9bb3905547a20d6e21ef2f1ee4ad79cb31c458b701f929dd30d",
+      "mtimeMs": 1792822252322.1396
+    },
+    {
+      "relative": ".edits/objects/development/testing/remote-branch-integration-2026-10-24/scope.json",
+      "bytes": 1187,
+      "sha256": "22ce6dbf409cabffb5b03405f90148c3c37af8292de7274bb7744a4ed08cc802",
+      "mtimeMs": 1792822392303.9595
+    },
+    {
+      "relative": ".edits/objects/geography/historical-boundary-rollback-2026-10-23/archived-source-drift-proof.json",
+      "bytes": 59269,
+      "sha256": "94872818a279f87a9f2ffd4403b903ffd6003c5eceeb1f5f3cc45f6ecde5d750",
+      "mtimeMs": 1792752808407.1013
+    },
+    {
+      "relative": ".edits/objects/geography/historical-boundary-rollback-2026-10-23/audit.json",
+      "bytes": 8498,
+      "sha256": "0341587278ff2550a419b1643cf4cda2fa51b70172c03dd7fd836c38ae936bfc",
+      "mtimeMs": 1792752808411.6172
+    },
+    {
+      "relative": ".edits/objects/geography/historical-boundary-rollback-2026-10-23/AUDIT.md",
+      "bytes": 4259,
+      "sha256": "e144e7aa7370fcef451458e093d6a66f939378612f3d6de067257bca43588450",
+      "mtimeMs": 1792752808414.7483
+    },
+    {
+      "relative": ".edits/objects/geography/historical-boundary-rollback-2026-10-23/modern-unchanged-proof.json",
+      "bytes": 1556,
+      "sha256": "6854e73fc48013dc4cbff19eee5046b318d699a2449ee5792884cda02e505a88",
+      "mtimeMs": 1792752808416.9277
+    },
+    {
+      "relative": ".edits/objects/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+      "bytes": 1031216,
+      "sha256": "a334e9a3dee757608accb7439ae845816a476a365d356f494543c9a3abca7878",
+      "mtimeMs": 1792752808472.529
+    },
+    {
+      "relative": ".edits/objects/geography/ne-selected-20261023/README.md",
+      "bytes": 2587,
+      "sha256": "d20cea03f811c74a8fc9a87fdc1ffde3385c414385822ac74696a7fc2d3614bb",
+      "mtimeMs": 1792752808472.529
+    },
+    {
+      "relative": ".edits/ui/development/qgis-mcp-20261024/codex-tools-proof.json",
+      "bytes": 814,
+      "sha256": "5e6db507bce273b563cab222483fd97ca20314289b0ca6d842e138a3810715ce",
+      "mtimeMs": 1792849464608.0864
+    },
+    {
+      "relative": ".edits/ui/development/qgis-mcp-20261024/integration-evidence.zip",
+      "bytes": 4510,
+      "sha256": "3f5001a67e793dea1d314a9189922eb24b915d6a38f00fef05287d3b648d24a9",
+      "mtimeMs": 1792849151612.3032
+    },
+    {
+      "relative": ".edits/ui/development/qgis-mcp-20261024/REPORT.md",
+      "bytes": 6004,
+      "sha256": "f5774ec85013774a6f81da97afd8e2cbab6dbc7d63ae51efc4c66335bb9808f6",
+      "mtimeMs": 1792849540603.5337
+    },
+    {
+      "relative": ".edits/ui/development/testing/ci-timeline-fixes-2026-10-24.md",
+      "bytes": 4512,
+      "sha256": "23b433e2d87ea28a844d4d61589eca43172b54d9741517b78b5eae36b905687d",
+      "mtimeMs": 1792824164219.6306
+    },
+    {
+      "relative": ".edits/ui/development/testing/verification-build-separation-2026-10-24.md",
+      "bytes": 20022,
+      "sha256": "9a151069dbc005eadf25b5e341505c819f88540e238dfc36c0e26fd287297521",
+      "mtimeMs": 1792849731385.4788
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/browser-preflight.json",
+      "bytes": 33330,
+      "sha256": "b953612b00b08cd1d7057471c0a326c85c4b96e2379253b4b2ab7d2bcfbee257",
+      "mtimeMs": 1792842192166.2031
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/browser-preflight.png",
+      "bytes": 150086,
+      "sha256": "19f6f1f6244b4cea84cfd3bf4e11f5f817e0e7de9b97b39666bd0dd607221a8b",
+      "mtimeMs": 1792842192252.222
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/profile-rename-fixture-browser.log",
+      "bytes": 3900,
+      "sha256": "d9b8e68581557840183a9fbd39c364d60987f6803259d94a1260cc87a1056303",
+      "mtimeMs": 1792841345773.2126
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/profile-rename-fixture-stage.log",
+      "bytes": 106,
+      "sha256": "7383e04386d1eb301d7e905330a7ce872b4d578ac730723ea0601505abe94835",
+      "mtimeMs": 1792841341243.3394
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/profile-rename-map-browser.log",
+      "bytes": 8153,
+      "sha256": "0afc82ee2a7b9a67806f61e7a0eb3c7d0f6bf2297d06b73727141e4c0b5f75a4",
+      "mtimeMs": 1792842192253.2253
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/profile-rename-map-stage.log",
+      "bytes": 104,
+      "sha256": "d6e48e6e3b4cde0037291f6bdfbff320fdfa14fd0c7060e7aeea5013ea89867a",
+      "mtimeMs": 1792842176912.767
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/profile-rename-tests.log",
+      "bytes": 7291,
+      "sha256": "41470763b58c925e4c53ca485faa8e9ee7ab3e08b39799eb684b404ab9e68978",
+      "mtimeMs": 1792841173759.7344
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-browser.log",
+      "bytes": 3206,
+      "sha256": "260ca64ed01da1a8179a7fe4e862b361c2442583c1c4d43d8d870d7313662ee1",
+      "mtimeMs": 1792847279023.6438
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-check-plan.log",
+      "bytes": 307,
+      "sha256": "6d7d9b4661ec6faacca496ffd922e5f2764abc4ab1bd6f986f09cec66a3f2ff4",
+      "mtimeMs": 1792847009443.228
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-lint.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtimeMs": 1792847253345.7722
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-live-expected.json",
+      "bytes": 1347,
+      "sha256": "6aaba11b477910a1fe826d65ac2a0bfde6551eaa0ceb30d969b58b2bf4d58570",
+      "mtimeMs": 1792848711752.4797
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-live-verified.json",
+      "bytes": 3143,
+      "sha256": "de0f72a7fd4eb836df9ed4705a485660e8883caf5f567f2b4e8de07a3ce08c5b",
+      "mtimeMs": 1792849639813.9636
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-metadata-check.log",
+      "bytes": 1446,
+      "sha256": "1a05171e1428c8ee3a0e5208a14e240589cfcbb7fb04652b979edc0eb9d67417",
+      "mtimeMs": 1792847179909.417
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-metadata.log",
+      "bytes": 106,
+      "sha256": "d4d41056b800320d05a4cd5ddb638ece8aa0d7a2e8740ccb62f5b80847ee459c",
+      "mtimeMs": 1792846826814.9062
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-pages-failure.log",
+      "bytes": 54585,
+      "sha256": "7f33e1b83d1d7c9a4c9fae5a802fabfa576acae053e4cd098ffb1e775095bb2b",
+      "mtimeMs": 1792848005472.0918
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-pinned-check.log",
+      "bytes": 105,
+      "sha256": "b25a96185338a9d80602b52b4f1191b8afb5e8fdaa6f2dbc9e2fc36979fb1dec",
+      "mtimeMs": 1792848607677.0442
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-pinned-generated.log",
+      "bytes": 106,
+      "sha256": "05747be8622a0ce059c3a50d01cf31db5d3da3d809dd83ab7e3491318e1af262",
+      "mtimeMs": 1792848499921.5427
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-pinned-red.log",
+      "bytes": 23830,
+      "sha256": "d7f753891e93732bb1b72bc77ab0f425df5c4b61c89055e1ae029f60fc588bda",
+      "mtimeMs": 1792848383745.9397
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-pinned-unit.log",
+      "bytes": 898,
+      "sha256": "02a6ab2da7a68623307e409fda07ea7338c35a6a0ead54218ae4b50cadebc4a0",
+      "mtimeMs": 1792848547327.6904
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-task-paths.txt",
+      "bytes": 7578,
+      "sha256": "1be62d254393610790321b8a8085bfdfb2b5352bcba40efe9c335b7db909f5ea",
+      "mtimeMs": 1792846705184.5322
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/release-unit.log",
+      "bytes": 11868,
+      "sha256": "7c10992a5b1e80a6fa87b01fd9ef186dfa5eb6a17b166273328cbfb8289c1e3a",
+      "mtimeMs": 1792846888619.2358
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/verification-browser-preflight.json",
+      "bytes": 74032,
+      "sha256": "d6f3d84e6e11ad258032f3a90c3e1855df8626ce04cff2356cfed5190c3cc116",
+      "mtimeMs": 1792826312644.0242
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/verification-browser-preflight.png",
+      "bytes": 54059,
+      "sha256": "2ff4e3f3296147bade09d9e42a680e3913b59012189ad08a3c1258f2cb2a56d1",
+      "mtimeMs": 1792826312705.7668
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-browser.log",
+      "bytes": 1961,
+      "sha256": "44d1ecc95da1625a8b534a025947dea02b940ffcea0be229304e08f3b146ff0c",
+      "mtimeMs": 1792846164973.802
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-keyboard.log",
+      "bytes": 707,
+      "sha256": "8ad77803dfd2936809148311afb40bcdf91de809fca3e149a3a6a4be36733703",
+      "mtimeMs": 1792846254916.7827
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-mobile-red.log",
+      "bytes": 2643,
+      "sha256": "2578240d9f547139532f1f62c95f6d716e42065e334364155bfcbecdcefe0515",
+      "mtimeMs": 1792845897813.1191
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-plan.log",
+      "bytes": 255,
+      "sha256": "3f7218427b978ce5765b53467d6215f6d61394ed9297bb119a2a320734ecb051",
+      "mtimeMs": 1792846408961.1687
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeMs": 1792846164972.7986
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/error-context.md",
+      "bytes": 16197,
+      "sha256": "30d593824db3fe9cdc479a7e6f2945f606ab9f79c53a8c4bd4f7caac6474261a",
+      "mtimeMs": 1792845842288.5815
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/test-failed-1.png",
+      "bytes": 278086,
+      "sha256": "2d82faef406b9177cde092ab24bf53d78bb1060d1cbf1daad585f9b09007da90",
+      "mtimeMs": 1792845842220.0244
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/keyboard/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeMs": 1792846254916.7827
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png",
+      "bytes": 35840,
+      "sha256": "32e860738b3d7bd25912b1138e804ef2308a35fa6fec1811fd4cbc85cccb9f80",
+      "mtimeMs": 1792846233270.1116
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png",
+      "bytes": 18054,
+      "sha256": "b6a5dd52a831e16d952baf58ececd48911ad7764c7019b6a22a16f6c6e519e8d",
+      "mtimeMs": 1792846233585.7947
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeMs": 1792847279031.367
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png",
+      "bytes": 35687,
+      "sha256": "b5636dae902d6ffb912339ddf2976fb1d55a58bbbadb685c340a8407d667d49f",
+      "mtimeMs": 1792847060553.8977
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png",
+      "bytes": 18038,
+      "sha256": "0aedab14c89d990a80097e867495bc132159d97221ca40c37d323db881542834",
+      "mtimeMs": 1792847060892.4287
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1024.png",
+      "bytes": 527551,
+      "sha256": "d24b85aef1288eeb853ceef4cf772e7c63693b14f248a1a68b9929e3530fd491",
+      "mtimeMs": 1792847274765.5264
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1440.png",
+      "bytes": 841670,
+      "sha256": "69a7a572704f7ff90b7d3c1faa1128fa643be6516c6a6f5c16fb337f3d1a4d36",
+      "mtimeMs": 1792847273153.7815
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-320.png",
+      "bytes": 173061,
+      "sha256": "2fb0305b1234ad2744b297627fc5a3f079f4806fcc68f4b5fe4a6d0a00ffaf5d",
+      "mtimeMs": 1792847277868.7407
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-390.png",
+      "bytes": 198993,
+      "sha256": "db4a35e4adec142084a2d56540468cb9be072ce1102777d40484652aea4cae20",
+      "mtimeMs": 1792847276579.162
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-800.png",
+      "bytes": 362901,
+      "sha256": "2833a91b3b019b5dc198418e0fdad83080beaf0de9a1fdaf335624b2e4bb5dba",
+      "mtimeMs": 1792847275284.2993
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png",
+      "bytes": 51887,
+      "sha256": "d2bf4cf8873a1926f9d553b2630d70632be01196b536382f7397feddee93631b",
+      "mtimeMs": 1792847025551.1853
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png",
+      "bytes": 34012,
+      "sha256": "dedcdbf325309214536b9fc48a2a25f199b12cd20edc6e387b9f8563b0e1ff0d",
+      "mtimeMs": 1792847028500.906
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png",
+      "bytes": 51785,
+      "sha256": "ef8523f5935c1df25d0fa0a622e6c0824fdef5d9ae5451a631a8f4b34dff5312",
+      "mtimeMs": 1792846135687.5134
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png",
+      "bytes": 33993,
+      "sha256": "7a5ebc3483d2f79140d20a035eb50273e8ff1a54637a868951aa07c58bed3a9f",
+      "mtimeMs": 1792846137333.4062
+    },
+    {
+      "relative": ".edits/ui/development/testing/web-shell/view-menu-unit.log",
+      "bytes": 4874,
+      "sha256": "3d5fdaff20d621c9610a8ac30cf6cd6118e7582730b5d9e60c45c5159c42b44e",
+      "mtimeMs": 1792846149799.5078
+    },
+    {
+      "relative": ".edits/ui/geography/historical-boundary-rollback-2026-10-23/archived-source-drift-proof.json",
+      "bytes": 59269,
+      "sha256": "94872818a279f87a9f2ffd4403b903ffd6003c5eceeb1f5f3cc45f6ecde5d750",
+      "mtimeMs": 1792758772202.4429
+    },
+    {
+      "relative": ".edits/ui/geography/historical-boundary-rollback-2026-10-23/audit.json",
+      "bytes": 8498,
+      "sha256": "0341587278ff2550a419b1643cf4cda2fa51b70172c03dd7fd836c38ae936bfc",
+      "mtimeMs": 1792758772206.243
+    },
+    {
+      "relative": ".edits/ui/geography/historical-boundary-rollback-2026-10-23/AUDIT.md",
+      "bytes": 4259,
+      "sha256": "e144e7aa7370fcef451458e093d6a66f939378612f3d6de067257bca43588450",
+      "mtimeMs": 1792758772223.7915
+    },
+    {
+      "relative": ".edits/ui/geography/historical-boundary-rollback-2026-10-23/modern-unchanged-proof.json",
+      "bytes": 1556,
+      "sha256": "6854e73fc48013dc4cbff19eee5046b318d699a2449ee5792884cda02e505a88",
+      "mtimeMs": 1792758772226.6982
+    },
+    {
+      "relative": ".edits/ui/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+      "bytes": 1031216,
+      "sha256": "a334e9a3dee757608accb7439ae845816a476a365d356f494543c9a3abca7878",
+      "mtimeMs": 1792758772266.6567
+    },
+    {
+      "relative": ".edits/ui/geography/ne-selected-20261023/README.md",
+      "bytes": 2587,
+      "sha256": "d20cea03f811c74a8fc9a87fdc1ffde3385c414385822ac74696a7fc2d3614bb",
+      "mtimeMs": 1792758772266.6567
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/cia-world-political-2021-supervision.png",
+      "bytes": 794352,
+      "sha256": "16abc18e4836163476b846ac97d85ff0dc39c4c38cae96811720b85f55da3d2c",
+      "mtimeMs": 1792741410950.73
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/corpus.conditions.training.json",
+      "bytes": 4899,
+      "sha256": "16fb1b96b7d0824d0af9e07d360e51c1eb4925e8f5881c0e4e719f2900657362",
+      "mtimeMs": 1792758770236.2583
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/corpus.diverse-macro.training.json",
+      "bytes": 8976,
+      "sha256": "7549b15e4192100a19bd6b0b7a6b60f66e90f38efe9f1b8d95ae5b9681aa023d",
+      "mtimeMs": 1792851025764.881
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/corpus.publishers.training.json",
+      "bytes": 6311,
+      "sha256": "a5daa3e38e025ba3cdca247d0994a56efcf59890fcc94d8000b1e2577dfe7f2b",
+      "mtimeMs": 1792843740372.3813
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/corpus.seams.training.json",
+      "bytes": 4823,
+      "sha256": "b88a47a44a24f5be7ea859cb445baf78a802ed878a3d1b666b04847ae9694944",
+      "mtimeMs": 1792826150607.3845
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/corpus.training.json",
+      "bytes": 2427,
+      "sha256": "b26a659cff101a13469f5d51214ce4f373b8f8bbf27a14566ee56a3999ef9402",
+      "mtimeMs": 1792741410976.812
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-asia-political-seams-r4.mask.png",
+      "bytes": 22464,
+      "sha256": "9a93be7c750a6dc5b5b9f5460354d65e83a13b0e0a72c5f97935a63656579b58",
+      "mtimeMs": 1792826098343.6084
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-asia-political-seams-r4.valid.png",
+      "bytes": 54352,
+      "sha256": "1ce28d77f9720fcc6a0fec601115a38ec67f8d9fe5477de86a70f0e4200f5d65",
+      "mtimeMs": 1792826098352.1287
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-asia-political.jpg",
+      "bytes": 1131567,
+      "sha256": "5445992eac4264e51738e84c37ab28b0d478bf93e268949a2eb7d8b04f704139",
+      "mtimeMs": 1792758770289.938
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-asia-political.mask.png",
+      "bytes": 8492,
+      "sha256": "77d528d587d3ade532a05fa833fc06e08b42a5d56aa6ee389ab9cb4a92e06685",
+      "mtimeMs": 1792758770290.9402
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-asia-political.valid.png",
+      "bytes": 54925,
+      "sha256": "7d11079815ae3aba67c1cff3cf3ee58cc408708f8ef4d16ede0edcf0a14fbab7",
+      "mtimeMs": 1792758770294.6545
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-world-political-2021.jpg",
+      "bytes": 602507,
+      "sha256": "a882b7bffc5da41bac9df4090f66d524b2ade5fb818c5104d91ca3b1c3297a75",
+      "mtimeMs": 1792741411034.7495
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-world-political-2021.mask.png",
+      "bytes": 11396,
+      "sha256": "972cf019991a99d4762365af351ebfffeb4af7bbd96d195e6d07c458933942ab",
+      "mtimeMs": 1792741411053.3293
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/cia-world-political-2021.valid.png",
+      "bytes": 31139,
+      "sha256": "cc9b046c02c548d66369fb41ef8eade8b1e787d7db07d19258853124ca286be8",
+      "mtimeMs": 1792741411217.9148
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/ga-australia-general-reference.jpg",
+      "bytes": 1312832,
+      "sha256": "83b5523a63b934087bb14a02a7425fb4a6606f5571823b779c1b6cda06c0e0cc",
+      "mtimeMs": 1792843696942.416
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/ga-australia-general-reference.mask.png",
+      "bytes": 9228,
+      "sha256": "bb9c136d71fbf38a19c23d8affb2fb391b2e617db99204066913f2f8b0f49150",
+      "mtimeMs": 1792843696943.4172
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/ga-australia-general-reference.valid.png",
+      "bytes": 16945,
+      "sha256": "309022c2c41df00d04987b554abd92ea3e43d10c32338cb0031d90053afddae5",
+      "mtimeMs": 1792843696946.7583
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg",
+      "bytes": 880064,
+      "sha256": "00883f5b72ace63c433ff1c3b231c3d7b404cfa24ccd57665352f8616b55e6c5",
+      "mtimeMs": 1792850384986.0012
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.jpg.aux.xml",
+      "bytes": 1634,
+      "sha256": "342dab4034c523eb8d6061f2cde8dca0f778e1d83797d924c42807cc24ca49ee",
+      "mtimeMs": 1792850852406.097
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png",
+      "bytes": 5231,
+      "sha256": "766451507e52cfeba91f73f1eed47a8375abbe8f8b2357e8ecf62c00fd74406e",
+      "mtimeMs": 1792850910298.6714
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.mask.png.aux.xml",
+      "bytes": 412,
+      "sha256": "b4011509ea073a72b952a5aef698b863f7dcf84aa204e1435d92b4500cdc4349",
+      "mtimeMs": 1792850852499.9077
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/gsi-japan-national-japanese.valid.png",
+      "bytes": 5893,
+      "sha256": "a696d4753bea967bfb959b5d16f8377aa10ab1374bbf203076d282d34ec6a380",
+      "mtimeMs": 1792850910308.5486
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg",
+      "bytes": 684687,
+      "sha256": "93680d1cf812557e54e5d078a49f27a055e406bdd58e765e43bcca3dff77cafc",
+      "mtimeMs": 1792850398550.6519
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.jpg.aux.xml",
+      "bytes": 1633,
+      "sha256": "a0fbb72509b4f8312b5a323d43fd1f3d1b1a347ae699d6dd14b634821db76dec",
+      "mtimeMs": 1792850852900.5935
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png",
+      "bytes": 31846,
+      "sha256": "4248f9c1f393c77b9bc91c529ec94e19007720d58a4da8b618caf4f26dde4a50",
+      "mtimeMs": 1792850929894.6233
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.mask.png.aux.xml",
+      "bytes": 408,
+      "sha256": "c484b7db2f7cd0a6c70864e250298f80b4ecb62f362541d3ecb9690085e0179d",
+      "mtimeMs": 1792850852904.0881
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-africa-national-reference.valid.png",
+      "bytes": 43030,
+      "sha256": "d50e772321021194b9659c12edb753dc3c90b38df9652d69db28115159184db9",
+      "mtimeMs": 1792850929922.0444
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-canada-monochrome.jpg",
+      "bytes": 922108,
+      "sha256": "67825bcd24499cd6e08e2dab561e1d455ee12d6869ae290f4e4e7a4e74320e3b",
+      "mtimeMs": 1792758770329.6013
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-canada-monochrome.mask.png",
+      "bytes": 23936,
+      "sha256": "4e2c648a60384b84748402e83424d7427d243c6c371e66ada268e6cb1ab04383",
+      "mtimeMs": 1792758770330.6028
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-canada-monochrome.valid.png",
+      "bytes": 16072,
+      "sha256": "4d3dea709e63918227f0a76ea39dad59cd00ccab094d92e0da9d444b1eaf4502",
+      "mtimeMs": 1792758770334.9746
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-canada-national.jpg",
+      "bytes": 1105428,
+      "sha256": "c7901cb1c8e37f5d4dd5bb8ef50d3f78952a0eb737f3a4f95201ef7d2baa6ec6",
+      "mtimeMs": 1792741411327.3013
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-canada-national.mask.png",
+      "bytes": 24215,
+      "sha256": "bfa31ab784350bffefc75d957b02f8a27ce0390365c2d299c37947bdd09fb1b4",
+      "mtimeMs": 1792741411413.0654
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/derived/nrcan-canada-national.valid.png",
+      "bytes": 16059,
+      "sha256": "e9563af4e5e806d3e0a6a8f8a21f0a03c3036cf60155bcfa8fcc3770848f3adc",
+      "mtimeMs": 1792741411451.423
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/inventory.json",
+      "bytes": 1360,
+      "sha256": "57bac0d4d3186265e8ab62b8795c02a1921639b018da15505eb8cca103eea961",
+      "mtimeMs": 1792741411456.7246
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/cia-asia-political-seams-r4.json",
+      "bytes": 1246,
+      "sha256": "e9c2c975f29c5391850e4271b734feb7c0fb68082797c858e1eb4b52c7120ef0",
+      "mtimeMs": 1792826098354.1328
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/cia-asia-political.json",
+      "bytes": 1218,
+      "sha256": "b1e846a3ba51590838c018624a63393272c565343b4d9e5e7cb559d6228882f8",
+      "mtimeMs": 1792758770336.3684
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/cia-world-political-2021.json",
+      "bytes": 1242,
+      "sha256": "c76c779d1d6bc237ef2ca2bbd40cae755b4af77e1226739f56e6a6b470a949de",
+      "mtimeMs": 1792741411462.2668
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/ga-australia-general-reference.json",
+      "bytes": 1267,
+      "sha256": "0005b758e183e46de7d11a8fbcdbffc76ebfab8cc55e2a49fde4c6128c81f2f1",
+      "mtimeMs": 1792843696952.359
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/gsi-japan-national-japanese.json",
+      "bytes": 1253,
+      "sha256": "a75c282bfb1d37ac87a374bf19bcf9edff6e192d92aab5c3af10e670e0e4e472",
+      "mtimeMs": 1792850910320.0315
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/nrcan-africa-national-reference.json",
+      "bytes": 1271,
+      "sha256": "3e8308e42551946a39904f30f489b3ebfe0954a3c65ae9c5585c95e066361207",
+      "mtimeMs": 1792850929934.3772
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/nrcan-canada-monochrome.json",
+      "bytes": 1264,
+      "sha256": "09409a96e532c2c6b9c4c422285c056c5debcc7b49e824817b56c3cda57b434e",
+      "mtimeMs": 1792758770336.3684
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/labels/nrcan-canada-national.json",
+      "bytes": 1257,
+      "sha256": "798828027e76fd5712ebbbca42aef7860e0b28c028eff599fed2404d63558266",
+      "mtimeMs": 1792741411465.8606
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/cia-asia-political.txt",
+      "bytes": 3706,
+      "sha256": "7c789fa7add30f30fb2a161131ad85ab2a87071a9476fe3a4dc9532b62ac9d1c",
+      "mtimeMs": 1792758770336.3684
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/cia-world-political-2021.txt",
+      "bytes": 14427,
+      "sha256": "00c7fa5e2b20c45054219589301404f0b96fd7cb86398fb570267e4b86e9a972",
+      "mtimeMs": 1792741411470.512
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/ga-australia-general-reference.txt",
+      "bytes": 6850,
+      "sha256": "82fe6466b7f174ae8261596386e0a86e405baed6558ef739ed9ca3e709d504b0",
+      "mtimeMs": 1792843696949.995
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/gsi-japan-national-japanese.txt",
+      "bytes": 1927,
+      "sha256": "877467fb64fbcc6dec09977a8757ef10149f5aa9755fb939361caed02efd9be0",
+      "mtimeMs": 1792850384995.454
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/nrcan-africa-national-reference.txt",
+      "bytes": 318,
+      "sha256": "529ed4f8d275319797735c367e4df52c0faec1d349dbc7bb835a4334688c1b46",
+      "mtimeMs": 1792851012212.3586
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/nrcan-canada-monochrome.txt",
+      "bytes": 1986,
+      "sha256": "69c2c02e31204ff4be22661abd970f6dca10ef517394d4d62e34fec6eb02ca12",
+      "mtimeMs": 1792758770347.7305
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/notices/nrcan-canada-national.txt",
+      "bytes": 1986,
+      "sha256": "8134d18a32b39dd26967baf19062d95884aaa0809628f77bc740434301a87e95",
+      "mtimeMs": 1792741411477.053
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/nrcan-canada-national-supervision.png",
+      "bytes": 1444037,
+      "sha256": "503915fd4ecf9dce1e06952c585c85b6c7ce769e0f4c87cf817bfc1c04c588a2",
+      "mtimeMs": 1792741411521.2505
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/recipes/seams-r4/cia-asia-political.source.json",
+      "bytes": 2896,
+      "sha256": "a6e4e94f539178ed05647ea6f2619b5b2bbda58a87803adf56be9e33d03094a0",
+      "mtimeMs": 1792826075680.3962
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/cia-asia-political.pdf",
+      "bytes": 463827,
+      "sha256": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+      "mtimeMs": 1792741411659.5613
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/cia-asia-political.source.json",
+      "bytes": 2887,
+      "sha256": "b1a5321031dab0d37e6bc4f82f5d0918cb15a67f80105c667fe59e536f80ba91",
+      "mtimeMs": 1792758770350.7407
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/cia-oceania-political.pdf",
+      "bytes": 367889,
+      "sha256": "8e81956a89fdb978f2ceb044ff65bb72f5078e64af2ec1128f73b851206c5f5a",
+      "mtimeMs": 1792741411735.4329
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/cia-retirement-response.html",
+      "bytes": 517387,
+      "sha256": "4a70c64591c420e6500b7b8dce54b9b5fe7e59e509c33a57463cff230c24abe0",
+      "mtimeMs": 1792741411793.532
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/cia-world-political-2021.pdf",
+      "bytes": 23624840,
+      "sha256": "78881fcb06202245a3c195cf480bb4c9bd1ff1fbb913685cf0ff16f0ca264204",
+      "mtimeMs": 1792741413207.829
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/cia-world-political-2021.source.json",
+      "bytes": 1928,
+      "sha256": "c9470b713025a8324d345017e20a51db89a59bfb394c2548abeacd6c73a8a35a",
+      "mtimeMs": 1792741414257.5522
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/ga-australia-general-reference.pdf",
+      "bytes": 1333408,
+      "sha256": "c68ddeef790eacafd1ade0f8353fe8818e3b1e3f01083fdb9bbe0a93e4c3ae57",
+      "mtimeMs": 1792843420421.9094
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/ga-australia-general-reference.source.json",
+      "bytes": 2343,
+      "sha256": "e1707994f58e4d865a30ba7de49350c998236e5e92bfd81960db30138d99563a",
+      "mtimeMs": 1792843662022.8396
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.pdf",
+      "bytes": 1669011,
+      "sha256": "3b6fe3c79a50d263435aa99d90881040a5ef9f02d545508fdfc9072b10429784",
+      "mtimeMs": 1792850125940.0764
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.source.json",
+      "bytes": 3095,
+      "sha256": "1940c28aa31d15aab5b1669fa92c6ee58013272504b64bca17bc87bcaf6f2b56",
+      "mtimeMs": 1792850905630.0056
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-africa-national-reference.pdf",
+      "bytes": 1197131,
+      "sha256": "0359870e117f266ab76fd6fa362a66540fbdd9e41c3717a7643118ace2979408",
+      "mtimeMs": 1792741414492.5188
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-africa-national-reference.source.json",
+      "bytes": 2823,
+      "sha256": "c3c3d8b5ece422ef6e53f7232ba7842804f7e273b9cd2f6bbdbe3ba7af6d3078",
+      "mtimeMs": 1792850915073.0762
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-canada-monochrome.pdf",
+      "bytes": 841931,
+      "sha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+      "mtimeMs": 1792758770379.9746
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-canada-monochrome.source.json",
+      "bytes": 2630,
+      "sha256": "f76117f3a76c3f3590703c8bba826b15694fb6eae970fae2adae50631c7a0bf6",
+      "mtimeMs": 1792758770380.9775
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-canada-national.pdf",
+      "bytes": 1078628,
+      "sha256": "954101b51bce0f3313394e960e4bb1b4570d03c4b03b2f2b08166073afea731a",
+      "mtimeMs": 1792741414621.2
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-canada-national.source.json",
+      "bytes": 2433,
+      "sha256": "8c1d9aee0a6207ea9248bb39189b475139faf0fc9fcce39db5f5c526bb1c8d68",
+      "mtimeMs": 1792741414697.2283
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/corpus/macro-political/sources/nrcan-reference-maps.html",
+      "bytes": 111192,
+      "sha256": "19ad79db9fdb6b9f1070ab363581928322e010cc8fe1885f99dbebab6b1f6ccb",
+      "mtimeMs": 1792741414697.2283
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/models/macro-v5/cia-oceania-political-source-review.png",
+      "bytes": 246021,
+      "sha256": "380b473e003d496e06950360be8fecbc950dac0b8db93e53a9f8e79a27ced87d",
+      "mtimeMs": 1792850129781.564
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/models/macro-v5/gsi-japan-national-japanese-qgis-overlay.png",
+      "bytes": 1046980,
+      "sha256": "4bd93fc31270be017fca999d220567570ab3adae4841443511330c626487baf4",
+      "mtimeMs": 1792850851350.51
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/models/macro-v5/gsi-japan-national-japanese-source-review.png",
+      "bytes": 494376,
+      "sha256": "3a3175800f3879a3bd64da72e5cd30b848d24f13d48bbc12e64d03e1a7b2a161",
+      "mtimeMs": 1792850128943.1123
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/models/macro-v5/nrcan-africa-national-reference-qgis-overlay.png",
+      "bytes": 710277,
+      "sha256": "e9fa0405953b8ae7794caa56a88d76f4468d11b5bdcc453d75a81dfa3d7eba35",
+      "mtimeMs": 1792850852770.952
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/models/macro-v5/nrcan-Africa-source-review.png",
+      "bytes": 535272,
+      "sha256": "e4f2ca7943e9345d545a36eedbb08d8bb336c8cef4e76ca96fd2a7343c8c733e",
+      "mtimeMs": 1792850129620.617
+    },
+    {
+      "relative": ".edits/ui/reference-analysis/models/macro-v5/qgis-raster-review.json",
+      "bytes": 930,
+      "sha256": "89dcaf80e111918a855dad3d6cc15d43c18af69a354f0cc4d3695de2c3a60835",
+      "mtimeMs": 1792850869457.5276
+    },
+    {
+      "relative": ".variants/021e290a4d22148dd96e9d88072c910c5b9d537abbed430efea2e5a6980f8cdf",
+      "bytes": 659181,
+      "sha256": "021e290a4d22148dd96e9d88072c910c5b9d537abbed430efea2e5a6980f8cdf"
+    },
+    {
+      "relative": ".variants/0341587278ff2550a419b1643cf4cda2fa51b70172c03dd7fd836c38ae936bfc",
+      "bytes": 8498,
+      "sha256": "0341587278ff2550a419b1643cf4cda2fa51b70172c03dd7fd836c38ae936bfc"
+    },
+    {
+      "relative": ".variants/095eb46c48e74e90db1aea784cd129a0466461e6f6ff26994c6ee3e65494f2c2",
+      "bytes": 1824700,
+      "sha256": "095eb46c48e74e90db1aea784cd129a0466461e6f6ff26994c6ee3e65494f2c2"
+    },
+    {
+      "relative": ".variants/0c3957960e6a19491aa858b67d2be3534ebdd23c33ebcacb094c80d099b0b1a5",
+      "bytes": 5407,
+      "sha256": "0c3957960e6a19491aa858b67d2be3534ebdd23c33ebcacb094c80d099b0b1a5"
+    },
+    {
+      "relative": ".variants/0f4ff414ece12ef3db2cc08fd0727fef548aab08435fdb47adc2e8591d0a8488",
+      "bytes": 35005,
+      "sha256": "0f4ff414ece12ef3db2cc08fd0727fef548aab08435fdb47adc2e8591d0a8488"
+    },
+    {
+      "relative": ".variants/1209e8b5d9fea08c385cc1c2cedd1e5f41666c92db5ce883f542e3ca621fc998",
+      "bytes": 2111,
+      "sha256": "1209e8b5d9fea08c385cc1c2cedd1e5f41666c92db5ce883f542e3ca621fc998"
+    },
+    {
+      "relative": ".variants/125c3ff275f9612efd2fa65de2da8d4be379b99edcd417d2844a2698534c5be5",
+      "bytes": 554,
+      "sha256": "125c3ff275f9612efd2fa65de2da8d4be379b99edcd417d2844a2698534c5be5"
+    },
+    {
+      "relative": ".variants/133269e1f7190d4ad55bee7a4bf4518b73ffdc003a75b16a00277e9120237ed6",
+      "bytes": 1283,
+      "sha256": "133269e1f7190d4ad55bee7a4bf4518b73ffdc003a75b16a00277e9120237ed6"
+    },
+    {
+      "relative": ".variants/17e8cd7d83d9e682c2ed568bbe4b07780634e53d86f8eb69e7f397812e6c8e1c",
+      "bytes": 2479,
+      "sha256": "17e8cd7d83d9e682c2ed568bbe4b07780634e53d86f8eb69e7f397812e6c8e1c"
+    },
+    {
+      "relative": ".variants/190b25f50bec348277a7a12d25e0f407e8de2501f6856b43b1e991ecf5a4622c",
+      "bytes": 4305,
+      "sha256": "190b25f50bec348277a7a12d25e0f407e8de2501f6856b43b1e991ecf5a4622c"
+    },
+    {
+      "relative": ".variants/1db18273d9d8f9a3e91922a151edfe52b06a8ff4fac771a50b9fc5952b55a079",
+      "bytes": 78,
+      "sha256": "1db18273d9d8f9a3e91922a151edfe52b06a8ff4fac771a50b9fc5952b55a079"
+    },
+    {
+      "relative": ".variants/215d532a1aad0f78ef0746925076cc1a2f300fb676c69925263be7a562fa87ce",
+      "bytes": 146,
+      "sha256": "215d532a1aad0f78ef0746925076cc1a2f300fb676c69925263be7a562fa87ce"
+    },
+    {
+      "relative": ".variants/2260a75b6017635b5dae3d8389baeb0e947eb1f215bcfdcf1626094cdcf07d40",
+      "bytes": 910,
+      "sha256": "2260a75b6017635b5dae3d8389baeb0e947eb1f215bcfdcf1626094cdcf07d40"
+    },
+    {
+      "relative": ".variants/27a7331d2512b9993c4e2caef96cc8a874506fbce44495b8d30c4723470a9deb",
+      "bytes": 1824656,
+      "sha256": "27a7331d2512b9993c4e2caef96cc8a874506fbce44495b8d30c4723470a9deb"
+    },
+    {
+      "relative": ".variants/27e73093f166c1d61001abe0212e21cc5330f1ee7c94869801f0a882f050be35",
+      "bytes": 160680,
+      "sha256": "27e73093f166c1d61001abe0212e21cc5330f1ee7c94869801f0a882f050be35"
+    },
+    {
+      "relative": ".variants/29222d1fc97d75c19b1741390d5ceaa35b5c3a2678d304823a957fce9d1a5b8d",
+      "bytes": 74,
+      "sha256": "29222d1fc97d75c19b1741390d5ceaa35b5c3a2678d304823a957fce9d1a5b8d"
+    },
+    {
+      "relative": ".variants/2b3fcd640ebffd6f0e04e70b897f279fd704aba6c91e209a6b26dc110a432c42",
+      "bytes": 96,
+      "sha256": "2b3fcd640ebffd6f0e04e70b897f279fd704aba6c91e209a6b26dc110a432c42"
+    },
+    {
+      "relative": ".variants/37ec4eb0f55656d0876f4a9a4529e6881f05e0d6d87c8ca90078cbfe4b6d50d1",
+      "bytes": 109799,
+      "sha256": "37ec4eb0f55656d0876f4a9a4529e6881f05e0d6d87c8ca90078cbfe4b6d50d1"
+    },
+    {
+      "relative": ".variants/39e4c14dfe4c3be3a7b7aaf7a3f5e4b589c0aafcf42d99cfb3e4cf64da04394a",
+      "bytes": 557,
+      "sha256": "39e4c14dfe4c3be3a7b7aaf7a3f5e4b589c0aafcf42d99cfb3e4cf64da04394a"
+    },
+    {
+      "relative": ".variants/3ca30430b1c8c26bde461fc0b1481e6316eff7ccf26c2df5533a47f491b0ff89",
+      "bytes": 1249,
+      "sha256": "3ca30430b1c8c26bde461fc0b1481e6316eff7ccf26c2df5533a47f491b0ff89"
+    },
+    {
+      "relative": ".variants/41543c8a33b309aa15fe5a8cb0cacb998507e5bc9785d66d193166a0b7850517",
+      "bytes": 4755,
+      "sha256": "41543c8a33b309aa15fe5a8cb0cacb998507e5bc9785d66d193166a0b7850517"
+    },
+    {
+      "relative": ".variants/41ba218044f67ba409684658d40f0d17a9a674fc8694b0fa966567cf3772c389",
+      "bytes": 38211,
+      "sha256": "41ba218044f67ba409684658d40f0d17a9a674fc8694b0fa966567cf3772c389"
+    },
+    {
+      "relative": ".variants/506002b92a273b528e2248bb469fcf0f28cc9a4a351942436eda4fe7724ceafb",
+      "bytes": 160680,
+      "sha256": "506002b92a273b528e2248bb469fcf0f28cc9a4a351942436eda4fe7724ceafb"
+    },
+    {
+      "relative": ".variants/540758ead1db4517bba54b7b3b51df98810a38fea0acef4f5ed2bf69999b0f8a",
+      "bytes": 562,
+      "sha256": "540758ead1db4517bba54b7b3b51df98810a38fea0acef4f5ed2bf69999b0f8a"
+    },
+    {
+      "relative": ".variants/5412615105d04a78a4af347b4e05c41eb265f107dd19a5f97c97d6d624754397",
+      "bytes": 237988,
+      "sha256": "5412615105d04a78a4af347b4e05c41eb265f107dd19a5f97c97d6d624754397"
+    },
+    {
+      "relative": ".variants/575f349beb829b467c2aef8384097f4d6bcd563144d8bf1c079734a367dad78a",
+      "bytes": 4078,
+      "sha256": "575f349beb829b467c2aef8384097f4d6bcd563144d8bf1c079734a367dad78a"
+    },
+    {
+      "relative": ".variants/5b005a0f62a5bfbcac687371a2f6f46b6489289ed6f62c2de0c103f049230c98",
+      "bytes": 13171,
+      "sha256": "5b005a0f62a5bfbcac687371a2f6f46b6489289ed6f62c2de0c103f049230c98"
+    },
+    {
+      "relative": ".variants/5d7c40bd75710a199790a61bd16dbaf9b375c7ee37a20a6b5e4a58bda1169f25",
+      "bytes": 4533,
+      "sha256": "5d7c40bd75710a199790a61bd16dbaf9b375c7ee37a20a6b5e4a58bda1169f25"
+    },
+    {
+      "relative": ".variants/5ebc44b694e441f7742c6bbfd18ff2cff091a9c56691351779aae042a654f0ba",
+      "bytes": 530707,
+      "sha256": "5ebc44b694e441f7742c6bbfd18ff2cff091a9c56691351779aae042a654f0ba"
+    },
+    {
+      "relative": ".variants/5efc9efffd6d2e18cdbe8af1f70ab96937feff2ce1ba8c75ce3e83be36b18516",
+      "bytes": 706,
+      "sha256": "5efc9efffd6d2e18cdbe8af1f70ab96937feff2ce1ba8c75ce3e83be36b18516"
+    },
+    {
+      "relative": ".variants/5f02d0eea4981e3e86f9db4ad455ff02c212c6edea21c068618b340172c7712d",
+      "bytes": 924,
+      "sha256": "5f02d0eea4981e3e86f9db4ad455ff02c212c6edea21c068618b340172c7712d"
+    },
+    {
+      "relative": ".variants/5fb1419838f4e95d656cd9d8ec1cbb800f2f51d7db0f79bcb41dbba966ea3834",
+      "bytes": 163902,
+      "sha256": "5fb1419838f4e95d656cd9d8ec1cbb800f2f51d7db0f79bcb41dbba966ea3834"
+    },
+    {
+      "relative": ".variants/5fdecc59e5ba00f7782906df54f3485efe24568f264d9e18c83158d8cfdf59c3",
+      "bytes": 3109,
+      "sha256": "5fdecc59e5ba00f7782906df54f3485efe24568f264d9e18c83158d8cfdf59c3"
+    },
+    {
+      "relative": ".variants/634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a",
+      "bytes": 35315,
+      "sha256": "634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+    },
+    {
+      "relative": ".variants/6854e73fc48013dc4cbff19eee5046b318d699a2449ee5792884cda02e505a88",
+      "bytes": 1556,
+      "sha256": "6854e73fc48013dc4cbff19eee5046b318d699a2449ee5792884cda02e505a88"
+    },
+    {
+      "relative": ".variants/6adfcd773b20f624dd4271336c6c9ee9bb3f419c5a1dddff9cbe93fb873bdec3",
+      "bytes": 1640,
+      "sha256": "6adfcd773b20f624dd4271336c6c9ee9bb3f419c5a1dddff9cbe93fb873bdec3"
+    },
+    {
+      "relative": ".variants/6cf657a8298d5f56f877e91bb883e36c63dc973cb3a6fe91018ee05e8986bdc4",
+      "bytes": 122,
+      "sha256": "6cf657a8298d5f56f877e91bb883e36c63dc973cb3a6fe91018ee05e8986bdc4"
+    },
+    {
+      "relative": ".variants/6d350b451f9ce36ed903b2b7dcf18a51bb9ca6db04f8a622089f79a4b1c862da",
+      "bytes": 35747,
+      "sha256": "6d350b451f9ce36ed903b2b7dcf18a51bb9ca6db04f8a622089f79a4b1c862da"
+    },
+    {
+      "relative": ".variants/76e3f023bcb5fe3ce77e0928b168d1a83a66142f8c25bd31e668971db9c28d0e",
+      "bytes": 495042,
+      "sha256": "76e3f023bcb5fe3ce77e0928b168d1a83a66142f8c25bd31e668971db9c28d0e"
+    },
+    {
+      "relative": ".variants/7afeb21d6acc85188b5c5dfaddf455d7dd6c7bd0538855c926d88b99206658bf",
+      "bytes": 915,
+      "sha256": "7afeb21d6acc85188b5c5dfaddf455d7dd6c7bd0538855c926d88b99206658bf"
+    },
+    {
+      "relative": ".variants/7cc515b0f73e4075efb71782270c76ec7ac3848cb98ed0429e2177064ac9f7c7",
+      "bytes": 8145,
+      "sha256": "7cc515b0f73e4075efb71782270c76ec7ac3848cb98ed0429e2177064ac9f7c7"
+    },
+    {
+      "relative": ".variants/81ebaf440a5e01eae12a016f2539ad497e5c88ae8f1e1fd26bdb127db706e0ac",
+      "bytes": 86195,
+      "sha256": "81ebaf440a5e01eae12a016f2539ad497e5c88ae8f1e1fd26bdb127db706e0ac"
+    },
+    {
+      "relative": ".variants/85a58f478685aeacca19fe75cb5c532310edb7ec3777ecb9cbabfc2a9d122e15",
+      "bytes": 2880,
+      "sha256": "85a58f478685aeacca19fe75cb5c532310edb7ec3777ecb9cbabfc2a9d122e15"
+    },
+    {
+      "relative": ".variants/872d6d042eecf23678041bc62ead972c041243c38ff5d0d348e18d157c59ee9b",
+      "bytes": 11518,
+      "sha256": "872d6d042eecf23678041bc62ead972c041243c38ff5d0d348e18d157c59ee9b"
+    },
+    {
+      "relative": ".variants/87a10e2fc2c0b23ee5ac7dffaafb58a4d08e15b63ac17acfc828df190fe82130",
+      "bytes": 1557,
+      "sha256": "87a10e2fc2c0b23ee5ac7dffaafb58a4d08e15b63ac17acfc828df190fe82130"
+    },
+    {
+      "relative": ".variants/8e43821a8c4a5c2a2c7c402de680e2ba23eac95425a22bd72226c7dd6b5a9842",
+      "bytes": 1895,
+      "sha256": "8e43821a8c4a5c2a2c7c402de680e2ba23eac95425a22bd72226c7dd6b5a9842"
+    },
+    {
+      "relative": ".variants/91bcacff291066a4cc56198e9f32a386048779d0af83aab2f1e649a63b29ac4e",
+      "bytes": 103860,
+      "sha256": "91bcacff291066a4cc56198e9f32a386048779d0af83aab2f1e649a63b29ac4e"
+    },
+    {
+      "relative": ".variants/9329ae4f0ea34dd04eae6db6728e414979b777a079fc9f33e84f08f00d7c0beb",
+      "bytes": 814,
+      "sha256": "9329ae4f0ea34dd04eae6db6728e414979b777a079fc9f33e84f08f00d7c0beb"
+    },
+    {
+      "relative": ".variants/94872818a279f87a9f2ffd4403b903ffd6003c5eceeb1f5f3cc45f6ecde5d750",
+      "bytes": 59269,
+      "sha256": "94872818a279f87a9f2ffd4403b903ffd6003c5eceeb1f5f3cc45f6ecde5d750"
+    },
+    {
+      "relative": ".variants/96a4a180a7e7cf3c6f1c9b206b8e729307d69952e6dee73dd218e80a17181d65",
+      "bytes": 186365,
+      "sha256": "96a4a180a7e7cf3c6f1c9b206b8e729307d69952e6dee73dd218e80a17181d65"
+    },
+    {
+      "relative": ".variants/98aac6546f8329fbc8ce74b94d5caf30ae24f8e3cbfbf36b2c6ca876e52a4722",
+      "bytes": 199758,
+      "sha256": "98aac6546f8329fbc8ce74b94d5caf30ae24f8e3cbfbf36b2c6ca876e52a4722"
+    },
+    {
+      "relative": ".variants/998f59f1442f2693f09d8e03cdd9b3cfc8b797f3eb8ae54ce18ad0fce7a072e1",
+      "bytes": 1083,
+      "sha256": "998f59f1442f2693f09d8e03cdd9b3cfc8b797f3eb8ae54ce18ad0fce7a072e1"
+    },
+    {
+      "relative": ".variants/9b5c02366bc3e8664145bc95690ea0f672d87588565539b92cb0d9b49c5396f8",
+      "bytes": 61685,
+      "sha256": "9b5c02366bc3e8664145bc95690ea0f672d87588565539b92cb0d9b49c5396f8"
+    },
+    {
+      "relative": ".variants/9caab88d6a2835e25de6659e93aa52eaf3cc873659bece2e7fbd37c096145fe6",
+      "bytes": 2647,
+      "sha256": "9caab88d6a2835e25de6659e93aa52eaf3cc873659bece2e7fbd37c096145fe6"
+    },
+    {
+      "relative": ".variants/9dae9fe4291548eb3e9190b71f6674c041de34a20e18c620935308f63ea9d48d",
+      "bytes": 34542,
+      "sha256": "9dae9fe4291548eb3e9190b71f6674c041de34a20e18c620935308f63ea9d48d"
+    },
+    {
+      "relative": ".variants/9f0e291412b7c03baf9b2f5f4ed4ac69bbdff37a89b43dc5fc78ad174402b462",
+      "bytes": 687,
+      "sha256": "9f0e291412b7c03baf9b2f5f4ed4ac69bbdff37a89b43dc5fc78ad174402b462"
+    },
+    {
+      "relative": ".variants/a00fcba5eda6b9c00a5af0cbcba5ea92e613c447073a9109a66742319ee472b3",
+      "bytes": 495042,
+      "sha256": "a00fcba5eda6b9c00a5af0cbcba5ea92e613c447073a9109a66742319ee472b3"
+    },
+    {
+      "relative": ".variants/a18a40a77b4ca10b5b6f9a360cd624077353b7757d0ebdfa95d437670d3da52b",
+      "bytes": 915,
+      "sha256": "a18a40a77b4ca10b5b6f9a360cd624077353b7757d0ebdfa95d437670d3da52b"
+    },
+    {
+      "relative": ".variants/a334e9a3dee757608accb7439ae845816a476a365d356f494543c9a3abca7878",
+      "bytes": 1031216,
+      "sha256": "a334e9a3dee757608accb7439ae845816a476a365d356f494543c9a3abca7878"
+    },
+    {
+      "relative": ".variants/a6e5bb6456051eace0c87be29808121cc22dffe1716e43c6515e4eebe4f6f3eb",
+      "bytes": 1082,
+      "sha256": "a6e5bb6456051eace0c87be29808121cc22dffe1716e43c6515e4eebe4f6f3eb"
+    },
+    {
+      "relative": ".variants/ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8",
+      "bytes": 33111,
+      "sha256": "ab91b59e1667542d4aaf830e8e8c7d6f4627644410af464ff518edfb2f5b07c8"
+    },
+    {
+      "relative": ".variants/ad233ffb2cff4c650b263c655fb1d773ffcf992cbfdb6b71d0be4442f8a3c48b",
+      "bytes": 495043,
+      "sha256": "ad233ffb2cff4c650b263c655fb1d773ffcf992cbfdb6b71d0be4442f8a3c48b"
+    },
+    {
+      "relative": ".variants/ade7afb768408398c2e0891237291d5b9b4283751bf57bdc71f96c12348e2591",
+      "bytes": 1039,
+      "sha256": "ade7afb768408398c2e0891237291d5b9b4283751bf57bdc71f96c12348e2591"
+    },
+    {
+      "relative": ".variants/adff4fc0b5fa0c011b518ec56711de3d7c763d06adf0d1686b30b1ea780e91d4",
+      "bytes": 2392,
+      "sha256": "adff4fc0b5fa0c011b518ec56711de3d7c763d06adf0d1686b30b1ea780e91d4"
+    },
+    {
+      "relative": ".variants/b3c284ad20ddde2e011dbd0ed42141eb8d0d8e91a00cef7f9be40e6443a3fb32",
+      "bytes": 1096,
+      "sha256": "b3c284ad20ddde2e011dbd0ed42141eb8d0d8e91a00cef7f9be40e6443a3fb32"
+    },
+    {
+      "relative": ".variants/b3c6ef05a91deca0c8e0b758b8ed9be7b5965ca9e2b37773cfe60ceb3a45f7cc",
+      "bytes": 106,
+      "sha256": "b3c6ef05a91deca0c8e0b758b8ed9be7b5965ca9e2b37773cfe60ceb3a45f7cc"
+    },
+    {
+      "relative": ".variants/b42265b174846c8e38176319bda3adf0a6dba54292507d1211c951303b8cd31f",
+      "bytes": 978,
+      "sha256": "b42265b174846c8e38176319bda3adf0a6dba54292507d1211c951303b8cd31f"
+    },
+    {
+      "relative": ".variants/b6f695b75a4dfdef728a60a40e3cf98780fb8d5968b7719c70f2ac958da96e0a",
+      "bytes": 8853,
+      "sha256": "b6f695b75a4dfdef728a60a40e3cf98780fb8d5968b7719c70f2ac958da96e0a"
+    },
+    {
+      "relative": ".variants/b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88",
+      "bytes": 6396,
+      "sha256": "b78675a66643bd2f3e8fa6c4e8a2280b05b64ccd2de5943967fb3aae1f5ebe88"
+    },
+    {
+      "relative": ".variants/b8ae3ce92db834c3e3b84ec10ecf01148ffea8beffc2b69adeb124c0f96a3aef",
+      "bytes": 3107,
+      "sha256": "b8ae3ce92db834c3e3b84ec10ecf01148ffea8beffc2b69adeb124c0f96a3aef"
+    },
+    {
+      "relative": ".variants/bcc21ec86165d531cb535c3b26a6e54824cdbe9e430fc536e8513af5b08d7809",
+      "bytes": 3756,
+      "sha256": "bcc21ec86165d531cb535c3b26a6e54824cdbe9e430fc536e8513af5b08d7809"
+    },
+    {
+      "relative": ".variants/c2f474c7b5b9dae7851fc3da7fdfb8589957588de3bf3b82367367e5d5a39496",
+      "bytes": 495043,
+      "sha256": "c2f474c7b5b9dae7851fc3da7fdfb8589957588de3bf3b82367367e5d5a39496"
+    },
+    {
+      "relative": ".variants/c315dd9477d807250532825a3343d7d593713a97ac5ea22c17feb0098c8a4811",
+      "bytes": 4078,
+      "sha256": "c315dd9477d807250532825a3343d7d593713a97ac5ea22c17feb0098c8a4811"
+    },
+    {
+      "relative": ".variants/c6c1b824438a062bcb2b8d1028260fde215a8bef30c6b171758498f08da3dbd8",
+      "bytes": 707,
+      "sha256": "c6c1b824438a062bcb2b8d1028260fde215a8bef30c6b171758498f08da3dbd8"
+    },
+    {
+      "relative": ".variants/cc975404572a3037b93e321fa3e4a93276f10cb693013f86780c3c2ba88f9cf5",
+      "bytes": 7464,
+      "sha256": "cc975404572a3037b93e321fa3e4a93276f10cb693013f86780c3c2ba88f9cf5"
+    },
+    {
+      "relative": ".variants/cdcd5e2509974bb76bac3eac448cbf23e8c2cebcf03795eac733fac4902dae8b",
+      "bytes": 29128,
+      "sha256": "cdcd5e2509974bb76bac3eac448cbf23e8c2cebcf03795eac733fac4902dae8b"
+    },
+    {
+      "relative": ".variants/ced082413691571e9b49c78bb12ca3b28f478cd2e01627e7491785e33db3ebcc",
+      "bytes": 120,
+      "sha256": "ced082413691571e9b49c78bb12ca3b28f478cd2e01627e7491785e33db3ebcc"
+    },
+    {
+      "relative": ".variants/cf337855457b4c66c6c8e5be35d2758e8d2c43050e867ebb1d11555e75b57469",
+      "bytes": 741,
+      "sha256": "cf337855457b4c66c6c8e5be35d2758e8d2c43050e867ebb1d11555e75b57469"
+    },
+    {
+      "relative": ".variants/d20cea03f811c74a8fc9a87fdc1ffde3385c414385822ac74696a7fc2d3614bb",
+      "bytes": 2587,
+      "sha256": "d20cea03f811c74a8fc9a87fdc1ffde3385c414385822ac74696a7fc2d3614bb"
+    },
+    {
+      "relative": ".variants/dd6a47dbf6551fea8c3519574a5b3f291f7bdd6cd978edce7a92c2017b6d51d5",
+      "bytes": 1821253,
+      "sha256": "dd6a47dbf6551fea8c3519574a5b3f291f7bdd6cd978edce7a92c2017b6d51d5"
+    },
+    {
+      "relative": ".variants/dd80ae8964e4ba12b3ef6c8dd767241ab35af742ee5aca67be67e33a42098766",
+      "bytes": 173602,
+      "sha256": "dd80ae8964e4ba12b3ef6c8dd767241ab35af742ee5aca67be67e33a42098766"
+    },
+    {
+      "relative": ".variants/dda7205988ea744ca130e1b365890bfe30bf3261123b5c64014e0e2f27b2729c",
+      "bytes": 2539,
+      "sha256": "dda7205988ea744ca130e1b365890bfe30bf3261123b5c64014e0e2f27b2729c"
+    },
+    {
+      "relative": ".variants/dee7bcd2aa731dd64ca757e43a56faa535d6f6ca17a0c5d4f1277f6156db31bb",
+      "bytes": 2196,
+      "sha256": "dee7bcd2aa731dd64ca757e43a56faa535d6f6ca17a0c5d4f1277f6156db31bb"
+    },
+    {
+      "relative": ".variants/e144e7aa7370fcef451458e093d6a66f939378612f3d6de067257bca43588450",
+      "bytes": 4259,
+      "sha256": "e144e7aa7370fcef451458e093d6a66f939378612f3d6de067257bca43588450"
+    },
+    {
+      "relative": ".variants/e419bab3b1863560dddf2a946bae2754ae753eaee05d0a6dbb1a78ea0df06ace",
+      "bytes": 26975,
+      "sha256": "e419bab3b1863560dddf2a946bae2754ae753eaee05d0a6dbb1a78ea0df06ace"
+    },
+    {
+      "relative": ".variants/eaa906e1cd72c96362382c2ba0d6dee2d1010008856cd55f78b8877471bdc9ff",
+      "bytes": 613,
+      "sha256": "eaa906e1cd72c96362382c2ba0d6dee2d1010008856cd55f78b8877471bdc9ff"
+    },
+    {
+      "relative": ".variants/eacd2e5e92dfac7c23d4a26ed74cb94f3aded3b863e07adccaf6b838fbf44d7c",
+      "bytes": 1133,
+      "sha256": "eacd2e5e92dfac7c23d4a26ed74cb94f3aded3b863e07adccaf6b838fbf44d7c"
+    },
+    {
+      "relative": ".variants/fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6",
+      "bytes": 2775,
+      "sha256": "fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6"
+    },
+    {
+      "relative": ".variants/fd4023bfdd34ffa054ba7bbd500ec2ed3ca9d2dcab1bd4f395dc6aa5ba45c4b8",
+      "bytes": 3678,
+      "sha256": "fd4023bfdd34ffa054ba7bbd500ec2ed3ca9d2dcab1bd4f395dc6aa5ba45c4b8"
+    }
+  ],
+  "mergeResolution": {
+    "local": "547ce5e6d57c4c47093bc470fedf9ec9e71c4b56",
+    "remote": "7a17255264b04d6fdc8234fdb8804c9808fa2b16",
+    "base": "220465af5ac619db74f575139dfc7910989606eb",
+    "resolved": [
+      "reports/development/testing/exact-calculation-2026-10-23/progress.md",
+      "reports/development/testing/exact-calculation-2026-10-23/storage-progress.md",
+      "reports/geography/country-lifetime-rotation-progress.md",
+      "reports/geography/historical-timeline-yearly-progress.md"
+    ],
+    "reportFiles": 3655,
+    "reusedHashes": 3613,
+    "hashed": 42,
+    "previouslyUnindexed": [
+      "reports/geography/country-lifetime-africa-cmr-mli-tza-2026-10-24.md",
+      "reports/geography/country-lifetime-asia-south-southeast-2026-10-23.md",
+      "reports/geography/country-lifetime-europe-baltic-2026-10-22.md",
+      "reports/geography/country-lifetime-oceania-micronesia-tonga-2026-10-21.md",
+      "reports/geography/historical-boundary-rollback-2026-10-23/AUDIT.md",
+      "reports/geography/historical-boundary-rollback-2026-10-23/archived-source-drift-proof.json",
+      "reports/geography/historical-boundary-rollback-2026-10-23/audit.json",
+      "reports/geography/historical-boundary-rollback-2026-10-23/modern-unchanged-proof.json",
+      "reports/geography/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md",
+      "reports/geography/ne-selected-20261023/README.md",
+      "reports/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/README.md",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch01-ten-named-point-screen.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch01-ten-research-2026-10-24.md",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch02-nga-government-names.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch02-ten-named-point-screen.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch02-ten-research-2026-10-24.md",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch03-last11-named-point-screen.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/batch03-last11-research-2026-10-24.md",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/emba-ural-identity-review.md",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/independent-river-point-crosscheck.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/inventory.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/ne-crosscheck.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/previous-26-reviewed-names.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/published-42-proof.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/remaining-31-priority.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/remaining-33-priority.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/remaining-40-priority.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/runtime-publish-request.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/staged-22-proof.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/staged-33-proof.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/staged-40-proof.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/staged-42-proof.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/usgs-gauges-crosscheck.json",
+      "reports/geography/osm-hydro-name-replacement-2026-10-24/yarra-government-vector-crosscheck.json"
+    ],
+    "nonReportEntries": 2653
+  }
+}

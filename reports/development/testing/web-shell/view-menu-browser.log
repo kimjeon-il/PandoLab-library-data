@@ -1,0 +1,23 @@
+[WebServer] (node:16392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:20672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\distribution.spec.mjs:65:1 › distribution controls stay inside the single view submenu on desktop and mobile (29.2s)
+  ok 2 tests\browser\distribution.spec.mjs:151:1 › single display follows distribution selection without another view menu change (7.4s)
+  ok 3 tests\browser\distribution.spec.mjs:212:1 › a numeric distribution stores signed values and survives undo and redo (5.9s)
+  ok 4 tests\browser\distribution.spec.mjs:270:1 › overlap and single display preserve independent values and free geometry on reload (12.7s)
+(node:20672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 5 tests\browser\viewer-project-open.spec.mjs:14:1 › viewer menus follow project replacement while builtin sources stay available (26.7s)
+  ok 6 tests\browser\viewer-project-open.spec.mjs:51:1 › viewer opens the real editor GeoPackage and keeps it through invalid files, picker cancellation and a stale read (26.0s)
+
+  6 passed (1.9m)

@@ -1,0 +1,33 @@
+[WebServer] (node:13360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:23364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\browser\distribution.spec.mjs:65:1 › distribution controls stay inside the single view submenu on desktop and mobile (27.0s)
+  ok  2 tests\browser\distribution.spec.mjs:151:1 › single display follows distribution selection without another view menu change (8.1s)
+  ok  3 tests\browser\distribution.spec.mjs:212:1 › a numeric distribution stores signed values and survives undo and redo (5.6s)
+  ok  4 tests\browser\distribution.spec.mjs:270:1 › overlap and single display preserve independent values and free geometry on reload (13.9s)
+  ok  5 tests\browser\editor-status-timeline.spec.mjs:6:1 › editor status bar omits date navigation while editing context remains usable (23.0s)
+(node:23364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  6 tests\browser\viewer-project-open.spec.mjs:14:1 › viewer menus follow project replacement while builtin sources stay available (15.3s)
+  ok  7 tests\browser\viewer-project-open.spec.mjs:51:1 › viewer opens the real editor GeoPackage and keeps it through invalid files, picker cancellation and a stale read (11.8s)
+(node:25400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  8 tests\browser\general-view-menu.spec.mjs:14:1 › one object menu retains common settings across keyboard navigation and mobile layout (18.8s)
+  ok  9 tests\browser\general-view-menu.spec.mjs:77:1 › web viewer keeps the same view controls in its desktop menu and mobile sheet (20.4s)
+  ok 10 tests\browser\timeline-controls.spec.mjs:36:1 › builtin date changes retain the camera across controls and automatic month rollover (2.3m)
+  ok 11 tests\browser\timeline-controls.spec.mjs:64:1 › failed and superseded builtin month reads keep the camera and last accepted month (26.2s)
+(node:25400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 12 tests\browser\timeline-controls.spec.mjs:83:1 › floating date controls preserve navigation and document state across desktop and narrow mobile (32.0s)
+
+  12 passed (5.9m)

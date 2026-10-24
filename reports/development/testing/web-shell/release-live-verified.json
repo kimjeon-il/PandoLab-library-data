@@ -1,0 +1,69 @@
+{
+  "commit": "287eeeadee3d50a3b992607db71ee264126f6684",
+  "checkedAt": "2026-10-24T13:47:19.811Z",
+  "buildId": "0.36.0-build-release-151b5eec",
+  "dataRevision": "data-9dd69366163f7b030c6e32399ce95da3",
+  "ok": true,
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://kimjeon-il.github.io/Pando/?v=0.36.0-build-release-151b5eec",
+      "status": 200,
+      "bytes": 61418,
+      "sha256": "89696256770556343ac8fd12551a0f495c4f19235634559ed12b829282721b21",
+      "expectedSha256": "89696256770556343ac8fd12551a0f495c4f19235634559ed12b829282721b21",
+      "ok": true,
+      "etag": "W/\"6adcb6a4-efea\""
+    },
+    {
+      "path": "assets/js/build-meta.js",
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/build-meta.js?v=0.36.0-build-release-151b5eec",
+      "status": 200,
+      "bytes": 62328,
+      "sha256": "2e5b0135636fc60e92d304eea4d5055a9eed18ff4053362c531c018b5fab9492",
+      "expectedSha256": "2e5b0135636fc60e92d304eea4d5055a9eed18ff4053362c531c018b5fab9492",
+      "ok": true,
+      "etag": "W/\"6adcb6a3-f378\""
+    },
+    {
+      "path": "assets/js/modules/app-map-settings.js",
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/app-map-settings.js?v=0.36.0-build-release-151b5eec",
+      "status": 200,
+      "bytes": 42413,
+      "sha256": "de1bf079dd31146633b0cd937d1fffbf7b7126e15ea34febeb91621d82380f69",
+      "expectedSha256": "de1bf079dd31146633b0cd937d1fffbf7b7126e15ea34febeb91621d82380f69",
+      "ok": true,
+      "etag": "W/\"6adcb6a3-a5ad\""
+    },
+    {
+      "path": "assets/js/modules/viewer-composition.js",
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-release-151b5eec",
+      "status": 200,
+      "bytes": 15463,
+      "sha256": "fdd2507e46f8797202c83abe28b511619b6b2bed9c1417560681b30e33259ec4",
+      "expectedSha256": "fdd2507e46f8797202c83abe28b511619b6b2bed9c1417560681b30e33259ec4",
+      "ok": true,
+      "etag": "W/\"6adcb6a3-3c67\""
+    },
+    {
+      "path": "assets/worker-runtime/ba131f56846837b2ff6ba4f565d2dcbe/assets/js/workers/data-loader-worker.js",
+      "url": "https://kimjeon-il.github.io/Pando/assets/worker-runtime/ba131f56846837b2ff6ba4f565d2dcbe/assets/js/workers/data-loader-worker.js?v=0.36.0-build-release-151b5eec",
+      "status": 200,
+      "bytes": 16867,
+      "sha256": "de512868bb28095a507707c6429fdf64b58de106bffa2a995069f2a3c222558e",
+      "expectedSha256": "de512868bb28095a507707c6429fdf64b58de106bffa2a995069f2a3c222558e",
+      "ok": true,
+      "etag": "W/\"6adcb6a4-41e3\""
+    },
+    {
+      "path": "assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js",
+      "url": "https://kimjeon-il.github.io/Pando/assets/worker-runtime/dd9ff61e3eb3ec643191b904e6c2c6c3/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-release-151b5eec",
+      "status": 200,
+      "bytes": 6956,
+      "sha256": "ba27eef13f0fbd285dcf1b1a20c53478a2296d240696caea97c804decf3830a3",
+      "expectedSha256": "ba27eef13f0fbd285dcf1b1a20c53478a2296d240696caea97c804decf3830a3",
+      "ok": true,
+      "etag": "W/\"6adcb6a4-1b2c\""
+    }
+  ]
+}

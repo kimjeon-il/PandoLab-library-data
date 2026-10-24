@@ -222,3 +222,7 @@
 - [지명 원문 색인](development/testing/branch-originals/places/README.md)
 
 동일 경로의 서로 다른 브랜치 보고서는 위 원문별 경로로 함께 보존합니다. 기존 main 원문은 그대로 둡니다.
+
+## 2026-10-24 보고서 원문 보관
+
+- [미보관 보고서·판본 보관 및 main 병합](development/testing/library-report-publication-2026-10-24/README.md): 원문 SHA-256·출처·편집본 스냅샷. 진행 중인 내용의 제품 반영 승인을 뜻하지 않는다.

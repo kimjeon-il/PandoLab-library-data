@@ -1,0 +1,14 @@
+{
+  "final_artifact": "/workspace/scratch/8d8a7b18c593/recovery/ussr-1922/geometry-v2/assembly/ussr-four-founders.display-10m-provisional.geojson",
+  "final_sha256": "09016e357ef96f2e1d8f6d130ff8ae8ccd8cc9ebb8bca6befced785905d173c2",
+  "trial250_sha256": "20393c2f37ff00f811f952c3f5f2c7e795bac0017a7e46a683ce18614ee0ff75",
+  "five_geometry_objects_exactly_equal": true,
+  "original_master_sha256": "f9695322104f54439cba67730973578358e0826702eb7376739bc6fc15d33c85",
+  "qa": "Read-only independent OGR/core checks and29 ownership probes passed. Six overlaps exactly0. Parentunion residual1.1102230246251565e-16degreeSquared:3collinear attachment triangles, no positional-accuracy interpretation. Full island/exclusion masks checked on master; protected Belarus/TSFSR unchanged in250trial. Display visual selection performed by root/builder/renderer, not independently repeated by this reviewer.",
+  "limits": [
+    "Not historical survey certification",
+    "Not every individual island title independently verified",
+    "Provisional disputed claims and approximate registrations remain",
+    "No app integration/deployment performed by reviewer"
+  ]
+}

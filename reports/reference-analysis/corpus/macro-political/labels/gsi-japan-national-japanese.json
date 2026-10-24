@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "origin": "macro-vector-supervision",
+  "reviewed": false,
+  "supervisionQuality": "source-derived-weak",
+  "width": 1805,
+  "height": 2560,
+  "maximumDimension": 2560,
+  "observedChannels": [
+    "international"
+  ],
+  "sourcePdf": "sources/gsi-japan-national-japanese.pdf",
+  "sourceSha256": "3b6fe3c79a50d263435aa99d90881040a5ef9f02d545508fdfc9072b10429784",
+  "sourceMetadata": "sources/gsi-japan-national-japanese.source.json",
+  "sourceMetadataSha256": "1940c28aa31d15aab5b1669fa92c6ee58013272504b64bca17bc87bcaf6f2b56",
+  "producer": {
+    "script": "tools/reference-analysis/macro.py",
+    "sha256": "516ca4406f1a2581c9821a12073e6dcb819841a56347c44bf40d33fc15f32cd9",
+    "renderer": "PyMuPDF",
+    "rendererVersion": "1.26.6"
+  },
+  "positivePixels": {
+    "international": 368,
+    "administrative": 0,
+    "coast": 0,
+    "hydro": 0,
+    "transport": 0,
+    "text": 0,
+    "frame": 0
+  },
+  "raster": {
+    "path": "derived/gsi-japan-national-japanese.mask.png",
+    "sha256": "766451507e52cfeba91f73f1eed47a8375abbe8f8b2357e8ecf62c00fd74406e"
+  },
+  "validRaster": {
+    "path": "derived/gsi-japan-national-japanese.valid.png",
+    "sha256": "a696d4753bea967bfb959b5d16f8377aa10ab1374bbf203076d282d34ec6a380"
+  }
+}

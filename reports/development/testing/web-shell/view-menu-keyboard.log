@@ -1,0 +1,11 @@
+[WebServer] (node:1216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:21840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\general-view-menu.spec.mjs:14:1 › one object menu retains common settings across keyboard navigation and mobile layout (19.5s)
+  ok 2 tests\browser\general-view-menu.spec.mjs:77:1 › web viewer keeps the same view controls in its desktop menu and mobile sheet (20.3s)
+
+  2 passed (42.2s)

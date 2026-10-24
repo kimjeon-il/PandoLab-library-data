@@ -1,0 +1,17 @@
+{
+  "approvedHashes": {
+    "geometry-v2/assembly/ussr-four-founders.normalized-provisional.geojson": "f9695322104f54439cba67730973578358e0826702eb7376739bc6fc15d33c85",
+    "geometry-v2/assembly/ussr-four-founders.display-10m-provisional.geojson": "09016e357ef96f2e1d8f6d130ff8ae8ccd8cc9ebb8bca6befced785905d173c2",
+    "caspian-completion/assembled-completion-candidate/waterbody-boundary-network.geojson": "f6fce5c05021ae8fa080d8bf350a73aa1f4d4e1016e2a1dfffcc49809fc7361e"
+  },
+  "zipHashes": {
+    "ussr-1922-v2-reviewed-master-20261023.zip": "53d5889738d995e76c0f8da7f00fcc36fdb0baaa98f471bfdad41384061ceb8a",
+    "caspian-shoreline-completed-candidate-20261024.zip": "3df45ab6e7d3a4b1dfac42b29f28cc1c932c3b1be9f866ccd7df6bb769b9a5b4"
+  },
+  "physical": {
+    "modernWaterAreaKm2": 396307.8488560308,
+    "localLandValid": true,
+    "outsideRegionPreserved": true,
+    "modernLandSha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
+  }
+}

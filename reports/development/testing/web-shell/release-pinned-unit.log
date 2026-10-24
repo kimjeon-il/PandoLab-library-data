@@ -1,0 +1,15 @@
+✔ published metadata follows pinned manifests, preserves local edits and rejects stale asset hashes (9369.7114ms)
+✔ Worker closure is immutable, includes transitive imports, and changes identity when an internal calculation changes (898.4369ms)
+✔ classic importScripts and fixed-identity versioned dynamic imports are included in the same closure (141.4391ms)
+✔ classic bare sibling script names are included and computed unknown scripts are rejected (151.5626ms)
+✔ unknown dynamic executable dependencies fail packaging (54.619ms)
+✔ bootstrap metadata imports resolve outside the immutable tree with their revision query intact (35.984ms)
+✔ Worker URL resolution requires generated identity and preserves application base and runtime parameters (1.671ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9641.547
