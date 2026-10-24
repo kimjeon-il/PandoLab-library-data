@@ -1,0 +1,782 @@
+{
+  "checkedAt": "2026-10-24T13:39:16.335Z",
+  "invariantChecks": [
+    {
+      "root": "D:/dev/PandoLab",
+      "pinsRuntimeWasmAndNonReportIndexUnchanged": true,
+      "centralMount": true,
+      "oldWorkingRemoved": true
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "pinsRuntimeWasmAndNonReportIndexUnchanged": true,
+      "centralMount": true,
+      "oldWorkingRemoved": true
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "pinsRuntimeWasmAndNonReportIndexUnchanged": true,
+      "centralMount": true,
+      "oldWorkingRemoved": true
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "pinsRuntimeWasmAndNonReportIndexUnchanged": true,
+      "centralMount": true,
+      "oldWorkingRemoved": true
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "pinsRuntimeWasmAndNonReportIndexUnchanged": true,
+      "centralMount": true,
+      "oldWorkingRemoved": true
+    }
+  ],
+  "branchReads": [
+    {
+      "owner": "main",
+      "key": "reports/TEMPLATE.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\TEMPLATE.md",
+      "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+    },
+    {
+      "owner": "gis",
+      "key": "reports/TEMPLATE.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\TEMPLATE.md",
+      "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+    },
+    {
+      "owner": "gis",
+      "key": "reports/README.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\.variants\\634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a",
+      "sha256": "634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+    },
+    {
+      "owner": "objects",
+      "key": "reports/TEMPLATE.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\TEMPLATE.md",
+      "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+    },
+    {
+      "owner": "objects",
+      "key": "reports/README.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\.variants\\6d350b451f9ce36ed903b2b7dcf18a51bb9ca6db04f8a622089f79a4b1c862da",
+      "sha256": "6d350b451f9ce36ed903b2b7dcf18a51bb9ca6db04f8a622089f79a4b1c862da"
+    },
+    {
+      "owner": "places",
+      "key": "reports/TEMPLATE.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\TEMPLATE.md",
+      "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+    },
+    {
+      "owner": "places",
+      "key": "reports/README.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\.variants\\634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a",
+      "sha256": "634c5c1a39c35aa070d136cc6b6a745e38e98424cbfbe06ae6426a7087a9044a"
+    },
+    {
+      "owner": "ui",
+      "key": "reports/TEMPLATE.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\TEMPLATE.md",
+      "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+    },
+    {
+      "owner": "ui",
+      "key": "reports/reference-analysis/README.md",
+      "resolved": "D:\\dev\\PandoLab-library-data\\reports\\.variants\\fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6",
+      "sha256": "fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6"
+    }
+  ],
+  "http": [
+    {
+      "key": "reports/TEMPLATE.md",
+      "status": 200,
+      "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+    },
+    {
+      "key": "reports/reference-analysis/README.md",
+      "status": 200,
+      "sha256": "fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6"
+    },
+    {
+      "key": "reports/.owners.json",
+      "status": 404
+    },
+    {
+      "key": "reports/.variants/anything",
+      "status": 404
+    },
+    {
+      "key": "private-evidence/anything",
+      "status": 404
+    }
+  ],
+  "provenance": {
+    "sourceFiles": 22325,
+    "uniqueDestinations": 3798,
+    "verifiedBytes": 1094536674,
+    "allSourceHashesPreserved": true
+  },
+  "pythonConsumer": {
+    "key": "reports/TEMPLATE.md",
+    "sha256": "e84663d5886ce3d17d551e6bceba6f86a4767e3c34024694f6b8920edcc11935"
+  },
+  "dataStatus": "",
+  "binaryModelConsumer": {
+    "key": "reports/reference-analysis/models/macro-v2/boundary.onnx",
+    "file": "D:\\dev\\PandoLab-library-data\\reports\\reference-analysis\\models\\macro-v2\\boundary.onnx",
+    "bytes": 16697571,
+    "sha256": "fa006251ebedd5892ea7e9485c83f83b8b4f1d8dc29f38148a0d846d257829e5",
+    "graph": {
+      "nodes": 296,
+      "inputs": [
+        "tile",
+        "overview",
+        "position"
+      ],
+      "outputs": [
+        "logits"
+      ]
+    },
+    "httpRangeStatus": 206,
+    "httpHeadStatus": 200
+  },
+  "beforeSnapshot": [
+    {
+      "root": "D:/dev/PandoLab",
+      "pin": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "pinHash": "6acc90948b9238c056820d6d721277ddf63480fee38c23f7f75f398a7027874e",
+      "runtime": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195\\assets\\data",
+      "libraryHash": "c3da3a9c16f646e2a9bbf83c6fa66e4457c3087b46069ac462060cc6a101125f",
+      "nonReportHash": "b53338e89a9cf0b95eb2a2880187c58e3a1e83ba67cec701475434b7797126c9",
+      "wasm": [
+        {
+          "name": "pandoeditor-core.wasm",
+          "sha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+        }
+      ]
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "pin": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "pinHash": "6acc90948b9238c056820d6d721277ddf63480fee38c23f7f75f398a7027874e",
+      "runtime": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195\\assets\\data",
+      "libraryHash": "c3da3a9c16f646e2a9bbf83c6fa66e4457c3087b46069ac462060cc6a101125f",
+      "nonReportHash": "b53338e89a9cf0b95eb2a2880187c58e3a1e83ba67cec701475434b7797126c9",
+      "wasm": [
+        {
+          "name": "pandoeditor-core.wasm",
+          "sha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+        }
+      ]
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "pin": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "pinHash": "53299e650b109e8d29a5d94ea7fdd49ad0013d736ee2cdb8a8cacf74fb8a9c41",
+      "runtime": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd\\assets\\data",
+      "libraryHash": "c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b",
+      "nonReportHash": "33906087a1894adcafeb15c51f031eb63688fb5d03bd67b1ba0dcb92b9fc70f7",
+      "wasm": [
+        {
+          "name": "pandoeditor-core.wasm",
+          "sha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+        }
+      ]
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "pin": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "pinHash": "53299e650b109e8d29a5d94ea7fdd49ad0013d736ee2cdb8a8cacf74fb8a9c41",
+      "runtime": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd\\assets\\data",
+      "libraryHash": "c3da3a9c16f646e2a9bbf83c6fa66e4457c3087b46069ac462060cc6a101125f",
+      "nonReportHash": "b53338e89a9cf0b95eb2a2880187c58e3a1e83ba67cec701475434b7797126c9",
+      "wasm": [
+        {
+          "name": "pandoeditor-core.wasm",
+          "sha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+        }
+      ]
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "pin": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "pinHash": "e15c72323576b9aa6715fe3b2b33da6724c77ae62d8f788f97c6690b2f3e3147",
+      "runtime": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda\\assets\\data",
+      "libraryHash": "c609a4f17fd99a3609fcd398cc8bfec26c1947f977552e6174397d301792c89b",
+      "nonReportHash": "33906087a1894adcafeb15c51f031eb63688fb5d03bd67b1ba0dcb92b9fc70f7",
+      "wasm": [
+        {
+          "name": "pandoeditor-core.wasm",
+          "sha256": "f04925bbbc19db29cdbd30e67993d5d01670331a0e98abc18aa483c72cc93a03"
+        }
+      ]
+    }
+  ],
+  "sourceInstallation": [
+    {
+      "root": "D:/dev/PandoLab",
+      "head": "287eeeadee3d50a3b992607db71ee264126f6684",
+      "coreSha256": {
+        "tools/library-data.mjs": "610b68451aff88777cdafe9197603faaed4c6d4b91660793b66c3d7c753506d1",
+        "tools/report-paths.mjs": "1c1623191291b08b13e06ccb64f7db1209427ff8f449691e2c2d88f60412faa9",
+        "tools/report_paths.py": "6b351ba7b6055ac52f1d5a8a2f1bd8a09abee125438a14595883e178b1321ebd",
+        "tools/cleanup-reference-analysis-caches.ps1": "341dc80d54aa8a853a125cd61d130b9422e495b35c9934c0764c8166d4eb3de2"
+      }
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "head": "f9e653a9833b1134f1b2d600f46e72b211f6e787",
+      "coreSha256": {
+        "tools/library-data.mjs": "610b68451aff88777cdafe9197603faaed4c6d4b91660793b66c3d7c753506d1",
+        "tools/report-paths.mjs": "1c1623191291b08b13e06ccb64f7db1209427ff8f449691e2c2d88f60412faa9",
+        "tools/report_paths.py": "6b351ba7b6055ac52f1d5a8a2f1bd8a09abee125438a14595883e178b1321ebd",
+        "tools/cleanup-reference-analysis-caches.ps1": "341dc80d54aa8a853a125cd61d130b9422e495b35c9934c0764c8166d4eb3de2"
+      }
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "head": "70a110cf8a1fa849046bb732e04dad3f547558bf",
+      "coreSha256": {
+        "tools/library-data.mjs": "610b68451aff88777cdafe9197603faaed4c6d4b91660793b66c3d7c753506d1",
+        "tools/report-paths.mjs": "1c1623191291b08b13e06ccb64f7db1209427ff8f449691e2c2d88f60412faa9",
+        "tools/report_paths.py": "6b351ba7b6055ac52f1d5a8a2f1bd8a09abee125438a14595883e178b1321ebd",
+        "tools/cleanup-reference-analysis-caches.ps1": "341dc80d54aa8a853a125cd61d130b9422e495b35c9934c0764c8166d4eb3de2"
+      }
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "head": "70a110cf8a1fa849046bb732e04dad3f547558bf",
+      "coreSha256": {
+        "tools/library-data.mjs": "610b68451aff88777cdafe9197603faaed4c6d4b91660793b66c3d7c753506d1",
+        "tools/report-paths.mjs": "1c1623191291b08b13e06ccb64f7db1209427ff8f449691e2c2d88f60412faa9",
+        "tools/report_paths.py": "6b351ba7b6055ac52f1d5a8a2f1bd8a09abee125438a14595883e178b1321ebd",
+        "tools/cleanup-reference-analysis-caches.ps1": "341dc80d54aa8a853a125cd61d130b9422e495b35c9934c0764c8166d4eb3de2"
+      }
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "head": "c1efa658cedbf35c0f5d7f65c8e0847f393afc76",
+      "coreSha256": {
+        "tools/library-data.mjs": "610b68451aff88777cdafe9197603faaed4c6d4b91660793b66c3d7c753506d1",
+        "tools/report-paths.mjs": "1c1623191291b08b13e06ccb64f7db1209427ff8f449691e2c2d88f60412faa9",
+        "tools/report_paths.py": "6b351ba7b6055ac52f1d5a8a2f1bd8a09abee125438a14595883e178b1321ebd",
+        "tools/cleanup-reference-analysis-caches.ps1": "341dc80d54aa8a853a125cd61d130b9422e495b35c9934c0764c8166d4eb3de2"
+      }
+    }
+  ],
+  "retainedSourceGroups": {
+    "central-reports": {
+      "files": 3617,
+      "bytes": 958848349
+    },
+    "branch-edits": {
+      "files": 43,
+      "bytes": 11594643
+    },
+    "variants": {
+      "files": 89,
+      "bytes": 11801354
+    },
+    "private-evidence": {
+      "files": 49,
+      "bytes": 112292328
+    }
+  },
+  "requiredRepeatedLogicalPaths": [
+    {
+      "bytes": 6507,
+      "paths": [
+        "reports/development/testing/branch-originals/gis/development/testing/all-branch-integration-2026-10-21.md",
+        "reports/development/testing/branch-originals/objects/development/testing/all-branch-integration-2026-10-21.md",
+        "reports/development/testing/branch-originals/places/development/testing/all-branch-integration-2026-10-21.md"
+      ]
+    },
+    {
+      "bytes": 4439,
+      "paths": [
+        "reports/development/testing/branch-originals/gis/development/testing/all-branches-main-integration-2026-10-21.md",
+        "reports/development/testing/branch-originals/objects/development/testing/all-branches-main-integration-2026-10-21.md",
+        "reports/development/testing/branch-originals/places/development/testing/all-branches-main-integration-2026-10-21.md"
+      ]
+    },
+    {
+      "bytes": 10088,
+      "paths": [
+        "reports/development/testing/branch-originals/gis/development/testing/editing-state-recovery-2026-10-18.md",
+        "reports/development/testing/branch-originals/objects/development/testing/editing-state-recovery-2026-10-18.md",
+        "reports/development/testing/branch-originals/places/development/testing/editing-state-recovery-2026-10-18.md"
+      ]
+    },
+    {
+      "bytes": 9673,
+      "paths": [
+        "reports/development/testing/branch-originals/gis/development/testing/viewing-ui-reuse-repair-2026-10-18.md",
+        "reports/development/testing/branch-originals/objects/development/testing/viewing-ui-reuse-repair-2026-10-18.md",
+        "reports/development/testing/branch-originals/places/development/testing/viewing-ui-reuse-repair-2026-10-18.md"
+      ]
+    },
+    {
+      "bytes": 5801,
+      "paths": [
+        "reports/development/testing/branch-originals/gis/development/testing/web-app-product-release-2026-10-18.md",
+        "reports/development/testing/branch-originals/objects/development/testing/web-app-product-release-2026-10-18.md",
+        "reports/development/testing/branch-originals/places/development/testing/web-app-product-release-2026-10-18.md"
+      ]
+    },
+    {
+      "bytes": 45,
+      "paths": [
+        "reports/development/testing/web-date-tool-release-2026-10-22-evidence/browser/.last-run.json",
+        "reports/.edits/objects/development/testing/remote-branch-integration-2026-10-24/browser/.last-run.json"
+      ]
+    },
+    {
+      "bytes": 234,
+      "paths": [
+        "reports/geography/east-germany-boundaries-2026-10-22/preserved-foreign-sources.json",
+        "reports/geography/east-germany-remaining-applied-2026-10-23/before-foreign-sha256.json"
+      ]
+    },
+    {
+      "bytes": 56,
+      "paths": [
+        "reports/geography/east-germany-ratzeburg-mechow-applied-2026-10-23/build-territorial-entity-chunks.mjs.txt",
+        "reports/geography/east-germany-remaining-all-2026-10-23/build-territorial-entity-chunks.mjs.txt",
+        "reports/geography/east-germany-remaining-stage2-2026-10-23/build-territorial-entity-chunks.mjs.txt"
+      ]
+    },
+    {
+      "bytes": 263104,
+      "paths": [
+        "reports/geography/east-germany-ratzeburg-mechow-applied-2026-10-23/compiled-after-geometry.json",
+        "reports/geography/east-germany-remaining-all-2026-10-23/compiled-before-geometry.json",
+        "reports/geography/east-germany-remaining-all-2026-10-23/final-compiled-before-geometry.json"
+      ]
+    },
+    {
+      "bytes": 259065,
+      "paths": [
+        "reports/geography/east-germany-ratzeburg-mechow-applied-2026-10-23/compiled-before-geometry.json",
+        "reports/geography/east-germany-remaining-stage2-2026-10-23/compiled-after-geometry.json"
+      ]
+    },
+    {
+      "bytes": 6696,
+      "paths": [
+        "reports/geography/east-germany-ratzeburg-mechow-applied-2026-10-23/kreis-boundary-continuity.html.gz",
+        "reports/geography/east-germany-remaining-stage2-2026-10-23/schaalsee-project-continuity.html.gz"
+      ]
+    },
+    {
+      "bytes": 9316,
+      "paths": [
+        "reports/geography/east-germany-remaining-all-2026-10-23/applied-sections.json",
+        "reports/geography/east-germany-remaining-all-2026-10-23/candidate-sections.json"
+      ]
+    },
+    {
+      "bytes": 402,
+      "paths": [
+        "reports/geography/east-germany-remaining-all-2026-10-23/compiled-scope-proof.json",
+        "reports/geography/east-germany-remaining-all-2026-10-23/final-compiled-scope-proof.json"
+      ]
+    },
+    {
+      "bytes": 20,
+      "paths": [
+        "reports/geography/east-germany-remaining-all-2026-10-23/elbe-schnackenburg-sheet-2.html.gz",
+        "reports/geography/east-germany-remaining-all-2026-10-23/elbe-schnackenburg-sheet-3.html.gz"
+      ]
+    },
+    {
+      "bytes": 785195,
+      "paths": [
+        "reports/geography/east-germany-remaining-applied-2026-10-23/before-source.json",
+        "reports/geography/east-germany-vg25-followup-2026-10-22/after-source.json"
+      ]
+    },
+    {
+      "bytes": 2400,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r05/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r06/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r11/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r12/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r13/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r14/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r15/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r16/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r17/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r18/geometry-support.py"
+      ]
+    },
+    {
+      "bytes": 2259,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r07/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r08/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r09/geometry-support.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r10/geometry-support.py"
+      ]
+    },
+    {
+      "bytes": 3121,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r07/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r08/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r09/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r10/recover-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 2820,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r07/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r08/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r09/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r10/test-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 3472,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r11/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r12/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r13/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r14/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r15/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r16/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r17/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r18/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r19/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r20/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r21/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r22/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r23/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r24/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r25/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r26/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r27/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r28/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r29/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r30/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r31/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r32/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r33/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r34/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r35/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r36/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r37/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r38/test-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 4247,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r12/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r13/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r14/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r15/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r16/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r17/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r18/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r19/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r20/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r21/recover-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 4277,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r22/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r23/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r24/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r25/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r26/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r27/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r28/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r29/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r30/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r31/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r32/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r33/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r34/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r35/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r36/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r37/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r38/recover-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 1438,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r27/queue-recovery-validation.json",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r28/queue-recovery-validation.json"
+      ]
+    },
+    {
+      "bytes": 5179,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r39/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r40/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r41/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r42/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r43/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r44/recover-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 4160,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r39/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r40/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r41/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r42/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r43/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r44/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r45/test-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r46/test-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 5218,
+      "paths": [
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r45/recover-remaining-queue.py",
+        "reports/hydro-names/reconstruction-2026-10-09/batch-r46/recover-remaining-queue.py"
+      ]
+    },
+    {
+      "bytes": 652,
+      "paths": [
+        "reports/reference-analysis/corpus/semap-diverse/derived/erara_080881-0_754_10466.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/loc_081414-15_1016_1244.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/loc_081414-15_1016_1244.validRaster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/loc_083555-28_2418_100.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/loc_083555-28_2418_100.validRaster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/nypl_097738-0_874_3177.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/nypl_097738-0_874_3177.validRaster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/nypl_099286-0_10583_1079.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/nypl_099286-0_10583_1079.validRaster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/princeton_099557-0_1376_2009.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/princeton_099557-0_1376_2009.validRaster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/princeton_100065-0_8862_2109.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/princeton_101461-1_5867_6915.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/princeton_101461-1_5867_6915.validRaster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/unileiden_102983-1_2975_3626.raster.png",
+        "reports/reference-analysis/corpus/semap-diverse/derived/unileiden_102983-1_2975_3626.validRaster.png"
+      ]
+    },
+    {
+      "bytes": 1902,
+      "paths": [
+        "reports/reference-analysis/corpus/semap-diverse/sources/loc_081414-15_1016_1244.png",
+        "reports/reference-analysis/corpus/semap-diverse/sources/loc_083555-28_2418_100.png",
+        "reports/reference-analysis/corpus/semap-diverse/sources/nypl_097738-0_874_3177.png",
+        "reports/reference-analysis/corpus/semap-diverse/sources/nypl_099286-0_10583_1079.png",
+        "reports/reference-analysis/corpus/semap-diverse/sources/princeton_099557-0_1376_2009.png",
+        "reports/reference-analysis/corpus/semap-diverse/sources/princeton_101461-1_5867_6915.png",
+        "reports/reference-analysis/corpus/semap-diverse/sources/unileiden_102983-1_2975_3626.png"
+      ]
+    },
+    {
+      "bytes": 786432,
+      "paths": [
+        "reports/reference-analysis/models/diverse-v1/diagnostics/overview.f32",
+        "reports/reference-analysis/models/diverse-v2/diagnostics/overview.f32"
+      ]
+    },
+    {
+      "bytes": 16,
+      "paths": [
+        "reports/reference-analysis/models/diverse-v1/diagnostics/position.f32",
+        "reports/reference-analysis/models/diverse-v2/diagnostics/position.f32"
+      ]
+    },
+    {
+      "bytes": 3145728,
+      "paths": [
+        "reports/reference-analysis/models/diverse-v1/diagnostics/tile.f32",
+        "reports/reference-analysis/models/diverse-v2/diagnostics/tile.f32"
+      ]
+    },
+    {
+      "bytes": 786432,
+      "paths": [
+        "reports/reference-analysis/models/macro-v1/diagnostics/overview.f32",
+        "reports/reference-analysis/models/macro-v2/diagnostics/overview.f32"
+      ]
+    },
+    {
+      "bytes": 16,
+      "paths": [
+        "reports/reference-analysis/models/macro-v1/diagnostics/position.f32",
+        "reports/reference-analysis/models/macro-v2/diagnostics/position.f32"
+      ]
+    },
+    {
+      "bytes": 3145728,
+      "paths": [
+        "reports/reference-analysis/models/macro-v1/diagnostics/tile.f32",
+        "reports/reference-analysis/models/macro-v2/diagnostics/tile.f32"
+      ]
+    },
+    {
+      "bytes": 0,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/benchmark-lint.log",
+        "reports/development/testing/exact-calculation-2026-10-23/canonical-staged-check.log",
+        "reports/development/testing/exact-calculation-2026-10-23/catalog-lint.log",
+        "reports/development/testing/exact-calculation-2026-10-23/data-missing-restore.log",
+        "reports/development/testing/exact-calculation-2026-10-23/data-status-restored.txt",
+        "reports/development/testing/exact-calculation-2026-10-23/final-staged-check.log",
+        "reports/development/testing/exact-calculation-2026-10-23/lint.log",
+        "reports/development/testing/exact-calculation-2026-10-23/merged-staged-check.log",
+        "reports/development/testing/exact-calculation-2026-10-23/restored-test-lint.log"
+      ]
+    },
+    {
+      "bytes": 591,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/canonical-sync-gis.log",
+        "reports/development/testing/exact-calculation-2026-10-23/canonical-sync-PandoLab.log",
+        "reports/development/testing/exact-calculation-2026-10-23/canonical-sync-places.log",
+        "reports/development/testing/exact-calculation-2026-10-23/canonical-sync-ui.log"
+      ]
+    },
+    {
+      "bytes": 131334,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/data-local-status.txt",
+        "reports/development/testing/exact-calculation-2026-10-23/data-status-longpaths.txt"
+      ]
+    },
+    {
+      "bytes": 348,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/ddr-canonical-candidate.log",
+        "reports/development/testing/exact-calculation-2026-10-23/ddr-latest-candidate.log"
+      ]
+    },
+    {
+      "bytes": 339,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/final-core-check.log",
+        "reports/development/testing/exact-calculation-2026-10-23/package-check.log"
+      ]
+    },
+    {
+      "bytes": 122,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/final-metadata-check.log",
+        "reports/development/testing/exact-calculation-2026-10-23/merged-metadata-check.log"
+      ]
+    },
+    {
+      "bytes": 716916,
+      "paths": [
+        "reports/development/testing/exact-calculation-2026-10-23/live-viewer-first-deployment.png",
+        "reports/development/testing/exact-calculation-2026-10-23/live-viewer.png"
+      ]
+    },
+    {
+      "bytes": 59269,
+      "paths": [
+        "reports/.edits/objects/geography/historical-boundary-rollback-2026-10-23/archived-source-drift-proof.json",
+        "reports/.edits/ui/geography/historical-boundary-rollback-2026-10-23/archived-source-drift-proof.json",
+        "reports/.variants/94872818a279f87a9f2ffd4403b903ffd6003c5eceeb1f5f3cc45f6ecde5d750"
+      ]
+    },
+    {
+      "bytes": 8498,
+      "paths": [
+        "reports/.edits/objects/geography/historical-boundary-rollback-2026-10-23/audit.json",
+        "reports/.edits/ui/geography/historical-boundary-rollback-2026-10-23/audit.json",
+        "reports/.variants/0341587278ff2550a419b1643cf4cda2fa51b70172c03dd7fd836c38ae936bfc"
+      ]
+    },
+    {
+      "bytes": 4259,
+      "paths": [
+        "reports/.edits/objects/geography/historical-boundary-rollback-2026-10-23/AUDIT.md",
+        "reports/.edits/ui/geography/historical-boundary-rollback-2026-10-23/AUDIT.md",
+        "reports/.variants/e144e7aa7370fcef451458e093d6a66f939378612f3d6de067257bca43588450"
+      ]
+    },
+    {
+      "bytes": 1556,
+      "paths": [
+        "reports/.edits/objects/geography/historical-boundary-rollback-2026-10-23/modern-unchanged-proof.json",
+        "reports/.edits/ui/geography/historical-boundary-rollback-2026-10-23/modern-unchanged-proof.json",
+        "reports/.variants/6854e73fc48013dc4cbff19eee5046b318d699a2449ee5792884cda02e505a88"
+      ]
+    },
+    {
+      "bytes": 1031216,
+      "paths": [
+        "reports/.edits/objects/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+        "reports/.edits/ui/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
+        "reports/.variants/a334e9a3dee757608accb7439ae845816a476a365d356f494543c9a3abca7878"
+      ]
+    },
+    {
+      "bytes": 2587,
+      "paths": [
+        "reports/.edits/objects/geography/ne-selected-20261023/README.md",
+        "reports/.edits/ui/geography/ne-selected-20261023/README.md",
+        "reports/.variants/d20cea03f811c74a8fc9a87fdc1ffde3385c414385822ac74696a7fc2d3614bb"
+      ]
+    },
+    {
+      "bytes": 786432,
+      "paths": [
+        "reports/reference-analysis/models/macro-v3/diagnostics/overview.f32",
+        "reports/reference-analysis/models/macro-v4/diagnostics/overview.f32"
+      ]
+    },
+    {
+      "bytes": 16,
+      "paths": [
+        "reports/reference-analysis/models/macro-v3/diagnostics/position.f32",
+        "reports/reference-analysis/models/macro-v4/diagnostics/position.f32"
+      ]
+    },
+    {
+      "bytes": 3145728,
+      "paths": [
+        "reports/reference-analysis/models/macro-v3/diagnostics/tile.f32",
+        "reports/reference-analysis/models/macro-v4/diagnostics/tile.f32"
+      ]
+    }
+  ],
+  "requiredRepeatedLogicalBytes": 16851901,
+  "retainedRuntimeCaches": [
+    {
+      "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+      "bytes": 1033922018,
+      "files": 2686,
+      "consumers": [
+        "D:/dev/PandoLab",
+        "D:/dev/worktrees/gis"
+      ]
+    },
+    {
+      "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+      "bytes": 946533868,
+      "files": 2654,
+      "consumers": [
+        "D:/dev/worktrees/objects",
+        "D:/dev/worktrees/places"
+      ]
+    },
+    {
+      "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+      "bytes": 946533868,
+      "files": 2654,
+      "consumers": [
+        "D:/dev/worktrees/ui"
+      ]
+    }
+  ]
+}
