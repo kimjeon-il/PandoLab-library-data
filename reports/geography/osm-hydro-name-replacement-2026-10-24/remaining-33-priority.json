@@ -1,0 +1,651 @@
+{
+  "schema": "pando-osm-river-remaining-v2",
+  "reportId": "GEO-HYDRO-OSM-20261024",
+  "verified": 40,
+  "originalOsmMatched": 73,
+  "publishedReplaced": 0,
+  "pending": 33,
+  "counts": {
+    "noNE": 17,
+    "identity": 14,
+    "partial": 2
+  },
+  "sourceComparison": "ne-crosscheck.json",
+  "latestAuditProof": "staged-40-proof.json",
+  "warnings": [
+    "Natural Earth samples are proximity evidence only, not an official legal boundary or name assignment",
+    "Official links support preliminary river identity but may not validate full Hydro grouped mainstem",
+    "Published runtime retains 73 original OSM relations until explicitly deployed"
+  ],
+  "items": [
+    {
+      "systemId": "10521208",
+      "nameKo": "샤리강",
+      "group": "partial-name-scope-requires-national-source",
+      "sourceNameCandidate": {
+        "name": "Chari",
+        "coverage": 0.481
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Chari",
+          "coverage": 0.481
+        },
+        {
+          "name": "Bahr Aouk",
+          "coverage": 0.173
+        },
+        {
+          "name": "Aoukalé",
+          "coverage": 0.037
+        },
+        {
+          "name": "Logone",
+          "coverage": 0.025
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Reconfirm partial mainstem with authoritative basin mapping"
+    },
+    {
+      "systemId": "10526283",
+      "nameKo": "샤리강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20071308",
+      "nameKo": "오울루강",
+      "group": "partial-name-scope-requires-national-source",
+      "sourceNameCandidate": {
+        "name": "Oulujoki",
+        "coverage": 0.296
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Oulujoki",
+          "coverage": 0.296
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Reconfirm partial mainstem with authoritative basin mapping"
+    },
+    {
+      "systemId": "20075401",
+      "nameKo": "오울루강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20282318",
+      "nameKo": "오데르강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Oder",
+        "coverage": 0.259
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Oder",
+          "coverage": 0.259
+        },
+        {
+          "name": "Warta",
+          "coverage": 0.173
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "20456598",
+      "nameKo": "우랄강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20532766",
+      "nameKo": "테레크강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20540915",
+      "nameKo": "테레크강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20561290",
+      "nameKo": "리오니강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20565620",
+      "nameKo": "리오니강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20597827",
+      "nameKo": "마리차강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Maritsa",
+        "coverage": 0.37
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Maritsa",
+          "coverage": 0.37
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "20628098",
+      "nameKo": "아무다리야강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "20773860",
+      "nameKo": "수에즈운하강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Suez Canal",
+        "coverage": 0.852
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Suez Canal",
+          "coverage": 0.852
+        },
+        {
+          "name": "Ismailiya Canal",
+          "coverage": 0.173
+        }
+      ],
+      "previousFlag": "운하를 강으로 표기(수에즈운하강)",
+      "primarySourceLeads": [
+        "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx",
+        "https://www.suezcanal.gov.eg/English/Pages/FAQ.aspx"
+      ],
+      "independentFinding": "Suez Canal Authority calls it an artificial sea-level navigation channel. Need feature type/canonical river exclusion: source-only rename would regenerate erroneous 강 suffix.",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "20774342",
+      "nameKo": "수에즈운하강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Suez Canal",
+        "coverage": 0.049
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Suez Canal",
+          "coverage": 0.049
+        }
+      ],
+      "previousFlag": "운하를 강으로 표기(수에즈운하강)",
+      "primarySourceLeads": [
+        "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx"
+      ],
+      "independentFinding": "Near-Suez candidate only 4 of 81 NE samples; do not assign Suez Canal name to entire Hydro group without geometry check.",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "30145067",
+      "nameKo": "오비강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Ob",
+        "coverage": 0.383
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Ob",
+          "coverage": 0.383
+        },
+        {
+          "name": "Irtysh",
+          "coverage": 0.21
+        },
+        {
+          "name": "Tobol",
+          "coverage": 0.049
+        },
+        {
+          "name": "river-1381",
+          "coverage": 0.049
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "40188382",
+      "nameKo": "시르다리야강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "40364680",
+      "nameKo": "청천강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "40391614",
+      "nameKo": "대동강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "40414035",
+      "nameKo": "례성강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "40415850",
+      "nameKo": "림진강/임진강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "40423228",
+      "nameKo": "남한강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Namhan",
+        "coverage": 0.802
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Namhan",
+          "coverage": 0.802
+        },
+        {
+          "name": "Han",
+          "coverage": 0.37
+        }
+      ],
+      "previousFlag": "한강 수계 전체를 남한강으로 이름붙였을 가능성",
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "40475481",
+      "nameKo": "금강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "40486439",
+      "nameKo": "아라카와강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Tone",
+        "coverage": 0.272
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Tone",
+          "coverage": 0.272
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41023100",
+      "nameKo": "라비강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Indus",
+        "coverage": 0.605
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Indus",
+          "coverage": 0.605
+        },
+        {
+          "name": "Chenab",
+          "coverage": 0.173
+        },
+        {
+          "name": "Ravi",
+          "coverage": 0.086
+        },
+        {
+          "name": "Sutlej",
+          "coverage": 0.025
+        }
+      ],
+      "previousFlag": "인더스강 본류 후보에 라비강 이름 부여 여부 조사 필요",
+      "primarySourceLeads": [
+        "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/855531468078531004"
+      ],
+      "independentFinding": "World Bank's 1960 official Indus waters project distinguishes Ravi/Beas/Sutlej from Indus/Jhelum/Chenab; 81 NE samples favor Indus 60.5%, Chenab 17.3%, Ravi 8.6%. Geometry naming remains pending; second link is government portal, not a specific hydro source.",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41067217",
+      "nameKo": "브라마푸트라강/얄룽창포강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Brahmaputra",
+        "coverage": 0.63
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Brahmaputra",
+          "coverage": 0.63
+        },
+        {
+          "name": "river-256",
+          "coverage": 0.247
+        },
+        {
+          "name": "river-257",
+          "coverage": 0.111
+        },
+        {
+          "name": "river-255",
+          "coverage": 0.074
+        }
+      ],
+      "previousFlag": "갠지스강과 브라마푸트라강 본류 이름 범위 조사 필요",
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41109275",
+      "nameKo": "난판강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Zuo",
+        "coverage": 0.321
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Zuo",
+          "coverage": 0.321
+        },
+        {
+          "name": "Xi",
+          "coverage": 0.259
+        },
+        {
+          "name": "Yu",
+          "coverage": 0.235
+        },
+        {
+          "name": "Xunjiang",
+          "coverage": 0.16
+        }
+      ],
+      "previousFlag": "난판강과 별개인 홍강/Red 별칭의 혼입",
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41171836",
+      "nameKo": "룩남강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": "룩남강과 꺼우강 관계명의 동일성 검토 필요",
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "41182380",
+      "nameKo": "꺼우강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Red",
+        "coverage": 0.37
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Red",
+          "coverage": 0.37
+        },
+        {
+          "name": "Black",
+          "coverage": 0.037
+        }
+      ],
+      "previousFlag": "홍강 수계 범위에 꺼우강 관계명 혼입 여부 확인 필요",
+      "primarySourceLeads": [
+        "https://bacninh.gov.vn/news/-/details/37632/he-thong-song-ngoi-215681",
+        "https://www.vista.gov.vn/vi/news/print/ket-qua-nghien-cuu-trien-khai/nghien-cuu-su-dung-quan-xa-dong-vat-day-khong-xuong-song-co-lon-de-danh-gia-muc-do-o-nhiem-tram-tich-song-cau-thuoc-he-thong-song-thai-binh-6813.html"
+      ],
+      "independentFinding": "Vietnam official provincial hydro data places Cau in Thai Binh River basin, whereas the sampled Hydro mainstem matches Red. Requires downstream chain disambiguation.",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41337891",
+      "nameKo": "빠삭강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Yom",
+        "coverage": 0.691
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Yom",
+          "coverage": 0.691
+        },
+        {
+          "name": "Chao Phraya",
+          "coverage": 0.346
+        },
+        {
+          "name": "Ping",
+          "coverage": 0.037
+        }
+      ],
+      "previousFlag": "빠삭강과 욤강의 관계·별칭 혼입 여부 확인 필요",
+      "primarySourceLeads": [
+        "https://www.rid.go.th/th/rid_news/28997",
+        "https://www.rid.go.th/th/rid_news/29001"
+      ],
+      "independentFinding": "Thai Royal Irrigation Department identifies Pa Sak and Chao Phraya separately; Natural Earth shows Yom in 69.1% and Chao Phraya in 34.6% of sampled mainstem. No automatic name change.",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41386179",
+      "nameKo": "미명명 수계 41386179",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Krong",
+        "coverage": 0.012
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Krong",
+          "coverage": 0.012
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "41386700",
+      "nameKo": "미명명 수계 41386700",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    },
+    {
+      "systemId": "41390476",
+      "nameKo": "발라이강",
+      "group": "hydro-identity-or-feature-class-conflict",
+      "sourceNameCandidate": {
+        "name": "Mekong",
+        "coverage": 0.407
+      },
+      "candidateNEPaths": [
+        {
+          "name": "Mekong",
+          "coverage": 0.407
+        },
+        {
+          "name": "river-1764",
+          "coverage": 0.222
+        },
+        {
+          "name": "river-1763",
+          "coverage": 0.099
+        }
+      ],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Resolve continuous mainstem identity and source-specific tributary relationship"
+    },
+    {
+      "systemId": "50798885",
+      "nameKo": "야라강",
+      "group": "no-independent-NE-name-reference",
+      "sourceNameCandidate": null,
+      "candidateNEPaths": [],
+      "previousFlag": null,
+      "primarySourceLeads": [],
+      "independentFinding": "",
+      "applied": false,
+      "nextAction": "Find named government vector or independent gauging stations; compare to Hydro geometry"
+    }
+  ]
+}
