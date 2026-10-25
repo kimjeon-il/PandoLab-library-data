@@ -1,0 +1,10 @@
+{
+  "jobId": "0cdc49ba-2e93-481e-baa9-08f41a8e37f8",
+  "revision": 2,
+  "hashes": {
+    "features.geojson": "9813c3bc5d53cb6538a76d11dc00c5e8e528e30543d9a48e6ca69cf019ac2f80",
+    "analysis.json": "885b1db34b6dc0f85b4daa35d98a7d1b8e6c12f6f1eb109ffeff3ae4eb17506f",
+    "preview.png": "9599b15772ee8421659a654a530624752a62aa1f641bd733180fde6f72e0de88",
+    "report.md": "54e13e6126091918e7643df4a5404376e18dfc188afeded29e659e02d63a4cf9"
+  }
+}
