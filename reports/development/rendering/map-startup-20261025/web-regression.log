@@ -1,0 +1,46 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:28376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\browser\map-startup-publication.spec.mjs:3:1 › Web publishes sharp ocean and land before countries, then reuses prepared terrain and meshes
+tests\browser\map-startup-publication.spec.mjs:3:1 › Web publishes sharp ocean and land before countries, then reuses prepared terrain and meshes
+{"cold":{"featureCount":207,"builtCount":207,"reusedCount":0,"hashMs":155.80000007152557,"triangulationMs":13194.900000035763,"assemblyMs":72.40000000596046,"slowestFeature":{"id":"ATA","ms":1557.4000000059605},"cacheBytes":40402456,"strokeMs":734.1999999880791,"spatialMs":1332,"totalMs":16355.10000000894},"warm":{"featureCount":207,"builtCount":0,"reusedCount":207,"hashMs":106.60000003874302,"triangulationMs":0,"assemblyMs":44.900000005960464,"slowestFeature":null,"cacheBytes":40402456,"strokeMs":945.6000000089407,"spatialMs":1710.7000000029802,"totalMs":2823.9000000059605},"background":26767,"countries":26818,"uploads":26}
+
+[2/2] tests\browser\map-surface-quality.spec.mjs:6:3 › canvas: high-scale pending surface keeps only land and promotes atomically
+  1) tests\browser\map-surface-quality.spec.mjs:6:3 › canvas: high-scale pending surface keeps only land and promotes atomically 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "canonical"
+    Received: "pending"
+
+      31 |       await expect.poll(async()=>(await stats(page)).surfacePresentation.targetQuality).toBe('preview');
+      32 |       const low=await stats(page);
+    > 33 |       expect(low.activeMeshQuality).toBe(low.previewDisplayCertificate?.valid?'preview':'canonical');
+         |                                     ^
+      34 |       expect(errors).toEqual([]);
+      35 |     } finally {release();}
+      36 |   });
+        at D:\dev\worktrees\ui\tests\browser\map-surface-quality.spec.mjs:33:37
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\map-surface-quality-canvas-8589e-and-and-promotes-atomically\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\map-surface-quality-canvas-8589e-and-and-promotes-atomically\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\map-surface-quality-canvas-8589e-and-and-promotes-atomically\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\map-surface-quality-canvas-8589e-and-and-promotes-atomically\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\browser\map-surface-quality.spec.mjs:6:3 › canvas: high-scale pending surface keeps only land and promotes atomically 
+  1 passed (1.3m)

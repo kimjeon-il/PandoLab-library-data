@@ -1,0 +1,111 @@
+{
+  "mesh": {
+    "featureCount": 207,
+    "builtCount": 207,
+    "reusedCount": 0,
+    "hashMs": 121.00000001490116,
+    "triangulationMs": 8701.900000035763,
+    "assemblyMs": 26.900000005960464,
+    "slowestFeature": {
+      "id": "RUS",
+      "ms": 975.3999999910593
+    },
+    "cacheBytes": 40402456,
+    "strokeMs": 456.40000000596046,
+    "spatialMs": 953.1000000089407,
+    "totalMs": 10890.10000000894
+  },
+  "events": [
+    {
+      "t": 603.2999999970198,
+      "draw": null,
+      "terrain": false,
+      "bg": null,
+      "blocked": false
+    },
+    {
+      "t": 1295.7000000029802,
+      "draw": null,
+      "terrain": true,
+      "bg": null,
+      "blocked": false
+    },
+    {
+      "t": 3154.5,
+      "draw": null,
+      "terrain": true,
+      "bg": null,
+      "blocked": true
+    },
+    {
+      "t": 5109.20000000298,
+      "draw": null,
+      "terrain": true,
+      "bg": null,
+      "blocked": false
+    },
+    {
+      "t": 7054.5,
+      "draw": {
+        "quality": "pending",
+        "landSource": "physical-background",
+        "countryIndexCount": 0
+      },
+      "terrain": true,
+      "bg": 6498.5999999940395,
+      "blocked": false
+    },
+    {
+      "t": 18690.70000000298,
+      "draw": {
+        "quality": "canonical",
+        "landSource": "physical-canonical",
+        "countryIndexCount": 4419915
+      },
+      "terrain": true,
+      "bg": 6498.5999999940395,
+      "blocked": false
+    },
+    {
+      "t": 19505.79999999702,
+      "draw": {
+        "quality": "canonical",
+        "landSource": "physical-canonical",
+        "countryIndexCount": 4419915
+      },
+      "terrain": false,
+      "bg": 6498.5999999940395,
+      "blocked": false
+    },
+    {
+      "t": 19657.70000000298,
+      "draw": null,
+      "terrain": false,
+      "bg": 6498.5999999940395,
+      "blocked": false
+    },
+    {
+      "t": 19860.90000000596,
+      "draw": null,
+      "terrain": true,
+      "bg": 6498.5999999940395,
+      "blocked": false
+    },
+    {
+      "t": 19959.5,
+      "draw": {
+        "quality": "canonical",
+        "landSource": "physical-canonical",
+        "countryIndexCount": 4419915
+      },
+      "terrain": true,
+      "bg": 6498.5999999940395,
+      "blocked": false
+    }
+  ],
+  "longTasks": {
+    "count": 12,
+    "max": 630,
+    "total": 2661
+  }
+}

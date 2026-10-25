@@ -1,0 +1,9 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:23460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\browser\map-surface-quality.spec.mjs:6:3 › canvas: high-scale pending surface keeps only land and promotes atomically
+  1 passed (16.5s)
