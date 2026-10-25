@@ -1,0 +1,611 @@
+✖ a territorial label over another territory selects its explicit identity and opens its editor once (288.601ms)
+✖ a territorial label over empty ground selects its explicit identity and opens its editor once (171.5309ms)
+✖ a territorial label over outside the projected globe selects its explicit identity and opens its editor once (180.1043ms)
+✖ a territorial label over overlapping parent and child selects its explicit identity and opens its editor once (166.0861ms)
+✖ a territorial label over mobile tap selects its explicit identity and opens its editor once (174.8201ms)
+✖ territorial label dispatch preserves click blocking, pan, modifier toggling and placement tools (184.8378ms)
+✔ ground map clicks keep the common coordinate handler and label rendering does not duplicate editing tools (1.6897ms)
+✔ point and multipoint hits use projected pixel tolerance (1.2007ms)
+✔ line and multipart distances clamp segment endpoints and do not bridge missing projected points (0.4557ms)
+✔ polygon interiors delegate containment and edges retain the screen tolerance (1.0102ms)
+✔ bounds cache is caller owned, zoom changes coarse rejection, and world bounds do not reject wrapped hits (0.5556ms)
+✔ editor getters keep their existing signatures and resolve live projection, zoom and cache dependencies (0.5053ms)
+✖ political prepares the common land mask before its terrain passes (1.6049ms)
+✖ physical prepares the common land mask before its terrain passes (0.3237ms)
+✖ WebGL mixes overlays by order and protects base water and borders from fills (1.2234ms)
+✖ changing overlay order keeps the frontmost stroke or fill aligned with canonical picking (2.8446ms)
+✔ Canvas consumes line and fill packets in the same overlay order (1.3997ms)
+✔ Canvas owner coalesces busy frames and closes stale bitmaps before notifying the presenter (2.4653ms)
+✔ Canvas owner ignores delayed ready/error and settles picks on termination (0.5222ms)
+✔ unsolicited older-view bitmap does not release another view submission (0.5012ms)
+✔ unsolicited same-view bitmap does not release another view submission (0.2108ms)
+✔ each actual submission gets a distinct completion identity even when its visual frame is reused (0.2545ms)
+✔ a matching stale-style completion releases its slot independently of bitmap acceptance (0.2897ms)
+✔ another project generation cannot acknowledge a matching request number (0.2639ms)
+✔ a replacement channel rejects cached old-project views before readiness without poisoning revisions (0.4518ms)
+✔ a replacement channel rejects cached old-project views after readiness without poisoning revisions (0.2171ms)
+✔ termination drops queued views and late completions cannot release a replacement channel (0.4587ms)
+✔ render errors reach the owner and termination clears its outstanding work (0.4435ms)
+✔ native errors reach the owner and termination clears its outstanding work (0.2184ms)
+✖ the real Canvas Worker keeps unchanged monthly country geometry and outlines across replace-data (21.1946ms)
+✔ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (5.4643ms)
+✔ a Worker-skipped older view acknowledges completion without rendering a bitmap (4.8878ms)
+✔ the Worker reports direct and spontaneous render failures through its existing error boundary (5.5936ms)
+✔ pick failures reject their own request and keep the Canvas worker alive (0.9998ms)
+✖ map draft append waits for Core and contains the original Worker error at the map operation boundary (3.2778ms)
+✖ point creation waits for Core acknowledgement before switching tool and selecting its object (0.8685ms)
+✖ point creation from a replaced project cannot select an old object or reset the new tool (0.3088ms)
+✖ object chooser waits for the canonical selection acknowledgement and retains the captured intent (0.535ms)
+✖ object chooser propagates its Worker rejection to the explicit chooser event boundary (0.4449ms)
+ℹ Error: Test "map draft append waits for Core and contains the original Worker error at the map operation boundary" at tests\unit\map-click-async-command.test.mjs:25:1 generated asynchronous activity after the test ended. This activity created the error "Error: Draft worker failed" and would have caused the test to fail, but instead triggered an unhandledRejection event.
+ℹ Error: Test "object chooser propagates its Worker rejection to the explicit chooser event boundary" at tests\unit\map-click-async-command.test.mjs:60:1 generated asynchronous activity after the test ended. This activity created the error "Error: Selection worker failed" and would have caused the test to fail, but instead triggered an unhandledRejection event.
+✔ progressive and canonical startup share one ordered runtime initializer (168.8954ms)
+✔ saved geometry is classified before any first-map source is chosen (35.5897ms)
+✔ canonical promotion discards a worker initialized from preview geometry before editing resumes (26.4461ms)
+✔ canonical geometry reaches the common Store before editing resumes while the detailed mesh is pending (242.5842ms)
+✖ painted preview starts terrain without waiting for canonical data or terrain completion (179.6474ms)
+✖ terrain rejection is handled independently of canonical startup (176.009ms)
+✖ uncached saved geometry uses validated exact state while builtin preview stays disabled (231.942ms)
+✔ cold snapshot restoration needs no current source before the saved view or during promotion (494.0761ms)
+✔ staleBaselineDoesNotReplaceNewGeneration (185.6467ms)
+✔ nonCurrentStartHasNoModernPreview (163.5701ms)
+✔ project replacement while admission is pending prevents obsolete startup mutations (182.3146ms)
+✔ project replacement while hydration is pending prevents obsolete startup mutations (146.791ms)
+✔ project replacement while recovery is pending prevents obsolete startup mutations (148.7632ms)
+✔ a rejected obsolete geometry operation leaves the replacement project and diagnostics untouched (146.9828ms)
+✔ a rejected obsolete hydration operation leaves the replacement project and diagnostics untouched (146.0947ms)
+✔ a rejected obsolete recovery operation leaves the replacement project and diagnostics untouched (167.449ms)
+✔ a rejected obsolete mesh operation leaves the replacement project and diagnostics untouched (181.0802ms)
+✔ an immediate editable listener edit cannot bless stale preview geometry as current (192.3057ms)
+✔ replacement at editable-listener cannot schedule an obsolete saved-project preview (153.034ms)
+✔ replacement at pending-mesh cannot schedule an obsolete saved-project preview (159.1384ms)
+✔ progressive canonical admission restores the separately stored session cursor (459.7435ms)
+✔ user navigation during preview wins over an older saved cursor (325.5049ms)
+✖ mixed country/subunit batch deletion uses the real Store, preserves cancel and records one history (223.8346ms)
+✖ batch deletion rechecks locks/children and rolls back a failed application (169.5897ms)
+✖ deletion confirmation cannot apply after the project generation changes (167.9715ms)
+✖ one object lock guard handles countries and units with explicit refs and rejects wrong identities (163.2127ms)
+✖ country construction remains detached until its owning Core command commits (2.8518ms)
+✖ all territorial objects share one display group irrespective of kind or parent (2.218ms)
+✔ one object style owns color, opacity and boundary controls (0.5545ms)
+✔ Core preserves object visibility across temporal parent changes and only accepts unified current settings (747.4271ms)
+✖ readonly picking selects through common rules without an editor service (2.2068ms)
+✔ registered editor picking still commits vertex placement before ordinary selection (0.4331ms)
+ℹ tests 71
+ℹ suites 0
+ℹ pass 45
+ℹ fail 26
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5129.9052
+
+✖ failing tests:
+
+test at tests\unit\country-label-input-contract.test.mjs:65:3
+✖ a territorial label over another territory selects its explicit identity and opens its editor once (288.601ms)
+  TypeError: dependencies.objectOperationsA.objectRefVisible is not a function
+      at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:56:56)
+      at Object.<anonymous> (evalmachine.<anonymous>:4:16)
+      at Object.activate (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:61:48)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:66:50)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests\unit\country-label-input-contract.test.mjs:65:3
+✖ a territorial label over empty ground selects its explicit identity and opens its editor once (171.5309ms)
+  TypeError: dependencies.objectOperationsA.objectRefVisible is not a function
+      at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:56:56)
+      at Object.<anonymous> (evalmachine.<anonymous>:4:16)
+      at Object.activate (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:61:48)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:66:50)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\country-label-input-contract.test.mjs:65:3
+✖ a territorial label over outside the projected globe selects its explicit identity and opens its editor once (180.1043ms)
+  TypeError: dependencies.objectOperationsA.objectRefVisible is not a function
+      at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:56:56)
+      at Object.<anonymous> (evalmachine.<anonymous>:4:16)
+      at Object.activate (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:61:48)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:66:50)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\country-label-input-contract.test.mjs:65:3
+✖ a territorial label over overlapping parent and child selects its explicit identity and opens its editor once (166.0861ms)
+  TypeError: dependencies.objectOperationsA.objectRefVisible is not a function
+      at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:56:56)
+      at Object.<anonymous> (evalmachine.<anonymous>:4:16)
+      at Object.activate (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:61:48)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:66:50)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\country-label-input-contract.test.mjs:65:3
+✖ a territorial label over mobile tap selects its explicit identity and opens its editor once (174.8201ms)
+  TypeError: dependencies.objectOperationsA.objectRefVisible is not a function
+      at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:56:56)
+      at Object.<anonymous> (evalmachine.<anonymous>:4:16)
+      at Object.activate (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:61:48)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:66:50)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\country-label-input-contract.test.mjs:74:1
+✖ territorial label dispatch preserves click blocking, pan, modifier toggling and placement tools (184.8378ms)
+  TypeError: dependencies.objectOperationsA.objectRefVisible is not a function
+      at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+      at Object.handleMapClick (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:56:56)
+      at Object.<anonymous> (evalmachine.<anonymous>:4:16)
+      at Object.activate (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:61:48)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/country-label-input-contract.test.mjs:77:43)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\gpu-base-scene-order.test.mjs:12:5
+✖ political prepares the common land mask before its terrain passes (1.6049ms)
+  TypeError: Cannot read properties of undefined (reading 'quality')
+      at submitGpuBaseScene (file:///D:/dev/worktrees/ui/assets/js/modules/gpu-base-scene-pass.js:36:44)
+      at drawGpuBaseScene (file:///D:/dev/worktrees/ui/assets/js/modules/gpu-base-scene-pass.js:6:17)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/gpu-base-scene-order.test.mjs:29:7)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at tests\unit\gpu-base-scene-order.test.mjs:12:5
+✖ physical prepares the common land mask before its terrain passes (0.3237ms)
+  TypeError: Cannot read properties of undefined (reading 'quality')
+      at submitGpuBaseScene (file:///D:/dev/worktrees/ui/assets/js/modules/gpu-base-scene-pass.js:36:44)
+      at drawGpuBaseScene (file:///D:/dev/worktrees/ui/assets/js/modules/gpu-base-scene-pass.js:6:17)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/gpu-base-scene-order.test.mjs:29:7)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests\unit\gpu-base-scene-order.test.mjs:61:1
+✖ WebGL mixes overlays by order and protects base water and borders from fills (1.2234ms)
+  TypeError: Cannot read properties of undefined (reading 'quality')
+      at submitGpuBaseScene (file:///D:/dev/worktrees/ui/assets/js/modules/gpu-base-scene-pass.js:36:44)
+      at drawGpuBaseScene (file:///D:/dev/worktrees/ui/assets/js/modules/gpu-base-scene-pass.js:6:17)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/gpu-base-scene-order.test.mjs:74:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\gpu-base-scene-order.test.mjs:85:1
+✖ changing overlay order keeps the frontmost stroke or fill aligned with canonical picking (2.8446ms)
+  TypeError: Cannot read properties of undefined (reading 'territorialScope')
+      at file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:79:49
+      at Array.flatMap (<anonymous>)
+      at territorialObjectsAt (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:78:70)
+      at selectableObjectsAt (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:96:5)
+      at Object.handleObjectSelectionAt (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:221:31)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/gpu-base-scene-order.test.mjs:116:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+
+test at tests\unit\gpu-canvas-worker.test.mjs:257:1
+✖ the real Canvas Worker keeps unchanged monthly country geometry and outlines across replace-data (21.1946ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/gpu-canvas-worker.test.mjs:267:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\map-click-async-command.test.mjs:25:1
+✖ map draft append waits for Core and contains the original Worker error at the map operation boundary (3.2778ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - false
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/map-click-async-command.test.mjs:29:27)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\map-click-async-command.test.mjs:33:1
+✖ point creation waits for Core acknowledgement before switching tool and selecting its object (0.8685ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   [
+  -     'tool',
+  -     'select'
+  -   ],
+  -   [
+  -     'select',
+  -     'G'
+  -   ]
+  - ]
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/map-click-async-command.test.mjs:37:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ [ 'tool', 'select' ], [ 'select', 'G' ] ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\map-click-async-command.test.mjs:41:1
+✖ point creation from a replaced project cannot select an old object or reset the new tool (0.3088ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - false
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/map-click-async-command.test.mjs:43:47)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\map-click-async-command.test.mjs:55:1
+✖ object chooser waits for the canonical selection acknowledgement and retains the captured intent (0.535ms)
+  TypeError: Cannot read properties of undefined (reading '0')
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/map-click-async-command.test.mjs:57:86)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\map-click-async-command.test.mjs:60:1
+✖ object chooser propagates its Worker rejection to the explicit chooser event boundary (0.4449ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/map-click-async-command.test.mjs:62:21)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests\unit\progressive-startup-runtime-contract.test.mjs:192:1
+✖ painted preview starts terrain without waiting for canonical data or terrain completion (179.6474ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/progressive-startup-runtime-contract.test.mjs:198:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\progressive-startup-runtime-contract.test.mjs:203:1
+✖ terrain rejection is handled independently of canonical startup (176.009ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/progressive-startup-runtime-contract.test.mjs:209:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\progressive-startup-runtime-contract.test.mjs:214:1
+✖ uncached saved geometry uses validated exact state while builtin preview stays disabled (231.942ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /await completeGeometryInitialization[\s\S]*if \(hasStoredCountryGeometry\) startTerrainLoading\(\)/. Input:
+  
+  'async function initProgressive() {\r\n' +
+    '    (0, dependencies.platformConfigurationB.assertRuntimeCompatibility)();\r\n' +
+    "    if (!window.d3) throw new Error('내장 지도 엔진을 불러올 수 없습니다. 페이지를 새로고침하세요.');\r\n" +
+    "    if (!window.PANDOLAB_COUNTRIES?.features?.length) throw new Error('미리보기 국가 데이터를 불러올 수 없습니다. 페이지를 새로고침하세요.');\r\n" +
+    '\r\n' +
+    '    const autosavePromise = resolveStartupSource({libraryGeometryContext,\r\n' +
+    '      restoreAutosave:()=>dependencies.lifecycleUi.projectUi.restoreAutosave()});\r\n' +
+    '    const autosaveRestore = await autosavePromise;\r\n' +
+    '    const savedProject = autosaveRestore.project;\r\n' +
+    '    const baseline = window.PANDOLAB_PREVIEW_BASELINE;\r\n' +
+    '    const previewInput=savedProject ? {project:savedProject,\r\n' +
+    '      territorialViews:(await dependencies.domains.projectDomain.inspectImport(savedProject)).territorialViews}:null;\r\n' +
+    '    const defaultPreview = !savedProject || matchesDefaultPreview(previewInput, baseline);\r\n' +
+    '    const cachedPreview = !defaultPreview && !libraryGeometryContext\r\n' +
+    '      ? await dependencies.domains.projectDomain.restorePreview(savedProject, previewInput) : null;\r\n' +
+    "    const previewSource = !savedProject ? {kind:'default'} : previewSourceForProject(previewInput, baseline, cachedPreview);\r\n" +
+    "    const hasStoredCountryGeometry = previewSource.kind === 'restore';\r\n" +
+    "    const sourceMonth = new Date().getFullYear()+'-'+String(new Date().getMonth()+1).padStart(2,'0');\r\n" +
+    '    const allowDefaultPreview = !dependencies.projectState.state.timelineCursor || dependencies.projectState.state.timelineCursor === sourceMonth;\r\n' +
+    "    const allowPreview = !hasStoredCountryGeometry && (previewSource.kind !== 'default' || allowDefaultPreview);\r\n" +
+    '    restoringCountryFirstPaint = hasStoredCountryGeometry;\r\n' +
+    '    if (hasStoredCountryGeometry) {\r\n' +
+    '      (0, dependencies.readinessUi.applyDataReadinessEvent)(dependencies.applicationConstantsA.READINESS_EVENTS.RESTORE_STARTED);\r\n' +
+    '    }\r\n' +
+    '    if (savedProject && !libraryGeometryContext) (0, dependencies.persistence.applyAutosavedView)(autosaveRestore.view);\r\n' +
+    '    if (savedProject) {\r\n' +
+    '      await restoreSavedProject(savedProject);\r\n' +
+    '    } else {\r\n' +
+    '      const classified = allowPreview\r\n' +
+    '        ? (0, dependencies.applicationServicesA.classifyBuiltinCountries)((0, dependencies.countryServices.normalizeCountryCollection)(window.PANDOLAB_COUNTRIES))\r\n' +
+    '        : { countries: { features: [] }, subunits: [] };\r\n' +
+    "      await admitFeatures([...classified.countries.features, ...classified.subunits], 'startup-preview-territories');\r\n" +
+    '    }\r\n' +
+    '    await (0, dependencies.objectCatalogView.pruneLayerItemVisibility)();\r\n' +
+    '    (0, dependencies.countries.scheduleCountryLabelAnchors)(null, 10);\r\n' +
+    '    (0, dependencies.objectDisplay.invalidateObjectPresentation)();\r\n' +
+    '    dependencies.projectState.state.boundaryPreparation?.cancel();\r\n' +
+    '    dependencies.projectState.state.boundaryPreparation = null;\r\n' +
+    '    (window.__PANDOLAB_STARTUP_METRICS__ ||= {}).rendererStatus = hasStoredCountryGeometry\r\n' +
+    "      ? '저장된 지도 형상을 준비하는 중입니다.'\r\n" +
+    "      : '빠른 미리보기 GPU 지도를 준비하는 중입니다.';\r\n" +
+    '\r\n' +
+    "    window.addEventListener('pandolab:geometry-progress', handleGeometryProgress);\r\n" +
+    "    window.addEventListener('pandolab:mesh-progress', handleMeshProgress);\r\n" +
+    "    window.addEventListener('pandolab:geometry-error', handleGeometryError);\r\n" +
+    "    window.addEventListener('pandolab:mesh-error', handleMeshError);\r\n" +
+    '    const { gpuInitializeMs } = await initializeStartupRuntime({ allowPreview,\r\n' +
+    "      preview: previewSource.kind === 'project' ? cachedPreview : null });\r\n" +
+    '    if (window.__PANDOLAB_STARTUP_METRICS__) {\r\n' +
+    '      const previewRenderer = dependencies.rendering.gpuMapRenderer.getRuntimeState();\r\n' +
+    '      window.__PANDOLAB_STARTUP_METRICS__.previewMeshUploadMs = gpuInitializeMs;\r\n' +
+    '      window.__PANDOLAB_STARTUP_METRICS__.renderer = previewRenderer.renderer;\r\n' +
+    '      window.__PANDOLAB_STARTUP_METRICS__.fallbackReason = previewRenderer.fallbackReason;\r\n' +
+    '      window.__PANDOLAB_STARTUP_METRICS__.devicePixelRatio = previewRenderer.devicePixelRatio;\r\n' +
+    '      window.__PANDOLAB_STARTUP_METRICS__.effectivePixelRatio = previewRenderer.effectivePixelRatio;\r\n' +
+    '    }\r\n' +
+    '    (0, dependencies.editorBindings.syncProjectControls)();\r\n' +
+    '    (0, dependencies.mapHostViewB.resizeMap)();\r\n' +
+    '    dependencies.lifecycleUi.projectUi.syncHistory();\r\n' +
+    "    await dependencies.domains.editingDomain.setTool('select', { announce: false });\r\n" +
+    '    if (allowPreview) {\r\n' +
+    '      const framePromise = dependencies.rendering.gpuMapRenderer.waitForPreviewFrame();\r\n' +
+    '      // Geometry preparation must never wait for a preview that the shared\r\n' +
+    '      // surface policy may withhold at the current scale.\r\n' +
+    '      framePromise.then(presented => {\r\n' +
+    '        if (presented && !(0, dependencies.readiness.canMutateProject)(dependencies.projectState.state.dataReadiness)) {\r\n' +
+    '          (0, dependencies.readinessUi.applyDataReadinessEvent)(dependencies.applicationConstantsA.READINESS_EVENTS.PREVIEW_READY);\r\n' +
+    '        }\r\n' +
+    "      }).catch(error => dependencies.feedback.reportOperationError(error, '미리보기 화면을 표시하지 못했습니다.', 'PL-PREVIEW-FRAME-001', 4200));\r\n" +
+    '    }\r\n' +
+    '    dependencies.startupCommands.markRuntimeReady();\r\n' +
+    '    const previewStart = { projection: dependencies.projectState.state.projection, viewJson: JSON.stringify(dependencies.projectState.state.view),\r\n' +
+    "      timelineMonth: dependencies.domains.commandOwner.state()?.timelineCursor || '',\r\n" +
+    '      projectGeneration: dependencies.rendering.gpuMapRenderer.getProjectGeneration?.() };\r\n' +
+    '    (0, dependencies.feedback.setActionStatus)(\r\n' +
+    "      hasStoredCountryGeometry ? '저장된 지도 복원 중…' : '정밀 경계 준비 중…',\r\n" +
+    "      'working',\r\n" +
+    '      0,\r\n' +
+    '    );\r\n' +
+    "    window.dispatchEvent(new CustomEvent('pandolab:interactive'));\r\n" +
+    '    if (window.__PANDOLAB_STARTUP_METRICS__?.geometryError) {\r\n' +
+    '      handleGeometryError({ detail: window.__PANDOLAB_STARTUP_METRICS__.geometryError });\r\n' +
+    '    }\r\n' +
+    '\r\n' +
+    '    let geometry;\r\n' +
+    '    try {\r\n' +
+    '      geometry = await window.PANDOLAB_CANONICAL_GEOMETRY_PROMISE;\r\n' +
+    '    } catch (error) {\r\n' +
+    '      if (Number.isFinite(previewStart.projectGeneration)\r\n' +
+    '        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== previewStart.projectGeneration) return;\r\n' +
+    "      console.error('[PL-GEOMETRY-LOAD-001]', error);\r\n" +
+    "      handleGeometryError({ detail: '저장된 지도 형상을 불러오지 못했습니다.' });\r\n" +
+    '      return;\r\n' +
+    '    }\r\n' +
+    '    if (Number.isFinite(previewStart.projectGeneration)\r\n' +
+    '      && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== previewStart.projectGeneration) return;\r\n' +
+    '    const previewEntities = hasStoredCountryGeometry ? [] : dependencies.territorialModel.entityStore.snapshot();\r\n' +
+    "    const previewCountries = { type: 'FeatureCollection', features: previewEntities.filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId)) };\r\n" +
+    '    dependencies.projectState.state.auditPreviewCountries = previewCountries;\r\n' +
+    '    let context;\r\n' +
+    '    try {\r\n' +
+    '      context = await completeGeometryInitialization(geometry, autosaveRestore, previewStart);\r\n' +
+    '    } catch (error) {\r\n' +
+    '      if (Number.isFinite(previewStart.projectGeneration)\r\n' +
+    '        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== previewStart.projectGeneration) return;\r\n' +
+    "      try { await admitFeatures(previewEntities, 'startup-preview-rollback'); }\r\n" +
+    '      catch (restoreError) { error.restoreError = restoreError; }\r\n' +
+    "      console.error('[PL-GEOMETRY-APPLY-001]', error);\r\n" +
+    '      (0, dependencies.readinessUi.applyDataReadinessEvent)(dependencies.applicationConstantsA.READINESS_EVENTS.GEOMETRY_ERROR);\r\n' +
+    '      (0, dependencies.spatialRecords.scheduleMapObjectSpatialIndexRebuild)();\r\n' +
+    "      dependencies.domains.renderingDomain?.invalidateProject?.('progressive-initialization');\r\n" +
+    "      handleGeometryError({ detail: '무손실 편집 지도를 적용하지 못했습니다.' });\r\n" +
+    '      return;\r\n' +
+    '    }\r\n' +
+    '    if (!context) return;\r\n' +
+    '    if (Number.isFinite(context.projectGeneration)\r\n' +
+    '      && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== context.projectGeneration) return;\r\n' +
+    '    // Without a matching project preview, preserve the neutral restore screen\r\n' +
+    '    // until exact geometry and saved display settings have been applied.\r\n' +
+    '    try {\r\n' +
+    '      if (!context.useBuiltInMesh) {\r\n' +
+    '        await completeMeshEnhancement(null, context);\r\n' +
+    '      } else {\r\n' +
+    '        if (window.__PANDOLAB_STARTUP_METRICS__?.meshError) {\r\n' +
+    '          handleMeshError({ detail: window.__PANDOLAB_STARTUP_METRICS__.meshError });\r\n' +
+    '        }\r\n' +
+    '        const mesh = await window.PANDOLAB_CANONICAL_MESH_PROMISE;\r\n' +
+    '        await completeMeshEnhancement(mesh, context);\r\n' +
+    '      }\r\n' +
+    '      if (Number.isFinite(context.projectGeneration)\r\n' +
+    '        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== context.projectGeneration) return;\r\n' +
+    '      if (savedProject && !cachedPreview) await dependencies.domains.projectDomain.ensurePreview(savedProject);\r\n' +
+    '    } catch (error) {\r\n' +
+    "      if (error?.name === 'AbortError' || (Number.isFinite(context.projectGeneration)\r\n" +
+    '        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== context.projectGeneration)) return;\r\n' +
+    "      console.error('[PL-MESH-APPLY-001]', error);\r\n" +
+    "      handleMeshError({ detail: '고화질 지도를 적용하지 못했습니다.' });\r\n" +
+    '      return;\r\n' +
+    '    }\r\n' +
+    '  }'
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/progressive-startup-runtime-contract.test.mjs:221:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "async function initProgressive() {\r\n    (0, dependencies.platformConfigurationB.assertRuntimeCompatibility)();\r\n    if (!window.d3) throw new Error('내장 지도 엔진을 불러올 수 없습니다. 페이지를 새로고침하세요.');\r\n    if (!window.PANDOLAB_COUNTRIES?.features?.length) throw new Error('미리보기 국가 데이터를 불러올 수 없습니다. 페이지를 새로고침하세요.');\r\n\r\n    const autosavePromise = resolveStartupSource({libraryGeometryContext,\r\n      restoreAutosave:()=>dependencies.lifecycleUi.projectUi.restoreAutosave()});\r\n    const autosaveRestore = await autosavePromise;\r\n    const savedProject = autosaveRestore.project;\r\n    const baseline = window.PANDOLAB_PREVIEW_BASELINE;\r\n    const previewInput=savedProject ? {project:savedProject,\r\n      territorialViews:(await dependencies.domains.projectDomain.inspectImport(savedProject)).territorialViews}:null;\r\n    const defaultPreview = !savedProject || matchesDefaultPreview(previewInput, baseline);\r\n    const cachedPreview = !defaultPreview && !libraryGeometryContext\r\n      ? await dependencies.domains.projectDomain.restorePreview(savedProject, previewInput) : null;\r\n    const previewSource = !savedProject ? {kind:'default'} : previewSourceForProject(previewInput, baseline, cachedPreview);\r\n    const hasStoredCountryGeometry = previewSource.kind === 'restore';\r\n    const sourceMonth = new Date().getFullYear()+'-'+String(new Date().getMonth()+1).padStart(2,'0');\r\n    const allowDefaultPreview = !dependencies.projectState.state.timelineCursor || dependencies.projectState.state.timelineCursor === sourceMonth;\r\n    const allowPreview = !hasStoredCountryGeometry && (previewSource.kind !== 'default' || allowDefaultPreview);\r\n    restoringCountryFirstPaint = hasStoredCountryGeometry;\r\n    if (hasStoredCountryGeometry) {\r\n      (0, dependencies.readinessUi.applyDataReadinessEvent)(dependencies.applicationConstantsA.READINESS_EVENTS.RESTORE_STARTED);\r\n    }\r\n    if (savedProject && !libraryGeometryContext) (0, dependencies.persistence.applyAutosavedView)(autosaveRestore.view);\r\n    if (savedProject) {\r\n      await restoreSavedProject(savedProject);\r\n    } else {\r\n      const classified = allowPreview\r\n        ? (0, dependencies.applicationServicesA.classifyBuiltinCountries)((0, dependencies.countryServices.normalizeCountryCollection)(window.PANDOLAB_COUNTRIES))\r\n        : { countries: { features: [] }, subunits: [] };\r\n      await admitFeatures([...classified.countries.features, ...classified.subunits], 'startup-preview-territories');\r\n    }\r\n    await (0, dependencies.objectCatalogView.pruneLayerItemVisibility)();\r\n    (0, dependencies.countries.scheduleCountryLabelAnchors)(null, 10);\r\n    (0, dependencies.objectDisplay.invalidateObjectPresentation)();\r\n    dependencies.projectState.state.boundaryPreparation?.cancel();\r\n    dependencies.projectState.state.boundaryPreparation = null;\r\n    (window.__PANDOLAB_STARTUP_METRICS__ ||= {}).rendererStatus = hasStoredCountryGeometry\r\n      ? '저장된 지도 형상을 준비하는 중입니다.'\r\n      : '빠른 미리보기 GPU 지도를 준비하는 중입니다.';\r\n\r\n    window.addEventListener('pandolab:geometry-progress', handleGeometryProgress);\r\n    window.addEventListener('pandolab:mesh-progress', handleMeshProgress);\r\n    window.addEventListener('pandolab:geometry-error', handleGeometryError);\r\n    window.addEventListener('pandolab:mesh-error', handleMeshError);\r\n    const { gpuInitializeMs } = await initializeStartupRuntime({ allowPreview,\r\n      preview: previewSource.kind === 'project' ? cachedPreview : null });\r\n    if (window.__PANDOLAB_STARTUP_METRICS__) {\r\n      const previewRenderer = dependencies.rendering.gpuMapRenderer.getRuntimeState();\r\n      window.__PANDOLAB_STARTUP_METRICS__.previewMeshUploadMs = gpuInitializeMs;\r\n      window.__PANDOLAB_STARTUP_METRICS__.renderer = previewRenderer.renderer;\r\n      window.__PANDOLAB_STARTUP_METRICS__.fallbackReason = previewRenderer.fallbackReason;\r\n      window.__PANDOLAB_STARTUP_METRICS__.devicePixelRatio = previewRenderer.devicePixelRatio;\r\n      window.__PANDOLAB_STARTUP_METRICS__.effectivePixelRatio = previewRenderer.effectivePixelRatio;\r\n    }\r\n    (0, dependencies.editorBindings.syncProjectControls)();\r\n    (0, dependencies.mapHostViewB.resizeMap)();\r\n    dependencies.lifecycleUi.projectUi.syncHistory();\r\n    await dependencies.domains.editingDomain.setTool('select', { announce: false });\r\n    if (allowPreview) {\r\n      const framePromise = dependencies.rendering.gpuMapRenderer.waitForPreviewFrame();\r\n      // Geometry preparation must never wait for a preview that the shared\r\n      // surface policy may withhold at the current scale.\r\n      framePromise.then(presented => {\r\n        if (presented && !(0, dependencies.readiness.canMutateProject)(dependencies.projectState.state.dataReadiness)) {\r\n          (0, dependencies.readinessUi.applyDataReadinessEvent)(dependencies.applicationConstantsA.READINESS_EVENTS.PREVIEW_READY);\r\n        }\r\n      }).catch(error => dependencies.feedback.reportOperationError(error, '미리보기 화면을 표시하지 못했습니다.', 'PL-PREVIEW-FRAME-001', 4200));\r\n    }\r\n    dependencies.startupCommands.markRuntimeReady();\r\n    const previewStart = { projection: dependencies.projectState.state.projection, viewJson: JSON.stringify(dependencies.projectState.state.view),\r\n      timelineMonth: dependencies.domains.commandOwner.state()?.timelineCursor || '',\r\n      projectGeneration: dependencies.rendering.gpuMapRenderer.getProjectGeneration?.() };\r\n    (0, dependencies.feedback.setActionStatus)(\r\n      hasStoredCountryGeometry ? '저장된 지도 복원 중…' : '정밀 경계 준비 중…',\r\n      'working',\r\n      0,\r\n    );\r\n    window.dispatchEvent(new CustomEvent('pandolab:interactive'));\r\n    if (window.__PANDOLAB_STARTUP_METRICS__?.geometryError) {\r\n      handleGeometryError({ detail: window.__PANDOLAB_STARTUP_METRICS__.geometryError });\r\n    }\r\n\r\n    let geometry;\r\n    try {\r\n      geometry = await window.PANDOLAB_CANONICAL_GEOMETRY_PROMISE;\r\n    } catch (error) {\r\n      if (Number.isFinite(previewStart.projectGeneration)\r\n        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== previewStart.projectGeneration) return;\r\n      console.error('[PL-GEOMETRY-LOAD-001]', error);\r\n      handleGeometryError({ detail: '저장된 지도 형상을 불러오지 못했습니다.' });\r\n      return;\r\n    }\r\n    if (Number.isFinite(previewStart.projectGeneration)\r\n      && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== previewStart.projectGeneration) return;\r\n    const previewEntities = hasStoredCountryGeometry ? [] : dependencies.territorialModel.entityStore.snapshot();\r\n    const previewCountries = { type: 'FeatureCollection', features: previewEntities.filter(feature => (feature.properties.entityKind === 'general' && !feature.properties.parentId)) };\r\n    dependencies.projectState.state.auditPreviewCountries = previewCountries;\r\n    let context;\r\n    try {\r\n      context = await completeGeometryInitialization(geometry, autosaveRestore, previewStart);\r\n    } catch (error) {\r\n      if (Number.isFinite(previewStart.projectGeneration)\r\n        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== previewStart.projectGeneration) return;\r\n      try { await admitFeatures(previewEntities, 'startup-preview-rollback'); }\r\n      catch (restoreError) { error.restoreError = restoreError; }\r\n      console.error('[PL-GEOMETRY-APPLY-001]', error);\r\n      (0, dependencies.readinessUi.applyDataReadinessEvent)(dependencies.applicationConstantsA.READINESS_EVENTS.GEOMETRY_ERROR);\r\n      (0, dependencies.spatialRecords.scheduleMapObjectSpatialIndexRebuild)();\r\n      dependencies.domains.renderingDomain?.invalidateProject?.('progressive-initialization');\r\n      handleGeometryError({ detail: '무손실 편집 지도를 적용하지 못했습니다.' });\r\n      return;\r\n    }\r\n    if (!context) return;\r\n    if (Number.isFinite(context.projectGeneration)\r\n      && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== context.projectGeneration) return;\r\n    // Without a matching project preview, preserve the neutral restore screen\r\n    // until exact geometry and saved display settings have been applied.\r\n    try {\r\n      if (!context.useBuiltInMesh) {\r\n        await completeMeshEnhancement(null, context);\r\n      } else {\r\n        if (window.__PANDOLAB_STARTUP_METRICS__?.meshError) {\r\n          handleMeshError({ detail: window.__PANDOLAB_STARTUP_METRICS__.meshError });\r\n        }\r\n        const mesh = await window.PANDOLAB_CANONICAL_MESH_PROMISE;\r\n        await completeMeshEnhancement(mesh, context);\r\n      }\r\n      if (Number.isFinite(context.projectGeneration)\r\n        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== context.projectGeneration) return;\r\n      if (savedProject && !cachedPreview) await dependencies.domains.projectDomain.ensurePreview(savedProject);\r\n    } catch (error) {\r\n      if (error?.name === 'AbortError' || (Number.isFinite(context.projectGeneration)\r\n        && dependencies.rendering.gpuMapRenderer.getProjectGeneration() !== context.projectGeneration)) return;\r\n      console.error('[PL-MESH-APPLY-001]', error);\r\n      handleMeshError({ detail: '고화질 지도를 적용하지 못했습니다.' });\r\n      return;\r\n    }\r\n  }",
+    expected: /await completeGeometryInitialization[\s\S]*if \(hasStoredCountryGeometry\) startTerrainLoading\(\)/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests\unit\territorial-command-storage.test.mjs:49:1
+✖ mixed country/subunit batch deletion uses the real Store, preserves cancel and records one history (223.8346ms)
+  TypeError: Cannot read properties of undefined (reading 'distributionLayerById')
+      at Object.connect (file:///D:/dev/worktrees/ui/assets/js/modules/app-object-commands.js:18:258)
+      at fixture (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:33:9)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:50:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests\unit\territorial-command-storage.test.mjs:61:1
+✖ batch deletion rechecks locks/children and rolls back a failed application (169.5897ms)
+  TypeError: Cannot read properties of undefined (reading 'distributionLayerById')
+      at Object.connect (file:///D:/dev/worktrees/ui/assets/js/modules/app-object-commands.js:18:258)
+      at fixture (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:33:9)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:62:18)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\territorial-command-storage.test.mjs:72:1
+✖ deletion confirmation cannot apply after the project generation changes (167.9715ms)
+  TypeError: Cannot read properties of undefined (reading 'distributionLayerById')
+      at Object.connect (file:///D:/dev/worktrees/ui/assets/js/modules/app-object-commands.js:18:258)
+      at fixture (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:33:9)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:73:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\territorial-command-storage.test.mjs:83:1
+✖ one object lock guard handles countries and units with explicit refs and rejects wrong identities (163.2127ms)
+  TypeError: Cannot read properties of undefined (reading 'distributionLayerById')
+      at Object.connect (file:///D:/dev/worktrees/ui/assets/js/modules/app-object-commands.js:18:258)
+      at fixture (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:33:9)
+      at async TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:84:13)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\territorial-command-storage.test.mjs:94:1
+✖ country construction remains detached until its owning Core command commits (2.8518ms)
+  TypeError: owner.createCountryFeature is not a function
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/territorial-command-storage.test.mjs:98:25)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\unit\unified-object-display.test.mjs:12:1
+✖ all territorial objects share one display group irrespective of kind or parent (2.218ms)
+  Error: 날짜 (없음)이(가) 올바르지 않습니다. 값이 필요합니다.
+      at temporalError (file:///D:/dev/worktrees/ui/assets/js/modules/temporal.js:39:17)
+      at parseTemporal (file:///D:/dev/worktrees/ui/assets/js/modules/temporal.js:65:11)
+      at point (file:///D:/dev/worktrees/ui/assets/js/modules/temporal.js:59:13)
+      at temporalMonthEnd (file:///D:/dev/worktrees/ui/assets/js/modules/temporal.js:77:17)
+      at isObjectAvailable (file:///D:/dev/worktrees/ui/assets/js/modules/object-query.js:55:67)
+      at Object.objectRefVisible (file:///D:/dev/worktrees/ui/assets/js/modules/object-query.js:36:15)
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/unified-object-display.test.mjs:18:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17) {
+    code: 'PL-TEMPORAL-001'
+  }
+
+test at tests\unit\unified-object-display.test.mjs:50:1
+✖ readonly picking selects through common rules without an editor service (2.2068ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   TypeError: Cannot read properties of undefined (reading 'objectRefVisible')
+  +       at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+  +       at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+  +       at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/unified-object-display.test.mjs:59:16)
+  +       at Test.runInAsyncScope (node:async_hooks:227:14)
+  +       at Test.run (node:internal/test_runner/test:1402:25)
+  +       at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+  +       at Test.postRun (node:internal/test_runner/test:1542:19)
+  +       at Test.run (node:internal/test_runner/test:1467:12)
+  +       at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/unified-object-display.test.mjs:60:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [
+      TypeError: Cannot read properties of undefined (reading 'objectRefVisible')
+          at objectRefSelectable (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:36:49)
+          at Object.handleMapClick (file:///D:/dev/worktrees/ui/assets/js/modules/object-picking.js:262:12)
+          at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/unified-object-display.test.mjs:59:16)
+          at Test.runInAsyncScope (node:async_hooks:227:14)
+          at Test.run (node:internal/test_runner/test:1402:25)
+          at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+          at Test.postRun (node:internal/test_runner/test:1542:19)
+          at Test.run (node:internal/test_runner/test:1467:12)
+          at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+    ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

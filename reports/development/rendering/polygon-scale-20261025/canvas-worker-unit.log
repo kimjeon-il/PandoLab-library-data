@@ -1,0 +1,33 @@
+✔ terrain keeps the physical mask when political objects are hidden or absent at the current time (21.2571ms)
+✔ Canvas terrain skips wholly offscreen triangles while keeping crossing and antialiased edge triangles (5.7394ms)
+✔ Canvas terrain demand ignores country preview and backing DPR, but follows source DPR (5.3079ms)
+✔ Canvas terrain acknowledges prepared coverage and its source limit in the actual frame (1.5231ms)
+✔ Canvas cannot acknowledge raster coverage while requested DEM and tint are pending (1.8184ms)
+✔ Canvas keeps world coverage and the physical mask independently of political geometry and visibility (2.8542ms)
+✔ Canvas reuses physical terrain through political changes and invalidates it for camera, physical mask and tile changes (3.5223ms)
+✔ Canvas neighbour prefetch does not redraw the ready viewport terrain (3.1182ms)
+✔ Canvas owner coalesces busy frames and closes stale bitmaps before notifying the presenter (2.207ms)
+✔ Canvas owner ignores delayed ready/error and settles picks on termination (0.4817ms)
+✔ unsolicited older-view bitmap does not release another view submission (0.504ms)
+✔ unsolicited same-view bitmap does not release another view submission (0.1911ms)
+✔ each actual submission gets a distinct completion identity even when its visual frame is reused (0.2359ms)
+✔ a matching stale-style completion releases its slot independently of bitmap acceptance (0.2729ms)
+✔ another project generation cannot acknowledge a matching request number (0.2368ms)
+✔ a replacement channel rejects cached old-project views before readiness without poisoning revisions (0.2564ms)
+✔ a replacement channel rejects cached old-project views after readiness without poisoning revisions (0.18ms)
+✔ termination drops queued views and late completions cannot release a replacement channel (0.7218ms)
+✔ render errors reach the owner and termination clears its outstanding work (0.5214ms)
+✔ native errors reach the owner and termination clears its outstanding work (0.1845ms)
+✔ the real Canvas Worker reuses unchanged projected country geometry across replace-data (23.8317ms)
+✔ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (5.4403ms)
+✔ a Worker-skipped older view acknowledges completion without rendering a bitmap (5.4119ms)
+✔ the Worker reports direct and spontaneous render failures through its existing error boundary (4.4384ms)
+✔ pick failures reject their own request and keep the Canvas worker alive (0.8396ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 230.9365

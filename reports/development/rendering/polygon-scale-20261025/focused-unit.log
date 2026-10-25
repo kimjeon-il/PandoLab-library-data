@@ -1,0 +1,47 @@
+✔ Canvas land uses the admitted physical packet independently from countries (5.3826ms)
+✔ Canvas pending surface suppresses regional fills as well as country fills (16.5718ms)
+✔ CSS scale uses inclusive thresholds, keeps history in the band and starts precise (1.0158ms)
+✔ projection, DPR, device and dragging cannot change the same CSS scale decision (0.218ms)
+✔ focus, selection and editing protect precise geometry at low scale (1.2571ms)
+✔ invalid scale cannot silently choose simplified geometry (0.2269ms)
+✔ one surface decision withholds both country and land preview at high scale while precise data is pending (1.012ms)
+✔ a verified low-scale surface can return to simplified display after precise preparation (0.1561ms)
+✔ selection and missing or invalid derivatives cannot silently admit a simplified surface (0.191ms)
+✔ political prepares the common land mask before its terrain passes (4.7703ms)
+✔ physical prepares the common land mask before its terrain passes (0.3072ms)
+✔ WebGL mixes overlays by order and protects base water and borders from fills (3.2021ms)
+✔ changing overlay order keeps the frontmost stroke or fill aligned with canonical picking (17.386ms)
+✔ Canvas consumes line and fill packets in the same overlay order (3.0067ms)
+✔ prepared-only polygon submission reports a missing resource without allocating or enqueueing (2.7294ms)
+✔ selection prepares each shared country packet once and forwards prepared-only drawing (1.7539ms)
+✔ base pass draws map substrate before terrain and preserves territory, country, water and stroke order (1.5533ms)
+✔ overlay preparation defers excess work and keeps protected uploads within the existing budget policy (1.0168ms)
+✔ same-key polygon revision and LOD replacements are prepared before draw (2.3938ms)
+✔ same-key stroke revision and LOD replacements are prepared before draw (9.5532ms)
+✔ same-key polygon replacements obey the frame budget and resume next frame (0.8968ms)
+✔ selection preparation attributes resource build and upload metrics without double counting draw (1.037ms)
+✔ interaction pass submits prepared priorities and ranges then composites before selection and strokes (2.0783ms)
+✔ interaction pass skips unneeded water/border masks when no GPU fill is requested (0.5689ms)
+✔ display admission measures removed vertices at the maximum simplified scale (3.1346ms)
+✔ coarse, shifted, missing-island and mismatched-source derivatives are not display eligible (0.4175ms)
+✔ display admission preserves input and accepts rotated rings while rejecting changed winding (0.4303ms)
+✔ a hole cannot become an independent island, and self crossing is rejected (0.4927ms)
+✔ two owners must simplify a shared arc identically (0.7763ms)
+✔ collinear lon/lat vertices are not interchangeable with a distant great-circle edge (0.2209ms)
+✔ paired land keeps unowned islands and holes and follows the country retention decisions (1.7274ms)
+✔ progressive and canonical startup share one ordered runtime initializer (299.1279ms)
+✔ saved geometry is classified before any first-map source is chosen (106.5284ms)
+✔ canonical promotion discards a worker initialized from preview geometry before editing resumes (50.3909ms)
+✔ canonical geometry reaches the common Store before editing resumes while the detailed mesh is pending (488.2403ms)
+✔ canonical startup becomes editable without waiting for a preview frame (557.7381ms)
+✔ preview frame failure is reported without blocking canonical startup (400.0378ms)
+✔ uncached saved geometry uses validated exact state while builtin preview stays disabled (674.4659ms)
+✔ territorial hits use the displayed geometry and withhold pending surfaces (635.0064ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4152.0571
