@@ -1,0 +1,122 @@
+✔ terrain keeps the physical mask when political objects are hidden or absent at the current time (31.3873ms)
+✔ Canvas terrain skips wholly offscreen triangles while keeping crossing and antialiased edge triangles (10.2456ms)
+✔ Canvas terrain demand ignores country preview and backing DPR, but follows source DPR (31.2559ms)
+✔ Canvas terrain acknowledges prepared coverage and its source limit in the actual frame (3.2263ms)
+✔ Canvas cannot acknowledge raster coverage while requested DEM and tint are pending (1.2817ms)
+✔ Canvas keeps world coverage and the physical mask independently of political geometry and visibility (3.6808ms)
+✔ Canvas reuses physical terrain through political changes and invalidates it for camera, physical mask and tile changes (2.1889ms)
+✔ Canvas neighbour prefetch does not redraw the ready viewport terrain (4.7273ms)
+✔ flags require zoom, toggle, per-type eligibility and an actual flag (1.3778ms)
+✔ collision drops only flags and never mutates or removes name candidates (1.1967ms)
+✔ presentation transfer preserves doubles, holes, polygon order and IDs without detaching source geometry (11.8021ms)
+✔ packing yields within a large ring and stops an obsolete request before dispatch (14.0805ms)
+✔ prepared country geometry stays hidden until its background frame is presented (1.0485ms)
+✔ CSS scale uses inclusive thresholds, keeps history in the band and starts precise (0.2101ms)
+✔ projection, DPR, device and dragging cannot change the same CSS scale decision (1.1072ms)
+✔ focus, selection and editing protect precise geometry at low scale (0.2022ms)
+✔ invalid scale cannot silently choose simplified geometry (0.1801ms)
+✔ one surface decision withholds both country and land preview at high scale while precise data is pending (0.8943ms)
+✔ a verified low-scale surface can return to simplified display after precise preparation (0.1736ms)
+✔ selection and missing or invalid derivatives cannot silently admit a simplified surface (0.2289ms)
+✔ project replacement retains a ready worker and rejects old completion without releasing the new frame (1.8275ms)
+✔ Canvas owner coalesces busy frames and closes stale bitmaps before notifying the presenter (0.9952ms)
+✔ Canvas owner ignores delayed ready/error and settles picks on termination (0.5613ms)
+✔ unsolicited older-view bitmap does not release another view submission (0.5582ms)
+✔ unsolicited same-view bitmap does not release another view submission (0.3208ms)
+✔ each actual submission gets a distinct completion identity even when its visual frame is reused (0.3612ms)
+✔ a matching stale-style completion releases its slot independently of bitmap acceptance (0.3462ms)
+✔ another project generation cannot acknowledge a matching request number (0.2699ms)
+✔ a replacement channel rejects cached old-project views before readiness without poisoning revisions (0.3031ms)
+✔ a replacement channel rejects cached old-project views after readiness without poisoning revisions (0.3722ms)
+✔ termination drops queued views and late completions cannot release a replacement channel (0.4123ms)
+✔ render errors reach the owner and termination clears its outstanding work (0.4142ms)
+✔ native errors reach the owner and termination clears its outstanding work (1.5147ms)
+✔ the real Canvas Worker reuses unchanged projected country geometry across replace-data (31.883ms)
+✔ Canvas data acknowledgements identify their project and obsolete data cannot acknowledge a new project (9.1196ms)
+✔ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (24.3091ms)
+✔ a Worker-skipped older view acknowledges completion without rendering a bitmap (5.278ms)
+✔ the Worker reports direct and spontaneous render failures through its existing error boundary (14.6563ms)
+✔ pick failures reject their own request and keep the Canvas worker alive (3.9494ms)
+✔ polygon preparation accepts finite progress across a long batch but still times out a stalled batch (5.3592ms)
+✔ full rebuild owner settles replaced, stale and disposed requests and preserves payload (1.2284ms)
+✔ newer polygon preparation terminates busy refinement and adopts only its reply (1.303ms)
+✔ patch worker owner preserves payload shape and ignores late replies after cancellation (0.7038ms)
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:170:33
+지형 타일을 불러오지 못했습니다: dem Error: options unsupported
+    at globalThis.createImageBitmap (file:///D:/dev/worktrees/ui/tests/unit/gpu-terrain-preparation.test.mjs:456:72)
+    at file:///D:/dev/worktrees/ui/assets/js/modules/gpu-terrain-preparation.js:173:30 {
+  demDecodeFailure: true
+}
+✔ dem-relief-v1 publishes current detail without downloading the offscreen world reserve (49.1222ms)
+✔ raster-rgba-v1 publishes current detail without downloading the offscreen world reserve (2.9736ms)
+✔ country preview cannot cap terrain detail requested by a high-DPR camera (3.3378ms)
+✔ terrain camera LOD uses the visual frame DPR when the backing canvas lowers its DPR (2.5708ms)
+✔ terrain readiness requires uploaded world reserve and reports the source resolution limit (6.8795ms)
+✔ exhausted target failures report unusable coverage instead of waiting forever (28.2994ms)
+✔ exhausted target and reserve failures report unusable coverage instead of waiting forever (19.9312ms)
+✔ after world base the camera requests target terrain directly without intermediate detail levels (0.9666ms)
+✔ complete world base stays protected while GPU-ready detail replaces visible regions (4.8053ms)
+✔ rotating the mobile globe drops queued tiles from the old view (2.0523ms)
+✔ a new viewport starts its requests without waiting for obsolete in-flight downloads (0.8821ms)
+✔ a request batch starts center tiles before viewport-edge tiles (0.6342ms)
+✔ desktop starts six visible downloads while missing current tiles; mobile remains at two (0.857ms)
+✔ in-flight neighbouring prefetch cannot block queued tiles in the current viewport (1.5805ms)
+✔ zoom transition 1 to 2 admits fallback only at low scale while replacement uploads (5.9817ms)
+✔ zoom transition 2 to 1 admits fallback only at low scale while replacement uploads (7.2908ms)
+✔ an already queued tile gains current-view priority instead of keeping its prefetch priority (0.6166ms)
+✔ project reset rejects old terrain failures without retry or replacement request corruption (0.2867ms)
+✔ context loss closes a late decoded bitmap and never queues it for upload (0.4753ms)
+✔ terrain upload measures the decoded bitmap before close and deduplicates requests (0.4366ms)
+✔ terrain cache evicts the least recently used unretained tile when the byte budget is exceeded (0.6679ms)
+✔ DEM decoding never retries with color-managed bitmap defaults (1.0751ms)
+✔ DEM tint upload is counted in the same budget and released on reset (0.7741ms)
+✔ DEM has a valid neutral tint sampler while color is delayed without changing cached height tiles (0.9783ms)
+✔ upload keys deduplicate and only complete after all chunks (6.7815ms)
+✔ input holds uploads until 500ms after release (0.3266ms)
+✔ shared time budget stops another consumer after an atomic overrun (0.9549ms)
+✔ generation cancellation disposes staging and rejects rather than committing (0.6728ms)
+✔ spatial preparation preserves primitive winding, coordinates and country ranges (2.0559ms)
+✔ spatial blocks reject rear hemisphere while retaining the front geometry (0.7528ms)
+✔ invalid block ranges fall back rather than submitting invalid indices (0.2694ms)
+✔ large spatial partitions preserve every oriented primitive and use bounded median selection (129.4359ms)
+✔ a reusable scene image cannot bypass the canonical current-view terrain preparation (2.3481ms)
+✔ visible uploads make bounded progress during a held gesture without releasing deferred jobs (0.8353ms)
+✔ visible uploads do not inherit the 500ms quiet delay and yield to pending input (0.2544ms)
+✔ hidden contexts and generation cancellation still prevent visible uploads (1.6842ms)
+✔ same terrain and graphics context survive project replacement without reloading or uploading (30.4319ms)
+✔ high-scale target delays cannot expose a magnified world-base tile (4.0607ms)
+✔ document cancellation cannot discard already decoded terrain uploads (1.6959ms)
+✔ real terrain owner presents downloaded detail before a continuous gesture ends (3.3386ms)
+✔ neighbour prefetch cannot start before visible tiles are GPU-ready (1.4336ms)
+✔ prefetch uses spare capacity and releases both fetch slots when the current viewport changes (2.1348ms)
+ℹ tests 85
+ℹ suites 0
+ℹ pass 85
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 708.1132
