@@ -1,0 +1,13 @@
+
+Running 3 tests using 1 worker
+
+(node:13792) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"cold":{"featureCount":207,"builtCount":207,"reusedCount":0,"hashMs":158.89999973773956,"triangulationMs":10768.600000232458,"assemblyMs":27.19999998807907,"slowestFeature":{"id":"RUS","ms":1351.699999988079},"cacheBytes":40402456,"strokeMs":658.6999999880791,"spatialMs":1193.0999999940395,"totalMs":14074},"warm":{"featureCount":207,"builtCount":207,"reusedCount":0,"hashMs":158.89999973773956,"triangulationMs":10768.600000232458,"assemblyMs":27.19999998807907,"slowestFeature":{"id":"RUS","ms":1351.699999988079},"cacheBytes":40402456,"strokeMs":658.6999999880791,"spatialMs":1193.0999999940395,"totalMs":14074},"background":25050.69999998808,"countries":25105.90000000596,"uploads":26}
+  ok 1 tests\browser\map-startup-publication.spec.mjs:3:1 › Web publishes sharp ocean and land before countries, then reuses prepared terrain and meshes (31.3s)
+{"renderer":"webgl2","before":{"mesh":1,"boundary":3,"hydro":15759004,"terrain":28},"after":{"mesh":1,"boundary":3,"hydro":15759004,"terrain":28},"additionalRequests":0,"additionalWorkers":0}
+  ok 2 tests\browser\resource-dependency-reuse.spec.mjs:14:43 › webgl2: unchanged date queries retain prepared resources (44.6s)
+{"renderer":"canvas","before":{"boundary":3,"hydro":0,"terrain":0},"after":{"boundary":3,"hydro":0,"terrain":0},"additionalRequests":0,"additionalWorkers":0}
+  ok 3 tests\browser\resource-dependency-reuse.spec.mjs:14:43 › canvas: unchanged date queries retain prepared resources (33.6s)
+
+  3 passed (1.9m)

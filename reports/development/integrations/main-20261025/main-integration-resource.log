@@ -1,0 +1,188 @@
+✔ Canvas country data identity ignores presentation wrappers but follows geometry and membership (1.9836ms)
+✔ terrain keeps the physical mask when political objects are hidden or absent at the current time (33.4594ms)
+✔ Canvas terrain skips wholly offscreen triangles while keeping crossing and antialiased edge triangles (27.6149ms)
+✔ Canvas terrain demand ignores country preview and backing DPR, but follows source DPR (12.3515ms)
+✔ Canvas terrain acknowledges prepared coverage and its source limit in the actual frame (1.8777ms)
+✔ Canvas cannot acknowledge raster coverage while requested DEM and tint are pending (1.9319ms)
+✔ Canvas keeps world coverage and the physical mask independently of political geometry and visibility (4.4591ms)
+✔ Canvas reuses physical terrain through political changes and invalidates it for camera, physical mask and tile changes (10.0075ms)
+✔ Canvas neighbour prefetch does not redraw the ready viewport terrain (5.1812ms)
+✔ service queries expose the same immutable accepted domain rows without writable stores (57.6159ms)
+✔ document load replaces the same readonly facade atomically and releases the prior geometry archive and diagnostic (7.5287ms)
+✔ accepted replacement reuses equal immutable geometry while rejecting changed coordinates under the same reference (2.8986ms)
+✔ a complete C++ document delta changes only its authoritative object and retains every other domain exactly (3.873ms)
+✔ authoritative vector indices preserve multi-create order independently of delta object ordering (4.7104ms)
+✔ whole-project history removal drops obsolete geometry versions and never reorders unrelated content (7.9733ms)
+✔ a canonical archive delta can re-admit an existing identical version without duplicating or reallocating it (9.3442ms)
+✔ authoritative domain order can reorder existing rows while provenance remains outside stored JSON (3.6282ms)
+✔ an incomplete authoritative order rejects the entire delta without publishing any read state (3.3648ms)
+✔ current document world rows share immutable authoritative identities/archive without another writable timeline source (6.7409ms)
+✔ world projection rejects stale epochs and invalid refs without modifying the accepted document (1.6121ms)
+✔ accepted metadata acknowledgements reproject current C++ rows while retaining unchanged view and geometry allocations (4.4445ms)
+✔ authoritative header patches preserve explicit null and missing fields without admitting a second domain writer (9.0274ms)
+✔ a retained C++ candidate projects immutable preview rows without publishing document, world or archive changes (4.0334ms)
+✔ failed boundary preparation exposes a retry through the real rebuild contract (7.8891ms)
+✔ pending precise resources cannot change the requested CSS scale band (1.5033ms)
+✔ unchanged country geometry skips complete preparation across a project generation (5.1752ms)
+✔ an unchanged boundary request shares the current in-flight preparation (1.9047ms)
+✔ reusing a completed mesh invalidates an older rebuild delivery token (1.6793ms)
+✔ focus and property editing retain precise geometry until explicitly released (1.2069ms)
+✔ project replacement and projection changes reset the transition band to precise (0.8891ms)
+✔ project replacement retains a ready worker and rejects old completion without releasing the new frame (3.6084ms)
+✔ Canvas owner coalesces busy frames and closes stale bitmaps before notifying the presenter (1.1247ms)
+✔ Canvas owner ignores delayed ready/error and settles picks on termination (0.5435ms)
+✔ unsolicited older-view bitmap does not release another view submission (0.376ms)
+✔ unsolicited same-view bitmap does not release another view submission (0.2016ms)
+✔ each actual submission gets a distinct completion identity even when its visual frame is reused (0.2703ms)
+✔ a matching stale-style completion releases its slot independently of bitmap acceptance (1.4691ms)
+✔ another project generation cannot acknowledge a matching request number (0.348ms)
+✔ a replacement channel rejects cached old-project views before readiness without poisoning revisions (0.3904ms)
+✔ a replacement channel rejects cached old-project views after readiness without poisoning revisions (0.3431ms)
+✔ termination drops queued views and late completions cannot release a replacement channel (0.5667ms)
+✔ render errors reach the owner and termination clears its outstanding work (0.7271ms)
+✔ native errors reach the owner and termination clears its outstanding work (1.4826ms)
+✔ the real Canvas Worker reuses unchanged projected country geometry across replace-data (76.4022ms)
+✔ Canvas data acknowledgements identify their project and obsolete data cannot acknowledge a new project (7.1642ms)
+✔ the Worker echoes a submission identity only for its direct view result, never a hydro redraw (30.0602ms)
+✔ a Worker-skipped older view acknowledges completion without rendering a bitmap (7.2711ms)
+✔ the Worker reports direct and spontaneous render failures through its existing error boundary (10.2877ms)
+✔ pick failures reject their own request and keep the Canvas worker alive (0.86ms)
+✔ equal manifest content retains its Worker across cloned metadata (4.6653ms)
+✔ equal immutable pack delivery and a transport retry retain prepared pack allocations (4.4287ms)
+✔ document generation changes retain uploaded hydro buffers in the same context (2.2593ms)
+✔ a ready Worker crash retires its generation and settles both RPC kinds without removing packs (2.4029ms)
+✔ pack reuse, pruning, source replacement and disposal pair each registration with retirement (2.8207ms)
+✔ retiring a replaced pack unregisters it before cancelling upload and releasing its buffers (1.9096ms)
+✔ feature RPC timeout retires the entire Worker and ignores late replies (1.0613ms)
+✔ query RPC timeout retires the entire Worker and ignores late replies (0.6333ms)
+✔ RPC replies and typed errors cancel their timers without retiring a healthy Worker (0.9777ms)
+✔ hydro owner owns readiness, restart RPC settlement, stale delivery and request payloads (0.8155ms)
+✔ hydro owner rejects older packs and owns chunked uploads and context cancellation (0.9189ms)
+✔ hydro readiness timeout settles false and makes late ready inert (0.7859ms)
+✔ replacing an edit during upload releases its buffers without treating segment counts as WebGL buffers (1.7069ms)
+✔ a stroke domain retains A while every replacement resource in B is prepared (3.4711ms)
+✔ failed and stale presentation cannot release A or promote a prepared B (0.4504ms)
+✔ an aggregate visibility scope change rejects the old boundary archive while replacement uploads wait (0.3613ms)
+✔ adding a visible object preserves the still-valid old aggregate during its replacement upload (0.2751ms)
+✔ same-key revisions get independent GPU resource identities (0.2328ms)
+✔ deleting a distribution sibling sharing an objectKey removes that exact visual while another upload waits (0.2686ms)
+✔ a superseded ready B cannot replace the current desired C or an A return (1.1584ms)
+✔ independent domains can promote while another retains its old strokes (0.2477ms)
+✔ empty domains, removed objects and disabled strokes do not leave old geometry (0.3294ms)
+✔ a new project can reuse the exact requested resource but cannot display previous project fallback (0.4643ms)
+✔ a failed prepared B draw redraws eligible A before publication and cannot promote B (1.7016ms)
+✔ failure of both B and eligible A is a failed presentation with no promotion (0.5625ms)
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 2/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: 0/0-0 Error: 지형 타일 HTTP 503
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:172:33
+지형 타일을 불러오지 못했습니다: dem Error: options unsupported
+    at globalThis.createImageBitmap (file:///D:/dev/PandoLab/tests/unit/gpu-terrain-preparation.test.mjs:456:72)
+    at file:///D:/dev/PandoLab/assets/js/modules/gpu-terrain-preparation.js:175:30 {
+  demDecodeFailure: true
+}
+✔ dem-relief-v1 publishes current detail without downloading the offscreen world reserve (36.1816ms)
+✔ raster-rgba-v1 publishes current detail without downloading the offscreen world reserve (7.0411ms)
+✔ country preview cannot cap terrain detail requested by a high-DPR camera (14.2405ms)
+✔ terrain camera LOD uses the visual frame DPR when the backing canvas lowers its DPR (1.82ms)
+✔ terrain readiness requires uploaded world reserve and reports the source resolution limit (3.429ms)
+✔ exhausted target failures report unusable coverage instead of waiting forever (7.6468ms)
+✔ exhausted target and reserve failures report unusable coverage instead of waiting forever (6.9635ms)
+✔ after world base the camera requests target terrain directly without intermediate detail levels (1.0364ms)
+✔ complete world base stays protected while GPU-ready detail replaces visible regions (31.5218ms)
+✔ rotating the mobile globe drops queued tiles from the old view (4.3013ms)
+✔ a new viewport starts its requests without waiting for obsolete in-flight downloads (1.2565ms)
+✔ a request batch starts center tiles before viewport-edge tiles (0.6529ms)
+✔ desktop starts six visible downloads while missing current tiles; mobile remains at two (18.4873ms)
+✔ in-flight neighbouring prefetch cannot block queued tiles in the current viewport (24.0348ms)
+✔ zoom transition 1 to 2 admits fallback only at low scale while replacement uploads (7.2003ms)
+✔ zoom transition 2 to 1 admits fallback only at low scale while replacement uploads (6.3817ms)
+✔ an already queued tile gains current-view priority instead of keeping its prefetch priority (0.7202ms)
+✔ project reset rejects old terrain failures without retry or replacement request corruption (0.3084ms)
+✔ context loss closes a late decoded bitmap and never queues it for upload (0.5498ms)
+✔ terrain upload measures the decoded bitmap before close and deduplicates requests (0.4443ms)
+✔ terrain cache evicts the least recently used unretained tile when the byte budget is exceeded (0.6217ms)
+✔ DEM decoding never retries with color-managed bitmap defaults (1.0117ms)
+✔ DEM tint upload is counted in the same budget and released on reset (0.8196ms)
+✔ DEM has a valid neutral tint sampler while color is delayed without changing cached height tiles (2.2382ms)
+✔ search Shift range follows displayed sorting across object groups and sets clicked primary (1807.0466ms)
+✔ search rerender replaces the range order with the newly visible results (1983.5937ms)
+✔ an unrelated global revision retains the same search rows and flag image allocations (1580.4925ms)
+✔ late builtin results cannot replace a newer query or a cleared search (2899.8602ms)
+✔ cancelled search can retry the same prefix after interaction settles (1829.7713ms)
+✔ closing search cancels its result lifetime and opening resumes the same prefix (636.6538ms)
+✔ editable copies suppress their builtin source in current search rows without another Worker query (1060.7666ms)
+✔ single result selection closes search and releases list hover without needing pointerout (899.2215ms)
+✔ explicit close and the real app Escape handler release only inactive search hover (1347.961ms)
+✔ cancelling or refreshing still-open search retains its valid row hover and selection (818.5652ms)
+✔ inactive list cleanup preserves a newer map or other named hover owner (3931.2013ms)
+✔ a late leave for an old row cannot erase the newer list key, but closing its owner can (1344.7452ms)
+✔ inactive cleanup is idempotent and is not suppressed by map movement (2549.1077ms)
+✔ real navigation/place composition preserves open search hover while moving blocks requests (479.9019ms)
+✔ request inactivity without an explicit closed surface never triggers hover cleanup (548.3761ms)
+✔ a late cancellation after reopening cannot clear the current visible list hover (683.9441ms)
+✔ cached builtin results follow current month and visibility and restore the unchanged query (5.1651ms)
+✔ date reevaluation with equal place records retains the admitted snapshot and its allocations (29.0018ms)
+✔ reference search ignores interaction and presentation without publishing project identities (2.3004ms)
+✔ reference search uses the scheduler abort signal and rejects after disposal (146.9495ms)
+✔ disposal retires a pending identity admission failure without reporting a place load error (1.2164ms)
+✔ manifest URL crosses the Worker boundary as a string (0.5505ms)
+✔ interaction cancels viewport work and latest settled snapshot publishes atomically (18.0529ms)
+✔ canonical selection remains resolvable after bounded search retention eviction (8.5889ms)
+✔ out of order viewport completion and async failure cannot replace current snapshot (2.4012ms)
+✔ load/new publish one event, render and autosave after Core replacement and remain clean (1736.3904ms)
+✔ project preview cache operations pass through ProjectDomain (197.968ms)
+✔ failed platform replacement restores the canonical full project and history without success effects (2359.8445ms)
+✔ new project retains its replacement boundary until the prepared visual swap acknowledges (2491.4579ms)
+✔ whole Core undo/redo emit one lifecycle sequence and empty history has no effects (1077.3667ms)
+✔ undo and redo retain the Core saved checkpoint of the complete document (1032.5931ms)
+✔ invalid file preparation changes no live model, history, generation or platform effects (454.7534ms)
+✔ file save owns I/O status and detached Core output without history/render/autosave effects (815.3048ms)
+✔ new edits during a held device write stay dirty and duplicate saves do not dispatch (1352.9948ms)
+✔ unsupported autosaves allow creation without clearing the protected slots; conflicts block creation (1726.9428ms)
+✔ createProject exposes selected month first and persists canonical setup without slicing records (586.4859ms)
+✔ creation rejects invalid settings without replacing the project; empty source has no content (582.4425ms)
+✔ creation period rejects out-of-range navigation and keeps project records intact (968.3627ms)
+✔ one dependency contract preserves equal inputs and isolates presentation and context changes (5.2954ms)
+✔ initial preparation and non-GPU resources use the same contract without optional missing keys (2.4635ms)
+✔ structured dependency keys are deterministic without reference identity or property order (0.4633ms)
+✔ classic Workers execute the generated copy of the same policy contract (2.0145ms)
+✔ ID-only metadata, lock and removal preserve unrelated entity types (1537.8567ms)
+✔ partial changes retain unrelated row identity and full replacement restores exact membership (1671.5296ms)
+✔ country source boundary retains empty names and common styles (0.9582ms)
+✔ one C++ document stores metadata and geometry for both kinds and exposes no writable Store aliases (751.7978ms)
+✔ hierarchy root follows subtree reparenting and a rejected cycle is atomic (1330.0421ms)
+✔ dependent reassignment and removal commit once while invalid partial results commit nothing (490.5528ms)
+✔ reparenting retains descendants in a single accepted command (441.1768ms)
+✔ Undo/Redo restore metadata, geometry, parent records, archive and Core dirty IDs together (490.0124ms)
+✔ current document admission rejects retired fields and malformed parents without changing the owner (1307.0206ms)
+✔ bulk source admission creates every binding once with exact source coordinates (1405.8082ms)
+✔ bulk geometry edits allocate above unreferenced versions and preserve whole archive history (1132.5887ms)
+ℹ tests 151
+ℹ suites 0
+ℹ pass 151
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28929.9462

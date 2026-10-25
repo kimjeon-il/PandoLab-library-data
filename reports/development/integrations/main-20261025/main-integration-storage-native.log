@@ -1,0 +1,60 @@
+✔ remote artifact selection rejects another workflow, source commit or fork (1.0971ms)
+Native CI https://github.com/owner/repo/actions/runs/101: completed/success
+✔ a real Git source resolves to an immutable CI view and cached execution needs no GitHub access (7992.3322ms)
+Native CI https://github.com/owner/repo/actions/runs/101: completed/success
+✔ changed downloaded bytes never replace the active branch pointer (4961.9237ms)
+Native CI https://github.com/owner/repo/actions/runs/101: completed/success
+✔ an expired artifact reruns its exact source workflow once and resumes the request (4139.3937ms)
+Native CI https://github.com/owner/repo/actions/runs/101: completed/success
+✔ a transient Windows gh read spawn is retried without duplicating a workflow request (3899.0405ms)
+Native CI https://github.com/owner/repo/actions/runs/101: completed/success
+Native CI https://github.com/owner/repo/actions/runs/101: completed/success
+✔ a partial failed download retries without replacing a running runtime or requiring a compiler (7535.1369ms)
+✔ development identity follows native inputs while allowing frontend and runtime pin changes (1132.321ms)
+✔ changing artifact download orchestration does not recompile an unchanged native backend (263.4261ms)
+✔ native modes reject invalid platforms and offline identity includes the frontend and data pin (437.3194ms)
+✔ offline binary inputs retain exact bytes rather than lossy UTF8 text (1042.5609ms)
+✔ bundle verification checks every byte before accepting platform, mode and input identity (139.6259ms)
+✔ APK signer extraction is bounded and does not require a local Java SDK (1.5231ms)
+✔ native CI selects only affected platforms and frontend edits do not compile native shells (1.4056ms)
+✔ bundle rejects unlisted payloads before they reach the immutable store (418.3165ms)
+✔ Android documentation does not invalidate the native runtime identity (427.7472ms)
+✔ producer changes invalidate native identity and staging changes invalidate offline identity (434.4582ms)
+✔ device launch selects only an authorized physical device and requires an explicit serial when ambiguous (1.7052ms)
+✔ ordinary storage exposes error reporting but no verification commands (4.1314ms)
+✔ project bridge roundtrips binary bytes through bounded native chunks (3.5944ms)
+✔ a document above the prior 1 MiB cap is transferred without a whole-file Base64 value (642.9103ms)
+✔ oversized document is blocked before IPC while tiny probe remains bounded (4.4675ms)
+✔ cancelled user selection is not counted as saved project (0.7734ms)
+✔ GIS ZIP and multiselect retain native formats and filename identity (2.13ms)
+✔ native errors abort the transfer and leave the owning file state unchanged (1.4977ms)
+✔ shared originals reject in-place writes and private copies isolate owner changes (179.0832ms)
+✔ removing one readonly view keeps the shared blob and other view immutable (205.0558ms)
+✔ a changed or linked content-pool object is never overwritten (62.4629ms)
+✔ exclusive temporary-file collisions preserve the earlier unfinished work (92.3516ms)
+✔ an independent readonly edit becomes writable while the pool itself stays immutable (38.8328ms)
+✔ explicit owned external views share immutable bytes and isolate edits (197.0114ms)
+✔ external views reject junctions and permission recovery preserves immutable peers (73.8068ms)
+✔ standalone application Git compaction preserves unreachable objects and all worktree states (20004.4228ms)
+✔ migration resumes, retains dirty bytes independently, compacts all local objects and removes actual old copies (43722.0885ms)
+✔ migration keeps a newer owner edit and preserves a different legacy edition (29487.2184ms)
+✔ native artifact installation resumes and shares immutable bytes across worktrees (195.3977ms)
+✔ unconfigured hosts preserve current compiler and incremental environment (34.9902ms)
+✔ activated compiler cache verifies its tool and preserves branch target and incremental state (25.459ms)
+✔ compiler server ownership uses an exact cache directory rather than a matching prefix (2.4077ms)
+✔ explicit compiler command forwards its exit status without shell interpolation (1281.4026ms)
+✔ owned staging shares IDs, rejects writes, and removing a stage protects other views (145.3577ms)
+✔ cleanup applies only evidence-matching idle stage files and resumes an interrupted conversion (356.086ms)
+✔ staging reuses archived immutable bytes even when its live runtime edition has changed (288.7138ms)
+✔ cross-store migration preserves a peer whose hardlink ctime changes, then removes only orphan blobs (609.4025ms)
+✔ retired Qt SDK views share exact bytes while unknown owners and executable-bearing views remain protected (478.7843ms)
+✔ actual process termination releases only its dead-owned migration stage lease on resume (1097.567ms)
+✔ blob pruning never deletes the sole content referenced by either pending migration journal (134.9493ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 94811.6573

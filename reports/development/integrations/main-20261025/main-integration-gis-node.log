@@ -1,0 +1,65 @@
+$ node --test tests/unit/hydro-packfile-builder.test.mjs tests/unit/download-terrain-source.test.mjs tests/unit/place-batch-pipeline.test.mjs tests/unit/place-candidates.test.mjs tests/unit/gis-source-launcher.test.mjs tests/unit/report-paths.test.mjs tests/unit/boundary-capture-evidence.test.mjs tests/unit/font-assets.test.mjs tests/unit/python-bridge-retirement.test.mjs
+✔ trace header sanitization allows only canonical UI flags and no private options (2.097ms)
+✔ source excerpts, one original trace, snapshots, frames and diagnostics constitute complete evidence (56.302ms)
+✔ screenshots false requires zero frames; screenshots true requires one or more frames (51.2044ms)
+✔ corrupt trace and oversized diagnostic are errors, never silently successful (46.6754ms)
+✔ missing trace or diagnostics never produce a complete result (6.7223ms)
+✔ range client resumes an existing verified prefix without changing original on failure (202.086ms)
+✔ server ignoring ranges cannot promote partial data to a complete output (83.9737ms)
+✔ bundled Pretendard font bytes and OFL license remain immutable (18.8055ms)
+✔ GIS launcher uses an allowlist and dry-run never launches source commands (4.8091ms)
+✔ native Node tools and not-yet-migrated Python GIS tools use their own interpreters (10.5258ms)
+✔ GIS raw subprocess launch requires explicit --execute and keeps forwarded args (0.7426ms)
+✔ retired and arbitrary Python entrypoints cannot be dispatched (0.5783ms)
+✔ mapped scripts cannot follow linked directories outside an explicit repository root (7.8039ms)
+✔ packing is lossless, ordered, deterministic and source preserving (175.1801ms)
+✔ packfile refuses corrupt inputs, drift, and unsafe paths (113.1434ms)
+✔ existing legacy batches are audited without rewriting old source (15.156ms)
+✔ candidate plan prioritizes capitals, removes staged IDs and does not approve names (53.1661ms)
+✔ input SHA-256 mismatch, duplicate candidates and atomic output replacement are rejected (33.861ms)
+✔ finalize checks verified staging and creates only a new batch (15.8814ms)
+✔ date validity, approval status, name source and duplicate IDs remain strict (1.5135ms)
+✔ same-spelling English and native may share a names[] row without invented aliases (0.3981ms)
+✔ two exact changes in a year are valid; mixing a year-only boundary is ambiguous (0.3128ms)
+✔ zero population administrative capitals and seats retain their inclusion reason (2.2709ms)
+✔ population inclusion thresholds preserve exclusive buckets and display modes (0.3895ms)
+✔ unadopted feature codes cannot be promoted even with very high population (0.6542ms)
+✔ modern country code and name never gate administrative inclusion (0.3469ms)
+✔ Unicode and missing source population are not silently dropped (0.353ms)
+✔ malformed coordinates, ID, population and field counts are rejected (0.8684ms)
+✔ only canonical candidate fields and unique ID values can enter output (1.5299ms)
+✔ near-duplicate audit never merges names or aliases (3.6097ms)
+✔ cumulative population counts cannot be substituted for exclusive buckets (17.3866ms)
+cities500: 4 -> 2 candidates; C:\Users\taeeu\AppData\Local\Temp\geonames-node-HiDbNE\candidates.ndjson
+cities500: 4 -> 2 candidates; C:\Users\taeeu\AppData\Local\Temp\geonames-node-HiDbNE\candidates.ndjson
+✔ verified offline build is deterministic and supplementary data is audit only (167.5705ms)
+✔ duplicate source IDs fail before candidate artifacts are written (14.6948ms)
+✔ Korean micro-alias report does not add alternateNames into candidate (13.6161ms)
+✔ official fallback always follows primary attempt in the same order (4.9772ms)
+allCountries: 1 -> 1 candidates; C:\Users\taeeu\AppData\Local\Temp\geonames-node-UkuMcc\candidates.ndjson
+✔ allCountries alone may be the verified primary without silent source promotion (26.4934ms)
+✔ ZIP metadata, deflate, entire-member CRC and source checksum reject bad data (24.9596ms)
+✔ review overrides update only explicit ID decision and never mutate original (0.8357ms)
+✔ review overrides reject unknown and duplicate IDs (0.3059ms)
+✔ hold/exclude do not promote unreviewed names or change source data (1.066ms)
+✔ different IDs or keyword-heavy names are never silently merged (0.4366ms)
+✔ the same name but changed coordinates/country/type needs another review (0.4406ms)
+✔ unsupported review promotion and actions are rejected (0.3209ms)
+✔ duplicate/missing review source and missing independent evidence are rejected (0.3288ms)
+✔ unapproved excluded/held records do not enter pool; baseline mismatch fails (0.295ms)
+✔ offline reviewed output is deterministic; original candidates and unsourced drift stay safe (58.5059ms)
+✔ Python files only decrease within the reviewed original and integration inventories (2.5161ms)
+✔ temporary Python bridge modules have real consumers and leave no orphaned adapters (331.9562ms)
+ℹ tools/library_data.py: 14 Python caller(s)
+ℹ tools/report_paths.py: 11 Python caller(s)
+ℹ tests/application_source.py: 1 Python caller(s)
+✔ report consumers share a fixed original owner and reject non-report paths (6.8349ms)
+✔ Node reportArgument preserves original sibling mapping and explicit non-report inputs (2.6414ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1174.6803

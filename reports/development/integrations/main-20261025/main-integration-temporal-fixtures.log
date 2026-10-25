@@ -1,0 +1,37 @@
+✔ country catalog has no global project or observation month and selects only required countries (268.9664ms)
+✔ a historical geometry gap is not filled with present context (4.7089ms)
+✔ country publication is deterministic, has no aggregate project and detects stale output (622.8471ms)
+✔ country publication rejects a missing policy (0.5214ms)
+✔ country publication preserves independent source lifetimes without inventing historical availability (117.673ms)
+✔ partial publication rebuilds a changed lifetime and its overlapping peer, reusing unrelated country bytes (222.3481ms)
+✔ partial lifetime generation carries parent gaps to children and plans without reading country sources (206.9165ms)
+✔ partial generation discovers the first overlap across the antimeridian after lifetime expansion (326.6932ms)
+✔ partial provenance retains the old revision of an unread, independently edited source (207.436ms)
+✔ explicitReplacementClipsParentAndDescendants (58.8614ms)
+✔ unknownPeerOverlapBecomesGap (5.8541ms)
+✔ sharedBoundaryDoesNotRemoveLand (0.4172ms)
+✔ emptyResultIsDifferentFromClippingFailure (1.9729ms)
+✔ currentSnapshotRetainsExplicitOverseasGeometry (1.0552ms)
+✔ one compilation reuses exact Boolean results across date cuts without freezing dates or changed geometry (5.343ms)
+✔ reused Boolean results replay precision evidence and retain each interval discard budget (6.036ms)
+✔ historical timeline fixture uses a bounded synthetic current-world input instead of source assets (4.3512ms)
+✔ monthEndDoesNotExtendExactSourceDates (1169.5329ms)
+✔ unbounded source geometry uses its intervals rather than the device month (838.0386ms)
+✔ a current snapshot selecting an explicitly dated version retains its entire source coverage (103.2208ms)
+✔ parentCoverageLimitsChildPresence (759.49ms)
+✔ source lifetime retains precision independently of country geometry availability (104.9446ms)
+✔ resolved source lifetime stays whole across a geometry gap (271.1629ms)
+✔ lineageDoesNotCollapseSimultaneousEntities (1004.8567ms)
+✔ stableIdentitySurvivesGeometryVersionChange (511.8963ms)
+✔ leapDayIsVisibleAtFebruaryMonthEnd (249.3432ms)
+✔ compilationPreservesRawSourceDatesAndCoordinates (93.8143ms)
+✔ compilerRejectsReversedIntervalsAndMissingGeometry (12.5575ms)
+✔ historical defaults reach root flags and color without promoting a child flag (88.8429ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6013.1241
