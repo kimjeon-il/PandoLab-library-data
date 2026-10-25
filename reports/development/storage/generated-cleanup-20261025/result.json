@@ -1,0 +1,98 @@
+{
+  "at": "2026-10-25T04:58:30.574Z",
+  "roots": [
+    {
+      "root": "D:/dev/PandoLab",
+      "beforeBytes": 3533914500,
+      "afterBytes": 2885854718,
+      "files": 8358
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "beforeBytes": 1325199199,
+      "afterBytes": 669375766,
+      "files": 6623
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "beforeBytes": 2693265214,
+      "afterBytes": 1881607326,
+      "files": 27514
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "beforeBytes": 357632989,
+      "afterBytes": 357632989,
+      "files": 6037
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "beforeBytes": 20694997784,
+      "afterBytes": 15735447758,
+      "files": 49725
+    }
+  ],
+  "logicalBefore": 28605009686,
+  "logicalAfter": 21529918557,
+  "logicalReduction": 7075091129,
+  "uniqueFileIdBytesBefore": 23600092794,
+  "uniqueFileIdBytesAfter": 17968498911,
+  "git": {
+    "before": 2217912196,
+    "after": 1696817265,
+    "netReduction": 521094931,
+    "objectsPreserved": 66430
+  },
+  "free": {
+    "before": 29540343808,
+    "after": 33215664128,
+    "delta": 3675320320
+  },
+  "retained": [
+    {
+      "name": "Cargo",
+      "bytes": 8831274012
+    },
+    {
+      "name": "GPU Python",
+      "bytes": 4611116283
+    },
+    {
+      "name": "Android",
+      "bytes": 1386138261
+    },
+    {
+      "name": "Emscripten SDK",
+      "bytes": 1331406540
+    },
+    {
+      "name": "Application Git",
+      "bytes": 1703657399
+    },
+    {
+      "name": "Blocked task scratch",
+      "bytes": 72664867
+    }
+  ],
+  "relocatedBytes": 2162729201,
+  "blocked": {
+    "previousBytes": 292084426,
+    "compilerProbeBytes": 22095,
+    "taskScratchBytes": 72664867,
+    "emptyFolders": true,
+    "reason": "Automatic approval review rejected these deletions; no detailed reason was supplied; no bypass attempted"
+  },
+  "generatedLogicalDeleted": 4431696102,
+  "blobLogicalDeleted": 91587526,
+  "recordedPayloadUnlinked": 2900925431,
+  "evidenceSharingPayloadFreed": 153165529,
+  "minimumAccountedPhysicalReduction": 3666773417,
+  "cargoInitialBytes": 12704693484,
+  "pythonInitialBytes": 4611116283,
+  "archiveBytes": 11592831,
+  "postPublicationFree": {
+    "at": "2026-10-25T05:01:29.412Z",
+    "after": 33190952960,
+    "delta": 3650609152
+  }
+}

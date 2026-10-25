@@ -80,3 +80,5 @@ D:/dev/PandoLab 및 D:/dev/worktrees/{ui,objects,gis,places}. 승인한 GPU 학�
 ## 반영 및 보관
 
 코드 구현과 최종 보완은 work/objects의 5b8b173c, aaa994b19로 커밋하고 origin/work/objects에 push했다. main 통합·다른 범주의 WIP 이동·배포는 이번 정리에서 실행하지 않았다. 이 보고서 범위만 --publish-reports와 --check-reports로 발행·원격 원문 검증하며 런타임 pin은 변경하지 않는다.
+
+최초 원격 발행 직후 D: 여유 공간 재측정: 33,190,952,960바이트, 시작 대비 +3,650,609,152바이트(3.651GB). 위 3.675GB 표본 이후 보고서 원본/감사 첨부의 Git 보관 등으로 약 24.7MB가 사용됐다. 이 최종 메모 발행의 작은 추가 Git 객체와 다른 프로세스의 할당은 이 시각 이후 수치에 영향을 줄 수 있다.
