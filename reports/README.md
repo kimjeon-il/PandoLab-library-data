@@ -226,3 +226,5 @@
 - [지명 원문 색인](development/testing/branch-originals/places/README.md)
 
 동일 경로의 서로 다른 브랜치 보고서는 위 원문별 경로로 함께 보존합니다. 기존 main 원문은 그대로 둡니다.
+
+- GEO-USSR-EUROPE-20261025: [소련 1922 유럽 외곽 승인선 반영](borders/reconstruction/ussr-europe-approved-2026-10-25/README.md) — work/gis 적용, 기존 해안·강 보존, 비하천 일부만 일반화.
