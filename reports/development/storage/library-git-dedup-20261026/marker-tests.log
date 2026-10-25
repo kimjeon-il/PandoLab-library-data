@@ -1,0 +1,12 @@
+✔ incremental Git compaction resumes without dropping promised or unreachable objects (8932.8606ms)
+✔ incremental Git compaction restarts an undeleted inventory after a legitimate object addition (9172.6271ms)
+✔ a damaged retained pack cannot justify deleting a valid duplicate original (4606.6572ms)
+✔ only a byte-proven prefix of a verified complete pack is retired as a failed download (7158.3058ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 30016.4433

@@ -1,0 +1,57 @@
+Cloning into 'C:\Users\taeeu\AppData\Local\Temp\pando-fresh-clone-3CjNZt\code\.library-data\repository'...
+warning: This repository uses promisor remotes. Some objects may not be loaded.
+✔ native library storage reuses unedited object references without reading their chunks (3.8477ms)
+✔ public release paths remain directly archivable from the storage Git tree (16419.539ms)
+✔ external materialization restores exact gzip bytes and rejects corrupt transfers (6.2376ms)
+✔ archive paths cannot escape their explicit storage root (0.6575ms)
+✔ checkout compaction preserves dirty, ignored and linked work and is offline and idempotent (14514.8456ms)
+✔ runtime preparation is report-lazy and scoped report stores preserve pins, originals and local edits (59003.4971ms)
+✔ a fresh no-checkout clone is populated before the local edit guard (7847.3687ms)
+✔ report completion publishes only the selected originals through shared main and verifies remote bytes (35137.8182ms)
+✔ failed push remains a failure with originals intact and retries the same report-only commit (21957.8385ms)
+✔ publication preserves a busy lock and refuses unpublished non-report work on shared main (6846.099ms)
+✔ completion requires an explicit report scope and checks actual remote content (15771.0942ms)
+✔ report completion adopts a newer remote main from a filtered archive without preparing runtime data (13425.4385ms)
+✔ runtime preparation removes repeated fetched objects while preserving mixed-pack originals (15381.9448ms)
+✔ runtime preparation fetches pinned blobs together without hydrating reports or moving refs (4964.4704ms)
+✔ incremental Git compaction resumes without dropping promised or unreachable objects (14322.4447ms)
+✔ incremental Git compaction restarts an undeleted inventory after a legitimate object addition (12260.4655ms)
+✔ a damaged retained pack cannot justify deleting a valid duplicate original (5602.536ms)
+✔ only a byte-proven prefix of a verified complete pack is retired as a failed download (9594.2322ms)
+✔ standalone application Git compaction preserves unreachable objects and all worktree states (9802.9862ms)
+✔ migration resumes, retains dirty bytes independently, compacts all local objects and removes actual old copies (28112.3736ms)
+✔ migration keeps a newer owner edit and preserves a different legacy edition (24877.8028ms)
+✔ closed validation evidence can only be relocated with exact bytes (61.3234ms)
+✔ retired dependency links are unlinked without traversing their shared store (109.4336ms)
+✔ preview is read-only; apply rejects stale hashes before deleting anything (44.6043ms)
+✔ safe apply resumes and is idempotent without deleting a shared peer (148.9776ms)
+✔ protected files, sources, unknown roots and junctions are rejected (28.7682ms)
+✔ an active consumer blocks apply and evidence relocation verifies bytes (44.4482ms)
+✔ Cargo retirement follows exact dependency fingerprints across host and target (113.8811ms)
+✔ relative Cargo and Gradle invocations outside the worktree still block deletion (44.7423ms)
+✔ a crash after unlink but before completion journal update is accounted once on resume (63.4727ms)
+✔ explicit compiler retirement permits SDK components but protects ADB and GPU Python (62.8274ms)
+✔ running emulator and QEMU protect SDK and AVD retirement across executable locations (49.5004ms)
+✔ compiler retirement permits immutable app consumers but protects the exact retiring target (67.3469ms)
+✔ changes after full preflight cannot use its verified-byte stamp (41.8986ms)
+✔ compiler preview receipts bind exact manifests and recheck any later file change (27.1462ms)
+✔ write-ahead batches resume across a checkpoint without double accounting (1489.8901ms)
+✔ unconfigured hosts preserve current compiler and incremental environment (4.3607ms)
+✔ activated compiler cache verifies its tool and preserves branch target and incremental state (18.5861ms)
+✔ compiler server ownership uses an exact cache directory rather than a matching prefix (1.3537ms)
+✔ explicit compiler command forwards its exit status without shell interpolation (783.8672ms)
+✔ owned staging shares IDs, rejects writes, and removing a stage protects other views (166.783ms)
+✔ cleanup applies only evidence-matching idle stage files and resumes an interrupted conversion (338.7569ms)
+✔ staging reuses archived immutable bytes even when its live runtime edition has changed (143.7484ms)
+✔ cross-store migration preserves a peer whose hardlink ctime changes, then removes only orphan blobs (523.6541ms)
+✔ retired Qt SDK views share exact bytes while unknown owners and executable-bearing views remain protected (323.7299ms)
+✔ actual process termination releases only its dead-owned migration stage lease on resume (676.4507ms)
+✔ blob pruning never deletes the sole content referenced by either pending migration journal (76.4794ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 104922.828

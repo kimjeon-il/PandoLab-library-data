@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-25T22:37:57.484Z",
+  "app": [
+    {
+      "root": "D:/dev/PandoLab",
+      "head": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "head": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "head": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "head": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "head": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    }
+  ],
+  "tests": {
+    "related": 47,
+    "markerSafety": 4,
+    "lint": "passed",
+    "redGreenCases": [
+      "mixed duplicate and unique originals",
+      "corrupt retained payload",
+      "safe interrupted-inventory restart",
+      "verified failed-pack prefix",
+      "obsolete keep marker"
+    ]
+  },
+  "repeatedActualReportCheck": {
+    "revision": "2529e6f99ff696a24b6148743bf21436068bc6b3",
+    "files": 9,
+    "scope": "reports/development/storage/workspace-layout-20261025",
+    "success": true
+  },
+  "currentGitCount": "count: 2049\nsize: 134402\nin-pack: 15416\npacks: 25\nsize-pack: 3261977\nprune-packable: 0\ngarbage: 0\nsize-garbage: 0",
+  "duplicatePackedEntries": 0,
+  "privateEvidence": [
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\private-evidence\\storage-migrations\\library-git-dedup-20261026\\original-byte-baseline.json.gz",
+      "bytes": 2389130,
+      "sha256": "9082dd83c12bbba7b35b842535d689d2ef08548d30917f1e3b6181192f9ac543"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\private-evidence\\storage-migrations\\library-git-dedup-20261026\\executed-audit.mjs.txt",
+      "bytes": 4377,
+      "sha256": "f23bf575b24530a41ee19c342a91ee2d3ce028b140a0076417ecb6e2f3f60f99"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\private-evidence\\storage-migrations\\library-git-dedup-20261026\\executed-consumers.mjs.txt",
+      "bytes": 1850,
+      "sha256": "e0c2d68747f50edbf6fda35c66f55b6f72899b8301e9de374f540be9a93f1ca8"
+    }
+  ],
+  "sourceReview": {
+    "important": 2,
+    "addressed": 2
+  },
+  "freeBytesAtReportCreation": 61127401472,
+  "wholeTaskInitialFreeBytes": 55404929024,
+  "wholeTaskFreeBytesChange": 5722472448,
+  "metadataRelocatedBytes": 31,
+  "cleanupJournalsRemaining": [],
+  "pages": {
+    "run": 40240870294,
+    "commit": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+    "conclusion": "success"
+  }
+}

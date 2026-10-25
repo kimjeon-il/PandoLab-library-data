@@ -1,0 +1,8 @@
+{
+  "source": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\pack-ee3048b75d769ca0909871876e4cfc8c21c672f1.keep",
+  "destination": "D:\\dev\\PandoLab-library-data\\private-evidence\\storage-migrations\\library-git-dedup-20261026\\retired-fetch.keep",
+  "bytes": 31,
+  "sha256": "1ed62815f4328b5301b1d1bd977fabcf6444ab884f69681bbdb9d562bb0a3d76",
+  "reason": "obsolete fetch marker retained as audit evidence after its pack and index were verified and replaced",
+  "count": "count: 2049\nsize: 134402\nin-pack: 15416\npacks: 25\nsize-pack: 3261977\nprune-packable: 0\ngarbage: 0\nsize-garbage: 0\n"
+}

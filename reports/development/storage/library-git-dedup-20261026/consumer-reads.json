@@ -1,0 +1,113 @@
+{
+  "at": "2026-10-25T22:31:13.469Z",
+  "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+  "archivedOriginals": 3,
+  "mountedReads": 15,
+  "reads": [
+    {
+      "root": "D:/dev/PandoLab",
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 146794,
+      "sha256": "dd5024638c48776deddbef7eecba8e18d6b1eb9647b761f09747e5801b858b66",
+      "id": "2029611902:1688849860337022"
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 146794,
+      "sha256": "dd5024638c48776deddbef7eecba8e18d6b1eb9647b761f09747e5801b858b66",
+      "id": "2029611902:1688849860337022"
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 146794,
+      "sha256": "dd5024638c48776deddbef7eecba8e18d6b1eb9647b761f09747e5801b858b66",
+      "id": "2029611902:1688849860337022"
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 146794,
+      "sha256": "dd5024638c48776deddbef7eecba8e18d6b1eb9647b761f09747e5801b858b66",
+      "id": "2029611902:1688849860337022"
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "path": "assets/data/builtin-world/generated/v1/index.json",
+      "bytes": 146794,
+      "sha256": "dd5024638c48776deddbef7eecba8e18d6b1eb9647b761f09747e5801b858b66",
+      "id": "2029611902:1688849860337022"
+    },
+    {
+      "root": "D:/dev/PandoLab",
+      "path": "assets/data/hydro/v0.13.2/manifest.json",
+      "bytes": 55983,
+      "sha256": "2b801f581df6a46c7edce2e485de2cc2d2c9c477226c6f6dde3830c4a729948b",
+      "id": "2029611902:3096224743915513"
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "path": "assets/data/hydro/v0.13.2/manifest.json",
+      "bytes": 55983,
+      "sha256": "2b801f581df6a46c7edce2e485de2cc2d2c9c477226c6f6dde3830c4a729948b",
+      "id": "2029611902:3096224743915513"
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "path": "assets/data/hydro/v0.13.2/manifest.json",
+      "bytes": 55983,
+      "sha256": "2b801f581df6a46c7edce2e485de2cc2d2c9c477226c6f6dde3830c4a729948b",
+      "id": "2029611902:3096224743915513"
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "path": "assets/data/hydro/v0.13.2/manifest.json",
+      "bytes": 55983,
+      "sha256": "2b801f581df6a46c7edce2e485de2cc2d2c9c477226c6f6dde3830c4a729948b",
+      "id": "2029611902:3096224743915513"
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "path": "assets/data/hydro/v0.13.2/manifest.json",
+      "bytes": 55983,
+      "sha256": "2b801f581df6a46c7edce2e485de2cc2d2c9c477226c6f6dde3830c4a729948b",
+      "id": "2029611902:3096224743915513"
+    },
+    {
+      "root": "D:/dev/PandoLab",
+      "path": "assets/data/physical-land/v1/manifest.json",
+      "bytes": 1454,
+      "sha256": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d",
+      "id": "2029611902:3377699720626177"
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "path": "assets/data/physical-land/v1/manifest.json",
+      "bytes": 1454,
+      "sha256": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d",
+      "id": "2029611902:3377699720626177"
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "path": "assets/data/physical-land/v1/manifest.json",
+      "bytes": 1454,
+      "sha256": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d",
+      "id": "2029611902:3377699720626177"
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "path": "assets/data/physical-land/v1/manifest.json",
+      "bytes": 1454,
+      "sha256": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d",
+      "id": "2029611902:3377699720626177"
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "path": "assets/data/physical-land/v1/manifest.json",
+      "bytes": 1454,
+      "sha256": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d",
+      "id": "2029611902:3377699720626177"
+    }
+  ]
+}
