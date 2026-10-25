@@ -1,0 +1,59 @@
+{
+  "shortcut": {
+    "after": {
+      "path": "C:\\Users\\taeeu\\OneDrive\\바탕 화면\\PandoLab.lnk",
+      "target": "C:\\Program Files\\nodejs\\node.exe",
+      "arguments": "\"D:\\dev\\PandoLab\\apps\\editor\\dev.mjs\" --native=windows",
+      "workingDirectory": "D:\\dev\\PandoLab",
+      "windowStyle": 7,
+      "icon": "D:\\dev\\PandoLab\\apps\\editor\\src-tauri\\icons\\icon.ico,0",
+      "description": "PandoLab"
+    },
+    "before": {
+      "path": "C:\\Users\\taeeu\\OneDrive\\바탕 화면\\PandoLab.lnk",
+      "target": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "arguments": "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"D:\\dev\\PandoLab\\apps\\web-shell\\run-windows.ps1\" -BinaryPath \"D:\\dev\\PandoLab\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\pandolab-web-shell.exe\"",
+      "workingDirectory": "D:\\dev\\PandoLab",
+      "windowStyle": 1,
+      "icon": "D:\\dev\\PandoLab\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\pandolab-web-shell.exe,0",
+      "description": "PandoLab local app - fixed existing build; no automatic build"
+    },
+    "reason": "The existing desktop shortcut still targeted a removed pre-migration path. It now invokes the approved canonical Node development launcher without a PowerShell execution-policy override."
+  },
+  "retainedBaselineNativeArtifacts": [
+    {
+      "directory": "D:\\build\\cache\\pandolab\\native\\b78b86e61b3e9ee8348a920f90f4c64164b8b32346f79672324d21996629e5c3",
+      "platform": "android",
+      "mode": "development",
+      "sourceCommit": "ddced2c32f9e57c3b9e681535d1226bfd1d95f79",
+      "bytes": 57288321,
+      "files": [
+        {
+          "path": "app.apk",
+          "bytes": 57288321,
+          "sha256": "c4fe3bd0b05521b79b08b197cbdd1977c166d180bd949cf01425f7bbeba00daa"
+        }
+      ]
+    },
+    {
+      "directory": "D:\\build\\cache\\pandolab\\native\\c2ec0f9808a6c43399e35cac4a9c58e09d0c2f587c8d67ed5f8df2bc53dceb0d",
+      "platform": "windows",
+      "mode": "development",
+      "sourceCommit": "ddced2c32f9e57c3b9e681535d1226bfd1d95f79",
+      "bytes": 17383536,
+      "files": [
+        {
+          "path": "pandolab-web-shell.exe",
+          "bytes": 17222656,
+          "sha256": "7b0a1f8b34dea033f6c4f5bda5c9638dc3b8e71bfe6d9372da118090a9bd30e2"
+        },
+        {
+          "path": "WebView2Loader.dll",
+          "bytes": 160880,
+          "sha256": "86545b66cdb0603bc26b626fb9ad610cb6e71f28d468f5ea66df23b03dda96d5"
+        }
+      ]
+    }
+  ],
+  "reason": "These are the original pre-layout CI transition builds explicitly retained as existing applications; the Samsung S22+ Android16 real-device validation recorded in reports/development/storage/ci-native-transition-20261025 used producer ddced2c3. This task admitted new3897 builds through CI/native-input verification without requiring another device connection. The former accepted native pair is preserved as that validation edition, not mislabeled as a second copy of the active3897 pair."
+}
