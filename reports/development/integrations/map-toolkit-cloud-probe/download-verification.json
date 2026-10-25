@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "verdict": "passed",
+  "sourceSurface": "chatgpt-work-cloud",
+  "verificationSurface": "Windows independent downloaded bytes",
+  "files": [
+    {
+      "name": "features.geojson",
+      "bytes": 8305,
+      "sha256": "bb0e8c31d66fdbaa79c8234a3acb04b7fa6065b33dfcbb853a9039fe69c5012c"
+    },
+    {
+      "name": "analysis.json",
+      "bytes": 603434,
+      "sha256": "ec2c8a86a007f1a3b83ef8ffda932c45ecfd3fb29c450c2ec3c7f75edbfc2516"
+    },
+    {
+      "name": "preview.png",
+      "bytes": 2176827,
+      "sha256": "212e19e6023f2fc35117d7ca71926acc4038fff62b5be62ac87274c1c0ece10d"
+    }
+  ],
+  "featureCount": 1,
+  "geometry": "LineString",
+  "coordinateCount": 26,
+  "finiteAndGeographicBounds": true,
+  "preview": {
+    "width": 2200,
+    "height": 1701
+  },
+  "job": {
+    "revision": 2,
+    "status": "reviewed",
+    "inferenceSignature": "9f92659569febd90c53989fd8096cd243b15f96a2aed70f2ac29932767e97d89"
+  },
+  "delivery": {
+    "required": "passed",
+    "browserDownloadEvent": "not captured despite actual successful individual saves",
+    "optionalAggregateZip": "unavailable in observed browser download attempts; no local ZIP found; not used as proof"
+  },
+  "provenanceCaveat": "Frozen diagnostic snapshot did not inject input provenance into analysis options; sourceEvidence in product outputs is null. External original provenance, raster identity and all source hashes are retained separately. Canonical diagnostic is fixed and unit-tested; not rerun in cloud."
+}

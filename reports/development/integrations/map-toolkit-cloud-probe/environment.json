@@ -1,0 +1,78 @@
+{
+  "scope": "ChatGPT Work cloud environment inspection only",
+  "execution_tool": "functions.exec -> tools.exec_command",
+  "checks": {
+    "platform": {
+      "status": "passed",
+      "os": "Linux",
+      "release": "6.18.55",
+      "architecture": "x86_64",
+      "python": "3.12.14"
+    },
+    "directories": {
+      "status": "passed",
+      "cwd": "/workspace/scratch/c120a2f2b9b5",
+      "temporary_directory": "/tmp"
+    },
+    "file_read_write": {
+      "status": "passed",
+      "location": "/tmp",
+      "readback_matches": true,
+      "temporary_file_removed": true
+    },
+    "node": {
+      "status": "passed",
+      "version": "v24.22.1",
+      "exit_code": 0
+    },
+    "Pillow": {
+      "status": "passed",
+      "installed": true,
+      "version": "12.3.0"
+    },
+    "PyMuPDF": {
+      "status": "passed",
+      "installed": true,
+      "version": "1.26.6"
+    },
+    "npm_https": {
+      "status": "passed",
+      "url": "https://registry.npmjs.org/",
+      "http_status": 200,
+      "bytes_read": 2
+    },
+    "pypi_https": {
+      "status": "passed",
+      "url": "https://pypi.org/simple/",
+      "http_status": 200,
+      "bytes_read": 128
+    },
+    "memory": {
+      "status": "passed",
+      "host_observed": {
+        "MemTotal_bytes": 10451439616,
+        "MemAvailable_bytes": 9664589824
+      },
+      "cgroup_observed": {
+        "memory_max": "8589934592",
+        "memory_current": "1355694080"
+      },
+      "note": "Host memory may exceed process/container entitlement."
+    },
+    "disk": {
+      "status": "passed",
+      "path": "/workspace/scratch/c120a2f2b9b5",
+      "total_bytes": 33770192896,
+      "free_bytes": 30955552768,
+      "used_bytes": 1079877632
+    }
+  },
+  "verdict": "passed",
+  "limitations": [
+    "No packages installed; registry GET only does not establish package installation feasibility.",
+    "No map analysis, plugin registration, mobile support, or Map Toolkit runtime validation performed.",
+    "Resource observations are point-in-time and may reflect shared host resources."
+  ],
+  "surface": "chatgpt-work-cloud",
+  "workConversationId": "6add96e3-28c0-83ec-a4ef-abb94b145fb8"
+}

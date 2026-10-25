@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "removed_targets": [
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/map-toolkit-probe",
+      "logical_regular_file_bytes": 243710451,
+      "links_not_followed": 1,
+      "removed": true
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/delivery",
+      "logical_regular_file_bytes": 2790356,
+      "links_not_followed": 0,
+      "removed": true
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/map-toolkit-results.zip",
+      "logical_regular_file_bytes": 2215224,
+      "links_not_followed": 0,
+      "removed": true
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/map-toolkit-export-results.zip",
+      "logical_regular_file_bytes": 2207272,
+      "links_not_followed": 0,
+      "removed": true
+    }
+  ],
+  "total_logical_regular_file_bytes": 250923303,
+  "disk_free_before_bytes": 30588125184,
+  "disk_free_after_bytes": 30843559936,
+  "disk_free_change_bytes": 255434752,
+  "process_check": {
+    "target_path_or_analysis_runtime_matches": [],
+    "method": "Process names and individual cmdline arguments; accessible cwd/exe/open descriptors; prior accessible maps inspection",
+    "limitation": "Protected system-process cwd/fd/maps could not be fully inspected; no target-use evidence or node/npm/tesseract runtime found.",
+    "protected_processes": [
+      {
+        "pid": 1,
+        "comm": "supervisord"
+      },
+      {
+        "pid": 3,
+        "comm": "rsync"
+      },
+      {
+        "pid": 4,
+        "comm": "sync_share.sh"
+      },
+      {
+        "pid": 6,
+        "comm": "caas-prefix-tra"
+      },
+      {
+        "pid": 7,
+        "comm": "sites-preview"
+      },
+      {
+        "pid": 85,
+        "comm": "inotifywait"
+      },
+      {
+        "pid": 142,
+        "comm": "codex"
+      },
+      {
+        "pid": 219,
+        "comm": "codex"
+      },
+      {
+        "pid": 1176,
+        "comm": "inotifywait"
+      },
+      {
+        "pid": 1289,
+        "comm": "bwrap"
+      },
+      {
+        "pid": 1290,
+        "comm": "codex-linux-san"
+      },
+      {
+        "pid": 1291,
+        "comm": "codex-linux-san"
+      }
+    ]
+  },
+  "symlink_policy": "No symlinks followed; internal symlink unlinked by symlink-safe rmtree",
+  "preserved": [
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/upload/package.zip",
+      "reason": "Original uploaded input"
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/map-toolkit-results",
+      "reason": "User results and current download evidence"
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/map-toolkit-final-results.zip",
+      "reason": "User results and current download evidence"
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/artifact-hashes.json",
+      "reason": "User results and current download evidence"
+    },
+    {
+      "absolute_path": "/workspace/scratch/c120a2f2b9b5/environment.json",
+      "reason": "Environment diagnosis"
+    }
+  ],
+  "preserved_file_hashes_verified": 37,
+  "delivery": {
+    "required_files": "passed: user confirmed JSON/PNG viewer save and matching SHA256",
+    "playwright_download_event": "not captured",
+    "optional_zip": "unconfirmed; retries stopped"
+  },
+  "model_alignment_review": "Existing result files unchanged",
+  "executorTurnId": "01a171b6-edda-746b-8191-5988f9cd76ce",
+  "command": "/bin/bash -lc \"python - <<'PY'\nimport pathlib,os,stat,hashlib,json,shutil\nroot=pathlib.Path.cwd();names=['map-toolkit-probe','delivery','map-toolkit-results.zip','map-toolkit-export-results.zip'];targets=[root/n for n in names];hits=[];limited=[]\nfor proc in pathlib.Path('/proc').iterdir():\n if not proc.name.isdigit() or int(proc.name)==os.getpid():continue\n try:\n  comm=(proc/'comm').read_text().strip();args=(proc/'cmdline').read_bytes().split(b'\\\\0')\n  if comm in ['node','npm','onnxruntime','tesseract']:hits.append({'pid':int(proc.name),'comm':comm})\n  if any(any(a.decode(errors='replace')==str(t) or a.decode(errors='replace').startswith(str(t)+'/') for t in targets) for a in args):hits.append({'pid':int(proc.name),'comm':comm})\n  try:\n   refs=[os.readlink(proc/'cwd'),os.readlink(proc/'exe')]\n   refs += [os.readlink(fd) for fd in (proc/'fd').iterdir()]\n   if any(any(v==str(t) or v.startswith(str(t)+'/') for t in targets) for v in refs):hits.append({'pid':int(proc.name),'comm':comm})\n  except PermissionError:limited.append({'pid':int(proc.name),'comm':comm})\n except FileNotFoundError:pass\nassert not hits,hits\nrows=[]\nfor p in targets:\n assert not p.is_symlink();total=0;links=0\n if p.is_dir():\n  for base,dirs,files in os.walk(p,followlinks=False):\n   for n in dirs+files:\n    s=(pathlib.Path(base)/n).lstat()\n    if stat.S_ISLNK(s.st_mode):links+=1\n    elif stat.S_ISREG(s.st_mode):total+=s.st_size\n else:total=p.stat().st_size\n rows.append({'absolute_path':str(p),'logical_regular_file_bytes':total,'links_not_followed':links})\nkeep=['upload/package.zip','map-toolkit-results','map-toolkit-final-results.zip','artifact-hashes.json','environment.json'];sha=lambda p:hashlib.file_digest(p.open('rb'),'sha256').hexdigest();saved={}\nfor n in keep:\n p=root/n;assert p.exists()\n for q in ([p] if p.is_file() else p.rglob('*')):\n  if q.is_file():saved[str(q)]=sha(q)\nbefore=shutil.disk_usage(root).free\nassert shutil.rmtree.avoids_symlink_attacks\nfor p,row in zip(targets,rows):\n if p.is_dir():shutil.rmtree(p)\n else:p.unlink()\n row['removed']=not os.path.lexists(p);assert row['removed']\nafter=shutil.disk_usage(root).free;assert all(sha(pathlib.Path(p))==h for p,h in saved.items())\nr={'status':'passed','removed_targets':rows,'total_logical_regular_file_bytes':sum(x['logical_regular_file_bytes'] for x in rows),'disk_free_before_bytes':before,'disk_free_after_bytes':after,'disk_free_change_bytes':after-before,'process_check':{'target_path_or_analysis_runtime_matches':hits,'method':'Process names and individual cmdline arguments; accessible cwd/exe/open descriptors; prior accessible maps inspection','limitation':'Protected system-process cwd/fd/maps could not be fully inspected; no target-use evidence or node/npm/tesseract runtime found.','protected_processes':limited},'symlink_policy':'No symlinks followed; internal symlink unlinked by symlink-safe rmtree','preserved':[{'absolute_path':str(root/n),'reason':'Original uploaded input' if n.startswith('upload/') else 'Environment diagnosis' if n=='environment.json' else 'User results and current download evidence'} for n in keep],'preserved_file_hashes_verified':len(saved),'delivery':{'required_files':'passed: user confirmed JSON/PNG viewer save and matching SHA256','playwright_download_event':'not captured','optional_zip':'unconfirmed; retries stopped'},'model_alignment_review':'Existing result files unchanged'}\n(root/'cloud-cleanup.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\\\\n');print(json.dumps(r,ensure_ascii=False,indent=2))\nPY\"",
+  "exitCode": 0
+}

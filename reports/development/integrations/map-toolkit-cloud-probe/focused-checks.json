@@ -1,0 +1,21 @@
+{
+  "surface": "Windows local",
+  "checks": [
+    {
+      "command": "node --test tests/unit/map-cloud-probe.test.mjs",
+      "chunk_id": "495d23",
+      "wall_time_seconds": 1.5397612,
+      "exit_code": 0,
+      "original_token_count": 185,
+      "output": "✔ environment gate requires observed Work cloud execution rather than a local smoke test (2.3062ms)\n✔ bundle verification rejects changed bytes, traversal, and missing files (39.3562ms)\n✔ diagnostic source closure includes dynamic numerical owners but excludes product build outputs (258.5983ms)\n✔ generated runtime dependencies are exact versions from the installed production closure (74.9047ms)\n✔ repeated export or resume is rejected before changing the job or a successful receipt (41.9528ms)\n✔ analysis receives the packaged source evidence and keeps original-PDF and raster identities separate (11.1568ms)\nℹ tests 6\nℹ suites 0\nℹ pass 6\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 642.625\n"
+    },
+    {
+      "command": "git diff --check -- tools/reference-analysis/cloud-probe.mjs tests/unit/map-cloud-probe.test.mjs; git rev-parse HEAD; git status --short --branch",
+      "chunk_id": "f2f723",
+      "wall_time_seconds": 1.406237,
+      "exit_code": 0,
+      "original_token_count": 179,
+      "output": "warning: in the working copy of 'tests/unit/map-cloud-probe.test.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'tools/reference-analysis/cloud-probe.mjs', LF will be replaced by CRLF the next time Git touches it\n3acf5ec0518d8f21285826a339fe59a6e496c6f2\n## work/ui...origin/work/ui\n M .github/workflows/remote-development-p1.yml\n M apps/web-shell/native-contract.mjs\n M apps/web-shell/packaged-artifacts.mjs\n M apps/web-shell/tests/native-contract.test.mjs\n M tests/unit/map-cloud-probe.test.mjs\n M tools/reference-analysis/cloud-probe.mjs\n M tools/worktree-storage.mjs\n?? apps/web-shell/tests/native-consumer.test.mjs\n?? tests/unit/native-artifact-storage.test.mjs\n"
+    }
+  ]
+}

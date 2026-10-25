@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-after-user-execution",
+  "removed": [
+    {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/ui/development/integrations/map-toolkit-cloud-probe/package",
+      "logicalBytes": 40498156
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/reports/.edits/ui/development/integrations/map-toolkit-cloud-probe/package.zip",
+      "logicalBytes": 26845976
+    },
+    {
+      "path": "C:/Users/taeeu/AppData/Local/Temp/codex-file-preview-gO2n0v/package.zip",
+      "logicalBytes": 26845976
+    },
+    {
+      "path": "C:/Users/taeeu/AppData/Local/Temp/codex-file-preview-JUNx5k/package.zip",
+      "logicalBytes": 26845976
+    }
+  ],
+  "logicalBytes": 121036084,
+  "allFourAbsentAfterUserExecution": true,
+  "verifiedManifestFiles": 218,
+  "packageSourceFilesUnchanged": true,
+  "processPathMatches": [],
+  "linkedPackageEntries": [],
+  "driveFreeBytes": {
+    "C": {
+      "before": 24485863424,
+      "after": 24593453056,
+      "delta": 107589632
+    },
+    "D": {
+      "before": 33482088448,
+      "after": 33549885440,
+      "delta": 67796992
+    }
+  },
+  "taskStartDFreeBytes": 33487364096,
+  "automaticDeletion": {
+    "fallback": "No alternate tool used. User executed the same scoped PowerShell deletion, and absence was then verified.",
+    "status": "blocked-by-policy",
+    "reason": "No specific reason supplied"
+  },
+  "note": "Logical removed bytes differ from filesystem allocation and concurrent free-space changes. Four downloaded files were moved to the report owner, not duplicated. Source maps/models/labels/checkpoints/dependency environments remain protected."
+}

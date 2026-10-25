@@ -1,0 +1,187 @@
+[
+  {
+    "schemaVersion": 1,
+    "surface": "chatgpt-work-cloud",
+    "stage": "resume",
+    "verdict": "passed",
+    "platform": "linux",
+    "nodeVersion": "v24.22.1",
+    "checks": {
+      "export": {
+        "directory": "/workspace/scratch/c120a2f2b9b5/map-toolkit-results/resume-export",
+        "featureCount": 1,
+        "hashes": {
+          "features.geojson": "552c9fef3930971e501e780fed888865a3ba784816867d56468bc684bd8d1ab4",
+          "analysis.json": "ff05f2365de7ae51d8af2bc4e201905fd3469ca9cc690e1cb5945f8eb5006514",
+          "preview.png": "212e19e6023f2fc35117d7ca71926acc4038fff62b5be62ac87274c1c0ece10d",
+          "report.md": "f94c1454394852cb23920a4116d88aee137bac81b0af3ed16f8fa969330c6019"
+        }
+      },
+      "persistence": {
+        "verdict": "passed",
+        "revision": 4,
+        "inferenceSignature": "9f92659569febd90c53989fd8096cd243b15f96a2aed70f2ac29932767e97d89"
+      }
+    },
+    "milliseconds": 863.29052,
+    "peakRssBytes": 90738688
+  },
+  {
+    "schemaVersion": 1,
+    "surface": "chatgpt-work-cloud",
+    "stage": "export",
+    "verdict": "passed",
+    "platform": "linux",
+    "nodeVersion": "v24.22.1",
+    "checks": {
+      "export": {
+        "directory": "/workspace/scratch/c120a2f2b9b5/map-toolkit-results/export",
+        "featureCount": 1,
+        "hashes": {
+          "features.geojson": "bb0e8c31d66fdbaa79c8234a3acb04b7fa6065b33dfcbb853a9039fe69c5012c",
+          "analysis.json": "ec2c8a86a007f1a3b83ef8ffda932c45ecfd3fb29c450c2ec3c7f75edbfc2516",
+          "preview.png": "212e19e6023f2fc35117d7ca71926acc4038fff62b5be62ac87274c1c0ece10d",
+          "report.md": "f94c1454394852cb23920a4116d88aee137bac81b0af3ed16f8fa969330c6019"
+        }
+      },
+      "persistence": {
+        "verdict": "passed",
+        "revision": 2,
+        "inferenceSignature": "9f92659569febd90c53989fd8096cd243b15f96a2aed70f2ac29932767e97d89"
+      }
+    },
+    "milliseconds": 834.3208970000001,
+    "peakRssBytes": 91435008
+  },
+  {
+    "schemaVersion": 1,
+    "surface": "chatgpt-work-cloud",
+    "stage": "components",
+    "verdict": "passed",
+    "platform": "linux",
+    "nodeVersion": "v24.22.1",
+    "checks": {
+      "ocr": {
+        "verdict": "passed",
+        "rows": [
+          {
+            "rawValue": "ATHENS ATHENS",
+            "confidence": 0.95,
+            "boundingBox": {
+              "x": 21,
+              "y": 40,
+              "width": 317,
+              "height": 30
+            },
+            "language": "eng"
+          },
+          {
+            "rawValue": "LONDON LONDON",
+            "confidence": 0.96,
+            "boundingBox": {
+              "x": 24,
+              "y": 131,
+              "width": 340,
+              "height": 28
+            },
+            "language": "eng"
+          }
+        ]
+      },
+      "raster": {
+        "verdict": "passed",
+        "pillow": true,
+        "pymupdf": true
+      },
+      "wasm": {
+        "verdict": "passed",
+        "projected": [
+          15,
+          15
+        ]
+      },
+      "onnx": {
+        "schemaVersion": 1,
+        "purpose": "trained-model-execution-parity-only",
+        "releaseApproved": false,
+        "independentEvaluation": false,
+        "provider": "onnxruntime-web-wasm-cpu",
+        "threads": 1,
+        "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+        "trainingBatches": 1460,
+        "optimizerUpdates": 1452,
+        "outputShape": [
+          1,
+          7,
+          512,
+          512
+        ],
+        "finite": true,
+        "maximumAbsoluteError": 0.0004944801330566406,
+        "meanAbsoluteError": 0.00005941052129873218,
+        "loadMilliseconds": 245.19846800000002,
+        "inferenceMilliseconds": 625.116248,
+        "inputBackend": "local-filesystem",
+        "nodeVersion": "v24.22.1",
+        "verifierSha256": "fde62c945284ab58c572aafc37b33bc690f792047c15889b0c54e19ae7090f83"
+      },
+      "places": {
+        "verdict": "passed",
+        "query": "London",
+        "result": {
+          "records": [
+            {
+              "id": "builtin:place:geonames:2643743",
+              "source": "geonames",
+              "sourceId": "2643743",
+              "name": "런던",
+              "nameEn": "London",
+              "nameNative": "London",
+              "nameNativeExtras": [],
+              "nameTimeline": [],
+              "kind": "city",
+              "coordinates": [
+                -0.12574,
+                51.50853
+              ],
+              "countryCode": "GB",
+              "population": 0,
+              "priority": 70,
+              "minZoom": 1.25,
+              "featureCode": "PPLC",
+              "notes": ""
+            }
+          ],
+          "displayNames": {
+            "builtin:place:geonames:2643743": "런던"
+          },
+          "truncated": false
+        }
+      }
+    },
+    "milliseconds": 2798.470667,
+    "peakRssBytes": 255365120
+  },
+  {
+    "schemaVersion": 1,
+    "surface": "chatgpt-work-cloud",
+    "stage": "map",
+    "verdict": "passed",
+    "platform": "linux",
+    "nodeVersion": "v24.22.1",
+    "checks": {
+      "map": {
+        "verdict": "passed",
+        "automaticStatus": "needs-georeference",
+        "status": "needs-review",
+        "ocrDetections": 150,
+        "chains": 304,
+        "faces": 2,
+        "preview": "/workspace/scratch/c120a2f2b9b5/map-toolkit-results/map-preview.png",
+        "job": "/workspace/scratch/c120a2f2b9b5/map-toolkit-results/map.job.json"
+      }
+    },
+    "milliseconds": 13331.667466,
+    "peakRssBytes": 568291328
+  }
+]

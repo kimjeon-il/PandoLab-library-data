@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "purpose": "trained-model-execution-parity-only",
+  "releaseApproved": false,
+  "independentEvaluation": false,
+  "provider": "onnxruntime-web-wasm-cpu",
+  "threads": 1,
+  "modelSha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+  "trainingBatches": 1460,
+  "optimizerUpdates": 1452,
+  "outputShape": [
+    1,
+    7,
+    512,
+    512
+  ],
+  "finite": true,
+  "maximumAbsoluteError": 0.0004944801330566406,
+  "meanAbsoluteError": 0.00005941052129873218,
+  "loadMilliseconds": 723.1481,
+  "inferenceMilliseconds": 664.5835999999999,
+  "inputBackend": "local-filesystem",
+  "nodeVersion": "v24.21.0",
+  "verifierSha256": "fde62c945284ab58c572aafc37b33bc690f792047c15889b0c54e19ae7090f83"
+}
