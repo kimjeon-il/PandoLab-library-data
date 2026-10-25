@@ -1,0 +1,338 @@
+{
+  "at": "2026-10-25T19:25:09.892Z",
+  "sourceCommit": "bda4e40810b89385cc40cc9af5efe4af5918c8de",
+  "dataCommit": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+  "states": [
+    {
+      "root": "D:\\dev\\PandoLab",
+      "branch": "main",
+      "head": "bda4e40810b89385cc40cc9af5efe4af5918c8de",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\main\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "oldShellExists": false
+    },
+    {
+      "root": "D:\\dev\\worktrees\\gis",
+      "branch": "work/gis",
+      "head": "bda4e40810b89385cc40cc9af5efe4af5918c8de",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "oldShellExists": false
+    },
+    {
+      "root": "D:\\dev\\worktrees\\objects",
+      "branch": "work/objects",
+      "head": "bda4e40810b89385cc40cc9af5efe4af5918c8de",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "oldShellExists": false
+    },
+    {
+      "root": "D:\\dev\\worktrees\\places",
+      "branch": "work/places",
+      "head": "bda4e40810b89385cc40cc9af5efe4af5918c8de",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "oldShellExists": false
+    },
+    {
+      "root": "D:\\dev\\worktrees\\ui",
+      "branch": "work/ui",
+      "head": "bda4e40810b89385cc40cc9af5efe4af5918c8de",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "view": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "oldShellExists": false
+    }
+  ],
+  "remote": [
+    "bda4e40810b89385cc40cc9af5efe4af5918c8de\trefs/heads/main",
+    "bda4e40810b89385cc40cc9af5efe4af5918c8de\trefs/heads/work/gis",
+    "bda4e40810b89385cc40cc9af5efe4af5918c8de\trefs/heads/work/objects",
+    "bda4e40810b89385cc40cc9af5efe4af5918c8de\trefs/heads/work/places",
+    "bda4e40810b89385cc40cc9af5efe4af5918c8de\trefs/heads/work/ui"
+  ],
+  "compilerEnabled": false,
+  "native": [
+    {
+      "platform": "windows",
+      "directory": "D:\\build\\cache\\pandolab\\native\\4d5178f982608a577cb1316528626991114908f23ee29d55d3e32fdbb5da813c",
+      "nativeInputSha256": "4d5178f982608a577cb1316528626991114908f23ee29d55d3e32fdbb5da813c",
+      "sourceCommit": "3897ad26c295dc9082b5cb64282395f990d8bb01",
+      "buildInfo": {
+        "embeddedAssets": false,
+        "executionMode": "development",
+        "mode": "development",
+        "nativeInputSha256": "4d5178f982608a577cb1316528626991114908f23ee29d55d3e32fdbb5da813c",
+        "origin": "http://127.0.0.1:4175",
+        "platform": "windows",
+        "profile": "map-data",
+        "sourceCommit": "3897ad26c295dc9082b5cb64282395f990d8bb01",
+        "target": "x86_64-pc-windows-msvc",
+        "toolchainVersion": "1.99.1",
+        "verification": false
+      }
+    },
+    {
+      "platform": "android",
+      "directory": "D:\\build\\cache\\pandolab\\native\\2e2a52c2fb9b3b6fcdf505c17ca6e043133ed6b5e21208c67127eb78cf0f5834",
+      "nativeInputSha256": "2e2a52c2fb9b3b6fcdf505c17ca6e043133ed6b5e21208c67127eb78cf0f5834",
+      "sourceCommit": "3897ad26c295dc9082b5cb64282395f990d8bb01"
+    }
+  ],
+  "gpuPython": "D:\\dev\\worktrees\\ui\\build-native\\python\\Scripts\\python.exe",
+  "gpuProbe": {
+    "torch": "2.14.1+cu126",
+    "cudaDriverStatus": 0,
+    "deviceCount": 1,
+    "cudaAvailable": true,
+    "scope": "CUDA driver probe, no training"
+  },
+  "adb": [
+    {
+      "path": "C:/Users/taeeu/AppData/Local/Android/Sdk/platform-tools/adb.exe",
+      "version": "Android Debug Bridge version 1.0.41\r\nVersion 37.0.1-15733141\r\nInstalled as C:\\Users\\taeeu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe\r\nRunning on Windows 10.0.26300"
+    }
+  ],
+  "deletions": [
+    {
+      "label": "UI obsolete dependency graphs",
+      "logicalBytes": 276611379,
+      "knownLastLinkBytes": 21262994
+    },
+    {
+      "label": "Other worktree obsolete dependency graphs",
+      "logicalBytes": 730649451,
+      "knownLastLinkBytes": 14156892
+    },
+    {
+      "label": "Old frontend86",
+      "logicalBytes": 213627838,
+      "knownLastLinkBytes": 509182
+    },
+    {
+      "label": "Old root generated frontend",
+      "logicalBytes": 2327599,
+      "knownLastLinkBytes": 2327599
+    },
+    {
+      "label": "Final obsolete dependencies and reproduced CSS",
+      "logicalBytes": 260074480,
+      "knownLastLinkBytes": 4726095
+    },
+    {
+      "label": "Superseded frontend f5",
+      "logicalBytes": 221477842,
+      "knownLastLinkBytes": 524638
+    },
+    {
+      "label": "Final unused application blobs",
+      "logicalBytes": 123956,
+      "knownLastLinkBytes": 123956
+    },
+    {
+      "label": "Ended editor verification stage",
+      "logicalBytes": 241850266,
+      "knownLastLinkBytes": 530633
+    },
+    {
+      "label": "Ended P2 runtime view D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\b0d737236f75c861779139fab9a0b3cadbd8477f",
+      "logicalBytes": 830345545,
+      "knownLastLinkBytes": 82096122
+    },
+    {
+      "label": "Ended P2 runtime view D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\314483c6aa4cc449f1bab18520bbed44479cab6a",
+      "logicalBytes": 830350168,
+      "knownLastLinkBytes": 25159746
+    },
+    {
+      "label": "Old frontend960",
+      "logicalBytes": 213899729,
+      "knownLastLinkBytes": 509183
+    }
+  ],
+  "confirmedLogicalDeletedBytes": 4097750280,
+  "confirmedLastLinkBytes": 428339067,
+  "evidenceSharing": {
+    "files": 12,
+    "beforeFileIdBytes": 2882541,
+    "afterFileIdBytes": 552295,
+    "payloadBytesReduced": 2330246,
+    "newBlobBytes": 552295
+  },
+  "unquantifiedEarlierBlobGC": {
+    "files": 790,
+    "logicalBytes": null,
+    "measuredFreeBytesDelta": 49074176,
+    "reason": "CLI summary retained count and free-space delta but no per-file bytes; disposable caches were not regenerated to invent the missing total"
+  },
+  "beforeFree": {
+    "C:/": 26354470912,
+    "D:/": 58914938880
+  },
+  "free": {
+    "C:/": 23991504896,
+    "D:/": 57021022208
+  },
+  "freeDelta": {
+    "C:/": -2362966016,
+    "D:/": -1893916672
+  },
+  "currentRuntimeView": {
+    "files": 2080,
+    "logicalBytes": 829738497,
+    "owners": 5
+  },
+  "oldGIS": [
+    {
+      "owner": "gis",
+      "revision": "127e51c3457df87786ecf3aa5ad98ded690928df",
+      "current": false,
+      "files": 1970,
+      "private": 65,
+      "bytes": 719898756,
+      "privateBytes": 16513592,
+      "reason": "Protected private GIS editions from other work; not part of this task creation journal"
+    },
+    {
+      "owner": "gis",
+      "revision": "1879138b54b2c9f8c173bf5575b108e3f1f8139b",
+      "current": false,
+      "files": 1975,
+      "private": 231,
+      "bytes": 749873177,
+      "privateBytes": 46482962,
+      "reason": "Protected private GIS editions from other work; not part of this task creation journal"
+    },
+    {
+      "owner": "gis",
+      "revision": "1d0c9169b93f365f55856127974fda329358a2df",
+      "current": false,
+      "files": 2024,
+      "private": 115,
+      "bytes": 786706604,
+      "privateBytes": 26077354,
+      "reason": "Protected private GIS editions from other work; not part of this task creation journal"
+    },
+    {
+      "owner": "gis",
+      "revision": "d790ac6f0e8fe55e1407cc7a5b29bc696f48384c",
+      "current": false,
+      "files": 1970,
+      "private": 1190,
+      "bytes": 719838777,
+      "privateBytes": 231724386,
+      "reason": "Protected private GIS editions from other work; not part of this task creation journal"
+    }
+  ],
+  "archiveUIHead": "55a00e5af1eca1dd228c530711124729fbf3e78a",
+  "retainedEvidence": [
+    {
+      "path": "private-evidence/worktree-storage/workspace-layout-20261025/ui/old-editor",
+      "bytes": 301059488,
+      "reason": "Unique unarchived original bytes of the retired editor tree; exact recovery has not been proven"
+    },
+    {
+      "path": "private-evidence/worktree-storage/workspace-layout-20261025/ui/original-worker-wip",
+      "bytes": 2147645,
+      "reason": "Original untracked Worker work preserved with baseline hashes"
+    },
+    {
+      "path": "private-evidence/worktree-storage/workspace-layout-20261025/ui/closed-validation",
+      "bytes": 1652414,
+      "reason": "Unique prior validation evidence preserved with origin and hashes"
+    }
+  ],
+  "rawSourcePreservation": {
+    "base": "b0d737236f75c861779139fab9a0b3cadbd8477f",
+    "result": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+    "changedPaths": [
+      "assets/data/countries-canonical-shared-v0.36.1.json.gz",
+      "assets/data/countries-canonical-v0.36.1.pcg.gz",
+      "assets/data/countries-preview-shared-v0.36.1.json.gz",
+      "assets/data/countries-preview-v0.36.1.geojson.gz",
+      "assets/data/generated-artifacts/p2-manifest.json",
+      "assets/data/prepared-polygons/generated/v2/manifest.json",
+      "assets/data/world-mesh-preview-v0.36.1.bin.gz",
+      "assets/data/world-mesh-v0.36.1.bin.gz",
+      "assets/data/world-preview-v0.36.1.json",
+      "assets/data/world/current.json",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-01c8bbd60a91bfb866114800bbf3fdcc0e7a065ff0ce67cd71479829329e54eb.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-077ed2011ec74507c1e8ed110620370b2096d917ee4cc6f31fa067b0d2e19c5f.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-07bb7e6ec207579ad3b97c5dbb158a92dd3338d8b95d94967c31ef20ef1177e2.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-089b8c3b269a0214cc3a3354d840c8017ec5e641fd02b8d4387181bdf815d452.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-0bac5556eb37e7cabf7096ba855b145dd2d714d91141aacbd3f25135dde99fed.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1054704857f85dac8339a503a610220e814fc921fe8f6dd222170c601e4bd175.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-1a93739e98dc47ad73d307aa2161fde9d3eb2fec2aac4069137c85ee423d01cd.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-20c8b499a66b80305900081a3b4c32d6e011038a55f7b0d2ecd697b03660c934.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2557a36c4e7f1a245f0bc956c48d8cacc5b2a660ddc6809669cd4d308eab3d1d.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-278b0a7d1b0d72128923acb7f4d47097c0d2511e75f7951b5afc96a4c6284257.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-2ee563bf6d9f2fc798225e95d5a6c8da410fcdaefd7354a8ecdc983b3653ab4c.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-33200020beccdead2d593a0654c632fce4b304ac00bb2813ff0ac27c360f2952.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4117b7380dd186a93956795205c6c660be7ef297e2970c94d30e523838c7d05a.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-48b390133888ef2af5e28a88a1cdb4c2a1a3eb69c134181fd4e11ce3e150a11b.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4c0844b56a0a6855ad062684e0e24a3b299780a21b4c3d332ffccedf5e52ded5.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-4c478ec8cdd9fe0ee0063453c8fe3461c7627de5faa00cb8ac2c56280e929b39.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-56b677d3b96d1912d07c9583e13cf138a4fd85655e36ce300dbca70d1a1c5ffc.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-5c84ec749f8950890b43b79113cae2dcacf200df89bc671ed68ea2946c27b735.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-74951ff46d1e62a4dd1a1e9d9f681f1688ed54f012c7324d0fa90bdcc6c65585.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-78a8666086fd2ad40a83a3d92bf8cc47eefd6eedc3fd349a91678c328159dc55.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7907d6f969fba09abac16b1df7f5cf2f6397bc6790c7cbd3404d3b9867d3d3bc.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-79964f029df85a59d47e3880122e89163e7a553abe062f1e3cab73e4c8a3f475.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7c4999c948c4f10899d1394424608a381b19490ecf50046313b0520817cefe4a.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-7ddbecc0813707a09199ca33d66c51e0b956e9fb17bf7cda232b07d2f0f4a8de.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-801296db3101d520958101d3243a12c05ba7409f64d2a059eb9f5c9d65bf8be5.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8c636616da5d49470adb5c762eb6efe48f66f4493cf313933b9dce1cac9fdf48.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8f1b1f04546f7d968c0bbc0d8e8cd770b3dde6029f6d6843dcaa21796506fca3.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-8fc51d7fdd2f0e9e13a04d2e6f0985f64d230d010fef36d617720aeda2c69191.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9052082c67b5bc07c3566fe34e3a3e9774a118161d9848a64167420faac7afbf.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-906fe2e2456190c9060e34e4a82eee9a5c84d9aca3c3aa2d45776b56feafbf57.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-907baec6e212394cb371972cbb5f757bf506856e297104af8dd5d5bd43f9dbb4.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-973c8f3233919abf1a4b187cf31e9af99ce9120d5481cf0d2c1976a5b65991b4.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-977406dfc84ef985fca0e10380f5b0562f23316a3c70e65ace91d7336385e4d8.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-9f6be8b042f581f18317a025d6aac8853790215f15081ebe26da7c7e48897ae2.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a11d4105c46aa241c4823fffac12e62504d4dbf44fa2e5d8ffcd2e6406396a21.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a236037c73ed7e6a43ccfd8769742e4ffa07ff6ae8bbd3c0d9ce31e09e8fb120.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-a66305ad948ccce99709eb4943fbaae2726359d5d2035ce5f0d57180421ef681.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bb1c3abc5306844ee5b41e45841bb2d445bc1e951fc196a23908496de3840843.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-bc0456ce1d6059668871e33df53b2436221e08527e6134598c890dd8b82fc8d2.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-c3a4d500563fb9491e7a4719a26b5b21ecd4850c533e4337a50eff5a179ba5e1.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d1e3e8496bad68685e3afc2d9df797a16dd22345a843144f647c752a1fd28c9e.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d3fceb693411104fbff9594cf8efeb82bfae585cbd3db4a6ff2d4c3fa2bf6cef.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-d77dcb0c84f39218aca57595ceb3c3fdbee5a99ed73465ccc424a57f3b539f8e.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dcf8735377ff8e14c15314f60a78ada60660266b7248d4737ba9af09b104058a.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-de79a73777a9ae2a6058eb199d9a7973393c96d28e3cd292e620b0baabbb416b.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e1abd90ce93e3fe7b2541e0576d239ba2dc4fc763c44e6552980a406b5585c50.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e1bc164e52d7851e25dc32b894f7239c80f12cb05593c5513771d43e733a2a63.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e3ca223cc9c1c7ec142178286fd1ebe00d14c075a1e1fad1822c20389b46ea5f.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-e75638331664fda5e7da3306afe78b5051ec06e029feca966eff2b01744806f7.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f2161d2d0e359e80b5a7f2cbef9dff95851e945a2c18bb4d81ed13320b338fd5.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-f8f4f0161481ff2e9e2f7ada8df2d45593d8aa9f7c8bd8b7183172d18df0ceb6.bin.gz",
+      "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-fd35a26932991a6c0b533e682afe08cebd23201bdff7df073aebaa525ab70834.bin.gz",
+      "assets/data/world/objects/countries-canonical-sha256-17e10c3b603cdd7b5403f33612c751d83e1a0a5b95cda22b3b5083e4f83e80b2.pcg.gz",
+      "assets/data/world/objects/countries-preview-sha256-143d78a6150ee20de38b463f6488b97f17f3dc64d112f42568c2d3a600f095a2.geojson.gz",
+      "assets/data/world/objects/world-mesh-preview-sha256-8ea79365b6eb959fc3872077e8ba6884e5ef93bd4e976b4d6f9639613669f979.bin.gz",
+      "assets/data/world/objects/world-mesh-sha256-ba0492813a8605a3e4d3de8c210eb20fb94ee55b196911a3b3accf96ca47bfab.bin.gz"
+    ],
+    "allChangesDeclaredGeneratedOutputs": true
+  },
+  "taskWorkspaceRemoved": true,
+  "temporaryCleanup": {
+    "schema": "pando-generated-cleanup-v1",
+    "digest": "c07c509bb5e9bfd46c00cba2888a7f147118306f3282ed4d4fe685db8fc4bc1b",
+    "completedCount": 1287,
+    "pending": null,
+    "deletedBytes": 276412027,
+    "relocatedBytes": 0,
+    "payloadBytesUnlinked": 276412027,
+    "batch": null,
+    "freeBytes": 57021022208
+  },
+  "confirmedFileIdPayloadReductionIncludingEvidenceSharing": 430669313,
+  "finalMeasuredAt": "2026-10-25T19:42:53.758Z",
+  "measurementNote": "Drive snapshot after temporary cleanup and before report publication; all-period net delta includes other activity and new caches/data/Git. Earlier790-blob logical byte total was not retained."
+}

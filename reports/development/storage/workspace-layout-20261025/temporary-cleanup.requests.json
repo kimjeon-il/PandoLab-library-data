@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "root": "D:\\dev\\worktrees\\ui",
+      "path": ".superpowers/sdd/2026-10-25-workspace-layout",
+      "action": "delete",
+      "reason": "Task-owned completed verification workspace; selected unique evidence is hash-verified in library report archive 8da99a247a6f9aef4fc9211fa0e19d0d96dfe9f0cc9ebc4e0ce72d96c0e9eddd; native copies verified against the active immutable artifact store; review source copies recover from local Git; ended private WebView profile has no consumer"
+    },
+    {
+      "root": "D:\\dev\\worktrees\\ui",
+      "path": "test-results/.last-run.json",
+      "action": "delete",
+      "reason": "Only task-owned Playwright last-run marker remains; actual selected workflow outputs and live screenshots are archived"
+    }
+  ]
+}
