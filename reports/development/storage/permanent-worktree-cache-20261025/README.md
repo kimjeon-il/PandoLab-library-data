@@ -43,7 +43,7 @@ Emscripten 4.0.20은 내부 Clang wrapper가 호출되고 유효한 WASM object�
 - UI Cargo target 12,704,693,484 논리/9,514,691,986 파일 ID bytes: 현재 WebView/Android 개발의 독립 incremental 상태. 다른 target을 같은 쓰기 가능한 폴더로 합치지 않았다.
 - UI build-native 4,669,807,801 중 Python Lib 4,607,779,288: 실제 QGIS MCP Python 프로세스가 사용하는 환경. Android app/build 1,073,330,078도 현재 고정 증분 경로다.
 - Objects Emscripten SDK, 고정 CMake/컴파일러와 Qt SDK 고유 bytes: 실제 build/probe 및 과거 source-identified replay 경로/로컬 SDK 원본을 보존한다. 동일 bytes만 공유했으며 별도 SDK를 새로 복제하지 않았다. source identity가 없는 두 작은 Qt runtime 폴더는 소유권 미확인으로 보호했다.
-- 기존 .superpowers/browser trace/GIS gpkg/학습·평가 증거는 고유 원본 또는 별도 진행 중인 작업으로 보호했다. 현재 UI map-plugin 작업은 이번 정리 중에도 계속 진행됐다. 동기화 시점 219개 WIP는 보존했고 이후 234개 변경 상태 및 세 원래 경로의 동시 변경을 감사에 기록했다. 해당 UI 소스에 본 정리가 쓰거나 커밋하지 않았다.
+- 기존 .superpowers/browser trace/GIS gpkg/학습·평가 증거는 고유 원본 또는 별도 진행 중인 작업으로 보호했다. 현재 UI map-plugin 작업은 이번 정리 중에도 계속 진행됐다. 동기화 시점 219개 WIP는 보존했고 최종 경로 수는 219개이며 세 원래 경로의 동시 변경을 감사에 기록했다. Git NUL status의 234개 레코드에는 rename의 추가 원래 경로 15개가 포함돼 별도 변경 파일로 세지 않았다. 해당 UI 소스에 본 정리가 쓰거나 커밋하지 않았다.
 - 이 작업의 private 감사 metadata는 69702927이며 현재 보고서의 전후 hash/파일 ID·복구/원문 보존 근거다. 원문/build/repository 전체 백업은 만들지 않았다.
 
 판단: Rust cwd는 원래 키를 보존해 workspace 사이 적중을 강요하지 않았다(경로/디버그 의미 보존, 해당 작업은 cache miss 가능). Qt는 고유 SDK bytes와 replay 경로를 보존했다(임의 in-place 변경은 독립 사본이 필요). 실제 적용·설치·컴파일 증거는 리뷰어의 재실행 대신 직접 검증 로그로 책임졌다(누락 검증을 통과로 확대하지 않음). WASM은 unsupported 인수를 보존해 cache speedup을 포기했다.

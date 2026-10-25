@@ -1,0 +1,409 @@
+{
+  "schema": "pando-permanent-worktree-cache-result-v1",
+  "sourceCommit": "6db1f2e2aa2cd6b91552377c4907bc92dd7f3143",
+  "scope": "reports/development/storage/permanent-worktree-cache-20261025",
+  "totals": {
+    "loggedDeletionBytes": 752640719,
+    "applicationBlobFiles": 803,
+    "applicationBlobBytes": 253035104,
+    "verificationBlobFiles": 55,
+    "verificationBlobBytes": 4316009,
+    "manuallyLoggedSkippedPackageFiles": 90,
+    "manuallyLoggedSkippedPackageBytes": 259882693,
+    "newUnreferencedPackageStoreFiles": 82,
+    "newUnreferencedPackageStoreBytes": 235406913,
+    "appSharedFiles": 3630,
+    "appSharedLogicalBytes": 592083214,
+    "qtSharedFiles": 6787,
+    "qtSharedLogicalBytes": 435941407,
+    "fileIdBytesReduction": 783552722,
+    "driveFreeBytesBefore": 28796796928,
+    "driveFreeBytesAfter": 29542658048,
+    "driveFreeBytesDelta": 745861120,
+    "measurementAt": "2026-10-25T02:56:45.635Z"
+  },
+  "inventory": {
+    "at": "2026-10-25T02:49:53.532Z",
+    "files": 108906,
+    "linksSkipped": 1434,
+    "logicalBytes": 25760145004,
+    "fileIdBytes": 20822579607,
+    "beforeFileIdBytes": 21353097225,
+    "preexistingLibraryReferencedBytes": 253035104,
+    "afterFileIdBytesExcludingPreexistingLibrary": 20569544503,
+    "fileIdBytesReduction": 783552722,
+    "driveFreeBytes": 29542604800,
+    "groups": [
+      {
+        "name": "D:/dev/PandoLab|node_modules",
+        "files": 3118,
+        "logicalBytes": 243622282,
+        "fileIdBytes": 242888844
+      },
+      {
+        "name": "D:/dev/PandoLab|apps/web-shell/node_modules",
+        "files": 20,
+        "logicalBytes": 16527171,
+        "fileIdBytes": 16527171
+      },
+      {
+        "name": "D:/dev/PandoLab|apps/web-shell/src-tauri/target",
+        "files": 10,
+        "logicalBytes": 438227033,
+        "fileIdBytes": 438227033
+      },
+      {
+        "name": "D:/dev/PandoLab|build-native",
+        "files": 188,
+        "logicalBytes": 42048373,
+        "fileIdBytes": 42048373
+      },
+      {
+        "name": "D:/dev/PandoLab|.superpowers",
+        "files": 21,
+        "logicalBytes": 117047524,
+        "fileIdBytes": 117047524
+      },
+      {
+        "name": "D:/dev/PandoLab|test-results",
+        "files": 4,
+        "logicalBytes": 1631508,
+        "fileIdBytes": 1631508
+      },
+      {
+        "name": "D:/dev/PandoLab|apps/web-shell/dist",
+        "files": 1832,
+        "logicalBytes": 334044729,
+        "fileIdBytes": 333102967
+      },
+      {
+        "name": "D:/dev/worktrees/ui|node_modules",
+        "files": 3121,
+        "logicalBytes": 243628412,
+        "fileIdBytes": 242894974
+      },
+      {
+        "name": "D:/dev/worktrees/ui|apps/web-shell/node_modules",
+        "files": 22,
+        "logicalBytes": 16531832,
+        "fileIdBytes": 16531832
+      },
+      {
+        "name": "D:/dev/worktrees/ui|apps/web-shell/src-tauri/target",
+        "files": 15400,
+        "logicalBytes": 12704693484,
+        "fileIdBytes": 9514691986
+      },
+      {
+        "name": "D:/dev/worktrees/ui|apps/web-shell/src-tauri/gen/android/.gradle",
+        "files": 65,
+        "logicalBytes": 6136322,
+        "fileIdBytes": 6136322
+      },
+      {
+        "name": "D:/dev/worktrees/ui|apps/web-shell/src-tauri/gen/android/app/build",
+        "files": 681,
+        "logicalBytes": 1073330078,
+        "fileIdBytes": 1073330078
+      },
+      {
+        "name": "D:/dev/worktrees/ui|apps/web-shell/src-tauri/gen/android/build",
+        "files": 8,
+        "logicalBytes": 7279347,
+        "fileIdBytes": 7279347
+      },
+      {
+        "name": "D:/dev/worktrees/ui|build-native",
+        "files": 29859,
+        "logicalBytes": 4669807801,
+        "fileIdBytes": 4669807801
+      },
+      {
+        "name": "D:/dev/worktrees/ui|.superpowers",
+        "files": 6122,
+        "logicalBytes": 1312197452,
+        "fileIdBytes": 1312197452
+      },
+      {
+        "name": "D:/dev/worktrees/ui|test-results",
+        "files": 1,
+        "logicalBytes": 45,
+        "fileIdBytes": 45
+      },
+      {
+        "name": "D:/dev/worktrees/ui|apps/web-shell/dist",
+        "files": 1802,
+        "logicalBytes": 259135177,
+        "fileIdBytes": 257849607
+      },
+      {
+        "name": "D:/dev/worktrees/ui|.library-data",
+        "files": 34,
+        "logicalBytes": 11623099,
+        "fileIdBytes": 11623099
+      },
+      {
+        "name": "D:/dev/worktrees/gis|node_modules",
+        "files": 3118,
+        "logicalBytes": 243624786,
+        "fileIdBytes": 242891348
+      },
+      {
+        "name": "D:/dev/worktrees/gis|build-native",
+        "files": 554,
+        "logicalBytes": 302868670,
+        "fileIdBytes": 302868670
+      },
+      {
+        "name": "D:/dev/worktrees/gis|.terrain-preview-cache",
+        "files": 9,
+        "logicalBytes": 7478072,
+        "fileIdBytes": 7478072
+      },
+      {
+        "name": "D:/dev/worktrees/gis|.superpowers",
+        "files": 134,
+        "logicalBytes": 655825866,
+        "fileIdBytes": 655825866
+      },
+      {
+        "name": "D:/dev/worktrees/objects|node_modules",
+        "files": 3118,
+        "logicalBytes": 243626846,
+        "fileIdBytes": 242893408
+      },
+      {
+        "name": "D:/dev/worktrees/objects|apps/web-shell/src-tauri/target",
+        "files": 21,
+        "logicalBytes": 11322342,
+        "fileIdBytes": 11322342
+      },
+      {
+        "name": "D:/dev/worktrees/objects|build-native",
+        "files": 29861,
+        "logicalBytes": 2222429530,
+        "fileIdBytes": 1873759640
+      },
+      {
+        "name": "D:/dev/worktrees/objects|.superpowers",
+        "files": 4064,
+        "logicalBytes": 100840590,
+        "fileIdBytes": 100840590
+      },
+      {
+        "name": "D:/dev/worktrees/objects|test-results",
+        "files": 3,
+        "logicalBytes": 10701,
+        "fileIdBytes": 10701
+      },
+      {
+        "name": "D:/dev/worktrees/places|node_modules",
+        "files": 3118,
+        "logicalBytes": 243626331,
+        "fileIdBytes": 242892893
+      },
+      {
+        "name": "shared|application-blobs",
+        "files": 2598,
+        "logicalBytes": 230979601,
+        "fileIdBytes": 230979601
+      }
+    ]
+  },
+  "dependencies": [
+    {
+      "root": "D:/dev/PandoLab",
+      "esbuild": "0.25.10",
+      "skipped": 26,
+      "unsupportedInstalled": 0
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "esbuild": "0.25.10",
+      "skipped": 26,
+      "unsupportedInstalled": 0
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "esbuild": "0.25.10",
+      "skipped": 26,
+      "unsupportedInstalled": 0
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "esbuild": "0.25.10",
+      "skipped": 26,
+      "unsupportedInstalled": 0
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "esbuild": "0.25.10",
+      "skipped": 26,
+      "unsupportedInstalled": 0
+    }
+  ],
+  "actualConsumerVerification": {
+    "at": "2026-10-25T02:31:11.689Z",
+    "checked": {
+      "commit": "087ecae05bb5c9cabf3ae53840025430ea4bba76",
+      "dataCommit": "127e51c3457df87786ecf3aa5ad98ded690928df",
+      "profile": "map-data"
+    },
+    "files": 1842,
+    "logicalBytes": 324570881,
+    "sharedReadonlyFiles": 1842,
+    "responses": [
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 156025,
+        "sha256": "4b96b79f6af87e907d7c9596dd8b7e3331ce6f2a8ac20f53410c5782fdbb8b43"
+      },
+      {
+        "path": "assets/wasm/pandoeditor-core.wasm",
+        "status": 200,
+        "bytes": 3067277,
+        "sha256": "42de440a76a0fe27e6b2085dea23c3ad702fef84819d6cd143c6ae925fd2ec8a"
+      },
+      {
+        "path": "assets/data/physical-land/v1/manifest.json",
+        "status": 200,
+        "bytes": 1454,
+        "sha256": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d"
+      }
+    ],
+    "verificationStageRemoved": true
+  },
+  "compiler": {
+    "records": [
+      {
+        "name": "C++ first compilation",
+        "hits": 0,
+        "misses": 1
+      },
+      {
+        "name": "C++ repeated compilation",
+        "hits": 1,
+        "misses": 0
+      },
+      {
+        "name": "C++ other worktree",
+        "hits": 1,
+        "misses": 0
+      },
+      {
+        "name": "C++ changed header",
+        "hits": 0,
+        "misses": 1
+      },
+      {
+        "name": "C++ changed options",
+        "hits": 0,
+        "misses": 1
+      },
+      {
+        "name": "Rust first dependency compilation",
+        "hits": 0,
+        "misses": 1
+      },
+      {
+        "name": "Rust repeated dependency compilation",
+        "hits": 1,
+        "misses": 0
+      },
+      {
+        "name": "Rust other worktree",
+        "hits": 1,
+        "misses": 0
+      },
+      {
+        "name": "Rust changed env! input",
+        "hits": 0,
+        "misses": 1
+      },
+      {
+        "name": "Rust changed source",
+        "hits": 0,
+        "misses": 1
+      },
+      {
+        "name": "CMake persisted owned launcher",
+        "hits": 1,
+        "misses": 0
+      }
+    ],
+    "version": "0.19.0",
+    "cap": 2147483648,
+    "baseDirectories": []
+  },
+  "wasm": {
+    "records": [
+      {
+        "name": "WASM inner Clang first",
+        "hits": 0,
+        "misses": 0,
+        "bypass": 1,
+        "reasons": {
+          "Can't handle UnknownFlag arguments with -Xclang": 2
+        }
+      },
+      {
+        "name": "WASM inner Clang repeat",
+        "hits": 0,
+        "misses": 0,
+        "bypass": 1,
+        "reasons": {
+          "Can't handle UnknownFlag arguments with -Xclang": 3
+        }
+      },
+      {
+        "name": "WASM inner Clang other worktree",
+        "hits": 0,
+        "misses": 0,
+        "bypass": 1,
+        "reasons": {
+          "Can't handle UnknownFlag arguments with -Xclang": 4
+        }
+      }
+    ],
+    "note": "Unsupported arguments bypass the cache; no flags were dropped or changed."
+  },
+  "protectedQt": [
+    {
+      "root": "D:\\dev\\worktrees\\objects",
+      "directory": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-70789caf-failed\\qt-runtime",
+      "status": "protected",
+      "reason": "No source identity: preserve unique SDK material"
+    },
+    {
+      "root": "D:\\dev\\worktrees\\objects",
+      "directory": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime",
+      "status": "protected",
+      "reason": "No source identity: preserve unique SDK material"
+    }
+  ],
+  "privateAudit": {
+    "path": "D:/dev/PandoLab-library-data/private-evidence/worktree-storage/20261025",
+    "bytes": 69702927,
+    "reason": "Before/after file IDs, SHA-256, WIP preservation, operation receipts and actual compiler/consumer evidence; metadata only, no repository/data/build backup."
+  },
+  "wip": {
+    "beforeUI": 219,
+    "currentUI": 219,
+    "concurrentChanges": [
+      "docs/reference-map-plugin.md",
+      "plugins/pando-map-tools/plugin.json",
+      "plugins/pando-map-tools/skills/pando-map-analysis/SKILL.md"
+    ],
+    "rawStatusRecords": 234,
+    "note": "15 additional NUL records are rename source paths, not additional dirty files; completion-state.json confirms 219 paths."
+  },
+  "completionCheckpoint": {
+    "at": "2026-10-25T02:58:59.497Z",
+    "freeBytes": 29541728256,
+    "driveFreeBytesDelta": 744931328,
+    "allPins": "127e51c3457df87786ecf3aa5ad98ded690928df",
+    "taskTempPathsAbsent": true,
+    "storageJournalsAbsent": true
+  }
+}
