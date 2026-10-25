@@ -38,3 +38,13 @@ Retained generated outputs have current consumers: existing incremental native c
 ## Publication and limits
 
 Only the completed files in publication-scope.json are selected for archival. Runtime data pins and other reports are excluded. Android post-cutover drafts/failures and superseded/blocked copies are not selected. The publication command's returned commit plus a fresh check establish archival; local files alone do not. Independent OCR/model/localization accuracy and historical accuracy were not established. The application feature cutover is implemented, but the final Android post-cutover gate remains explicitly open.
+
+### Exact blocked temporary targets
+
+- D:/dev/worktrees/ui/build-native/reference-analysis/interface-smoke.onnx:16642355 bytes.
+- D:/dev/worktrees/ui/.superpowers/sdd/2026-10-25-map-plugin/webview-profile:228780346 bytes.
+- D:/dev/PandoLab-library-data/reports/.edits/ui/map.gpkg:23322624 bytes.
+- D:/dev/PandoLab-library-data/reports/.edits/ui/map-analysis/reports/plugin-migration/canada-export-current/판도연구소-프로젝트.gpkg:23322624 bytes.
+- D:/dev/worktrees/ui/.superpowers/sdd/2026-10-25-map-plugin/{move-analysis.mjs,retire-app.mjs,retire-packaging.mjs,app-reference-consumers.txt}:3816+7026+3781+1854=16477 bytes.
+
+Total blocked logical bytes:292084426 (278.55MiB). No blocked file was deleted. These copies are excluded from selected publication; no disposable cache backup was created.
