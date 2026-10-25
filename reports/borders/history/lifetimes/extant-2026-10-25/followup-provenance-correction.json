@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "id": "state:HKG",
+      "userSelected": false,
+      "selectionBasis": "policy-derived"
+    },
+    {
+      "id": "state:SLV",
+      "userSelected": false,
+      "selectionBasis": "research-supported"
+    },
+    {
+      "id": "state:TCA",
+      "userSelected": false,
+      "selectionBasis": "policy-derived"
+    },
+    {
+      "id": "state:FLK",
+      "userSelected": false,
+      "selectionBasis": "policy-derived"
+    }
+  ],
+  "onlyDirectSelectionFlagChanged": true,
+  "sourceChunkEqual": true,
+  "worldCountryBytesUnchanged": true,
+  "worldInputRevisionsUpdated": true,
+  "checkedAt": "2026-10-25T15:40:14.308Z"
+}

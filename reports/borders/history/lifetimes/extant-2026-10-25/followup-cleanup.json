@@ -1,0 +1,9 @@
+{
+  "status": "blocked",
+  "removed": [],
+  "removedLogicalBytes": 0,
+  "retainedObsoleteCount": 44,
+  "retainedObsoleteLogicalBytes": 18392459,
+  "reason": "Execution approval review rejected the scoped PowerShell removal as blocked by policy; no detailed reason was supplied. No alternate deletion method was used.",
+  "checkedAt": "2026-10-25T15:35:24.206Z"
+}

@@ -1,0 +1,31 @@
+{
+  "native": {
+    "libraryCommit": "b0d737236f75c861779139fab9a0b3cadbd8477f",
+    "remoteBranch": "work/gis",
+    "remoteShaVerified": true,
+    "nativeStoredObjectsChecked": 34,
+    "datesOpenEndsAndSelectionFlagsEqual": true
+  },
+  "application": {
+    "taskCommit": "50533bb85",
+    "remoteCommit": "300bcb961cbdd0e84a8d178245d96f45614095ed",
+    "remoteBranch": "work/gis",
+    "remoteShaVerified": true,
+    "mainMerged": false,
+    "deployed": false,
+    "concurrentPublicCommitsPreserved": true
+  },
+  "storage": {
+    "driveFreeBefore": 57226665984,
+    "driveFreeAfter": 56771452928,
+    "removedLogicalBytes": 0,
+    "uniqueObsoleteLogicalBytes": 18392459,
+    "uniqueObsoleteCandidates": 44,
+    "cleanupStatus": "blocked",
+    "reason": "Both the scoped PowerShell loop and a narrower literal-file command were rejected by automatic execution review as blocked by policy. No alternate tool, encoding or shell was used for deletion. Original source maps and other worktrees are intact.",
+    "ownedPreviewStopped": true,
+    "ownedBrowserTabsClosed": true,
+    "existingPort4175ServerUntouched": true
+  },
+  "checkedAt": "2026-10-25T15:59:36.480Z"
+}

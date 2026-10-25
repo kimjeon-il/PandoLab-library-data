@@ -1,0 +1,317 @@
+{
+  "id": "GEO-LIFE-EXTANT-20261025",
+  "scope": "followup-selected-34",
+  "baseLibraryRevision": "1d0c9169b93f365f55856127974fda329358a2df",
+  "appBase": "10c3b6fde",
+  "createdAt": "2026-10-25T15:23:20.094Z",
+  "records": [
+    {
+      "id": "state:CYN",
+      "expected": "1983-11-15",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "045e2f3897e4d5c4ea36aa7ca7b340f7bcc8058a970d6e82196df6dc0e7fd674"
+    },
+    {
+      "id": "state:HKG",
+      "expected": "1843-06-26",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "ca215826559aa2a1882ee36aceea7300cc8762c9b3287eaf9857567715045134"
+    },
+    {
+      "id": "state:KAB",
+      "expected": "1995-09-25",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "172445f91ee47c23c4d6effce4fcec4506830540390da41a860fcae810068f87"
+    },
+    {
+      "id": "state:MAC",
+      "expected": "1844-09-20",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "50d376dbe591371ae9d536e8810d58e4c6b71f9a6f5d24f5e0ddb819312e31c8"
+    },
+    {
+      "id": "state:MNG",
+      "expected": "1921-02-22",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "605c7ddb6062d4bdfe7ef51b92e22a0ccadef3d55fe08c2393b2516748c2a506"
+    },
+    {
+      "id": "state:MYS",
+      "expected": "1963-09-16",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "132a193967d3f3a3a5ef0bfa745dbf45cd2dc207b360e146767bca3a56b26cd3"
+    },
+    {
+      "id": "state:NPL",
+      "expected": "1768",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "a22ff1cb68c60206bed61e9b634a9898735b18131332497865053b5b4d07a473"
+    },
+    {
+      "id": "state:QAT",
+      "expected": "1878-12-18",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "e76b19064c7cd6edbd986000d2547a13d3ab38c66f0b0af88a3dc3740f6fe79f"
+    },
+    {
+      "id": "state:AIA",
+      "expected": "1980-12-19",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "92160f7813b910f80bb17e739418e2b04cab71459c18d091689657cf09b3ae62"
+    },
+    {
+      "id": "state:DOM",
+      "expected": "1863-09-14",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "f25defab97c053a5f85f37608dad16dfd5182d1a00d56b6c81787cfca36e02cb"
+    },
+    {
+      "id": "state:GTM",
+      "expected": "1839-04-17",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "f882e2833b0a19631d79b471bc01a6a552137fff35588e2dcb6eefa74e230ba2"
+    },
+    {
+      "id": "state:MEX",
+      "expected": "1821-09-28",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "12c3bcd73113d129a1cb6d664cf1ae2ce76d4e477b6c38dbec75a17a789df346"
+    },
+    {
+      "id": "state:SLV",
+      "expected": "1841-02-02",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "9142654b26d3a9a9eee79170e4a48868d3b55ce8ca092246294269cd9fa11389"
+    },
+    {
+      "id": "state:TCA",
+      "expected": "1962-08-06",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "9bf0348088e708b9cd1d426d2c0ec9a2b962f8bbe68fa50d4b33a356bfc0bf74"
+    },
+    {
+      "id": "state:USA",
+      "expected": "1776-07-04",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "0730fbe7bebd3f16aaa45d89b5847dfbc5806e942014c66df2c332090454045d"
+    },
+    {
+      "id": "state:USG",
+      "expected": "1903-02-23",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "8cd8e149421fb5cc5dc33478e96006e5253629a10546940398b2933dc8410e48"
+    },
+    {
+      "id": "state:ARG",
+      "expected": "1831-01-04",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "fbdfc2f5ebb4ff8d4e66dce5196a20f7e633f9212955a59ca5f1178dd1c787cd"
+    },
+    {
+      "id": "state:FLK",
+      "expected": "1843-06-23",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "ed2ddb27d0120c031993d943e9d6872da2e6bc148c27af0a56b486c24d873483"
+    },
+    {
+      "id": "state:SGS",
+      "expected": "1985-10-03",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "12fd8538af72e206fdc818f239a09f0b1eeae10d148d8979ec200fc60b3d66c4"
+    },
+    {
+      "id": "state:URY",
+      "expected": "1828-08-27",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "27a04428d41481b7e420efa03a93146560088605d9c2d24acc59a24d9b2ed97a"
+    },
+    {
+      "id": "state:CMR",
+      "expected": "1960-01-01",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "bd9e82077c34e7b68ef2eeb322ad75ad301741d820ee869769ed7cc13f6da454"
+    },
+    {
+      "id": "state:DZA",
+      "expected": "1962-07-03",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "8c4062d18d2cea57faafa5cf6bda081d580819a62b3339d2a8c4cd88a871ae5e"
+    },
+    {
+      "id": "state:ERI",
+      "expected": "1993-05-24",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "62bb36dd6fc8d199fba61f657274d568528264b9ef17e4343c6d70fc8520e9b9"
+    },
+    {
+      "id": "state:SAH",
+      "expected": "1976-02-27",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "14b484cfce78fd9e8974a6801a41e90eedd2d5359b803a64bf1fd602a748d2fe"
+    },
+    {
+      "id": "state:SEN",
+      "expected": "1960-08-20",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "e8a2c91591ed09ccda4a7cb2713d6d7c51bb7c506ad0fd9b5c2a8b23564fe92a"
+    },
+    {
+      "id": "state:ASM",
+      "expected": "1900-02-16",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "1d04aff33b0bf5161be75b22f27c50358cff41de92d99b400f2a4a2a504ab939"
+    },
+    {
+      "id": "state:COK",
+      "expected": "1965-08-04",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "005139abf663987390862e92fe7f630ca8bcdfc0dbf2836dbc339b60ef9849ba"
+    },
+    {
+      "id": "state:GUM",
+      "expected": "1899-04-11",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "39fbe7e2f5605baba8303fa391d2e49f14e1d4559b5ebdc6c1c1005fd5aa0498"
+    },
+    {
+      "id": "state:HMD",
+      "expected": "1953-04-24",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "3731fc5ddab4bbfe1c2ec836aef66c8007f87db88c427fd4295c8f041515b131"
+    },
+    {
+      "id": "state:NZL",
+      "expected": "1841-05-03",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "d4a73dcf9b4660a9b89b1a84e8552d9b390600f831e424ded9c786650b4b3f15"
+    },
+    {
+      "id": "state:PYF",
+      "expected": "1880-12-30",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "be669fe143a24ff29c6403c384699e788d4c6311369c9ba92110e35a729c68b3"
+    },
+    {
+      "id": "state:TON",
+      "expected": "1845",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "4780c57d9af542c7cd2a89783199a4649614185b8738016ef84962f0162b828a"
+    },
+    {
+      "id": "state:WLF",
+      "expected": "1909-06-10",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "fd7dfaa2fa152830256c8ac03f5822607017fce19541ed4901790535809947bc"
+    },
+    {
+      "id": "state:ATF",
+      "expected": "1955-08-06",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "1f1994ea298ce4ebf9a71d5690543db6d857c1eae1e856285c589cbdfd3164dc"
+    }
+  ],
+  "selectedBytesWritten": 7546018,
+  "dataState": "source-chunk-index-written"
+}

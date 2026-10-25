@@ -1,0 +1,9 @@
+{
+  "base": "e6b41735",
+  "ours": "c20b32ac",
+  "theirs": "1d0c9169",
+  "merge": "bdd36d25",
+  "unresolved": 0,
+  "resolution": "Merged disjoint archive and native object maps; both committed rebuilt indices equal scoped materialized outputs. Four compressed conflicts have identical decompressed bytes and expected content hashes. Remote USSR report retained.",
+  "checkedAt": "2026-10-25T15:39:29.333Z"
+}

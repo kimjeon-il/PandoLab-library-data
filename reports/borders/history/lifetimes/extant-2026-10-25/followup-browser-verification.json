@@ -1,0 +1,41 @@
+{
+  "buildId": "0.36.0-build-10c3b6fde40a",
+  "dataRevision": "data-afb5daedbe3e756955f285561e1d3662",
+  "web": {
+    "entity": "state:USA",
+    "beforeMonth": "1776-06",
+    "beforeSearchResultAbsent": true,
+    "startMonth": "1776-07",
+    "startSearchResultPresent": true,
+    "screenshot": "followup-web-usa.png"
+  },
+  "appWebShell": {
+    "library": [
+      {
+        "id": "state:USA",
+        "before": "1776-07-03",
+        "beforeOutsideLifetime": true,
+        "at": "1776-07-04",
+        "atInsideLifetime": true,
+        "display": "1776–현재"
+      },
+      {
+        "id": "state:DOM",
+        "before": "1863-09-13",
+        "beforeOutsideLifetime": true,
+        "at": "1863-09-14",
+        "atInsideLifetime": true,
+        "display": "1863–현재"
+      }
+    ],
+    "sourcePreviewAndAddEnabled": true,
+    "screenshot": "followup-app-dom.png",
+    "staticSnapshotPeriod": "Default builtin project intentionally has undated snapshot records; library source dates checked independently.",
+    "unrelatedWarning": "Existing localhost autosave rejected PL-SCHEMA-BASE and preserved with autosave paused; it was not overwritten.",
+    "inputObservations": "Typing an incomplete date produced PL-LIB-005 during intermediate keystrokes. Complete dates were accepted; no source loading failure occurred."
+  },
+  "initialPreviewFailures": "Before storing/pinning and regenerating metadata, stale old build metadata rejected the edited index; resolved in the current metadata build.",
+  "nativeExecutableRebuilt": false,
+  "nativeDeviceTested": false,
+  "checkedAt": "2026-10-25T15:55:05.119Z"
+}

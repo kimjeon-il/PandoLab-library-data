@@ -1,0 +1,693 @@
+{
+  "selectedRecords": 34,
+  "worldTemporalAssertions": 204,
+  "selectedTransportRangesEqual": true,
+  "rows": [
+    {
+      "id": "state:CYN",
+      "projectId": "CYN",
+      "date": "1983-11-15",
+      "sha256": "438633a9bef25c34fd6004495372a5da03e2c85b4462e823f2d1ac6a0c5ad5be",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1983-11-15",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:HKG",
+      "projectId": "d34b00a1-9b13-8000-8000-000000484b47",
+      "date": "1843-06-26",
+      "sha256": "2a752fd9e3188c9dbb5f8098384fc66c5d332a880c674b15ab4e2f6b435005dd",
+      "geometryCoverageAtStart": false,
+      "firstCoverage": {
+        "validFrom": "1949-10-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:KAB",
+      "projectId": "d34b00a1-9b13-8000-8000-0000004b4142",
+      "date": "1995-09-25",
+      "sha256": "6d025d5c1eac7e8d35f733a4051a6984c68f56123d76195b0fc27ae81bbc5be3",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1995-09-25",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MAC",
+      "projectId": "d34b00a1-9b13-8000-8000-0000004d4143",
+      "date": "1844-09-20",
+      "sha256": "94e784787670f5ba6724abe67be98e229a003baa185a5cd61960a1d8e33c3195",
+      "geometryCoverageAtStart": false,
+      "firstCoverage": {
+        "validFrom": "1949-10-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MNG",
+      "projectId": "MNG",
+      "date": "1921-02-22",
+      "sha256": "8e2e5f528164b85f85de6eb7e699b4b7a8da85ac51472a0926e62ddd70fd5c98",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1921-02-22",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MYS",
+      "projectId": "MYS",
+      "date": "1963-09-16",
+      "sha256": "c67f8b1496b5992b929a98a8e2871224ff90e6993bd7bbebe6cbd7c8169c7c52",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1963-09-16",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:NPL",
+      "projectId": "NPL",
+      "date": "1768",
+      "sha256": "e232465ef13c1d4e03796f6649a17e4dbfcf91ab7e3393bac886d508344b84c0",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1768-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:QAT",
+      "projectId": "QAT",
+      "date": "1878-12-18",
+      "sha256": "a686acbe7e957a779e9cb6622bc3558ece109e927443e22bb7e60b93302a34e7",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1878-12-18",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:AIA",
+      "projectId": "d34b00a1-9b13-8000-8000-000000414941",
+      "date": "1980-12-19",
+      "sha256": "316286ff8c3c42e1507504c25986d63cc508d7db9578b13c9d64a7aceb0fc661",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1980-12-19",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:DOM",
+      "projectId": "DOM",
+      "date": "1863-09-14",
+      "sha256": "48cd0c4be5c5b2f08457a453a6e62ad474a723bc3d69e428518b4eabbbf3ed11",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1863-09-14",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:GTM",
+      "projectId": "GTM",
+      "date": "1839-04-17",
+      "sha256": "316a62c69027502677ed01b3d1c4a91a8d56252f67fbd04c569318c7f7ca3fa7",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1839-04-17",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MEX",
+      "projectId": "MEX",
+      "date": "1821-09-28",
+      "sha256": "33dab74945702d681aeaaa928d823f0aeda4932d32cfd2adde1be51d0973630f",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1821-09-28",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:SLV",
+      "projectId": "SLV",
+      "date": "1841-02-02",
+      "sha256": "23a32fd43141a8fce5fa756940ddd5071fca38d1021b84ca3660d7a5dbaee194",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1841-02-02",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:TCA",
+      "projectId": "d34b00a1-9b13-8000-8000-000000544341",
+      "date": "1962-08-06",
+      "sha256": "9d961d459469be7f5a1695d9fce26eeabd65c8db688f289089623d5f9442b63d",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1962-08-06",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:USA",
+      "projectId": "USA",
+      "date": "1776-07-04",
+      "sha256": "4f107445d7126cce1fcf005cd9e0d428bc09ee51ea163f02e8b8193b41a37737",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1776-07-04",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:USG",
+      "projectId": "d34b00a1-9b13-8000-8000-000000555347",
+      "date": "1903-02-23",
+      "sha256": "5d31cb61ae4360054035e5238640a433e33c286ba70ab01419057f08db961304",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1903-02-23",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:ARG",
+      "projectId": "ARG",
+      "date": "1831-01-04",
+      "sha256": "f6d7afbe510f7e607e46c3573eb7f878438dd078f9fe1e003c5e00020fd09d14",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1831-01-04",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:FLK",
+      "projectId": "d34b00a1-9b13-8000-8000-000000464c4b",
+      "date": "1843-06-23",
+      "sha256": "12611745a73eee1c56d1662eca660aaa5a570bc6849c077791d9d59df9907c33",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1843-06-23",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:SGS",
+      "projectId": "d34b00a1-9b13-8000-8000-000000534753",
+      "date": "1985-10-03",
+      "sha256": "92b70d7477cc8605ea1a68c2a9e69f860daa5c2a340acfd7b6bff20dacf51fa5",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1985-10-03",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:URY",
+      "projectId": "URY",
+      "date": "1828-08-27",
+      "sha256": "3543ebf50dc6c338152771738e279425bc5ba5f87b9f6000cfed0f9a6fdbcc3b",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1828-08-27",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:CMR",
+      "projectId": "CMR",
+      "date": "1960-01-01",
+      "sha256": "ebd69b4e24f2bb532ffde68a8188c326ad9f11b6394e200aeba18ff18301fa80",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1960-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:DZA",
+      "projectId": "DZA",
+      "date": "1962-07-03",
+      "sha256": "afcc01c81552c82f3e1173a1ce62e0d94c1890a1dc74637fc7491a8ba7349111",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1962-07-03",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:ERI",
+      "projectId": "ERI",
+      "date": "1993-05-24",
+      "sha256": "17139c88e0b5c4904d59cdd4824bf6e6cbc4df55601be81e59a2fe6f98c7f4f2",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1993-05-24",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:SAH",
+      "projectId": "SAH",
+      "date": "1976-02-27",
+      "sha256": "4972f18885774f3e7502cf852e652ee6a9e20f8fee20f8bb61187916058cc5f9",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1976-02-27",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:SEN",
+      "projectId": "SEN",
+      "date": "1960-08-20",
+      "sha256": "328b0f26bcceddb0d231d911f823d8c561e90c034af4b68f1d5c27eeed7fb367",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1960-08-20",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:ASM",
+      "projectId": "d34b00a1-9b13-8000-8000-00000041534d",
+      "date": "1900-02-16",
+      "sha256": "3cce8b4c2f36cddc2547718fcb4b977ce150567b8e93375e12774c98a67d59e1",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1900-02-16",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:COK",
+      "projectId": "COK",
+      "date": "1965-08-04",
+      "sha256": "a341070d8f310b12dee79cb58ac7257e21d1d3338233a36d69ae988ce8891887",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1965-08-04",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:GUM",
+      "projectId": "d34b00a1-9b13-8000-8000-00000047554d",
+      "date": "1899-04-11",
+      "sha256": "ae5052477b0a42e4a0c7903ce64842895182fe8772de7b7ac5d710ce8e98dcbb",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1899-04-11",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:HMD",
+      "projectId": "d34b00a1-9b13-8000-8000-000000484d44",
+      "date": "1953-04-24",
+      "sha256": "c748d2039382c9a304062a18f0b4e10da770cefd94eafc10c6ff9a2bdcf35075",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1953-04-24",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:NZL",
+      "projectId": "NZL",
+      "date": "1841-05-03",
+      "sha256": "a7f99b1bc5bd9a6171b0607492a99ffeee86af0cef64421a2cd89bcc79d67675",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1841-05-03",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:PYF",
+      "projectId": "d34b00a1-9b13-8000-8000-000000505946",
+      "date": "1880-12-30",
+      "sha256": "1ee552ec03334aaf8821f19bec8aea2aaf4dfcaf493572c393d32627bc4709bf",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1880-12-30",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:TON",
+      "projectId": "TON",
+      "date": "1845",
+      "sha256": "fe9dae2df33b97af2089d88085f66ad8972ea4459b3930e4d4f67a3a6e00539c",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1845-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:WLF",
+      "projectId": "d34b00a1-9b13-8000-8000-000000574c46",
+      "date": "1909-06-10",
+      "sha256": "3a9fb1fbb6e823537cef16dfbcc203f90e71d8abd7e6747cbc8f1da81154a29b",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1909-06-10",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:ATF",
+      "projectId": "d34b00a1-9b13-8000-8000-000000415446",
+      "date": "1955-08-06",
+      "sha256": "a61626849cd12506a1c237a0553082cd1d75b5e8336defb9d589825b7ff633a4",
+      "geometryCoverageAtStart": true,
+      "firstCoverage": {
+        "validFrom": "1955-08-06",
+        "validTo": null
+      }
+    }
+  ],
+  "cleanupCandidates": [
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\ARG-sha256-484efae93c77fa9f46ae9dbaea2d63064931399bfed06eb4f22ad6d7e9d8aca2.json.gz",
+      "file": "countries/ARG-sha256-484efae93c77fa9f46ae9dbaea2d63064931399bfed06eb4f22ad6d7e9d8aca2.json.gz",
+      "bytes": 40566,
+      "sha256": "484efae93c77fa9f46ae9dbaea2d63064931399bfed06eb4f22ad6d7e9d8aca2",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\CMR-sha256-278e4f10bd7817f3b473481993f30f19603e08f321e42bfa7adafb2063b1b323.json.gz",
+      "file": "countries/CMR-sha256-278e4f10bd7817f3b473481993f30f19603e08f321e42bfa7adafb2063b1b323.json.gz",
+      "bytes": 12438,
+      "sha256": "278e4f10bd7817f3b473481993f30f19603e08f321e42bfa7adafb2063b1b323",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\COK-sha256-a267f3075f4ce1af19b422a3f273d7966c3dadf4c8546252f4c318a9121983c6.json.gz",
+      "file": "countries/COK-sha256-a267f3075f4ce1af19b422a3f273d7966c3dadf4c8546252f4c318a9121983c6.json.gz",
+      "bytes": 1724,
+      "sha256": "a267f3075f4ce1af19b422a3f273d7966c3dadf4c8546252f4c318a9121983c6",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\CYN-sha256-b37a10ccefafdb194e005a8a5bbb82e8b3e86145d546c337b9698132d3a0f440.json.gz",
+      "file": "countries/CYN-sha256-b37a10ccefafdb194e005a8a5bbb82e8b3e86145d546c337b9698132d3a0f440.json.gz",
+      "bytes": 2164,
+      "sha256": "b37a10ccefafdb194e005a8a5bbb82e8b3e86145d546c337b9698132d3a0f440",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000414941-sha256-212b497a82012c03ef589680ad941d3d0ea3cb1da772955c13f43e99e1332554.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000414941-sha256-212b497a82012c03ef589680ad941d3d0ea3cb1da772955c13f43e99e1332554.json.gz",
+      "bytes": 1293,
+      "sha256": "212b497a82012c03ef589680ad941d3d0ea3cb1da772955c13f43e99e1332554",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-00000041534d-sha256-d2784ca7f5b9ed208b6fe89eb711a671c79a3d0b8b84b04f1368cfc9ace587a4.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000041534d-sha256-d2784ca7f5b9ed208b6fe89eb711a671c79a3d0b8b84b04f1368cfc9ace587a4.json.gz",
+      "bytes": 1306,
+      "sha256": "d2784ca7f5b9ed208b6fe89eb711a671c79a3d0b8b84b04f1368cfc9ace587a4",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000415446-sha256-3d6c7d416cd5c103b37bcb7ad35f5cdaa35f8c7ca23aa29c18c07a64495418de.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000415446-sha256-3d6c7d416cd5c103b37bcb7ad35f5cdaa35f8c7ca23aa29c18c07a64495418de.json.gz",
+      "bytes": 5066,
+      "sha256": "3d6c7d416cd5c103b37bcb7ad35f5cdaa35f8c7ca23aa29c18c07a64495418de",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000464c4b-sha256-64ee4ff3fa963a29efdf23e1692273590736a944b6494da3580ef1bee4aed945.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000464c4b-sha256-64ee4ff3fa963a29efdf23e1692273590736a944b6494da3580ef1bee4aed945.json.gz",
+      "bytes": 11324,
+      "sha256": "64ee4ff3fa963a29efdf23e1692273590736a944b6494da3580ef1bee4aed945",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-00000047554d-sha256-563120c018441742a22b0cbb9b798067e064d20bffa992a468f29a3a1fd1a457.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000047554d-sha256-563120c018441742a22b0cbb9b798067e064d20bffa992a468f29a3a1fd1a457.json.gz",
+      "bytes": 1160,
+      "sha256": "563120c018441742a22b0cbb9b798067e064d20bffa992a468f29a3a1fd1a457",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000484b47-sha256-677e24c348e3b32bd19c1003155bbf72ed1a74898b55b8d53fc44eed22cc0911.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000484b47-sha256-677e24c348e3b32bd19c1003155bbf72ed1a74898b55b8d53fc44eed22cc0911.json.gz",
+      "bytes": 3491,
+      "sha256": "677e24c348e3b32bd19c1003155bbf72ed1a74898b55b8d53fc44eed22cc0911",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000484d44-sha256-b5726e26630f5af4d9c08c0a7786af90427b51509eab755217d0735981870f21.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000484d44-sha256-b5726e26630f5af4d9c08c0a7786af90427b51509eab755217d0735981870f21.json.gz",
+      "bytes": 1251,
+      "sha256": "b5726e26630f5af4d9c08c0a7786af90427b51509eab755217d0735981870f21",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-0000004b4142-sha256-7c6ab2cdd94d6be11209be4abad15b096c9e653a50c92832399b5c8377e4ee86.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-7c6ab2cdd94d6be11209be4abad15b096c9e653a50c92832399b5c8377e4ee86.json.gz",
+      "bytes": 2468,
+      "sha256": "7c6ab2cdd94d6be11209be4abad15b096c9e653a50c92832399b5c8377e4ee86",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-0000004d4143-sha256-492a88c9b1af026a6e2b22941488931f1bce8d1a4a1875b0d527b7e71e748e36.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d4143-sha256-492a88c9b1af026a6e2b22941488931f1bce8d1a4a1875b0d527b7e71e748e36.json.gz",
+      "bytes": 1392,
+      "sha256": "492a88c9b1af026a6e2b22941488931f1bce8d1a4a1875b0d527b7e71e748e36",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-0000004d4e50-sha256-f6d5e347443c0ded88fcee7c08ea5c25c685a85f08e8a12b8653006147145afb.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d4e50-sha256-f6d5e347443c0ded88fcee7c08ea5c25c685a85f08e8a12b8653006147145afb.json.gz",
+      "bytes": 2281,
+      "sha256": "f6d5e347443c0ded88fcee7c08ea5c25c685a85f08e8a12b8653006147145afb",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000505249-sha256-45cf4ea388a443c4815d24a0c2daeb1881d2c032e607382fef112476b00b46c4.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000505249-sha256-45cf4ea388a443c4815d24a0c2daeb1881d2c032e607382fef112476b00b46c4.json.gz",
+      "bytes": 3164,
+      "sha256": "45cf4ea388a443c4815d24a0c2daeb1881d2c032e607382fef112476b00b46c4",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000505946-sha256-298605f0b4f6e3bf683bee4709e1282101d0e9a544aa759553b944f16a5d7d70.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000505946-sha256-298605f0b4f6e3bf683bee4709e1282101d0e9a544aa759553b944f16a5d7d70.json.gz",
+      "bytes": 9413,
+      "sha256": "298605f0b4f6e3bf683bee4709e1282101d0e9a544aa759553b944f16a5d7d70",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000534753-sha256-2303a1e921e09fc54cc8a8c487bef78efcd6eab4d796d19c03b0c6e84d1db294.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000534753-sha256-2303a1e921e09fc54cc8a8c487bef78efcd6eab4d796d19c03b0c6e84d1db294.json.gz",
+      "bytes": 5423,
+      "sha256": "2303a1e921e09fc54cc8a8c487bef78efcd6eab4d796d19c03b0c6e84d1db294",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000544341-sha256-c23eed99aff849ef81df0532798c2691604b4647d059b72adb4c712923c13493.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000544341-sha256-c23eed99aff849ef81df0532798c2691604b4647d059b72adb4c712923c13493.json.gz",
+      "bytes": 2451,
+      "sha256": "c23eed99aff849ef81df0532798c2691604b4647d059b72adb4c712923c13493",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000554d49-sha256-f09c7b39441854cf0916c58106a74a7d29856924d632f6a7f686b34bbdaba3e5.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000554d49-sha256-f09c7b39441854cf0916c58106a74a7d29856924d632f6a7f686b34bbdaba3e5.json.gz",
+      "bytes": 1690,
+      "sha256": "f09c7b39441854cf0916c58106a74a7d29856924d632f6a7f686b34bbdaba3e5",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000555347-sha256-8a190c6e12b88ae14547f43ba2e55e826a17c0d0b35a7e95ed01044c1978c342.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000555347-sha256-8a190c6e12b88ae14547f43ba2e55e826a17c0d0b35a7e95ed01044c1978c342.json.gz",
+      "bytes": 1213,
+      "sha256": "8a190c6e12b88ae14547f43ba2e55e826a17c0d0b35a7e95ed01044c1978c342",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000564952-sha256-ddba9effc88caa661b931e2d33c9c1406b0dda572f1131087e31d7dd5f0c3e0f.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000564952-sha256-ddba9effc88caa661b931e2d33c9c1406b0dda572f1131087e31d7dd5f0c3e0f.json.gz",
+      "bytes": 1397,
+      "sha256": "ddba9effc88caa661b931e2d33c9c1406b0dda572f1131087e31d7dd5f0c3e0f",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\d34b00a1-9b13-8000-8000-000000574c46-sha256-15b73d23ac760db58461bbb5a1cc677933c2578738e2c9983dc114d82fc6bded.json.gz",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000574c46-sha256-15b73d23ac760db58461bbb5a1cc677933c2578738e2c9983dc114d82fc6bded.json.gz",
+      "bytes": 1111,
+      "sha256": "15b73d23ac760db58461bbb5a1cc677933c2578738e2c9983dc114d82fc6bded",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\DOM-sha256-64fdee0b6482ccd903d098d6fc28ccf1b0767cff2546b6df370755a55d33a4ac.json.gz",
+      "file": "countries/DOM-sha256-64fdee0b6482ccd903d098d6fc28ccf1b0767cff2546b6df370755a55d33a4ac.json.gz",
+      "bytes": 5366,
+      "sha256": "64fdee0b6482ccd903d098d6fc28ccf1b0767cff2546b6df370755a55d33a4ac",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\DZA-sha256-c6db87c17d4544f22a20608a32143dda397c76e77415a4459e5ecd13c91484f5.json.gz",
+      "file": "countries/DZA-sha256-c6db87c17d4544f22a20608a32143dda397c76e77415a4459e5ecd13c91484f5.json.gz",
+      "bytes": 11256,
+      "sha256": "c6db87c17d4544f22a20608a32143dda397c76e77415a4459e5ecd13c91484f5",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\ERI-sha256-9b8916cf29b482b915ca7c1241b6c0946dff9051477e518d0e0094a06c31358d.json.gz",
+      "file": "countries/ERI-sha256-9b8916cf29b482b915ca7c1241b6c0946dff9051477e518d0e0094a06c31358d.json.gz",
+      "bytes": 8853,
+      "sha256": "9b8916cf29b482b915ca7c1241b6c0946dff9051477e518d0e0094a06c31358d",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\FIN-sha256-a379c84ce13d1b76f31079f9584c691953cb0dd3b8e76e4295bff2ae491db65e.json.gz",
+      "file": "countries/FIN-sha256-a379c84ce13d1b76f31079f9584c691953cb0dd3b8e76e4295bff2ae491db65e.json.gz",
+      "bytes": 51036,
+      "sha256": "a379c84ce13d1b76f31079f9584c691953cb0dd3b8e76e4295bff2ae491db65e",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\GTM-sha256-1db7e348e8a022f4415fac70704427373b17f14c6a521e411fea39d0c8687073.json.gz",
+      "file": "countries/GTM-sha256-1db7e348e8a022f4415fac70704427373b17f14c6a521e411fea39d0c8687073.json.gz",
+      "bytes": 4341,
+      "sha256": "1db7e348e8a022f4415fac70704427373b17f14c6a521e411fea39d0c8687073",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\MEX-sha256-53179cb147d67f6b4e46168afb4e5208f4797e327414e8834422aadbdd18759a.json.gz",
+      "file": "countries/MEX-sha256-53179cb147d67f6b4e46168afb4e5208f4797e327414e8834422aadbdd18759a.json.gz",
+      "bytes": 62005,
+      "sha256": "53179cb147d67f6b4e46168afb4e5208f4797e327414e8834422aadbdd18759a",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\MNG-sha256-646c0a1184a18458544ef85dbaa8220dcf76988f4fecc346a9967e71f6255bc9.json.gz",
+      "file": "countries/MNG-sha256-646c0a1184a18458544ef85dbaa8220dcf76988f4fecc346a9967e71f6255bc9.json.gz",
+      "bytes": 20396,
+      "sha256": "646c0a1184a18458544ef85dbaa8220dcf76988f4fecc346a9967e71f6255bc9",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\MYS-sha256-3d142cb79dc1b9fb62e9f8b960dd6f774a2ec1404331c2fc2c7da1bdec06fe36.json.gz",
+      "file": "countries/MYS-sha256-3d142cb79dc1b9fb62e9f8b960dd6f774a2ec1404331c2fc2c7da1bdec06fe36.json.gz",
+      "bytes": 21896,
+      "sha256": "3d142cb79dc1b9fb62e9f8b960dd6f774a2ec1404331c2fc2c7da1bdec06fe36",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\NPL-sha256-23eed6ae583139297f44bffc881dc49a5de8f0b4b6977295a3513bf507e15735.json.gz",
+      "file": "countries/NPL-sha256-23eed6ae583139297f44bffc881dc49a5de8f0b4b6977295a3513bf507e15735.json.gz",
+      "bytes": 9050,
+      "sha256": "23eed6ae583139297f44bffc881dc49a5de8f0b4b6977295a3513bf507e15735",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\NZL-sha256-8049f3029b9caadf1d37b14d406e6c89a1d59a3d9b6a5730c2af544184c355f1.json.gz",
+      "file": "countries/NZL-sha256-8049f3029b9caadf1d37b14d406e6c89a1d59a3d9b6a5730c2af544184c355f1.json.gz",
+      "bytes": 36596,
+      "sha256": "8049f3029b9caadf1d37b14d406e6c89a1d59a3d9b6a5730c2af544184c355f1",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\QAT-sha256-719b061da0f1e5776b52fcf22f744523f734f67a082ef738e50df4c4f22bd15e.json.gz",
+      "file": "countries/QAT-sha256-719b061da0f1e5776b52fcf22f744523f734f67a082ef738e50df4c4f22bd15e.json.gz",
+      "bytes": 2544,
+      "sha256": "719b061da0f1e5776b52fcf22f744523f734f67a082ef738e50df4c4f22bd15e",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\SAH-sha256-407aad8225cd30cc4151d4adff546c25f61b36f5aae4c0025d0d2c0bf79d854a.json.gz",
+      "file": "countries/SAH-sha256-407aad8225cd30cc4151d4adff546c25f61b36f5aae4c0025d0d2c0bf79d854a.json.gz",
+      "bytes": 2831,
+      "sha256": "407aad8225cd30cc4151d4adff546c25f61b36f5aae4c0025d0d2c0bf79d854a",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\SEN-sha256-6ea218589ffdc53a47e0e93a82af56a3ef513704286b72c3b17139a6f3a5a5ac.json.gz",
+      "file": "countries/SEN-sha256-6ea218589ffdc53a47e0e93a82af56a3ef513704286b72c3b17139a6f3a5a5ac.json.gz",
+      "bytes": 11920,
+      "sha256": "6ea218589ffdc53a47e0e93a82af56a3ef513704286b72c3b17139a6f3a5a5ac",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\SLV-sha256-13a359105ae57b1e37ab4ef056f93535f8aa88b1aca55d3c517802ff7897db2b.json.gz",
+      "file": "countries/SLV-sha256-13a359105ae57b1e37ab4ef056f93535f8aa88b1aca55d3c517802ff7897db2b.json.gz",
+      "bytes": 3649,
+      "sha256": "13a359105ae57b1e37ab4ef056f93535f8aa88b1aca55d3c517802ff7897db2b",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\state-soviet-union-sha256-dc9bb39c5aeb8b992e5bd2205a583e0e7c588a71a59b23e38eb2f5070048e5bf.json.gz",
+      "file": "countries/state-soviet-union-sha256-dc9bb39c5aeb8b992e5bd2205a583e0e7c588a71a59b23e38eb2f5070048e5bf.json.gz",
+      "bytes": 5125724,
+      "sha256": "dc9bb39c5aeb8b992e5bd2205a583e0e7c588a71a59b23e38eb2f5070048e5bf",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\state-soviet-union-byelorussian-ssr-sha256-9d1075f76bb1fdded6d2e0d17ccee4ec0f3ac4d7ec5a6ec4383d8a1fa165dfb0.json.gz",
+      "file": "countries/state-soviet-union-byelorussian-ssr-sha256-9d1075f76bb1fdded6d2e0d17ccee4ec0f3ac4d7ec5a6ec4383d8a1fa165dfb0.json.gz",
+      "bytes": 34903,
+      "sha256": "9d1075f76bb1fdded6d2e0d17ccee4ec0f3ac4d7ec5a6ec4383d8a1fa165dfb0",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\state-soviet-union-russian-sfsr-sha256-fde4bf45810fa5361c6b44dad1dbd458c7f4ccbf168e5ca4ce2613d3a2f132c2.json.gz",
+      "file": "countries/state-soviet-union-russian-sfsr-sha256-fde4bf45810fa5361c6b44dad1dbd458c7f4ccbf168e5ca4ce2613d3a2f132c2.json.gz",
+      "bytes": 620155,
+      "sha256": "fde4bf45810fa5361c6b44dad1dbd458c7f4ccbf168e5ca4ce2613d3a2f132c2",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\state-soviet-union-ukrainian-ssr-sha256-6a2b4924550f43b01ca824c0db075bf5a8972d9f6f44f7f681e5d61ee21d7394.json.gz",
+      "file": "countries/state-soviet-union-ukrainian-ssr-sha256-6a2b4924550f43b01ca824c0db075bf5a8972d9f6f44f7f681e5d61ee21d7394.json.gz",
+      "bytes": 66170,
+      "sha256": "6a2b4924550f43b01ca824c0db075bf5a8972d9f6f44f7f681e5d61ee21d7394",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\TON-sha256-8b4aa8ab35e301699a63ecfd44336db64c514c2c98796690da2467b0f8688a5c.json.gz",
+      "file": "countries/TON-sha256-8b4aa8ab35e301699a63ecfd44336db64c514c2c98796690da2467b0f8688a5c.json.gz",
+      "bytes": 2344,
+      "sha256": "8b4aa8ab35e301699a63ecfd44336db64c514c2c98796690da2467b0f8688a5c",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\URY-sha256-3a4c8cd65d0201458fcc104288c95de7092df512d05cd71d0e1b6572e247688a.json.gz",
+      "file": "countries/URY-sha256-3a4c8cd65d0201458fcc104288c95de7092df512d05cd71d0e1b6572e247688a.json.gz",
+      "bytes": 5516,
+      "sha256": "3a4c8cd65d0201458fcc104288c95de7092df512d05cd71d0e1b6572e247688a",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\countries\\USA-sha256-5b3b0994bd30200f10a5b4eaf5736829873102c18ff4b485fb4dc43f61226788.json.gz",
+      "file": "countries/USA-sha256-5b3b0994bd30200f10a5b4eaf5736829873102c18ff4b485fb4dc43f61226788.json.gz",
+      "bytes": 285887,
+      "sha256": "5b3b0994bd30200f10a5b4eaf5736829873102c18ff4b485fb4dc43f61226788",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    },
+    {
+      "absolute": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\1d0c9169b93f365f55856127974fda329358a2df\\assets\\data\\builtin-world\\generated\\v1\\transport\\countries-sha256-b90bbea8c99e7caee6577069349130a1cdc6ac5848dc0d43ce31bf94e4389502.bin",
+      "file": "transport/countries-sha256-b90bbea8c99e7caee6577069349130a1cdc6ac5848dc0d43ce31bf94e4389502.bin",
+      "bytes": 11886235,
+      "sha256": "b90bbea8c99e7caee6577069349130a1cdc6ac5848dc0d43ce31bf94e4389502",
+      "recoverableAt": "1d0c9169b93f365f55856127974fda329358a2df"
+    }
+  ],
+  "cleanupLogicalBytes": 18392459,
+  "checkedAt": "2026-10-25T15:34:02.471Z"
+}
