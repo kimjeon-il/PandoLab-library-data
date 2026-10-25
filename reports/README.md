@@ -23,6 +23,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-USSR-FOUNDING-20261025` | [소련 성립일 이전 표시 수정](borders/validation/ussr-founding-date-2026-10-25/README.md) | 2026-10-25 | `focused-validation` | `work-gis-only / not-deployed` |
 | `GEO-ATREK-MNG-CANDIDATES-20261025` | [Atrek·1976 몽골 B 후보 원본 및 도판 보존](borders/reconstruction/atrek-mongolia-candidates-2026-10-25/README.md) | 2026-10-25 | `candidate-archive-complete / provisional` | `research-only / runtime-not-applied` |
 | `GEO-REVIEW-20261024-2200` | [국가·시대별 자동 검토 — 신규 2건·기존 5건·발트 현행 충돌 보류](borders/validation/reviews/scheduled-2026-10-24-2200/README.md) | 2026-10-24 UTC / 10-25 KST | `reviewed / data-not-applied` | `report-only / work-gis-only` |
 | `GEO-HYDRO-OSM-20261024` | [수계 OSM 관계 73개·과거 교정표 26개 교체 조사](geography/osm-hydro-name-replacement-2026-10-24/README.md) | 2026-10-24 | `investigating / inventory-complete` | `not-applied` |
