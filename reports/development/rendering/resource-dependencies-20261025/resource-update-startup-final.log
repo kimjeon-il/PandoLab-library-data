@@ -1,0 +1,9 @@
+
+Running 1 test using 1 worker
+
+(node:19224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"cold":{"featureCount":207,"builtCount":207,"reusedCount":0,"hashMs":126.7999999821186,"triangulationMs":9017.800000190735,"assemblyMs":21.599999994039536,"slowestFeature":{"id":"RUS","ms":1154.0999999940395},"cacheBytes":40402456,"strokeMs":529.6000000238419,"spatialMs":906.5,"totalMs":11534.90000000596},"warm":{"featureCount":207,"builtCount":207,"reusedCount":0,"hashMs":126.7999999821186,"triangulationMs":9017.800000190735,"assemblyMs":21.599999994039536,"slowestFeature":{"id":"RUS","ms":1154.0999999940395},"cacheBytes":40402456,"strokeMs":529.6000000238419,"spatialMs":906.5,"totalMs":11534.90000000596},"background":20430.90000000596,"countries":20484.70000001788,"uploads":26}
+  ok 1 tests\browser\map-startup-publication.spec.mjs:3:1 › Web publishes sharp ocean and land before countries, then reuses prepared terrain and meshes (25.4s)
+
+  1 passed (27.1s)

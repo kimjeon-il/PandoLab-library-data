@@ -1,0 +1,11 @@
+
+Running 2 tests using 1 worker
+
+(node:8940) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"renderer":"webgl2","before":{"mesh":1,"boundary":2,"hydro":15759004,"terrain":28},"after":{"mesh":1,"boundary":2,"hydro":15759004,"terrain":28},"additionalRequests":0,"additionalWorkers":0}
+  ok 1 tests\browser\resource-dependency-reuse.spec.mjs:14:43 › webgl2: unchanged date queries retain prepared resources (42.5s)
+{"renderer":"canvas","before":{"boundary":3,"hydro":0,"terrain":0},"after":{"boundary":3,"hydro":0,"terrain":0},"additionalRequests":0,"additionalWorkers":0}
+  ok 2 tests\browser\resource-dependency-reuse.spec.mjs:14:43 › canvas: unchanged date queries retain prepared resources (36.0s)
+
+  2 passed (1.3m)
