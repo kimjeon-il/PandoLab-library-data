@@ -1,0 +1,3633 @@
+{
+  "appBase": "6f5dc697",
+  "dataRevision": "127e51c3457df87786ecf3aa5ad98ded690928df",
+  "selected": [
+    "state:IDN",
+    "state:MYS",
+    "state:CHL",
+    "state:BOL",
+    "state:PER",
+    "state:ARG",
+    "state:ESB",
+    "state:CYP",
+    "state:IND",
+    "state:CHN",
+    "state:ISR",
+    "state:PSX",
+    "state:LBN",
+    "state:ETH",
+    "state:SDS",
+    "state:SOM",
+    "state:KEN",
+    "state:MWI",
+    "state:TZA",
+    "state:SYR",
+    "state:SOL",
+    "state:FRA",
+    "state:SUR",
+    "state:GUY",
+    "state:KOR",
+    "state:PRK",
+    "state:MAR",
+    "state:SAH",
+    "state:CRI",
+    "state:NIC",
+    "state:COG",
+    "state:COD",
+    "state:BTN",
+    "state:UKR",
+    "state:BLR",
+    "state:NAM",
+    "state:ZAF",
+    "state:MAF",
+    "state:SXM",
+    "state:OMN",
+    "state:UZB",
+    "state:KAZ",
+    "state:TJK",
+    "state:LTU",
+    "state:BRA",
+    "state:URY",
+    "state:MNG",
+    "state:RUS",
+    "state:CZE",
+    "state:DEU",
+    "state:EST",
+    "state:LVA",
+    "state:NOR",
+    "state:SWE",
+    "state:FIN",
+    "state:VNM",
+    "state:KHM",
+    "state:LUX",
+    "state:ARE",
+    "state:BEL",
+    "state:GEO",
+    "state:MKD",
+    "state:ALB",
+    "state:AZE",
+    "state:KOS",
+    "state:TUR",
+    "state:ESP",
+    "state:LAO",
+    "state:KGZ",
+    "state:ARM",
+    "state:DNK",
+    "state:LBY",
+    "state:TUN",
+    "state:ROU",
+    "state:HUN",
+    "state:SVK",
+    "state:POL",
+    "state:IRL",
+    "state:GBR",
+    "state:GRC",
+    "state:ZMB",
+    "state:SLE",
+    "state:GIN",
+    "state:LBR",
+    "state:CAF",
+    "state:SDN",
+    "state:DJI",
+    "state:ERI",
+    "state:AUT",
+    "state:IRQ",
+    "state:ITA",
+    "state:CHE",
+    "state:IRN",
+    "state:NLD",
+    "state:LIE",
+    "state:CIV",
+    "state:SRB",
+    "state:MLI",
+    "state:SEN",
+    "state:NGA",
+    "state:BEN",
+    "state:AGO",
+    "state:HRV",
+    "state:SVN",
+    "state:QAT",
+    "state:SAU",
+    "state:BWA",
+    "state:ZWE",
+    "state:PAK",
+    "state:BGR",
+    "state:THA",
+    "state:SMR",
+    "state:HTI",
+    "state:DOM",
+    "state:TCD",
+    "state:KWT",
+    "state:SLV",
+    "state:GTM",
+    "state:TLS",
+    "state:BRN",
+    "state:MCO",
+    "state:DZA",
+    "state:MOZ",
+    "state:SWZ",
+    "state:BDI",
+    "state:RWA",
+    "state:MMR",
+    "state:BGD",
+    "state:AND",
+    "state:AFG",
+    "state:MNE",
+    "state:BIH",
+    "state:UGA",
+    "state:USG",
+    "state:CUB",
+    "state:HND",
+    "state:ECU",
+    "state:COL",
+    "state:PRY",
+    "state:BRI",
+    "state:PRT",
+    "state:MDA",
+    "state:TKM",
+    "state:JOR",
+    "state:NPL",
+    "state:LSO",
+    "state:CMR",
+    "state:GAB",
+    "state:NER",
+    "state:BFA",
+    "state:TGO",
+    "state:GHA",
+    "state:GNB",
+    "state:GIB",
+    "state:USA",
+    "state:CAN",
+    "state:MEX",
+    "state:BLZ",
+    "state:PAN",
+    "state:VEN",
+    "state:PNG",
+    "state:EGY",
+    "state:YEM",
+    "state:MRT",
+    "state:GNQ",
+    "state:GMB",
+    "state:HKG",
+    "state:VAT",
+    "state:CYN",
+    "state:CNM",
+    "state:KAS",
+    "state:KAB",
+    "state:WSB",
+    "state:SPI",
+    "state:BRT",
+    "state:ATA",
+    "state:AUS",
+    "state:GRL",
+    "state:FJI",
+    "state:NZL",
+    "state:NCL",
+    "state:MDG",
+    "state:PHL",
+    "state:LKA",
+    "state:CUW",
+    "state:ABW",
+    "state:BHS",
+    "state:TCA",
+    "state:TWN",
+    "state:JPN",
+    "state:SPM",
+    "state:ISL",
+    "state:PCN",
+    "state:PYF",
+    "state:ATF",
+    "state:SYC",
+    "state:KIR",
+    "state:MHL",
+    "state:TTO",
+    "state:GRD",
+    "state:VCT",
+    "state:BRB",
+    "state:LCA",
+    "state:DMA",
+    "state:UMI",
+    "state:MSR",
+    "state:ATG",
+    "state:KNA",
+    "state:VIR",
+    "state:BLM",
+    "state:PRI",
+    "state:AIA",
+    "state:VGB",
+    "state:JAM",
+    "state:CYM",
+    "state:BMU",
+    "state:HMD",
+    "state:SHN",
+    "state:MUS",
+    "state:COM",
+    "state:STP",
+    "state:CPV",
+    "state:MLT",
+    "state:JEY",
+    "state:GGY",
+    "state:IMN",
+    "state:ALD",
+    "state:FRO",
+    "state:IOA",
+    "state:IOT",
+    "state:SGP",
+    "state:NFK",
+    "state:COK",
+    "state:TON",
+    "state:WLF",
+    "state:WSM",
+    "state:SLB",
+    "state:TUV",
+    "state:MDV",
+    "state:NRU",
+    "state:FSM",
+    "state:SGS",
+    "state:FLK",
+    "state:VUT",
+    "state:NIU",
+    "state:ASM",
+    "state:PLW",
+    "state:GUM",
+    "state:MNP",
+    "state:BHR",
+    "state:CSI",
+    "state:PGA",
+    "state:CLP",
+    "state:MAC",
+    "state:ATC",
+    "state:SER",
+    "state:BJN",
+    "state:SCR"
+  ],
+  "countries": {
+    "state:ABW": {
+      "file": "state-ABW.json",
+      "sha256": "f32c8d89e55a64d7153c242a92d258258133aa44376e8bf8b7c3f6011aca2979",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "219ead7d6b08dd00def57f5c81b8404bf256d2db8b135af1b469e2ec385809e5",
+      "sourceInfoSha256": "c8a1d3818a814bf9b39352410bfcd13a53c3b16d694fa8d3800e46cfc769f57f",
+      "selected": true
+    },
+    "state:AFG": {
+      "file": "state-AFG.json",
+      "sha256": "cafa5e44fc50925a88332b641aeb89deada02cc14814015ff2db221d2dfc8c29",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "2adf4c9bde21e3d6374ae2276affe1732bf68d44c6a31adfef7530811ef9420a",
+      "sourceInfoSha256": "0176ff5ee377510af9c2da140fc66a1c813b7440ffea42b485ac9eb6af6b55c7",
+      "selected": true
+    },
+    "state:AGO": {
+      "file": "state-AGO.json",
+      "sha256": "c857da99b6e08db2920b7793cf31bdaf37b94b6eb4cab2939f69563c4204b820",
+      "lifetime": {
+        "validFrom": "1975-11-11",
+        "validTo": null
+      },
+      "immutableSha256": "cfd36a5b8730eb81ebcf2f53a2aeaa75786772ff5c3e4cca0a40660d5318e207",
+      "sourceInfoSha256": "777d2cbc2415fd4055fc7599691f656f728306b9436729754ff671a7d7cfbe3e",
+      "selected": true
+    },
+    "state:AIA": {
+      "file": "state-AIA.json",
+      "sha256": "984b74f893ea3454c040974ea241c27b675432abf63cd6b68d46de867ce0f212",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ce311442ee0769758f9815a81ff5364e2eabacf440bee802329a2806f1dc6819",
+      "sourceInfoSha256": "4641f59e5d7a4f040336f40834e44fe7b55389468d0de3059997f74d78fd9dae",
+      "selected": true
+    },
+    "state:ALB": {
+      "file": "state-ALB.json",
+      "sha256": "e05a139111761f4b3506c3477a86146fc484a2eb3047bada946121a44d118091",
+      "lifetime": {
+        "validFrom": "1912-11-28",
+        "validTo": null
+      },
+      "immutableSha256": "ff9f8337eb8e89bfd7dff76aae63fff7684624085f973beb70e53b6d1b1e6330",
+      "sourceInfoSha256": "44cd3523198eceaa5ab8fb215063ef1457ef6a114383e2e1cfc4ff2b35e598be",
+      "selected": true
+    },
+    "state:ALD": {
+      "file": "state-ALD.json",
+      "sha256": "e274ee4ff3b265363944dab0346275486d11233e22a6711c37833f3133e2daf6",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "5a7b026da27c47a930d5b3151eb68d629a86a772d29d9791ef19b0695972691c",
+      "sourceInfoSha256": "a53ecc82c68951e81c5ab076d1ecb9d64036ff5fc41c8f0c929da1523c08b61e",
+      "selected": true
+    },
+    "state:AND": {
+      "file": "state-AND.json",
+      "sha256": "f61feaded2dfd146562ae8e07ec5fa436b517e87e24a6fbcb1cf02c2b55cb59a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "e94a5e5deae7dd57416b482bbf4d8378156d595fd8666948aa15e0f07e009232",
+      "sourceInfoSha256": "ede9175fe0fcc6a58ddf2e9a85acefc9da33117d40f5c56091987de528caf2e5",
+      "selected": true
+    },
+    "state:ARE": {
+      "file": "state-ARE.json",
+      "sha256": "e5d8549280f9caf74def09f9d0008f938e8965e4ab753b189f1035662181958e",
+      "lifetime": {
+        "validFrom": "1971-12-02",
+        "validTo": null
+      },
+      "immutableSha256": "f5ad5313b2ed0a778a086614086f49b3caa24906df22f6dee1693faf5392f076",
+      "sourceInfoSha256": "da3311976d35675e87ba496dd763ca256e271b412e2c21cd51fd06a882718348",
+      "selected": true
+    },
+    "state:ARG": {
+      "file": "state-ARG.json",
+      "sha256": "bb431f2026063b4e552d67c36f3b4f259257c0324de5de3175bac51deedc98d5",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "a29b57af4966504fffa3e9ab1c7308a99c8b5c9f0dbcdacda6a6cd01f5e7afbf",
+      "sourceInfoSha256": "f5cfcd184df769a252532581341d297833fb4dd48a8de94e9c12ab5975ad6214",
+      "selected": true
+    },
+    "state:ARM": {
+      "file": "state-ARM.json",
+      "sha256": "675b66f1b2b9af0445bfdf4879652aad2e73e460f3aace68ebe6c860dc7d3de7",
+      "lifetime": {
+        "validFrom": "1991-09-23",
+        "validTo": null
+      },
+      "immutableSha256": "c0bad6e0747ffda260e46a32d173db04b2b4263d9b9f1a5c576624a8f87f98cf",
+      "sourceInfoSha256": "d59a64840645664698e086073278bdb3cf3278f237b1af007b8f821c01318872",
+      "selected": true
+    },
+    "state:ASM": {
+      "file": "state-ASM.json",
+      "sha256": "7b2402d9696d8d3665b99fc2865cd6a7c5a60775a0bb0c4cefe303b094016edf",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "e0f06d1ffd0e56ec598acbb5f5aec9190469bf272a14b857c07320e309eab8b1",
+      "sourceInfoSha256": "df3edaf7a159cd30d8bf1cbcaa92adde000e36c078ff67ce7f58da1120fec0b6",
+      "selected": true
+    },
+    "state:ATA": {
+      "file": "state-ATA.json",
+      "sha256": "8f9c33d5aaa667f8f6790d9b859a4476f5ef3caf22f25c36552335cc2eb1b81f",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f7012ca0886c4eb4b73caeb27236f4f86607f458a794a058334e563b7ea4650d",
+      "sourceInfoSha256": "8c510af8e7b1f110bd0361b5684d54a055485b57f336d99615e574188e15917d",
+      "selected": true
+    },
+    "state:ATC": {
+      "file": "state-ATC.json",
+      "sha256": "910e3f98f4d283461759450c87944cfc9087fddbce3266f5a9e98548e6871f24",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "c19870edf14cc8b78c80b73ab0d422db4d3c948de0e219afc122e5d132e15dc0",
+      "sourceInfoSha256": "bba371772166edd6a4b7733d0b9b77d62ef8ec41ad485290b8ff46ed67ae0939",
+      "selected": true
+    },
+    "state:ATF": {
+      "file": "state-ATF.json",
+      "sha256": "57b11fc9fdbc8ed4413888907fe5868d9e12ed4f8eee26728f901b9731ef728d",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "d10cb1acfb5053f0d3a2f80eede9369821ffd0e9d2c69267f264f8bfa3a237c6",
+      "sourceInfoSha256": "63346a0c15d1686d7f5b619087fccf2e753a4a91134052b1871fd13ac4659eb5",
+      "selected": true
+    },
+    "state:ATG": {
+      "file": "state-ATG.json",
+      "sha256": "56a879da6c452cc57b8776450c6783ba64391b347efb7613eff83ceba80ee6fa",
+      "lifetime": {
+        "validFrom": "1981-11-01",
+        "validTo": null
+      },
+      "immutableSha256": "fe169d2b13c8f638d5036396452066459a68391f06c617c04d39c1c3f6fec234",
+      "sourceInfoSha256": "84ef140d969b297d60d3536dbb4c653526e6884650c833441d2e652be2b99b2a",
+      "selected": true
+    },
+    "state:AUS": {
+      "file": "state-AUS.json",
+      "sha256": "9d6a1352b8be3dab32236e260de2554e6cdc22bde7bd98645e4c19e7333db647",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "5cdfe81ea5a0ca95afa985b13358ac4aef685355c39006546ddb2772083877f1",
+      "sourceInfoSha256": "961a2cd37911a680313723e59b89555be774565dd5fb0a7a7e0857bcbb114803",
+      "selected": true
+    },
+    "state:AUT": {
+      "file": "state-AUT.json",
+      "sha256": "26a306c7779b5be39f7b069135d9a190bcc9f36f163ab7038d7aed908b8b433f",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "6e8c9f2d0b86b14c6ff5470feefa648ab7f22b490d82eacd3ce4c2a359bd9305",
+      "sourceInfoSha256": "489007267b5c4949c087e626e9f98c4107fbca9ecb77ef168601f45bb65978fe",
+      "selected": true
+    },
+    "state:AZE": {
+      "file": "state-AZE.json",
+      "sha256": "75ade76f3fec439cb9a97c8248919c041dd95d41e0bd97c94c078165a289ecc0",
+      "lifetime": {
+        "validFrom": "1991-10-18",
+        "validTo": null
+      },
+      "immutableSha256": "e718fceb2fd1eea232671878bf2888037c37d1b56a227491579dc3be618d06f8",
+      "sourceInfoSha256": "71fe8973c737705d826d507bdeccc8875cba61bad14ba3e589457923a772e71c",
+      "selected": true
+    },
+    "state:BDI": {
+      "file": "state-BDI.json",
+      "sha256": "26285384b3877d193b3c12566a649db1aa44582396460de3c047bb129b477796",
+      "lifetime": {
+        "validFrom": "1962-07-01",
+        "validTo": null
+      },
+      "immutableSha256": "28dced68a88972a19a50f61f896d7762b753c40814b1dadb555dd7c596f6f790",
+      "sourceInfoSha256": "073cfd3c7b913e0b1e23435a76a3e33bd8fd360b71dc2fbd5c4ed2beb7fee8ab",
+      "selected": true
+    },
+    "state:BEL": {
+      "file": "state-BEL.json",
+      "sha256": "6cb71be9f100f372c1f4cd9abc498904aedf94a118c07ebeb911ce4368fa0e60",
+      "lifetime": {
+        "validFrom": "1830-10-04",
+        "validTo": null
+      },
+      "immutableSha256": "13e288458dbeea32cca405cd4c52e4134d4ca66eff0a9d4e35ec52edb194fc5a",
+      "sourceInfoSha256": "90e371848409c48f5acf5b0b4c3fd9ec8e189f723902862dfaa04999ac0b8132",
+      "selected": true
+    },
+    "state:BEN": {
+      "file": "state-BEN.json",
+      "sha256": "7997d5e37e734f9f6867dcfa5aee993dfce42fd0a08194615ef098854d92806c",
+      "lifetime": {
+        "validFrom": "1960-08-01",
+        "validTo": null
+      },
+      "immutableSha256": "dff73aa85274ff68d9e7830608a4927d5d8a94e91450ae27b4c3576cb9c7d70b",
+      "sourceInfoSha256": "45d681e814197f78c8966f4c6c6a6895a1dcd3108e2a33333615d7c943857d46",
+      "selected": true
+    },
+    "state:BFA": {
+      "file": "state-BFA.json",
+      "sha256": "36ed178d58c9679886918242c978e286e7769fe2e161d180b46be13d9d40782c",
+      "lifetime": {
+        "validFrom": "1960-08-05",
+        "validTo": null
+      },
+      "immutableSha256": "8739d61a887690d61f85d0a7fc337dd219f7abc7b35b9200af492a72e0f4fc41",
+      "sourceInfoSha256": "11c8e18dcfe743b496427f3345dff8f794d3763d5fe830ceee292ef71d45c382",
+      "selected": true
+    },
+    "state:BGD": {
+      "file": "state-BGD.json",
+      "sha256": "24a3af970cfebc40f66b374c13d8f507836d5a54266b86eeab25ffa35b8455c3",
+      "lifetime": {
+        "validFrom": "1971-03-26",
+        "validTo": null
+      },
+      "immutableSha256": "e8212701a7933f28cd21af2f3e20ac2f39bbc3f1782fbc028392b849353efc92",
+      "sourceInfoSha256": "5d828ec92f83188025713e62c9b33d7b393cb878a09d60a541864c703f46ee98",
+      "selected": true
+    },
+    "state:BGR": {
+      "file": "state-BGR.json",
+      "sha256": "2262f66392ecc35a388eea8922c884a3feaeb2e51bef6b2aa5edb113672d0034",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "4934ca2e800f7c4c8a9e54668a4f6a4713e27059e5af912c82fe6e64f0343f5b",
+      "sourceInfoSha256": "715ff779f427ce7ba702b5d388e301ffbef826ed819c97fc9494bf9f121abc61",
+      "selected": true
+    },
+    "state:BHR": {
+      "file": "state-BHR.json",
+      "sha256": "95ae9b9a5e4859edf56ec3e73d1da0e454063c8da682bbf5c3856ed2b01e9337",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "b66c8b63a942569c9ca0b9def8faa8c90140dc7a681c1af619a73f3dea806a23",
+      "sourceInfoSha256": "c43437120abbb78ed4aa3de3181b804ddf2ddd3acf21b5b44eb24c1441189649",
+      "selected": true
+    },
+    "state:BHS": {
+      "file": "state-BHS.json",
+      "sha256": "cbb72128ad288c3b3506cab27bd7bacaaf3d3f1bbcf56c43b4206e89528fd913",
+      "lifetime": {
+        "validFrom": "1973-07-10",
+        "validTo": null
+      },
+      "immutableSha256": "71dbb4efbd20d2ebdf661c6c5ae8c1c2f28b7e320eef871dfde5d7c8eccb1848",
+      "sourceInfoSha256": "f4b1a670121123a3ea28f86e488555092fe568b6a7ce030fbb14a787d226d531",
+      "selected": true
+    },
+    "state:BIH": {
+      "file": "state-BIH.json",
+      "sha256": "c11d9117297584d85b54f0b73ab38192378a51e62244574d16d474f0b0ffc053",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "4313b489c489b1b30c8706217832deadd110441ecd50b896a3260049c7c6d0ba",
+      "sourceInfoSha256": "b88a4c04f76ec0b12b6d8b1e01f6eaa62f285181157193e7d78d3d991e8e28fb",
+      "selected": true
+    },
+    "state:BJN": {
+      "file": "state-BJN.json",
+      "sha256": "31b07b14885a0f70102671fe2ca215572ddcc79a91b8aea779c50ebdaff11f83",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "8129278878d2f0bfe8ddcd5ff02b81382c2846d09faa4b724c27b036f9a8d871",
+      "sourceInfoSha256": "dc2e2d6a78ab773c63f860f834e501d8de773b8ef386e41ebce400b944df5af5",
+      "selected": true
+    },
+    "state:BLM": {
+      "file": "state-BLM.json",
+      "sha256": "96de0e83b47ac1b9602e5d1b0d4e09b86e77fe6f786493ab8a867418547724e8",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "9bc9ba1ab4a307953d945e7e3d2e075fbaf2e0a4029322fc388b40a0d20df702",
+      "sourceInfoSha256": "6fae79a957708fbf61d85e39143be86787063fbc0a1ff881f90b06fa170d51b1",
+      "selected": true
+    },
+    "state:BLR": {
+      "file": "state-BLR.json",
+      "sha256": "2c615ba8e7c55f90d59e62592913f2a203adfce771819c2d8723d41ac94d9bec",
+      "lifetime": {
+        "validFrom": "1991-08-25",
+        "validTo": null
+      },
+      "immutableSha256": "65785b58e6dee5a01f9aa87d2c4953773cc48596d1857ec997f7edf0e123ef24",
+      "sourceInfoSha256": "f35030f948c9d73988cc21c90f8eea1f260ac7d9d3f74bf7989099e11cf22945",
+      "selected": true
+    },
+    "state:BLZ": {
+      "file": "state-BLZ.json",
+      "sha256": "38e171879c26e50cf8e729196eb97cdb261cedf78ac46bc0afe404ddaa3529f1",
+      "lifetime": {
+        "validFrom": "1981-09-21",
+        "validTo": null
+      },
+      "immutableSha256": "1d2dd76882463bba2736cdd3424b0534dc704cef35410e89340b1686c1203b83",
+      "sourceInfoSha256": "4101757e147cb4306205c7b72f755a6ac396bc45c495e3a8bdd0bb7e391d31e5",
+      "selected": true
+    },
+    "state:BMU": {
+      "file": "state-BMU.json",
+      "sha256": "9170abbbcc6534270342456bced278d2114ad233361ab745f6e97d7c20e9a37c",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "69ec894efcdf196262330507f05a44e5c3d5d0456fb47f66e7e757ed94ed220a",
+      "sourceInfoSha256": "f70ced8fb0dc768ed5b99ac7fc294505db45c55e930d311f9cf82d0e0a756717",
+      "selected": true
+    },
+    "state:BOL": {
+      "file": "state-BOL.json",
+      "sha256": "9be81d19f095dd22819e5998f12717b11efc5ee777c9459e95884b0da25889d6",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "59837401757b8b9bedae04b50cef41af75bceb7908ceacb17ac5f5bd186f0994",
+      "sourceInfoSha256": "5f45a9e0cbe28e949a843c09c908d2a338c3d38bc30dd0cb84a65897bedf61c0",
+      "selected": true
+    },
+    "state:BRA": {
+      "file": "state-BRA.json",
+      "sha256": "f61f29458c1874436f48baddd4e2de04129c22bc9a3446882ee3391e81edbf59",
+      "lifetime": {
+        "validFrom": "1822-09-07",
+        "validTo": null
+      },
+      "immutableSha256": "619aa1401c5c2686d28c970b736f561f6e027a6a1b3399137a75c1ad3409fd28",
+      "sourceInfoSha256": "1812051a1cf3cba89fb4df63820964acf23b2fe3be0642afe11fa0b6139fe627",
+      "selected": true
+    },
+    "state:BRB": {
+      "file": "state-BRB.json",
+      "sha256": "0842b103af197e4e1d93dc8c78212f59d928c85c38cfeb344f3e1ab1ee4ed58b",
+      "lifetime": {
+        "validFrom": "1966-11-30",
+        "validTo": null
+      },
+      "immutableSha256": "82a3d950817767fbfc8139ac3478ae2f40385cfd3d7757f66bdbb64824078d4f",
+      "sourceInfoSha256": "774705a1eae9983b3088543cb57a4a665fb2ce51a1657057794ed7122a751525",
+      "selected": true
+    },
+    "state:BRI": {
+      "file": "state-BRI.json",
+      "sha256": "86ea673911624c3b154b6c29485b96c27771b3590867bd3003de26d030b7f519",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "0908054e04caa312ce2908c6ad357e692cdaf27fe1b0a7d301521f403e8042fe",
+      "sourceInfoSha256": "4627f2573e81a6df20d30a6a3c5f15807de4a0d03a3048a087625c74bf155f99",
+      "selected": true
+    },
+    "state:BRN": {
+      "file": "state-BRN.json",
+      "sha256": "f9d6eb6a7c1aa896521894874eb3fb4af456e8ba52b437103efeb239fa5287fa",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "3a169239bacae48fe18d80ccacd5ffe9dec27490a3efeb402043a7bc79397e9f",
+      "sourceInfoSha256": "241ce89e94e59e7aa28d843bff77e34f5a122410feddfae1b6f1aabd5e3ddf6a",
+      "selected": true
+    },
+    "state:BRT": {
+      "file": "state-BRT.json",
+      "sha256": "cace0069e89526517489f78a415d532ae1668cf35828fb11c154cd916503df98",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f984870f06b33a0394ccf12c3e4fd9c282fa057442022a594935c3177981d2ab",
+      "sourceInfoSha256": "365e34cabbabd5e43c7a5ada2a4db35f2304a537321f8cb42b38a216f7a23c8b",
+      "selected": true
+    },
+    "state:BTN": {
+      "file": "state-BTN.json",
+      "sha256": "bef9567ed01d9f163994ea5462142c5ec361fab45156009adc07129a985f8cbe",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f0fcd4eaa92a0ef31c4f20be87b3c4e625fd1320a389eca04008ec05024317b8",
+      "sourceInfoSha256": "564dce357b39acd8f8c0a4a23da6de50bb47a6d578d17ed2903f46c314694a16",
+      "selected": true
+    },
+    "state:BWA": {
+      "file": "state-BWA.json",
+      "sha256": "c0712f22798e96faa95b8b4fdd55577861789db9ac46cf7235238bcf4d2674be",
+      "lifetime": {
+        "validFrom": "1966-09-30",
+        "validTo": null
+      },
+      "immutableSha256": "c687d02ff8eb9db4f9b81571a3255647bc48faaf73cb68f915829eb12249fb1f",
+      "sourceInfoSha256": "701710845cd26c74f5afa76560ee4b68c7c82a3dc370704bf384d75b91d8a2d7",
+      "selected": true
+    },
+    "state:CAF": {
+      "file": "state-CAF.json",
+      "sha256": "823f8bff8a3366b22ca4be665d6887035fc27253489c37dd5b1f21c119da87e6",
+      "lifetime": {
+        "validFrom": "1960-08-13",
+        "validTo": null
+      },
+      "immutableSha256": "59deae68978e01107540aff62378e32376b610b7ae9e3495cb4efe2b665deab8",
+      "sourceInfoSha256": "e92fd9c439a125d88d171debf1537672a4f59a9570bae65339b46972ec2414cc",
+      "selected": true
+    },
+    "state:CAN": {
+      "file": "state-CAN.json",
+      "sha256": "027d14d906232363b400aea95c1202189d08087b5da2a90c7f4866d31cf5cc51",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "a261f9c6ff37597bec1482c38dc03589387d7b53e8fa2ee339adc12d7e3e5874",
+      "sourceInfoSha256": "8a0e64ac6f531cdc24db734659c1bdd260e2ad78d3ec07a727b069c8d5c57e04",
+      "selected": true
+    },
+    "state:CHE": {
+      "file": "state-CHE.json",
+      "sha256": "54d5137d25735256a4119f86cd283ee51b10985aa91cb6866190a15e76a32e78",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "bdce4f93c33c41474ab7be31008a675af62e5d43eb6fe8b7c2850832c496c868",
+      "sourceInfoSha256": "b01f92215bc0a8e35485bc847d268339de38569c4c4ea1e4c1d20b3031f7835d",
+      "selected": true
+    },
+    "state:CHL": {
+      "file": "state-CHL.json",
+      "sha256": "89c80938d96125b13d8a12e4e8a28d96031e2c191ae1128999ff6f83a3d0d692",
+      "lifetime": {
+        "validFrom": "1818-02-12",
+        "validTo": null
+      },
+      "immutableSha256": "003bca90198ef428aee5ac89adaad321c109aa0c243c5a27adb93fdd81405833",
+      "sourceInfoSha256": "11825125022536ecafaad3e734977db62823e8db021a11b7b50d7b6ae3335d56",
+      "selected": true
+    },
+    "state:CHN": {
+      "file": "state-CHN.json",
+      "sha256": "0bd237ff591592246396227af8d20742cf24a1fbf0da4f72d7176d7b3effd202",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "22d148bc3b1d2b37cdcf1a5f61750a4f1405075c912011a71da7eb0d6ed7e935",
+      "sourceInfoSha256": "8e5ecef16c63400e65f50f95066fdb31013dd62f58771c363889a05ec86288f1",
+      "selected": true
+    },
+    "state:CIV": {
+      "file": "state-CIV.json",
+      "sha256": "66cb5fc8ff35c82ecfeab5edce087210a8fe15a569c1b4ba16efc499b4a07294",
+      "lifetime": {
+        "validFrom": "1960-08-07",
+        "validTo": null
+      },
+      "immutableSha256": "fd0e6b0631292ee40990b14babbd8024b130ee59d319c96e23f10824f40556ed",
+      "sourceInfoSha256": "71ecbdabff636f2007858ac9ba1c5d5736c92f64359ef6483c2992df8c0f4bb2",
+      "selected": true
+    },
+    "state:CLP": {
+      "file": "state-CLP.json",
+      "sha256": "10028f7b79423feca264ff07a4a76c0a0465daa107ea33063cf8e01c9a0d88a0",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "183f00a23768ea66f1334d3f701fa69022b867288eb30dd91ba7538d2a1b26b4",
+      "sourceInfoSha256": "97c920b899db20bac8106dfb3c2cefdf5dbec8e6060e1e4ef6220041d0cc9363",
+      "selected": true
+    },
+    "state:CMR": {
+      "file": "state-CMR.json",
+      "sha256": "c97956484ca59732d6dd7dd3d3f6371c32e036b7bc5880e6d9e980764cbd77e2",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "b7cbec8551d74d1d876c04c1700d75ee8885441e980770a820d1313985e2b00d",
+      "sourceInfoSha256": "69689bfec1adc6faee7184d84704cb45f846f64b980f59ed3f5f3b7875fdfa97",
+      "selected": true
+    },
+    "state:CNM": {
+      "file": "state-CNM.json",
+      "sha256": "c03f37156c2125dc86c58e1bb916d091b83f61a65d4b65179e9b3b20299c692b",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "cb24d71c1b3459ca9e8b8aad4023904dea042af148de498f486ca3c9639029f0",
+      "sourceInfoSha256": "dfba1b7b91f7de821699def095c158a186c2703c59b22fc62e954b0c8a2a3cae",
+      "selected": true
+    },
+    "state:COD": {
+      "file": "state-COD.json",
+      "sha256": "87bfaf39c222d71e8882567f428c3c435de39eacaee297900591567a8c4a81f0",
+      "lifetime": {
+        "validFrom": "1960-06-30",
+        "validTo": null
+      },
+      "immutableSha256": "048ca5357804e25843c2360753b1cb4deb58e2c2ef039946f5203827b9aad95f",
+      "sourceInfoSha256": "dc1dda84511b16688681fa5c2992abf852f7a9a44f18b8a6b9d2ea70169a2f02",
+      "selected": true
+    },
+    "state:COG": {
+      "file": "state-COG.json",
+      "sha256": "94254c6cdf4cfc771bec83f17963a5e967cc3e81990d42a823f073f5ce1d6158",
+      "lifetime": {
+        "validFrom": "1960-08-15",
+        "validTo": null
+      },
+      "immutableSha256": "172a4332529c6f68e959a8689fa4f1da0187bc6a3a875f1ec785b773b47b87e1",
+      "sourceInfoSha256": "fad910ee75a7d69b042516dfe504693be7b324ef75905a0fa6e76c7e3e544220",
+      "selected": true
+    },
+    "state:COK": {
+      "file": "state-COK.json",
+      "sha256": "cce43bdd1cdddb0650f6e2ea672da0ec4945c634e135281ba7896e0859701fee",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "96501a4c9373ecb83c1e0602ebd7cb4f6b0b8733a48fd8e6b206eafc9acc1214",
+      "sourceInfoSha256": "9198dfd4b5f555b7b18bcf0d2bc8af4f05b6d38ea53252857532f2b4bdb2cb33",
+      "selected": true
+    },
+    "state:COL": {
+      "file": "state-COL.json",
+      "sha256": "0bfd2373a82b41df133ec50e707bb81f67c0b8eaa72eda68672997ec00c0f3e1",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ce737815699ec1a1dde442ed780ddab711d102494a37097cd882777391705030",
+      "sourceInfoSha256": "35b873a03e0808062b81e3f05f8f65768305b8669df8827b763ed66afe3e3420",
+      "selected": true
+    },
+    "state:COM": {
+      "file": "state-COM.json",
+      "sha256": "2bb0c67f59044335011d7b3118cc8d6bf58c994870988f865ad10245abce7c0d",
+      "lifetime": {
+        "validFrom": "1975-07-06",
+        "validTo": null
+      },
+      "immutableSha256": "f00262552b6850807cc7c7ff45e737d98530eb5a6f24bf93a8de63d6b385c49a",
+      "sourceInfoSha256": "d9e3ea7f97851cc4b4b02418610ebec58ca251078b5ec15b96ff91e06a8a8f12",
+      "selected": true
+    },
+    "state:CPV": {
+      "file": "state-CPV.json",
+      "sha256": "f496dfca87806f1a15b6f4743fa2b91f86e7effaa8d5c780d756dad30184291b",
+      "lifetime": {
+        "validFrom": "1975-07-05",
+        "validTo": null
+      },
+      "immutableSha256": "423b7758c62477ca78c6b77ec804ed667ea6292b0c2dd7f7fc9de7a862a4722b",
+      "sourceInfoSha256": "f578812af1d4528f45341eb21f790d8d7f913b6467f0c2a0c2c8c703a20c63d4",
+      "selected": true
+    },
+    "state:CRI": {
+      "file": "state-CRI.json",
+      "sha256": "bf8b6f30004d648bbeb43692c1f6a45e219990569c8e89cf7f37d1d9f562c04a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "8ff571ba3b5631d335c103fe077d80f3d3311987d75bd884ea0b881fe7105608",
+      "sourceInfoSha256": "3a00fa82c280cd3da640b2715b7eeda80ac7f7e1370f17a64208cfce23ae5ee6",
+      "selected": true
+    },
+    "state:CSI": {
+      "file": "state-CSI.json",
+      "sha256": "1b72b1f36182a3fd0e984df8d3a99b5309b246609b83c09ca91a3dbcebb331d7",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ef28d43b79f43128e4ba87b9774b3f3fa36c3eb5fd791335c7d21de3d6eb80f8",
+      "sourceInfoSha256": "4b87a6020e3c80885b3ae1131baa1f28c35c7b55099e181621d1fd06fe2aaf91",
+      "selected": true
+    },
+    "state:CUB": {
+      "file": "state-CUB.json",
+      "sha256": "9bc32477d31a86dc63bba6314c3b45a82786db875f0f29984ad9183fc35e80ac",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "46ab7db55c01a029fb8b332e42a92225b8ba2b1f46fa9edc2fbedbcf86a14343",
+      "sourceInfoSha256": "a6e3072f3f57c3827152fca68eeab157edb84ccd717e23a89b2a9fd0c3b1b3d8",
+      "selected": true
+    },
+    "state:CUW": {
+      "file": "state-CUW.json",
+      "sha256": "29d13b653fafe5097a77e593e411c56399562d2f405bc2aab0715a4fa310fdb8",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "32be271af8a6b006c2e1b55e4f2b61d5abe2e6330a4e2b038fc2c4feeef86661",
+      "sourceInfoSha256": "b9ef04f295efd4a53a7a5b536afd5167d9554eab7679229858e959a5eca5c913",
+      "selected": true
+    },
+    "state:CYM": {
+      "file": "state-CYM.json",
+      "sha256": "01f306ac0d855a696b7bf9e08ddc0f579f9fca1f3b292a94e35bcd8c018ff1f0",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "a2b1eacfd6c87a6e1940bf73dd1e8457ad6c76628818fc6795cdd88e58cd8a44",
+      "sourceInfoSha256": "e71fa91e70cf9de36fc6a5101f2588000246212220e73825f57a79af543343d4",
+      "selected": true
+    },
+    "state:CYN": {
+      "file": "state-CYN.json",
+      "sha256": "6b572a82db4f506990a19781294510aca6a53d2d88a182b38a8f6a218214c198",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ed8edcc3d27de0259a1fa641c8496fae6b64c0cc314e6b1e07e5b31866ed9208",
+      "sourceInfoSha256": "23c3a6ae71bc12f4cc7b893b8a6704e3d5b119095d453c78c422e5aa330d0904",
+      "selected": true
+    },
+    "state:CYP": {
+      "file": "state-CYP.json",
+      "sha256": "dbe2fddda85c9303d11951d33ace0c32725b73e87b08d11180a6879c0d758e06",
+      "lifetime": {
+        "validFrom": "1960-08-16",
+        "validTo": null
+      },
+      "immutableSha256": "9a4adba3413053265fc97b04674e756b809e74031b00fe4fd9817711cc499c85",
+      "sourceInfoSha256": "e32fd3a12e7e0d64d9a903da6f33910a361d89e83c0e0359ac9af83ad104c22a",
+      "selected": true
+    },
+    "state:CZE": {
+      "file": "state-CZE.json",
+      "sha256": "2d6f176df40b27b2d7e828f59138560e45aa5c4b95be6ec3e0088fdfbc0be148",
+      "lifetime": {
+        "validFrom": "1993-01-01",
+        "validTo": null
+      },
+      "immutableSha256": "7d40be94fc0b038c424c5cdb4c5d2d853c75c886de6fac663d24c0521c9bb19f",
+      "sourceInfoSha256": "ef3f0d6dae5c57df01fcb7bb29c9d8a57f366c9dd950cdc12ca3de2f22dab964",
+      "selected": true
+    },
+    "state:DEU": {
+      "file": "state-DEU.json",
+      "sha256": "07b4932ded6fbda6c76c0e9aefceb4d743c1108ffec2068249032fc0c25d1ea8",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "05ceb6073035b13b68163315b780151c60b32ce0f80873ab8ad785002e1a087c",
+      "sourceInfoSha256": "ccb8e36e81234a12d2279230897a610abc2bcff65e99d76288f89d3bfeab39be",
+      "selected": true
+    },
+    "state:DJI": {
+      "file": "state-DJI.json",
+      "sha256": "a35a7168938ca5a384d31dd5d419215eb31f1951634e8a79b085310d0e985aa8",
+      "lifetime": {
+        "validFrom": "1977-06-27",
+        "validTo": null
+      },
+      "immutableSha256": "5d6dd5cd290b8c9e6abd9dc97b4848da220023c5ad65306b1a13328e42d3cec6",
+      "sourceInfoSha256": "1f25859eadea4b8b95127de8f2590c84ee2eebe09c1c3a48bec0bb4faeb4719a",
+      "selected": true
+    },
+    "state:DMA": {
+      "file": "state-DMA.json",
+      "sha256": "47f2301108ee058a5c2b2c49a644e50bb385b4b1ab76a92b98e9a2cb5a5d26c0",
+      "lifetime": {
+        "validFrom": "1978-11-03",
+        "validTo": null
+      },
+      "immutableSha256": "a7f5983f6b3e2c22dad0a11c1b3084ac972603d8271e6ee07c19d0e5bd33ca27",
+      "sourceInfoSha256": "b373d3ca8fba2f2420faa3f552cfd6ce28de04ede82fd3d810df4236b02c1fb9",
+      "selected": true
+    },
+    "state:DNK": {
+      "file": "state-DNK.json",
+      "sha256": "dbf6c047cfde0f2abd6dbd7ccc4fa60497949840740e6a03e4f83a44f58b8f24",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "fc2fa43214686674874054c77f0ad1350e2be794f657f91aa6eaf85ec22fa6f2",
+      "sourceInfoSha256": "bd0b3927e8abe75a0c7282ba73ec2918dbf90d68bad7cae0fae1d99611c7bf15",
+      "selected": true
+    },
+    "state:DOM": {
+      "file": "state-DOM.json",
+      "sha256": "4d2e64bf3fbe9f3792108593bf247cfe93fcedb422140c82196e43f6c705b11e",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "0b417390e517e7e0e7e4c5142dbb633e392a198b8b4cff521a4370a840e735d7",
+      "sourceInfoSha256": "ac8bb293f4c2dc49ab3bcb09bd96e549a5295d51e0be3b91b8d519e17b815f1b",
+      "selected": true
+    },
+    "state:DZA": {
+      "file": "state-DZA.json",
+      "sha256": "ce67ee594100032f7d8ef09b4ee65164adefa9e7445d5659bfe4ad644df100a1",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "8033b4594f61a094fd6a137ae5af94cfee3b3f22971ddb73787a576d381084f6",
+      "sourceInfoSha256": "89bdbb6cc4ba41cd10a74d6474298cfee5f0130c831e45c823c82e73efa1db34",
+      "selected": true
+    },
+    "state:ECU": {
+      "file": "state-ECU.json",
+      "sha256": "7eba703cb876d2ad2ce6c4d705fd4be6f92b109c26716c79a7c22f98a8d016ec",
+      "lifetime": {
+        "validFrom": "1830-05-13",
+        "validTo": null
+      },
+      "immutableSha256": "37ccf39baa28735d664e3a8f4f27e932807f2a2fd6da48e64613f890d81ef016",
+      "sourceInfoSha256": "398e10efb12c6e99201b053164c7d61a38efb7587f1730d2ce4f8ca9051fb84a",
+      "selected": true
+    },
+    "state:EGY": {
+      "file": "state-EGY.json",
+      "sha256": "d5a6c1d842ba8ef8ec2bc9ff9587bb3afe0fc68a32a5f0dd2728a93525542cfe",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "9cce023fc410e526ad3356af9450d9ad811c33ccabb2f5a7f33ec04da168924e",
+      "sourceInfoSha256": "f78046b8cd0fbc3e473da2dfd659199b989b96ab14b5789bf52b579052f5dd65",
+      "selected": true
+    },
+    "state:ERI": {
+      "file": "state-ERI.json",
+      "sha256": "84eab52123b66b7053d0738d8f73bbb85bb601f7f23d943015e9586f9c811e0e",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "59d8ab59d42d53308d1119d27e36556b18fcbfbbb44e18c50f3b2f0c51221332",
+      "sourceInfoSha256": "c3a99ca3f5760af31d76ecf5752dd3cf64e48f4dc9307fac2315d57cf21d1531",
+      "selected": true
+    },
+    "state:ESB": {
+      "file": "state-ESB.json",
+      "sha256": "5731fb76ae140486ddc24b6543726709d725f1297ab2a011a9f5ae8a0f7813a0",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "80f8c6e20344695e44a63f634596b75a9829bbbccf7ed0557502896389b8682b",
+      "sourceInfoSha256": "de2b615bdda2ff588812574e6ed97ddfa8f2667ed4d5a34d28c163f428f94a57",
+      "selected": true
+    },
+    "state:ESP": {
+      "file": "state-ESP.json",
+      "sha256": "80b079c1fc3334306e37208c9a482243436813c54c4ab84561ad91653dac961a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "0f68026f4e55b0424eee4b84b2bf840b8f20b8e9bf2ce940d4c7d5edc3a8efa0",
+      "sourceInfoSha256": "484443de688636901e1b40a7fb37678d3823658e53b87bef4b9a4237c97c87d5",
+      "selected": true
+    },
+    "state:EST": {
+      "file": "state-EST.json",
+      "sha256": "5e2b58dd634103890e75cb01e8dac5fb5b25b93f56641cf46348cbb83f5c957f",
+      "lifetime": {
+        "validFrom": "1991-08-20",
+        "validTo": null
+      },
+      "immutableSha256": "2e8eec5f5543083a186cb011233a3fcc423443d2e4dbc7d6456447f21bdf956f",
+      "sourceInfoSha256": "7a45266351f0a5c6594401754e0d08b69ce7d25dab02e78b40180ec14cab2bc4",
+      "selected": true
+    },
+    "state:ETH": {
+      "file": "state-ETH.json",
+      "sha256": "043aac559c3e21ff7527e2e6d322cf50d00a64683c29453538e76bbc863562b4",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "68e27c6da79cc8eefaca10fb7e91c7828d673dcba87261c4ff58b03ff3f4581f",
+      "sourceInfoSha256": "767a120b223f041e7853f7dcc2781a4841954763f4aeee0af38e1500d77bb5b4",
+      "selected": true
+    },
+    "state:FIN": {
+      "file": "state-FIN.json",
+      "sha256": "e2f3dae624abd30ac06e0775dc7743c94d15df244f351b9b6afe8725ea6176a4",
+      "lifetime": {
+        "validFrom": "1917-12-06",
+        "validTo": null
+      },
+      "immutableSha256": "a9f8176c02422b9bdf78735cb2a18301775eaad7fbcf602982881350d7522d77",
+      "sourceInfoSha256": "a67e3fc23b2d5dfdc54055e8db33b1fb998b03aeaf991538b7ff8fefe6be286b",
+      "selected": true
+    },
+    "state:FJI": {
+      "file": "state-FJI.json",
+      "sha256": "1945a0cac142330cfc774469a6c439ab96226a0a0759240201ded4ef98e08cd9",
+      "lifetime": {
+        "validFrom": "1970-10-10",
+        "validTo": null
+      },
+      "immutableSha256": "c922fe8a946c5ad372291247433a41887d8a82dfb58042b1e5c6f03848e1b84f",
+      "sourceInfoSha256": "85d082598715b08b1538153df7b8f98e22867c5be1d6556239ab4a98743ce951",
+      "selected": true
+    },
+    "state:FLK": {
+      "file": "state-FLK.json",
+      "sha256": "0c2733679c61bbdb96fc8a83df564eb8a98a7780d1dc4ecd6ea2d969ee47ed77",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "a2485f342fcddf8231274b24cf25567964bd6cf720b0b1596622cfe642a8cb76",
+      "sourceInfoSha256": "bf6785aba531d762b4e21cbfbf7ddbf890da5cdf2279baa4fe8a5c204b331aa0",
+      "selected": true
+    },
+    "state:FRA": {
+      "file": "state-FRA.json",
+      "sha256": "1d3edddbb977aed50b2ee1b237466aefea6070baa3cf2a398e837dcd22e771cf",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "97bf01c5599934ba8f2a5949af18c652b2f5a85a9a68e5dffb1918be544f56ca",
+      "sourceInfoSha256": "9ec22fe0693698c6141bec138398af5df4220e1060a621e7d83c74ce966e0cc5",
+      "selected": true
+    },
+    "state:FRO": {
+      "file": "state-FRO.json",
+      "sha256": "7a434da66f65dba54d4b93e305fa75f3999170a5305c26c3087aadeebed8ec6a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "52cf8e6593900cb925b7566ad218356343cc81e129a2ca021ace5c60c7184ec0",
+      "sourceInfoSha256": "91531960c03444eb74550db5f812f26d535aadc9232f0d5ab6379a4437331873",
+      "selected": true
+    },
+    "state:FSM": {
+      "file": "state-FSM.json",
+      "sha256": "2df310c738b645a57c9f6d93209c6ba3ba420530f53c807a62bb4c5814ac56a2",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "42adca57e686028c2e4bb78f8e8268309b1ec5e70b74fb84617b36d452dee254",
+      "sourceInfoSha256": "5118a98e348e4dda9f4ace90aa876cde44c9b099db28950d3e64667bc65a2a9d",
+      "selected": true
+    },
+    "state:GAB": {
+      "file": "state-GAB.json",
+      "sha256": "dc4f7ce9ea31b6f782d3d5080c9bf518a5dcd82abb31dd42a32eaa76956dcacf",
+      "lifetime": {
+        "validFrom": "1960-08-17",
+        "validTo": null
+      },
+      "immutableSha256": "8677b05d0ff27da845ea8e0cad322a088151222b9dad994f7a3b5f1f1f39d37d",
+      "sourceInfoSha256": "a24b2e8a6061c193e761ccf6a7b8b83778da27f82ffaddf7b0db04b2ecbb06e4",
+      "selected": true
+    },
+    "state:GBR": {
+      "file": "state-GBR.json",
+      "sha256": "a25a9317eba3723770344ed756df7f60c196581ac98b7e3a0d13a74c9fe20831",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "5c2913128736c5c2fc1f4fa2957bf5a75b74cadd9496308d016c3dc5c2233af6",
+      "sourceInfoSha256": "78dc91475ac39569bee005f20d2a2e85776ed979b1bd3a24ee75baf3b5fb7b98",
+      "selected": true
+    },
+    "state:GEO": {
+      "file": "state-GEO.json",
+      "sha256": "fc9836aaaf6c78a3d2472d49eff2585218669f69918b5d8827a79ed434d7418f",
+      "lifetime": {
+        "validFrom": "1991-04-09",
+        "validTo": null
+      },
+      "immutableSha256": "4d1936f6c5ba69aab79e3c1e25a7a71766f3640e13f77acbae450d899da5d18f",
+      "sourceInfoSha256": "8ad058b4633ea0bba41c5c2aafedbe1e3081c4674e86c0e3bb847108ac26ac8b",
+      "selected": true
+    },
+    "state:GGY": {
+      "file": "state-GGY.json",
+      "sha256": "b32fba6bcc057a193a641f338d5f3b2158ec7826fa0e4f47f447debbff10b3d3",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "778cb13add96806bc5928b34c214c9ed38f819af79a24e4c9ca552e33979bfdb",
+      "sourceInfoSha256": "94e19c99e4fb950825adb98e9ee95d755d5c07e299f064209e21f81b20afa960",
+      "selected": true
+    },
+    "state:GHA": {
+      "file": "state-GHA.json",
+      "sha256": "429d94a235fe7625f4e2d09a5eb97f35176766c49b152fd4887f1b486d4b8048",
+      "lifetime": {
+        "validFrom": "1957-03-06",
+        "validTo": null
+      },
+      "immutableSha256": "ec98c45d14615b371602af6b5b4acab14b566016fa94de06480ba008ad968c16",
+      "sourceInfoSha256": "b01abd70c8fe940d7953e4e8d131dcbef47c90c33093b153a90b03b85b236e29",
+      "selected": true
+    },
+    "state:GIB": {
+      "file": "state-GIB.json",
+      "sha256": "8c88a1115f7149b1f435b7e65a449381c43b7ec23b58bd892160348e446d42d5",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "95c29e7fe431a8f6b5ee5145584657bd55990c92c8bbca9ab35f8d85c7084733",
+      "sourceInfoSha256": "d710b5ca75182081850dd71d0f03c389235b9a71717b7cf8e1210547773ddbb6",
+      "selected": true
+    },
+    "state:GIN": {
+      "file": "state-GIN.json",
+      "sha256": "03df108032f480d8bf6286aa3fd28d603fc8dc4cc04c977fd2e1404725778adc",
+      "lifetime": {
+        "validFrom": "1958-10-02",
+        "validTo": null
+      },
+      "immutableSha256": "28f6f8aa4b0ed61d35e58a5a9b2a0937482fe3c9600a33d0b6fd5b5966e1b836",
+      "sourceInfoSha256": "da03e5f47f3a60438a54c2f202e9a4c264b01c5081ee1164b85e9261267b7506",
+      "selected": true
+    },
+    "state:GMB": {
+      "file": "state-GMB.json",
+      "sha256": "b6725e0f7d638166f51f07125d66361728b955ba3715550aafcf20ccab24a4b5",
+      "lifetime": {
+        "validFrom": "1965-02-18",
+        "validTo": null
+      },
+      "immutableSha256": "577405ec766edce33a59e6fa41ca20efab976dd193300ce9fcd6e9cf79ec2ef6",
+      "sourceInfoSha256": "23c6aa6beaf5337ee173368ab8f27f079b4a4567bc2a24cae207a5bbf97f4cb1",
+      "selected": true
+    },
+    "state:GNB": {
+      "file": "state-GNB.json",
+      "sha256": "d30ee26323a65b2321e1c32b9bead8d5aef6fb8862d4ee53e81bbc2cc5b8e2a4",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "2dc97e5e8c8f31fdaa42a320e832e1fbc6edcdac3ff26e13aa465590dc93e7a4",
+      "sourceInfoSha256": "d7da7ace8f511eac6a0cf87121dfe4623f368e9d94261d91c607ba97f3f5ca89",
+      "selected": true
+    },
+    "state:GNQ": {
+      "file": "state-GNQ.json",
+      "sha256": "a07b958409e8627a4d9e4e4b6bd8e2d3fd7a5b41acda25b8fd22a49fbe04f9e2",
+      "lifetime": {
+        "validFrom": "1968-10-12",
+        "validTo": null
+      },
+      "immutableSha256": "8d6e0c294dd693e84c81aad72d5b116dfd153cafbde21f3d76d2f1670c3d23bc",
+      "sourceInfoSha256": "243a057721d35959a06dd0ad184dc4d5d065003da130163d9a7ecd73ad0bb15e",
+      "selected": true
+    },
+    "state:GRC": {
+      "file": "state-GRC.json",
+      "sha256": "e508b897be18d0f6996436349a63b51e4d339462b56b4d7ca7f659eeb736e6f8",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "cc397b98ad7d4b1511173de8ffa8de977c2576cc6829443a23661059a00faed0",
+      "sourceInfoSha256": "071dac651aefb41e0b796edda8dc1778c0ab26d58bce70c4031dcd5aff8f4558",
+      "selected": true
+    },
+    "state:GRD": {
+      "file": "state-GRD.json",
+      "sha256": "c6942605b06b2db14dea73a13dc06cb954dfd094fbe27da744da0a7993180fe8",
+      "lifetime": {
+        "validFrom": "1974-02-07",
+        "validTo": null
+      },
+      "immutableSha256": "10ba332c6d8d00707f341963c29bc80992242a07014a93b748bf37dbdc93157a",
+      "sourceInfoSha256": "a646eeb1da96692851448baa8a854de3b6a157994151df79517b1b03e877ed17",
+      "selected": true
+    },
+    "state:GRL": {
+      "file": "state-GRL.json",
+      "sha256": "6bb231e1851c94141c7e368b5241b3459b74776d99c52e7b51fd2562c76340ef",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "d911cb6d07d7b3b73716ec76bd788b1362c0397b3026f07ac40d516ffbf0b981",
+      "sourceInfoSha256": "3860109e371640f07926c1842a0c0f748616a394fcd186db9442cbe4ced9236a",
+      "selected": true
+    },
+    "state:GTM": {
+      "file": "state-GTM.json",
+      "sha256": "15d56becae457d3ca7a379daccb3c38dfeffe39de5524761713db5e329d292c7",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "c40fa7fac7a6160addaaf95518440a1625b9aae576c464fb694952911432a7df",
+      "sourceInfoSha256": "97d837254bfa87d2ffc0a7d915d52713f06c1e6ad1fe6e9bcda97435a285a014",
+      "selected": true
+    },
+    "state:GUM": {
+      "file": "state-GUM.json",
+      "sha256": "bf6fa5aa879305d5e4ba87e6e9236cc22e7656377c00ebbdee8db95bfbe3c267",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f8d911614d6816281eaccf3cd8c3cc68ea04b6694e0743feb5085b257d6272cd",
+      "sourceInfoSha256": "56661ee612ef7e3449fda148d3476a5acd49e20a01e199e4c7de606e26119784",
+      "selected": true
+    },
+    "state:GUY": {
+      "file": "state-GUY.json",
+      "sha256": "bcef52911e01c017e25bebee82d9735394f257d3e1a37b6ebb8d5f4450c98d18",
+      "lifetime": {
+        "validFrom": "1966-05-26",
+        "validTo": null
+      },
+      "immutableSha256": "5f8289fa584f9b5864263834ca9f03fd665609b6a38409c54ebca5a42882dfdc",
+      "sourceInfoSha256": "b30c8c6dfa2f4294a4cbd0ab71a396167986d466d101d0ee29144c12e93732f1",
+      "selected": true
+    },
+    "state:HKG": {
+      "file": "state-HKG.json",
+      "sha256": "55dad87f335370b6c6356deffc2b25db3b0aebd30f914dc7bc7e8d6b1e69fbe9",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "e535b9ca27b29391929fe19c2a10c05cc454ee71121ceb8b858f1ea26b4a756b",
+      "sourceInfoSha256": "900f999afe74b654426a11609af60487face23fe2e2dbf383e1a8b420da35e76",
+      "selected": true
+    },
+    "state:HMD": {
+      "file": "state-HMD.json",
+      "sha256": "cc5f6d298e6948d428ca7869e68d9ab65527d8eee68cb5c83bbea55a3aa9c73c",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "8664b3202955ee0fffab6ce643f463426673d75184647f5fca361704068724cb",
+      "sourceInfoSha256": "32dd9f8e346fdb3ecb6289e8644602250bf9b9c26d8833ee0c35898c87b66b75",
+      "selected": true
+    },
+    "state:HND": {
+      "file": "state-HND.json",
+      "sha256": "9e330667d0f4adbc6518aa641ca71265d6a318ddcf26a0ea91d4372bd18c77e2",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "aed798fb83c5edc99820aaa47bfdb265be1e7c0897aa7d1c127ab5dcea27e8ba",
+      "sourceInfoSha256": "5c94579c1d66418c20785ac7b768352ad1fb8bc879ca8e1ca794b06861c0cf1e",
+      "selected": true
+    },
+    "state:HRV": {
+      "file": "state-HRV.json",
+      "sha256": "d8afd35b1093f4c85829185fe2bc428d323ca89f7827534ed4194a0b4609bc18",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "fb014e63a02b7b5eb69e722f696b293f9d1f8e8c75d81edbe7ae9ed5f428b654",
+      "sourceInfoSha256": "d58ea82b5638bbf458888248477ca7406bfc6828e0696b0a1f571599dda3b34d",
+      "selected": true
+    },
+    "state:HTI": {
+      "file": "state-HTI.json",
+      "sha256": "256a739fef656bc06125f0b0a4bdb6e21ec1cfcc70111efa861382a6280ac027",
+      "lifetime": {
+        "validFrom": "1804-01-01",
+        "validTo": null
+      },
+      "immutableSha256": "bdc33f3e655c7d4ed48f73367f1f02750229a232ab4a51b1306501992462540f",
+      "sourceInfoSha256": "8501fc71d34881e9e885c9fd2732c3a278be2fe9ef582e21064a8c0b65f57ce0",
+      "selected": true
+    },
+    "state:HUN": {
+      "file": "state-HUN.json",
+      "sha256": "51f62502595bf8d73364f03435d31679d94fa4fdcecd2597768123a8c206d820",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "1f6f4d1c2dad667a1b4b597d8d31e35d2a1a8e69c00584b04ffa97a49bfbabc4",
+      "sourceInfoSha256": "ef7cbafa4b63f89db176d7b0c79c8f708ad5e7ca1a6a114b2d6da2210e66691c",
+      "selected": true
+    },
+    "state:IDN": {
+      "file": "state-IDN.json",
+      "sha256": "7f126a5f3aaed709a9c80474c4cb7eb8674a5074ee4161cf64653e4c824e0cd9",
+      "lifetime": {
+        "validFrom": "1945-08-17",
+        "validTo": null
+      },
+      "immutableSha256": "bd0eae83b17036f25e606b69316a91e757e3a4382abe413bf6c5b560f94a6382",
+      "sourceInfoSha256": "5dea7ca843ea053c0632088066b4cebdfb658c6b2669cfc2b014cf624ee22d3c",
+      "selected": true
+    },
+    "state:IMN": {
+      "file": "state-IMN.json",
+      "sha256": "4177337cbd69aa93d28f0c3f43ccaa18576d2cb5c68064a5e7ed5eb38c26bf85",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "53ef24f96b35ae876fc4d1a10f1046dfde5f1a78456862d939089e1f8f82e021",
+      "sourceInfoSha256": "b05acaa5d84ae15cdf41a4b040ff5044f684d3f57c83aeebdeea1d215f7af201",
+      "selected": true
+    },
+    "state:IND": {
+      "file": "state-IND.json",
+      "sha256": "7afb9660c6b2f0041b78c099b0aa865f4a95711dd6f4c6874cd6483390f1f965",
+      "lifetime": {
+        "validFrom": "1947-08-15",
+        "validTo": null
+      },
+      "immutableSha256": "fae37b8c7f3f62b32c16754c74fd02f6f01d0b82e701c53462fe9c68578a15e7",
+      "sourceInfoSha256": "8a47ef07a81e8b8876fe13cead79ce45157f1598e4205265d38d19ea8926b2f7",
+      "selected": true
+    },
+    "state:IOA": {
+      "file": "state-IOA.json",
+      "sha256": "64c7f6c084152535f427f7b11586e03c052a989252affb94f855952abef6b90f",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "64f1feee31481a88949f4bd27476931d688aedfe51d7dd76e14f42d82bf98466",
+      "sourceInfoSha256": "5231a98cdf8b47bfdde6b4e39f8e9d9097f9890460063e64e1fc60e2e458d2ff",
+      "selected": true
+    },
+    "state:IOT": {
+      "file": "state-IOT.json",
+      "sha256": "1e34b8c7990d23fbcd4a5180f7a184769118948bdf77f3484008150780e63fff",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "6efed7728718ebe64ff7fca6d2ecf4ee8d9fdbbd321b27d1ca1920d183fde550",
+      "sourceInfoSha256": "174189f76de304166d464f7b1ff1d3b68e54e073561f5343674c4fe502b7b3e3",
+      "selected": true
+    },
+    "state:IRL": {
+      "file": "state-IRL.json",
+      "sha256": "ffe4d4491f5c762c889946315dcd36a0ea6db215ab6e5858d151fb32e4166ac4",
+      "lifetime": {
+        "validFrom": "1922-12-06",
+        "validTo": null
+      },
+      "immutableSha256": "24a38878d1896de661e48e78f6ad78997e8fcfd0072c3b91bc778059a87d9158",
+      "sourceInfoSha256": "37b0df7adbb2294e9366fe11dedf3d10d79722b5cc0d8c50eed2d1141409584a",
+      "selected": true
+    },
+    "state:IRN": {
+      "file": "state-IRN.json",
+      "sha256": "5d436ca87d3e4874d9c8f3bdd3edeffa0458627a5d71b8d00599eed506420d81",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "dd880ce1f8c4265412b87da0912b14dbbad9ad72cf0914cea41cad71d794a8b0",
+      "sourceInfoSha256": "0c09624ba3c063298247fa461caa31a4993a5d29c505538fdaa30450899c84a7",
+      "selected": true
+    },
+    "state:IRQ": {
+      "file": "state-IRQ.json",
+      "sha256": "a0c57d0fc8ba93f244b2340348b7f77a84a721ac48aa795bbd46ea42443b4402",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "1f78347a726e172d280539e0cdc2f02195216cbb1a9a9fa125cb83e825a1259d",
+      "sourceInfoSha256": "ffd86ec5cec645cd153e766e57ae764f11aa85aef6d5ee1097e5f98fa9d0d33d",
+      "selected": true
+    },
+    "state:ISL": {
+      "file": "state-ISL.json",
+      "sha256": "b54544be61e19ad59752bab3447f5a2803529f86035b90069beeb33346e50bdf",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "47bab26c5a4f281b761ae824cc41519b7805cc07ae023f38fc1dc58cf0294d34",
+      "sourceInfoSha256": "5eefc0233869ec651f21ccef8be8c00d4e1e6da4b4f7ab17534789aaecb7ca42",
+      "selected": true
+    },
+    "state:ISR": {
+      "file": "state-ISR.json",
+      "sha256": "825189126f888ab5cef4c79f8247cf28d206669a0c4343f4014144c90975fdd8",
+      "lifetime": {
+        "validFrom": "1948-05-14",
+        "validTo": null
+      },
+      "immutableSha256": "5a949e8f1d8b13685038366ce3e4f1f859e40aed3bd08e32fc03be4fab248a5f",
+      "sourceInfoSha256": "faf61497de7fb05a459da6071b2c1f9daee3cd52c402fa0ee4b2328f1f648033",
+      "selected": true
+    },
+    "state:ITA": {
+      "file": "state-ITA.json",
+      "sha256": "29ed04c332fca66309ffe234b3dff4f8e36453940493b9606b0810d5a2df4187",
+      "lifetime": {
+        "validFrom": "1861-03-17",
+        "validTo": null
+      },
+      "immutableSha256": "d7a449a249a084ff433285811fe486cf319dda87587e34dfb06bac9fecc034dc",
+      "sourceInfoSha256": "d27d68d7c411455e5e84d20065bffb7a6001512dcc5688062fd8493b19af553a",
+      "selected": true
+    },
+    "state:JAM": {
+      "file": "state-JAM.json",
+      "sha256": "43826f7eb4b6646991597a2c4b2638756d9e05db54c67b6db640c39e5bda4252",
+      "lifetime": {
+        "validFrom": "1962-08-06",
+        "validTo": null
+      },
+      "immutableSha256": "e5a22f8fcde558f2be695a9b856a6ec28c87e001c7cc4bf1cbd9416a73182f45",
+      "sourceInfoSha256": "9d96363879530457dc002b96ec14b1076bf0670e97eb492338db6c9317b9d9ef",
+      "selected": true
+    },
+    "state:JEY": {
+      "file": "state-JEY.json",
+      "sha256": "db4ea6d911cfc7b634664f059beabcd056c8cb285a2a47da28f0928fd31f1614",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "c177cdaf96e362d68db3ace0eb54ce0fc35f8e5360c9a09ec7447a90d159b09a",
+      "sourceInfoSha256": "cdbd920ffb6b9bb450520b49054bc088ae0407a1c088cc52f3b269b7c454d762",
+      "selected": true
+    },
+    "state:JOR": {
+      "file": "state-JOR.json",
+      "sha256": "6dcc040a23f21567a1e56392d14655d7808fcd84843c6ef5fa2863b609f64d18",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "8a5b8393d6d248905a921ed26b716a29a0784913d7124f5987c793c46d508e48",
+      "sourceInfoSha256": "7bcb728794a7b96d91847007356746baa5fa613335476bf52ce88e77b47ce0e6",
+      "selected": true
+    },
+    "state:JPN": {
+      "file": "state-JPN.json",
+      "sha256": "aeb51c0278731af1d1db338e9395395d911377e9ab3ac026220aa96c318e8ea3",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "40fbf327290d088d2ed38ae583098474421049766b995e19e4f9e480197b653a",
+      "sourceInfoSha256": "fdf83ecc2e5d7d99e399bb1f8b4dc63df5811f6ab1d0ac2941c53c7ee75c6af0",
+      "selected": true
+    },
+    "state:KAB": {
+      "file": "state-KAB.json",
+      "sha256": "846622f7351a62ae11c66712eded7d4b72ae79f3bdb7505fe3b300d9ad09166f",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "1007ae02c3c3d387a9ff13a812f7bf5a97c508b93abe9ef2f35ec83e58bc0bde",
+      "sourceInfoSha256": "a21834ed2e46e4c8fedaa0a5100a8cdbbb202fb3c1f59adb6d65dfeda95af8f8",
+      "selected": true
+    },
+    "state:KAS": {
+      "file": "state-KAS.json",
+      "sha256": "837957317d903d0815270454b749663838bb776c161c026c1eefe996d93e7631",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "9af8203953715c2593eae69c54ea94618fe5bcebf2d54a3312968ea6e10b43f6",
+      "sourceInfoSha256": "ec32f68093043cbe77c36912d824a8aaf6197bca3e437fbace2c595a5e7b08d1",
+      "selected": true
+    },
+    "state:KAZ": {
+      "file": "state-KAZ.json",
+      "sha256": "889df3556d0c60c1d3b2fd61d00b134510a62b0b99d3ab047ac98380e820b35c",
+      "lifetime": {
+        "validFrom": "1991-12-16",
+        "validTo": null
+      },
+      "immutableSha256": "aca7a7ec046c20a5d6caac40fe8acdb7120a614090380ccbf38d2cf3a32e5757",
+      "sourceInfoSha256": "709a0052d7e702b6429c8ec7edb7f52af8d684adc9de5adef047c0b6e0b832da",
+      "selected": true
+    },
+    "state:KEN": {
+      "file": "state-KEN.json",
+      "sha256": "cdf2b863e0deed8b106c818da06dc6f2bbd1b4219d60a4f3bf90209a00e1ef6a",
+      "lifetime": {
+        "validFrom": "1963-12-12",
+        "validTo": null
+      },
+      "immutableSha256": "c6c22460b4a52e60bd6c526cf692c5d0ce70866ab06d22449891ff4bf294a725",
+      "sourceInfoSha256": "999132b66b5502fdbba8475d0a4bbbc234886967416fb8db164a53cf5950d5db",
+      "selected": true
+    },
+    "state:KGZ": {
+      "file": "state-KGZ.json",
+      "sha256": "f89604fb21e0e1038ea8885e6590cb18b97f00e45b9cb7f3d5f75c0885d7e2d1",
+      "lifetime": {
+        "validFrom": "1991-08-31",
+        "validTo": null
+      },
+      "immutableSha256": "6df1ce4e2d12462e9df5a60a6021de38ed1dbe9fb0f988eb6431b9ac891f3b68",
+      "sourceInfoSha256": "8cedd92d72f7fa926ba73abec5745d6f7dd48d215138af846ce1846ce911fc90",
+      "selected": true
+    },
+    "state:KHM": {
+      "file": "state-KHM.json",
+      "sha256": "584209f08f2b85adf60cea60c4afab23c7f6e8cb52e2f11517df69bec9528ca0",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "10ab104af447dfc3aa459801bb7a2dbd24b663f58371ebb4ce76784e55a311ac",
+      "sourceInfoSha256": "96701d08e575d59ac754a2ebfe8a5c03f33897df99447004dbbc9248dae7d288",
+      "selected": true
+    },
+    "state:KIR": {
+      "file": "state-KIR.json",
+      "sha256": "5c87ec8c64bd31cf0eaf6f856ae2282ce605eb9951a6e74b7999abff4c5b41f5",
+      "lifetime": {
+        "validFrom": "1979-07-12",
+        "validTo": null
+      },
+      "immutableSha256": "51ecd65cfd3c94df12adcd4dfd970aef975735db5b7035bf2b0a9facc0817dd0",
+      "sourceInfoSha256": "c679bab09306afcaccdb603ed1f5eb9408db8d7026a65bdb910be23212e5ad2c",
+      "selected": true
+    },
+    "state:KNA": {
+      "file": "state-KNA.json",
+      "sha256": "ae6366de3737e7689bf30f23ec7699b2bee0217b7d123760bf7c97ed57834391",
+      "lifetime": {
+        "validFrom": "1983-09-19",
+        "validTo": null
+      },
+      "immutableSha256": "0473ac79e24435d7d937aaf4e6fd788d008012a120d6cb6d8fdca89c378aea6f",
+      "sourceInfoSha256": "f68f97b35c434439b8d543085082d0c7e9bf2d026fb37dcdcd4c4d2ed2f68734",
+      "selected": true
+    },
+    "state:KOR": {
+      "file": "state-KOR.json",
+      "sha256": "5af999398fbbbfe7998d83d7a37f8084bba530393b5328adecfb99ef342aab1d",
+      "lifetime": {
+        "validFrom": "1948-08-15",
+        "validTo": null
+      },
+      "immutableSha256": "e552b4e068b5d87b0df75323f8cb45919c96f7695e390053d8480cddfe4c910f",
+      "sourceInfoSha256": "9c47cccc7d0d6a1f5b63b42edad9f38e53ebbe9cff0ec741a5100a5fee37b879",
+      "selected": true
+    },
+    "state:KOS": {
+      "file": "state-KOS.json",
+      "sha256": "443aef0112bb98f2172c9a47b42d6313b8f86aa82a88408516a83082b017f470",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "cec6f7ee51443cc3b4634349a0e8cda12acbf3a1a3a275fec98cc66bf5113680",
+      "sourceInfoSha256": "d9c4176078bdebf23e80d30f12092317b6ad508d983aaf2a2b0f7ed964814fe3",
+      "selected": true
+    },
+    "state:KWT": {
+      "file": "state-KWT.json",
+      "sha256": "cb1d850a3393320eac4bec461a624fb37cedb87254d0a1a70a7b6e0928d88739",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "a26fedc9e12c1f76b5ddf62794ef8b3f80f6e3a8dea9115a3f9f78f64a340710",
+      "sourceInfoSha256": "16500889e25039056cddbf6429a429fd0b3037019e64f6f00f9701e3c384c4e8",
+      "selected": true
+    },
+    "state:LAO": {
+      "file": "state-LAO.json",
+      "sha256": "e6cd8abafd8b7dfaa29577ac659b37a4aed0c1d0486706566eb1f94c95528d24",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "261c088320098898466f7b0f0bd624682ca8c268ba733af98d31f7bc0058599f",
+      "sourceInfoSha256": "2d072aedf96c7a49e13b5619543cdd13710acf59bab9398311e49e4d5c5207fb",
+      "selected": true
+    },
+    "state:LBN": {
+      "file": "state-LBN.json",
+      "sha256": "822e4ac4da7fd29816d2a564752c505d90c100286163a25102fc6e3af0b1c6a9",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "40100254d1739366b8a0a1ac97ffd10435acf3a6311a6387e92891c61c284468",
+      "sourceInfoSha256": "6fe89c4da788c8c7dc12319165eb1f10ca8aa661a0d5a4c6777313efc585c2c7",
+      "selected": true
+    },
+    "state:LBR": {
+      "file": "state-LBR.json",
+      "sha256": "9e98bc1c704cf1143191446ee6484a71197878b46b65639722e8bc3db1c08e12",
+      "lifetime": {
+        "validFrom": "1847-07-26",
+        "validTo": null
+      },
+      "immutableSha256": "4c59a8a2c205a6264664604903e29fa8c2e6cbafeec4ba53510718e2f8ccb109",
+      "sourceInfoSha256": "00dc0de5cc8944a17f61714b08108f83550ac91595a123f490be5bea034bc307",
+      "selected": true
+    },
+    "state:LBY": {
+      "file": "state-LBY.json",
+      "sha256": "54d3b450b9764ac41b63644e7923185824cfd80dabfcff0d8be9114b44312816",
+      "lifetime": {
+        "validFrom": "1951-12-24",
+        "validTo": null
+      },
+      "immutableSha256": "995eb0eb54feef7f3cc9fdde538d7a7771fb965286ba7b6d4417b355a1e39935",
+      "sourceInfoSha256": "9899f3d9ca32bcecabd71c98e1852c3f671d9deb6b07aa2fa31f092e3d0ca808",
+      "selected": true
+    },
+    "state:LCA": {
+      "file": "state-LCA.json",
+      "sha256": "49fd7f0ff09a22107619e719f6997c94b0e33c895bc1e32408016364860e0a5f",
+      "lifetime": {
+        "validFrom": "1979-02-22",
+        "validTo": null
+      },
+      "immutableSha256": "b122ec905b76d9ba08d7943dacd75983485980bf7e890f3c1938faa61b345b00",
+      "sourceInfoSha256": "a5dbbce6190fe252adf7ee8222cad2d9b536b9f99417eb4d425cf8b7b9d86fb3",
+      "selected": true
+    },
+    "state:LIE": {
+      "file": "state-LIE.json",
+      "sha256": "a412919a890eb76be22725fd141afb2829e1378b030f4b55a019e0e83c934a25",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "662b2086e61b6034c326a5157fe00cdd2f60367acc253298b96c27d3f13a8bb2",
+      "sourceInfoSha256": "3203ee67b55cbb46174851eb7ad4e412f76c740149e39089eb5a7663822bdcd2",
+      "selected": true
+    },
+    "state:LKA": {
+      "file": "state-LKA.json",
+      "sha256": "32377d137ea814248bbe95cf909d40f8bccc72db3a288b87c98a95f3ede6593c",
+      "lifetime": {
+        "validFrom": "1948-02-04",
+        "validTo": null
+      },
+      "immutableSha256": "32f3fb347289c9d9e10ee1df36a383186292da6a35a12dd019ad84ef95ea0ebf",
+      "sourceInfoSha256": "83bbe4a33bbff154915ce7d25e647dcf1a16cdc35bf72b9b128a0360a95f72e0",
+      "selected": true
+    },
+    "state:LSO": {
+      "file": "state-LSO.json",
+      "sha256": "94796e12589aaae7ea5efc1524cb0f8f8394f7e37e025e3a85a6af7626240f2d",
+      "lifetime": {
+        "validFrom": "1966-10-04",
+        "validTo": null
+      },
+      "immutableSha256": "0b2167beab354573e247c716a943fc261a8d8bf182e909a433175ab8d9ac618f",
+      "sourceInfoSha256": "52d6f3632a15bce215f8c58ebd6c96a91fcff1f6feeff19a1d2250a22343abad",
+      "selected": true
+    },
+    "state:LTU": {
+      "file": "state-LTU.json",
+      "sha256": "8db65c82a5212902626a1cf7daeba70da13884e93211509838d272b94318ce64",
+      "lifetime": {
+        "validFrom": "1990-03-11",
+        "validTo": null
+      },
+      "immutableSha256": "8eb5953d65f0bc5313be520a71d19be844faf2f1aa2f51b19fd449913488157f",
+      "sourceInfoSha256": "712aa1e9b9cb6bb3075458423799ff9bb4200e050d9b277286e4b171ce331932",
+      "selected": true
+    },
+    "state:LUX": {
+      "file": "state-LUX.json",
+      "sha256": "2b1b4e9c9efdf3863976fd9de5fe1f800b4f3d4f3c8e9672cbd61cdf38e6ab8f",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "190791b1aca2299eaec782a55f77685da18e7fef98408296265826fd97445a3f",
+      "sourceInfoSha256": "9758310e294e6b4b46687c0ea6f34810973270c8f8bf7ee829acb4d51e76c298",
+      "selected": true
+    },
+    "state:LVA": {
+      "file": "state-LVA.json",
+      "sha256": "ca3c72c3b81add0b91248686af2584b19c59377f8ac7d0c1851f56908127d684",
+      "lifetime": {
+        "validFrom": "1991-08-21",
+        "validTo": null
+      },
+      "immutableSha256": "deca2d19b54f08779452e9d2c709cd8135573c9c77beebcd9a0f44ef18a9764f",
+      "sourceInfoSha256": "413103d15550208ed62183122ee5f22fb8bce7306b97bef11531cbdf63122525",
+      "selected": true
+    },
+    "state:MAC": {
+      "file": "state-MAC.json",
+      "sha256": "d5d2eeb07dc84b7f9eab3f3a9af7c85328799c031054ce7cd0406863fbc78138",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "6bffc2529dd7255007d1e886e4554ea8724ac8c344bd32cc54d2b48f3c51b786",
+      "sourceInfoSha256": "f91ce898193bf91cdf469da9ee68149cd0110e9ecb444146d6553389ed3d99c4",
+      "selected": true
+    },
+    "state:MAF": {
+      "file": "state-MAF.json",
+      "sha256": "f345f60ef309c1e430c0ded4f9f15b000f17d40f4ab054de1c51d866bd9a19d5",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "e61527b1526f3a10a440fa048e474168600e51044a13d5ee98b38f66a19515b3",
+      "sourceInfoSha256": "ffb0d7c7babc4427e97fcec534b20eeadf9ffd794045671adef207dffded293a",
+      "selected": true
+    },
+    "state:MAR": {
+      "file": "state-MAR.json",
+      "sha256": "3e7c04a36b439a3db4ed52156bc99df192e73a0dd80bf6675320f982f76da26c",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "2367b607e2f879ec7ea314cc7946a731f219202f8688517d2a10c73e002e1d1a",
+      "sourceInfoSha256": "481eb4c786bd90e569a098eb07a3070eba27358c617e109f32a33ae373bbd416",
+      "selected": true
+    },
+    "state:MCO": {
+      "file": "state-MCO.json",
+      "sha256": "811f97ce12a4c083e0d5d06dc55fe4dbc8023b10a4b7fd3c77a1bbe8e6a0d0f7",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ce792bda6ba37d2c3d32579c131d2b3ffa0ab59098c69a0d9b9ac1cd0db35ea9",
+      "sourceInfoSha256": "43147d289a6ef934d37ff993e4079591aa97576aad512f404a8c7392ffa8a88d",
+      "selected": true
+    },
+    "state:MDA": {
+      "file": "state-MDA.json",
+      "sha256": "b2c9b96d96cacd72feba42fe977b1eef6904b196da4925377035d3fa89ccac31",
+      "lifetime": {
+        "validFrom": "1991-08-27",
+        "validTo": null
+      },
+      "immutableSha256": "6c8d7e997f8727873606d86da2d7f5ebd6321b004f46353b945513addd533629",
+      "sourceInfoSha256": "0c402cb6eec576bbdce0095622e09f1874cfa299a11a397183510f427867234e",
+      "selected": true
+    },
+    "state:MDG": {
+      "file": "state-MDG.json",
+      "sha256": "4936fd4f7f94b5d261d69d717a43e69b3ee58200c467590456b98aab136aa0bb",
+      "lifetime": {
+        "validFrom": "1960-06-26",
+        "validTo": null
+      },
+      "immutableSha256": "525910954019dc668bd827bea9fdf21cb41629ccbf9b342fdca71a6c941e255f",
+      "sourceInfoSha256": "cb83a3cd859260306702eedf6d49055826547fb3773353aed5d0c427470b1379",
+      "selected": true
+    },
+    "state:MDV": {
+      "file": "state-MDV.json",
+      "sha256": "919be034899cacde2a0ea8f181a0dd92a718a894cacb89adc12e2739e97b339a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "823cac5f598e4b56ff1853e35e6e9f91daaf7e34fbe2aa83eb396ccab5be2986",
+      "sourceInfoSha256": "d3c114854b803690bdc688f0df7f4f962042241a6357f689e04859461284b347",
+      "selected": true
+    },
+    "state:MEX": {
+      "file": "state-MEX.json",
+      "sha256": "df92c8f3da239029ac1e15ff7e3b676dc4e37e893075abac563548a134edf280",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "d86dcd0cd9946fc10cd0d4f80a7ed86b14c599a6ee48cc499b278f48fe095d82",
+      "sourceInfoSha256": "6ec28e2945d88f8e72b8167f5a62847fe25fd830dd4d6588c1e7c6db7a465714",
+      "selected": true
+    },
+    "state:MHL": {
+      "file": "state-MHL.json",
+      "sha256": "42136a6a41b80d3c5cbde0d668685c13d17ed1eadd5903fbe5b3251b3a52e4c6",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "7063a4d0a50746a6bff473dbad3cbebd594f6eb2ee509a0460ec6b97be57a862",
+      "sourceInfoSha256": "e958b467e3bef4d74469fc2b702e8cd519c638ccc1cf7e52626ba5f19e12a3c3",
+      "selected": true
+    },
+    "state:MKD": {
+      "file": "state-MKD.json",
+      "sha256": "a11704c04594db4aa1964f0f2b44ea2eca42603ed42da466d5ae0b301ff1a4ba",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ea1147e679e47d9d807b14192f62ea491b298cfe4c507d08fa19edf7c4f57025",
+      "sourceInfoSha256": "800e4cdb23657d6805eda11d0a2a8a6bb22d49b253f09e3edd70926031756e41",
+      "selected": true
+    },
+    "state:MLI": {
+      "file": "state-MLI.json",
+      "sha256": "f550e6eaecd7cbff223896ea6c23a1f6f8cbc93487c63a2cdef323ae486d56ea",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "39a64e7d82bf2bc084e5dbb22919149e6a6b62ab505c617345c42de8d233c41c",
+      "sourceInfoSha256": "0586ff85e3007d1057f25f6cb554bf0283b084c60fe7bf02593714dd91d5bc56",
+      "selected": true
+    },
+    "state:MLT": {
+      "file": "state-MLT.json",
+      "sha256": "89d8fdad591f83e98fda73c036a68f7c92e812f61450586a092bcf1ef06ed23a",
+      "lifetime": {
+        "validFrom": "1964-09-21",
+        "validTo": null
+      },
+      "immutableSha256": "7cc2ddc9ce20d15da49d3cd195b2326aa5387f4fb009882e90bd64b51a555f09",
+      "sourceInfoSha256": "d937d8aeaa09a799895edc7b104a3c10d24d1bbeef35d6252f1bb6a2a6274a34",
+      "selected": true
+    },
+    "state:MMR": {
+      "file": "state-MMR.json",
+      "sha256": "6d732c3a7e679d423ac3f2f1bc671e36dd5374b60c20e51de4419698aedf0427",
+      "lifetime": {
+        "validFrom": "1948-01-04",
+        "validTo": null
+      },
+      "immutableSha256": "067d98db63065883f8029432e01b36cc23c92e242ebe4777471283d7f66f7f6f",
+      "sourceInfoSha256": "9fdfb195669c473e0acaca3254c449f0835da86ddbb6d101877949050f9ab916",
+      "selected": true
+    },
+    "state:MNE": {
+      "file": "state-MNE.json",
+      "sha256": "98c5b47e74feb18e65a794f45f79d5bed8c71e87d0d27f4d94a624fe346375c8",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "fad101b11e87b34cf089bd73879ffb14df54b37d079e7554bdda4a9f35a8a5f1",
+      "sourceInfoSha256": "fbb176ef419ec4329f56ecce28236f5483c8c799882927132477e46ef4894eb2",
+      "selected": true
+    },
+    "state:MNG": {
+      "file": "state-MNG.json",
+      "sha256": "e6842e514da9e3ff957c32cc730202e0ffde36b3eea02a416f7181a50b326e11",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "53e5b526640d1cb58bb1e9c09d7f832c1bae54d2b26e584106957c41d5cd4513",
+      "sourceInfoSha256": "eb073b056edc4cb69242148c557cf6142ccb8b3d0cf00192bab492c13f49533a",
+      "selected": true
+    },
+    "state:MNP": {
+      "file": "state-MNP.json",
+      "sha256": "de59e128c510d1a1d4aa1e3f3e881de2c1e47a665db043b5b037adbe52842b29",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "d26a3baee39b87156b76a833d4c80f5a4140a67da672b644df70df800206bf35",
+      "sourceInfoSha256": "95813b768475563b200efdd42d0e176154d2976306956b4062b2ae575999a805",
+      "selected": true
+    },
+    "state:MOZ": {
+      "file": "state-MOZ.json",
+      "sha256": "7654b6f2f5edd8291418ba0e5c197527bfb8d770cf9a0c85871ee2dbb3863293",
+      "lifetime": {
+        "validFrom": "1975-06-25",
+        "validTo": null
+      },
+      "immutableSha256": "b1ae4c62f6296c668c3b0151bbac2e6a74bf54f9afaba0f80ffc12fdec5e4dc8",
+      "sourceInfoSha256": "96c63092c25e0ca989439b26f1fb134cab946165da0f3f7c8bf02775c0c95c23",
+      "selected": true
+    },
+    "state:MRT": {
+      "file": "state-MRT.json",
+      "sha256": "89405d74885708ed8bfbeff7c05130c8b6c726e18ce9b4ac4a73618d824da04a",
+      "lifetime": {
+        "validFrom": "1960-11-28",
+        "validTo": null
+      },
+      "immutableSha256": "10d20a6013dddcbd86939eb6a63af4ec98a41fa6f2fd212637a88bf96dc24d93",
+      "sourceInfoSha256": "50be05c4e3ce23f2bb88bc1b12ea833262640b5f9f0073c35dfb8f9ed8c735cf",
+      "selected": true
+    },
+    "state:MSR": {
+      "file": "state-MSR.json",
+      "sha256": "da93f0d901b60bcf5570bf68c469d9234fc32eb9c1b01f49d3334f25e79ac0ef",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "bbf2577cb0ef277c4d08ea5f7b7e4605eaf6444068a1a5a8c916753ce4c3df67",
+      "sourceInfoSha256": "c1db157ba3d0a3c6b39acf27bac3c75b8a7cfc9b83866d09270679128c94426e",
+      "selected": true
+    },
+    "state:MUS": {
+      "file": "state-MUS.json",
+      "sha256": "83ee41c252a1cfb8b153b22e2aa57b71df8e991b351558bbd92cf0851f525cf5",
+      "lifetime": {
+        "validFrom": "1968-03-12",
+        "validTo": null
+      },
+      "immutableSha256": "4d183d2e96f9ba5f83755ca045d17d3695ce27555dd43185df777e86dbc483e1",
+      "sourceInfoSha256": "072e0d8428c7d8ac1207a476e8eabbfdf6fa0d20786a26e4adad92620ab617a4",
+      "selected": true
+    },
+    "state:MWI": {
+      "file": "state-MWI.json",
+      "sha256": "4e08c9e296ac05110160e88d30cb021185ddbe8bd2c10e2ffdddc56620fa4fcd",
+      "lifetime": {
+        "validFrom": "1964-07-06",
+        "validTo": null
+      },
+      "immutableSha256": "90d57e39bc5a4b949d45cd0ba584e362c8b53f9350d35d5aaa233f920ce6319d",
+      "sourceInfoSha256": "081b17ef51b7838e46addbe2d6aeff11a1fe1eedb4709e176d88a7bac4172d8b",
+      "selected": true
+    },
+    "state:MYS": {
+      "file": "state-MYS.json",
+      "sha256": "931b2b47273a7b2604afe3b71e7dd49dcde241fad6d622c490b9a834fdf60727",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "3e9e68b105fae94839ac6edcde5b0ae33704e205a03d37890e6ba12422d8d8f8",
+      "sourceInfoSha256": "25735f1dbd9c256f98dab40dae9f0c89e4b3797d4414601a38300e7984b5e09e",
+      "selected": true
+    },
+    "state:NAM": {
+      "file": "state-NAM.json",
+      "sha256": "9e40ca81b95669e26ec3812aa56680253c294e3786f335d4ed45d8e89fd49df9",
+      "lifetime": {
+        "validFrom": "1990-03-21",
+        "validTo": null
+      },
+      "immutableSha256": "6ab77202d0843444f36c12c8f18b49c553dc8d0d334a681ea4eefa040d8d40cb",
+      "sourceInfoSha256": "b9f328d8fbf2fd86ffcdda1446683235689edc3f718d7d5fcdd8b238155c4d63",
+      "selected": true
+    },
+    "state:NCL": {
+      "file": "state-NCL.json",
+      "sha256": "c6658ec24b130cf0d1a3874d702f28ddbd48073823900d5cfd011101fc20bcaf",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "1e95f3e1b30c04cbef5b1a4f54b9b8691962f693934290a131cdfd2943934a00",
+      "sourceInfoSha256": "99feefccdfe26cd335f9bebe13e35005cd2d3c84831856e8e234d3cd1ce7d364",
+      "selected": true
+    },
+    "state:NER": {
+      "file": "state-NER.json",
+      "sha256": "2aefd85f0396dd6238125ccb244e99d34036d2f8bb60b8962655c50919f001e4",
+      "lifetime": {
+        "validFrom": "1960-08-03",
+        "validTo": null
+      },
+      "immutableSha256": "a85d1204093fea0557033bbf06103974dbaddda46226a3d2abe7fdb57be3c10a",
+      "sourceInfoSha256": "5832c687c738597f723a9737fecc104415e4a44081446e20c6f8ff8943a0a29a",
+      "selected": true
+    },
+    "state:NFK": {
+      "file": "state-NFK.json",
+      "sha256": "c5b321a62d9e260a9e83e2d4823ab4817c37e1a527c2f15c17edbba6b09aa8bd",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "7b9d609029a938e1b8ca4067ef7e25011dd1da1986a1b01478c4c7b7e9ab1a36",
+      "sourceInfoSha256": "94ed3aedaf865ac1e1111237679f787a3805f5ecd527d4e49976b534db82d07c",
+      "selected": true
+    },
+    "state:NGA": {
+      "file": "state-NGA.json",
+      "sha256": "eaf2d4735ae8ab6ca35dd9dd9c2fa5ca07b4fd7cf1dfc57182863aff674f355a",
+      "lifetime": {
+        "validFrom": "1960-10-01",
+        "validTo": null
+      },
+      "immutableSha256": "6b0ebbafaad04e26b3c8ad83f5186ddc5e61fe3f7e3d56d65ac6ac35da0573e2",
+      "sourceInfoSha256": "c8117c34e272b78eb0eb6d57c0dec1ca581075bb9ed18b7f9a9d72bbe595ad49",
+      "selected": true
+    },
+    "state:NIC": {
+      "file": "state-NIC.json",
+      "sha256": "d396a348b24b5d49083b4c37235c8985af5d8d3d15c203094fe7d3350efaab58",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "0dbdbf2b6f7581f11ac1a0c02c97fef525c741e5e3103fd00fd6b418fe6ab891",
+      "sourceInfoSha256": "d2ddd8b85686c5a88baf3f22f0a482a4e27ef73e1d5a43e0c9cbaf8e70a8cd59",
+      "selected": true
+    },
+    "state:NIU": {
+      "file": "state-NIU.json",
+      "sha256": "acf37fcdc4c6a2fc644abbc9f26bfc9c9ced0fab97644c84ea11078560cea274",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "4118dc887eb6fb656d56daf415f997fafa04a00ef9c8a2a0645cd8143772db2a",
+      "sourceInfoSha256": "1e1cad9090cd89375f0c633733889da24f77cad1c2706676b3880ce53d8c4d2d",
+      "selected": true
+    },
+    "state:NLD": {
+      "file": "state-NLD.json",
+      "sha256": "694ad4fb5e6ef7963c0efe188879fb8fc50a4389824df2a18cb20d72fe496855",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "19034d1453682a1587d3577c2317111fc803fc5db516d301506ada8cd2caed4b",
+      "sourceInfoSha256": "985aeac3ae9eab81598c58102de8b5273d150b6a00c14c670f6c44e2127af178",
+      "selected": true
+    },
+    "state:NOR": {
+      "file": "state-NOR.json",
+      "sha256": "ec6123a6087effe6273d6cfc45bf6ca9e126b09bc7bf0b3674a0845ca9170abc",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "64ea315051a70b3f7c38f5ef0514c7a15483cfdf2b190d5bb05f7a544a386f93",
+      "sourceInfoSha256": "2d7534268c36e41e5c2c6508d4d7983037d7686c36c958ac459fbe759e00037a",
+      "selected": true
+    },
+    "state:NPL": {
+      "file": "state-NPL.json",
+      "sha256": "4e2a6a70d6532156c042506bad3359391d2a570acd85593cef08e5371c734809",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "b15546d6e80dc3994fe7db4593cd6ff5dbf7a634ebadbebfa7a6ed3313970afd",
+      "sourceInfoSha256": "55050cefed106943a44b08bd73fa601f5f8f05664f86ca91f206eaa0c3aefbb1",
+      "selected": true
+    },
+    "state:NRU": {
+      "file": "state-NRU.json",
+      "sha256": "4792e4705e861de45110c007e7f7743bcf3a9a64d7a901c3c7c601aba57d1074",
+      "lifetime": {
+        "validFrom": "1968-01-31",
+        "validTo": null
+      },
+      "immutableSha256": "ec4fe581413c5bf686c97cacfb2dbea6ba64a2f5f9d1b847b4ff249df537d0f1",
+      "sourceInfoSha256": "7a9c1c91208e1bdf568738357271942bd759b1fb504545d7c8b773262c7dbd1c",
+      "selected": true
+    },
+    "state:NZL": {
+      "file": "state-NZL.json",
+      "sha256": "c400f8b3aaf3e361ece4e594783b823ce99f1ff28968ed5d699e11315c7452bf",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "a1212bd4998176eeea8f300d11058a83162f19edf0c0c6c52c3974d95052317d",
+      "sourceInfoSha256": "2d078225b8920e96ce65bd186d9da0885b41aa305e7dc8827387746ce1923c32",
+      "selected": true
+    },
+    "state:OMN": {
+      "file": "state-OMN.json",
+      "sha256": "dd43292ceac9c828f73a2fa512a4021eeda7e667b05f70ef35bb58105f2c6c24",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "77db8e100191b2cdb6dec0fe1a0a3db7b72a91009cc71dfbc71f313c2451ec15",
+      "sourceInfoSha256": "11a258af0a7a651c153af38f61ff6b37420ddf26c772ce7a6c8e65d8c309ffad",
+      "selected": true
+    },
+    "state:PAK": {
+      "file": "state-PAK.json",
+      "sha256": "6dcc16cd088435a0ce0ff65bada00736a900d7162c0d022d1c3018644845dc32",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "7bd5b68db0025d0359595c22f7a2c16c51c3ead06b7d6b764bbd2e2f80d8dc13",
+      "sourceInfoSha256": "de859894374bfef95fe4adbdff7cf5937065ef716c7497b96022f55c60d9d185",
+      "selected": true
+    },
+    "state:PAN": {
+      "file": "state-PAN.json",
+      "sha256": "a45616c081ec8e7b89a6b71089daacf1d5bb8f5d9f9cc2ffd9ce337d53b85338",
+      "lifetime": {
+        "validFrom": "1903-11-03",
+        "validTo": null
+      },
+      "immutableSha256": "f9b2853c7c171faae0a55a7c22404d6395fc9ae006fc9b6c1b9fd8eac652c65e",
+      "sourceInfoSha256": "e01274468727363ba28fe863569ea2c54597244c5682a23ec02714e7373372f9",
+      "selected": true
+    },
+    "state:PCN": {
+      "file": "state-PCN.json",
+      "sha256": "f237c5df18ec6d31618d487617e4b6e57a7fca48f7f07acb55bbc988713d0d67",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "bbdf8d78dea368b927d9bee0cebd7649c39d14f552e0952224e3b62253e51020",
+      "sourceInfoSha256": "4cb649239be1ed13915de4cef6d7fd5ec870edc68344ccf706de0e74263ae113",
+      "selected": true
+    },
+    "state:PER": {
+      "file": "state-PER.json",
+      "sha256": "7afef4c931ace8b9e7721ccc18219931758294a39efb77286c8f306127371b6f",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "52586de4c598cccad84a9c9117f40b9da9a4ed7549f2496eef77c961fac81640",
+      "sourceInfoSha256": "38e700ef226867f912bce20cac4c9ba168c796413c01f77ea8589eef80424079",
+      "selected": true
+    },
+    "state:PGA": {
+      "file": "state-PGA.json",
+      "sha256": "b76bf711fb34b6786af4469061eac1205a092e224f6d1b416c7d2c717a806bde",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "b93013386eaeaa37d2c9dbaf58faf7bda73ea875d67210b9c9255d7118688904",
+      "sourceInfoSha256": "2d41df15f72a5aa53d3d209c42e74e74cb523ef4d93c8362237f9ce27f57e225",
+      "selected": true
+    },
+    "state:PHL": {
+      "file": "state-PHL.json",
+      "sha256": "b8ce70dec5c2ad735799c958261f84f7688b1afb5a20fa71c80a40ab08bdb812",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "7109c74cb70045975e11faf852cb130d0d5956f789701787c796f881d60c7f0b",
+      "sourceInfoSha256": "7bfc1cddb34395387399bf1e79d49906bf5c4b1510e0a2e258c662a96c3e4152",
+      "selected": true
+    },
+    "state:PLW": {
+      "file": "state-PLW.json",
+      "sha256": "16ca26a89e72c93f5421d300e25834f793a5228df278dd745f12315f16763ec6",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "539ef36b7e958fbd89846b9a15c79026a68575c287ee87748cad640077b370b0",
+      "sourceInfoSha256": "e48d7565c32d7f299688235f6b09d1baeb9292613415e0416de14260358f1149",
+      "selected": true
+    },
+    "state:PNG": {
+      "file": "state-PNG.json",
+      "sha256": "f1334dbbd54e05108995bd4ab86cdb1d63224eb692b23e91e1e0ae282893e35d",
+      "lifetime": {
+        "validFrom": "1975-09-16",
+        "validTo": null
+      },
+      "immutableSha256": "b4cad10b06743a85a91fb7d2807d4322a944fc5250ad9321d7a501b74341a56e",
+      "sourceInfoSha256": "c425d0db966db0b8252218e856b7090e54166f29137a873633a40df246c5b09e",
+      "selected": true
+    },
+    "state:POL": {
+      "file": "state-POL.json",
+      "sha256": "1203c6521dbc1dcca73913a61f1aa68ac1149cfe471f67370b0698aa6b86d627",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "79c0f8a607fa14438b669068d4df21e0f88c9d541e3bb8b6503993b0b163514a",
+      "sourceInfoSha256": "2ad222d2f496a38f7c376b054ab86df9f773fee75ef97784d436f0b94966b397",
+      "selected": true
+    },
+    "state:PRI": {
+      "file": "state-PRI.json",
+      "sha256": "2ed036873cad91de4a98bab20a3bdbbd0d9c01084b01c2bd635ed685b98d4c04",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "c179f304811e79107c4d7b4df152b64e0235d67d29959c3dd4e124560fd7098a",
+      "sourceInfoSha256": "109145ce95b34586358eceff12a082b8d48fffb90db40954bba6459f8e0c21f8",
+      "selected": true
+    },
+    "state:PRK": {
+      "file": "state-PRK.json",
+      "sha256": "236ef497feacd7b1a4c571d70d66cb98a48a3b431f47fd1d32e06575de10206b",
+      "lifetime": {
+        "validFrom": "1948-09-09",
+        "validTo": null
+      },
+      "immutableSha256": "cff7f80907e17222db127c731d5febc3ad075be421fcfb3f71a6d950db80a833",
+      "sourceInfoSha256": "c810cc7f8251fc501e83fe9ecc88ca32835a87588221bd5d07e3a41bb267edee",
+      "selected": true
+    },
+    "state:PRT": {
+      "file": "state-PRT.json",
+      "sha256": "276cf5af00238c3eb722a6107bc008c710b803a3ec11cb96ec7f993f9740c533",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "3dcf025f5996e7d646f5c86683aa12a2bb0a5bb43f839499b7119357b8857155",
+      "sourceInfoSha256": "2cea6d218d619bebcaeeb776109bcb8dc84bf0b4b5f38925a58859c23c65f92b",
+      "selected": true
+    },
+    "state:PRY": {
+      "file": "state-PRY.json",
+      "sha256": "5f70fda2b49664626368f42817f94ec2d9697d71cb71837f4addd187f6da7eff",
+      "lifetime": {
+        "validFrom": "1811-05-15",
+        "validTo": null
+      },
+      "immutableSha256": "b8339c10b5ec63d5102196d463c92433d06976d41dfecdde27532681bdd9d6f8",
+      "sourceInfoSha256": "433ef024688814db5ac1688cd5902d0010b9f344ba81597ddcb084333de22d57",
+      "selected": true
+    },
+    "state:PSX": {
+      "file": "state-PSX.json",
+      "sha256": "2b6608e3d0508c7f9bae5b987d5976dfe72545a9c27823d95bb870497c3603ee",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "546026c2f81576be8e807d90995a2a712ceeef8f27134c3038012c7138841a6a",
+      "sourceInfoSha256": "31b5c22a82692694f2d920bf67a834e8fd39a46b6e6d06875a55a53d251c5caa",
+      "selected": true
+    },
+    "state:PYF": {
+      "file": "state-PYF.json",
+      "sha256": "e0daee662f791db91ea00923be187a7058f9765595acb6246022b91baff71c8b",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "70ec6cde9eb2a966b3272d5593256ab7155176adc57ea9543c1e9dcd54a39a3b",
+      "sourceInfoSha256": "e320e355401fd96df3b8e2e306deabe51cf43b122e5615e03b26e92d125dd0fa",
+      "selected": true
+    },
+    "state:QAT": {
+      "file": "state-QAT.json",
+      "sha256": "07139ea749d400631b5f8d53fe740444f6b7a45db05c2d52758fe9608fc1196c",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "59f07041e3ab2c9cdc456e6f93416ce92311a71aabfab098df0124fda59804c5",
+      "sourceInfoSha256": "ed0bbf6b93c7b719af1c15e139747c0628c6faefb565b40fa799a9016ef19e61",
+      "selected": true
+    },
+    "state:ROU": {
+      "file": "state-ROU.json",
+      "sha256": "5c8becaea020565bc7047d1b7e54d88dd7a3ff310c1fcd7bbb482b2e35abe3f4",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "b47d749a4a42aa14136c187be6f7c5a31d42b82203bcd795740828868a238adb",
+      "sourceInfoSha256": "1679a5bc8069520402f256675fe159dcd7cb71316a4b7c99adce1fbcb4e6dc74",
+      "selected": true
+    },
+    "state:RUS": {
+      "file": "state-RUS.json",
+      "sha256": "f7377e3c30b06bc5759c4e1a4abb2cee62ab9398ba044321e95849500d43c4a8",
+      "lifetime": {
+        "validFrom": "1991-12-25",
+        "validTo": null
+      },
+      "immutableSha256": "ca166404651c35197eb48d13684c821fe9d04762de768470aa573b21d3ab17aa",
+      "sourceInfoSha256": "c0622e3c983461f17490363bdf5d510d59ddf865174e31aebecb328dd308849d",
+      "selected": true
+    },
+    "state:RWA": {
+      "file": "state-RWA.json",
+      "sha256": "85bdac3c1f45e8996c890b7815baa878bf4d1c1f97a783036afb1b80159666ac",
+      "lifetime": {
+        "validFrom": "1962-07-01",
+        "validTo": null
+      },
+      "immutableSha256": "d76061825dff1d0be0a27c65f627c4dbd4fbdf1ea95aec1e3df776690ff02402",
+      "sourceInfoSha256": "ba14270155d4a51aa3624ad0e75f3b99ad441c5adf15068d9116239163688264",
+      "selected": true
+    },
+    "state:SAH": {
+      "file": "state-SAH.json",
+      "sha256": "9b009edccd4b2c8e93b069f12d26f68ca4a3964657b68cfbf7b929994f49c536",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f6868fd322e481073d32c7bbeb9f4e6c8d16d3099fe06cca20013748f90cc892",
+      "sourceInfoSha256": "01096bc19c2f24a7182b3302858b00697c7245a0d63f0ff00bb02497d7681a53",
+      "selected": true
+    },
+    "state:SAU": {
+      "file": "state-SAU.json",
+      "sha256": "976f17fbe55a25d737d2874b303eaec6b5b43bdb38c9949f437d276478c4d7ed",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "1dd00b2c71a997e5ef6fddd684a4a9983c689bb5259284fcff44563b5cc6154b",
+      "sourceInfoSha256": "66ce8c2563f6d22201a3de729dd73daa21eb625e969f16e0ad0eb0622aae7efc",
+      "selected": true
+    },
+    "state:SCR": {
+      "file": "state-SCR.json",
+      "sha256": "1d8bfdeb52609311beb237c74993e70ea3ae41d159b40703a9e5cb4cc8767650",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "c2d736376bb27b4a15dc274c7a5eae63540246edeee1e367a4d6713a2899d1d9",
+      "sourceInfoSha256": "7ed0f106b157eea66ae6fcb60e0e920f9b798cd87804f080a01708f27a414616",
+      "selected": true
+    },
+    "state:SDN": {
+      "file": "state-SDN.json",
+      "sha256": "7a61c615ddc9ee91a3c1285cc6983d760c30454f552018280b9fc97df9d3e301",
+      "lifetime": {
+        "validFrom": "1956-01-01",
+        "validTo": null
+      },
+      "immutableSha256": "de2c964288dd19e0e7e2b5d469be2d13af048ad8415307a372217586534f15dc",
+      "sourceInfoSha256": "c16a34fef0f2e55f0779d3455ab3b8960ece84ebb11cc71789374c6ca59bef0d",
+      "selected": true
+    },
+    "state:SDS": {
+      "file": "state-SDS.json",
+      "sha256": "78c8222be2f151da12f05710da2dcf91f558d6c5e0cc8f599b7763637208d0de",
+      "lifetime": {
+        "validFrom": "2011-07-09",
+        "validTo": null
+      },
+      "immutableSha256": "cdf2ddd6cc51817c774a5518f7f9006127342d4ceca40a204d935fe1984868fe",
+      "sourceInfoSha256": "9024a96067f17c5ab8957a2fbee5a8db30df428326512d2fd6311e7f5afdedff",
+      "selected": true
+    },
+    "state:SEN": {
+      "file": "state-SEN.json",
+      "sha256": "ca5f55a5b8b4fb6c179d043c6a91f230c9cc59fc343ad80e778d158c014b5ba7",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "2e6fbc864876c4d9b92b3a686b8655da546de97f9ccc2efcd98abcd5a47cda89",
+      "sourceInfoSha256": "1bebd2068caf093be94c676c026cdb7d751d02f6d26b548ef85746c4d5396fc7",
+      "selected": true
+    },
+    "state:SER": {
+      "file": "state-SER.json",
+      "sha256": "0df1e80291fd75c2d85ac8a540963838359bc45ad7ed5074e5736d71284a9587",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "cd96f178d1a5634827fa10a97b80c614c3c77468bb70ccdcea4917fe455617aa",
+      "sourceInfoSha256": "ac2b014a2488388528933cc8e7a35d6dbca32fab0c15dd43328886375c502145",
+      "selected": true
+    },
+    "state:SGP": {
+      "file": "state-SGP.json",
+      "sha256": "5288de7c0d1bfed0102fbb8ba1caabfbe3492e71712c6a0bf91501bf775a2a1d",
+      "lifetime": {
+        "validFrom": "1965-08-09",
+        "validTo": null
+      },
+      "immutableSha256": "3abd5add208cfed0d33bf11b97d3748c8d352157f9d262703cb702dc0fc7c656",
+      "sourceInfoSha256": "3244ae5153ac2ea9b8586496774c2ab9fd20f8415da636cff9a0a076a6b825f4",
+      "selected": true
+    },
+    "state:SGS": {
+      "file": "state-SGS.json",
+      "sha256": "cb08a30fde17682f267a6e01a226fdaac708bea41e81c67390378dfe57d2c142",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "d98b0370615c86e660f58a7414f4f2060a6ebe2e06625fc53e7cb554de7cd2e0",
+      "sourceInfoSha256": "1f73bf1acd49779a12d2db704266e8ba320eace4570bb89465cfd4d2534dec58",
+      "selected": true
+    },
+    "state:SHN": {
+      "file": "state-SHN.json",
+      "sha256": "624db95ba3658ce352b50fce8e28df07dafa5681d8282f681810cc1af5181048",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "3db2ed19363b7610c60959160f4430a9c72bdf6f7db27f6a750c2b1b881fc3f0",
+      "sourceInfoSha256": "1663c142a69d61271ee4f4c5f06aee68d00f684f670cc97ba60964fe2f6c08a9",
+      "selected": true
+    },
+    "state:SLB": {
+      "file": "state-SLB.json",
+      "sha256": "28819174487197e56b8348a002b4134a3980728bbb2ec3f5c104b3a3e1bfa5bb",
+      "lifetime": {
+        "validFrom": "1978-07-07",
+        "validTo": null
+      },
+      "immutableSha256": "e0a6b08f6694e219156ffcb0771d37eeb8654e3a5646ad6d8f5f7f4f02256158",
+      "sourceInfoSha256": "a0c50bbc34349871aa90f8e5e16de4d2738e2dfc09f113e7fcd69b785c0d8c5b",
+      "selected": true
+    },
+    "state:SLE": {
+      "file": "state-SLE.json",
+      "sha256": "98a3d71b5d822dbdbb218df6f2640d406b460e91cba0c99f54604caf20357bfa",
+      "lifetime": {
+        "validFrom": "1961-04-27",
+        "validTo": null
+      },
+      "immutableSha256": "d0a0756047ab585f9f2ec5c74b6c2b53b6c84a9cd27f160868c6c741b2c08ce9",
+      "sourceInfoSha256": "da7570bd8822ceb38c2725bfe0e2538452a9796eeb3c5a76903a1d132744018b",
+      "selected": true
+    },
+    "state:SLV": {
+      "file": "state-SLV.json",
+      "sha256": "df2aaf137709c7b55b278a0ee31c45f3035b07e4764876732e4b274244f17c72",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "52535cab5540941e9f01d92c4ba1867edc61db61574b63e9cca21b7492f134f5",
+      "sourceInfoSha256": "e442cc30da383e654c41a7d2fbcf582e25569c8a9fc2262777411d4b001abfa6",
+      "selected": true
+    },
+    "state:SMR": {
+      "file": "state-SMR.json",
+      "sha256": "7475bb08c5f9aa3eccf69b8c643066b023049b51cf958f8287efeabe80d0b88d",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "587b2587420d8acf74fdd299552d07327293bba487db016ca1baa64a7bf42bc5",
+      "sourceInfoSha256": "a3d74729b494924c8dca2dab56aa212617bb456c6b5674a280779c104b9df335",
+      "selected": true
+    },
+    "state:SOL": {
+      "file": "state-SOL.json",
+      "sha256": "ff69fb4cd50350ccdd73bdea7680fa26cca99aa7c34ddad923865754c6c3025c",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "cafb143f0518dd2884d6ec80b2e36f5bc8c77ba9fc94c97efd258f5ae2fcc5c4",
+      "sourceInfoSha256": "34f8fcfd5499f52d895b44fb8e48077002978690db3173b41b17391a3d3bfd7d",
+      "selected": true
+    },
+    "state:SOM": {
+      "file": "state-SOM.json",
+      "sha256": "e929ea296db76fe7956ac0340ad36bc4f0512ae161199267db6842e8dd97cdd5",
+      "lifetime": {
+        "validFrom": "1960-07-01",
+        "validTo": null
+      },
+      "immutableSha256": "bf9ec236cc333b7fbb10e0e514ba1ffb475c1d1250fea8755a0a90a1007c3913",
+      "sourceInfoSha256": "89808fcc71ab84c3ff008d263fffa3d5b0b47542a3025f9d98ec6104789a7a0f",
+      "selected": true
+    },
+    "state:SPI": {
+      "file": "state-SPI.json",
+      "sha256": "3e88a9fb74488039d678e2f1b13b3d5762cf4131227243dedd8374d2f748531d",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "923cbc345e02ace4e9893845f82bc0465066478b4878fb957c0ccd3d777f0370",
+      "sourceInfoSha256": "9457232f2bbb60df70ec3e1b5bebd3ca2c500c8254cb1a339dd5bb8fa4631ffe",
+      "selected": true
+    },
+    "state:SPM": {
+      "file": "state-SPM.json",
+      "sha256": "fad373f32fe074f6f95f8bd9e90aebfa72abcbc66957080082cbe6e7e6f1c9c4",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "dc552ebba6c5dde85b3414d0e487ce870589d852925de09626e26611ac4967ab",
+      "sourceInfoSha256": "f6ce09b9abe7141e2a1a4ec3b8891c2193ac15c6cc7cbb7783480dc1b0b1df45",
+      "selected": true
+    },
+    "state:SRB": {
+      "file": "state-SRB.json",
+      "sha256": "fb40218f4c4140cf57cdbf9c58c816bd6e9627978ea3db62510ccb407ea79891",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "99005b76ba3b81a1a559fe64dd340744d0597674b2306c08379139a1a1bc4f82",
+      "sourceInfoSha256": "69c4d53325ec79d7db7ec0f3d6a4dbfb5c7b4ad041e98e8cb8da89f2ac912750",
+      "selected": true
+    },
+    "state:STP": {
+      "file": "state-STP.json",
+      "sha256": "d4807aad63129730af9b1d5223792ae27179b1bccb47d2f17a36fc801e278975",
+      "lifetime": {
+        "validFrom": "1975-07-12",
+        "validTo": null
+      },
+      "immutableSha256": "5aaace21733352c2c15e21b883f83fc024f6fcc51f03b7e9412ec3944875e38a",
+      "sourceInfoSha256": "fb62f24dea3715179b449b60f1ded7d302ff38d3f5dbb7667010fef0372f746a",
+      "selected": true
+    },
+    "state:SUR": {
+      "file": "state-SUR.json",
+      "sha256": "9bf8b1fdea288509335cdf25e85cf8a39b4dca561cae46548e32339f99caaa5e",
+      "lifetime": {
+        "validFrom": "1975-11-25",
+        "validTo": null
+      },
+      "immutableSha256": "31b8f2c530a51ea95496a4d1753125689c778777a0d8b1845e62bffb0a75bd4f",
+      "sourceInfoSha256": "932036b50a04df1ba53bd479f9b6ba3096a3c7d1331bcd49715d1cd49cad2dbc",
+      "selected": true
+    },
+    "state:SVK": {
+      "file": "state-SVK.json",
+      "sha256": "844a569257acebf190967cf2eecc63a8cc08571dcf54691002e156e78db7e7fb",
+      "lifetime": {
+        "validFrom": "1993-01-01",
+        "validTo": null
+      },
+      "immutableSha256": "6985a5b560c8b693bd390b5cb9642562e4bcd8378e72609f43ac26852c3c96f2",
+      "sourceInfoSha256": "aab51a3b4947f10578e1d9c3aa7c5e756dc5c74abff922cd1cd15ea5b7ab5bcb",
+      "selected": true
+    },
+    "state:SVN": {
+      "file": "state-SVN.json",
+      "sha256": "26103435f532d8d6d2caa3e81e27912461e2f6a53a39b39e0f562268600032d5",
+      "lifetime": {
+        "validFrom": "1991-06-25",
+        "validTo": null
+      },
+      "immutableSha256": "1449eb10b2b81a685e6f03c273335bf4e4187222962574aff9e82820126296cd",
+      "sourceInfoSha256": "8e8d96eb5016b389b4071fe56abc7f7a13752f540adae28b422b33cb98d5c5b5",
+      "selected": true
+    },
+    "state:SWE": {
+      "file": "state-SWE.json",
+      "sha256": "b394a8bba0f348a81e8f4245e665fb95bb0d40b4e580c8327d01ca67e3bc6890",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "c1fa4e30eb71b35b709782cc3e0f93b70ae5731c12d76a93c60b7b8129a1a288",
+      "sourceInfoSha256": "dd8f180b067d9c319b2882c8f2fdb77ae6c6f41bfa8f6bfe166be0c1f710d8e9",
+      "selected": true
+    },
+    "state:SWZ": {
+      "file": "state-SWZ.json",
+      "sha256": "ce5ccfce048ad51428590811c5f9bf7110309d8684bb21e4712656501ea14cd1",
+      "lifetime": {
+        "validFrom": "1968-09-06",
+        "validTo": null
+      },
+      "immutableSha256": "cc78a9d82724eadfaae0a4b036f5b50b5fae5022f89ff65a9865f5351a6d2deb",
+      "sourceInfoSha256": "0843cff6058f629933298e8e8691970c12c0ebed96db5fcccdbe56a8704fc2da",
+      "selected": true
+    },
+    "state:SXM": {
+      "file": "state-SXM.json",
+      "sha256": "0b6f5ab68765d2fc4a71a0cb12b7fd7d1ffc7442eb79b6dd004d74a8fe9bba8a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "4c756b25569c611c7413c8d0712624265ef280b0a351856ee4dac5492b835d3f",
+      "sourceInfoSha256": "c3f97de9d3b5956c9ec59292090883e6b916fe1aa087ca37efec303b660fe306",
+      "selected": true
+    },
+    "state:SYC": {
+      "file": "state-SYC.json",
+      "sha256": "7c88b3ed6f1c2d161d97d2edb7eaa23dc14976d861609f82410b0bcd3c919cec",
+      "lifetime": {
+        "validFrom": "1976-06-29",
+        "validTo": null
+      },
+      "immutableSha256": "c63d53d69dcf9c1076b631c001de4757e69cae09631d29925483c148e738e93c",
+      "sourceInfoSha256": "fa7b21046de946d344b88fd3fea99cede22d1177c6081bce2e1442fce31ebec1",
+      "selected": true
+    },
+    "state:SYR": {
+      "file": "state-SYR.json",
+      "sha256": "0b63631146678d813eb935c5e301f2f56294a2b054e4d47c2f795d557e1f9623",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ea41b5a2691d87c0c551b85f89beeb326a277405f0d79d322545ddcd8eb7ac70",
+      "sourceInfoSha256": "75b21032111cee39cec3380a3ec7df4d15867dc7d5dfec7110c6fec6a8ab036d",
+      "selected": true
+    },
+    "state:TCA": {
+      "file": "state-TCA.json",
+      "sha256": "3aea89320b4aafdf23015bd76568658f0bcf517e6c0b4fcf3aff071c44c342cd",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "0cb040bdea8985f83a2a7ca0357f05ff8b441822148b20759390fc34912d0348",
+      "sourceInfoSha256": "40ab4e5b9590d31170fef113f4e259d20c97246c71c1a74e0e183b44d3710867",
+      "selected": true
+    },
+    "state:TCD": {
+      "file": "state-TCD.json",
+      "sha256": "d6bfc380795bd07549fe3f41126e35afb7ef8022ae763b2369c14c060f7f9087",
+      "lifetime": {
+        "validFrom": "1960-08-11",
+        "validTo": null
+      },
+      "immutableSha256": "1fdc27add4b9d2345b1c30f0ad53bef424b03737377f368e677c3b320f3a9d33",
+      "sourceInfoSha256": "5c39e8b07cfc00b69f53648df1936c6aef15d51c828aeb91432c098d91f340ed",
+      "selected": true
+    },
+    "state:TGO": {
+      "file": "state-TGO.json",
+      "sha256": "47f2d7fa066d237d9b36407b9c4cd24252e3071b1bdb275c365bd127ebe35498",
+      "lifetime": {
+        "validFrom": "1960-04-27",
+        "validTo": null
+      },
+      "immutableSha256": "55d0930d829b1a547944e4008e116925d830312e0db49eaee9558feda57733dc",
+      "sourceInfoSha256": "d3dd7b4fa53537b00a7caa990b638e11e3fcbc711c6c7b41cdf25e102219e5e0",
+      "selected": true
+    },
+    "state:THA": {
+      "file": "state-THA.json",
+      "sha256": "bfdb29079b9d9363b9b3fb48ad7cf7a77f19f7c68ee34c9ce12177344f97fc15",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "9fd8f56c31f2178e9413ced79c53d0357e6234476bde6661d24c56cb6d4b5f13",
+      "sourceInfoSha256": "3fcc4eec4269294de62515b3d147af3c836dcb61fa77e2bd208596522fc3838a",
+      "selected": true
+    },
+    "state:TJK": {
+      "file": "state-TJK.json",
+      "sha256": "763127575772af2cafc7e0de7817648043c398591cc8e75e7412a3ca6bb6167a",
+      "lifetime": {
+        "validFrom": "1991-09-09",
+        "validTo": null
+      },
+      "immutableSha256": "86de079fe067e78d85421d2b4d8811173af935c63635bb679141e9e55902d827",
+      "sourceInfoSha256": "04475cc91726b14c68fc099e507c1786e96246960c2f3c6c31885d32fb613d80",
+      "selected": true
+    },
+    "state:TKM": {
+      "file": "state-TKM.json",
+      "sha256": "ca93066e44077f06a2900f1811b7501e61818c688f860704bec2bfde277ee5d0",
+      "lifetime": {
+        "validFrom": "1991-10-27",
+        "validTo": null
+      },
+      "immutableSha256": "545a9f8b49cb22e45bb68e77f74c01e363b8a733f4a1e4ae0bb179b8cd22f158",
+      "sourceInfoSha256": "1d37fd3453da426b0ef39a17874c5317368e63b222d34d8173f3888e44c948b2",
+      "selected": true
+    },
+    "state:TLS": {
+      "file": "state-TLS.json",
+      "sha256": "26d1530ee208b582db79c3ded828e3844a03e09a736480e8432b8e9462a074f1",
+      "lifetime": {
+        "validFrom": "2002-05-20",
+        "validTo": null
+      },
+      "immutableSha256": "27aeb75cbff47333e8c789e2190b000a4d4159749879e08d45adc6c0e65da498",
+      "sourceInfoSha256": "6fb7d40d5b19b4f78e0ea9a3e2dd2b35951fc191a2b0b80cf05cedb83eed89d6",
+      "selected": true
+    },
+    "state:TON": {
+      "file": "state-TON.json",
+      "sha256": "6e3bf7230a0df32fb3391d45738c4681b30679da8463c1148188af8a5488cbd5",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "28001119b581bdaea4ffef18b1ef902a5e00053627f71370fcb012921828d95f",
+      "sourceInfoSha256": "9579a58a0e2b5f312a57229de9cb1d10fa9deeaf2ec82fbda0e9b18435ccfd38",
+      "selected": true
+    },
+    "state:TTO": {
+      "file": "state-TTO.json",
+      "sha256": "3b20aaed1b65211aa0debf345d37eec5436e2024b9b9dfb81d51cbb953540553",
+      "lifetime": {
+        "validFrom": "1962-08-31",
+        "validTo": null
+      },
+      "immutableSha256": "8da7dd11ad0de7a176af59e72b1a567fe33da7c1187f9cc99b8945a22564ed01",
+      "sourceInfoSha256": "c4241323e9ff249b032856649e58271f160e2d69862e45ccfd3ec4fd202a8087",
+      "selected": true
+    },
+    "state:TUN": {
+      "file": "state-TUN.json",
+      "sha256": "5bfbc9f21750202fca72150a3cb78dd370610c46e63bf9149c4082290c204b17",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "ad811eec22b7b117173e0f6a9fb8d8661124a58652d6801e28ed663c720f445a",
+      "sourceInfoSha256": "67da4f0732726b40dda2a29b052b3c674b7b2fe99f16396383bf18e0894f6a33",
+      "selected": true
+    },
+    "state:TUR": {
+      "file": "state-TUR.json",
+      "sha256": "e57ff93707ff066e9685c8fee37586085fc248d0004e3e4099bd2f4af15c8f28",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "fd77fe22aac98ea70cbddbca9dbfbd9fb215cd4bceb0bb64850fdea93dce9f5a",
+      "sourceInfoSha256": "56b5d7dfdf170064b1cd1d478b60e30de06f4828b17ec470b9e379e8e9ba6b31",
+      "selected": true
+    },
+    "state:TUV": {
+      "file": "state-TUV.json",
+      "sha256": "6ed6c9c16edb4052fad46e76a6f8404ba2f733eb33a32ff4a795f191bfff5545",
+      "lifetime": {
+        "validFrom": "1978-10-01",
+        "validTo": null
+      },
+      "immutableSha256": "0c4d40275a7787e6a629293114977eda023525f936c6f2ae912b4780cfa431da",
+      "sourceInfoSha256": "431ea04fddaffa79eb0109d1ef8ae412a9cef9945e69602f7e3a0b9916d03286",
+      "selected": true
+    },
+    "state:TWN": {
+      "file": "state-TWN.json",
+      "sha256": "d812cf70b742ce38dc5455cd34e60b90969ce251bc5613ced51c592b1444b179",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "9bda1e442dc4654758aa81974fab99535c9c34e50775896d2bd7364b54ade533",
+      "sourceInfoSha256": "26c607be64bbfee65d51f118c9282ea07a117a3b1b21b7d291bd1a39a2be4521",
+      "selected": true
+    },
+    "state:TZA": {
+      "file": "state-TZA.json",
+      "sha256": "e80e036fda94ab3e6712e8d5cd0eb3e8732bec995545d61ee35b6ee942c34739",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "4b5d81347b0afbe2546220ce9c63c92229aab21fb4d159cddef4ffa502f0a332",
+      "sourceInfoSha256": "d5e662fa8c737493a3ea2a045d92efe9440629a9169b06b79e89123134f9657b",
+      "selected": true
+    },
+    "state:UGA": {
+      "file": "state-UGA.json",
+      "sha256": "107b8498c1eff64df21199bad5059ea1ff35afe94ec85394f4fb01a394e559a0",
+      "lifetime": {
+        "validFrom": "1962-10-09",
+        "validTo": null
+      },
+      "immutableSha256": "550c9202d8de9deefeda42f1d1a1887dd52efa08e41785e0e7a3a2cef99fe98b",
+      "sourceInfoSha256": "038fea8bff895814a684d835ebc6b1f9378edb6eceab0231851da2af97eb4c56",
+      "selected": true
+    },
+    "state:UKR": {
+      "file": "state-UKR.json",
+      "sha256": "6f43a4afa0c7f6d7df3b955d9b94b25d1185c6d868683222026261cf826f3319",
+      "lifetime": {
+        "validFrom": "1991-08-24",
+        "validTo": null
+      },
+      "immutableSha256": "bfc975f186f6cee0b0883597c06815ab86272ce742615b11b53b297bf0d1af52",
+      "sourceInfoSha256": "19de272b48faf3f8bb2dd6297fa4e2e283aa91155a45ca21c18a462e9a3b5ccc",
+      "selected": true
+    },
+    "state:UMI": {
+      "file": "state-UMI.json",
+      "sha256": "a3d296caa26b5aa23fa5585cdcbe24763768685a3a6cc87d71be3d12783545d9",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f1684842ab211acfbb04d975e74fd68ee13f518e88e10cb765d52b62a6f7ef38",
+      "sourceInfoSha256": "83f92cb6f2b97a2aa355f9fe4b4254c1d3106b1b5de4901e92f89119e54c69d6",
+      "selected": true
+    },
+    "state:URY": {
+      "file": "state-URY.json",
+      "sha256": "1201550ac48290060cd9d9db2afca6a7760f2a7ecca0811a4fb74259470a610a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "120a41c33454e1c096b66d39bca07bd18a3812ce8489d03dbb0c36dc8e16c490",
+      "sourceInfoSha256": "6deb8028346ce0b6f83de790948e513fe27b7e864f2563db9ea76059366db3f0",
+      "selected": true
+    },
+    "state:USA": {
+      "file": "state-USA.json",
+      "sha256": "41c1b9f0acb4cedc72994eda537a9d5168b9f3661ca9831ed0924f98b3c4edb5",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "7256cbeba6521015748f817574f5520b3adef3d89f51eb090bb2b6a28dd48f0a",
+      "sourceInfoSha256": "ae1b32b5599b53b47a4d66bee4a4b291964d8a60847465cd57e79fe65052e552",
+      "selected": true
+    },
+    "state:USG": {
+      "file": "state-USG.json",
+      "sha256": "8d81a79eebbfeacf858a20893517144c20940d693586c8d81e75931e9d15b423",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "2a7a8732a245a31e8c4a1cf0afee3172f458b035bea74780a86ab97e93e598a8",
+      "sourceInfoSha256": "8795b1e5724673757851b7941781d8c7206e64c3f82d1314de67e5a514c54626",
+      "selected": true
+    },
+    "state:UZB": {
+      "file": "state-UZB.json",
+      "sha256": "794f61eb567a89f306990c3458c56b6b5075023b397e2a5235a31a980a454ab5",
+      "lifetime": {
+        "validFrom": "1991-08-31",
+        "validTo": null
+      },
+      "immutableSha256": "9ecb1f1880252754004bb4326bc38db66472ce56c298b6c98e4e3dc8a8d957c8",
+      "sourceInfoSha256": "eb9d09ba5787657be843fae0769fd28591104a2d0e7745bee0e11610a03da7a9",
+      "selected": true
+    },
+    "state:VAT": {
+      "file": "state-VAT.json",
+      "sha256": "7af0b94be9a8bd0a09a8af41811f29de212be4d7f5248559e3e5ae29bf1998e4",
+      "lifetime": {
+        "validFrom": "1929-06-07",
+        "validTo": null
+      },
+      "immutableSha256": "1bc140224f8a1c0f18dce008d120e700c8f313fec3775b11fa3ffa188a3c504e",
+      "sourceInfoSha256": "94bedbfcc5d94e52081364d3ac128fd55a74110e5ee653ae056260113c25b534",
+      "selected": true
+    },
+    "state:VCT": {
+      "file": "state-VCT.json",
+      "sha256": "b24d4021510413dbba263144146acfc190ce031ad74c83df5409fc7f312d8b41",
+      "lifetime": {
+        "validFrom": "1979-10-27",
+        "validTo": null
+      },
+      "immutableSha256": "866d1a820bdd2726df74c0394880d20eb17d4e71cbc743ebdb9069ad14c8b2ea",
+      "sourceInfoSha256": "a824eb2a07416de355179887a5da0f44f53ee9038bc62d2216a79bb5b03584bf",
+      "selected": true
+    },
+    "state:VEN": {
+      "file": "state-VEN.json",
+      "sha256": "e5f6bd383e1aa386063deba8806355df36e5b946c3a52136b0b02831c53e3e44",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "18f319c575522f1cfb3fb33bbb6435a10111b6c048ec548e7ddfa706d23a42bd",
+      "sourceInfoSha256": "7c4aeb7602bf0890f7881c48c640aabaaa0c565ec4dc611d5b1ab276e3d8a3fb",
+      "selected": true
+    },
+    "state:VGB": {
+      "file": "state-VGB.json",
+      "sha256": "5df85253923117a3e66fa7478dbd7fd46b77afdd90acbd89d4e042ad19fd8e6e",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "f3a9bcf97bbcca4e6bc1e93ec0c11416c98f36aaf535690e399f28187b7b2731",
+      "sourceInfoSha256": "a0b057bdeb643b89994056a96e4f5374ab7a81805647887eb116dc8313cbb36d",
+      "selected": true
+    },
+    "state:VIR": {
+      "file": "state-VIR.json",
+      "sha256": "d7bd3c51e19dee8e61d6f0d429f07fcf268b8cd1e7a607b86ad1a71f8964eb2c",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "995974d3a8476ae53c67eb8d9cec7a67a8ebcae9cfb1883c7ed0dca8a9a2ccc2",
+      "sourceInfoSha256": "378ff830f0f5b91229b317494390b69c5c98d3a59768377b36413504b8a24767",
+      "selected": true
+    },
+    "state:VNM": {
+      "file": "state-VNM.json",
+      "sha256": "813487a833fa6e0d6ecc3847d13dee4563fa45263cbe6a38b7c9714dfca0827e",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "fd415f1f44fe420a5350bf96bdcf448ac80b67b8332066d0140eef4093ae8eb7",
+      "sourceInfoSha256": "d39a6ca496a8b85007e912ce5ca73027ce603926b16c25e21f1bf069cc71fae8",
+      "selected": true
+    },
+    "state:VUT": {
+      "file": "state-VUT.json",
+      "sha256": "6a7aaa3204d210eb8165df976281ec0fbb9a8c072fd45758dfb13334b1edb24d",
+      "lifetime": {
+        "validFrom": "1980-07-30",
+        "validTo": null
+      },
+      "immutableSha256": "81b59e4f8b66c0c40f4be0b0bf2e45dfd4d30c8b06a5106398d7ffd415bcc153",
+      "sourceInfoSha256": "42a98783050b7b315b142d2031077de49ba3d75c65bef5a47574346f6e1a00f2",
+      "selected": true
+    },
+    "state:WLF": {
+      "file": "state-WLF.json",
+      "sha256": "8c288a5f78010da848d4ed06d4b32ae2d684e77030a546f67c9a0dc766d9c033",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "bf42f41a2cb6f6e9eebc188b989e45677e9e7e35cdc10915f617acea11db8dd1",
+      "sourceInfoSha256": "c73356798c470472683a498a814c5d188313e3e3286da474ab0f78a715af34bb",
+      "selected": true
+    },
+    "state:WSB": {
+      "file": "state-WSB.json",
+      "sha256": "fe19ddca81473f95f5ffa8fec5674386e9005aafd400ed21f55a80c80135276e",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "4a1a8070510c4f53a82ef7d3b470c5c717bcc8828c729ef4ef3bdc8ce081853a",
+      "sourceInfoSha256": "7a3c8f9f584c4bc176fbd1c19ef1aa73ea0567ec5574aff8ddd08b1a317e0483",
+      "selected": true
+    },
+    "state:WSM": {
+      "file": "state-WSM.json",
+      "sha256": "1a855b5ba95d09a6a5af5206a02dcf8b4c31dbb4cff8aacd14ffd0916e54e6b4",
+      "lifetime": {
+        "validFrom": "1962-01-01",
+        "validTo": null
+      },
+      "immutableSha256": "02da657ce88b63b2b39ff5f6b97a3372de79c7b02779b20da391ea8c73cddab9",
+      "sourceInfoSha256": "8413af64970ad3c68a4884ee609afea6c38e324251412311f643802b9e1b1953",
+      "selected": true
+    },
+    "state:YEM": {
+      "file": "state-YEM.json",
+      "sha256": "ecebd56244c7e469dc59252df3ffb0a769e73276a08283b1f34a856a5f28cc0a",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "32b2457936ee7b350af2866f851712ef67d9efb53864c2a178ffcffe1781ba31",
+      "sourceInfoSha256": "8e8c962044f6d12a0aa6786168640247426b9931a54cab4e2bf161853586969c",
+      "selected": true
+    },
+    "state:ZAF": {
+      "file": "state-ZAF.json",
+      "sha256": "f123d616c20ece7818734b8cb66a3c703cb704658bb0c2f0dd8915b06cabce2b",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "immutableSha256": "0b07f3aacf27f668fed6954f1521a3d82f1e3daaaae66b0f914a62195908253a",
+      "sourceInfoSha256": "8310d562538d4bc3e0f070f83fbf743bd4f8feda6569fa7d64ad1ed9469b32f5",
+      "selected": true
+    },
+    "state:ZMB": {
+      "file": "state-ZMB.json",
+      "sha256": "2177e30aee79cc97ad00afda1a14c9d5e6650136cd475cdf9ed307c5c1c9024f",
+      "lifetime": {
+        "validFrom": "1964-10-24",
+        "validTo": null
+      },
+      "immutableSha256": "7f14962f6ef4b7af3e18dd021938aa1d9a00901e2f7b53b9d705a480e467ec95",
+      "sourceInfoSha256": "f30abfd35cebf211f18c4db4ba9a62ae9b18d367ad5743181d96b2c478e29cf6",
+      "selected": true
+    },
+    "state:ZWE": {
+      "file": "state-ZWE.json",
+      "sha256": "d0c658920932dfa684550a252b831149b773fc92d31ba022e2fd14672577d92e",
+      "lifetime": {
+        "validFrom": "1980-04-18",
+        "validTo": null
+      },
+      "immutableSha256": "f8b505ec6d9302dc1f19c4ed86ebffc0d19556b58ac108fb5ad5f0dc032182d9",
+      "sourceInfoSha256": "adf0159ec670e02923aab95f1696fdbeb1ffa445610bbd9d2c39796f046f10aa",
+      "selected": true
+    },
+    "state:czechoslovakia": {
+      "file": "state-czechoslovakia.json",
+      "sha256": "cf83b17878373738108bcb27ca68d97ebf61ffcf5811640e7a12e74be1b0da26",
+      "lifetime": {
+        "validFrom": "1918",
+        "validTo": "1992"
+      },
+      "immutableSha256": "c2e32207fb7424e3f4ca3b9d97656f698414482b21c134afd970f04372ac78ef",
+      "sourceInfoSha256": "b8fe1f08fa0b68f88df7a4e44a7ff530f801b946f368bf32ff3d93a0b3110dbe",
+      "selected": false
+    },
+    "state:deutsche-demokratische-republik": {
+      "file": "state-deutsche-demokratische-republik.json",
+      "sha256": "1942a4cadd7c142aa10adccd3927f80cd1db7ece38bf2f842ae573b1cc1bb4bc",
+      "lifetime": {
+        "validFrom": "1949-10-07",
+        "validTo": "1990-10-02"
+      },
+      "immutableSha256": "16e3ef3cbaa4732edfa379bb45497558cc9592e89c51bd03ae5ba7fce3e6aece",
+      "sourceInfoSha256": "21acb8a8d41314c15acd6106745ce78c0f7d46d7bf6b8ccb1fa9a1edb942e101",
+      "selected": false
+    },
+    "state:east-prussia": {
+      "file": "state-east-prussia.json",
+      "sha256": "78c64c328f76de923907b3beec12100b62c032af0ad858abe03183a61b726646",
+      "lifetime": {
+        "validFrom": "1878-04-01",
+        "validTo": "1920-01-10"
+      },
+      "immutableSha256": "da3320c942165a5bbdd82bb75c8d71217e09703beb5929a3f84219244167589e",
+      "sourceInfoSha256": "4b50fdd02635a22894cd7cf6bec8cd65fc7bf8a36149350b269369837698d809",
+      "selected": false
+    },
+    "state:nagorno-karabakh": {
+      "file": "state-nagorno-karabakh.json",
+      "sha256": "1b7d070b02ecc4f55fc41837c8b41277d92201227fe432b47e80c8e1a77e1ab5",
+      "lifetime": {
+        "validFrom": "1991-09-02",
+        "validTo": "2023-09-28"
+      },
+      "immutableSha256": "8c5e666452f51fe9e7d03d9ce1ee0915d1abf025c7b565d14201c1be98191b95",
+      "sourceInfoSha256": "0308e27ed720d110923655bf8c7d8a301d7c7d9174c62d3431301ed4eb169616",
+      "selected": false
+    },
+    "state:north-schleswig": {
+      "file": "state-north-schleswig.json",
+      "sha256": "e6af721c356765bdc3f8c77a0434a3be7c3c2419f1eb57d8d1d89d502851fb49",
+      "lifetime": {
+        "validFrom": "1900-01-01",
+        "validTo": "1900-01-01"
+      },
+      "immutableSha256": "116031fdb4ee596d1ac75765e0be67ec4a94872fa5f926fc34b22803fece8b28",
+      "sourceInfoSha256": "7a4240d0dde9141ce504ea41c95fd60e43870b8415064e37c1e675d630eb2114",
+      "selected": false
+    },
+    "state:soviet-union-armenian-ssr": {
+      "file": "state-soviet-union-armenian-ssr.json",
+      "sha256": "d9760de568f073387100bde613061356e46ac90ca034d834da5adb24545c76b7",
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-09-22"
+      },
+      "immutableSha256": "11540c43aa0730a6fa539447406a5bb961bfcec4ec7e9ba307e24c78e74e118f",
+      "sourceInfoSha256": "44163878d941f87bd680f851f409cb721dada73c3c76bbf167164520bede01d1",
+      "selected": false
+    },
+    "state:soviet-union-azerbaijan-ssr": {
+      "file": "state-soviet-union-azerbaijan-ssr.json",
+      "sha256": "ce901dca16dc606a7b64464eda19509cf66ba7bb53ad5731171d9ddaa036d972",
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-10-17"
+      },
+      "immutableSha256": "359ed7157c002195c11af45cdaa13ff5d22e9c3825f3c0eb73cae5be6f2a0f26",
+      "sourceInfoSha256": "954216780a8ff65797e025e8fcbd1aacd691b8cd0bd25f119c4ae88ebe981d66",
+      "selected": false
+    },
+    "state:soviet-union-byelorussian-ssr": {
+      "file": "state-soviet-union-byelorussian-ssr.json",
+      "sha256": "7bf96a9fea95456245cb8fc4a2eb01f72d0777768d2766b5af2a452bdb667442",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1991-08-24"
+      },
+      "immutableSha256": "5ab64572cc400b07d4ca6bc5f0a3bcbeb1e171254700063825dcbf337fb4c2a2",
+      "sourceInfoSha256": "109aaf22e34276a4f93944c940ed151556d9e40ab76ac8fa34741d4bd09ee3ed",
+      "selected": false
+    },
+    "state:soviet-union-estonian-ssr": {
+      "file": "state-soviet-union-estonian-ssr.json",
+      "sha256": "676b4f9b3c3abe38391a83c5c1a81171e263471e95f991e165b7688627b98dc1",
+      "lifetime": {
+        "validFrom": "1940-08-06",
+        "validTo": "1991-08-19"
+      },
+      "immutableSha256": "dc7196c1262308ec09e9ce60cbf49b87c23ba50f35ed934940a4087e3d1878b8",
+      "sourceInfoSha256": "3a5a9cdb717b523b4c549260343102a4b8b2fe79cc892562d347839d28e9a130",
+      "selected": false
+    },
+    "state:soviet-union-georgian-ssr": {
+      "file": "state-soviet-union-georgian-ssr.json",
+      "sha256": "ef022a0b593564e2890305312f7fab2c543885bce718eee1276830a9924f02bb",
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-04-08"
+      },
+      "immutableSha256": "7a4ade99e22d6a79aab3edcca61835e2da4fc7d042022842dc1c762e2b535170",
+      "sourceInfoSha256": "ff270f8fedb7f41894aafcefdc4bcd198c766915ad74113c2daf4d82ca051f6c",
+      "selected": false
+    },
+    "state:soviet-union-kazakh-ssr": {
+      "file": "state-soviet-union-kazakh-ssr.json",
+      "sha256": "afa7cabf30990f73424ba592bd60090e0d03f93170f470c71aa2928105bf76c7",
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-12-15"
+      },
+      "immutableSha256": "fd4cbe513c9db78cbf84d84b62ff029a9bdfc20ab4921299ca49f9e21859c824",
+      "sourceInfoSha256": "13d697788d499826d472aba3d5f165a492b1ed5cc83db292f5ad1f6c3b81a3aa",
+      "selected": false
+    },
+    "state:soviet-union-kirghiz-ssr": {
+      "file": "state-soviet-union-kirghiz-ssr.json",
+      "sha256": "1c73a898cea2980eb399b719073574e6dad7f12d44e81180689b19b331000322",
+      "lifetime": {
+        "validFrom": "1936-12-05",
+        "validTo": "1991-08-30"
+      },
+      "immutableSha256": "b8eb4120b7d62d604801358bf34bd670dbee049cca7a3f8ee407ea86516a535c",
+      "sourceInfoSha256": "8d67e24947b9ff89dc6cf84512a1118d1f7682cf6328d41b284b74fdf1f55529",
+      "selected": false
+    },
+    "state:soviet-union-latvian-ssr": {
+      "file": "state-soviet-union-latvian-ssr.json",
+      "sha256": "cae136488e0f194bfa16a3846c031321f5023534a1d31944f8058a52125404a3",
+      "lifetime": {
+        "validFrom": "1940-08-05",
+        "validTo": "1991-08-20"
+      },
+      "immutableSha256": "b4698a2e331d9c27261664730ebc287d3cec1f982138f9e0597c94e519b3b5be",
+      "sourceInfoSha256": "21c6722c6ba0db5b4cfeb92483cdb97f93b2ac49976a0f772e5a3497b2037904",
+      "selected": false
+    },
+    "state:soviet-union-lithuanian-ssr": {
+      "file": "state-soviet-union-lithuanian-ssr.json",
+      "sha256": "39a366029d6e0e8c100b404fe014699933e35de5518abe3ada0db03cfc276ebd",
+      "lifetime": {
+        "validFrom": "1940-08-03",
+        "validTo": "1990-03-10"
+      },
+      "immutableSha256": "60d0023ca4f62f150140494797df5fac469b6569bb629360034643338f4e0fcd",
+      "sourceInfoSha256": "51b2e878737910865a63e3542e717d50cc576a3d10351e2a700afb5bc2bc23d3",
+      "selected": false
+    },
+    "state:soviet-union-moldavian-ssr": {
+      "file": "state-soviet-union-moldavian-ssr.json",
+      "sha256": "d09a13a52e35f40e40cc36e8c8a5dd05cfef0425204fb85a3e0cac895fcad77b",
+      "lifetime": {
+        "validFrom": "1940-08-02",
+        "validTo": "1991-08-26"
+      },
+      "immutableSha256": "83923b6ca125815f3018f63d6a40586a29e825eaa99bc8997355831ef61871f7",
+      "sourceInfoSha256": "faeeb0f06f365a38ccdef71258da3c0ec9145f8ffa570feb3200b7fcbfe99a56",
+      "selected": false
+    },
+    "state:soviet-union-russian-sfsr": {
+      "file": "state-soviet-union-russian-sfsr.json",
+      "sha256": "6984a6ebd24b55c3457797cd85f8833716055051781a351b2323138958a7bb80",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1991-12-24"
+      },
+      "immutableSha256": "38f12576b31a7c4ee3fdba3cbeb15fe3d3f46ffbab1c6272b749f203762f8721",
+      "sourceInfoSha256": "0fed9d2e227d0d448d7dc489d8e738d80a9d41f0297939d9fc264366958993aa",
+      "selected": false
+    },
+    "state:soviet-union-tajik-ssr": {
+      "file": "state-soviet-union-tajik-ssr.json",
+      "sha256": "a935265b40fc99eb198294f66b70c036804a316f0a4e897687e0a44a3d90a7b6",
+      "lifetime": {
+        "validFrom": "1929-12-05",
+        "validTo": "1991-09-08"
+      },
+      "immutableSha256": "3d2b087cac20534650ed70a624fd7ddafa4960c5d969c3bc706b0d1b68c63634",
+      "sourceInfoSha256": "014ec7f9669d62ef69accb6c6418c528048b64208577a7cd8e52a77a699ce888",
+      "selected": false
+    },
+    "state:soviet-union-transcaucasian-sfsr": {
+      "file": "state-soviet-union-transcaucasian-sfsr.json",
+      "sha256": "68fc26d5e4423410bd99e06cd07ff8036451463b7000818ea11cb2f45d4d4565",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1936-12-04"
+      },
+      "immutableSha256": "5a8cd6a02673cd705941e0ddd7c7450e02f4064f45aafffed5443088d7cd61d9",
+      "sourceInfoSha256": "781a18b7e2fd9d5c80434c4e2c7cb243aee4473402cef639df0e02361b337e28",
+      "selected": false
+    },
+    "state:soviet-union-turkmen-ssr": {
+      "file": "state-soviet-union-turkmen-ssr.json",
+      "sha256": "e48a2ce89e1f5d59431a39170456bc06f7fe691290d04004cab1a8177b8eaeeb",
+      "lifetime": {
+        "validFrom": "1925-05-13",
+        "validTo": "1991-10-26"
+      },
+      "immutableSha256": "eea7dde3fdb012c36e9bd53ee85515988bd679e1993ad65adc734bd706fd1fa4",
+      "sourceInfoSha256": "88e1e5e64811bcb5a9929648bd3f01e034b6eb942999532a43062182f2f9a9c1",
+      "selected": false
+    },
+    "state:soviet-union-ukrainian-ssr": {
+      "file": "state-soviet-union-ukrainian-ssr.json",
+      "sha256": "74bc1cdb866125b723ec3ed57fd081d79d4b57ad3218f1325f18079c23a006b4",
+      "lifetime": {
+        "validFrom": "1922-12-30",
+        "validTo": "1991-08-23"
+      },
+      "immutableSha256": "b0d14774c81eb38cbe1576f534ecc8ea0816b7f3f600f5425768cf4c596e9112",
+      "sourceInfoSha256": "946e1f04d1370f13456696b1a14a4fb4455f657475e925947dbd044bc2d0595e",
+      "selected": false
+    },
+    "state:soviet-union-uzbek-ssr": {
+      "file": "state-soviet-union-uzbek-ssr.json",
+      "sha256": "eb41fac2377979b3c8e8281659fd9423a0f0dd22f118680ffdb26d00969e856f",
+      "lifetime": {
+        "validFrom": "1925-05-13",
+        "validTo": "1991-08-30"
+      },
+      "immutableSha256": "155d0121e9e8e4033af4e27e0e4dc4e5a25993acc71becda350533cd7c45f3ee",
+      "sourceInfoSha256": "a668d10061874e6e11d42362d072d37e874cbcbd2562274e5006e5072d4b35dd",
+      "selected": false
+    },
+    "state:soviet-union": {
+      "file": "state-soviet-union.json",
+      "sha256": "8b5916a9495674837418f7af13f3ab4e4c9fa8825183a2a071dbf0e3c644218b",
+      "lifetime": {
+        "validFrom": "1922",
+        "validTo": "1991"
+      },
+      "immutableSha256": "ba755675f2d2eacd560a2fb58b733662b8806ee7bf26c4d8de221a031e31b9b1",
+      "sourceInfoSha256": "76d6f8157160c1c53d1c95644f66f56cbc2b483bc6a0a63f82b0a22700eb312b",
+      "selected": false
+    },
+    "state:west-prussia": {
+      "file": "state-west-prussia.json",
+      "sha256": "b7407407bcd9c5f2190a3a8d39befa12e860f958638278f923a89a9a802fd7e5",
+      "lifetime": {
+        "validFrom": "1878-04-01",
+        "validTo": "1919-12-31"
+      },
+      "immutableSha256": "7994b1ef000b31997079e92914518e5951a2538da498df3c77baa0191a746790",
+      "sourceInfoSha256": "1f3022d22ae80c5148934414f8252a542084e376115c5522bf891af7859d31e4",
+      "selected": false
+    },
+    "state:yugoslavia": {
+      "file": "state-yugoslavia.json",
+      "sha256": "fad13cf55bfe12ec2392628d8e8bf6160fa95a3a4dd35b4e4b4bca78d38dd3de",
+      "lifetime": {
+        "validFrom": "1918-12-01",
+        "validTo": "2003-02-04"
+      },
+      "immutableSha256": "3cda1b9f713439933d234ee9c0111b28bc7dd8fd2aa878f5713b740032231d5d",
+      "sourceInfoSha256": "d0ba07e05d73c179e1f166aad26f51dfa17ec93d581137aed2f74671bd3dc52f",
+      "selected": false
+    }
+  },
+  "lineages": {
+    "abw.json": "1d8f7fb2231b579bc79478621ad68eb7e72152cc137ed2c1429b354b05985c1e",
+    "afg.json": "14d9817b3a83e800200da1fa9db5055755c48f593d03da30c1c0142209d2c993",
+    "ago.json": "b94c6719dde84f9863ddfcb8bd4e1a1f34c972c818aec459381d65e24cacb5e1",
+    "aia.json": "366047b410e947a8b53de8f690eff1f16679a3b1dc4b72b77af139f1e9c5530b",
+    "alb.json": "90b36fc8f480a6416af7cf1021d08daada92ce631f064f5c4ecb512e6bc33805",
+    "ald.json": "45f6e2a6bd14c7801758c65ec48c718d3e0e7ab84111e618c9dd776636e138f2",
+    "and.json": "336d879452a4788bbd9d60ef900bfff2d0341b1d1fb5334a6f634ba19e8788d7",
+    "are.json": "f831365fd7562a87b7f745d84c41c73c01a415a2b9c95aac37533266b0b79fda",
+    "arg.json": "ebd1477c965dd421bf15be5f9b0a71aa307b99b62b0842c4b5987e65ffa983a8",
+    "arm.json": "45d8a29d50e16c93929ab639dd68fe01f76839c8cba2b6149cc174fed8b6d5a4",
+    "asm.json": "a70e9a0a4597e98dc28fd6e5150e9f94609007b5d3e07de4512e1a9f17ac9d7e",
+    "ata.json": "c548e051a9a0594f813910338abff6fe98f7ce90bb61b7f9535c2d204c5a6431",
+    "atc.json": "8a79d174a31dbe343c27a652160417b3462320933629023030d9c9c65d03e513",
+    "atf.json": "aa917b4c0a9b269691f381325fbdefaf6fe5d606a46784ee4ec20e6c14c9a135",
+    "atg.json": "c01999a12b219a83621439d47f93584e3abd2a3e2c4d9a78b4db897f8d52ef01",
+    "aus.json": "16b816f696491720b9ef8d954de2e9ad6f985209dcdd40726be46b8f86f5c0a2",
+    "aut.json": "a40a637d329374a3b8c8b1a00fe09ae85af00bc7cce705a15b94e47ad0e198d8",
+    "aze.json": "103a2e93a238862768f4d4c4903e573bd31a550ffab3e93dc3fb1da241ccecb2",
+    "bdi.json": "9178f1c0fc828ef0a04b9673ab2a36da74b78d8d6f22d1ed224494ebd3ce2d7d",
+    "bel.json": "6c4ac5f31c161b53fcbaa2c21ecb8b8be002bda9ab33eda7a60211bacca2eca7",
+    "ben.json": "6fbad3fee12e82d38af48c3b024fccb3baac4aa899528d3034543b6b2ef522cb",
+    "bfa.json": "967dac89e4793c955f1aedaef5cfdb7d5110b1c9d26e8495d5898676fed415b1",
+    "bgd.json": "b61825441f11ef0212957afa946752bf2d79e9ea69cf45d5e242e983e8fcfef6",
+    "bgr.json": "febc6a0a30b5a85019e5af8ced39fc19bb566514be9f5e967165962cb1ca9bf4",
+    "bhr.json": "5d1600d6c82545ef1337d1f7b6c819b17fa3e5ee36a1cd4287e62ddcb9516e21",
+    "bhs.json": "5f47e92f8db6fd55ab3330b023710c03ae0c86c576b00bc04ee14a512a3b1575",
+    "bih.json": "7be7df432eeb0d396220649a223bbe0897cdcda1aa5e4dfd3dfa7288b7103a94",
+    "bjn.json": "1d82534287b709e81bca5d6f50485cee5f2948af126b6e8446c88db5349d2cc2",
+    "blm.json": "0f06ead9e794cdc13b648e2242b8a41293488527320a7d40020d2cc8cdd734b7",
+    "blr.json": "843f35677b59c9660e2e7027c1e4c280691ae6c4814b208a76aba36a3a9a8f91",
+    "blz.json": "d5c8807e0bd144b4dd6dc4494c0160869987664a3d47d8d67b06a4f2c9295bfd",
+    "bmu.json": "8f805ef1bc53c1e901183146b0df72d6169c466c91db80e901cf5233f5930d3f",
+    "bol.json": "7839f0bf9b972d916e0e4c507cf230a57fc9e521bbf1113243b0de406ce3af4d",
+    "bra.json": "efe6e49f0caa0b711ea514905408e09653d1e1e29749cba21d07c1f4db3ac289",
+    "brb.json": "d1bbdc40bf2455f329c5578cc2c7205ccdfa0b6e437732554ff13f82dcf46c10",
+    "bri.json": "a06a606bcd8c1067b1577bbcf8b0312498df1bcc94acf2df4c470a72e1d5bd25",
+    "brn.json": "fd732a338e1ada71b3e143502d86d54b9d1a7465c71982d150baacf96badccb1",
+    "brt.json": "38975ffe281c81d47e725944ede9b1eaeffd99598b300863fe6dcd11bd7a7ef5",
+    "btn.json": "f712b0fb051a61515f229b0d1f4579fb70fb259bc1184166458544faaa5326d6",
+    "bwa.json": "98815e02ab4cec3a3eafc1632dc7ea027061bca2353dea0d646df0601cfb650c",
+    "caf.json": "6fcc8478ee827554b88541b3d4cedc2e6f414f16b7aaa386980dcd08e1c9886b",
+    "can.json": "fe42eff75eec7a221074c6269422edc548c4d4657dbc06a0b8fb336589692e37",
+    "che.json": "ae7ee7e6b46aa79d5f59d789b2c339eb6fba32f5941c674198fee425f9affb7c",
+    "chl.json": "a7a8a85fdd0adb9c39f1b8cb6420c4305d6322f647ce9f29ad4db4828237bed4",
+    "chn.json": "af9ae60ac1e489129a7610366abf0e6cd0163cb9c9379b911c17e968499ac46f",
+    "civ.json": "618b4d3c2971e7fc8be5337d99840de0cd054c3c340eba67c0711d2e2d8063bc",
+    "clp.json": "3ff7936c6bff7011859f661228bc70c139d2bf5a80e5fbcb0b65dfca620df2ae",
+    "cmr.json": "ee1a06b95c7bdf09c63019bbed4387722f4c991305043c4e735315c67e0ab560",
+    "cnm.json": "421d2a8c476be3257bde8931d15dc2cfbed30eb9bd8d5b8df3a0a3b6ecc341c0",
+    "cod.json": "38025b96068ec93833e03f47bf1c08670565cad500cd4319140885fc85cf5313",
+    "cog.json": "f851ee6fffa52747bfc8107256b5f2f886c8d920711c071f6e93084ffb3daabb",
+    "cok.json": "9e411251886e06a1621fbf68ab5551e88e92e77be1be7ca73889153ca80516a1",
+    "col.json": "1704da25a38bc0fa4bf9919eb6807a1311ab4c686a26aff6b2dfb3f3ce0087af",
+    "com.json": "ec64c19f5ee42840544bf90a03a69e46d6ed7b54801c868ba042d0301dcb0abd",
+    "cpv.json": "c4477c00597af58dd4eef7e8f34796c4ae0eb0e48874676b513d54d01506f3b8",
+    "cri.json": "1ffccaf03d5f15881d86277bb5499c16af923b866414c52be6533dd73aa6d856",
+    "csi.json": "b8c73aa9220bebf1b63ea10150b17e2a26bfaee7e79595f6772914edda7813e9",
+    "cub.json": "e6a64f959f78935f855c6847274b13c2a1c2c8b8dc859221f433e0f21952a487",
+    "cuw.json": "7daee411693fe0afc94eb8443778912bedf47d6fee8e78fb56f7337dd8ff851e",
+    "cym.json": "59bbaf9c100c6b0a482764c71f239087d3368dce0ef8b7819a6db2cf4f2c6d51",
+    "cyn.json": "77efad70b4ea26ca186def65cfaa9e79dac3df7ef8c73cc2bac2e65cc1f72b3f",
+    "cyp.json": "15667f2975014e36716c4ed30374cbd1261902228a090a33a296bc0ecd0c0128",
+    "cze.json": "3cb8d7eea1f370034dfff45942e303eafa269f79a8e9d791605035a1c5d1f777",
+    "czechoslovakia.json": "07081e93e7f2ec79fbe672f85a84b8d4d69f43b4832b027e10cf53c4b7c39a96",
+    "dji.json": "b0caac1fe22692884e3d9e3f201c97559dc1b80f10b5736751ec9fea811aca7c",
+    "dma.json": "161a74953a6e49532909f717a7fa3dc5db8944ea6d9f9eaf6161251c7e0d69b6",
+    "dnk.json": "7626d3b62a283d6f6156f8c260322af6d46d28b7b156e3557812f508dece432d",
+    "dom.json": "1e879f0601d7fb5dbe6d9dfe1bfedc6d8638ba96bf4cc5028a7c354a88b9d335",
+    "dza.json": "1621536e88b288068ec97d2bcd4b9195c85298f1e3c475719a382cf1276d85bd",
+    "ecu.json": "f40f552b1c8cc401fba98333e60ee1a57e60c9ad24fa4a7d8138e3dd5fb8d209",
+    "egy.json": "95f1e897f875705fc464a3134868936884fd68cc6ab7b5c6f1e18680543f4883",
+    "eri.json": "90c50c62e45b8d26c9b28cf54d33624738e6bbc9b3a913fe12c1a5c57cddd6b9",
+    "esb.json": "c753e56a5bee96fcbd96654f2dde953029ef15be03334f136c6986702c1c71b3",
+    "esp.json": "cf440cec4c994c8b8cb0d96a89d44502e5ef6d333d685e109b6adc00e5563ac4",
+    "est.json": "6bc32c2e520c2045c26eab82f48cb1b6eb69df7fdb153a7cf54bd4851ef76b08",
+    "eth.json": "463a292c102320ea6fc6ccb9b33653ceeb90d89935d5991ded6c1894842d07ed",
+    "fin.json": "2e9bff2db7aca37c6eb381bdcd90edb5760ae7f1c29fc43a58d1d2bcfdd0e331",
+    "fji.json": "29dd66e7aac7fe5af64b1685f49d3f532d33c3e9d399af9f0b77d98e566b54ed",
+    "flk.json": "f796275a66eb4d6fa6264db33e86eb9bbd2bc2b9bbb904aea0c45b0aa7b16c0a",
+    "france.json": "97045b4077f92c80841eee78c3b8a49af69464bda2b3617ab0f5bc3ea157c223",
+    "fro.json": "00e92703e290ddf816499671a93ea691051de95fad866a0ae87bd3e9dea097b2",
+    "fsm.json": "564ad6d9101d4adba732f01726c75e0879fb03e3875468038a82b8e6c96e4806",
+    "gab.json": "8372a9b4e9f6bbaca1ef42c71a3d3c17462b3db1d889439a1cd5e615f716ba76",
+    "gbr.json": "19cff7f4446110f4ce6e94c2265047bf4b1d3721737925ca1e39879399ecaa67",
+    "geo.json": "c361d11c587affe339658cd6a6d0b9ac61f4ba9c726838a48fc482dc9cc6199e",
+    "germany.json": "8dcb79a243fb4a965deb7ec645e818cee725c93b7457e062a7aed58485048926",
+    "ggy.json": "401e465734d931fe7255d22c21c31f56692b66dab10f01dcee5f9fc5e5a650cf",
+    "gha.json": "7f15c5204e8dadb30e376ff3b357e4b349435b741136b1c9403e23c6024df55d",
+    "gib.json": "e2d4b8bc62ce783090fcabbdec067b9860e0dc46141a0fedcdb294faa0940162",
+    "gin.json": "98b3af707f61ffec12b339b7eb9615f8545bed5c130b7bd96aacc3847017bc5a",
+    "gmb.json": "8ea2c166d0e37b47067fb0df2d7a64f7ea55297a2f98d1946522afcb1c19e00d",
+    "gnb.json": "cbf153c1736d7df27c89ecf91cd860b4362faeba7b0d892fd37e76bebc6e527a",
+    "gnq.json": "e5f06a202dcf08494829ef98f71649e14d0c997c8e1796464c5043f8aa193038",
+    "grc.json": "d0492a94e18e6169adfef14cbc63a7e03770d72a1aa3799b1212e9896df3471a",
+    "grd.json": "60c2ffa2d21b66aace2683228d0c03663a45e66f09a7513947cf3e269d778ff0",
+    "grl.json": "25435ed9300068a44d45f5232de8ba1b79abcde4af959fb55a57143dfb106fab",
+    "gtm.json": "4e9345b9040193374c76135b4ca240d19c8c8550ca9f712910fb22b094835676",
+    "gum.json": "2851274b46505dcbaf2ef2fb8cb3512c9cad07518427ad6f0f7a21a64adbe4ab",
+    "guy.json": "b43eb7b62312bb0dc13b1b299c6afb36d562a222a18e6e08a78bd619d206c950",
+    "hkg.json": "364caf11492a564887bff6751c84a92e1d3c85c06111baaa9df2e1aa92f88198",
+    "hmd.json": "2d57bb2acb0436f5528b84ad0c59bbf8e210b30884d33b6e0da023af0088555b",
+    "hnd.json": "38a7b01e84333640a13ba44e71b9791969c5f60ca5360bbf6236d68655b70100",
+    "hrv.json": "e7e60e6b62fc557ab6efc6cc072fd78114f3af2792cee4ffb72eb8cac59c4392",
+    "hti.json": "5b041d57a71d1d1cc5e48368811e5e04d2f6084ccde9ecd651193c2a734b8e0c",
+    "hun.json": "4ec53a361049b6e2170b13bbe7b303b84ca29a15a85fcfd14bb76c48d07a6a1a",
+    "imn.json": "a3475805b4617e80592d805461d374124222a28ae53854ae21c8477875f0a0c7",
+    "ind.json": "01c753f698a0df26544589c33a0ef01077d0bee5b107a419e0eccd5a2d5cadae",
+    "indonesia.json": "164b5ba90fa96dac2afebf31f789181b59fd6cf8289bc648b8634e269b723704",
+    "ioa.json": "82eda911aefa8dba1e2eed3acd8a5435b22222d36762189d9ededea707b1367b",
+    "iot.json": "d333852f2b276876b2e4d51580bbbb5bf73e76630ef87a5c48ac4181ee5d848a",
+    "irl.json": "11477a8ad4dbf19e3043212d46c5a8a4de02cdaa0db3ab539bf006bfb41c26a4",
+    "irn.json": "0d820858419815d47a265d2f260d31c530c537c92e5cb01eced9513d41749269",
+    "irq.json": "8f9fe2efc6062c527aca66f89c681d5518ba8ea399bdd5c2ed7f9dedc7bf61ee",
+    "isl.json": "2a5185d83f3d1e40ff90d89de988aa902c5ecad71d52c4d178e908303c6d63cc",
+    "isr.json": "5ffed2a820f139a39f27c2e18c032a34883fe6c533f0124686a7c13cf7c39f70",
+    "ita.json": "e75e82643fa4fb1e8bc1441c0968b9eafd6bbeb960547fd47e148e8fa81f08ec",
+    "jam.json": "6ee6e6c3c2bf1d996d0d2c0be61ba6d187fada7d775f96e0aea630b20e1edb34",
+    "jey.json": "366c680cf47b6bfd29fe5fee49ffff4c349e86f350f5833dc46e61cc9d52936b",
+    "jor.json": "abab193956043edfa5eaf93e5c07c3f2a45230af7316915dcd3ccbdbea352c5c",
+    "jpn.json": "f1232df09a24e55d538a7ab4df52475b287612e78add0c334213cb96eb1c9b8e",
+    "kab.json": "c39bb27705ab34c3a3d1ff5d5f130619540489dd57cf9e6025c17f8d291afa42",
+    "kas.json": "3df4c541d18d6c1181ec68f656e78db9c31e9235313f47a44c71765e4363fee3",
+    "kaz.json": "4fa0afa258105f3bbaa1789ecccf3046e5a3a099ab0e08d730a69e3bd8b70032",
+    "ken.json": "503420ede09bae44cd1d94b629163c954ebd7537d38b07794f7dbcb91b325128",
+    "kgz.json": "0c1355bc7f8ad0de8ac94213c8b455299b82a55a7f1432c3d22934e1e034d9a6",
+    "khm.json": "358c4cb910a6ca53dc6b7448ee29487b83d412708c2d2451e58605f7d6ea7ded",
+    "kir.json": "b903c4f50c8cf5d4bd920738a74d0fc3753f21b29a5667c7f7c778e034aaa56b",
+    "kna.json": "445bdc9e9a2e977c74cfc9eef33d08dcc5a79726186cf37531f80d608fc36aa1",
+    "korea.json": "a4958b4069b40be964663dcd4dc420a00ada0366fa7ea8d0deca837175f2deec",
+    "kos.json": "602e8d9a3ce14945e764e0f3d42e354edc4acc89e576a819ed158e8756c3edf8",
+    "kwt.json": "1dc3a631a1012dc3a25398d51fb07540177e4618f21e9597b94cce4db5e1442b",
+    "lao.json": "295b65b0aa884ec2e1f83916a295b43b9e268fc1e0cf14a3beefebcec7511578",
+    "lbn.json": "feaafb40eb57044ded7a8c20400f0d097e6b707b9629a755a2611c793e063947",
+    "lbr.json": "e29294ba515b0e55afaea9023d73033d0a287ecbcb232b7524ffa4e96246fd74",
+    "lby.json": "8469a9780fb8ae5a052bdc694ceacffc09f87d0f891a784656612464b1ea49c5",
+    "lca.json": "603adce94e3a065c63cf06e04f69b666bdde6747d4f6515dc68b8c528a9329b8",
+    "lie.json": "db55f58803d3b5c56c17d7672249b9b21eb6388167a8f3d7dad061708ea63713",
+    "lka.json": "a8961c65e0462533140b5a0c42eecbdcd3d52a4b545733951658841d51843566",
+    "lso.json": "18c480723c49aec71079f427cf900b34ef330db17ec0329b62f3080f82381b99",
+    "ltu.json": "ddcb22d8a0e66162a6069421516bbe83bcda92a07f6e7185c120bab7f0e05786",
+    "lux.json": "8916ad6a30ab14e3605c3c7cead091a355346f7465e3013ca5e1e28183b83d01",
+    "lva.json": "d13225a83048d023984a5e2f9bf750d784b3945529d6b1760b6c1dda3d7d664a",
+    "mac.json": "6d2209ffd3636c77cf50e2ecce731d53653db63963959f6228277525263d9e8d",
+    "maf.json": "c7ba2a19ea02ab28649ae9f158dfe132c58a80b4060fdc1daa30ef4526ca1c5f",
+    "mar.json": "ae27d6962c9c9a6e446c1f6e3ec8bd088def94538c95a3af0b4eb9a0c403f33a",
+    "mco.json": "6ef32e4a5feaa36d1d0980991060f08b36ea40a655d3f66a67155ce2f1cc21f6",
+    "mda.json": "338f061eab5c468fbffbf5401b0005e6cdf4e70705c9a5cde9291a247994b6c2",
+    "mdg.json": "f8180b8271a2d44d0d1080409fa5d21a1d6b2b80ba302b78c69be072a2df12e7",
+    "mdv.json": "f4a25724813fd9317547321640e8a3ef680d3475b78f62959c48c47deccc015a",
+    "mex.json": "58b1c2c172d0a6aaf8bdf4ff0b5bfa5aa43495c751d37cf02f4afc5eee769577",
+    "mhl.json": "acdd60fe88bba4913dc7460a25fa2b3ceb233b849febbdc2076b717107565847",
+    "mkd.json": "bb05027cf427808de69151cd4da898683c143dfabdff3521363d522423b90ee5",
+    "mli.json": "6f0a5c19ee3f1f36ee7e8f7788f2ee61a4e7d5d603d500b568de937d8309e253",
+    "mlt.json": "66bba90c087a0c1884ffd22bbb1ef738414683d0e28fad03b5a30615f264d699",
+    "mmr.json": "a49947cc2d14b1605f310e5587077c0aabdef591f7d7a90bbe2274d8a05c26cb",
+    "mne.json": "82ad839418fe364bc612c4ed869a45ebff8d27b48bd0ca23b6f187e89a130f51",
+    "mng.json": "49e682c969a593e8e03bf1a11232a60f0906d007e34de6daad08d9a32de45d05",
+    "mnp.json": "548165adf0d1d73cdb03fca2dc9394e4cf682438ac3c63b98b367ab228201f32",
+    "moz.json": "8182a38edd4cfe6ed83b08ac02a05a8d18e78b11bbf52b9e8eb30eb47f770206",
+    "mrt.json": "83cae9b084a1d691ddc1a4fb7603c602c6719ef7241ca96298db306ee7452eb1",
+    "msr.json": "e600a7043f9ed004df631cbbe8fb94c20090b11d13e059fc3779969c1921adac",
+    "mus.json": "5e411f24072b41d5efcd64f08dd613654d4d7e3e8dbfe72e354610aef9445c18",
+    "mwi.json": "c7613e1a2631068e96d40366fee21f2f4b00e17e7df391a2c359d215b33588b7",
+    "mys.json": "b89b0845ccf96d6f20c4c6711a28882d19650eb422847f7b3e008a405afe5b89",
+    "nagorno-karabakh.json": "e72a0c8a6c57a37f928a4610a3eaa26a466dc8726a167fb63f05f2113ee46e61",
+    "nam.json": "94ff65427bf97c653da191522b58e0345511ad833935ae9d063ed1d3a2ef5dc1",
+    "ncl.json": "df6a9c27faa1d8856de2cc87fe9b885cf396ceee46a4b34c9326216891f63df4",
+    "ner.json": "a7e36d0c5f763214fa3bd1bcc3e9d68a9cfb98f41c5e01f780f09e6902e93608",
+    "nfk.json": "d6d271d77e8fa88502354aa13b8a4793be8aa4cfba8f2be12c13ae6e96536bdc",
+    "nga.json": "1f9399c7d89aeb90d92cd7101386d6533e80262599f7512ec0d24b0767fbb260",
+    "nic.json": "c0f3786d62e5ef4fbbaeb5a38d5f658ad7a81595c8f04493993c83489f9943b5",
+    "niu.json": "95c00d582ed4e9059d931dd003a79781523e1c4a407fac3ab5cd458628489322",
+    "nld.json": "738592d0032ffaa2ce5f113bba4ae3f3d63c0c87f0107b2c1acb2970e965237f",
+    "nor.json": "c4056b0bf2480270b74ab675f51e862906428837c0603ffd8c3c2c587f7e583c",
+    "north-schleswig.json": "7b551742cb7410c6072f8b12471bde521f19d9b416c2c37f4fc101aa3dcca1dd",
+    "npl.json": "dc7e89c3803fd582782a5b2ded8a718ba7dd662b60ab1f7196d033cedb18c5df",
+    "nru.json": "7486e8bb8be32ef31c187e084a54af503d33054bbd72d052e65ade6bcf1cafaa",
+    "nzl.json": "91db532855bf2d876404e544793287876c2724075c00d1391a8a036ddd4470ca",
+    "omn.json": "3ebaac154bb02bb2a0354afbae23bcaa5b34cfe3515d31d9f9ab43c7d4a29978",
+    "pak.json": "aa19c8849ddc2eb2579ff282676352559b4c4184ded9816467d6ca1994c747c5",
+    "pan.json": "233c439a20f1fe2fe7b383405ef61a392bdf0ac4d6086307ff3cb94fb05b3b21",
+    "pcn.json": "9dc4fa8ef44e97a901772efe85e1830496053510854dfde5c92b2ba369d57158",
+    "per.json": "723915e4c7ae5861dee1e038128872968c1fa6b50ae7ca852be40300bb339fde",
+    "pga.json": "e7af6df1dd5e1ed4fd81447f8aa7a5a267349664ce957b5dfe18d2e937dc7379",
+    "phl.json": "975bb1db69bf1dfbffc6ab6b6690ad476c1cf0f991518b3592f657c898be7054",
+    "plw.json": "27c6bcf66abf8ca088fd7d2c9b031002d0e4668bac9cdaf973595d362a2ade28",
+    "png.json": "10ad939be9f25a0a225892b0a18ff297d0c0d586bcedb75d0ee893b1fff320b6",
+    "pol.json": "0ab9e3b589568cc0ad0f85b2f515185a96b350d12309b1ddc7abddfd8d1488ce",
+    "pri.json": "70efc1c853977725b72b6174d57aa3832e2e57f1ae410e12fe9d2becca7d54ef",
+    "prt.json": "3ceb62faced63cabc9e96a898807e504427adcf07a1abf2cb0e91226e338abfa",
+    "pry.json": "7e10d1794d430c812324f7f172319aa3badd3d1d3a4355e107d7f571812ff60a",
+    "psx.json": "aa3cb51343616ca03d6b628176f33b268ac388df3469f79297183d82cf62c418",
+    "pyf.json": "6c5e3e2fefaefeacf80a6ff71a7494c7b2414b6c9f54d48f3c72d39d11b36e15",
+    "qat.json": "d6bf8cee04195d788c5bfe5c4e1ca1d197a07bce207a51bf05004731e8f79142",
+    "rou.json": "c5f4382ba29122841f4f2bb2a3b37d81376fec4b4274adddcf9008832f4a8f0c",
+    "rus.json": "8a223d5ba7c969927586060a649067a65c192a99e456932c30d4a34401bc7ff7",
+    "rwa.json": "ac625671384940b627ef29948e8935518ba7ec7a01f4fdf8c449fb5a9c71eff9",
+    "sah.json": "aa5ce9124540a4c30f29adb46552e938a5eee977c7635f047797ae19060ab9f3",
+    "sau.json": "e2cf0ca928c543352d5f67b25779937d008b58ece995fac75a0ebc733c89a82b",
+    "scr.json": "419d11d0b52c7467c1c30d15264c06c6861278d1f1e3c42639811098e4906a40",
+    "sds.json": "d609b10ee5d2afbbd3b9b6c8a42b9baecc328fce3a26fb2ecf992411305ca06b",
+    "sen.json": "671c0d922abed46c827a31d6c69684b489f7a6156dcb63fc844109840553c55c",
+    "ser.json": "8e980f0133bbef0590a8b5700ca412dc52f6a5c2db0a22d2dee030a77ff0c248",
+    "sgp.json": "4b4811b3de892ba634eaab4c227ba84d454fae42e9278386b30e2ed7a6dceabd",
+    "sgs.json": "ae6b95bc07cc77844b4a970abe3881c9a55e1018a6c6fe6e21bba9957ca46c00",
+    "shn.json": "ce356d0e9d659ce8a54b8025c6ddcf8fdfba4382f1375221eb4a49975e48dbd7",
+    "slb.json": "498483eea6b7cc9185f48f65d13047795753c94f9fe42029b632893c9bac85f5",
+    "sle.json": "2866f5886791ff11efa5b43a0f6ce3846751d6093e231581271bdd8731250e5d",
+    "slv.json": "bc4f83395d2cefc7df127cc005631c3052bcb0eb5c615c58229b78ac447f2440",
+    "smr.json": "8cd84ebe132c6b3ac487bd7d83dc65cee53b978e8de5e59d546702dd1dd9ab99",
+    "sol.json": "d4417ea71771902c5e9124898627174019ef16c8f36f22c37b02ff1f155fd9d2",
+    "som.json": "b56d15ec42604b4edfa51c3f83f379700a331d223298be6c028cae08d303f185",
+    "soviet-union.json": "755471721f2db5948f59a6e8014af7cf27e7cbd1de5a6780b64eae77b72ca06e",
+    "spi.json": "d5a9fa38c251aff7d4a07d9881405dc18764a69383df6e7588ba3799694a2dfb",
+    "spm.json": "cc9fa2a693ccd69ae0972497d1ab9a10acfb8927f9e8674e647b5d71700ccae2",
+    "srb.json": "78861351ea1b615399093bbe01bb603ba348f48edc0b0bca79e4030e36d67860",
+    "stp.json": "7248e25015abbed21f2af16f3fdd79289b705d9327b3c5ec0dc2f7e4dec9d0d9",
+    "sudan.json": "957970aeed84548bd2796e6e040e59bd3a23b7f4dc2843e7d7e980dbad8955c7",
+    "sur.json": "6fda0f84a439b02321f8097363dac2fd1374b7ba2cef772527ee40e17f21d04f",
+    "svk.json": "99964045e7bbefc212484b7c10130e1152e4419cf33e45f212657ff6b10088b1",
+    "svn.json": "0dc2c5e17f1163f3da61177507a2c629dc10b9552e5d7c14b18dbb3e412d3af2",
+    "swe.json": "ab468e623e07c62c86884e1b9277a306f8e90081221b79c6209afb5022696f7e",
+    "swz.json": "6a4bc21f15801dd3e344b4c21f98391dc75a6fe88b047aa7410df136181f69dd",
+    "sxm.json": "0974e9818ecee39a3b81bad9ecbc2f32eadce1153374082b02995d10b5bc3a2d",
+    "syc.json": "e64261749cd4a1988c4c996d49ac0525e218f72333a91d8df22a3d6dfa5db21e",
+    "syr.json": "6415b3758a3c83181226fcb62e27ce3227e478eb7413f64ccb04822a5ebb87fa",
+    "tca.json": "d701f4fe6113b8c18c6d5513ae6e1cc2aba797a00713ec55c00d29f315fa4fb8",
+    "tcd.json": "113bbcf19dd82e3cf5c770b154422a87c81a8c9ab18ffa704a29e3d2fd223aad",
+    "tgo.json": "874cc731139a05e8e9669e93c934b536c5eb8fa7b9633b95d8a18fb5fdfa76e0",
+    "tha.json": "5ae89a63968b159437cc52c0e3f035748dfe1d392989aa72440fca62e7889915",
+    "tjk.json": "16819137c4835be383001ca2896b1551461fbe6165fdd4b12e2db0ae09ae06e9",
+    "tkm.json": "b94732a4ecf08583a27e9f0734015f694f5284930716c763f87fc4fd0968b2ac",
+    "tls.json": "df6f70bd8956d6638c6b71fad3f95891cafda4d4472da7913197fed12a403c75",
+    "ton.json": "aaf36d035cc35293f9a3cce3f29bbf107c4fd3c7a4247f006efd9edc3d59cc7a",
+    "transcaucasian-sfsr.json": "e7cdfdc12df06b2147da324e77f4f12ba2af2eb7382dab07e92b9de918b13a2d",
+    "tto.json": "723da757307a1d5a29e7d582cb4e8888391b0af17c80f82f8d0d3c035ef0bff7",
+    "tun.json": "a371ea091596057ce1a4d0b5a3614ad42cc73577a1966afc7c4689e1d0f0a6ae",
+    "tur.json": "f5f5f9c9992ac5b28ee0943dfd78ec34758a12af7fd66f0882a95954866b3d19",
+    "tuv.json": "67b9a417795814e3bc513dd6548d4039aa2fd5e7d1b4c722fe2c93d37323ee41",
+    "twn.json": "b508cafb1352358dd572d3931630071a58286fffc50ddde79625d115efa15322",
+    "tza.json": "563e51e3947599ae5ec4f4fe36bd10113259018002d96a790dce6d0ec1b37967",
+    "uga.json": "a14029e7a04a3d24eea401cef00e1bd9f185f31c2db9d3a8d27fd4112ff14f5e",
+    "ukraine.json": "f3937397519c5937070f14b0fe4a5702cc505ca66e1e586968e447d17389c70f",
+    "umi.json": "8f8b932b60c509490be2507559d7b9b0dbbd8e9421f22bb7193f8557f417fcf7",
+    "ury.json": "1030f689e2a356d0ce4e8355ef176292860b5f0ef6d7568d5d7e03c20eaf862b",
+    "usa.json": "6c14a8b0c792d8f59f373ef3b4fb82f2ad9eed1a29bca6c4c4f2583dc0d06b8e",
+    "usg.json": "9491d8a7dba4422405a2b65f501b1c9b63d474970b6b7b5ac5b6e6dff67adca6",
+    "uzb.json": "1f5e856cc5ac1abee5027e3e0ef57b7fa6a88eca13d151805aaca81461d97d35",
+    "vat.json": "5c4535faf128b533aded488a6d71b6fcad9152405a2218cb4afef5fec5a64be4",
+    "vct.json": "3cf6d61db850044737f4deca53c63546e71ac79fabc656369ea934e7a5f0ec14",
+    "ven.json": "56c323a36e5336ea582e2d7db4a843305896a77dbf32414fb2a8c925538b013f",
+    "vgb.json": "b860a771079325c52924a3b17e5a1209185831c199280935c1b760ce5ffc6171",
+    "vir.json": "371260ecf64b38a363adeca661f637139b4bb8281ee51e7fa5a217642b345648",
+    "vnm.json": "8806026a256cf04fa5936a604e6dca459258c676a0ab8c26171fe1234c73f2b1",
+    "vut.json": "10b815c46fdb24d1272765fc8b21ca05aa7e674e39e499529d48ea87badad13e",
+    "wlf.json": "95baa4c93bd7aae2e6efc965ffe45d2b3dc404dc80b5aa7c3bfb51413e564d14",
+    "wsb.json": "074d1bb90958d112f5a22d2acfa06fd21cc87f5e616388be5bf57b096bf29243",
+    "wsm.json": "0d64b0625f7bb912a6f8fcb58c11891bf40ed2aa04e1ee4219eb00dab2478e5a",
+    "yem.json": "7efd35bc5173caf42799349c051c4c2a34a51dda0d10d8f93dba92297d94d718",
+    "yugoslavia.json": "ba49716e91583cf15d4a4c22e5b2c48a8d7cb2974d7cac4ee1e2d58ea6d10705",
+    "zaf.json": "c5ff2cba7a2025d0d0e27a0feaef51255c73986ad938d1cb42701bf1c95d0902",
+    "zmb.json": "d846c193728e3513fa4f35ecfc235fe065907985e357a4ecb5b73dbe520725d0",
+    "zwe.json": "73978b7aef787fe6c659f603e5e8660b96d95dc2b16d620168ca2b7ffbd5360e"
+  }
+}

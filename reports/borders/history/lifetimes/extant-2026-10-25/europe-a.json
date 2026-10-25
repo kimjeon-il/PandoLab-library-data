@@ -1,0 +1,304 @@
+{
+  "region": "europe",
+  "entities": [
+    {
+      "id": "state:AND",
+      "status": "ready",
+      "date": "1278-09-08",
+      "candidates": [
+        {
+          "date": "1278-09-08",
+          "event": "First pareage established the shared-sovereignty Principality"
+        }
+      ],
+      "reason": "Government explicitly identifies 1278 as the Principality's birth; the French co-prince supplies the day. The earlier episcopal lordship is recorded in 1133. Later pareage, French co-lord relations and the 1993 constitution do not automatically restart the polity.",
+      "sources": [
+        {
+          "url": "https://www.govern.ad/ca/tematiques/cultura-i-esports/patrimoni-cultural/coneixer-el-patrimoni-cultural/historia-d-andorra",
+          "title": "Andorra Government: Historia d'Andorra",
+          "access": "opened",
+          "supports": "1278 birth of the Principality, earlier lordship and continuing co-principality; year precision."
+        },
+        {
+          "url": "https://www.coprince-fr.ad/fr/histoire-de-la-principaute",
+          "title": "French co-prince: Histoire de la Principaute",
+          "access": "opened",
+          "supports": "First pareage signed 1278-09-08; shared jurisdiction, taxation and military powers; day precision."
+        }
+      ]
+    },
+    {
+      "id": "state:CHE",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        {
+          "date": "1291-08",
+          "event": "Early-August Federal Charter; conventional origin, without an attested day"
+        }
+      ],
+      "reason": "The charter renews an older agreement. Government explains that its founding-document status emerged in the late nineteenth century and discusses unresolved origin interpretation. Ask whether to adopt the conventional 1291 origin or retain a blank. August 1 is a later national-day choice, not the documented signing day; 1848 is a constitutional change.",
+      "sources": [
+        {
+          "url": "https://www.admin.ch/de/bundesbrief-von-1291",
+          "title": "Swiss Federal Council: Bundesbrief von 1291",
+          "access": "opened",
+          "supports": "Early August 1291, older agreement, later founding interpretation and 1899 national-day designation. Only month precision supports the charter event."
+        }
+      ]
+    },
+    {
+      "id": "state:DNK",
+      "status": "hold",
+      "date": null,
+      "candidates": [],
+      "reason": "Royal genealogy reaches Gorm, who died circa 958; that is not a founding date. Absolutism in 1660-1661 and the 1849-06-05 constitution changed an existing monarchy. No actual polity founding year or day is established by the opened source.",
+      "sources": [
+        {
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/kongehusets-historie",
+          "title": "Danish Royal House: Kongehusets historie",
+          "access": "opened",
+          "supports": "Gorm's approximate death, 1660-1661 regime change, 1849-06-05 constitutional monarchy; none is identified as Denmark's creation."
+        }
+      ]
+    },
+    {
+      "id": "state:ESP",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        {
+          "date": "1479",
+          "event": "Personal dynastic union of Castilian and Aragonese crowns"
+        }
+      ],
+      "reason": "Education Ministry says the 1469 marriage and 1479 crown union preserved separate laws and institutions and did not unify the crowns. Ask whether 1479 may represent the origin of the composite monarchy or whether to retain a blank. Marriage, accession and Granada's surrender must not automatically count as founding.",
+      "sources": [
+        {
+          "url": "https://descargas.intef.es/recursos_educativos/It_didac/Geo_Hist_ESO/2/07/03_La_Union_Dinastica/la_unin_dinstica_y_la_poltica_interior_de_los_rrcc.html",
+          "title": "Spanish Education Ministry INTEF: La Union Dinastica",
+          "access": "opened",
+          "supports": "1469 marriage, 1479 personal union without legal-institutional unification, and Granada surrender 1492-01-02. Origin candidate has year precision."
+        }
+      ]
+    },
+    {
+      "id": "state:FRA",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        {
+          "date": "0843",
+          "event": "Verdun partition as one interpretation of the origin of France"
+        }
+      ],
+      "reason": "Government-commissioned history report discusses multiple origins and presents the 843 partition as one view. Ask whether West Francia is the continuing polity's starting point. The 987 Capetian dynasty, 1792 monarchy abolition and 1958 constitution do not automatically restart France.",
+      "sources": [
+        {
+          "url": "https://www.vie-publique.fr/files/rapport/pdf/094000029.pdf",
+          "title": "Herve Lemoine: La Maison de l'histoire de France, April 2008",
+          "access": "opened",
+          "supports": "PDF opened; multiple-origin and 843 passage also read in indexed official-PDF extraction. Follow-up PDF line retrieval failed. 843 has year precision."
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise",
+          "title": "French National Assembly: Revolution francaise",
+          "access": "opened",
+          "supports": "987 dynasty, 1791-09-03 constitution, 1792-09-21 monarchy abolition and 1792-09-22 republican dating; these are dynasty or regime events."
+        }
+      ]
+    },
+    {
+      "id": "state:GBR",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        {
+          "date": "1707-05-01",
+          "event": "Union of England and Scotland into Great Britain"
+        },
+        {
+          "date": "1801-01-01",
+          "event": "Union of Great Britain and Ireland into the United Kingdom"
+        }
+      ],
+      "reason": "Lords opinion calls 1707 a new state; parliamentary regnal data separates Great Britain and United Kingdom. Government-commissioned Crawford/Boyle opinion discusses both new-state and enlarged-continuing-England interpretations. Follow the pending user choice among 1707, 1801 and blank; name change alone cannot decide.",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/ld199899/ldselect/ldprivi/108i/10806.htm",
+          "title": "House of Lords: Committee for Privileges Second Report",
+          "access": "opened",
+          "supports": "Opinion states two states united into a new state on 1707-05-01; day precision."
+        },
+        {
+          "url": "https://api.parliament.uk/regnal-years/kingdoms",
+          "title": "UK Parliament: Kingdoms",
+          "access": "opened",
+          "supports": "Great Britain starts 1707-05-01; United Kingdom starts 1801-01-01; day precision in regnal classification."
+        },
+        {
+          "url": "https://assets.publishing.service.gov.uk/media/5a79e4fbed915d042206bcf5/Annex_A.pdf",
+          "title": "Crawford and Boyle: Scotland international-law opinion, Annex A",
+          "access": "opened",
+          "supports": "PDF opened; competing 1707 continuity interpretations also read in indexed official-document extraction. Follow-up PDF line retrieval failed."
+        }
+      ]
+    },
+    {
+      "id": "state:LIE",
+      "status": "ready",
+      "date": "1719-01-23",
+      "candidates": [
+        {
+          "date": "1719-01-23",
+          "event": "Vaduz and Schellenberg united into the Principality of Liechtenstein"
+        }
+      ],
+      "reason": "Government explicitly distinguishes creation of the Principality in 1719 from sovereignty in 1806. The merger creating this polity is supported to the day; 1806-07-12 changes the status of an already-existing principality.",
+      "sources": [
+        {
+          "url": "https://www.regierung.li/files/attachments/20251125-broschuere-begegnung-mit-einem-kleinstaat-639080401433496309.pdf",
+          "title": "Government of Liechtenstein: Encounter with a Small State",
+          "access": "opened",
+          "supports": "Printed pp.10-11 identify 1719-01-23 creation and distinguish 1806 sovereignty; day precision."
+        },
+        {
+          "url": "https://www.300.li/wissenwertes/meilensteine-liechtensteins-geschichte",
+          "title": "Official 300 Years of Liechtenstein: Meilensteine",
+          "access": "opened",
+          "supports": "1719-01-23 union and elevation; 1806-07-12 Confederation of the Rhine and sovereignty."
+        },
+        {
+          "url": "https://www.e-archiv.li/textDetail.aspx?backurl=auto&eID=4&etID=46360",
+          "title": "Liechtenstein State Archives: Imperial decree on Vaduz and Schellenberg",
+          "access": "opened",
+          "supports": "Record dated 1720-11-03 explicitly concerns elevation on 1719-01-23. Record date and event date are distinct."
+        }
+      ]
+    },
+    {
+      "id": "state:PRT",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        {
+          "date": "1128-06-24",
+          "event": "Sao Mamede battle, beginning of the government's foundational period"
+        },
+        {
+          "date": "1139-07-26",
+          "event": "Afonso proclaimed king; not automatically polity creation"
+        },
+        {
+          "date": "1143-10-05",
+          "event": "Recognition at Zamora, corresponding to the government's conventional foundation year"
+        }
+      ],
+      "reason": "Government overview labels 1143 the founding year; 2026 government statement describes a process spanning 1128, 1139 and 1143. Ask which origin definition to adopt or retain blank. Royal proclamation and recognition do not automatically erase the earlier polity. The 1910 republic is a regime change. The municipal source gives July 26 for the 1139 proclamation.",
+      "sources": [
+        {
+          "url": "https://portugal.gov.pt/pt/gc24/portugal/sobre-portugal",
+          "title": "Government of Portugal: Sobre Portugal",
+          "access": "opened",
+          "supports": "Foundation year 1143 and republic introduction year 1910 are separate."
+        },
+        {
+          "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/governo-cria-comissao-para-celebrar-900-anos-da-fundacao-de-portugal",
+          "title": "Government of Portugal: Commission for 900 years of foundation",
+          "access": "opened",
+          "supports": "Describes foundational period beginning at Sao Mamede 1128 and including Ourique 1139 and Zamora 1143."
+        },
+        {
+          "url": "https://www.visitguimaraes.travel/descobrir-guimaraes/personalidades-ilustres/d-afonso-henriques",
+          "title": "Municipality of Guimaraes: D. Afonso Henriques",
+          "access": "opened",
+          "supports": "Sao Mamede 1128-06-24, royal proclamation 1139-07-26 and recognition 1143-10-05; event-day precision, not automatic founding-day proof."
+        }
+      ]
+    },
+    {
+      "id": "state:SMR",
+      "status": "hold",
+      "date": null,
+      "candidates": [],
+      "reason": "Official history labels 301 origin a legend. The 885 document establishes an existing organized community; 1243 records first consuls and 1253 early statutes. None proves the actual founding date. Do not reverse-engineer 0301-09-03 from the September 3 commemoration.",
+      "sources": [
+        {
+          "url": "https://www.visitsanmarino.com/pub1/VisitSM/contenuto/About-San-Marino/STORIA.html",
+          "title": "San Marino Tourism Board: Storia di San Marino",
+          "access": "opened",
+          "supports": "Distinguishes legendary 301, first community document 885, consuls 1243 and statutes 1253; year precision."
+        },
+        {
+          "url": "https://visitsanmarino.com/pub2/VisitSM/evento/20250903_Festa_di_San_Marino.html",
+          "title": "Visit San Marino: Founding anniversary festival",
+          "access": "opened",
+          "supports": "2025-09-03 commemoration invokes 301 foundation; it does not prove an ancient event day."
+        }
+      ]
+    },
+    {
+      "id": "state:SWE",
+      "status": "hold",
+      "date": null,
+      "candidates": [],
+      "reason": "Royal Court describes continuous monarchy since the tenth century without a founding year or day. Parliament's 1523-06-06 is Gustav Vasa's election and Sweden's departure from the Kalmar Union. That cannot automatically replace earlier polity continuity; do not convert a century into an invented year.",
+      "sources": [
+        {
+          "url": "https://www.kungahuset.se/english/the-monarchy-of-sweden",
+          "title": "Swedish Royal Court: The monarchy of Sweden",
+          "access": "opened",
+          "supports": "Continuous monarchy since tenth century and gradual medieval strengthening; no specific founding year or day."
+        },
+        {
+          "url": "https://www.riksdagen.se/sv/aktuellt/fran-kungamakt-till-folkstyre/besluten-som-forandrade-sverige/",
+          "title": "Swedish Parliament: Besluten som forandrade Sverige",
+          "access": "opened",
+          "supports": "1523 Kalmar Union exit and election on June 6; election has day precision, not first-state creation proof."
+        }
+      ]
+    },
+    {
+      "id": "state:TUR",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        {
+          "date": "1299",
+          "event": "Conventional Ottoman foundation year; direct page retrieval incomplete"
+        },
+        {
+          "date": "1920-04-23",
+          "event": "Grand National Assembly and national government; relevant only if a distinct-polity definition is chosen"
+        }
+      ],
+      "reason": "Opened sources verify 1920-04-23 assembly, 1922-11-01 sultanate abolition and 1923-10-29 republican government form. The 1925 award treats the Republic as continuing Ottoman legal personality, so 1923 must not automatically restart lifetime. Ask how to apply Ottoman continuity; medieval starting point remains inadequately verified and no date is authorized.",
+      "sources": [
+        {
+          "url": "https://www.tbmm.gov.tr/history/",
+          "title": "Grand National Assembly of Turkiye: History",
+          "access": "opened",
+          "supports": "1921-01-20 constitution and 1923-10-29 proclamation of republican government form; day precision."
+        },
+        {
+          "url": "https://www.ktb.gov.tr/EN-103908/biography-of-ataturk.html",
+          "title": "Culture and Tourism Ministry: Biography of Ataturk",
+          "access": "opened",
+          "supports": "Assembly 1920-04-23, sultanate abolition 1922-11-01 and republic 1923-10-29; day precision."
+        },
+        {
+          "url": "https://legal.un.org/riaa/cases/vol_I/529-614.pdf",
+          "title": "UN RIAA: Ottoman Public Debt Award, 18 April 1925",
+          "access": "opened",
+          "supports": "PDF opened; printed p.573 continuity of Ottoman personality also read in indexed official-PDF extraction. Follow-up PDF line retrieval failed."
+        },
+        {
+          "url": "https://bilecik.gov.tr/osman-gazi",
+          "title": "Bilecik Governorate: Osman Gazi",
+          "access": "search-only",
+          "supports": "Indexed text describes 1281 chiefship, 1288/1291 semi-independence, accepted 1299 foundation, 1300-01-27 frontier status and 1308 full independence. Direct opening returned 500; not confirmed for application."
+        }
+      ]
+    }
+  ]
+}

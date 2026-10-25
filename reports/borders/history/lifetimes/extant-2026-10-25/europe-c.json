@@ -1,0 +1,178 @@
+{
+  "region": "europe",
+  "entities": [
+    {
+      "id": "state:ALD",
+      "status": "ready",
+      "date": "1920-05-07",
+      "candidates": [
+        { "date": "1920-05-07", "event": "최초 자치법 124/1920 제38조의 시행일. 제1조는 기존 Åland county에 자치를 부여하고 제2·3조는 의회와 지역정부를 규정한다." },
+        { "date": "1921-06", "event": "국제연맹의 주권·자치 보장 결정. 법적 자치 창설과 구별되는 국제적 합의 단계이다." },
+        { "date": "1922-06-09", "event": "최초 지역의회 개회. 현재 Autonomy Day로 기념하는 실제 기관 운영의 출발이다." }
+      ],
+      "reason": "법적 자치 정체의 시작은 명시된 최초 자치법 시행일을 채택할 수 있다. 법 서명일 1920-05-06과 시행일 1920-05-07을 구분한다. 최초 법에 대한 현지의 불수용 때문에 기관 운영은 지연되었으며, 1921 국제합의와 1922 첫 개회는 별도 사건으로 보존한다. 그 이전의 지리적 지역 또는 보통 행정구역을 같은 자치 정체로 소급한 판정은 아니다.",
+      "sources": [
+        { "url": "https://www.lagtinget.ax/sites/www.lagtinget.ax/files/alands_sjalvstyrelselag_124-1920.pdf", "title": "Lag om självstyrelse för Åland, 124/1920", "access": "opened", "supports": "제1·2·3조의 자치·대표기관·지역정부와 제38조의 1920-05-07 시행일. 문서 말미 서명일은 1920-05-06이다." },
+        { "url": "https://www.lagtinget.ax/english/alands-lagting-parliament-aland", "title": "Ålands Lagting – Parliament of Åland", "access": "opened", "supports": "1920 법의 최초 불수용, 1921년 6월 국제연맹 결정, 1922-06-09 최초 의회 개회와 이후 자치법 개정의 연속성." },
+        { "url": "https://www.lagtinget.ax/sites/www.lagtinget.ax/files/125-1920.pdf", "title": "Lag angående bringande i verkställighet av lagen om självstyrelse för Åland", "access": "opened", "supports": "초기 운영 예정과 현지 불수용으로 인한 시행법 개정. 실제 선거·개회·집행기관 운영 시점을 대통령이 정하도록 변경했다." }
+      ]
+    },
+    {
+      "id": "state:FRO",
+      "status": "hold",
+      "date": null,
+      "candidates": [
+        { "date": "1035", "event": "약 1035년 노르웨이 왕 아래 들어갔다고 의회가 설명한다. 기존 의회체계는 유지된 것으로 추정되며 최초 창설일이 아니다. 날짜 자체도 근사 연도이다." },
+        { "date": "1816", "event": "기존 Løgting과 법관직 폐지, 덴마크 관리 중심의 통치로 전환." },
+        { "date": "1852", "event": "Løgting이 자문적 county council로 재건됨." },
+        { "date": "1948-04-01", "event": "Home Rule Act 제16조 시행일. 제1조에서 덴마크 왕국 내 자치공동체와 Faroese 의회·집행기관을 규정한다." }
+      ],
+      "reason": "최초 독자 정치공동체의 성립일은 확정하지 않는다. 공식 의회는 의회 기원을 약 800년경 정착 직후라는 추정으로 설명하고 최초 문헌을 약 1200년 작성 사가로 제시한다. 정착·노르웨이 왕에게의 복속·행정개편·1948 자치 확대 가운데 하나를 최초 정체 창설로 자동 치환할 수 없다. 약 800년경 기원은 검증된 ISO 연도로 입력하지 않는다.",
+      "sources": [
+        { "url": "https://www.logting.fo/um-logtingid/soga/soga-logtingsins/", "title": "Søga Løgtingsins — Faroese Parliament", "access": "opened", "supports": "의회 기원의 추정성, 약 1035년 복속과 기존 체계 유지, 1816 폐지, 1852 자문기관 재건, 1948 입법권 확대." },
+        { "url": "https://www.government.fo/en/foreign-relations/constitutional-status/the-home-rule-act/", "title": "Home Rule Act of the Faroe Islands, No. 137 of March 23rd 1948", "access": "opened", "supports": "제1조의 자치공동체·의회·집행기관, 제16조의 1948-04-01 시행일." }
+      ]
+    },
+    {
+      "id": "state:GGY",
+      "status": "ready",
+      "date": "1204",
+      "candidates": [
+        { "date": "1204", "event": "본토 노르망디 상실 후 왕실에 남으며 자체 법·관습·재판권을 지닌 정치자치 관계가 확립된 연도." }
+      ],
+      "reason": "건지 정부의 헌정 설명과 Jersey Legal Information Board의 설명이 모두 1204년을 현재 자치·사법독립 관계의 출발로 제시한다. 1066년은 노르망디 공작의 잉글랜드 왕위 취득이므로 건지의 신설일로 사용하지 않는다. 근거는 연도 정밀도이며 일·월을 만들어 붙이지 않는다.",
+      "sources": [
+        { "url": "https://committees.parliament.uk/writtenevidence/125181/html/", "title": "Written evidence submitted by the government of Guernsey (TTC 41)", "access": "opened", "supports": "2.1–2.3항: 1204년을 왕실 관계의 기초로 명시하고 자체 법·관습·사법·입법·집행기관의 연속성을 설명한다." },
+        { "url": "https://www.jerseylaw.je/publications/jglr/Pages/About.aspx", "title": "About the Jersey and Guernsey Law Review", "access": "opened", "supports": "두 Bailiwick의 정치자치·사법독립이 1204년에 시작되었고 별도 행정과 자체 법체계가 마련되었다는 설명." }
+      ]
+    },
+    {
+      "id": "state:GIB",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        { "date": "1704", "event": "실제 열람한 국립박물관 본문의 영국·네덜란드군 점령 및 British Gibraltar 군정의 출발. 열람 본문에서 확보한 정밀도는 연도이다." },
+        { "date": "1704-08-04", "event": "지브롤터 정부 2024년 기념 보도자료 검색본문이 제시하는 점령일. 원문 open은 실패했으므로 검색만 확인한 일자 후보이다." },
+        { "date": "1713-07-13", "event": "영국 의회가 재현한 Utrecht 조약 제10조의 양도일. 법적 별도 왕실 영토 기준의 가장 강한 후보이다. 원문 표기 2/13 July 중 Gregorian 날짜를 보존한다." }
+      ],
+      "reason": "현재 계속 구간의 실효 군정 시작과 법적 양도 가운데 어떤 사건을 시작 기준으로 삼을지 사용자 선택이 필요하다. 점령·주권 이양을 최초 정체 창설로 자동 동치화하지 않는다. 법적 별도 왕실 영토 기준이면 1713-07-13이 직접 열람한 조약에 의해 뒷받침된다. 1865·1921·1969의 자치 발전은 최초 성립으로 다시 시작하지 않는다.",
+      "sources": [
+        { "url": "https://www.gibmuseum.gi/our-history/brief-history-of-gibraltar", "title": "Gibraltar National Museum — A Brief History of Gibraltar", "access": "opened", "supports": "1704 점령, 1713 양도, 군정과 이후 자치 제도의 발전을 구분한다." },
+        { "url": "https://publications.parliament.uk/pa/cm199899/cmselect/cmfaff/366/36615.htm", "title": "UK Parliament — Treaty of Peace and Friendship, Utrecht, Article X", "access": "opened", "supports": "조약 표제의 2/13 July 1713 날짜와 영국 왕실로의 town·castle·port·fortifications 양도 조문." },
+        { "url": "https://www.gibraltar.gov.gi/press-releases/320-years-of-the-capture-of-gibraltar-5442024-10123", "title": "320 years of the capture of Gibraltar — 544/2024", "access": "search-only", "supports": "정부 검색본문은 1704-08-04 점령과 1704 이후 distinct Gibraltarian population의 형성 출발을 설명한다. 해당 페이지 직접 open은 반복 실패했다." }
+      ]
+    },
+    {
+      "id": "state:IMN",
+      "status": "hold",
+      "date": null,
+      "candidates": [
+        { "date": "0979", "event": "Tynwald 천년 기념의 전통적 기준 연도. 공식 의회는 그해 최초 개회를 뒷받침하는 문헌 증거가 없다고 명시하므로 확정 기원으로 사용할 수 없다." },
+        { "date": "1079", "event": "Godred Croven의 정복과 이후 Man and the Isles 왕조의 출발. 더 이른 독자 정체가 없었다는 증거가 아니다." },
+        { "date": "1266", "event": "스코틀랜드 왕에게 양도. 최초 독자 정체 창설과 구별해야 한다." },
+        { "date": "1765", "event": "영주의 권리가 영국 왕실로 환수된 사건. 최초 정체 성립일로 자동 사용할 수 없다." }
+      ],
+      "reason": "공식 의회가 전통적 979년의 증거 부족을 직접 인정한다. 1079 정복, 1266 양도, 1765 환수는 각각 왕조·지배권 사건이며 최초 독자 정치공동체의 확정 기원이 아니다. 노르드 행정체계가 지배권 변경 동안 이어졌다는 공식 설명이 있으므로 가장 최근의 지위 변경만으로 시작일을 고르지 않는다.",
+      "sources": [
+        { "url": "https://www.tynwald.org.im/history", "title": "Tynwald — History", "access": "opened", "supports": "979년 문헌 증거 부재를 명시하고, 10세기 말 의회 추정 및 1079 Croven 정복·왕조와 Man and the Isles를 설명한다." },
+        { "url": "https://www.tynwald.org.im/tynwald-day-in-history", "title": "Tynwald Day in History", "access": "opened", "supports": "1266 스코틀랜드 양도, 이후 스코틀랜드·잉글랜드·영주·왕실 사이 지배권 이동, 1765 환수와 노르드 행정체계의 계승을 설명한다." }
+      ]
+    },
+    {
+      "id": "state:ISL",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        { "date": "0930", "event": "Alþingi 창설과 Old Icelandic Commonwealth의 시작. 의존 정체까지 포함해 역사적 정치공동체의 연속성을 인정하는 정의의 후보이다. 연도 정밀도이다." },
+        { "date": "1918-12-01", "event": "Act of Union 시행에 따른 주권국가 승인과 Kingdom of Iceland. 현재 주권국가 계속 구간을 선택하는 정의의 후보이다." },
+        { "date": "1944-06-17", "event": "왕국과 덴마크 왕실 연합을 끝내고 공화국을 수립한 사건. 최초 성립 후보로 채택하지 않는 체제 변경일이다." }
+      ],
+      "reason": "930년 공동체에서 왕의 지배 아래 별도 법·의회·사법기관이 이어진 역사를 같은 정체로 취급할지, 현대 주권국가 구간을 1918부터 취급할지 사용자 선택이 필요하다. 1262 이후 왕정·1800 의회 폐지·1845 의회 재건·1874 입법권·1904 home rule의 의미를 소거하지 않는다. 1944년 공화국 변경만을 이유로 lifetime을 재시작하지 않는다.",
+      "sources": [
+        { "url": "https://www.althingi.is/pdf/Althingi2018_enska.pdf", "title": "Althingi — Official English booklet, 2018", "access": "opened", "supports": "pp4·6–10: 930 공동체의 시작, 1262 왕에게 복종한 뒤 법·의회의 변화와 계승, 1800 High Court로 대체, 1845 의회 재건, 1874 입법권, 1904 home rule, 1918-12-01 주권, 1944 공화국." },
+        { "url": "https://www.stjornarradid.is/rikisstjorn/sogulegt-efni/heimastjorn-1904-1918/leidin-til-sjalfstaedis/", "title": "Government of Iceland — Leiðin til sjálfstæðis", "access": "opened", "supports": "1904 결정권 이전, 1918 Kingdom of Iceland라는 별도 국가, 1944-06-17 공화국 수립을 구분한다." }
+      ]
+    },
+    {
+      "id": "state:JEY",
+      "status": "ready",
+      "date": "1204",
+      "candidates": [
+        { "date": "1204", "event": "본토 노르망디 상실 후 왕실에 남으며 자체 법·Jurats·왕실 관계에 기초한 자치 체계가 확립된 연도." }
+      ],
+      "reason": "저지 정부는 1204년에 부여된 자체 법에 따른 통치와 왕실 관계를 오늘날 헌정의 기초로 제시한다. 별도 자치 행정·법체계에 대한 공식 법률정보기관 설명과 일치한다. 1856·1948 의회 구성 변경은 정체 재성립으로 취급하지 않는다. 일·월은 근거가 없으므로 연도만 보존한다.",
+      "sources": [
+        { "url": "https://www.gov.je/Leisure/Jersey/pages/history.aspx", "title": "Government of Jersey — Jersey's history", "access": "opened", "supports": "1204년 자체 법·Jurats·Royal Court와 현재 헌정의 기초, 후대 의회 구성 변경." },
+        { "url": "https://www.jerseylaw.je/publications/jglr/Pages/About.aspx", "title": "About the Jersey and Guernsey Law Review", "access": "opened", "supports": "1204년에 시작된 두 Bailiwick의 정치자치·사법독립과 별도 행정·자체 법체계." }
+      ]
+    },
+    {
+      "id": "state:LUX",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        { "date": "0963", "event": "성채 획득·설립에서 백국의 기원을 추적하는 연도. 직접 국가 창설을 확정하는 일자는 아니며 중세 정체 기원으로 남길 후보이다." },
+        { "date": "1354", "event": "공국의 시작. 내무부 자료는 1354–1795 공국이 백국을 이었다고 설명한다." },
+        { "date": "1795-10-01", "event": "프랑스 병합 법령일. 1795-10-06 현지 공포와 구별되는 중단 사건이다." },
+        { "date": "1815-06-09", "event": "Vienna 최종의정서 제67조에 따른 Grand Duchy 재구성. 가장 최근의 재성립 이후 계속 구간만 입력하는 경우의 강한 후보이다." },
+        { "date": "1839-04-19", "event": "London 조약에 따른 분할과 현재 영토 형성. 대공국 최초 창설로 채택하지 않는 사건이다." }
+      ],
+      "reason": "최초 기원부터 현재까지의 전체 역사와 가장 최근 재성립 이후의 계속 구간 중 입력 범위를 사용자에게 물어야 한다. 내무부는 1815 대공국을 1354–1795 공국의 부분적 재구성으로 명시하므로 French annexation 구간을 덮어 연속 lifetime으로 합칠 수 없다. 현재 구간만 입력한다면 1815-06-09가 직접 열람한 근거로 뒷받침된다. 1839 분할이나 1890 왕조 독립을 최초 성립으로 자동 대체하지 않는다.",
+      "sources": [
+        { "url": "https://mint.gouvernement.lu/dam-assets/personnel-communal/recrutement-examen-d-admissibilite/programmes/Organisation-des-communes-admissibilite-B1-A-A2-A1.pdf", "title": "Ministry of the Interior — La législation communale, July 2018", "access": "opened", "supports": "pp3–5: 1795-10-01 병합 법령과 10-06 공포, 963 백국 기원·1354–1795 공국·1815 재구성의 관계, Vienna 1815-06-09 및 1839 분할 구분." },
+        { "url": "https://luxembourg.public.lu/fr/societe-et-culture/histoire/renaissance-dun-pays.html", "title": "Luxembourg Government — La Renaissance d'un pays", "access": "opened", "supports": "1815 현대 Grand Duchy의 창설, 네덜란드 왕과의 관계, 1839-04-19 분할, 1867 중립, 1890 왕조 분리를 구분한다." },
+        { "url": "https://luxembourg.public.lu/fr/societe-et-culture/histoire/400-ans-souverains-etrangers.html", "title": "Luxembourg Government — 400 ans de souverains étrangers", "access": "opened", "supports": "1795 French Département des Forêts 병합, 1814 해방, 1815 독립 대공국이라는 법적 지위와 실제 외부 지배의 구분." }
+      ]
+    },
+    {
+      "id": "state:MCO",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        { "date": "1297-01-08", "event": "François Grimaldi의 최초 점령. 왕궁은 뒤이어 여러 차례 상실했다고 설명하므로 끊김 없는 lifetime 시작으로 바로 채택하지 않는다." },
+        { "date": "1793-02-14", "event": "공식 정부·통계기관 검색본문이 제시하는 France 병합일. 해당 본문 또는 PDF의 직접 open은 실패해 일자 검증은 검색 확인에 한정된다." },
+        { "date": "1814-05", "event": "직접 열람한 왕궁 본문이 확인하는 왕가 복원 월. 최근 재성립 구간을 선택할 때 현재 직접 열람 증거가 보장하는 정밀도이다." },
+        { "date": "1814-05-30", "event": "공식 정부·IMSEE 검색본문이 제시하는 Paris 조약에 의한 복원일. 직접 원문 open 실패 때문에 검색 확인에 한정되는 더 정밀한 후보이다." }
+      ],
+      "reason": "현재 이어지는 최근 재성립 이후만 입력할지 전체 역사에 대해 다중 구간 결정을 기다릴지 사용자 선택이 필요하다. 1297년은 최초 왕조 점령이며 반복 상실이 확인되어 그대로 연속 lifetime으로 사용할 수 없다. 최근 복원 월 1814-05는 왕궁 원문을 직접 열람했다. 1793-02-14·1814-05-30은 공식 검색본문에 있지만 정부·IMSEE 페이지/PDF의 반복 open 실패로 이번 조사에서 일자까지 직접 열람 검증했다고 주장하지 않는다. 1861 독립 보장과 영토 양도만으로 최초 창설을 다시 잡지 않는다.",
+      "sources": [
+        { "url": "https://palais.mc/fr/l-institution/le-palais-des-princes-de-monaco-1-16.html", "title": "Palais Princier de Monaco — Le Palais des Princes de Monaco", "access": "opened", "supports": "1297년 1월 8일 점령, 뒤이은 반복 상실, 첫 영주 Charles I에 대한 설명, French Revolution 이후 1814년 5월 복원. 이 페이지는 첫 영주를 1341로 서술한다." },
+        { "url": "https://www.imsee.mc/content/download/525246/6019179/file/Monaco%20en%20Chiffres%202024%20-%201.%20Territoire%20et%20Environnement.pdf", "title": "IMSEE — Monaco en Chiffres 2024, Territoire et Environnement", "access": "search-only", "supports": "공식 검색본문의 1793-02-14 France 병합, 1814-05-30 Paris 조약 복원, 1861-02-02 영토 양도와 독립. PDF open은 실패했다." },
+        { "url": "https://www.gouv.mc/Gouvernement-et-Institutions/Histoire-et-Patrimoine/Epoques/Le-temps-des-difficultes-1793-1861/Annexion-a-la-France", "title": "Monaco Government — Annexion à la France", "access": "search-only", "supports": "공식 검색본문은 1793-02-14 병합 효력을 명시한다. 직접 page open은 반복 timeout으로 실패했다." }
+      ]
+    },
+    {
+      "id": "state:NLD",
+      "status": "choice",
+      "date": null,
+      "candidates": [
+        { "date": "1581-07-26", "event": "Plakkaat van Verlatinge에 의한 Spanish king에 대한 충성·통치권 철회. 공화국 체제 완성과 구별되는 독립 과정의 사건이다." },
+        { "date": "1588", "event": "왕을 찾는 시도를 끝내고 Republic of the Seven United Netherlands로 진행한 연도." },
+        { "date": "1810-07-09", "event": "France 병합 구간의 시작. 국립문서보관소 공식 PDF의 기간 표기를 직접 확인했다." },
+        { "date": "1813-11-20", "event": "국립문서보관소가 명시한 France 병합 구간의 끝. 최근 재성립 이후 계속 구간만 입력하는 경우의 후보이다." }
+      ],
+      "reason": "최초 기원부터의 전체 역사와 최근 재성립 이후 계속 구간 중 사용자가 선택해야 한다. 1795 Batavian Republic 및 1806 Kingdom of Holland라는 체제 전환만으로 각각 재시작할 필요는 없지만 1810-07-09–1813-11-20 French incorporation은 단일 연속 구간으로 덮어서는 안 된다. 최근 구간만 입력하는 선택이면 1813-11-20을 사용할 수 있다. 1815 왕국 선포만을 최초 정체 시작으로 삼지 않는다.",
+      "sources": [
+        { "url": "https://nationaalarchief.nl/beleven/onderwijs/bronnenbox/plakkaat-van-verlatinge-1581", "title": "Nationaal Archief — Plakkaat van Verlatinge (1581)", "access": "opened", "supports": "1581-07-26 충성 철회와 1588 공화국의 진행을 구분하며, 문서의 법적 효력과 독립국가 발전 과정의 의미를 설명한다." },
+        { "url": "https://www.nationaalarchief.nl/onderzoeken/archief/2.01.01.01/download/pdf", "title": "Nationaal Archief — Wetgevende Colleges, inventory 2.01.01.01", "access": "opened", "supports": "직접 열린 PDF 목차 p3에서 De inlijving bij Frankrijk (9 juli 1810 - 20 november 1813)라는 구간 표기를 확인했다. 본문 위치의 재조회는 timeout으로 실패했다." },
+        { "url": "https://www.royal-house.nl/topics/history/history-of-the-kingdom-of-the-netherlands", "title": "Royal House of the Netherlands — Kingdom of the Netherlands", "access": "opened", "supports": "1795 이전 공화국, 1795–1806 Batavian Republic, 1806–1810 Kingdom of Holland, 1813 독립 회복, 1815 Kingdom을 구분한다. 이 페이지의 Luxembourg 1839 설명은 Luxembourg 자체 정부 자료와 차이가 있어 LUX 판정에 사용하지 않았다." }
+      ]
+    },
+    {
+      "id": "state:NOR",
+      "status": "hold",
+      "date": null,
+      "candidates": [
+        { "date": "0872", "event": "Hafrsfjord 전투와 통합을 연결하는 전통적 연도. 현재 왕실 페이지는 더 늦었다는 자료와 초기 연대의 불확실성을 명시하므로 확정 시작 연도로 사용하지 않는다." },
+        { "date": "1814-05-17", "event": "헌법 제정. 기존 Norwegian realm의 헌정·연합 지위 변화로, 최초 정체 성립으로 자동 선택하지 않는다." },
+        { "date": "1905", "event": "Sweden과의 연합 해소 및 독자 왕실 수립. 기존 정체의 최초 성립으로 자동 대체하지 않는 사건이다." }
+      ],
+      "reason": "실제 열린 왕실 자료가 Harald의 통합을 9세기 말로 설명하고 초기 왕의 정확한 연대와 872년 전통의 불확실성을 인정한다. 9세기 말이라는 범위를 근거 없는 단일 ISO 연도로 바꾸지 않는다. 1814 헌법과 1905 연합 해소는 국가·정체의 계속성과 구별해서 기록하되, 최초 기원을 확정할 증거로 취급하지 않는다.",
+      "sources": [
+        { "url": "https://www.kongehuset.no/historie/kongerekken", "title": "Det norske kongehus — Norges regenter: kongerekken", "access": "opened", "supports": "Harald가 9세기 말 여러 소왕국을 통합했다는 설명, 초기 재위일의 불확실성, 872년의 전통적 날짜 및 더 늦었다는 자료에 대한 각주." },
+        { "url": "https://www.royalcourt.no/history", "title": "Royal Court of Norway — History", "access": "opened", "supports": "9세기 말 통합과 1380–1905 여러 왕국과의 연합, 1905 독자 왕실의 수립을 구분한다." },
+        { "url": "https://www.stortinget.no/no/Stortinget-og-demokratiet/Historikk/milepaler-i-norges-demokratiske-historie/", "title": "Storting — Milepæler i Norges demokratiske historie", "access": "opened", "supports": "1814-05-17 헌법과 1814-11-04 연합에 맞춘 헌법 개정, 1905 연합 해소라는 후대 헌정 사건을 설명한다." }
+      ]
+    }
+  ]
+}
