@@ -1,0 +1,28 @@
+{
+  "verifiedCommit": "c38bb0a859ffdcb49355ac81ccf77e89a8bd5020",
+  "finalCommit": "9a727a61c2b4cf1afb958152a259d063843eaf7b",
+  "remoteGisCutoff": "079e847b6221138c6a0653d0245da4677a2484f9",
+  "changedSourceFiles": [
+    ".github/workflows/gis-historical-archive.yml",
+    ".github/workflows/gis-historical-native.yml",
+    ".github/workflows/gis-node-migration.yml",
+    "docs/development/python-zero-migration-plan-2026-10-25.md",
+    "tests/test_baikonur_official_reference.py",
+    "tests/unit/gis-baikonur-reference.test.mjs",
+    "tests/unit/gis-german-base-native.test.mjs",
+    "tests/unit/gis-hgis-source.test.mjs",
+    "tests/unit/python-bridge-retirement.test.mjs",
+    "tools/build_german_empire_1914_base.py",
+    "tools/cpp/build-territorial-recipe.cpp",
+    "tools/fetch-german-empire-1914-source.mjs",
+    "tools/fetch_german_empire_1914_source.py",
+    "tools/gis/baikonur-official-reference.mjs",
+    "tools/gis/baikonur_official_reference.py",
+    "tools/historical-library/README.md",
+    "tools/historical-library/german-empire-1914-base.recipe.json"
+  ],
+  "changedPublishedFiles": [],
+  "pin": "e6b41735c1f6ebc174a14ecba887093346c8481b",
+  "unchangedPublishedFileCount": 1732,
+  "unchangedPublishedBytes": 213081702
+}

@@ -1,0 +1,23 @@
+✔ treaty reference preserves 31 verified anchors and 29 unambiguous straight segments (7.4912ms)
+✔ original datum, treaty limitations and right bank remains explicitly unresolved (0.6726ms)
+✔ DMS parser refuses invalid coordinates without guessing a datum (0.5656ms)
+✔ output is write-once and --check never modifies the original (13.4043ms)
+✔ only the 26 HGIS states are retained without altering original coordinates or properties (4.1528ms)
+✔ Python-style key order and Unicode-preserving canonical source are stable (1.3948ms)
+✔ WFS fetch query is explicit CRS and source layer (0.9205ms)
+✔ missing polygon and out-of-bounds coordinates are rejected (1.1376ms)
+✔ existing licensed original never overwritten by a different download (11.2884ms)
+✔ offline CLI source import and byte comparison without network calls (323.3197ms)
+✔ Python files only decrease within the reviewed original and integration inventories (2.6885ms)
+✔ temporary Python bridge modules have real consumers and leave no orphaned adapters (350.151ms)
+ℹ tools/library_data.py: 14 Python caller(s)
+ℹ tools/report_paths.py: 11 Python caller(s)
+ℹ tests/application_source.py: 1 Python caller(s)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 723.3286
