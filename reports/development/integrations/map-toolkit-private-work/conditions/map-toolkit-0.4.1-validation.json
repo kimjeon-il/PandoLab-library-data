@@ -1,0 +1,379 @@
+{
+  "pluginVersion": "0.4.1",
+  "codeRevision": "ec658aa7132c0f57e5beddf6f5f83c8b3ae99db7",
+  "dataRevision": "127e51c3457df87786ecf3aa5ad98ded690928df",
+  "entrypointSha256": "4d6709f44cc808c6e37430a5dcc955de06c1db688c941a2be24f6bf3e5adb77b",
+  "workflow": {
+    "command": "analyze --source <source.json> --job <new.job.json> --languages <eng|jpn> --page 1",
+    "maxPixels": 4000000,
+    "reviewApproved": false,
+    "geojsonExported": false,
+    "trainingRun": false,
+    "publiclyPublished": false
+  },
+  "jpnLazyDownload": {
+    "elapsedSeconds": 35.27370858192444,
+    "exitCode": 0,
+    "cacheBefore": {
+      "exists": false
+    },
+    "cacheAfter": {
+      "exists": true,
+      "bytes": 1531260,
+      "sha256": "3f4d53cd4c1a0ad6cbcf61cd2402b264005e99834ac0b36ab38b89eb21b54f5f"
+    }
+  },
+  "jpnCacheReuse": {
+    "language": "jpn",
+    "fetchCalls": 0,
+    "elapsedMs": 5.8440629999999985,
+    "hashValidation": "passed",
+    "cacheReuse": "passed"
+  },
+  "runs": [
+    {
+      "id": "cia-asia-political",
+      "status": "needs-georeference",
+      "page": 1,
+      "pageCount": 1,
+      "inputBytes": 463827,
+      "inputSha256": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+      "source": {
+        "provider": "Central Intelligence Agency / University of Texas Libraries",
+        "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/a5165a0a0c2a9ce921d30d1a536039b63be5d046/reports/map-analysis/corpus/macro-political/sources/cia-asia-political.pdf",
+        "officialOriginalUrl": "https://maps.lib.utexas.edu/maps/middle_east_and_asia/asia_pol_2013.pdf",
+        "originalPublisherUrl": null,
+        "metadataUrl": "https://maps.lib.utexas.edu/maps/asia.html",
+        "rightsUrl": "https://www.cia.gov/site-policies/",
+        "license": "CIA public-domain map; credit Central Intelligence Agency and University of Texas Libraries archival reproduction; retain source notices.",
+        "published": "2013",
+        "editionId": "cia-asia-803612ai-2013",
+        "printedEditionCode": "803612AI (G00543) 8-13",
+        "acquisitionKind": "public-pinned-archival-copy"
+      },
+      "dates": {
+        "publication": "2013",
+        "depictedDate": null,
+        "baseMapRevision": null,
+        "note": "Printed 8-13 edition; exact all-content date unconfirmed."
+      },
+      "timing": {
+        "seconds": 27,
+        "measurement": "approximate whole-second output-file birth to completion timestamp; includes acquisition/OCR/inference/preview"
+      },
+      "analysisSize": [
+        1224,
+        1584
+      ],
+      "ocrLanguages": [
+        "eng"
+      ],
+      "ocrOrientation": {
+        "script": "Cyrillic",
+        "clockwiseDegrees": 0,
+        "confidence": 1.6787643432617188,
+        "scriptConfidence": 0,
+        "probeScores": [
+          {
+            "angle": 0,
+            "score": 111.31999999999998,
+            "language": "eng"
+          },
+          {
+            "angle": 180,
+            "score": 13.65,
+            "language": "eng"
+          },
+          {
+            "angle": 270,
+            "score": 8.309999999999999,
+            "language": "eng"
+          },
+          {
+            "angle": 90,
+            "score": 6.06,
+            "language": "eng"
+          }
+        ],
+        "languages": [
+          "eng"
+        ]
+      },
+      "ocrDetections": 187,
+      "ocrSamples": [
+        "90 100 120",
+        "North",
+        "Sea",
+        "seaof",
+        "R U",
+        "SIA",
+        "to",
+        "KAZAKHSTAN",
+        "Seaof",
+        "yang",
+        "AFGHANISTAN",
+        "china",
+        "20",
+        "South Mani",
+        "Sea",
+        "Arabian.",
+        "Bay of",
+        "a Nang",
+        "Sea",
+        "china",
+        "na",
+        "Banda Sea",
+        "Equator",
+        "Scale 1:48,000,000",
+        "NDONE",
+        "Azimuthal Equal-Area Projection",
+        "imor",
+        "800 Kilometers",
+        "Ocean",
+        "Philippine"
+      ],
+      "ocrLanguageHashes": {
+        "osd": "3d1e7ee45c0b3d4fcd9929c58d6824e19df6816f7f38b4867466fabb9ca86242",
+        "eng": "22d975baf864a9d30757dccd47020e08c433ba4b2324d1edbfc645df996a15be"
+      },
+      "onnxTiles": 12,
+      "boundaryChainCandidates": 951,
+      "faceCandidates": 47,
+      "locationCandidates": 0,
+      "warp": null,
+      "quality": null,
+      "diagnostics": [
+        {
+          "code": "NEEDS_GEOREFERENCE",
+          "reason": "no-auto-georef-consensus",
+          "action": "Review locationCandidates/grid or supply original-image UV control points."
+        }
+      ],
+      "review": null,
+      "model": {
+        "schemaVersion": 1,
+        "architecture": "mobilenetv3-unet-context-v1",
+        "classes": [
+          "international",
+          "administrative",
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ],
+        "tileSize": 512,
+        "overlap": 64,
+        "overviewSize": 256,
+        "model": {
+          "url": "boundary.onnx",
+          "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+          "bytes": 16697571
+        },
+        "corpusSha256": "336008e64a4531325ba396aaba2dbdbe70c2ab29fd1e5faee09d64d0c49791ef",
+        "evaluationStatus": "pending",
+        "releaseApproved": false,
+        "trainingOnly": true,
+        "trainingBatches": 1460,
+        "optimizerUpdates": 1452,
+        "stepCountKind": "attempted-batches",
+        "unobservedChannels": [
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ],
+        "observedChannels": [
+          "international",
+          "administrative"
+        ]
+      },
+      "preview": {
+        "file": "asia-eng.job.json.preview.png",
+        "sha256": "a46e6c471cb91ec95048f3971219e093a53305ba09d2e1eaa5fad82cc906d60e",
+        "visuallyInspected": true,
+        "findings": "Provisional chains include map frame, lettering/coasts; candidate quality not approved."
+      }
+    },
+    {
+      "id": "gsi-japan-national-japanese",
+      "status": "needs-georeference",
+      "page": 1,
+      "pageCount": 1,
+      "inputBytes": 1669011,
+      "inputSha256": "3b6fe3c79a50d263435aa99d90881040a5ef9f02d545508fdfc9072b10429784",
+      "source": {
+        "provider": "Geospatial Information Authority of Japan (GSI)",
+        "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/a5165a0a0c2a9ce921d30d1a536039b63be5d046/reports/map-analysis/corpus/macro-political/sources/gsi-japan-national-japanese.pdf",
+        "officialOriginalUrl": "https://web1.gsi.go.jp/common/000247485.pdf",
+        "originalPublisherUrl": "https://www.gsi.go.jp/common/000247485.pdf",
+        "metadataUrl": "https://www.gsi.go.jp/chizuhensyu/chizuhensyu41009.html",
+        "rightsUrl": "https://www.gsi.go.jp/chizuhensyu/chizuhensyu41009.html",
+        "license": "Geospatial Information Authority of Japan: free download/reuse with source attribution, no application required per official source page. Retain GSI and GEBCO credits; no endorsement or sovereignty claim.",
+        "published": null,
+        "editionId": "gsi-japan-national-20221220",
+        "printedEditionCode": null,
+        "acquisitionKind": "public-pinned-archival-copy"
+      },
+      "dates": {
+        "publication": null,
+        "depictedDate": null,
+        "baseMapRevision": "2017",
+        "note": "GSI source-page update 2023-03-30 and editionId suffix 20221220 are not asserted publication/content dates."
+      },
+      "timing": {
+        "seconds": 35.27370858192444,
+        "measurement": "subprocess wall clock including acquisition/OCR/inference/preview"
+      },
+      "analysisSize": [
+        1184,
+        1680
+      ],
+      "ocrLanguages": [
+        "jpn"
+      ],
+      "ocrOrientation": {
+        "script": "Cyrillic",
+        "clockwiseDegrees": 0,
+        "confidence": 2.153350830078125,
+        "scriptConfidence": 0.6521738767623901,
+        "probeScores": [
+          {
+            "angle": 0,
+            "score": 41.839999999999996,
+            "language": "jpn"
+          },
+          {
+            "angle": 90,
+            "score": 6.429999999999999,
+            "language": "jpn"
+          },
+          {
+            "angle": 270,
+            "score": 6.059999999999999,
+            "language": "eng"
+          },
+          {
+            "angle": 90,
+            "score": 5.619999999999998,
+            "language": "eng"
+          },
+          {
+            "angle": 0,
+            "score": 3.51,
+            "language": "eng"
+          },
+          {
+            "angle": 270,
+            "score": 2.9299999999999997,
+            "language": "jpn"
+          },
+          {
+            "angle": 180,
+            "score": 2.92,
+            "language": "eng"
+          },
+          {
+            "angle": 180,
+            "score": 2.85,
+            "language": "jpn"
+          }
+        ],
+        "languages": [
+          "jpn"
+        ]
+      },
+      "ocrDetections": 77,
+      "ocrSamples": [
+        "140",
+        "135",
+        "145",
+        "155",
+        "ーーーー",
+        "他国との境界等",
+        "1000",
+        "オホーツ",
+        "海底地形は、 GEBCOデジタルアトラスを使用",
+        "日本海",
+        "飛島",
+        "日本国",
+        "北太平",
+        "25",
+        "北大東島",
+        "20",
+        "日本最南敵",
+        "フィリピツン海",
+        "145",
+        "155",
+        "この地図は、1:5.000.000日本とその周辺(平成29年修正)を使用して作成しました。",
+        "日 本 全 図",
+        "ーーー",
+        "南大東島"
+      ],
+      "ocrLanguageHashes": {
+        "osd": "3d1e7ee45c0b3d4fcd9929c58d6824e19df6816f7f38b4867466fabb9ca86242",
+        "jpn": "3f4d53cd4c1a0ad6cbcf61cd2402b264005e99834ac0b36ab38b89eb21b54f5f"
+      },
+      "onnxTiles": 12,
+      "boundaryChainCandidates": 553,
+      "faceCandidates": 24,
+      "locationCandidates": 0,
+      "warp": null,
+      "quality": null,
+      "diagnostics": [
+        {
+          "code": "NEEDS_GEOREFERENCE",
+          "reason": "insufficient-auto-georef-candidates",
+          "action": "Review locationCandidates/grid or supply original-image UV control points."
+        }
+      ],
+      "review": null,
+      "model": {
+        "schemaVersion": 1,
+        "architecture": "mobilenetv3-unet-context-v1",
+        "classes": [
+          "international",
+          "administrative",
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ],
+        "tileSize": 512,
+        "overlap": 64,
+        "overviewSize": 256,
+        "model": {
+          "url": "boundary.onnx",
+          "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+          "bytes": 16697571
+        },
+        "corpusSha256": "336008e64a4531325ba396aaba2dbdbe70c2ab29fd1e5faee09d64d0c49791ef",
+        "evaluationStatus": "pending",
+        "releaseApproved": false,
+        "trainingOnly": true,
+        "trainingBatches": 1460,
+        "optimizerUpdates": 1452,
+        "stepCountKind": "attempted-batches",
+        "unobservedChannels": [
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ],
+        "observedChannels": [
+          "international",
+          "administrative"
+        ]
+      },
+      "preview": {
+        "file": "japan-jpn.job.json.preview.png",
+        "sha256": "35fc649756c6f11673a423f79ddd74678e50ee1c42aa1b84dd7b810d213129d8",
+        "visuallyInspected": true,
+        "findings": "Many graticule lines and map frame enter provisional candidates. GSI and GEBCO credits remain visible. Candidate quality not approved."
+      }
+    }
+  ]
+}

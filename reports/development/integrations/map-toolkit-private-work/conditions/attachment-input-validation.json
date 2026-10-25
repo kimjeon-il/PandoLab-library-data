@@ -1,0 +1,184 @@
+{
+  "input": {
+    "path": "/workspace/scratch/96cfd8f7af27/upload/cia-asia-political.pdf",
+    "bytes": 488788,
+    "sha256": "8b3405fbcbe24170e9ff3b522e0f59dd9ebc2cddf7087ab7403f35e2f596eb6e",
+    "readable": true
+  },
+  "priorOriginalSha256": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+  "sameBytesAsPriorOriginal": false,
+  "provenanceAttached": false,
+  "provenanceReason": "Attachment SHA256 differs from previous official archival original; --provenance not passed.",
+  "pluginVersion": "0.4.1",
+  "codeRevision": "ec658aa7132c0f57e5beddf6f5f83c8b3ae99db7",
+  "cacheBefore": {
+    "osd": {
+      "exists": true,
+      "sha256": "3d1e7ee45c0b3d4fcd9929c58d6824e19df6816f7f38b4867466fabb9ca86242"
+    },
+    "eng": {
+      "exists": true,
+      "sha256": "22d975baf864a9d30757dccd47020e08c433ba4b2324d1edbfc645df996a15be"
+    }
+  },
+  "timing": {
+    "elapsedSeconds": 20.80256300900146,
+    "exitCode": 0
+  },
+  "command": {
+    "entrypoint": "analyze",
+    "input": "/workspace/scratch/96cfd8f7af27/upload/cia-asia-political.pdf",
+    "sourceOptionUsed": false,
+    "languages": [
+      "eng"
+    ],
+    "page": 1,
+    "maxPixels": 4000000,
+    "maxPixelsOverrideUsed": false
+  },
+  "status": "needs-georeference",
+  "analysisSize": [
+    1224,
+    1584
+  ],
+  "ocrDetections": 187,
+  "ocrSamples": [
+    "90 100 120",
+    "North",
+    "Sea",
+    "seaof",
+    "R U",
+    "SIA",
+    "to",
+    "KAZAKHSTAN",
+    "Seaof",
+    "yang",
+    "AFGHANISTAN",
+    "china",
+    "20",
+    "South Mani",
+    "Sea",
+    "Arabian.",
+    "Bay of",
+    "a Nang",
+    "Sea",
+    "china"
+  ],
+  "ocrOrientation": {
+    "script": "Cyrillic",
+    "clockwiseDegrees": 0,
+    "confidence": 1.6787643432617188,
+    "scriptConfidence": 0,
+    "probeScores": [
+      {
+        "angle": 0,
+        "score": 111.31999999999998,
+        "language": "eng"
+      },
+      {
+        "angle": 180,
+        "score": 13.65,
+        "language": "eng"
+      },
+      {
+        "angle": 270,
+        "score": 8.309999999999999,
+        "language": "eng"
+      },
+      {
+        "angle": 90,
+        "score": 6.06,
+        "language": "eng"
+      }
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  "onnxTiles": 12,
+  "ocrTiles": 1,
+  "ocrTileNote": "1224x1584 image fits one 2048px OCR tile; orientation probes are additional calls.",
+  "boundaryChainCandidates": 951,
+  "faceCandidates": 47,
+  "locationCandidates": 0,
+  "diagnostics": [
+    {
+      "code": "NEEDS_GEOREFERENCE",
+      "reason": "no-auto-georef-consensus",
+      "action": "Review locationCandidates/grid or supply original-image UV control points."
+    }
+  ],
+  "runtimeCacheReused": true,
+  "ocrCache": {
+    "osd": {
+      "reused": true,
+      "sha256": "3d1e7ee45c0b3d4fcd9929c58d6824e19df6816f7f38b4867466fabb9ca86242",
+      "bytes": 4389383
+    },
+    "eng": {
+      "reused": true,
+      "sha256": "22d975baf864a9d30757dccd47020e08c433ba4b2324d1edbfc645df996a15be",
+      "bytes": 1975928
+    }
+  },
+  "model": {
+    "schemaVersion": 1,
+    "architecture": "mobilenetv3-unet-context-v1",
+    "classes": [
+      "international",
+      "administrative",
+      "coast",
+      "hydro",
+      "transport",
+      "text",
+      "frame"
+    ],
+    "tileSize": 512,
+    "overlap": 64,
+    "overviewSize": 256,
+    "model": {
+      "url": "boundary.onnx",
+      "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+      "bytes": 16697571
+    },
+    "corpusSha256": "336008e64a4531325ba396aaba2dbdbe70c2ab29fd1e5faee09d64d0c49791ef",
+    "evaluationStatus": "pending",
+    "releaseApproved": false,
+    "trainingOnly": true,
+    "trainingBatches": 1460,
+    "optimizerUpdates": 1452,
+    "stepCountKind": "attempted-batches",
+    "unobservedChannels": [
+      "coast",
+      "hydro",
+      "transport",
+      "text",
+      "frame"
+    ],
+    "observedChannels": [
+      "international",
+      "administrative"
+    ]
+  },
+  "reviewApproved": false,
+  "geojsonExported": false,
+  "preview": {
+    "path": "/workspace/scratch/96cfd8f7af27/attachment-validation/attached-asia-eng.job.json.preview.png",
+    "bytes": 776125,
+    "sha256": "a46e6c471cb91ec95048f3971219e093a53305ba09d2e1eaa5fad82cc906d60e",
+    "visuallyInspected": true,
+    "note": "Provisional candidates include frame/coast/text; no accuracy approval."
+  },
+  "previousResultsUnchanged": true,
+  "cleanup": {
+    "removed": [
+      {
+        "path": "/workspace/scratch/96cfd8f7af27/attachment-validation/page1-check.png",
+        "bytes": 251697,
+        "kind": "temporary inspection raster"
+      }
+    ],
+    "tensorCopiesFound": false,
+    "retained": "Uploaded PDF, saved job, product preview, logs, live runtime and models."
+  }
+}

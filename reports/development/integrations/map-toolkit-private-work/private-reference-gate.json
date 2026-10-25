@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "stage": "installed-private-reference-gate",
+  "status": "passed",
+  "pluginVersion": "0.4.0",
+  "scope": "USER",
+  "visibility": "PRIVATE",
+  "freshWorkConversation": true,
+  "attachmentsProvided": false,
+  "managementArchiveUsedInFreshConversation": false,
+  "pcRemoteUsed": false,
+  "os": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "workingDirectory": "/workspace/scratch/a2d5db35bf02",
+  "installedSkillRoot": "/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.0/skills/map-toolkit-preflight",
+  "files": [
+    {
+      "path": "/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.0/skills/map-toolkit-preflight/model/boundary.onnx",
+      "expected_bytes": 16697571,
+      "expected_sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+      "bytes": 16697571,
+      "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+      "match": true
+    },
+    {
+      "path": "/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.0/skills/map-toolkit-preflight/model/boundary.manifest.json",
+      "expected_bytes": 810,
+      "expected_sha256": "2b745a592b6fc80d8709fa27a88bd00536cc50ca42d071262a3ba4662930aa74",
+      "bytes": 810,
+      "sha256": "2b745a592b6fc80d8709fa27a88bd00536cc50ca42d071262a3ba4662930aa74",
+      "match": true
+    },
+    {
+      "path": "/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.0/skills/map-toolkit-preflight/scripts/verify_private_references.py",
+      "expected_bytes": 953,
+      "expected_sha256": "36ff1ec0e0db63a21f3ae06efa535c70cc4078a7e257f2ef1fa01db4de582ffc",
+      "bytes": 953,
+      "sha256": "36ff1ec0e0db63a21f3ae06efa535c70cc4078a7e257f2ef1fa01db4de582ffc",
+      "match": true
+    }
+  ],
+  "helper": {
+    "executed": true,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "scripts/verify_private_references.py",
+      "model/boundary.onnx",
+      "model/boundary.manifest.json"
+    ],
+    "cwd": "/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.0/skills/map-toolkit-preflight",
+    "exit_code": 0,
+    "stdout": "{\"verdict\": \"passed\", \"modelBytes\": 16697571, \"modelSha256\": \"04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c\", \"manifestSha256\": \"2b745a592b6fc80d8709fa27a88bd00536cc50ca42d071262a3ba4662930aa74\", \"helperSha256\": \"36ff1ec0e0db63a21f3ae06efa535c70cc4078a7e257f2ef1fa01db4de582ffc\", \"purpose\": \"private-reference-original-byte-access-only\"}\n",
+    "stderr": ""
+  },
+  "command": "/bin/bash -lc \"python3 - <<'PY'\nimport os,json,hashlib,pathlib,subprocess,platform,sys\nroot=pathlib.Path(\\\"/root/.codex/plugins/cache/created-by-me-remote/map-toolkit/0.4.0/skills/map-toolkit-preflight\\\")\nspecs=[('model/boundary.onnx',16697571,'04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c'),('model/boundary.manifest.json',810,'2b745a592b6fc80d8709fa27a88bd00536cc50ca42d071262a3ba4662930aa74'),('scripts/verify_private_references.py',953,'36ff1ec0e0db63a21f3ae06efa535c70cc4078a7e257f2ef1fa01db4de582ffc')]\nr={'status':'unavailable','os':platform.platform(),'working_directory':os.getcwd(),'installed_skill_root':str(root),'python':sys.version,'files':[],'helper':{'executed':False,'exit_code':None}}\nfor rel,n,h in specs:\n p=root/rel; f={'path':str(p),'expected_bytes':n,'expected_sha256':h,'bytes':None,'sha256':None}\n try:\n  b=p.read_bytes(); f.update(bytes=len(b),sha256=hashlib.sha256(b).hexdigest());f['match']=len(b)==n and f['sha256']==h\n except OSError as e: f['error']=str(e)\n r['files'].append(f)\nif all(f.get('match') for f in r['files']):\n cmd=[sys.executable,'scripts/verify_private_references.py','model/boundary.onnx','model/boundary.manifest.json']\n p=subprocess.run(cmd,cwd=root,capture_output=True,text=True)\n r['helper']={'executed':True,'command':cmd,'cwd':str(root),'exit_code':p.returncode,'stdout':p.stdout,'stderr':p.stderr};r['status']='passed' if p.returncode==0 else 'failed'\nelif any(f.get('match') is False for f in r['files']): r['status']='mismatch'\npathlib.Path('private-reference-delivery.json').write_text(json.dumps(r,indent=2)+'\\\\n')\nprint(json.dumps(r))\nPY\"",
+  "exitCode": 0,
+  "accessContract": "skills.read returns executor-backed skill_root, the skill's absolute directory in the executor filesystem, for locating bundled scripts. Actual Python byte reads and helper execution followed that host-provided path. Not an inferred skill:// to filesystem mapping."
+}

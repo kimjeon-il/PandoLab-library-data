@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "94ea1d87-d01b-4e15-86f0-1ae6b9194317",
+      "geometry": {
+        "coordinates": [
+          [
+            -111.00273511256074,
+            55.57038578224275
+          ],
+          [
+            -111.20988812455275,
+            55.26248096582259
+          ],
+          [
+            -111.2107951906143,
+            55.028556805325266
+          ],
+          [
+            -111.48661046400582,
+            54.71827026174009
+          ],
+          [
+            -111.55669811493067,
+            54.34829342522213
+          ],
+          [
+            -111.76333280345892,
+            54.174059557657586
+          ],
+          [
+            -111.76436945038643,
+            53.90671765994635
+          ],
+          [
+            -111.83303171178595,
+            53.90433593278134
+          ],
+          [
+            -111.8335500352497,
+            53.77066498392573
+          ],
+          [
+            -111.97113371978061,
+            53.699066055167904
+          ],
+          [
+            -112.04122137070544,
+            53.32908921864995
+          ],
+          [
+            -112.1789346361023,
+            53.224072552678216
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "schemaVersion": 2,
+        "name": "",
+        "notes": "",
+        "color": "#e26a44",
+        "locked": false,
+        "source": {
+          "schemaVersion": 1,
+          "kind": "plugin",
+          "dataset": "pando-map-tools",
+          "sourceId": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+          "sourceFormat": "raster",
+          "sourceType": "boundary-line",
+          "version": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+          "importedAt": "",
+          "details": {
+            "candidateId": "line:294",
+            "imageSha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+            "sourceDate": null,
+            "sourceDateVerification": "unverified",
+            "dataRevision": "127e51c3457df87786ecf3aa5ad98ded690928df",
+            "model": {
+              "schemaVersion": 1,
+              "architecture": "mobilenetv3-unet-context-v1",
+              "classes": [
+                "international",
+                "administrative",
+                "coast",
+                "hydro",
+                "transport",
+                "text",
+                "frame"
+              ],
+              "tileSize": 512,
+              "overlap": 64,
+              "overviewSize": 256,
+              "model": {
+                "url": "boundary.onnx",
+                "sha256": "04ee59b043d1fde4a4c407fc079bdb03ba051eceb8adfb4784e7e67c62f7b39c",
+                "bytes": 16697571
+              },
+              "corpusSha256": "336008e64a4531325ba396aaba2dbdbe70c2ab29fd1e5faee09d64d0c49791ef",
+              "evaluationStatus": "pending",
+              "releaseApproved": false,
+              "trainingOnly": true,
+              "trainingBatches": 1460,
+              "optimizerUpdates": 1452,
+              "stepCountKind": "attempted-batches",
+              "unobservedChannels": [
+                "coast",
+                "hydro",
+                "transport",
+                "text",
+                "frame"
+              ],
+              "observedChannels": [
+                "international",
+                "administrative"
+              ]
+            },
+            "mappingSignature": "a2c834095b6ad45a5dbbaed9375359c3777730a66c4aca2bf4f731704e3726f7",
+            "reviewStatus": "reviewed-provisional",
+            "historicalAccuracy": "unverified",
+            "jobId": "d057da5e-a3e5-4f61-82f6-7fafd42e80d9",
+            "revision": 2,
+            "boundaryEdits": [
+              {
+                "revision": 1,
+                "command": {
+                  "type": "control-points",
+                  "mode": "affine",
+                  "points": [
+                    {
+                      "id": "whitehorse",
+                      "image": [
+                        0.14839797639123103,
+                        0.40945454545454546
+                      ],
+                      "coordinate": [
+                        -135.0568,
+                        60.7212
+                      ]
+                    },
+                    {
+                      "id": "yellowknife",
+                      "image": [
+                        0.2951096121416526,
+                        0.4829090909090909
+                      ],
+                      "coordinate": [
+                        -114.3718,
+                        62.454
+                      ]
+                    },
+                    {
+                      "id": "iqaluit",
+                      "image": [
+                        0.6357504215851602,
+                        0.4290909090909091
+                      ],
+                      "coordinate": [
+                        -68.5167,
+                        63.7467
+                      ]
+                    },
+                    {
+                      "id": "ottawa",
+                      "image": [
+                        0.6795952782462057,
+                        0.8458181818181818
+                      ],
+                      "coordinate": [
+                        -75.69812,
+                        45.41117
+                      ]
+                    },
+                    {
+                      "id": "winnipeg",
+                      "image": [
+                        0.44013490725126475,
+                        0.7861818181818182
+                      ],
+                      "coordinate": [
+                        -97.1384,
+                        49.8951
+                      ]
+                    },
+                    {
+                      "id": "vancouver",
+                      "image": [
+                        0.12647554806070826,
+                        0.7287272727272728
+                      ],
+                      "coordinate": [
+                        -123.12,
+                        49.2827
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "revision": 2,
+                "command": {
+                  "type": "review",
+                  "georeference": true,
+                  "boundaries": true,
+                  "selectedIds": [
+                    "line:294"
+                  ]
+                }
+              }
+            ],
+            "coordinateMapping": {
+              "page": 1,
+              "pdfDpi": 144,
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1584,
+                "height": 1224
+              },
+              "analysisSize": [
+                1584,
+                1224
+              ],
+              "coordinateSpace": "exif-oriented-original-pixels"
+            },
+            "sourceEvidence": {
+              "id": "nrcan-canada-public-main",
+              "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/a5165a0a0c2a9ce921d30d1a536039b63be5d046/reports/map-analysis/corpus/macro-political/sources/nrcan-canada-monochrome.pdf",
+              "originalUrl": "https://ftp.maps.canada.ca/pub/nrcan_rncan/Geographical-maps_Carte-geographique/SmallScaleReferenceMaps/english_canada/b&w/Canadab&w.pdf",
+              "sourcePage": "https://open.canada.ca/data/en/dataset/e9ffaaa6-c8f0-4c88-be9a-5d019a919ad8",
+              "provider": "Natural Resources Canada",
+              "title": "Canada monochrome reference map - pinned public preservation copy",
+              "format": "pdf",
+              "license": "Open Government Licence - Canada; attribution: Natural Resources Canada; Contains information licensed under the Open Government Licence – Canada.",
+              "rightsReviewed": true,
+              "selectionReason": "Official nationwide monochrome map; original official server returned HTTP 503; user provided immutable public byte-preserving archive, independently checked against expected bytes and SHA256. No new publication.",
+              "expectedBytes": 841931,
+              "sha256": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+              "maximumBytes": 67108864,
+              "bytes": 841931,
+              "acquiredAt": "2026-10-25T08:19:12.107432+00:00",
+              "annotations": null,
+              "reviewedLabels": false,
+              "trainingReady": false
+            }
+          }
+        }
+      }
+    }
+  ]
+}
