@@ -36,3 +36,19 @@ work/ui 상설 워크트리에서 구현. main 93b6e1b17477080687e31b3eaa16f2596
 현재 제공 preview는 S642 화면 오차 한계를 초과하므로 공동 인증을 거부하고 canonical을 사용한다. 최종 개발 화면의 첫 거부 값은 약 0.5439261 CSS px였다. 이는 전체 지도의 최대 오차 측정치가 아니라 최초 초과 사례다. 원본 GIS나 preview 데이터는 재생성하지 않았다. 유효한 후보의 공동 파생/공유 경계/구면 반례는 단위 fixture로 확인했으며, 기본 제공 자료의 실제 저배율 preview 재활성화가 검증되었다고 주장하지 않는다.
 
 완료된 구현과 자동 검사, 제한된 WebView 관찰을 위와 같이 분리한다. main 통합·웹 배포·새 앱 산출물은 수행하지 않았다.
+## 정리 결과
+
+검증용 Chromium은 종료했다. 임시 로그 5개는 본 scope에 복사했으며 진행 메모는 본문으로 대체했다. 아래 재현 가능한 구버전 Worker 산출물 4개는 현재 소스/개발 서버 metadata에서 참조되지 않고 Windows 앱 프로세스도 종료된 상태임을 확인했다. 그러나 자동 승인 검토가 계산 경로 방식과 명시적 절대 경로 방식의 PowerShell 삭제를 모두 `blocked by policy`로 거부했다. 다른 도구로 우회하지 않았다. 삭제 성공 0바이트, 삭제로 인한 드라이브 여유 공간 변화 0바이트(삭제 명령 실행 전 거부), 보존 916,533 logical bytes다. 현재 실행상 소비자는 없으며 보존 이유는 삭제 차단이다.
+
+- assets/worker-runtime/633554467082d4d7f4c930309493b369: 241,259 bytes
+- assets/worker-runtime/654aef82659672d64856eaaf7e6057e7: 185,986 bytes
+- assets/worker-runtime/9c930c494a3f5a4259cb27d81833d2de: 188,642 bytes
+- assets/worker-runtime/f3cabab577433dc1795b3b71ce1946ce: 190,863 bytes
+- build-native/polygon-quality-baseline.log: 48,596 bytes
+- build-native/polygon-quality-browser.log: 825 bytes
+- build-native/polygon-quality-direct-tests.log: 3,906 bytes
+- build-native/polygon-quality-progress.md: 1,089 bytes
+- build-native/polygon-quality-tests.log: 52,680 bytes
+- build-native/polygon-quality-worker-tests.log: 2,687 bytes
+
+위 경로는 D:/dev/worktrees/ui/ 기준이며 source, 데이터 캐시, SDK, 상설 worktree, 다른 작업의 WIP를 삭제하지 않았다. 새로 유지하는 현재 Worker closure 685aeeeb5fb04787dd68270b742afbef와 bc695ce8055ff7a91fa0cb61a3546ac6은 현행 build metadata와 실행 경로가 소비하는 추적된 제품 산출물이다.
