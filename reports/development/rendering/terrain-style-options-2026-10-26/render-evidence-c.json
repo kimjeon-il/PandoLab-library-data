@@ -1,0 +1,128 @@
+{
+  "at": "2026-10-26T14:36:01.826Z",
+  "origin": "http://127.0.0.1:4173",
+  "health": {
+    "root": "D:\\dev\\worktrees\\ui",
+    "product": "viewer",
+    "profile": "map-data",
+    "revision": 0,
+    "error": null,
+    "executionMode": "development"
+  },
+  "results": [
+    {
+      "name": "c",
+      "style": "physical",
+      "file": "c-physical.png",
+      "view": {
+        "projection": "globe",
+        "flatProjectionKind": "equirectangular",
+        "size": {
+          "width": 1000,
+          "height": 712
+        },
+        "dpr": 1,
+        "sourceDpr": 1,
+        "safeInset": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 26
+        },
+        "translate": [
+          500,
+          343
+        ],
+        "scale": 1716.715,
+        "rotation": [
+          -85,
+          -31,
+          0
+        ],
+        "projectionCenter": null,
+        "flatCenter": [
+          85,
+          31
+        ],
+        "globeRotation": [
+          -85,
+          -31,
+          0
+        ],
+        "flatZoom": 1,
+        "globeZoom": 5.5,
+        "geographicCenter": [
+          85,
+          31
+        ],
+        "zoom": 5.5
+      },
+      "stats": {
+        "renderer": "webgl2",
+        "terrainReady": true,
+        "level": 4,
+        "tiles": 17,
+        "count": 17,
+        "detailed": true
+      },
+      "errors": []
+    },
+    {
+      "name": "c",
+      "style": "political",
+      "file": "c-political.png",
+      "view": {
+        "projection": "globe",
+        "flatProjectionKind": "equirectangular",
+        "size": {
+          "width": 1000,
+          "height": 712
+        },
+        "dpr": 1,
+        "sourceDpr": 1,
+        "safeInset": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 26
+        },
+        "translate": [
+          500,
+          343
+        ],
+        "scale": 1716.715,
+        "rotation": [
+          -85,
+          -31,
+          0
+        ],
+        "projectionCenter": null,
+        "flatCenter": [
+          85,
+          31
+        ],
+        "globeRotation": [
+          -85,
+          -31,
+          0
+        ],
+        "flatZoom": 1,
+        "globeZoom": 5.5,
+        "geographicCenter": [
+          85,
+          31
+        ],
+        "zoom": 5.5
+      },
+      "stats": {
+        "renderer": "webgl2",
+        "terrainReady": true,
+        "level": 4,
+        "tiles": 17,
+        "count": 17,
+        "detailed": true
+      },
+      "errors": []
+    }
+  ]
+}
