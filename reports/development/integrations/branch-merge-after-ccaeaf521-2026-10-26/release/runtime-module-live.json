@@ -1,0 +1,33 @@
+{
+  "sourceCommit": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+  "files": [
+    {
+      "path": "assets/js/modules/gpu-map-renderer.js",
+      "status": 200,
+      "bytes": 274623,
+      "sha256": "f83f651811771abc82f94fce7cc8b20d26194a3b7ca0467bd7472b628c029a63",
+      "sameAsPriorArtifact": true
+    },
+    {
+      "path": "assets/js/modules/gpu-terrain-preparation.js",
+      "status": 200,
+      "bytes": 32106,
+      "sha256": "04f59cdd52cb8699351d12e4dff9a8bfd70347d890e578c312179141f6aad4a4",
+      "sameAsPriorArtifact": true
+    },
+    {
+      "path": "assets/js/modules/viewer-map.js",
+      "status": 200,
+      "bytes": 33780,
+      "sha256": "f89a876f1b2870363841f980ac6fe321f5b138e4698ae5ac0406887f21a97c45",
+      "sameAsPriorArtifact": true
+    },
+    {
+      "path": "assets/worker-runtime/3d6c43e30e92ba639c302d45d68e7e35/assets/js/workers/canvas-render-worker.js",
+      "status": 200,
+      "bytes": 63515,
+      "sha256": "362a9b3acf24519107df740f864af4f20b3665e6e62d3b5ad5b44b976917ee8c",
+      "sameAsPriorArtifact": true
+    }
+  ]
+}

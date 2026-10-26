@@ -25,3 +25,5 @@ GEOS/PROJ 네이티브 검사는 동일 GIS소스43412a2fe의 원격40323665189�
 ## 실제 공개 배포 확인
 
 Pages40326591353의 build/deploy가 모두 성공했고, 현재 공개 사이트의 코드·자료 identity/manifest10개를 다시 받아 해시를 확인했다. sourceCommit은 dc70cbf0480f48fa3672d9979cb11927af6719ea, dataCommit은68380579다. 직전 지형·hover·클릭 배포ccaeaf521과 frontendInputSha256 동일 여부는 false이다. 실제 배포 증거는 release/에 보관했다.
+
+frontendInputSha256은 scripts/lib/frontend-build.mjs:107에서 sourceCommit과 생성된 build-meta/HTML 등까지 포함한다. 따라서 통합 후 identity hash가 달라지는 것은 정상이며 소스가 되돌아갔다는 의미가 아니다. 원본 앱·웹 소스의 Git diff는 비어 있고, 현재 공개 viewer-map/gpu-terrain-preparation/gpu-map-renderer3개 모듈의 바이트 해시도 직전 수정 배포와 동일하다. 현재 Canvas Worker까지4개 실응답이 최종 배포 산출물의 해시와 맞는 것을 별도로 확인했다(release/runtime-module-live.json).
