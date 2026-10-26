@@ -1,0 +1,69 @@
+{
+  "revision": "473b2babd37f0331af5e096ee4152a15af6a8d0f",
+  "files": [
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/0/0-0.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/929b6d1253df07fda982388fa6783a8739ba06e4bf2be1b1a70eaa0dca512878.bin",
+      "status": 200,
+      "bytes": 681592,
+      "sha256": "929b6d1253df07fda982388fa6783a8739ba06e4bf2be1b1a70eaa0dca512878"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/0/1-0.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/cc63a52bb3ec322a1f32e7f5d919e8771971dc7fd1ba5a3f589abc6b1ead525a.bin",
+      "status": 200,
+      "bytes": 236492,
+      "sha256": "cc63a52bb3ec322a1f32e7f5d919e8771971dc7fd1ba5a3f589abc6b1ead525a"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/1/0-0.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/a79ffe7a0e5aa7807ebe06fc3c2c9cf265913a485727eea37db077214f0d7425.bin",
+      "status": 200,
+      "bytes": 1054640,
+      "sha256": "a79ffe7a0e5aa7807ebe06fc3c2c9cf265913a485727eea37db077214f0d7425"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/1/0-1.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/ca258c20511944e51112262d6d16c7b96ba1b185e29b9512852d7acc3af37c96.bin",
+      "status": 200,
+      "bytes": 271956,
+      "sha256": "ca258c20511944e51112262d6d16c7b96ba1b185e29b9512852d7acc3af37c96"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/1/1-0.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/af0b2d14c5f705abfe2e74d0d6ba62b56a641f200863e539e8f0c4ebc4e9166b.bin",
+      "status": 200,
+      "bytes": 1062034,
+      "sha256": "af0b2d14c5f705abfe2e74d0d6ba62b56a641f200863e539e8f0c4ebc4e9166b"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/1/1-1.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/048a5d1f6314ae475dca418b0297af39e356b505eb2efbee7e6245c6126dc409.bin",
+      "status": 200,
+      "bytes": 247964,
+      "sha256": "048a5d1f6314ae475dca418b0297af39e356b505eb2efbee7e6245c6126dc409"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/1/2-0.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/bd8b14ab5a9ab461c72b9f45a45aa46aec9c7402292883bc22f93682bca34eb7.bin",
+      "status": 200,
+      "bytes": 741922,
+      "sha256": "bd8b14ab5a9ab461c72b9f45a45aa46aec9c7402292883bc22f93682bca34eb7"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/1/2-1.webp",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/55cbacb7de9c7ef829f854c784096e8e4afa7895b35cfb5e7c57ef4a32a6dabf.bin",
+      "status": 200,
+      "bytes": 158332,
+      "sha256": "55cbacb7de9c7ef829f854c784096e8e4afa7895b35cfb5e7c57ef4a32a6dabf"
+    },
+    {
+      "path": "assets/data/terrain-preview/v0.13.3-p2/manifest.json",
+      "url": "https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/473b2babd37f0331af5e096ee4152a15af6a8d0f/archive/blobs/def32b86bebf84a24ceecaf68caac7a8d711b4bb355115f983d5d98e3d87a870.gz",
+      "status": 200,
+      "bytes": 2316,
+      "sha256": "def32b86bebf84a24ceecaf68caac7a8d711b4bb355115f983d5d98e3d87a870"
+    }
+  ],
+  "pagesDeploymentVerified": false
+}

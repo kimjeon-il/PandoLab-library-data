@@ -1,0 +1,233 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\dev\\worktrees\\ui\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/browser/terrain-zoom-continuity.spec.mjs",
+      "tests/browser/startup-preview-webgl.spec.mjs",
+      "--grep",
+      "Canvas keeps|WebGL editor startup",
+      "--output=C:/Users/taeeu/.codex/tmp/pando-terrain-browser-results",
+      "--reporter=json"
+    ],
+    "configFile": "D:\\dev\\worktrees\\ui\\playwright.config.js",
+    "rootDir": "D:/dev/worktrees/ui/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/taeeu/.codex/tmp/pando-terrain-browser-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/dev/worktrees/ui/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" tests/browser/server.mjs",
+      "url": "http://127.0.0.1:4174",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "startup-preview-webgl.spec.mjs",
+      "file": "startup-preview-webgl.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WebGL editor startup remains editable without terrain or eager background data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9313,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T16:00:29.328Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d10c098eabdf6e49473e-2b3122b815e38d93609e",
+          "file": "startup-preview-webgl.spec.mjs",
+          "line": 6,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "terrain-zoom-continuity.spec.mjs",
+      "file": "terrain-zoom-continuity.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Canvas keeps land and ocean terrain through loaded zoom while new detail is delayed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 102138,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T16:00:39.528Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d50a9584f0b4e378ffb4-7a684a5aa771e3a526b0",
+          "file": "terrain-zoom-continuity.spec.mjs",
+          "line": 162,
+          "column": 1
+        },
+        {
+          "title": "Canvas keeps land and ocean terrain through startup zoom while new detail is delayed",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 122845,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 90000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 90000ms exceeded while waiting on the predicate\n    at D:\\dev\\worktrees\\ui\\tests\\browser\\terrain-zoom-continuity.spec.mjs:227:25",
+                    "location": {
+                      "file": "D:\\dev\\worktrees\\ui\\tests\\browser\\terrain-zoom-continuity.spec.mjs",
+                      "column": 25,
+                      "line": 227
+                    },
+                    "snippet": "  225 |     await expect.poll(()=>worker.evaluate(()=>{\n  226 |       const current=globalThis.__terrainCacheReadiness?.();return !!current?.ready&&current.baseReady;\n> 227 |     }),{timeout:90000}).toBe(true);\n      |                         ^\n  228 |     if (phase === 'startup') expect(await page.evaluate(() => {\n  229 |       const s = window.__PANDOLAB_VIEWER__.rendererStats();\n  230 |       return s.countriesPublishedGeneration === s.projectGeneration;"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\dev\\worktrees\\ui\\tests\\browser\\terrain-zoom-continuity.spec.mjs",
+                        "column": 25,
+                        "line": 227
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 90000ms exceeded while waiting on the predicate\n\n  225 |     await expect.poll(()=>worker.evaluate(()=>{\n  226 |       const current=globalThis.__terrainCacheReadiness?.();return !!current?.ready&&current.baseReady;\n> 227 |     }),{timeout:90000}).toBe(true);\n      |                         ^\n  228 |     if (phase === 'startup') expect(await page.evaluate(() => {\n  229 |       const s = window.__PANDOLAB_VIEWER__.rendererStats();\n  230 |       return s.countriesPublishedGeneration === s.projectGeneration;\n    at D:\\dev\\worktrees\\ui\\tests\\browser\\terrain-zoom-continuity.spec.mjs:227:25"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "CANVAS_TERRAIN_FAILURE {\"view\":{\"projection\":\"globe\",\"flatProjectionKind\":\"equirectangular\",\"size\":{\"width\":1100,\"height\":712},\"dpr\":1,\"sourceDpr\":1,\"safeInset\":{\"left\":0,\"right\":0,\"top\":0,\"bottom\":26},\"translate\":[550,343],\"scale\":390.1625,\"rotation\":[-28.780322171285178,-46.569577379383006,0],\"projectionCenter\":null,\"flatCenter\":[0,20],\"globeRotation\":[-28.780322171285178,-46.569577379383006,0],\"flatZoom\":1,\"globeZoom\":1.25,\"geographicCenter\":[28.780322171285206,46.569577379383006],\"zoom\":1.25},\"worker\":{\"scale\":390.1625,\"ready\":false,\"cache\":{\"baseReady\":true,\"ready\":false,\"missingBase\":[],\"missingDem\":[\"2/5-0\",\"2/4-1\"]}},\"heldRequests\":[],\"errors\":[]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T16:02:21.870Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\taeeu\\.codex\\tmp\\pando-terrain-browser-results\\terrain-zoom-continuity-Ca-f872b-while-new-detail-is-delayed\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\dev\\worktrees\\ui\\tests\\browser\\terrain-zoom-continuity.spec.mjs",
+                    "column": 25,
+                    "line": 227
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d50a9584f0b4e378ffb4-87ec07ebf41d35a59a2a",
+          "file": "terrain-zoom-continuity.spec.mjs",
+          "line": 162,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-26T16:00:28.601Z",
+    "duration": 236330.492,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

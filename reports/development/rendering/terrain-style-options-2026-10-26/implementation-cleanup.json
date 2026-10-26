@@ -1,0 +1,15 @@
+{
+  "attempt": "PowerShell Remove-Item after exact absolute-path/consumer/hash checks",
+  "status": "blocked before execution by automatic approval review",
+  "reason": "blocked by policy",
+  "target": "D:/dev/PandoLab-library-data/.pando-cache/materialized/ui/68380579a7c7a1bd8ec97683b7517502c1389c3c/assets/data/terrain-preview/v0.13.3-p2",
+  "logicalBytes": 4457248,
+  "removedLogicalBytes": 0,
+  "retainedAt": "D:/dev/PandoLab-library-data/.pando-cache/materialized/ui/473b2babd37f0331af5e096ee4152a15af6a8d0f/assets/data/terrain-preview/v0.13.3-p2",
+  "retainedFilesHashMatched": 9,
+  "remoteVerification": "implementation-preview-remote.json",
+  "noAlternateDeletionAttempt": true,
+  "additionalBlockedTarget": "C:/Users/taeeu/.codex/tmp/pando-terrain-browser-results",
+  "additionalBlockedBytes": 1682421,
+  "finalDDriveFreeBytes": 58546978816
+}

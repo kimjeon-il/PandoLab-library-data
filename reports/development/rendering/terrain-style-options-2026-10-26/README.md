@@ -37,3 +37,12 @@ node D:/dev/PandoLab-library-data/reports/.edits/ui/development/rendering/terrai
 ## 보관 상태
 
 기본 두 시안을 작성한 당시 선택 범위 `reports/development/rendering/terrain-style-options-2026-10-26`에 대해 `--publish-reports`를 두 차례 실행했지만, 다른 objects 작업이 가진 공유 라이브러리 잠금 때문에 저장 시작 전에 실패했다. 확인한 잠금 소유자는 PID 25688, checkout `.pando-worktrees/objects`였다. 해당 프로세스·잠금을 종료하거나 제거하지 않았다. 당시 시안 11개 파일 약 7.4MiB는 독립 편집본에 보존했고 원격 보관은 미완료였다. 혼합형까지 작성한 뒤 해당 작업의 잠금이 해제된 것을 확인했으며, 완료된 시안 범위만 다시 게시한다. 검증한 라이브러리 revision과 파일 수는 게시·재확인 명령의 완료 응답으로 기록한다.
+
+
+## 선택한 2안의 제품 적용 — 2026-10-27
+
+사용자가 2안을 선택하여 WebGL·Canvas·경량 미리보기의 기본 표현으로 적용했다. 새 모드나 강도 메뉴는 추가하지 않았고 앱의 지형 기능은 계속 비활성 상태다. 고도색 60% 혼합, 고도별 흑백 명도, 경사 2배 및 다방향 조명은 위 2안과 같다. 실제 원본 DEM과 육지 마스크, 좌표, 국경 및 저장 형식은 변경하지 않았다.
+
+실제 구현 범위·검사·미해결 한계·자료 보존·정리는 [구현 기록](implementation.md)에 기록한다. 실제 Canvas [색채](implemented-canvas-selected-physical.png), [흑백](implemented-canvas-selected-political.png), [국경·지명 포함](implemented-canvas-terrain-with-borders-and-labels.png)을 같은 카메라로 확인했다. WebGL 실제 지도는 별도 브라우저 품질 검사로 확인했다.
+
+미리보기는 LOD 0·1의 8개 타일만 재생성했다. 버전 0.13.3-p2, manifest 포함 4,457,248바이트(32MB 이하), 자료 커밋 473b2babd37f0331af5e096ee4152a15af6a8d0f이며 [원격 바이트 검증](implementation-preview-remote.json)을 마쳤다. 이번 작업은 work/ui 작업 커밋과 선택 자료·보고서 보관만 포함하며 앱 main 통합·배포·EXE/APK 생성은 하지 않는다.

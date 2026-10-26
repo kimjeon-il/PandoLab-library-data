@@ -1,0 +1,13 @@
+{
+  "schema": "pando-terrain-preview-audit",
+  "version": 1,
+  "errors": [],
+  "totalBytes": 4457248,
+  "tileCount": 8,
+  "manifestSha256": "def32b86bebf84a24ceecaf68caac7a8d711b4bb355115f983d5d98e3d87a870",
+  "sourceManifest": "contracts/terrain/preview-dem-source.json",
+  "head": "2ee8265e5eb5b045c825ade42a480b4f9347822a",
+  "worktreeChanges": [],
+  "passed": true,
+  "deploymentVerified": false
+}

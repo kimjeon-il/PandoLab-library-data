@@ -1,0 +1,19 @@
+{
+  "revision": "473b2babd37f0331af5e096ee4152a15af6a8d0f",
+  "base": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "remoteParent": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+  "preservedPending": "bbb65fff15606d0c56d8827a880d845597f7b4e4",
+  "protectedRef": "refs/pando/preserved/ui-runtime",
+  "files": [
+    "assets/data/terrain-preview/v0.13.3-p2/0/0-0.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/0/1-0.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/1/0-0.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/1/0-1.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/1/1-0.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/1/1-1.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/1/2-0.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/1/2-1.webp",
+    "assets/data/terrain-preview/v0.13.3-p2/manifest.json"
+  ],
+  "nonSelectedEntriesUnchanged": true
+}
