@@ -1,0 +1,24 @@
+{
+  "removedTargets": [],
+  "removedLogicalBytes": 0,
+  "status": "blocked before execution by automatic approval review",
+  "reason": "blocked by policy; no further deletion attempt or alternate tool used",
+  "retainedTemporary": {
+    "files": 82,
+    "bytes": 3829952,
+    "reason": "Lossless remote evidence verified; cleanup invocation blocked; pending history integration still uses resume ledger"
+  },
+  "retainedEndedTestExecutables": [
+    {
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\wasm\\hydro-common-tests.cjs",
+      "bytes": 160331
+    },
+    {
+      "path": "D:\\dev\\worktrees\\objects\\build-native\\wasm\\hydro-common-tests.wasm",
+      "bytes": 2232958
+    }
+  ],
+  "driveFreeChangeAttributedToDeletion": null,
+  "activeSdkBytes": 1970577553,
+  "activeCmakeNinjaBytes": 84851345
+}
