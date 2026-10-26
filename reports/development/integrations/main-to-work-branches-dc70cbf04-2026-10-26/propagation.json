@@ -1,0 +1,309 @@
+{
+  "target": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+  "results": [
+    {
+      "name": "ui",
+      "before": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "after": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "wipBefore": [
+        {
+          "status": " M",
+          "path": "apps/viewer/css/viewer.css",
+          "bytes": 4754,
+          "sha256": "e1b26754148e488700d78b083d7b3691ecc587bd257cbcb5cc08f3e734c46ea2",
+          "index": "100644 5ea67fe9d7143002117f91cca3b3931b0f367f14 0\tapps/viewer/css/viewer.css"
+        },
+        {
+          "status": " M",
+          "path": "shared/frontend/js/modules/timeline-controls.js",
+          "bytes": 9644,
+          "sha256": "4863a84e1b443939721edef876c4720511ec0110f5fdac99c5530ab14df7bf9c",
+          "index": "100644 932c2e988ab4acae900df4fe0e73805e19ac041e 0\tshared/frontend/js/modules/timeline-controls.js"
+        },
+        {
+          "status": " M",
+          "path": "shared/frontend/ui/fragments/timeline.html",
+          "bytes": 4025,
+          "sha256": "143b5ca4b99cffc0b7426b8fb9ba1c38e7cfd28007b0393b6c3778cf65ad2225",
+          "index": "100644 61d9c02438684dbc5ac1f72568e13e0314df7979 0\tshared/frontend/ui/fragments/timeline.html"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/builtin-country-loading.spec.mjs",
+          "bytes": 4478,
+          "sha256": "0f15e4f490ee6864aaacf932bc5698a03a47d34db0c16f4fd4c6a2c9bb45ab9d",
+          "index": "100644 a5cfa48bf174d27ef6515f0236417330ef9571a6 0\ttests/browser/builtin-country-loading.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/button-consistency.spec.mjs",
+          "bytes": 9537,
+          "sha256": "a990005675dd1d5c2c749e94ddd5e11acd1b749f9f28835abbe3842a2578a750",
+          "index": "100644 b99886f0c2a4dde83c24b85c01c4bc80070754a0 0\ttests/browser/button-consistency.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/editor-status-timeline.spec.mjs",
+          "bytes": 2526,
+          "sha256": "7026fc4511bf5bdc64bca2ea5c684b218dbd27a0de4ae6e6c7637df097bbe6e7",
+          "index": "100644 2f88d96badedf1ab5cb781f1ce045925b06b905c 0\ttests/browser/editor-status-timeline.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/historical-world-lifetime.spec.mjs",
+          "bytes": 4513,
+          "sha256": "886a3058ad45d13c047abc408246be68f2fc865afb9043979534717dfce50486",
+          "index": "100644 776505a26411709ad5592c793662ff0b6c5a67fb 0\ttests/browser/historical-world-lifetime.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/physical-land-time.spec.mjs",
+          "bytes": 14463,
+          "sha256": "fdda5f1175f8ff09a72aa3fb52e22a748af0586def07967194c03c45e940d544",
+          "index": "100644 8c9ff99af4e55e42c4403c811efbd4a60ca23fbd 0\ttests/browser/physical-land-time.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/resource-dependency-reuse.spec.mjs",
+          "bytes": 5121,
+          "sha256": "ae65f88b8ccdc8ebbb89df5f2c81443b69196b5a7042519bc4a9602a14661730",
+          "index": "100644 f04acfe36f7248fc9d6f079612eba417a864792b 0\ttests/browser/resource-dependency-reuse.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/shared-view-policy.spec.mjs",
+          "bytes": 14366,
+          "sha256": "434927abc73508ad3e263241f7cff54b3b73cf2970f2a40db999b8bf7ebaa6bb",
+          "index": "100644 d6cff4a31500f58071b034822de3390991e00f67 0\ttests/browser/shared-view-policy.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/soviet-transition-periods.spec.mjs",
+          "bytes": 3394,
+          "sha256": "a254fece54d8df1147a45f7e431f1e28a7e7170ea852c3be27cc0c04fb34e7cf",
+          "index": "100644 a72f246c8a323eb6ca54a4fe3112c906095356ea 0\ttests/browser/soviet-transition-periods.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/timeline-controls.spec.mjs",
+          "bytes": 12847,
+          "sha256": "4a4434b99bac4974d6d8d6269afc5867082681c6566b6d473f9f192b60126a04",
+          "index": "100644 b11ff44f3433fa98fcc1dc1a6764b1730f5bfc89 0\ttests/browser/timeline-controls.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/unified-object-display.spec.mjs",
+          "bytes": 4219,
+          "sha256": "511ab12fac70cad64306c2013a24e232106163d5a4cf60bb997b62cacf036b8e",
+          "index": "100644 c587e7ec583b89e23a4e6a1644aeeca1a779514f 0\ttests/browser/unified-object-display.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/ussr-1922-caspian.spec.mjs",
+          "bytes": 6736,
+          "sha256": "11d6fb736b930ba1a99e63148eb14d99a37d4fbd40929e6ced6ff92e83b398ea",
+          "index": "100644 e4463fe2007c1ee9ae1c277ccc873cad684bd6ee 0\ttests/browser/ussr-1922-caspian.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/viewer-project-open.spec.mjs",
+          "bytes": 7901,
+          "sha256": "eb3f7db9bde06ee16cb8d60008d6141ced1e7a52055e101b77a4871e6bcb51a4",
+          "index": "100644 9572eeebc9f4b99306be167d27202b905ff4c46b 0\ttests/browser/viewer-project-open.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/web-viewer.spec.mjs",
+          "bytes": 3901,
+          "sha256": "726b9edc18d976613b0656cdc3c145a5967a25a17cc29a51bb4218211d02a8e7",
+          "index": "100644 d0c5f0a50cdf6fbee2ab8e8eb7bbe9cef19fa383 0\ttests/browser/web-viewer.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/unit/product-html.test.mjs",
+          "bytes": 4606,
+          "sha256": "691299a0efc3317799986d39b302455ce6c4f4a679141ea175aaff8081735d73",
+          "index": "100644 4c7d707c28675e88d00c79e8a12c6e3560d11add 0\ttests/unit/product-html.test.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/unit/timeline-controls.test.mjs",
+          "bytes": 13475,
+          "sha256": "92d7a4d3cac471a2f94b1a3a6c6799bf534535e34498b1596a1b8e1800b197cd",
+          "index": "100644 aca0e96e21d52aee440d378476c58500a39ec488 0\ttests/unit/timeline-controls.test.mjs"
+        },
+        {
+          "status": "??",
+          "path": "docs/superpowers/plans/2026-10-26-year-first-timeline.md",
+          "bytes": 3542,
+          "sha256": "7b88221127e4a4badc9f1d6a1dda0a88d77c412a28e340701c3b8cbb681201d4",
+          "index": ""
+        }
+      ],
+      "wipAfter": [
+        {
+          "status": " M",
+          "path": "apps/viewer/css/viewer.css",
+          "bytes": 4754,
+          "sha256": "e1b26754148e488700d78b083d7b3691ecc587bd257cbcb5cc08f3e734c46ea2",
+          "index": "100644 5ea67fe9d7143002117f91cca3b3931b0f367f14 0\tapps/viewer/css/viewer.css"
+        },
+        {
+          "status": " M",
+          "path": "shared/frontend/js/modules/timeline-controls.js",
+          "bytes": 9644,
+          "sha256": "4863a84e1b443939721edef876c4720511ec0110f5fdac99c5530ab14df7bf9c",
+          "index": "100644 932c2e988ab4acae900df4fe0e73805e19ac041e 0\tshared/frontend/js/modules/timeline-controls.js"
+        },
+        {
+          "status": " M",
+          "path": "shared/frontend/ui/fragments/timeline.html",
+          "bytes": 4025,
+          "sha256": "143b5ca4b99cffc0b7426b8fb9ba1c38e7cfd28007b0393b6c3778cf65ad2225",
+          "index": "100644 61d9c02438684dbc5ac1f72568e13e0314df7979 0\tshared/frontend/ui/fragments/timeline.html"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/builtin-country-loading.spec.mjs",
+          "bytes": 4478,
+          "sha256": "0f15e4f490ee6864aaacf932bc5698a03a47d34db0c16f4fd4c6a2c9bb45ab9d",
+          "index": "100644 a5cfa48bf174d27ef6515f0236417330ef9571a6 0\ttests/browser/builtin-country-loading.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/button-consistency.spec.mjs",
+          "bytes": 9537,
+          "sha256": "a990005675dd1d5c2c749e94ddd5e11acd1b749f9f28835abbe3842a2578a750",
+          "index": "100644 b99886f0c2a4dde83c24b85c01c4bc80070754a0 0\ttests/browser/button-consistency.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/editor-status-timeline.spec.mjs",
+          "bytes": 2526,
+          "sha256": "7026fc4511bf5bdc64bca2ea5c684b218dbd27a0de4ae6e6c7637df097bbe6e7",
+          "index": "100644 2f88d96badedf1ab5cb781f1ce045925b06b905c 0\ttests/browser/editor-status-timeline.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/historical-world-lifetime.spec.mjs",
+          "bytes": 4513,
+          "sha256": "886a3058ad45d13c047abc408246be68f2fc865afb9043979534717dfce50486",
+          "index": "100644 776505a26411709ad5592c793662ff0b6c5a67fb 0\ttests/browser/historical-world-lifetime.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/physical-land-time.spec.mjs",
+          "bytes": 14463,
+          "sha256": "fdda5f1175f8ff09a72aa3fb52e22a748af0586def07967194c03c45e940d544",
+          "index": "100644 8c9ff99af4e55e42c4403c811efbd4a60ca23fbd 0\ttests/browser/physical-land-time.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/resource-dependency-reuse.spec.mjs",
+          "bytes": 5121,
+          "sha256": "ae65f88b8ccdc8ebbb89df5f2c81443b69196b5a7042519bc4a9602a14661730",
+          "index": "100644 f04acfe36f7248fc9d6f079612eba417a864792b 0\ttests/browser/resource-dependency-reuse.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/shared-view-policy.spec.mjs",
+          "bytes": 14366,
+          "sha256": "434927abc73508ad3e263241f7cff54b3b73cf2970f2a40db999b8bf7ebaa6bb",
+          "index": "100644 d6cff4a31500f58071b034822de3390991e00f67 0\ttests/browser/shared-view-policy.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/soviet-transition-periods.spec.mjs",
+          "bytes": 3394,
+          "sha256": "a254fece54d8df1147a45f7e431f1e28a7e7170ea852c3be27cc0c04fb34e7cf",
+          "index": "100644 a72f246c8a323eb6ca54a4fe3112c906095356ea 0\ttests/browser/soviet-transition-periods.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/timeline-controls.spec.mjs",
+          "bytes": 12847,
+          "sha256": "4a4434b99bac4974d6d8d6269afc5867082681c6566b6d473f9f192b60126a04",
+          "index": "100644 b11ff44f3433fa98fcc1dc1a6764b1730f5bfc89 0\ttests/browser/timeline-controls.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/unified-object-display.spec.mjs",
+          "bytes": 4219,
+          "sha256": "511ab12fac70cad64306c2013a24e232106163d5a4cf60bb997b62cacf036b8e",
+          "index": "100644 c587e7ec583b89e23a4e6a1644aeeca1a779514f 0\ttests/browser/unified-object-display.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/ussr-1922-caspian.spec.mjs",
+          "bytes": 6736,
+          "sha256": "11d6fb736b930ba1a99e63148eb14d99a37d4fbd40929e6ced6ff92e83b398ea",
+          "index": "100644 e4463fe2007c1ee9ae1c277ccc873cad684bd6ee 0\ttests/browser/ussr-1922-caspian.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/viewer-project-open.spec.mjs",
+          "bytes": 7901,
+          "sha256": "eb3f7db9bde06ee16cb8d60008d6141ced1e7a52055e101b77a4871e6bcb51a4",
+          "index": "100644 9572eeebc9f4b99306be167d27202b905ff4c46b 0\ttests/browser/viewer-project-open.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/browser/web-viewer.spec.mjs",
+          "bytes": 3901,
+          "sha256": "726b9edc18d976613b0656cdc3c145a5967a25a17cc29a51bb4218211d02a8e7",
+          "index": "100644 d0c5f0a50cdf6fbee2ab8e8eb7bbe9cef19fa383 0\ttests/browser/web-viewer.spec.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/unit/product-html.test.mjs",
+          "bytes": 4606,
+          "sha256": "691299a0efc3317799986d39b302455ce6c4f4a679141ea175aaff8081735d73",
+          "index": "100644 4c7d707c28675e88d00c79e8a12c6e3560d11add 0\ttests/unit/product-html.test.mjs"
+        },
+        {
+          "status": " M",
+          "path": "tests/unit/timeline-controls.test.mjs",
+          "bytes": 13475,
+          "sha256": "92d7a4d3cac471a2f94b1a3a6c6799bf534535e34498b1596a1b8e1800b197cd",
+          "index": "100644 aca0e96e21d52aee440d378476c58500a39ec488 0\ttests/unit/timeline-controls.test.mjs"
+        },
+        {
+          "status": "??",
+          "path": "docs/superpowers/plans/2026-10-26-year-first-timeline.md",
+          "bytes": 3542,
+          "sha256": "7b88221127e4a4badc9f1d6a1dda0a88d77c412a28e340701c3b8cbb681201d4",
+          "index": ""
+        }
+      ],
+      "wipByteAndIndexIdentical": true,
+      "mainTouchedWipPaths": []
+    },
+    {
+      "name": "objects",
+      "before": "821ee920d111164ccd48a147756984e0d9646b75",
+      "after": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "wipBefore": [],
+      "wipAfter": [],
+      "wipByteAndIndexIdentical": true,
+      "mainTouchedWipPaths": []
+    },
+    {
+      "name": "places",
+      "before": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "after": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "wipBefore": [],
+      "wipAfter": [],
+      "wipByteAndIndexIdentical": true,
+      "mainTouchedWipPaths": []
+    },
+    {
+      "name": "gis",
+      "before": "cdc05c8cdff91cce5425ff7bd1647cd5acec7a3a",
+      "after": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "wipBefore": [],
+      "wipAfter": [],
+      "wipByteAndIndexIdentical": true,
+      "mainTouchedWipPaths": []
+    }
+  ]
+}
