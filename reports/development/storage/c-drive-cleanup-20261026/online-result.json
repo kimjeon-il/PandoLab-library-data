@@ -1,0 +1,1311 @@
+{
+  "status": "filesystem-complete-offline-db-pending",
+  "sourceCommit": "c3cd830c7c5b5f328d1f9ac590d218621231f191",
+  "dataPin": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "initialDataPin": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+  "concurrentBranchSyncChangedPin": true,
+  "userCorrection": "discard obsolete moved source copies and temporary validation materials",
+  "totals": {
+    "CDeletedFiles": 104433,
+    "CLogicalDeletedBytes": 43066377934,
+    "DDiscardedMovedFiles": 4515,
+    "DDiscardedMovedBytes": 657973282,
+    "CTransferredBytes": 772039734,
+    "retainedGISBytes": 114066452,
+    "CDeletedAllocation": 23625606632,
+    "CTotalRetiredAllocation": 24291547332,
+    "CUniqueRetiredFileIds": 108296
+  },
+  "primary": {
+    "schema": "pando-generated-cleanup-v1",
+    "digest": "1f22f9513e23f4529dbe78f00fe5c614af47c51c7ba99b37f98cb1975e53c1d3",
+    "completedCount": 108925,
+    "pending": null,
+    "deletedBytes": 43065457546,
+    "relocatedBytes": 772039734,
+    "payloadBytesUnlinked": 36146776412,
+    "batch": null,
+    "copyPending": null,
+    "freeBytes": 50064908288,
+    "allocation": {
+      "manifestSha256": "1f22f9513e23f4529dbe78f00fe5c614af47c51c7ba99b37f98cb1975e53c1d3",
+      "files": 108925,
+      "uniqueFileIds": 108271,
+      "selectedUniqueAllocation": 24290572484,
+      "reclaimableAllocation": 24290572484,
+      "deleteOnlyReclaimableAllocation": 23624631784,
+      "sharedWithUnselectedAllocation": 0,
+      "note": "NTFS primary streams, file-ID deduplicated; excludes metadata and alternate streams"
+    },
+    "before": {
+      "C:/": 25959112704,
+      "D:/": 61005885440
+    },
+    "after": {
+      "C:/": 50064908288,
+      "D:/": 60212891648
+    },
+    "completedAt": "2026-10-26T13:28:30.088Z"
+  },
+  "residual": {
+    "schema": "pando-generated-cleanup-v1",
+    "digest": "671ae4627285c2a79a91c3d9eda3ffd49084e386c2d1b3a131d375a6efac0af7",
+    "completedCount": 25,
+    "pending": null,
+    "deletedBytes": 920388,
+    "relocatedBytes": 0,
+    "payloadBytesUnlinked": 920388,
+    "batch": null,
+    "copyPending": null,
+    "freeBytes": 50094579712,
+    "allocation": {
+      "files": 25,
+      "uniqueFileIds": 25,
+      "selectedUniqueAllocation": 974848,
+      "reclaimableAllocation": 974848,
+      "deleteOnlyReclaimableAllocation": 974848,
+      "sharedWithUnselectedAllocation": 0,
+      "note": "NTFS primary streams, file-ID deduplicated; excludes metadata and alternate streams"
+    },
+    "files": 25
+  },
+  "discard": {
+    "schema": "pando-generated-cleanup-v1",
+    "digest": "5c4272b03311dd43ccccff72f79b86a16410c7c9f196ff58c95daae4f987cbf0",
+    "completedCount": 4515,
+    "pending": null,
+    "deletedBytes": 657973282,
+    "relocatedBytes": 0,
+    "payloadBytesUnlinked": 657973282,
+    "batch": null,
+    "copyPending": null,
+    "freeBytes": 60924985344,
+    "files": 4515
+  },
+  "keptGIS": [
+    {
+      "source": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-ne-europe-20261021-bkg-vg250-2021.zip",
+      "path": "D:\\dev\\PandoLab-library-data\\private-evidence\\worktree-storage\\c-drive-cleanup-20261026\\Temp\\pandolab-ne-europe-20261021-bkg-vg250-2021.zip",
+      "bytes": 70234120,
+      "sha256": "82ce41a5f9216ffae797f23ac30a912ae70a6402300aaa6f5b6df2d6dc8e8ad3"
+    },
+    {
+      "source": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pandolab-ne-europe-20261021-lsib10_2.zip",
+      "path": "D:\\dev\\PandoLab-library-data\\private-evidence\\worktree-storage\\c-drive-cleanup-20261026\\Temp\\pandolab-ne-europe-20261021-lsib10_2.zip",
+      "bytes": 43832332,
+      "sha256": "c3883348ec495371b3c00ec58924190d4869d2b0f26a48b7a1d6ae601cde1866"
+    }
+  ],
+  "regenerated": [],
+  "emptyAnchors": {
+    "removed": [
+      "C:\\Users\\taeeu\\AppData\\Local\\PandoLab\\build-cache",
+      "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\crash-analysis-100226-23484",
+      "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\integration-33c0117-release-20260928",
+      "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\integration-7eba14d-release-20261002",
+      "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\integration-cc1dae8-release-20261002",
+      "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\m91-release-923f5ec-20261002",
+      "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\main-9024402-release-20261002",
+      "C:\\Users\\taeeu\\AppData\\Local\\npm-cache",
+      "C:\\Users\\taeeu\\AppData\\Local\\pip\\Cache",
+      "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-checks-dnz8tq",
+      "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-checks-WVoEPb"
+    ],
+    "blocked": [],
+    "logicalBytes": 0
+  },
+  "removedFinishedAuditBytes": 8891018,
+  "checks": {
+    "unitTests": 32,
+    "eslint": true,
+    "protectedCriticalFiles": 9,
+    "protectedHashesAndIdsEqual": true,
+    "windowsBuildInfo": {
+      "embeddedAssets": false,
+      "executionMode": "development",
+      "mode": "development",
+      "nativeInputSha256": "4d5178f982608a577cb1316528626991114908f23ee29d55d3e32fdbb5da813c",
+      "origin": "http://127.0.0.1:4175",
+      "platform": "windows",
+      "profile": "map-data",
+      "sourceCommit": "3897ad26c295dc9082b5cb64282395f990d8bb01",
+      "target": "x86_64-pc-windows-msvc",
+      "toolchainVersion": "1.99.1",
+      "verification": false
+    },
+    "adb": "Android Debug Bridge version 1.0.41\r\nVersion 37.0.1-15733141\r\nInstalled as C:\\Users\\taeeu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe\r\nRunning on Windows 10.0.26300\r\n",
+    "gpu": "{\"version\": \"2.14.1+cu126\", \"cuda\": true, \"devices\": 1}\r\n"
+  },
+  "beforeSpace": {
+    "C:/": 25959112704,
+    "D:/": 61005885440
+  },
+  "finalSpace": {
+    "C:/": 48220753920,
+    "D:/": 60928557056
+  },
+  "measuredDelta": {
+    "C:/": 22261641216,
+    "D:/": -77328384
+  },
+  "preservedReasons": [
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\aqt-discovery.log",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\aqt-install.log",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\avd",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\build-final.log",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\build-first.log",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\build-second.log",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\source",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\android\\user",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\autosave-stderr.txt",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\autosave-stdout.txt",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\m34-m35-source",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\m5-source",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Pandoeditor\\m91-source",
+      "reason": "source link, signing key/user directory or unclassified content"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\.codex\\cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Code Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\GPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\DawnGraphiteCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\DawnWebGPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Code Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\GPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\DawnGraphiteCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\DawnWebGPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-browser-app\\Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-browser-app\\Code Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-browser-app\\GPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-browser-app\\DawnGraphiteCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-browser-app\\DawnWebGPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-mcp-app-sandbox%3Ashared\\Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-mcp-app-sandbox%3Ashared\\Code Cache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-mcp-app-sandbox%3Ashared\\GPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-mcp-app-sandbox%3Ashared\\DawnGraphiteCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Roaming\\Codex\\web\\Codex\\Default\\Partitions\\codex-mcp-app-sandbox%3Ashared\\DawnWebGPUCache",
+      "reason": "offline phase: live Codex/Edge cache"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-4Ofn4Q",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-c3e4bY",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-DRUobl",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-giPWfB",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-o75paG",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-uFGv5L",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-cleanup-test-XTv8NI",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-0ihon6",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-0M9brA",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-0wxIwo",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-1nR5Dx",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-3I2Iy5",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-3ZdEMU",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-5ap0GG",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-5Q1jnJ",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-5tbFIE",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-5VqBmv",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-5XVZ7R",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-6PU8k6",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-6QCejD",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-70BLCf",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-83VAU1",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-8GGUOv",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-8TKXnS",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-9h0i4A",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-9J9oi8",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-9lM54g",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-9ppqpJ",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-A3UQK8",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-aagC87",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Bfh2VA",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-bmPLEP",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-bv3lli",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-CObrN7",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-d3ivwu",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-DbNvSw",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-dKoWA4",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-dPnwAs",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Dq2IMs",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Dvl6a4",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-e8VJyg",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-EbYaTd",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-eXWlOj",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-EYE8Ku",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-fa8jtZ",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-FHY4uB",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-FXgyVM",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Fzuhxx",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-gnP1jc",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-hCK10U",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-i0dJvV",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-I0lRTv",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ig82C3",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ijlNY2",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-IlRHJK",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-IPH517",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-iQ37xJ",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-iTwc7Y",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-j0rXAs",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-j55y3e",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-jgC7rJ",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-JInBLR",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-JT1QON",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-k81zdO",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-L1LdyZ",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-L3QpyD",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-lcP7Re",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Lo8HRu",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-LoeTOm",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-lvjI0b",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-M2ejRv",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-mHrNtm",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Ml1K6Q",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-mzPHbR",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-N0AF38",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-NeKbPC",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-New2bV",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-nmXL8z",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-NVzy2d",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-NXD4Aj",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-oJQwGL",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-omHmhG",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-PL7Q75",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-pLbJIk",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-PVsI4X",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-PXxIhp",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Qawo1c",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-qC1s6o",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-qj5QJT",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-QpCoZu",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-qyIQTg",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-s19c7g",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-SFt8Cc",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-stQhGY",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-SxUR4M",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-TDYwHW",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-tqOddq",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-uJCGwN",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-UKMOVg",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-UvuyHi",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-uzFGJF",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-vaIi7E",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-VcRNPM",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-VPO0Rl",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-vzmxBn",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-W8rjtO",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-WFesS7",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-wNFL8S",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-WOlhIf",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-WuKWDz",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-X3KlHc",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-X9LoLv",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-XMor38",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Y4D0XU",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ya8suc",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-yctkzg",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ysCjja",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-YXEyq5",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ZBjDiO",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-Zgld61",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ZKSwH1",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ZLht8i",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ZpW6km",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\pando-pages-ZYtz7V",
+      "reason": "contains a reparse point; preserve whole scope without following it"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-2yNWuU",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-3KHtE7",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-6MyB86",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-7i8eqS",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-9qVs7M",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-Ak5aXA",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-BymUs5",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-CUUiG5",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-DQxVNT",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-eE54If",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-fP6Dda",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-FsYxIX",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-FTqil9",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-g9wLb7",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-gtXUE1",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-HMCHQf",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-IH6ssT",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-j9v96A",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-JgmJjd",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-jMK7ok",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-jXC5pw",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-KjPxIb",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-MM1Yaq",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-moXCne",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-PFjbFo",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-PFZZJy",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-rbbUDt",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-t9t2wU",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-uglT3f",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-v8PZlE",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-vGvdsg",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-vZ9CYe",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-WdFhFP",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-XCXPJh",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-YItOh8",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-YQVGMZ",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-artifacts-zSC3vM",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright-transform-cache",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-0H5Hd7",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-0wNNNP",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-1Gdye9",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-2T6gS1",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-3D0wtF",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-3eTYsd",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-3TkmML",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-3wwsdq",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-4NoskJ",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-5rVx6j",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-5TSDoV",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-7KSUC3",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-7pBtrX",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-8uzcJ9",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-9yQbC4",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-AvyTyA",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-BbaIAg",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-BedFOV",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-BxP1qT",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-cACxtK",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-CIrImy",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-cjvDfx",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-CKRrAs",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-cyVqST",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-DBOtwF",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-dDclEY",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-fCe5XY",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-fkg9Ot",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-fThYxP",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-gjVxip",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-goPsR1",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-GWuhRS",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-GyyMEM",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-h1xS6p",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-HkXru7",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-HwRr80",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-i3n9KJ",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-ihw210",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-ij2TYl",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-jFMniX",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-JFwfc7",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-JHcKFB",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-JppUZ9",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-kBuxa8",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-kUI1vY",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-L3Nkuv",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-lhbBuR",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-LNnJZ9",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-mj7pY3",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-MKCVut",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-mUzvz0",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-NeM4gl",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-NQtVvg",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-O7FsgB",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-O8LIB9",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-oHRhqT",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-orn2j3",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-pF3Rrm",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-PIwKQP",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-PKdO4O",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-pyF7Cs",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-QbGGJk",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-qqX1qQ",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-qYExyh",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-r1tOCm",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-rjdsaD",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-S0KjZf",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-s4hy6r",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-s5ZsXG",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-SamZ00",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-SblI62",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-sc4j29",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-sSVj5y",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-su5j2H",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-SwNLZe",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-tiynCw",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-um1feh",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-Upw2Ka",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-urp3st",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-uYBdBO",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-vBUcLY",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-vgGdrR",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-vKpBtn",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-vvTrfh",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-wCdhEa",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-YhwBFz",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-z5bF5t",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    },
+    {
+      "path": "C:\\Users\\taeeu\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-zS26Yl",
+      "reason": "automation browsers active; defer profile/artifact cleanup to offline phase"
+    }
+  ],
+  "offline": {
+    "command": "D:\\build\\cache\\pandolab\\c-drive-cleanup-20261026\\run-offline.cmd",
+    "phase": "awaiting-normal-Codex-and-Edge-exit",
+    "backupCreated": false
+  },
+  "spaceObservations": [
+    {
+      "phase": "operation-complete",
+      "free": {
+        "C:/": 50064908288,
+        "D:/": 60212891648
+      }
+    },
+    {
+      "phase": "finished-file-cleanup",
+      "free": {
+        "C:/": 48220753920,
+        "D:/": 60928557056
+      }
+    }
+  ],
+  "CDriveOperationMeasuredGain": 24105795584
+}
