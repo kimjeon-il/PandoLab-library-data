@@ -232,3 +232,5 @@
 - GEO-REVIEW-20261025-2200: [국가·시대별 자동 검토 — 신규2건·현행 기간 충돌·문헌 표현 정밀화](borders/validation/reviews/scheduled-2026-10-25-2200/README.md) — report-only / runtime-not-changed.
 
 - [1922 소련 중앙아시아 승인 국소 경계: 히바·아트렉·사라흐스](borders/reconstruction/ussr-central-asia-approved-2026-10-26/README.md) — 부하라 접속 추가 검토 보류; 기존 유럽·기간·수역 보존.
+
+- [1922 소련 부하라 승인 후속 경계](borders/reconstruction/ussr-bukhara-approved-2026-10-26/README.md)
