@@ -1,0 +1,119 @@
+{
+  "status": "complete-work-objects-publication",
+  "userApprovedDataHistoryIntegration": true,
+  "appCommit": "9956384e84794efce86f2639091ac4eb1b23aadb",
+  "dataCommit": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+  "activeDataMount": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c\\assets\\data",
+  "appRemoteVerified": true,
+  "dataRemoteVerified": true,
+  "priorTestedModelCommit": "e5cb51a6e158f7ef0aed4a3dedaf03f691c81c63",
+  "codeDifferenceAfterWorkflowProof": [
+    "config/library-data.json"
+  ],
+  "applicationTestsRerun": false,
+  "GisRegeneration": false,
+  "mainIntegration": false,
+  "otherBranchPropagation": false,
+  "deployment": false,
+  "proof": {
+    "revision": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+    "remote": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+    "branch": "work/objects",
+    "parentsPreserved": true,
+    "unchangedUnselectedMetadata": 910,
+    "inspectionScope": "Archive dependency metadata and ten directly affected outputs only; no country geometry audit or test rerun.",
+    "receipts": [
+      {
+        "file": "assets/data/physical-land/v1/manifest.json",
+        "sha256": "dd5fd5bdd4394b9e7055765e375b8b83bc167f34794add2666bf133bce6768f2",
+        "bytes": 3647
+      },
+      {
+        "file": "assets/data/physical-land/v1/geometry.json.gz",
+        "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98",
+        "bytes": 4357309
+      },
+      {
+        "file": "assets/data/physical-land/v1/caspian-1922-land.json.gz",
+        "sha256": "487594cc829d8d58ebb0ab7a04eace628fe58864262e4eb4533af8245ca96ec4",
+        "bytes": 4423308
+      },
+      {
+        "file": "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+        "sha256": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1",
+        "bytes": 101744
+      },
+      {
+        "file": "assets/data/physical-land/v1/caspian-modern-water.json.gz",
+        "sha256": "725b25e5076d38d74df2f67cbec465b87ae638f3855b025898334af4bfaa00fb",
+        "bytes": 20786
+      },
+      {
+        "file": "assets/data/territorial-entities/source/countries/waterbody-caspian.json",
+        "sha256": "c2716e79645ebaa46682617382f6b794820499044e3428a02108c594e67394ed",
+        "bytes": 1062092
+      },
+      {
+        "file": "assets/data/territorial-entities/generated/v2/waterbody-caspian.json.gz",
+        "sha256": "13e1c5dd5699a3599bf236174802db65ce2795f2567a93108a9f36fe5c35ba8f",
+        "bytes": 155320
+      },
+      {
+        "file": "assets/data/territorial-entities/generated/v2/index.json",
+        "sha256": "a5f9f036a6aa2749ec3505f1ab158718777a5ff456a6612c8c8f5dcc59840334",
+        "bytes": 704144
+      },
+      {
+        "file": "assets/data/builtin-world/generated/v1/index.json",
+        "sha256": "a78499fdd743ae73789d154aabc1d5fc66668de2ed34fcc3acdf92d7e0907379",
+        "bytes": 146931
+      },
+      {
+        "file": "assets/data/builtin-world/generated/v1/transport/countries-sha256-79581c63cbebe35531701eda99dc29b3b9e20fff8e627bbc38b7f55c25ba733a.bin",
+        "sha256": "79581c63cbebe35531701eda99dc29b3b9e20fff8e627bbc38b7f55c25ba733a",
+        "bytes": 11868393
+      }
+    ],
+    "wasmAssets": [
+      {
+        "file": "pandoeditor-core.js",
+        "sha256": "a3e073bd42d892b9616a6b82d956d60c597622d0a127132b5861b445b314486e"
+      },
+      {
+        "file": "pandoeditor-core.wasm",
+        "sha256": "d3bc87cf5ecd2f61de55e24a04526e60746d0bb1aeefc83bdaa546f87febd17e"
+      }
+    ]
+  },
+  "pinMerge": {
+    "pinned": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+    "task": "bd7e4eba99cbf71bf4713761a955b396a98ce6a5",
+    "conflicts": [
+      "archive/index.json"
+    ],
+    "rule": "Pinned unselected inputs; approved task outputs for three explicit runtime scopes and native library manifest. Both histories retained as merge parents.",
+    "branch": "work/objects"
+  },
+  "oldBranchMerge": {
+    "paths": 353,
+    "locallyAvailableHistoricalBlobs": 706,
+    "classes": {
+      "archive/blobs": 30,
+      "archive/index.json": 1,
+      "assets/data": 290,
+      "library.json": 1,
+      "reports/README.md": 1,
+      "reports/development": 21,
+      "reports/geography": 9
+    },
+    "resolution": "Current paired snapshot is active. Incoming historical contents retained by the complete old work/objects parent history; no incoming runtime or report format is reactivated.",
+    "parents": [
+      "513e3a719b8a61e43459bf7a5b4b625ac62008bb",
+      "ea843c09e790245cbcfe35a44051b2d67534ee4e"
+    ]
+  },
+  "remaining": [
+    "Previously recorded Aland PL-MESH-NOT-PREPARED close-up error; no new cause claim",
+    "Prior temporary cleanup rejected by policy; no retry in this follow-up"
+  ]
+}
