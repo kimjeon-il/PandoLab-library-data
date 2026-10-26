@@ -1,0 +1,202 @@
+[
+  {
+    "file": "apps/editor/frontend/js/bootstrap.js",
+    "line": 101,
+    "kind": "style-assignment",
+    "target": "progressBar",
+    "property": "width",
+    "value": "`${Math.max(0, Math.min(100, Number(percent) || 0))}%`",
+    "review": "progress-value",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/gis-io.js",
+    "line": 680,
+    "kind": "style-assignment",
+    "target": "bar",
+    "property": "width",
+    "value": "`${Math.max(0, Math.min(100, percent))}%`",
+    "review": "progress-value",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/modules/app-interaction-packets.js",
+    "line": 102,
+    "kind": "style-assignment",
+    "target": "node",
+    "property": "strokeWidth",
+    "value": "`${style.width}px`",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/modules/custom-color-control.js",
+    "line": 93,
+    "kind": "style-assignment",
+    "target": "preview",
+    "property": "backgroundColor",
+    "value": "color",
+    "review": "model-derived-color",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/modules/editing-presentation.js",
+    "line": 34,
+    "kind": "style-assignment",
+    "target": "this",
+    "property": "strokeWidth",
+    "value": "`${style.width}px`",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/modules/overlay-scrollbars.js",
+    "line": 54,
+    "kind": "style-assignment",
+    "target": "track",
+    "property": "height",
+    "value": "`${element.clientHeight}px`",
+    "review": "measured-layout",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/modules/overlay-scrollbars.js",
+    "line": 61,
+    "kind": "style-assignment",
+    "target": "thumb",
+    "property": "height",
+    "value": "`${g.thumb}px`",
+    "review": "measured-layout",
+    "violationProven": false
+  },
+  {
+    "file": "apps/editor/frontend/js/modules/project-setup-dialog.js",
+    "line": 24,
+    "kind": "style-assignment",
+    "target": "box",
+    "property": "display",
+    "value": "'block'",
+    "review": "visibility-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/app-map-settings.js",
+    "line": 807,
+    "kind": "style-assignment",
+    "target": "bar",
+    "property": "background",
+    "value": "`linear-gradient(90deg, color-mix(in srgb, ${layer.color} 12%, transparent), color-mix(in srgb, ${layer.color} 70%, transparent))`",
+    "review": "model-derived-color",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/color-adapter.js",
+    "line": 41,
+    "kind": "style-assignment",
+    "target": "target.feature.properties",
+    "property": "color",
+    "value": "color",
+    "review": "model-data-not-dom-style",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+    "line": 1426,
+    "kind": "style-assignment",
+    "target": "canvas",
+    "property": "width",
+    "value": "'100%'",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+    "line": 1427,
+    "kind": "style-assignment",
+    "target": "canvas",
+    "property": "height",
+    "value": "'100%'",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+    "line": 2778,
+    "kind": "style-assignment",
+    "target": "canvas",
+    "property": "width",
+    "value": "'100%'",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+    "line": 2779,
+    "kind": "style-assignment",
+    "target": "canvas",
+    "property": "height",
+    "value": "'100%'",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+    "line": 2805,
+    "kind": "style-assignment",
+    "target": "canvas",
+    "property": "width",
+    "value": "'100%'",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+    "line": 2806,
+    "kind": "style-assignment",
+    "target": "canvas",
+    "property": "height",
+    "value": "'100%'",
+    "review": "map-rendering-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/label-presentation.js",
+    "line": 29,
+    "kind": "style-assignment",
+    "target": "this",
+    "property": "display",
+    "value": "'none'",
+    "review": "visibility-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/label-presentation.js",
+    "line": 58,
+    "kind": "style-assignment",
+    "target": "image",
+    "property": "display",
+    "value": "flag ? '' : 'none'",
+    "review": "visibility-presentation",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/select-controller.js",
+    "line": 127,
+    "kind": "style-assignment",
+    "target": "component.popover",
+    "property": "width",
+    "value": "`${width}px`",
+    "review": "measured-layout",
+    "violationProven": false
+  },
+  {
+    "file": "shared/frontend/js/modules/timeline-resolver.js",
+    "line": 30,
+    "kind": "style-assignment",
+    "target": "properties",
+    "property": "color",
+    "value": "'#' + values.color.color.toString(16).padStart(6, '0')",
+    "review": "model-data-not-dom-style",
+    "violationProven": false
+  }
+]

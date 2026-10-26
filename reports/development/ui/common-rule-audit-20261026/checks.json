@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ui-architecture",
+    "code": 0,
+    "lines": 1,
+    "summary": [
+      "UI architecture audit passed: 1 surface contracts, 26 layered CSS file(s), 4 legacy CSS ratchet(s)."
+    ]
+  },
+  {
+    "name": "ui-components",
+    "code": 0,
+    "lines": 1,
+    "summary": [
+      "UI component audit passed: 28 primitives, 140 static/dynamic buttons."
+    ]
+  },
+  {
+    "name": "ui-layering",
+    "code": 0,
+    "lines": 1,
+    "summary": [
+      "UI layering audit passed: 25 canonical layered stylesheets, no phase cleanup runtime."
+    ]
+  },
+  {
+    "name": "ui-spacing",
+    "code": 0,
+    "lines": 1,
+    "summary": [
+      "UI spacing audit passed: 1817 rules, 52 direct-px declarations, 954 tokenized declarations."
+    ]
+  },
+  {
+    "name": "ui-information-architecture",
+    "code": 0,
+    "lines": 1,
+    "summary": [
+      "UI information architecture audit passed: 4 current surface variants and create/editor hierarchy are canonical."
+    ]
+  }
+]

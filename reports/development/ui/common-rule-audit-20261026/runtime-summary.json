@@ -1,0 +1,140 @@
+{
+  "states": [
+    {
+      "name": "web-desktop-date-frozen",
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      },
+      "layout": "compact",
+      "visible": 16,
+      "reachable": 16
+    },
+    {
+      "name": "editor-desktop-search-frozen",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "layout": "wide",
+      "visible": 13,
+      "reachable": 13
+    },
+    {
+      "name": "editor-desktop-inspector",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "layout": "wide",
+      "visible": 20,
+      "reachable": 20
+    },
+    {
+      "name": "editor-desktop-color-palette",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "layout": "wide",
+      "visible": 87,
+      "reachable": 85
+    },
+    {
+      "name": "editor-desktop-custom-color",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "layout": "wide",
+      "visible": 32,
+      "reachable": 30
+    },
+    {
+      "name": "editor-mobile-custom-color",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "layout": "mobile",
+      "visible": 31,
+      "reachable": 17
+    },
+    {
+      "name": "editor-mobile-baseline",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "layout": "mobile",
+      "visible": 7,
+      "reachable": 7
+    },
+    {
+      "name": "editor-mobile-menu",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "layout": "mobile",
+      "visible": 11,
+      "reachable": 11
+    },
+    {
+      "name": "editor-mobile-preferences",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "layout": "mobile",
+      "visible": 22,
+      "reachable": 15
+    },
+    {
+      "name": "editor-phone-landscape",
+      "viewport": {
+        "height": 390,
+        "width": 844
+      },
+      "layout": "compact",
+      "visible": 9,
+      "reachable": 9
+    },
+    {
+      "name": "editor-narrow320-menu",
+      "viewport": {
+        "height": 640,
+        "width": 320
+      },
+      "layout": "mobile",
+      "visible": 11,
+      "reachable": 11
+    },
+    {
+      "name": "web-narrow320-date",
+      "viewport": {
+        "height": 640,
+        "width": 320
+      },
+      "layout": "mobile",
+      "visible": 11,
+      "reachable": 9
+    }
+  ],
+  "stateObservationCount": 270,
+  "iconObservationCount": 65,
+  "iconCenterFailures": [],
+  "nonSquareIcons": [
+    {
+      "state": "editor-mobile-custom-color",
+      "id": "",
+      "label": "색상 선택 취소",
+      "width": 40,
+      "height": 48,
+      "dx": 0,
+      "dy": 0,
+      "reachable": false
+    }
+  ],
+  "note": "Repeated observations are not unique instantiated controls. Visible rows behind a popup are not necessarily reachable."
+}

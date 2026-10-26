@@ -1,0 +1,19 @@
+{
+  "auditSourceCommit": "095d312fd32479dfd393f352eb4d74a475f2a916",
+  "currentHead": "3d5744b81758c4a0d4502e205b30c44cdc6109af",
+  "drift": [
+    {
+      "file": "shared/frontend/js/modules/gpu-map-renderer.js",
+      "inventorySha256": "6b98b45503c2a740d7f9a03acb97eb23b64f7e7277e64d2d0dda3111a3e1e3d0",
+      "currentSha256": "b0e815d9837f451bbbfcf3717978179411f5e5d65f25b61820e416f441c8b636",
+      "definesAuditedControls": false
+    },
+    {
+      "file": "shared/frontend/js/workers/canvas-render-worker.js",
+      "inventorySha256": "362a9b3acf24519107df740f864af4f20b3665e6e62d3b5ad5b44b976917ee8c",
+      "currentSha256": "00ef5cc819a98e0ed1c7812edde61ad2077c395193e617b63f4fd80c48f1abd8",
+      "definesAuditedControls": false
+    }
+  ],
+  "handling": "Other chat rendering changes preserved; fixed observe:false frontend snapshot; no audited UI definition source changed."
+}

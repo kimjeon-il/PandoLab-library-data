@@ -1,0 +1,1045 @@
+[
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 3,
+    "layer": "product-entry",
+    "selector": ".viewer-root #map",
+    "context": "",
+    "property": "width",
+    "value": "100%",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 3,
+    "layer": "product-entry",
+    "selector": ".viewer-root #map",
+    "context": "",
+    "property": "height",
+    "value": "100%",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 5,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerCanvas,\n.viewer-root #viewerLabels",
+    "context": "",
+    "property": "position",
+    "value": "absolute",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 5,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerCanvas,\n.viewer-root #viewerLabels",
+    "context": "",
+    "property": "inset",
+    "value": "0",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 5,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerCanvas,\n.viewer-root #viewerLabels",
+    "context": "",
+    "property": "width",
+    "value": "100%",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 5,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerCanvas,\n.viewer-root #viewerLabels",
+    "context": "",
+    "property": "height",
+    "value": "100%",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 6,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerLabels",
+    "context": "",
+    "property": "pointer-events",
+    "value": "none",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "position",
+    "value": "absolute",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "width",
+    "value": "1px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px",
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "height",
+    "value": "1px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px",
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "padding",
+    "value": "0",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "margin",
+    "value": "-1px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px",
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "overflow",
+    "value": "hidden",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "clip-path",
+    "value": "inset(50%)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "white-space",
+    "value": "nowrap",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 7,
+    "layer": "product-entry",
+    "selector": ".viewer-root #viewerSelectionStatus",
+    "context": "",
+    "property": "border",
+    "value": "0",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "id-selector"
+    ],
+    "classification": "product-entry-selector-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 8,
+    "layer": "product-entry",
+    "selector": ".viewer-map-tools",
+    "context": "",
+    "property": "inset",
+    "value": "auto max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left))",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 8,
+    "layer": "product-entry",
+    "selector": ".viewer-map-tools",
+    "context": "",
+    "property": "min-height",
+    "value": "52px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 10,
+    "layer": "product-entry",
+    "selector": ".viewer-root .timeline-controls",
+    "context": "",
+    "property": "padding",
+    "value": "var(--ui-toolbar-padding)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 11,
+    "layer": "product-entry",
+    "selector": ".timeline-controls .timeline-date-button",
+    "context": "",
+    "property": "padding",
+    "value": "0 var(--ui-space-1)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 11,
+    "layer": "product-entry",
+    "selector": ".timeline-controls .timeline-date-button",
+    "context": "",
+    "property": "font-size",
+    "value": "var(--ui-font-body)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 11,
+    "layer": "product-entry",
+    "selector": ".timeline-controls .timeline-date-button",
+    "context": "",
+    "property": "font-weight",
+    "value": "var(--ui-weight-semibold)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 12,
+    "layer": "product-entry",
+    "selector": ".timeline-date-button span",
+    "context": "",
+    "property": "line-height",
+    "value": "1.15",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 15,
+    "layer": "product-entry",
+    "selector": ".timeline-popover",
+    "context": "",
+    "property": "bottom",
+    "value": "calc(100% + 8px)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 15,
+    "layer": "product-entry",
+    "selector": ".timeline-popover",
+    "context": "",
+    "property": "width",
+    "value": "min(20rem, calc(100vw - 32px))",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 15,
+    "layer": "product-entry",
+    "selector": ".timeline-popover",
+    "context": "",
+    "property": "max-height",
+    "value": "calc(100dvh - 120px)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 15,
+    "layer": "product-entry",
+    "selector": ".timeline-popover",
+    "context": "",
+    "property": "padding",
+    "value": "16px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 16,
+    "layer": "product-entry",
+    "selector": ".timeline-popover h2",
+    "context": "",
+    "property": "margin",
+    "value": "0 0 12px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 17,
+    "layer": "product-entry",
+    "selector": ".timeline-popover form",
+    "context": "",
+    "property": "gap",
+    "value": "8px 12px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 18,
+    "layer": "product-entry",
+    "selector": ".timeline-month-fields:not([hidden])",
+    "context": "",
+    "property": "gap",
+    "value": "8px 12px",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "font",
+    "value": "inherit",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "color",
+    "value": "var(--text)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "background-color",
+    "value": "var(--panel)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "border",
+    "value": "var(--ui-border-width) solid var(--map-status-border)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "border-radius",
+    "value": "var(--ui-radius-control)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "padding-block",
+    "value": "var(--ui-control-padding-y)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 21,
+    "layer": "product-entry",
+    "selector": ".timeline-popover input,\n.timeline-popover select",
+    "context": "",
+    "property": "padding-left",
+    "value": "var(--ui-control-padding-x)",
+    "important": false,
+    "controlCandidate": true,
+    "flags": [
+      "product-control-skin"
+    ],
+    "classification": "ownership-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 28,
+    "layer": "product-entry",
+    "selector": ".viewer-loading",
+    "context": "",
+    "property": "max-width",
+    "value": "calc(100% - 32px)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 28,
+    "layer": "product-entry",
+    "selector": ".viewer-loading",
+    "context": "",
+    "property": "padding",
+    "value": "8px 12px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 29,
+    "layer": "product-entry",
+    "selector": ".viewer-map-error",
+    "context": "",
+    "property": "top",
+    "value": "16px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 29,
+    "layer": "product-entry",
+    "selector": ".viewer-map-error",
+    "context": "",
+    "property": "max-width",
+    "value": "calc(100% - 32px)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 29,
+    "layer": "product-entry",
+    "selector": ".viewer-map-error",
+    "context": "",
+    "property": "gap",
+    "value": "12px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 29,
+    "layer": "product-entry",
+    "selector": ".viewer-map-error",
+    "context": "",
+    "property": "padding",
+    "value": "8px 12px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 33,
+    "layer": "product-entry",
+    "selector": ".viewer-map-tools:has(.map-command-search.is-expanded) .map-command-toolbar",
+    "context": "@media (min-width: 900px) and (max-width: 1279px)",
+    "property": "bottom",
+    "value": "calc(100% + 12px)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 36,
+    "layer": "product-entry",
+    "selector": ".viewer-root .viewer-map-tools",
+    "context": "@media (max-width: 899px)",
+    "property": "gap",
+    "value": "12px",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 36,
+    "layer": "product-entry",
+    "selector": ".viewer-root .viewer-map-tools",
+    "context": "@media (max-width: 899px)",
+    "property": "left",
+    "value": "max(8px, env(safe-area-inset-left))",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "apps/viewer/css/viewer.css",
+    "line": 36,
+    "layer": "product-entry",
+    "selector": ".viewer-root .viewer-map-tools",
+    "context": "@media (max-width: 899px)",
+    "property": "right",
+    "value": "max(8px, env(safe-area-inset-right))",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "raw-px"
+    ],
+    "classification": "tokenization-debt",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/app.css",
+    "line": 29,
+    "layer": "product-entry",
+    "selector": ".hidden",
+    "context": "",
+    "property": "display",
+    "value": "none",
+    "important": true,
+    "controlCandidate": false,
+    "flags": [
+      "important"
+    ],
+    "classification": "foundation-hidden-state",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/app.css",
+    "line": 33,
+    "layer": "product-entry",
+    "selector": "[hidden]",
+    "context": "",
+    "property": "display",
+    "value": "none",
+    "important": true,
+    "controlCandidate": false,
+    "flags": [
+      "important"
+    ],
+    "classification": "foundation-hidden-state",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 611,
+    "layer": "features",
+    "selector": ".country-label",
+    "context": "",
+    "property": "font-family",
+    "value": "var(--ui-font-family)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 612,
+    "layer": "features",
+    "selector": ".country-label",
+    "context": "",
+    "property": "font-size",
+    "value": "var(--ui-font-map)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 613,
+    "layer": "features",
+    "selector": ".country-label",
+    "context": "",
+    "property": "font-weight",
+    "value": "var(--ui-weight-semibold)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 617,
+    "layer": "features",
+    "selector": ".country-label.major",
+    "context": "",
+    "property": "font-size",
+    "value": "var(--map-font-caption)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 621,
+    "layer": "features",
+    "selector": ".user-label-text",
+    "context": "",
+    "property": "font-family",
+    "value": "var(--ui-font-family)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 622,
+    "layer": "features",
+    "selector": ".user-label-text",
+    "context": "",
+    "property": "font-size",
+    "value": "var(--map-font-caption)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 623,
+    "layer": "features",
+    "selector": ".user-label-text",
+    "context": "",
+    "property": "font-weight",
+    "value": "var(--ui-weight-semibold)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 627,
+    "layer": "features",
+    "selector": ".user-label-text .user-label-secondary",
+    "context": "",
+    "property": "font-size",
+    "value": ".85em",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/features/map-rendering.css",
+    "line": 628,
+    "layer": "features",
+    "selector": ".user-label-text .user-label-secondary",
+    "context": "",
+    "property": "font-weight",
+    "value": "400",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "feature-skin"
+    ],
+    "classification": "map-label-exception",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 117,
+    "layer": "layout",
+    "selector": "[data-layout=\"mobile\"] .surface-header",
+    "context": "",
+    "property": "padding-block",
+    "value": "0",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 225,
+    "layer": "layout",
+    "selector": ".surface-create > .surface-body",
+    "context": "",
+    "property": "padding",
+    "value": "0",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 264,
+    "layer": "layout",
+    "selector": ".app-root[data-layout=\"phone-landscape\"] .workspace-surface.ui-sheet",
+    "context": "",
+    "property": "padding-bottom",
+    "value": "env(safe-area-inset-bottom)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 283,
+    "layer": "layout",
+    "selector": ".app-root[data-layout=\"phone-landscape\"] .workspace-surface.ui-sheet > .surface-header",
+    "context": "",
+    "property": "padding",
+    "value": "var(--ui-space-1) var(--ui-space-2)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 306,
+    "layer": "layout",
+    "selector": ".app-root[data-layout=\"phone-landscape\"] .mobile-bottom-bar",
+    "context": "",
+    "property": "padding",
+    "value": "0",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 313,
+    "layer": "layout",
+    "selector": ".app-root[data-layout=\"phone-landscape\"] .mobile-bottom-bar .ui-nav-item",
+    "context": "",
+    "property": "padding",
+    "value": "var(--ui-space-1)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  },
+  {
+    "file": "shared/frontend/css/layout/surfaces.css",
+    "line": 322,
+    "layer": "layout",
+    "selector": "body .app-root[data-layout=\"phone-landscape\"] .mobile-menu-toolbar",
+    "context": "",
+    "property": "padding",
+    "value": "var(--ui-space-1)",
+    "important": false,
+    "controlCandidate": false,
+    "flags": [
+      "layout-skin"
+    ],
+    "classification": "layout-owns-component-padding",
+    "visualFailureProven": false
+  }
+]

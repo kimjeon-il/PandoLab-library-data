@@ -1,0 +1,58 @@
+{
+  "sourceCommit": "095d312fd32479dfd393f352eb4d74a475f2a916",
+  "files": {
+    "css": 28,
+    "html": 17,
+    "js": 386
+  },
+  "htmlDefinitions": 335,
+  "definitionKinds": {
+    "action-row": 12,
+    "color-plane-exception": 1,
+    "component-container": 64,
+    "icon-button": 31,
+    "input:checkbox": 25,
+    "input:color": 4,
+    "input:file": 4,
+    "input:hidden": 1,
+    "input:number": 5,
+    "input:radio": 8,
+    "input:range": 1,
+    "input:search": 2,
+    "input:text": 15,
+    "menu-row": 31,
+    "select": 30,
+    "summary": 8,
+    "tab": 3,
+    "text-or-unclassified-button": 86,
+    "textarea": 4
+  },
+  "dynamicFactories": 37,
+  "factoryKinds": {
+    "component-container": 6,
+    "generic-factory": 3,
+    "icon-button": 6,
+    "input:checkbox": 2,
+    "input:number": 1,
+    "input:range": 1,
+    "input:text": 2,
+    "role:option": 1,
+    "select": 4,
+    "selection-row": 3,
+    "swatch-or-media": 1,
+    "text-or-unclassified-button": 7
+  },
+  "inlineCandidates": 20,
+  "cssDeclarations": 6434,
+  "styleCandidates": 65,
+  "cssFlags": {
+    "feature-skin": 9,
+    "id-selector": 16,
+    "important": 2,
+    "layout-skin": 7,
+    "product-control-skin": 12,
+    "raw-px": 22
+  },
+  "duplicateProperties": 0,
+  "parseErrors": []
+}
