@@ -1,0 +1,48 @@
+{
+  "water": {
+    "entityId": "waterbody:caspian",
+    "objectRef": {
+      "domain": "hydroBuiltin",
+      "id": "waterbody:caspian"
+    },
+    "validFrom": "1922-12-30",
+    "validTo": "1925-05-12",
+    "modern": {
+      "vertices": 2637,
+      "holes": 11,
+      "sha256": "725b25e5076d38d74df2f67cbec465b87ae638f3855b025898334af4bfaa00fb"
+    },
+    "restored": {
+      "vertices": 6866,
+      "holes": 68,
+      "sha256": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1"
+    },
+    "reusedAssets": [
+      {
+        "url": "assets/data/physical-land/v1/geometry.json.gz",
+        "sha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98"
+      },
+      {
+        "url": "assets/data/physical-land/v1/caspian-1922-land.json.gz",
+        "sha256": "487594cc829d8d58ebb0ab7a04eace628fe58864262e4eb4533af8245ca96ec4"
+      },
+      {
+        "url": "assets/data/physical-land/v1/caspian-1922-water.json.gz",
+        "sha256": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1"
+      }
+    ]
+  },
+  "countries": {
+    "countryContractFiles": 276,
+    "geometryRegeneration": false,
+    "validationScope": "No country-wide geometry/coordinate audit; shared wire-target rewrite only.",
+    "transport": {
+      "schemaVersion": 1,
+      "url": "transport/countries-sha256-79581c63cbebe35531701eda99dc29b3b9e20fff8e627bbc38b7f55c25ba733a.bin",
+      "encoding": "identity",
+      "sha256": "79581c63cbebe35531701eda99dc29b3b9e20fff8e627bbc38b7f55c25ba733a",
+      "compressedBytes": 11868393,
+      "decodedBytes": 11868393
+    }
+  }
+}
