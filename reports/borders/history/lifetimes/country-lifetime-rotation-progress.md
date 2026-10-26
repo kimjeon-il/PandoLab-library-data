@@ -1,7 +1,7 @@
 # 국가 존속기간 조사 — 지역 순환 진행기록
 
 > 관리 ID: `GEO-LIFE-ROTATION` · 상태: `investigating` · 지도 반영: `not-applied`  
-> 생성: 2026-10-17 · 최종 수정: 2026-10-26 회차 / 2026-10-25 UTC · 정본 브랜치: `work/gis`
+> 생성: 2026-10-17 · 최종 수정: 2026-10-27 회차 / 2026-10-26 UTC · 정본 브랜치: `work/gis`
 > 목적: 지역별 차례, 처리 배치, 미완료 사항을 다음 실행에 안전하게 이어주기 위한 **운영 이력**. 실제 국가 데이터나 타임라인 반영을 뜻하지 않음.
 
 ## 순환 규칙
@@ -16,11 +16,11 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 남아메리카**
-- **lastCompletedRun: 2026-10-26** (이번 남아메리카 2차 검증 2개국 조사 완료일; 전 지역 완료가 아님)
-- **nextRegion: 오세아니아**
-- **nextPhase: 오세아니아 미조사 국가별 1차 조사**
-- **nextAction: 오세아니아에서 GEO-LIFE-009(MIC/MHL/PLW/TON)·GEO-LIFE-001(AUS/COK) 및 GEO-023/현행 lifetime 기입국의 기조사 내용을 제외하고, 현행 국가 색인에서 미조사 주권국 2~4개를 선정해 1차 조사한다. 비주권 속령·자치 정치체의 국가성은 별도 분류하고, 남아메리카 GEO-LIFE-014(ARG/BOL)는 2차 검증 완료 배치로 기록하되 최종 날짜 판정은 유보한다.**
+- **lastProcessedRegion: 오세아니아**
+- **lastCompletedRun: 2026-10-27** (오세아니아 1차 선별 조사 완료일; 전 지역 완료가 아님)
+- **nextRegion: 유럽**
+- **nextPhase: 유럽 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
+- **nextAction: 유럽 GEO-LIFE-001/004/010, 현행 국가 색인·역사 소멸 정치체 기록을 대조해 미조사 국가별 1차 2~4건(가능한 경우)을 선정한다. 대상이 선행 1차로 소진되었으면 2차를 수행한다. 오세아니아 GEO-LIFE-015의 NZL(국가성 전환), 하와이 왕국·공화국(법적 동일성) 및 COK/NIU(자유연합) 분류는 미해결로 유지한다. 전 지역 완료 아님.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
@@ -32,7 +32,7 @@
 | 아프리카 | [GEO-LIFE-006: 에리트레아·기니비사우·세네갈 3개](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) 및 [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 3개국 문헌 1차 조사 등록 완료, 전체 지역 완료 아님 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA 2개](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | SLV 1839~1841년 독립국 성립 효력·1896~1898년 국가 동일성 보류; USA 1801년 이전 이미 존속, 내전 중 법적 계속성과 실효 지배 구별 |
 | 남아메리카 | [GEO-LIFE-008: COL·PER·URY·VEN 4개](country-lifetime-south-america-2026-10-20.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) ARG/BOL, [GEO-023](verified-entity-lifetimes.md) BRA/CHL/ECU/GUY/PRY/SUR | 현행 12개 주권국 선행 기초 조사기록 확인; 역사상 소멸국 전수 미확인 | 진행 중: [GEO-LIFE-014 ARG/BOL](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md) | 1816 연합주-현 아르헨티나 동일성 및 볼리비아 1825 국호·국가 법적 효력일 미해결 |
-| 오세아니아 | [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | 차례 대기 |
+| 오세아니아 | [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md)(AUS/COK), [GEO-LIFE-009](country-lifetime-oceania-micronesia-tonga-2026-10-21.md)(FSM/MHL/PLW/TON), [GEO-023](verified-entity-lifetimes.md)(FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM), [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md)(NZL·역사 하와이) | 진행 중: 현존 주권국 14개 모두 선행 문헌/기간 근거 확인, 역사상 소멸국 전수 및 COK/NIU 분류는 미완료 | 미완료 | NZL 시작일 1907/1942/1947/1987의 층위 구분; 하와이 왕국·공화국 법적 계속성과 미등록 역사 객체 유보 |
 
 ## 실행 이력
 
@@ -44,6 +44,7 @@
 | **2026-10-20** | **남아메리카** | 국가별 1차 | `COL`, `PER`, `URY`, `VEN` 4개 | [GEO-LIFE-008](country-lifetime-south-america-2026-10-20.md) — `b882b3d9`, 10-19 17:17:01 UTC / 10-20 한국 등록 | **오세아니아** |
 | **2026-10-25** | **북아메리카** | 국가별 1차 | `SLV`, `USA` 2개 | [GEO-LIFE-013](country-lifetime-north-america-slv-usa-2026-10-25.md), 2026-10-25 원격 등록 | **남아메리카** |
 | **2026-10-26** | **남아메리카** | 국가별 2차 | `ARG`, `BOL` 2개(기존 기초 연구의 추가 교차검증) | [GEO-LIFE-014](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md), 2차 검증 / 날짜 최종 유보 | **오세아니아** |
+| **2026-10-27** | **오세아니아** | 국가별/역사 정치체 1차 | `NZL` 현존국 1개 + 하와이 왕국·하와이 공화국 역사 정치체 후보 2개(법적 계속성 유보) | [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md), 1차 문헌 교차검증 / 기간 최종 유보 | **유럽** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -87,3 +88,11 @@
 - [GEO-LIFE-014](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md): **아르헨티나(ARG)** 1816-07-09 독립 선언과 1853 헌법·**1860년 신설 헌법 제35조**·1860-10-08 국명 행정표준화 구분. **볼리비아(BOL)** 1825-08-06 독립 선언과 08-08 회의·08-11 법령·10-03 국호 출현 기록을 구별. 원헌법·회의록·효력 판정 및 단일 시작일 모두 보류.
 - 이번 회차의 **현행 12개국 기초 조사기록 대조, 두 국가 2차 검증 배치**만 완료. 남아메리카의 2차 전수와 그란콜롬비아·페루-볼리비아 연합·우루과이 등 법적 계속성 검증, 역사상 소멸 주권국 조사 및 모든 지역 완료는 미해결. 형상/GIS 검증·웹·앱 검사는 미실행. 국가 lifetime·형상·코드·`Pando/work/gis`·`Pando/main`·배포 수정 **0건**.
 - **lastProcessedRegion=남아메리카, nextRegion=오세아니아, nextPhase=미조사 국가별 1차**. GEO-LIFE-009, GEO-LIFE-001(AUS/COK), GEO-023와 현행 국가 색인을 재확인하고 기조사/기간 입력/비주권 객체를 제외한다.
+
+## 2026-10-27 오세아니아 1차 선별 — GEO-LIFE-015
+
+- 전 회차 지역 남아메리카 → **오세아니아**. `Pando/work/gis` HEAD `d39f47c8225047f2425c8f7f8431c90c30c83354`, 현행 라이브러리 객체 색인 SHA `314465f2ed332628fbb7e411513dfb49388cd188`를 조회했다. `state:NZL` 현재 빈 lifetime, 부모 없는 일반객체 확인.
+- 중복 제외: GEO-LIFE-001 AUS/COK; GEO-LIFE-009 FSM/MHL/PLW/TON; GEO-023 FJI/KIR/NRU/PNG/SLB/TUV/VUT/WSM. **NZL 1차 신규**, **하와이 왕국·공화국 역사 정치체 후보 2건** 조사. 현재 색인에 하와이 왕국·공화국에 대응하는 독립 엔티티 ID가 없어 새 ID를 만들지 않음.
+- [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md): NZL 1907 자치령, 1942 미국 승인, 1947 자치령 법적 자율성 강화, 1987 잔여 영국 입법권 종료를 구별. 하와이 1810 통합(일자 불확정), 1893 왕정 실효통치 상실, 1894 공화국 헌법 공포, 1898 미국 합병 결의·통치권 이전 구분. 단일 `validFrom/validTo` 및 왕국·공화국 법적 승계 **유보**.
+- 자유연합 **COK/NIU**의 주권국 집계 여부 추가 법적 분류 보류, 다른 역사상 소멸한 오세아니아 국가 전수 미완료. **현존국 14개 선행 근거 확인 != 오세아니아 1차·2차 전수 완료**.
+- **lastProcessedRegion=오세아니아, nextRegion=유럽, nextPhase=국가별 미조사 1차(소진 시 2차).** 본 회차 보고서 외 국가 lifetime·형상·코드·Pando `main`/`work/gis`/배포 변경 **0건**. GIS 검사 미실행.
