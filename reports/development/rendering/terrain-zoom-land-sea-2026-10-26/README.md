@@ -32,3 +32,7 @@ viewer-map.js:114에서 정상 territorialScope를 생성하고 다른 소비자
 - findings.json: 원인과 실제 실행 결과 요약.
 
 전체 검사·전체 GIS 생성·지명/국명/존속기간 전수 검사·네이티브 빌드는 실행하지 않았다. 브라우저는 종료했고 앱 Git은 clean이다. 자료·SDK·빌드의 전체 복사본을 만들지 않았다. 임시 작업 사본은 없으며, 이 범위의 작은 스크립트·JSON·이미지는 재현과 원격 보관의 증거로 유지한다. 배포·실행 중인 사용자 탭은 조작하지 않고 상태 관찰만 했다.
+
+## 후속 수정·배포
+
+지형 숨김 조건과 정본 조회기 연결을 수정한 `ccaeaf521`을 main에 반영하고 Pages에 배포했다. [구현·검증 기록](implementation.md), [검증·저장공간 결과](implementation-verification.json), [최종 브라우저 결과](implementation-browser.json), [배포 자산·실제 응답](release/changed-assets-live.json)을 함께 확인한다. 위 원인 조사와 당시 스크린샷은 수정 전 증거로 보존한다. 전체 검사·GIS 재생성·네이티브 빌드는 실행하지 않았다.

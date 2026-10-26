@@ -1,0 +1,275 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\dev\\worktrees\\ui\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/browser/terrain-zoom-continuity.spec.mjs",
+      "tests/browser/viewer-display-regression.spec.mjs",
+      "--grep",
+      "editor web shell|viewer composition supports|zoom keeps|Canvas keeps",
+      "--workers=1",
+      "--trace=off",
+      "--reporter=list,json"
+    ],
+    "configFile": "D:\\dev\\worktrees\\ui\\playwright.config.js",
+    "rootDir": "D:/dev/worktrees/ui/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/dev/worktrees/ui/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/dev/worktrees/ui/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" tests/browser/server.mjs",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "terrain-zoom-continuity.spec.mjs",
+      "file": "terrain-zoom-continuity.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "zoom keeps loaded preview terrain painting while the next LOD is delayed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21893,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T12:18:45.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d50a9584f0b4e378ffb4-46161797ce2f760bd17f",
+          "file": "terrain-zoom-continuity.spec.mjs",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "zoom keeps loaded detail terrain painting while the next LOD is delayed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26791,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T12:19:07.364Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d50a9584f0b4e378ffb4-4f7e15415a5922b7373f",
+          "file": "terrain-zoom-continuity.spec.mjs",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "Canvas keeps land and ocean terrain through zoom while new detail is delayed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 81209,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T12:19:34.171Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d50a9584f0b4e378ffb4-8380a7b0dca2e3602b6f",
+          "file": "terrain-zoom-continuity.spec.mjs",
+          "line": 135,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "viewer-display-regression.spec.mjs",
+      "file": "viewer-display-regression.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "editor web shell preserves canonical picking and document state after opening a project and zooming",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16137,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "buffer": "KG5vZGU6MjYxMDApIFdhcm5pbmc6IFRoZSAnTk9fQ09MT1InIGVudiBpcyBpZ25vcmVkIGR1ZSB0byB0aGUgJ0ZPUkNFX0NPTE9SJyBlbnYgYmVpbmcgc2V0LgooVXNlIGBub2RlIC0tdHJhY2Utd2FybmluZ3MgLi4uYCB0byBzaG93IHdoZXJlIHRoZSB3YXJuaW5nIHdhcyBjcmVhdGVkKQo="
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-26T12:21:11.485Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "00936dd5256c8b7e0488-56caaca386198213262e",
+          "file": "viewer-display-regression.spec.mjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "viewer composition supports territorial hover and body clicks across camera changes without editing the document",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20433,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T12:21:33.672Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "00936dd5256c8b7e0488-64ec7b448caab1417e0b",
+          "file": "viewer-display-regression.spec.mjs",
+          "line": 42,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-26T12:18:37.835Z",
+    "duration": 196819.061,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

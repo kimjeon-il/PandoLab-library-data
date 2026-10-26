@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+  "dataCommit": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "selection": {
+    "primaryKey": "territorial:entity:TUR",
+    "keys": [
+      "territorial:entity:TUR"
+    ],
+    "items": [
+      {
+        "domain": "territorial",
+        "type": "entity",
+        "id": "TUR",
+        "key": "territorial:entity:TUR"
+      }
+    ]
+  },
+  "documentUnchanged": true,
+  "errors": [],
+  "renderer": "webgl2",
+  "observation": "Read-only test port added to the actual public composition; unmodified asset bytes verified separately."
+}
