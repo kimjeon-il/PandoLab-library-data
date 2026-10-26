@@ -1,0 +1,47 @@
+
+Running 1 test using 1 worker
+
+
+(node:16772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/1] tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 1440px
+  1) tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 1440px 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+      Object {
+        "height": 1,
+    -   "width": 1,
+    +   "width": 40,
+      }
+
+      74 |     });
+      75 |     expect(await buttonStyle('timelineGoBtn')).toEqual(await buttonStyle('baselineAction'));
+    > 76 |     expect(await page.locator('#hiddenSelectProxy').evaluate(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height}))).toEqual({width:1,height:1});
+         |                                                                                                                                                     ^
+      77 |     for (const id of ['timelineViewUnit', 'timelineYearInput', 'timelineMonthInput', 'timelineGoBtn']) {
+      78 |       expect((await buttonStyle(id)).height, `${id} ordinary control minimum`).toBeGreaterThanOrEqual(mobile ? 48 : 36);
+      79 |     }
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:76:149
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-shared--ea77d-ts-remain-aligned-at-1440px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-shared--ea77d-ts-remain-aligned-at-1440px\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-shared--ea77d-ts-remain-aligned-at-1440px\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-shared--ea77d-ts-remain-aligned-at-1440px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 1440px 

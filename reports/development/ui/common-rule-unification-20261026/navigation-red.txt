@@ -1,0 +1,47 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:28540) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels
+  1) tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "flex"
+    Received: "block"
+
+      154 |         rows:[...nav.querySelectorAll('.ui-nav-item')].map(button=>{ const label=button.querySelector('strong'), b=button.getBoundingClientRect(), l=label.getBoundingClientRect();return {display:getComputedStyle(button).display,font:getComputedStyle(label).fontSize,buttonHeight:b.height,labelHeight:l.height,clipped:button.scrollWidth>button.clientWidth||label.scrollWidth>label.clientWidth,labelBottom:l.bottom,buttonBottom:b.bottom}; })}));
+      155 |       expect(metrics.width).toBe(48 * scale / 100 + 8); expect(metrics.overflow).toBe('auto');
+    > 156 |       for (const row of metrics.rows) { expect(row.display).toBe('flex'); expect(row.font).toBe(`${14 * scale / 100}px`); expect(row.clipped).toBe(false);expect(row.labelBottom).toBeLessThanOrEqual(row.buttonBottom); }
+          |                                                             ^
+      157 |     }
+      158 |   } finally { await context.close(); }
+      159 | });
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:156:61
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+(node:19224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[2/2] tests\browser\button-consistency.spec.mjs:161:1 › narrow portrait navigation never shrinks text below the common body size
+  1 failed
+    tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels 
+  1 passed (3.7s)

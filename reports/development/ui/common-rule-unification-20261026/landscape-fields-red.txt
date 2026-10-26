@@ -1,0 +1,43 @@
+
+Running 1 test using 1 worker
+
+
+
+(node:15548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/1] tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 844px
+  1) tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 844px 
+
+    Error: timelineViewUnit ordinary control minimum
+
+    expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 48
+    Received:    36
+
+      74 |     expect(await buttonStyle('timelineGoBtn')).toEqual(await buttonStyle('baselineAction'));
+      75 |     for (const id of ['timelineViewUnit', 'timelineYearInput', 'timelineMonthInput', 'timelineGoBtn']) {
+    > 76 |       expect((await buttonStyle(id)).height, `${id} ordinary control minimum`).toBeGreaterThanOrEqual(mobile ? 48 : 36);
+         |                                                                                ^
+      77 |     }
+      78 |     const checks = '[data-icon-check], #ordinary-icons ~ .topbar-history button, .mode-draft-actions button, #modeTaskMinimizeBtn, #notificationCloseBtn, #territorialLibraryTimeSuggestBtn, .timeline-step, .timeline-month-navigation .icon-btn';
+      79 |     const metrics = () => page.locator(checks).evaluateAll(elements => elements.filter(button => button.getBoundingClientRect().width > 0).map(button => {
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:76:80
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-shared--6ee6c-ots-remain-aligned-at-844px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-shared--6ee6c-ots-remain-aligned-at-844px\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-shared--6ee6c-ots-remain-aligned-at-844px\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-shared--6ee6c-ots-remain-aligned-at-844px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 844px 

@@ -1,0 +1,15 @@
+✔ custom colors normalize short HEX and reject invalid or alpha values (1.0528ms)
+✔ RGB, HSV and HSL preserve opaque colors including gray, black and white (2.3236ms)
+✔ UI architecture accepts surface content beyond the old fixed-length window (180.1696ms)
+✔ UI architecture checks product control skin even below the product byte budget (178.6471ms)
+✔ UI architecture rejects component padding owned by layout (196.5676ms)
+✔ UI architecture accepts product placement and component-owned skin (193.329ms)
+✔ UI architecture rejects content owned by a later sibling surface (166.3255ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1077.7309

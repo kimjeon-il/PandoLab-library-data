@@ -1,0 +1,470 @@
+[
+  {
+    "name": "web-mobile-date",
+    "controls": [
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "timelineViewUnit",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "연도별 보기월별 보기",
+        "width": 206.078125
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "timelineYearInput",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "",
+        "width": 206.078125
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "timelineMonthInput",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "1월2월3월4월5월6월7월8월9월10월11월12월",
+        "width": 149.890625
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "timelineGoBtn",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "이동",
+        "width": 266
+      }
+    ],
+    "layout": "mobile",
+    "viewport": {
+      "height": 700,
+      "width": 320
+    }
+  },
+  {
+    "name": "app-desktop-color",
+    "controls": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "색상 선택 취소",
+        "width": 36
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "HEX",
+        "width": 191.59375
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "HEX 색상",
+        "width": 191.59375
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "스포이트",
+        "width": 66.40625
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "RGB",
+        "width": 45.71875
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "HSL",
+        "width": 44.3125
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "R",
+        "width": 98
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "R",
+        "width": 98
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "G",
+        "width": 98
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "G",
+        "width": 98
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "B",
+        "width": 98
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "B",
+        "width": 98
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "취소",
+        "width": 150
+      },
+      {
+        "font": "14px",
+        "height": 36,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "적용",
+        "width": 150
+      }
+    ],
+    "layout": "compact",
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  {
+    "name": "app-mobile-color",
+    "controls": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "font": "14px",
+        "height": 40,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "색상 선택 취소",
+        "width": 40
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "HEX",
+        "width": 233.59375
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "HEX 색상",
+        "width": 233.59375
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "스포이트",
+        "width": 66.40625
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "RGB",
+        "width": 45.71875
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "HSL",
+        "width": 44.3125
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "R",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "R",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "G",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "G",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "B",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "B",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "취소",
+        "width": 177
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "적용",
+        "width": 177
+      }
+    ],
+    "layout": "mobile",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "name": "app-mobile-final",
+    "controls": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "font": "14px",
+        "height": 40,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "색상 선택 취소",
+        "width": 40
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "HEX",
+        "width": 233.59375
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "HEX 색상",
+        "width": 233.59375
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "스포이트",
+        "width": 66.40625
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "RGB",
+        "width": 45.71875
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "HSL",
+        "width": 44.3125
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "R",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "R",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "G",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "G",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 19.59375,
+        "id": "",
+        "line": "19.6px",
+        "radius": "0px",
+        "text": "B",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "B",
+        "width": 116
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "취소",
+        "width": 177
+      },
+      {
+        "font": "14px",
+        "height": 48,
+        "id": "",
+        "line": "19.6px",
+        "radius": "6px",
+        "text": "적용",
+        "width": 177
+      }
+    ],
+    "layout": "mobile",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "closeVisibility": {
+      "bottom": 220.8125,
+      "height": 40,
+      "reachable": true,
+      "sheetTransform": "none",
+      "top": 180.8125,
+      "width": 40
+    }
+  }
+]

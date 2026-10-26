@@ -1,0 +1,10 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:2776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (expanded)
+[2/2] tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (collapsed)
+  2 passed (3.6s)

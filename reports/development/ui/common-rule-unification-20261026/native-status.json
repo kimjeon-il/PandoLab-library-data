@@ -1,0 +1,9 @@
+{
+  "status": "unverified",
+  "reason": "No development executable matching current native input identity exists in prepared cache; no native build or packaging run",
+  "requiredInputSha256": "2596d458378169db5e51d5756fc3d7d6ce0c7fe4e722186f598c6b4cdbeafd50",
+  "cachedBinding": {
+    "directory": "D:\\build\\cache\\pandolab\\native\\4d5178f982608a577cb1316528626991114908f23ee29d55d3e32fdbb5da813c",
+    "nativeInputSha256": "4d5178f982608a577cb1316528626991114908f23ee29d55d3e32fdbb5da813c"
+  }
+}

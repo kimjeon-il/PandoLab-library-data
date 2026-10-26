@@ -1,0 +1,59 @@
+✔ UI architecture accepts surface content beyond the old fixed-length window (201.1007ms)
+✖ UI architecture checks product control skin even below the product byte budget (190.5937ms)
+✖ UI architecture rejects component padding owned by layout (222.7243ms)
+✔ UI architecture accepts product placement and component-owned skin (227.2278ms)
+✔ UI architecture rejects content owned by a later sibling surface (171.8613ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 3
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1154.389
+
+✖ failing tests:
+
+test at tests\unit\ui-architecture-surface-boundary.test.mjs:56:1
+✖ UI architecture checks product control skin even below the product byte budget (190.5937ms)
+  AssertionError [ERR_ASSERTION]: UI architecture audit passed: 1 surface contracts, 1 layered CSS file(s), 4 legacy CSS ratchet(s).
+  
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/ui-architecture-surface-boundary.test.mjs:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unit\ui-architecture-surface-boundary.test.mjs:64:1
+✖ UI architecture rejects component padding owned by layout (222.7243ms)
+  AssertionError [ERR_ASSERTION]: UI architecture audit passed: 1 surface contracts, 2 layered CSS file(s), 4 legacy CSS ratchet(s).
+  
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/dev/worktrees/ui/tests/unit/ui-architecture-surface-boundary.test.mjs:68:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,19 @@
+
+Running 11 tests using 1 worker
+
+
+
+(node:13576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/11] tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 1440px
+[2/11] tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 844px
+[3/11] tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 390px
+[4/11] tests\browser\button-consistency.spec.mjs:29:3 › shared button sizing and icon slots remain aligned at 320px
+[5/11] tests\browser\button-consistency.spec.mjs:120:3 › real custom color controls share dimensions and type at 1440px
+[6/11] tests\browser\button-consistency.spec.mjs:120:3 › real custom color controls share dimensions and type at 390px
+[7/11] tests\browser\button-consistency.spec.mjs:120:3 › real custom color controls share dimensions and type at 320px
+[8/11] tests\browser\button-consistency.spec.mjs:147:1 › touch landscape navigation retains its width and wraps common-size labels
+[9/11] tests\browser\button-consistency.spec.mjs:166:1 › narrow portrait navigation never shrinks text below the common body size
+[10/11] tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (expanded)
+[11/11] tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (collapsed)
+  11 passed (14.4s)

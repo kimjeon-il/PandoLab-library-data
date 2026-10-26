@@ -1,0 +1,45 @@
+
+Running 4 tests using 1 worker
+
+
+
+(node:2640) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/4] tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 1440px
+[2/4] tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 390px
+[3/4] tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 320px
+[4/4] tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels
+  1) tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 112
+    Received: 104
+
+      153 |       const metrics = await page.locator('.mobile-bottom-bar').evaluate(nav => ({width:nav.getBoundingClientRect().width,overflow:getComputedStyle(nav).overflowY,
+      154 |         rows:[...nav.querySelectorAll('.ui-nav-item')].map(button=>{ const label=button.querySelector('strong'), b=button.getBoundingClientRect(), l=label.getBoundingClientRect();return {font:getComputedStyle(label).fontSize,buttonHeight:b.height,labelHeight:l.height,clipped:button.scrollWidth>button.clientWidth||label.scrollWidth>label.clientWidth,labelBottom:l.bottom,buttonBottom:b.bottom}; })}));
+    > 155 |       expect(metrics.width).toBe(56 * scale / 100); expect(metrics.overflow).toBe('auto');
+          |                             ^
+      156 |       for (const row of metrics.rows) { expect(row.font).toBe(`${14 * scale / 100}px`); expect(row.clipped).toBe(false);expect(row.labelBottom).toBeLessThanOrEqual(row.buttonBottom); }
+      157 |     }
+      158 |   } finally { await context.close(); }
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:155:29
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels 
+  3 passed (3.8s)

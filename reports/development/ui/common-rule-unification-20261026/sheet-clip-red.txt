@@ -1,0 +1,78 @@
+
+Running 2 tests using 1 worker
+
+
+
+(node:3536) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/2] tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (expanded)
+  1) tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (expanded) 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      185 |   });
+      186 |   const close=page.getByRole('button',{name:'색상 선택 취소',exact:true});
+    > 187 |   expect(await close.evaluate(e=>{const r=e.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return e===top||e.contains(top);})).toBe(true);
+          |                                                                                                                                                                     ^
+      188 |   await close.click();
+      189 | });
+      190 |
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:187:165
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-mobile--87c74-ettled-sheet-clip-expanded-\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-mobile--87c74-ettled-sheet-clip-expanded-\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-mobile--87c74-ettled-sheet-clip-expanded-\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-mobile--87c74-ettled-sheet-clip-expanded-\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+(node:13340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[2/2] tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (collapsed)
+  2) tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (collapsed) 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      185 |   });
+      186 |   const close=page.getByRole('button',{name:'색상 선택 취소',exact:true});
+    > 187 |   expect(await close.evaluate(e=>{const r=e.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return e===top||e.contains(top);})).toBe(true);
+          |                                                                                                                                                                     ^
+      188 |   await close.click();
+      189 | });
+      190 |
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:187:165
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-mobile--9e656-ttled-sheet-clip-collapsed-\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-mobile--9e656-ttled-sheet-clip-collapsed-\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-mobile--9e656-ttled-sheet-clip-collapsed-\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-mobile--9e656-ttled-sheet-clip-collapsed-\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  2 failed
+    tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (expanded) 
+    tests\browser\button-consistency.spec.mjs:174:39 › mobile custom color close remains reachable outside the settled sheet clip (collapsed) 

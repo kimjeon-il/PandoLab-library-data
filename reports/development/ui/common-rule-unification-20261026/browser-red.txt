@@ -1,0 +1,157 @@
+
+[WebServer] (node:29312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:3688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[1/4] tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 1440px
+  1) tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 1440px 
+
+    Error: HEX
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "14px"
+    Received: "13px"
+
+      135 |     expect(metrics.close.width).toBe(size); expect(metrics.close.height).toBe(size);
+      136 |     expect(Math.abs(metrics.close.dx)).toBeLessThanOrEqual(1); expect(Math.abs(metrics.close.dy)).toBeLessThanOrEqual(1);
+    > 137 |     for (const type of metrics.types) { expect(type.font, type.text).toBe('14px'); expect(Number.parseFloat(type.line), type.text).toBeCloseTo(19.6, 1); }
+          |                                                                      ^
+      138 |     for (const actual of metrics.ordinary) expect(actual).toBeGreaterThanOrEqual(height);
+      139 |   });
+      140 | }
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:137:70
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-real-cu-ad10a-mensions-and-type-at-1440px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-real-cu-ad10a-mensions-and-type-at-1440px\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-real-cu-ad10a-mensions-and-type-at-1440px\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-real-cu-ad10a-mensions-and-type-at-1440px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+(node:9328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[2/4] tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 390px
+  2) tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 390px 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 40
+    Received: 48
+
+      133 |     });
+      134 |     const size = viewport.width < 800 ? 40 : 36, height = viewport.width < 800 ? 48 : 36;
+    > 135 |     expect(metrics.close.width).toBe(size); expect(metrics.close.height).toBe(size);
+          |                                                                          ^
+      136 |     expect(Math.abs(metrics.close.dx)).toBeLessThanOrEqual(1); expect(Math.abs(metrics.close.dy)).toBeLessThanOrEqual(1);
+      137 |     for (const type of metrics.types) { expect(type.font, type.text).toBe('14px'); expect(Number.parseFloat(type.line), type.text).toBeCloseTo(19.6, 1); }
+      138 |     for (const actual of metrics.ordinary) expect(actual).toBeGreaterThanOrEqual(height);
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:135:74
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-real-cu-20e46-imensions-and-type-at-390px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-real-cu-20e46-imensions-and-type-at-390px\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-real-cu-20e46-imensions-and-type-at-390px\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-real-cu-20e46-imensions-and-type-at-390px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+(node:17756) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[3/4] tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 320px
+  3) tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 320px 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 40
+    Received: 48
+
+      133 |     });
+      134 |     const size = viewport.width < 800 ? 40 : 36, height = viewport.width < 800 ? 48 : 36;
+    > 135 |     expect(metrics.close.width).toBe(size); expect(metrics.close.height).toBe(size);
+          |                                                                          ^
+      136 |     expect(Math.abs(metrics.close.dx)).toBeLessThanOrEqual(1); expect(Math.abs(metrics.close.dy)).toBeLessThanOrEqual(1);
+      137 |     for (const type of metrics.types) { expect(type.font, type.text).toBe('14px'); expect(Number.parseFloat(type.line), type.text).toBeCloseTo(19.6, 1); }
+      138 |     for (const actual of metrics.ordinary) expect(actual).toBeGreaterThanOrEqual(height);
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:135:74
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-real-cu-90bdf-imensions-and-type-at-320px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-real-cu-90bdf-imensions-and-type-at-320px\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-real-cu-90bdf-imensions-and-type-at-320px\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-real-cu-90bdf-imensions-and-type-at-320px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+(node:11428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[4/4] tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels
+  4) tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "14px"
+    Received: "10px"
+
+      154 |         rows:[...nav.querySelectorAll('.ui-nav-item')].map(button=>{ const label=button.querySelector('strong'), b=button.getBoundingClientRect(), l=label.getBoundingClientRect();return {font:getComputedStyle(label).fontSize,buttonHeight:b.height,labelHeight:l.height,clipped:button.scrollWidth>button.clientWidth||label.scrollWidth>label.clientWidth,labelBottom:l.bottom,buttonBottom:b.bottom}; })}));
+      155 |       expect(metrics.width).toBe(56 * scale / 100); expect(metrics.overflow).toBe('auto');
+    > 156 |       for (const row of metrics.rows) { expect(row.font).toBe(`${14 * scale / 100}px`); expect(row.clipped).toBe(false);expect(row.labelBottom).toBeLessThanOrEqual(row.buttonBottom); }
+          |                                                          ^
+      157 |     }
+      158 |   } finally { await context.close(); }
+      159 | });
+        at D:\dev\worktrees\ui\tests\browser\button-consistency.spec.mjs:156:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\button-consistency-touch-l-ea5e3-nd-wraps-common-size-labels\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  4 failed
+    tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 1440px 
+    tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 390px 
+    tests\browser\button-consistency.spec.mjs:115:3 › real custom color controls share dimensions and type at 320px 
+    tests\browser\button-consistency.spec.mjs:142:1 › touch landscape navigation retains its width and wraps common-size labels 
