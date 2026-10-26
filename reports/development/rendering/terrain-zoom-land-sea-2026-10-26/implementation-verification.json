@@ -1,0 +1,96 @@
+{
+  "sourceCommit": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+  "dataCommit": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "unitTests": {
+    "pass": 55,
+    "fail": 0,
+    "scope": "GPU terrain, Canvas terrain/DEM, canonical picking, Worker assets and Pages staging tiny fixtures"
+  },
+  "browserTests": {
+    "startTime": "2026-10-26T12:18:37.835Z",
+    "duration": 196819.061,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "sourceFiles": [
+    {
+      "path": "apps/viewer/js/modules/viewer-map.js",
+      "bytes": 35519,
+      "sha256": "bfdffdef70faa69bb98a43ae753d41bb2f36809393ee1c4d3362d7147589130b"
+    },
+    {
+      "path": "shared/frontend/js/modules/gpu-map-renderer.js",
+      "bytes": 274623,
+      "sha256": "6b98b45503c2a740d7f9a03acb97eb23b64f7e7277e64d2d0dda3111a3e1e3d0"
+    },
+    {
+      "path": "shared/frontend/js/modules/gpu-terrain-preparation.js",
+      "bytes": 32106,
+      "sha256": "c9cc433ebf67bb1c88b474fcdc22b091fc660e55928dc3088b198a6df953f60c"
+    },
+    {
+      "path": "shared/frontend/js/workers/canvas-render-worker.js",
+      "bytes": 63515,
+      "sha256": "362a9b3acf24519107df740f864af4f20b3665e6e62d3b5ad5b44b976917ee8c"
+    },
+    {
+      "path": "tests/browser/terrain-zoom-continuity.spec.mjs",
+      "bytes": 13009,
+      "sha256": "02169bfe6d338d619a5ffadaa52c8d5c7a4347844d77d087a321d61fa8d414b0"
+    },
+    {
+      "path": "tests/browser/viewer-display-regression.spec.mjs",
+      "bytes": 11292,
+      "sha256": "0f0e33080c892cc3b8831cddf58445904541cf6f404096dc2f14160f3a75e2af"
+    },
+    {
+      "path": "tests/unit/canvas-terrain-independence.test.mjs",
+      "bytes": 16601,
+      "sha256": "e078e8e576decb435bde03c8f830837770cd33164dead930ae59f4f91fd93133"
+    },
+    {
+      "path": "tests/unit/gpu-terrain-preparation.test.mjs",
+      "bytes": 29248,
+      "sha256": "86eab9552af54a07bf2f377ea0f68ad5de67aa2ff1ce98adcc330786dcbcca05"
+    }
+  ],
+  "storage": {
+    "freeBefore": 61078970368,
+    "freeNow": 61069959168,
+    "driveDelta": -9011200,
+    "movedEvidenceBytes": 2570899,
+    "blockedIntermediateJsonBytes": 11304,
+    "blockedTargets": [
+      "implementation-browser-final.json",
+      "implementation-editor.json"
+    ],
+    "reason": "Execution approval review rejected even explicit PowerShell deletion with blocked by policy; originals preserved. No native build, GIS generation or repository/data copy."
+  },
+  "release": {
+    "pagesRun": 40322069368,
+    "status": "success",
+    "identityFilesChecked": 10,
+    "changedAssetsHashMatched": 4,
+    "publicBodyClick": "TUR",
+    "publicHoverClickErrors": 0
+  },
+  "independentCI": {
+    "p2": {
+      "run": 40322069681,
+      "status": "failure",
+      "reason": "P2_LIBRARY_WRITE_TOKEN_REQUIRED"
+    },
+    "sharedCpp": {
+      "run": 40322069445,
+      "status": "failure",
+      "reason": "WASM binary artifact stale",
+      "cppAndWasmUnchanged": true
+    },
+    "applicationArchitecture": {
+      "run": 40322069366,
+      "status": "in_progress_at_report_snapshot"
+    }
+  }
+}

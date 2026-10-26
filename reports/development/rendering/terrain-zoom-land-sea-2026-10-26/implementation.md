@@ -42,3 +42,7 @@ The first final browser batch exposed test synchronization assumptions (stale pr
 The actual public viewer at commit ccaeaf521abc7d402eb661351cba8b3fa16c9f3b accepted hover and a polygon-body click on TUR with no page/hover/click errors. Its canonical selection contains territorial:entity:TUR, and content/presentation checkpoints, dirty state and Undo availability were unchanged. The first fresh-page click probe ran before the presented country phase was ready; the successful probe awaited that existing guard via a read-only observation port. No production behavior was replaced. release/live-browser.json and release/live-map.png record the successful run; release/changed-assets-live.json separately verifies the unmodified published bytes.
 
 Both app main and work/ui are clean and point to the same verified remote commit. Other permanent branches and runtime pins were preserved. No native package was generated; the app check was its browser web shell.
+
+## Independent CI limitations
+
+Shared C++ contracts run 40322069445 failed with `WASM binary artifact stale`. No shared/cpp or shared/frontend/static/wasm file changed in this task. The same stale-binary failure was already reported by pre-task run 40302055988. This task did not rebuild or replace native/WASM artifacts. P2 run 40322069681 separately requires the storage-only publication secret. Pages 40322069368, public-browser proof, P1 40322069938, P3 40322070076 and P4 40322069754 passed. Application Architecture was still running at the final snapshot; do not represent the entire CI set as green.
