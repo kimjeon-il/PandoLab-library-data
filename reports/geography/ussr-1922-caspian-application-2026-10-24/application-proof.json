@@ -1,0 +1,68 @@
+{
+  "countries": {
+    "validPolygons": 5,
+    "parentUnionDifferenceSquareDegrees": 1.1632705805293252e-16,
+    "pairOverlapsSquareDegrees": {
+      "state:soviet-union-russian-sfsr / state:soviet-union-ukrainian-ssr": 0.0,
+      "state:soviet-union-russian-sfsr / state:soviet-union-byelorussian-ssr": 0.0,
+      "state:soviet-union-russian-sfsr / state:soviet-union-transcaucasian-sfsr": 0.0,
+      "state:soviet-union-ukrainian-ssr / state:soviet-union-byelorussian-ssr": 0.0,
+      "state:soviet-union-ukrainian-ssr / state:soviet-union-transcaucasian-sfsr": 0.0,
+      "state:soviet-union-byelorussian-ssr / state:soviet-union-transcaucasian-sfsr": 0.0
+    },
+    "approvedDisplayGeometryExact": true,
+    "legacyLifetimesAndGeometryPreserved": true,
+    "sovereigntyWaterSubtraction": false
+  },
+  "physical": {
+    "modernAssetSha256": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98",
+    "modernBytesUnchanged": true,
+    "outsideCaspianDifferenceSquareDegrees": 0.0,
+    "unchangedFarPolygons": 4250,
+    "patchedRegionValid": true,
+    "globalModernValidity": "Self-intersection[140.974457 -2.600518]",
+    "globalHistoricalValidity": "Self-intersection[140.974475 -2.631208]",
+    "waterHoles": 68,
+    "aralAndArcticPhysicalShapePreserved": true,
+    "modernWaterAreaKm2": 396307.8488560302
+  },
+  "aral": {
+    "names": {
+      "lakes_base:1159126555": {
+        "previousNameKo": "사우스아랄씨호",
+        "nameKo": "남아랄해"
+      },
+      "lakes_base:1729982865": {
+        "previousNameKo": "노스아랄씨호",
+        "nameKo": "북아랄해"
+      }
+    },
+    "sourceOnlyTwoKoreanNamesChanged": true,
+    "runtimeOnlyTwoNamesChanged": true,
+    "geometryIndexCompressedBytesUnchanged": true,
+    "detailProvenanceUnchanged": true,
+    "geometryAndIndexSha256": [
+      "a68aff611d2be202dbf31ef1fbce476386e1d49b1619b68e9219279be7896906",
+      "1ae657ac378ae4fb441425a8ce52c38348541717b363b3a8189d3bd7249702a8",
+      "76eb0b3392eb3376d344ebce4cbfdda05de6fee437d25ce5ee7f98e603a28fbf",
+      "f3b651e7a5a1503532701222f3deee658df03757076cd73b62994637fb63e15e"
+    ],
+    "beforeBundleSha256": "aee3368aa05543050fb4455265d2192c2322d2a0506c88f9f9a61f1f1158daf4",
+    "afterBundleSha256": "f0832dd2024cbfad8b1662410a4f189fa95bcecb56c3e3f1ad69d36af4a0c36f"
+  },
+  "figure": {
+    "projection": "LAEA42N51E WGS84",
+    "extentMeters": [
+      -345767.73564278777,
+      -600822.6179009826,
+      316670.1957054253,
+      582586.500470713
+    ],
+    "nominalScale": 10000000,
+    "dpi": 150,
+    "pixels": [
+      862,
+      834
+    ]
+  }
+}

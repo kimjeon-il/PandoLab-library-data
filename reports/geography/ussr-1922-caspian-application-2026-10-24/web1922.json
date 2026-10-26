@@ -1,0 +1,31 @@
+{
+  "versions": [
+    {
+      "id": "state:soviet-union",
+      "version": "state:soviet-union:1922-12-30-reviewed-v2"
+    },
+    {
+      "id": "state:soviet-union-byelorussian-ssr",
+      "version": "state:soviet-union-byelorussian-ssr:1922-12-30-reviewed-v2"
+    },
+    {
+      "id": "state:soviet-union-russian-sfsr",
+      "version": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2"
+    },
+    {
+      "id": "state:soviet-union-transcaucasian-sfsr",
+      "version": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2"
+    },
+    {
+      "id": "state:soviet-union-ukrainian-ssr",
+      "version": "state:soviet-union-ukrainian-ssr:1922-12-30-reviewed-v2"
+    }
+  ],
+  "physical": {
+    "month": "1922-12",
+    "landRevision": "487594cc829d8d58ebb0ab7a04eace628fe58864262e4eb4533af8245ca96ec4",
+    "waterRevision": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1",
+    "holes": 68
+  },
+  "errors": []
+}

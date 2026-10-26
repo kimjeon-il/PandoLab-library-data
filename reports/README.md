@@ -23,6 +23,16 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-USSR-DNIESTER-20261025` | [소련·우크라이나1922 드네스트르 내장 수계 정렬](borders/reconstruction/ussr-dniester-hydro-alignment-2026-10-25/README.md) | 2026-10-25 | `local-delta / inferred-mouth-closure` | `work-gis-only / not-deployed` |
+| `GEO-USSR-FOUNDING-20261025` | [소련 성립일 이전 표시 수정](borders/validation/ussr-founding-date-2026-10-25/README.md) | 2026-10-25 | `focused-validation` | `work-gis-only / not-deployed` |
+| `GEO-ATREK-MNG-CANDIDATES-20261025` | [Atrek·1976 몽골 B 후보 원본 및 도판 보존](borders/reconstruction/atrek-mongolia-candidates-2026-10-25/README.md) | 2026-10-25 | `candidate-archive-complete / provisional` | `research-only / runtime-not-applied` |
+| `GEO-REVIEW-20261024-2200` | [국가·시대별 자동 검토 — 신규 2건·기존 5건·발트 현행 충돌 보류](borders/validation/reviews/scheduled-2026-10-24-2200/README.md) | 2026-10-24 UTC / 10-25 KST | `reviewed / data-not-applied` | `report-only / work-gis-only` |
+| `GEO-HYDRO-OSM-20261024` | [수계 OSM 관계 73개·과거 교정표 26개 교체 조사](geography/osm-hydro-name-replacement-2026-10-24/README.md) | 2026-10-24 | `investigating / inventory-complete` | `not-applied` |
+| `GEO-TIME-009` | [2025년 아프리카 가봉–적도기니 ICJ 법적 권원 판결·벡터 선별](geography/historical-timeline-2025-africa-gabon-equatorial-guinea-2026-10-24.md) | 2026-10-24 | `investigating / source-indexed / provisional` | `not-applied` |
+| `GEO-LIFE-012` | [아프리카 3개국 국가 존속기간 — 카메룬·말리·탄자니아](geography/country-lifetime-africa-cmr-mli-tza-2026-10-24.md) | 2026-10-24 | `investigating / phase-1` | `not-applied` |
+| `GEO-LIFE-011` | [아시아 3개국 국가 존속기간 — 파키스탄·말레이시아·네팔](geography/country-lifetime-asia-south-southeast-2026-10-23.md) | 2026-10-23 (2026-10-24 복구) | `investigating / phase-1` | `not-applied` |
+| `GEO-LIFE-010` | [유럽 발트 3국 국가 존속기간 — 2차 교차검증](geography/country-lifetime-europe-baltic-2026-10-22.md) | 2026-10-22 (2026-10-24 복구) | `investigating / phase-2` | `not-applied` |
+| `GEO-LIFE-009` | [오세아니아 4개국 국가 존속기간 — FSM·마셜제도·팔라우·통가](geography/country-lifetime-oceania-micronesia-tonga-2026-10-21.md) | 2026-10-21 (2026-10-24 복구) | `investigating / phase-1` | `not-applied` |
 | `GEO-DDR-ALL-FOLLOWUP-20261023` | [동독 남은 경계 전체 후속 — 벡터 및 승인 지도 일부 적용](geography/east-germany-remaining-all-2026-10-23.md) | 2026-10-23 | `local-applied / provisional / map-review-approved` | `9 vector windows + approved map3; remainder held; Elbe local-only` |
 | `GEO-DDR-NORTHERN-APPLIED-20261023` | [동독 라체부르크·메호어호 경계 적용](geography/east-germany-ratzeburg-mechow-applied-2026-10-23.md) | 2026-10-23 | `local-applied / provisional` | `work/gis only` |
 | `GEO-DDR-MAP-PREVIEW-20261023` | [동독 남은 구간 벡터 탐색·첫 지도 정합본](geography/east-germany-remaining-map-preview-2026-10-23.md) | 2026-10-23 | `historical-record / map-review-approved` | `see northern follow-up` |
@@ -216,3 +226,7 @@
 - [지명 원문 색인](development/testing/branch-originals/places/README.md)
 
 동일 경로의 서로 다른 브랜치 보고서는 위 원문별 경로로 함께 보존합니다. 기존 main 원문은 그대로 둡니다.
+
+- GEO-USSR-EUROPE-20261025: [소련 1922 유럽 외곽 승인선 반영](borders/reconstruction/ussr-europe-approved-2026-10-25/README.md) — work/gis 적용, 기존 해안·강 보존, 비하천 일부만 일반화.
+
+- GEO-REVIEW-20261025-2200: [국가·시대별 자동 검토 — 신규2건·현행 기간 충돌·문헌 표현 정밀화](borders/validation/reviews/scheduled-2026-10-25-2200/README.md) — report-only / runtime-not-changed.

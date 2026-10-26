@@ -1,0 +1,22 @@
+# Separate display derivative review
+
+The normalized master `f9695322104f54439cba67730973578358e0826702eb7376739bc6fc15d33c85` remains immutable.
+
+Only two demonstrably densely sampled historical reaches are eligible in this experiment: Ukraine–RSFSR inland shared arcs, and the source-traced Dniester exterior. A projected line-deviation cap generates alternatives, but does not itself establish 1:10M suitability or historical accuracy. Final selection requires identical-projection, identical-extent visual comparison with the established NE10m coast.
+
+`build-display-trials.py` reconstructs consecutive exact-source-node chains from the normalized polygons. It applies RDP once per chain, then removes the same coordinate nodes in every containing polygon. This is joint shared-arc generalization, not independent polygon simplification. Chain endpoints and the documented Dniester registration switch are protected. All NE coastline coordinates, islands, Belarus/Mozyr morphology, TSFSR and all other already-generalized arcs are unchanged.
+
+Trial caps 250 m and 500 m refer to local Lambert conformal projected deviation, not positional accuracy. No vertex-count target was used. The smaller trial removes 563 unique nodes across the eligible inland and river reaches; the larger removes 704. Those counts are diagnostics, not quality evidence.
+
+Both trials independently pass all five OGR and production-core original/normalized checks, all 29 ownership probes including Bender/Tiraspol/Taganrog/Putyvl, and six zero-overlap checks. Parent/children union retains the master's 1.11e-16 square-degree collinear roundoff only. Reports: `display-trials-validation.json`, `display-core-validation.json`, and ../../qa-v2/display-{250,500}m-points.json.
+
+Visual selection and final derivative hash are pending. Neither trial is deployed.
+
+Additional protection audit: `display-protection-checks.json` verifies the 250 m trial deletes zero original NE vertices and introduces zero new coordinate vertices in every feature. Belarus and TSFSR geometries are exactly unchanged. Historical shared inland reductions affect both adjacent children; Dniester reductions affect parent and Ukraine together. This verifies implementation scope, not the historical accuracy of unchanged source data.
+
+## Selected result, 16:52 UTC
+Builder and independent renderer both inspected `../render-review/display-comparison.png`. Select the conservative 250 m trial: whole-Ukraine silhouette and substantive bends remain stable, with modest removal of fine Dniester roughness. The 500 m candidate provides no necessary extra benefit. This is a visual decision at matched projection/extent against NE context, not a declaration that 250 m equals 1:10M accuracy.
+
+Final separate file: `ussr-four-founders.display-10m-provisional.geojson`.
+SHA-256: `09016e357ef96f2e1d8f6d130ff8ae8ccd8cc9ebb8bca6befced785905d173c2`.
+Geometry is exactly identical to the independently QA-checked 250 m trial; only selected-display metadata differs. `display-selection.json` records this equality and prior trial hash. Master remains unchanged. No application promotion, deployment or user acceptance is implied.
