@@ -1,0 +1,37 @@
+{
+  "sourceMain": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+  "refs": "refs/heads/main ccaeaf521abc7d402eb661351cba8b3fa16c9f3b\nrefs/heads/work/gis cdc05c8cdff91cce5425ff7bd1647cd5acec7a3a\nrefs/heads/work/objects 65e11090fa8f1dd350bbf31d5b0067ec8e678c25\nrefs/heads/work/places b07ea7700c39fad5f4e7e0109581a9f04b4c0954\nrefs/heads/work/ui ccaeaf521abc7d402eb661351cba8b3fa16c9f3b\nrefs/remotes/origin/HEAD ccaeaf521abc7d402eb661351cba8b3fa16c9f3b\nrefs/remotes/origin/main ccaeaf521abc7d402eb661351cba8b3fa16c9f3b\nrefs/remotes/origin/work/gis 43412a2fe141b04dd27a82fcbb87e0627169ea6b\nrefs/remotes/origin/work/objects 65e11090fa8f1dd350bbf31d5b0067ec8e678c25\nrefs/remotes/origin/work/places b07ea7700c39fad5f4e7e0109581a9f04b4c0954\nrefs/remotes/origin/work/ui ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+  "worktrees": [
+    {
+      "root": "D:/dev/PandoLab",
+      "head": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "status": "",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c"
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "head": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "status": "",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c"
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "head": "65e11090fa8f1dd350bbf31d5b0067ec8e678c25",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "head": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": "",
+      "pin": "63aebba20cf60cad314022c8aeb24c87922ceb6d"
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "head": "cdc05c8cdff91cce5425ff7bd1647cd5acec7a3a",
+      "status": "",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c"
+    }
+  ],
+  "scope": "reports/development/integrations/branch-merge-after-ccaeaf521-2026-10-26"
+}

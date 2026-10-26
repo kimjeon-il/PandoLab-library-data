@@ -1,0 +1,229 @@
+{
+  "sourceMain": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+  "integratedGIS": "43412a2fe141b04dd27a82fcbb87e0627169ea6b",
+  "integratedObjects": "821ee920d111164ccd48a147756984e0d9646b75",
+  "branches": [
+    {
+      "ref": "refs/heads/main",
+      "sha": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/heads/work/gis",
+      "sha": "cdc05c8cdff91cce5425ff7bd1647cd5acec7a3a",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/heads/work/objects",
+      "sha": "821ee920d111164ccd48a147756984e0d9646b75",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/heads/work/places",
+      "sha": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/heads/work/ui",
+      "sha": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/remotes/origin/main",
+      "sha": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/remotes/origin/work/gis",
+      "sha": "43412a2fe141b04dd27a82fcbb87e0627169ea6b",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/remotes/origin/work/objects",
+      "sha": "821ee920d111164ccd48a147756984e0d9646b75",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/remotes/origin/work/places",
+      "sha": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "notInMain": 0
+    },
+    {
+      "ref": "refs/remotes/origin/work/ui",
+      "sha": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "notInMain": 0
+    }
+  ],
+  "worktrees": [
+    {
+      "root": "D:/dev/PandoLab",
+      "before": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "after": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "status": ""
+    },
+    {
+      "root": "D:/dev/worktrees/ui",
+      "before": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "after": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b",
+      "status": "M apps/viewer/css/viewer.css\n M shared/frontend/js/modules/timeline-controls.js\n M shared/frontend/ui/fragments/timeline.html\n M tests/browser/builtin-country-loading.spec.mjs\n M tests/browser/button-consistency.spec.mjs\n M tests/browser/editor-status-timeline.spec.mjs\n M tests/browser/historical-world-lifetime.spec.mjs\n M tests/browser/physical-land-time.spec.mjs\n M tests/browser/resource-dependency-reuse.spec.mjs\n M tests/browser/shared-view-policy.spec.mjs\n M tests/browser/soviet-transition-periods.spec.mjs\n M tests/browser/timeline-controls.spec.mjs\n M tests/browser/unified-object-display.spec.mjs\n M tests/browser/ussr-1922-caspian.spec.mjs\n M tests/browser/viewer-project-open.spec.mjs\n M tests/browser/web-viewer.spec.mjs\n M tests/unit/product-html.test.mjs\n M tests/unit/timeline-controls.test.mjs\n?? docs/superpowers/plans/2026-10-26-year-first-timeline.md"
+    },
+    {
+      "root": "D:/dev/worktrees/objects",
+      "before": "65e11090fa8f1dd350bbf31d5b0067ec8e678c25",
+      "after": "821ee920d111164ccd48a147756984e0d9646b75",
+      "status": ""
+    },
+    {
+      "root": "D:/dev/worktrees/places",
+      "before": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "after": "b07ea7700c39fad5f4e7e0109581a9f04b4c0954",
+      "status": ""
+    },
+    {
+      "root": "D:/dev/worktrees/gis",
+      "before": "cdc05c8cdff91cce5425ff7bd1647cd5acec7a3a",
+      "after": "cdc05c8cdff91cce5425ff7bd1647cd5acec7a3a",
+      "status": ""
+    }
+  ],
+  "concurrentUiWip": [
+    {
+      "status": "M ",
+      "path": "pps/viewer/css/viewer.css",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "status": " M",
+      "path": "shared/frontend/js/modules/timeline-controls.js",
+      "bytes": 9582,
+      "sha256": "3ce5643d0409a2701c0a82ed37b1901794e88073afa61e3957857d64890429bb"
+    },
+    {
+      "status": " M",
+      "path": "shared/frontend/ui/fragments/timeline.html",
+      "bytes": 3924,
+      "sha256": "153104e79dabbe70a4682c4e0603536ad0ae7679ab07b766393e6c70739f9ea2"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/builtin-country-loading.spec.mjs",
+      "bytes": 4478,
+      "sha256": "0f15e4f490ee6864aaacf932bc5698a03a47d34db0c16f4fd4c6a2c9bb45ab9d"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/button-consistency.spec.mjs",
+      "bytes": 8024,
+      "sha256": "64b16dafddeacccc3b769cd374237622b55fd5dcabc7cd15feadb9b05f6ddb6b"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/editor-status-timeline.spec.mjs",
+      "bytes": 2526,
+      "sha256": "7026fc4511bf5bdc64bca2ea5c684b218dbd27a0de4ae6e6c7637df097bbe6e7"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/historical-world-lifetime.spec.mjs",
+      "bytes": 4513,
+      "sha256": "886a3058ad45d13c047abc408246be68f2fc865afb9043979534717dfce50486"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/physical-land-time.spec.mjs",
+      "bytes": 14463,
+      "sha256": "fdda5f1175f8ff09a72aa3fb52e22a748af0586def07967194c03c45e940d544"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/resource-dependency-reuse.spec.mjs",
+      "bytes": 5121,
+      "sha256": "ae65f88b8ccdc8ebbb89df5f2c81443b69196b5a7042519bc4a9602a14661730"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/shared-view-policy.spec.mjs",
+      "bytes": 14366,
+      "sha256": "434927abc73508ad3e263241f7cff54b3b73cf2970f2a40db999b8bf7ebaa6bb"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/soviet-transition-periods.spec.mjs",
+      "bytes": 3394,
+      "sha256": "a254fece54d8df1147a45f7e431f1e28a7e7170ea852c3be27cc0c04fb34e7cf"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/timeline-controls.spec.mjs",
+      "bytes": 12263,
+      "sha256": "9d2c4096788822a26e12ad38817235eeac851ec5e6d9a2843be23abcbe4c1107"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/unified-object-display.spec.mjs",
+      "bytes": 4219,
+      "sha256": "511ab12fac70cad64306c2013a24e232106163d5a4cf60bb997b62cacf036b8e"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/ussr-1922-caspian.spec.mjs",
+      "bytes": 6736,
+      "sha256": "11d6fb736b930ba1a99e63148eb14d99a37d4fbd40929e6ced6ff92e83b398ea"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/viewer-project-open.spec.mjs",
+      "bytes": 7901,
+      "sha256": "eb3f7db9bde06ee16cb8d60008d6141ced1e7a52055e101b77a4871e6bcb51a4"
+    },
+    {
+      "status": " M",
+      "path": "tests/browser/web-viewer.spec.mjs",
+      "bytes": 3901,
+      "sha256": "726b9edc18d976613b0656cdc3c145a5967a25a17cc29a51bb4218211d02a8e7"
+    },
+    {
+      "status": " M",
+      "path": "tests/unit/product-html.test.mjs",
+      "bytes": 4430,
+      "sha256": "10d3557916ab2438bebd2f9379116a85dd984fd479ae99c0f4574dca8d0939ff"
+    },
+    {
+      "status": " M",
+      "path": "tests/unit/timeline-controls.test.mjs",
+      "bytes": 12735,
+      "sha256": "1e82d1bcbaa88ac2a81c568053a78e6771e11b91872fa89c6566a284c5bc9600"
+    },
+    {
+      "status": "??",
+      "path": "docs/superpowers/plans/2026-10-26-year-first-timeline.md",
+      "bytes": 3542,
+      "sha256": "7b88221127e4a4badc9f1d6a1dda0a88d77c412a28e340701c3b8cbb681201d4"
+    }
+  ],
+  "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "runtimeSourceDiff": "",
+  "localTests": {
+    "pass": 44,
+    "fail": 0,
+    "skip": 0,
+    "additionalLatestObjectsRerun": {
+      "pass": 30,
+      "fail": 0
+    }
+  },
+  "nativeGIS": {
+    "sourceCommit": "43412a2fe141b04dd27a82fcbb87e0627169ea6b",
+    "ciRun": 40323665189,
+    "status": "success",
+    "localBuild": false
+  },
+  "storage": {
+    "freeBytes": 61004877824,
+    "newLargeBuilds": false,
+    "actualProfileCleanup": false
+  },
+  "observedAt": "2026-10-26T13:00:49.485Z",
+  "sourceDiffBaseline": "ccaeaf521abc7d402eb661351cba8b3fa16c9f3b"
+}
