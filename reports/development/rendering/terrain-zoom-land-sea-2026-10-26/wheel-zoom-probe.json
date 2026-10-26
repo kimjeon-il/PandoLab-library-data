@@ -1,0 +1,2651 @@
+{
+  "sourceCommit": "6a13356609dedd25c258f7f00a8aedbff4f18450",
+  "cases": [
+    {
+      "zoom": 1,
+      "tag": "wheel-1",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "preview",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 1,
+        "terrainDetailedShade": false,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "preview",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:1:1/0-0,1/0-1,1/1-0,1/1-1,1/2-0,1/2-1:true",
+        "terrainLevel": 1,
+        "terrainRenderedLevel": 1,
+        "terrainTargetTileCount": 6,
+        "terrainTargetTilesLoaded": 6,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 26,
+        "terrainCacheBytes": 110456248,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 27,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.83000274651386,
+          "frameId": 223,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.83000274651386,
+          "frameId": 224,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.83000274651386,
+          "frameId": 225,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-1",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                70,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                94,
+                151,
+                191,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                59,
+                105,
+                144,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                128,
+                168,
+                153,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                197,
+                178,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-1",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                70,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                94,
+                151,
+                191,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                59,
+                105,
+                144,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                128,
+                168,
+                153,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                197,
+                178,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 1.4,
+      "tag": "wheel-1.4",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "canonical",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 2,
+        "terrainDetailedShade": false,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "canonical",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:2:2/0-0,2/1-0,2/1-1,2/2-0,2/2-1,2/2-2,2/3-0,2/3-1,2/3-2,2/4-0,2/4-1,2/5-0:true",
+        "terrainLevel": 2,
+        "terrainRenderedLevel": 2,
+        "terrainTargetTileCount": 12,
+        "terrainTargetTilesLoaded": 12,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 26,
+        "terrainCacheBytes": 110456248,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 27,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.83000274651386,
+          "frameId": 225,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1.4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 526.1620046543391,
+          "frameId": 226,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1.4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 526.1620046543391,
+          "frameId": 227,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-1.4",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                70,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                95,
+                152,
+                192,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                55,
+                99,
+                137,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                122,
+                162,
+                147,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                198,
+                178,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-1.4",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                70,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                95,
+                152,
+                192,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                55,
+                99,
+                137,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                122,
+                162,
+                147,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                198,
+                178,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 1.8,
+      "tag": "wheel-1.8",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "canonical",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 2,
+        "terrainDetailedShade": true,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "canonical",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:2:2/0-0,2/1-0,2/1-1,2/2-0,2/2-1,2/2-2,2/3-0,2/3-1,2/3-2,2/4-0,2/4-1,2/5-0:true",
+        "terrainLevel": 2,
+        "terrainRenderedLevel": 2,
+        "terrainTargetTileCount": 12,
+        "terrainTargetTilesLoaded": 12,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 26,
+        "terrainCacheBytes": 110456248,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 27,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-1.4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 526.1620046543391,
+          "frameId": 227,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1.8",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 676.4940021460721,
+          "frameId": 229,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1.8",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 676.4940021460721,
+          "frameId": 230,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-1.8",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                69,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                94,
+                151,
+                191,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                55,
+                98,
+                135,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                104,
+                164,
+                205,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                198,
+                178,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-1.8",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                69,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                94,
+                151,
+                191,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                55,
+                98,
+                135,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                104,
+                164,
+                205,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                198,
+                178,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 2.2,
+      "tag": "wheel-2.2",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "canonical",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 3,
+        "terrainDetailedShade": true,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "canonical",
+        "terrainReady": false,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:3:3/0-0,3/0-1,3/1-0,3/1-1,3/10-0,3/10-1,3/2-0,3/2-1,3/2-2,3/3-0,3/3-1,3/3-2,3/3-3,3/4-0,3/4-1,3/4-2,3/4-3,3/5-0,3/5-1,3/5-2,3/5-3,3/5-4,3/6-0,3/6-1,3/6-2,3/6-3,3/6-4,3/7-0,3/7-1,3/7-2,3/7-3,3/7-4,3/8-0,3/8-1,3/8-2,3/8-3,3/9-0,3/9-1,3/9-2:true",
+        "terrainLevel": 3,
+        "terrainRenderedLevel": -1,
+        "terrainTargetTileCount": 39,
+        "terrainTargetTilesLoaded": 26,
+        "terrainTargetTilesSettled": false,
+        "terrainTilesLoaded": 28,
+        "terrainCacheBytes": 144795112,
+        "terrainPendingDecodedBytes": 4210704,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 12,
+        "terrainFetchConcurrency": 6,
+        "terrainUploadCount": 53,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-2.2",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 826.8260051739107,
+          "frameId": 258,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-2.2",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 826.8260051739107,
+          "frameId": 259,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-2.2",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 826.8260051739107,
+          "frameId": 260,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-2.2",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-2.2",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 3,
+      "tag": "wheel-3",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "canonical",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 3,
+        "terrainDetailedShade": true,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "canonical",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:3:3/0-0,3/1-0,3/10-0,3/2-0,3/3-0,3/3-1,3/4-0,3/4-1,3/4-2,3/5-0,3/5-1,3/5-2,3/6-0,3/6-1,3/6-2,3/7-0,3/7-1,3/7-2,3/8-0,3/8-1,3/9-0:true",
+        "terrainLevel": 3,
+        "terrainRenderedLevel": 3,
+        "terrainTargetTileCount": 21,
+        "terrainTargetTilesLoaded": 21,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 30,
+        "terrainCacheBytes": 153216520,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 55,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-2.2",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 826.8260051739107,
+          "frameId": 261,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-3",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 1127.4899918929798,
+          "frameId": 262,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-3",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 1127.4899918929798,
+          "frameId": 263,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-3",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                69,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                93,
+                149,
+                190,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                55,
+                99,
+                135,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                128,
+                166,
+                152,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                198,
+                178,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-3",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                69,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                93,
+                149,
+                190,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                55,
+                99,
+                135,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                128,
+                166,
+                152,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                198,
+                178,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 4,
+      "tag": "wheel-4",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "canonical",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 3,
+        "terrainDetailedShade": true,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "canonical",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:3:3/2-0,3/3-0,3/4-0,3/4-1,3/5-0,3/5-1,3/5-2,3/6-0,3/6-1,3/6-2,3/7-0,3/7-1,3/7-2,3/8-0,3/8-1,3/9-0:true",
+        "terrainLevel": 3,
+        "terrainRenderedLevel": 3,
+        "terrainTargetTileCount": 16,
+        "terrainTargetTilesLoaded": 16,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 30,
+        "terrainCacheBytes": 153216520,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 55,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 1503.3200144187813,
+          "frameId": 270,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 1503.3200144187813,
+          "frameId": 271,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 1503.3200144187813,
+          "frameId": 272,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-4",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                212,
+                203,
+                182,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                69,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                93,
+                150,
+                190,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                57,
+                101,
+                137,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                106,
+                167,
+                207,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-4",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                212,
+                203,
+                182,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                69,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                93,
+                150,
+                190,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                57,
+                101,
+                137,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                106,
+                167,
+                207,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 1.4,
+      "tag": "wheel-1.4",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "canonical",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 2,
+        "terrainDetailedShade": true,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "canonical",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:2:2/0-0,2/1-0,2/1-1,2/2-0,2/2-1,2/2-2,2/3-0,2/3-1,2/3-2,2/4-0,2/4-1,2/5-0:true",
+        "terrainLevel": 2,
+        "terrainRenderedLevel": 2,
+        "terrainTargetTileCount": 12,
+        "terrainTargetTilesLoaded": 12,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 28,
+        "terrainCacheBytes": 134066248,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 69,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-1.4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 526.1620046543392,
+          "frameId": 288,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1.4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 526.1620046543392,
+          "frameId": 289,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1.4",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "canonical",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 526.1620046543392,
+          "frameId": 290,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-1.4",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-1.4",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                106,
+                168,
+                210,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                204,
+                204,
+                204,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zoom": 1,
+      "tag": "wheel-1",
+      "metrics": {
+        "surfacePresentation": {
+          "targetQuality": "preview",
+          "geometryQuality": "canonical",
+          "quality": "canonical"
+        },
+        "surfaceDraw": {
+          "quality": "canonical",
+          "landSource": "physical-canonical",
+          "countryIndexCount": 0
+        },
+        "projectGeneration": 1,
+        "terrainRepresentation": "dem-relief-v1",
+        "terrainDatasetVersion": "0.13.3",
+        "terrainSource": "official",
+        "terrainFallbackReason": null,
+        "terrainTargetLevel": 1,
+        "terrainDetailedShade": false,
+        "projectRenderBlocked": false,
+        "countriesPublishedGeneration": 1,
+        "meshQuality": "canonical",
+        "activeMeshQuality": "canonical",
+        "desiredCountryMeshQuality": "preview",
+        "terrainReady": true,
+        "terrainFailed": false,
+        "terrainResolutionLimited": false,
+        "terrainTargetKey": "1:1:2:1:1/0-0,1/0-1,1/1-0,1/1-1,1/2-0,1/2-1:true",
+        "terrainLevel": 1,
+        "terrainRenderedLevel": 1,
+        "terrainTargetTileCount": 6,
+        "terrainTargetTilesLoaded": 6,
+        "terrainTargetTilesSettled": true,
+        "terrainTilesLoaded": 29,
+        "terrainCacheBytes": 134194792,
+        "terrainPendingDecodedBytes": 0,
+        "terrainTintReady": true,
+        "terrainTilesLoading": 0,
+        "terrainFetchConcurrency": 4,
+        "terrainUploadCount": 75,
+        "terrainFailureCount": 0,
+        "terrainIncompleteFrameCount": 0
+      },
+      "land": [
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.8300027465139,
+          "frameId": 297,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.8300027465139,
+          "frameId": 298,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        },
+        {
+          "tag": "wheel-1",
+          "terrainVisible": true,
+          "terrainStyle": "physical",
+          "quality": {
+            "targetQuality": "preview",
+            "geometryQuality": "canonical",
+            "quality": "canonical"
+          },
+          "scale": 375.8300027465139,
+          "frameId": 299,
+          "land": [
+            {
+              "key": "physical-land",
+              "sourceKey": "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499",
+              "positions": 2053952,
+              "indices": 4504629,
+              "style": {
+                "color": "#ffffff",
+                "alpha": 1,
+                "width": 1,
+                "scaleWithView": false,
+                "antiAlias": true,
+                "coverage": "normal",
+                "innerCutout": 0,
+                "fillAlpha": 1,
+                "casing": null,
+                "cap": "round",
+                "join": "round",
+                "dash": [
+                  0,
+                  0
+                ],
+                "miterLimit": 4,
+                "blendMode": "normal"
+              }
+            }
+          ],
+          "deferred": [],
+          "failed": []
+        }
+      ],
+      "pixels": [
+        {
+          "tag": "wheel-1",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                70,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                94,
+                151,
+                191,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                59,
+                104,
+                142,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                128,
+                168,
+                153,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                197,
+                178,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "wheel-1",
+          "points": [
+            {
+              "name": "Turkey",
+              "rgba": [
+                213,
+                203,
+                181,
+                255
+              ]
+            },
+            {
+              "name": "BlackSea",
+              "rgba": [
+                70,
+                119,
+                159,
+                255
+              ]
+            },
+            {
+              "name": "Caspian",
+              "rgba": [
+                94,
+                151,
+                191,
+                255
+              ]
+            },
+            {
+              "name": "Mediterranean",
+              "rgba": [
+                59,
+                104,
+                142,
+                255
+              ]
+            },
+            {
+              "name": "Italy",
+              "rgba": [
+                128,
+                168,
+                153,
+                255
+              ]
+            },
+            {
+              "name": "Arabia",
+              "rgba": [
+                208,
+                197,
+                178,
+                255
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "responses": [
+    {
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/terrain-dem-shaders.js?v=0.36.0-build-6a13356609de",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/workers/canvas-terrain-dem-core.js?v=0.36.0-build-6a13356609de",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/terrain-manifest.js?v=0.36.0-build-6a13356609de",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/gpu-terrain-preparation.js?v=0.36.0-build-6a13356609de",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/Pando/assets/data/physical-land/v1/geometry.json.gz",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/1-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/tint.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/1-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/2-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/0-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/2-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/0-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/0/0-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/0/1-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/4-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/3-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/1-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/2-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/3-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/2-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/5-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/0-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/4-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/1-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/3-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/2-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/0-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/4-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/0-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/1-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/5-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/5-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/7-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/7-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/4-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/4-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/8-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/3-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/9-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/2-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/7-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/8-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/10-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/1-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/0-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/4-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/3-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-3.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-3.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/9-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/8-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/2-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/3-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/7-3.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/10-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/4-3.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/2-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/4-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/1-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/2-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/3-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/3-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/5-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/0-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/4-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/1-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/3-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/2-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/5-2.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/2/5-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/1-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/2-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/0-0.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/1-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/0-1.webp?v=622a6d272bdd",
+      "status": 200
+    },
+    {
+      "url": "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/1/2-1.webp?v=622a6d272bdd",
+      "status": 200
+    }
+  ],
+  "at": "2026-10-26T11:01:10.252Z"
+}

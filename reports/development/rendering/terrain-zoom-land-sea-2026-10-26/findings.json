@@ -1,0 +1,171 @@
+{
+  "sourceCommit": "6a13356609dedd25c258f7f00a8aedbff4f18450",
+  "applicationFilesModified": false,
+  "dataRegenerated": false,
+  "nativeBuildExecuted": false,
+  "terrain": {
+    "source": "shared/frontend/js/modules/gpu-terrain-preparation.js",
+    "lines": [
+      404,
+      459
+    ],
+    "cssScaleThreshold": 504,
+    "cause": "Above the low-scale threshold, incomplete target coverage disables fallback and returns an empty terrain draw list, even with cached coverage",
+    "landResourceKeys": [
+      "polygon:physical-land::aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98:high:globe:mesh-5:edge-0.499"
+    ],
+    "manualHostCases": 8,
+    "realWheelCases": 8,
+    "wheelRows": [
+      {
+        "zoom": 1,
+        "cssScale": 375.83000274651386,
+        "level": 1,
+        "loaded": 6,
+        "target": 6,
+        "renderedLevel": 1,
+        "ready": true,
+        "failed": false
+      },
+      {
+        "zoom": 1.4,
+        "cssScale": 526.1620046543391,
+        "level": 2,
+        "loaded": 12,
+        "target": 12,
+        "renderedLevel": 2,
+        "ready": true,
+        "failed": false
+      },
+      {
+        "zoom": 1.8,
+        "cssScale": 676.4940021460721,
+        "level": 2,
+        "loaded": 12,
+        "target": 12,
+        "renderedLevel": 2,
+        "ready": true,
+        "failed": false
+      },
+      {
+        "zoom": 2.2,
+        "cssScale": 826.8260051739107,
+        "level": 3,
+        "loaded": 26,
+        "target": 39,
+        "renderedLevel": -1,
+        "ready": false,
+        "failed": false
+      },
+      {
+        "zoom": 3,
+        "cssScale": 1127.4899918929798,
+        "level": 3,
+        "loaded": 21,
+        "target": 21,
+        "renderedLevel": 3,
+        "ready": true,
+        "failed": false
+      },
+      {
+        "zoom": 4,
+        "cssScale": 1503.3200144187813,
+        "level": 3,
+        "loaded": 16,
+        "target": 16,
+        "renderedLevel": 3,
+        "ready": true,
+        "failed": false
+      },
+      {
+        "zoom": 1.4,
+        "cssScale": 526.1620046543392,
+        "level": 2,
+        "loaded": 12,
+        "target": 12,
+        "renderedLevel": 2,
+        "ready": true,
+        "failed": false
+      },
+      {
+        "zoom": 1,
+        "cssScale": 375.8300027465139,
+        "level": 1,
+        "loaded": 6,
+        "target": 6,
+        "renderedLevel": 1,
+        "ready": true,
+        "failed": false
+      }
+    ],
+    "failedTileResponses": [],
+    "atomic": {
+      "baseline": {
+        "lowTiles": 1,
+        "pendingTiles": 0,
+        "partialTiles": 0,
+        "partialLoaded": 1,
+        "targetTiles": 2,
+        "completeTiles": 2,
+        "completeReady": true
+      },
+      "inMemoryExperiment": {
+        "lowTiles": 1,
+        "pendingTiles": 1,
+        "partialTiles": 2,
+        "partialLoaded": 1,
+        "targetTiles": 2,
+        "completeTiles": 2,
+        "completeReady": true
+      },
+      "productionFilesModified": false
+    }
+  },
+  "hover": {
+    "source": "apps/viewer/js/modules/viewer-map.js",
+    "line": 273,
+    "consumer": "shared/frontend/js/modules/object-picking.js:79",
+    "cause": "Viewer picker receives objectPresentation, whose territorialScope getter was not initialized; the canonical local territorialScope already exists but is not passed",
+    "experiment": {
+      "productionFilesModified": false,
+      "results": [
+        {
+          "correctedPort": false,
+          "before": {
+            "passedScope": "undefined",
+            "canonicalDisplayFeature": "function",
+            "phase": "canonical"
+          },
+          "direct": {
+            "error": "Cannot read properties of undefined (reading 'displayFeature')",
+            "stack": "TypeError: Cannot read properties of undefined (reading 'displayFeature')\n    at https://kimjeon-il.github.io/Pando/assets/js/modules/object-picking.js?v=0.36.0-build-6a13356609de:79:66\n    at Array.flatMap (<anonymous>)\n    at Object.territorialObjectsAt (https://kimjeon-il.github.io/Pando/assets/js/modules/object-picking.js?v=0.36.0-build-6a13356609de:78:70)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:54)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+          },
+          "errors": []
+        },
+        {
+          "correctedPort": true,
+          "before": {
+            "passedScope": "undefined",
+            "canonicalDisplayFeature": "function",
+            "phase": "canonical"
+          },
+          "direct": {
+            "refs": [
+              {
+                "domain": "territorial",
+                "type": "entity",
+                "id": "TUR",
+                "key": "territorial:entity:TUR"
+              }
+            ]
+          },
+          "errors": []
+        }
+      ]
+    }
+  },
+  "storage": {
+    "reportLogicalBytes": 4663334,
+    "driveFreeBytes": 61089157120
+  }
+}

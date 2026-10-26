@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "lowTiles": 1,
+    "pendingTiles": 0,
+    "partialTiles": 0,
+    "partialLoaded": 1,
+    "targetTiles": 2,
+    "completeTiles": 2,
+    "completeReady": true
+  },
+  "inMemoryExperiment": {
+    "lowTiles": 1,
+    "pendingTiles": 1,
+    "partialTiles": 2,
+    "partialLoaded": 1,
+    "targetTiles": 2,
+    "completeTiles": 2,
+    "completeReady": true
+  },
+  "productionFilesModified": false
+}

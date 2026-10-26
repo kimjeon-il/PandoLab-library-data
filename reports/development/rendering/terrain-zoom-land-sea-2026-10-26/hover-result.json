@@ -1,0 +1,37 @@
+{
+  "productionFilesModified": false,
+  "results": [
+    {
+      "correctedPort": false,
+      "before": {
+        "passedScope": "undefined",
+        "canonicalDisplayFeature": "function",
+        "phase": "canonical"
+      },
+      "direct": {
+        "error": "Cannot read properties of undefined (reading 'displayFeature')",
+        "stack": "TypeError: Cannot read properties of undefined (reading 'displayFeature')\n    at https://kimjeon-il.github.io/Pando/assets/js/modules/object-picking.js?v=0.36.0-build-6a13356609de:79:66\n    at Array.flatMap (<anonymous>)\n    at Object.territorialObjectsAt (https://kimjeon-il.github.io/Pando/assets/js/modules/object-picking.js?v=0.36.0-build-6a13356609de:78:70)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:54)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+      },
+      "errors": []
+    },
+    {
+      "correctedPort": true,
+      "before": {
+        "passedScope": "undefined",
+        "canonicalDisplayFeature": "function",
+        "phase": "canonical"
+      },
+      "direct": {
+        "refs": [
+          {
+            "domain": "territorial",
+            "type": "entity",
+            "id": "TUR",
+            "key": "territorial:entity:TUR"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ]
+}
