@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26",
+  "removed": [
+    {
+      "path": "D:/dev/worktrees/ui/test-results",
+      "files": 7,
+      "logicalBytes": 2775248,
+      "reason": "Scoped browser runs finished; two final representative screenshots retained as report originals; other verification copies are reproducible."
+    },
+    {
+      "path": "D:/dev/worktrees/ui/build-native/year-navigation-evidence.mjs",
+      "files": 1,
+      "logicalBytes": 895,
+      "reason": "One-time evidence transfer helper finished."
+    }
+  ],
+  "removedLogicalBytes": 2776143,
+  "removedEmptyDirectories": 3,
+  "driveFreeBefore": 60214550528,
+  "driveFreeAfter": 60216414208,
+  "measuredFreeDelta": 1863680,
+  "retainedReportImageBytes": 1297308,
+  "retainedReportImageReason": "Current final UI verification and review evidence.",
+  "remainingTaskTemporaryOutputs": [],
+  "skippedDeletions": [],
+  "blockedDeletions": [],
+  "notes": "Verified absolute plain-file targets, non-linked parents, closed task browser/server and SHA256 equality of preserved images. Complex combined cleanup was rejected; explicit plain-file and empty-directory removals succeeded. Drive free-space delta includes possible concurrent writes; it is separate from logical bytes. Runtime caches, original data and other work were preserved."
+}
