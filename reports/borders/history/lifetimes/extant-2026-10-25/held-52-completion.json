@@ -1,0 +1,68 @@
+{
+  "appMain": "7d773ed2f6dde0b26accde5f39edc5d81ec068b9",
+  "incomingCommits": 28,
+  "dataRevision": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "release": {
+    "sourceRevision": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+    "revision": "dddc4aad6278c1e40eecb3f1188b55cfcaea630afb47127374c8db9ead5471dd",
+    "output": "D:\\dev\\worktrees\\gis\\build-native\\library-publication",
+    "files": 955,
+    "logicalBytes": 194856843,
+    "pairedSourceHashesVerified": true,
+    "verified": {
+      "revision": "dddc4aad6278c1e40eecb3f1188b55cfcaea630afb47127374c8db9ead5471dd",
+      "fileCount": 955
+    },
+    "publication": "pushed",
+    "createdAt": "2026-10-26T08:02:45.486Z",
+    "libraryMainCommit": "252d1e821591a179535971cdef8c085f1d1a20f4",
+    "previousLibraryMain": "dcda70753c493150f36991689e3fcfb3dd7a9573",
+    "publishedAt": "2026-10-26T08:04:28.010Z"
+  },
+  "cleanup": {
+    "freeBytesBefore": 60891258880,
+    "removed": [
+      {
+        "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+        "logicalBytes": 841884527,
+        "archivedPrivateBytes": 16037539,
+        "reason": "Superseded GIS runtime view; no mounts/live consumers; private bytes match locally readable archived originals"
+      },
+      {
+        "path": "D:\\dev\\worktrees\\gis\\build-native\\library-publication",
+        "logicalBytes": 195023283,
+        "files": 957,
+        "reason": "Completed publication staging; every file matches a locally readable blob in pushed library main"
+      }
+    ],
+    "preserved": "All permanent worktrees, source pins, original evidence, source geometry and shared Git objects",
+    "freeBytesAfter": 61110497280,
+    "driveFreeBytesChange": 219238400,
+    "removedLogicalBytes": 1036907810,
+    "checkedAt": "2026-10-26T08:16:01.067Z"
+  },
+  "verification": {
+    "source225": true,
+    "world150": true,
+    "webApp": true,
+    "public25": true,
+    "soviet1922": true
+  },
+  "remainingCI": {
+    "p2": "The POSIX fixture and plan tests pass; automatic generation/publication remains blocked by missing PANDOLAB_LIBRARY_WRITE_TOKEN.",
+    "applicationArchitecture": "Run40289942232 failed on8 unused imports, native GIS test executable/prerequisite wiring, and existing check/HTML fixture assumptions including missing config/library-data.json. Not hidden, skipped or weakened by this task."
+  },
+  "completedAt": "2026-10-26T08:18:00.929Z",
+  "publicRenderedFrame": {
+    "canonicalMeshReady": true,
+    "projectRenderBlocked": false,
+    "projectGeneration": 2,
+    "countriesPublishedGeneration": 2,
+    "mapReadiness": {
+      "status": "ready",
+      "label": "현재 화면 준비 완료 · 저배율 표시",
+      "retry": false
+    }
+  },
+  "publicVerifiedAt": "2026-10-26T08:24:41.324Z"
+}

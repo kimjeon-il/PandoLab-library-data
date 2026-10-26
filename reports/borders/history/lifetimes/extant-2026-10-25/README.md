@@ -236,3 +236,5 @@
 - 이번 정리: 구 GIS runtime view와 게시 staging 1036907810논리바이트 제거. 정리 구간 D여유 변화 219238400바이트, 정리 후 61110497280바이트. 공유 하드링크와 Git정본을 유지하므로 논리 제거량과 실제 확보량은 다르다. 원본·보고서·상설작업트리·진행작업은 보존했다.
 - 판정기록: 자료와 형상은 분리 유지; 도메인 검사는 선택25개로 한정; 게시와 정리의 파일해시는 별도 무결성 확인이다. 공개채널은 사용자가 추가 승인했다. 남은CI의 비밀키/별도 테스트 인프라는 임의 변경하거나 우회하지 않았다.
 - 실제 웹 증거: held-52-public-soviet-1922.png, 앱 증거: held-52-app-faroe.png. 원격 보고서 보관은 이 최종 수정 뒤 publish-reports 및 check-reports로 별도 확인한다.
+
+최종 공개 화면 증거는 국가 렌더링 완료까지 기다려 다시 기록했다: canonicalMeshReady=true, projectRenderBlocked=false, countriesPublishedGeneration=projectGeneration=2, mapReadiness.status=ready. Windows 브라우저 실행은 기존 Playwright 설정의 D3D11 옵션을 사용했다. held-52-web-soviet-1922.png는 데이터 준비 직후의 초기 프레임 기록이고, 최종 시각 확인에는 held-52-public-soviet-1922.png를 사용한다.

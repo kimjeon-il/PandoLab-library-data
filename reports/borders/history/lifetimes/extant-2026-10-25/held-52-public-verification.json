@@ -1,0 +1,156 @@
+{
+  "url": "https://kimjeon-il.github.io/Pando/",
+  "pointer": {
+    "schema": "pandolab-data-channel",
+    "schemaVersion": 1,
+    "revision": "dddc4aad6278c1e40eecb3f1188b55cfcaea630afb47127374c8db9ead5471dd",
+    "manifestSha256": "7eff8943f6f4d5bb483e335b8dd93ac419c28f4511b62949d3066829296f0663"
+  },
+  "sourceRevision": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "selectedRecords": 25,
+  "checked": [
+    {
+      "id": "state:HUN",
+      "date": "1000",
+      "sha256": "98668200016c0b93b06be46e25deb091f1e43095ec6f34f44015d03c5f717655"
+    },
+    {
+      "id": "state:FRO",
+      "date": "1948-04-01",
+      "sha256": "fa22c5fe7cf9cd7bc80ea44797898da6a2a76ee7bf0ceb506c10438b176f147e"
+    },
+    {
+      "id": "state:LAO",
+      "date": "1946-08-27",
+      "sha256": "ad57a3fdb3d28cd2ac3e0c995873f8b88f416323402ec0715f71fcacd3bd1c4a"
+    },
+    {
+      "id": "state:PHL",
+      "date": "1935-11-15",
+      "sha256": "6775b541cee0d3219e72343b37c53bd5babfd849c2a09fe3bda13956b66be476"
+    },
+    {
+      "id": "state:SYR",
+      "date": "1961-09-28",
+      "sha256": "3196ab0cf3aba6275816a367cd04248d566602222b1fab7799511a9899ca7499"
+    },
+    {
+      "id": "state:NIC",
+      "date": "1838-04-30",
+      "sha256": "8ad54a05c6400b05ff966a6662dc7ab8885674497a8fa5c556ed02e2f2e05d7a"
+    },
+    {
+      "id": "state:HND",
+      "date": "1838-10-26",
+      "sha256": "fbe6d569f2c6fb827dc2a7e8a1eb830636f691673da6468c124c9a1e355cdd60"
+    },
+    {
+      "id": "state:CRI",
+      "date": "1838-11-14",
+      "sha256": "4f5d885e9722fa7ae205af1874c401f1051d55c113c92a05085489f85dd37230"
+    },
+    {
+      "id": "state:CUB",
+      "date": "1902-05-20",
+      "sha256": "fac2da720c389ab5c3fd8df90ecf7e78c9b1d43e40101f12582002722d52971d"
+    },
+    {
+      "id": "state:PRI",
+      "date": "1509-08-24",
+      "sha256": "60e1a43f2ed80603b5ac27a81868ab0530441276717385d5d7314decf268e636"
+    },
+    {
+      "id": "state:CYM",
+      "date": "1959-07-04",
+      "sha256": "c2d058ee4be8f1b8753103d2968f8afdaeaa785f4df7ee5783443ca4c2d68c57"
+    },
+    {
+      "id": "state:VGB",
+      "date": "1956-07-01",
+      "sha256": "008e945941224047649acefc2018aefc425bbdfead68ff11d3d7e2452f54a58a"
+    },
+    {
+      "id": "state:ABW",
+      "date": "1986-01-01",
+      "sha256": "52a24b5872c23f8a1088ff85c957715239c0af4347e30a54d95391fe161c9fc8"
+    },
+    {
+      "id": "state:BLM",
+      "date": "2007-07-15",
+      "sha256": "4e6a88e96be3e6c607c554efe3a85473a2f260813e8f91a439c3e7a675d8b209"
+    },
+    {
+      "id": "state:CUW",
+      "date": "2010-10-10",
+      "sha256": "c6f856d4a79b8e5a49a938adffa673bb910a2e87ffb2f0da058f3d97b9148251"
+    },
+    {
+      "id": "state:SPM",
+      "date": "1816-06-22",
+      "sha256": "97feb1f782c29f701705504a163f34714a64088e784ea81a77fca4c81dc88824"
+    },
+    {
+      "id": "state:VEN",
+      "date": "1830-01-13",
+      "sha256": "2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351"
+    },
+    {
+      "id": "state:PER",
+      "date": "1838-08-25",
+      "sha256": "0003088ffd404cc3372d005f7834b87c97e4aa7f07bcb33e33d78c3912ebb12d"
+    },
+    {
+      "id": "state:EGY",
+      "date": "1805",
+      "sha256": "445c410d80eecaa43315807bfdff35011c193be73dc9e44118afae6a04fdc855"
+    },
+    {
+      "id": "state:MLI",
+      "date": "1958-11-24",
+      "sha256": "af618e448f0bfea897e5707fc9a46396f6761ed8722ad857298552b838efbb44"
+    },
+    {
+      "id": "state:GNB",
+      "date": "1973-09-24",
+      "sha256": "47a86cb05b3f2645f77e7473c8eace9e9ab80d9462be0919246cbdf94d4eba93"
+    },
+    {
+      "id": "state:NIU",
+      "date": "1974-10-19",
+      "sha256": "420a5f6a8123172943c023454669f8c3dbd90de96fa40cc0f45605fea18582f8"
+    },
+    {
+      "id": "state:MHL",
+      "date": "1979-05-01",
+      "sha256": "44d643cda993e38dfafbc23ef7700d53d245ad9729940d4fa20b310ce53db9a3"
+    },
+    {
+      "id": "state:MNP",
+      "date": "1978-01-09",
+      "sha256": "530e906de47c87af8668e35b7a002d2fea3c1bd01022746c93023d77f0f7ac38"
+    },
+    {
+      "id": "state:PLW",
+      "date": "1981-01-01",
+      "sha256": "01d21ccdb4c2273208f73dc22861eef24530e47c4ea6014ece2761feb634b879"
+    }
+  ],
+  "viewerMonth": "1922-12",
+  "sovietRef": "historical-world:21db5bdce7286e2190f76e732cc1463f9202bd65c801ac8bf62cad7e2755c1ec",
+  "newReleaseRequestedByBrowser": true,
+  "observedReleaseRequests": 44,
+  "rendered": {
+    "canonicalMeshReady": true,
+    "projectRenderBlocked": false,
+    "projectGeneration": 2,
+    "countriesPublishedGeneration": 2,
+    "mapReadiness": {
+      "status": "ready",
+      "label": "현재 화면 준비 완료 · 저배율 표시",
+      "retry": false
+    }
+  },
+  "screenshot": "held-52-public-soviet-1922.png",
+  "errors": [],
+  "checkedAt": "2026-10-26T08:24:41.324Z"
+}
