@@ -1,0 +1,446 @@
+{
+  "ungated": true,
+  "sourceCommit": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+  "cases": [
+    {
+      "tag": "before-objects-low",
+      "frame": {
+        "tag": "startup",
+        "terrainVisible": true,
+        "scale": 312.13,
+        "quality": "pending",
+        "land": [
+          "physical-land"
+        ],
+        "published": -1,
+        "generation": 1,
+        "readiness": {
+          "terrainReady": true,
+          "terrainFailed": false,
+          "terrainResolutionLimited": false,
+          "terrainTargetKey": "1:1:2:1:1/0-0,1/0-1,1/1-0,1/1-1,1/2-0,1/2-1:true",
+          "terrainLevel": 1,
+          "terrainRenderedLevel": 1,
+          "terrainTargetTileCount": 6,
+          "terrainTargetTilesLoaded": 6,
+          "terrainTargetTilesSettled": true,
+          "terrainTilesLoaded": 26,
+          "terrainCacheBytes": 110456248,
+          "terrainPendingDecodedBytes": 0,
+          "terrainTintReady": true,
+          "terrainTilesLoading": 0,
+          "terrainFetchConcurrency": 4,
+          "terrainUploadCount": 27,
+          "terrainFailureCount": 0
+        },
+        "tiles": [
+          {
+            "key": "1/0-0",
+            "level": 1
+          },
+          {
+            "key": "1/1-0",
+            "level": 1
+          },
+          {
+            "key": "1/2-0",
+            "level": 1
+          },
+          {
+            "key": "1/0-1",
+            "level": 1
+          },
+          {
+            "key": "1/1-1",
+            "level": 1
+          },
+          {
+            "key": "1/2-1",
+            "level": 1
+          }
+        ]
+      },
+      "pixels": {
+        "tag": "before-objects-low",
+        "points": [
+          {
+            "name": "Turkey",
+            "rgba": [
+              213,
+              203,
+              181,
+              255
+            ]
+          },
+          {
+            "name": "BlackSea",
+            "rgba": [
+              70,
+              119,
+              159,
+              255
+            ]
+          },
+          {
+            "name": "Mediterranean",
+            "rgba": [
+              84,
+              122,
+              153,
+              255
+            ]
+          }
+        ]
+      },
+      "countryGateReached": true
+    },
+    {
+      "tag": "before-objects-high",
+      "frame": {
+        "tag": "before-objects-low",
+        "terrainVisible": true,
+        "scale": 936.39,
+        "quality": "pending",
+        "land": [
+          "physical-land"
+        ],
+        "published": -1,
+        "generation": 1,
+        "readiness": {
+          "terrainReady": false,
+          "terrainFailed": false,
+          "terrainResolutionLimited": false,
+          "terrainTargetKey": "1:1:2:3:3/0-0,3/1-0,3/10-0,3/2-0,3/3-0,3/3-1,3/4-0,3/4-1,3/4-2,3/5-0,3/5-1,3/5-2,3/6-0,3/6-1,3/6-2,3/6-3,3/7-0,3/7-1,3/7-2,3/8-0,3/8-1,3/9-0:true",
+          "terrainLevel": 3,
+          "terrainRenderedLevel": 2,
+          "terrainTargetTileCount": 22,
+          "terrainTargetTilesLoaded": 0,
+          "terrainTargetTilesSettled": false,
+          "terrainTilesLoaded": 26,
+          "terrainCacheBytes": 110456248,
+          "terrainPendingDecodedBytes": 0,
+          "terrainTintReady": true,
+          "terrainTilesLoading": 22,
+          "terrainFetchConcurrency": 6,
+          "terrainUploadCount": 27,
+          "terrainFailureCount": 0
+        },
+        "tiles": [
+          {
+            "key": "0/0-0",
+            "level": 0
+          },
+          {
+            "key": "0/1-0",
+            "level": 0
+          },
+          {
+            "key": "1/0-0",
+            "level": 1
+          },
+          {
+            "key": "1/1-0",
+            "level": 1
+          },
+          {
+            "key": "1/2-0",
+            "level": 1
+          },
+          {
+            "key": "2/0-0",
+            "level": 2
+          },
+          {
+            "key": "2/1-0",
+            "level": 2
+          },
+          {
+            "key": "2/2-0",
+            "level": 2
+          },
+          {
+            "key": "2/3-0",
+            "level": 2
+          },
+          {
+            "key": "2/4-0",
+            "level": 2
+          },
+          {
+            "key": "2/5-0",
+            "level": 2
+          },
+          {
+            "key": "2/2-1",
+            "level": 2
+          },
+          {
+            "key": "2/3-1",
+            "level": 2
+          }
+        ]
+      },
+      "pixels": {
+        "tag": "before-objects-high",
+        "points": [
+          {
+            "name": "Turkey",
+            "rgba": [
+              213,
+              203,
+              181,
+              255
+            ]
+          },
+          {
+            "name": "BlackSea",
+            "rgba": [
+              69,
+              119,
+              159,
+              255
+            ]
+          },
+          {
+            "name": "Mediterranean",
+            "rgba": [
+              81,
+              120,
+              153,
+              255
+            ]
+          }
+        ]
+      },
+      "countryGateReached": true
+    },
+    {
+      "tag": "before-objects-low-again",
+      "frame": {
+        "tag": "before-objects-high",
+        "terrainVisible": true,
+        "scale": 312.13,
+        "quality": "pending",
+        "land": [
+          "physical-land"
+        ],
+        "published": -1,
+        "generation": 1,
+        "readiness": {
+          "terrainReady": true,
+          "terrainFailed": false,
+          "terrainResolutionLimited": false,
+          "terrainTargetKey": "1:1:2:1:1/0-0,1/0-1,1/1-0,1/1-1,1/2-0,1/2-1:true",
+          "terrainLevel": 1,
+          "terrainRenderedLevel": 1,
+          "terrainTargetTileCount": 6,
+          "terrainTargetTilesLoaded": 6,
+          "terrainTargetTilesSettled": true,
+          "terrainTilesLoaded": 26,
+          "terrainCacheBytes": 110456248,
+          "terrainPendingDecodedBytes": 0,
+          "terrainTintReady": true,
+          "terrainTilesLoading": 6,
+          "terrainFetchConcurrency": 4,
+          "terrainUploadCount": 27,
+          "terrainFailureCount": 0
+        },
+        "tiles": [
+          {
+            "key": "1/0-0",
+            "level": 1
+          },
+          {
+            "key": "1/1-0",
+            "level": 1
+          },
+          {
+            "key": "1/2-0",
+            "level": 1
+          },
+          {
+            "key": "1/0-1",
+            "level": 1
+          },
+          {
+            "key": "1/1-1",
+            "level": 1
+          },
+          {
+            "key": "1/2-1",
+            "level": 1
+          }
+        ]
+      },
+      "pixels": {
+        "tag": "before-objects-low-again",
+        "points": [
+          {
+            "name": "Turkey",
+            "rgba": [
+              213,
+              203,
+              181,
+              255
+            ]
+          },
+          {
+            "name": "BlackSea",
+            "rgba": [
+              70,
+              119,
+              159,
+              255
+            ]
+          },
+          {
+            "name": "Mediterranean",
+            "rgba": [
+              84,
+              122,
+              153,
+              255
+            ]
+          }
+        ]
+      },
+      "countryGateReached": true
+    },
+    {
+      "tag": "after-objects-high",
+      "frame": {
+        "tag": "before-objects-low-again",
+        "terrainVisible": true,
+        "scale": 936.39,
+        "quality": "canonical",
+        "land": [
+          "physical-land"
+        ],
+        "published": 1,
+        "generation": 1,
+        "readiness": {
+          "terrainReady": false,
+          "terrainFailed": false,
+          "terrainResolutionLimited": false,
+          "terrainTargetKey": "1:1:2:3:3/0-0,3/1-0,3/10-0,3/2-0,3/3-0,3/3-1,3/4-0,3/4-1,3/4-2,3/5-0,3/5-1,3/5-2,3/6-0,3/6-1,3/6-2,3/6-3,3/7-0,3/7-1,3/7-2,3/8-0,3/8-1,3/9-0:true",
+          "terrainLevel": 3,
+          "terrainRenderedLevel": 2,
+          "terrainTargetTileCount": 22,
+          "terrainTargetTilesLoaded": 0,
+          "terrainTargetTilesSettled": false,
+          "terrainTilesLoaded": 26,
+          "terrainCacheBytes": 110456248,
+          "terrainPendingDecodedBytes": 0,
+          "terrainTintReady": true,
+          "terrainTilesLoading": 22,
+          "terrainFetchConcurrency": 6,
+          "terrainUploadCount": 27,
+          "terrainFailureCount": 0
+        },
+        "tiles": [
+          {
+            "key": "0/0-0",
+            "level": 0
+          },
+          {
+            "key": "0/1-0",
+            "level": 0
+          },
+          {
+            "key": "1/0-0",
+            "level": 1
+          },
+          {
+            "key": "1/1-0",
+            "level": 1
+          },
+          {
+            "key": "1/2-0",
+            "level": 1
+          },
+          {
+            "key": "2/0-0",
+            "level": 2
+          },
+          {
+            "key": "2/1-0",
+            "level": 2
+          },
+          {
+            "key": "2/2-0",
+            "level": 2
+          },
+          {
+            "key": "2/3-0",
+            "level": 2
+          },
+          {
+            "key": "2/4-0",
+            "level": 2
+          },
+          {
+            "key": "2/5-0",
+            "level": 2
+          },
+          {
+            "key": "2/2-1",
+            "level": 2
+          },
+          {
+            "key": "2/3-1",
+            "level": 2
+          }
+        ]
+      },
+      "pixels": {
+        "tag": "after-objects-high",
+        "points": [
+          {
+            "name": "Turkey",
+            "rgba": [
+              213,
+              203,
+              181,
+              255
+            ]
+          },
+          {
+            "name": "BlackSea",
+            "rgba": [
+              69,
+              119,
+              159,
+              255
+            ]
+          },
+          {
+            "name": "Mediterranean",
+            "rgba": [
+              81,
+              120,
+              153,
+              255
+            ]
+          }
+        ]
+      },
+      "countryGateReached": true
+    }
+  ],
+  "heldTiles": [
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-1.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-1.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-0.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-0.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/7-1.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-2.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-1.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-1.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-0.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/5-0.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/7-1.webp?v=622a6d272bdd",
+    "https://kimjeon-il.github.io/PandoLab-library-data/terrain/v0.13.3/3/6-2.webp?v=622a6d272bdd"
+  ],
+  "errors": [],
+  "at": "2026-10-26T13:56:26.829Z"
+}
