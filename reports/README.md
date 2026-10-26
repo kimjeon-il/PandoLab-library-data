@@ -234,3 +234,5 @@
 - [1922 소련 중앙아시아 승인 국소 경계: 히바·아트렉·사라흐스](borders/reconstruction/ussr-central-asia-approved-2026-10-26/README.md) — 부하라 접속 추가 검토 보류; 기존 유럽·기간·수역 보존.
 
 - [1922 소련 부하라 승인 후속 경계](borders/reconstruction/ussr-bukhara-approved-2026-10-26/README.md)
+
+- [1922 USSR–TSFSR approved modern Caucasus border reuse](borders/reconstruction/ussr-caucasus-modern-approved-2026-10-26/README.md)
