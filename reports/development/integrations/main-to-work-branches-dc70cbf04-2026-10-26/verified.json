@@ -1,0 +1,135 @@
+{
+  "observedAt": "2026-10-26T13:23:50.529Z",
+  "main": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+  "branches": [
+    {
+      "name": "ui",
+      "head": "095d312fd32479dfd393f352eb4d74a475f2a916",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+      "mounts": {
+        "assets/data": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\assets\\data",
+        "reports": "D:\\dev\\PandoLab-library-data\\reports",
+        "tools/historical-library/sources": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\sources",
+        "tools/historical-library/working": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\working",
+        "tools/historical-library/review-output": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\review-output",
+        "tools/historical-library/land-borders": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\ui\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\land-borders"
+      },
+      "pending": false,
+      "status": ""
+    },
+    {
+      "name": "objects",
+      "head": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+      "mounts": {
+        "assets/data": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\assets\\data",
+        "reports": "D:\\dev\\PandoLab-library-data\\reports",
+        "tools/historical-library/sources": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\sources",
+        "tools/historical-library/working": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\working",
+        "tools/historical-library/review-output": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\review-output",
+        "tools/historical-library/land-borders": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\objects\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\land-borders"
+      },
+      "pending": false,
+      "status": ""
+    },
+    {
+      "name": "places",
+      "head": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+      "mounts": {
+        "assets/data": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\assets\\data",
+        "reports": "D:\\dev\\PandoLab-library-data\\reports",
+        "tools/historical-library/sources": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\sources",
+        "tools/historical-library/working": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\working",
+        "tools/historical-library/review-output": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\review-output",
+        "tools/historical-library/land-borders": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\places\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\land-borders"
+      },
+      "pending": false,
+      "status": ""
+    },
+    {
+      "name": "gis",
+      "head": "dc70cbf0480f48fa3672d9979cb11927af6719ea",
+      "pin": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+      "mounts": {
+        "assets/data": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\assets\\data",
+        "reports": "D:\\dev\\PandoLab-library-data\\reports",
+        "tools/historical-library/sources": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\sources",
+        "tools/historical-library/working": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\working",
+        "tools/historical-library/review-output": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\review-output",
+        "tools/historical-library/land-borders": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\68380579a7c7a1bd8ec97683b7517502c1389c3c\\tools\\historical-library\\land-borders"
+      },
+      "pending": false,
+      "status": ""
+    }
+  ],
+  "remoteRefs": "dc70cbf0480f48fa3672d9979cb11927af6719ea\trefs/heads/main\ndc70cbf0480f48fa3672d9979cb11927af6719ea\trefs/heads/work/gis\ndc70cbf0480f48fa3672d9979cb11927af6719ea\trefs/heads/work/objects\ndc70cbf0480f48fa3672d9979cb11927af6719ea\trefs/heads/work/places\ndc70cbf0480f48fa3672d9979cb11927af6719ea\trefs/heads/work/ui",
+  "reportOwners": {
+    "main": {
+      "before": "feb0393b4a274298339160a270caf112cb9eaae9",
+      "after": "feb0393b4a274298339160a270caf112cb9eaae9",
+      "same": true
+    },
+    "gis": {
+      "before": "b65081a8774086559e597c39fb6ab99761009e5b",
+      "after": "b65081a8774086559e597c39fb6ab99761009e5b",
+      "same": true
+    },
+    "objects": {
+      "before": "a6b3214df5289f228af016d67b76f728256b166d",
+      "after": "a6b3214df5289f228af016d67b76f728256b166d",
+      "same": true
+    },
+    "places": {
+      "before": "4f43448b536c47e434ac95924158527994f8918e",
+      "after": "4f43448b536c47e434ac95924158527994f8918e",
+      "same": true
+    },
+    "ui": {
+      "before": "9a7a2e2d0d7a2e649e8d6e7c9da05bdad1345cbf",
+      "after": "9a7a2e2d0d7a2e649e8d6e7c9da05bdad1345cbf",
+      "same": true
+    }
+  },
+  "allReportRevisionsUnchanged": true,
+  "wipAtMerge": [
+    {
+      "name": "ui",
+      "files": 19,
+      "byteAndIndexIdentical": true
+    },
+    {
+      "name": "objects",
+      "files": 0,
+      "byteAndIndexIdentical": true
+    },
+    {
+      "name": "places",
+      "files": 0,
+      "byteAndIndexIdentical": true
+    },
+    {
+      "name": "gis",
+      "files": 0,
+      "byteAndIndexIdentical": true
+    }
+  ],
+  "storage": {
+    "preflightFreeBytes": 60846415872,
+    "currentFreeBytes": 60330131456,
+    "driveDeltaIncludesConcurrentWork": -516284416,
+    "missingRuntimeBlobBytesBeforePreparation": 0,
+    "usedExistingBlobHardlinks": true,
+    "nativeBuilds": 0,
+    "wholeDataCopies": 0
+  },
+  "validation": "Git ancestry/ref checks, scoped WIP content and index identity, runtime pin/mount markers and independent report-owner revision checks. No full tests or data-catalog audit.",
+  "finalObservedAt": "2026-10-26T13:26:17.998Z",
+  "concurrentUiAfterPropagation": {
+    "head": "095d312fd32479dfd393f352eb4d74a475f2a916",
+    "newCommits": "095d312fd feat(ui): make world timeline navigation year-first",
+    "status": "",
+    "mainAlreadyIncluded": true,
+    "notPublishedByThisTask": true
+  }
+}
