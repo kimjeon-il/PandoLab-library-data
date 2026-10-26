@@ -1,0 +1,22 @@
+{
+  "freeBytesBefore": 60891258880,
+  "removed": [
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\gis\\63aebba20cf60cad314022c8aeb24c87922ceb6d",
+      "logicalBytes": 841884527,
+      "archivedPrivateBytes": 16037539,
+      "reason": "Superseded GIS runtime view; no mounts/live consumers; private bytes match locally readable archived originals"
+    },
+    {
+      "path": "D:\\dev\\worktrees\\gis\\build-native\\library-publication",
+      "logicalBytes": 195023283,
+      "files": 957,
+      "reason": "Completed publication staging; every file matches a locally readable blob in pushed library main"
+    }
+  ],
+  "preserved": "All permanent worktrees, source pins, original evidence, source geometry and shared Git objects",
+  "freeBytesAfter": 61110497280,
+  "driveFreeBytesChange": 219238400,
+  "removedLogicalBytes": 1036907810,
+  "checkedAt": "2026-10-26T08:16:01.067Z"
+}

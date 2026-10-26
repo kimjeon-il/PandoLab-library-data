@@ -1,0 +1,17 @@
+{
+  "sourceRevision": "68380579a7c7a1bd8ec97683b7517502c1389c3c",
+  "revision": "dddc4aad6278c1e40eecb3f1188b55cfcaea630afb47127374c8db9ead5471dd",
+  "output": "D:\\dev\\worktrees\\gis\\build-native\\library-publication",
+  "files": 955,
+  "logicalBytes": 194856843,
+  "pairedSourceHashesVerified": true,
+  "verified": {
+    "revision": "dddc4aad6278c1e40eecb3f1188b55cfcaea630afb47127374c8db9ead5471dd",
+    "fileCount": 955
+  },
+  "publication": "pushed",
+  "createdAt": "2026-10-26T08:02:45.486Z",
+  "libraryMainCommit": "252d1e821591a179535971cdef8c085f1d1a20f4",
+  "previousLibraryMain": "dcda70753c493150f36991689e3fcfb3dd7a9573",
+  "publishedAt": "2026-10-26T08:04:28.010Z"
+}

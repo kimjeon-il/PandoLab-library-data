@@ -1,0 +1,1701 @@
+{
+  "id": "GEO-LIFE-EXTANT-20261025",
+  "scope": "followup-selected-25",
+  "baseLibraryRevision": "63aebba20cf60cad314022c8aeb24c87922ceb6d",
+  "appBase": "edfe64dd2",
+  "createdAt": "2026-10-26T07:40:14.343Z",
+  "records": [
+    {
+      "id": "state:HUN",
+      "expected": "1000",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "1d0e5bf8a01016b7160e385b7849e7017225517486d4ae04b41fc133d83f3545"
+    },
+    {
+      "id": "state:FRO",
+      "expected": "1948-04-01",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "f5cffc3bf4c1fdbd20e9fd863666d442aa9be4775160a9a6961c2b3f69f1d278"
+    },
+    {
+      "id": "state:LAO",
+      "expected": "1946-08-27",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "c266bd33c6c84ded948dd3156042f4b90fdbef8580c3bbfc9808a0dee8556e06"
+    },
+    {
+      "id": "state:PHL",
+      "expected": "1935-11-15",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "14a0b563141e2f47ef9a0b1cca954284c3ec0eaeed0275f95e8d914f0c1fbbbf"
+    },
+    {
+      "id": "state:SYR",
+      "expected": "1961-09-28",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "077ac14c20afca33af535091f6634bc4e8ceafa86d2a6817e98f6a25f193cd71"
+    },
+    {
+      "id": "state:NIC",
+      "expected": "1838-04-30",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "8cb0b09609f8e88c5e3519bf032ce3613230020214f1083b87b205de63c3b9eb"
+    },
+    {
+      "id": "state:HND",
+      "expected": "1838-10-26",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "309c650fcd29a09c6406ff5915bacf86bee48ace9097774a7ec8bfaed39b3bea"
+    },
+    {
+      "id": "state:CRI",
+      "expected": "1838-11-14",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "95628c131f3fff120ed5bf2df1807e425bbe30496f8cd942b807acfd7d55df4c"
+    },
+    {
+      "id": "state:CUB",
+      "expected": "1902-05-20",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "200aa4209641547b64db58ae9473f6bf82c1ac9d93353609858909eba385997a"
+    },
+    {
+      "id": "state:PRI",
+      "expected": "1509-08-24",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "79c2aea8fe1fb7bac65909e5f6a0e0a542e84934101c3fe539804cd66993791f"
+    },
+    {
+      "id": "state:CYM",
+      "expected": "1959-07-04",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "feda46573b075f4472ff1bad3d83d28fb2357b7fcd31e0db5bfad20f427cfb04"
+    },
+    {
+      "id": "state:VGB",
+      "expected": "1956-07-01",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "d434cfc985deef8ccb63b8edcd96862b258633ae2fe1d736f7f21b44c7723035"
+    },
+    {
+      "id": "state:ABW",
+      "expected": "1986-01-01",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "6fb632cd837bbbff3fdbfd62bc4610facf58b8b39d0e18c5b90a2d4adb069b7d"
+    },
+    {
+      "id": "state:BLM",
+      "expected": "2007-07-15",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "ca41722972755dcb2c4a194041fdaade1661389d6c9e858280f3b4e31d2f70b6"
+    },
+    {
+      "id": "state:CUW",
+      "expected": "2010-10-10",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "6d6bc7d60d744a282b3a07de2822af22377745caea2d4b15bde2707d20b9ab0b"
+    },
+    {
+      "id": "state:SPM",
+      "expected": "1816-06-22",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "2ea5f4a9c74ac87939bc06903b2ddbe10c07c6aa2be6fa7dddd77f79124d1e9e"
+    },
+    {
+      "id": "state:VEN",
+      "expected": "1830-01-13",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "b42940e902ccc34cc3c36d8dec5e7e16da136621ffdd269b9e3bc9e55b6073b0"
+    },
+    {
+      "id": "state:PER",
+      "expected": "1838-08-25",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "535012f4e93013e55635a87ae7c6ca88e560cd633244a1d6a74458b1c2433d83"
+    },
+    {
+      "id": "state:EGY",
+      "expected": "1805",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "5594ffabd8e7068991e9ad15bcce7e9b9b920157dd3686dcaba7e610a81dd589"
+    },
+    {
+      "id": "state:MLI",
+      "expected": "1958-11-24",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "e61912108b0ffa5946b3c5dee2d6cacedc7e502395aaf725b0f1a76d1af03d8a"
+    },
+    {
+      "id": "state:GNB",
+      "expected": "1973-09-24",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "66dff1e4d89983f3805a7304087ddd17fcbf03d6de71eb85ab186e90d645a952"
+    },
+    {
+      "id": "state:NIU",
+      "expected": "1974-10-19",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "6e0bc4e8d066887ad37d5ff66788f7e99b9009f4e82f114fa6a5b8ccdbfdab56"
+    },
+    {
+      "id": "state:MHL",
+      "expected": "1979-05-01",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "1d8678f5b795f9c7ebe2074cc9be5a896ec53d42361742d30b8d67786922c561"
+    },
+    {
+      "id": "state:MNP",
+      "expected": "1978-01-09",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "ef13e428ef90be9ba93a9d98734ef50ddf643bc83cfd0dd0caf7bfc686666aa5"
+    },
+    {
+      "id": "state:PLW",
+      "expected": "1981-01-01",
+      "lifetimeBefore": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "protectedSha256": "0c47f000d4f95646e878445e614d16d46cc46be753d9948faa8d916a8fdf2a4a"
+    }
+  ],
+  "selectedBytesWritten": 3480570,
+  "dataState": "source-chunk-index-written",
+  "soviet": {
+    "entry": {
+      "entityId": "state:soviet-union",
+      "coverage": [
+        {
+          "validFrom": "1922-12-30",
+          "validTo": "1991-12-24"
+        }
+      ],
+      "file": "countries/state-soviet-union-sha256-cdc23a2e5974a84ff92a909bd7ca76d3c48d9594edbe2d161097ca4cb8a35b9a.json.gz",
+      "encoding": "gzip",
+      "sha256": "cdc23a2e5974a84ff92a909bd7ca76d3c48d9594edbe2d161097ca4cb8a35b9a",
+      "compressedBytes": 5123582,
+      "decodedBytes": 13990991,
+      "offset": 5009094
+    },
+    "geometryRefs": [
+      {
+        "id": "historical-world:21db5bdce7286e2190f76e732cc1463f9202bd65c801ac8bf62cad7e2755c1ec",
+        "version": 1
+      },
+      {
+        "id": "historical-world:a7cc592b231c947797a557dc3aff6a58489f797e86590aba3b3d9bf7fd278fe2",
+        "version": 1
+      },
+      {
+        "id": "historical-world:2315bdb4dbfda2c06f7d7f38064fbb3d3807589ee17e2844db1b4d32fea507cd",
+        "version": 1
+      },
+      {
+        "id": "historical-world:2568a5240306650fd337d5b621d4f3069989a64e5719a9131515ca5c61539adf",
+        "version": 1
+      },
+      {
+        "id": "historical-world:53058d0534ca173e1ce4f654643fd732dc30fece4636d5768e87c9b9d76995a8",
+        "version": 1
+      },
+      {
+        "id": "historical-world:b5b1ee864990597f419108de834b1f2936a7d27ec8ebb2fe2141abae724de89a",
+        "version": 1
+      },
+      {
+        "id": "historical-world:674b91bd30eb891368b25208d3564bb2e32a1cf9388e3e26166e585c216a04a1",
+        "version": 1
+      },
+      {
+        "id": "historical-world:13ee97e6671b794ad26431da72b6247c0f0b36f93a0d437a3af0880c6f234e5f",
+        "version": 1
+      },
+      {
+        "id": "historical-world:6d549cf433b3727d3fb0c80ee4fe522b9f02dbca356923ace2961c7856dacdba",
+        "version": 1
+      },
+      {
+        "id": "historical-world:42bff9f9636462ff0ca85ff518b87f84e690e4a46219bcef369ea4b3a1c66a10",
+        "version": 1
+      },
+      {
+        "id": "historical-world:5baad3c8dc86dfff0907f8582e8618a1abaa21b6ac9762cda9169689b79f87d3",
+        "version": 1
+      },
+      {
+        "id": "historical-world:7ad873e06c6d0df1fbdb1cb0c5d1c78c3d7a548cb96f34613d4386ae9ec3bb06",
+        "version": 1
+      },
+      {
+        "id": "historical-world:d3f4508c10e81d5bf2e2179e1e52b071aa6b4fddb8f1ad9018d9d1af098d875f",
+        "version": 1
+      },
+      {
+        "id": "historical-world:1531806dcbfce6e53800034b66921d19465743175830b8e0f7dbacc4474d4b33",
+        "version": 1
+      },
+      {
+        "id": "historical-world:e254898b9d978b10462cf18e7f47702adc1878ddf8b57fe23e1c6a758b592fa8",
+        "version": 1
+      },
+      {
+        "id": "historical-world:f44fdd12063405b234f25fb6b06a45737f19d2f381075998cea42fca3a3455b2",
+        "version": 1
+      }
+    ]
+  },
+  "worldEntries": [
+    {
+      "entityId": "AFG",
+      "file": "countries/AFG-sha256-2f9af52acee439249ebf0ea9f83a525a7361cc2b84e7df34aa5defd23bbd62a6.json.gz",
+      "sha256": "2f9af52acee439249ebf0ea9f83a525a7361cc2b84e7df34aa5defd23bbd62a6"
+    },
+    {
+      "entityId": "AGO",
+      "file": "countries/AGO-sha256-15f8c7b2d6e425bd73e101450c020174147569a7e95af0313c2dc093f0bc27c7.json.gz",
+      "sha256": "15f8c7b2d6e425bd73e101450c020174147569a7e95af0313c2dc093f0bc27c7"
+    },
+    {
+      "entityId": "ALB",
+      "file": "countries/ALB-sha256-db2d80daebb5cd9c05ee404a630971eb0a0ba59776267c2fb5517b71fdef647f.json.gz",
+      "sha256": "db2d80daebb5cd9c05ee404a630971eb0a0ba59776267c2fb5517b71fdef647f"
+    },
+    {
+      "entityId": "AND",
+      "file": "countries/AND-sha256-d1545f6f540071864b82fded5d7303af277ab18233d0ed83283ab454de4b252c.json.gz",
+      "sha256": "d1545f6f540071864b82fded5d7303af277ab18233d0ed83283ab454de4b252c"
+    },
+    {
+      "entityId": "ARE",
+      "file": "countries/ARE-sha256-37d81c5e50918f41e54f12be1a292fd989c9e7d7fba04d232c5bf03449828cc2.json.gz",
+      "sha256": "37d81c5e50918f41e54f12be1a292fd989c9e7d7fba04d232c5bf03449828cc2"
+    },
+    {
+      "entityId": "ARG",
+      "file": "countries/ARG-sha256-f6d7afbe510f7e607e46c3573eb7f878438dd078f9fe1e003c5e00020fd09d14.json.gz",
+      "sha256": "f6d7afbe510f7e607e46c3573eb7f878438dd078f9fe1e003c5e00020fd09d14"
+    },
+    {
+      "entityId": "ARM",
+      "file": "countries/ARM-sha256-76bcb2bef64927ad9dc5cf34acb5feb42efd4355ee717b4d324fbaf6de36f5a4.json.gz",
+      "sha256": "76bcb2bef64927ad9dc5cf34acb5feb42efd4355ee717b4d324fbaf6de36f5a4"
+    },
+    {
+      "entityId": "ATA",
+      "file": "countries/ATA-sha256-383d7e0b21dea7257b46c4acbcee940f8bca6744e70d4f1628fb9161884a46cf.json.gz",
+      "sha256": "383d7e0b21dea7257b46c4acbcee940f8bca6744e70d4f1628fb9161884a46cf"
+    },
+    {
+      "entityId": "ATG",
+      "file": "countries/ATG-sha256-c3e58b707d06599caaf97a4ef01c595b053ca2ef47b7d78a66c4e12aba6fc8a2.json.gz",
+      "sha256": "c3e58b707d06599caaf97a4ef01c595b053ca2ef47b7d78a66c4e12aba6fc8a2"
+    },
+    {
+      "entityId": "AUS",
+      "file": "countries/AUS-sha256-04b7791eed3d7bb4524c8a3e09a3cf8155d08e1d8b9b7eec1ef2c98bd50ffea6.json.gz",
+      "sha256": "04b7791eed3d7bb4524c8a3e09a3cf8155d08e1d8b9b7eec1ef2c98bd50ffea6"
+    },
+    {
+      "entityId": "AUT",
+      "file": "countries/AUT-sha256-74a826431930b147c41af1a9809794b2b429fe0d8e5f5aa8cde0c38397489ce1.json.gz",
+      "sha256": "74a826431930b147c41af1a9809794b2b429fe0d8e5f5aa8cde0c38397489ce1"
+    },
+    {
+      "entityId": "AZE",
+      "file": "countries/AZE-sha256-35fdc88c8a3fc79d15ed08cf84e99dfbb009039f12e6b78099e21b5fba27bb89.json.gz",
+      "sha256": "35fdc88c8a3fc79d15ed08cf84e99dfbb009039f12e6b78099e21b5fba27bb89"
+    },
+    {
+      "entityId": "BDI",
+      "file": "countries/BDI-sha256-e26d2a2890af190ac0bcb51e7cbdc4089db21a0541e2b1a52d826626d5c94628.json.gz",
+      "sha256": "e26d2a2890af190ac0bcb51e7cbdc4089db21a0541e2b1a52d826626d5c94628"
+    },
+    {
+      "entityId": "BEL",
+      "file": "countries/BEL-sha256-8a28bc9bcef6fb21362b05c50a0db1e1aac8f6a2612f157b834ba6fe798ef6fc.json.gz",
+      "sha256": "8a28bc9bcef6fb21362b05c50a0db1e1aac8f6a2612f157b834ba6fe798ef6fc"
+    },
+    {
+      "entityId": "BEN",
+      "file": "countries/BEN-sha256-6d0f7c6784cbbf0185ab169fc6edb10f955202f7612d202d85352c95eb8a9725.json.gz",
+      "sha256": "6d0f7c6784cbbf0185ab169fc6edb10f955202f7612d202d85352c95eb8a9725"
+    },
+    {
+      "entityId": "BFA",
+      "file": "countries/BFA-sha256-2a5ab11db24c14c62d9530f1ca224462f17106e0e2680582190b415c35e77922.json.gz",
+      "sha256": "2a5ab11db24c14c62d9530f1ca224462f17106e0e2680582190b415c35e77922"
+    },
+    {
+      "entityId": "BGD",
+      "file": "countries/BGD-sha256-47c70d8166827dc9ca3df3b9b6975a6ff4731b62b6ee370ffe44d107df6a78bc.json.gz",
+      "sha256": "47c70d8166827dc9ca3df3b9b6975a6ff4731b62b6ee370ffe44d107df6a78bc"
+    },
+    {
+      "entityId": "BGR",
+      "file": "countries/BGR-sha256-dcedc44b2a47c2a7503753decfc8f582afaa7c370b79cd940747b4927f086514.json.gz",
+      "sha256": "dcedc44b2a47c2a7503753decfc8f582afaa7c370b79cd940747b4927f086514"
+    },
+    {
+      "entityId": "BHR",
+      "file": "countries/BHR-sha256-c6354fdea86e8b1406433c26aab23bfc56aea1f9fdc1578a7b910b5a43c6aefc.json.gz",
+      "sha256": "c6354fdea86e8b1406433c26aab23bfc56aea1f9fdc1578a7b910b5a43c6aefc"
+    },
+    {
+      "entityId": "BHS",
+      "file": "countries/BHS-sha256-523ca810d9f2381d5caab6b71d9ee2bb2170054b079ab0a0bf5b441ef9d06431.json.gz",
+      "sha256": "523ca810d9f2381d5caab6b71d9ee2bb2170054b079ab0a0bf5b441ef9d06431"
+    },
+    {
+      "entityId": "BIH",
+      "file": "countries/BIH-sha256-c7a62e1e2f1cdb90521732087e1ac75fff0b8a9915411201d117921ed63489fa.json.gz",
+      "sha256": "c7a62e1e2f1cdb90521732087e1ac75fff0b8a9915411201d117921ed63489fa"
+    },
+    {
+      "entityId": "BLR",
+      "file": "countries/BLR-sha256-c5793958dc7245955d287e96f049b56482c2d664a7373e5e52d3c7b8b36be29e.json.gz",
+      "sha256": "c5793958dc7245955d287e96f049b56482c2d664a7373e5e52d3c7b8b36be29e"
+    },
+    {
+      "entityId": "BLZ",
+      "file": "countries/BLZ-sha256-adba7657f04b85fce7eba8e7e849b52728ce4ac0238ed2a416f80f5b6e85eec3.json.gz",
+      "sha256": "adba7657f04b85fce7eba8e7e849b52728ce4ac0238ed2a416f80f5b6e85eec3"
+    },
+    {
+      "entityId": "BOL",
+      "file": "countries/BOL-sha256-a0325d5ab1341695f81a25adad8cd99c87ee6854e5b5c0f00a84922b8fd54220.json.gz",
+      "sha256": "a0325d5ab1341695f81a25adad8cd99c87ee6854e5b5c0f00a84922b8fd54220"
+    },
+    {
+      "entityId": "BRA",
+      "file": "countries/BRA-sha256-66951f2271d6a48d783872ee13598d299b5ae48798829882a2e54b3bfcad67a7.json.gz",
+      "sha256": "66951f2271d6a48d783872ee13598d299b5ae48798829882a2e54b3bfcad67a7"
+    },
+    {
+      "entityId": "BRB",
+      "file": "countries/BRB-sha256-ee61457e24795af5bf8fcc7e454c52f5bec835bbbab1756bcd0d3912b4beedf3.json.gz",
+      "sha256": "ee61457e24795af5bf8fcc7e454c52f5bec835bbbab1756bcd0d3912b4beedf3"
+    },
+    {
+      "entityId": "BRN",
+      "file": "countries/BRN-sha256-991ca0f66572764a1becfc1e514b2eed9900a1fe4f595b2d3814aa324f94f148.json.gz",
+      "sha256": "991ca0f66572764a1becfc1e514b2eed9900a1fe4f595b2d3814aa324f94f148"
+    },
+    {
+      "entityId": "BRT",
+      "file": "countries/BRT-sha256-a06527304b6c9157af2f8cee538bfc599778e6fa0468fba8a991f5622d9092ee.json.gz",
+      "sha256": "a06527304b6c9157af2f8cee538bfc599778e6fa0468fba8a991f5622d9092ee"
+    },
+    {
+      "entityId": "BTN",
+      "file": "countries/BTN-sha256-860ed1cd59b7f82cf66ee93b508f8dfe4709dd8697545cc5641c9acdeda88099.json.gz",
+      "sha256": "860ed1cd59b7f82cf66ee93b508f8dfe4709dd8697545cc5641c9acdeda88099"
+    },
+    {
+      "entityId": "BWA",
+      "file": "countries/BWA-sha256-613eca0f09aa8438cb5b5bf7d20898d125aa08ceebab532379417745444de9bb.json.gz",
+      "sha256": "613eca0f09aa8438cb5b5bf7d20898d125aa08ceebab532379417745444de9bb"
+    },
+    {
+      "entityId": "CAF",
+      "file": "countries/CAF-sha256-a45b6a93bceec43a5545e9a695badb5ba30dd643e22c437e6b87cf434140243a.json.gz",
+      "sha256": "a45b6a93bceec43a5545e9a695badb5ba30dd643e22c437e6b87cf434140243a"
+    },
+    {
+      "entityId": "CAN",
+      "file": "countries/CAN-sha256-03ef744116296ac274436230813ebe20b0993544e6471d02cb3b3ed86e0e24f7.json.gz",
+      "sha256": "03ef744116296ac274436230813ebe20b0993544e6471d02cb3b3ed86e0e24f7"
+    },
+    {
+      "entityId": "CHE",
+      "file": "countries/CHE-sha256-d88ac952b1dc667c2362abcf1e6a3775948fe13652b699df5001c1a629d0928b.json.gz",
+      "sha256": "d88ac952b1dc667c2362abcf1e6a3775948fe13652b699df5001c1a629d0928b"
+    },
+    {
+      "entityId": "CHL",
+      "file": "countries/CHL-sha256-c794723c655ae304f67034b6e5ada18df43e44b401da6ad96514ed4a307202c9.json.gz",
+      "sha256": "c794723c655ae304f67034b6e5ada18df43e44b401da6ad96514ed4a307202c9"
+    },
+    {
+      "entityId": "CHN",
+      "file": "countries/CHN-sha256-54e2b09df25daa878aa2bc97149fa8635c19fef213dbeb109db4cabc15e6b496.json.gz",
+      "sha256": "54e2b09df25daa878aa2bc97149fa8635c19fef213dbeb109db4cabc15e6b496"
+    },
+    {
+      "entityId": "CIV",
+      "file": "countries/CIV-sha256-425a0c0f42ed6d70144d006860279e22bb5b214e8388b944c78e96561a1e185b.json.gz",
+      "sha256": "425a0c0f42ed6d70144d006860279e22bb5b214e8388b944c78e96561a1e185b"
+    },
+    {
+      "entityId": "CMR",
+      "file": "countries/CMR-sha256-ebd69b4e24f2bb532ffde68a8188c326ad9f11b6394e200aeba18ff18301fa80.json.gz",
+      "sha256": "ebd69b4e24f2bb532ffde68a8188c326ad9f11b6394e200aeba18ff18301fa80"
+    },
+    {
+      "entityId": "CNM",
+      "file": "countries/CNM-sha256-ab5e3b365e34929b10ba206045b760cd70c8f472da39f7d0ae810a3758f2f3ad.json.gz",
+      "sha256": "ab5e3b365e34929b10ba206045b760cd70c8f472da39f7d0ae810a3758f2f3ad"
+    },
+    {
+      "entityId": "COD",
+      "file": "countries/COD-sha256-9f8984158cd5aa846c56cf304bb3ded29c4769d93082f267393528c73ce60c09.json.gz",
+      "sha256": "9f8984158cd5aa846c56cf304bb3ded29c4769d93082f267393528c73ce60c09"
+    },
+    {
+      "entityId": "COG",
+      "file": "countries/COG-sha256-451cf6f2398b0a3218765bd3445e3335fd24c15fa5658400d3f6a7a9c8b0342c.json.gz",
+      "sha256": "451cf6f2398b0a3218765bd3445e3335fd24c15fa5658400d3f6a7a9c8b0342c"
+    },
+    {
+      "entityId": "COK",
+      "file": "countries/COK-sha256-a341070d8f310b12dee79cb58ac7257e21d1d3338233a36d69ae988ce8891887.json.gz",
+      "sha256": "a341070d8f310b12dee79cb58ac7257e21d1d3338233a36d69ae988ce8891887"
+    },
+    {
+      "entityId": "COL",
+      "file": "countries/COL-sha256-9558f185e2e7f8edda54282a0991afc57d2b9b89e9794a14b0a843a6ac6bcbe2.json.gz",
+      "sha256": "9558f185e2e7f8edda54282a0991afc57d2b9b89e9794a14b0a843a6ac6bcbe2"
+    },
+    {
+      "entityId": "COM",
+      "file": "countries/COM-sha256-139e5f5424fbfd7a620a4aa5e9acb6912f1d793b1e278fb3bc54f3cd3e08fefe.json.gz",
+      "sha256": "139e5f5424fbfd7a620a4aa5e9acb6912f1d793b1e278fb3bc54f3cd3e08fefe"
+    },
+    {
+      "entityId": "CPV",
+      "file": "countries/CPV-sha256-dca0b82d031bb341eb27f838bbdf04562c04378c86fbc19ca52b1d901773f6fc.json.gz",
+      "sha256": "dca0b82d031bb341eb27f838bbdf04562c04378c86fbc19ca52b1d901773f6fc"
+    },
+    {
+      "entityId": "CRI",
+      "file": "countries/CRI-sha256-d6ac40b4ad4d7f4df73d6124062dd113809f392f55977ddba9fc9952e5c2f4e4.json.gz",
+      "sha256": "d6ac40b4ad4d7f4df73d6124062dd113809f392f55977ddba9fc9952e5c2f4e4"
+    },
+    {
+      "entityId": "CUB",
+      "file": "countries/CUB-sha256-ac9aa97c32289add91037ca4669facd3cda3412ce02e3b529d6a4e5cc2a37fc4.json.gz",
+      "sha256": "ac9aa97c32289add91037ca4669facd3cda3412ce02e3b529d6a4e5cc2a37fc4"
+    },
+    {
+      "entityId": "CYN",
+      "file": "countries/CYN-sha256-438633a9bef25c34fd6004495372a5da03e2c85b4462e823f2d1ac6a0c5ad5be.json.gz",
+      "sha256": "438633a9bef25c34fd6004495372a5da03e2c85b4462e823f2d1ac6a0c5ad5be"
+    },
+    {
+      "entityId": "CYP",
+      "file": "countries/CYP-sha256-29b24a96d0c9bd257d4f2ac892d516354c23d5f69f414f95ceb268eb6d29fb60.json.gz",
+      "sha256": "29b24a96d0c9bd257d4f2ac892d516354c23d5f69f414f95ceb268eb6d29fb60"
+    },
+    {
+      "entityId": "CZE",
+      "file": "countries/CZE-sha256-74f448626e3b9317ee8393d6115eca5005b89fa86ac54789b1f659009c932531.json.gz",
+      "sha256": "74f448626e3b9317ee8393d6115eca5005b89fa86ac54789b1f659009c932531"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000414257",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000414257-sha256-87fbf35049ef22b887a6f0cad19300c277658f704a0008464f5ef7b34c036c2e.json.gz",
+      "sha256": "87fbf35049ef22b887a6f0cad19300c277658f704a0008464f5ef7b34c036c2e"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000414941",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000414941-sha256-316286ff8c3c42e1507504c25986d63cc508d7db9578b13c9d64a7aceb0fc661.json.gz",
+      "sha256": "316286ff8c3c42e1507504c25986d63cc508d7db9578b13c9d64a7aceb0fc661"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000414c44",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000414c44-sha256-5d9d9a625bafd519f9e87c6f1bb61f9e42b8cdac0406a4cd4bfeca68af5c8d88.json.gz",
+      "sha256": "5d9d9a625bafd519f9e87c6f1bb61f9e42b8cdac0406a4cd4bfeca68af5c8d88"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000041534d",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000041534d-sha256-3cce8b4c2f36cddc2547718fcb4b977ce150567b8e93375e12774c98a67d59e1.json.gz",
+      "sha256": "3cce8b4c2f36cddc2547718fcb4b977ce150567b8e93375e12774c98a67d59e1"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000415443",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000415443-sha256-39411da931745c169236dc8837071184fc1e52a6283d727711345b2f93808c48.json.gz",
+      "sha256": "39411da931745c169236dc8837071184fc1e52a6283d727711345b2f93808c48"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000415446",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000415446-sha256-a61626849cd12506a1c237a0553082cd1d75b5e8336defb9d589825b7ff633a4.json.gz",
+      "sha256": "a61626849cd12506a1c237a0553082cd1d75b5e8336defb9d589825b7ff633a4"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000424c4d",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000424c4d-sha256-77fc8872e2b30ff9fa4b5cbe696cee33296c079fd8ce4c7cfd965945016bdd35.json.gz",
+      "sha256": "77fc8872e2b30ff9fa4b5cbe696cee33296c079fd8ce4c7cfd965945016bdd35"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000424d55",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000424d55-sha256-640719071b141b60d59f4ad0876419fa780e0dc4fa9103be8d04ae1103f147a8.json.gz",
+      "sha256": "640719071b141b60d59f4ad0876419fa780e0dc4fa9103be8d04ae1103f147a8"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000434c50",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000434c50-sha256-668fddb426ce95d1718e41dd83b02c6ac3e3ad27955471e179e2476cc66fbcdb.json.gz",
+      "sha256": "668fddb426ce95d1718e41dd83b02c6ac3e3ad27955471e179e2476cc66fbcdb"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000435349",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000435349-sha256-66785abfc1c86d3e9eca892c97baf2de3d72dd57161a31a9d9c6e72d4bae4c77.json.gz",
+      "sha256": "66785abfc1c86d3e9eca892c97baf2de3d72dd57161a31a9d9c6e72d4bae4c77"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000435557",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000435557-sha256-507e7dd88a3602767a22a0048ac964deb5f2a7a17b7cda5f6a302ad7dd782ba8.json.gz",
+      "sha256": "507e7dd88a3602767a22a0048ac964deb5f2a7a17b7cda5f6a302ad7dd782ba8"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000043594d",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000043594d-sha256-b96b280f24eeb14c91ea19394b21a6333cd21e9ca30aa6fbc84bb3757d17498d.json.gz",
+      "sha256": "b96b280f24eeb14c91ea19394b21a6333cd21e9ca30aa6fbc84bb3757d17498d"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000455342",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000455342-sha256-082f39764ee0d642bf30f69552f274f2263166f9f786b7e7935b2a2c5a1fb6a8.json.gz",
+      "sha256": "082f39764ee0d642bf30f69552f274f2263166f9f786b7e7935b2a2c5a1fb6a8"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000464c4b",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000464c4b-sha256-12611745a73eee1c56d1662eca660aaa5a570bc6849c077791d9d59df9907c33.json.gz",
+      "sha256": "12611745a73eee1c56d1662eca660aaa5a570bc6849c077791d9d59df9907c33"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000046524f",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000046524f-sha256-e26ec9a4c07c27b6775c6ca3eaa4f2dfa68588089002a2cdd62296ab9aed9e90.json.gz",
+      "sha256": "e26ec9a4c07c27b6775c6ca3eaa4f2dfa68588089002a2cdd62296ab9aed9e90"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000474759",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000474759-sha256-8d75517439da088d22ee156906706ebe44d755b9e324235376963a1519b4fd3f.json.gz",
+      "sha256": "8d75517439da088d22ee156906706ebe44d755b9e324235376963a1519b4fd3f"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000474942",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000474942-sha256-5a3cc9a6a70997946545664f0eee70593a0d74930c86ff612bec69bb4c18be6a.json.gz",
+      "sha256": "5a3cc9a6a70997946545664f0eee70593a0d74930c86ff612bec69bb4c18be6a"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000047524c",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000047524c-sha256-bfd663afab87dcbf8173ac455268272c9f2abd82dc3a23c60cfd6a4a0923d8b2.json.gz",
+      "sha256": "bfd663afab87dcbf8173ac455268272c9f2abd82dc3a23c60cfd6a4a0923d8b2"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000047554d",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000047554d-sha256-ae5052477b0a42e4a0c7903ce64842895182fe8772de7b7ac5d710ce8e98dcbb.json.gz",
+      "sha256": "ae5052477b0a42e4a0c7903ce64842895182fe8772de7b7ac5d710ce8e98dcbb"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000484b47",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000484b47-sha256-2a752fd9e3188c9dbb5f8098384fc66c5d332a880c674b15ab4e2f6b435005dd.json.gz",
+      "sha256": "2a752fd9e3188c9dbb5f8098384fc66c5d332a880c674b15ab4e2f6b435005dd"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000484d44",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000484d44-sha256-c748d2039382c9a304062a18f0b4e10da770cefd94eafc10c6ff9a2bdcf35075.json.gz",
+      "sha256": "c748d2039382c9a304062a18f0b4e10da770cefd94eafc10c6ff9a2bdcf35075"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000494d4e",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000494d4e-sha256-8fefa741bcc6a4e0440ae9f090f4e5b24045cd872849edee284c2baad04c1621.json.gz",
+      "sha256": "8fefa741bcc6a4e0440ae9f090f4e5b24045cd872849edee284c2baad04c1621"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000494f41",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000494f41-sha256-598a1d7086848caa4e1671fcd67a24ce6b9ec96b82d1adbdabf6e0920b985e40.json.gz",
+      "sha256": "598a1d7086848caa4e1671fcd67a24ce6b9ec96b82d1adbdabf6e0920b985e40"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000494f54",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000494f54-sha256-f015d189cfb698279a564098683fb05e8811a15b28f4c5153a109c707c3a7666.json.gz",
+      "sha256": "f015d189cfb698279a564098683fb05e8811a15b28f4c5153a109c707c3a7666"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004a4559",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004a4559-sha256-e20f7897d5696c8671c770760cc36388986b97f3bb6a2cf1c8b697f28d7c12e1.json.gz",
+      "sha256": "e20f7897d5696c8671c770760cc36388986b97f3bb6a2cf1c8b697f28d7c12e1"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004b4142",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004b4142-sha256-6d025d5c1eac7e8d35f733a4051a6984c68f56123d76195b0fc27ae81bbc5be3.json.gz",
+      "sha256": "6d025d5c1eac7e8d35f733a4051a6984c68f56123d76195b0fc27ae81bbc5be3"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004d4143",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d4143-sha256-94e784787670f5ba6724abe67be98e229a003baa185a5cd61960a1d8e33c3195.json.gz",
+      "sha256": "94e784787670f5ba6724abe67be98e229a003baa185a5cd61960a1d8e33c3195"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004d4146",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d4146-sha256-31145a4d348514e86a6d2677f7de445d9e2bb24a068c56aac16bc585029af978.json.gz",
+      "sha256": "31145a4d348514e86a6d2677f7de445d9e2bb24a068c56aac16bc585029af978"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004d4e50",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d4e50-sha256-49af9e3eb3a931a365b831ec754989b6374252d219594dbe554a5bf9ea644f37.json.gz",
+      "sha256": "49af9e3eb3a931a365b831ec754989b6374252d219594dbe554a5bf9ea644f37"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004d5352",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d5352-sha256-df60af6eb250b5b0d660d41078c390ce4725f1e7b34ad7c4ebb362cf4075b044.json.gz",
+      "sha256": "df60af6eb250b5b0d660d41078c390ce4725f1e7b34ad7c4ebb362cf4075b044"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004e434c",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004e434c-sha256-919a2339cde050ea82a1ffad67a0164557e704fef3f20aa401f721513af67e89.json.gz",
+      "sha256": "919a2339cde050ea82a1ffad67a0164557e704fef3f20aa401f721513af67e89"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-0000004e464b",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004e464b-sha256-ee4a9fb47f28efb43b62a740c399f5d9c10e82a774bbbf17aa7296737d1e818a.json.gz",
+      "sha256": "ee4a9fb47f28efb43b62a740c399f5d9c10e82a774bbbf17aa7296737d1e818a"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000050434e",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000050434e-sha256-c1eb556cbf254700d68e9d1cb7bfea8012834f82bc726919b26dee474f2e4bc9.json.gz",
+      "sha256": "c1eb556cbf254700d68e9d1cb7bfea8012834f82bc726919b26dee474f2e4bc9"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000504741",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000504741-sha256-52371e7ee7528e50ca1c348d365a989df8fc46b913b7e32fb28af1d98766cbd6.json.gz",
+      "sha256": "52371e7ee7528e50ca1c348d365a989df8fc46b913b7e32fb28af1d98766cbd6"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000505249",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000505249-sha256-2f7d48a25fba387e3297269314c6490bc36c54e991d61283db0ef5a1da55cb32.json.gz",
+      "sha256": "2f7d48a25fba387e3297269314c6490bc36c54e991d61283db0ef5a1da55cb32"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000505946",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000505946-sha256-1ee552ec03334aaf8821f19bec8aea2aaf4dfcaf493572c393d32627bc4709bf.json.gz",
+      "sha256": "1ee552ec03334aaf8821f19bec8aea2aaf4dfcaf493572c393d32627bc4709bf"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000534753",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000534753-sha256-92b70d7477cc8605ea1a68c2a9e69f860daa5c2a340acfd7b6bff20dacf51fa5.json.gz",
+      "sha256": "92b70d7477cc8605ea1a68c2a9e69f860daa5c2a340acfd7b6bff20dacf51fa5"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000053484e",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000053484e-sha256-1dc244d8c4ace3ded6607b3a2cd117581b4e808983eba0aea602f9917fdbd85e.json.gz",
+      "sha256": "1dc244d8c4ace3ded6607b3a2cd117581b4e808983eba0aea602f9917fdbd85e"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000053504d",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000053504d-sha256-bdbcb85b669e3862ef6d9f451aefac411a5876fc66bcb50698eef4473deaaa4c.json.gz",
+      "sha256": "bdbcb85b669e3862ef6d9f451aefac411a5876fc66bcb50698eef4473deaaa4c"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-00000053584d",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000053584d-sha256-9c9e8d48570a3bec3e2c6558e51c2d2ae1f8a7543757cd4e5ca21b369ea39c2c.json.gz",
+      "sha256": "9c9e8d48570a3bec3e2c6558e51c2d2ae1f8a7543757cd4e5ca21b369ea39c2c"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000544341",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000544341-sha256-9d961d459469be7f5a1695d9fce26eeabd65c8db688f289089623d5f9442b63d.json.gz",
+      "sha256": "9d961d459469be7f5a1695d9fce26eeabd65c8db688f289089623d5f9442b63d"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000554d49",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000554d49-sha256-18359f338f9aca71ab781359f17c10e2bd16c5d4c751ce78cff79b753901d908.json.gz",
+      "sha256": "18359f338f9aca71ab781359f17c10e2bd16c5d4c751ce78cff79b753901d908"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000555347",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000555347-sha256-5d31cb61ae4360054035e5238640a433e33c286ba70ab01419057f08db961304.json.gz",
+      "sha256": "5d31cb61ae4360054035e5238640a433e33c286ba70ab01419057f08db961304"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000564742",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000564742-sha256-47aecb6cc3a5f7fc19d5f19aa68bb96d00d855edbd8f7e1d530083993bdf3c64.json.gz",
+      "sha256": "47aecb6cc3a5f7fc19d5f19aa68bb96d00d855edbd8f7e1d530083993bdf3c64"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000564952",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000564952-sha256-4a24dadd52d4418a08c1df15357402426927aae636200dcec255492f779da27e.json.gz",
+      "sha256": "4a24dadd52d4418a08c1df15357402426927aae636200dcec255492f779da27e"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000574c46",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000574c46-sha256-3a9fb1fbb6e823537cef16dfbcc203f90e71d8abd7e6747cbc8f1da81154a29b.json.gz",
+      "sha256": "3a9fb1fbb6e823537cef16dfbcc203f90e71d8abd7e6747cbc8f1da81154a29b"
+    },
+    {
+      "entityId": "d34b00a1-9b13-8000-8000-000000575342",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000575342-sha256-db9d0b9cc6d8703c072c7a7cae5fb73eb4a53cef25b63e8ffd1703f236f0ac58.json.gz",
+      "sha256": "db9d0b9cc6d8703c072c7a7cae5fb73eb4a53cef25b63e8ffd1703f236f0ac58"
+    },
+    {
+      "entityId": "DEU",
+      "file": "countries/DEU-sha256-1c8e5ea303ab8eb31cd2119a61858e19b8479f377302526cb6d23b838008d54d.json.gz",
+      "sha256": "1c8e5ea303ab8eb31cd2119a61858e19b8479f377302526cb6d23b838008d54d"
+    },
+    {
+      "entityId": "DJI",
+      "file": "countries/DJI-sha256-48e9f12f1118d2fa2a7cbd6b6ceaca5cd0c3c3e2f93cb87a4aa7e5e7ce860caf.json.gz",
+      "sha256": "48e9f12f1118d2fa2a7cbd6b6ceaca5cd0c3c3e2f93cb87a4aa7e5e7ce860caf"
+    },
+    {
+      "entityId": "DMA",
+      "file": "countries/DMA-sha256-d01c1659cd6aa559a35765f1a48eb7c161b981415f040497407352128cfe625b.json.gz",
+      "sha256": "d01c1659cd6aa559a35765f1a48eb7c161b981415f040497407352128cfe625b"
+    },
+    {
+      "entityId": "DNK",
+      "file": "countries/DNK-sha256-9f430383244e8eae373c7438e9cc4c390dcba26348c0a3c71d1e159c543120fe.json.gz",
+      "sha256": "9f430383244e8eae373c7438e9cc4c390dcba26348c0a3c71d1e159c543120fe"
+    },
+    {
+      "entityId": "DOM",
+      "file": "countries/DOM-sha256-48cd0c4be5c5b2f08457a453a6e62ad474a723bc3d69e428518b4eabbbf3ed11.json.gz",
+      "sha256": "48cd0c4be5c5b2f08457a453a6e62ad474a723bc3d69e428518b4eabbbf3ed11"
+    },
+    {
+      "entityId": "DZA",
+      "file": "countries/DZA-sha256-afcc01c81552c82f3e1173a1ce62e0d94c1890a1dc74637fc7491a8ba7349111.json.gz",
+      "sha256": "afcc01c81552c82f3e1173a1ce62e0d94c1890a1dc74637fc7491a8ba7349111"
+    },
+    {
+      "entityId": "ECU",
+      "file": "countries/ECU-sha256-19e34356759ad6b25c86645e825fd6583c0e8589e395ac83c2977ffb078be57d.json.gz",
+      "sha256": "19e34356759ad6b25c86645e825fd6583c0e8589e395ac83c2977ffb078be57d"
+    },
+    {
+      "entityId": "EGY",
+      "file": "countries/EGY-sha256-1480c58a3ba4fd41e9c107f5a506f3d21595fec540e3af5d4c1692dd086b971b.json.gz",
+      "sha256": "1480c58a3ba4fd41e9c107f5a506f3d21595fec540e3af5d4c1692dd086b971b"
+    },
+    {
+      "entityId": "ERI",
+      "file": "countries/ERI-sha256-17139c88e0b5c4904d59cdd4824bf6e6cbc4df55601be81e59a2fe6f98c7f4f2.json.gz",
+      "sha256": "17139c88e0b5c4904d59cdd4824bf6e6cbc4df55601be81e59a2fe6f98c7f4f2"
+    },
+    {
+      "entityId": "ESP",
+      "file": "countries/ESP-sha256-b9611494027e3c8d2616e1aede3f855f8b09b12e7da17e32f6d1804a11c1f30f.json.gz",
+      "sha256": "b9611494027e3c8d2616e1aede3f855f8b09b12e7da17e32f6d1804a11c1f30f"
+    },
+    {
+      "entityId": "EST",
+      "file": "countries/EST-sha256-1dee26a40272e7bd1e46bee50a5b6c12ca9428782ca22f5c185becc644383fa9.json.gz",
+      "sha256": "1dee26a40272e7bd1e46bee50a5b6c12ca9428782ca22f5c185becc644383fa9"
+    },
+    {
+      "entityId": "ETH",
+      "file": "countries/ETH-sha256-f0f9fdbc95a47de60ca961cebf44dd041f91f41a3abd62a6ecbd013245c2650e.json.gz",
+      "sha256": "f0f9fdbc95a47de60ca961cebf44dd041f91f41a3abd62a6ecbd013245c2650e"
+    },
+    {
+      "entityId": "FIN",
+      "file": "countries/FIN-sha256-03326d682c5bf35e471c8dbde5755ab842c91a2e2c0efbca4df7bb2c92343269.json.gz",
+      "sha256": "03326d682c5bf35e471c8dbde5755ab842c91a2e2c0efbca4df7bb2c92343269"
+    },
+    {
+      "entityId": "FJI",
+      "file": "countries/FJI-sha256-4a0ccaa9a44ceddaca678acdcdf478c54db572bf9fd9c298aace8b7f3c181bb7.json.gz",
+      "sha256": "4a0ccaa9a44ceddaca678acdcdf478c54db572bf9fd9c298aace8b7f3c181bb7"
+    },
+    {
+      "entityId": "FRA",
+      "file": "countries/FRA-sha256-bfaba6ce8c61f59e412f74b1075698352f1b36263962240b5efca6489a138eb4.json.gz",
+      "sha256": "bfaba6ce8c61f59e412f74b1075698352f1b36263962240b5efca6489a138eb4"
+    },
+    {
+      "entityId": "FSM",
+      "file": "countries/FSM-sha256-8cb8a2fa36a60af2df56a0030e04f4d30972eead8aa83a979f61657a56e1318b.json.gz",
+      "sha256": "8cb8a2fa36a60af2df56a0030e04f4d30972eead8aa83a979f61657a56e1318b"
+    },
+    {
+      "entityId": "GAB",
+      "file": "countries/GAB-sha256-e025e06d11075ec509ef48840bcb8450fb8ef1dad271b04fa9f88e3f6aa5f91a.json.gz",
+      "sha256": "e025e06d11075ec509ef48840bcb8450fb8ef1dad271b04fa9f88e3f6aa5f91a"
+    },
+    {
+      "entityId": "GBR",
+      "file": "countries/GBR-sha256-acefed0e9e9460b4d160dc6c909860d3a7e0745c41197f3e921075e64fc00c4c.json.gz",
+      "sha256": "acefed0e9e9460b4d160dc6c909860d3a7e0745c41197f3e921075e64fc00c4c"
+    },
+    {
+      "entityId": "GEO",
+      "file": "countries/GEO-sha256-77a7362f59a40b3de522772ce74966e94696f8934fd7cf5b37c93c10ff60e83d.json.gz",
+      "sha256": "77a7362f59a40b3de522772ce74966e94696f8934fd7cf5b37c93c10ff60e83d"
+    },
+    {
+      "entityId": "GHA",
+      "file": "countries/GHA-sha256-52f0aebe943d06d0d72fe2212a72f1c599457a9c5f3801e11511ff94d39532b0.json.gz",
+      "sha256": "52f0aebe943d06d0d72fe2212a72f1c599457a9c5f3801e11511ff94d39532b0"
+    },
+    {
+      "entityId": "GIN",
+      "file": "countries/GIN-sha256-15a96f0537b24e09d4534151df42d1660a8a8182d038e55e430f925294c7263d.json.gz",
+      "sha256": "15a96f0537b24e09d4534151df42d1660a8a8182d038e55e430f925294c7263d"
+    },
+    {
+      "entityId": "GMB",
+      "file": "countries/GMB-sha256-2b2add3ba5b37f84b7580d0b2e3a37fc77de6d170241ec1a20752301216a023d.json.gz",
+      "sha256": "2b2add3ba5b37f84b7580d0b2e3a37fc77de6d170241ec1a20752301216a023d"
+    },
+    {
+      "entityId": "GNB",
+      "file": "countries/GNB-sha256-faa09fb596f8538f5395ecdf80080b08dd79d78483f2822cce5e401305c7b1fc.json.gz",
+      "sha256": "faa09fb596f8538f5395ecdf80080b08dd79d78483f2822cce5e401305c7b1fc"
+    },
+    {
+      "entityId": "GNQ",
+      "file": "countries/GNQ-sha256-298f45fb6ab8005aa6aff0bd40191368af59ae2802e64e2586e605743531d7eb.json.gz",
+      "sha256": "298f45fb6ab8005aa6aff0bd40191368af59ae2802e64e2586e605743531d7eb"
+    },
+    {
+      "entityId": "GRC",
+      "file": "countries/GRC-sha256-9aad472c4e851d54ef54994f3e97ddac40c86cc01a5d1e081a093c4ef9de6c21.json.gz",
+      "sha256": "9aad472c4e851d54ef54994f3e97ddac40c86cc01a5d1e081a093c4ef9de6c21"
+    },
+    {
+      "entityId": "GRD",
+      "file": "countries/GRD-sha256-0da5b59e49b1d33974b025b1b03859847f8fd039726b5822b10f8edd9cb693a6.json.gz",
+      "sha256": "0da5b59e49b1d33974b025b1b03859847f8fd039726b5822b10f8edd9cb693a6"
+    },
+    {
+      "entityId": "GTM",
+      "file": "countries/GTM-sha256-316a62c69027502677ed01b3d1c4a91a8d56252f67fbd04c569318c7f7ca3fa7.json.gz",
+      "sha256": "316a62c69027502677ed01b3d1c4a91a8d56252f67fbd04c569318c7f7ca3fa7"
+    },
+    {
+      "entityId": "GUY",
+      "file": "countries/GUY-sha256-ec7c11ea4533f5504148fb72bd60365e526389a099ca79a527d1a7c3210ad086.json.gz",
+      "sha256": "ec7c11ea4533f5504148fb72bd60365e526389a099ca79a527d1a7c3210ad086"
+    },
+    {
+      "entityId": "HND",
+      "file": "countries/HND-sha256-9411cc01d1701897145d3754e797103f81c1286df9e5fab8f002f90aae7b92bd.json.gz",
+      "sha256": "9411cc01d1701897145d3754e797103f81c1286df9e5fab8f002f90aae7b92bd"
+    },
+    {
+      "entityId": "HRV",
+      "file": "countries/HRV-sha256-9c03bf9fc142111bff3fdd0b2e9ee5d2dbe73589b45b05b4bcdcaf01aba2851b.json.gz",
+      "sha256": "9c03bf9fc142111bff3fdd0b2e9ee5d2dbe73589b45b05b4bcdcaf01aba2851b"
+    },
+    {
+      "entityId": "HTI",
+      "file": "countries/HTI-sha256-b4cd2a482307b05915d7dfc4dcf1209d2bf5f873ace2ebdff0d889b7f7542985.json.gz",
+      "sha256": "b4cd2a482307b05915d7dfc4dcf1209d2bf5f873ace2ebdff0d889b7f7542985"
+    },
+    {
+      "entityId": "HUN",
+      "file": "countries/HUN-sha256-94d190c138676a6ed252dccb97856e6d339e00c9f9bab7b4b345d014fdac5d35.json.gz",
+      "sha256": "94d190c138676a6ed252dccb97856e6d339e00c9f9bab7b4b345d014fdac5d35"
+    },
+    {
+      "entityId": "IDN",
+      "file": "countries/IDN-sha256-e2bead7a99448e9764ba8a55d66c36c7bc156a36f0bceff35d7577cc2fb97205.json.gz",
+      "sha256": "e2bead7a99448e9764ba8a55d66c36c7bc156a36f0bceff35d7577cc2fb97205"
+    },
+    {
+      "entityId": "IND",
+      "file": "countries/IND-sha256-4bb4e886ca865f34f2e459bcace70add823e686c45dafb1480c2b10c19293008.json.gz",
+      "sha256": "4bb4e886ca865f34f2e459bcace70add823e686c45dafb1480c2b10c19293008"
+    },
+    {
+      "entityId": "IRL",
+      "file": "countries/IRL-sha256-2d424c5192cf9e4070cdb104da19ef0aab298a2e508088a06a7f006a6e0960af.json.gz",
+      "sha256": "2d424c5192cf9e4070cdb104da19ef0aab298a2e508088a06a7f006a6e0960af"
+    },
+    {
+      "entityId": "IRN",
+      "file": "countries/IRN-sha256-37b675e938ee8decfe38d0a0573370d4d471bfcfff66fedb546bd48cc6e2cdb0.json.gz",
+      "sha256": "37b675e938ee8decfe38d0a0573370d4d471bfcfff66fedb546bd48cc6e2cdb0"
+    },
+    {
+      "entityId": "IRQ",
+      "file": "countries/IRQ-sha256-26b8e6bc97f170983f7a021c884446d6aca325cd6474175394efaf545d738e7d.json.gz",
+      "sha256": "26b8e6bc97f170983f7a021c884446d6aca325cd6474175394efaf545d738e7d"
+    },
+    {
+      "entityId": "ISL",
+      "file": "countries/ISL-sha256-215c157eb31133696ee4a78d0c80d03dc8650edf6fc004a83a375a2155f966c2.json.gz",
+      "sha256": "215c157eb31133696ee4a78d0c80d03dc8650edf6fc004a83a375a2155f966c2"
+    },
+    {
+      "entityId": "ISR",
+      "file": "countries/ISR-sha256-06504ea58ea860a5fd40339cf3a77c43a6b50cd3f92146c1983f5666a6ba7fa5.json.gz",
+      "sha256": "06504ea58ea860a5fd40339cf3a77c43a6b50cd3f92146c1983f5666a6ba7fa5"
+    },
+    {
+      "entityId": "ITA",
+      "file": "countries/ITA-sha256-bbaa2cce17fb7e9bcbb8048ab066760c0e07182ee9f24cd13b1b8caff67cdcf6.json.gz",
+      "sha256": "bbaa2cce17fb7e9bcbb8048ab066760c0e07182ee9f24cd13b1b8caff67cdcf6"
+    },
+    {
+      "entityId": "JAM",
+      "file": "countries/JAM-sha256-b34e793fdca07f8564366747612cb0186777898cf1db3c7bdd9e7ade8af46bd3.json.gz",
+      "sha256": "b34e793fdca07f8564366747612cb0186777898cf1db3c7bdd9e7ade8af46bd3"
+    },
+    {
+      "entityId": "JOR",
+      "file": "countries/JOR-sha256-4d65ca8d9f5b0e3a5242048451f1bae2707e387a8b20deabf285c1c258f0b310.json.gz",
+      "sha256": "4d65ca8d9f5b0e3a5242048451f1bae2707e387a8b20deabf285c1c258f0b310"
+    },
+    {
+      "entityId": "JPN",
+      "file": "countries/JPN-sha256-806857119ffc057db739877e0898a38ccf3f62b5b94ff2f3bd51fe1d06539fc8.json.gz",
+      "sha256": "806857119ffc057db739877e0898a38ccf3f62b5b94ff2f3bd51fe1d06539fc8"
+    },
+    {
+      "entityId": "KAS",
+      "file": "countries/KAS-sha256-29cd36a79f70ccf7fc10dc33c2576fa5c5d2afb4b4e76f2e9187a2222b5acd00.json.gz",
+      "sha256": "29cd36a79f70ccf7fc10dc33c2576fa5c5d2afb4b4e76f2e9187a2222b5acd00"
+    },
+    {
+      "entityId": "KAZ",
+      "file": "countries/KAZ-sha256-8528da170530ee712de39ba92762e2ceb1a03005e22473e5eac3192a0c2c5b06.json.gz",
+      "sha256": "8528da170530ee712de39ba92762e2ceb1a03005e22473e5eac3192a0c2c5b06"
+    },
+    {
+      "entityId": "KEN",
+      "file": "countries/KEN-sha256-1056c4b60738f324214313d8d24d82e22925c1144358590feb677f7a8678d521.json.gz",
+      "sha256": "1056c4b60738f324214313d8d24d82e22925c1144358590feb677f7a8678d521"
+    },
+    {
+      "entityId": "KGZ",
+      "file": "countries/KGZ-sha256-77aca20d12b53549df75936c26c45e44abcdd74a3c2f12805d4475bab84f96b2.json.gz",
+      "sha256": "77aca20d12b53549df75936c26c45e44abcdd74a3c2f12805d4475bab84f96b2"
+    },
+    {
+      "entityId": "KHM",
+      "file": "countries/KHM-sha256-d0036e8c30e844c1fd1c585e7a2aac5bc8125940c92fa534286e02486c9fbb4f.json.gz",
+      "sha256": "d0036e8c30e844c1fd1c585e7a2aac5bc8125940c92fa534286e02486c9fbb4f"
+    },
+    {
+      "entityId": "KIR",
+      "file": "countries/KIR-sha256-8ef4ca1f08ac6c4def352d2d9a69df7f0a2cfd52b669a6dec5db1c5c05d9199c.json.gz",
+      "sha256": "8ef4ca1f08ac6c4def352d2d9a69df7f0a2cfd52b669a6dec5db1c5c05d9199c"
+    },
+    {
+      "entityId": "KNA",
+      "file": "countries/KNA-sha256-d73953cbb8a216a279252b8759383ac93c416fea1d83ac3ad9e2da4f100477de.json.gz",
+      "sha256": "d73953cbb8a216a279252b8759383ac93c416fea1d83ac3ad9e2da4f100477de"
+    },
+    {
+      "entityId": "KOR",
+      "file": "countries/KOR-sha256-a71d4203f2ad399b8e8fff403bcafc5ec49b2d88233619a183dc6c33cd4bb043.json.gz",
+      "sha256": "a71d4203f2ad399b8e8fff403bcafc5ec49b2d88233619a183dc6c33cd4bb043"
+    },
+    {
+      "entityId": "KOS",
+      "file": "countries/KOS-sha256-62ca31270e267065b57843084ad886408632671df53ecd8d5394635068439be6.json.gz",
+      "sha256": "62ca31270e267065b57843084ad886408632671df53ecd8d5394635068439be6"
+    },
+    {
+      "entityId": "KWT",
+      "file": "countries/KWT-sha256-a6ddb05451e5741ed69899462b1df3d549bd0f73b2c87c1b1355b7206b31cf41.json.gz",
+      "sha256": "a6ddb05451e5741ed69899462b1df3d549bd0f73b2c87c1b1355b7206b31cf41"
+    },
+    {
+      "entityId": "LAO",
+      "file": "countries/LAO-sha256-249c82fc707ebfbbabcf4809b7af12987c22a0343145ae30e89d72b01d298624.json.gz",
+      "sha256": "249c82fc707ebfbbabcf4809b7af12987c22a0343145ae30e89d72b01d298624"
+    },
+    {
+      "entityId": "LBN",
+      "file": "countries/LBN-sha256-8389883a00f58733557678cc16c9c561c83a1318965a7c494a566c9ab50c7100.json.gz",
+      "sha256": "8389883a00f58733557678cc16c9c561c83a1318965a7c494a566c9ab50c7100"
+    },
+    {
+      "entityId": "LBR",
+      "file": "countries/LBR-sha256-ca1d9905febeea1cb22a7ff9b09cafb10972cc46e8bc2c8315609e642c431eaa.json.gz",
+      "sha256": "ca1d9905febeea1cb22a7ff9b09cafb10972cc46e8bc2c8315609e642c431eaa"
+    },
+    {
+      "entityId": "LBY",
+      "file": "countries/LBY-sha256-bbb49b5a775c2e5e74a7bc70c0355b5d80c42e6b4620236515a637624b27a9ba.json.gz",
+      "sha256": "bbb49b5a775c2e5e74a7bc70c0355b5d80c42e6b4620236515a637624b27a9ba"
+    },
+    {
+      "entityId": "LCA",
+      "file": "countries/LCA-sha256-e5c70624b6a6cd868d3e9751f6395b78463e2a057985974e20948869cf970c5b.json.gz",
+      "sha256": "e5c70624b6a6cd868d3e9751f6395b78463e2a057985974e20948869cf970c5b"
+    },
+    {
+      "entityId": "LIE",
+      "file": "countries/LIE-sha256-e29cba37a8c52dee2a43a6d3b0948554228c5441004e65f07f3b9e99aab625a6.json.gz",
+      "sha256": "e29cba37a8c52dee2a43a6d3b0948554228c5441004e65f07f3b9e99aab625a6"
+    },
+    {
+      "entityId": "LKA",
+      "file": "countries/LKA-sha256-f07f5f4583c97949efb717162a5bac9d7767b8f4db50b98949b2fa7a26573946.json.gz",
+      "sha256": "f07f5f4583c97949efb717162a5bac9d7767b8f4db50b98949b2fa7a26573946"
+    },
+    {
+      "entityId": "LSO",
+      "file": "countries/LSO-sha256-0b648c8772a9bb5bfe582d8ac4f1df843717c83cf24a1d93fc33493b90178c29.json.gz",
+      "sha256": "0b648c8772a9bb5bfe582d8ac4f1df843717c83cf24a1d93fc33493b90178c29"
+    },
+    {
+      "entityId": "LTU",
+      "file": "countries/LTU-sha256-94345ed46b56956d3df3fa0fa4bacc53b1c9a8258183479222dbeeb43117fb3e.json.gz",
+      "sha256": "94345ed46b56956d3df3fa0fa4bacc53b1c9a8258183479222dbeeb43117fb3e"
+    },
+    {
+      "entityId": "LUX",
+      "file": "countries/LUX-sha256-9527e953acd856683716fc3d5f4172420a3401b9ff0f3540a9813969169ec057.json.gz",
+      "sha256": "9527e953acd856683716fc3d5f4172420a3401b9ff0f3540a9813969169ec057"
+    },
+    {
+      "entityId": "LVA",
+      "file": "countries/LVA-sha256-5f2ff0a3512557e0bac6ec557a00b04e8047f6a6aa87fad88d475efaa426bd44.json.gz",
+      "sha256": "5f2ff0a3512557e0bac6ec557a00b04e8047f6a6aa87fad88d475efaa426bd44"
+    },
+    {
+      "entityId": "MAR",
+      "file": "countries/MAR-sha256-33f988399ea8268aa4c1de8cb6195839287c9b9086e34a2bc9018ab95c16ea86.json.gz",
+      "sha256": "33f988399ea8268aa4c1de8cb6195839287c9b9086e34a2bc9018ab95c16ea86"
+    },
+    {
+      "entityId": "MCO",
+      "file": "countries/MCO-sha256-0129d8c20217cd668487aaf493e4564c881275571d814d824fabb835984a62ed.json.gz",
+      "sha256": "0129d8c20217cd668487aaf493e4564c881275571d814d824fabb835984a62ed"
+    },
+    {
+      "entityId": "MDA",
+      "file": "countries/MDA-sha256-508ce291d8e7ad12e0759f9ff8a727dfe4767771a56eecbf730cfbc76f88528f.json.gz",
+      "sha256": "508ce291d8e7ad12e0759f9ff8a727dfe4767771a56eecbf730cfbc76f88528f"
+    },
+    {
+      "entityId": "MDG",
+      "file": "countries/MDG-sha256-5a6f07cc9d38ce89193aad6bf3cf4599def99a9c42cc80f38f1a03088537b210.json.gz",
+      "sha256": "5a6f07cc9d38ce89193aad6bf3cf4599def99a9c42cc80f38f1a03088537b210"
+    },
+    {
+      "entityId": "MDV",
+      "file": "countries/MDV-sha256-89582f26f899e82805f07ebe74a804f4a40dd6b555b1f60eff61e4ab246adeab.json.gz",
+      "sha256": "89582f26f899e82805f07ebe74a804f4a40dd6b555b1f60eff61e4ab246adeab"
+    },
+    {
+      "entityId": "MEX",
+      "file": "countries/MEX-sha256-33dab74945702d681aeaaa928d823f0aeda4932d32cfd2adde1be51d0973630f.json.gz",
+      "sha256": "33dab74945702d681aeaaa928d823f0aeda4932d32cfd2adde1be51d0973630f"
+    },
+    {
+      "entityId": "MHL",
+      "file": "countries/MHL-sha256-4b6701293d693ddbbbe95b7dff68a7663ea4c64ae3283a4fd1b4716b5a7ca916.json.gz",
+      "sha256": "4b6701293d693ddbbbe95b7dff68a7663ea4c64ae3283a4fd1b4716b5a7ca916"
+    },
+    {
+      "entityId": "MKD",
+      "file": "countries/MKD-sha256-8e7292f06446aadcbce5dfb9109f342eaa2adc3c5d9cf2df73ea7aa8ce2ebda6.json.gz",
+      "sha256": "8e7292f06446aadcbce5dfb9109f342eaa2adc3c5d9cf2df73ea7aa8ce2ebda6"
+    },
+    {
+      "entityId": "MLI",
+      "file": "countries/MLI-sha256-0b36f620f9f53bbc74873150bd897d3b0536e0f5ddd5f80c4224cd99291ca183.json.gz",
+      "sha256": "0b36f620f9f53bbc74873150bd897d3b0536e0f5ddd5f80c4224cd99291ca183"
+    },
+    {
+      "entityId": "MLT",
+      "file": "countries/MLT-sha256-9e75bae079dae87a53297e1095e1ced8ee78b8b350a73beb44f58852d10f89ad.json.gz",
+      "sha256": "9e75bae079dae87a53297e1095e1ced8ee78b8b350a73beb44f58852d10f89ad"
+    },
+    {
+      "entityId": "MMR",
+      "file": "countries/MMR-sha256-a25ceb4e2b68c87e626b1aa3695a40f6ca2132327fc852643f9f1a6bfb81c0fe.json.gz",
+      "sha256": "a25ceb4e2b68c87e626b1aa3695a40f6ca2132327fc852643f9f1a6bfb81c0fe"
+    },
+    {
+      "entityId": "MNE",
+      "file": "countries/MNE-sha256-a6aeccb3de8370e8cfffb28d7fcf67f2caff9354d6a11908129f282f708ace8d.json.gz",
+      "sha256": "a6aeccb3de8370e8cfffb28d7fcf67f2caff9354d6a11908129f282f708ace8d"
+    },
+    {
+      "entityId": "MNG",
+      "file": "countries/MNG-sha256-8e2e5f528164b85f85de6eb7e699b4b7a8da85ac51472a0926e62ddd70fd5c98.json.gz",
+      "sha256": "8e2e5f528164b85f85de6eb7e699b4b7a8da85ac51472a0926e62ddd70fd5c98"
+    },
+    {
+      "entityId": "MOZ",
+      "file": "countries/MOZ-sha256-cae526ceac5290ef982d05ece79e3715e5b63be7c3ace4d549388662d345c833.json.gz",
+      "sha256": "cae526ceac5290ef982d05ece79e3715e5b63be7c3ace4d549388662d345c833"
+    },
+    {
+      "entityId": "MRT",
+      "file": "countries/MRT-sha256-72c5a51ef48d1d3ea1db53334a8bb7991fa64e8c56a024e5d329bff8c8749962.json.gz",
+      "sha256": "72c5a51ef48d1d3ea1db53334a8bb7991fa64e8c56a024e5d329bff8c8749962"
+    },
+    {
+      "entityId": "MUS",
+      "file": "countries/MUS-sha256-d97aa4dc5664956a8050c1ef4ad34590c035385463608e8937bb4e90635bbf8e.json.gz",
+      "sha256": "d97aa4dc5664956a8050c1ef4ad34590c035385463608e8937bb4e90635bbf8e"
+    },
+    {
+      "entityId": "MWI",
+      "file": "countries/MWI-sha256-0a77f78c5edd232850a0a24d2496e38904f46f5167ebf3b0c9487a3d8217166c.json.gz",
+      "sha256": "0a77f78c5edd232850a0a24d2496e38904f46f5167ebf3b0c9487a3d8217166c"
+    },
+    {
+      "entityId": "MYS",
+      "file": "countries/MYS-sha256-c67f8b1496b5992b929a98a8e2871224ff90e6993bd7bbebe6cbd7c8169c7c52.json.gz",
+      "sha256": "c67f8b1496b5992b929a98a8e2871224ff90e6993bd7bbebe6cbd7c8169c7c52"
+    },
+    {
+      "entityId": "NAM",
+      "file": "countries/NAM-sha256-200a1180da33de21d4241980285bec5b54d12a13c0f1a584e719918e88d787da.json.gz",
+      "sha256": "200a1180da33de21d4241980285bec5b54d12a13c0f1a584e719918e88d787da"
+    },
+    {
+      "entityId": "NER",
+      "file": "countries/NER-sha256-fcda7caa0e49657a4cb0ac715db3c88637ee4db68b8846525f9d939a2d3e5c1e.json.gz",
+      "sha256": "fcda7caa0e49657a4cb0ac715db3c88637ee4db68b8846525f9d939a2d3e5c1e"
+    },
+    {
+      "entityId": "NGA",
+      "file": "countries/NGA-sha256-1b9feda1249c8d0741a5b253705ae2076fa9c2e1ee210866b7847d83e17c7880.json.gz",
+      "sha256": "1b9feda1249c8d0741a5b253705ae2076fa9c2e1ee210866b7847d83e17c7880"
+    },
+    {
+      "entityId": "NIC",
+      "file": "countries/NIC-sha256-6cc010ff3012f71ee29ff7e042b87ea3d873df94c42179e470f117f16296c86b.json.gz",
+      "sha256": "6cc010ff3012f71ee29ff7e042b87ea3d873df94c42179e470f117f16296c86b"
+    },
+    {
+      "entityId": "NIU",
+      "file": "countries/NIU-sha256-5b5951d62d9b26f3105c811c5aa6066c54a05bae8a30d5b6ca588da745590a0c.json.gz",
+      "sha256": "5b5951d62d9b26f3105c811c5aa6066c54a05bae8a30d5b6ca588da745590a0c"
+    },
+    {
+      "entityId": "NLD",
+      "file": "countries/NLD-sha256-4177d264aa2e1f9ac1318fa1fb5b31155dd89760fa97ed49eac05b9710d89b27.json.gz",
+      "sha256": "4177d264aa2e1f9ac1318fa1fb5b31155dd89760fa97ed49eac05b9710d89b27"
+    },
+    {
+      "entityId": "NOR",
+      "file": "countries/NOR-sha256-fb0553c08f9f9dac72e5a500f6939cf60c0f2eb80ebea605f6e424285c12fdcc.json.gz",
+      "sha256": "fb0553c08f9f9dac72e5a500f6939cf60c0f2eb80ebea605f6e424285c12fdcc"
+    },
+    {
+      "entityId": "NPL",
+      "file": "countries/NPL-sha256-e232465ef13c1d4e03796f6649a17e4dbfcf91ab7e3393bac886d508344b84c0.json.gz",
+      "sha256": "e232465ef13c1d4e03796f6649a17e4dbfcf91ab7e3393bac886d508344b84c0"
+    },
+    {
+      "entityId": "NRU",
+      "file": "countries/NRU-sha256-e3c123759dfb7a5b2e144e6e503ad7c24f7d63deab1877dcaddcdd1ebc2aaf0e.json.gz",
+      "sha256": "e3c123759dfb7a5b2e144e6e503ad7c24f7d63deab1877dcaddcdd1ebc2aaf0e"
+    },
+    {
+      "entityId": "NZL",
+      "file": "countries/NZL-sha256-a7f99b1bc5bd9a6171b0607492a99ffeee86af0cef64421a2cd89bcc79d67675.json.gz",
+      "sha256": "a7f99b1bc5bd9a6171b0607492a99ffeee86af0cef64421a2cd89bcc79d67675"
+    },
+    {
+      "entityId": "OMN",
+      "file": "countries/OMN-sha256-c7591113f4daee19bec62f8a196e8d2b320a8060565853dd0b88602056cdd5d6.json.gz",
+      "sha256": "c7591113f4daee19bec62f8a196e8d2b320a8060565853dd0b88602056cdd5d6"
+    },
+    {
+      "entityId": "PAK",
+      "file": "countries/PAK-sha256-d8ad6f27aa2320e2c7d7674cc6acde655d5c3dcaab52ea6541cbec0fad0370be.json.gz",
+      "sha256": "d8ad6f27aa2320e2c7d7674cc6acde655d5c3dcaab52ea6541cbec0fad0370be"
+    },
+    {
+      "entityId": "PAN",
+      "file": "countries/PAN-sha256-b3ce41246352e889aaf8764bb60bf9357d4f370744d92b7fab86fa1b4b496291.json.gz",
+      "sha256": "b3ce41246352e889aaf8764bb60bf9357d4f370744d92b7fab86fa1b4b496291"
+    },
+    {
+      "entityId": "PER",
+      "file": "countries/PER-sha256-31801499964a81da118f24e6c3d31e9b74e2f8257e983f65898f7ccc0b2fbf3b.json.gz",
+      "sha256": "31801499964a81da118f24e6c3d31e9b74e2f8257e983f65898f7ccc0b2fbf3b"
+    },
+    {
+      "entityId": "PHL",
+      "file": "countries/PHL-sha256-f2b5367cad56e120fe99a2883d74cf31993bd0163d1e88f2f73910a310d226a5.json.gz",
+      "sha256": "f2b5367cad56e120fe99a2883d74cf31993bd0163d1e88f2f73910a310d226a5"
+    },
+    {
+      "entityId": "PLW",
+      "file": "countries/PLW-sha256-5686056eb03a01411291c217b0dc951bd09b2c7743f6652031dbe5cec3d9dd9f.json.gz",
+      "sha256": "5686056eb03a01411291c217b0dc951bd09b2c7743f6652031dbe5cec3d9dd9f"
+    },
+    {
+      "entityId": "PNG",
+      "file": "countries/PNG-sha256-26f2538f9424f82ce4c7a1e06024ab98c909d8da2e281db8e97aa459a84c54b4.json.gz",
+      "sha256": "26f2538f9424f82ce4c7a1e06024ab98c909d8da2e281db8e97aa459a84c54b4"
+    },
+    {
+      "entityId": "POL",
+      "file": "countries/POL-sha256-d7500b3f2a58e27ae9635c593ef96475ba7676270f4f89de1a58ed66d2419ab8.json.gz",
+      "sha256": "d7500b3f2a58e27ae9635c593ef96475ba7676270f4f89de1a58ed66d2419ab8"
+    },
+    {
+      "entityId": "PRK",
+      "file": "countries/PRK-sha256-eb4748dc0e9a2f5b243e6639915d5c5924acf17f29930879bfa02d5cc7dd6bb5.json.gz",
+      "sha256": "eb4748dc0e9a2f5b243e6639915d5c5924acf17f29930879bfa02d5cc7dd6bb5"
+    },
+    {
+      "entityId": "PRT",
+      "file": "countries/PRT-sha256-9050211546d2bc688d65e665e0fd1b520811241cf93b6c8e13a766015d2b1b93.json.gz",
+      "sha256": "9050211546d2bc688d65e665e0fd1b520811241cf93b6c8e13a766015d2b1b93"
+    },
+    {
+      "entityId": "PRY",
+      "file": "countries/PRY-sha256-fd7d565cafd1bf5995e0196ac52c3cedb600a17fd7bc7b36c5203cab8c547d69.json.gz",
+      "sha256": "fd7d565cafd1bf5995e0196ac52c3cedb600a17fd7bc7b36c5203cab8c547d69"
+    },
+    {
+      "entityId": "PSX",
+      "file": "countries/PSX-sha256-fe36776f9b5ca7035436a7a2d29ff219595bb27346f90dc1cf7939ffb5326c04.json.gz",
+      "sha256": "fe36776f9b5ca7035436a7a2d29ff219595bb27346f90dc1cf7939ffb5326c04"
+    },
+    {
+      "entityId": "QAT",
+      "file": "countries/QAT-sha256-a686acbe7e957a779e9cb6622bc3558ece109e927443e22bb7e60b93302a34e7.json.gz",
+      "sha256": "a686acbe7e957a779e9cb6622bc3558ece109e927443e22bb7e60b93302a34e7"
+    },
+    {
+      "entityId": "ROU",
+      "file": "countries/ROU-sha256-04410f6b6ed1e47fbe25fde38d42cab53e58954c9d63694ac1bb265e612cd1a3.json.gz",
+      "sha256": "04410f6b6ed1e47fbe25fde38d42cab53e58954c9d63694ac1bb265e612cd1a3"
+    },
+    {
+      "entityId": "RUS",
+      "file": "countries/RUS-sha256-f7aced0784c653a7af4b8c49c652cbfc70dba49f5bbeddf1893df0d0d25526d0.json.gz",
+      "sha256": "f7aced0784c653a7af4b8c49c652cbfc70dba49f5bbeddf1893df0d0d25526d0"
+    },
+    {
+      "entityId": "RWA",
+      "file": "countries/RWA-sha256-a020dfb57713edcf6b6ac803c35f7f6a891f8f7226fc3edab7abfe136b83e65d.json.gz",
+      "sha256": "a020dfb57713edcf6b6ac803c35f7f6a891f8f7226fc3edab7abfe136b83e65d"
+    },
+    {
+      "entityId": "SAH",
+      "file": "countries/SAH-sha256-4972f18885774f3e7502cf852e652ee6a9e20f8fee20f8bb61187916058cc5f9.json.gz",
+      "sha256": "4972f18885774f3e7502cf852e652ee6a9e20f8fee20f8bb61187916058cc5f9"
+    },
+    {
+      "entityId": "SAU",
+      "file": "countries/SAU-sha256-1396398c8f290ad2169a46053b26bea914f90e194bb344ae4989e9206eff9699.json.gz",
+      "sha256": "1396398c8f290ad2169a46053b26bea914f90e194bb344ae4989e9206eff9699"
+    },
+    {
+      "entityId": "SDN",
+      "file": "countries/SDN-sha256-1e9934003e48cda0b4266020523942386e1644e192372533d184ed6d6180da45.json.gz",
+      "sha256": "1e9934003e48cda0b4266020523942386e1644e192372533d184ed6d6180da45"
+    },
+    {
+      "entityId": "SDS",
+      "file": "countries/SDS-sha256-fa19bc87e061add96182b393624ed89fc537719777b50fd5f193bc47655e76f7.json.gz",
+      "sha256": "fa19bc87e061add96182b393624ed89fc537719777b50fd5f193bc47655e76f7"
+    },
+    {
+      "entityId": "SEN",
+      "file": "countries/SEN-sha256-328b0f26bcceddb0d231d911f823d8c561e90c034af4b68f1d5c27eeed7fb367.json.gz",
+      "sha256": "328b0f26bcceddb0d231d911f823d8c561e90c034af4b68f1d5c27eeed7fb367"
+    },
+    {
+      "entityId": "SGP",
+      "file": "countries/SGP-sha256-e47a78d70727a08e1ee6fe4a32c4fa744f291dc5a24592f2735ef947b085760f.json.gz",
+      "sha256": "e47a78d70727a08e1ee6fe4a32c4fa744f291dc5a24592f2735ef947b085760f"
+    },
+    {
+      "entityId": "SLB",
+      "file": "countries/SLB-sha256-9ac5af6cfed79a2a0578398380857cb59319b2bd39652ff36679367b617b5b16.json.gz",
+      "sha256": "9ac5af6cfed79a2a0578398380857cb59319b2bd39652ff36679367b617b5b16"
+    },
+    {
+      "entityId": "SLE",
+      "file": "countries/SLE-sha256-fda945719222ea0050388d9dc57d4e08b43521eb9ff11346f2b4cb3c01a85812.json.gz",
+      "sha256": "fda945719222ea0050388d9dc57d4e08b43521eb9ff11346f2b4cb3c01a85812"
+    },
+    {
+      "entityId": "SLV",
+      "file": "countries/SLV-sha256-23a32fd43141a8fce5fa756940ddd5071fca38d1021b84ca3660d7a5dbaee194.json.gz",
+      "sha256": "23a32fd43141a8fce5fa756940ddd5071fca38d1021b84ca3660d7a5dbaee194"
+    },
+    {
+      "entityId": "SMR",
+      "file": "countries/SMR-sha256-3b5885de91ab8ac4a8eb899071d82105bf838bdc38a006df01f8424bdba6a7fe.json.gz",
+      "sha256": "3b5885de91ab8ac4a8eb899071d82105bf838bdc38a006df01f8424bdba6a7fe"
+    },
+    {
+      "entityId": "SOL",
+      "file": "countries/SOL-sha256-ed5d3ce6faf0fadfea5c7061164b708d66d5f982c650389474deec041ee43d8f.json.gz",
+      "sha256": "ed5d3ce6faf0fadfea5c7061164b708d66d5f982c650389474deec041ee43d8f"
+    },
+    {
+      "entityId": "SOM",
+      "file": "countries/SOM-sha256-127762b1b3404df14307b8c55a14c55da07ed6da3de6a91d53010f5e087f69af.json.gz",
+      "sha256": "127762b1b3404df14307b8c55a14c55da07ed6da3de6a91d53010f5e087f69af"
+    },
+    {
+      "entityId": "SPI",
+      "file": "countries/SPI-sha256-ade28978db51466a46dea709a0e239bd95359451dc0108fd3aaf23e5a3e8c7ea.json.gz",
+      "sha256": "ade28978db51466a46dea709a0e239bd95359451dc0108fd3aaf23e5a3e8c7ea"
+    },
+    {
+      "entityId": "SRB",
+      "file": "countries/SRB-sha256-08d1246cb3c1ae404f109da34563105945b00892e1049098b91cc73cf3f125d3.json.gz",
+      "sha256": "08d1246cb3c1ae404f109da34563105945b00892e1049098b91cc73cf3f125d3"
+    },
+    {
+      "entityId": "state:czechoslovakia",
+      "file": "countries/state-czechoslovakia-sha256-87d1465afd072fb477d5e12a0dace852b45455a5f4e964900312ceed02fa305b.json.gz",
+      "sha256": "87d1465afd072fb477d5e12a0dace852b45455a5f4e964900312ceed02fa305b"
+    },
+    {
+      "entityId": "state:east-prussia",
+      "file": "countries/state-east-prussia-sha256-cc09a5886b8886fab3a278496c129c65525bc2a722342296866e5fd0eee389e7.json.gz",
+      "sha256": "cc09a5886b8886fab3a278496c129c65525bc2a722342296866e5fd0eee389e7"
+    },
+    {
+      "entityId": "state:nagorno-karabakh",
+      "file": "countries/state-nagorno-karabakh-sha256-72f2488a153ffdb4df9426b6861180eba26a4d84eebaea586bec722b403fe8fc.json.gz",
+      "sha256": "72f2488a153ffdb4df9426b6861180eba26a4d84eebaea586bec722b403fe8fc"
+    },
+    {
+      "entityId": "state:soviet-union",
+      "file": "countries/state-soviet-union-sha256-cdc23a2e5974a84ff92a909bd7ca76d3c48d9594edbe2d161097ca4cb8a35b9a.json.gz",
+      "sha256": "cdc23a2e5974a84ff92a909bd7ca76d3c48d9594edbe2d161097ca4cb8a35b9a"
+    },
+    {
+      "entityId": "state:soviet-union-armenian-ssr",
+      "file": "countries/state-soviet-union-armenian-ssr-sha256-272abf126ae73d5d07362d2205b2347c6ebc9ad2f292d424ebf25e9bfc83f4b5.json.gz",
+      "sha256": "272abf126ae73d5d07362d2205b2347c6ebc9ad2f292d424ebf25e9bfc83f4b5"
+    },
+    {
+      "entityId": "state:soviet-union-azerbaijan-ssr",
+      "file": "countries/state-soviet-union-azerbaijan-ssr-sha256-a39c73b3d3a8770f41819baab52ffc7601e033babbb7fe573d7f57b9882f40ee.json.gz",
+      "sha256": "a39c73b3d3a8770f41819baab52ffc7601e033babbb7fe573d7f57b9882f40ee"
+    },
+    {
+      "entityId": "state:soviet-union-byelorussian-ssr",
+      "file": "countries/state-soviet-union-byelorussian-ssr-sha256-665f636b4bb8ce4cce820ace022aa5ef2c2833c7bd0e57290d7344e7078849ea.json.gz",
+      "sha256": "665f636b4bb8ce4cce820ace022aa5ef2c2833c7bd0e57290d7344e7078849ea"
+    },
+    {
+      "entityId": "state:soviet-union-estonian-ssr",
+      "file": "countries/state-soviet-union-estonian-ssr-sha256-ad7b258215973f5437e3baf39601e8882e370c95dbf19fbbe7b5372e41eb3820.json.gz",
+      "sha256": "ad7b258215973f5437e3baf39601e8882e370c95dbf19fbbe7b5372e41eb3820"
+    },
+    {
+      "entityId": "state:soviet-union-georgian-ssr",
+      "file": "countries/state-soviet-union-georgian-ssr-sha256-aabd497e6fc92f551d6213e242cf31f334172c09ccdb681c3c77313b46ebb3ae.json.gz",
+      "sha256": "aabd497e6fc92f551d6213e242cf31f334172c09ccdb681c3c77313b46ebb3ae"
+    },
+    {
+      "entityId": "state:soviet-union-kazakh-ssr",
+      "file": "countries/state-soviet-union-kazakh-ssr-sha256-3eba7ec035d788e924b5d2418d4337df054294d854dfa20cfd4256f41dc4daf5.json.gz",
+      "sha256": "3eba7ec035d788e924b5d2418d4337df054294d854dfa20cfd4256f41dc4daf5"
+    },
+    {
+      "entityId": "state:soviet-union-kirghiz-ssr",
+      "file": "countries/state-soviet-union-kirghiz-ssr-sha256-bd02f396eedc1618a278636fcb45ff4df923ab7530f5843facab325f7db52f5c.json.gz",
+      "sha256": "bd02f396eedc1618a278636fcb45ff4df923ab7530f5843facab325f7db52f5c"
+    },
+    {
+      "entityId": "state:soviet-union-latvian-ssr",
+      "file": "countries/state-soviet-union-latvian-ssr-sha256-7ecbf90c1c8a0f464f16181a6fc7617a5bbce0d4d557f43c425c6b7dba4b896a.json.gz",
+      "sha256": "7ecbf90c1c8a0f464f16181a6fc7617a5bbce0d4d557f43c425c6b7dba4b896a"
+    },
+    {
+      "entityId": "state:soviet-union-lithuanian-ssr",
+      "file": "countries/state-soviet-union-lithuanian-ssr-sha256-f1e4bb4b8de7c344761901072c9e8991a08a24d60c545f91c20d3821d043545a.json.gz",
+      "sha256": "f1e4bb4b8de7c344761901072c9e8991a08a24d60c545f91c20d3821d043545a"
+    },
+    {
+      "entityId": "state:soviet-union-moldavian-ssr",
+      "file": "countries/state-soviet-union-moldavian-ssr-sha256-3e39f17ea749fa16185aea5048ae1194f051c0e5390c0c88cc3b1d3b4d62beae.json.gz",
+      "sha256": "3e39f17ea749fa16185aea5048ae1194f051c0e5390c0c88cc3b1d3b4d62beae"
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "file": "countries/state-soviet-union-russian-sfsr-sha256-65dd90dc27af1b6fe6da1ae18b6c4059a0262873496c79ef3c432a99227ab03f.json.gz",
+      "sha256": "65dd90dc27af1b6fe6da1ae18b6c4059a0262873496c79ef3c432a99227ab03f"
+    },
+    {
+      "entityId": "state:soviet-union-tajik-ssr",
+      "file": "countries/state-soviet-union-tajik-ssr-sha256-ecd43d073cc931295bfd6ef9d1a7c242bb6dc70f4726628b525a6d605ded498c.json.gz",
+      "sha256": "ecd43d073cc931295bfd6ef9d1a7c242bb6dc70f4726628b525a6d605ded498c"
+    },
+    {
+      "entityId": "state:soviet-union-transcaucasian-sfsr",
+      "file": "countries/state-soviet-union-transcaucasian-sfsr-sha256-3bdd7b71f5498d914123a6428ba48faf1e3115defc8dc62aefd10c64d38c6684.json.gz",
+      "sha256": "3bdd7b71f5498d914123a6428ba48faf1e3115defc8dc62aefd10c64d38c6684"
+    },
+    {
+      "entityId": "state:soviet-union-turkmen-ssr",
+      "file": "countries/state-soviet-union-turkmen-ssr-sha256-4fd7388023c2192147b9df8def47edb070f049ad03eb408dbd5eb95ab11bac1e.json.gz",
+      "sha256": "4fd7388023c2192147b9df8def47edb070f049ad03eb408dbd5eb95ab11bac1e"
+    },
+    {
+      "entityId": "state:soviet-union-ukrainian-ssr",
+      "file": "countries/state-soviet-union-ukrainian-ssr-sha256-66d90d241461dabb93ed824a29eb390c0dc089fe6e94b84931132fe02d21acff.json.gz",
+      "sha256": "66d90d241461dabb93ed824a29eb390c0dc089fe6e94b84931132fe02d21acff"
+    },
+    {
+      "entityId": "state:soviet-union-uzbek-ssr",
+      "file": "countries/state-soviet-union-uzbek-ssr-sha256-162a66f45b30edb70740a470ba2ad67e3b014485ce55cd30966483c1196dbd03.json.gz",
+      "sha256": "162a66f45b30edb70740a470ba2ad67e3b014485ce55cd30966483c1196dbd03"
+    },
+    {
+      "entityId": "state:west-prussia",
+      "file": "countries/state-west-prussia-sha256-4af342b0ad1ef96cd50825b97a178a2b3ac1819dc4df16b77f67c0a57a965cf3.json.gz",
+      "sha256": "4af342b0ad1ef96cd50825b97a178a2b3ac1819dc4df16b77f67c0a57a965cf3"
+    },
+    {
+      "entityId": "state:yugoslavia",
+      "file": "countries/state-yugoslavia-sha256-9941a5da5bfc1b951a166911a32985a3e62e8f746789b08985a70c8e8301aba3.json.gz",
+      "sha256": "9941a5da5bfc1b951a166911a32985a3e62e8f746789b08985a70c8e8301aba3"
+    },
+    {
+      "entityId": "STP",
+      "file": "countries/STP-sha256-d3c6ecf5b7addc1a05179e540907dbabb42d177785366d545ce39b0549766c48.json.gz",
+      "sha256": "d3c6ecf5b7addc1a05179e540907dbabb42d177785366d545ce39b0549766c48"
+    },
+    {
+      "entityId": "SUR",
+      "file": "countries/SUR-sha256-888df4a387f2b0898ceb45fc39707ee8a815ec8bd3aa73bcf8fb1572b38c7094.json.gz",
+      "sha256": "888df4a387f2b0898ceb45fc39707ee8a815ec8bd3aa73bcf8fb1572b38c7094"
+    },
+    {
+      "entityId": "SVK",
+      "file": "countries/SVK-sha256-ba07d4e889872f89c80cf9ebafd3b7f5df4b2d508e4acb32354c39bad92aced3.json.gz",
+      "sha256": "ba07d4e889872f89c80cf9ebafd3b7f5df4b2d508e4acb32354c39bad92aced3"
+    },
+    {
+      "entityId": "SVN",
+      "file": "countries/SVN-sha256-6b37c0a50281bc9d5c82198fbb34d0491c2a11889f368856178b4c8a7fa50ee2.json.gz",
+      "sha256": "6b37c0a50281bc9d5c82198fbb34d0491c2a11889f368856178b4c8a7fa50ee2"
+    },
+    {
+      "entityId": "SWE",
+      "file": "countries/SWE-sha256-13f288f769c2845e6abcde6cda1b5a830124c135d21365cf8715e8f04b72feaa.json.gz",
+      "sha256": "13f288f769c2845e6abcde6cda1b5a830124c135d21365cf8715e8f04b72feaa"
+    },
+    {
+      "entityId": "SWZ",
+      "file": "countries/SWZ-sha256-bf579922839d5fab5fa8833452d975ffe6e3906d266edd9ccd64e5437563aa83.json.gz",
+      "sha256": "bf579922839d5fab5fa8833452d975ffe6e3906d266edd9ccd64e5437563aa83"
+    },
+    {
+      "entityId": "SYC",
+      "file": "countries/SYC-sha256-b86c3c739fdf0017ddc6bb006d0c50732fb2b84d534cdca25cc581841d4f44f8.json.gz",
+      "sha256": "b86c3c739fdf0017ddc6bb006d0c50732fb2b84d534cdca25cc581841d4f44f8"
+    },
+    {
+      "entityId": "SYR",
+      "file": "countries/SYR-sha256-d958070e800ed3ad77198318cdfe04193dd661d2df39281481b9bc2a6045842d.json.gz",
+      "sha256": "d958070e800ed3ad77198318cdfe04193dd661d2df39281481b9bc2a6045842d"
+    },
+    {
+      "entityId": "TCD",
+      "file": "countries/TCD-sha256-83213805352bbf2cceb4be78c7efc277e87b62e4b648ddb146952daf47a92ad6.json.gz",
+      "sha256": "83213805352bbf2cceb4be78c7efc277e87b62e4b648ddb146952daf47a92ad6"
+    },
+    {
+      "entityId": "TGO",
+      "file": "countries/TGO-sha256-30a13746f3985c3c4f151c6d0131085a5457684c4e08e79ca82e5feb15b8fbce.json.gz",
+      "sha256": "30a13746f3985c3c4f151c6d0131085a5457684c4e08e79ca82e5feb15b8fbce"
+    },
+    {
+      "entityId": "THA",
+      "file": "countries/THA-sha256-a858ef45591821f50c16fd2f916b832edd27aab32309abcfe9a11e02307fd998.json.gz",
+      "sha256": "a858ef45591821f50c16fd2f916b832edd27aab32309abcfe9a11e02307fd998"
+    },
+    {
+      "entityId": "TJK",
+      "file": "countries/TJK-sha256-227cec6c1f27e4f7af64012adbba5e4a73a83670b75bfbbedc512638bb635168.json.gz",
+      "sha256": "227cec6c1f27e4f7af64012adbba5e4a73a83670b75bfbbedc512638bb635168"
+    },
+    {
+      "entityId": "TKM",
+      "file": "countries/TKM-sha256-3b203086c9bec5ce5effd34080d8784b71736d2ef36f119d877eca1dc87b6468.json.gz",
+      "sha256": "3b203086c9bec5ce5effd34080d8784b71736d2ef36f119d877eca1dc87b6468"
+    },
+    {
+      "entityId": "TLS",
+      "file": "countries/TLS-sha256-06e3df9519daf8d45b94f9faf8079942d3baeea956e8682f5fff1a37cea45559.json.gz",
+      "sha256": "06e3df9519daf8d45b94f9faf8079942d3baeea956e8682f5fff1a37cea45559"
+    },
+    {
+      "entityId": "TON",
+      "file": "countries/TON-sha256-fe9dae2df33b97af2089d88085f66ad8972ea4459b3930e4d4f67a3a6e00539c.json.gz",
+      "sha256": "fe9dae2df33b97af2089d88085f66ad8972ea4459b3930e4d4f67a3a6e00539c"
+    },
+    {
+      "entityId": "TTO",
+      "file": "countries/TTO-sha256-9dedd3ef5075e94cac2abb78bde640734f96b7df293eccc588e0d2342b8a01e4.json.gz",
+      "sha256": "9dedd3ef5075e94cac2abb78bde640734f96b7df293eccc588e0d2342b8a01e4"
+    },
+    {
+      "entityId": "TUN",
+      "file": "countries/TUN-sha256-8a0da5b412ca185b4a4209486deba7b8686172f22801fa7a4114d4b23bc918a9.json.gz",
+      "sha256": "8a0da5b412ca185b4a4209486deba7b8686172f22801fa7a4114d4b23bc918a9"
+    },
+    {
+      "entityId": "TUR",
+      "file": "countries/TUR-sha256-eea88917c7cccc1fe9a3406f11ac3555c15cfef3a0aaf7aadaa84625049fa708.json.gz",
+      "sha256": "eea88917c7cccc1fe9a3406f11ac3555c15cfef3a0aaf7aadaa84625049fa708"
+    },
+    {
+      "entityId": "TUV",
+      "file": "countries/TUV-sha256-32f3a6b89d2516b75d91d7c759ecfc0cd84fdff9a68b115604136b058fc38fa5.json.gz",
+      "sha256": "32f3a6b89d2516b75d91d7c759ecfc0cd84fdff9a68b115604136b058fc38fa5"
+    },
+    {
+      "entityId": "TWN",
+      "file": "countries/TWN-sha256-f730a35b6131060151cfaee74cba7d2ef665b66d07719a5b60a5897a997c27bc.json.gz",
+      "sha256": "f730a35b6131060151cfaee74cba7d2ef665b66d07719a5b60a5897a997c27bc"
+    },
+    {
+      "entityId": "TZA",
+      "file": "countries/TZA-sha256-a5ee733251858bd9b9aff4fd2e3f49a1d04865a23f1466e6725ca0cfd679bc9f.json.gz",
+      "sha256": "a5ee733251858bd9b9aff4fd2e3f49a1d04865a23f1466e6725ca0cfd679bc9f"
+    },
+    {
+      "entityId": "UGA",
+      "file": "countries/UGA-sha256-474fda0d08d55cd488cdc02178ad0fd2296b8e548c90fc08bab644a150cb0177.json.gz",
+      "sha256": "474fda0d08d55cd488cdc02178ad0fd2296b8e548c90fc08bab644a150cb0177"
+    },
+    {
+      "entityId": "UKR",
+      "file": "countries/UKR-sha256-18421a1c52ada4443ce81dad9d022226d8dc0ad4445ef6201f14db107a28474d.json.gz",
+      "sha256": "18421a1c52ada4443ce81dad9d022226d8dc0ad4445ef6201f14db107a28474d"
+    },
+    {
+      "entityId": "URY",
+      "file": "countries/URY-sha256-3543ebf50dc6c338152771738e279425bc5ba5f87b9f6000cfed0f9a6fdbcc3b.json.gz",
+      "sha256": "3543ebf50dc6c338152771738e279425bc5ba5f87b9f6000cfed0f9a6fdbcc3b"
+    },
+    {
+      "entityId": "USA",
+      "file": "countries/USA-sha256-4f107445d7126cce1fcf005cd9e0d428bc09ee51ea163f02e8b8193b41a37737.json.gz",
+      "sha256": "4f107445d7126cce1fcf005cd9e0d428bc09ee51ea163f02e8b8193b41a37737"
+    },
+    {
+      "entityId": "UZB",
+      "file": "countries/UZB-sha256-4795b1d2280b93353aa12892a9c63102378f714f52b6a9e2dde487614f73539b.json.gz",
+      "sha256": "4795b1d2280b93353aa12892a9c63102378f714f52b6a9e2dde487614f73539b"
+    },
+    {
+      "entityId": "VAT",
+      "file": "countries/VAT-sha256-8efb9841bfc4816c04a71df00c97efbdb3e3af68adfc1f0f86ac95d1b0235797.json.gz",
+      "sha256": "8efb9841bfc4816c04a71df00c97efbdb3e3af68adfc1f0f86ac95d1b0235797"
+    },
+    {
+      "entityId": "VCT",
+      "file": "countries/VCT-sha256-199fefcf204e5073434cf35fe7fb56b37b6df1d26ab75aefa7aaa606246bbb5b.json.gz",
+      "sha256": "199fefcf204e5073434cf35fe7fb56b37b6df1d26ab75aefa7aaa606246bbb5b"
+    },
+    {
+      "entityId": "VEN",
+      "file": "countries/VEN-sha256-064028b238936626af4c5d791552ba5bab388bbddbe343e82a24b3065812ccf0.json.gz",
+      "sha256": "064028b238936626af4c5d791552ba5bab388bbddbe343e82a24b3065812ccf0"
+    },
+    {
+      "entityId": "VNM",
+      "file": "countries/VNM-sha256-110c70eccf0c77d7a3f05b3f25820b442964237f5dfb9960f9059d59e7ddcd0a.json.gz",
+      "sha256": "110c70eccf0c77d7a3f05b3f25820b442964237f5dfb9960f9059d59e7ddcd0a"
+    },
+    {
+      "entityId": "VUT",
+      "file": "countries/VUT-sha256-094d941056b5f1d1ec5826db8670ff14d61727ad0a002bf6bcd90f26fa3a5695.json.gz",
+      "sha256": "094d941056b5f1d1ec5826db8670ff14d61727ad0a002bf6bcd90f26fa3a5695"
+    },
+    {
+      "entityId": "WSM",
+      "file": "countries/WSM-sha256-2ad2d304821e6ca5527eceeae8717c417875378143f0c909d6d04ccf73a0aede.json.gz",
+      "sha256": "2ad2d304821e6ca5527eceeae8717c417875378143f0c909d6d04ccf73a0aede"
+    },
+    {
+      "entityId": "YEM",
+      "file": "countries/YEM-sha256-edffbe97c184c1596dae80881d8a96877b126377b2f1f1bd0fc70490447be3d6.json.gz",
+      "sha256": "edffbe97c184c1596dae80881d8a96877b126377b2f1f1bd0fc70490447be3d6"
+    },
+    {
+      "entityId": "ZAF",
+      "file": "countries/ZAF-sha256-23238b538e3f65113593820048ecd3294a3fd78d808a34cb2e34e37c75b314f2.json.gz",
+      "sha256": "23238b538e3f65113593820048ecd3294a3fd78d808a34cb2e34e37c75b314f2"
+    },
+    {
+      "entityId": "ZMB",
+      "file": "countries/ZMB-sha256-1d4573e0ebebcd2fe29806c11b912ee245ea76f162bb282928225c7f0d6c9f8e.json.gz",
+      "sha256": "1d4573e0ebebcd2fe29806c11b912ee245ea76f162bb282928225c7f0d6c9f8e"
+    },
+    {
+      "entityId": "ZWE",
+      "file": "countries/ZWE-sha256-d12354924f76c9cb9fe71621c87ba0493f87b6e57b3375ab58377a5097df9adc.json.gz",
+      "sha256": "d12354924f76c9cb9fe71621c87ba0493f87b6e57b3375ab58377a5097df9adc"
+    }
+  ]
+}

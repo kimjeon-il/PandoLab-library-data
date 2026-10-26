@@ -188,7 +188,7 @@
 | state:UMI | 미국령 군소제도 | 오세아니아 | Censusaggregationofninedistinctterritories,notonepolity;WakealsoseparatePGA. Nocomponentclaim/statisticalcodeasgroupbirth. |
 | state:ATA | 남극 | 미분류 | Antarctica is a continent with protected competing sovereignty positions,not one polity. Treaty entry doesnot create Antarctic state. |
 
-태국 추가 조사: KMUTT의 태국어 원문은 정확한 즉위일의 불명확성과 1767·1768년 해석 차이를 설명한다. 프랑스 선교사의 1768-03-04 도착 당시 이미 새 왕을 만났다는 기록은 상한을 줄 뿐 개시일을 특정하지 못한다. 통용되는 11월 6일·12월 28일을 정부 성립일로 대신 입력하지 않았다.
+태국 추가 조사: KMUTT의 태국어 원문은 정확한 즉위일의 불명확성과 1767·1768년 해석 차이를 설명한다. 프랑스 선교사의 1769-03-04 도착 당시 이미 새 왕을 만났다는 기록은 상한을 줄 뿐 개시일을 특정하지 못한다. 통용되는 11월 6일·12월 28일을 정부 성립일로 대신 입력하지 않았다.
 
 ## 이번에 실제로 실행한 확인
 
@@ -212,3 +212,27 @@
 ![도미니카 시작일 당일 라이브러리 확인](followup-app-dom.png)
 
 ![미국 시작 월 웹 검색 확인](followup-web-usa.png)
+
+
+## 2026-10-26 보류 52개 후속 조사와 25개 반영
+
+- 기존 100개에 25개를 추가하여 125개 반영. 나머지는 실제 성립 시점 미확정 16개와 단일 정치체가 아닌 11개다. 개별 날짜·사건·원문 달력·출처·선택 근거는 held-52-followup.json 참조.
+- 라오스 협정일은 원문에서 1946-08-27로 확인해 앞선 4월 27일 후보를 철회했다. 푸에르토리코 원문 율리우스력 1509-08-14는 그레고리력 1509-08-24로 환산했다.
+- 태국의 이전 선교사 도착 기록 1768-03-04는 오류였다. IRFA 원문은 1769-03-04이며 정부 성립일 근거로 사용하지 않는다. 기존 잘못된 서술은 정정했고 이전 판단은 Git 이력과 evidenceCorrection에 남겼다.
+- 변경 25개만 정본·개별 chunk·색인을 대조하고 시간 경계 225개를 확인했다. 좌표·형상 기간·부모는 보존. 부분 생성은 필요한 12개 연결 묶음, 183개 입력이며 실제 변경 packet은 25개다. 파생 시간 경계 150개와 선택 packet의 전송 범위 일치를 확인했다.
+- 메시 384개를 그대로 재사용하고 입력 메타데이터만 갱신했다. 새 메시 바이너리 0개. 승인 소련 packet은 이전과 SHA-256 동일하다.
+- P2 POSIX symlink fixture 오류를 edfe64dd2에서 수정했다. Windows 33개 계약 통과와 Linux plan 단계 통과를 확인. 이후 CI 자동 게시 단계는 PANDOLAB_LIBRARY_WRITE_TOKEN 미설정으로 실패했다. 검사나 실패 차단을 약화하지 않았다.
+- 공개 웹의 1922-12는 구판 공개 채널(자료 sourceRevision 127e51c3)의 형상을 사용함을 재현했다. 승인본 main 자료와 다른 geometryRef를 직접 확인했고 사용자가 공개 채널 게시까지 추가 승인했다. 전체 GIS 게시 workflow 대신 검증한 부분 생성물을 그대로 사용한다.
+- 전체 테스트·동종 자료 전수 내용 검사·전체 GIS 재생성·네이티브 앱 재빌드는 실행하지 않았다. 게시 SHA·브라우저 확인·정리 결과는 후속 완료 기록에 추가한다.
+
+
+### 후속 완료·게시·정리
+
+- 코드 main/work/gis: 7d773ed2f6dde0b26accde5f39edc5d81ec068b9. 기존 미병합28커밋과 P2 수정,25개 날짜 반영 커밋을 포함하고 원격 SHA를 확인했다. 다른 상설 작업트리와 브랜치는 보존했다.
+- 자료 커밋: 68380579a7c7a1bd8ec97683b7517502c1389c3c. 공개 release dddc4aad6278c1e40eecb3f1188b55cfcaea630afb47127374c8db9ead5471dd, 라이브러리 게시 main 252d1e821591a179535971cdef8c085f1d1a20f4. Pages #40289942374 성공. 실제 공개 채널과 manifest 해시,25개 packet 날짜,브라우저의 새 release 요청과1922-12 소련 geometryRef historical-world:21db5bdce7286e2190f76e732cc1463f9202bd65c801ac8bf62cad7e2755c1ec를 확인했다.
+- 웹에서 헝가리1000년과 페로1948-03/04의 존재 차이,앱 라이브러리1000–현재/1948–현재 및1948-03-31추가차단/04-01허용을 확인했다. 공개 웹과 앱 웹셸 pageerror0. 네이티브 앱과 기기 검증은 하지 않았다.
+- 독립 검토에서 중요·치명 지적0. 선택25개 보호필드와 자료짝을 별도로 재확인했다. 사용자 승인에 따라 공개 채널 게시를 추가했으며 전체GIS생성 workflow는 실행하지 않았다.
+- 남은CI: P2 자동 게시용 PANDOLAB_LIBRARY_WRITE_TOKEN 미설정. Application Architecture #40289942232에는 unused import8건, nativeGIS 테스트 실행기 준비/선택 문제,기존 check/UI합성 fixture의 설정 누락 등이 남아 있다. Pages·P1·P3·관련 보존 검사는 성공했으나 전체CI성공으로 주장하지 않는다.
+- 이번 정리: 구 GIS runtime view와 게시 staging 1036907810논리바이트 제거. 정리 구간 D여유 변화 219238400바이트, 정리 후 61110497280바이트. 공유 하드링크와 Git정본을 유지하므로 논리 제거량과 실제 확보량은 다르다. 원본·보고서·상설작업트리·진행작업은 보존했다.
+- 판정기록: 자료와 형상은 분리 유지; 도메인 검사는 선택25개로 한정; 게시와 정리의 파일해시는 별도 무결성 확인이다. 공개채널은 사용자가 추가 승인했다. 남은CI의 비밀키/별도 테스트 인프라는 임의 변경하거나 우회하지 않았다.
+- 실제 웹 증거: held-52-public-soviet-1922.png, 앱 증거: held-52-app-faroe.png. 원격 보고서 보관은 이 최종 수정 뒤 publish-reports 및 check-reports로 별도 확인한다.

@@ -1,0 +1,26 @@
+{
+  "viewer": {
+    "hungary": {
+      "validFrom": "1000",
+      "validTo": null
+    },
+    "faroeBeforeMonthAbsent": true,
+    "faroeStartMonthPresent": true,
+    "sovietMonth": "1922-12",
+    "sovietRef": "historical-world:21db5bdce7286e2190f76e732cc1463f9202bd65c801ac8bf62cad7e2755c1ec",
+    "screenshot": "held-52-web-soviet-1922.png"
+  },
+  "appWebShell": {
+    "hungaryDisplay": "1000–현재",
+    "faroeDisplay": "1948–현재",
+    "before": "1948-03-31",
+    "beforeAddDisabled": true,
+    "at": "1948-04-01",
+    "atAddEnabled": true,
+    "screenshot": "held-52-app-faroe.png"
+  },
+  "errors": [],
+  "nativeExecutableRebuilt": false,
+  "nativeDeviceTested": false,
+  "checkedAt": "2026-10-26T08:04:55.108Z"
+}

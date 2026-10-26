@@ -1,0 +1,354 @@
+{
+  "selectedRecords": 25,
+  "changedWorldPackets": 25,
+  "worldTemporalAssertions": 150,
+  "selectedTransportRangesEqual": true,
+  "sovietPacketUnchanged": true,
+  "sovietGeometryRefs": [
+    {
+      "id": "historical-world:21db5bdce7286e2190f76e732cc1463f9202bd65c801ac8bf62cad7e2755c1ec",
+      "version": 1
+    },
+    {
+      "id": "historical-world:a7cc592b231c947797a557dc3aff6a58489f797e86590aba3b3d9bf7fd278fe2",
+      "version": 1
+    },
+    {
+      "id": "historical-world:2315bdb4dbfda2c06f7d7f38064fbb3d3807589ee17e2844db1b4d32fea507cd",
+      "version": 1
+    },
+    {
+      "id": "historical-world:2568a5240306650fd337d5b621d4f3069989a64e5719a9131515ca5c61539adf",
+      "version": 1
+    },
+    {
+      "id": "historical-world:53058d0534ca173e1ce4f654643fd732dc30fece4636d5768e87c9b9d76995a8",
+      "version": 1
+    },
+    {
+      "id": "historical-world:b5b1ee864990597f419108de834b1f2936a7d27ec8ebb2fe2141abae724de89a",
+      "version": 1
+    },
+    {
+      "id": "historical-world:674b91bd30eb891368b25208d3564bb2e32a1cf9388e3e26166e585c216a04a1",
+      "version": 1
+    },
+    {
+      "id": "historical-world:13ee97e6671b794ad26431da72b6247c0f0b36f93a0d437a3af0880c6f234e5f",
+      "version": 1
+    },
+    {
+      "id": "historical-world:6d549cf433b3727d3fb0c80ee4fe522b9f02dbca356923ace2961c7856dacdba",
+      "version": 1
+    },
+    {
+      "id": "historical-world:42bff9f9636462ff0ca85ff518b87f84e690e4a46219bcef369ea4b3a1c66a10",
+      "version": 1
+    },
+    {
+      "id": "historical-world:5baad3c8dc86dfff0907f8582e8618a1abaa21b6ac9762cda9169689b79f87d3",
+      "version": 1
+    },
+    {
+      "id": "historical-world:7ad873e06c6d0df1fbdb1cb0c5d1c78c3d7a548cb96f34613d4386ae9ec3bb06",
+      "version": 1
+    },
+    {
+      "id": "historical-world:d3f4508c10e81d5bf2e2179e1e52b071aa6b4fddb8f1ad9018d9d1af098d875f",
+      "version": 1
+    },
+    {
+      "id": "historical-world:1531806dcbfce6e53800034b66921d19465743175830b8e0f7dbacc4474d4b33",
+      "version": 1
+    },
+    {
+      "id": "historical-world:e254898b9d978b10462cf18e7f47702adc1878ddf8b57fe23e1c6a758b592fa8",
+      "version": 1
+    },
+    {
+      "id": "historical-world:f44fdd12063405b234f25fb6b06a45737f19d2f381075998cea42fca3a3455b2",
+      "version": 1
+    }
+  ],
+  "existingMeshesReused": 384,
+  "newMeshBinaries": 0,
+  "meshMetadataSha256": "b0e764b97eafed80a0621d3447e045bb2d474ed6a61a9f58e705b4d4b95a5bb9",
+  "rows": [
+    {
+      "id": "state:HUN",
+      "projectId": "HUN",
+      "date": "1000",
+      "file": "countries/HUN-sha256-98668200016c0b93b06be46e25deb091f1e43095ec6f34f44015d03c5f717655.json.gz",
+      "sha256": "98668200016c0b93b06be46e25deb091f1e43095ec6f34f44015d03c5f717655",
+      "firstGeometryCoverage": {
+        "validFrom": "1000-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:FRO",
+      "projectId": "d34b00a1-9b13-8000-8000-00000046524f",
+      "date": "1948-04-01",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000046524f-sha256-fa22c5fe7cf9cd7bc80ea44797898da6a2a76ee7bf0ceb506c10438b176f147e.json.gz",
+      "sha256": "fa22c5fe7cf9cd7bc80ea44797898da6a2a76ee7bf0ceb506c10438b176f147e",
+      "firstGeometryCoverage": {
+        "validFrom": "1948-04-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:LAO",
+      "projectId": "LAO",
+      "date": "1946-08-27",
+      "file": "countries/LAO-sha256-ad57a3fdb3d28cd2ac3e0c995873f8b88f416323402ec0715f71fcacd3bd1c4a.json.gz",
+      "sha256": "ad57a3fdb3d28cd2ac3e0c995873f8b88f416323402ec0715f71fcacd3bd1c4a",
+      "firstGeometryCoverage": {
+        "validFrom": "1946-08-27",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:PHL",
+      "projectId": "PHL",
+      "date": "1935-11-15",
+      "file": "countries/PHL-sha256-6775b541cee0d3219e72343b37c53bd5babfd849c2a09fe3bda13956b66be476.json.gz",
+      "sha256": "6775b541cee0d3219e72343b37c53bd5babfd849c2a09fe3bda13956b66be476",
+      "firstGeometryCoverage": {
+        "validFrom": "1935-11-15",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:SYR",
+      "projectId": "SYR",
+      "date": "1961-09-28",
+      "file": "countries/SYR-sha256-3196ab0cf3aba6275816a367cd04248d566602222b1fab7799511a9899ca7499.json.gz",
+      "sha256": "3196ab0cf3aba6275816a367cd04248d566602222b1fab7799511a9899ca7499",
+      "firstGeometryCoverage": {
+        "validFrom": "1961-09-28",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:NIC",
+      "projectId": "NIC",
+      "date": "1838-04-30",
+      "file": "countries/NIC-sha256-8ad54a05c6400b05ff966a6662dc7ab8885674497a8fa5c556ed02e2f2e05d7a.json.gz",
+      "sha256": "8ad54a05c6400b05ff966a6662dc7ab8885674497a8fa5c556ed02e2f2e05d7a",
+      "firstGeometryCoverage": {
+        "validFrom": "1838-04-30",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:HND",
+      "projectId": "HND",
+      "date": "1838-10-26",
+      "file": "countries/HND-sha256-fbe6d569f2c6fb827dc2a7e8a1eb830636f691673da6468c124c9a1e355cdd60.json.gz",
+      "sha256": "fbe6d569f2c6fb827dc2a7e8a1eb830636f691673da6468c124c9a1e355cdd60",
+      "firstGeometryCoverage": {
+        "validFrom": "1838-10-26",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:CRI",
+      "projectId": "CRI",
+      "date": "1838-11-14",
+      "file": "countries/CRI-sha256-4f5d885e9722fa7ae205af1874c401f1051d55c113c92a05085489f85dd37230.json.gz",
+      "sha256": "4f5d885e9722fa7ae205af1874c401f1051d55c113c92a05085489f85dd37230",
+      "firstGeometryCoverage": {
+        "validFrom": "1838-11-14",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:CUB",
+      "projectId": "CUB",
+      "date": "1902-05-20",
+      "file": "countries/CUB-sha256-fac2da720c389ab5c3fd8df90ecf7e78c9b1d43e40101f12582002722d52971d.json.gz",
+      "sha256": "fac2da720c389ab5c3fd8df90ecf7e78c9b1d43e40101f12582002722d52971d",
+      "firstGeometryCoverage": {
+        "validFrom": "1902-05-20",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:PRI",
+      "projectId": "d34b00a1-9b13-8000-8000-000000505249",
+      "date": "1509-08-24",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000505249-sha256-60e1a43f2ed80603b5ac27a81868ab0530441276717385d5d7314decf268e636.json.gz",
+      "sha256": "60e1a43f2ed80603b5ac27a81868ab0530441276717385d5d7314decf268e636",
+      "firstGeometryCoverage": {
+        "validFrom": "1776-07-04",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:CYM",
+      "projectId": "d34b00a1-9b13-8000-8000-00000043594d",
+      "date": "1959-07-04",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000043594d-sha256-c2d058ee4be8f1b8753103d2968f8afdaeaa785f4df7ee5783443ca4c2d68c57.json.gz",
+      "sha256": "c2d058ee4be8f1b8753103d2968f8afdaeaa785f4df7ee5783443ca4c2d68c57",
+      "firstGeometryCoverage": {
+        "validFrom": "1959-07-04",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:VGB",
+      "projectId": "d34b00a1-9b13-8000-8000-000000564742",
+      "date": "1956-07-01",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000564742-sha256-008e945941224047649acefc2018aefc425bbdfead68ff11d3d7e2452f54a58a.json.gz",
+      "sha256": "008e945941224047649acefc2018aefc425bbdfead68ff11d3d7e2452f54a58a",
+      "firstGeometryCoverage": {
+        "validFrom": "1956-07-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:ABW",
+      "projectId": "d34b00a1-9b13-8000-8000-000000414257",
+      "date": "1986-01-01",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000414257-sha256-52a24b5872c23f8a1088ff85c957715239c0af4347e30a54d95391fe161c9fc8.json.gz",
+      "sha256": "52a24b5872c23f8a1088ff85c957715239c0af4347e30a54d95391fe161c9fc8",
+      "firstGeometryCoverage": {
+        "validFrom": "1986-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:BLM",
+      "projectId": "d34b00a1-9b13-8000-8000-000000424c4d",
+      "date": "2007-07-15",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000424c4d-sha256-4e6a88e96be3e6c607c554efe3a85473a2f260813e8f91a439c3e7a675d8b209.json.gz",
+      "sha256": "4e6a88e96be3e6c607c554efe3a85473a2f260813e8f91a439c3e7a675d8b209",
+      "firstGeometryCoverage": {
+        "validFrom": "2007-07-15",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:CUW",
+      "projectId": "d34b00a1-9b13-8000-8000-000000435557",
+      "date": "2010-10-10",
+      "file": "countries/d34b00a1-9b13-8000-8000-000000435557-sha256-c6f856d4a79b8e5a49a938adffa673bb910a2e87ffb2f0da058f3d97b9148251.json.gz",
+      "sha256": "c6f856d4a79b8e5a49a938adffa673bb910a2e87ffb2f0da058f3d97b9148251",
+      "firstGeometryCoverage": {
+        "validFrom": "2010-10-10",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:SPM",
+      "projectId": "d34b00a1-9b13-8000-8000-00000053504d",
+      "date": "1816-06-22",
+      "file": "countries/d34b00a1-9b13-8000-8000-00000053504d-sha256-97feb1f782c29f701705504a163f34714a64088e784ea81a77fca4c81dc88824.json.gz",
+      "sha256": "97feb1f782c29f701705504a163f34714a64088e784ea81a77fca4c81dc88824",
+      "firstGeometryCoverage": {
+        "validFrom": "1816-06-22",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:VEN",
+      "projectId": "VEN",
+      "date": "1830-01-13",
+      "file": "countries/VEN-sha256-2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351.json.gz",
+      "sha256": "2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351",
+      "firstGeometryCoverage": {
+        "validFrom": "1830-01-13",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:PER",
+      "projectId": "PER",
+      "date": "1838-08-25",
+      "file": "countries/PER-sha256-0003088ffd404cc3372d005f7834b87c97e4aa7f07bcb33e33d78c3912ebb12d.json.gz",
+      "sha256": "0003088ffd404cc3372d005f7834b87c97e4aa7f07bcb33e33d78c3912ebb12d",
+      "firstGeometryCoverage": {
+        "validFrom": "1838-08-25",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:EGY",
+      "projectId": "EGY",
+      "date": "1805",
+      "file": "countries/EGY-sha256-445c410d80eecaa43315807bfdff35011c193be73dc9e44118afae6a04fdc855.json.gz",
+      "sha256": "445c410d80eecaa43315807bfdff35011c193be73dc9e44118afae6a04fdc855",
+      "firstGeometryCoverage": {
+        "validFrom": "1805-01-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MLI",
+      "projectId": "MLI",
+      "date": "1958-11-24",
+      "file": "countries/MLI-sha256-af618e448f0bfea897e5707fc9a46396f6761ed8722ad857298552b838efbb44.json.gz",
+      "sha256": "af618e448f0bfea897e5707fc9a46396f6761ed8722ad857298552b838efbb44",
+      "firstGeometryCoverage": {
+        "validFrom": "1958-11-24",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:GNB",
+      "projectId": "GNB",
+      "date": "1973-09-24",
+      "file": "countries/GNB-sha256-47a86cb05b3f2645f77e7473c8eace9e9ab80d9462be0919246cbdf94d4eba93.json.gz",
+      "sha256": "47a86cb05b3f2645f77e7473c8eace9e9ab80d9462be0919246cbdf94d4eba93",
+      "firstGeometryCoverage": {
+        "validFrom": "1973-09-24",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:NIU",
+      "projectId": "NIU",
+      "date": "1974-10-19",
+      "file": "countries/NIU-sha256-420a5f6a8123172943c023454669f8c3dbd90de96fa40cc0f45605fea18582f8.json.gz",
+      "sha256": "420a5f6a8123172943c023454669f8c3dbd90de96fa40cc0f45605fea18582f8",
+      "firstGeometryCoverage": {
+        "validFrom": "1974-10-19",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MHL",
+      "projectId": "MHL",
+      "date": "1979-05-01",
+      "file": "countries/MHL-sha256-44d643cda993e38dfafbc23ef7700d53d245ad9729940d4fa20b310ce53db9a3.json.gz",
+      "sha256": "44d643cda993e38dfafbc23ef7700d53d245ad9729940d4fa20b310ce53db9a3",
+      "firstGeometryCoverage": {
+        "validFrom": "1979-05-01",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:MNP",
+      "projectId": "d34b00a1-9b13-8000-8000-0000004d4e50",
+      "date": "1978-01-09",
+      "file": "countries/d34b00a1-9b13-8000-8000-0000004d4e50-sha256-530e906de47c87af8668e35b7a002d2fea3c1bd01022746c93023d77f0f7ac38.json.gz",
+      "sha256": "530e906de47c87af8668e35b7a002d2fea3c1bd01022746c93023d77f0f7ac38",
+      "firstGeometryCoverage": {
+        "validFrom": "1978-01-09",
+        "validTo": null
+      }
+    },
+    {
+      "id": "state:PLW",
+      "projectId": "PLW",
+      "date": "1981-01-01",
+      "file": "countries/PLW-sha256-01d21ccdb4c2273208f73dc22861eef24530e47c4ea6014ece2761feb634b879.json.gz",
+      "sha256": "01d21ccdb4c2273208f73dc22861eef24530e47c4ea6014ece2761feb634b879",
+      "firstGeometryCoverage": {
+        "validFrom": "1981-01-01",
+        "validTo": null
+      }
+    }
+  ],
+  "checkedAt": "2026-10-26T07:49:37.365Z"
+}

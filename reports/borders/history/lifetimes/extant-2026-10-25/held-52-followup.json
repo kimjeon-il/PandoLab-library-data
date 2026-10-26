@@ -1,0 +1,489 @@
+{
+  "id": "extant-lifetimes-held-52-20261026",
+  "scope": "reports/borders/history/lifetimes/extant-2026-10-25",
+  "researchDate": "2026-10-26",
+  "status": "25 approved for application; 16 unresolved; 11 not single polities",
+  "entries": [
+    {
+      "id": "state:HUN",
+      "date": "1000",
+      "state": "user-selected",
+      "criterion": "Current polity represented from the medieval kingdom; retain year precision, without an invented coronation day.",
+      "sources": [
+        {
+          "url": "https://washington.mfa.gov.hu/en/history-of-hungary",
+          "supports": "Kingdom established in 1000; user chose this origin.",
+          "access": "official government history"
+        }
+      ]
+    },
+    {
+      "id": "state:FRO",
+      "date": "1948-04-01",
+      "state": "policy-derived",
+      "criterion": "User requires legally guaranteed self-government as a polity distinct from the metropolitan government.",
+      "sources": [
+        {
+          "url": "https://www.government.fo/en/foreign-relations/constitutional-status/the-home-rule-act/",
+          "supports": "Sections 1 and 16: self-governing community and commencement on 1 April 1948; enactment on 23 March is distinct.",
+          "access": "official legislation full text"
+        }
+      ]
+    },
+    {
+      "id": "state:LAO",
+      "date": "1946-08-27",
+      "state": "user-selected",
+      "criterion": "User chose the unified kingdom in 1946. Original agreement confirms 27 August, not the previously proposed 27 April; French reserved powers did not preclude a polity.",
+      "sources": [
+        {
+          "url": "https://histoireetphilatelie.fr/pages/008_indo/7000c_modus_vivendi_franco-laotien.html",
+          "supports": "Original agreement scans: unified kingdom and executory force at signature exchange, Vientiane 27 August 1946, 17:00.",
+          "access": "original agreement scans examined"
+        },
+        {
+          "url": "https://ccl-laos.org/wp-content/uploads/2025/02/2412-Texte-conference-4-decembre-2024.pdf",
+          "supports": "Legal history of the kingdom, 1946 agreement, 1947 constitution and 1949 status.",
+          "access": "original legal-history study"
+        }
+      ]
+    },
+    {
+      "id": "state:PHL",
+      "date": "1935-11-15",
+      "state": "user-selected",
+      "criterion": "User chose the Commonwealth self-government; 1946 independence continues it, and the Spanish colonial administration is a predecessor.",
+      "sources": [
+        {
+          "url": "https://lawphil.net/executive/proc/proc1935/proc_2148_1935.html",
+          "supports": "Proclamation 2148 takes effect at Manila on 15 November 1935, terminating the former government and empowering the Commonwealth.",
+          "access": "original proclamation transcription"
+        }
+      ]
+    },
+    {
+      "id": "state:SYR",
+      "date": "1961-09-28",
+      "state": "policy-derived",
+      "criterion": "Latest separate polity interval after leaving the United Arab Republic; do not substitute the later UN representation date.",
+      "sources": [
+        {
+          "url": "https://history.state.gov/countries/syria/summary",
+          "supports": "Syria's withdrawal and reestablishment of the separate republic on 28 September 1961.",
+          "access": "official diplomatic history"
+        },
+        {
+          "url": "https://treaties.un.org/pages/historicalinfo.aspx",
+          "supports": "United Arab Republic interval ends 27 September 1961.",
+          "access": "official UN treaty historical information"
+        }
+      ]
+    },
+    {
+      "id": "state:NIC",
+      "date": "1838-04-30",
+      "state": "research-supported",
+      "criterion": "Sovereign separation from the Central American federation, rather than subsequent constitutional or recognition dates.",
+      "sources": [
+        {
+          "url": "https://embajadadenicaragua.org/pages/historia/nicaragua-durante-la-federacion-centroamericana.php",
+          "supports": "Constituent decree of 30 April 1838 declared Nicaragua free, sovereign and independent.",
+          "access": "official embassy history"
+        },
+        {
+          "url": "https://nicaragua.justia.com/nacionales/decretos-legislativos/decreto-de-la-asamblea-constituyente-de-30-de-abril-de-1838-en-que-se-declara-el-estado-libre-soberano-e-independiente-apr/gdoc/",
+          "supports": "Decree articles 1, 7 and 10: sovereignty with continuity of existing officers, laws and obligations.",
+          "access": "original decree transcription"
+        }
+      ]
+    },
+    {
+      "id": "state:HND",
+      "date": "1838-10-26",
+      "state": "research-supported",
+      "criterion": "Federation withdrawal precedes the separate declaration on 5 November; distinguish the two events.",
+      "sources": [
+        {
+          "url": "https://www.archivonacional.go.cr/web/comisiones/cd_acta08_2019.pdf",
+          "supports": "Printed p.18 identifies withdrawal on 26 October 1838 and independent declaration on 5 November.",
+          "access": "national archives institutional history"
+        }
+      ]
+    },
+    {
+      "id": "state:CRI",
+      "date": "1838-11-14",
+      "state": "research-supported",
+      "criterion": "Restored sovereignty outside the federation; 1848 republic naming is not a new state.",
+      "sources": [
+        {
+          "url": "https://www.dgan.go.cr/ran%20/index.php/RAN/article/download/161/98",
+          "supports": "Original minutes transcription, printed pp.230-231, articles 1 and 6: sovereignty declaration on 14 November 1838 with continued laws.",
+          "access": "national archives publication of original minutes"
+        }
+      ]
+    },
+    {
+      "id": "state:CUB",
+      "date": "1902-05-20",
+      "state": "research-supported",
+      "criterion": "Actual transfer to the independent republican government. Later temporary US occupation did not terminate Cuban polity identity.",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1902/d6",
+          "supports": "Contemporary transfer of government on 20 May 1902.",
+          "access": "original diplomatic document"
+        },
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1906p2/d152",
+          "supports": "1906 provisional administration under the Cuban constitution, rather than a new polity in 1909.",
+          "access": "original diplomatic document"
+        }
+      ]
+    },
+    {
+      "id": "state:PRI",
+      "date": "1509-08-24",
+      "state": "research-supported",
+      "criterion": "Separate Crown island government appointment, not the governor of Hispaniola's 1508 private deputy. Gregorian equivalent of the original Julian 14 August 1509.",
+      "originalDate": "1509-08-14",
+      "originalCalendar": "Julian",
+      "sources": [
+        {
+          "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/ecbd65d0-2357-4ce6-aa02-e3dc1eaaad43/content",
+          "supports": "CDIAO volume 31, printed pp.459-460: royal grant of island gobernacion and juzgado, dated 14 August 1509 in the original closing clause.",
+          "access": "1879 transcription of original royal letter"
+        },
+        {
+          "url": "https://bibliotecahistorica.usal.es/reforma-del-calendario-en-1582/",
+          "supports": "Spanish calendar reform was in 1582; original 1509 date is Julian. Julian 1509-08-14 and Gregorian 1509-08-24 have the same JDN 2272446.",
+          "access": "university historical calendar material and calendar calculation"
+        }
+      ]
+    },
+    {
+      "id": "state:CYM",
+      "date": "1959-07-04",
+      "state": "research-supported",
+      "criterion": "Distinct constitutional territory outside Jamaica; a shared governor until 1962 does not postpone its existence.",
+      "sources": [
+        {
+          "url": "https://www.legislation.gov.uk/uksi/1959/863/pdfs/uksi_19590863_en.pdf",
+          "supports": "Cayman Islands Constitution Order 1959 commencement on 4 July 1959.",
+          "access": "official original legislation"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1977/jun/23/cayman-islands",
+          "supports": "UK government explanation that Cayman separated from Jamaica in 1959.",
+          "access": "original parliamentary answer"
+        }
+      ]
+    },
+    {
+      "id": "state:VGB",
+      "date": "1956-07-01",
+      "state": "research-supported",
+      "criterion": "Separate colony following abolition of the Leeward Islands federation; 1960 termination of the common governorship is later.",
+      "sources": [
+        {
+          "url": "https://bvi.org.uk/message-by-dr-the-honourable-natalio-d-wheatley-virgin-islands-day-celebration/",
+          "supports": "Official account of separate colonial status from 1 July 1956.",
+          "access": "government office statement"
+        }
+      ]
+    },
+    {
+      "id": "state:ABW",
+      "date": "1986-01-01",
+      "state": "policy-derived",
+      "criterion": "Separate constituent polity after departure from the Netherlands Antilles, following the user's superior-colony rule.",
+      "sources": [
+        {
+          "url": "https://www.gobierno.aw/nl/historie-van-het-koninkrijk-en-aruba",
+          "supports": "Status aparte began on 1 January 1986.",
+          "access": "official government history"
+        }
+      ]
+    },
+    {
+      "id": "state:BLM",
+      "date": "2007-07-15",
+      "state": "policy-derived",
+      "criterion": "Separate overseas collectivity after leaving Guadeloupe. Earlier Swedish colonial edition was followed by reintegration into a superior administration.",
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/13/rapports/r3993.asp",
+          "supports": "Installation of the new collectivity on 15 July 2007. The document's early Swedish-period typo is not used.",
+          "access": "French National Assembly report"
+        }
+      ]
+    },
+    {
+      "id": "state:CUW",
+      "date": "2010-10-10",
+      "state": "policy-derived",
+      "criterion": "Separate constituent country after dissolution of the Netherlands Antilles, rather than earlier island administration within the superior colony.",
+      "sources": [
+        {
+          "url": "https://rac.cw/nl/sectors/telecommunicatie/beleid/nieuwe-iso-landencode-cw-voor-curacao/",
+          "supports": "Curacao's new country status on 10 October 2010.",
+          "access": "official public regulator"
+        }
+      ]
+    },
+    {
+      "id": "state:SPM",
+      "date": "1816-06-22",
+      "state": "research-supported",
+      "criterion": "Latest continuous French territorial government from actual restoration; treaty signature alone is not the handover.",
+      "sources": [
+        {
+          "url": "https://www.senat.fr/rap/r15-621/r15-6211.html",
+          "supports": "Final return to France on 22 June 1816.",
+          "access": "French Senate report, full HTML read"
+        }
+      ]
+    },
+    {
+      "id": "state:VEN",
+      "date": "1830-01-13",
+      "state": "research-supported",
+      "criterion": "Actual separate central government, rather than the 26 November 1829 request to form one.",
+      "sources": [
+        {
+          "url": "https://www.cervantesvirtual.com/obra-visor/decreto-de-reorganizacion-del-gobierno-cuartel-general-de-caracas-a-13-de-enero-de-1830--0/html/ff6d489e-82b1-11df-acc7-002185ce6064_3.html",
+          "supports": "Original decree constituting separate government and three ministries on 13 January 1830.",
+          "access": "original decree transcription"
+        },
+        {
+          "url": "https://eticacivica-ab.com/wp-content/uploads/2024/10/Ines_Quintero_y_Rogelio_Altez_Legislar_e-1.pdf",
+          "supports": "Original historical study, printed pp.125-127: November 1829 request, December Colombian office and January separate government distinguished.",
+          "access": "original scholarly study"
+        }
+      ]
+    },
+    {
+      "id": "state:PER",
+      "date": "1838-08-25",
+      "state": "user-selected",
+      "criterion": "User chose restored Peruvian government under Gamarra; January 1839 battle and subsequent constitution are later events.",
+      "sources": [
+        {
+          "url": "https://www3.congreso.gob.pe/Docs/participacion/museo/congreso/files/files/manuel_cuadros.pdf",
+          "supports": "Congressional museum history distinguishes 25 August 1838 provisional government from Yungay victory and return to Lima.",
+          "access": "official congressional historical publication"
+        }
+      ]
+    },
+    {
+      "id": "state:EGY",
+      "date": "1805",
+      "state": "user-selected",
+      "criterion": "User chose modern state origin in 1805. Retain year precision; do not turn Muhammad Ali's accession date into a proven state birthday.",
+      "sources": [
+        {
+          "url": "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+          "supports": "Modern state foundation associated with Muhammad Ali from 1805.",
+          "access": "official State Information Service history"
+        }
+      ]
+    },
+    {
+      "id": "state:MLI",
+      "date": "1958-11-24",
+      "state": "user-selected",
+      "criterion": "User chose the autonomous Sudanese Republic, preserving continuity through the Mali Federation and subsequent name change.",
+      "sources": [
+        {
+          "url": "https://archivesmali.gouv.ml/la-naissance-de-larmee-malienne-la-federation-du-mali/",
+          "supports": "Sudanese Republic's 24 November 1958 origin and subsequent federation.",
+          "access": "Mali national archives history"
+        }
+      ]
+    },
+    {
+      "id": "state:GNB",
+      "date": "1973-09-24",
+      "state": "research-supported",
+      "criterion": "Independence declaration, constitution and executive formation, rather than Portugal's later recognition.",
+      "sources": [
+        {
+          "url": "https://www.parlamento.gw/institucional/historia/historia-anp/historia-da-anp",
+          "supports": "First assembly, declaration and state institutions on 24 September 1973.",
+          "access": "official parliamentary history, indexed text; direct request timed out"
+        },
+        {
+          "url": "https://diariodarepublica.pt/dr/detalhe/declaracao/1974-426753",
+          "supports": "Later Portuguese recognition is a separate September 1974 event.",
+          "access": "official Portuguese declaration full text"
+        }
+      ]
+    },
+    {
+      "id": "state:NIU",
+      "date": "1974-10-19",
+      "state": "user-selected",
+      "criterion": "User chose self-government in free association. The 1903 separate colonial administration is a predecessor.",
+      "sources": [
+        {
+          "url": "https://www.gov.nu/government",
+          "supports": "Constitution and self-government from 19 October 1974.",
+          "access": "official government explanation"
+        },
+        {
+          "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1974/286/en/2007-09-03.pdf",
+          "supports": "Actual commencement: 19 October 1974, 23:00 New Zealand standard time, corresponding to the start of 19 October in Niue.",
+          "access": "official commencement order"
+        }
+      ]
+    },
+    {
+      "id": "state:MHL",
+      "date": "1979-05-01",
+      "state": "research-supported",
+      "criterion": "Self-governing constitutional republic before subsequent external independence, consistent with the approved FSM and Palau approach.",
+      "sources": [
+        {
+          "url": "https://www.rmiparliament.org/cms/legislation/acts-of-nitijela/by-title.html",
+          "supports": "Constitution effective 1 May 1979.",
+          "access": "official parliamentary constitution registry"
+        }
+      ]
+    },
+    {
+      "id": "state:MNP",
+      "date": "1978-01-09",
+      "state": "research-supported",
+      "criterion": "Constitution and legal self-government actually commenced; distinguish 1976 covenant approval and 1986 final political union.",
+      "sources": [
+        {
+          "url": "https://www.archives.gov/federal-register/codification/proclamations/04534.html",
+          "supports": "Proclamation 4534 sections 1-2: constitution and Covenant section 103 effective 9 January 1978 at 11:00 local time.",
+          "access": "official original proclamation full text"
+        },
+        {
+          "url": "https://cnmilaw.gov/covenant",
+          "supports": "Covenant section 1003 distinguishes staged commencement; the site's introductory 4354 typo is not used.",
+          "access": "official covenant text"
+        }
+      ]
+    },
+    {
+      "id": "state:PLW",
+      "date": "1981-01-01",
+      "state": "research-supported",
+      "criterion": "Constitutional self-government; 1994 independence is a later external-status change.",
+      "sources": [
+        {
+          "url": "https://www.palaugov.pw/about-palau/constitution/",
+          "supports": "Constitution became effective on 1 January 1981.",
+          "access": "official constitutional text"
+        }
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "id": "state:DNK",
+      "reason": "Royal organization in 726/737 and a certain united kingdom around 970 do not establish a founding year; Harald may have reunified an existing kingdom.",
+      "source": "https://www.persee.fr/doc/acsam_0000-0000_1989_act_2_1_1017?pageId=T1_28"
+    },
+    {
+      "id": "state:IMN",
+      "reason": "The Chronicle describes an existing king before Crovan's 1079 conquest. 979 Tynwald tradition is not a documented founding date.",
+      "source": "https://www.isle-of-man.com/manxnotebook/manxsoc/msvol22/p044.htm"
+    },
+    {
+      "id": "state:NOR",
+      "reason": "User chose medieval kingdom continuity, not an 1814 restart; unification is a process and 872 is not a proven founding year.",
+      "source": "https://www.norgeshistorie.no/vikingtid/0811-samlingen-av-norge.html"
+    },
+    {
+      "id": "state:SMR",
+      "reason": "User requested actual formation. 885 is attestation, and 1243 consuls are first attestation rather than creation; the commune developed during the thirteenth century.",
+      "source": "https://www.reggenzadellarepubblica.sm/pub2/ReggenzaSM/Capitani_Reggenti/Storia.html"
+    },
+    {
+      "id": "state:SWE",
+      "reason": "Integration around 1000-1250 is a gradual process. Regnal and coin dates do not establish a unique state founding year.",
+      "source": "https://www.cambridge.org/core/books/abs/cambridge-history-of-scandinavia/kings-and-provinces-in-sweden/521DE80CBCD1093E31C1EF130DE72410"
+    },
+    {
+      "id": "state:BRN",
+      "reason": "Islamic conversion and sultan traditions in 1363/1368/1371 do not establish the origin of the earlier polity.",
+      "source": "https://www.mfa.gov.bn/hongkong/SitePages/bruneiintroduction.aspx"
+    },
+    {
+      "id": "state:BTN",
+      "reason": "Government proclamation in the eleventh lunar month of the wood-ox year spans 1625/1626; no proven Gregorian single year/day yet.",
+      "source": "https://www.repository.cam.ac.uk/bitstreams/555a1294-f942-45d3-8337-250a90821ada/download"
+    },
+    {
+      "id": "state:JPN",
+      "reason": "Late third-century Yamato formation does not supply a single proven year; 660 BCE is legendary.",
+      "source": "https://www.tufs.ac.jp/documents/institutions/ojec/projects/jsl/japanese-history/japanese_202.pdf"
+    },
+    {
+      "id": "state:KWT",
+      "reason": "Traced Warden, Dowding, Saldanha and Lorimer to Abu-Hakima pp.51-54. Circa 1716 migration compact has criticized anachronisms; circa 1752 Sabah election remains uncertain tradition, not a verified contemporary founding document.",
+      "source": "https://www.vob.org/wp-content/uploads/BOOKS/book_142.pdf"
+    },
+    {
+      "id": "state:MDV",
+      "reason": "Pre-Islamic polity existed; 1153 is conversion. The 1753 occupation does not prove extinction or a new latest polity.",
+      "source": "https://maritimeasiaheritage.cseas.kyoto-u.ac.jp/wp-content/uploads/2021/03/Maldives-Timeline-MHS.pdf"
+    },
+    {
+      "id": "state:OMN",
+      "reason": "Early imamate continuity remains unresolved. Coastal liberation in 1650 and dynasty change in 1744 do not alone restart state existence.",
+      "source": "https://www.fm.gov.om/en/about-oman/state/history/"
+    },
+    {
+      "id": "state:THA",
+      "reason": "User requires further day/month research. 1767 restoration confirmed, conventional November 6 not established. Correct the prior report's Corre arrival from 1768-03-04 to 1769-03-04; this is not a government founding date.",
+      "source": "https://irfa.paris/wp-content/uploads/2021/12/THAILANDE-2.pdf"
+    },
+    {
+      "id": "state:ETH",
+      "reason": "Ancient origin and latest continuous polity are not dated to a single proven year; 1270 dynasty restoration and later centralization do not automatically found a new state.",
+      "source": "https://mot.gov.et/about-ethiopia/history/"
+    },
+    {
+      "id": "state:MAR",
+      "reason": "User requested continuity investigation. Idris arrival 788, allegiance 789 and death 791 are distinct. Gaps after the Idrisid collapse and in the seventeenth-century transition prevent assigning continuous current identity from 789.",
+      "source": "https://www.middleeastmedievalists.com/wp-content/uploads/2018/11/UW-26-Buresi.pdf"
+    },
+    {
+      "id": "state:TUN",
+      "reason": "User requested further research. Original chronicles conflict over 625/626 AH and 627 AH separation stages. The Hafsid central government was abolished in the 1574 Ottoman conquest; the later separate autonomous polity needs a proven origin.",
+      "source": "https://archive.org/stream/chroniquedesalmo00zarkuoft/chroniquedesalmo00zarkuoft_djvu.txt"
+    },
+    {
+      "id": "state:PCN",
+      "reason": "User prioritizes legal territorial establishment. 1838-11-30 government regulations do not prove annexation; 1898 extended jurisdiction to an already named British Settlement. 1856 depopulation does not prove legal discontinuity; earliest legal acquisition date remains unresolved.",
+      "source": "https://www.cambridge.org/core/journals/annales-histoire-sciences-sociales-english-edition/article/how-not-to-possess-an-island-pitcairn-and-the-legal-circuits-of-british-empire-in-the-pacific-world/4D4A0DD9349985B083602D4CC301A826"
+    }
+  ],
+  "notSinglePolities": [
+    "state:CNM",
+    "state:KAS",
+    "state:SCR",
+    "state:BJN",
+    "state:SER",
+    "state:BRI",
+    "state:SPI",
+    "state:BRT",
+    "state:IOA",
+    "state:UMI",
+    "state:ATA"
+  ],
+  "nonPolityRule": "Preserve these map objects without assigning a state founding date or splitting them: geographical features, buffer zone, Antarctica and aggregates of distinct territories.",
+  "implementationLedger": [
+    "Reuse work/gis; no new plan workspace, clone or build directory. Existing external report is the execution record.",
+    "Fetched and fast-forwarded 28 public GIS commits through 92bdd593c6.",
+    "P2 CI root cause: directory-only ignore did not ignore POSIX assets/data symlink; fix edfe64dd2 preserves the production non-file guard and passed 33 Windows contracts.",
+    "Public web source revision 127e51c3 still uses old Soviet 1922 geometry historical-world:9a64a6e9; paired main data uses approved geometry historical-world:21db5bdc. Independent channel deployment is outside the approved integration plan.",
+    "User explicitly authorized public channel deployment after reproducing old 1922 Soviet geometry on the live web. Reuse the paired generated data; do not run the existing full-GIS publication workflow."
+  ],
+  "publicChannelAuthorized": true
+}
