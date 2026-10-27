@@ -59,19 +59,7 @@
 | [Serbia 1914 — QA](reconstruction/serbia/serbia-1914-qa.md) |  |  | 원문 참조 |
 | [Serbia–Montenegro 1914 border candidate — QA](reconstruction/serbia/serbia-montenegro-1914-border-candidate-qa.md) |  |  | 원문 참조 |
 | [Serbia–Montenegro 1914 border — historical map cross-check](reconstruction/serbia/serbia-montenegro-1914-map-crosscheck.md) |  |  | 원문 참조 |
-| [Siachen glacier geometry: research output](reconstruction/siachen/README.md) |  |  | 원문 참조 |
-| [Siachen — AGPL candidate and effective-control split (RESEARCH ONLY)](reconstruction/siachen/README_control.md) |  |  | 원문 참조 |
-| [Sia La – Bilafond La: independent terrain cross-check](reconstruction/siachen/README_dem_sia_bilafond.md) |  |  | 원문 참조 |
-| [RGI versus OSM AGPL discrepancy diagnostic](reconstruction/siachen/README_discrepancy.md) |  |  | 원문 참조 |
-| [Saltoro multiple elevation model audit](reconstruction/siachen/README_multidem_ridge.md) |  |  | 원문 참조 |
-| [km90 Saltoro optical review](reconstruction/siachen/README_s2_km90.md) |  |  | 원문 참조 |
-| [Siachen / Saltoro — Sentinel-2 optical cross-check](reconstruction/siachen/README_s2_optical.md) |  |  | 원문 참조 |
-| [Saltoro 90 km and Sia La / Bilafond La DEM geometry sensitivity](reconstruction/siachen/README_saltoro_terrain_continuity.md) |  |  | 원문 참조 |
-| [사이첸빙하·살토로산맥 추가 조사: 시아 라 / 빌라폰드 라 북쪽 / AGPL 90.5–91.0km](reconstruction/siachen/REVIEW_SALTORO_MULTI_SOURCE_2026-10-08.md) |  |  | **다중 고도모델·2025/2026 광학영상·지명좌표 교차검증 완료, 정밀 AGPL 선형 확정 불가** |
-| [사이첸빙하 RGI 7.0 × OSM AGPL 불일치 검토](reconstruction/siachen/REVIEW_agpl_vs_glacier_2026-10-08.md) |  |  | **지형 교차 및 공개 지형표지 대조 완료 / 법적·군사적 실효지배 경계 정밀검증 미완료** |
-| [사이첸 AGPL 후보선 정밀 재검토 — 시아 라·빌라폰드 라·90.5km 구간](reconstruction/siachen/REVIEW_saltoro_crosssource_2026-10-08.md) |  |  | 원문 참조 |
-| [사이첸 살토로산맥 AGPL 후보선: Sentinel-2 광학영상 교차검증](reconstruction/siachen/REVIEW_sentinel2_sia_bilafond_2026-10-08.md) |  |  | **2025·2026년 10m 광학영상 확보 및 지형 중첩 완료 / 실효지배 경계 정밀 수정 보류** |
-| [사이첸빙하 시아 라–빌라폰드 라 구간 지형검증](reconstruction/siachen/REVIEW_sia_bilafond_cop30_2026-10-08.md) |  |  | 원문 참조 |
+| [시아첸·살토로 분쟁지역 — 1:1,000만 핵심 조사](reconstruction/siachen/README.md) | GEO-SIACHEN-10M | 2026-10-28 | `research-only / not-applied` |
 | [수단 분리·우크라이나 크림반도 전환 이후 역사 형상 연결](reconstruction/sudan-ukraine-post-transition-2026-10-13.md) | GEO-LIFE-003 |  | investigating |
 | [소련1922 경계·카스피해 적용 결과 (2026-10-24)](reconstruction/ussr-1922-caspian-application-2026-10-24/README.md) |  |  | 자료 반영·집중 확인 완료. work/gis 커밋·원격 반영 기록은 같은 폴더 publication-record.json에 별도 기록한다. main 통합·다른 브랜치 전파·배포·네이티브 패키지 생성은 하지 않는다. |
 | [1922년 소련·카스피해 적용 — 승인 입력 전송 실패로 보류](reconstruction/ussr-1922-caspian-application-blocked-2026-10-24.md) | GEO-USSR-CASPIAN-BLOCKED-20261024 |  | investigating / input-transfer-blocked |

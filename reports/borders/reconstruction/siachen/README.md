@@ -1,19 +1,16 @@
-# Siachen glacier geometry: research output
+# 시아첸·살토로 분쟁지역 — Natural Earth 1:1,000만 기준 핵심 기록
 
-Not merged into country borders. RGI depicts natural ice boundaries, not AGPL.
+> 상태: 연구 전용 / 운영 지도 미반영 · 정리: 2026-10-28
 
-RGI ID: RGI2000-v7.0-G-14-20040
+## 지도에 필요한 정보
 
-Source: RGI Consortium (2023). Randolph Glacier Inventory, Version 7.0. https://doi.org/10.5067/F6JMOVY5NAVZ
+- **정치적 분쟁지역:** Natural Earth 1:10m의 B45 분쟁지역 형상을 독립 참조로 남긴다. `siachen_dispute_ne_10m.geojson`은 **분쟁구역**이지 인도·파키스탄 사이의 법적 국경이나 확인된 군사 전선이 아니다.
+- **실효 지배:** 시아첸·살토로산맥의 AGPL(Actual Ground Position Line)과 NJ9842 이후의 경계 미획정이 핵심 쟁점이다. 자연 빙하 외곽, 능선·군 초소 추정선 및 공개지도상의 근사선을 법적 국경으로 간주하지 않는다.
+- **역사 시점:** 1984-04-13 메그두트 작전은 별도 사건으로 취급한다. 현재의 추정 AGPL 형상을 과거 1984년 지도로 소급하지 않는다.
+- **출처:** [Natural Earth disputed areas](https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_disputed_areas.geojson) (B45, public domain). 분쟁지 상태와 정확한 구간은 정식 적용 전에 독립적인 정치·역사 자료로 검증해야 한다.
 
-RGI 14 region includes imagery mainly from around 2002, not a 2026 snapshot.
+## 축척 초과 조사 종료
 
-RGI archive: https://ihp-wins.unesco.org/dataset/randolph-glacier-inventory-rgi-7-0-glacier-product/resource/d4adeac9-e01b-4554-8ec8-6b1d3936b537/download
+기존 RGI 7.0 빙하 외곽, OSM 기반 AGPL 근사선, 1:50m 대안 벡터, DEM 능선 수치 분석, Sentinel-2 2025·2026 광학영상, km90·시아 라·빌라폰드 라 세부 중첩과 반복 비교 그림·JSON은 1:10m 수준의 역사적 영토 표현을 위한 필수 근거가 아니므로 현행 자료에서 삭제한다. 해당 후보들은 **국가 경계에 적용된 적이 없다**. 삭제는 분쟁의 부재 또는 실효 지배의 법적 확정을 의미하지 않는다.
 
-Input SHA256: 7b5d9ebcc53f214bb8633893a4063babcbb0671621f7cd4220c5f03478d78407
-
-Area (EPSG:32643 UTM): 1088.019 km2
-
-Files: siachen_glacier_rgi7.geojson (ice geometry); siachen_dispute_ne_50m.geojson and _10m.geojson (political shapes); siachen_comparison_overlay.geojson; siachen_comparison.json; siachen_comparison.png.
-
-Licenses: RGI7 CC BY 4.0, Natural Earth public domain.
+지도 운영 객체·국가 경계·역사 타임라인은 이 자료 정리로 수정하지 않는다. 삭제한 예전 보고서와 파일의 Git 과거 커밋까지 말소한 것은 아니다.
