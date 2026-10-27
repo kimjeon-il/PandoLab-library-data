@@ -39,16 +39,8 @@
 | [2025년 남아시아·동남아시아 국경 절차 선별 조사](history/timeline/historical-timeline-2025-south-southeast-asia-2026-10-19.md) | GEO-TIME-003 | 2026-10-19 | `investigating` |
 | [2025년 세계 연도별 타임라인 조사 진행 기록](history/timeline/historical-timeline-yearly-progress.md) | GEO-TIME-PROGRESS | 2026-10-20 UTC / 10-21 한국 | `investigating` |
 | [오스트리아–리히텐슈타인 국경과 스위스 삼중접점](reconstruction/austria-liechtenstein-boundary-2026-10-22.md) | GEO-AUT-LIE-20261022 | 2026-10-22 | `implemented / screen-delta-checked` |
-| [1914 German Empire coast vs provisional modern coastline — screen-space preliminary check](reconstruction/germany/1914-screen-delta-precheck.md) | GEO-DEU-008 | 2026-10-09 | `investigating` |
-| [Official Schleswig-Holstein WMS period-map coast review — October 9, 2026](reconstruction/germany/1914-sh-period-map-overlay-review.md) | GEO-DEU-007 | 2026-10-09 | `investigating` |
-| [동독 LSIB/VG25 보충·전후 비교](reconstruction/germany/east-germany-boundaries-2026-10-22.md) | GEO-DDR-LSIB-VG25-20261022 | 2026-10-22 | `local-applied / provisional` |
-| [동독 라체부르크·메호어호 경계 적용](reconstruction/germany/east-germany-ratzeburg-mechow-applied-2026-10-23.md) | GEO-DDR-NORTHERN-APPLIED-20261023 | 2026-10-23 | `local-applied / provisional` |
-| [동독 남은 경계 전체 후속 — 벡터 및 승인 지도 일부 적용](reconstruction/germany/east-germany-remaining-all-2026-10-23.md) | GEO-DDR-ALL-FOLLOWUP-20261023 | 2026-10-23 | `local-applied / provisional / map-review-approved` |
-| [동독 남은 구간 실제 적용](reconstruction/germany/east-germany-remaining-applied-2026-10-23.md) | GEO-DDR-REMAINING-APPLIED-20261023 | 2026-10-23 | `local-applied / provisional` |
-| [동독 남은 구간 벡터 탐색·첫 지도 정합본](reconstruction/germany/east-germany-remaining-map-preview-2026-10-23.md) | GEO-DDR-MAP-PREVIEW-20261023 | 2026-10-23 | `historical-record / map-review-approved` |
-| [동독 남은 내독경계 조사](reconstruction/germany/east-germany-remaining-research-2026-10-22.md) | GEO-DDR-REMAINING-20261022 | 2026-10-22 | `research-only / provisional` |
-| [동독 남은 육상 구간 추가 적용](reconstruction/germany/east-germany-remaining-stage2-2026-10-23.md) | GEO-DDR-STAGE2-20261023 | 2026-10-23 | `local-applied / provisional` |
-| [동독 VG25 미완료 육상 구간 추가 조사·적용](reconstruction/germany/east-germany-vg25-followup-2026-10-22.md) | GEO-DDR-VG25-FOLLOWUP-20261022 | 2026-10-22 | `local-applied / provisional` |
+| [독일제국 1914년 해안 — 1:1,000만 조사 범위](reconstruction/germany/1914-screen-delta-precheck.md) | GEO-DEU-10M | 2026-10-28 | `source-indexed / not-applied` |
+| [동독 1989년 국경 — 1:1,000만 적용 기록](reconstruction/germany/east-germany-remaining-all-2026-10-23.md) | GEO-DDR-CONSOLIDATED-10M | 2026-10-28 | `local-applied / provisional` |
 | [체코슬로바키아·소련·유고·동독의 현대 경계 자료 재사용](reconstruction/historical-border-modern-source-reuse-2026-10-22.md) | GEO-HIST-REUSE-20261022 | 2026-10-22 | `source-indexed / provisional` |
 | [Historical boundary rollback audit](reconstruction/historical-boundary-rollback-2026-10-23/AUDIT.md) |  |  | 원문 참조 |
 | [인도네시아 영토 시계열 복원 — 서뉴기니 1963·동티모르 1975–2002](reconstruction/indonesia-west-new-guinea-east-timor-territorial-epochs-2026-10-13.md) | GEO-IDN-001 |  | investigating |
