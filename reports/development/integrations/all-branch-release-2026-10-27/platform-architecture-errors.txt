@@ -1,0 +1,6 @@
+checks	Execute the same checks as local development	2026-10-27T12:35:11.1494283Z     throw new Error(`ProjectDomain must own project lifecycle: ${method}`);
+checks	Execute the same checks as local development	2026-10-27T12:35:11.1494930Z Error: ProjectDomain must own project lifecycle: createEmpty
+checks	Execute the same checks as local development	2026-10-27T12:35:12.5646512Z if(check){if(fs.readFileSync(path.join(output,'index.json'),'utf8').replaceAll('\r\n','\n')!==indexBytes)throw new Error('Stale territorial index');}
+checks	Execute the same checks as local development	2026-10-27T12:35:12.5647569Z Error: Stale territorial index
+checks	Execute the same checks as local development	2026-10-27T12:35:12.6986512Z Error: ENOENT: no such file or directory, open '/home/runner/work/Pando/Pando/assets/js/vendor/polygon-clipping.min.js'
+checks	Execute the same checks as local development	2026-10-27T12:37:05.4963728Z ##[error]The operation was canceled.
