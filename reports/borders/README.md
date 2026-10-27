@@ -49,7 +49,6 @@
 | [모나코–프랑스 국경과 모나코 해안](reconstruction/monaco-boundary-coast-2026-10-22.md) | GEO-MCO-20261022 | 2026-10-22 | `implemented / focused-review` |
 | [네덜란드 주요 간척·해안선 변화 — 1:1,000만 핵심 조사](reconstruction/netherlands/land-reclamation-reverse-timeline.md) | GEO-NLD-006 / GEO-NLD-005 통합 | 2026-10-27 | `source-indexed / not-applied` |
 | [Serbia 1914 — QA](reconstruction/serbia/serbia-1914-qa.md) |  |  | 원문 참조 |
-| [Serbia–Montenegro 1914 border candidate — QA](reconstruction/serbia/serbia-montenegro-1914-border-candidate-qa.md) |  |  | 원문 참조 |
 | [Serbia–Montenegro 1914 border — historical map cross-check](reconstruction/serbia/serbia-montenegro-1914-map-crosscheck.md) |  |  | 원문 참조 |
 | [시아첸·살토로 분쟁지역 — 1:1,000만 핵심 조사](reconstruction/siachen/README.md) | GEO-SIACHEN-10M | 2026-10-28 | `research-only / not-applied` |
 | [수단 분리·우크라이나 크림반도 전환 이후 역사 형상 연결](reconstruction/sudan-ukraine-post-transition-2026-10-13.md) | GEO-LIFE-003 |  | investigating |
