@@ -1,0 +1,43 @@
+{
+  "sourceCommit": "71c1b179537037d70fb65e4a7972e88ac831ff7d",
+  "dataCommit": "f79836c5509fce8053a81421b02798dc7bfb4f8b",
+  "checkedFiles": 10,
+  "modules": [
+    {
+      "path": "assets/js/modules/viewer-composition.js",
+      "bytes": 16553,
+      "sha256": "18ae127e98dfb3d2617577dd575ad932290e152d0173cce9b48e57c1933b7f0a"
+    },
+    {
+      "path": "assets/js/modules/builtin-month-clock.js",
+      "bytes": 2450,
+      "sha256": "5f83ca8168a1229d5bff53f4f1a80716e1d064d31ca28b8b09709ed3f94dc961"
+    },
+    {
+      "path": "assets/js/modules/gpu-map-renderer.js",
+      "bytes": 283209,
+      "sha256": "b6b011334b5a8a6b3fc77ee0e97a342b18c6da9fbd734e5007fb7bcad4da8e8f"
+    },
+    {
+      "path": "assets/js/modules/map-render-coordinator.js",
+      "bytes": 15389,
+      "sha256": "8fea492a8a849a15a95eb9e5f104165d5404569fd557361f2e86f788768ec061"
+    },
+    {
+      "path": "assets/js/modules/project-domain.js",
+      "bytes": 32610,
+      "sha256": "12f63fa5614de0506ebe1004f07fac503fa58bb4d94201e6a3714c85604b7879"
+    },
+    {
+      "path": "assets/js/modules/rendering-domain.js",
+      "bytes": 67696,
+      "sha256": "2d68d35c84c51720bb16f83f8140db0035035f90476103de83caa9c5668d218e"
+    },
+    {
+      "path": "assets/js/modules/scene-color-cache.js",
+      "bytes": 15773,
+      "sha256": "ea6031bbb37598dd87e7ddbfd9749335d5e3723987151ae49efd48613b25d559"
+    }
+  ],
+  "verifiedAt": "2026-10-27T21:28:08.242Z"
+}

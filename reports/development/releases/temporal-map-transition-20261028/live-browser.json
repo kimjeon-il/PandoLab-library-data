@@ -1,0 +1,22 @@
+{
+  "url": "https://kimjeon-il.github.io/Pando/?debug=1&demTerrain=raster&release=71c1b179537037d70fb65e4a7972e88ac831ff7d",
+  "renderer": "webgl2",
+  "viewport": {
+    "width": 960,
+    "height": 640
+  },
+  "priorDate": "2026년",
+  "committedMonth": "1953-06",
+  "beforePngSha256": "0e7e0d5c83b09c6b89c55dbdd1cadd9713363ab50c2424f8a61ab4deed6db6c8",
+  "heldPngSha256": "0e7e0d5c83b09c6b89c55dbdd1cadd9713363ab50c2424f8a61ab4deed6db6c8",
+  "afterPngSha256": "3efd5a16371b84e15e80ab9b16a4bfbd9b281c3142e50ed55ea96b9d2b5b43d0",
+  "labelsPreserved": true,
+  "previousMapPreserved": true,
+  "pixelComparison": {
+    "changed": 0,
+    "maxDelta": 0
+  },
+  "pageErrors": [],
+  "verifiedAt": "2026-10-27T21:32:08.534Z",
+  "instrumentation": "Only a controlled country-mesh delay and a pending-anchor observer were injected. Production WebGL context options were retained. Readiness uses the current viewport and label anchors, not background prefetch network-idle."
+}
