@@ -1,0 +1,94 @@
+{
+  "mobile320": {
+    "controls": [
+      {
+        "height": 54,
+        "iconX": 134,
+        "iconY": 593,
+        "selector": ".map-command-toolbar",
+        "width": 106,
+        "x": 107,
+        "y": 570
+      },
+      {
+        "height": 48,
+        "iconX": 134,
+        "iconY": 593,
+        "selector": ".map-command-search",
+        "width": 48,
+        "x": 114,
+        "y": 573
+      },
+      {
+        "height": 40,
+        "iconX": 134,
+        "iconY": 593,
+        "selector": "#objectSearchBtn",
+        "width": 40,
+        "x": 114,
+        "y": 573
+      },
+      {
+        "height": 40,
+        "iconX": 186,
+        "iconY": 597,
+        "selector": "#resetViewBtn",
+        "width": 40,
+        "x": 166,
+        "y": 577
+      }
+    ],
+    "layout": "mobile",
+    "mapLoading": false,
+    "viewport": {
+      "height": 700,
+      "width": 320
+    }
+  },
+  "desktop": {
+    "controls": [
+      {
+        "height": 46,
+        "iconX": 700,
+        "iconY": 867,
+        "selector": ".map-command-toolbar",
+        "width": 86,
+        "x": 677,
+        "y": 844
+      },
+      {
+        "height": 36,
+        "iconX": 700,
+        "iconY": 867,
+        "selector": ".map-command-search",
+        "width": 36,
+        "x": 682,
+        "y": 849
+      },
+      {
+        "height": 36,
+        "iconX": 700,
+        "iconY": 867,
+        "selector": "#objectSearchBtn",
+        "width": 36,
+        "x": 682,
+        "y": 849
+      },
+      {
+        "height": 36,
+        "iconX": 740,
+        "iconY": 867,
+        "selector": "#resetViewBtn",
+        "width": 36,
+        "x": 722,
+        "y": 849
+      }
+    ],
+    "layout": "wide",
+    "mapLoading": false,
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  }
+}
