@@ -40,11 +40,11 @@
 ## 보존하는 정본·핵심 증거
 
 - 원본 사건·날짜·출처 색인: tools/historical-library/sources/netherlands/change-events.json (9개 사건, source-indexed / not-digitized).
-- 역사적 조사 당시의 읽기 전용 국가 점 표본: tools/historical-library/sources/netherlands/canonical-phase0-probes.json 및 tests/unit/historical-netherlands-coast-phase0.test.mjs. 이전 표본 테스트는 새 정밀 복원 의무가 아니다.
-- 수치 영수증 1개: [유럽 NLD 국가면적·내수면 제외 대조](phase0-country-minus-water-area-audit.json). 이 자료의 입력과 결과가 당시 자료에 고정되어 있으며 현재 운영 지오메트리의 재검증을 뜻하지 않는다.
+- 앞선 12개 점 표본의 중요한 관찰과 국가·내수면 면적 비교는 위 **Phase 0에서 검증한 사실과 한계**에 통합했다. 정밀 표본 좌표 및 별도 면적 산출 영수증은 현행 자료색인에서 종료한다. 과거 Git 원문은 이력으로 조회할 수 있으며 현재 지도의 재검증 결과로 간주하지 않는다.
+- 현행 계약 테스트: `tests/unit/historical-netherlands-coast-events.test.mjs` (사건 연대·출처·국가 형상 자동승격 방지). 0.5 CSS px, 세부 해안 정점·표본 판정은 완료 조건에서 제외.
 - 주요 공식 근거: [Kadaster Topotijdreis](https://www.topotijdreis.nl/), [Rijkswaterstaat](https://www.rijkswaterstaat.nl/), [Zuiderzeewerken](https://data.overheid.nl/dataset/17832-zuiderzeewerken-polders), [CBS 2022](https://www.cbs.nl/nl-nl/cijfers/detail/86211NED).
 - Dollard/Ems 등 독일과 공유하는 해안 변화는 물리적 변화만 연결 참조한다. 역사적 네덜란드–독일 국경을 새로 추정·승인하지 않는다.
 
 ## 정리 이력
 
-기존 **GEO-NLD-006** 장문 계획과 **GEO-NLD-005** Phase 0 장문 보고서를 1:10M 핵심 근거 중심으로 통합했다. 세부 좌표·마스블락터 해안 밀도·중복 면적 대조 등 파생 JSON은 최신 라이브러리 색인에서 종료하며, 이전 원문 및 중간 수치의 Git 이력은 변경하지 않는다. 국가·수계 원본, 실제 지도, 사건·시기 증거는 그대로 유지한다.
+2026-10-27: **GEO-NLD-006** 장문 계획과 **GEO-NLD-005** Phase 0 보고서를 이 문서로 통합하고 정밀 해안·면적 파생 자료를 축소했다. 2026-10-28: 추가로 12점 표본 JSON 및 상세 면적 검증 JSON을 현행 보관 색인·전용 테스트에서 종료했다. 이전 Git 이력은 유지한다. 국가·수계 원본, 실제 지도, 사건 9건의 연대·출처는 변경하지 않았다.
