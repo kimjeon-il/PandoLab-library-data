@@ -16,18 +16,18 @@
 
 ## 현행 커서
 
-- **lastProcessedRegion: 오세아니아**
-- **lastCompletedRun: 2026-10-27** (오세아니아 1차 선별 조사 완료일; 전 지역 완료가 아님)
-- **nextRegion: 유럽**
-- **nextPhase: 유럽 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
-- **nextAction: 유럽 GEO-LIFE-001/004/010, 현행 국가 색인·역사 소멸 정치체 기록을 대조해 미조사 국가별 1차 2~4건(가능한 경우)을 선정한다. 대상이 선행 1차로 소진되었으면 2차를 수행한다. 오세아니아 GEO-LIFE-015의 NZL(국가성 전환), 하와이 왕국·공화국(법적 동일성) 및 COK/NIU(자유연합) 분류는 미해결로 유지한다. 전 지역 완료 아님.**
+- **lastProcessedRegion: 유럽**
+- **lastCompletedRun: 2026-10-28** (유럽 역사 정치체 3개 1차 문헌 조사; 전 지역 완료 아님)
+- **nextRegion: 아시아**
+- **nextPhase: 아시아 미조사 국가별 1차 조사(1차 소진된 경우 2차 교차검증)**
+- **nextAction: 아시아 GEO-LIFE-001/005/011, 현행 국가 색인·미등록 역사 정치체 후보를 대조해 미조사 2~4개를 국가별 1차로 선정한다. IRQ/JOR/LBN/PAK/MYS/NPL은 중복 집계하지 않는다. 유럽 GEO-LIFE-016의 CSK(1939~1945 계속성·1992 종료일 정밀도), GDR(1990-10-02 종료 포함성), YUG(1992 국가 승계·2003 동일성)는 2차 대기다.**
 - **거부되는 자동 해석: 지역 내 일부 국가 조사 완료 ≠ 해당 대륙의 모든 조사 완료; 독립기념일 ≠ 위임통치 종료/조약 발효/타국 승인일과 항상 일치.**
 
 ## 지역별 누적 현황 (전체 유효 대상 수는 별도 전수 조사 전까지 미정)
 
 | 지역 | 현재까지 확인한 조사 기록 | 지역 전체 1차 | 지역 2차 | 비고 |
 | --- | --- | --- | --- | --- |
-| 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 27개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
+| 유럽 | [GEO-LIFE-004: 27개](country-lifetime-europe-1801-plus-2026-10-15.md) 및 [GEO-LIFE-001 A–D 교차 포함](country-lifetime-a-d-2026-10-13.md), [GEO-LIFE-016: 역사 정치체 CSK·GDR·YUG](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) | 진행 중 | 미완료 | 현존국 중심 27개+역사 정치체 3개 조사 ≠ 대륙 전체 완료. `RUS`, `TUR`, `GEO` 유럽 담당 |
 | 아시아 | [GEO-LIFE-005: 이라크·요르단·레바논 3개](country-lifetime-asia-middle-east-2026-10-17.md) 및 GEO-LIFE-001의 기존 아시아 국가 | 진행 중 | 미완료 | 이라크·요르단·레바논 법적 효력 차이 유보 |
 | 아프리카 | [GEO-LIFE-006: 에리트레아·기니비사우·세네갈 3개](country-lifetime-africa-eri-gnb-sen-2026-10-18.md) 및 [GEO-LIFE-001](country-lifetime-a-d-2026-10-13.md) | 진행 중 | 미완료 | 3개국 문헌 1차 조사 등록 완료, 전체 지역 완료 아님 |
 | 북아메리카 | [GEO-LIFE-007: MEX·GTM·HND·NIC 4개](country-lifetime-north-america-2026-10-19.md), [GEO-LIFE-013: SLV·USA 2개](country-lifetime-north-america-slv-usa-2026-10-25.md), [GEO-LIFE-001 A–D](country-lifetime-a-d-2026-10-13.md) 일부 | 진행 중 | 미완료 | SLV 1839~1841년 독립국 성립 효력·1896~1898년 국가 동일성 보류; USA 1801년 이전 이미 존속, 내전 중 법적 계속성과 실효 지배 구별 |
@@ -45,6 +45,7 @@
 | **2026-10-25** | **북아메리카** | 국가별 1차 | `SLV`, `USA` 2개 | [GEO-LIFE-013](country-lifetime-north-america-slv-usa-2026-10-25.md), 2026-10-25 원격 등록 | **남아메리카** |
 | **2026-10-26** | **남아메리카** | 국가별 2차 | `ARG`, `BOL` 2개(기존 기초 연구의 추가 교차검증) | [GEO-LIFE-014](country-lifetime-south-america-arg-bol-phase2-2026-10-26.md), 2차 검증 / 날짜 최종 유보 | **오세아니아** |
 | **2026-10-27** | **오세아니아** | 국가별/역사 정치체 1차 | `NZL` 현존국 1개 + 하와이 왕국·하와이 공화국 역사 정치체 후보 2개(법적 계속성 유보) | [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md), 1차 문헌 교차검증 / 기간 최종 유보 | **유럽** |
+| **2026-10-28** | **유럽** | **역사상 소멸 정치체 1차** | `state:czechoslovakia`, `state:deutsche-demokratische-republik`, `state:yugoslavia` 3개(현행 색인 존재; 날짜·국가 동일성 보류) | [GEO-LIFE-016](country-lifetime-europe-csk-ddr-yug-2026-10-28.md) — 1918/1949 성립, 1990/1992/2003 법적 지위 분리 | **아시아** |
 
 007과 008의 원격 등록 순서는 조사 회차 순서와 반대다. 위 완료는 해당 배치의 1차 문헌 조사·등록에 한정하며 법적 날짜 확정·대륙 전수 완료·데이터 반영을 뜻하지 않는다. 이번 검토가 새 8개국을 다시 조사 완료한 것으로 집계하지 않는다.
 
@@ -96,3 +97,13 @@
 - [GEO-LIFE-015](country-lifetime-oceania-nzl-hawaii-2026-10-27.md): NZL 1907 자치령, 1942 미국 승인, 1947 자치령 법적 자율성 강화, 1987 잔여 영국 입법권 종료를 구별. 하와이 1810 통합(일자 불확정), 1893 왕정 실효통치 상실, 1894 공화국 헌법 공포, 1898 미국 합병 결의·통치권 이전 구분. 단일 `validFrom/validTo` 및 왕국·공화국 법적 승계 **유보**.
 - 자유연합 **COK/NIU**의 주권국 집계 여부 추가 법적 분류 보류, 다른 역사상 소멸한 오세아니아 국가 전수 미완료. **현존국 14개 선행 근거 확인 != 오세아니아 1차·2차 전수 완료**.
 - **lastProcessedRegion=오세아니아, nextRegion=유럽, nextPhase=국가별 미조사 1차(소진 시 2차).** 본 회차 보고서 외 국가 lifetime·형상·코드·Pando `main`/`work/gis`/배포 변경 **0건**. GIS 검사 미실행.
+
+
+## 2026-10-28 — 유럽 역사 정치체 3개 1차 조사 인계 (GEO-LIFE-016)
+
+- **선정/단계:** 유럽, 미조사 역사상 소멸 정치체의 국가별 **1차** 3개. 이 3개는 현행 국가 3개를 새로 추가했다는 뜻이 아니라 **이미 자료 색인에 등록된 역사 객체**의 법적 기간·계속성 보류를 조사한 것이다.
+- **현재 색인 확인:** `assets/data/territorial-entities/generated/v2/index.json`, blob `314465f2ed332628fbb7e411513dfb49388cd188`; `state:czechoslovakia`=`1918~1992`(연 단위), `state:deutsche-demokratische-republik`=`1949-10-07~1990-10-02`, `state:yugoslavia`=`1918-12-01~2003-02-04`. 데이터 수정 없음.
+- **확인:** CSK 1918-10-28 건국·1992-12-31 법률상 종료(헌법법 542/1992); GDR 1949-10-07 출범·1990-10-03 FRG 편입; YUG 1918-12-01 왕국 출범·1992-04-27 FRY 선포·2000-11-01 UN 신규 가입·2003-02-04 헌정 전환.
+- **미해결:** CSK 1939–45 점령기 법적 계속성/실효통치, 동독 종료일 포함/제외 데이터 규칙, 유고슬라비아 1941~45 및 1992 국가 동일성과 2003 개편 후 법적 승계. 원본 기하/배율/지도 검증은 미실행. 이 결과를 확정 lifetime 갱신 허가로 해석하지 않는다.
+- **정본 수정:** 보고서·진행기록·색인만; `Pando/work/gis`, `Pando/main`, 국가 lifetime·형상, 웹/앱, 배포 **0건**.
+- **lastProcessedRegion=유럽 / nextRegion=아시아 / nextPhase=미조사 국가별 1차**. 지역 1·2차 전수는 미완료.
