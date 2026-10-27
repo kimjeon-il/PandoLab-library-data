@@ -1,0 +1,446 @@
+diff --git a/apps/editor/templates/index.html b/apps/editor/templates/index.html
+index 32f764f37..40b00c1d1 100644
+--- a/apps/editor/templates/index.html
++++ b/apps/editor/templates/index.html
+@@ -107,6 +107,7 @@
+ 
+         <div class="map-overlay-layer" aria-label="지도 도구 및 상태">
+ 
++        <div class="mobile-workspace-controls">
+         <div class="ui-toolbar ui-floating-surface ui-floating-toolbar mobile-menu-toolbar">
+           <button id="mobileMenuBtn" class="ui-button icon-btn mobile-menu-trigger" type="button" aria-label="메뉴 열기" data-tooltip="메뉴 열기" aria-haspopup="menu" aria-controls="mobileGlobalMenu" aria-expanded="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+         </div>
+@@ -118,6 +119,7 @@
+             <button id="mobileSearchBtn" class="ui-button ui-nav-item" type="button" aria-controls="objectSearchSurface" aria-label="검색" data-tooltip="검색" aria-expanded="false" data-od-id="workspace-search"><span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-search"/></svg></span><strong>검색</strong></button>
+             <button id="mobileEditBtn" class="ui-button ui-nav-item" type="button" aria-controls="editorSurface" aria-expanded="false" data-od-id="workspace-edit"><span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-panel"/></svg></span><strong>편집</strong></button>
+         </nav>
++        </div>
+ 
+         <div class="ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar" aria-label="지도 명령">
+           <button id="createMenuBtn" class="ui-button icon-btn create-menu-command" type="button" aria-label="추가" data-tooltip="추가" aria-haspopup="menu" aria-controls="createMenu" aria-expanded="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-plus"/></svg></button>
+diff --git a/shared/frontend/css/components/mobile-sheets.css b/shared/frontend/css/components/mobile-sheets.css
+index b93d4c4b7..458391fa4 100644
+--- a/shared/frontend/css/components/mobile-sheets.css
++++ b/shared/frontend/css/components/mobile-sheets.css
+@@ -39,6 +39,8 @@
+   color: var(--muted);
+ }
+ 
++.mobile-workspace-controls { display: contents; }
++
+ .mobile-bottom-bar {
+   display: none;
+ }
+@@ -387,10 +389,20 @@
+ }
+ 
+ .app-root[data-layout="phone-landscape"] .mobile-bottom-bar {
+-  background: var(--mobile-nav-bg);
+   padding: 0;
+ }
+ 
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls {
++  background: var(--mobile-nav-bg);
++}
++
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls :is(.mobile-menu-toolbar, .mobile-bottom-bar) {
++  border: 0;
++  border-radius: 0;
++  box-shadow: none;
++  background: transparent;
++}
++
+ .app-root[data-layout="phone-landscape"] .mobile-bottom-bar .ui-nav-item {
+   flex: 0 0 auto;
+   min-height: var(--ui-touch-height);
+@@ -408,6 +420,36 @@
+ 
+ body .app-root[data-layout="phone-landscape"] .mobile-menu-toolbar { padding: var(--ui-space-1); }
+ 
+-.app-root[data-layout="phone-landscape"] .mobile-bottom-bar .ui-nav-item[aria-expanded="true"] {
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls :is(.ui-nav-item, .mobile-menu-trigger) {
++  position: relative;
++  border: var(--ui-border-width) solid transparent;
++  border-radius: var(--ui-radius-control);
++  background: transparent;
++  color: var(--muted);
++  box-shadow: none;
++}
++
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls :is(.ui-nav-item, .mobile-menu-trigger)[aria-expanded="true"],
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls :is(.ui-nav-item, .mobile-menu-trigger)[aria-expanded="true"]:hover:not(:disabled) {
++  background: transparent;
+   color: var(--accent);
+ }
++
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls :is(.ui-nav-item, .mobile-menu-trigger)[aria-expanded="true"]::after {
++  content: '';
++  position: absolute;
++  inset-inline: 50%;
++  bottom: var(--ui-space-0-5);
++  width: 1.5rem;
++  height: var(--ui-space-0-5);
++  border-radius: var(--ui-radius-pill);
++  background: currentColor;
++  transform: translateX(-50%);
++}
++
++@media (hover: hover) and (pointer: fine) {
++  .app-root[data-layout="phone-landscape"] .mobile-workspace-controls :is(.ui-nav-item, .mobile-menu-trigger):hover:not(:disabled, [aria-expanded="true"]) {
++    background: var(--surface-hover);
++    color: var(--text-strong);
++  }
++}
+diff --git a/shared/frontend/css/components/surface.css b/shared/frontend/css/components/surface.css
+index 2bafc497e..cf85d279b 100644
+--- a/shared/frontend/css/components/surface.css
++++ b/shared/frontend/css/components/surface.css
+@@ -1,5 +1,27 @@
+ /* Canonical components / surface. */
+ 
++/* Map consumers read these computed lengths, including viewport/env/calc inputs. */
++@property --projection-safe-left {
++  syntax: "<length>";
++  inherits: true;
++  initial-value: 0px;
++}
++@property --projection-safe-right {
++  syntax: "<length>";
++  inherits: true;
++  initial-value: 0px;
++}
++@property --map-safe-left {
++  syntax: "<length>";
++  inherits: true;
++  initial-value: 0px;
++}
++@property --map-safe-right {
++  syntax: "<length>";
++  inherits: true;
++  initial-value: 0px;
++}
++
+ .overlay-root {
+   position: fixed;
+   inset: 0;
+diff --git a/shared/frontend/css/layout/surfaces.css b/shared/frontend/css/layout/surfaces.css
+index 27e6a45c7..14257c3c8 100644
+--- a/shared/frontend/css/layout/surfaces.css
++++ b/shared/frontend/css/layout/surfaces.css
+@@ -225,24 +225,31 @@
+ 
+ /* A short touch landscape viewport uses the same surfaces in a side dock. */
+ .app-root[data-layout="phone-landscape"] {
+-  --phone-panel-width: min(var(--ui-phone-landscape-panel-max-width), 45vw);
++  --phone-panel-width: min(var(--ui-phone-landscape-panel-max-width), 45vw, calc(100vw - var(--phone-dock-width) - env(safe-area-inset-left)));
+   --phone-nav-width: calc(var(--ui-touch-height) + var(--ui-space-1) * 2);
++  --phone-dock-width: 0px;
+   --ui-shell-topbar-height: 0px;
+   --mobile-nav-height: 0px;
+   grid-template-rows: minmax(0, 1fr);
+ }
+ 
++.app-root:not(.viewer-root)[data-layout="phone-landscape"] {
++  --phone-dock-width: calc(var(--phone-nav-width) + env(safe-area-inset-right));
++}
++
+ .app-root[data-layout="phone-landscape"] .topbar { display: none; }
+ .app-root[data-layout="phone-landscape"] .workspace {
+-  --projection-safe-left: var(--phone-nav-width);
+-  --projection-safe-right: 0px;
++  --projection-safe-left: env(safe-area-inset-left);
++  --projection-safe-right: var(--phone-dock-width);
+   --projection-safe-top: 0px;
+-  --map-safe-left: var(--phone-nav-width);
+-  --map-safe-right: 0px;
++  --map-safe-left: var(--projection-safe-left);
++  --map-safe-right: var(--projection-safe-right);
++}
++.app-root.viewer-root[data-layout="phone-landscape"] .workspace {
++  --projection-safe-left: var(--phone-nav-width);
+ }
+ .app-root[data-layout="phone-landscape"] .workspace:is(.editor-drawer-open, .search-drawer-open, .display-drawer-open, .create-drawer-open, .reference-drawer-open) {
+-  --projection-safe-right: var(--phone-panel-width);
+-  --map-safe-right: var(--phone-panel-width);
++  --projection-safe-right: calc(var(--phone-dock-width) + var(--phone-panel-width));
+ }
+ 
+ .app-root[data-layout="phone-landscape"] .workspace-surface.ui-sheet {
+@@ -250,15 +257,15 @@
+   flex-direction: column;
+   position: fixed;
+   z-index: 100;
+-  top: var(--workspace-visible-top, 0);
+-  right: 0;
++  top: calc(var(--workspace-visible-top, 0px) + env(safe-area-inset-top));
++  right: var(--phone-dock-width);
+   bottom: auto;
+   left: auto;
+   width: var(--phone-panel-width);
+   min-width: 0;
+-  height: var(--workspace-visible-height, 100dvh);
++  height: calc(var(--workspace-visible-height, 100dvh) - env(safe-area-inset-top));
+   min-height: 0;
+-  max-height: var(--workspace-visible-height, 100dvh);
++  max-height: calc(var(--workspace-visible-height, 100dvh) - env(safe-area-inset-top));
+   overflow: hidden;
+   transform: translateX(100%);
+   opacity: 0;
+@@ -291,44 +298,64 @@
+ .app-root[data-layout="phone-landscape"] .workspace-surface :is(button:not(.icon-btn, .ui-icon-button, .sheet-close-btn), input, select, .ui-menu-item) { min-height: var(--ui-touch-height); }
+ .app-root[data-layout="phone-landscape"] .editor-field-grid { grid-template-columns: minmax(0, 1fr); }
+ 
+-.app-root[data-layout="phone-landscape"] .mobile-bottom-bar {
++.app-root[data-layout="phone-landscape"] .mobile-workspace-controls {
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+   z-index: 150;
+-  inset: calc(var(--workspace-visible-top, 0) + var(--phone-nav-width)) auto auto 0;
++  inset: var(--workspace-visible-top, 0) 0 auto auto;
++  width: var(--phone-dock-width);
++  height: var(--workspace-visible-height, 100dvh);
++  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) 0;
++}
++.app-root[data-layout="phone-landscape"] .mobile-bottom-bar {
++  position: static;
++  display: flex;
++  flex: 1 1 auto;
++  flex-direction: column;
+   width: var(--phone-nav-width);
+-  height: calc(var(--workspace-visible-height, 100dvh) - var(--phone-nav-width));
++  min-height: 0;
++  height: auto;
+   overflow-y: auto;
+ }
+ body .app-root[data-layout="phone-landscape"] .mobile-menu-toolbar {
+   display: flex;
++  position: static;
++  flex: 0 0 var(--phone-nav-width);
++  justify-content: center;
++  width: var(--phone-nav-width);
++  height: var(--phone-nav-width);
++}
++body .app-root.viewer-root[data-layout="phone-landscape"] .mobile-menu-toolbar {
+   position: fixed;
+   z-index: 180;
+   inset: var(--workspace-visible-top, 0) auto auto 0;
+-  width: var(--phone-nav-width);
+-  height: var(--phone-nav-width);
+ }
+ .app-root[data-layout="phone-landscape"] :is(.mobile-global-menu, .top-actions) {
+   position: fixed;
+   z-index: 210;
+-  top: var(--workspace-visible-top, 0);
++  top: calc(var(--workspace-visible-top, 0px) + env(safe-area-inset-top));
++  left: auto;
++  right: var(--phone-dock-width);
++  width: var(--phone-panel-width);
++  max-height: calc(var(--workspace-visible-height, 100dvh) - env(safe-area-inset-top) - env(safe-area-inset-bottom));
++  overflow-y: auto;
++}
++.app-root.viewer-root[data-layout="phone-landscape"] :is(.mobile-global-menu, .top-actions) {
+   left: var(--phone-nav-width);
+   right: auto;
+   width: min(var(--ui-phone-landscape-panel-max-width), calc(100vw - var(--phone-nav-width)));
+-  max-height: var(--workspace-visible-height, 100dvh);
+-  overflow-y: auto;
+ }
+ body .app-root[data-layout="phone-landscape"] .mobile-global-menu { display: grid; }
+ .app-root[data-layout="phone-landscape"] .mobile-file-back { display: grid; }
+ .app-root[data-layout="phone-landscape"] .map-command-toolbar {
+   top: auto;
+   bottom: calc(var(--ui-statusbar-height) + var(--ui-space-2));
+-  left: calc(var(--phone-nav-width) + var(--ui-space-2));
++  left: calc(var(--map-safe-left) + var(--ui-space-2));
+   right: auto;
+   transform: none;
+ }
+ .app-root[data-layout="phone-landscape"] .map-command-toolbar :is(.create-menu-command, .map-command-search) { display: none; }
+-.app-root[data-layout="phone-landscape"] .map-top-context-slot { left: calc(var(--phone-nav-width) + var(--ui-space-2)); right: calc(var(--map-safe-right) + var(--ui-space-2)); }
+-.app-root[data-layout="phone-landscape"] .status-inner { left: var(--phone-nav-width); right: var(--map-safe-right); }
++.app-root[data-layout="phone-landscape"] .map-top-context-slot { left: calc(var(--map-safe-left) + var(--ui-space-2)); right: calc(var(--map-safe-right) + var(--ui-space-2)); }
++.app-root[data-layout="phone-landscape"] .status-inner { left: var(--map-safe-left); right: var(--map-safe-right); }
+ .app-root[data-layout="phone-landscape"] :is(.status-view, .status-primary, .project-save-status-text) { display: none; }
+diff --git a/tests/browser/button-consistency.spec.mjs b/tests/browser/button-consistency.spec.mjs
+index af7e85b11..c3ce5e7f0 100644
+--- a/tests/browser/button-consistency.spec.mjs
++++ b/tests/browser/button-consistency.spec.mjs
+@@ -151,18 +151,43 @@ test('touch landscape navigation retains its width and wraps common-size labels'
+     await page.goto('/assets/css/app.css');
+     const nav = products.editor.match(/<nav\b[^>]*class="[^"]*mobile-bottom-bar[^"]*"[\s\S]*?<\/nav>/)?.[0];
+     expect(nav).toBeTruthy();
+-    await page.setContent(`<meta name="viewport" content="width=device-width, initial-scale=1"><style>${styles}</style>${sprite}<div class="app-root" data-layout="phone-landscape">${nav}</div>`);
++    const menu = products.editor.match(/<div\b[^>]*class="[^"]*mobile-menu-toolbar[^"]*"[\s\S]*?<\/div>/)[0];
++    await page.setContent(`<meta name="viewport" content="width=device-width, initial-scale=1"><style>${styles}</style>${sprite}<div class="app-root" data-layout="phone-landscape"><div class="mobile-workspace-controls">${menu}${nav}</div></div>`);
+     expect(await page.evaluate(() => window.matchMedia('(pointer:coarse)').matches)).toBe(true);
+     for (const scale of [100,200]) {
+       await page.locator('html').evaluate((node, value) => { node.style.fontSize = `${value}%`; }, scale);
+       const metrics = await page.locator('.mobile-bottom-bar').evaluate(nav => ({width:nav.getBoundingClientRect().width,overflow:getComputedStyle(nav).overflowY,
+         rows:[...nav.querySelectorAll('.ui-nav-item')].map(button=>{ const label=button.querySelector('strong'), b=button.getBoundingClientRect(), l=label.getBoundingClientRect();return {display:getComputedStyle(button).display,font:getComputedStyle(label).fontSize,buttonHeight:b.height,labelHeight:l.height,clipped:button.scrollWidth>button.clientWidth||label.scrollWidth>label.clientWidth,labelBottom:l.bottom,buttonBottom:b.bottom}; })}));
+       expect(metrics.width).toBe(48 * scale / 100 + 8); expect(metrics.overflow).toBe('auto');
++      const menuBefore = await page.locator('#mobileMenuBtn').boundingBox();
++      await page.locator('.mobile-bottom-bar').evaluate(node => { node.scrollTop = node.scrollHeight; });
++      expect(await page.locator('#mobileMenuBtn').boundingBox()).toEqual(menuBefore);
+       for (const row of metrics.rows) { expect(row.display).toBe('flex'); expect(row.font).toBe(`${14 * scale / 100}px`); expect(row.clipped).toBe(false);expect(row.labelBottom).toBeLessThanOrEqual(row.buttonBottom); }
+     }
+   } finally { await context.close(); }
+ });
+ 
++test('landscape menu shares navigation hover and selected styles', async ({ browser }) => {
++  const context = await browser.newContext({viewport:{width:844,height:390},hasTouch:false});
++  const page = await context.newPage();
++  try {
++    const nav = products.editor.match(/<nav\b[^>]*class="[^"]*mobile-bottom-bar[^"]*"[\s\S]*?<\/nav>/)[0];
++    const menu = products.editor.match(/<div\b[^>]*class="[^"]*mobile-menu-toolbar[^"]*"[\s\S]*?<\/div>/)[0];
++    await page.setContent(`<style>${styles}*,*::after{transition:none!important}</style>${sprite}<div class="app-root" data-layout="phone-landscape"><div class="mobile-workspace-controls">${menu}${nav}</div></div>`);
++    const appearance = selector => page.locator(selector).evaluate(node => {
++      const style=getComputedStyle(node);
++      return [style.color,style.backgroundColor,style.borderColor,style.boxShadow];
++    });
++    for (const selected of [false,true]) {
++      await page.locator('#mobileMenuBtn, #mobileSearchBtn').evaluateAll((buttons,value)=>buttons.forEach(button=>button.setAttribute('aria-expanded',String(value))),selected);
++      await page.locator('#mobileMenuBtn').hover();
++      const menuStyle = await appearance('#mobileMenuBtn');
++      await page.locator('#mobileSearchBtn').hover();
++      expect(await appearance('#mobileSearchBtn')).toEqual(menuStyle);
++    }
++  } finally { await context.close(); }
++});
++
+ test('narrow portrait navigation never shrinks text below the common body size', async ({ page }) => {
+   const nav = products.editor.match(/<nav\b[^>]*class="[^"]*mobile-bottom-bar[^"]*"[\s\S]*?<\/nav>/)[0];
+   await page.setViewportSize({width:320,height:700});
+diff --git a/tests/browser/phone-landscape-editor.spec.mjs b/tests/browser/phone-landscape-editor.spec.mjs
+index cf693823d..f3066867e 100644
+--- a/tests/browser/phone-landscape-editor.spec.mjs
++++ b/tests/browser/phone-landscape-editor.spec.mjs
+@@ -13,6 +13,22 @@ test('phone landscape switches one right panel, preserves camera and adapts to k
+   const view = () => page.evaluate(() => window.__PANDOLAB_MAP_HOST__.getViewState());
+   const before = await view();
+   const rightInset = () => page.locator('.workspace').evaluate(node => getComputedStyle(node).getPropertyValue('--map-safe-right').trim());
++  const dock = await page.locator('.mobile-workspace-controls').boundingBox();
++  expect(dock.x + dock.width).toBe(844);
++  await expect(page.locator('.mobile-workspace-controls #mobileMenuBtn')).toHaveCount(1);
++  await page.locator('#mobileMenuBtn').click();
++  await expect(page.locator('#mobileGlobalMenu')).toBeVisible();
++  const menu = await page.locator('#mobileGlobalMenu').boundingBox();
++  expect(menu.x + menu.width).toBeCloseTo(dock.x, 0);
++  await page.locator('#mobileMenuFileBtn').click();
++  await expect(page.locator('.top-actions')).toBeVisible();
++  const fileMenu = await page.locator('.top-actions').boundingBox();
++  expect(fileMenu.x + fileMenu.width).toBeCloseTo(dock.x, 0);
++  await page.locator('#mobileFileBackBtn').click();
++  await expect(page.locator('#mobileGlobalMenu')).toBeVisible();
++  await page.keyboard.press('Escape');
++  await expect(page.locator('#mobileMenuBtn')).toBeFocused();
++  await expect(page.locator('#mobileGlobalMenu')).toBeHidden();
+   await page.locator('#mobileEditBtn').click();
+   await expect(page.locator('#editorSurface')).toBeVisible();
+   const box = await page.locator('#editorSurface').boundingBox();
+@@ -31,7 +47,7 @@ test('phone landscape switches one right panel, preserves camera and adapts to k
+   await expect.poll(async () => {
+     const bounds = await page.locator('#editorSurface').boundingBox();
+     return Math.round(bounds.x + bounds.width);
+-  }).toBe(844);
++  }).toBe(Math.round(dock.x));
+   await page.locator('#mobileSearchBtn').click();
+   await expect(page.locator('#editorSurface')).not.toBeVisible();
+   await expect(page.locator('#objectSearchSurface')).toBeVisible();
+@@ -52,7 +68,7 @@ test('phone landscape switches one right panel, preserves camera and adapts to k
+     window.visualViewport.dispatchEvent(new window.Event('resize'));
+   });
+   await page.locator('#objectSearchCloseBtn').click();
+-  await expect.poll(rightInset).toBe('0px');
++  await expect.poll(rightInset).toBe(`${dock.width}px`);
+   await expect.poll(view).toEqual(before);
+   await page.setViewportSize({ width: 390, height: 844 });
+   await expect(page.locator('#app')).toHaveAttribute('data-layout', 'mobile');
+diff --git a/tests/browser/phone-landscape-surface-contract.spec.mjs b/tests/browser/phone-landscape-surface-contract.spec.mjs
+index 65ca62fd3..a9a8b2bda 100644
+--- a/tests/browser/phone-landscape-surface-contract.spec.mjs
++++ b/tests/browser/phone-landscape-surface-contract.spec.mjs
+@@ -5,8 +5,15 @@ test.use({ hasTouch: true });
+ for (const viewport of [{width: 640, height: 360}, {width: 844, height: 390}]) {
+   test('phone-landscape sheet at ' + viewport.width + ' keeps its common side-dock skin', async ({ page }) => {
+     await page.setViewportSize(viewport);
++    const safeTop = viewport.width === 640 ? 24 : 0;
++    if (safeTop) await page.route('**/assets/css/ui.bundle.css', async route => {
++      const response = await route.fetch();
++      const body = (await response.text()).replaceAll('env(safe-area-inset-top)', '24px').replaceAll('env(safe-area-inset-right)', '12px');
++      await route.fulfill({response,body});
++    });
+     await page.goto('/assets/css/app.css');
+     await page.setContent([
++      '<link rel="stylesheet" href="/assets/css/app.css">',
+       '<link rel="stylesheet" href="/assets/css/ui.bundle.css">',
+       '<div class="app-root" data-layout="phone-landscape">',
+       ' <div class="workspace search-drawer-open">',
+@@ -18,8 +25,12 @@ for (const viewport of [{width: 640, height: 360}, {width: 844, height: 390}]) {
+       '     </header>',
+       '     <div class="surface-body"><input aria-label="검색어"></div>',
+       '   </aside>',
+-      '   <nav class="mobile-bottom-bar"><button class="ui-button ui-nav-item" aria-expanded="true"><span>검색</span><strong>검색</strong></button></nav>',
+-      '   <div class="mobile-menu-toolbar"><button class="mobile-menu-trigger">메뉴</button></div>',
++      '   <div class="mobile-workspace-controls">',
++      '     <div class="mobile-menu-toolbar"><button class="ui-button icon-btn mobile-menu-trigger">메뉴</button></div>',
++      '     <nav class="mobile-bottom-bar"><button class="ui-button ui-nav-item" aria-expanded="true"><span>검색</span><strong>검색</strong></button></nav>',
++      '   </div>',
++      '   <div class="mobile-global-menu"><button class="ui-button ui-menu-item">파일</button></div>',
++      '   <div class="top-actions mobile-open"><button class="ui-button ui-menu-item">뒤로</button></div>',
+       ' </div></div>',
+     ].join(''));
+     const actual = await page.locator('#fixtureSheet').evaluate(element => {
+@@ -47,12 +58,50 @@ for (const viewport of [{width: 640, height: 360}, {width: 844, height: 390}]) {
+     expect(actual.background).not.toBe('rgba(0, 0, 0, 0)');
+     expect(actual.shadow).not.toBe('none');
+     expect(actual.width).toBeLessThanOrEqual(Math.min(320, viewport.width * 0.45) + 1);
+-    expect(actual.right).toBeCloseTo(viewport.width, 0);
++    const dock = await page.locator('.mobile-workspace-controls').boundingBox();
++    expect(dock.x + dock.width).toBeCloseTo(viewport.width, 0);
++    expect(actual.right).toBeCloseTo(dock.x, 0);
++    const panel = await page.locator('#fixtureSheet').boundingBox();
++    expect(panel.y).toBe(safeTop);
++    expect(panel.y + panel.height).toBe(viewport.height);
++    const menu = await page.locator('.mobile-menu-toolbar').boundingBox();
++    const nav = await page.locator('.mobile-bottom-bar').boundingBox();
++    expect(menu.x).toBeCloseTo(dock.x, 0);
++    expect(menu.y).toBe(safeTop);
++    for (const selector of ['.mobile-global-menu','.top-actions']) {
++      const bounds = await page.locator(selector).boundingBox();
++      expect(bounds.y).toBe(safeTop);
++      expect(bounds.x + bounds.width).toBeCloseTo(dock.x, 0);
++    }
++    expect(nav.x).toBeCloseTo(dock.x, 0);
++    expect(nav.y).toBeCloseTo(menu.y + menu.height, 0);
++    expect(nav.y + nav.height).toBeLessThanOrEqual(viewport.height);
++    const insets = await page.locator('.workspace').evaluate(node => {
++      const style = getComputedStyle(node);
++      return {left:style.getPropertyValue('--map-safe-left').trim(),right:style.getPropertyValue('--map-safe-right').trim()};
++    });
++    expect(insets.left).toBe('0px');
++    expect(Number.parseFloat(insets.right)).toBeCloseTo(dock.width + actual.width, 0);
++    const chrome = await page.locator('.mobile-menu-toolbar').evaluate(node => {
++      const style = getComputedStyle(node);
++      return {border:style.borderTopWidth,radius:style.borderRadius,shadow:style.boxShadow};
++    });
++    expect(chrome).toEqual({border:'0px',radius:'0px',shadow:'none'});
++    for (const selected of [true,false]) {
++      await page.locator('.mobile-workspace-controls button').evaluateAll((buttons, value) => buttons.forEach(button => button.setAttribute('aria-expanded', String(value))), selected);
++      await expect.poll(async () => {
++        const states = await page.locator('.mobile-workspace-controls button').evaluateAll(buttons => buttons.map(button => {
++          const style = getComputedStyle(button);
++          return [style.color,style.backgroundColor,style.borderColor,style.boxShadow];
++        }));
++        return JSON.stringify(states[0]) === JSON.stringify(states[1]);
++      }).toBe(true);
++    }
+     expect(actual.headerDisplay).toBe('flex');
+     expect(actual.handleDisplay).toBe('none');
+     expect(actual.titleDisplay).toBe('flex');
+     await expect(page.locator('.mobile-bottom-bar')).toBeVisible();
+-    const navStyle = await page.locator('.mobile-bottom-bar').evaluate(node => getComputedStyle(node).backgroundColor);
++    const navStyle = await page.locator('.mobile-workspace-controls').evaluate(node => getComputedStyle(node).backgroundColor);
+     expect(navStyle).not.toBe('rgba(0, 0, 0, 0)');
+   });
+ }
