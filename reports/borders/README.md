@@ -53,8 +53,7 @@
 | [한국·북한 정부수립일과 남북 경계 전환](reconstruction/korea-boundaries-2026-10-21.md) | GEO-KOR-20261021 | 2026-10-21 | `implemented-partially / provisional` |
 | [안도라–프랑스·산마리노·바티칸·레소토](reconstruction/microstate-borders-2026-10-22.md) | GEO-MICRO-20261022 | 2026-10-22 | `implemented / focused-review` |
 | [모나코–프랑스 국경과 모나코 해안](reconstruction/monaco-boundary-coast-2026-10-22.md) | GEO-MCO-20261022 | 2026-10-22 | `implemented / focused-review` |
-| [Netherlands land-reclamation rollback survey](reconstruction/netherlands/land-reclamation-reverse-timeline.md) | GEO-NLD-006 | 2026-10-09 | `investigating` |
-| [Netherlands shoreline pilot — Phase 0 canonical baseline probe](reconstruction/netherlands/phase0-canonical-audit.md) | GEO-NLD-005 | 2026-10-10 | `investigating` |
+| [네덜란드 주요 간척·해안선 변화 — 1:1,000만 핵심 조사](reconstruction/netherlands/land-reclamation-reverse-timeline.md) | GEO-NLD-006 / GEO-NLD-005 통합 | 2026-10-27 | `source-indexed / not-applied` |
 | [Serbia 1914 — QA](reconstruction/serbia/serbia-1914-qa.md) |  |  | 원문 참조 |
 | [Serbia–Montenegro 1914 border candidate — QA](reconstruction/serbia/serbia-montenegro-1914-border-candidate-qa.md) |  |  | 원문 참조 |
 | [Serbia–Montenegro 1914 border — historical map cross-check](reconstruction/serbia/serbia-montenegro-1914-map-crosscheck.md) |  |  | 원문 참조 |
