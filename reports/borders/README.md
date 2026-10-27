@@ -47,13 +47,6 @@
 | [동독 남은 내독경계 조사](reconstruction/germany/east-germany-remaining-research-2026-10-22.md) | GEO-DDR-REMAINING-20261022 | 2026-10-22 | `research-only / provisional` |
 | [동독 남은 육상 구간 추가 적용](reconstruction/germany/east-germany-remaining-stage2-2026-10-23.md) | GEO-DDR-STAGE2-20261023 | 2026-10-23 | `local-applied / provisional` |
 | [동독 VG25 미완료 육상 구간 추가 조사·적용](reconstruction/germany/east-germany-vg25-followup-2026-10-22.md) | GEO-DDR-VG25-FOLLOWUP-20261022 | 2026-10-22 | `local-applied / provisional` |
-| [독일제국–덴마크 1914년 국경: Hårup 곡류·Gels Å/Flads Å 합류점 후속 검증](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.hotspots.review.md) |  |  | 원문 참조 |
-| [독일제국–덴마크 1914년 국경 4차: 0619 Hügum 하천 국경](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.review.md) |  |  | 원문 참조 |
-| [1914년 독일제국–덴마크 국경: 5차 Hvidding-Ufer(0717) 서단 해안·제방 검토](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0717-hvidding-ufer-stage5.review.md) |  |  | 원문 참조 |
-| [1914년 독일제국–덴마크 국경 2차: Hvidding 0718 동쪽 절반](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0718-east-stage2.review.md) |  |  | 1:25,000 원본 지도 중첩 및 육안 대조 완료(overlay-reviewed) / 역사 국경선 자체 확정은 보류(provisional).** |
-| [1914년 독일제국–덴마크 국경: 1단계(0718 Hvidding 서쪽 절반)](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0718-west-stage1.review.md) |  |  | 원문 참조 |
-| [1914년 독일제국–덴마크 국경 3차: Spandet(0719) 원본 대조](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.review.md) |  |  | 원문 참조 |
-| [독일제국–덴마크 1914년 국경 1~26번 표석: 검증 기록](reconstruction/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.review.md) |  |  | 원문 참조 |
 | [체코슬로바키아·소련·유고·동독의 현대 경계 자료 재사용](reconstruction/historical-border-modern-source-reuse-2026-10-22.md) | GEO-HIST-REUSE-20261022 | 2026-10-22 | `source-indexed / provisional` |
 | [Historical boundary rollback audit](reconstruction/historical-boundary-rollback-2026-10-23/AUDIT.md) |  |  | 원문 참조 |
 | [인도네시아 영토 시계열 복원 — 서뉴기니 1963·동티모르 1975–2002](reconstruction/indonesia-west-new-guinea-east-timor-territorial-epochs-2026-10-13.md) | GEO-IDN-001 |  | investigating |
