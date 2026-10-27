@@ -1,0 +1,763 @@
+[
+  {
+    "file": "shared/frontend/css/components/dialogs.css",
+    "selector": ".gis-crs-summary",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 58
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/dialogs.css",
+    "selector": ".gis-check",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 156
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/dialogs.css",
+    "selector": ".field-group .ui-select-control",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 245
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/dialogs.css",
+    "selector": ".gis-form-grid .ui-select-control",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 262
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/editor-shell.css",
+    "selector": ".distribution-entry-row",
+    "context": "",
+    "declarations": [
+      {
+        "property": "grid-template-columns",
+        "value": "minmax(0, 1fr) minmax(5rem, 6rem) var(--ui-control-height)",
+        "important": false,
+        "line": 15
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/editor-shell.css",
+    "selector": ".editor-relation-row",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 571
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/feedback.css",
+    "selector": ".action-status.ui-toast",
+    "context": "",
+    "declarations": [
+      {
+        "property": "height",
+        "value": "calc(var(--ui-control-height) + (var(--ui-space-1-5) * 2))",
+        "important": false,
+        "line": 371
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-display.css",
+    "selector": ".layer-visibility-control",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 17
+      },
+      {
+        "property": "min-width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 18
+      },
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 19
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-search.css",
+    "selector": ".object-search",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 20
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-search.css",
+    "selector": ".object-search input",
+    "context": "",
+    "declarations": [
+      {
+        "property": "height",
+        "value": "calc(var(--ui-control-height) - var(--ui-space-0-5))",
+        "important": false,
+        "line": 29
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-search.css",
+    "selector": ".map-command-toolbar .icon-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "flex",
+        "value": "0 0 var(--ui-control-height)",
+        "important": false,
+        "line": 111
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-search.css",
+    "selector": ".map-command-search",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 117
+      },
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 119
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-search.css",
+    "selector": ".map-command-search.is-expanded",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "min(22.5rem, var(--search-toolbar-available-width, calc(100dvw - var(--ui-menu-screen-edge) * 2 - var(--ui-control-height) * 3 - var(--ui-toolbar-gap) * 3 - var(--ui-toolbar-padding) * 2 - var(--ui-space-0-5))))",
+        "important": false,
+        "line": 124
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/map-search.css",
+    "selector": ".surface-search.search-toolbar-desktop",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "var(--search-toolbar-width, var(--ui-control-height))",
+        "important": false,
+        "line": 143
+      },
+      {
+        "property": "height",
+        "value": "var(--search-toolbar-height, var(--ui-control-height))",
+        "important": false,
+        "line": 144
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/menus.css",
+    "selector": ".object-chooser > header",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 12
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/menus.css",
+    "selector": ".object-chooser-item",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 35
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/panels.css",
+    "selector": ".terrain-strength-control input[type=\"range\"]",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 18
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/surface.css",
+    "selector": ".icon-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 243
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/surface.css",
+    "selector": ".ui-icon-button",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 250
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/surface.css",
+    "selector": ".sheet-close-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 257
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/surface.css",
+    "selector": ".icon-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 264
+      },
+      {
+        "property": "min-width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 265
+      },
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 266
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/surface.css",
+    "selector": ".ui-icon-button",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 274
+      },
+      {
+        "property": "min-width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 275
+      },
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 276
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/surface.css",
+    "selector": ".sheet-close-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 284
+      },
+      {
+        "property": "min-width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 285
+      },
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 286
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".file-menu-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 166
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 177
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".mode-action-bar button",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 205
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".surface-header button",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 211
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 290
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".file-menu-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 298
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".mode-primary-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 304
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".mode-cancel-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 310
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".terrain-mode-option",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 373
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".mode-direct-method-option",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 440
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".mode-river-boundary-option",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 480
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".workflow-map-session .workflow-object-card",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "calc(var(--ui-control-height) + var(--ui-space-5) * 2)",
+        "important": false,
+        "line": 1101
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/components/workflows.css",
+    "selector": ".workflow-map-session .workflow-result-row",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1258
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/color-picker.css",
+    "selector": ".ui-color-trigger",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 14
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/color-picker.css",
+    "selector": ".ui-color-default",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 80
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-button",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 303
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".danger-btn",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 319
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-segmented",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 338
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-input,\n:where(.field-group, .ui-field, .gis-form-grid) :where(input[type=\"text\"], input[type=\"search\"], input[type=\"number\"], textarea, select):not(.ui-select-control, .ui-native-select)",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 409
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-button.timeline-date-button",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 439
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-tab",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 489
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-icon-toggle",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-width",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 518
+      },
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 519
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-custom-color-hue input[type=\"range\"]",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 945
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-custom-color-preview",
+    "context": "",
+    "declarations": [
+      {
+        "property": "flex",
+        "value": "0 0 var(--ui-control-height)",
+        "important": false,
+        "line": 987
+      },
+      {
+        "property": "height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 988
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-button:is(.btn, .create-menu-btn, .mode-primary-btn)",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1178
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ":where(.field-group, .ui-field, .gis-form-grid) :where( input[type=\"text\"], input[type=\"search\"], input[type=\"number\"], textarea, select ):not(.ui-native-select)",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1249
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-select-control",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1255
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-search-field",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1261
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ":where(.field-group, .ui-field, .gis-form-grid) textarea",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1272
+      }
+    ]
+  },
+  {
+    "file": "shared/frontend/css/primitives/controls.css",
+    "selector": ".ui-toggle",
+    "context": "",
+    "declarations": [
+      {
+        "property": "min-height",
+        "value": "var(--ui-control-height)",
+        "important": false,
+        "line": 1276
+      }
+    ]
+  }
+]

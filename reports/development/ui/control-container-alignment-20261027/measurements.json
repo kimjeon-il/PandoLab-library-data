@@ -1,0 +1,2932 @@
+[
+  {
+    "samples": [
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn create-menu-command",
+              "display": "none",
+              "flex": "40px",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 54,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 54,
+              "x": 13,
+              "y": -24.8125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn object-search-command",
+              "display": "inline-grid",
+              "flex": "40px",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "parent": {
+              "align": "normal",
+              "class": "map-command-search",
+              "display": "none",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn reset-view-command",
+              "display": "grid",
+              "flex": "40px",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 20,
+              "y": -17.8125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 54,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 54,
+              "x": 13,
+              "y": -24.8125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 32,
+              "y": -5.8125
+            }
+          }
+        ],
+        "name": "map-toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 54,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 54,
+          "x": 13,
+          "y": -24.8125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn distribution-entry-delete",
+              "display": "inline-grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 28,
+              "y": 276.15625
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-row ui-card distribution-entry-row",
+              "display": "block",
+              "flex": "auto",
+              "grid": "minmax(0px, 1fr) minmax(80px, 96px) 48px",
+              "h": 119.375,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 333,
+              "x": 21,
+              "y": 203.78125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 40,
+              "y": 288.15625
+            }
+          }
+        ],
+        "name": "distribution-delete",
+        "parent": {
+          "align": "normal",
+          "class": "surface-editor",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 119.375,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 333,
+          "x": 21,
+          "y": 203.78125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button ui-icon-button ui-search-clear",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 313,
+              "y": 388.75
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-search-field",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 255px 40px",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 333,
+              "x": 21,
+              "y": 384.75
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 325,
+              "y": 400.75
+            }
+          }
+        ],
+        "name": "search-input",
+        "parent": {
+          "align": "center",
+          "class": "ui-search-field",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 255px 40px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 333,
+          "x": 21,
+          "y": 384.75
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn territorial-library-time-suggest",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 310,
+              "y": 498.34375
+            },
+            "parent": {
+              "align": "normal",
+              "class": "territorial-library-time-control",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 333,
+              "x": 21,
+              "y": 494.34375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 322,
+              "y": 510.34375
+            }
+          }
+        ],
+        "name": "library-time",
+        "parent": {
+          "align": "normal",
+          "class": "territorial-library-time-control",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 333,
+          "x": 21,
+          "y": 494.34375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn notification-close",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 193.734375,
+              "y": 607.9375
+            },
+            "parent": {
+              "align": "center",
+              "class": "action-status ui-toast",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 22.4844px 40px",
+              "h": 48,
+              "justify": "flex-start",
+              "tag": "DIV",
+              "w": 106.484375,
+              "x": 134.25,
+              "y": 603.9375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 205.734375,
+              "y": 619.9375
+            }
+          }
+        ],
+        "name": "toast",
+        "parent": {
+          "align": "center",
+          "class": "action-status ui-toast",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 22.4844px 40px",
+          "h": 48,
+          "justify": "flex-start",
+          "tag": "DIV",
+          "w": 106.484375,
+          "x": 134.25,
+          "y": 603.9375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-focus",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 274,
+              "y": 717.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 274,
+              "y": 717.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 286,
+              "y": 729.53125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-remove",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 314,
+              "y": 717.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 274,
+              "y": 717.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 326,
+              "y": 729.53125
+            }
+          }
+        ],
+        "name": "relation",
+        "parent": {
+          "align": "center",
+          "class": "editor-relation-row",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "24px 217px 80px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 333,
+          "x": 21,
+          "y": 713.53125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 25,
+              "y": 827.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 333,
+              "x": 21,
+              "y": 823.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 37,
+              "y": 839.125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 69,
+              "y": 827.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 333,
+              "x": 21,
+              "y": 823.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 81,
+              "y": 839.125
+            }
+          }
+        ],
+        "name": "toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 333,
+          "x": 21,
+          "y": 823.125
+        }
+      }
+    ],
+    "url": "http://127.0.0.1:4187/assets/editor-mobile.html",
+    "viewport": [
+      375,
+      844
+    ]
+  },
+  {
+    "samples": [
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn create-menu-command",
+              "display": "none",
+              "flex": "48px",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 58,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 110,
+              "x": 359.5,
+              "y": 88.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn object-search-command",
+              "display": "inline-grid",
+              "flex": "48px",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 364.5,
+              "y": 93.1875
+            },
+            "parent": {
+              "align": "normal",
+              "class": "map-command-search",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 48,
+              "x": 364.5,
+              "y": 93.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 376.5,
+              "y": 105.1875
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn reset-view-command",
+              "display": "grid",
+              "flex": "48px",
+              "grid": "46px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 48,
+              "x": 416.5,
+              "y": 97.1875
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 58,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 110,
+              "x": 359.5,
+              "y": 88.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 432.5,
+              "y": 109.1875
+            }
+          }
+        ],
+        "name": "map-toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 58,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 110,
+          "x": 359.5,
+          "y": 88.1875
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn distribution-entry-delete",
+              "display": "inline-grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 28,
+              "y": 280.15625
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-row ui-card distribution-entry-row",
+              "display": "block",
+              "flex": "auto",
+              "grid": "minmax(0px, 1fr) minmax(80px, 96px) 48px",
+              "h": 119.375,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 207.78125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 40,
+              "y": 292.15625
+            }
+          }
+        ],
+        "name": "distribution-delete",
+        "parent": {
+          "align": "normal",
+          "class": "surface-editor",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 119.375,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 207.78125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button ui-icon-button ui-search-clear",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 767,
+              "y": 392.75
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-search-field",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 709px 40px",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 388.75
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 779,
+              "y": 404.75
+            }
+          }
+        ],
+        "name": "search-input",
+        "parent": {
+          "align": "center",
+          "class": "ui-search-field",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 709px 40px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 388.75
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn territorial-library-time-suggest",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 764,
+              "y": 502.34375
+            },
+            "parent": {
+              "align": "normal",
+              "class": "territorial-library-time-control",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 498.34375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 776,
+              "y": 514.34375
+            }
+          }
+        ],
+        "name": "library-time",
+        "parent": {
+          "align": "normal",
+          "class": "territorial-library-time-control",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 498.34375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn notification-close",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 80.484375,
+              "y": 617.9375
+            },
+            "parent": {
+              "align": "center",
+              "class": "action-status ui-toast",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 22.4844px 40px",
+              "h": 60,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 106.484375,
+              "x": 21,
+              "y": 607.9375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 92.484375,
+              "y": 629.9375
+            }
+          }
+        ],
+        "name": "toast",
+        "parent": {
+          "align": "center",
+          "class": "action-status ui-toast",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 22.4844px 40px",
+          "h": 60,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 106.484375,
+          "x": 21,
+          "y": 607.9375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-focus",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 728,
+              "y": 733.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 728,
+              "y": 733.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 740,
+              "y": 745.53125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-remove",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 768,
+              "y": 733.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 728,
+              "y": 733.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 780,
+              "y": 745.53125
+            }
+          }
+        ],
+        "name": "relation",
+        "parent": {
+          "align": "center",
+          "class": "editor-relation-row",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "24px 671px 80px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 729.53125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 25,
+              "y": 843.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 839.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 37,
+              "y": 855.125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 69,
+              "y": 843.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 839.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 81,
+              "y": 855.125
+            }
+          }
+        ],
+        "name": "toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 839.125
+        }
+      }
+    ],
+    "url": "http://127.0.0.1:4187/assets/viewer-phone-landscape.html",
+    "viewport": [
+      829,
+      390
+    ]
+  },
+  {
+    "samples": [
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn create-menu-command",
+              "display": "none",
+              "flex": "48px",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 50,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 58,
+              "x": 83,
+              "y": 50.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn object-search-command",
+              "display": "inline-grid",
+              "flex": "48px",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "parent": {
+              "align": "normal",
+              "class": "map-command-search",
+              "display": "none",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn reset-view-command",
+              "display": "grid",
+              "flex": "48px",
+              "grid": "46px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 48,
+              "x": 88,
+              "y": 55.1875
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 50,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 58,
+              "x": 83,
+              "y": 50.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 104,
+              "y": 67.1875
+            }
+          }
+        ],
+        "name": "map-toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 50,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 58,
+          "x": 83,
+          "y": 50.1875
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn distribution-entry-delete",
+              "display": "inline-grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 28,
+              "y": 272.15625
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-row ui-card distribution-entry-row",
+              "display": "block",
+              "flex": "auto",
+              "grid": "minmax(0px, 1fr) minmax(80px, 96px) 48px",
+              "h": 119.375,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 199.78125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 40,
+              "y": 284.15625
+            }
+          }
+        ],
+        "name": "distribution-delete",
+        "parent": {
+          "align": "normal",
+          "class": "surface-editor",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 119.375,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 199.78125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button ui-icon-button ui-search-clear",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 767,
+              "y": 384.75
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-search-field",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 709px 40px",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 380.75
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 779,
+              "y": 396.75
+            }
+          }
+        ],
+        "name": "search-input",
+        "parent": {
+          "align": "center",
+          "class": "ui-search-field",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 709px 40px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 380.75
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn territorial-library-time-suggest",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 764,
+              "y": 494.34375
+            },
+            "parent": {
+              "align": "normal",
+              "class": "territorial-library-time-control",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 490.34375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 776,
+              "y": 506.34375
+            }
+          }
+        ],
+        "name": "library-time",
+        "parent": {
+          "align": "normal",
+          "class": "territorial-library-time-control",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 490.34375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn notification-close",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 80.484375,
+              "y": 609.9375
+            },
+            "parent": {
+              "align": "center",
+              "class": "action-status ui-toast",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 22.4844px 40px",
+              "h": 60,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 106.484375,
+              "x": 21,
+              "y": 599.9375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 92.484375,
+              "y": 621.9375
+            }
+          }
+        ],
+        "name": "toast",
+        "parent": {
+          "align": "center",
+          "class": "action-status ui-toast",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 22.4844px 40px",
+          "h": 60,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 106.484375,
+          "x": 21,
+          "y": 599.9375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-focus",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 728,
+              "y": 725.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 728,
+              "y": 725.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 740,
+              "y": 737.53125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-remove",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 768,
+              "y": 725.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 728,
+              "y": 725.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 780,
+              "y": 737.53125
+            }
+          }
+        ],
+        "name": "relation",
+        "parent": {
+          "align": "center",
+          "class": "editor-relation-row",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "24px 671px 80px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 721.53125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 25,
+              "y": 835.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 831.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 37,
+              "y": 847.125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 69,
+              "y": 835.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 787,
+              "x": 21,
+              "y": 831.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 81,
+              "y": 847.125
+            }
+          }
+        ],
+        "name": "toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 787,
+          "x": 21,
+          "y": 831.125
+        }
+      }
+    ],
+    "url": "http://127.0.0.1:4187/assets/editor-phone-landscape.html",
+    "viewport": [
+      829,
+      390
+    ]
+  },
+  {
+    "samples": [
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn create-menu-command",
+              "display": "none",
+              "flex": "40px",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 54,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 106,
+              "x": 99.5,
+              "y": 88.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 0,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn object-search-command",
+              "display": "inline-grid",
+              "flex": "40px",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 106.5,
+              "y": 91.1875
+            },
+            "parent": {
+              "align": "normal",
+              "class": "map-command-search",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 48,
+              "x": 106.5,
+              "y": 91.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 118.5,
+              "y": 103.1875
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn reset-view-command",
+              "display": "grid",
+              "flex": "40px",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 158.5,
+              "y": 95.1875
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 54,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 106,
+              "x": 99.5,
+              "y": 88.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 170.5,
+              "y": 107.1875
+            }
+          }
+        ],
+        "name": "map-toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 54,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 106,
+          "x": 99.5,
+          "y": 88.1875
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn distribution-entry-delete",
+              "display": "inline-grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 28,
+              "y": 276.15625
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-row ui-card distribution-entry-row",
+              "display": "block",
+              "flex": "auto",
+              "grid": "minmax(0px, 1fr) minmax(80px, 96px) 48px",
+              "h": 119.375,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 263,
+              "x": 21,
+              "y": 203.78125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 40,
+              "y": 288.15625
+            }
+          }
+        ],
+        "name": "distribution-delete",
+        "parent": {
+          "align": "normal",
+          "class": "surface-editor",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 119.375,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 263,
+          "x": 21,
+          "y": 203.78125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button ui-icon-button ui-search-clear",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 243,
+              "y": 388.75
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-search-field",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 185px 40px",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 263,
+              "x": 21,
+              "y": 384.75
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 255,
+              "y": 400.75
+            }
+          }
+        ],
+        "name": "search-input",
+        "parent": {
+          "align": "center",
+          "class": "ui-search-field",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 185px 40px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 263,
+          "x": 21,
+          "y": 384.75
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn territorial-library-time-suggest",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 240,
+              "y": 498.34375
+            },
+            "parent": {
+              "align": "normal",
+              "class": "territorial-library-time-control",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 263,
+              "x": 21,
+              "y": 494.34375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 252,
+              "y": 510.34375
+            }
+          }
+        ],
+        "name": "library-time",
+        "parent": {
+          "align": "normal",
+          "class": "territorial-library-time-control",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 263,
+          "x": 21,
+          "y": 494.34375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn notification-close",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "40px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 158.734375,
+              "y": 607.9375
+            },
+            "parent": {
+              "align": "center",
+              "class": "action-status ui-toast",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 22.4844px 40px",
+              "h": 48,
+              "justify": "flex-start",
+              "tag": "DIV",
+              "w": 106.484375,
+              "x": 99.25,
+              "y": 603.9375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 170.734375,
+              "y": 619.9375
+            }
+          }
+        ],
+        "name": "toast",
+        "parent": {
+          "align": "center",
+          "class": "action-status ui-toast",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 22.4844px 40px",
+          "h": 48,
+          "justify": "flex-start",
+          "tag": "DIV",
+          "w": 106.484375,
+          "x": 99.25,
+          "y": 603.9375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-focus",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 204,
+              "y": 717.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 204,
+              "y": 717.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 216,
+              "y": 729.53125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-remove",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 244,
+              "y": 717.53125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 40,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 80,
+              "x": 204,
+              "y": 717.53125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 256,
+              "y": 729.53125
+            }
+          }
+        ],
+        "name": "relation",
+        "parent": {
+          "align": "center",
+          "class": "editor-relation-row",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "24px 147px 80px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 263,
+          "x": 21,
+          "y": 713.53125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 25,
+              "y": 827.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 263,
+              "x": 21,
+              "y": 823.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 37,
+              "y": 839.125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "38px",
+              "h": 40,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 40,
+              "x": 69,
+              "y": 827.125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 263,
+              "x": 21,
+              "y": 823.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 81,
+              "y": 839.125
+            }
+          }
+        ],
+        "name": "toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 263,
+          "x": 21,
+          "y": 823.125
+        }
+      }
+    ],
+    "url": "http://127.0.0.1:4187/assets/viewer-mobile.html",
+    "viewport": [
+      305,
+      700
+    ]
+  },
+  {
+    "samples": [
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn create-menu-command",
+              "display": "grid",
+              "flex": "36px",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 654.5,
+              "y": 93.1875
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 46,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 126,
+              "x": 649.5,
+              "y": 88.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 664.5,
+              "y": 103.1875
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn object-search-command",
+              "display": "inline-grid",
+              "flex": "36px",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 694.5,
+              "y": 93.1875
+            },
+            "parent": {
+              "align": "normal",
+              "class": "map-command-search",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 36,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 36,
+              "x": 694.5,
+              "y": 93.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 704.5,
+              "y": 103.1875
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn reset-view-command",
+              "display": "grid",
+              "flex": "36px",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 734.5,
+              "y": 93.1875
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 46,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 126,
+              "x": 649.5,
+              "y": 88.1875
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 744.5,
+              "y": 103.1875
+            }
+          }
+        ],
+        "name": "map-toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-surface ui-floating-toolbar map-command-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 46,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 126,
+          "x": 649.5,
+          "y": 88.1875
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn distribution-entry-delete",
+              "display": "inline-grid",
+              "flex": "auto",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 28,
+              "y": 268.15625
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-row ui-card distribution-entry-row",
+              "display": "block",
+              "flex": "auto",
+              "grid": "minmax(0px, 1fr) minmax(80px, 96px) 36px",
+              "h": 115.375,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 320,
+              "x": 21,
+              "y": 195.78125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 38,
+              "y": 278.15625
+            }
+          }
+        ],
+        "name": "distribution-delete",
+        "parent": {
+          "align": "normal",
+          "class": "surface-editor",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 115.375,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 320,
+          "x": 21,
+          "y": 195.78125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button ui-icon-button ui-search-clear",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 1367,
+              "y": 373.75
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-search-field",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 1309px 36px",
+              "h": 38,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 1383,
+              "x": 21,
+              "y": 372.75
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 1377,
+              "y": 383.75
+            }
+          }
+        ],
+        "name": "search-input",
+        "parent": {
+          "align": "center",
+          "class": "ui-search-field",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 1309px 36px",
+          "h": 38,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 1383,
+          "x": 21,
+          "y": 372.75
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn territorial-library-time-suggest",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "36px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 1364,
+              "y": 472.34375
+            },
+            "parent": {
+              "align": "normal",
+              "class": "territorial-library-time-control",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 36,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 1383,
+              "x": 21,
+              "y": 472.34375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 1374,
+              "y": 482.34375
+            }
+          }
+        ],
+        "name": "library-time",
+        "parent": {
+          "align": "normal",
+          "class": "territorial-library-time-control",
+          "display": "block",
+          "flex": "auto",
+          "grid": "none",
+          "h": 36,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 1383,
+          "x": 21,
+          "y": 472.34375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn notification-close",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "36px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 80.484375,
+              "y": 575.9375
+            },
+            "parent": {
+              "align": "center",
+              "class": "action-status ui-toast",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "16px 22.4844px 36px",
+              "h": 48,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 102.484375,
+              "x": 21,
+              "y": 569.9375
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 90.484375,
+              "y": 585.9375
+            }
+          }
+        ],
+        "name": "toast",
+        "parent": {
+          "align": "center",
+          "class": "action-status ui-toast",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "16px 22.4844px 36px",
+          "h": 48,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 102.484375,
+          "x": 21,
+          "y": 569.9375
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-focus",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 1332,
+              "y": 685.125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 36,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 72,
+              "x": 1332,
+              "y": 685.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 1342,
+              "y": 695.125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn editor-relation-remove",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 1368,
+              "y": 685.125
+            },
+            "parent": {
+              "align": "normal",
+              "class": "editor-relation-actions",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 36,
+              "justify": "normal",
+              "tag": "SPAN",
+              "w": 72,
+              "x": 1332,
+              "y": 685.125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 1378,
+              "y": 695.125
+            }
+          }
+        ],
+        "name": "relation",
+        "parent": {
+          "align": "center",
+          "class": "editor-relation-row",
+          "display": "grid",
+          "flex": "auto",
+          "grid": "24px 1275px 72px",
+          "h": 47.1875,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 1383,
+          "x": 21,
+          "y": 679.53125
+        }
+      },
+      {
+        "buttons": [
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 25,
+              "y": 792.3125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 44,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 1383,
+              "x": 21,
+              "y": 788.3125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 35,
+              "y": 802.3125
+            }
+          },
+          {
+            "button": {
+              "align": "center",
+              "class": "ui-button icon-btn",
+              "display": "grid",
+              "flex": "auto",
+              "grid": "34px",
+              "h": 36,
+              "justify": "normal",
+              "tag": "BUTTON",
+              "w": 36,
+              "x": 65,
+              "y": 792.3125
+            },
+            "parent": {
+              "align": "center",
+              "class": "ui-toolbar ui-floating-toolbar",
+              "display": "flex",
+              "flex": "auto",
+              "grid": "none",
+              "h": 44,
+              "justify": "normal",
+              "tag": "DIV",
+              "w": 1383,
+              "x": 21,
+              "y": 788.3125
+            },
+            "svg": {
+              "align": "normal",
+              "class": "ui-icon",
+              "display": "block",
+              "flex": "auto",
+              "grid": "none",
+              "h": 16,
+              "justify": "normal",
+              "tag": "svg",
+              "w": 16,
+              "x": 75,
+              "y": 802.3125
+            }
+          }
+        ],
+        "name": "toolbar",
+        "parent": {
+          "align": "center",
+          "class": "ui-toolbar ui-floating-toolbar",
+          "display": "flex",
+          "flex": "auto",
+          "grid": "none",
+          "h": 44,
+          "justify": "normal",
+          "tag": "DIV",
+          "w": 1383,
+          "x": 21,
+          "y": 788.3125
+        }
+      }
+    ],
+    "url": "http://127.0.0.1:4187/assets/viewer-wide.html",
+    "viewport": [
+      1425,
+      900
+    ]
+  }
+]
