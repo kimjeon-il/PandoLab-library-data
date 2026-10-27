@@ -1,0 +1,82 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:IMN"
+    ],
+    "projectEntityIds": [
+      "d34b00a1-9b13-8000-8000-000000494d4e"
+    ],
+    "method": "Common timeline normalization of existing prepared versions; no geometry generation, historical overlap adjustments and parent identities retained.",
+    "contextProjectEntityIds": [
+      "GBR"
+    ],
+    "contextScope": "Existing GBR lifetime, geometry bindings and parent coverage were read for the common C++ validator; GBR was not edited or regenerated."
+  },
+  "results": [
+    {
+      "id": "state:IMN",
+      "validFrom": "1765",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "ae12e843af0d25012a9bd0d51f0c4f183e9f2d78d3fb11b3793c8758f9cc911e",
+      "source": "assets/data/territorial-entities/source/countries/state-IMN.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-IMN.json.gz",
+      "selection": [
+        {
+          "date": "1764-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1765-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtimeSelection": [
+        {
+          "date": "1764-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1765-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "d34b00a1-9b13-8000-8000-000000494d4e",
+        "file": "countries/d34b00a1-9b13-8000-8000-000000494d4e-sha256-93f951d411526ae83702286094903c438d41205644a768bb00cbb96b99cb89e8.json.gz",
+        "sha256": "93f951d411526ae83702286094903c438d41205644a768bb00cbb96b99cb89e8",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:d34b00a1-9b13-8000-8000-000000494d4e:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "d34b00a1-9b13-8000-8000-000000494d4e"
+            },
+            "validFrom": "1765",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}

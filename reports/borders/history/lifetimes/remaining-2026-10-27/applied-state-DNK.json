@@ -1,0 +1,66 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:DNK"
+    ],
+    "projectEntityIds": [
+      "DNK"
+    ],
+    "method": "Common timeline normalization of existing prepared versions; no geometry generation, historical overlap adjustments retained."
+  },
+  "results": [
+    {
+      "id": "state:DNK",
+      "validFrom": "0965",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "95bb21646c47b35d517785fddd2c2b6f2524e59b165bb817cf47b3f54e8abc02",
+      "source": "assets/data/territorial-entities/source/countries/state-DNK.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-DNK.json.gz",
+      "selection": [
+        {
+          "date": "0964-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "0965-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "DNK",
+        "file": "countries/DNK-sha256-d8dd0241e3da625e896b28c2e6e393543c23053ba1bd119d06573574e87e006e.json.gz",
+        "sha256": "d8dd0241e3da625e896b28c2e6e393543c23053ba1bd119d06573574e87e006e",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:DNK:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "DNK"
+            },
+            "validFrom": "0965",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}

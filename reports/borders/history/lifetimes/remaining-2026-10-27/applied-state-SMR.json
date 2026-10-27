@@ -1,0 +1,66 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:SMR"
+    ],
+    "projectEntityIds": [
+      "SMR"
+    ],
+    "method": "Canonical compiler for independent objects without spatial policy/coverage dependencies."
+  },
+  "results": [
+    {
+      "id": "state:SMR",
+      "validFrom": "1296",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "e0f3f9b92c8ea41cd2f2294b5f3656bbcdef774d5d9d4398c22fe5106a1785cf",
+      "source": "assets/data/territorial-entities/source/countries/state-SMR.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-SMR.json.gz",
+      "selection": [
+        {
+          "date": "1295-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1296-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "SMR",
+        "file": "countries/SMR-sha256-7069dda03a86e563fb9bba35b6ec6edbc303460fb152908d0820a0a753dc5be6.json.gz",
+        "sha256": "7069dda03a86e563fb9bba35b6ec6edbc303460fb152908d0820a0a753dc5be6",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:SMR:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "SMR"
+            },
+            "validFrom": "1296",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}

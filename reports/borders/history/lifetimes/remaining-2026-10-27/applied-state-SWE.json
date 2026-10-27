@@ -1,0 +1,66 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:SWE"
+    ],
+    "projectEntityIds": [
+      "SWE"
+    ],
+    "method": "Canonical compiler for independent objects without spatial policy/coverage dependencies."
+  },
+  "results": [
+    {
+      "id": "state:SWE",
+      "validFrom": "0970",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "7b42178f004dce2497e4f2c5e6cf23b38da65f9ac015b9894c1ccb4bd91b7511",
+      "source": "assets/data/territorial-entities/source/countries/state-SWE.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-SWE.json.gz",
+      "selection": [
+        {
+          "date": "0969-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "0970-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "SWE",
+        "file": "countries/SWE-sha256-0375f45381371a50aafce81b9ce1df6f7ecda366f6cad3b6a73b4156dfda4e80.json.gz",
+        "sha256": "0375f45381371a50aafce81b9ce1df6f7ecda366f6cad3b6a73b4156dfda4e80",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:SWE:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "SWE"
+            },
+            "validFrom": "0970",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}

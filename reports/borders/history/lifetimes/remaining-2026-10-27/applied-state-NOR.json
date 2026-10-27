@@ -1,0 +1,66 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:NOR"
+    ],
+    "projectEntityIds": [
+      "NOR"
+    ],
+    "method": "Canonical compiler for independent objects without spatial policy/coverage dependencies."
+  },
+  "results": [
+    {
+      "id": "state:NOR",
+      "validFrom": "0872",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "ed3fb76991612da233fde093f79823bd3c55976f36a4ff0d397ce57460cd90ba",
+      "source": "assets/data/territorial-entities/source/countries/state-NOR.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-NOR.json.gz",
+      "selection": [
+        {
+          "date": "0871-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "0872-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "NOR",
+        "file": "countries/NOR-sha256-a7f75f6a507700d22ccc805c48a4c3708c26aed91550ba34d554f1e869cb4275.json.gz",
+        "sha256": "a7f75f6a507700d22ccc805c48a4c3708c26aed91550ba34d554f1e869cb4275",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:NOR:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "NOR"
+            },
+            "validFrom": "0872",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}

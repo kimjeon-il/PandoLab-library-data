@@ -1,0 +1,83 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:KWT"
+    ],
+    "projectEntityIds": [
+      "KWT"
+    ],
+    "method": "Canonical compiler for independent objects without spatial policy/coverage dependencies."
+  },
+  "results": [
+    {
+      "id": "state:KWT",
+      "validFrom": "1871",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "c0fbf2bdbcb89589d322e2e1a1acb1a6d6de90c05351b3a677e0f8f216742dba",
+      "source": "assets/data/territorial-entities/source/countries/state-KWT.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-KWT.json.gz",
+      "selection": [
+        {
+          "date": "1870-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1871-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtimeSelection": [
+        {
+          "date": "1870-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1871-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "KWT",
+        "file": "countries/KWT-sha256-b806332b8d769ca8021e85ed2236049d2900d48547643777bfe692cf7fa3321f.json.gz",
+        "sha256": "b806332b8d769ca8021e85ed2236049d2900d48547643777bfe692cf7fa3321f",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:KWT:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "KWT"
+            },
+            "validFrom": "1871",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ],
+  "exactDateResearch": {
+    "result": "Exact appointment/incorporation month and day not established in the consulted scope; stored year 1871 only.",
+    "checkedRelatedRecord": "https://qdl.qa/en/archive/81055/vdc_100089599248.0x00008b",
+    "exclusion": "July 1871 correspondence concerns the Kuwait ruler involvement in Qatar and the Ottoman campaign. Its letter dates do not establish the Kuwait appointment/incorporation day."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 2,
+    "sourceIds": [
+      "state:THA",
+      "state:CNM"
+    ],
+    "projectEntityIds": [
+      "THA",
+      "CNM"
+    ],
+    "method": "Canonical compiler for two independent objects without spatial policy/coverage dependencies; broad connected-component generation stopped before publication."
+  },
+  "results": [
+    {
+      "id": "state:THA",
+      "validFrom": "1767",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "9c91a52e4ba459c913e40bdd7f7e53539355821de11618936109059d02ba1e8a",
+      "source": "assets/data/territorial-entities/source/countries/state-THA.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-THA.json.gz",
+      "selection": [
+        {
+          "date": "1766-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1767-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "THA",
+        "file": "countries/THA-sha256-5a0635229e2628cf5fc019af84fdd880a903dd0bbb2c5b5e7525d00f51d4e080.json.gz",
+        "sha256": "5a0635229e2628cf5fc019af84fdd880a903dd0bbb2c5b5e7525d00f51d4e080",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:THA:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "THA"
+            },
+            "validFrom": "1767",
+            "validTo": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "state:CNM",
+      "validFrom": "1974-08-16",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "f4b5ef1d1418651b8d66cd9828e825e1b8f5f070914846c2a554b39654553946",
+      "source": "assets/data/territorial-entities/source/countries/state-CNM.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-CNM.json.gz",
+      "selection": [
+        {
+          "date": "1974-08-15",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1974-08-16",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "CNM",
+        "file": "countries/CNM-sha256-58844e0c2df5941e512b5f78386a538fc50e76c04fc7efa9c518ef32c83aaae2.json.gz",
+        "sha256": "58844e0c2df5941e512b5f78386a538fc50e76c04fc7efa9c518ef32c83aaae2",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:CNM:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "CNM"
+            },
+            "validFrom": "1974-08-16",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parents",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}

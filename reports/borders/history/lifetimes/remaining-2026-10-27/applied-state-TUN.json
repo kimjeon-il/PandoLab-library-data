@@ -1,0 +1,78 @@
+{
+  "scope": "reports/borders/history/lifetimes/remaining-2026-10-27",
+  "generationScope": {
+    "requested": 1,
+    "sourceIds": [
+      "state:TUN"
+    ],
+    "projectEntityIds": [
+      "TUN"
+    ],
+    "method": "Canonical compiler for independent objects without spatial policy/coverage dependencies."
+  },
+  "results": [
+    {
+      "id": "state:TUN",
+      "validFrom": "1574",
+      "validTo": null,
+      "geometryUnchanged": true,
+      "geometrySha256": "1761bebf7747904765ecf22a83f1ecc1d1168ce069465bbc015c95277219f354",
+      "source": "assets/data/territorial-entities/source/countries/state-TUN.json",
+      "chunk": "assets/data/territorial-entities/generated/v2/state-TUN.json.gz",
+      "selection": [
+        {
+          "date": "1573-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1574-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtimeSelection": [
+        {
+          "date": "1573-12-31",
+          "expected": false,
+          "actual": "absent"
+        },
+        {
+          "date": "1574-12-31",
+          "expected": true,
+          "actual": "available"
+        }
+      ],
+      "runtime": {
+        "id": "TUN",
+        "file": "countries/TUN-sha256-0b805a6d3ba897e16021a3fac44ca4f59fcb63e23ea1317d92f671ebb20805ba.json.gz",
+        "sha256": "0b805a6d3ba897e16021a3fac44ca4f59fcb63e23ea1317d92f671ebb20805ba",
+        "lifetimes": [
+          {
+            "id": "historical-world:lifetimes:TUN:0",
+            "objectRef": {
+              "domain": "territorial",
+              "id": "TUN"
+            },
+            "validFrom": "1574",
+            "validTo": null
+          }
+        ]
+      }
+    }
+  ],
+  "notRun": [
+    "full test suite",
+    "whole-catalog geometry validation",
+    "benchmark",
+    "browser UI",
+    "Windows rebuild"
+  ],
+  "notChanged": [
+    "geometry versions and coordinates",
+    "parent identities",
+    "other lifetimes",
+    "main",
+    "deployment"
+  ]
+}
