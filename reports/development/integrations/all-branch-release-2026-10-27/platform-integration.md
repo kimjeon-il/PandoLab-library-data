@@ -87,3 +87,13 @@ D 여유: 시작 57,910,288,384바이트, 정리 전 최종 관측 57,762,136,06
 최종 원격 브랜치: main/ui/objects/places=e11111ff20c3c58d5b0e830ffbfb4ff53cbc9343, gis=d58586a40c5ac5b7efb5a2d7827be60abd844821. GIS의 기존 773779f85 이력이 선조로 유지된다. 모든 상설 워크트리 clean. main Application Architecture 40502218470은 경로 검사 목록 생성에 성공했으며, 후속 자동 검사는 이 기록 시점에 진행 중이다. 로컬 전체 검사를 대신 돌리지 않았다.
 
 최종 D 여유 관측 57,759,342,592바이트(약 53.79GiB). 시작 대비 감소 150,945,792바이트로 동시 작업 영향을 포함한다. 이 보고서 범위의 총 파일은 22개, 약 3.41MB다. 보고서 원문·스크린샷·JSON은 라이브러리의 독립적인 보고서 보관 명령으로 게시하며 runtime 자료 핀은 바꾸지 않는다. 출시 EXE/APK 생성, 전체 GIS 재생성·전체 로컬 테스트 없음.
+
+## 보고서 게시 중 발견된 자동 재압축 충돌 보완
+
+첫 publish-reports 명령은 선택한 보고서를 쓰기 전에 withCheckoutLock의 자동 compactDuplicatePacks가 실행돼 중단됐다. 다른 작업의 refs/HEAD/작업 상태가 바뀌었다는 보호 검사에서 멈췄으며, 기존 객체는 보호됐다. 잠금이나 보호 검사를 제거하지 않았다. 보고서 publication/check에만 compact:false를 전달해 독립적인 pack maintenance를 호출하지 않도록 수정했다. runtime preparation과 prefetch의 기존 중복 pack 정리는 유지한다. 처음 넓게 제거했던 시도는 기존 중복 제거 회귀에서 실패했고, 해당 동작을 복원한 뒤 모두 재확인했다.
+
+작은 fixture에서 별도 maintenance journal을 그대로 보존하며 보고서만 원격 보관하고 runtime pin을 유지하는 RED/GREEN을 확인했다. 기존 게시·실패 재시도·잠금·미완성 타 범위 보호·원격 원문 검증·report-only 원격 main 채택 검사 6개가 통과했다. 최종 보고서 journal·runtime 중복 제거·선택 blob prefetch 3개도 통과했다. eslint·diff 검사와 독립 검토 통과. 503a2145c를 work/ui/main 및 다른 상설 브랜치에 반영했다. 이 보완은 보고서 작업 도구이며, 앞서 실기기로 확인한 런타임 코드·네이티브 입력·자료 핀은 바꾸지 않는다.
+
+最終 완료 기록: Pages 40504372438의 sourceCommit=503a2145c42401be6a8b0b66f998b2a8ee43e7cc와 dataCommit=f79836c5509fce8053a81421b02798dc7bfb4f8b, 실제 전송 파일 10개 일치를 확인했다(platform-pages-503a2145c/). 공개 Viewer를 새 세션으로 열어 254개 객체와 errors=[]를 다시 확인했다(platform-live-503a2145c.json). main/ui/objects/places는 503a2145c, GIS는 동시 작업의 추가 이력도 보존한 5b2416b17이다. 최종 소스의 Architecture 검사 목록 생성은 통과했으며 후속 자동 검사는 이 기록 시점 진행 중이다.
+
+이번 보완까지 작업 커밋 총 7개를 보존·푸시했다. P2 쓰기 토큰 누락, Android 저메모리 renderer 종료 위험, 기존 네이티브 inline-handler CSP 경고, C 임시 출력 삭제 정책 차단은 남은 문제다. 앱 기능의 실기기 저장·재열기 성공과 이 한계를 구별한다. 최종 D 여유 관측 57,555,025,920바이트(약 53.60GiB), 시작 대비 -355,262,464바이트로 동시 작업 영향을 포함한다. 고유 자료·학습 환경·진행 작업 삭제 없음. 이 최종 보고서를 선택 scope의 publish-reports와 fresh check-reports로 보관·원격 확인한다.
