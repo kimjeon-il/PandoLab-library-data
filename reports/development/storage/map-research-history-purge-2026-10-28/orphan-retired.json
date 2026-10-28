@@ -1,0 +1,32 @@
+[
+  {
+    "oid": "e4bc1c4ecaf5464186e5d63b177dcad8064ba76c",
+    "path": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.hotspots.review.md",
+    "bytes": 3138,
+    "sha256": "1ba387231cb176116fb02c018e92ba15506a1a474d3a58c7abb9c96266afe62d"
+  },
+  {
+    "oid": "e61ce8d2d97defeb1ccacd5b161f880ea09efe20",
+    "path": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0619-hugum-stage4.review.md",
+    "bytes": 2996,
+    "sha256": "2758e071a5dd8636d262f42dff644a9b74ff07ae693b80d058652a2282b01414"
+  },
+  {
+    "oid": "8fdbbf12e98897a8a0c8441c1df35d3a42a51ae5",
+    "path": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0717-hvidding-ufer-stage5.review.md",
+    "bytes": 3081,
+    "sha256": "83bc681eb38f6b149e5b9d349eec18475bde52e9bb06b7680a98a799c3d16a07"
+  },
+  {
+    "oid": "7a199bd68cf32ba55ea3863cb4d29ec43f2c982e",
+    "path": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0718-east-stage2.review.md",
+    "bytes": 3091,
+    "sha256": "f2242a755b8d96d8f3d1ce552d06ba49c907d93f10e9a7def5673ba7ea93bb1c"
+  },
+  {
+    "oid": "2eb749c81be65be9ffcb841824f1739ed39fba52",
+    "path": "reports/geography/germany/north-schleswig/german-denmark-1914-north-schleswig-001-026.0719-spandet-stage3.review.md",
+    "bytes": 3353,
+    "sha256": "f3fa6e3ba3c87d3c6a3eb5ebb75097d5d4c7d79209faa34f464385a144082597"
+  }
+]

@@ -1,0 +1,250 @@
+{
+  "observedAt": "2026-10-28T06:55:44.639Z",
+  "driveFreeBytes": 53795151872,
+  "items": [
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/aggressive-pack-check.json",
+      "bytes": 39,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/all-original-blob-preservation.json",
+      "bytes": 150,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/app-commits.json",
+      "bytes": 7127,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/app-installed.json",
+      "bytes": 7420,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/app-remote-verification.json",
+      "bytes": 410,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/cache-retired-inventory.json",
+      "bytes": 284045,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/cache-transition.json",
+      "bytes": 183,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/clean.git",
+      "bytes": 87796,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/clean.git.callback.py",
+      "bytes": 719,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/clean.git.manifest.json",
+      "bytes": 223617,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/code-references.json",
+      "bytes": 2925,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/commit-map.json",
+      "bytes": 32133,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/expected-upload.json",
+      "bytes": 36,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/filter-result.json",
+      "bytes": 781,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/finalize-target.mjs",
+      "bytes": 3231,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/git-filter-repo.py",
+      "bytes": 210911,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/hold-lock.mjs",
+      "bytes": 492,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/install-app-refs.mjs",
+      "bytes": 1666,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/install-local.mjs",
+      "bytes": 3812,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/local-transition.json",
+      "bytes": 17099,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/manifest.json",
+      "bytes": 214335,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/no-sparse-pack-check.json",
+      "bytes": 43,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/object-scope.json",
+      "bytes": 57283,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/orphan-retired.json",
+      "bytes": 1486,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/orphans.json",
+      "bytes": 20081,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/prepare-app-commits.mjs",
+      "bytes": 3390,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/private-preservation.json",
+      "bytes": 60322,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/publish-app-refs.mjs",
+      "bytes": 1513,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/publish-data-refs.mjs",
+      "bytes": 2457,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/release-lock",
+      "bytes": 43,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/remap-caches.mjs",
+      "bytes": 5056,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/remote-transition.json",
+      "bytes": 2179,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retained-objects.txt",
+      "bytes": 755507,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retained-pack.json",
+      "bytes": 67,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retired-objects",
+      "bytes": 3801894256,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/root-boundary.txt",
+      "bytes": 41,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/self-contained-verification.json",
+      "bytes": 235,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/snapshot.json",
+      "bytes": 2212455,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/superseded-compaction-journal.json",
+      "bytes": 2390268,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/upload-delta.txt",
+      "bytes": 50184,
+      "status": "retained pending physical cleanup; automatic deletion review blocked"
+    }
+  ],
+  "otherBlocked": [
+    {
+      "path": "D:/build/cache/pandolab/workspaces/0cb65fcaf5738f6d/pages",
+      "bytes": 222444585
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.git/pando-repack-cd9eaa3e-40f1-4936-b64c-50ae7610f643",
+      "bytes": 4204
+    }
+  ],
+  "pseudoRefsRemapped": [
+    {
+      "root": "D:/dev/PandoLab-library-data",
+      "name": "ORIG_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data",
+      "name": "FETCH_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/gis",
+      "name": "ORIG_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/gis",
+      "name": "FETCH_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/ui",
+      "name": "FETCH_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/objects",
+      "name": "ORIG_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/objects",
+      "name": "FETCH_HEAD"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/places",
+      "name": "FETCH_HEAD"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "status": "delete-required-physical-removal-blocked",
+  "error": "Automatic approval review rejected the physical removal command: blocked by policy",
+  "files": [
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\pack-8b5b857d98c085d179f374e0b008978f32eb0ac4.pack",
+      "bytes": 264994905,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retired-objects/pack/pack-8b5b857d98c085d179f374e0b008978f32eb0ac4.pack"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\pack-8b5b857d98c085d179f374e0b008978f32eb0ac4.idx",
+      "bytes": 21316,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retired-objects/pack/pack-8b5b857d98c085d179f374e0b008978f32eb0ac4.idx"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\pack-8b5b857d98c085d179f374e0b008978f32eb0ac4.promisor",
+      "bytes": 0,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retired-objects/pack/pack-8b5b857d98c085d179f374e0b008978f32eb0ac4.promisor"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\pack-f7ec16bb38487882cfc2fd06ab734f7bdc0aad39.pack",
+      "bytes": 145059022,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retired-objects/pack/pack-f7ec16bb38487882cfc2fd06ab734f7bdc0aad39.pack"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\pack-f7ec16bb38487882cfc2fd06ab734f7bdc0aad39.idx",
+      "bytes": 9528,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/retired-objects/pack/pack-f7ec16bb38487882cfc2fd06ab734f7bdc0aad39.idx"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\pando-repack-cd9eaa3e-40f1-4936-b64c-50ae7610f643\\local-f7ec16bb38487882cfc2fd06ab734f7bdc0aad39.rev",
+      "bytes": 1260,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.git/pando-repack-cd9eaa3e-40f1-4936-b64c-50ae7610f643/local-f7ec16bb38487882cfc2fd06ab734f7bdc0aad39.rev"
+    },
+    {
+      "path": "D:\\dev\\PandoLab-library-data\\.git\\pando-repack-cd9eaa3e-40f1-4936-b64c-50ae7610f643\\promisor-8b5b857d98c085d179f374e0b008978f32eb0ac4.rev",
+      "bytes": 2944,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.git/pando-repack-cd9eaa3e-40f1-4936-b64c-50ae7610f643/promisor-8b5b857d98c085d179f374e0b008978f32eb0ac4.rev"
+    },
+    {
+      "path": "D:/dev/PandoLab-library-data/.git/pando-git-compaction.pending.json",
+      "bytes": 2390268,
+      "reason": "Deletion target. Retained objects have verified replacements; physical removal is blocked by automatic approval review.",
+      "currentPath": "D:/dev/PandoLab-library-data/.pando-store/history-rewrite/superseded-compaction-journal.json"
+    }
+  ],
+  "logicalBytes": 412479243,
+  "driveObservation": {
+    "firstMeasuredFreeBytes": 55193333760,
+    "currentFreeBytes": 57114107904,
+    "observedChangeBytes": 1920774144,
+    "note": "First measurement was during the task after fetch. Delta includes upstream checkout cleanup and concurrent processes; it is not attributed to retired report bytes."
+  },
+  "priorDecision": {
+    "status": "blocked",
+    "error": "Changed compaction sources require explicit recovery; originals remain protected"
+  },
+  "supersededBy": "reports/development/storage/map-research-history-purge-2026-10-28",
+  "historyRewrite": {
+    "exclusiveRetiredBlobsAbsent": 856,
+    "runtimePin": "893176014602bd95e83112c4dcc3f5f7822f68f4",
+    "retainedBlobPreservation": "verified; unexplained missing 0"
+  }
+}

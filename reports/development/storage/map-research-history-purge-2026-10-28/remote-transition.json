@@ -1,0 +1,42 @@
+{
+  "before": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00\trefs/heads/gh-pages\n94b34e72bb3e80388447af89361433518ef7f2dd\trefs/heads/main\nb1c7856a796f4830a67277bc5fd36c2931015cd8\trefs/heads/work/gis\na2c19a9ac0219d3b5a95a134b53f0c5ede01f10c\trefs/heads/work/objects\ncd0698ab2886e7468cf10571186c76941e56709a\trefs/heads/work/places\nec219854ac57354dac7b437d9e071d3533a6f424\trefs/heads/work/research-prune-20261024\nf79836c5509fce8053a81421b02798dc7bfb4f8b\trefs/heads/work/ui",
+  "after": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00\trefs/heads/gh-pages\n90035ff3334de0cf119793dedd0f2a6ce496a5a5\trefs/heads/main\n0ccccc711b77863d472ae394aecaf82feb6c3c82\trefs/heads/work/gis\nd842e750c44752bc65a5485c83fc7bcf8d60d4b6\trefs/heads/work/objects\nb050e9845016676432acbf57d3d2e6d9cd96f4f3\trefs/heads/work/places\n84779780570f38a40aad6482466707836a2af81d\trefs/heads/work/research-prune-20261024\n85255b613e5f17db9f127a9d77e7ac666fc7ad9f\trefs/heads/work/ui",
+  "refs": [
+    {
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "ref": "refs/heads/gh-pages",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "old": "94b34e72bb3e80388447af89361433518ef7f2dd",
+      "ref": "refs/heads/main",
+      "next": "90035ff3334de0cf119793dedd0f2a6ce496a5a5"
+    },
+    {
+      "old": "b1c7856a796f4830a67277bc5fd36c2931015cd8",
+      "ref": "refs/heads/work/gis",
+      "next": "0ccccc711b77863d472ae394aecaf82feb6c3c82"
+    },
+    {
+      "old": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+      "ref": "refs/heads/work/objects",
+      "next": "d842e750c44752bc65a5485c83fc7bcf8d60d4b6"
+    },
+    {
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "ref": "refs/heads/work/places",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "old": "ec219854ac57354dac7b437d9e071d3533a6f424",
+      "ref": "refs/heads/work/research-prune-20261024",
+      "next": "84779780570f38a40aad6482466707836a2af81d"
+    },
+    {
+      "old": "f79836c5509fce8053a81421b02798dc7bfb4f8b",
+      "ref": "refs/heads/work/ui",
+      "next": "85255b613e5f17db9f127a9d77e7ac666fc7ad9f"
+    }
+  ],
+  "verifiedAt": "2026-10-28T06:36:26.696Z"
+}

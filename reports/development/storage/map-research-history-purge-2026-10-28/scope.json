@@ -1,0 +1,117 @@
+{
+  "logicalTargets": 458,
+  "indexVersions": 238,
+  "logicalAliases": 883,
+  "physicalPaths": 1330,
+  "sharedStoresPreserved": [
+    "archive/blobs/177cbc14e1e61767aaaaac7772017e7f5d4eb7498b1ffe0b93e5b93e6cc1d3ae.gz",
+    "archive/blobs/19c30b95f02661e082bd34c35f61f3ad56a03d08fc12998d332cd4fec3d2a07b.gz",
+    "archive/blobs/3effcb79505f4899745653fe9cc673a962783f03f519b750d51798b5bded7d4d.gz",
+    "archive/blobs/73b8007f38720d941a1cd9f0b9bc3555e998b69e0fae99bfa267a4b9e0625d6f.gz",
+    "archive/blobs/8d6b2809c526bb72f8a5076c75bcdd5697e447f7531578917629d9f24ada9f64.gz"
+  ],
+  "orphanCommits": 2,
+  "objects": 19505,
+  "apps": {
+    "main": {
+      "root": "D:/dev/PandoLab",
+      "head": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+      "branch": "main",
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "status": "",
+      "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1"
+    },
+    "gis": {
+      "root": "D:/dev/worktrees/gis",
+      "head": "d561243d5ac0a2d20d607024a0fdba3f0cb91f80",
+      "branch": "work/gis",
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "status": "?? tests/integration/\n?? tests/unit/library-history.test.mjs\n?? tools/library-history.mjs",
+      "remote": "d561243d5ac0a2d20d607024a0fdba3f0cb91f80"
+    },
+    "ui": {
+      "root": "D:/dev/worktrees/ui",
+      "head": "80dfdedb652af86728fb7f1ed0dbe461c853e5ef",
+      "branch": "work/ui",
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "status": "M apps/editor/README.md\n M apps/editor/native-contract.mjs\n M apps/editor/native-producer.mjs\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png\n M apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png\n M apps/editor/src-tauri/icons/icon.ico\n M apps/editor/src-tauri/icons/icon.png\n M apps/editor/src-tauri/sync-android.mjs\n M apps/editor/tests/android-policy-sync.test.mjs\n M apps/editor/tests/native-build.test.mjs\n M apps/editor/tests/native-contract.test.mjs\n?? apps/editor/src-tauri/android/app/src/main/res/mipmap-anydpi-v26/\n?? apps/editor/src-tauri/android/app/src/main/res/mipmap-hdpi/\n?? apps/editor/src-tauri/android/app/src/main/res/mipmap-mdpi/\n?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xhdpi/\n?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxhdpi/\n?? apps/editor/src-tauri/android/app/src/main/res/mipmap-xxxhdpi/\n?? apps/editor/src-tauri/android/app/src/main/res/values/\n?? apps/editor/src-tauri/gen/android/app/src/main/res/mipmap-anydpi-v26/\n?? apps/editor/src-tauri/gen/android/app/src/main/res/values/ic_launcher_background.xml\n?? apps/editor/src-tauri/icons/128x128.png\n?? apps/editor/src-tauri/icons/128x128@2x.png\n?? apps/editor/src-tauri/icons/32x32.png\n?? apps/editor/src-tauri/icons/64x64.png\n?? apps/editor/src-tauri/icons/Square107x107Logo.png\n?? apps/editor/src-tauri/icons/Square142x142Logo.png\n?? apps/editor/src-tauri/icons/Square150x150Logo.png\n?? apps/editor/src-tauri/icons/Square284x284Logo.png\n?? apps/editor/src-tauri/icons/Square30x30Logo.png\n?? apps/editor/src-tauri/icons/Square310x310Logo.png\n?? apps/editor/src-tauri/icons/Square44x44Logo.png\n?? apps/editor/src-tauri/icons/Square71x71Logo.png\n?? apps/editor/src-tauri/icons/Square89x89Logo.png\n?? apps/editor/src-tauri/icons/StoreLogo.png\n?? apps/editor/src-tauri/icons/app-icon.png\n?? apps/editor/src-tauri/icons/app-icon.svg\n?? apps/editor/src-tauri/icons/icon-manifest.json\n?? apps/editor/src-tauri/icons/icon.icns\n?? apps/editor/src-tauri/icons/ios/",
+      "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1"
+    },
+    "objects": {
+      "root": "D:/dev/worktrees/objects",
+      "head": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+      "branch": "work/objects",
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "status": "",
+      "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1"
+    },
+    "places": {
+      "root": "D:/dev/worktrees/places",
+      "head": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+      "branch": "work/places",
+      "pin": {
+        "schemaVersion": 1,
+        "repository": "kimjeon-il/PandoLab-library-data",
+        "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a",
+        "mounts": [
+          "assets/data",
+          "reports",
+          "tools/historical-library/sources",
+          "tools/historical-library/working",
+          "tools/historical-library/review-output",
+          "tools/historical-library/land-borders"
+        ]
+      },
+      "status": "",
+      "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1"
+    }
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "phase": "installed",
+  "refs": [
+    {
+      "ref": "refs/heads/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/heads/main",
+      "old": "94b34e72bb3e80388447af89361433518ef7f2dd",
+      "sym": "",
+      "next": "90035ff3334de0cf119793dedd0f2a6ce496a5a5"
+    },
+    {
+      "ref": "refs/heads/work/gis",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/heads/work/objects",
+      "old": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+      "sym": "",
+      "next": "d842e750c44752bc65a5485c83fc7bcf8d60d4b6"
+    },
+    {
+      "ref": "refs/heads/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/heads/work/ui",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/0ef646d99e3516e3faa93fc1e9ce3a7e640cf771/refs/remotes/origin/work/objects",
+      "old": "0ef646d99e3516e3faa93fc1e9ce3a7e640cf771",
+      "sym": "",
+      "next": "b4345fe67404e2d3981ee1fcb58311f9b6c6799a"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00/refs/remotes/origin/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9/HEAD",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9/refs/remotes/origin/work/gis",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/heads/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/HEAD",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/cd0698ab2886e7468cf10571186c76941e56709a/refs/remotes/origin/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/pando-preserved/gis/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/refs/remotes/origin/work/ui",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando-preserved/main/0bc52264d52b47b2250b887d883f6b0e09a181e0/HEAD",
+      "old": "0bc52264d52b47b2250b887d883f6b0e09a181e0",
+      "sym": "",
+      "next": "bb34756d406380bf6cae31be9d33a975c23f74e4"
+    },
+    {
+      "ref": "refs/pando-preserved/main/0bc52264d52b47b2250b887d883f6b0e09a181e0/refs/remotes/origin/HEAD",
+      "old": "0bc52264d52b47b2250b887d883f6b0e09a181e0",
+      "sym": "",
+      "next": "bb34756d406380bf6cae31be9d33a975c23f74e4"
+    },
+    {
+      "ref": "refs/pando-preserved/main/0bc52264d52b47b2250b887d883f6b0e09a181e0/refs/remotes/origin/main",
+      "old": "0bc52264d52b47b2250b887d883f6b0e09a181e0",
+      "sym": "",
+      "next": "bb34756d406380bf6cae31be9d33a975c23f74e4"
+    },
+    {
+      "ref": "refs/pando-preserved/main/0ef646d99e3516e3faa93fc1e9ce3a7e640cf771/refs/remotes/origin/work/objects",
+      "old": "0ef646d99e3516e3faa93fc1e9ce3a7e640cf771",
+      "sym": "",
+      "next": "b4345fe67404e2d3981ee1fcb58311f9b6c6799a"
+    },
+    {
+      "ref": "refs/pando-preserved/main/7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00/refs/remotes/origin/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/pando-preserved/main/a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9/refs/remotes/origin/work/gis",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/pando-preserved/main/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/heads/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/main/cd0698ab2886e7468cf10571186c76941e56709a/refs/remotes/origin/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/pando-preserved/main/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/refs/remotes/origin/work/ui",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/0ef646d99e3516e3faa93fc1e9ce3a7e640cf771/HEAD",
+      "old": "0ef646d99e3516e3faa93fc1e9ce3a7e640cf771",
+      "sym": "",
+      "next": "b4345fe67404e2d3981ee1fcb58311f9b6c6799a"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/0ef646d99e3516e3faa93fc1e9ce3a7e640cf771/refs/remotes/origin/work/objects",
+      "old": "0ef646d99e3516e3faa93fc1e9ce3a7e640cf771",
+      "sym": "",
+      "next": "b4345fe67404e2d3981ee1fcb58311f9b6c6799a"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00/refs/remotes/origin/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9/refs/remotes/origin/work/gis",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/heads/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/HEAD",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/cd0698ab2886e7468cf10571186c76941e56709a/refs/remotes/origin/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/pando-preserved/objects/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/refs/remotes/origin/work/ui",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando-preserved/places/0ef646d99e3516e3faa93fc1e9ce3a7e640cf771/refs/remotes/origin/work/objects",
+      "old": "0ef646d99e3516e3faa93fc1e9ce3a7e640cf771",
+      "sym": "",
+      "next": "b4345fe67404e2d3981ee1fcb58311f9b6c6799a"
+    },
+    {
+      "ref": "refs/pando-preserved/places/7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00/refs/remotes/origin/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/pando-preserved/places/a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9/refs/remotes/origin/work/gis",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/pando-preserved/places/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/heads/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/places/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/HEAD",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/places/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/places/cd0698ab2886e7468cf10571186c76941e56709a/HEAD",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/pando-preserved/places/cd0698ab2886e7468cf10571186c76941e56709a/refs/remotes/origin/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/pando-preserved/places/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/refs/remotes/origin/work/ui",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/0ef646d99e3516e3faa93fc1e9ce3a7e640cf771/refs/remotes/origin/work/objects",
+      "old": "0ef646d99e3516e3faa93fc1e9ce3a7e640cf771",
+      "sym": "",
+      "next": "b4345fe67404e2d3981ee1fcb58311f9b6c6799a"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00/refs/remotes/origin/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9/refs/remotes/origin/work/gis",
+      "old": "a09a1de5ee0e7fd6d6f8627c84f887068ca4eba9",
+      "sym": "",
+      "next": "429d80eac7c4261fda70c4c9e1fe96f658d03b94"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/heads/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/HEAD",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/ac0f530631e8b94ad5b9a9b6dfaa029724076a5a/refs/remotes/origin/main",
+      "old": "ac0f530631e8b94ad5b9a9b6dfaa029724076a5a",
+      "sym": "",
+      "next": "c280a5ee50ea9e597617cb2c5139e9881f32d2f3"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/cd0698ab2886e7468cf10571186c76941e56709a/refs/remotes/origin/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/HEAD",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando-preserved/ui/f4ae4d70579b8c799fba2e507e1a948b7e1e42c2/refs/remotes/origin/work/ui",
+      "old": "f4ae4d70579b8c799fba2e507e1a948b7e1e42c2",
+      "sym": "",
+      "next": "a1073eda6d5d97e64a669b47eb25a469efa45d11"
+    },
+    {
+      "ref": "refs/pando/preserved/history-orphans/8cd2e22249f091334b5d3d486fc2e30aa59cac2d",
+      "old": "8cd2e22249f091334b5d3d486fc2e30aa59cac2d",
+      "sym": "",
+      "next": "8cd2e22249f091334b5d3d486fc2e30aa59cac2d"
+    },
+    {
+      "ref": "refs/pando/preserved/history-orphans/ccb7046b86a348e6cd176c0bc35228cc7b82e8d2",
+      "old": "ccb7046b86a348e6cd176c0bc35228cc7b82e8d2",
+      "sym": "",
+      "next": "ccb7046b86a348e6cd176c0bc35228cc7b82e8d2"
+    },
+    {
+      "ref": "refs/pando/preserved/ui-runtime",
+      "old": "bbb65fff15606d0c56d8827a880d845597f7b4e4",
+      "sym": "",
+      "next": "9dd0bb5a4bd0642d23b3aadb32a435adf71a0421"
+    },
+    {
+      "ref": "refs/pando/reports/gis",
+      "old": "8bda25100ec8f1175fdb5338f337bf19ff452f3a",
+      "sym": "",
+      "next": "0349460864bd72dbd58d0245a499295a4b1db99d"
+    },
+    {
+      "ref": "refs/pando/reports/main",
+      "old": "343818ccadd1a035e5547fa58a6a67997d8613a9",
+      "sym": "",
+      "next": "c45000bcf1356bcc5748bf9f3db4eca3a057eecc"
+    },
+    {
+      "ref": "refs/pando/reports/objects",
+      "old": "03b68505afcc47b50dd3296cc0737be34ea093c4",
+      "sym": "",
+      "next": "65790627f7a2e76be200abca779f60bcb0e2857d"
+    },
+    {
+      "ref": "refs/pando/reports/places",
+      "old": "c6d012d0691f6f1c808775bf16eb4fa975b9d4a1",
+      "sym": "",
+      "next": "052171fb228935fd63f2cb4f68abd419ef80b297"
+    },
+    {
+      "ref": "refs/pando/reports/ui",
+      "old": "b9a011a7f52973558a4dabd22b069435b4aae550",
+      "sym": "",
+      "next": "f8994e65dcdbb28783b9b28e079c93f48bd073aa"
+    },
+    {
+      "ref": "refs/pando/runtime/main",
+      "old": "f79836c5509fce8053a81421b02798dc7bfb4f8b",
+      "sym": "",
+      "next": "85255b613e5f17db9f127a9d77e7ac666fc7ad9f"
+    },
+    {
+      "ref": "refs/pando/runtime/ui",
+      "old": "473b2babd37f0331af5e096ee4152a15af6a8d0f",
+      "sym": "",
+      "next": "25b36b098b7ac6c43380f71dc676f11fd8236281"
+    },
+    {
+      "ref": "refs/remotes/origin/HEAD",
+      "old": "94b34e72bb3e80388447af89361433518ef7f2dd",
+      "sym": "refs/remotes/origin/main",
+      "next": "90035ff3334de0cf119793dedd0f2a6ce496a5a5"
+    },
+    {
+      "ref": "refs/remotes/origin/gh-pages",
+      "old": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00",
+      "sym": "",
+      "next": "7f1be1f7c2aa6a7a4eae07a3a72b8598257cae00"
+    },
+    {
+      "ref": "refs/remotes/origin/main",
+      "old": "94b34e72bb3e80388447af89361433518ef7f2dd",
+      "sym": "",
+      "next": "90035ff3334de0cf119793dedd0f2a6ce496a5a5"
+    },
+    {
+      "ref": "refs/remotes/origin/work/gis",
+      "old": "b1c7856a796f4830a67277bc5fd36c2931015cd8",
+      "sym": "",
+      "next": "0ccccc711b77863d472ae394aecaf82feb6c3c82"
+    },
+    {
+      "ref": "refs/remotes/origin/work/objects",
+      "old": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+      "sym": "",
+      "next": "d842e750c44752bc65a5485c83fc7bcf8d60d4b6"
+    },
+    {
+      "ref": "refs/remotes/origin/work/places",
+      "old": "cd0698ab2886e7468cf10571186c76941e56709a",
+      "sym": "",
+      "next": "b050e9845016676432acbf57d3d2e6d9cd96f4f3"
+    },
+    {
+      "ref": "refs/remotes/origin/work/research-prune-20261024",
+      "old": "ec219854ac57354dac7b437d9e071d3533a6f424",
+      "sym": "",
+      "next": "84779780570f38a40aad6482466707836a2af81d"
+    },
+    {
+      "ref": "refs/remotes/origin/work/ui",
+      "old": "f79836c5509fce8053a81421b02798dc7bfb4f8b",
+      "next": "85255b613e5f17db9f127a9d77e7ac666fc7ad9f"
+    }
+  ],
+  "trees": [
+    {
+      "root": "D:/dev/PandoLab-library-data",
+      "old": "94b34e72bb3e80388447af89361433518ef7f2dd",
+      "detached": false,
+      "next": "90035ff3334de0cf119793dedd0f2a6ce496a5a5"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/gis",
+      "old": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a",
+      "detached": true,
+      "next": "893176014602bd95e83112c4dcc3f5f7822f68f4"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/objects",
+      "old": "a2c19a9ac0219d3b5a95a134b53f0c5ede01f10c",
+      "detached": true,
+      "next": "d842e750c44752bc65a5485c83fc7bcf8d60d4b6"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/places",
+      "old": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+      "detached": true,
+      "next": "b3dd4fc5362c73fe46dfbb3f72d8fedb16022b75"
+    },
+    {
+      "root": "D:/dev/PandoLab-library-data/.pando-worktrees/ui",
+      "old": "473b2babd37f0331af5e096ee4152a15af6a8d0f",
+      "detached": true,
+      "next": "25b36b098b7ac6c43380f71dc676f11fd8236281"
+    }
+  ],
+  "installedAt": "2026-10-28T06:36:41.604Z"
+}

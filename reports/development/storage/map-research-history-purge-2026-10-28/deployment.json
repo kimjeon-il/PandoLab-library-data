@@ -1,0 +1,247 @@
+{
+  "runId": 40646130597,
+  "url": "https://github.com/kimjeon-il/Pando/actions/runs/40646130597",
+  "sourceCommit": "764048c8f323d4bdab89ea84ae465590945bbe57",
+  "dataCommit": "893176014602bd95e83112c4dcc3f5f7822f68f4",
+  "jobs": {
+    "jobs": [
+      {
+        "id": 122675255882,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 40646130597,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Prepare pinned external library data",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run pnpm/action-setup@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Run pnpm install --frozen-lockfile --ignore-scripts",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Stage exactly the committed viewer dependency closure",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          },
+          {
+            "name": "Record the final viewer and pinned data artifact",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8
+          },
+          {
+            "name": "Run actions/upload-pages-artifact@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Run actions/upload-artifact@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Post Run pnpm/action-setup@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 18
+          },
+          {
+            "name": "Post Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 19
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 20
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 21
+          }
+        ]
+      },
+      {
+        "id": 122675705644,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 40646130597,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Refuse to deploy a superseded main commit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run actions/download-artifact@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Run actions/deploy-pages@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Verify the actual public code and pinned data bytes",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          },
+          {
+            "name": "Run actions/upload-artifact@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 8
+          },
+          {
+            "name": "Post Run actions/setup-node@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 15
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 16
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 17
+          }
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "artifacts": [
+      {
+        "id": 12798040821,
+        "name": "pages-evidence-764048c8f323d4bdab89ea84ae465590945bbe57",
+        "size_in_bytes": 89803,
+        "url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/12798040821",
+        "archive_download_url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/12798040821/zip",
+        "expired": false,
+        "created_at": "2026-10-28T06:50:01Z",
+        "expires_at": "2027-01-26T06:48:42Z",
+        "updated_at": "2026-10-28T06:50:01Z",
+        "digest": "sha256:e4f81d0019d5a7643767d3eb43d99bed5eba0973d50f1a14a98e63813bdf86ae",
+        "workflow_run": {
+          "id": 40646130597,
+          "repository_id": 1335531825,
+          "head_repository_id": 1335531825,
+          "head_branch": "main",
+          "head_sha": "764048c8f323d4bdab89ea84ae465590945bbe57"
+        }
+      },
+      {
+        "id": 12797896176,
+        "name": "github-pages",
+        "size_in_bytes": 207618394,
+        "url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/12797896176",
+        "archive_download_url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/12797896176/zip",
+        "expired": false,
+        "created_at": "2026-10-28T06:49:59Z",
+        "expires_at": "2026-10-29T06:49:52Z",
+        "updated_at": "2026-10-28T06:49:59Z",
+        "digest": "sha256:35f00dd25723d6f90ffc2d2eed5828572a1925f03fc0f479b3a72a11e33cdecd",
+        "workflow_run": {
+          "id": 40646130597,
+          "repository_id": 1335531825,
+          "head_repository_id": 1335531825,
+          "head_branch": "main",
+          "head_sha": "764048c8f323d4bdab89ea84ae465590945bbe57"
+        }
+      },
+      {
+        "id": 12797283497,
+        "name": "pages-live-764048c8f323d4bdab89ea84ae465590945bbe57",
+        "size_in_bytes": 90033,
+        "url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/12797283497",
+        "archive_download_url": "https://api.github.com/repos/kimjeon-il/Pando/actions/artifacts/12797283497/zip",
+        "expired": false,
+        "created_at": "2026-10-28T06:50:31Z",
+        "expires_at": "2027-01-26T06:48:42Z",
+        "updated_at": "2026-10-28T06:50:31Z",
+        "digest": "sha256:20a57e5b935cdb7f52ecc8f872e5a0da0aed04f521f2250ec12e6951c58ffc6e",
+        "workflow_run": {
+          "id": 40646130597,
+          "repository_id": 1335531825,
+          "head_repository_id": 1335531825,
+          "head_branch": "main",
+          "head_sha": "764048c8f323d4bdab89ea84ae465590945bbe57"
+        }
+      }
+    ]
+  },
+  "visualReview": {
+    "url": "https://kimjeon-il.github.io/Pando/",
+    "observed": "2026 current view rendered countries, terrain, water and place labels in a globe; loading indicator cleared.",
+    "method": "background in-app browser screenshot",
+    "screenshotArchived": false
+  }
+}

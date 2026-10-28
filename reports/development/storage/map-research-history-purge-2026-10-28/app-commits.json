@@ -1,0 +1,118 @@
+{
+  "main": {
+    "root": "D:/dev/PandoLab",
+    "branch": "main",
+    "head": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "commit": "764048c8f323d4bdab89ea84ae465590945bbe57",
+    "localCommit": "764048c8f323d4bdab89ea84ae465590945bbe57",
+    "files": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    },
+    "remoteFiles": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    }
+  },
+  "gis": {
+    "root": "D:/dev/worktrees/gis",
+    "branch": "work/gis",
+    "head": "d561243d5ac0a2d20d607024a0fdba3f0cb91f80",
+    "remote": "d561243d5ac0a2d20d607024a0fdba3f0cb91f80",
+    "commit": "ff6518e03052efe9b4897b1e52c397113c079ce0",
+    "localCommit": "ff6518e03052efe9b4897b1e52c397113c079ce0",
+    "files": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5",
+      "tools/library-history.mjs": "423f25801b30331a438ab331f1d3a6796c853a25",
+      "tests/unit/library-history.test.mjs": "b8cdc6c75900e000dd9dbf95a0f2e0004d0ff6f1",
+      "tests/integration/library-history-rewrite.test.mjs": "35f75e4e0db51af2a4e0dee656e6ab3c49af53a8"
+    },
+    "remoteFiles": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5",
+      "tools/library-history.mjs": "423f25801b30331a438ab331f1d3a6796c853a25",
+      "tests/unit/library-history.test.mjs": "b8cdc6c75900e000dd9dbf95a0f2e0004d0ff6f1",
+      "tests/integration/library-history-rewrite.test.mjs": "35f75e4e0db51af2a4e0dee656e6ab3c49af53a8"
+    }
+  },
+  "objects": {
+    "root": "D:/dev/worktrees/objects",
+    "branch": "work/objects",
+    "head": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "commit": "7daaa5455e06adf5cf17d63e3eea7a3883e5365b",
+    "localCommit": "7daaa5455e06adf5cf17d63e3eea7a3883e5365b",
+    "files": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    },
+    "remoteFiles": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    }
+  },
+  "places": {
+    "root": "D:/dev/worktrees/places",
+    "branch": "work/places",
+    "head": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "commit": "0ce14dda2d58eb8b44ab9e04969dc737b4962410",
+    "localCommit": "0ce14dda2d58eb8b44ab9e04969dc737b4962410",
+    "files": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    },
+    "remoteFiles": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    }
+  },
+  "ui": {
+    "root": "D:/dev/worktrees/ui",
+    "branch": "work/ui",
+    "head": "4b953d3762fd4f9302deaa21f17248da62c7c8ab",
+    "remote": "23d66fc22cf3fa713c9ceff9443eefa401cd96a1",
+    "commit": "7fe218a5d1df626f268386770a86af16006ce13e",
+    "localCommit": "8a1d20b4f91de569a203bb961b542fe4d62b6d5a",
+    "files": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    },
+    "remoteFiles": {
+      "config/library-data.json": "98e85c603519e09f17f2a3ccdd169b34ca13fc65",
+      ".github/workflows/gis-historical-native.yml": "0cce299be521f221b9825d5c081aead3e544e09c",
+      ".github/workflows/gis-historical-provenance.yml": "0d05dc405b7953fced017389cf0a3dc579fa0bd3",
+      "tools/gis/diagnose-ussr-1922-source-drift.mjs": "db00f3fce8de1ef4187755dab7ccc666f2a4e924",
+      "tools/gis/audit-ussr-1922-approved-followups.mjs": "ad77c4456668d22b517d42b7a294b612ffb4f2d5"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "verifiedAt": "2026-10-28T06:48:40.419Z",
+  "refs": [
+    "764048c8f323d4bdab89ea84ae465590945bbe57\trefs/heads/main",
+    "ff6518e03052efe9b4897b1e52c397113c079ce0\trefs/heads/work/gis",
+    "7daaa5455e06adf5cf17d63e3eea7a3883e5365b\trefs/heads/work/objects",
+    "0ce14dda2d58eb8b44ab9e04969dc737b4962410\trefs/heads/work/places",
+    "7fe218a5d1df626f268386770a86af16006ce13e\trefs/heads/work/ui"
+  ]
+}

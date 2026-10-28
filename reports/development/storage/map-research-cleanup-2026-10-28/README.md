@@ -13,8 +13,8 @@
 
 실제 원격 보고서 게시·삭제 확인과 다섯 소유자 색인 대조를 수행했다. `verification.json`에 425개 부재와 10개 축약본 일치, 다섯 런타임 pin 불변을 기록했다. 작은 합성 저장소를 사용하는 관련 Node 검사 16개, 수정 JS ESLint, 선택 CI YAML/보고서 소유권 검사, git diff 검사가 통과했다. 지도 형상이나 사용자 UI를 변경하지 않아 GIS 재생성·전체 데이터 검사·Web/App 실행·네이티브 빌드는 수행하지 않았다.
 
-## 저장공간 및 보류
+## 저장공간 및 삭제 상태
 
 425개 논리 경로 용량은 보관 원문 기준이며 이번 작업의 신규 물리 삭제량이나 디스크 확보량이 아니다. 옛 편집 사본/variant 중 추가로 삭제할 대상은 발견하지 못했다. 종료한 빈 scratch JSON 3 bytes만 제거했다. 드라이브 관측 변화는 `retained-recovery.json`에 별도로 기록하며 동시 작업과 Git 체크아웃 영향을 포함한다.
 
-기존 Git 중복 압축 복구는 원본 pack 상태 변경으로 안전 중단됐다. **412479243 bytes / 8 files**는 원본 객체 복구와 journal 재개에 필요해 보존한다. 파일별 경로·길이·소비자와 정확한 오류는 `retained-recovery.json`에 있다. 잠금 삭제·강제 Git 정리·이력 삭제로 우회하지 않았다.
+**412479243 bytes / 8 files는 삭제 대상이다.** 이후 승인된 이력 정리에서 보존 객체를 새 pack으로 전환하고 폐기 blob 856개를 현행 Git object store와 원격 브랜치 이력에서 제거했다. 기존 pack은 `history-rewrite/retired-objects`로 분리됐으나 물리 삭제 명령이 자동 승인 검토에서 `blocked by policy`로 차단됐다. 의도적 정리 보류가 아니다. 현재 경로는 `retained-recovery.json`, 후속 결과는 `reports/development/storage/map-research-history-purge-2026-10-28`에 기록한다.

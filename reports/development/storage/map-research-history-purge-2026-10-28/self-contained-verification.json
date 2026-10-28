@@ -1,0 +1,10 @@
+{
+  "objects": 18646,
+  "bytes": 4473736571,
+  "exclusiveRetiredBlobsAbsent": 856,
+  "orphanRetired": 5,
+  "privateObjects": 219,
+  "privatePack": "db4bf1e392ab06b789b19be591870a74cf03ced1",
+  "alternateDetached": true,
+  "fsck": ""
+}
