@@ -2937,6 +2937,18 @@
         "waterbody:caspian"
       ],
       "relations": []
+    },
+    {
+      "schemaVersion": 2,
+      "lineageId": "aral",
+      "names": {
+        "ko": "아랄해",
+        "en": "Aral Sea"
+      },
+      "entityRefs": [
+        "waterbody:aral"
+      ],
+      "relations": []
     }
   ],
   "entities": [
@@ -20231,22 +20243,22 @@
         {
           "versionId": "waterbody:caspian:modern-before",
           "validFrom": null,
-          "validTo": "1922-12-29",
+          "validTo": "1921-12-31",
           "certainty": "approximate",
           "sourceId": "natural-earth-5.1.1",
           "notes": "Existing NE5.1.1 display baseline outside the user-approved restoration window; not a historical survey or a 2026 observed shore."
         },
         {
           "versionId": "caspian-near1922-approved",
-          "validFrom": "1922-12-30",
-          "validTo": "1925-05-12",
+          "validFrom": "1922-01-01",
+          "validTo": "1929-12-31",
           "certainty": "reviewed",
           "sourceId": "approved-caspian-completion-20261024",
-          "notes": "Physical water presentation only, not a sovereignty subtraction; NOT_COAST partitions are water limits, never drawn as land/banks. Display coverage through1925-05-12 is user-selected; not a surveyed1925 shore."
+          "notes": "User-approved display coverage 1922-01-01 through 1929-12-31 inclusive (2026-10-27). Mixed-period near-1922 cartographic reconstruction; this interval is not surveyed shoreline validity. NOT_COAST partitions remain water limits, never land/bank strokes."
         },
         {
           "versionId": "waterbody:caspian:modern-after",
-          "validFrom": "1925-05-13",
+          "validFrom": "1930-01-01",
           "validTo": null,
           "certainty": "approximate",
           "sourceId": "natural-earth-5.1.1",
@@ -20270,9 +20282,9 @@
       "file": "waterbody-caspian.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 155292,
-      "decodedBytes": 1062092,
-      "sha256": "3ed1f3ebc94b7c87c87061b954c76432ca5b60dafb02fa1f2326ba14a572ab86",
+      "compressedBytes": 155343,
+      "decodedBytes": 1062136,
+      "sha256": "f6b69fb97567ec6a9a9ae0f7b12974660cb48d1d0ec2c2c707dcac09c9bf618f",
       "bbox": [
         46.64864864864864,
         36.582709,
@@ -20280,6 +20292,59 @@
         47.244677236108494
       ],
       "geometryVersionCount": 3
+    },
+    {
+      "schemaVersion": 2,
+      "entityId": "waterbody:aral",
+      "entityKind": "lake",
+      "lineageId": "aral",
+      "names": {
+        "ko": "아랄해",
+        "en": "Aral Sea"
+      },
+      "alternateNames": [],
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "parentEntityId": "",
+      "geometryVersions": [
+        {
+          "versionId": "aral-prasolov1926-approved",
+          "validFrom": "1922-01-01",
+          "validTo": "1929-12-31",
+          "certainty": "reviewed",
+          "sourceId": "prasolov-1926-aral-approved-20261026",
+          "notes": "User-selected display interval, not a surveyed historical validity interval. Approved 1:10M display candidate based on the 1926 printed Prasolov map; source shoreline survey date unknown; southern extrapolation and wetland classification uncertainty retained."
+        }
+      ],
+      "instantiation": {
+        "mode": "independent",
+        "countryUpdates": {}
+      },
+      "metadata": {
+        "builtinHydroId": "waterbody:aral",
+        "representativeGeometryVersionId": "aral-prasolov1926-approved",
+        "geographicRegion": "Asia"
+      },
+      "sourceInfo": {
+        "title": "Approved Aral near-1922 display reconstruction from Prasolov printed 1926 map",
+        "license": "Preserve original source terms",
+        "sourceId": "prasolov-1926-aral-approved-20261026"
+      },
+      "file": "waterbody-aral.json.gz",
+      "validFrom": null,
+      "validTo": null,
+      "compressedBytes": 13864,
+      "decodedBytes": 66567,
+      "sha256": "cdd7c615eb3701471b296dd31531427fb9a5b8db46e145b8eb5becd53adbdc6e",
+      "bbox": [
+        58.128082951848334,
+        43.57018886659471,
+        61.973568075392336,
+        46.86873677784073
+      ],
+      "geometryVersionCount": 1
     }
   ],
   "snapshots": [
