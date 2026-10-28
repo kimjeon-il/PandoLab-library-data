@@ -1,0 +1,20 @@
+[
+  {
+    "source": "docs/superpowers/plans/2026-10-23-ddr-remaining-vector-map.md",
+    "destination": "reports/borders/reconstruction/germany/ddr-remaining-plan-record-2026-10-23.md",
+    "originalBytes": 6997,
+    "originalSha256": "5f76c547b3b7314e090d41249c379d5fa4dc20f096998567753ea6f43e856cf2",
+    "retainedBytes": 1510,
+    "retainedSha256": "32146e4fbd44d5f1c11fdbc0ce70bd7f941da8924a5acd896fa8942978975821",
+    "action": "separate and condense historical research notes; retain engineering specification in application docs"
+  },
+  {
+    "source": "docs/superpowers/plans/2026-10-24-ussr-caspian-application.md",
+    "destination": "reports/borders/reconstruction/ussr-1922-caspian-application-2026-10-24/execution-notes.md",
+    "originalBytes": 3614,
+    "originalSha256": "0dba8779064bc4bb6777023e69a50163d19be156ad28fc4db76f67224b298dec",
+    "retainedBytes": 1487,
+    "retainedSha256": "3573b39f94f81079d82d4a9dfbd9d9d63b6cb7370f257ab48910611ea6ac3b97",
+    "action": "separate and condense historical research notes; retain engineering specification in application docs"
+  }
+]

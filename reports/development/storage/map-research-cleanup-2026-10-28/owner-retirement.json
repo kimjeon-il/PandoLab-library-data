@@ -1,0 +1,32 @@
+[
+  {
+    "owner": "main",
+    "revision": "e297409663aa4567efa67778883136e7a1d8bf1c",
+    "files": 0,
+    "removed": 425
+  },
+  {
+    "owner": "objects",
+    "revision": "e297409663aa4567efa67778883136e7a1d8bf1c",
+    "files": 0,
+    "removed": 425
+  },
+  {
+    "owner": "places",
+    "revision": "e297409663aa4567efa67778883136e7a1d8bf1c",
+    "files": 0,
+    "removed": 425
+  },
+  {
+    "owner": "ui",
+    "revision": "3296dd73586e6954ea8816a305de02f2f78d89ff",
+    "files": 0,
+    "removed": 425
+  },
+  {
+    "owner": "gis",
+    "revision": "1db0d4c8c9e136bd9ee198cd98d63f7abb05c536",
+    "files": 0,
+    "removed": 425
+  }
+]

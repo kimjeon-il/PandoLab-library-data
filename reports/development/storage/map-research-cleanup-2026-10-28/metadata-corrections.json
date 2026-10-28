@@ -1,0 +1,35 @@
+[
+  {
+    "path": "reports/borders/reconstruction/historical-border-modern-source-reuse-2026-10-22.md",
+    "previousMetadata": {
+      "stored": "reports/borders/reconstruction/historical-border-modern-source-reuse-2026-10-22.md",
+      "encoding": "identity",
+      "sha256": "35990ec619fd3c0d1861f321ffec305e22417a35bdce32590d1797b1c9b03fa4",
+      "bytes": 3890
+    },
+    "verifiedGitSha256": "68b670a005a0be15ac92508d6c2863e1c996549c1596db123460d864514d80ad",
+    "verifiedBytes": 3890
+  },
+  {
+    "path": "reports/borders/reconstruction/serbia/serbia-montenegro-1914-map-crosscheck.md",
+    "previousMetadata": {
+      "stored": "reports/borders/reconstruction/serbia/serbia-montenegro-1914-map-crosscheck.md",
+      "encoding": "identity",
+      "sha256": "d03a5fd870c58590ef3e0026b1370e58921d2904c03ed518c49c3b7a03ad7e3a",
+      "bytes": 1864
+    },
+    "verifiedGitSha256": "1d57a288024ffa28e9653f3b725b12f055715607f653bb12d9f843d6090e73c3",
+    "verifiedBytes": 1864
+  },
+  {
+    "path": "reports/borders/README.md",
+    "previousMetadata": {
+      "stored": "reports/borders/README.md",
+      "encoding": "identity",
+      "sha256": "78ecd9a1130e90797c014d92bca17a70fc396c5f632e57ddd6b7a8fe0af0397d",
+      "bytes": 11268
+    },
+    "verifiedGitSha256": "dc1f659b88880d8dabfa985c9cdb94c0d3c9eecbfdb8c369a80dde6c84157121",
+    "verifiedBytes": 11268
+  }
+]

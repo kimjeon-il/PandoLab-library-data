@@ -1,0 +1,69 @@
+{
+  "ownerEditions": [
+    {
+      "owner": "main",
+      "revision": "343818ccadd1a035e5547fa58a6a67997d8613a9",
+      "retiredAbsent": 425,
+      "condensedMatch": 10
+    },
+    {
+      "owner": "gis",
+      "revision": "05949bb51f50b15d842665394a12c5ddb9037c94",
+      "retiredAbsent": 425,
+      "condensedMatch": 10
+    },
+    {
+      "owner": "objects",
+      "revision": "03b68505afcc47b50dd3296cc0737be34ea093c4",
+      "retiredAbsent": 425,
+      "condensedMatch": 10
+    },
+    {
+      "owner": "places",
+      "revision": "c6d012d0691f6f1c808775bf16eb4fa975b9d4a1",
+      "retiredAbsent": 425,
+      "condensedMatch": 10
+    },
+    {
+      "owner": "ui",
+      "revision": "fc7ce90edfd100349695f10c9de24e8d37b98f5e",
+      "retiredAbsent": 425,
+      "condensedMatch": 10
+    }
+  ],
+  "runtimePins": [
+    {
+      "owner": "main",
+      "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a"
+    },
+    {
+      "owner": "gis",
+      "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a"
+    },
+    {
+      "owner": "objects",
+      "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a"
+    },
+    {
+      "owner": "places",
+      "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a"
+    },
+    {
+      "owner": "ui",
+      "revision": "429467eb60cbdc55a1dabb0f91270f1a3a9c046a"
+    }
+  ],
+  "tests": {
+    "passed": 16,
+    "failed": 0,
+    "scope": [
+      "library-report-publication",
+      "ussr-1922-report-native",
+      "report-paths"
+    ]
+  },
+  "review": {
+    "importantFixed": "Unindexed tracked original is explicitly removed on republish; regression witnessed RED then GREEN.",
+    "minorDeferred": "Deletion-only fixture keeps an empty directory; absent-file behavior remains covered."
+  }
+}
