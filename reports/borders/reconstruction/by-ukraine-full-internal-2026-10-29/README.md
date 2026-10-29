@@ -36,7 +36,7 @@ https://donbass.ostkraft.ru/razdel-3/administrativnaya-karta-ukrainskoj-sovetsko
 - 관련 없는 compiled273청크 바이트 동일. native 변경객체는 정확히3개. source/native 직렬화 일치.
 - 전송 SHA256 `1d4a539a4e4c7bc6eabd672fdd699df829b46af12d6bd1282f6a1a6f1171f49d`.
 - delta focused tests4통과. 전체 테스트·브라우저 표시·배포 검증은 실행하지 않았다.
-- 상세 실측/독립검토는 source-proof.json, runtime-geometry-proof.json 및 independent-runtime-review.json 참고(최종 파일 존재 확인).
+- 상세 실측/독립검토는 [source-verification.json](source-verification.json), [runtime-geometry-verification.json](runtime-geometry-verification.json) 및 [independent-runtime-review.json](independent-runtime-review.json) 참고.
 
 원격 게시 시 최신 브랜치와 충돌 재확인 필요. main 병합·배포·포터블 생성 없음. 실제 코드 함수가 현재1860e3db와 동일함을 검증했다. 원본 복구 파일은 별도 Library 보존.
 

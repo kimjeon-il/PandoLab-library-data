@@ -23,6 +23,7 @@
 
 | ID | 보고서 | 원문 수정일 | 상태 | 지도 반영 |
 | --- | --- | --- | --- | --- |
+| `GEO-REVIEW-20261029-2200` | [자동 검토 — 적용 중복 확인·검증 파일 참조 정정](borders/validation/reviews/scheduled-2026-10-29-2200/README.md) | 2026-10-29 UTC | `reviewed / report-reference-corrected` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261028-MORNING` | [국가·시대별 검토 — CSK·DDR·YUG / 시리아·골란·기존 적용 중복 확인](borders/validation/reviews/morning-2026-10-28.md) | 2026-10-28 KST / 10-27 UTC | `reviewed / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-REVIEW-20261026-2200` | [국가·시대별 자동 검토 — NZL·하와이 현행 충돌 / 쿠르스크 통제일 보류](borders/validation/reviews/scheduled-2026-10-26-2200/README.md) | 2026-10-26 UTC | `reviewed / important-holds` | `report-only / runtime-unchanged` |
 | `GEO-USSR-DNIESTER-20261025` | [소련·우크라이나1922 드네스트르 내장 수계 정렬](borders/reconstruction/ussr-dniester-hydro-alignment-2026-10-25/README.md) | 2026-10-25 | `local-delta / inferred-mouth-closure` | `work-gis-only / not-deployed` |
