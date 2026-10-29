@@ -238,3 +238,5 @@
 - [1922 소련 부하라 승인 후속 경계](borders/reconstruction/ussr-bukhara-approved-2026-10-26/README.md)
 
 - [1922 USSR–TSFSR approved modern Caucasus border reuse](borders/reconstruction/ussr-caucasus-modern-approved-2026-10-26/README.md)
+
+- [중국 접경 실제 국가 데이터 반영 · 2026-10-29](borders/reconstruction/ussr/china-frontier-application-2026-10-29/README.md)
