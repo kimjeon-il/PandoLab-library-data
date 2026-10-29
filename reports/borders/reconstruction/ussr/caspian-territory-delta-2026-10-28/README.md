@@ -1,6 +1,6 @@
 # Caspian territorial delta and paired Iranian boundary correction
 
-2026-10-28. Application base: c55fc510e109c682be3b7af91ae1316dde22e9d1. Data base: c22c85ce9fbff291f8886d8e226b9853a7b821db.
+2026-10-28. Original calculation bases (not publication parents). Application base: c55fc510e109c682be3b7af91ae1316dde22e9d1. Data base: c22c85ce9fbff291f8886d8e226b9853a7b821db.
 
 ## Applied scope
 
@@ -29,4 +29,9 @@ No renderer change, whole-world regeneration, main integration, deployment or po
 
 ## Publication state
 
-Locally verified, awaiting explicit repository-upload approval. No remote write or deployment success is claimed.
+Publication-status correction, 2026-10-29: the earlier approval-pending statement is superseded by verified repository commits, not by a new geometry validation.
+
+- Data published on work/gis at [65fbc692f47f7936a804e7af0eed546966898828](https://github.com/kimjeon-il/PandoLab-library-data/commit/65fbc692f47f7936a804e7af0eed546966898828), commit timestamp 2026-10-28 13:33:13 UTC; actual publication parent: d4c65479847d12f810f96b2162698dbc96d25ed7.
+- Application paired at [22d0b24eb5916f9597f4b0c6ae4625236a6722d9](https://github.com/kimjeon-il/Pando/commit/22d0b24eb5916f9597f4b0c6ae4625236a6722d9), commit timestamp 2026-10-28 13:33:55 UTC; actual publication parent: 69ee27763b75c7aca6ede227a21d1ccb090c0be7. Its config/library-data.json pins the data commit above.
+
+These publication parents differ from the original calculation bases recorded at the top. This correction does not reapply the geometry, revise historical ownership assumptions or claim deployment, main integration, browser validation or new test execution. Later work/gis changes remain preserved.

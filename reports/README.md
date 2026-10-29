@@ -240,3 +240,5 @@
 - [1922 USSR–TSFSR approved modern Caucasus border reuse](borders/reconstruction/ussr-caucasus-modern-approved-2026-10-26/README.md)
 
 - [중국 접경 실제 국가 데이터 반영 · 2026-10-29](borders/reconstruction/ussr/china-frontier-application-2026-10-29/README.md)
+
+- GEO-REVIEW-20261028-2200: [자동 검토 — 카스피 보고서 게시 상태 정정](borders/validation/reviews/scheduled-2026-10-28-2200/README.md) — report-only / runtime-not-changed; 이미 게시된 형상은 재적용하지 않음.
