@@ -3,7 +3,7 @@
   "schemaVersion": 2,
   "meshFormatVersion": 2,
   "algorithmVersion": 5,
-  "algorithmSourceSha256": "dd222091475843be993912db749c47b4ddf4fe89e23c3a97fe234058b2de5278",
+  "algorithmSourceSha256": "05e684d9c847b8e820e81048dec74a513ab6a3f631a70f009301adc66ff56ed3",
   "maxEdgeDegrees": 0.499,
   "inputHashes": {
     "assets/data/builtin-world/generated/v1/index.json": "cc10ec2525e76da375135e566c3714b1fac9470656428118fb9b795ed92393f6",
@@ -260,7 +260,7 @@
     "assets/data/builtin-world/generated/v1/countries/ZWE-sha256-d12354924f76c9cb9fe71621c87ba0493f87b6e57b3375ab58377a5097df9adc.json.gz": "d12354924f76c9cb9fe71621c87ba0493f87b6e57b3375ab58377a5097df9adc",
     "assets/data/territorial-entities/generated/current-world.geojson": "356a4e42d5814fe8cec2795800ce4ff9f45baab404ca22ccc4a0acb5cecf7964",
     "assets/data/physical-land/v1/geometry.json.gz": "aeb0905d1f95d387261c3c798aa7847d9c15fb3203858b10bfc5c21a94578f98",
-    "assets/data/physical-land/v1/manifest.json": "54ad5de4404c90540c9bd5365cab575e658d6e10a80c7a4cc2f034c067695c7d",
+    "assets/data/physical-land/v1/manifest.json": "b91d845422fb9d9263f7b14fdc9b6e191f85fcc18a5722158052e5f28497c89b",
     "assets/data/physical-land/v1/caspian-1922-land.json.gz": "487594cc829d8d58ebb0ab7a04eace628fe58864262e4eb4533af8245ca96ec4",
     "assets/data/physical-land/v1/caspian-1922-water.json.gz": "2a26ae5c949b780816f8e26af0a6d21accd8b1f2f8a218b86eaf998be0a2cda1",
     "assets/data/territorial-entities/generated/v2/state-ABW.json.gz": "09af35cb77877c377fda4305ce409e6765cccdc33c8e7e72bfd913cdf192de11",
@@ -569,7 +569,9 @@
     "assets/data/builtin-world/generated/v1/countries/PHL-sha256-6775b541cee0d3219e72343b37c53bd5babfd849c2a09fe3bda13956b66be476.json.gz": "6775b541cee0d3219e72343b37c53bd5babfd849c2a09fe3bda13956b66be476",
     "assets/data/builtin-world/generated/v1/countries/PLW-sha256-01d21ccdb4c2273208f73dc22861eef24530e47c4ea6014ece2761feb634b879.json.gz": "01d21ccdb4c2273208f73dc22861eef24530e47c4ea6014ece2761feb634b879",
     "assets/data/builtin-world/generated/v1/countries/SYR-sha256-3196ab0cf3aba6275816a367cd04248d566602222b1fab7799511a9899ca7499.json.gz": "3196ab0cf3aba6275816a367cd04248d566602222b1fab7799511a9899ca7499",
-    "assets/data/builtin-world/generated/v1/countries/VEN-sha256-2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351.json.gz": "2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351"
+    "assets/data/builtin-world/generated/v1/countries/VEN-sha256-2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351.json.gz": "2868613ebf1d729b5a6b652351f843950929012fedb737a5c2d4881e2174b351",
+    "assets/data/physical-land/v1/caspian-aral-1922-1929-land.json.gz": "a627e16fa56d7e9ad5ff65103bd7dfc66a6ba6edf2f22eabf4300e3b7939de4f",
+    "assets/data/physical-land/v1/aral-1922-1929-water.json.gz": "cc259cc8ddc43868994167a48ee9de3aa2df50b457c24f979d38e1611e708813"
   },
   "precisionDiscards": [],
   "meshes": {
@@ -3260,6 +3262,20 @@
       "encoding": "gzip",
       "compressedBytes": 489,
       "decodedBytes": 728
+    },
+    "1f74649b631c9837a603611ee8279c0c1e11877b1a300f7ebf949303b90044ca": {
+      "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-ce6cd3062aa8d6c8b1c0b9c28ef3277d42c7dfd9db94c1d6a868e8624876ca3b.bin.gz",
+      "sha256": "ce6cd3062aa8d6c8b1c0b9c28ef3277d42c7dfd9db94c1d6a868e8624876ca3b",
+      "encoding": "gzip",
+      "compressedBytes": 275985,
+      "decodedBytes": 543500
+    },
+    "c02f16846109e187d75663dce3f4ccb2af8102db7e27af70a21f0d3836362175": {
+      "url": "assets/data/prepared-polygons/generated/v2/polygon-mesh-sha256-dd71b4a82d0b1daae3d5ef77c1c25b869eee1d08a068db71de0965b729760802.bin.gz",
+      "sha256": "dd71b4a82d0b1daae3d5ef77c1c25b869eee1d08a068db71de0965b729760802",
+      "encoding": "gzip",
+      "compressedBytes": 19358307,
+      "decodedBytes": 43365928
     }
   }
 }
