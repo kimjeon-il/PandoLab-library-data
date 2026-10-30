@@ -3,7 +3,7 @@
   "schemaVersion": 2,
   "meshFormatVersion": 2,
   "algorithmVersion": 5,
-  "algorithmSourceSha256": "4ad9200d407157adda08bb8ffe05fdc1f50db59fcb009cc51911296a2686605b",
+  "algorithmSourceSha256": "635b76eea3c0a3d82662e18da57241b43f369359991bec28dc304d1c0ce8c452",
   "maxEdgeDegrees": 0.499,
   "inputHashes": {
     "assets/data/builtin-world/generated/v1/index.json": "b0fe754b00e32d8fefb2d4393ab11474aaefa536ac08d2fb52be3e9b7ece60bd",
